@@ -3,6 +3,8 @@ import axios from "axios";
 import { toast } from "sonner";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema } from "@/lib/schema";
 import { TOOLS } from "@/constants/testIds";
 import { MapPin } from "lucide-react";
 
@@ -29,6 +31,12 @@ export default function AreaFinder() {
 
   return (
     <div>
+      <SEO
+        title="Best Area to Stay Finder — Neighborhood recommendations"
+        description="Get a targeted neighborhood recommendation for your destination based on budget, style, transport and family. Deep coverage for Siena, Florence and Rome."
+        path="/travel-tools/area-finder"
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Travel Tools', to: '/travel-tools' }, { label: 'Best Area to Stay Finder' }])}
+      />
       <section className="border-b border-[hsl(var(--stone-border))]">
         <div className="container-editorial pt-10 pb-14">
           <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Travel Tools", to: "/travel-tools" }, { label: "Best Area to Stay Finder" }]} />

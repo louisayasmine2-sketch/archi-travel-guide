@@ -3,6 +3,8 @@ import { Wallet, Sparkles, MapPin, ListChecks, Sun, Bus } from "lucide-react";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import ToolCard from "@/components/common/ToolCard";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema } from "@/lib/schema";
 import { travelTools } from "@/data/destinations";
 
 const ICONS = {
@@ -17,6 +19,12 @@ const ICONS = {
 export default function TravelTools() {
   return (
     <div>
+      <SEO
+        title="Travel Tools — Budget calculator, itinerary generator, packing checklist and more"
+        description="Six free interactive travel planning tools from Archi: budget calculator, itinerary generator, best area to stay finder, packing checklist, best time to visit, transport guide."
+        path="/travel-tools"
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Travel Tools' }])}
+      />
       <section className="border-b border-[hsl(var(--stone-border))]">
         <div className="container-editorial pt-10 pb-16">
           <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Travel Tools" }]} />

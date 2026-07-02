@@ -52,9 +52,9 @@ export const destinations = [
 export const italyRegions = [
   { slug: 'tuscany', name: 'Tuscany', blurb: 'Countryside, wine and medieval hilltowns.', image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=75' },
   { slug: 'siena', name: 'Siena', blurb: 'The medieval heart of Tuscany.', image: 'https://images.unsplash.com/photo-1646319514161-8fba0ebc3275?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxzaWVuYSUyMGl0YWx5JTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc4MzAwNDQ4Nnww&ixlib=rb-4.1.0&q=85' },
-  { slug: 'florence', name: 'Florence', blurb: 'Renaissance capital, walkable centre.', image: 'https://images.unsplash.com/photo-1543429257-84d4b4c1dcf7?auto=format&fit=crop&w=1200&q=75', comingSoon: true },
-  { slug: 'rome', name: 'Rome', blurb: 'Ancient layers, modern life.', image: 'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&w=1200&q=75', comingSoon: true },
-  { slug: 'venice', name: 'Venice', blurb: 'Islands, canals, quiet mornings.', image: 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1200&q=75', comingSoon: true },
+  { slug: 'florence', name: 'Florence', blurb: 'Renaissance capital, walkable centre.', image: 'https://images.unsplash.com/photo-1534445867742-43195f401b6c?auto=format&fit=crop&w=1200&q=75' },
+  { slug: 'rome', name: 'Rome', blurb: 'Ancient layers, modern life.', image: 'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&w=1200&q=75' },
+  { slug: 'venice', name: 'Venice', blurb: 'Islands, canals, quiet mornings.', image: 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1200&q=75' },
 ];
 
 export const europeCountries = [

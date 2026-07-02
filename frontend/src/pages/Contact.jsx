@@ -2,6 +2,8 @@ import { useState } from "react";
 import axios from "axios";
 import { toast } from "sonner";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema } from "@/lib/schema";
 import { CONTACT } from "@/constants/testIds";
 import { Mail } from "lucide-react";
 
@@ -28,6 +30,12 @@ export default function Contact() {
 
   return (
     <div>
+      <SEO
+        title="Contact Archi Travel Guide"
+        description="Editorial questions, partnership requests, corrections. Reach the Archi Travel Guide team — we respond in 2–3 business days."
+        path="/contact"
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Contact' }])}
+      />
       <section className="border-b border-[hsl(var(--stone-border))]">
         <div className="container-editorial pt-10 pb-14">
           <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Contact" }]} />

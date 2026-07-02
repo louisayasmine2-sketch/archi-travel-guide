@@ -8,6 +8,9 @@ import ArticleCard from "@/components/common/ArticleCard";
 import ToolCard from "@/components/common/ToolCard";
 import NewsletterForm from "@/components/common/NewsletterForm";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
+import SEO from "@/components/common/SEO";
+import { websiteSchema } from "@/lib/schema";
+import { ORGANIZATION_JSONLD } from "@/lib/seo";
 import { HERO, HOME_SECTION } from "@/constants/testIds";
 
 const HERO_IMG = "https://images.unsplash.com/photo-1761995912965-8f134652fc6e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHx0dXNjYW55JTIwcm9sbGluZyUyMGhpbGxzJTIwc3VucmlzZXxlbnwwfHx8fDE3ODMwMDQ0ODZ8MA&ixlib=rb-4.1.0&q=85";
@@ -36,6 +39,13 @@ export default function Home() {
 
   return (
     <div>
+      <SEO
+        title="Archi Travel Guide — Plan smarter trips around the world"
+        titleTemplate="exact"
+        description="Independent global travel planning platform. Practical destination guides, itineraries, budget & packing tools. First editorial pillar: Italy, Tuscany, Siena."
+        path="/"
+        schema={[websiteSchema(), ORGANIZATION_JSONLD]}
+      />
       {/* HERO */}
       <section data-testid={HERO.container} className="relative overflow-hidden">
         <img

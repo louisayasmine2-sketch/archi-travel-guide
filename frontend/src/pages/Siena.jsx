@@ -3,6 +3,8 @@ import Breadcrumbs from "@/components/common/Breadcrumbs";
 import ArticleCard from "@/components/common/ArticleCard";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
 import VideoThumb from "@/components/common/VideoThumb";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema } from "@/lib/schema";
 import { articlesByRegion } from "@/data/articles";
 
 const HERO = "https://images.unsplash.com/photo-1646319514161-8fba0ebc3275?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxzaWVuYSUyMGl0YWx5JTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc4MzAwNDQ4Nnww&ixlib=rb-4.1.0&q=85";
@@ -21,6 +23,13 @@ export default function Siena() {
   const list = articlesByRegion("Siena").concat(articlesByRegion("Tuscany").filter(a => a.slug.includes('tuscany') === false)).slice(0, 6);
   return (
     <div>
+      <SEO
+        title="Siena Travel Guide — Things to do, where to stay, itineraries, family & budget"
+        description="The Archi Siena guide: what to do first, where to stay in each terzo, 1–3 day itineraries, family and budget travel, and how to arrive from Florence."
+        path="/siena"
+        image={HERO}
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Italy', to: '/italy' }, { label: 'Tuscany', to: '/tuscany' }, { label: 'Siena' }])}
+      />
       <section className="relative overflow-hidden">
         <img src={HERO} alt="Siena skyline" loading="eager" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--charcoal))]/85 via-[hsl(var(--charcoal))]/30 to-transparent" />

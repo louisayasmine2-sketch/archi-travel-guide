@@ -1,6 +1,8 @@
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import AffiliateCard from "@/components/common/AffiliateCard";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema } from "@/lib/schema";
 
 const RESOURCES = [
   { title: "Compare hotels across major booking sites", provider: "Hotels", tag: "Search", description: "Meta-search platforms let you compare prices from booking sites in one place — better than pledging loyalty to one." },
@@ -14,6 +16,12 @@ const RESOURCES = [
 export default function TravelDeals() {
   return (
     <div>
+      <SEO
+        title="Travel Deals & Resources — Curated tools for hotels, tours, eSIM, insurance"
+        description="A small, carefully-chosen shortlist of travel platforms Archi recommends for hotels, tours, eSIM, insurance, transport and gear. Clear affiliate disclosure."
+        path="/travel-deals"
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Travel Deals & Resources' }])}
+      />
       <section className="border-b border-[hsl(var(--stone-border))]">
         <div className="container-editorial pt-10 pb-14">
           <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Travel Deals & Resources" }]} />

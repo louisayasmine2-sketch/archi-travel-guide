@@ -1,0 +1,33 @@
+{
+  "summary": "P1 launch-readiness (SEO + expanded city pages) tested. Backend regression: 17/17 pytest cases still pass (100%). Frontend: All 28 tested routes render unique per-page <title> ending with '· Archi Travel Guide' (home uses brand exact), canonical to https://affittacameregliarchi.com<path>, og:title/og:description/og:url/og:image/og:type + twitter:card=summary_large_image. Article page emits og:type=article + article:published_time + 3 JSON-LDs (BreadcrumbList, Article, FAQPage). City pages /florence /rome /venice each emit 3 JSON-LDs (BreadcrumbList, TouristDestination, FAQPage) and render the full section structure (Overview 2 paragraphs, Best time 3 cards, Where to stay 4 neighborhood cards incl. Monti/Trastevere/Prati on Rome and Cannaregio/Dorsoduro/vaporetti on Venice, Transport list, Itinerary 3 cards, Budget 3 tiers, FAQ accordion, sidebar TOC + Keep exploring internal links). NotFound sets meta robots=noindex,nofollow. Italy page shows live DestinationCards linking to /florence /rome /venice with zero 'Coming' badges. sitemap.xml served 200 (all core/destination/city/tool/article/legal URLs present). robots.txt served 200 with User-agent: * Allow: / + Sitemap https://affittacameregliarchi.com/sitemap.xml (Cloudflare adds a managed content-signal preamble but our directives are intact). AdPlaceholder still shows 'Advertisement' label across home/city/article/deals pages. Zero console errors across 5+ route navigations. ONE real SEO defect discovered: public/index.html ships a static <title> and <meta name=\"description\"> which react-helmet-async does NOT remove — every page therefore has TWO <title> elements and TWO <meta name=description> elements in <head> (Helmet's page-specific tag is second; static site-default tag is first). Search engines pick inconsistently and this is a valid SEO smell that should be fixed before launch.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [
+      {"flow": "SEO metadata (all pages)", "issue": "public/index.html has a static <title> and <meta name=\"description\">. react-helmet-async APPENDS Helmet-managed tags but does NOT strip the pre-existing static ones, resulting in duplicate <title> and duplicate <meta name=description> in <head> on every route. Verified via document.querySelectorAll: descCount=2, titleCount=2 on /florence, /rome, /venice, /blog/best-things-to-do-in-siena, /404. Google/crawlers may pick the generic static description over the page-specific one. Fix: remove the static <title> and static <meta name=description> from /app/frontend/public/index.html and rely on <SEO> per route (Helmet still injects a fallback at App-level if desired).", "affected_selectors": ["head > title", "head > meta[name=description]"]}
+    ],
+    "design_issues": []
+  },
+  "test_report_links": [
+    "/app/backend/tests/backend_test.py",
+    "/app/test_reports/pytest/pytest_results.xml"
+  ],
+  "action_items": [
+    "P1: Remove the hardcoded <title> and <meta name=\"description\"> from /app/frontend/public/index.html so react-helmet-async is the single source of truth (fixes duplicate title/description in head on every page).",
+    "P3 (nice-to-have): NotFound canonical currently resolves to https://affittacameregliarchi.com/404 regardless of the URL entered. Acceptable, but consider adding it explicitly to sitemap exclusion (already implicit)."
+  ],
+  "critical_code_review_comments": [
+    "SEO.jsx correctly guards SSR with typeof window !== 'undefined' — good.",
+    "schema.js placeSchema omits containedInPlace when region falsy — good; JSON-LD parses valid.",
+    "sitemap.xml is a static file — remember to add new blog posts/city pages manually or add a build step.",
+    "cities.js data file is well-structured but hardcoded FAQ text lives alongside content — fine for MVP; consider CMS later.",
+    "Still carried over from iteration 1: server.py deprecated on_event('shutdown'), open CORS, no rate limit on newsletter/contact."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "100%", "frontend": "96%"},
+  "seed_data_creation": "None new. Backend tests still create idempotent test_ prefixed newsletter + contact records.",
+  "retest_needed": false,
+  "should_main_agent_self_test": true,
+  "context_for_next_testing_agent": "Backend suite unchanged from iteration_1 and green. The ONE outstanding P1 issue is duplicate <title> and <meta description> per page caused by static tags in public/index.html not being removed by react-helmet-async. All JSON-LD schemas (BreadcrumbList/Article/FAQPage on articles, BreadcrumbList/TouristDestination/FAQPage on cities) render correctly. og:type=article and article:published_time only on article routes. 404 emits noindex,nofollow correctly. sitemap.xml and robots.txt both 200 with correct content (Cloudflare prepends managed content-signal to robots.txt — expected).",
+  "rca of the issue": "Duplicate <title>/<meta description> RCA: react-helmet-async only manages nodes it renders (it tags them with data-rh). Static tags placed directly in public/index.html by the developer remain in <head> after React mounts. Helmet does NOT dedupe or remove them. Fix: delete lines 'title' and 'meta name=description' from public/index.html. Optionally add a top-level <Helmet> in index.js/App.js with default title+description so pre-hydration HTML still has something. Verified reproduction: page.evaluate on /florence returns 2 <title> and 2 meta[name=description] in DOM."
+}

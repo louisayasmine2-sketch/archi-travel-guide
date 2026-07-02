@@ -1,9 +1,17 @@
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import NewsletterForm from "@/components/common/NewsletterForm";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema } from "@/lib/schema";
 
 export default function About() {
   return (
     <div>
+      <SEO
+        title="About Archi Travel Guide"
+        description="Archi Travel Guide is a new, independent editorial travel platform. Learn how we work, why we started in Italy, and what Archi is and isn't."
+        path="/about"
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'About' }])}
+      />
       <section className="border-b border-[hsl(var(--stone-border))]">
         <div className="container-editorial pt-10 pb-14">
           <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "About" }]} />

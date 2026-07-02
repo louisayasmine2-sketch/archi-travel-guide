@@ -3,6 +3,8 @@ import axios from "axios";
 import { toast } from "sonner";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema } from "@/lib/schema";
 import { TOOLS } from "@/constants/testIds";
 import { Sun } from "lucide-react";
 
@@ -29,6 +31,12 @@ export default function BestTimeToVisit() {
 
   return (
     <div>
+      <SEO
+        title="Best Time to Visit — Month-by-month recommendations"
+        description="Pick the right month for your destination — optimised for weather, low crowds, low prices or festivals. Honest, opinionated advice."
+        path="/travel-tools/best-time-to-visit"
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Travel Tools', to: '/travel-tools' }, { label: 'Best Time to Visit' }])}
+      />
       <section className="border-b border-[hsl(var(--stone-border))]">
         <div className="container-editorial pt-10 pb-14">
           <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Travel Tools", to: "/travel-tools" }, { label: "Best Time to Visit" }]} />

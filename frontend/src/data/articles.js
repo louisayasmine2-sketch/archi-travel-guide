@@ -40,7 +40,7 @@ export const articles = [
     'Where to Stay in Siena: Best Areas Compared',
     'Where to stay', 'Siena',
     'The three terzi of Siena compared honestly — noise levels, walking times, and who each area actually suits.',
-    'https://images.unsplash.com/photo-1568650834015-6ff1c2cd6e7b?auto=format&fit=crop&w=1600&q=75',
+    'https://images.unsplash.com/photo-1478476868527-002ae3f3e159?auto=format&fit=crop&w=1600&q=75',
     [
       { id: 'overview', heading: 'How Siena is organised', body: 'Siena divides into three historic terzi (thirds): Città, San Martino and Camollia. All three sit inside the medieval walls and are walkable to Piazza del Campo. The differences show up in atmosphere, price and noise.' },
       { id: 'terzo-citta', heading: 'Terzo di Città — quietest, most elegant', body: 'The southern third around the Duomo. Best for couples and families who want quiet nights, elegant architecture and short walks to the main museums. Expect a small premium on hotel prices.' },
@@ -58,7 +58,7 @@ export const articles = [
     'Siena 2-Day Itinerary',
     'Itineraries', 'Siena',
     'A well-paced two-day plan for Siena that mixes big sights, quiet corners and a proper aperitivo.',
-    'https://images.unsplash.com/photo-1515861909916-15b118e2f92f?auto=format&fit=crop&w=1600&q=75',
+    'https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?auto=format&fit=crop&w=1600&q=75',
     [
       { id: 'day-1', heading: 'Day 1 — The Campo and the Duomo', body: 'Morning: coffee on Piazza del Campo, then climb Torre del Mangia (first slot).\n\nMid-morning: Duomo complex — Cathedral, Piccolomini Library, Baptistery.\n\nLunch: casual trattoria in Via del Porrione.\n\nAfternoon: Museo dell’Opera, then Panorama dal Facciatone.\n\nEvening: aperitivo in Terzo di Città, dinner near Via Stalloreggi.' },
       { id: 'day-2', heading: 'Day 2 — Contrada walk and Fontebranda', body: 'Morning: walk the Onda or Selva contrada, visit their small museum if open.\n\nLate morning: descend to Fontebranda (medieval fountain) and Santa Caterina’s house.\n\nLunch: enoteca lunch with two glasses of Chianti Classico.\n\nAfternoon: Pinacoteca Nazionale (skippable if art-fatigued) or slow shopping on Via di Città.\n\nEvening: passeggiata on the Campo, then dinner in Terzo di Camollia.' },

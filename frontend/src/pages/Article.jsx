@@ -5,6 +5,9 @@ import FAQAccordion from "@/components/common/FAQAccordion";
 import ArticleCard from "@/components/common/ArticleCard";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
 import LazyImage from "@/components/common/LazyImage";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema, articleSchema, faqSchema } from "@/lib/schema";
+import { canonical } from "@/lib/seo";
 import { getArticle, articles } from "@/data/articles";
 import NotFound from "./NotFound";
 
@@ -15,15 +18,43 @@ export default function Article() {
 
   const related = articles.filter((a) => a.slug !== slug && (a.region === article.region || a.category === article.category)).slice(0, 3);
 
+  const path = `/blog/${article.slug}`;
+  const url = canonical(path);
+  const regionTo = article.region === 'Siena' ? '/siena' : article.region === 'Tuscany' ? '/tuscany' : article.region === 'Italy' ? '/italy' : '/blog';
+  const crumbs = [
+    { label: "Home", to: "/" },
+    { label: "Blog", to: "/blog" },
+    { label: article.region, to: regionTo },
+    { label: article.title },
+  ];
+  const schemas = [
+    breadcrumbSchema(crumbs),
+    articleSchema({
+      title: article.title,
+      description: article.excerpt,
+      image: article.image,
+      url,
+      published: article.updated,
+      modified: article.updated,
+      author: article.author,
+      category: article.category,
+    }),
+    ...(article.faqs?.length ? [faqSchema(article.faqs)] : []),
+  ];
+
   return (
     <article>
+      <SEO
+        title={article.title}
+        description={article.excerpt}
+        path={path}
+        image={article.image}
+        type="article"
+        articleMeta={{ published: article.updated, modified: article.updated, section: article.category, tags: [article.region, article.category] }}
+        schema={schemas}
+      />
       <div className="container-editorial pt-8">
-        <Breadcrumbs items={[
-          { label: "Home", to: "/" },
-          { label: "Blog", to: "/blog" },
-          { label: article.region, to: article.region === 'Siena' ? '/siena' : article.region === 'Tuscany' ? '/tuscany' : article.region === 'Italy' ? '/italy' : '/blog' },
-          { label: article.title },
-        ]} />
+        <Breadcrumbs items={crumbs} />
       </div>
 
       <header className="container-editorial pt-8 pb-4 max-w-4xl">

@@ -3,6 +3,8 @@ import Breadcrumbs from "@/components/common/Breadcrumbs";
 import DestinationCard from "@/components/common/DestinationCard";
 import ArticleCard from "@/components/common/ArticleCard";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema } from "@/lib/schema";
 import { italyRegions } from "@/data/destinations";
 import { articlesByRegion, articles } from "@/data/articles";
 
@@ -13,6 +15,13 @@ export default function Italy() {
 
   return (
     <div>
+      <SEO
+        title="Italy Travel Guide — Tuscany, Siena, Florence, Rome, Venice"
+        description="A practical Italy travel guide from Archi. Deep editorial coverage of Tuscany and Siena, plus full destination guides for Florence, Rome and Venice."
+        path="/italy"
+        image={HERO}
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Destinations', to: '/destinations' }, { label: 'Italy' }])}
+      />
       <section className="relative overflow-hidden">
         <img src={HERO} alt="Italy" loading="eager" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--charcoal))]/80 via-[hsl(var(--charcoal))]/25 to-transparent" />
@@ -36,8 +45,8 @@ export default function Italy() {
               <p className="overline">Regions & cities</p>
               <h2 className="font-serif text-4xl mt-3">Where to start in Italy</h2>
               <p className="mt-4 text-[hsl(var(--charcoal-soft))] leading-relaxed">
-                Our current depth covers Tuscany and Siena in editorial detail. Florence, Rome and Venice
-                have starter guides that we expand seasonally.
+                Our deepest coverage is Tuscany and Siena. Florence, Rome and Venice have full destination guides with
+                overviews, where-to-stay, transport, itinerary ideas and budget breakdowns — expanded seasonally.
               </p>
               <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
                 {italyRegions.map((r) => (

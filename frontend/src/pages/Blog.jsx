@@ -2,6 +2,8 @@ import { useMemo, useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import ArticleCard from "@/components/common/ArticleCard";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema } from "@/lib/schema";
 import { articles } from "@/data/articles";
 import { Search } from "lucide-react";
 
@@ -28,6 +30,12 @@ export default function Blog() {
 
   return (
     <div>
+      <SEO
+        title="Blog — Every Archi Travel Guide, one shelf"
+        description="All Archi Travel Guide articles: itineraries, planning frameworks, budget guides, food guides, transport tips. Filter by destination or search a term."
+        path="/blog"
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Blog' }])}
+      />
       <section className="border-b border-[hsl(var(--stone-border))]">
         <div className="container-editorial pt-10 pb-14">
           <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Blog" }]} />

@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema } from "@/lib/schema";
 import { asiaCountries } from "@/data/destinations";
 
 const HERO = "https://images.unsplash.com/photo-1493780474015-ba834fd0ce2f?auto=format&fit=crop&w=2000&q=75";
@@ -8,6 +10,13 @@ const HERO = "https://images.unsplash.com/photo-1493780474015-ba834fd0ce2f?auto=
 export default function Asia() {
   return (
     <div>
+      <SEO
+        title="Asia Travel Guide — Editorial roadmap, tools ready today"
+        description="Archi's Asia travel guide roadmap. Queued country guides for Indonesia, Thailand, Japan and Singapore. Our travel tools already support Asia presets."
+        path="/asia"
+        image={HERO}
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Destinations', to: '/destinations' }, { label: 'Asia' }])}
+      />
       <section className="relative overflow-hidden">
         <img src={HERO} alt="Asia" loading="eager" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--charcoal))]/80 via-[hsl(var(--charcoal))]/25 to-transparent" />

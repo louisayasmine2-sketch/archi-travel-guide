@@ -3,6 +3,8 @@ import axios from "axios";
 import { toast } from "sonner";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema } from "@/lib/schema";
 import { TOOLS } from "@/constants/testIds";
 import { Sparkles } from "lucide-react";
 
@@ -29,6 +31,12 @@ export default function ItineraryGenerator() {
 
   return (
     <div>
+      <SEO
+        title="Itinerary Generator — Day-by-day travel plans"
+        description="Generate a day-by-day travel itinerary tuned to your destination, style, party and pace. Built-in presets for Italy, Tuscany, Siena and a smart global default."
+        path="/travel-tools/itinerary-generator"
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Travel Tools', to: '/travel-tools' }, { label: 'Itinerary Generator' }])}
+      />
       <section className="border-b border-[hsl(var(--stone-border))]">
         <div className="container-editorial pt-10 pb-14">
           <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Travel Tools", to: "/travel-tools" }, { label: "Itinerary Generator" }]} />

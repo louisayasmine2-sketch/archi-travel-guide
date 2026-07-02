@@ -2,6 +2,8 @@ import { useMemo, useState } from "react";
 import { destinations } from "@/data/destinations";
 import DestinationCard from "@/components/common/DestinationCard";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema } from "@/lib/schema";
 import { Search } from "lucide-react";
 
 export default function Destinations() {
@@ -21,6 +23,12 @@ export default function Destinations() {
 
   return (
     <div>
+      <SEO
+        title="Destinations"
+        description="All Archi Travel Guide destinations — Italy, Tuscany, Siena, Europe and Asia. Deep editorial coverage of the places we know best."
+        path="/destinations"
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Destinations' }])}
+      />
       <section className="border-b border-[hsl(var(--stone-border))]">
         <div className="container-editorial pt-10 pb-14">
           <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Destinations" }]} />

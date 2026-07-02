@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema } from "@/lib/schema";
 import { Bus, Plane, Train } from "lucide-react";
 
 const guides = [
@@ -15,6 +17,12 @@ const guides = [
 export default function TransportGuide() {
   return (
     <div>
+      <SEO
+        title="Airport & Transport Guide — Trains, buses, transfers"
+        description="How to move between Italian airports, cities and hilltowns. Honest advice on when to take the train, the bus, or a private transfer."
+        path="/travel-tools/transport-guide"
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Travel Tools', to: '/travel-tools' }, { label: 'Airport & Transport Guide' }])}
+      />
       <section className="border-b border-[hsl(var(--stone-border))]">
         <div className="container-editorial pt-10 pb-14">
           <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Travel Tools", to: "/travel-tools" }, { label: "Airport & Transport Guide" }]} />

@@ -48,6 +48,26 @@ labeled ads. Must include travel tools, article template, trust/legal pages.
   - POST /api/tools/packing-checklist
   - POST /api/tools/best-time
 - Design system: Cormorant Garamond + Manrope fonts, terracotta/ivory/olive
+
+## v1.1 — SEO & launch-readiness (2025-11-11)
+- Added `<SEO>` component (react-helmet-async) — every page emits unique title,
+  meta description, canonical, Open Graph, Twitter card, robots directives.
+- JSON-LD schema helpers (`/app/frontend/src/lib/schema.js`) — Article,
+  FAQPage, BreadcrumbList, TouristDestination, WebSite, Organization.
+- `SITE_URL` configured via `REACT_APP_SITE_URL` env with fallback to
+  `https://affittacameregliarchi.com`.
+- `public/sitemap.xml` — 42 URLs (core, destinations, cities, tools, articles,
+  legal). `public/robots.txt` — allows crawlers, disallows /api, references
+  sitemap.
+- Expanded Florence, Rome, Venice from placeholders into full editorial
+  destination landing pages (overview, best time to visit, where to stay,
+  transport, itinerary ideas, budget, FAQ, internal links).
+- Reusable `pages/City.jsx` template drives all three city pages with schema.
+- Rich internal linking: every city page links to Tuscany/Italy, Travel Tools,
+  and related blog articles.
+- `memory/HANDOFF.md` — deferred integration notes (Resend, AdSense).
+- Broken Unsplash image IDs replaced.
+
   palette, editorial spacing, grain texture, subtle motion.
 
 ## P0/P1/P2 backlog

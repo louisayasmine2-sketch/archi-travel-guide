@@ -14,6 +14,7 @@ import TravelTools from "@/pages/TravelTools";
 import TravelDeals from "@/pages/TravelDeals";
 import Blog from "@/pages/Blog";
 import Article from "@/pages/Article";
+import City from "@/pages/City";
 import About from "@/pages/About";
 import Contact from "@/pages/Contact";
 import Legal from "@/pages/Legal";
@@ -36,6 +37,9 @@ function App() {
             <Route path="/italy" element={<Italy />} />
             <Route path="/tuscany" element={<Tuscany />} />
             <Route path="/siena" element={<Siena />} />
+            <Route path="/florence" element={<City slug="florence" />} />
+            <Route path="/rome" element={<City slug="rome" />} />
+            <Route path="/venice" element={<City slug="venice" />} />
             <Route path="/europe" element={<Europe />} />
             <Route path="/asia" element={<Asia />} />
             <Route path="/travel-tools" element={<TravelTools />} />

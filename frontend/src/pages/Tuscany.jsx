@@ -4,6 +4,8 @@ import ArticleCard from "@/components/common/ArticleCard";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
 import LazyImage from "@/components/common/LazyImage";
 import { articlesByRegion, articles } from "@/data/articles";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema } from "@/lib/schema";
 
 const HERO = "https://images.unsplash.com/photo-1503152394-c571994fd383?auto=format&fit=crop&w=2000&q=75";
 
@@ -19,6 +21,13 @@ export default function Tuscany() {
   const tuscanyArticles = articlesByRegion("Tuscany").concat(articlesByRegion("Siena")).slice(0, 6);
   return (
     <div>
+      <SEO
+        title="Tuscany Travel Guide — Itineraries, food, transport, best time to visit"
+        description="Practical Tuscany travel guide from Archi: hilltowns, vineyards, itineraries, food, transport and the best time to visit. Deep coverage starts with Siena."
+        path="/tuscany"
+        image={HERO}
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Italy', to: '/italy' }, { label: 'Tuscany' }])}
+      />
       <section className="relative overflow-hidden">
         <img src={HERO} alt="Tuscany cypress road" loading="eager" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--charcoal))]/80 via-[hsl(var(--charcoal))]/25 to-transparent" />

@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import ArticleCard from "@/components/common/ArticleCard";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema } from "@/lib/schema";
 import { europeCountries } from "@/data/destinations";
 import { articles } from "@/data/articles";
 
@@ -11,6 +13,13 @@ export default function Europe() {
   const list = articles.filter((a) => a.region === "Europe" || a.region === "Global").slice(0, 3);
   return (
     <div>
+      <SEO
+        title="Europe Travel Guide — Planning frameworks, countries in progress"
+        description="Archi's Europe travel guide. Editorial roadmap (France, Spain, Switzerland, Greece, Germany) plus general Europe planning frameworks you can use today."
+        path="/europe"
+        image={HERO}
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Destinations', to: '/destinations' }, { label: 'Europe' }])}
+      />
       <section className="relative overflow-hidden">
         <img src={HERO} alt="Europe" loading="eager" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--charcoal))]/80 via-[hsl(var(--charcoal))]/25 to-transparent" />

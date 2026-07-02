@@ -3,6 +3,8 @@ import axios from "axios";
 import { toast } from "sonner";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema } from "@/lib/schema";
 import { TOOLS } from "@/constants/testIds";
 import { ListChecks, Check } from "lucide-react";
 
@@ -33,6 +35,12 @@ export default function PackingChecklist() {
 
   return (
     <div>
+      <SEO
+        title="Packing Checklist — Season-aware, printable"
+        description="Generate a smart packing checklist grouped by category and adjusted for your season and trip length. Tick as you pack."
+        path="/travel-tools/packing-checklist"
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Travel Tools', to: '/travel-tools' }, { label: 'Packing Checklist' }])}
+      />
       <section className="border-b border-[hsl(var(--stone-border))]">
         <div className="container-editorial pt-10 pb-14">
           <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Travel Tools", to: "/travel-tools" }, { label: "Packing Checklist" }]} />

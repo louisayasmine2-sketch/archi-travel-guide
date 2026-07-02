@@ -1,4 +1,6 @@
 import Breadcrumbs from "@/components/common/Breadcrumbs";
+import SEO from "@/components/common/SEO";
+import { breadcrumbSchema } from "@/lib/schema";
 
 const DOCS = {
   privacy: {
@@ -62,8 +64,19 @@ const DOCS = {
 
 export default function Legal({ doc }) {
   const d = DOCS[doc];
+  const path = doc === 'privacy' ? '/privacy-policy'
+    : doc === 'cookie' ? '/cookie-policy'
+    : doc === 'terms' ? '/terms-of-use'
+    : doc === 'affiliate' ? '/affiliate-disclosure'
+    : '/editorial-policy';
   return (
     <div>
+      <SEO
+        title={d.title}
+        description={d.intro}
+        path={path}
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: d.title }])}
+      />
       <section className="border-b border-[hsl(var(--stone-border))]">
         <div className="container-editorial pt-10 pb-14">
           <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: d.title }]} />

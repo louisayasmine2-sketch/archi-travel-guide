@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Disallow generated preview pathways
+Disallow: /api/
+
+Sitemap: https://affittacameregliarchi.com/sitemap.xml
