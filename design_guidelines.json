@@ -1,0 +1,120 @@
+{
+  "theme": "light",
+  "archetype": "Archetype 1 (Organic & Earthy)",
+  "rationale": "Archi Travel Guide requires a high-trust, premium editorial feel. The 'Organic & Earthy' archetype in a light theme provides the warmth of Italian heritage using ivory, terracotta, and olive, while avoiding cold tech aesthetics. This builds a trustworthy, practical, and inviting atmosphere for travelers.",
+  "colors": {
+    "background": {
+      "primary": "#FDFBF7",
+      "secondary": "#F4F1EB",
+      "tertiary": "#EBE7E0"
+    },
+    "text": {
+      "primary": "#2C2C2A",
+      "secondary": "#575754",
+      "inverse": "#FDFBF7"
+    },
+    "brand": {
+      "primary": "#C86B53",
+      "primary_hover": "#A85540",
+      "secondary": "#6B705C",
+      "accent": "#D4A373"
+    },
+    "border": {
+      "default": "#E2DFD8",
+      "subtle": "#EBE7E0"
+    },
+    "status": {
+      "advertisement": "#D1D5DB",
+      "success": "#6B705C",
+      "error": "#B0413E"
+    }
+  },
+  "typography": {
+    "fonts": {
+      "heading": "Cormorant Garamond, serif",
+      "body": "Manrope, sans-serif",
+      "accent": "Outfit, sans-serif"
+    },
+    "hierarchy": {
+      "h1": "text-5xl sm:text-6xl tracking-tighter leading-none font-medium",
+      "h2": "text-3xl sm:text-4xl tracking-tight leading-tight font-medium",
+      "h3": "text-2xl sm:text-3xl tracking-tight leading-snug",
+      "h4": "text-xl font-medium leading-snug",
+      "body_large": "text-lg leading-relaxed text-secondary",
+      "body": "text-base leading-relaxed text-primary",
+      "overline": "text-xs tracking-[0.2em] uppercase font-semibold text-secondary"
+    },
+    "notes": "Headings must use Cormorant Garamond for a premium magazine aesthetic. Body text uses Manrope for extreme legibility in long-form editorial content. Avoid Inter or Roboto entirely."
+  },
+  "spacing_and_layout": {
+    "philosophy": "Generous Spacing Philosophy. Use 2-3x more spacing than typical web apps to let editorial content breathe.",
+    "container": "max-w-7xl mx-auto px-6 lg:px-12",
+    "section_padding": "py-20 lg:py-32",
+    "grids": {
+      "editorial_index": "grid grid-cols-1 lg:grid-cols-12 gap-12",
+      "bento_tools": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6",
+      "destination_cards": "grid grid-cols-1 md:grid-cols-2 gap-8"
+    }
+  },
+  "components": {
+    "header": {
+      "style": "Crystal Glassmorphism over hero, Solid Ivory elsewhere",
+      "classes": "sticky top-0 z-50 backdrop-blur-xl bg-[#FDFBF7]/80 border-b border-[#E2DFD8]/50"
+    },
+    "destination_card": {
+      "style": "Large editorial focus, image-heavy with gradient overlays",
+      "classes": "group relative overflow-hidden rounded-2xl bg-secondary",
+      "image_treatment": "max-h-[60vh] object-cover transition-transform duration-700 group-hover:scale-105",
+      "overlay": "absolute inset-0 bg-gradient-to-t from-[#2C2C2A]/80 via-transparent to-transparent"
+    },
+    "travel_tool_card": {
+      "style": "Tactile Bento Grid",
+      "classes": "rounded-2xl border border-[#E2DFD8] bg-[#FDFBF7] p-8 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
+    },
+    "article_layout": {
+      "style": "Archival Index Aesthetic",
+      "sidebar": "lg:col-span-3 sticky top-32",
+      "content": "lg:col-span-6 prose prose-stone prose-lg max-w-none prose-headings:font-serif prose-headings:font-medium",
+      "meta": "lg:col-span-3"
+    },
+    "advertisement_label": {
+      "classes": "text-[10px] uppercase tracking-[0.15em] text-[#575754] border-b border-[#E2DFD8] pb-1 mb-4 block"
+    }
+  },
+  "interactive_elements": {
+    "buttons": {
+      "primary": "inline-flex items-center justify-center px-6 py-3 rounded-full bg-[#C86B53] text-[#FDFBF7] font-medium transition-colors hover:bg-[#A85540] data-testid='btn-primary'",
+      "secondary": "inline-flex items-center justify-center px-6 py-3 rounded-full border-2 border-[#2C2C2A] text-[#2C2C2A] font-medium transition-colors hover:bg-[#2C2C2A] hover:text-[#FDFBF7] data-testid='btn-secondary'",
+      "link": "inline-flex items-center text-[#C86B53] font-medium hover:text-[#A85540] underline-offset-4 hover:underline data-testid='btn-link'"
+    },
+    "inputs": {
+      "classes": "w-full rounded-xl border border-[#E2DFD8] bg-[#FDFBF7] px-4 py-3 text-base focus:border-[#C86B53] focus:outline-none focus:ring-1 focus:ring-[#C86B53]"
+    }
+  },
+  "motion": {
+    "transitions": "transition-all duration-300 ease-out",
+    "hover_effects": "Subtle lifts (-translate-y-1) for tools, slow scale (duration-700) for destination images."
+  },
+  "media_urls": {
+    "hero_background": {
+      "url": "https://images.unsplash.com/photo-1761995912965-8f134652fc6e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHx0dXNjYW55JTIwcm9sbGluZyUyMGhpbGxzJTIwc3VucmlzZXxlbnwwfHx8fDE3ODMwMDQ0ODZ8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Curving road through rolling hills at sunset in Tuscany. Ideal for the main homepage hero."
+    },
+    "destination_siena": {
+      "url": "https://images.unsplash.com/photo-1646319514161-8fba0ebc3275?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxzaWVuYSUyMGl0YWx5JTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc4MzAwNDQ4Nnww&ixlib=rb-4.1.0&q=85",
+      "description": "Tall clock tower architecture in Siena. Use for the Siena destination card."
+    },
+    "travel_tools_flatlay": {
+      "url": "https://images.unsplash.com/photo-1619467416348-6a782839e95f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwyfHx0cmF2ZWwlMjBmbGF0bGF5JTIwcGxhbm5pbmclMjBtYXB8ZW58MHx8fHwxNzgzMDA0NDg2fDA&ixlib=rb-4.1.0&q=85",
+      "description": "Passport and sunglasses on a world map. Perfect for the Travel Tools section or featured article header."
+    }
+  },
+  "instructions_to_main_agent": [
+    "Strictly follow the color palette provided. Do not invent generic tech blues, purples, or teals.",
+    "Apply `data-testid` attributes to all interactive elements, navigation links, and buttons.",
+    "Ensure 'Advertisement' regions are clearly labeled using the specified `advertisement_label` classes.",
+    "Do NOT use 'Inter' or 'Roboto'. Set up 'Cormorant Garamond' for headings and 'Manrope' for body copy via Google Fonts or similar.",
+    "Use Shadcn UI for complex interactive tools (e.g., Select, Dialog) but strip Vercel-like styling and apply the 'Tactile Bento' styling.",
+    "Hero overlays must be gradients (e.g., `bg-gradient-to-t from-black/60 to-transparent`) at the bottom for text contrast, NOT flat 50% opacity blankets over the entire image."
+  ]
+}
