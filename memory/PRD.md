@@ -49,6 +49,16 @@ labeled ads. Must include travel tools, article template, trust/legal pages.
   - POST /api/tools/best-time
 - Design system: Cormorant Garamond + Manrope fonts, terracotta/ivory/olive
 
+## v1.2 — Final launch-readiness polish (2025-11-11)
+- `REACT_APP_SITE_URL` documented and used everywhere (canonical, OG, sitemap, JSON-LD).
+- Safe fallback in `src/lib/seo.js` — the production canonical domain is used when the env var is missing (never `localhost`).
+- `frontend/.env.example` and `backend/.env.example` shipped with clear inline docs; Resend vars scaffolded (commented-out) for later.
+- `frontend/scripts/generate-sitemap.js` reads slugs + `updated` from `data/articles.js` and emits `public/sitemap.xml` (26 static + 18 article URLs = 44). Wired into `yarn build` and available as `yarn sitemap`.
+- `robots.txt` cleaned up: `User-agent: * / Allow: / / Disallow: /api/ / Sitemap: …`.
+- Public contact email migrated everywhere to **contact@affittacameregliarchi.com** (Footer, Contact page, Privacy Policy, Editorial Policy).
+- Full launch documentation: `README.md`, `DEPLOYMENT.md`, `SEO_CHECKLIST.md`, `MONETIZATION_CHECKLIST.md`, `HANDOFF.md` at repo root.
+- No new features. No France. No AdSense wired. No Resend wired.
+
 ## v1.1 — SEO & launch-readiness (2025-11-11)
 - Added `<SEO>` component (react-helmet-async) — every page emits unique title,
   meta description, canonical, Open Graph, Twitter card, robots directives.
