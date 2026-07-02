@@ -8,8 +8,8 @@
  * Usage:
  *   REACT_APP_SITE_URL=https://affittacameregliarchi.com node scripts/generate-sitemap.js
  *
- * If REACT_APP_SITE_URL is not set the script falls back to the production
- * canonical domain used by the app (kept in sync with src/lib/seo.js).
+ * If REACT_APP_SITE_URL is not set the script falls back to localhost,
+ * matching the app's safe local behavior in src/lib/seo.js.
  *
  * The script is intentionally dependency-free (no build step required).
  * We import the ES module data files via a tiny Node --experimental-vm-modules
@@ -22,7 +22,12 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-const SITE_URL = (process.env.REACT_APP_SITE_URL || 'https://affittacameregliarchi.com').replace(/\/$/, '');
+const SITE_URL = (
+  process.env.REACT_APP_SITE_URL ||
+  process.env.VITE_SITE_URL ||
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  'http://localhost:3000'
+).replace(/\/$/, '');
 
 // --- Static route table ---------------------------------------------------
 const staticRoutes = [

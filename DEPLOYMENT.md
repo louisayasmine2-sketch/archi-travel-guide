@@ -21,9 +21,7 @@ Set it in the deployment platform's frontend build environment. It's read by
 - The `<loc>` values in `public/sitemap.xml` (via `yarn sitemap`)
 - Any absolute URL rendered in shared pages
 
-If the variable is missing at build time, the app safely falls back to the same
-production origin — so no page will ever emit `localhost` URLs. Fallback lives
-in one place: `src/lib/seo.js`.
+If the variable is missing at build time, local development falls back to the browser origin or `http://localhost:3000`. Production deploys must set `REACT_APP_SITE_URL` so generated metadata and `public/sitemap.xml` use `https://affittacameregliarchi.com`. Fallback lives in one place: `src/lib/seo.js`.
 
 ## 2. Regenerate the sitemap
 
@@ -60,7 +58,8 @@ CORS_ORIGINS=https://affittacameregliarchi.com,https://www.affittacameregliarchi
 
 ```
 yarn install
-yarn build       # produces /build with sitemap + hashed assets
+REACT_APP_SITE_URL=https://affittacameregliarchi.com yarn build
+                 # produces /build with sitemap + hashed assets
 ```
 
 Serve the `build/` folder from any static host. Configure the host to:

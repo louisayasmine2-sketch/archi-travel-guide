@@ -70,16 +70,15 @@ cp backend/.env.example  backend/.env
 | `CORS_ORIGINS`          | backend   | Comma-separated allowed origins for CORS. Restrict at launch.           |
 | `RESEND_*` (commented)  | backend   | Reserved for future contact-form email delivery. See `HANDOFF.md`.      |
 
-If `REACT_APP_SITE_URL` is not set, the app safely falls back to
-`https://affittacameregliarchi.com` (see `frontend/src/lib/seo.js`) — so no
-canonical URL will ever leak `localhost`.
+If `REACT_APP_SITE_URL` is not set, the app uses the current browser origin and falls back to `http://localhost:3000` for non-browser scripts/tests. Set `REACT_APP_SITE_URL=https://affittacameregliarchi.com` in production so canonical URLs, OG URLs, JSON-LD and sitemap URLs use the live domain.
 
 ## Frontend commands
 
 ```bash
 yarn start          # dev server
 yarn sitemap        # regenerate public/sitemap.xml from articles/destinations
-yarn build          # runs `yarn sitemap` then `craco build`
+REACT_APP_SITE_URL=https://affittacameregliarchi.com yarn build
+                    # runs `yarn sitemap` then `craco build`
 ```
 
 ## Backend commands

@@ -56,8 +56,7 @@ placement rules are in place, the compliance safeguards are in place.
 
 1. Sign up with your partners (booking meta-search, tours, eSIM, insurance,
    rail, gear).
-2. Replace the `href="#"` placeholders in `src/pages/TravelDeals.jsx` with
-   the real tracking URLs.
+2. Add real `href` values to the resource objects in `src/pages/TravelDeals.jsx`. Until then, `AffiliateCard` shows a non-clickable “Partner link coming soon” state instead of a dead link.
 3. Optionally add per-card `Product` JSON-LD once you have real pricing.
 
 ## What must never happen

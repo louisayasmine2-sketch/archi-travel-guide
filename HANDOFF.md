@@ -17,9 +17,7 @@ intentionally deferred and documented here.
 has not been provisioned yet. Product decision: keep DB persistence as the
 source of truth, add outbound delivery once the mailbox is live.
 
-**Current state:** `POST /api/contact` persists submissions to the
-`contact_messages` MongoDB collection with `id, name, email, subject,
-message, created_at`. UI shows a success toast either way.
+**Current state:** `POST /api/contact` can persist submissions to the `contact_messages` MongoDB collection when `REACT_APP_BACKEND_URL` is configured. If the frontend is deployed before backend email/API wiring, the Contact page stays usable and shows the fallback email `contact@affittacameregliarchi.com`.
 
 **To wire it later:**
 
@@ -109,7 +107,7 @@ New articles automatically appear in Blog listing + region filters. Run
 | No admin / CMS                             | Editorial changes require a code deploy.                            | Acceptable for v1 velocity; add Notion / Sanity later if the pace grows.   |
 | No auth / user accounts                   | Users can't save trips or checklists.                               | Acceptable for v1; the packing/itinerary tools are stateless by design.    |
 | Open CORS in the preview `.env`           | Fine for preview, insecure for production.                          | Set `CORS_ORIGINS` at production launch (see `backend/.env.example`).      |
-| Contact form: no rate limit / anti-spam   | Public form.                                                        | Add a honeypot field + Cloudflare / rate-limit before high-traffic launch. |
+| Contact form: no rate limit / anti-spam   | Public form when backend is enabled.                                | Add a honeypot field + Cloudflare / rate-limit before high-traffic launch. |
 | Deprecated `@app.on_event("shutdown")`    | FastAPI warning, no functional impact.                              | Migrate to lifespan context manager during the next backend refactor.      |
 
 ---

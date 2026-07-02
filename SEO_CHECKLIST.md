@@ -65,8 +65,7 @@ Every route in `src/App.js` renders a `<SEO>` component
 
 1. **Duplicate `<title>` / `<meta description>`** — the static ones were
    removed from `public/index.html` so react-helmet-async is the sole source.
-2. **Wrong canonical origin** — the fallback in `src/lib/seo.js` is the
-   production domain. Set `REACT_APP_SITE_URL` at build time to be safe.
+2. **Wrong canonical origin** — local fallback is `http://localhost:3000`, so production deploys must set `REACT_APP_SITE_URL=https://affittacameregliarchi.com` before running `yarn sitemap` or `yarn build`.
 3. **Missing lastmod** — `yarn sitemap` reads `updated` from
    `src/data/articles.js` and emits per-article `<lastmod>`.
 

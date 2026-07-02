@@ -7,7 +7,8 @@ import { breadcrumbSchema } from "@/lib/schema";
 import { CONTACT } from "@/constants/testIds";
 import { Mail } from "lucide-react";
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+const CONTACT_EMAIL = "contact@affittacameregliarchi.com";
+const API = process.env.REACT_APP_BACKEND_URL ? `${process.env.REACT_APP_BACKEND_URL}/api/contact` : null;
 const SEL = "w-full rounded-xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] px-4 py-3 text-sm focus:border-[hsl(var(--terracotta))] focus:outline-none";
 const LABEL = "text-sm font-medium text-[hsl(var(--charcoal))]";
 
@@ -18,14 +19,22 @@ export default function Contact() {
 
   const submit = async (e) => {
     e.preventDefault();
+
+    if (!API) {
+      toast.info(`Email delivery is not connected yet. Please contact us directly at ${CONTACT_EMAIL}.`);
+      return;
+    }
+
     setLoading(true);
     try {
-      const res = await axios.post(`${API}/contact`, form);
+      const res = await axios.post(API, form);
       toast.success(res.data.message || "Thanks — message sent.");
       setForm({ name: "", email: "", subject: "", message: "" });
     } catch (_) {
-      toast.error("Couldn't send your message. Please try again.");
-    } finally { setLoading(false); }
+      toast.error(`We could not send this form right now. Please email ${CONTACT_EMAIL}.`);
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -34,7 +43,7 @@ export default function Contact() {
         title="Contact Archi Travel Guide"
         description="Editorial questions, partnership requests, corrections. Reach the Archi Travel Guide team — we respond in 2–3 business days."
         path="/contact"
-        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Contact' }])}
+        schema={breadcrumbSchema([{ label: "Home", to: "/" }, { label: "Contact" }])}
       />
       <section className="border-b border-[hsl(var(--stone-border))]">
         <div className="container-editorial pt-10 pb-14">
@@ -50,6 +59,9 @@ export default function Contact() {
       <section className="section-y">
         <div className="container-editorial grid grid-cols-1 lg:grid-cols-12 gap-10">
           <form onSubmit={submit} data-testid={CONTACT.form} className="lg:col-span-8 rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] p-6 md:p-8 space-y-5">
+            <p className="text-sm text-[hsl(var(--charcoal-soft))] leading-relaxed">
+              Contact form delivery can be connected later. If the form is unavailable, email us directly at <a className="link-terra" href={"mailto:" + CONTACT_EMAIL}>{CONTACT_EMAIL}</a>.
+            </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               <label className="space-y-1.5"><span className={LABEL}>Name</span>
                 <input required data-testid={CONTACT.name} className={SEL} value={form.name} onChange={(e) => upd("name", e.target.value)} />
@@ -73,7 +85,7 @@ export default function Contact() {
             <div className="rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] p-6">
               <div className="w-11 h-11 rounded-full bg-[hsl(var(--terracotta))] text-[hsl(var(--ivory))] grid place-items-center mb-4"><Mail className="w-5 h-5" /></div>
               <p className="overline">Direct email</p>
-              <p className="mt-2 font-serif text-2xl break-all">contact@affittacameregliarchi.com</p>
+              <p className="mt-2 font-serif text-2xl break-all">{CONTACT_EMAIL}</p>
               <p className="text-sm text-[hsl(var(--charcoal-soft))] mt-2">For editorial pitches, corrections and general enquiries.</p>
             </div>
             <div className="rounded-2xl border border-[hsl(var(--stone-border))] p-6">

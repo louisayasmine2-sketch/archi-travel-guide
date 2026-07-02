@@ -1,6 +1,8 @@
 import { ExternalLink } from "lucide-react";
 
-export default function AffiliateCard({ title, provider, description, ctaLabel = "Compare options", href = "#", tag }) {
+export default function AffiliateCard({ title, provider, description, ctaLabel = "Compare options", href = "", tag }) {
+  const hasLiveLink = typeof href === "string" && href.trim() && href !== "#";
+
   return (
     <article className="card-editorial p-6 flex flex-col">
       <div className="flex items-center justify-between mb-3">
@@ -16,14 +18,20 @@ export default function AffiliateCard({ title, provider, description, ctaLabel =
       <p className="mt-4 text-[11px] text-[hsl(var(--charcoal-soft))]/80">
         Affiliate link — Archi may earn a commission at no extra cost to you.
       </p>
-      <a
-        href={href}
-        target="_blank"
-        rel="sponsored noopener noreferrer"
-        className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-[hsl(var(--terracotta))] hover:text-[hsl(var(--terracotta-2))]"
-      >
-        {ctaLabel} <ExternalLink className="w-3.5 h-3.5" />
-      </a>
+      {hasLiveLink ? (
+        <a
+          href={href}
+          target="_blank"
+          rel="sponsored noopener noreferrer"
+          className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-[hsl(var(--terracotta))] hover:text-[hsl(var(--terracotta-2))]"
+        >
+          {ctaLabel} <ExternalLink className="w-3.5 h-3.5" />
+        </a>
+      ) : (
+        <span className="mt-3 inline-flex items-center text-sm font-medium text-[hsl(var(--charcoal-soft))]">
+          Partner link coming soon
+        </span>
+      )}
     </article>
   );
 }

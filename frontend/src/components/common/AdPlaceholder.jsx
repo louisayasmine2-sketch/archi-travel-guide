@@ -19,7 +19,7 @@ export default function AdPlaceholder({ label = "Advertisement", variant = "bann
           dims,
         ].join(" ")}
       >
-        Ad slot · reserved
+        Advertisement
       </div>
     </aside>
   );

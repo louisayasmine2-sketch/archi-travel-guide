@@ -10,7 +10,7 @@ const NAV_LINKS = [
   { to: "/europe",       label: "Europe",       tid: NAV.linkEurope },
   { to: "/asia",         label: "Asia",         tid: NAV.linkAsia },
   { to: "/travel-tools", label: "Travel Tools", tid: NAV.linkTravelTools },
-  { to: "/travel-deals", label: "Travel Deals", tid: NAV.linkTravelDeals },
+  { to: "/travel-deals", label: "Deals & Resources", tid: NAV.linkTravelDeals },
   { to: "/blog",         label: "Blog",         tid: NAV.linkBlog },
   { to: "/about",        label: "About",        tid: NAV.linkAbout },
   { to: "/contact",      label: "Contact",      tid: NAV.linkContact },
