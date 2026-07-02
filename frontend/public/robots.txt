@@ -1,7 +1,8 @@
 User-agent: *
 Allow: /
 
-# Disallow generated preview pathways
+# Disallow API routes — they are transactional endpoints, not content.
 Disallow: /api/
 
+# Canonical sitemap. Regenerate with `yarn sitemap` (see /scripts/generate-sitemap.js).
 Sitemap: https://affittacameregliarchi.com/sitemap.xml

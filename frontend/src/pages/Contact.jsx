@@ -73,7 +73,7 @@ export default function Contact() {
             <div className="rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] p-6">
               <div className="w-11 h-11 rounded-full bg-[hsl(var(--terracotta))] text-[hsl(var(--ivory))] grid place-items-center mb-4"><Mail className="w-5 h-5" /></div>
               <p className="overline">Direct email</p>
-              <p className="mt-2 font-serif text-2xl">hello@archi.travel</p>
+              <p className="mt-2 font-serif text-2xl break-all">contact@affittacameregliarchi.com</p>
               <p className="text-sm text-[hsl(var(--charcoal-soft))] mt-2">For editorial pitches, corrections and general enquiries.</p>
             </div>
             <div className="rounded-2xl border border-[hsl(var(--stone-border))] p-6">

@@ -62,7 +62,7 @@ export default function Footer() {
               First pillar · Italy · Tuscany · Siena
             </p>
             <div className="flex items-center gap-3 mt-6">
-              <a href="mailto:hello@archi.travel" aria-label="Email" className="w-9 h-9 grid place-items-center rounded-full border border-[hsl(var(--ivory))]/20 hover:border-[hsl(var(--terracotta))] hover:text-[hsl(var(--terracotta))] transition-colors">
+              <a href="mailto:contact@affittacameregliarchi.com" aria-label="Email" className="w-9 h-9 grid place-items-center rounded-full border border-[hsl(var(--ivory))]/20 hover:border-[hsl(var(--terracotta))] hover:text-[hsl(var(--terracotta))] transition-colors">
                 <Mail className="w-4 h-4" />
               </a>
               <a href="#" aria-label="Instagram" className="w-9 h-9 grid place-items-center rounded-full border border-[hsl(var(--ivory))]/20 hover:border-[hsl(var(--terracotta))] hover:text-[hsl(var(--terracotta))] transition-colors">
