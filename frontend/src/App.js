@@ -1,53 +1,64 @@
-import { useEffect } from "react";
 import "@/App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import axios from "axios";
-import { HOME } from "@/constants/testIds";
+import { Toaster } from "sonner";
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-const API = `${BACKEND_URL}/api`;
-
-const Home = () => {
-  const helloWorldApi = async () => {
-    try {
-      const response = await axios.get(`${API}/`);
-      console.log(response.data.message);
-    } catch (e) {
-      console.error(e, `errored out requesting / api`);
-    }
-  };
-
-  useEffect(() => {
-    helloWorldApi();
-  }, []);
-
-  return (
-    <div>
-      <header className="App-header">
-        <a
-          data-testid={HOME.emergentLink}
-          className="App-link"
-          href="https://emergent.sh"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="https://avatars.githubusercontent.com/in/1201222?s=120&u=2686cf91179bbafbc7a71bfbc43004cf9ae1acea&v=4" />
-        </a>
-        <p className="mt-5">Building something incredible ~!</p>
-      </header>
-    </div>
-  );
-};
+import Layout from "@/components/layout/Layout";
+import Home from "@/pages/Home";
+import Destinations from "@/pages/Destinations";
+import Italy from "@/pages/Italy";
+import Tuscany from "@/pages/Tuscany";
+import Siena from "@/pages/Siena";
+import Europe from "@/pages/Europe";
+import Asia from "@/pages/Asia";
+import TravelTools from "@/pages/TravelTools";
+import TravelDeals from "@/pages/TravelDeals";
+import Blog from "@/pages/Blog";
+import Article from "@/pages/Article";
+import About from "@/pages/About";
+import Contact from "@/pages/Contact";
+import Legal from "@/pages/Legal";
+import NotFound from "@/pages/NotFound";
+import BudgetCalculator from "@/pages/tools/BudgetCalculator";
+import ItineraryGenerator from "@/pages/tools/ItineraryGenerator";
+import AreaFinder from "@/pages/tools/AreaFinder";
+import PackingChecklist from "@/pages/tools/PackingChecklist";
+import BestTimeToVisit from "@/pages/tools/BestTimeToVisit";
+import TransportGuide from "@/pages/tools/TransportGuide";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />}>
-            <Route index element={<Home />} />
-          </Route>
-        </Routes>
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/destinations" element={<Destinations />} />
+            <Route path="/italy" element={<Italy />} />
+            <Route path="/tuscany" element={<Tuscany />} />
+            <Route path="/siena" element={<Siena />} />
+            <Route path="/europe" element={<Europe />} />
+            <Route path="/asia" element={<Asia />} />
+            <Route path="/travel-tools" element={<TravelTools />} />
+            <Route path="/travel-tools/budget-calculator" element={<BudgetCalculator />} />
+            <Route path="/travel-tools/itinerary-generator" element={<ItineraryGenerator />} />
+            <Route path="/travel-tools/area-finder" element={<AreaFinder />} />
+            <Route path="/travel-tools/packing-checklist" element={<PackingChecklist />} />
+            <Route path="/travel-tools/best-time-to-visit" element={<BestTimeToVisit />} />
+            <Route path="/travel-tools/transport-guide" element={<TransportGuide />} />
+            <Route path="/travel-deals" element={<TravelDeals />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<Article />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy-policy" element={<Legal doc="privacy" />} />
+            <Route path="/cookie-policy" element={<Legal doc="cookie" />} />
+            <Route path="/terms-of-use" element={<Legal doc="terms" />} />
+            <Route path="/affiliate-disclosure" element={<Legal doc="affiliate" />} />
+            <Route path="/editorial-policy" element={<Legal doc="editorial" />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Layout>
+        <Toaster position="bottom-right" richColors closeButton />
       </BrowserRouter>
     </div>
   );
