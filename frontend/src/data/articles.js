@@ -192,7 +192,7 @@ export const articles = [
     'Siena Hotel vs Apartment: Which Booking Is Better for Your Trip',
     'Accommodation', 'Siena',
     'A practical comparison for a 2–5 day trip: hotel, B&B, or apartment — with pricing, logistics and real booking trade-offs.',
-    'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=75',
+    'https://images.unsplash.com/photo-1478476868527-002ae3f3e159?auto=format&fit=crop&w=1600&q=75',
     [
       { id: 'booking-shape', heading: 'Start with your trip shape', body: 'If you want maximum flexibility and easy check-in support, choose a hotel or B&B. If you travel as a family, or stay 4+ nights, apartment stays usually beat hotels on value and storage.' },
       { id: 'noise-cost', heading: 'Noise vs. value trade-off', body: 'Best-value apartments are often just outside the walls, while top convenience stays sit closer to Campo. Decide first: do you value quiet mornings more than lower nightly rates?' },
@@ -227,7 +227,7 @@ export const articles = [
     'Siena Parking Guide: Garages, Transfers, and Cost Planning',
     'Transport', 'Siena',
     'A direct, low-friction guide to Siena parking zones, transfer points and parking-related stress minimisation.',
-    'https://images.unsplash.com/photo-1590490360180-68f6bdbcf9b4?auto=format&fit=crop&w=1600&q=75',
+    'https://images.unsplash.com/photo-1519677100203-a0e668c92439?auto=format&fit=crop&w=1600&q=75',
     [
       { id: 'ztl-reality', heading: 'Siena is car-limited inside the walls', body: 'Most historic areas are inside a controlled traffic zone. Arrive, park outside, then walk or use short-transfer options into the centre.' },
       { id: 'best-garages', heading: 'Best practical garage zones', body: 'Santa Caterina, Campo, and Porta Camollia zones usually work best for groups without overpaying. Confirm gate opening hours and any special-event surcharge.' },
