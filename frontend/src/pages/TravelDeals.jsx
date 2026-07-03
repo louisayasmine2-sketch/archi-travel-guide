@@ -5,12 +5,12 @@ import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";
 
 const RESOURCES = [
-  { title: "Compare hotels across major booking sites", provider: "Hotels", tag: "Search", description: "Meta-search platforms let you compare prices from booking sites in one place — better than pledging loyalty to one." },
-  { title: "Small-group tours and skip-the-line experiences", provider: "Tours", tag: "Experiences", description: "Curated guided experiences for cities where a good guide changes the trip — museums, food walks, cooking classes." },
-  { title: "Global eSIM data plans", provider: "Connectivity", tag: "eSIM", description: "Set up mobile data before you land. Better rates than roaming, and no waiting at the airport SIM kiosk." },
-  { title: "Travel insurance for medical + trip cancellation", provider: "Insurance", tag: "Coverage", description: "The one thing we never skip. Even a short delay can cost more than a full policy." },
-  { title: "Rail passes and long-distance train tickets", provider: "Transport", tag: "Rail", description: "For Europe especially, booking well in advance often saves 40–60% on high-speed routes." },
-  { title: "Compact travel gear and packing accessories", provider: "Gear", tag: "Accessories", description: "Packing cubes, folding daypacks, universal adapters — the small items that make trips less friction-heavy." },
+  { title: "Compare hotels across major booking sites", provider: "Hotels", tag: "Search", description: "Meta-search platforms let you compare prices from booking sites in one place — better than pledging loyalty to one.", href: "/travel-deals?utm_source=archi&utm_medium=deals&utm_campaign=hub" },
+  { title: "Small-group tours and skip-the-line experiences", provider: "Tours", tag: "Experiences", description: "Curated guided experiences for cities where a good guide changes the trip — museums, food walks, cooking classes.", href: "/travel-deals?utm_source=archi&utm_medium=deals&utm_campaign=hub" },
+  { title: "Global eSIM data plans", provider: "Connectivity", tag: "eSIM", description: "Set up mobile data before you land. Better rates than roaming, and no waiting at the airport SIM kiosk.", href: "/travel-deals?utm_source=archi&utm_medium=deals&utm_campaign=hub" },
+  { title: "Travel insurance for medical + trip cancellation", provider: "Insurance", tag: "Coverage", description: "The one thing we never skip. Even a short delay can cost more than a full policy.", href: "/travel-deals?utm_source=archi&utm_medium=deals&utm_campaign=hub" },
+  { title: "Rail passes and long-distance train tickets", provider: "Transport", tag: "Rail", description: "For Europe especially, booking well in advance often saves 40–60% on high-speed routes.", href: "/travel-deals?utm_source=archi&utm_medium=deals&utm_campaign=hub" },
+  { title: "Compact travel gear and packing accessories", provider: "Gear", tag: "Accessories", description: "Packing cubes, folding daypacks, universal adapters — the small items that make trips less friction-heavy.", href: "/travel-deals?utm_source=archi&utm_medium=deals&utm_campaign=hub" },
 ];
 
 export default function TravelDeals() {

@@ -216,8 +216,8 @@ export const articles = [
           leadSubjectHint: 'Accommodation type help for Siena trip',
         },
         affiliates: [
-          { title: 'Compare Siena hotel options by date', provider: 'Hotels', tag: 'Accommodation', description: 'Neutral comparison of hotels, B&Bs and apartments in central Siena.', ctaLabel: 'Open hotel comparison', href: '' },
-          { title: 'Apartment-style stays near Siena centre', provider: 'Apartments', tag: 'Lodging', description: 'Family-fit and long-stay stays with in-unit kitchens and practical services.', ctaLabel: 'Open apartment comparison', href: '' },
+          { title: 'Compare Siena hotel options by date', provider: 'Hotels', tag: 'Accommodation', description: 'Neutral comparison of hotels, B&Bs and apartments in central Siena.', ctaLabel: 'Open hotel comparison', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_hotel_vs_apartment' },
+          { title: 'Apartment-style stays near Siena centre', provider: 'Apartments', tag: 'Lodging', description: 'Family-fit and long-stay stays with in-unit kitchens and practical services.', ctaLabel: 'Open apartment comparison', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_hotel_vs_apartment' },
         ],
       },
     }
@@ -250,8 +250,8 @@ export const articles = [
           leadSubjectHint: 'Parking + transfer planning for Siena',
         },
         affiliates: [
-          { title: 'Find Siena airport transfer options', provider: 'Transfers', tag: 'Transport', description: 'Explore reliable transfer providers for airport and long-distance arrivals.', ctaLabel: 'Check transfer options', href: '' },
-          { title: 'Reserve flexible car parks in Siena', provider: 'Parking', tag: 'Parking', description: 'Weekend and event-week parking strategies for short trips.', ctaLabel: 'View parking guides', href: '' },
+          { title: 'Find Siena airport transfer options', provider: 'Transfers', tag: 'Transport', description: 'Explore reliable transfer providers for airport and long-distance arrivals.', ctaLabel: 'Check transfer options', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_parking_and_transfer' },
+          { title: 'Reserve flexible car parks in Siena', provider: 'Parking', tag: 'Parking', description: 'Weekend and event-week parking strategies for short trips.', ctaLabel: 'View parking guides', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_parking_and_transfer' },
         ],
       },
     }
@@ -284,8 +284,8 @@ export const articles = [
           leadSubjectHint: 'Family-friendly Siena itinerary',
         },
         affiliates: [
-          { title: 'Family-friendly Siena stays', provider: 'Family travel', tag: 'Accommodation', description: 'Rooms with practical space, child-friendly routines and central walking access.', ctaLabel: 'Compare family options', href: '' },
-          { title: 'Family transport and mobility tools', provider: 'Mobility', tag: 'Transport', description: 'Short routes and movement options designed for slower pacing.', ctaLabel: 'Check mobility options', href: '' },
+          { title: 'Family-friendly Siena stays', provider: 'Family travel', tag: 'Accommodation', description: 'Rooms with practical space, child-friendly routines and central walking access.', ctaLabel: 'Compare family options', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_with_kids_in_one_day' },
+          { title: 'Family transport and mobility tools', provider: 'Mobility', tag: 'Transport', description: 'Short routes and movement options designed for slower pacing.', ctaLabel: 'Check mobility options', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_with_kids_in_one_day' },
         ],
       },
     }
@@ -319,8 +319,8 @@ export const articles = [
           leadSubjectHint: 'Airport transfer planning for Siena',
         },
         affiliates: [
-          { title: 'Airport-to-Siena transfer options', provider: 'Private transfer', tag: 'Transfer', description: 'Compare transfer providers for direct, luggage-friendly routes.', ctaLabel: 'Check transfer options', href: '' },
-          { title: 'Train and bus schedule tools', provider: 'Tickets', tag: 'Transport', description: 'Use planning tools before transfer day so route windows are realistic.', ctaLabel: 'Compare transport tools', href: '' },
+          { title: 'Airport-to-Siena transfer options', provider: 'Private transfer', tag: 'Transfer', description: 'Compare transfer providers for direct, luggage-friendly routes.', ctaLabel: 'Check transfer options', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_from_florence_airport_transfer' },
+          { title: 'Train and bus schedule tools', provider: 'Tickets', tag: 'Transport', description: 'Use planning tools before transfer day so route windows are realistic.', ctaLabel: 'Compare transport tools', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_from_florence_airport_transfer' },
         ],
       },
     }
@@ -353,8 +353,8 @@ export const articles = [
           leadSubjectHint: 'Couple weekend trip to Siena',
         },
         affiliates: [
-          { title: 'Romantic stays in Siena', provider: 'Hotels', tag: 'Accommodation', description: 'Top-value romantic options with strong location and easy access.', ctaLabel: 'View options', href: '' },
-          { title: 'Dining booking and reservations', provider: 'Restaurants', tag: 'Dining', description: 'Flexible options around peak Aperitivo and weekend hours.', ctaLabel: 'See dining options', href: '' },
+          { title: 'Romantic stays in Siena', provider: 'Hotels', tag: 'Accommodation', description: 'Top-value romantic options with strong location and easy access.', ctaLabel: 'View options', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_weekend_itinerary_for_couples' },
+          { title: 'Dining booking and reservations', provider: 'Restaurants', tag: 'Dining', description: 'Flexible options around peak Aperitivo and weekend hours.', ctaLabel: 'See dining options', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_weekend_itinerary_for_couples' },
         ],
       },
     }
@@ -387,8 +387,8 @@ export const articles = [
           leadSubjectHint: 'Budget Siena trip planning',
         },
         affiliates: [
-          { title: 'Hotel and package price comparison', provider: 'Hotels', tag: 'Travel deals', description: 'Compare stay and transfer options by price band and cancellation terms.', ctaLabel: 'Open price comparison', href: '' },
-          { title: 'Travel insurance for short trips', provider: 'Insurance', tag: 'Risk', description: 'Basic coverage for trips with transfer, luggage and medical contingencies.', ctaLabel: 'Review insurance options', href: '' },
+          { title: 'Hotel and package price comparison', provider: 'Hotels', tag: 'Travel deals', description: 'Compare stay and transfer options by price band and cancellation terms.', ctaLabel: 'Open price comparison', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_budget_and_meal_planning' },
+          { title: 'Travel insurance for short trips', provider: 'Insurance', tag: 'Risk', description: 'Basic coverage for trips with transfer, luggage and medical contingencies.', ctaLabel: 'Review insurance options', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_budget_and_meal_planning' },
         ],
       },
     }
@@ -421,8 +421,8 @@ export const articles = [
           leadSubjectHint: 'Budget dining guide for Siena',
         },
         affiliates: [
-          { title: 'Dining guides and local booking options', provider: 'Dining', tag: 'Restaurants', description: 'Reserve tables and avoid long waits on busy meal slots.', ctaLabel: 'See dining resources', href: '' },
-          { title: 'Local experiences and food walks', provider: 'Tours', tag: 'Experiences', description: 'Small-group tastings and guided neighborhood food walks.', ctaLabel: 'See Siena food options', href: '' },
+          { title: 'Dining guides and local booking options', provider: 'Dining', tag: 'Restaurants', description: 'Reserve tables and avoid long waits on busy meal slots.', ctaLabel: 'See dining resources', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_food_that_fits_a_budget' },
+          { title: 'Local experiences and food walks', provider: 'Tours', tag: 'Experiences', description: 'Small-group tastings and guided neighborhood food walks.', ctaLabel: 'See Siena food options', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_food_that_fits_a_budget' },
         ],
       },
     }
@@ -455,8 +455,8 @@ export const articles = [
           leadSubjectHint: 'Day trips from Siena without a car',
         },
         affiliates: [
-          { title: 'Train and bus routes for Siena day trips', provider: 'Rail', tag: 'Transport', description: 'Fast checks for route options that align with your city-based schedule.', ctaLabel: 'Check transport options', href: '' },
-          { title: 'Guided Siena day-tour alternatives', provider: 'Tours', tag: 'Tours', description: 'Short guided departures with low coordination overhead.', ctaLabel: 'Review guided options', href: '' },
+          { title: 'Train and bus routes for Siena day trips', provider: 'Rail', tag: 'Transport', description: 'Fast checks for route options that align with your city-based schedule.', ctaLabel: 'Check transport options', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_day_trips_without_a_car' },
+          { title: 'Guided Siena day-tour alternatives', provider: 'Tours', tag: 'Tours', description: 'Short guided departures with low coordination overhead.', ctaLabel: 'Review guided options', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_day_trips_without_a_car' },
         ],
       },
     }
@@ -490,8 +490,8 @@ export const articles = [
           leadSubjectHint: 'Siena weather + booking planning',
         },
         affiliates: [
-          { title: 'Travel gear for Siena city walks', provider: 'Gear', tag: 'Accessories', description: 'Compact packing essentials for uneven streets and changing weather.', ctaLabel: 'See packing options', href: '' },
-          { title: 'Reliable eSIM and connectivity', provider: 'Connectivity', tag: 'Tech', description: 'Keep maps and bookings available even when roaming is weak.', ctaLabel: 'Compare connectivity options', href: '' },
+          { title: 'Travel gear for Siena city walks', provider: 'Gear', tag: 'Accessories', description: 'Compact packing essentials for uneven streets and changing weather.', ctaLabel: 'See packing options', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_weather_and_what_to_pack' },
+          { title: 'Reliable eSIM and connectivity', provider: 'Connectivity', tag: 'Tech', description: 'Keep maps and bookings available even when roaming is weak.', ctaLabel: 'Compare connectivity options', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_weather_and_what_to_pack' },
         ],
       },
     }
@@ -524,8 +524,8 @@ export const articles = [
           leadSubjectHint: 'Siena experiences prebooking',
         },
         affiliates: [
-          { title: 'Guided Siena experience marketplaces', provider: 'Tours', tag: 'Tours', description: 'Compare guide options and timing with clear cancellation rules.', ctaLabel: 'Check experience links', href: '' },
-          { title: 'Attraction entry and skip-the-line tools', provider: 'Tickets', tag: 'Attractions', description: 'Fast planning for high-demand sights near city peak times.', ctaLabel: 'Check attraction tools', href: '' },
+          { title: 'Guided Siena experience marketplaces', provider: 'Tours', tag: 'Tours', description: 'Compare guide options and timing with clear cancellation rules.', ctaLabel: 'Check experience links', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_tours_and_classes_to_book_first' },
+          { title: 'Attraction entry and skip-the-line tools', provider: 'Tickets', tag: 'Attractions', description: 'Fast planning for high-demand sights near city peak times.', ctaLabel: 'Check attraction tools', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_tours_and_classes_to_book_first' },
         ],
       },
     }
