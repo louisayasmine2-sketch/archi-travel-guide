@@ -51,6 +51,14 @@ Value: (left empty)
 
 If `REACT_APP_GA_MEASUREMENT_ID` is set and deployment is production, GA4 is initialized automatically and page views are tracked on SPA route changes.
 
+Additional conversion events are already implemented:
+
+- `contact_submit` (Contact page form submit)
+- `lead_submit` (Article fast lead form submit)
+
+To mark these as GA4 conversions, in Google Analytics go to
+**Configure → Events → Import conversion events** and enable both event names.
+
 ## 3. Regenerate the sitemap
 
 ```
@@ -78,6 +86,9 @@ Sitemap: https://affittacameregliarchi.com/sitemap.xml
 MONGO_URL=<your-production-connection-string>
 DB_NAME=archi_travel_guide
 CORS_ORIGINS=https://affittacameregliarchi.com,https://www.affittacameregliarchi.com
+RESEND_API_KEY=<your-production-resend-api-key>
+RESEND_FROM_EMAIL=Archi Travel Guide <noreply@affittacameregliarchi.com>
+RESEND_TO_EMAIL=contact@affittacameregliarchi.com
 ```
 
 **Never** ship `CORS_ORIGINS=*` to production.

@@ -4,6 +4,7 @@ import { toast } from "sonner";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";
+import { trackContactSubmit } from "@/lib/analytics";
 import { CONTACT } from "@/constants/testIds";
 import { Mail } from "lucide-react";
 
@@ -32,6 +33,10 @@ export default function Contact() {
     e.preventDefault();
 
     if (!API) {
+      trackContactSubmit({
+        form_source: "contact_page",
+        delivery_method: "mailto",
+      });
       window.location.href = contactMailto(form);
       toast.info("Opening your email app with this message prepared.");
       return;
@@ -40,6 +45,10 @@ export default function Contact() {
     setLoading(true);
     try {
       const res = await axios.post(API, form);
+      trackContactSubmit({
+        form_source: "contact_page",
+        delivery_method: "backend",
+      });
       toast.success(res.data.message || "Thanks — message sent.");
       setForm({ name: "", email: "", subject: "", message: "" });
     } catch (_) {

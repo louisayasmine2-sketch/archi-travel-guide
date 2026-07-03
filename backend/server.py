@@ -9,6 +9,7 @@ from pydantic import BaseModel, Field, EmailStr, ConfigDict
 from typing import List, Optional, Literal
 import uuid
 from datetime import datetime, timezone
+import requests
 
 
 ROOT_DIR = Path(__file__).parent
@@ -17,6 +18,9 @@ load_dotenv(ROOT_DIR / '.env')
 mongo_url = os.environ['MONGO_URL']
 client = AsyncIOMotorClient(mongo_url)
 db = client[os.environ['DB_NAME']]
+RESEND_API_KEY = os.getenv("RESEND_API_KEY")
+RESEND_FROM_EMAIL = os.getenv("RESEND_FROM_EMAIL")
+RESEND_TO_EMAIL = os.getenv("RESEND_TO_EMAIL")
 
 app = FastAPI(title="Archi Travel Guide API")
 api_router = APIRouter(prefix="/api")
@@ -24,6 +28,41 @@ api_router = APIRouter(prefix="/api")
 
 def now_iso():
     return datetime.now(timezone.utc).isoformat()
+
+
+def _notify_contact_email(record, *, message_id: str) -> Optional[str]:
+    if not all([RESEND_API_KEY, RESEND_FROM_EMAIL, RESEND_TO_EMAIL]):
+        return None
+
+    payload = {
+        "from": RESEND_FROM_EMAIL,
+        "to": [RESEND_TO_EMAIL],
+        "subject": record.subject,
+        "reply_to": record.email,
+        "html": f"<p><strong>Lead ID:</strong> {message_id}</p><p><strong>Name:</strong> {record.name}</p><p><strong>Email:</strong> {record.email}</p><p><strong>Message:</strong><br/>{record.message}</p>",
+        "text": f"Lead ID: {message_id}\\nName: {record.name}\\nEmail: {record.email}\\nMessage:\\n{record.message}",
+    }
+    headers = {
+        "Authorization": f"Bearer {RESEND_API_KEY}",
+        "Content-Type": "application/json",
+    }
+
+    response = requests.post(
+        "https://api.resend.com/emails",
+        json=payload,
+        headers=headers,
+        timeout=8,
+    )
+
+    if response.status_code < 200 or response.status_code >= 300:
+        error_text = response.text[:500] if response.text else "no body"
+        raise RuntimeError(f"Resend rejected contact email: {response.status_code} {error_text}")
+
+    try:
+        data = response.json() if response.content else {}
+    except ValueError:
+        data = {}
+    return data.get("id")
 
 
 # ============ Models ============
@@ -119,7 +158,18 @@ async def newsletter_subscribe(payload: NewsletterSubscribe):
 async def contact_submit(payload: ContactMessage):
     record = ContactRecord(**payload.model_dump())
     await db.contact_messages.insert_one(record.model_dump())
-    return {"success": True, "message": "Thanks — we'll get back to you within 3 business days."}
+    email_message_id = None
+    try:
+        email_message_id = _notify_contact_email(record, message_id=record.id)
+    except Exception as e:  # pragma: no cover
+        logger.warning("Failed to send contact email: %s", e)
+
+    response = {
+        "success": True,
+        "message": "Thanks — we'll get back to you within 3 business days.",
+        "email_message_id": email_message_id,
+    }
+    return response
 
 
 # ---- Budget Calculator ----

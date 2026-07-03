@@ -28,43 +28,14 @@ import BestTimeToVisit from "@/pages/tools/BestTimeToVisit";
 import TransportGuide from "@/pages/tools/TransportGuide";
 import LegacyContentPage from "@/pages/legacy/LegacyContentPage";
 import HubPage from "@/pages/HubPage";
-
-const GA_MEASUREMENT_ID = process.env.REACT_APP_GA_MEASUREMENT_ID;
-const shouldTrack = process.env.NODE_ENV === "production" && typeof GA_MEASUREMENT_ID === "string" && GA_MEASUREMENT_ID.trim().length > 0;
+import { trackPageView } from "@/lib/analytics";
 
 function GoogleAnalytics() {
   const location = useLocation();
 
   useEffect(() => {
-    if (!shouldTrack) {
-      return;
-    }
-
-    const measurementId = GA_MEASUREMENT_ID.trim();
     const pagePath = `${location.pathname}${location.search}`;
-
-    if (!window.__gaScriptLoaded) {
-      window.__gaScriptLoaded = true;
-      window.dataLayer = window.dataLayer || [];
-      window.gtag = window.gtag || function () {
-        window.dataLayer.push(arguments);
-      };
-
-      const script = document.createElement("script");
-      script.async = true;
-      script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
-      document.head.appendChild(script);
-
-      window.gtag("js", new Date());
-      window.__gaConfigured = true;
-    }
-
-    if (window.__gaConfigured) {
-      window.gtag("config", measurementId, {
-        page_path: pagePath,
-        page_title: document.title,
-      });
-    }
+    trackPageView(pagePath, document.title);
   }, [location.pathname, location.search]);
 
   return null;

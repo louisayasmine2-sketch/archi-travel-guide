@@ -69,7 +69,9 @@ cp backend/.env.example  backend/.env
 | `MONGO_URL`             | backend   | MongoDB connection string. Pre-configured — do not change locally.      |
 | `DB_NAME`               | backend   | MongoDB database name. Pre-configured — do not change locally.          |
 | `CORS_ORIGINS`          | backend   | Comma-separated allowed origins for CORS. Restrict at launch.           |
-| `RESEND_*` (commented)  | backend   | Reserved for future contact-form email delivery. See `HANDOFF.md`.      |
+| `RESEND_API_KEY`        | backend   | Optional API key to send contact submissions via Resend in production.    |
+| `RESEND_FROM_EMAIL`     | backend   | Verified Resend sender email (e.g. `Archi Travel Guide <noreply@affittacameregliarchi.com>`). |
+| `RESEND_TO_EMAIL`       | backend   | Recipient email for new contacts (e.g. `contact@affittacameregliarchi.com`). |
 
 If `REACT_APP_SITE_URL` is not set, the app uses the current browser origin and falls back to `http://localhost:3000` for non-browser scripts/tests. Set `REACT_APP_SITE_URL=https://affittacameregliarchi.com` in production so canonical URLs, OG URLs, JSON-LD and sitemap URLs use the live domain.
 

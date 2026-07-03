@@ -9,6 +9,7 @@ import AffiliateCard from "@/components/common/AffiliateCard";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema, articleSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
+import { trackLeadSubmit } from "@/lib/analytics";
 import { getArticle, articles } from "@/data/articles";
 import NotFound from "./NotFound";
 import { Send } from "lucide-react";
@@ -145,7 +146,11 @@ export default function Article() {
                     {bookingCta.linkText || "Contact us"}
                   </Link>
                 </div>
-                <FastLeadForm sourceTitle={article.title} sourceHint={bookingCta.leadSubjectHint || `Lead: ${article.title}`} />
+                <FastLeadForm
+                  sourceTitle={article.title}
+                  sourceHint={bookingCta.leadSubjectHint || `Lead: ${article.title}`}
+                  sourceSlug={article.slug}
+                />
               </div>
             </section>
           )}
@@ -216,7 +221,7 @@ const leadMailto = ({ name, email, subject, message }) => {
   return `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 };
 
-function FastLeadForm({ sourceTitle = "", sourceHint = "" }) {
+function FastLeadForm({ sourceTitle = "", sourceHint = "", sourceSlug = "" }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState(defaultMessage(sourceTitle));
@@ -226,6 +231,11 @@ function FastLeadForm({ sourceTitle = "", sourceHint = "" }) {
     const subject = sourceHint || "Quick trip lead";
 
     if (!API) {
+      trackLeadSubmit({
+        form_source: "article_fast_lead",
+        delivery_method: "mailto",
+        article_slug: sourceSlug,
+      });
       window.location.href = leadMailto({ name, email, subject, message });
       toast.info("Opening your email app with this request prepared.");
       return;
@@ -237,6 +247,11 @@ function FastLeadForm({ sourceTitle = "", sourceHint = "" }) {
         email,
         subject,
         message,
+      });
+      trackLeadSubmit({
+        form_source: "article_fast_lead",
+        delivery_method: "backend",
+        article_slug: sourceSlug,
       });
       toast.success("Lead sent. We will reply within 1–2 business days.");
       setName("");
