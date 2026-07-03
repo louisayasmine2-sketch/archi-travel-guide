@@ -588,8 +588,7 @@ export const articles = [
     ],
   ),
   A(
-    'flexible-itinerary',
-    'How to Build a Flexible Travel Itinerary',
+    'how-to-plan-europe-trip',
     'How to Plan a Europe Trip for the First Time',
     'Planning', 'Europe',
     'A calm, non-overwhelming framework for planning your first Europe trip: how many cities, how long, what to book first.',
