@@ -590,6 +590,64 @@ export const articles = [
   A(
     'flexible-itinerary',
     'How to Build a Flexible Travel Itinerary',
+    'How to Plan a Europe Trip for the First Time',
+    'Planning', 'Europe',
+    'A calm, non-overwhelming framework for planning your first Europe trip: how many cities, how long, what to book first.',
+    'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'framework', heading: 'The 3-2-1 framework', body: 'For a 10-day first trip, aim for 3 base cities, 2 nights minimum in each, and 1 shorter side trip. This prevents the classic “I felt like I was always in a train” fatigue.' },
+      { id: 'book-order', heading: 'What to book first', body: 'Flights → base city accommodation → high-demand attractions (Uffizi, Vatican, Alhambra) → intercity trains → smaller experiences and restaurants.' },
+      { id: 'buffer', heading: 'Leave one unbooked day per city', body: 'It sounds counter-intuitive, but the unplanned days are the ones travelers remember.' },
+    ],
+  ),
+  A(
+    'europe-budget-guide',
+    'Europe Travel Budget Guide',
+    'Budget planning', 'Europe',
+    'A realistic Europe budget guide with three tiers and honest per-country adjustments.',
+    'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'tiers', heading: 'Three budget tiers', body: 'Budget: €75–110/day. Mid: €140–210/day. Upper: €280–420/day. Adjust for city — Paris, London, Zurich and Copenhagen sit 20–30% higher; Portugal, Greece, and much of Central Europe sit 15–25% lower.' },
+      { id: 'levers', heading: 'The 4 biggest levers', body: 'Accommodation area, meal mix, transport type, and how many paid attractions per day. Getting three of these right lets the fourth flex.' },
+    ],
+  ),
+  A(
+    'best-travel-apps',
+    'Best Travel Apps for International Trips',
+    'Resources', 'Global',
+    'The apps our editorial team actually uses on international trips — no affiliate padding, just what works.',
+    'https://images.unsplash.com/photo-1522199755839-a2bacb67c546?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'core', heading: 'The core stack', body: 'Google Maps (with offline maps), Rome2Rio (city-to-city planning), Trainline or the national rail app, Google Translate with camera translation, and a currency converter.' },
+      { id: 'esim', heading: 'eSIM & connectivity', body: 'An eSIM avoids expensive roaming and lets you use maps from day one. Test the eSIM before your flight.' },
+    ],
+  ),
+  A(
+    'choose-area-any-city',
+    'How to Choose the Best Area to Stay in Any City',
+    'Planning', 'Global',
+    'A repeatable framework for picking the right neighborhood in any city — not just the ones you already know.',
+    'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'framework', heading: 'The 4-question framework', body: '1) What are the two things you most want to walk to?\n2) Do you value quiet nights or lively ones?\n3) How much do you value one-metro-ring-out savings?\n4) Are you arriving late or early?' },
+      { id: 'anti', heading: 'Neighborhoods to avoid — usually', body: 'Areas that are only clusters of hotels tend to feel dead in the evening. Areas immediately next to major train stations are often cheaper but noisier.' },
+    ],
+  ),
+  A(
+    'international-packing-checklist',
+    'International Packing Checklist for First-Time Travelers',
+    'Packing', 'Global',
+    'The universal checklist we run through before any international trip, grouped so nothing gets forgotten.',
+    'https://images.unsplash.com/photo-1553531384-cc64ac80f931?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'documents', heading: 'Documents', body: 'Passport (check 6-month validity rule), printed booking confirmations, insurance card, backup credit card, small local currency.' },
+      { id: 'tech', heading: 'Tech', body: 'Phone + charger, EU/UK plug adapter, portable power bank, headphones, eSIM downloaded before flight.' },
+      { id: 'basics', heading: 'Health & basics', body: 'Prescription meds in original packaging, small first-aid kit, sunscreen, reusable water bottle, small foldable daypack.' },
+    ],
+  ),
+  A(
+    'flexible-itinerary',
+    'How to Build a Flexible Travel Itinerary',
     'Planning', 'Global',
     'A repeatable way to plan a trip that has structure but leaves room for the moments you can’t predict.',
     'https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=1600&q=75',
@@ -597,6 +655,38 @@ export const articles = [
       { id: 'anchors', heading: 'Anchor and gap', body: 'Book 1 anchor per day (a museum, a restaurant, a train). Leave the rest open. Two thirds of your best travel moments will happen in those gaps.' },
       { id: 'buffer', heading: 'Buffer transitions', body: 'The single most common mistake: back-to-back bookings. Add a two-hour buffer around every train, transfer, or timed entry.' },
     ],
+  ),
+  A(
+    'best-things-to-do-in-florence',
+    'Best Things to Do in Florence for First-Time Visitors',
+    'Things to do', 'Florence',
+    'A practical, opinionated shortlist for a first visit to Florence — what to prioritise, what to skip, and how to time the crowds.',
+    'https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'why-florence', heading: 'The cradle of the Renaissance', body: 'Florence is dense. It holds an overwhelming amount of art in a very small footprint. Do not try to see everything; pick two major museums and spend the rest of your time eating and walking.' },
+      { id: 'uffizi', heading: '1. The Uffizi Gallery', body: 'Book tickets months in advance. Go early in the morning to beat the worst of the crowds.' },
+      { id: 'duomo', heading: '2. Florence Cathedral (Il Duomo)', body: 'You can admire the outside for free. Climbing the dome requires booking well in advance.' },
+    ],
+    [
+      { q: 'Is one day enough for Florence?', a: 'No. You need at least three days to see the highlights without burning out.' },
+    ],
+    '2026-07-03'
+  ),
+  A(
+    'rome-3-day-itinerary',
+    'Rome 3-Day Itinerary: The Classic Route',
+    'Itineraries', 'Rome',
+    'A well-paced three-day plan for Rome that balances the Vatican, the Colosseum, and proper pasta.',
+    'https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'day-1', heading: 'Day 1 — Ancient Rome', body: 'Start early at the Colosseum, Roman Forum, and Palatine Hill. Spend the evening in Monti for dinner.' },
+      { id: 'day-2', heading: 'Day 2 — The Vatican', body: 'Vatican Museums and St. Peter\'s Basilica. Walk to Castel Sant\'Angelo in the afternoon.' },
+      { id: 'day-3', heading: 'Day 3 — The Historic Center', body: 'Pantheon, Trevi Fountain, Spanish Steps, and Piazza Navona. End with dinner in Trastevere.' },
+    ],
+    [
+      { q: 'Can I do Rome in one day?', a: 'Only if you want to be exhausted. Three days is the absolute minimum.' },
+    ],
+    '2026-07-03'
   ),
 ];
 
