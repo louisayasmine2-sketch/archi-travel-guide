@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { COOKIE } from "@/constants/testIds";
+import { initializeClarity } from "@/lib/analytics";
 
 const STORAGE_KEY = "archi_cookie_consent";
 
@@ -16,6 +17,7 @@ export default function CookieConsent() {
 
   const setChoice = (choice) => {
     try { localStorage.setItem(STORAGE_KEY, choice); } catch (_) { /* ignore */ }
+    if (choice === "accepted") initializeClarity();
     setVisible(false);
   };
 

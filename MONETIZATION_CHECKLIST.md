@@ -77,6 +77,17 @@ placement rules are in place, the compliance safeguards are in place.
 - **Low ad density** — the site quality score matters more than a few extra
   impressions per session.
 
+## Behavior analytics — Microsoft Clarity
+
+- Clarity is optional and controlled by `REACT_APP_CLARITY_PROJECT_ID`.
+- It loads only in production after the cookie banner is accepted.
+- Use it to review heatmaps, scroll depth, dead clicks, rage clicks and session
+  recordings before changing CTA placement.
+- Custom events are sent for `contact_submit` and `lead_submit` so lead pages
+  can be reviewed inside Clarity.
+- Keep Clarity findings directional: use them to improve UX and CTA clarity, not
+  to add aggressive popups or misleading ad placements.
+
 ## Growth sprint (Monetization + Traffic): Siena fast lane
 
 Siena is your best short-term source for low-to-medium intent traffic.

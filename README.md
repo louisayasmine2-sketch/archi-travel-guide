@@ -66,6 +66,7 @@ cp backend/.env.example  backend/.env
 | `REACT_APP_SITE_URL`    | frontend  | Canonical origin for `<link rel=canonical>`, OG, JSON-LD, sitemap.      |
 | `REACT_APP_BACKEND_URL` | frontend  | Base URL for `/api/*` calls. Do not include trailing slash.             |
 | `REACT_APP_GA_MEASUREMENT_ID` | frontend | Google Analytics 4 measurement ID (for example `G-XXXXXXXXXX`). Set only in production environments where tracking is enabled. |
+| `REACT_APP_CLARITY_PROJECT_ID` | frontend | Microsoft Clarity project ID. Optional; loads only in production after cookie consent is accepted. |
 | `MONGO_URL`             | backend   | MongoDB connection string. Pre-configured — do not change locally.      |
 | `DB_NAME`               | backend   | MongoDB database name. Pre-configured — do not change locally.          |
 | `CORS_ORIGINS`          | backend   | Comma-separated allowed origins for CORS. Restrict at launch.           |
@@ -81,6 +82,7 @@ Use this value for production:
 ```bash
 REACT_APP_SITE_URL=https://affittacameregliarchi.com
 REACT_APP_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+REACT_APP_CLARITY_PROJECT_ID=xxxxxxxxxx
 ```
 
 ## Frontend commands

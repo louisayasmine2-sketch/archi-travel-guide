@@ -28,12 +28,13 @@ import BestTimeToVisit from "@/pages/tools/BestTimeToVisit";
 import TransportGuide from "@/pages/tools/TransportGuide";
 import LegacyContentPage from "@/pages/legacy/LegacyContentPage";
 import HubPage from "@/pages/HubPage";
-import { trackPageView } from "@/lib/analytics";
+import { initializeClarity, trackPageView } from "@/lib/analytics";
 
 function GoogleAnalytics() {
   const location = useLocation();
 
   useEffect(() => {
+    initializeClarity();
     const pagePath = `${location.pathname}${location.search}`;
     trackPageView(pagePath, document.title);
   }, [location.pathname, location.search]);

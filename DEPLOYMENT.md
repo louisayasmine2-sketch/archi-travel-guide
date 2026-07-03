@@ -59,7 +59,28 @@ Additional conversion events are already implemented:
 To mark these as GA4 conversions, in Google Analytics go to
 **Configure → Events → Import conversion events** and enable both event names.
 
-## 3. Regenerate the sitemap
+## 3. Enable Microsoft Clarity (Cloudflare Pages)
+
+Microsoft Clarity is optional and is controlled by an env var. It only loads in
+production builds after the visitor accepts the cookie banner.
+
+Add this variable in Cloudflare Pages (same location as above):
+
+```
+Variable name: REACT_APP_CLARITY_PROJECT_ID
+Value: <your-clarity-project-id>
+```
+
+When enabled, Clarity records behavior analytics such as heatmaps and session
+recordings. The app also sends Clarity custom events for:
+
+- `contact_submit`
+- `lead_submit`
+
+If this variable is empty or missing, Clarity is not loaded and the build still
+works normally.
+
+## 4. Regenerate the sitemap
 
 ```
 cd frontend
@@ -69,7 +90,7 @@ REACT_APP_SITE_URL=https://affittacameregliarchi.com yarn sitemap
 `yarn build` already runs `yarn sitemap` as a pre-step. Committing the
 generated `public/sitemap.xml` is fine — the file is deterministic.
 
-## 4. Confirm robots.txt
+## 5. Confirm robots.txt
 
 `public/robots.txt` is intentionally minimal:
 
@@ -80,7 +101,7 @@ Disallow: /api/
 Sitemap: https://affittacameregliarchi.com/sitemap.xml
 ```
 
-## 5. Backend environment (production)
+## 6. Backend environment (production)
 
 ```
 MONGO_URL=<your-production-connection-string>
@@ -93,7 +114,7 @@ RESEND_TO_EMAIL=contact@affittacameregliarchi.com
 
 **Never** ship `CORS_ORIGINS=*` to production.
 
-## 6. Frontend build
+## 7. Frontend build
 
 ```
 yarn install
@@ -110,7 +131,7 @@ Serve the `build/` folder from any static host. Configure the host to:
 4. Set `Cache-Control: public, max-age=0, must-revalidate` for `/index.html`.
 5. HTTPS only, HSTS enabled.
 
-## 7. Post-deploy manual checks
+## 8. Post-deploy manual checks
 
 Run these once, in this order:
 
@@ -123,15 +144,18 @@ Run these once, in this order:
 6. Verify a JSON-LD article page in Google's Rich Results Test.
 7. Confirm the contact form POSTs to `/api/contact` and creates a document in
    the `contact_messages` collection.
+8. If `REACT_APP_CLARITY_PROJECT_ID` is set, accept the cookie banner and confirm
+   the visit appears in Microsoft Clarity.
 
-## 8. Deferred integrations
+## 9. Deferred integrations
 
 - **Resend** (contact form email) — see `HANDOFF.md`.
 - **Google AdSense** — see `MONETIZATION_CHECKLIST.md`.
 - **Analytics** — GA4 is wired in via `REACT_APP_GA_MEASUREMENT_ID` when set in
-  production. Update policy and cookie copy if you also enable non-essential cookies.
+  production. Microsoft Clarity is wired in via `REACT_APP_CLARITY_PROJECT_ID`
+  when set in production and the visitor accepts cookies.
 
-## 9. Rollback
+## 10. Rollback
 
 Since the site is static SPA + stateless backend, roll back by redeploying the
 previous build tag. MongoDB collections (`newsletter`, `contact_messages`)

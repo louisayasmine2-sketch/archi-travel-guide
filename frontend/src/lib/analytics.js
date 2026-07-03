@@ -1,5 +1,8 @@
 const GA_MEASUREMENT_ID = process.env.REACT_APP_GA_MEASUREMENT_ID;
+const CLARITY_PROJECT_ID = process.env.REACT_APP_CLARITY_PROJECT_ID;
+const COOKIE_CONSENT_KEY = "archi_cookie_consent";
 const SHOULD_TRACK = process.env.NODE_ENV === "production" && typeof GA_MEASUREMENT_ID === "string" && GA_MEASUREMENT_ID.trim().length > 0;
+const SHOULD_LOAD_CLARITY = process.env.NODE_ENV === "production" && typeof CLARITY_PROJECT_ID === "string" && CLARITY_PROJECT_ID.trim().length > 0;
 
 const getMeasurementId = () => {
   if (!SHOULD_TRACK) {
@@ -34,8 +37,47 @@ const ensureGaScript = () => {
   return measurementId;
 };
 
+const hasCookieConsent = () => {
+  if (typeof window === "undefined") return false;
+  try {
+    return window.localStorage.getItem(COOKIE_CONSENT_KEY) === "accepted";
+  } catch (_) {
+    return false;
+  }
+};
+
+export const initializeClarity = () => {
+  if (typeof window === "undefined" || typeof document === "undefined") return false;
+  if (!SHOULD_LOAD_CLARITY || !hasCookieConsent()) return false;
+  if (window.__clarityInitialized) return true;
+
+  const projectId = CLARITY_PROJECT_ID.trim();
+  window.__clarityInitialized = true;
+
+  (function (c, l, a, r, i, t, y) {
+    c[a] = c[a] || function () {
+      (c[a].q = c[a].q || []).push(arguments);
+    };
+    t = l.createElement(r);
+    t.async = 1;
+    t.src = "https://www.clarity.ms/tag/" + i;
+    y = l.getElementsByTagName(r)[0];
+    y.parentNode.insertBefore(t, y);
+  })(window, document, "clarity", "script", projectId);
+
+  return true;
+};
+
+const trackClarityEvent = (eventName) => {
+  initializeClarity();
+  if (typeof window !== "undefined" && typeof window.clarity === "function") {
+    window.clarity("event", eventName);
+  }
+};
+
 export const trackPageView = (pagePath, pageTitle = "") => {
   if (typeof window === "undefined") return;
+  initializeClarity();
   const measurementId = ensureGaScript();
   if (!measurementId) return;
 
@@ -47,6 +89,7 @@ export const trackPageView = (pagePath, pageTitle = "") => {
 
 const trackConversionEvent = (eventName, params = {}) => {
   if (typeof window === "undefined") return;
+  trackClarityEvent(eventName);
   const measurementId = ensureGaScript();
   if (!measurementId) return;
 
@@ -71,4 +114,4 @@ export const trackLeadSubmit = (params = {}) => {
 };
 
 export const isGaTrackingEnabled = SHOULD_TRACK;
-
+export const isClarityTrackingEnabled = SHOULD_LOAD_CLARITY;
