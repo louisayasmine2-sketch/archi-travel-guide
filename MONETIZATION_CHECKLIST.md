@@ -92,6 +92,7 @@ Siena is your best short-term source for low-to-medium intent traffic.
 3. **Cloudflare Pages checks**
    - Confirm deployment is green and canonical URLs are correct.
    - Open 2–3 sample Siena articles; validate form section and affiliate rendering.
+   - Keep the working checklist in `GSC_INDEXATION_TRACKER.md`.
 4. **Indexation sprint (daily for first 7 days)**
    - Open Google Search Console → Coverage → Pages → ensure sitemap is submitted.
    - URL Inspection for each new Siena article and click **Request indexing**.
