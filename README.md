@@ -65,12 +65,21 @@ cp backend/.env.example  backend/.env
 | ----------------------- | --------- | ----------------------------------------------------------------------- |
 | `REACT_APP_SITE_URL`    | frontend  | Canonical origin for `<link rel=canonical>`, OG, JSON-LD, sitemap.      |
 | `REACT_APP_BACKEND_URL` | frontend  | Base URL for `/api/*` calls. Do not include trailing slash.             |
+| `REACT_APP_GA_MEASUREMENT_ID` | frontend | Google Analytics 4 measurement ID (for example `G-XXXXXXXXXX`). Set only in production environments where tracking is enabled. |
 | `MONGO_URL`             | backend   | MongoDB connection string. Pre-configured — do not change locally.      |
 | `DB_NAME`               | backend   | MongoDB database name. Pre-configured — do not change locally.          |
 | `CORS_ORIGINS`          | backend   | Comma-separated allowed origins for CORS. Restrict at launch.           |
 | `RESEND_*` (commented)  | backend   | Reserved for future contact-form email delivery. See `HANDOFF.md`.      |
 
 If `REACT_APP_SITE_URL` is not set, the app uses the current browser origin and falls back to `http://localhost:3000` for non-browser scripts/tests. Set `REACT_APP_SITE_URL=https://affittacameregliarchi.com` in production so canonical URLs, OG URLs, JSON-LD and sitemap URLs use the live domain.
+
+For Cloudflare Pages, add the same variables in **Settings → Environment Variables** under Build variables.
+Use this value for production:
+
+```bash
+REACT_APP_SITE_URL=https://affittacameregliarchi.com
+REACT_APP_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+```
 
 ## Frontend commands
 

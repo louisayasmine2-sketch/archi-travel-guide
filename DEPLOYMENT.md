@@ -23,7 +23,35 @@ Set it in the deployment platform's frontend build environment. It's read by
 
 If the variable is missing at build time, local development falls back to the browser origin or `http://localhost:3000`. Production deploys must set `REACT_APP_SITE_URL` so generated metadata and `public/sitemap.xml` use `https://affittacameregliarchi.com`. Fallback lives in one place: `src/lib/seo.js`.
 
-## 2. Regenerate the sitemap
+For Cloudflare Pages, set the variable in **Settings → Environment Variables → Build variables**:
+
+```
+Variable name: REACT_APP_SITE_URL
+Value: https://affittacameregliarchi.com
+```
+
+## 2. Enable Google Analytics 4 (Cloudflare Pages)
+
+This project reads GA only from an env var and only runs in production builds.
+
+Add this variable in Cloudflare Pages (same location as above):
+
+```
+Variable name: REACT_APP_GA_MEASUREMENT_ID
+Value: G-XXXXXXXXXX
+```
+
+Optional: set an optional preview value for non-production preview builds:
+
+```
+Environment: Preview (optional)
+Variable name: REACT_APP_GA_MEASUREMENT_ID
+Value: (left empty)
+```
+
+If `REACT_APP_GA_MEASUREMENT_ID` is set and deployment is production, GA4 is initialized automatically and page views are tracked on SPA route changes.
+
+## 3. Regenerate the sitemap
 
 ```
 cd frontend
@@ -33,7 +61,7 @@ REACT_APP_SITE_URL=https://affittacameregliarchi.com yarn sitemap
 `yarn build` already runs `yarn sitemap` as a pre-step. Committing the
 generated `public/sitemap.xml` is fine — the file is deterministic.
 
-## 3. Confirm robots.txt
+## 4. Confirm robots.txt
 
 `public/robots.txt` is intentionally minimal:
 
@@ -44,7 +72,7 @@ Disallow: /api/
 Sitemap: https://affittacameregliarchi.com/sitemap.xml
 ```
 
-## 4. Backend environment (production)
+## 5. Backend environment (production)
 
 ```
 MONGO_URL=<your-production-connection-string>
@@ -54,7 +82,7 @@ CORS_ORIGINS=https://affittacameregliarchi.com,https://www.affittacameregliarchi
 
 **Never** ship `CORS_ORIGINS=*` to production.
 
-## 5. Frontend build
+## 6. Frontend build
 
 ```
 yarn install
@@ -71,7 +99,7 @@ Serve the `build/` folder from any static host. Configure the host to:
 4. Set `Cache-Control: public, max-age=0, must-revalidate` for `/index.html`.
 5. HTTPS only, HSTS enabled.
 
-## 6. Post-deploy manual checks
+## 7. Post-deploy manual checks
 
 Run these once, in this order:
 
@@ -85,14 +113,14 @@ Run these once, in this order:
 7. Confirm the contact form POSTs to `/api/contact` and creates a document in
    the `contact_messages` collection.
 
-## 7. Deferred integrations
+## 8. Deferred integrations
 
 - **Resend** (contact form email) — see `HANDOFF.md`.
 - **Google AdSense** — see `MONETIZATION_CHECKLIST.md`.
-- **Analytics** — no analytics is wired in v1. If you add Plausible / GA4,
-  update the cookie policy and cookie banner copy accordingly.
+- **Analytics** — GA4 is wired in via `REACT_APP_GA_MEASUREMENT_ID` when set in
+  production. Update policy and cookie copy if you also enable non-essential cookies.
 
-## 8. Rollback
+## 9. Rollback
 
 Since the site is static SPA + stateless backend, roll back by redeploying the
 previous build tag. MongoDB collections (`newsletter`, `contact_messages`)
