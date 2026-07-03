@@ -1,7 +1,9 @@
 import { ExternalLink } from "lucide-react";
 
 export default function AffiliateCard({ title, provider, description, ctaLabel = "Compare options", href = "", tag }) {
-  const hasLiveLink = typeof href === "string" && href.trim() && href !== "#";
+  const normalizedHref = typeof href === "string" ? href.trim() : "";
+  const isPlaceholderLink = !normalizedHref || normalizedHref === "#" || normalizedHref.includes("utm_source=archi");
+  const hasLiveLink = normalizedHref.startsWith("http") && !isPlaceholderLink;
 
   return (
     <article className="card-editorial p-6 flex flex-col">
