@@ -18,7 +18,9 @@ export default function AffiliateCard({ title, provider, description, ctaLabel =
       <h3 className="font-serif text-2xl leading-tight">{title}</h3>
       <p className="text-sm text-[hsl(var(--charcoal-soft))] mt-3 leading-relaxed flex-1">{description}</p>
       <p className="mt-4 text-[11px] text-[hsl(var(--charcoal-soft))]/80">
-        Affiliate link — Archi may earn a commission at no extra cost to you.
+        {hasLiveLink
+          ? "Affiliate link — Archi may earn a commission at no extra cost to you."
+          : "Partner link not active yet — this recommendation is editorial only for now."}
       </p>
       {hasLiveLink ? (
         <a

@@ -81,7 +81,7 @@ export default function Contact() {
         <div className="container-editorial grid grid-cols-1 lg:grid-cols-12 gap-10">
           <form onSubmit={submit} data-testid={CONTACT.form} className="lg:col-span-8 rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] p-6 md:p-8 space-y-5">
             <p className="text-sm text-[hsl(var(--charcoal-soft))] leading-relaxed">
-              Messages open your email app and are sent to <a className="link-terra" href={"mailto:" + CONTACT_EMAIL}>{CONTACT_EMAIL}</a>. Direct form delivery can be connected later.
+              Messages are delivered directly to <a className="link-terra" href={"mailto:" + CONTACT_EMAIL}>{CONTACT_EMAIL}</a>. If delivery is temporarily unavailable, we will show a clear fallback.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               <label className="space-y-1.5"><span className={LABEL}>Name</span>

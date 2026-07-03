@@ -1,8 +1,13 @@
+import { useState } from "react";
+import axios from "axios";
+import { toast } from "sonner";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import AffiliateCard from "@/components/common/AffiliateCard";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";
+import { trackLeadSubmit } from "@/lib/analytics";
+import { Send } from "lucide-react";
 
 const RESOURCES = [
   { title: "Compare hotels across major booking sites", provider: "Hotels", tag: "Search", description: "Meta-search platforms let you compare prices from booking sites in one place — better than pledging loyalty to one.", href: "/travel-deals?utm_source=archi&utm_medium=deals&utm_campaign=hub" },
@@ -12,6 +17,23 @@ const RESOURCES = [
   { title: "Rail passes and long-distance train tickets", provider: "Transport", tag: "Rail", description: "For Europe especially, booking well in advance often saves 40–60% on high-speed routes.", href: "/travel-deals?utm_source=archi&utm_medium=deals&utm_campaign=hub" },
   { title: "Compact travel gear and packing accessories", provider: "Gear", tag: "Accessories", description: "Packing cubes, folding daypacks, universal adapters — the small items that make trips less friction-heavy.", href: "/travel-deals?utm_source=archi&utm_medium=deals&utm_campaign=hub" },
 ];
+
+const API = process.env.REACT_APP_BACKEND_URL ? `${process.env.REACT_APP_BACKEND_URL}/api/contact` : null;
+const CONTACT_EMAIL = "contact@affittacameregliarchi.com";
+const FIELD = "w-full rounded-xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] px-4 py-3 text-sm focus:border-[hsl(var(--terracotta))] focus:outline-none";
+const LABEL = "text-sm font-medium text-[hsl(var(--charcoal))]";
+
+const requestMailto = ({ name, email, category, message }) => {
+  const body = [
+    `Name: ${name}`,
+    `Email: ${email}`,
+    `Category: ${category}`,
+    "",
+    message,
+  ].join("\n");
+
+  return `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("Travel deals request")}&body=${encodeURIComponent(body)}`;
+};
 
 export default function TravelDeals() {
   return (
@@ -39,11 +61,13 @@ export default function TravelDeals() {
         <div className="container-editorial">
           <div className="rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] p-6 mb-10">
             <p className="text-sm leading-relaxed">
-              <strong className="font-semibold">Affiliate disclosure:</strong> The cards below contain affiliate links.
-              If you buy through them, we may earn a small commission — the price you pay does not change. We only list
-              tools we would recommend anyway.
+              <strong className="font-semibold">Affiliate disclosure:</strong> Some cards may contain affiliate links once partner URLs are active.
+              If you buy through a live partner link, we may earn a small commission — the price you pay does not change.
+              We only list tools we would recommend anyway.
             </p>
           </div>
+
+          <DealLeadForm />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {RESOURCES.map((r) => (
@@ -57,5 +81,102 @@ export default function TravelDeals() {
         </div>
       </section>
     </div>
+  );
+}
+
+function DealLeadForm() {
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    category: "Hotels",
+    message: "I need a short recommendation for Siena or Tuscany. My dates, budget, and travel style are...",
+  });
+  const [loading, setLoading] = useState(false);
+  const update = (key, value) => setForm((current) => ({ ...current, [key]: value }));
+
+  const submit = async (event) => {
+    event.preventDefault();
+
+    if (!API) {
+      trackLeadSubmit({
+        form_source: "travel_deals_request",
+        delivery_method: "mailto",
+        category: form.category,
+      });
+      window.location.href = requestMailto(form);
+      toast.info("Opening your email app with this request prepared.");
+      return;
+    }
+
+    setLoading(true);
+    try {
+      await axios.post(API, {
+        name: form.name,
+        email: form.email,
+        subject: `Travel deals request: ${form.category}`,
+        message: form.message,
+      });
+      trackLeadSubmit({
+        form_source: "travel_deals_request",
+        delivery_method: "backend",
+        category: form.category,
+      });
+      toast.success("Request sent. We will reply with a practical shortlist.");
+      setForm({
+        name: "",
+        email: "",
+        category: "Hotels",
+        message: "I need a short recommendation for Siena or Tuscany. My dates, budget, and travel style are...",
+      });
+    } catch {
+      toast.error(`We could not send this request right now. Please email ${CONTACT_EMAIL}.`);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <form onSubmit={submit} className="mb-12 rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] p-6 md:p-8">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        <div className="lg:col-span-5">
+          <p className="overline">Fast shortlist</p>
+          <h2 className="mt-2 font-serif text-3xl leading-tight">Need one practical recommendation?</h2>
+          <p className="mt-3 text-sm text-[hsl(var(--charcoal-soft))] leading-relaxed">
+            Send your route, dates and budget. We will point you toward the most useful category first, without pushing a partner link.
+          </p>
+        </div>
+        <div className="lg:col-span-7 space-y-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <label className="space-y-1.5">
+              <span className={LABEL}>Name</span>
+              <input required value={form.name} onChange={(e) => update("name", e.target.value)} className={FIELD} placeholder="Your name" />
+            </label>
+            <label className="space-y-1.5">
+              <span className={LABEL}>Email</span>
+              <input required type="email" value={form.email} onChange={(e) => update("email", e.target.value)} className={FIELD} placeholder="you@email.com" />
+            </label>
+          </div>
+          <label className="space-y-1.5 block">
+            <span className={LABEL}>What do you need?</span>
+            <select value={form.category} onChange={(e) => update("category", e.target.value)} className={FIELD}>
+              <option>Hotels</option>
+              <option>Tours</option>
+              <option>Transport</option>
+              <option>eSIM</option>
+              <option>Insurance</option>
+              <option>Gear</option>
+            </select>
+          </label>
+          <label className="space-y-1.5 block">
+            <span className={LABEL}>Trip notes</span>
+            <textarea required rows={4} value={form.message} onChange={(e) => update("message", e.target.value)} className={`${FIELD} resize-y`} />
+          </label>
+          <button type="submit" className="btn-primary" disabled={loading}>
+            <Send className="w-4 h-4" />
+            {loading ? "Sending..." : "Send request"}
+          </button>
+        </div>
+      </div>
+    </form>
   );
 }
