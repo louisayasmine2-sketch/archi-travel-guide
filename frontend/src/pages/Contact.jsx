@@ -12,6 +12,17 @@ const API = process.env.REACT_APP_BACKEND_URL ? `${process.env.REACT_APP_BACKEND
 const SEL = "w-full rounded-xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] px-4 py-3 text-sm focus:border-[hsl(var(--terracotta))] focus:outline-none";
 const LABEL = "text-sm font-medium text-[hsl(var(--charcoal))]";
 
+const contactMailto = ({ name, email, subject, message }) => {
+  const body = [
+    `Name: ${name}`,
+    `Email: ${email}`,
+    "",
+    message,
+  ].join("\n");
+
+  return `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+};
+
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", subject: "", message: "" });
   const [loading, setLoading] = useState(false);
@@ -21,7 +32,8 @@ export default function Contact() {
     e.preventDefault();
 
     if (!API) {
-      toast.info(`Email delivery is not connected yet. Please contact us directly at ${CONTACT_EMAIL}.`);
+      window.location.href = contactMailto(form);
+      toast.info("Opening your email app with this message prepared.");
       return;
     }
 
@@ -60,7 +72,7 @@ export default function Contact() {
         <div className="container-editorial grid grid-cols-1 lg:grid-cols-12 gap-10">
           <form onSubmit={submit} data-testid={CONTACT.form} className="lg:col-span-8 rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] p-6 md:p-8 space-y-5">
             <p className="text-sm text-[hsl(var(--charcoal-soft))] leading-relaxed">
-              Contact form delivery can be connected later. If the form is unavailable, email us directly at <a className="link-terra" href={"mailto:" + CONTACT_EMAIL}>{CONTACT_EMAIL}</a>.
+              Messages open your email app and are sent to <a className="link-terra" href={"mailto:" + CONTACT_EMAIL}>{CONTACT_EMAIL}</a>. Direct form delivery can be connected later.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               <label className="space-y-1.5"><span className={LABEL}>Name</span>

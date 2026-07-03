@@ -205,6 +205,17 @@ const defaultMessage = (sourceTitle) => sourceTitle
   ? `Hi team — I saw your article "${sourceTitle}". I need quick booking guidance.`
   : "Hi team — I need quick booking guidance for a Siena trip.";
 
+const leadMailto = ({ name, email, subject, message }) => {
+  const body = [
+    `Name: ${name}`,
+    `Email: ${email}`,
+    "",
+    message,
+  ].join("\n");
+
+  return `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+};
+
 function FastLeadForm({ sourceTitle = "", sourceHint = "" }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -212,9 +223,11 @@ function FastLeadForm({ sourceTitle = "", sourceHint = "" }) {
 
   const submit = async (e) => {
     e.preventDefault();
+    const subject = sourceHint || "Quick trip lead";
 
     if (!API) {
-      toast.info(`Backend not connected yet. Please email ${CONTACT_EMAIL}.`);
+      window.location.href = leadMailto({ name, email, subject, message });
+      toast.info("Opening your email app with this request prepared.");
       return;
     }
 
@@ -222,7 +235,7 @@ function FastLeadForm({ sourceTitle = "", sourceHint = "" }) {
       await axios.post(API, {
         name,
         email,
-        subject: sourceHint || "Quick trip lead",
+        subject,
         message,
       });
       toast.success("Lead sent. We will reply within 1–2 business days.");
