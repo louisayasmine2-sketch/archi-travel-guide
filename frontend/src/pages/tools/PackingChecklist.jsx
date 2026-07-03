@@ -6,7 +6,7 @@ import AdPlaceholder from "@/components/common/AdPlaceholder";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";
 import { TOOLS } from "@/constants/testIds";
-import { ListChecks, Check } from "lucide-react";
+import { ListChecks, Check, BedDouble, MapPin, ExternalLink } from "lucide-react";
 
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 const SEL = "w-full rounded-xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] px-4 py-3 text-sm focus:border-[hsl(var(--terracotta))] focus:outline-none";
@@ -57,7 +57,8 @@ export default function PackingChecklist() {
 
       <section className="section-y">
         <div className="container-editorial grid grid-cols-1 lg:grid-cols-12 gap-10">
-          <form onSubmit={submit} data-testid={TOOLS.packForm} className="lg:col-span-4 rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] p-6 md:p-8 space-y-5 h-fit lg:sticky lg:top-28">
+          <div className="lg:col-span-4 space-y-6 h-fit lg:sticky lg:top-28">
+            <form onSubmit={submit} data-testid={TOOLS.packForm} className="rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] p-6 md:p-8 space-y-5">
             <label className="space-y-1.5 block"><span className={LABEL}>Destination</span>
               <input data-testid={TOOLS.packDestination} className={SEL} value={form.destination} onChange={(e) => upd("destination", e.target.value)} />
             </label>
@@ -72,11 +73,39 @@ export default function PackingChecklist() {
             <button data-testid={TOOLS.packSubmit} type="submit" className="btn-primary w-full justify-center" disabled={loading}>
               {loading ? "Building…" : "Generate checklist"}
             </button>
-          </form>
+            </form>
+
+            {/* Affiliate Sidebar Widget */}
+            <div className="rounded-2xl border border-[hsl(var(--stone-border))] bg-white p-6 shadow-sm space-y-4">
+              <div className="flex items-center gap-2 text-[hsl(var(--terracotta))]">
+                <MapPin className="w-5 h-5" />
+                <h3 className="font-serif text-lg leading-tight">Heading to {form.destination}?</h3>
+              </div>
+              <p className="text-sm text-[hsl(var(--charcoal-soft))] leading-relaxed">
+                Book your stay early to secure the best spots. Compare prices and find great deals on top-rated accommodations.
+              </p>
+              <a href="https://www.booking.com/index.html?aid=YOUR_AFFILIATE_ID" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full py-2.5 rounded-lg border-2 border-[hsl(var(--terracotta))] text-[hsl(var(--terracotta))] hover:bg-[hsl(var(--terracotta))] hover:text-white transition-colors text-sm font-semibold">
+                <BedDouble className="w-4 h-4" />
+                Find Hotels
+              </a>
+            </div>
+          </div>
 
           <div className="lg:col-span-8">
             {result ? (
               <div data-testid={TOOLS.packResult} className="space-y-6">
+                
+                {/* Affiliate Contextual Banner */}
+                <div className="rounded-2xl bg-gradient-to-br from-[hsl(var(--terracotta))]/10 to-[hsl(var(--olive))]/10 border border-[hsl(var(--terracotta))]/20 p-5 sm:p-6 flex flex-col sm:flex-row items-center gap-4 sm:gap-6 justify-between">
+                  <div className="text-center sm:text-left">
+                    <h3 className="font-serif text-xl sm:text-2xl text-[hsl(var(--charcoal))]">Still need a place to stay?</h3>
+                    <p className="text-sm sm:text-base text-[hsl(var(--charcoal-soft))] mt-1">Don't wait until the last minute. Find the best deals in {form.destination}.</p>
+                  </div>
+                  <a href="https://www.booking.com/index.html?aid=YOUR_AFFILIATE_ID" target="_blank" rel="noopener noreferrer" className="btn-primary whitespace-nowrap shrink-0 flex items-center gap-2 w-full sm:w-auto justify-center">
+                    Check Availability
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                </div>
                 {Object.entries(result.categories).map(([cat, items]) => (
                   <div key={cat} className="rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] p-6">
                     <h3 className="font-serif text-2xl">{cat}</h3>
