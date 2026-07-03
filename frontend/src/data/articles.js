@@ -2,8 +2,9 @@
 // Not copied from any previous business. Each article is structured for the
 // Article page template (breadcrumbs, TOC, sections, FAQ, related).
 
-const A = (slug, title, category, region, excerpt, image, sections, faqs = [], updated = '2025-11-10') => ({
+const A = (slug, title, category, region, excerpt, image, sections, faqs = [], updated = '2025-11-10', options = {}) => ({
   slug, title, category, region, excerpt, image, sections, faqs, updated,
+  ...options,
   author: {
     name: 'Archi Editorial Team',
     role: 'Travel guides & itinerary planning',
@@ -185,6 +186,349 @@ export const articles = [
       { id: 'ztl', heading: 'Driving into the walls', body: 'The centre is a ZTL zone. Cameras will fine you weeks later. Park at Santa Caterina, Il Campo or Il Duomo garages.' },
       { id: 'shoes', heading: 'Wrong shoes', body: 'The stones are uneven and can be slippery when damp. Do not underestimate this.' },
     ],
+  ),
+  A(
+    'siena-hotel-vs-apartment-guide',
+    'Siena Hotel vs Apartment: Which Booking Is Better for Your Trip',
+    'Accommodation', 'Siena',
+    'A practical comparison for a 2–5 day trip: hotel, B&B, or apartment — with pricing, logistics and real booking trade-offs.',
+    'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'booking-shape', heading: 'Start with your trip shape', body: 'If you want maximum flexibility and easy check-in support, choose a hotel or B&B. If you travel as a family, or stay 4+ nights, apartment stays usually beat hotels on value and storage.' },
+      { id: 'noise-cost', heading: 'Noise vs. value trade-off', body: 'Best-value apartments are often just outside the walls, while top convenience stays sit closer to Campo. Decide first: do you value quiet mornings more than lower nightly rates?' },
+      { id: 'cancellation-flex', heading: 'Cancellation policy before price', body: 'One cancelled plan can erase all savings if there is no free cancellation. For Italy mid-season plans, refundable options are worth a small premium.' },
+      { id: 'siena-specific', heading: 'Siena-specific reality', body: 'The walk to the city walls is excellent from central B&Bs and hotels. If your focus is transport simplicity and luggage handling, pick proximity over square footage.' },
+      { id: 'booking-flow', heading: 'Decision flow', body: 'Option 1: if travelling as a family: apartment > B&B > hotel.\nOption 2: if short trip and no car: B&B > hotel > apartment.\nOption 3: if you value one-time check-in: hotel > B&B > apartment.' },
+    ],
+    [
+      { q: 'Which option is cheapest?', a: 'Usually apartment, then B&B, then hotel — but location and breakability can change the total cost.' },
+      { q: 'Do apartments save on food budget?', a: 'Yes, if you use a kitchenette. But remember cleaning + deposit costs can reduce the advantage.' },
+    ],
+    '2026-07-03',
+    {
+      monetization: {
+        booking: {
+          heading: 'Need help choosing the right stay type?',
+          description: 'Send your dates and group type, and we will suggest booking-ready options.',
+          linkText: 'Send dates for booking advice',
+          linkHref: '/contact',
+          linkTone: 'primary',
+          leadSubjectHint: 'Accommodation type help for Siena trip',
+        },
+        affiliates: [
+          { title: 'Compare Siena hotel options by date', provider: 'Hotels', tag: 'Accommodation', description: 'Neutral comparison of hotels, B&Bs and apartments in central Siena.', ctaLabel: 'Open hotel comparison', href: '' },
+          { title: 'Apartment-style stays near Siena centre', provider: 'Apartments', tag: 'Lodging', description: 'Family-fit and long-stay stays with in-unit kitchens and practical services.', ctaLabel: 'Open apartment comparison', href: '' },
+        ],
+      },
+    }
+  ),
+  A(
+    'siena-parking-and-transfer-guide',
+    'Siena Parking Guide: Garages, Transfers, and Cost Planning',
+    'Transport', 'Siena',
+    'A direct, low-friction guide to Siena parking zones, transfer points and parking-related stress minimisation.',
+    'https://images.unsplash.com/photo-1590490360180-68f6bdbcf9b4?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'ztl-reality', heading: 'Siena is car-limited inside the walls', body: 'Most historic areas are inside a controlled traffic zone. Arrive, park outside, then walk or use short-transfer options into the centre.' },
+      { id: 'best-garages', heading: 'Best practical garage zones', body: 'Santa Caterina, Campo, and Porta Camollia zones usually work best for groups without overpaying. Confirm gate opening hours and any special-event surcharge.' },
+      { id: 'transfer-timing', heading: 'Add transfer time upfront', body: 'On arrival day, add 25–35 minutes for parking plus 5–10 minutes of local walking. This is enough to avoid missing evening reservations.' },
+      { id: 'avoid-fines', heading: 'Avoid fines and stress', body: 'Use only signed-access parking for city-edge entry, and save a screenshot of permit rules if you are uncertain before leaving your location.' },
+    ],
+    [
+      { q: 'Can I park in the centre?', a: 'Generally no, unless you have explicit permission and know the rules. The centre is designed for pedestrians during most periods.' },
+      { q: 'Should I book parking?', a: 'For weekends and holidays, yes. Pre-booked garage slots reduce arrival stress significantly.' },
+    ],
+    '2026-07-03',
+    {
+      monetization: {
+        booking: {
+          heading: 'Need a quick parking + transfer plan?',
+          description: 'Share arrival time, airport/rail details, and your room plan for a practical route suggestion.',
+          linkText: 'Get a fast arrival plan',
+          linkHref: '/contact',
+          linkTone: 'primary',
+          leadSubjectHint: 'Parking + transfer planning for Siena',
+        },
+        affiliates: [
+          { title: 'Find Siena airport transfer options', provider: 'Transfers', tag: 'Transport', description: 'Explore reliable transfer providers for airport and long-distance arrivals.', ctaLabel: 'Check transfer options', href: '' },
+          { title: 'Reserve flexible car parks in Siena', provider: 'Parking', tag: 'Parking', description: 'Weekend and event-week parking strategies for short trips.', ctaLabel: 'View parking guides', href: '' },
+        ],
+      },
+    }
+  ),
+  A(
+    'siena-with-kids-in-one-day',
+    'Siena in One Day with Kids: Slow Family Plan',
+    'Family travel', 'Siena',
+    'A kid-friendly 1-day Siena plan balancing walking, food, and no-fuss movement through the historic core.',
+    'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'morning', heading: 'Morning (gentle start)', body: 'Start with coffee and a short Campo walk, then one monument visit. Keep the first two stops within 20 minutes of each other.' },
+      { id: 'midday', heading: 'Midday (downshift)', body: 'Use one trattoria with highchairs and easy menu reading. Add a quick gelato break and hydrate before late afternoon.' },
+      { id: 'afternoon', heading: 'Afternoon (recovery block)', body: 'Swap one museum for a slower route: street fountains, square, or shaded lane walk. Families perform better with planned rest windows.' },
+      { id: 'night', heading: 'Night (keep it short)', body: 'Keep first-day evenings early and close to your lodging. Kids absorb less when the night schedule is consistent.' },
+    ],
+    [
+      { q: 'How many steps are realistic for kids?', a: 'Keep total intense walking under 4–5 hours with at least 3 breaks.' },
+      { q: 'What if kids get tired early?', a: 'Drop museums first, choose a family-friendly plaza and food stop instead of rigid routing.' },
+    ],
+    '2026-07-03',
+    {
+      monetization: {
+        booking: {
+          heading: 'Need a family-ready booking setup?',
+          description: 'We can suggest family-fit areas, rooms and practical routes in one reply.',
+          linkText: 'Share family dates',
+          linkHref: '/contact',
+          linkTone: 'primary',
+          leadSubjectHint: 'Family-friendly Siena itinerary',
+        },
+        affiliates: [
+          { title: 'Family-friendly Siena stays', provider: 'Family travel', tag: 'Accommodation', description: 'Rooms with practical space, child-friendly routines and central walking access.', ctaLabel: 'Compare family options', href: '' },
+          { title: 'Family transport and mobility tools', provider: 'Mobility', tag: 'Transport', description: 'Short routes and movement options designed for slower pacing.', ctaLabel: 'Check mobility options', href: '' },
+        ],
+      },
+    }
+  ),
+  A(
+    'siena-from-florence-airport-transfer',
+    'How to Reach Siena from Florence Airport',
+    'Transport', 'Siena',
+    'Direct, practical routes from Florence airport to Siena for low-stress transfers and small-city timing.',
+    'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'airport-first-step', heading: 'One route that usually works best', body: 'Use the bus/rail link to Florence city and then switch to Siena bus lines. It is cheaper and usually less complex than private alternatives.' },
+      { id: 'time-window', heading: 'Arrival time planning', body: 'For late evening arrivals, allow an extra transfer buffer and confirm service frequency. Airports can create unrealistic assumptions during rush periods.' },
+      { id: 'day-trips', heading: 'Return logic', body: 'For weekend returns, pre-check both daytime and evening transfer options. Late return windows reduce available seats unless pre-booked.' },
+      { id: 'budget-vs-speed', heading: 'Budget vs speed in practice', body: 'Bus-first routes tend to be cheapest, but private transfer can be simpler when you have many bags and no public-transport comfort.' },
+      { id: 'checklist', heading: 'Transfer checklist', body: 'Bring your transfer voucher, hotel address, and one phone number that is reachable in local time.' },
+    ],
+    [
+      { q: 'Which is cheaper: train or transfer?', a: 'For most one-way plans, public transport is cheaper, especially without large luggage.' },
+      { q: 'Can I still do this with kids?', a: 'Yes. Add one stopover in Florence and avoid transfer stacking.' },
+    ],
+    '2026-07-03',
+    {
+      monetization: {
+        booking: {
+          heading: 'Need transfer help from airport to Siena?',
+          description: 'Tell us flight time, luggage count, and arrival date for a practical transfer suggestion.',
+          linkText: 'Build transfer plan',
+          linkHref: '/contact',
+          linkTone: 'primary',
+          leadSubjectHint: 'Airport transfer planning for Siena',
+        },
+        affiliates: [
+          { title: 'Airport-to-Siena transfer options', provider: 'Private transfer', tag: 'Transfer', description: 'Compare transfer providers for direct, luggage-friendly routes.', ctaLabel: 'Check transfer options', href: '' },
+          { title: 'Train and bus schedule tools', provider: 'Tickets', tag: 'Transport', description: 'Use planning tools before transfer day so route windows are realistic.', ctaLabel: 'Compare transport tools', href: '' },
+        ],
+      },
+    }
+  ),
+  A(
+    'siena-weekend-itinerary-for-couples',
+    'Siena Weekend Itinerary for Couples',
+    'Itineraries', 'Siena',
+    'A practical 2-night, low-stress couple itinerary with food, timing, and walk pacing.',
+    'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'night-one', heading: 'Night 1: landmarks + aperitivo', body: 'Start with Campo and Duomo window blocks, then end at a quieter enoteca around 18:30–19:00.' },
+      { id: 'night-two', heading: 'Night 2: art + local dinner', body: 'Reserve one landmark, then a local restaurant where seating policy is clear. Keep one open hour for weather adjustment.' },
+      { id: 'walking-budget', heading: 'Walking budget', body: 'Even in a weekend, two concentrated blocks are better than chasing too many sites. Protect your pace by leaving one evening for a walk-only recovery.' },
+      { id: 'budget-swap', heading: 'Budget trade-offs', body: 'Swap one taxi expectation for pre-booked transport if you are tired, but keep most movement walkable for value.' },
+    ],
+    [
+      { q: 'Can we do this in 2 days?', a: 'Yes, if you limit to one major site per half-day and accept slower pacing.' },
+      { q: 'Do we need to book everything?', a: 'Only one reservation-heavy item needs hard booking; most meals and one major attraction can be timed without strict prebooking.' },
+    ],
+    '2026-07-03',
+    {
+      monetization: {
+        booking: {
+          heading: 'Want a couple-style booking recommendation?',
+          description: 'Share your preferred pace and we’ll suggest the best stay + dinner area for a 2-night trip.',
+          linkText: 'Get couple booking support',
+          linkHref: '/contact',
+          linkTone: 'primary',
+          leadSubjectHint: 'Couple weekend trip to Siena',
+        },
+        affiliates: [
+          { title: 'Romantic stays in Siena', provider: 'Hotels', tag: 'Accommodation', description: 'Top-value romantic options with strong location and easy access.', ctaLabel: 'View options', href: '' },
+          { title: 'Dining booking and reservations', provider: 'Restaurants', tag: 'Dining', description: 'Flexible options around peak Aperitivo and weekend hours.', ctaLabel: 'See dining options', href: '' },
+        ],
+      },
+    }
+  ),
+  A(
+    'siena-budget-and-meal-planning',
+    'Siena on a Mid-Range Budget: Meals, Hotels, and Movement',
+    'Budget planning', 'Siena',
+    'A practical spending map for a realistic mid-range Siena visit that avoids overpaying for the same 7-hour core.',
+    'https://images.unsplash.com/photo-1533777857889-4be7c050a86c?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'meal-curve', heading: 'Meal budget pattern', body: 'Set one special dinner, one mid-range dinner, and one casual lunch. The total cost stays predictable even in August.' },
+      { id: 'nights-and-location', heading: 'Hotel spend levers', body: 'Central first-night rates are usually higher, but movement is easier and logistics are smoother. Use value zones 10–15 minutes away to save cost.' },
+      { id: 'transport-cost', heading: 'Transport cost control', body: 'Public transport and short rides are usually cheaper than private transport unless you carry heavy group luggage.' },
+      { id: 'avoid-purchases', heading: 'Avoid impulse purchases', body: 'Skip late-night shopping sprees and souvenir duplication. One small local item plus one edible memory is enough for most trips.' },
+    ],
+    [
+      { q: 'Is €140/day realistic?', a: 'For a mid-range couple or pair with one nice dinner, yes. The cost range is wide depending on hotel area and transport choice.' },
+      { q: 'Where should I spend first?', a: 'Accommodation and one quality dinner give biggest return. Spend there; keep one meal and one attraction light.' },
+    ],
+    '2026-07-03',
+    {
+      monetization: {
+        booking: {
+          heading: 'Need a budget-optimized booking package?',
+          description: 'Send your budget target and we will suggest realistic options with the best value split.',
+          linkText: 'Get budget booking help',
+          linkHref: '/contact',
+          linkTone: 'primary',
+          leadSubjectHint: 'Budget Siena trip planning',
+        },
+        affiliates: [
+          { title: 'Hotel and package price comparison', provider: 'Hotels', tag: 'Travel deals', description: 'Compare stay and transfer options by price band and cancellation terms.', ctaLabel: 'Open price comparison', href: '' },
+          { title: 'Travel insurance for short trips', provider: 'Insurance', tag: 'Risk', description: 'Basic coverage for trips with transfer, luggage and medical contingencies.', ctaLabel: 'Review insurance options', href: '' },
+        ],
+      },
+    }
+  ),
+  A(
+    'siena-food-that-fits-a-budget',
+    'Siena Eating Cheap and Good: Budget-Friendly Local Food Guide',
+    'Food & drink', 'Siena',
+    'A concrete way to eat well in Siena without paying every time you sit down.',
+    'https://images.unsplash.com/photo-1527515545088-6dfde8f3b7f0?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'smart-ordering', heading: 'Order with the right anchor', body: 'Start with a simple soup or house wine, then one full pasta, then one dessert or gelato.' },
+      { id: 'best-time-spots', heading: 'Timing lowers cost', body: 'Early lunch, fixed dinner windows, and a dessert-only stop can cut unnecessary add-ons.' },
+      { id: 'where-to-look', heading: 'Location strategy', body: 'Main-square spots cost more. Walk 5–10 blocks and use menu language as a quick value filter.' },
+      { id: 'cashless-tips', heading: 'Simple payment logic', body: 'Use one card and one budget cap for each block. Keep 5–8% buffer for cover charge or service variability.' },
+    ],
+    [
+      { q: 'Is a seated meal always expensive?', a: 'Usually yes. The same food may be cheaper standing/bar style nearby.' },
+      { q: 'What should we avoid if we have a budget?', a: 'Skip wine-heavy add-ons and avoid dessert in every stop.' },
+    ],
+    '2026-07-03',
+    {
+      monetization: {
+        booking: {
+          heading: 'Need a meal plan for your exact dates?',
+          description: 'Share your dining budget and party size for tailored restaurant and area suggestions.',
+          linkText: 'Get budget dining suggestions',
+          linkHref: '/contact',
+          linkTone: 'primary',
+          leadSubjectHint: 'Budget dining guide for Siena',
+        },
+        affiliates: [
+          { title: 'Dining guides and local booking options', provider: 'Dining', tag: 'Restaurants', description: 'Reserve tables and avoid long waits on busy meal slots.', ctaLabel: 'See dining resources', href: '' },
+          { title: 'Local experiences and food walks', provider: 'Tours', tag: 'Experiences', description: 'Small-group tastings and guided neighborhood food walks.', ctaLabel: 'See Siena food options', href: '' },
+        ],
+      },
+    }
+  ),
+  A(
+    'siena-day-trips-without-a-car',
+    'Siena Day Trips Without a Car',
+    'Day trips', 'Siena',
+    'A clean list of day trips you can do from Siena using train and bus logic, not a rental.',
+    'https://images.unsplash.com/photo-1602002418082-5f3d5d8df4f8?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'best-matches', heading: 'Best trips without a vehicle', body: 'Montepulciano, San Gimignano and Monticchiello are easiest with public transport or guided shuttle.' },
+      { id: 'day-start', heading: 'Departure windows', body: 'Start earlier for train-dependent routes and use one fixed fallback plan if service changes.' },
+      { id: 'bookings', heading: 'Booking sequence', body: 'Book the outbound first, then choose one flexible return window. Keep snacks and paper maps for station transitions.' },
+      { id: 'why-no-car', heading: 'Why this is often cheaper', body: 'Parking fees and traffic stress often exceed comfort gain from a day rental, unless group size is high.' },
+    ],
+    [
+      { q: 'Can I do Val d’Orcia without a car?', a: 'Yes, but choose guided options and one fixed return slot to stay comfortable.' },
+      { q: 'What if one service is delayed?', a: 'Keep one backup activity and one indoor stop near central transport nodes.' },
+    ],
+    '2026-07-03',
+    {
+      monetization: {
+        booking: {
+          heading: 'Need a non-driving trip plan with Siena?',
+          description: 'Send your preferred destination list and we will return a transfer-friendly day trip plan.',
+          linkText: 'Send day-trip destinations',
+          linkHref: '/contact',
+          linkTone: 'primary',
+          leadSubjectHint: 'Day trips from Siena without a car',
+        },
+        affiliates: [
+          { title: 'Train and bus routes for Siena day trips', provider: 'Rail', tag: 'Transport', description: 'Fast checks for route options that align with your city-based schedule.', ctaLabel: 'Check transport options', href: '' },
+          { title: 'Guided Siena day-tour alternatives', provider: 'Tours', tag: 'Tours', description: 'Short guided departures with low coordination overhead.', ctaLabel: 'Review guided options', href: '' },
+        ],
+      },
+    }
+  ),
+  A(
+    'siena-weather-and-what-to-pack',
+    'Siena Weather by Season: What to Pack and Why',
+    'Packing', 'Siena',
+    'A practical season guide for Siena weather in 2026 planning windows, with clear packing logic for each season.',
+    'https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'spring', heading: 'Spring (March–May)', body: 'Mild days, occasional rain, and uneven walk surfaces. Bring layered layers, a rain shell, and fast-dry shoes.' },
+      { id: 'summer', heading: 'Summer (June–August)', body: 'Heat can be high midday. Prioritise hydration, shade windows, and a light cap strategy for museum exits.' },
+      { id: 'autumn', heading: 'Autumn (September–November)', body: 'Balanced weather, often best value, still walkable. Add a warmer shell for evening streets and churches.' },
+      { id: 'winter', heading: 'Winter (November–February)', body: 'Shorter daylight, colder mornings, and occasional rain/sleet. Keep electronics dry and carry indoor backup plans.' },
+      { id: 'siena-checklist', heading: 'Quick Siena packing checklist', body: 'Walking shoes, compact umbrella, reusable bottle, power bank, printed itinerary, and local transport fallback card.' },
+    ],
+    [
+      { q: 'Do I need warm layers in summer?', a: 'For daytime maybe not, but evenings and high walls are usually cooler. A light jumper helps.' },
+      { q: 'Is rain common?', a: 'Less than in coastal Italy, but showers are common in shoulders. A compact rain layer is worth the space.' },
+    ],
+    '2026-07-03',
+    {
+      monetization: {
+        booking: {
+          heading: 'Need help matching booking dates to weather season?',
+          description: 'Share travel month and trip duration for a practical date and gear recommendation.',
+          linkText: 'Build a season-ready trip',
+          linkHref: '/contact',
+          linkTone: 'primary',
+          leadSubjectHint: 'Siena weather + booking planning',
+        },
+        affiliates: [
+          { title: 'Travel gear for Siena city walks', provider: 'Gear', tag: 'Accessories', description: 'Compact packing essentials for uneven streets and changing weather.', ctaLabel: 'See packing options', href: '' },
+          { title: 'Reliable eSIM and connectivity', provider: 'Connectivity', tag: 'Tech', description: 'Keep maps and bookings available even when roaming is weak.', ctaLabel: 'Compare connectivity options', href: '' },
+        ],
+      },
+    }
+  ),
+  A(
+    'siena-tours-and-classes-to-book-first',
+    'Siena Tours to Book First (and What to Skip)',
+    'Experiences', 'Siena',
+    'A fast ranking of Siena experiences by value, crowd management, and booking urgency for realistic budgets.',
+    'https://images.unsplash.com/photo-1592919505781-2f6f0f1dc9dd?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'book-first', heading: 'Must-book items', body: 'For peak months, book museum-heavy afternoons and guided experiences tied to specific time slots at least 4–6 weeks early.' },
+      { id: 'book-late', heading: 'Can-wait items', body: 'Food walks and flexible countryside tours often perform better with 1–3 weeks or on-site booking within open windows.' },
+      { id: 'budget-priority', heading: 'Budget-aware priority', body: 'If your budget is tight, prioritise one signature paid experience and let two others be free or walkable.' },
+      { id: 'experience-fit', heading: 'Match to traveler profile', body: 'Family groups with kids usually perform better with one short experiential block and one short guided option than two long tours.' },
+    ],
+    [
+      { q: 'Which is highest priority to book first?', a: 'Choose one time-sensitive item first, especially in July/August and during major events.' },
+      { q: 'Should I prebook parking and tours together?', a: 'Only if you travel with luggage-heavy groups; otherwise prebook one, keep the other flexible.' },
+    ],
+    '2026-07-03',
+    {
+      monetization: {
+        booking: {
+          heading: 'Need prebooking help for Siena experiences?',
+          description: 'Share your dates and interests; we will rank the highest-value experiences for your plan.',
+          linkText: 'Prioritise my Siena booking list',
+          linkHref: '/contact',
+          linkTone: 'primary',
+          leadSubjectHint: 'Siena experiences prebooking',
+        },
+        affiliates: [
+          { title: 'Guided Siena experience marketplaces', provider: 'Tours', tag: 'Tours', description: 'Compare guide options and timing with clear cancellation rules.', ctaLabel: 'Check experience links', href: '' },
+          { title: 'Attraction entry and skip-the-line tools', provider: 'Tickets', tag: 'Attractions', description: 'Fast planning for high-demand sights near city peak times.', ctaLabel: 'Check attraction tools', href: '' },
+        ],
+      },
+    }
   ),
   A(
     'how-to-plan-europe-trip',

@@ -76,3 +76,38 @@ placement rules are in place, the compliance safeguards are in place.
   Bump it when facts change; do not fake it for SEO.
 - **Low ad density** — the site quality score matters more than a few extra
   impressions per session.
+
+## Growth sprint (Monetization + Traffic): Siena fast lane
+
+Siena is your best short-term source for low-to-medium intent traffic.
+
+1. **Confirm article delivery**
+   - Keep `monetization` metadata on each Siena article (`booking`, `leadSubjectHint`, `affiliates`).
+   - Keep one CTA + one fast lead form + 1–3 affiliate cards per Siena guide.
+2. **Sitemap + publish workflow**
+   - Set `REACT_APP_SITE_URL` to your production domain.
+   - Run `npm run sitemap` inside `frontend/`.
+   - Verify `frontend/public/sitemap.xml` includes the 10 new Siena URLs.
+   - Commit all content + sitemap changes together, push to `main`.
+3. **Cloudflare Pages checks**
+   - Confirm deployment is green and canonical URLs are correct.
+   - Open 2–3 sample Siena articles; validate form section and affiliate rendering.
+4. **Indexation sprint (daily for first 7 days)**
+   - Open Google Search Console → Coverage → Pages → ensure sitemap is submitted.
+   - URL Inspection for each new Siena article and click **Request indexing**.
+   - Track status (Indexed / Excluded / Error) in a simple tracker.
+
+## GSC and indexation tracker template
+
+Use this 5-column sheet (notion, sheets, or Excel):
+
+- URL
+- Last published
+- Date inspected
+- GSC Coverage status
+- CTR + avg position trend (weekly)
+
+### Note about domain age
+
+Domain age alone is not a major failure reason for indexing.
+Freshness, crawl quality, internal links, and user-intent match are usually the stronger factors.

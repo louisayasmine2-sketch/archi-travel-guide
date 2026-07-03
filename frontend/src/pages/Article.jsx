@@ -5,11 +5,16 @@ import FAQAccordion from "@/components/common/FAQAccordion";
 import ArticleCard from "@/components/common/ArticleCard";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
 import LazyImage from "@/components/common/LazyImage";
+import AffiliateCard from "@/components/common/AffiliateCard";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema, articleSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import { getArticle, articles } from "@/data/articles";
 import NotFound from "./NotFound";
+import { Send } from "lucide-react";
+import axios from "axios";
+import { toast } from "sonner";
+import { useState } from "react";
 
 export default function Article() {
   const { slug } = useParams();
@@ -17,6 +22,9 @@ export default function Article() {
   if (!article) return <NotFound />;
 
   const related = articles.filter((a) => a.slug !== slug && (a.region === article.region || a.category === article.category)).slice(0, 3);
+  const monetization = article.monetization || {};
+  const bookingCta = monetization.booking;
+  const affiliateItems = monetization.affiliates || [];
 
   const path = `/blog/${article.slug}`;
   const url = canonical(path);
@@ -83,6 +91,10 @@ export default function Article() {
               {article.faqs.length > 0 && (
                 <li><a href="#faq" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))]">FAQ</a></li>
               )}
+              {bookingCta && <li><a href="#booking-cta" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))]">Booking help</a></li>}
+              {affiliateItems.length > 0 && (
+                <li><a href="#affiliate-resources" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))]">Recommended resources</a></li>
+              )}
             </ol>
           </div>
         </aside>
@@ -110,10 +122,46 @@ export default function Article() {
           </div>
 
           {article.faqs.length > 0 && (
-            <section id="faq" className="mt-14 scroll-mt-28">
+          <section id="faq" className="mt-14 scroll-mt-28">
               <p className="overline">Frequently asked</p>
               <h2 className="font-serif mt-2">FAQ</h2>
               <FAQAccordion items={article.faqs} />
+            </section>
+          )}
+
+          {bookingCta && (
+            <section id="booking-cta" className="mt-14 scroll-mt-28">
+              <div className="rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] p-6">
+                <p className="overline">Booking support</p>
+                <h2 className="font-serif mt-2">Need a fast recommendation?</h2>
+                <p className="mt-3 text-[15px] text-[hsl(var(--charcoal-soft))] leading-relaxed">
+                  {bookingCta.description}
+                </p>
+                <div className="mt-5 flex flex-wrap gap-3">
+                  <Link
+                    to={bookingCta.linkHref || "/contact"}
+                    className="inline-flex items-center gap-2 btn-primary"
+                  >
+                    {bookingCta.linkText || "Contact us"}
+                  </Link>
+                </div>
+                <FastLeadForm sourceTitle={article.title} sourceHint={bookingCta.leadSubjectHint || `Lead: ${article.title}`} />
+              </div>
+            </section>
+          )}
+
+          {affiliateItems.length > 0 && (
+            <section id="affiliate-resources" className="mt-14">
+              <p className="overline">Affiliate resources</p>
+              <h2 className="font-serif mt-2">Helpful next-step options</h2>
+              <p className="mt-3 text-sm text-[hsl(var(--charcoal-soft))] leading-relaxed">
+                Affiliate links are clearly marked and fully optional. If you use them, we may earn a commission at no extra cost.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-6">
+                {affiliateItems.map((item) => (
+                  <AffiliateCard key={`${slug}-${item.title}`} {...item} />
+                ))}
+              </div>
             </section>
           )}
 
@@ -147,5 +195,87 @@ export default function Article() {
         </section>
       )}
     </article>
+  );
+}
+
+const API = process.env.REACT_APP_BACKEND_URL ? `${process.env.REACT_APP_BACKEND_URL}/api/contact` : null;
+const CONTACT_EMAIL = "contact@affittacameregliarchi.com";
+const FIELD = "w-full rounded-xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] px-4 py-3 text-sm focus:border-[hsl(var(--terracotta))] focus:outline-none";
+const defaultMessage = (sourceTitle) => sourceTitle
+  ? `Hi team — I saw your article "${sourceTitle}". I need quick booking guidance.`
+  : "Hi team — I need quick booking guidance for a Siena trip.";
+
+function FastLeadForm({ sourceTitle = "", sourceHint = "" }) {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState(defaultMessage(sourceTitle));
+
+  const submit = async (e) => {
+    e.preventDefault();
+
+    if (!API) {
+      toast.info(`Backend not connected yet. Please email ${CONTACT_EMAIL}.`);
+      return;
+    }
+
+    try {
+      await axios.post(API, {
+        name,
+        email,
+        subject: sourceHint || "Quick trip lead",
+        message,
+      });
+      toast.success("Lead sent. We will reply within 1–2 business days.");
+      setName("");
+      setEmail("");
+      setMessage(defaultMessage(sourceTitle));
+    } catch {
+      toast.error(`Couldn't send your request right now. Please email ${CONTACT_EMAIL}.`);
+    }
+  };
+
+  return (
+    <form onSubmit={submit} className="mt-6 space-y-4 border border-[hsl(var(--stone-border))] rounded-2xl bg-[hsl(var(--ivory))] p-6">
+      <p className="text-sm text-[hsl(var(--charcoal-soft))] leading-relaxed">
+        Quick lead form: share your trip idea, dates, and priorities. We will return one practical booking plan.
+      </p>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <label className="text-sm space-y-1.5">
+          <span className="font-medium">Name</span>
+          <input
+            required
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            className={FIELD}
+            placeholder="Your name"
+          />
+        </label>
+        <label className="text-sm space-y-1.5">
+          <span className="font-medium">Email</span>
+          <input
+            required
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className={FIELD}
+            placeholder="you@email.com"
+          />
+        </label>
+      </div>
+      <label className="text-sm space-y-1.5 block">
+        <span className="font-medium">Message</span>
+        <textarea
+          required
+          rows={4}
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          className={`${FIELD} resize-y`}
+        />
+      </label>
+      <button type="submit" className="btn-primary">
+        <Send className="w-4 h-4" />
+        Send fast lead
+      </button>
+    </form>
   );
 }

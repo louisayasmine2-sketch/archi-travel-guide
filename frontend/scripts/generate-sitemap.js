@@ -12,10 +12,9 @@
  * matching the app's safe local behavior in src/lib/seo.js.
  *
  * The script is intentionally dependency-free (no build step required).
- * We import the ES module data files via a tiny Node --experimental-vm-modules
- * loader fallback: since the data files are pure ES module exports of literals
- * with no React imports, we transpile them on the fly with a lightweight
- * regex-based reader — this keeps the script runnable in CI without extra deps.
+ * We read the article data file directly and extract routes with a lightweight
+ * parser. The parser supports the current `A()` helper shape with optional
+ * `faqs`, `updated`, and `options` arguments.
  */
 
 const fs = require('fs');
@@ -81,29 +80,122 @@ const staticRoutes = [
   { path: '/en/contacts-gli-archi-bed-and-breakfast-siena.html',        changefreq: 'monthly', priority: 0.45 },
 ];
 
-// --- Article extraction (regex-based, no build tooling required) ----------
+// --- Article extraction (simple parser, no build tooling required) ----------
 // Article slugs are extracted from `A('slug', ...)` calls in src/data/articles.js.
-// Per-article `updated` overrides the default global date when present as the
-// final positional argument on the A() helper. Currently all articles use the
-// helper default (see `A = (... updated = 'YYYY-MM-DD') =>` in articles.js).
+// We also respect explicit per-article `updated` values when present.
 function extractArticles() {
   const src = fs.readFileSync(path.join(ROOT, 'src/data/articles.js'), 'utf-8');
 
-  // Global default = helper's default value.
   const defaultMatch = src.match(/updated\s*=\s*'(\d{4}-\d{2}-\d{2})'/);
-  const globalDefault = defaultMatch ? defaultMatch[1] : new Date().toISOString().slice(0, 10);
+  const defaultUpdated = defaultMatch ? defaultMatch[1] : new Date().toISOString().slice(0, 10);
 
-  const slugRe = /A\(\s*'([a-z0-9-]+)'/g;
   const results = [];
   const seen = new Set();
-  let m;
-  while ((m = slugRe.exec(src)) !== null) {
-    const slug = m[1];
-    if (seen.has(slug)) continue;
-    seen.add(slug);
-    results.push({ slug, updated: globalDefault });
+
+  const dateRe = /^'\d{4}-\d{2}-\d{2}'$/;
+
+  let i = 0;
+  while ((i = src.indexOf('A(', i)) !== -1) {
+    let j = i + 2;
+    let depth = 1;
+    let inString = false;
+    let quote = '';
+    let escaped = false;
+
+    while (j < src.length && depth > 0) {
+      const ch = src[j];
+      if (inString) {
+        if (escaped) {
+          escaped = false;
+        } else if (ch === '\\') {
+          escaped = true;
+        } else if (ch === quote) {
+          inString = false;
+          quote = '';
+        }
+      } else if (ch === '"' || ch === "'") {
+        inString = true;
+        quote = ch;
+      } else if (ch === '(') {
+        depth += 1;
+      } else if (ch === ')') {
+        depth -= 1;
+      }
+      j += 1;
+    }
+
+    if (depth !== 0) break;
+
+    const callText = src.slice(i + 2, j - 1);
+    const slugMatch = callText.match(/^\s*'([a-z0-9-]+)'/);
+    if (!slugMatch) {
+      i = j;
+      continue;
+    }
+
+    const slug = slugMatch[1];
+    if (!seen.has(slug)) {
+      seen.add(slug);
+
+      const args = splitTopLevelArgs(callText);
+      const explicitUpdated = args.find((arg) => dateRe.test(arg.trim()));
+      results.push({
+        slug,
+        updated: explicitUpdated ? explicitUpdated.trim().slice(1, -1) : defaultUpdated,
+      });
+    }
+
+    i = j;
   }
+
   return results;
+}
+
+function splitTopLevelArgs(callText) {
+  const args = [];
+  let current = '';
+  let depth = 0;
+  let inString = false;
+  let quote = '';
+  let escaped = false;
+
+  for (let i = 0; i < callText.length; i++) {
+    const ch = callText[i];
+
+    if (inString) {
+      current += ch;
+      if (escaped) {
+        escaped = false;
+      } else if (ch === '\\') {
+        escaped = true;
+      } else if (ch === quote) {
+        inString = false;
+        quote = '';
+      }
+      continue;
+    }
+
+    if (ch === '"' || ch === "'") {
+      inString = true;
+      quote = ch;
+      current += ch;
+      continue;
+    }
+
+    if (ch === '[' || ch === '{' || ch === '(') depth += 1;
+    if (ch === ']' || ch === '}' || ch === ')') depth -= 1;
+
+    if (ch === ',' && depth === 0) {
+      args.push(current.trim());
+      current = '';
+      continue;
+    }
+
+    current += ch;
+  }
+
+  if (current.trim()) args.push(current.trim());
+  return args;
 }
 
 // --- XML rendering --------------------------------------------------------
