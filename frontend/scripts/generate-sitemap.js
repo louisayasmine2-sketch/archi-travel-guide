@@ -74,7 +74,6 @@ const staticRoutes = [
   { path: '/en/standard-double-room-in-siena.html',                     changefreq: 'monthly', priority: 0.45 },
   { path: '/en/superior-double-room-in-siena.html',                     changefreq: 'monthly', priority: 0.45 },
   { path: '/it/family-accomodation-per-4-a-siena.html',                changefreq: 'monthly', priority: 0.45 },
-  { path: '/en/gli-archi-bed-and-breakfast-siena.html',                changefreq: 'monthly', priority: 0.45 },
   { path: '/en/services-and-conditions-gli-archi-bad-and-breakfast.html', changefreq: 'monthly', priority: 0.45 },
   { path: '/en/holidays-in-siena.html',                                 changefreq: 'monthly', priority: 0.45 },
   { path: '/en/contacts-gli-archi-bed-and-breakfast-siena.html',        changefreq: 'monthly', priority: 0.45 },
