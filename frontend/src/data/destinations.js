@@ -58,11 +58,11 @@ export const italyRegions = [
 ];
 
 export const europeCountries = [
-  { name: 'France', blurb: 'Paris and beyond — from Loire châteaux to Provence.', slug: 'france' },
-  { name: 'Spain', blurb: 'Barcelona, Andalucía, and the northern coast.' },
-  { name: 'Switzerland', blurb: 'Alps, trains, and small design-forward cities.' },
-  { name: 'Greece', blurb: 'Athens, island hopping frameworks, off-season windows.' },
-  { name: 'Germany', blurb: 'Berlin, Bavaria, Christmas markets.' },
+  { name: 'France', blurb: 'Paris and beyond — from Loire châteaux to Provence. Discover the best hotels and holiday itineraries.', slug: 'france' },
+  { name: 'Spain', blurb: 'Barcelona, Andalucía, and the northern coast. Beach holidays and city escapes.' },
+  { name: 'Switzerland', blurb: 'Alps, trains, and small design-forward cities. Luxury hotels and scenic routes.' },
+  { name: 'Greece', blurb: 'Athens, island hopping frameworks, off-season windows. Boutique hotels and villas.' },
+  { name: 'Germany', blurb: 'Berlin, Bavaria, Christmas markets. Historic accommodations and city breaks.' },
 ];
 
 export const franceRegions = [

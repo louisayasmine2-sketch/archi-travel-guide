@@ -2,16 +2,21 @@
 // Not copied from any previous business. Each article is structured for the
 // Article page template (breadcrumbs, TOC, sections, FAQ, related).
 
-const A = (slug, title, category, region, excerpt, image, sections, faqs = [], updated = '2025-11-10', options = {}) => ({
-  slug, title, category, region, excerpt, image, sections, faqs, updated,
-  ...options,
-  author: {
-    name: 'Archi Editorial Team',
-    role: 'Travel guides & itinerary planning',
-    bio: 'Our editorial team writes practical, opinionated travel guides — no filler, no clickbait.',
-  },
-  readMinutes: Math.max(4, Math.round(sections.reduce((n, s) => n + (s.body?.length || 0), 0) / 1200)),
-});
+const A = (slug, title, category, region, excerpt, image, sections, faqs = [], updated = '2025-11-10', options = {}) => {
+  const safeSections = Array.isArray(sections) ? sections : [];
+  const safeFaqs = Array.isArray(faqs) ? faqs : [];
+
+  return {
+    slug, title, category, region, excerpt, image, sections: safeSections, faqs: safeFaqs, updated,
+    ...options,
+    author: {
+      name: 'Archi Editorial Team',
+      role: 'Travel guides & itinerary planning',
+      bio: 'Our editorial team writes practical, opinionated travel guides — no filler, no clickbait.',
+    },
+    readMinutes: Math.max(4, Math.round(safeSections.reduce((n, s) => n + (s.body?.length || 0), 0) / 1200)),
+  };
+};
 
 export const articles = [
   A(

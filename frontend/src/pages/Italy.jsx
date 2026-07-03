@@ -3,6 +3,7 @@ import Breadcrumbs from "@/components/common/Breadcrumbs";
 import DestinationCard from "@/components/common/DestinationCard";
 import ArticleCard from "@/components/common/ArticleCard";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
+import HotelWidget from "@/components/shared/HotelWidget";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";
 import { italyRegions } from "@/data/destinations";
@@ -85,6 +86,15 @@ export default function Italy() {
               </div>
               <AdPlaceholder variant="sidebar" />
             </aside>
+          </div>
+
+          {/* New SEO Hotel Widget Section */}
+          <div className="mt-16">
+            <HotelWidget 
+              destination="Italy"
+              subtitle="Looking for the perfect Italian getaway? Discover top-rated boutique hotels, rustic Tuscan villas, and luxury city stays for your next holiday."
+              imageUrl="https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=800&q=80"
+            />
           </div>
         </div>
       </section>

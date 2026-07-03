@@ -4,6 +4,7 @@ import LazyImage from "@/components/common/LazyImage";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
 import FAQAccordion from "@/components/common/FAQAccordion";
 import ArticleCard from "@/components/common/ArticleCard";
+import HotelWidget from "@/components/shared/HotelWidget";
 import SEO from "@/components/common/SEO";
 import { getCity } from "@/data/cities";
 import { getArticle } from "@/data/articles";
@@ -115,6 +116,12 @@ export default function City({ slug: slugProp }) {
               <p className="mt-5 text-sm text-[hsl(var(--charcoal-soft))]">
                 For a personalised recommendation, use our <Link to="/travel-tools/area-finder" className="link-terra">Best Area to Stay finder</Link>.
               </p>
+
+              <HotelWidget 
+                destination={city.name}
+                subtitle={`Ready to book? Find the best hotels in ${city.name} across our recommended neighborhoods.`}
+                imageUrl={city.hero}
+              />
             </section>
 
             <section id="transport">

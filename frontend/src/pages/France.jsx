@@ -3,6 +3,7 @@ import Breadcrumbs from "@/components/common/Breadcrumbs";
 import DestinationCard from "@/components/common/DestinationCard";
 import ArticleCard from "@/components/common/ArticleCard";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
+import HotelWidget from "@/components/shared/HotelWidget";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";
 import { franceRegions } from "@/data/destinations";
@@ -86,6 +87,15 @@ export default function France() {
               </div>
               <AdPlaceholder variant="sidebar" />
             </aside>
+          </div>
+
+          {/* New SEO Hotel Widget Section */}
+          <div className="mt-16">
+            <HotelWidget 
+              destination="France"
+              subtitle="Looking for the best places to stay? Compare boutique hotels, charming B&Bs, and luxury châteaux across France for your perfect holiday."
+              imageUrl="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80"
+            />
           </div>
         </div>
       </section>
