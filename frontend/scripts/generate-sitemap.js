@@ -21,6 +21,23 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
+
+function loadEnvFile(filePath) {
+  if (!fs.existsSync(filePath)) return;
+  const lines = fs.readFileSync(filePath, 'utf-8').split(/\r?\n/);
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith('#')) continue;
+    const match = trimmed.match(/^([A-Z0-9_]+)=(.*)$/);
+    if (!match) continue;
+    const [, key, rawValue] = match;
+    if (process.env[key]) continue;
+    process.env[key] = rawValue.replace(/^['"]|['"]$/g, '');
+  }
+}
+
+loadEnvFile(path.join(ROOT, '.env.production'));
+
 const SITE_URL = (
   process.env.REACT_APP_SITE_URL ||
   process.env.VITE_SITE_URL ||
