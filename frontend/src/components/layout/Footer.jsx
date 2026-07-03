@@ -38,9 +38,11 @@ const cols = [
     links: [
       { to: "/privacy-policy", label: "Privacy policy" },
       { to: "/cookie-policy", label: "Cookie policy" },
+      { to: "/terms-of-service", label: "Terms of service" },
       { to: "/terms-of-use", label: "Terms of use" },
       { to: "/affiliate-disclosure", label: "Affiliate disclosure" },
       { to: "/editorial-policy", label: "Editorial policy" },
+      { to: "/disclaimer", label: "Disclaimer" },
     ],
   },
 ];

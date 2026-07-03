@@ -22,7 +22,21 @@
         <script>window.addEventListener("error",function(e){if(e.error instanceof DOMException&&e.error.name==="DataCloneError"&&e.message&&e.message.includes("PerformanceServerTiming")){e.stopImmediatePropagation();e.preventDefault()}},true);</script>
     </head>
     <body>
-        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <noscript>
+            <main style="font-family: Arial, sans-serif; padding: 2rem; max-width: 72ch; margin: 0 auto; color: #1f1f1f; line-height: 1.6;">
+                <p style="font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem; color: #9a8570;">Archi Travel Guide</p>
+                <h1 style="font-size: clamp(1.8rem, 5vw, 2.6rem); margin: 0; line-height: 1.2;">
+                    Siena travel planning with practical itineraries and city guides
+                </h1>
+                <p style="margin-top: 1rem;">
+                    This site relies on JavaScript for interactive search and personalized tools.
+                    Basic information pages are now available for bots and low-capability clients via route metadata and XML sitemap.
+                </p>
+                <p style="margin-top: 1rem;">
+                    For full interactive experience, please enable JavaScript in your browser.
+                </p>
+            </main>
+        </noscript>
         <div id="root"></div>
         <!--
       This HTML file is a template.

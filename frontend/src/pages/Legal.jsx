@@ -60,14 +60,27 @@ const DOCS = {
       { h: "No paid coverage", b: "We do not accept payment to feature a destination, hotel or restaurant. Affiliate partnerships (see disclosure) never dictate editorial coverage." },
     ],
   },
+  disclaimer: {
+    title: "Disclaimer",
+    updated: "November 2025",
+    intro: "Travel recommendations are editorial opinions built from published sources and practical experience. Read carefully before relying on any itinerary details.",
+    sections: [
+      { h: "Information accuracy", b: "We make every effort to keep opening hours, prices, routes, and transport details current. Timetables and availability can change before you travel." },
+      { h: "Booking choices", b: "We provide references and contacts. Confirm details directly with providers before booking or planning an activity." },
+      { h: "Liability", b: "We are not liable for delays, weather disruption, roadworks, closures, or booking errors outside our control." },
+      { h: "Affiliate content", b: "Some links may generate a commission at no extra cost to you. This does not affect editorial recommendations." },
+      { h: "Local advice", b: "Always follow official local signage and regulations when travelling in unfamiliar areas." },
+    ],
+  },
 };
 
 export default function Legal({ doc }) {
   const d = DOCS[doc];
   const path = doc === 'privacy' ? '/privacy-policy'
     : doc === 'cookie' ? '/cookie-policy'
-    : doc === 'terms' ? '/terms-of-use'
+    : doc === 'terms' ? '/terms-of-service'
     : doc === 'affiliate' ? '/affiliate-disclosure'
+    : doc === 'disclaimer' ? '/disclaimer'
     : '/editorial-policy';
   return (
     <div>

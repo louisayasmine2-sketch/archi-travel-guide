@@ -4,7 +4,7 @@ An independent global travel planning platform. Practical destination guides,
 itineraries, budget & packing tools. First editorial pillar: Italy, Tuscany, Siena.
 
 - **Live domain (target):** https://affittacameregliarchi.com
-- **Stack:** React 19 (CRA + Craco) + Tailwind + Shadcn UI · FastAPI · MongoDB
+- **Stack:** React 18 (CRA + Craco) + Tailwind + Shadcn UI · FastAPI + MongoDB
 - **Status:** Launch-ready v1.1 (see [`memory/PRD.md`](memory/PRD.md) for changelog)
 
 ## Project layout

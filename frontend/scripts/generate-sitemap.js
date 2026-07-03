@@ -38,6 +38,13 @@ const staticRoutes = [
   { path: '/travel-deals',                       changefreq: 'monthly', priority: 0.7 },
   { path: '/about',                              changefreq: 'yearly',  priority: 0.5 },
   { path: '/contact',                            changefreq: 'yearly',  priority: 0.5 },
+  { path: '/en',                                changefreq: 'monthly',  priority: 0.5 },
+  { path: '/it',                                changefreq: 'monthly',  priority: 0.5 },
+  { path: '/siena-travel-guide',                 changefreq: 'weekly',  priority: 0.8 },
+  { path: '/where-to-stay-in-siena',             changefreq: 'weekly',  priority: 0.8 },
+  { path: '/siena-itinerary',                    changefreq: 'weekly',  priority: 0.8 },
+  { path: '/siena-accommodation-guide',          changefreq: 'weekly',  priority: 0.8 },
+  { path: '/travel-tips',                        changefreq: 'monthly',  priority: 0.75 },
 
   { path: '/italy',                              changefreq: 'weekly',  priority: 0.95 },
   { path: '/tuscany',                            changefreq: 'weekly',  priority: 0.9 },
@@ -58,8 +65,20 @@ const staticRoutes = [
   { path: '/privacy-policy',                     changefreq: 'yearly',  priority: 0.3 },
   { path: '/cookie-policy',                      changefreq: 'yearly',  priority: 0.3 },
   { path: '/terms-of-use',                       changefreq: 'yearly',  priority: 0.3 },
+  { path: '/terms-of-service',                   changefreq: 'yearly',  priority: 0.3 },
+  { path: '/disclaimer',                        changefreq: 'yearly',  priority: 0.3 },
   { path: '/affiliate-disclosure',               changefreq: 'yearly',  priority: 0.4 },
   { path: '/editorial-policy',                   changefreq: 'yearly',  priority: 0.4 },
+
+  // Legacy accommodation URLs preserved for crawl-safe migration.
+  { path: '/en/rooms-bed-and-breakfast-in-siena.html',                  changefreq: 'monthly', priority: 0.45 },
+  { path: '/en/standard-double-room-in-siena.html',                     changefreq: 'monthly', priority: 0.45 },
+  { path: '/en/superior-double-room-in-siena.html',                     changefreq: 'monthly', priority: 0.45 },
+  { path: '/it/family-accomodation-per-4-a-siena.html',                changefreq: 'monthly', priority: 0.45 },
+  { path: '/en/gli-archi-bed-and-breakfast-siena.html',                changefreq: 'monthly', priority: 0.45 },
+  { path: '/en/services-and-conditions-gli-archi-bad-and-breakfast.html', changefreq: 'monthly', priority: 0.45 },
+  { path: '/en/holidays-in-siena.html',                                 changefreq: 'monthly', priority: 0.45 },
+  { path: '/en/contacts-gli-archi-bed-and-breakfast-siena.html',        changefreq: 'monthly', priority: 0.45 },
 ];
 
 // --- Article extraction (regex-based, no build tooling required) ----------
