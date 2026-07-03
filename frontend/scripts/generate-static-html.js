@@ -104,12 +104,12 @@ const STATIC_ROUTES = [
   page('/privacy-policy', 'Privacy Policy', 'How Archi Travel Guide collects, uses and protects contact form data, analytics data and cookie preferences.', 'Privacy Policy', [
     'We collect only the information needed to run the website, respond to messages and improve guides.',
     'Contact form data includes name, email, subject and message.',
-    'Analytics providers may include Google Analytics and Microsoft Clarity when configured.',
+    'Analytics providers may include Google Analytics, Microsoft Clarity and Amplitude when configured.',
     'You can request access, correction or deletion by emailing contact@affittacameregliarchi.com.',
   ]),
   page('/cookie-policy', 'Cookie Policy', 'Cookies used by Archi Travel Guide for essential functionality, analytics and future advertising consent.', 'Cookie Policy', [
     'Essential cookies support basic site functionality.',
-    'Analytics tools may measure page views, clicks, scroll depth, heatmaps and session behavior when configured.',
+    'Analytics tools may measure page views, lead events, clicks, scroll depth, heatmaps and session behavior when configured.',
     'Advertising cookies should only be used where consent and provider setup allow them.',
   ]),
   page('/terms-of-use', 'Terms of Use', 'Terms for using Archi Travel Guide editorial travel content and planning tools.', 'Terms of Use', [

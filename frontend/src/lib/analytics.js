@@ -1,14 +1,32 @@
 const GA_MEASUREMENT_ID = process.env.REACT_APP_GA_MEASUREMENT_ID;
 const CLARITY_PROJECT_ID = process.env.REACT_APP_CLARITY_PROJECT_ID;
+const AMPLITUDE_API_KEY = process.env.REACT_APP_AMPLITUDE_API_KEY;
+const AMPLITUDE_SERVER_ZONE = process.env.REACT_APP_AMPLITUDE_SERVER_ZONE;
 const COOKIE_CONSENT_KEY = "archi_cookie_consent";
 const SHOULD_TRACK = process.env.NODE_ENV === "production" && typeof GA_MEASUREMENT_ID === "string" && GA_MEASUREMENT_ID.trim().length > 0;
 const SHOULD_LOAD_CLARITY = process.env.NODE_ENV === "production" && typeof CLARITY_PROJECT_ID === "string" && CLARITY_PROJECT_ID.trim().length > 0;
+const SHOULD_LOAD_AMPLITUDE = process.env.NODE_ENV === "production" && typeof AMPLITUDE_API_KEY === "string" && AMPLITUDE_API_KEY.trim().length > 0;
 
 const getMeasurementId = () => {
   if (!SHOULD_TRACK) {
     return null;
   }
   return GA_MEASUREMENT_ID.trim();
+};
+
+const getAmplitudeApiKey = () => {
+  if (!SHOULD_LOAD_AMPLITUDE) {
+    return null;
+  }
+  return AMPLITUDE_API_KEY.trim();
+};
+
+const getAmplitudeServerZone = () => {
+  if (typeof AMPLITUDE_SERVER_ZONE !== "string") {
+    return "US";
+  }
+
+  return AMPLITUDE_SERVER_ZONE.trim().toUpperCase() === "EU" ? "EU" : "US";
 };
 
 const ensureGaScript = () => {
@@ -68,6 +86,61 @@ export const initializeClarity = () => {
   return true;
 };
 
+const flushAmplitudeQueue = () => {
+  if (typeof window === "undefined") return;
+  if (!window.__amplitudeInitialized || typeof window.amplitude?.track !== "function") return;
+
+  const queue = Array.isArray(window.__amplitudeEventQueue) ? window.__amplitudeEventQueue : [];
+  window.__amplitudeEventQueue = [];
+
+  queue.forEach(({ eventName, params }) => {
+    window.amplitude.track(eventName, params);
+  });
+};
+
+export const initializeAmplitude = () => {
+  if (typeof window === "undefined" || typeof document === "undefined") return false;
+  if (!SHOULD_LOAD_AMPLITUDE || !hasCookieConsent()) return false;
+  if (window.__amplitudeInitialized) return true;
+  if (window.__amplitudeLoading) return true;
+
+  const apiKey = getAmplitudeApiKey();
+  if (!apiKey) return false;
+
+  const serverZone = getAmplitudeServerZone();
+  const script = document.createElement("script");
+  script.async = true;
+  script.src = serverZone === "EU"
+    ? `https://cdn.eu.amplitude.com/script/${apiKey}.js`
+    : `https://cdn.amplitude.com/script/${apiKey}.js`;
+
+  window.__amplitudeLoading = true;
+  script.onload = () => {
+    if (typeof window.amplitude?.init !== "function") return;
+
+    const config = {
+      fetchRemoteConfig: true,
+      autocapture: false,
+    };
+
+    if (serverZone === "EU") {
+      config.serverZone = "EU";
+    }
+
+    window.amplitude.init(apiKey, config);
+    window.__amplitudeInitialized = true;
+    window.__amplitudeLoading = false;
+    flushAmplitudeQueue();
+  };
+
+  script.onerror = () => {
+    window.__amplitudeLoading = false;
+  };
+
+  document.head.appendChild(script);
+  return true;
+};
+
 const trackClarityEvent = (eventName) => {
   initializeClarity();
   if (typeof window !== "undefined" && typeof window.clarity === "function") {
@@ -75,9 +148,31 @@ const trackClarityEvent = (eventName) => {
   }
 };
 
+const trackAmplitudeEvent = (eventName, params = {}) => {
+  if (typeof window === "undefined") return;
+  if (!SHOULD_LOAD_AMPLITUDE || !hasCookieConsent()) return;
+
+  initializeAmplitude();
+
+  if (window.__amplitudeInitialized && typeof window.amplitude?.track === "function") {
+    window.amplitude.track(eventName, params);
+    return;
+  }
+
+  window.__amplitudeEventQueue = Array.isArray(window.__amplitudeEventQueue)
+    ? window.__amplitudeEventQueue
+    : [];
+  window.__amplitudeEventQueue.push({ eventName, params });
+};
+
 export const trackPageView = (pagePath, pageTitle = "") => {
   if (typeof window === "undefined") return;
   initializeClarity();
+  trackAmplitudeEvent("page_view", {
+    page_path: pagePath,
+    page_title: pageTitle,
+  });
+
   const measurementId = ensureGaScript();
   if (!measurementId) return;
 
@@ -90,6 +185,7 @@ export const trackPageView = (pagePath, pageTitle = "") => {
 const trackConversionEvent = (eventName, params = {}) => {
   if (typeof window === "undefined") return;
   trackClarityEvent(eventName);
+  trackAmplitudeEvent(eventName, params);
   const measurementId = ensureGaScript();
   if (!measurementId) return;
 
@@ -115,3 +211,4 @@ export const trackLeadSubmit = (params = {}) => {
 
 export const isGaTrackingEnabled = SHOULD_TRACK;
 export const isClarityTrackingEnabled = SHOULD_LOAD_CLARITY;
+export const isAmplitudeTrackingEnabled = SHOULD_LOAD_AMPLITUDE;

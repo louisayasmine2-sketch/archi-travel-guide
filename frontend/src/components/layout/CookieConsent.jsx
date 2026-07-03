@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { COOKIE } from "@/constants/testIds";
-import { initializeClarity } from "@/lib/analytics";
+import { initializeAmplitude, initializeClarity, trackPageView } from "@/lib/analytics";
 
 const STORAGE_KEY = "archi_cookie_consent";
 
@@ -17,7 +17,11 @@ export default function CookieConsent() {
 
   const setChoice = (choice) => {
     try { localStorage.setItem(STORAGE_KEY, choice); } catch (_) { /* ignore */ }
-    if (choice === "accepted") initializeClarity();
+    if (choice === "accepted") {
+      initializeClarity();
+      initializeAmplitude();
+      trackPageView(`${window.location.pathname}${window.location.search}`, document.title);
+    }
     setVisible(false);
   };
 

@@ -67,6 +67,8 @@ cp backend/.env.example  backend/.env
 | `REACT_APP_BACKEND_URL` | frontend  | Base URL for `/api/*` calls. Do not include trailing slash.             |
 | `REACT_APP_GA_MEASUREMENT_ID` | frontend | Google Analytics 4 measurement ID (for example `G-XXXXXXXXXX`). Set only in production environments where tracking is enabled. |
 | `REACT_APP_CLARITY_PROJECT_ID` | frontend | Microsoft Clarity project ID. Optional; loads only in production after cookie consent is accepted. |
+| `REACT_APP_AMPLITUDE_API_KEY` | frontend | Amplitude browser API key. Optional; loads only in production after cookie consent is accepted. |
+| `REACT_APP_AMPLITUDE_SERVER_ZONE` | frontend | Amplitude data residency zone (`US` or `EU`). Defaults to `US`. |
 | `MONGO_URL`             | backend   | MongoDB connection string. Pre-configured — do not change locally.      |
 | `DB_NAME`               | backend   | MongoDB database name. Pre-configured — do not change locally.          |
 | `CORS_ORIGINS`          | backend   | Comma-separated allowed origins for CORS. Restrict at launch.           |
@@ -83,6 +85,8 @@ Use this value for production:
 REACT_APP_SITE_URL=https://affittacameregliarchi.com
 REACT_APP_GA_MEASUREMENT_ID=G-XXXXXXXXXX
 REACT_APP_CLARITY_PROJECT_ID=xxxxxxxxxx
+REACT_APP_AMPLITUDE_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+REACT_APP_AMPLITUDE_SERVER_ZONE=US
 ```
 
 ## Frontend commands

@@ -80,7 +80,33 @@ recordings. The app also sends Clarity custom events for:
 If this variable is empty or missing, Clarity is not loaded and the build still
 works normally.
 
-## 4. Regenerate the sitemap
+## 4. Enable Amplitude (Cloudflare Pages)
+
+Amplitude is optional and is controlled by env vars. It only loads in production
+builds after the visitor accepts the cookie banner.
+
+Add these variables in Cloudflare Pages (same location as above):
+
+```
+Variable name: REACT_APP_AMPLITUDE_API_KEY
+Value: <your-amplitude-api-key>
+
+Variable name: REACT_APP_AMPLITUDE_SERVER_ZONE
+Value: US
+```
+
+Use `EU` only if the Amplitude project was created with EU data residency.
+
+When enabled, Amplitude receives:
+
+- `page_view`
+- `contact_submit`
+- `lead_submit`
+
+If the API key is empty or missing, Amplitude is not loaded and the build still
+works normally.
+
+## 5. Regenerate the sitemap
 
 ```
 cd frontend
@@ -90,7 +116,7 @@ REACT_APP_SITE_URL=https://affittacameregliarchi.com yarn sitemap
 `yarn build` already runs `yarn sitemap` as a pre-step. Committing the
 generated `public/sitemap.xml` is fine — the file is deterministic.
 
-## 5. Confirm robots.txt
+## 6. Confirm robots.txt
 
 `public/robots.txt` is intentionally minimal:
 
@@ -101,7 +127,7 @@ Disallow: /api/
 Sitemap: https://affittacameregliarchi.com/sitemap.xml
 ```
 
-## 6. Backend environment (production)
+## 7. Backend environment (production)
 
 ```
 MONGO_URL=<your-production-connection-string>
@@ -114,7 +140,7 @@ RESEND_TO_EMAIL=contact@affittacameregliarchi.com
 
 **Never** ship `CORS_ORIGINS=*` to production.
 
-## 7. Frontend build
+## 8. Frontend build
 
 ```
 yarn install
@@ -131,7 +157,7 @@ Serve the `build/` folder from any static host. Configure the host to:
 4. Set `Cache-Control: public, max-age=0, must-revalidate` for `/index.html`.
 5. HTTPS only, HSTS enabled.
 
-## 8. Post-deploy manual checks
+## 9. Post-deploy manual checks
 
 Run these once, in this order:
 
@@ -146,16 +172,19 @@ Run these once, in this order:
    the `contact_messages` collection.
 8. If `REACT_APP_CLARITY_PROJECT_ID` is set, accept the cookie banner and confirm
    the visit appears in Microsoft Clarity.
+9. If `REACT_APP_AMPLITUDE_API_KEY` is set, accept the cookie banner and confirm
+   `page_view` appears in Amplitude.
 
-## 9. Deferred integrations
+## 10. Deferred integrations
 
 - **Resend** (contact form email) — see `HANDOFF.md`.
 - **Google AdSense** — see `MONETIZATION_CHECKLIST.md`.
 - **Analytics** — GA4 is wired in via `REACT_APP_GA_MEASUREMENT_ID` when set in
   production. Microsoft Clarity is wired in via `REACT_APP_CLARITY_PROJECT_ID`
-  when set in production and the visitor accepts cookies.
+  and Amplitude is wired in via `REACT_APP_AMPLITUDE_API_KEY` when set in
+  production and the visitor accepts cookies.
 
-## 10. Rollback
+## 11. Rollback
 
 Since the site is static SPA + stateless backend, roll back by redeploying the
 previous build tag. MongoDB collections (`newsletter`, `contact_messages`)
