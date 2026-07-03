@@ -688,6 +688,40 @@ export const articles = [
     ],
     '2026-07-03'
   ),
+  A(
+    'paris-3-day-itinerary',
+    'Paris 3-Day Itinerary: The First-Timer Route',
+    'Itineraries', 'Paris',
+    'A realistic, highly walkable three-day plan for Paris that balances world-class museums with slow café afternoons.',
+    'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'day-1', heading: 'Day 1 — The Classic Centre', body: 'Start early at the Louvre (book 1st slot). Walk the Tuileries Garden to Place de la Concorde. Cross to the Left Bank for lunch in Saint-Germain-des-Prés. Sunset at the Eiffel Tower (Trocadéro view).' },
+      { id: 'day-2', heading: 'Day 2 — Art & The Latin Quarter', body: 'Morning at Musée d’Orsay. Lunch in the Latin Quarter. Afternoon exploring the Pantheon and the Luxembourg Gardens. Evening wine bar near Canal Saint-Martin.' },
+      { id: 'day-3', heading: 'Day 3 — Montmartre & Le Marais', body: 'Early morning in Montmartre (Sacré-Cœur) before the crowds. Afternoon shopping, eating, and gallery-hopping in Le Marais. Farewell dinner in a classic bistro.' },
+    ],
+    [
+      { q: 'Is three days enough for Paris?', a: 'It covers the highlights, but you will leave wanting more. Four or five days is ideal.' },
+      { q: 'Should I buy the Paris Museum Pass?', a: 'If you plan to visit the Louvre, Orsay, and Versailles, yes. Otherwise, buy individual timed tickets.' },
+    ],
+    '2026-07-03'
+  ),
+  A(
+    'where-to-stay-in-paris',
+    'Where to Stay in Paris: A Neighborhood Guide',
+    'Planning', 'Paris',
+    'Paris is a collection of villages. Here is how to pick the right arrondissement for your budget and travel style.',
+    'https://images.unsplash.com/photo-1522199755839-a2bacb67c546?auto=format&fit=crop&w=1600&q=75',
+    [
+      { id: 'marais', heading: 'Le Marais (3rd & 4th Arr.)', body: 'Best for: First-timers, foodies, and boutique shoppers. Pros: Highly walkable, beautiful architecture, buzzing on Sundays. Cons: Expensive.' },
+      { id: 'saint-germain', heading: 'Saint-Germain-des-Prés (6th Arr.)', body: 'Best for: Classic Parisian elegance. Pros: Iconic cafés (Les Deux Magots), Luxembourg Gardens nearby. Cons: Very expensive, can feel tourist-heavy.' },
+      { id: 'montmartre', heading: 'Montmartre (18th Arr.)', body: 'Best for: Romantics and budget travelers. Pros: Village feel, incredible views, cheaper. Cons: Lots of stairs, requires Metro to reach the center.' },
+      { id: 'canal', heading: 'Canal Saint-Martin (10th Arr.)', body: 'Best for: Young travelers and second-time visitors. Pros: Great coffee scene, natural wine bars, few tourists. Cons: Less classic architecture.' },
+    ],
+    [
+      { q: 'Which arrondissement is best for families?', a: 'The 6th (near Luxembourg Gardens) or the 7th (near the Eiffel Tower) are safe, quiet, and have great parks.' },
+    ],
+    '2026-07-03'
+  ),
 ];
 
 export const getArticle = (slug) => articles.find((a) => a.slug === slug);

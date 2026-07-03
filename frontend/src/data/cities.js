@@ -164,6 +164,58 @@ export const cities = {
       { to: '/travel-deals', label: 'Travel deals & resources' },
     ],
   },
+  paris: {
+    slug: 'paris',
+    name: 'Paris',
+    region: 'Île-de-France',
+    country: 'France',
+    tagline: 'Art, cafés, and walkable arrondissements',
+    metaTitle: 'Paris Travel Guide — Where to stay, itineraries, and honest advice',
+    metaDescription: 'A practical Paris travel guide: how to pace your trip, which arrondissement actually works as a base, how to navigate the Metro, and realistic costs.',
+    hero: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=2000&q=75',
+    overview:
+      'Paris is massive, but it does not have to be overwhelming. The secret to a good Paris trip is treating it as a collection of small villages rather than one giant city. Do not try to cross the city four times a day; pick one or two arrondissements per day and stay there.',
+    overview2:
+      'Our recommendation: four nights, minimum. One day for the classic centre (Louvre, Tuileries, Palais Royal). One day for the Left Bank (St-Germain, Latin Quarter). One day for Montmartre and the Marais. One day left entirely open for café sitting and long lunches.',
+    bestTime: {
+      good: 'April, May, September, October — crisp air, manageable crowds, and the parks are beautiful.',
+      avoid: 'August. Many local restaurants close, and the city is mostly filled with tourists.',
+      quiet: 'January to early March. Cold and grey, but you get the museums to yourself.',
+    },
+    whereToStay: [
+      { name: 'Le Marais (3rd/4th)', why: 'Boutiques, historic architecture, and the best falafel in the city. Central and extremely walkable.' },
+      { name: 'Saint-Germain-des-Prés (6th)', why: 'The classic literary Left Bank. Expensive, but undeniably beautiful and very safe.' },
+      { name: 'Montmartre (18th)', why: 'Feels like a village perched above the city. Great views, but requires a Metro ride to other sights.' },
+      { name: 'Canal Saint-Martin (10th)', why: 'Where young Parisians actually hang out. Great coffee, natural wine, and fewer tourists.' },
+    ],
+    transport: [
+      'From CDG (Charles de Gaulle): RER B train to Gare du Nord / Châtelet-Les Halles (~40 mins).',
+      'From ORY (Orly): Orlyval train to Antony, then RER B (~45 mins).',
+      'Inside Paris: The Metro is dense and brilliant. Buy a Navigo Easy pass and load it with a "carnet" of 10 tickets.',
+      'Walking is still the best way to see the city. Pack serious walking shoes.',
+    ],
+    itineraryIdeas: [
+      { title: 'The Classic Day', body: 'Early entry to the Louvre, walk through the Tuileries, cross to Musée d’Orsay. Evening along the Seine.' },
+      { title: 'The Bohemian Day', body: 'Morning in Montmartre (Sacré-Cœur, Place du Tertre), afternoon shopping and snacking in Le Marais.' },
+      { title: 'The Left Bank Day', body: 'Café de Flore for breakfast, explore the Latin Quarter, relax in the Luxembourg Gardens.' },
+    ],
+    budget: {
+      budget: '€100–150 per person per day (budget hotel in 10th/11th, bakeries, Metro).',
+      mid: '€200–350 per person per day (boutique hotel in Marais/6th, one nice bistro dinner).',
+      luxury: '€500+ per person per day (luxury hotel, Michelin dining, private tours).',
+    },
+    faqs: [
+      { q: 'Is the Paris Metro safe?', a: 'Yes, but pickpockets are common on popular lines (like Line 1) and at major stations. Keep your phone secure.' },
+      { q: 'Should I tip in Paris restaurants?', a: 'Service is included by law (service compris). Leaving €1-2 per person for good service is polite but not required.' },
+      { q: 'Do I need to speak French?', a: 'No, but starting every interaction with "Bonjour" is culturally mandatory. Do that, and people will switch to English happily.' },
+    ],
+    related: ['international-packing-checklist', 'europe-budget-guide'],
+    internalLinks: [
+      { to: '/france', label: 'France overview' },
+      { to: '/travel-tools/budget-calculator', label: 'Trip budget calculator' },
+      { to: '/travel-tools/area-finder', label: 'Where to stay finder' },
+    ],
+  },
 };
 
 export const getCity = (slug) => cities[slug];

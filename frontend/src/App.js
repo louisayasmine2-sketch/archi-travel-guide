@@ -9,6 +9,7 @@ import Destinations from "@/pages/Destinations";
 import Italy from "@/pages/Italy";
 import Tuscany from "@/pages/Tuscany";
 import Siena from "@/pages/Siena";
+import France from "@/pages/France";
 import Europe from "@/pages/Europe";
 import Asia from "@/pages/Asia";
 import TravelTools from "@/pages/TravelTools";
@@ -61,6 +62,8 @@ function App() {
             <Route path="/florence" element={<City slug="florence" />} />
             <Route path="/rome" element={<City slug="rome" />} />
             <Route path="/venice" element={<City slug="venice" />} />
+            <Route path="/france" element={<France />} />
+            <Route path="/paris" element={<City slug="paris" />} />
             <Route path="/europe" element={<Europe />} />
             <Route path="/asia" element={<Asia />} />
             <Route path="/travel-tools" element={<TravelTools />} />

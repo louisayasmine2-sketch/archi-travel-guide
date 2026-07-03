@@ -58,11 +58,17 @@ export const italyRegions = [
 ];
 
 export const europeCountries = [
-  { name: 'France', blurb: 'Paris and beyond — from Loire châteaux to Provence.' },
+  { name: 'France', blurb: 'Paris and beyond — from Loire châteaux to Provence.', slug: 'france' },
   { name: 'Spain', blurb: 'Barcelona, Andalucía, and the northern coast.' },
   { name: 'Switzerland', blurb: 'Alps, trains, and small design-forward cities.' },
   { name: 'Greece', blurb: 'Athens, island hopping frameworks, off-season windows.' },
   { name: 'Germany', blurb: 'Berlin, Bavaria, Christmas markets.' },
+];
+
+export const franceRegions = [
+  { slug: 'paris', name: 'Paris', blurb: 'The classic starting point. Museums, cafés, and walkable arrondissements.', image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=75' },
+  { slug: 'loire', name: 'Loire Valley', blurb: 'Châteaux and vineyards. Perfect for a short road trip from Paris.', image: 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=75', comingSoon: true },
+  { slug: 'provence', name: 'Provence', blurb: 'Lavender fields, hilltowns, and slow Mediterranean life.', image: 'https://images.unsplash.com/photo-1522199755839-a2bacb67c546?auto=format&fit=crop&w=1200&q=75', comingSoon: true },
 ];
 
 export const asiaCountries = [
