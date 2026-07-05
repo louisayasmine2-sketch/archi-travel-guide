@@ -12,7 +12,7 @@ import { canonical } from "@/lib/seo";
 import { trackLeadSubmit } from "@/lib/analytics";
 import { getArticle, articles } from "@/data/articles";
 import NotFound from "./NotFound";
-import { Send } from "lucide-react";
+import { Send, ChevronDown } from "lucide-react";
 import axios from "axios";
 import { toast } from "sonner";
 import { useState } from "react";
@@ -103,6 +103,32 @@ export default function Article() {
         {/* Content */}
         <div className="lg:col-span-6 order-1 lg:order-2 prose-editorial">
           <AdPlaceholder className="mb-10" />
+
+          {/* Mobile TOC */}
+          <details className="lg:hidden mb-10 group rounded-2xl bg-[hsl(var(--ivory-2))] border border-[hsl(var(--stone-border))] overflow-hidden">
+            <summary className="p-5 font-serif text-[1.1rem] font-medium cursor-pointer list-none [&::-webkit-details-marker]:hidden flex justify-between items-center bg-[hsl(var(--ivory))]">
+              In this guide
+              <ChevronDown className="w-5 h-5 text-[hsl(var(--terracotta))] transition-transform group-open:-rotate-180" />
+            </summary>
+            <div className="p-5 border-t border-[hsl(var(--stone-border))]">
+              <ol className="space-y-3.5 text-[15px]">
+                {article.sections.map((s) => (
+                  <li key={`mobile-${s.id}`}>
+                    <a href={`#${s.id}`} className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))] block">
+                      {s.heading}
+                    </a>
+                  </li>
+                ))}
+                {article.faqs.length > 0 && (
+                  <li><a href="#faq" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))] block">FAQ</a></li>
+                )}
+                {bookingCta && <li><a href="#booking-cta" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))] block">Booking help</a></li>}
+                {affiliateItems.length > 0 && (
+                  <li><a href="#affiliate-resources" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))] block">Recommended resources</a></li>
+                )}
+              </ol>
+            </div>
+          </details>
 
           {article.sections.map((s, i) => (
             <section key={s.id} id={s.id} className="scroll-mt-28">
