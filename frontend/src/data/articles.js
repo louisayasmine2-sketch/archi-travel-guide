@@ -909,19 +909,30 @@ export const articles = [
       { q: 'Is there food on the train?', a: 'Yes. Frecciarossa trains have a bar car serving coffee, sandwiches, pastries, and alcohol. Italo trains have a similar food and beverage service. The quality is adequate rather than excellent.' }
     ],
     '2026-07-06'
+  ),
+  A(
+    'paris-to-london-by-train',
+    'Paris to London by Train: The Complete Eurostar Guide',
+    'Logistics & Transport', 'Europe',
+    "The Eurostar connects Paris and London in 2 hours 15 minutes, city centre to city centre. It is faster, cheaper, and far less stressful than flying.",
+    'https://images.unsplash.com/photo-1548625361-ecde1be1f5e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    [
+      { id: 'introduction', heading: 'Why the train beats flying', body: 'Work through the actual arithmetic of flying between Paris and London. You leave central Paris and travel forty-five minutes to Charles de Gaulle — on a good day, with no traffic. You arrive two hours before departure, queue through security, and board a one-hour-fifteen-minute flight. You land at Heathrow, one of the most congested airports in Europe, and spend another forty-five minutes to an hour getting to central London. By the time you walk out onto a central London street, approximately four and a half hours have elapsed since you left your Paris hotel room.\n\nThe Eurostar takes two hours and fifteen minutes, Gare du Nord to St Pancras International. That is the complete journey time. No airport bus. No middle seat. No 100ml liquid restrictions. No baggage carousel.\n\nFor travellers who have not taken the Eurostar, the revelation tends to be that the train arrives not at some peripheral station on the outskirts of the city, but at St Pancras International in Bloomsbury — connected directly to the King\'s Cross St Pancras Underground station. You are, in practical terms, in central London the moment you step off the train.' },
+      { id: 'experience', heading: 'The Eurostar Experience', body: 'The Eurostar operates through the Channel Tunnel — the 50-kilometre undersea rail tunnel connecting Folkestone in England to Coquelles in France. The journey through the tunnel itself takes approximately twenty minutes and is entirely unremarkable: it is dark. On the French side, the train runs on high-speed track at speeds up to 300 km/h.\n\nStandard class is the base fare and is perfectly comfortable. Seating is in airline-style configurations, with tables and power sockets. Standard Premier is the step up. Wider seats, a 2+1 configuration, and a meal included. Business Premier provides full flexibility on ticket changes, lounge access, and a full restaurant-standard meal service on board.\n\nFor most travellers, Standard is sufficient for a two-hour journey. Standard Premier is worth considering for early morning or late night departures.' },
+      { id: 'departure', heading: 'Departure — Navigating Paris Gare du Nord', body: 'Here is the critical difference between taking the Eurostar and taking any other train in continental Europe: you must arrive significantly earlier than you would for a domestic or Schengen-area service.\n\nBecause the United Kingdom is not a member of the Schengen Area, crossing from France to the UK by Eurostar involves the full passport control and security process — equivalent to an international flight departure, conducted in Paris before you board the train. Eurostar requires passengers to check in at least thirty minutes before departure and strongly recommends arriving at the station sixty to ninety minutes before.\n\nThe UK Border Force check is conducted in Paris under a legal arrangement called "juxtaposed controls." This means that when you arrive in London, you simply walk off the train and exit the station — there is no further UK immigration processing on the British side.\n\nGare du Nord itself is one of Paris\'s most chaotic major stations. Do not navigate it for the first time with five minutes to spare.' },
+      { id: 'arrival', heading: 'Arrival — Stepping Out at London St Pancras', body: 'The arrival at St Pancras International requires no further administrative processing. Because the passport and immigration procedures were completed in Paris, Eurostar passengers disembark and walk directly through the arrivals hall and out into the station concourse. There are no further border checks on the London side.\n\nSt Pancras International is a genuinely magnificent building — a restored Victorian Gothic structure with a spectacular arched train shed that serves as one of the great pieces of railway architecture in Europe.\n\nDirectly adjacent to St Pancras is King\'s Cross station, which together with St Pancras forms one of the largest transport interchanges in London. From King\'s Cross St Pancras Underground station, six London Tube lines are immediately accessible. You can be sitting in a central London hotel room approximately thirty minutes after stepping off the Eurostar.' },
+      { id: 'luggage', heading: 'Luggage Rules', body: 'This is where the Eurostar creates one of its most significant and underappreciated advantages over flying.\n\nThere are no weight restrictions on Eurostar luggage. The guidance is that you should be able to lift your bags into the overhead rack yourself and that bags must not be excessively oversized, but there is no 23kg limit, no baggage fee for a second bag, and no system of oversized bag charges. You bring what you can carry. This is the correct way to manage luggage on a train.\n\nThere are no liquid restrictions. The 100ml rule that governs airport security does not apply to the Eurostar. You may pack full-sized bottles of shampoo, perfume, or toiletries. More practically, you may bring wine, spirits, or any other liquid purchases from France back to the UK in your hand luggage without confiscation.' }
+    ],
+    [
+      { q: 'How far in advance should I book the Paris to London Eurostar?', a: 'The cheapest Standard fares are typically released six to nine months before travel and disappear quickly for popular dates. For travel in July, August, or over Christmas, booking three to four months in advance is advisable. The Eurostar pricing model rewards early commitment.' },
+      { q: 'Do I need a passport for the Eurostar?', a: 'Yes. A passport is required for all Eurostar passengers, regardless of nationality. EU citizens cannot use a national ID card for travel to the UK following Brexit — a full passport is mandatory. Present your passport at both French exit controls and UK Border Force checks at Gare du Nord before departure.' },
+      { q: 'Is there Wi-Fi on the Eurostar?', a: 'Yes, complimentary Wi-Fi is available on board all Eurostar services. The connection quality is generally good on the French high-speed sections and intermittent during the Channel Tunnel transit. The trains also have power sockets at table seats.' }
+    ],
+    '2026-07-07T18:00:00+07:00'
   )
 ];
 
-const getToday = () => {
-  const d = new Date();
-  const year = d.getFullYear();
-  const month = String(d.getMonth() + 1).padStart(2, '0');
-  const day = String(d.getDate()).padStart(2, '0');
-  return `${year}-${month}-${day}`;
-};
-
-const today = getToday();
-export const articles = allArticles.filter(a => a.updated <= today);
+export const articles = allArticles.filter(a => new Date(a.updated) <= new Date());
 
 export const getArticle = (slug) => allArticles.find((a) => a.slug === slug);
 export const articlesByRegion = (region) =>
