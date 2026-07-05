@@ -229,7 +229,7 @@ export default function Article() {
   );
 }
 
-const API = process.env.REACT_APP_BACKEND_URL ? `${process.env.REACT_APP_BACKEND_URL}/api/contact` : null;
+const API = process.env.REACT_APP_N8N_WEBHOOK_URL || (process.env.REACT_APP_BACKEND_URL ? `${process.env.REACT_APP_BACKEND_URL}/api/contact` : null);
 const CONTACT_EMAIL = "contact@affittacameregliarchi.com";
 const FIELD = "w-full rounded-xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] px-4 py-3 text-sm focus:border-[hsl(var(--terracotta))] focus:outline-none";
 const defaultMessage = (sourceTitle) => sourceTitle
