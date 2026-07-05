@@ -889,9 +889,40 @@ export const articles = [
       { q: 'Which Cinque Terre village is best for families with young children?', a: 'Monterosso is the clear recommendation for families. It is the only village with flat, navigable streets suitable for pushchairs, the only village with a proper sandy beach, and the most equipped with family-oriented services. The others are significantly harder to navigate with young children.' }
     ],
     '2026-07-05'
+  ),
+  A(
+    'rome-to-venice-by-train',
+    'Rome to Venice by Train: The Complete Practical Guide',
+    'Logistics & Transport', 'Italy',
+    "The Rome to Venice train takes under four hours, drops you at the Grand Canal, and costs less than a flight. There is no better way to make this journey.",
+    'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    [
+      { id: 'introduction', heading: 'Why the train beats flying', body: 'Consider what flying between Rome and Venice actually involves. You leave your hotel in central Rome and take a taxi or express train to Fiumicino, which is thirty kilometres outside the city. You arrive two hours before departure. You queue through security, board a flight that takes fifty minutes in the air, land at Marco Polo Airport on the mainland, transfer to a water bus or private boat, and arrive at your Venice hotel approximately four and a half hours after you left your Rome hotel — having paid for the airport transfers, the baggage fees, and the entirely unnecessary stress of it.\n\nNow consider the alternative. You walk to Roma Termini, which is served by metro lines A and B, dozens of bus routes, and taxis from across the city. You board a Frecciarossa or Italo high-speed train. Four hours later — having had a coffee, watched the Apennine countryside transition into the Veneto plain, and done absolutely nothing stressful — the train slides into Venezia Santa Lucia station. You step outside. You are standing on the edge of the Grand Canal.\n\nThere is no meaningful argument for flying this route. The train is faster door-to-door, cheaper in most cases, less exhausting, and ends in precisely the right place.' },
+      { id: 'operators', heading: 'The High-Speed Options — Frecciarossa vs. Italo', body: 'Two operators run high-speed trains between Rome and Venice, and both are excellent. The practical difference between them is smaller than their marketing suggests.\n\nFrecciarossa is operated by Trenitalia, the state-owned national railway. On the Rome–Venice route, the Frecciarossa typically travels via Florence and Bologna. Journey time is generally between three hours and forty minutes and four hours fifteen minutes.\n\nItalo is the private high-speed operator. It runs the same corridor with comparable journey times. The onboard product is slightly different in aesthetic terms, but the seat comfort, speed, and reliability are comparable to Frecciarossa.\n\nThe booking strategy is simple: check both operators for your preferred time slot and book whichever is cheaper. Use a comparison tool to see both simultaneously. Early morning departures and late afternoon services tend to offer cheaper base fares than mid-morning trains.' },
+      { id: 'departure', heading: 'Departure — Navigating Roma Termini', body: 'Roma Termini is the largest railway station in Italy and one of the busiest in Europe. Arriving without a plan costs time; arriving with one costs nothing.\n\nFind the Partenze board in the main central hall. The platform number (Binario) is often not displayed until 20 minutes before departure. This is normal. Do not stand at the platform entrance for forty-five minutes waiting for the number to appear. Wait in the main hall, watch the board, and move to the platform when the number shows.\n\nThe pickpocket situation is real. Roma Termini has a persistent and well-documented pickpocket problem. It concentrates specifically around the ticket machines, the escalators, and the metro connections. Anyone who approaches you unsolicited to "help" with the ticket machine is attempting to read your PIN or distract you.\n\nOnce your platform number appears, walk directly to it. High-speed trains board from the main platform hall.' },
+      { id: 'arrival', heading: 'Arrival — Stepping Out at Venezia Santa Lucia', body: 'This section contains one critical piece of information that a meaningful number of first-time visitors to Venice get wrong, and the consequences of getting it wrong are significant.\n\nBook to Venezia Santa Lucia, not Venezia Mestre. Venezia Santa Lucia is on the island, right at the entrance to the city, with the Grand Canal immediately outside the front doors. Venezia Mestre is a separate station on the mainland, four kilometres away in an industrial area. If you disembark at Mestre, you will need to catch a regional train onward to Santa Lucia or take a taxi across the causeway.\n\nThe arrival itself is one of the few moments in European travel where the setting matches the expectation. Santa Lucia station is a 1950s modernist building that opens directly onto the Canal Grande. You walk through the station doors, descend five steps, and the Grand Canal is in front of you. From here, ACTV vaporetto Line 1 or Line 2 will take you to most hotels along the Grand Canal route.' },
+      { id: 'luggage-validation', heading: 'Luggage and Ticket Validation', body: 'Luggage on high-speed trains: There is no checked luggage service on Italian high-speed trains. You bring everything on board yourself. Overhead racks accommodate most carry-on and medium-sized bags; the vestibule areas at the end of each carriage have space for larger suitcases. Arrive at the platform early enough to find good storage space.\n\nTicket validation: This is where many first-time visitors to Italy create unnecessary problems for themselves.\n\nThe rule is straightforward: high-speed train tickets (Frecciarossa, Italo) purchased digitally and displayed on your phone do not require validation. Show the QR code or booking reference to the inspector and you are compliant.\n\nPaper tickets and tickets printed at home for regional trains require stamping in the green or yellow validation machines at the platform entrance before you board. The validation rule applies to regional services — not to the high-speed trains covered by this guide.' }
+    ],
+    [
+      { q: 'How far in advance should I book Rome to Venice train tickets?', a: 'For the best base fares, book two to four weeks in advance for standard dates. The cheapest fares are released often 90 to 120 days before travel. For travel in July and August, book as early as your plans are confirmed.' },
+      { q: 'Is the train ride from Rome to Venice scenic?', a: 'Partially. The section through Tuscany between Florence and Bologna is pleasant. The arrival into Venice itself is genuinely beautiful: the train crosses the causeway over the Venetian Lagoon for the final few minutes. Sit on the left side of the train for the better lagoon view.' },
+      { q: 'Is there food on the train?', a: 'Yes. Frecciarossa trains have a bar car serving coffee, sandwiches, pastries, and alcohol. Italo trains have a similar food and beverage service. The quality is adequate rather than excellent.' }
+    ],
+    '2026-07-06'
   )
 ];
 
-export const getArticle = (slug) => articles.find((a) => a.slug === slug);
+const getToday = () => {
+  const d = new Date();
+  const year = d.getFullYear();
+  const month = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+};
+
+const today = getToday();
+export const articles = allArticles.filter(a => a.updated <= today);
+
+export const getArticle = (slug) => allArticles.find((a) => a.slug === slug);
 export const articlesByRegion = (region) =>
   articles.filter((a) => a.region.toLowerCase() === region.toLowerCase());
