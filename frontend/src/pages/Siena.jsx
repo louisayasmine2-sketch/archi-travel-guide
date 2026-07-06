@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import ArticleCard from "@/components/common/ArticleCard";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
-import VideoThumb from "@/components/common/VideoThumb";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";
 import { articlesByRegion } from "@/data/articles";
@@ -63,16 +62,26 @@ export default function Siena() {
             </div>
 
             <div className="mt-14">
-              <p className="overline">Watch</p>
-              <h3 className="font-serif text-2xl mt-2 mb-4">A quiet walk through Siena at dawn</h3>
-              <VideoThumb
-                src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=1600&q=75"
-                title="A quiet morning walk from Piazza del Campo to the Duomo"
-                alt="Siena at dawn"
-                provider="External video CDN placeholder"
-              />
+              <p className="overline">Visual guide</p>
+              <h3 className="font-serif text-2xl mt-2 mb-4">Siena in one frame</h3>
+              <figure className="rounded-2xl overflow-hidden border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))]">
+                <div className="relative aspect-video">
+                  <img
+                    src={HERO}
+                    alt="Siena medieval skyline and terracotta rooftops"
+                    loading="lazy"
+                    decoding="async"
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--charcoal))]/70 via-[hsl(var(--charcoal))]/10 to-transparent" />
+                  <figcaption className="absolute bottom-4 left-4 right-4 text-[hsl(var(--ivory))]">
+                    <p className="text-xs uppercase tracking-[0.2em] opacity-80">Editorial image</p>
+                    <p className="font-serif text-xl leading-tight mt-1">Medieval Siena, best explored slowly on foot</p>
+                  </figcaption>
+                </div>
+              </figure>
               <p className="text-xs text-[hsl(var(--charcoal-soft))] mt-3">
-                Video thumbnails load first for speed. Play triggers the external embed only when requested.
+                We will add an embedded walk-through only after a verified Siena video is available.
               </p>
             </div>
           </div>

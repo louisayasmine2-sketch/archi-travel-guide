@@ -18,7 +18,7 @@ const A = (slug, title, category, region, excerpt, image, sections, faqs = [], u
   };
 };
 
-export const articles = [
+const allArticles = [
   A(
     'best-things-to-do-in-siena',
     'Best Things to Do in Siena for First-Time Visitors',
@@ -1014,6 +1014,6 @@ export const articles = [
 
 export const articles = allArticles.filter(a => new Date(a.updated) <= new Date());
 
-export const getArticle = (slug) => allArticles.find((a) => a.slug === slug);
+export const getArticle = (slug) => articles.find((a) => a.slug === slug);
 export const articlesByRegion = (region) =>
   articles.filter((a) => a.region.toLowerCase() === region.toLowerCase());
