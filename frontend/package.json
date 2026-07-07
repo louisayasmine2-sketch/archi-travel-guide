@@ -67,7 +67,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "npm run sitemap && craco build && node scripts/generate-static-html.js",
+    "build": "npm run sitemap && craco build && node scripts/generate-static-html.js && node scripts/inject-google-analytics.js",
     "test": "craco test",
     "sitemap": "node scripts/generate-sitemap.js"
   },

@@ -40,6 +40,11 @@ const ensureGaScript = () => {
     return null;
   }
 
+  if (typeof window.gtag === "function") {
+    window.__gaInitialized = true;
+    return measurementId;
+  }
+
   window.__gaInitialized = true;
   window.dataLayer = window.dataLayer || [];
   window.gtag = window.gtag || function () {
