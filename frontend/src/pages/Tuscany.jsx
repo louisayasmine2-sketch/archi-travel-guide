@@ -24,7 +24,7 @@ export default function Tuscany() {
       <SEO
         title="Tuscany Travel Guide — Itineraries, food, transport, best time to visit"
         description="Practical Tuscany travel guide from Archi: hilltowns, vineyards, itineraries, food, transport and the best time to visit. Deep coverage starts with Siena."
-        path="/tuscany"
+        path="/tuscany-travel-guide"
         image={HERO}
         schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Italy', to: '/italy' }, { label: 'Tuscany' }])}
       />

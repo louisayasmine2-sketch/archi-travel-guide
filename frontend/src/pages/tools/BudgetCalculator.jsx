@@ -49,7 +49,7 @@ export default function BudgetCalculator() {
       <SEO
         title="Trip Budget Calculator — Realistic travel cost estimates"
         description="Estimate a realistic low–high travel budget by destination, party size, trip length and style. Regional presets for Italy, Tuscany, Siena, Europe and Asia."
-        path="/travel-tools/budget-calculator"
+        path="/travel-budget-calculator"
         schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Travel Tools', to: '/travel-tools' }, { label: 'Budget Calculator' }])}
       />
       <section className="border-b border-[hsl(var(--stone-border))]">

@@ -58,6 +58,16 @@ function App() {
             <Route path="/italy" element={<Italy />} />
             <Route path="/tuscany" element={<Tuscany />} />
             <Route path="/siena" element={<Siena />} />
+            <Route path="/tuscany-travel-guide" element={<Tuscany />} />
+            <Route path="/tuscany-travel-guide/" element={<Tuscany />} />
+            <Route path="/florence-to-siena-by-train-or-bus" element={<Article fixedSlug="florence-to-siena-transport" canonicalPath="/florence-to-siena-by-train-or-bus" />} />
+            <Route path="/florence-to-siena-by-train-or-bus/" element={<Article fixedSlug="florence-to-siena-transport" canonicalPath="/florence-to-siena-by-train-or-bus" />} />
+            <Route path="/siena-day-trip-from-florence" element={<HubPage pageKey="siena-itinerary" routePath="/siena-day-trip-from-florence" />} />
+            <Route path="/siena-day-trip-from-florence/" element={<HubPage pageKey="siena-itinerary" routePath="/siena-day-trip-from-florence" />} />
+            <Route path="/one-day-in-siena" element={<HubPage pageKey="siena-itinerary" routePath="/one-day-in-siena" />} />
+            <Route path="/one-day-in-siena/" element={<HubPage pageKey="siena-itinerary" routePath="/one-day-in-siena" />} />
+            <Route path="/things-to-do-in-siena" element={<Article fixedSlug="best-things-to-do-in-siena" canonicalPath="/things-to-do-in-siena" />} />
+            <Route path="/things-to-do-in-siena/" element={<Article fixedSlug="best-things-to-do-in-siena" canonicalPath="/things-to-do-in-siena" />} />
             <Route path="/florence" element={<City slug="florence" />} />
             <Route path="/rome" element={<City slug="rome" />} />
             <Route path="/venice" element={<City slug="venice" />} />
@@ -67,6 +77,8 @@ function App() {
             <Route path="/asia" element={<Asia />} />
             <Route path="/travel-tools" element={<TravelTools />} />
             <Route path="/travel-tools/budget-calculator" element={<BudgetCalculator />} />
+            <Route path="/travel-budget-calculator" element={<BudgetCalculator />} />
+            <Route path="/travel-budget-calculator/" element={<BudgetCalculator />} />
             <Route path="/travel-tools/itinerary-generator" element={<ItineraryGenerator />} />
             <Route path="/travel-tools/area-finder" element={<AreaFinder />} />
             <Route path="/travel-tools/packing-checklist" element={<PackingChecklist />} />

@@ -24,10 +24,10 @@ const SITE_NAME = 'Archi Travel Guide';
 const DEFAULT_IMAGE = 'https://images.unsplash.com/photo-1761995912965-8f134652fc6e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHx0dXNjYW55JTIwcm9sbGluZyUyMGhpbGxzJTIwc3VucmlzZXxlbnwwfHx8fDE3ODMwMDQ0ODZ8MA&ixlib=rb-4.1.0&q=85&w=1200&h=630&fit=crop';
 const STATIC_FOOTER_LINKS = [
   { href: '/siena-travel-guide', label: 'Siena Travel Guide' },
-  { href: '/blog/florence-to-siena-transport', label: 'Florence to Siena by Train or Bus' },
+  { href: '/florence-to-siena-by-train-or-bus', label: 'Florence to Siena by Train or Bus' },
   { href: '/where-to-stay-in-siena', label: 'Where to Stay in Siena' },
-  { href: '/tuscany', label: 'Tuscany Travel Guide' },
-  { href: '/travel-tools/budget-calculator', label: 'Travel Budget Calculator' },
+  { href: '/tuscany-travel-guide', label: 'Tuscany Travel Guide' },
+  { href: '/travel-budget-calculator', label: 'Travel Budget Calculator' },
   { href: '/editorial-policy', label: 'Editorial Policy' },
   { href: '/about', label: 'About' },
   { href: '/contact', label: 'Contact' },
@@ -71,7 +71,7 @@ const STATIC_ROUTES = [
     'Plan Italy with region-first city guides, route decisions and realistic timing advice.',
     'Siena and Tuscany are the first deep editorial pillars.',
   ]),
-  page('/tuscany', 'Tuscany Travel Guide', 'A practical Tuscany travel guide covering Siena, Florence, hill towns, transport, food, stays and trip timing.', 'Tuscany Travel Guide', [
+  page('/tuscany-travel-guide', 'Tuscany Travel Guide', 'A practical Tuscany travel guide covering Siena, Florence, hill towns, transport, food, stays and trip timing.', 'Tuscany Travel Guide', [
     'Compare Siena, Florence, countryside routes and day trips without overloading your itinerary.',
     'Use transport, food, stay and budget guides to make practical booking choices.',
   ]),
@@ -99,7 +99,7 @@ const STATIC_ROUTES = [
     'Plan Asia routes with weather, visas, transport and packing realities in mind.',
     'Use practical guides before committing to long multi-city routes.',
   ]),
-  page('/travel-tools/budget-calculator', 'Travel Budget Calculator', 'Estimate trip costs by destination, accommodation, food, transport and activity choices.', 'Travel Budget Calculator', ['Estimate daily and total travel costs before booking.']),
+  page('/travel-budget-calculator', 'Travel Budget Calculator', 'Estimate trip costs by destination, accommodation, food, transport and activity choices.', 'Travel Budget Calculator', ['Estimate daily and total travel costs before booking.']),
   page('/travel-tools/itinerary-generator', 'Itinerary Generator', 'Build a practical itinerary structure from trip length, pace and interests.', 'Itinerary Generator', ['Create a realistic day-by-day structure before adding bookings.']),
   page('/travel-tools/area-finder', 'Area Finder', 'Find better neighborhoods and stay areas based on travel style, budget and mobility needs.', 'Area Finder', ['Compare stay areas before choosing accommodation.']),
   page('/travel-tools/packing-checklist', 'Packing Checklist', 'Create a practical packing checklist for city trips, countryside stays and seasonal travel.', 'Packing Checklist', ['Pack for cobblestones, weather, transit and day trips.']),
@@ -140,9 +140,25 @@ const STATIC_ROUTES = [
     'Start with where to stay, what to skip, how to move efficiently and how to stretch your budget.',
     'Use this page as the hub for Siena planning before reading deeper guides.',
   ]),
+  page('/florence-to-siena-by-train-or-bus', 'Florence to Siena by Train or Bus', 'Compare practical train and bus options from Florence to Siena before planning your day trip.', 'Florence to Siena by train or bus', [
+    'Use this guide to compare transport trade-offs before choosing your route.',
+    'The page connects transport planning with Siena itinerary and stay decisions.',
+  ]),
+  page('/siena-day-trip-from-florence', 'Siena Day Trip from Florence', 'Plan a focused Siena day trip from Florence with realistic timing and practical route notes.', 'Siena day trip from Florence', [
+    'Keep the day focused around Piazza del Campo, the Duomo, and a realistic meal stop.',
+    'Use the transport guide before committing to a train or bus plan.',
+  ]),
+  page('/one-day-in-siena', 'One Day in Siena', 'A practical one-day Siena planning page for short visits, pacing, and first-time priorities.', 'One day in Siena', [
+    'Prioritize the Campo, Duomo area, and one slow walk rather than overloading the day.',
+    'Use this route as a short-stay entry point before deeper Siena guides.',
+  ]),
   page('/where-to-stay-in-siena', 'Where to Stay in Siena', 'Zone-by-zone Siena accommodation advice for couples, families and budget-focused travelers.', 'Where to stay in Siena', [
     'Choose by mood and mobility, not just price.',
     'Compare Terzo di Citta, San Martino and Camollia for comfort, noise and access.',
+  ]),
+  page('/things-to-do-in-siena', 'Things to Do in Siena', 'A practical shortlist of things to do in Siena for first-time visitors and short stays.', 'Things to do in Siena', [
+    'Start with the sights that shape a first Siena visit, then leave room for slow streets and food stops.',
+    'This page keeps priority clear for travelers with limited time.',
   ]),
   page('/siena-itinerary', 'Siena Itinerary Guide', 'Practical Siena itinerary guidance for 1 day, 2 days and 3 days with pacing and transport notes.', 'Siena itinerary', [
     'Use 1-day, 2-day and 3-day structures that balance sights, food and downtime.',

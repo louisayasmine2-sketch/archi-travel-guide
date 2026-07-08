@@ -1,53 +1,34 @@
 # Canonical domain
 https://www.affittacameregliarchi.com/* https://affittacameregliarchi.com/:splat 301
 
-# 1) Specific legacy redirects to canonical content hubs
+# Legacy homepage URLs
 /index.html / 301
 /index-en.html / 301
 
-# Siena legacy pages
+# Legacy Siena/B&B URLs
 /it/gli-archi-bed-and-breakfast-siena.html /siena-travel-guide 301
 /en/holidays-in-siena.html /siena-travel-guide 301
 
-# Accommodation legacy pages
+# Legacy room/accommodation URLs
 /en/rooms-bed-and-breakfast-in-siena.html /where-to-stay-in-siena 301
 /it/camere-bed-and-breakfast-a-siena.html /where-to-stay-in-siena 301
 /en/standard-double-room-in-siena.html /where-to-stay-in-siena 301
 /en/superior-double-room-in-siena.html /where-to-stay-in-siena 301
 /it/family-accomodation-per-4-a-siena.html /where-to-stay-in-siena 301
 
-# Contact legacy
+# Legacy contact and policy URLs
 /en/contacts-gli-archi-bed-and-breakfast-siena.html /contact 301
-/contacts /contact 301
-/en/contacts /contact 301
-
-# Policy / service legacy
 /en/services-and-conditions-gli-archi-bad-and-breakfast.html /editorial-policy 301
 /en/terms /editorial-policy 301
 /en/conditions /editorial-policy 301
 /en/policy /editorial-policy 301
 
-# Transport legacy
+# Old route aliases now replaced by canonical SEO URLs
 /blog/florence-to-siena-transport /florence-to-siena-by-train-or-bus 301
+/blog/best-things-to-do-in-siena /things-to-do-in-siena 301
 /travel-transport-to-siena /florence-to-siena-by-train-or-bus 301
-
-# Legacy section slugs / aliases
-/siena /siena-travel-guide 301
-/italy /siena-travel-guide 301
-/europe /siena-travel-guide 301
-/asia /tuscany-travel-guide 301
+/travel-tools/budget-calculator /travel-budget-calculator 301
 /tuscany /tuscany-travel-guide 301
-/blog /siena-travel-guide 301
-/travel-tools /travel-budget-calculator 301
-/travel-tools/* /travel-budget-calculator 301
 
-# 2) Canonical SEO slugs safety: alias-to-existing-route rewrites (200),
-# so canonical URLs render content even if React routes are not yet registered.
-/florence-to-siena-by-train-or-bus /blog/florence-to-siena-transport 200
-/siena-day-trip-from-florence /blog/siena-day-trip-from-florence 200
-/one-day-in-siena /blog/one-day-in-siena 200
-/tuscany-travel-guide /tuscany 200
-/travel-budget-calculator /travel-tools/budget-calculator 200
-
-# 3) SPA fallback (must be last)
+# SPA fallback must be last
 /* /index.html 200

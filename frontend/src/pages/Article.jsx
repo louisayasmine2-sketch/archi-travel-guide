@@ -17,8 +17,9 @@ import axios from "axios";
 import { toast } from "sonner";
 import { useState } from "react";
 
-export default function Article() {
-  const { slug } = useParams();
+export default function Article({ fixedSlug, canonicalPath }) {
+  const { slug: routeSlug } = useParams();
+  const slug = fixedSlug || routeSlug;
   const article = getArticle(slug);
   if (!article) return <NotFound />;
 
@@ -27,7 +28,7 @@ export default function Article() {
   const bookingCta = monetization.booking;
   const affiliateItems = monetization.affiliates || [];
 
-  const path = `/blog/${article.slug}`;
+  const path = canonicalPath || `/blog/${article.slug}`;
   const url = canonical(path);
   const regionTo = article.region === 'Siena' ? '/siena' : article.region === 'Tuscany' ? '/tuscany' : article.region === 'Italy' ? '/italy' : '/blog';
   const crumbs = [

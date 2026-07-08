@@ -55,13 +55,17 @@ const staticRoutes = [
   { path: '/about',                              changefreq: 'yearly',  priority: 0.5 },
   { path: '/contact',                            changefreq: 'yearly',  priority: 0.5 },
   { path: '/siena-travel-guide',                 changefreq: 'weekly',  priority: 0.8 },
+  { path: '/siena-day-trip-from-florence',       changefreq: 'weekly',  priority: 0.8 },
+  { path: '/florence-to-siena-by-train-or-bus',  changefreq: 'weekly',  priority: 0.8 },
+  { path: '/one-day-in-siena',                   changefreq: 'weekly',  priority: 0.8 },
   { path: '/where-to-stay-in-siena',             changefreq: 'weekly',  priority: 0.8 },
-  { path: '/siena-itinerary',                    changefreq: 'weekly',  priority: 0.8 },
+  { path: '/things-to-do-in-siena',              changefreq: 'weekly',  priority: 0.8 },
+  { path: '/tuscany-travel-guide',               changefreq: 'weekly',  priority: 0.8 },
+  { path: '/travel-budget-calculator',           changefreq: 'monthly', priority: 0.8 },
   { path: '/siena-accommodation-guide',          changefreq: 'weekly',  priority: 0.8 },
   { path: '/travel-tips',                        changefreq: 'monthly',  priority: 0.75 },
 
   { path: '/italy',                              changefreq: 'weekly',  priority: 0.95 },
-  { path: '/tuscany',                            changefreq: 'weekly',  priority: 0.9 },
   { path: '/siena',                              changefreq: 'weekly',  priority: 0.9 },
   { path: '/florence',                           changefreq: 'monthly', priority: 0.85 },
   { path: '/rome',                               changefreq: 'monthly', priority: 0.85 },
@@ -69,7 +73,6 @@ const staticRoutes = [
   { path: '/europe',                             changefreq: 'monthly', priority: 0.6 },
   { path: '/asia',                               changefreq: 'monthly', priority: 0.6 },
 
-  { path: '/travel-tools/budget-calculator',     changefreq: 'monthly', priority: 0.8 },
   { path: '/travel-tools/itinerary-generator',   changefreq: 'monthly', priority: 0.8 },
   { path: '/travel-tools/area-finder',           changefreq: 'monthly', priority: 0.8 },
   { path: '/travel-tools/packing-checklist',     changefreq: 'monthly', priority: 0.8 },
@@ -214,7 +217,12 @@ function urlEntry({ path: p, changefreq, priority, lastmod }) {
 }
 
 function render() {
-  const articleRoutes = extractArticles().map((a) => ({
+  const redirectedArticleSlugs = new Set([
+    'florence-to-siena-transport',
+    'best-things-to-do-in-siena',
+  ]);
+
+  const articleRoutes = extractArticles().filter((a) => !redirectedArticleSlugs.has(a.slug)).map((a) => ({
     path: `/blog/${a.slug}`,
     changefreq: 'monthly',
     priority: 0.75,
