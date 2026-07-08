@@ -6,7 +6,7 @@ import { breadcrumbSchema } from "@/lib/schema";
 import { Bus, Plane, Train } from "lucide-react";
 
 const guides = [
-  { title: "Florence Airport (FLR) → Siena", body: "Take Sitabus Airport shuttle to Florence Villa Costanza, then Autolinee Toscane express bus to Siena. Total ~2h. Cheaper than a taxi/transfer by 60%.", icon: Bus, to: "/blog/florence-to-siena-transport" },
+  { title: "Florence Airport (FLR) → Siena", body: "Take Sitabus Airport shuttle to Florence Villa Costanza, then Autolinee Toscane express bus to Siena. Total ~2h. Cheaper than a taxi/transfer by 60%.", icon: Bus, to: "/florence-to-siena-by-train-or-bus" },
   { title: "Pisa Airport (PSA) → Siena", body: "PisaMover to Pisa Centrale, then a regional train to Siena via Empoli (~2h30m). If you have luggage and time is short, book a private transfer.", icon: Train },
   { title: "Rome (FCO) → Tuscany", body: "Leonardo Express to Roma Termini, high-speed train to Florence, then bus to Siena. Around 4h total, but very comfortable.", icon: Train },
   { title: "Between Italian cities", body: "Trenitalia and Italo cover major routes at high speed. Book Frecciarossa/Italo 3–6 weeks ahead for the best fares (up to 60% cheaper).", icon: Train },

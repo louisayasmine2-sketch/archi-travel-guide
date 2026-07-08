@@ -30,7 +30,7 @@ export default function Article({ fixedSlug, canonicalPath }) {
 
   const path = canonicalPath || `/blog/${article.slug}`;
   const url = canonical(path);
-  const regionTo = article.region === 'Siena' ? '/siena' : article.region === 'Tuscany' ? '/tuscany' : article.region === 'Italy' ? '/italy' : '/blog';
+    const regionTo = article.region === 'Siena' ? '/siena' : article.region === 'Tuscany' ? '/tuscany-travel-guide' : article.region === 'Italy' ? '/italy' : '/blog';
   const crumbs = [
     { label: "Home", to: "/" },
     { label: "Blog", to: "/blog" },

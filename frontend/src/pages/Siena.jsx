@@ -15,7 +15,7 @@ const chapters = [
   { title: "3-day itinerary", to: "/blog/siena-3-day-itinerary", blurb: "Add a proper half-day trip to Val d’Orcia or San Gimignano." },
   { title: "Family travel",   to: "/blog/siena-with-kids", blurb: "Kid-paced days, contrada scavenger hunts, and family-friendly trattorias." },
   { title: "Budget travel",   to: "/blog/how-much-siena-trip-costs", blurb: "Three tiers of cost, from guesthouse to design hotel." },
-  { title: "Transport",       to: "/blog/florence-to-siena-transport", blurb: "How to arrive from Florence, and when a rental car makes sense." },
+  { title: "Transport",       to: "/florence-to-siena-by-train-or-bus", blurb: "How to arrive from Florence, and when a rental car makes sense." },
 ];
 
 export default function Siena() {
@@ -27,13 +27,13 @@ export default function Siena() {
         description="The Archi Siena guide: what to do first, where to stay in each terzo, 1–3 day itineraries, family and budget travel, and how to arrive from Florence."
         path="/siena"
         image={HERO}
-        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Italy', to: '/italy' }, { label: 'Tuscany', to: '/tuscany' }, { label: 'Siena' }])}
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Italy', to: '/italy' }, { label: 'Tuscany', to: '/tuscany-travel-guide' }, { label: 'Siena' }])}
       />
       <section className="relative overflow-hidden">
         <img src={HERO} alt="Siena skyline" loading="eager" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--charcoal))]/85 via-[hsl(var(--charcoal))]/30 to-transparent" />
         <div className="relative container-editorial pt-14 pb-24 lg:pb-32 text-[hsl(var(--ivory))]">
-          <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Italy", to: "/italy" }, { label: "Tuscany", to: "/tuscany" }, { label: "Siena" }]} />
+            <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Italy", to: "/italy" }, { label: "Tuscany", to: "/tuscany-travel-guide" }, { label: "Siena" }]} />
           <p className="overline text-[hsl(var(--ivory))]/80 mt-6">Deep coverage · Siena</p>
           <h1 className="mt-4 font-serif text-5xl md:text-7xl leading-none tracking-tight max-w-3xl">Siena travel guide</h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-[hsl(var(--ivory))]/85">

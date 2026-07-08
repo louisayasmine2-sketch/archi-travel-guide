@@ -51,11 +51,11 @@ export const cities = {
     ],
     related: ['best-things-to-do-in-siena', 'florence-to-siena-transport', 'best-time-to-visit-tuscany', 'tuscany-food-guide'],
     internalLinks: [
-      { to: '/tuscany', label: 'Tuscany region overview' },
+      { to: '/tuscany-travel-guide', label: 'Tuscany region overview' },
       { to: '/siena', label: 'Siena guide' },
-      { to: '/blog/florence-to-siena-transport', label: 'Florence → Siena transport guide' },
+      { to: '/florence-to-siena-by-train-or-bus', label: 'Florence → Siena transport guide' },
       { to: '/travel-tools/area-finder', label: 'Where to stay finder' },
-      { to: '/travel-tools/budget-calculator', label: 'Trip budget calculator' },
+      { to: '/travel-budget-calculator', label: 'Trip budget calculator' },
     ],
   },
   rome: {
@@ -212,7 +212,7 @@ export const cities = {
     related: ['international-packing-checklist', 'europe-budget-guide'],
     internalLinks: [
       { to: '/france', label: 'France overview' },
-      { to: '/travel-tools/budget-calculator', label: 'Trip budget calculator' },
+      { to: '/travel-budget-calculator', label: 'Trip budget calculator' },
       { to: '/travel-tools/area-finder', label: 'Where to stay finder' },
     ],
   },

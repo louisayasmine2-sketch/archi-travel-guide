@@ -78,7 +78,7 @@ export default function Italy() {
                 <p className="overline">Practical planning</p>
                 <h3 className="font-serif text-2xl mt-2 leading-tight">Start with these tools</h3>
                 <ul className="mt-5 space-y-3 text-sm">
-                  <li><Link to="/travel-tools/budget-calculator" className="link-terra font-medium">Trip Budget Calculator →</Link></li>
+                   <li><Link to="/travel-budget-calculator" className="link-terra font-medium">Trip Budget Calculator →</Link></li>
                   <li><Link to="/travel-tools/best-time-to-visit" className="link-terra font-medium">Best Time to Visit →</Link></li>
                   <li><Link to="/travel-tools/area-finder" className="link-terra font-medium">Best Area to Stay Finder →</Link></li>
                   <li><Link to="/travel-tools/itinerary-generator" className="link-terra font-medium">Itinerary Generator →</Link></li>

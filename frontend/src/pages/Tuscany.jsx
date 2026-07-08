@@ -13,9 +13,12 @@ const sections = [
   { title: "Itineraries", to: "/blog?region=Tuscany&cat=itineraries", body: "Two- and three-day plans for Siena, plus longer routes through Val d’Orcia and Chianti." },
   { title: "Where to stay", to: "/travel-tools/area-finder", body: "Countryside agriturismos, hilltown boutique hotels, or a base in Florence — which one fits your trip." },
   { title: "Food guide", to: "/blog/tuscany-food-guide", body: "The dishes and wines worth ordering, and the menu vocabulary that opens up family-run trattorias." },
-  { title: "Transport", to: "/blog/florence-to-siena-transport", body: "Bus, train or rental car — how to move between Florence, Siena and the countryside." },
+  { title: "Transport", to: "/florence-to-siena-by-train-or-bus", body: "Bus, train or rental car — how to move between Florence, Siena and the countryside." },
   { title: "Best season", to: "/blog/best-time-to-visit-tuscany", body: "Month-by-month realities of Tuscany, with an honest take on August heat and the Palio." },
 ];
+
+// TODO: This page is intentionally lightweight until the site owner provides expanded
+// editorial copy for "/tuscany-travel-guide" focused on in-depth travel planning.
 
 export default function Tuscany() {
   const tuscanyArticles = articlesByRegion("Tuscany").concat(articlesByRegion("Siena")).slice(0, 6);

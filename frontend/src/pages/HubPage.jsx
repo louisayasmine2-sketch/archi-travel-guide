@@ -57,6 +57,9 @@ const HUB_CONTENT = {
     ],
     schemaType: "website",
   },
+  // TODO: /siena-travel-guide needs owner-authored editorial expansion.
+  // Current body text is intentionally temporary and should be replaced with
+  // a full in-depth Siena travel article before ranking-focused campaigns.
   "siena-travel-guide": {
     title: "Siena Travel Guide | Where to stay, plan, and enjoy",
     description: "A practical Siena travel guide with accommodation zones, practical itineraries, transport and first-hand planning tips.",
@@ -82,6 +85,9 @@ const HUB_CONTENT = {
     ],
     schemaType: "article",
   },
+  // TODO: /where-to-stay-in-siena needs owner-authored editorial expansion.
+  // Current body text is intentionally temporary and should be replaced with
+  // a full article with practical booking guidance before ranking-focused campaigns.
   "where-to-stay-in-siena": {
     title: "Where to Stay in Siena",
     description: "Zone-by-zone Siena accommodation advice for couples, families, and budget-focused travelers.",
@@ -121,7 +127,7 @@ const HUB_CONTENT = {
       title: "Build your own",
       items: [
         { to: "/travel-tools/itinerary-generator", label: "Itinerary generator", desc: "Generate a personalized trip flow." },
-        { to: "/travel-tools/budget-calculator", label: "Budget calculator", desc: "Tune spending by day and person." },
+        { to: "/travel-budget-calculator", label: "Budget calculator", desc: "Tune spending by day and person." },
         { to: "/travel-tools/best-time-to-visit", label: "Best time to visit", desc: "Choose realistic timing for your dates." },
       ],
     },

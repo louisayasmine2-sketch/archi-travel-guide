@@ -28,7 +28,7 @@ export default function City({ slug: slugProp }) {
   const crumbs = [
     { label: 'Home', to: '/' },
     { label: 'Italy', to: '/italy' },
-    ...(city.region === 'Tuscany' ? [{ label: 'Tuscany', to: '/tuscany' }] : []),
+    ...(city.region === 'Tuscany' ? [{ label: 'Tuscany', to: '/tuscany-travel-guide' }] : []),
     { label: city.name },
   ];
 
@@ -178,7 +178,7 @@ export default function City({ slug: slugProp }) {
                 ))}
               </div>
               <p className="mt-5 text-sm text-[hsl(var(--charcoal-soft))]">
-                Fine-tune with our <Link to="/travel-tools/budget-calculator" className="link-terra">Trip Budget Calculator</Link>.
+                Fine-tune with our <Link to="/travel-budget-calculator" className="link-terra">Trip Budget Calculator</Link>.
               </p>
             </section>
 

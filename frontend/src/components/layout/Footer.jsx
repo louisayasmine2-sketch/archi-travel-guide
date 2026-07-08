@@ -6,7 +6,7 @@ const cols = [
     title: "Destinations",
     links: [
       { to: "/italy", label: "Italy" },
-      { to: "/tuscany", label: "Tuscany" },
+      { to: "/tuscany-travel-guide", label: "Tuscany" },
       { to: "/siena", label: "Siena" },
       { to: "/europe", label: "Europe" },
       { to: "/asia", label: "Asia" },
@@ -16,7 +16,7 @@ const cols = [
   {
     title: "Travel Tools",
     links: [
-      { to: "/travel-tools/budget-calculator", label: "Budget calculator" },
+      { to: "/travel-budget-calculator", label: "Budget calculator" },
       { to: "/travel-tools/itinerary-generator", label: "Itinerary generator" },
       { to: "/travel-tools/area-finder", label: "Best area to stay" },
       { to: "/travel-tools/packing-checklist", label: "Packing checklist" },
