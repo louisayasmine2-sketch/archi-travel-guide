@@ -1,5 +1,5 @@
-https://www.affittacameregliarchi.com/                    https://affittacameregliarchi.com/ 301
-https://www.affittacameregliarchi.com/*                  https://affittacameregliarchi.com/:splat 301
+https://www.affittacameregliarchi.com/*                    https://affittacameregliarchi.com/:splat 301
+https://www.affittacameregliarchi.com/                     https://affittacameregliarchi.com/ 301
 
 /index-en.html                                            / 301
 /en/gli-archi-bed-and-breakfast-siena.html                / 301
@@ -17,5 +17,7 @@ https://www.affittacameregliarchi.com/*                  https://affittacameregl
 /tuscany                                                  /tuscany-travel-guide 301
 /en/*.html                                               / 301
 /it/*.html                                               / 301
+/en/*                                                    / 301
+/it/*                                                    / 301
 
 /*                                                       /index.html 200
