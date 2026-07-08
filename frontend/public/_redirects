@@ -1,34 +1,32 @@
-# Canonical domain
 https://www.affittacameregliarchi.com/* https://affittacameregliarchi.com/:splat 301
 
-# Legacy homepage URLs
-/index.html / 301
-/index-en.html / 301
+# Legacy B&B landing pages
+/index-en.html                                   /                                301
+/en/gli-archi-bed-and-breakfast-siena.html        /                                301
+/it/gli-archi-bed-and-breakfast-siena.html        /                                301
 
-# Legacy Siena/B&B URLs
-/it/gli-archi-bed-and-breakfast-siena.html /siena-travel-guide 301
-/en/holidays-in-siena.html /siena-travel-guide 301
+# Legacy Siena travel pages
+/en/holidays-in-siena.html                       /siena-travel-guide               301
 
-# Legacy room/accommodation URLs
-/en/rooms-bed-and-breakfast-in-siena.html /where-to-stay-in-siena 301
-/it/camere-bed-and-breakfast-a-siena.html /where-to-stay-in-siena 301
-/en/standard-double-room-in-siena.html /where-to-stay-in-siena 301
-/en/superior-double-room-in-siena.html /where-to-stay-in-siena 301
-/it/family-accomodation-per-4-a-siena.html /where-to-stay-in-siena 301
+# Legacy room/accommodation pages
+/en/rooms-bed-and-breakfast-in-siena.html         /where-to-stay-in-siena            301
+/it/camere-bed-and-breakfast-a-siena.html         /where-to-stay-in-siena            301
+/en/standard-double-room-in-siena.html            /where-to-stay-in-siena            301
+/en/superior-double-room-in-siena.html            /where-to-stay-in-siena            301
+/it/family-accomodation-per-4-a-siena.html        /where-to-stay-in-siena            301
+/en/services-and-conditions-gli-archi-bad-and-breakfast.html /where-to-stay-in-siena 301
 
-# Legacy contact and policy URLs
-/en/contacts-gli-archi-bed-and-breakfast-siena.html /contact 301
-/en/services-and-conditions-gli-archi-bad-and-breakfast.html /editorial-policy 301
-/en/terms /editorial-policy 301
-/en/conditions /editorial-policy 301
-/en/policy /editorial-policy 301
+# Legacy contact page
+/en/contacts-gli-archi-bed-and-breakfast-siena.html /contact                         301
 
-# Old route aliases now replaced by canonical SEO URLs
-/blog/florence-to-siena-transport /florence-to-siena-by-train-or-bus 301
-/blog/best-things-to-do-in-siena /things-to-do-in-siena 301
-/travel-transport-to-siena /florence-to-siena-by-train-or-bus 301
-/travel-tools/budget-calculator /travel-budget-calculator 301
-/tuscany /tuscany-travel-guide 301
+# Canonicalize mixed-route aliases
+/blog/florence-to-siena-transport                /florence-to-siena-by-train-or-bus  301
+/travel-tools/budget-calculator                   /travel-budget-calculator         301
+/tuscany                                         /tuscany-travel-guide            301
 
-# SPA fallback must be last
-/* /index.html 200
+# Legacy language/html catch-all
+/en/*.html                                       /                                301
+/it/*.html                                       /                                301
+
+# SPA fallback
+/*                                               /index.html                      200
