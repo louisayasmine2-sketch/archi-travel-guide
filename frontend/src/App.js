@@ -27,7 +27,6 @@ import AreaFinder from "@/pages/tools/AreaFinder";
 import PackingChecklist from "@/pages/tools/PackingChecklist";
 import BestTimeToVisit from "@/pages/tools/BestTimeToVisit";
 import TransportGuide from "@/pages/tools/TransportGuide";
-import LegacyContentPage from "@/pages/legacy/LegacyContentPage";
 import HubPage from "@/pages/HubPage";
 import { initializeClarity, trackPageView } from "@/lib/analytics";
 
@@ -104,14 +103,6 @@ function App() {
             <Route path="/siena-accommodation-guide/" element={<HubPage pageKey="siena-accommodation-guide" routePath="/siena-accommodation-guide" />} />
             <Route path="/travel-tips" element={<HubPage pageKey="travel-tips" routePath="/travel-tips" />} />
             <Route path="/travel-tips/" element={<HubPage pageKey="travel-tips" routePath="/travel-tips" />} />
-            <Route path="/en/rooms-bed-and-breakfast-in-siena.html" element={<LegacyContentPage pageKey="rooms-bed-and-breakfast-in-siena" routePath="/en/rooms-bed-and-breakfast-in-siena.html" />} />
-            <Route path="/en/standard-double-room-in-siena.html" element={<LegacyContentPage pageKey="standard-double-room" routePath="/en/standard-double-room-in-siena.html" />} />
-            <Route path="/en/superior-double-room-in-siena.html" element={<LegacyContentPage pageKey="superior-double-room" routePath="/en/superior-double-room-in-siena.html" />} />
-            <Route path="/it/family-accomodation-per-4-a-siena.html" element={<LegacyContentPage pageKey="family-accommodation" routePath="/it/family-accomodation-per-4-a-siena.html" />} />
-            <Route path="/en/gli-archi-bed-and-breakfast-siena.html" element={<LegacyContentPage pageKey="bed-and-breakfast-home" routePath="/en/gli-archi-bed-and-breakfast-siena.html" />} />
-            <Route path="/en/services-and-conditions-gli-archi-bad-and-breakfast.html" element={<LegacyContentPage pageKey="services-and-conditions" routePath="/en/services-and-conditions-gli-archi-bad-and-breakfast.html" />} />
-            <Route path="/en/holidays-in-siena.html" element={<LegacyContentPage pageKey="holidays-in-siena" routePath="/en/holidays-in-siena.html" />} />
-            <Route path="/en/contacts-gli-archi-bed-and-breakfast-siena.html" element={<LegacyContentPage pageKey="contacts" routePath="/en/contacts-gli-archi-bed-and-breakfast-siena.html" />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>

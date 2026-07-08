@@ -22,6 +22,18 @@ const SITE_URL = (
 ).replace(/\/$/, '');
 const SITE_NAME = 'Archi Travel Guide';
 const DEFAULT_IMAGE = 'https://images.unsplash.com/photo-1761995912965-8f134652fc6e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHx0dXNjYW55JTIwcm9sbGluZyUyMGhpbGxzJTIwc3VucmlzZXxlbnwwfHx8fDE3ODMwMDQ0ODZ8MA&ixlib=rb-4.1.0&q=85&w=1200&h=630&fit=crop';
+const STATIC_FOOTER_LINKS = [
+  { href: '/siena-travel-guide', label: 'Siena Travel Guide' },
+  { href: '/blog/florence-to-siena-transport', label: 'Florence to Siena by Train or Bus' },
+  { href: '/where-to-stay-in-siena', label: 'Where to Stay in Siena' },
+  { href: '/tuscany', label: 'Tuscany Travel Guide' },
+  { href: '/travel-tools/budget-calculator', label: 'Travel Budget Calculator' },
+  { href: '/editorial-policy', label: 'Editorial Policy' },
+  { href: '/about', label: 'About' },
+  { href: '/contact', label: 'Contact' },
+  { href: '/privacy-policy', label: 'Privacy Policy' },
+  { href: '/sitemap.xml', label: 'Sitemap' },
+];
 
 const STATIC_ROUTES = [
   page('/', 'Archi Travel Guide', 'Independent travel planning guides for Siena, Tuscany, Italy, Europe and Asia, with practical itineraries, budget tools and honest recommendations.', 'Plan smarter trips around the world', [
@@ -55,14 +67,6 @@ const STATIC_ROUTES = [
     'Send editorial questions, partnership requests and travel planning notes to contact@affittacameregliarchi.com.',
     'Messages are delivered directly to the team, with email fallback if form delivery is unavailable.',
   ]),
-  page('/en', 'Archi Travel Guide · Siena, Italy', 'English landing page for practical Siena and Tuscany travel planning guides.', 'Siena-focused travel guide for easy planning', [
-    'Start with where to stay in Siena, practical itineraries, transport options and budget-ready guides.',
-    'Clear booking contact routes and affiliate disclosure keep recommendations transparent.',
-  ]),
-  page('/it', 'Guida Archi · Siena, Italia', 'Guide pratiche per organizzare il soggiorno a Siena, Toscana e dintorni.', 'Pianifica Siena, Toscana e dintorni in modo pratico', [
-    'Contenuti pratici su alloggi, itinerari e consigli reali per chi viaggia a Siena e in Toscana.',
-    'Contatti chiari, indicazioni su trasporti e disclosure commerciale trasparente.',
-  ], 'it_IT'),
   page('/italy', 'Italy Travel Guide', 'Practical Italy travel planning guides for cities, regions, transport, itineraries and seasonal decisions.', 'Italy Travel Guide', [
     'Plan Italy with region-first city guides, route decisions and realistic timing advice.',
     'Siena and Tuscany are the first deep editorial pillars.',
@@ -152,45 +156,10 @@ const STATIC_ROUTES = [
     'Plan transfer windows around weather, strikes, parking and old-town walking limits.',
     'Preload maps and keep offline essentials ready.',
   ]),
-  legacy('/en/rooms-bed-and-breakfast-in-siena.html', 'Rooms at Gli Archi Bed & Breakfast Siena', 'Room overview for Gli Archi Bed & Breakfast in Siena, with double, superior and family stay planning notes.', 'Rooms at Gli Archi Bed & Breakfast', [
-    'Compare room types, guest needs and stay logistics for Siena.',
-    'Review family-fit options, double rooms, breakfast, Wi-Fi and city access details.',
-    'Contact the team with dates, number of guests and room preference.',
-  ]),
-  legacy('/en/standard-double-room-in-siena.html', 'Standard Double Room in Siena | B&B room details', 'Standard double room information for Siena stays, including comfort, practical amenities, check-in questions and booking contact.', 'Standard Double Room in Siena', [
-    'A practical double room option for couples or solo travelers who want straightforward comfort.',
-    'Useful for short Siena stays where simple routines, luggage handling and quiet nights matter.',
-    'Ask about availability with your dates, arrival time, parking needs and room preference.',
-  ]),
-  legacy('/en/superior-double-room-in-siena.html', 'Superior Double Room in Siena | Larger comfort room', 'Superior double room information for Siena stays, with upgraded comfort notes, longer-stay context and direct booking guidance.', 'Superior Double Room in Siena', [
-    'A comfort-first room option for longer stays or travelers who want more in-room space.',
-    'Review upgraded essentials, flexible add-ons and check-in details before confirming.',
-    'Send arrival and departure dates to request availability.',
-  ]),
-  legacy('/it/family-accomodation-per-4-a-siena.html', 'Family Accommodation in Siena for Four Guests', 'Family accommodation guidance for Siena stays, including bed configuration, mobility needs and practical booking questions.', 'Family accommodation in Siena', [
-    'Plan family stays around route simplicity, bed configuration and quiet routines.',
-    'Confirm check-in timing, room layout and transport access early.',
-  ]),
-  legacy('/en/services-and-conditions-gli-archi-bad-and-breakfast.html', 'Services and Conditions for Siena B&B stays', 'Services, conditions and practical booking expectations for Siena stay inquiries.', 'Services and Conditions', [
-    'Review booking expectations, timing, communication and service details before confirming a stay.',
-    'Use the Privacy Policy for information about request data and contact form handling.',
-  ]),
-  legacy('/en/holidays-in-siena.html', 'Holidays in Siena | Practical stay planning', 'Holiday planning in Siena with timing, family, transport, parking and accommodation considerations.', 'Holidays in Siena', [
-    'Plan holidays by separating sightseeing windows from logistics windows.',
-    'Think through seasonal crowds, transport, parking and family-friendly timing before booking.',
-  ]),
-  legacy('/en/contacts-gli-archi-bed-and-breakfast-siena.html', 'Contact Gli Archi Bed and Breakfast Siena', 'Contact page for Siena room availability, booking questions and stay-related details.', 'Contact Gli Archi Bed and Breakfast Siena', [
-    'Send date window, room type, number of guests and arrival details for a useful reply.',
-    'Use contact@affittacameregliarchi.com for stay-related questions.',
-  ]),
 ];
 
 function page(routePath, title, description, h1, bullets, locale = 'en_US') {
   return { path: routePath, title, description, h1, bullets, locale, canonicalPath: routePath };
-}
-
-function legacy(routePath, title, description, h1, bullets) {
-  return { path: routePath, title, description, h1, bullets, locale: 'en_US', canonicalPath: routePath, type: 'legacy' };
 }
 
 function escapeHtml(value = '') {
@@ -241,13 +210,17 @@ function injectHead(html, route) {
 
 function fallbackMarkup(route) {
   const bullets = (route.bullets || []).map((item) => `<li>${escapeHtml(item)}</li>`).join('');
+  const links = STATIC_FOOTER_LINKS
+    .map((item) => `<a href="${item.href}">${escapeHtml(item.label)}</a>`)
+    .join(' · ');
+
   return [
     `<main id="static-fallback" class="static-fallback">`,
-    `<p class="overline">${route.type === 'legacy' ? 'Siena accommodation' : 'Archi Travel Guide'}</p>`,
+    `<p class="overline">Archi Travel Guide</p>`,
     `<h1>${escapeHtml(route.h1 || route.title)}</h1>`,
     `<p>${escapeHtml(route.description)}</p>`,
     bullets ? `<ul>${bullets}</ul>` : '',
-    `<p><a href="/contact">Contact Archi Travel Guide</a> · <a href="/privacy-policy">Privacy Policy</a> · <a href="/sitemap.xml">Sitemap</a></p>`,
+    `<p>${links}</p>`,
     `</main>`,
   ].join('');
 }

@@ -1,7 +1,21 @@
+https://www.affittacameregliarchi.com/* https://affittacameregliarchi.com/:splat 301
+
 /index.html / 301
-/index-en.html /en 301
-/index-it.html /it 301
-/en/index.html /en 301
-/it/index.html /it 301
-/en/gli-archi-bed-and-breakfast-siena.html /en 301
-/it/gli-archi-bed-and-breakfast-siena.html /it 301
+/index-en.html / 301
+/index-it.html / 301
+/en / 301
+/en/ / 301
+/it / 301
+/it/ / 301
+/en/index.html / 301
+/it/index.html / 301
+/en/gli-archi-bed-and-breakfast-siena.html / 301
+/it/gli-archi-bed-and-breakfast-siena.html / 301
+/en/holidays-in-siena.html /siena-travel-guide 301
+/en/rooms-bed-and-breakfast-in-siena.html /where-to-stay-in-siena 301
+/it/camere-bed-and-breakfast-a-siena.html /where-to-stay-in-siena 301
+/en/standard-double-room-in-siena.html /where-to-stay-in-siena 301
+/en/superior-double-room-in-siena.html /where-to-stay-in-siena 301
+/it/family-accomodation-per-4-a-siena.html /where-to-stay-in-siena 301
+/en/contacts-gli-archi-bed-and-breakfast-siena.html /contact 301
+/en/services-and-conditions-gli-archi-bad-and-breakfast.html /siena-accommodation-guide 301

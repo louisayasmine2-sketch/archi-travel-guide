@@ -24,6 +24,17 @@ const TOOL_ICONS = {
   'transport-guide': Bus,
 };
 
+const quickLinks = [
+  { to: "/siena-travel-guide", label: "Siena Travel Guide", desc: "Start with the main Siena planning hub." },
+  { to: "/blog/florence-to-siena-transport", label: "Florence to Siena by Train or Bus", desc: "Compare the simplest ways to arrive." },
+  { to: "/where-to-stay-in-siena", label: "Where to Stay in Siena", desc: "Choose the right area before booking." },
+  { to: "/tuscany", label: "Tuscany Travel Guide", desc: "Plan Siena, Florence and hill towns together." },
+  { to: "/travel-tools/budget-calculator", label: "Travel Budget Calculator", desc: "Estimate costs before committing." },
+  { to: "/editorial-policy", label: "Editorial Policy", desc: "How we research and update guides." },
+  { to: "/about", label: "About Archi Travel Guide", desc: "Who writes and maintains the site." },
+  { to: "/contact", label: "Contact", desc: "Corrections, questions and partnership notes." },
+];
+
 export default function Home() {
   const [q, setQ] = useState("");
   const navigate = useNavigate();
@@ -108,6 +119,27 @@ export default function Home() {
               <p className="mt-2 text-[15px] text-[hsl(var(--charcoal))]/85 leading-relaxed">{c.b}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section className="section-y border-b border-[hsl(var(--stone-border))]">
+        <div className="container-editorial">
+          <div className="max-w-2xl mb-8">
+            <p className="overline">Start here</p>
+            <h2 className="font-serif text-3xl sm:text-4xl leading-tight mt-3">Key planning pages</h2>
+            <p className="mt-4 text-[hsl(var(--charcoal-soft))] leading-relaxed">
+              The pages below are the strongest entry points for Siena, Tuscany, travel tools and editorial trust.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {quickLinks.map((item) => (
+              <Link key={item.to} to={item.to} className="card-editorial p-5 block">
+                <h3 className="font-serif text-xl leading-snug">{item.label}</h3>
+                <p className="mt-3 text-sm text-[hsl(var(--charcoal-soft))] leading-relaxed">{item.desc}</p>
+                <span className="mt-4 inline-block text-sm text-[hsl(var(--terracotta))] font-medium">Open -></span>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
