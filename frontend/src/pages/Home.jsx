@@ -1,73 +1,296 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SEO from "@/components/common/SEO";
-import {
-  canonical,
-  DEFAULT_DESCRIPTION,
-  DEFAULT_OG_IMAGE,
-  SITE_NAME,
-  TWITTER_HANDLE,
-  ORGANIZATION_JSONLD,
-  websiteSchema,
-} from "@/lib/seo";
+import { ORGANIZATION_JSONLD, SITE_URL } from "@/lib/seo";
 
-const QUICK_LINKS = [
-  { href: "/siena-travel-guide", label: "Siena Travel Guide" },
-  { href: "/siena-day-trip-from-florence", label: "Siena Day Trip from Florence" },
+const quickLinks = [
   {
-    href: "/florence-to-siena-by-train-or-bus",
-    label: "Florence to Siena by Train or Bus",
+    label: "Siena Travel Guide",
+    path: "/siena-travel-guide",
+    text: "Start with the main Siena planning hub.",
   },
-  { href: "/one-day-in-siena", label: "One Day in Siena" },
-  { href: "/where-to-stay-in-siena", label: "Where to Stay in Siena" },
-  { href: "/things-to-do-in-siena", label: "Things to Do in Siena" },
-  { href: "/tuscany-travel-guide", label: "Tuscany Travel Guide" },
-  { href: "/travel-budget-calculator", label: "Travel Budget Calculator" },
-  { href: "/editorial-policy", label: "Editorial Policy" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
+  {
+    label: "Siena Day Trip from Florence",
+    path: "/siena-day-trip-from-florence",
+    text: "Plan a practical day route between Florence and Siena.",
+  },
+  {
+    label: "Florence to Siena by Train or Bus",
+    path: "/florence-to-siena-by-train-or-bus",
+    text: "Compare transport options before booking.",
+  },
+  {
+    label: "One Day in Siena",
+    path: "/one-day-in-siena",
+    text: "Use a focused itinerary for a short visit.",
+  },
+  {
+    label: "Where to Stay in Siena",
+    path: "/where-to-stay-in-siena",
+    text: "Choose the right base by neighborhood and trip style.",
+  },
+  {
+    label: "Things to Do in Siena",
+    path: "/things-to-do-in-siena",
+    text: "Find sights, viewpoints, food stops, and slow travel ideas.",
+  },
+  {
+    label: "Tuscany Travel Guide",
+    path: "/tuscany-travel-guide",
+    text: "Connect Siena with wider Tuscany planning.",
+  },
+  {
+    label: "Travel Budget Calculator",
+    path: "/travel-budget-calculator",
+    text: "Estimate trip costs before you commit.",
+  },
 ];
 
+const supportLinks = [
+  { label: "Editorial Policy", path: "/editorial-policy" },
+  { label: "About", path: "/about" },
+  { label: "Contact", path: "/contact" },
+];
+
+const homeSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Archi Travel Guide",
+  url: SITE_URL,
+  description:
+    "Practical travel guidance for Siena, Tuscany, and smarter independent trip planning.",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: `${SITE_URL}/search?q={search_term_string}`,
+    "query-input": "required name=search_term_string",
+  },
+};
+
+const styles = {
+  page: {
+    background: "#fbf8f4",
+    color: "#261f1a",
+    minHeight: "100vh",
+  },
+  hero: {
+    display: "grid",
+    gridTemplateColumns: "minmax(0, 1.02fr) minmax(320px, 0.98fr)",
+    gap: "clamp(28px, 5vw, 72px)",
+    alignItems: "center",
+    maxWidth: 1180,
+    margin: "0 auto",
+    padding: "clamp(42px, 7vw, 86px) 20px clamp(30px, 6vw, 72px)",
+  },
+  eyebrow: {
+    fontSize: 13,
+    letterSpacing: "0.08em",
+    textTransform: "uppercase",
+    color: "#9a634b",
+    fontWeight: 700,
+    marginBottom: 14,
+  },
+  title: {
+    fontSize: "clamp(40px, 6vw, 76px)",
+    lineHeight: 1.02,
+    letterSpacing: 0,
+    margin: 0,
+    maxWidth: 760,
+  },
+  intro: {
+    fontSize: "clamp(17px, 2vw, 21px)",
+    lineHeight: 1.65,
+    color: "#5c5047",
+    maxWidth: 700,
+    margin: "22px 0 0",
+  },
+  actions: {
+    display: "flex",
+    flexWrap: "wrap",
+    gap: 12,
+    marginTop: 30,
+  },
+  primary: {
+    display: "inline-flex",
+    alignItems: "center",
+    justifyContent: "center",
+    minHeight: 46,
+    padding: "0 20px",
+    borderRadius: 8,
+    background: "#22201e",
+    color: "#fff",
+    textDecoration: "none",
+    fontWeight: 700,
+  },
+  secondary: {
+    display: "inline-flex",
+    alignItems: "center",
+    justifyContent: "center",
+    minHeight: 46,
+    padding: "0 18px",
+    borderRadius: 8,
+    border: "1px solid #d7c7b8",
+    color: "#2c2621",
+    background: "#fffaf5",
+    textDecoration: "none",
+    fontWeight: 700,
+  },
+  imageWrap: {
+    borderRadius: 18,
+    overflow: "hidden",
+    border: "1px solid #eadccf",
+    boxShadow: "0 24px 70px rgba(74, 45, 28, 0.18)",
+    background: "#ead7c2",
+  },
+  image: {
+    width: "100%",
+    height: "auto",
+    display: "block",
+    aspectRatio: "16 / 10",
+    objectFit: "cover",
+  },
+  section: {
+    maxWidth: 1180,
+    margin: "0 auto",
+    padding: "28px 20px 76px",
+  },
+  sectionHeader: {
+    display: "flex",
+    alignItems: "end",
+    justifyContent: "space-between",
+    gap: 18,
+    marginBottom: 22,
+  },
+  h2: {
+    fontSize: "clamp(28px, 3.6vw, 42px)",
+    lineHeight: 1.15,
+    margin: 0,
+  },
+  sectionText: {
+    maxWidth: 620,
+    color: "#6d6058",
+    lineHeight: 1.65,
+    margin: "8px 0 0",
+  },
+  grid: {
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+    gap: 16,
+  },
+  card: {
+    display: "block",
+    minHeight: 154,
+    padding: 20,
+    borderRadius: 8,
+    background: "#ffffff",
+    border: "1px solid #eadfd5",
+    textDecoration: "none",
+    color: "#261f1a",
+    boxShadow: "0 10px 28px rgba(52, 40, 31, 0.06)",
+  },
+  cardTitle: {
+    fontSize: 18,
+    lineHeight: 1.25,
+    margin: "0 0 10px",
+    fontWeight: 800,
+  },
+  cardText: {
+    color: "#665a52",
+    lineHeight: 1.55,
+    margin: 0,
+  },
+  support: {
+    display: "flex",
+    flexWrap: "wrap",
+    gap: 10,
+    marginTop: 22,
+  },
+  supportLink: {
+    color: "#8d563f",
+    fontWeight: 700,
+    textDecoration: "none",
+    borderBottom: "1px solid rgba(141, 86, 63, 0.32)",
+  },
+};
+
 export default function Home() {
+  const schema = [ORGANIZATION_JSONLD, homeSchema].filter(Boolean);
+
   return (
-    <main>
+    <>
       <SEO
         title="Archi Travel Guide | Siena, Tuscany & Practical Travel Planning"
-        description={`Plan practical, reliable trips with ${SITE_NAME}. Discover places, transport options, day plans, and practical travel tools for Siena and Tuscany.`}
-        canonical={canonical("/")}
-        image={DEFAULT_OG_IMAGE}
-        twitterHandle={TWITTER_HANDLE}
-        schema={[websiteSchema(), ORGANIZATION_JSONLD]}
+        description="Discover practical travel guidance for Siena and Tuscany: where to stay, what to do, how to plan transport, and budget-friendly trip planning."
+        canonicalPath="/"
+        image="/images/siena-hero.svg"
+        schema={schema}
       />
+      <main style={styles.page}>
+        <section style={styles.hero} aria-labelledby="homepage-title">
+          <div>
+            <p style={styles.eyebrow}>Siena, Tuscany & practical planning</p>
+            <h1 id="homepage-title" style={styles.title}>
+              Plan smarter trips around Siena and Tuscany.
+            </h1>
+            <p style={styles.intro}>
+              Archi Travel Guide helps independent travelers choose better
+              routes, stays, day trips, and budgets without getting lost in
+              generic travel advice.
+            </p>
+            <div style={styles.actions}>
+              <Link to="/siena-travel-guide" style={styles.primary}>
+                Start with Siena
+              </Link>
+              <Link to="/travel-budget-calculator" style={styles.secondary}>
+                Estimate a Trip Budget
+              </Link>
+            </div>
+          </div>
 
-      <section>
-        <img
-          src="https://images.unsplash.com/photo-1518635017480-f6d7e1d3f7f2?auto=format&fit=crop&w=1800&q=80"
-          alt="Siena skyline and cathedral"
-          width={1600}
-          height={900}
-          decoding="async"
-          loading="eager"
-          fetchPriority="high"
-          style={{ width: "100%", height: "auto", display: "block" }}
-        />
-      </section>
+          <div style={styles.imageWrap}>
+            <img
+              src="/images/siena-hero.svg"
+              alt="Siena skyline and cathedral"
+              width="1600"
+              height="900"
+              decoding="async"
+              fetchPriority="high"
+              style={styles.image}
+            />
+          </div>
+        </section>
 
-      <section>
-        <h1>{`Archi Travel Guide | Siena, Tuscany & Practical Travel Planning`}</h1>
-        <p>{DEFAULT_DESCRIPTION}</p>
-      </section>
+        <section style={styles.section} aria-labelledby="planning-pages-title">
+          <div style={styles.sectionHeader}>
+            <div>
+              <p style={styles.eyebrow}>Key planning pages</p>
+              <h2 id="planning-pages-title" style={styles.h2}>
+                Main travel guides
+              </h2>
+              <p style={styles.sectionText}>
+                These are the pages we want Google and visitors to understand
+                first. Each link points to the canonical route we want to keep.
+              </p>
+            </div>
+          </div>
 
-      <section>
-        <h2>Key planning pages</h2>
-        <ul>
-          {QUICK_LINKS.map((link) => (
-            <li key={link.href}>
-              <Link to={link.href}>{link.label}</Link>
-            </li>
-          ))}
-        </ul>
-      </section>
-    </main>
+          <div style={styles.grid}>
+            {quickLinks.map((link) => (
+              <Link key={link.path} to={link.path} style={styles.card}>
+                <h3 style={styles.cardTitle}>{link.label}</h3>
+                <p style={styles.cardText}>{link.text}</p>
+              </Link>
+            ))}
+          </div>
+
+          <nav aria-label="Project information" style={styles.support}>
+            {supportLinks.map((link) => (
+              <Link key={link.path} to={link.path} style={styles.supportLink}>
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+        </section>
+      </main>
+    </>
   );
 }

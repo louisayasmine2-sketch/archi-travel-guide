@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Siena skyline and cathedral illustration</title>
+  <desc id="desc">A warm illustrated skyline inspired by Siena, Tuscany, with cathedral forms and rolling hills.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6efe6"/>
+      <stop offset="0.55" stop-color="#ead7c2"/>
+      <stop offset="1" stop-color="#cfa277"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8f9a6b"/>
+      <stop offset="1" stop-color="#596846"/>
+    </linearGradient>
+    <linearGradient id="terracotta" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c66c50"/>
+      <stop offset="1" stop-color="#8f3f32"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1260" cy="170" r="92" fill="#fff4d7" opacity="0.9"/>
+  <ellipse cx="440" cy="230" rx="280" ry="58" fill="#ffffff" opacity="0.25" filter="url(#soft)"/>
+  <ellipse cx="970" cy="260" rx="340" ry="72" fill="#ffffff" opacity="0.18" filter="url(#soft)"/>
+  <path d="M0 610 C210 520 395 640 570 560 C760 470 940 610 1125 535 C1320 460 1460 535 1600 485 L1600 900 L0 900 Z" fill="url(#hill)" opacity="0.92"/>
+  <path d="M0 700 C210 640 380 735 610 670 C840 605 1040 755 1260 680 C1420 625 1530 655 1600 630 L1600 900 L0 900 Z" fill="#3f513b" opacity="0.85"/>
+  <g transform="translate(235 315)">
+    <rect x="0" y="205" width="1130" height="190" rx="10" fill="#f2dfc8"/>
+    <path d="M0 205 L65 145 L135 205 Z M155 205 L235 118 L320 205 Z M340 205 L425 132 L515 205 Z M535 205 L630 96 L730 205 Z M750 205 L845 135 L940 205 Z M960 205 L1040 120 L1130 205 Z" fill="url(#terracotta)"/>
+    <rect x="660" y="45" width="92" height="350" rx="8" fill="#d7b18d"/>
+    <path d="M706 0 L762 45 L650 45 Z" fill="#7d372e"/>
+    <rect x="686" y="95" width="40" height="62" rx="20" fill="#654137" opacity="0.55"/>
+    <rect x="685" y="188" width="42" height="150" rx="20" fill="#785044" opacity="0.42"/>
+    <rect x="405" y="92" width="168" height="303" rx="9" fill="#ead2b8"/>
+    <path d="M489 28 L589 92 L389 92 Z" fill="#813a31"/>
+    <circle cx="489" cy="166" r="39" fill="#9d6f58" opacity="0.45"/>
+    <rect x="458" y="230" width="62" height="112" rx="31" fill="#765044" opacity="0.5"/>
+    <rect x="92" y="245" width="78" height="150" rx="7" fill="#ddb991"/>
+    <rect x="205" y="236" width="78" height="159" rx="7" fill="#dfbd99"/>
+    <rect x="825" y="238" width="82" height="157" rx="7" fill="#ddb991"/>
+    <rect x="970" y="248" width="74" height="147" rx="7" fill="#dfbd99"/>
+    <g fill="#7a5147" opacity="0.5">
+      <rect x="42" y="250" width="35" height="58" rx="17"/>
+      <rect x="218" y="265" width="31" height="56" rx="15"/>
+      <rect x="828" y="267" width="32" height="55" rx="16"/>
+      <rect x="1000" y="270" width="30" height="52" rx="15"/>
+    </g>
+  </g>
+  <rect width="1600" height="900" fill="#22150f" opacity="0.16"/>
+</svg>
