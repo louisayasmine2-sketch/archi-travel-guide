@@ -42,6 +42,8 @@ function GoogleAnalytics() {
   return null;
 }
 
+import { Navigate } from "react-router-dom";
+
 function App() {
   return (
     <div className="App">
@@ -56,7 +58,7 @@ function App() {
             <Route path="/it/" element={<HubPage pageKey="it-home" routePath="/it" />} />
             <Route path="/destinations" element={<Destinations />} />
             <Route path="/italy" element={<Italy />} />
-            <Route path="/tuscany" element={<Tuscany />} />
+            <Route path="/tuscany" element={<Navigate to="/tuscany-travel-guide" replace />} />
             <Route path="/siena" element={<Siena />} />
             <Route path="/tuscany-travel-guide" element={<Tuscany />} />
             <Route path="/tuscany-travel-guide/" element={<Tuscany />} />
@@ -76,7 +78,7 @@ function App() {
             <Route path="/europe" element={<Europe />} />
             <Route path="/asia" element={<Asia />} />
             <Route path="/travel-tools" element={<TravelTools />} />
-            <Route path="/travel-tools/budget-calculator" element={<BudgetCalculator />} />
+            <Route path="/travel-tools/budget-calculator" element={<Navigate to="/travel-budget-calculator" replace />} />
             <Route path="/travel-budget-calculator" element={<BudgetCalculator />} />
             <Route path="/travel-budget-calculator/" element={<BudgetCalculator />} />
             <Route path="/travel-tools/itinerary-generator" element={<ItineraryGenerator />} />
