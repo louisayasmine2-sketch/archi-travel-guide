@@ -91,12 +91,17 @@ const styles = {
   },
   hero: {
     display: "grid",
-    gridTemplateColumns: "minmax(0, 1.02fr) minmax(320px, 0.98fr)",
-    gap: "clamp(28px, 5vw, 72px)",
+    gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 360px), 1fr))",
+    gap: "clamp(22px, 5vw, 72px)",
     alignItems: "center",
     maxWidth: 1180,
     margin: "0 auto",
     padding: "clamp(42px, 7vw, 86px) 20px clamp(30px, 6vw, 72px)",
+  },
+  heroCopy: {
+    minWidth: 0,
+    width: "100%",
+    maxWidth: 760,
   },
   eyebrow: {
     fontSize: 13,
@@ -170,6 +175,7 @@ const styles = {
     fontWeight: 700,
   },
   imageWrap: {
+    width: "100%",
     borderRadius: 18,
     overflow: "hidden",
     border: "1px solid #eadccf",
@@ -263,7 +269,7 @@ export default function Home() {
       />
       <main style={styles.page}>
         <section className="home-hero-shell" style={styles.hero} aria-labelledby="homepage-title">
-          <div>
+          <div style={styles.heroCopy}>
             <p style={styles.eyebrow}>Siena, Tuscany & practical planning</p>
             <h1 id="homepage-title" className="home-hero-title" style={styles.title}>
               Plan smarter trips around Siena and Tuscany.
