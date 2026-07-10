@@ -1,34 +1,35 @@
 import "@/App.css";
-import { useEffect } from "react";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { Suspense, lazy, useEffect } from "react";
+import { BrowserRouter, Routes, Route, useLocation, Navigate } from "react-router-dom";
 import { Toaster } from "sonner";
 
 import Layout from "@/components/layout/Layout";
 import Home from "@/pages/Home";
-import Destinations from "@/pages/Destinations";
-import Italy from "@/pages/Italy";
-import Tuscany from "@/pages/Tuscany";
-import Siena from "@/pages/Siena";
-import France from "@/pages/France";
-import Europe from "@/pages/Europe";
-import Asia from "@/pages/Asia";
-import TravelTools from "@/pages/TravelTools";
-import TravelDeals from "@/pages/TravelDeals";
-import Blog from "@/pages/Blog";
-import Article from "@/pages/Article";
-import City from "@/pages/City";
-import About from "@/pages/About";
-import Contact from "@/pages/Contact";
-import Legal from "@/pages/Legal";
-import NotFound from "@/pages/NotFound";
-import BudgetCalculator from "@/pages/tools/BudgetCalculator";
-import ItineraryGenerator from "@/pages/tools/ItineraryGenerator";
-import AreaFinder from "@/pages/tools/AreaFinder";
-import PackingChecklist from "@/pages/tools/PackingChecklist";
-import BestTimeToVisit from "@/pages/tools/BestTimeToVisit";
-import TransportGuide from "@/pages/tools/TransportGuide";
-import HubPage from "@/pages/HubPage";
 import { initializeClarity, trackPageView } from "@/lib/analytics";
+
+const Destinations = lazy(() => import("@/pages/Destinations"));
+const Italy = lazy(() => import("@/pages/Italy"));
+const Tuscany = lazy(() => import("@/pages/Tuscany"));
+const Siena = lazy(() => import("@/pages/Siena"));
+const France = lazy(() => import("@/pages/France"));
+const Europe = lazy(() => import("@/pages/Europe"));
+const Asia = lazy(() => import("@/pages/Asia"));
+const TravelTools = lazy(() => import("@/pages/TravelTools"));
+const TravelDeals = lazy(() => import("@/pages/TravelDeals"));
+const Blog = lazy(() => import("@/pages/Blog"));
+const Article = lazy(() => import("@/pages/Article"));
+const City = lazy(() => import("@/pages/City"));
+const About = lazy(() => import("@/pages/About"));
+const Contact = lazy(() => import("@/pages/Contact"));
+const Legal = lazy(() => import("@/pages/Legal"));
+const NotFound = lazy(() => import("@/pages/NotFound"));
+const BudgetCalculator = lazy(() => import("@/pages/tools/BudgetCalculator"));
+const ItineraryGenerator = lazy(() => import("@/pages/tools/ItineraryGenerator"));
+const AreaFinder = lazy(() => import("@/pages/tools/AreaFinder"));
+const PackingChecklist = lazy(() => import("@/pages/tools/PackingChecklist"));
+const BestTimeToVisit = lazy(() => import("@/pages/tools/BestTimeToVisit"));
+const TransportGuide = lazy(() => import("@/pages/tools/TransportGuide"));
+const HubPage = lazy(() => import("@/pages/HubPage"));
 
 function GoogleAnalytics() {
   const location = useLocation();
@@ -42,14 +43,13 @@ function GoogleAnalytics() {
   return null;
 }
 
-import { Navigate } from "react-router-dom";
-
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <GoogleAnalytics />
         <Layout>
+          <Suspense fallback={null}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/en" element={<HubPage pageKey="en-home" routePath="/en" />} />
@@ -119,6 +119,7 @@ function App() {
             <Route path="/travel-tips/" element={<HubPage pageKey="travel-tips" routePath="/travel-tips" />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
+          </Suspense>
         </Layout>
         <Toaster position="bottom-right" richColors closeButton />
       </BrowserRouter>
