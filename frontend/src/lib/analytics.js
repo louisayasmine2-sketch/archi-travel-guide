@@ -211,14 +211,18 @@ export const trackPageView = (pagePath, pageTitle = "") => {
 
 const trackConversionEvent = (eventName, params = {}) => {
   if (typeof window === "undefined") return;
-  trackClarityEvent(eventName);
-  trackAmplitudeEvent(eventName, params);
-  const measurementId = ensureGaScript();
-  if (!measurementId) return;
 
-  window.gtag("event", eventName, {
-    send_to: measurementId,
-    ...params,
+  runWhenIdle(() => {
+    trackClarityEvent(eventName);
+    trackAmplitudeEvent(eventName, params);
+
+    const measurementId = ensureGaScript();
+    if (!measurementId) return;
+
+    window.gtag("event", eventName, {
+      send_to: measurementId,
+      ...params,
+    });
   });
 };
 

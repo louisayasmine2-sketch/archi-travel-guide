@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { HelmetProvider } from "react-helmet-async";
 import "@/index.css";
+import "./performance/deferThirdPartyWork";
 import App from "@/App";
 
 const queryClient = new QueryClient({
@@ -24,4 +25,3 @@ root.render(
     </HelmetProvider>
   </React.StrictMode>,
 );
-import "./performance/deferThirdPartyWork";
