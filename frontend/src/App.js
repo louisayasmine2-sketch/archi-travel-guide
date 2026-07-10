@@ -5,6 +5,7 @@ import { Toaster } from "sonner";
 
 import Layout from "@/components/layout/Layout";
 import Home from "@/pages/Home";
+import HubPage from "@/pages/HubPage";
 import { trackPageView } from "@/lib/analytics";
 
 const Destinations = lazy(() => import("@/pages/Destinations"));
@@ -29,7 +30,6 @@ const AreaFinder = lazy(() => import("@/pages/tools/AreaFinder"));
 const PackingChecklist = lazy(() => import("@/pages/tools/PackingChecklist"));
 const BestTimeToVisit = lazy(() => import("@/pages/tools/BestTimeToVisit"));
 const TransportGuide = lazy(() => import("@/pages/tools/TransportGuide"));
-const HubPage = lazy(() => import("@/pages/HubPage"));
 
 function GoogleAnalytics() {
   const location = useLocation();
