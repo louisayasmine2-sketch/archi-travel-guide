@@ -7,6 +7,26 @@ const SHOULD_TRACK = process.env.NODE_ENV === "production" && typeof GA_MEASUREM
 const SHOULD_LOAD_CLARITY = process.env.NODE_ENV === "production" && typeof CLARITY_PROJECT_ID === "string" && CLARITY_PROJECT_ID.trim().length > 0;
 const SHOULD_LOAD_AMPLITUDE = process.env.NODE_ENV === "production" && typeof AMPLITUDE_API_KEY === "string" && AMPLITUDE_API_KEY.trim().length > 0;
 
+const runWhenIdle = (callback) => {
+  if (typeof window === "undefined") return;
+
+  const run = () => {
+    if ("requestIdleCallback" in window) {
+      window.requestIdleCallback(callback, { timeout: 5000 });
+      return;
+    }
+
+    window.setTimeout(callback, 3000);
+  };
+
+  if (document.readyState === "complete") {
+    run();
+    return;
+  }
+
+  window.addEventListener("load", run, { once: true });
+};
+
 const getMeasurementId = () => {
   if (!SHOULD_TRACK) {
     return null;
@@ -172,18 +192,20 @@ const trackAmplitudeEvent = (eventName, params = {}) => {
 
 export const trackPageView = (pagePath, pageTitle = "") => {
   if (typeof window === "undefined") return;
-  initializeClarity();
-  trackAmplitudeEvent("page_view", {
-    page_path: pagePath,
-    page_title: pageTitle,
-  });
+  runWhenIdle(() => {
+    initializeClarity();
+    trackAmplitudeEvent("page_view", {
+      page_path: pagePath,
+      page_title: pageTitle,
+    });
 
-  const measurementId = ensureGaScript();
-  if (!measurementId) return;
+    const measurementId = ensureGaScript();
+    if (!measurementId) return;
 
-  window.gtag("config", measurementId, {
-    page_path: pagePath,
-    page_title: pageTitle,
+    window.gtag("config", measurementId, {
+      page_path: pagePath,
+      page_title: pageTitle,
+    });
   });
 };
 

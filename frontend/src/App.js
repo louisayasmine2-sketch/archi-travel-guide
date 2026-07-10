@@ -5,7 +5,7 @@ import { Toaster } from "sonner";
 
 import Layout from "@/components/layout/Layout";
 import Home from "@/pages/Home";
-import { initializeClarity, trackPageView } from "@/lib/analytics";
+import { trackPageView } from "@/lib/analytics";
 
 const Destinations = lazy(() => import("@/pages/Destinations"));
 const Italy = lazy(() => import("@/pages/Italy"));
@@ -35,7 +35,6 @@ function GoogleAnalytics() {
   const location = useLocation();
 
   useEffect(() => {
-    initializeClarity();
     const pagePath = `${location.pathname}${location.search}`;
     trackPageView(pagePath, document.title);
   }, [location.pathname, location.search]);
