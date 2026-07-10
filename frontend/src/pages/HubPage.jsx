@@ -2,7 +2,10 @@ import { Link } from "react-router-dom";
 import { Mail, MapPin, Compass, Calendar, Home, Star } from "lucide-react";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import SEO from "@/components/common/SEO";
-import { breadcrumbSchema, faqSchema } from "@/lib/schema";
+import { articleSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
+import { SITE_URL, canonical, websiteSchema } from "@/lib/seo";
+
+const SCHEMA_UPDATED = "2026-07-10";
 
 const HUB_CONTENT = {
   "en-home": {
@@ -202,9 +205,29 @@ function iconFromKey(key) {
 export default function HubPage({ pageKey, routePath }) {
   const page = HUB_CONTENT[pageKey] ?? HUB_CONTENT["siena-travel-guide"];
   const Icon = iconFromKey(pageKey);
+  const path = routePath ?? `/${pageKey}`;
+  const url = canonical(path);
   const breadcrumbs = [
     { label: "Home", to: "/" },
     { label: page.h1 },
+  ];
+  const schema = [
+    breadcrumbSchema(breadcrumbs),
+    faqSchema(page.faqs),
+    ...(page.schemaType === "article"
+      ? [
+          articleSchema({
+            title: page.title,
+            description: page.description,
+            image: `${SITE_URL}/og-image.jpg`,
+            url,
+            published: SCHEMA_UPDATED,
+            modified: SCHEMA_UPDATED,
+            category: "Travel guide",
+          }),
+        ]
+      : []),
+    ...(page.schemaType === "website" ? [websiteSchema()] : []),
   ];
 
   return (
@@ -212,8 +235,10 @@ export default function HubPage({ pageKey, routePath }) {
       <SEO
         title={page.title}
         description={page.description}
-        path={routePath ?? `/${pageKey}`}
-        schema={[breadcrumbSchema(breadcrumbs), faqSchema(page.faqs)]}
+        path={path}
+        type={page.schemaType === "article" ? "article" : "website"}
+        articleMeta={page.schemaType === "article" ? { published: SCHEMA_UPDATED, modified: SCHEMA_UPDATED, section: "Travel guide", tags: ["Siena", "Tuscany", "Travel planning"] } : undefined}
+        schema={schema}
       />
 
       <section className="border-b border-[hsl(var(--stone-border))]">

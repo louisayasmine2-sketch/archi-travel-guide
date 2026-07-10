@@ -3,7 +3,8 @@ import Breadcrumbs from "@/components/common/Breadcrumbs";
 import ArticleCard from "@/components/common/ArticleCard";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
 import SEO from "@/components/common/SEO";
-import { breadcrumbSchema } from "@/lib/schema";
+import { breadcrumbSchema, placeSchema } from "@/lib/schema";
+import { canonical } from "@/lib/seo";
 import { articlesByRegion } from "@/data/articles";
 
 const HERO = "https://images.unsplash.com/photo-1646319514161-8fba0ebc3275?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxzaWVuYSUyMGl0YWx5JTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc4MzAwNDQ4Nnww&ixlib=rb-4.1.0&q=85";
@@ -20,6 +21,20 @@ const chapters = [
 
 export default function Siena() {
   const list = articlesByRegion("Siena").concat(articlesByRegion("Tuscany").filter(a => a.slug.includes('tuscany') === false)).slice(0, 6);
+  const breadcrumbs = [{ label: 'Home', to: '/' }, { label: 'Italy', to: '/italy' }, { label: 'Tuscany', to: '/tuscany-travel-guide' }, { label: 'Siena' }];
+  const schema = [
+    breadcrumbSchema(breadcrumbs),
+    placeSchema({
+      name: "Siena",
+      description: "Medieval Tuscan city known for Piazza del Campo, the Palio, Gothic streets, and slow travel planning.",
+      image: HERO,
+      url: canonical("/siena"),
+      region: "Tuscany",
+      country: "Italy",
+      touristType: ["Cultural travelers", "Couples", "Families", "Slow travel planners"],
+    }),
+  ];
+
   return (
     <div>
       <SEO
@@ -27,13 +42,13 @@ export default function Siena() {
         description="The Archi Siena guide: what to do first, where to stay in each terzo, 1–3 day itineraries, family and budget travel, and how to arrive from Florence."
         path="/siena"
         image={HERO}
-        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Italy', to: '/italy' }, { label: 'Tuscany', to: '/tuscany-travel-guide' }, { label: 'Siena' }])}
+        schema={schema}
       />
       <section className="relative overflow-hidden">
         <img src={HERO} alt="Siena skyline" loading="eager" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--charcoal))]/85 via-[hsl(var(--charcoal))]/30 to-transparent" />
         <div className="relative container-editorial pt-14 pb-24 lg:pb-32 text-[hsl(var(--ivory))]">
-            <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Italy", to: "/italy" }, { label: "Tuscany", to: "/tuscany-travel-guide" }, { label: "Siena" }]} />
+            <Breadcrumbs items={breadcrumbs} />
           <p className="overline text-[hsl(var(--ivory))]/80 mt-6">Deep coverage · Siena</p>
           <h1 className="mt-4 font-serif text-5xl md:text-7xl leading-none tracking-tight max-w-3xl">Siena travel guide</h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-[hsl(var(--ivory))]/85">

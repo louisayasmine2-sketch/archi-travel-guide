@@ -22,6 +22,61 @@ const SITE_URL = (
 ).replace(/\/$/, '');
 const SITE_NAME = 'Archi Travel Guide';
 const DEFAULT_IMAGE = 'https://images.unsplash.com/photo-1761995912965-8f134652fc6e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHx0dXNjYW55JTIwcm9sbGluZyUyMGhpbGxzJTIwc3VucmlzZXxlbnwwfHx8fDE3ODMwMDQ0ODZ8MA&ixlib=rb-4.1.0&q=85&w=1200&h=630&fit=crop';
+const SCHEMA_UPDATED = '2026-07-10';
+const ARTICLE_SCHEMA_ROUTES = new Set([
+  '/siena-travel-guide',
+  '/where-to-stay-in-siena',
+  '/florence-to-siena-by-train-or-bus',
+  '/siena-day-trip-from-florence',
+  '/one-day-in-siena',
+  '/things-to-do-in-siena',
+  '/siena-itinerary',
+  '/siena-accommodation-guide',
+  '/travel-tips',
+]);
+const DESTINATION_SCHEMA = {
+  '/tuscany-travel-guide': {
+    name: 'Tuscany',
+    description: 'Italian region known for Siena, Florence, hilltowns, vineyards, food routes, and slow countryside itineraries.',
+    country: 'Italy',
+    touristType: ['Cultural travelers', 'Food travelers', 'Road trip planners', 'Couples'],
+  },
+  '/siena': {
+    name: 'Siena',
+    description: 'Medieval Tuscan city known for Piazza del Campo, the Palio, Gothic streets, and slow travel planning.',
+    region: 'Tuscany',
+    country: 'Italy',
+    touristType: ['Cultural travelers', 'Couples', 'Families', 'Slow travel planners'],
+  },
+  '/florence': {
+    name: 'Florence',
+    description: 'Renaissance city in Tuscany with walkable art, food, and transport links to Siena.',
+    region: 'Tuscany',
+    country: 'Italy',
+    touristType: ['Art travelers', 'Cultural travelers', 'Couples', 'First-time Italy visitors'],
+  },
+  '/rome': {
+    name: 'Rome',
+    description: 'Italian capital known for ancient sites, neighborhoods, food, and multi-day cultural itineraries.',
+    region: 'Lazio',
+    country: 'Italy',
+    touristType: ['Cultural travelers', 'Families', 'History travelers', 'First-time Italy visitors'],
+  },
+  '/venice': {
+    name: 'Venice',
+    description: 'Canal city in Veneto known for islands, walking routes, art, and quiet morning travel.',
+    region: 'Veneto',
+    country: 'Italy',
+    touristType: ['Couples', 'Cultural travelers', 'Slow travel planners', 'Island travelers'],
+  },
+  '/paris': {
+    name: 'Paris',
+    description: 'French capital known for art, cafes, walkable arrondissements, museums, and neighborhood-based planning.',
+    region: 'Ile-de-France',
+    country: 'France',
+    touristType: ['Cultural travelers', 'Couples', 'Food travelers', 'Museum travelers'],
+  },
+};
 const STATIC_FOOTER_LINKS = [
   { href: '/siena-travel-guide', label: 'Siena Travel Guide' },
   { href: '/florence-to-siena-by-train-or-bus', label: 'Florence to Siena by Train or Bus' },
@@ -198,9 +253,104 @@ function removeExistingStatic(html) {
     .replace(/<main id="static-fallback"[\s\S]*?<\/main>/i, '');
 }
 
+function routeIsArticle(route) {
+  return route.type === 'article' || ARTICLE_SCHEMA_ROUTES.has(route.path);
+}
+
+function jsonLdScript(schema) {
+  return `<script type="application/ld+json">${JSON.stringify(schema).replace(/</g, '\\u003c')}</script>`;
+}
+
+function breadcrumbJsonLd(route) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+      { '@type': 'ListItem', position: 2, name: route.h1 || route.title, item: `${SITE_URL}${route.canonicalPath}` },
+    ],
+  };
+}
+
+function webPageJsonLd(route, url, fullTitle) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${url}#webpage`,
+    url,
+    name: fullTitle,
+    description: route.description,
+    isPartOf: { '@type': 'WebSite', '@id': `${SITE_URL}/#website`, name: SITE_NAME, url: SITE_URL },
+    publisher: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: SITE_NAME, url: SITE_URL },
+  };
+}
+
+function articleJsonLd(route, url, fullTitle) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    '@id': `${url}#article`,
+    headline: fullTitle,
+    description: route.description,
+    image: [DEFAULT_IMAGE],
+    datePublished: SCHEMA_UPDATED,
+    dateModified: SCHEMA_UPDATED,
+    author: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: SITE_NAME, url: SITE_URL },
+    publisher: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: SITE_NAME, url: SITE_URL },
+    articleSection: route.type === 'article' ? 'Travel article' : 'Travel guide',
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `${url}#webpage` },
+  };
+}
+
+function destinationJsonLd(route, url) {
+  const destination = DESTINATION_SCHEMA[route.path];
+  if (!destination) return null;
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'TouristDestination',
+    '@id': `${url}#destination`,
+    name: destination.name,
+    description: destination.description,
+    image: [DEFAULT_IMAGE],
+    url,
+    touristType: destination.touristType,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `${url}#webpage` },
+    containedInPlace: destination.region
+      ? {
+          '@type': 'Place',
+          name: destination.region,
+          containedInPlace: { '@type': 'Country', name: destination.country },
+        }
+      : { '@type': 'Country', name: destination.country },
+  };
+}
+
+function schemaScripts(route, url, fullTitle) {
+  const schemas = [
+    breadcrumbJsonLd(route),
+    webPageJsonLd(route, url, fullTitle),
+    routeIsArticle(route) ? articleJsonLd(route, url, fullTitle) : null,
+    destinationJsonLd(route, url),
+    route.path === '/'
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'WebSite',
+          '@id': `${SITE_URL}/#website`,
+          name: SITE_NAME,
+          url: SITE_URL,
+          description: route.description,
+        }
+      : null,
+  ].filter(Boolean);
+
+  return schemas.map(jsonLdScript).join('');
+}
+
 function injectHead(html, route) {
   const fullTitle = route.title.includes(SITE_NAME) ? route.title : `${route.title} · ${SITE_NAME}`;
   const url = `${SITE_URL}${route.canonicalPath}`;
+  const isArticle = routeIsArticle(route);
   const head = [
     `<title data-rh="true">${escapeHtml(fullTitle)}</title>`,
     `<meta data-rh="true" name="description" content="${escapeHtml(route.description)}">`,
@@ -210,13 +360,14 @@ function injectHead(html, route) {
     `<meta data-rh="true" property="og:title" content="${escapeHtml(fullTitle)}">`,
     `<meta data-rh="true" property="og:description" content="${escapeHtml(route.description)}">`,
     `<meta data-rh="true" property="og:url" content="${escapeHtml(url)}">`,
-    `<meta data-rh="true" property="og:type" content="${route.type === 'article' ? 'article' : 'website'}">`,
+    `<meta data-rh="true" property="og:type" content="${isArticle ? 'article' : 'website'}">`,
     `<meta data-rh="true" property="og:image" content="${DEFAULT_IMAGE}">`,
     `<meta data-rh="true" property="og:locale" content="${route.locale || 'en_US'}">`,
     `<meta data-rh="true" name="twitter:card" content="summary_large_image">`,
     `<meta data-rh="true" name="twitter:title" content="${escapeHtml(fullTitle)}">`,
     `<meta data-rh="true" name="twitter:description" content="${escapeHtml(route.description)}">`,
     `<meta data-rh="true" name="twitter:image" content="${DEFAULT_IMAGE}">`,
+    schemaScripts(route, url, fullTitle),
     `<style data-static-fallback>.static-fallback{font-family:Arial,sans-serif;max-width:76ch;margin:0 auto;padding:2rem;color:#1f1f1f;line-height:1.65}.static-fallback a{color:#b95741}.static-fallback .overline{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#9a6a55}.static-fallback h1{font-family:Georgia,serif;font-size:clamp(2rem,5vw,3.5rem);line-height:1.05;margin:.5rem 0 1rem}.static-fallback ul{padding-left:1.2rem}.static-fallback li{margin:.45rem 0}.js .static-fallback{display:none}</style>`,
     `<script data-static-fallback>document.documentElement.classList.add("js");</script>`,
   ].join('');

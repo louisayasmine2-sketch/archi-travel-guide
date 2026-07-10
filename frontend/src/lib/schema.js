@@ -20,9 +20,9 @@ export function articleSchema({ title, description, image, url, published, modif
     '@type': 'Article',
     headline: title,
     description,
-    image: [image],
-    datePublished: published,
-    dateModified: modified || published,
+    ...(image ? { image: [image] } : {}),
+    ...(published ? { datePublished: published } : {}),
+    ...(modified || published ? { dateModified: modified || published } : {}),
     author: {
       '@type': 'Organization',
       name: author?.name || SITE_NAME,
@@ -50,15 +50,28 @@ export function faqSchema(faqs) {
   };
 }
 
-export function placeSchema({ name, description, image, url, region }) {
+export function placeSchema({ name, description, image, url, region, country, touristType }) {
   return {
     '@context': 'https://schema.org',
     '@type': 'TouristDestination',
+    '@id': `${url}#destination`,
     name,
     description,
-    image,
+    ...(image ? { image: [image] } : {}),
     url,
-    containedInPlace: region ? { '@type': 'Place', name: region } : undefined,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    ...(touristType ? { touristType } : {}),
+    ...(region
+      ? {
+          containedInPlace: {
+            '@type': 'Place',
+            name: region,
+            ...(country ? { containedInPlace: { '@type': 'Country', name: country } } : {}),
+          },
+        }
+      : country
+      ? { containedInPlace: { '@type': 'Country', name: country } }
+      : {}),
   };
 }
 

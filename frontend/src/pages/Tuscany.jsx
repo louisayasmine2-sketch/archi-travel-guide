@@ -5,7 +5,8 @@ import AdPlaceholder from "@/components/common/AdPlaceholder";
 import LazyImage from "@/components/common/LazyImage";
 import { articlesByRegion, articles } from "@/data/articles";
 import SEO from "@/components/common/SEO";
-import { breadcrumbSchema } from "@/lib/schema";
+import { breadcrumbSchema, placeSchema } from "@/lib/schema";
+import { canonical } from "@/lib/seo";
 
 const HERO = "https://images.unsplash.com/photo-1503152394-c571994fd383?auto=format&fit=crop&w=2000&q=75";
 
@@ -22,6 +23,19 @@ const sections = [
 
 export default function Tuscany() {
   const tuscanyArticles = articlesByRegion("Tuscany").concat(articlesByRegion("Siena")).slice(0, 6);
+  const breadcrumbs = [{ label: 'Home', to: '/' }, { label: 'Italy', to: '/italy' }, { label: 'Tuscany' }];
+  const schema = [
+    breadcrumbSchema(breadcrumbs),
+    placeSchema({
+      name: "Tuscany",
+      description: "Italian region known for Siena, Florence, hilltowns, vineyards, food routes, and slow countryside itineraries.",
+      image: HERO,
+      url: canonical("/tuscany-travel-guide"),
+      country: "Italy",
+      touristType: ["Cultural travelers", "Food travelers", "Road trip planners", "Couples"],
+    }),
+  ];
+
   return (
     <div>
       <SEO
@@ -29,13 +43,13 @@ export default function Tuscany() {
         description="Practical Tuscany travel guide from Archi: hilltowns, vineyards, itineraries, food, transport and the best time to visit. Deep coverage starts with Siena."
         path="/tuscany-travel-guide"
         image={HERO}
-        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Italy', to: '/italy' }, { label: 'Tuscany' }])}
+        schema={schema}
       />
       <section className="relative overflow-hidden">
         <img src={HERO} alt="Tuscany cypress road" loading="eager" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--charcoal))]/80 via-[hsl(var(--charcoal))]/25 to-transparent" />
         <div className="relative container-editorial pt-14 pb-24 lg:pb-32 text-[hsl(var(--ivory))]">
-          <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Italy", to: "/italy" }, { label: "Tuscany" }]} />
+          <Breadcrumbs items={breadcrumbs} />
           <p className="overline text-[hsl(var(--ivory))]/80 mt-6">Region · Italy</p>
           <h1 className="mt-4 font-serif text-5xl md:text-7xl leading-none tracking-tight max-w-3xl">Tuscany travel guide</h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-[hsl(var(--ivory))]/85">
