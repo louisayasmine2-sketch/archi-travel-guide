@@ -52,6 +52,8 @@ const supportLinks = [
   { label: "Contact", path: "/contact" },
 ];
 
+const proofPoints = ["Siena-first planning", "Honest routes", "Budget tools"];
+
 const homeSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -122,7 +124,25 @@ const styles = {
     display: "flex",
     flexWrap: "wrap",
     gap: 12,
-    marginTop: 30,
+    marginTop: 26,
+  },
+  proofRow: {
+    display: "flex",
+    flexWrap: "wrap",
+    gap: 8,
+    marginTop: 18,
+  },
+  proofPill: {
+    display: "inline-flex",
+    alignItems: "center",
+    minHeight: 32,
+    padding: "0 12px",
+    borderRadius: 999,
+    background: "#fff3ea",
+    border: "1px solid #ead5c8",
+    color: "#7f4d39",
+    fontSize: 13,
+    fontWeight: 800,
   },
   primary: {
     display: "inline-flex",
@@ -242,10 +262,10 @@ export default function Home() {
         schema={schema}
       />
       <main style={styles.page}>
-        <section style={styles.hero} aria-labelledby="homepage-title">
+        <section className="home-hero-shell" style={styles.hero} aria-labelledby="homepage-title">
           <div>
             <p style={styles.eyebrow}>Siena, Tuscany & practical planning</p>
-            <h1 id="homepage-title" style={styles.title}>
+            <h1 id="homepage-title" className="home-hero-title" style={styles.title}>
               Plan smarter trips around Siena and Tuscany.
             </h1>
             <p style={styles.intro}>
@@ -253,17 +273,24 @@ export default function Home() {
               routes, stays, day trips, and budgets without getting lost in
               generic travel advice.
             </p>
-            <div style={styles.actions}>
-              <Link to="/siena-travel-guide" style={styles.primary}>
+            <div className="home-proof-row" style={styles.proofRow}>
+              {proofPoints.map((point) => (
+                <span key={point} style={styles.proofPill}>
+                  {point}
+                </span>
+              ))}
+            </div>
+            <div className="home-actions" style={styles.actions}>
+              <Link to="/siena-travel-guide" className="home-action-link" style={styles.primary}>
                 Start with Siena
               </Link>
-              <Link to="/travel-budget-calculator" style={styles.secondary}>
+              <Link to="/travel-budget-calculator" className="home-action-link" style={styles.secondary}>
                 Estimate a Trip Budget
               </Link>
             </div>
           </div>
 
-          <div style={styles.imageWrap}>
+          <div className="home-hero-image" style={styles.imageWrap}>
             <SienaHeroArt />
           </div>
         </section>
@@ -276,8 +303,9 @@ export default function Home() {
                 Main travel guides
               </h2>
               <p style={styles.sectionText}>
-                These are the pages we want Google and visitors to understand
-                first. Each link points to the canonical route we want to keep.
+                Start with the guides that answer the first real planning
+                questions: where to stay, how to move around, what to do, and
+                how much the trip may cost.
               </p>
             </div>
           </div>
