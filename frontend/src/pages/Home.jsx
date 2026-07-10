@@ -68,72 +68,16 @@ const homeSchema = {
 
 function SienaHeroArt() {
   return (
-    <svg
-      viewBox="0 0 1600 1000"
-      role="img"
-      aria-labelledby="siena-hero-title siena-hero-desc"
+    <img
+      src="/images/siena-hero.svg"
+      alt="Illustrated Siena skyline with cathedral-inspired architecture and Tuscan hills"
+      width="1600"
+      height="900"
+      loading="eager"
+      decoding="async"
+      fetchPriority="high"
       style={styles.image}
-    >
-      <title id="siena-hero-title">Siena skyline and cathedral</title>
-      <desc id="siena-hero-desc">
-        An illustrated Siena skyline with cathedral-inspired architecture and
-        Tuscan hills.
-      </desc>
-      <defs>
-        <linearGradient id="homeSky" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#f8efe5" />
-          <stop offset="0.58" stopColor="#ead3bd" />
-          <stop offset="1" stopColor="#c99468" />
-        </linearGradient>
-        <linearGradient id="homeHill" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stopColor="#8f9a6b" />
-          <stop offset="1" stopColor="#4f603f" />
-        </linearGradient>
-        <linearGradient id="homeRoof" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stopColor="#c87050" />
-          <stop offset="1" stopColor="#873d31" />
-        </linearGradient>
-      </defs>
-      <rect width="1600" height="1000" fill="url(#homeSky)" />
-      <circle cx="1250" cy="170" r="90" fill="#fff4d6" opacity="0.92" />
-      <path
-        d="M0 675 C240 560 390 675 590 590 C795 500 960 650 1185 560 C1380 480 1500 535 1600 500 L1600 1000 L0 1000 Z"
-        fill="url(#homeHill)"
-      />
-      <path
-        d="M0 780 C220 700 410 790 620 715 C830 640 1040 790 1280 700 C1430 645 1530 675 1600 650 L1600 1000 L0 1000 Z"
-        fill="#3f513b"
-        opacity="0.9"
-      />
-      <g transform="translate(225 340)">
-        <rect x="0" y="230" width="1150" height="210" rx="12" fill="#f0dcc3" />
-        <path
-          d="M0 230 L72 162 L145 230 Z M162 230 L250 125 L342 230 Z M360 230 L455 148 L552 230 Z M575 230 L690 90 L812 230 Z M830 230 L930 150 L1032 230 Z M1045 230 L1120 145 L1150 230 Z"
-          fill="url(#homeRoof)"
-        />
-        <rect x="675" y="50" width="98" height="390" rx="9" fill="#d8b18a" />
-        <path d="M724 0 L787 50 L660 50 Z" fill="#7b362e" />
-        <rect x="703" y="110" width="42" height="66" rx="21" fill="#6f493f" opacity="0.56" />
-        <rect x="700" y="210" width="48" height="150" rx="24" fill="#765044" opacity="0.45" />
-        <rect x="410" y="105" width="175" height="335" rx="10" fill="#ead0b4" />
-        <path d="M498 30 L603 105 L392 105 Z" fill="#843c31" />
-        <circle cx="498" cy="188" r="42" fill="#9d6f58" opacity="0.46" />
-        <rect x="465" y="260" width="66" height="120" rx="33" fill="#765044" opacity="0.5" />
-        <g fill="#dfbd98">
-          <rect x="90" y="275" width="82" height="165" rx="8" />
-          <rect x="210" y="265" width="82" height="175" rx="8" />
-          <rect x="840" y="270" width="86" height="170" rx="8" />
-          <rect x="988" y="280" width="76" height="160" rx="8" />
-        </g>
-        <g fill="#745046" opacity="0.52">
-          <rect x="42" y="282" width="34" height="58" rx="17" />
-          <rect x="228" y="300" width="31" height="56" rx="15" />
-          <rect x="850" y="303" width="32" height="55" rx="16" />
-          <rect x="1010" y="305" width="30" height="52" rx="15" />
-        </g>
-      </g>
-      <rect width="1600" height="1000" fill="#22150f" opacity="0.13" />
-    </svg>
+    />
   );
 }
 
