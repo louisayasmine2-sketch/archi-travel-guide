@@ -21,7 +21,7 @@ const SITE_URL = (
   'https://affittacameregliarchi.com'
 ).replace(/\/$/, '');
 const SITE_NAME = 'Archi Travel Guide';
-const DEFAULT_IMAGE = 'https://images.unsplash.com/photo-1761995912965-8f134652fc6e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHx0dXNjYW55JTIwcm9sbGluZyUyMGhpbGxzJTIwc3VucmlzZXxlbnwwfHx8fDE3ODMwMDQ0ODZ8MA&ixlib=rb-4.1.0&q=85&w=1200&h=630&fit=crop';
+const DEFAULT_IMAGE = `${SITE_URL}/images/archi-travel-guide-siena-og.webp`;
 const SCHEMA_UPDATED = '2026-07-10';
 const ARTICLE_SCHEMA_ROUTES = new Set([
   '/siena-travel-guide',

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import SEO from "@/components/common/SEO";
 import { ORGANIZATION_JSONLD, SITE_URL } from "@/lib/seo";
@@ -54,6 +54,29 @@ const supportLinks = [
 
 const proofPoints = ["Siena-first planning", "Honest routes", "Budget tools"];
 
+const heroSlides = [
+  {
+    src: "/images/archi-travel-guide-siena-homepage-hero-1.webp",
+    alt: "Golden-hour view over Siena's terracotta rooftops and Tuscan hills",
+    credit: "Photo: Cristina Gottardi / Unsplash, CC0",
+    objectPosition: "50% 50%",
+  },
+  {
+    src: "/images/archi-travel-guide-siena-homepage-hero-2.webp",
+    alt: "Aerial panorama of Siena's historic center surrounded by Tuscan hills",
+    credit: "Siena from above - BobTanGo, CC BY 4.0; cropped and converted to WebP",
+    objectPosition: "50% 52%",
+  },
+  {
+    src: "/images/archi-travel-guide-siena-homepage-hero-3.webp",
+    alt: "View of Torre del Mangia, Siena Cathedral and San Domenico from Fortezza Medicea",
+    credit: "Photo: Ввласенко, CC BY 4.0; cropped and converted to WebP",
+    objectPosition: "50% 50%",
+  },
+];
+
+const HERO_SLIDE_INTERVAL_MS = 4500;
+
 const homeSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -68,18 +91,56 @@ const homeSchema = {
   },
 };
 
-function SienaHeroArt() {
+function SienaHeroCarousel() {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  useEffect(() => {
+    const media = window.matchMedia("(prefers-reduced-motion: reduce)");
+    if (media.matches) return undefined;
+
+    const timer = window.setInterval(() => {
+      setActiveIndex((current) => (current + 1) % heroSlides.length);
+    }, HERO_SLIDE_INTERVAL_MS);
+
+    return () => window.clearInterval(timer);
+  }, []);
+
+  const activeSlide = heroSlides[activeIndex];
+
   return (
-    <img
-      src="/images/siena-hero.svg"
-      alt="Illustrated Siena skyline with cathedral-inspired architecture and Tuscan hills"
-      width="1600"
-      height="900"
-      loading="eager"
-      decoding="async"
-      fetchPriority="high"
-      style={styles.image}
-    />
+    <figure className="home-hero-carousel" aria-label="Siena and Tuscany photography">
+      {heroSlides.map((slide, index) => (
+        <img
+          key={slide.src}
+          src={slide.src}
+          alt={slide.alt}
+          width="1600"
+          height="1000"
+          loading={index === 0 ? "eager" : "lazy"}
+          decoding="async"
+          fetchPriority={index === 0 ? "high" : undefined}
+          aria-hidden={index !== activeIndex}
+          className={`home-hero-carousel-image${index === activeIndex ? " is-active" : ""}`}
+          style={{ objectPosition: slide.objectPosition }}
+        />
+      ))}
+      <div
+        key={activeIndex}
+        className="home-hero-carousel-progress"
+        aria-hidden="true"
+      />
+      <figcaption className="home-hero-carousel-caption">
+        {activeSlide.credit}
+      </figcaption>
+      <div className="home-hero-carousel-dots" aria-hidden="true">
+        {heroSlides.map((slide, index) => (
+          <span
+            key={slide.src}
+            className={`home-hero-carousel-dot${index === activeIndex ? " is-active" : ""}`}
+          />
+        ))}
+      </div>
+    </figure>
   );
 }
 
@@ -182,13 +243,6 @@ const styles = {
     boxShadow: "0 24px 70px rgba(74, 45, 28, 0.18)",
     background: "#ead7c2",
   },
-  image: {
-    width: "100%",
-    height: "auto",
-    display: "block",
-    aspectRatio: "16 / 10",
-    objectFit: "cover",
-  },
   section: {
     maxWidth: 1180,
     margin: "0 auto",
@@ -264,7 +318,7 @@ export default function Home() {
         title="Archi Travel Guide | Siena, Tuscany & Practical Travel Planning"
         description="Discover practical travel guidance for Siena and Tuscany: where to stay, what to do, how to plan transport, and budget-friendly trip planning."
         path="/"
-        image="/images/siena-hero.svg"
+        image="/images/archi-travel-guide-siena-og.webp"
         schema={schema}
       />
       <main style={styles.page}>
@@ -297,7 +351,7 @@ export default function Home() {
           </div>
 
           <div className="home-hero-image" style={styles.imageWrap}>
-            <SienaHeroArt />
+            <SienaHeroCarousel />
           </div>
         </section>
 

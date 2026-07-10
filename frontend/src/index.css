@@ -208,6 +208,111 @@
   }
 }
 
+.home-hero-carousel {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  margin: 0;
+  overflow: hidden;
+  background: #d9cbbb;
+}
+
+.home-hero-carousel::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 34%;
+  background: linear-gradient(to top, rgba(24, 20, 17, 0.48), rgba(24, 20, 17, 0));
+  pointer-events: none;
+  z-index: 1;
+}
+
+.home-hero-carousel-image {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.025);
+  transition: opacity 900ms ease, transform 4500ms ease;
+}
+
+.home-hero-carousel-image.is-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.home-hero-carousel-caption {
+  position: absolute;
+  left: 14px;
+  right: 74px;
+  bottom: 14px;
+  z-index: 2;
+  display: inline-flex;
+  width: fit-content;
+  max-width: calc(100% - 96px);
+  border-radius: 999px;
+  background: rgba(24, 20, 17, 0.58);
+  color: rgba(255, 255, 255, 0.94);
+  padding: 7px 10px;
+  font-size: 11px;
+  line-height: 1.25;
+  backdrop-filter: blur(8px);
+}
+
+.home-hero-carousel-dots {
+  position: absolute;
+  right: 14px;
+  bottom: 16px;
+  z-index: 2;
+  display: flex;
+  gap: 6px;
+}
+
+.home-hero-carousel-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.52);
+  box-shadow: 0 0 0 1px rgba(24, 20, 17, 0.12);
+}
+
+.home-hero-carousel-dot.is-active {
+  width: 18px;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.home-hero-carousel-progress {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  height: 3px;
+  width: 100%;
+  transform-origin: left center;
+  background: rgba(255, 255, 255, 0.88);
+  animation: homeHeroProgress 4500ms linear forwards;
+}
+
+@keyframes homeHeroProgress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-hero-carousel-image,
+  .home-hero-carousel-progress {
+    transition: none;
+    animation: none;
+  }
+}
+
 /* Mobile homepage polish for modern iPhone-sized screens. */
 @media (max-width: 767px) {
   .home-hero-shell {
