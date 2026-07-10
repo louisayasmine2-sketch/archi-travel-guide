@@ -151,3 +151,61 @@
     border-left-color: inherit; border-right-color: inherit; border-top-color: inherit; border-bottom-color: inherit;
   }
 }
+/* Mobile safety net for editorial hero layouts. */
+@media (max-width: 767px) {
+  html,
+  body,
+  #root {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
+    max-width: 100%;
+  }
+
+  .hero,
+  .home-hero,
+  .landing-hero,
+  .page-hero,
+  [class*="hero"] {
+    grid-template-columns: 1fr !important;
+    align-items: start !important;
+    gap: 2rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .hero > *,
+  .home-hero > *,
+  .landing-hero > *,
+  .page-hero > *,
+  [class*="hero"] > * {
+    min-width: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .hero h1,
+  .home-hero h1,
+  .landing-hero h1,
+  .page-hero h1,
+  [class*="hero"] h1 {
+    max-width: 100% !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+    hyphens: none !important;
+  }
+
+  .hero p,
+  .home-hero p,
+  .landing-hero p,
+  .page-hero p,
+  [class*="hero"] p {
+    max-width: 100% !important;
+  }
+}
