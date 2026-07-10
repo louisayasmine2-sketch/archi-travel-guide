@@ -42,13 +42,17 @@ function GoogleAnalytics() {
   return null;
 }
 
+function RouteFallback() {
+  return <div className="min-h-[calc(100vh-5rem)] lg:min-h-[calc(100vh-6rem)]" aria-hidden="true" />;
+}
+
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <GoogleAnalytics />
         <Layout>
-          <Suspense fallback={null}>
+          <Suspense fallback={<RouteFallback />}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/en" element={<HubPage pageKey="en-home" routePath="/en" />} />
