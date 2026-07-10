@@ -24,3 +24,4 @@ root.render(
     </HelmetProvider>
   </React.StrictMode>,
 );
+import "./performance/deferThirdPartyWork";
