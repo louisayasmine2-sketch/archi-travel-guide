@@ -167,6 +167,8 @@ const styles = {
     maxWidth: 1180,
     margin: "0 auto",
     padding: "28px 20px 76px",
+    contentVisibility: "auto",
+    containIntrinsicSize: "720px",
   },
   sectionHeader: {
     display: "flex",
