@@ -14,6 +14,9 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const BUILD_DIR = path.join(ROOT, 'build');
 const INDEX_PATH = path.join(BUILD_DIR, 'index.html');
+const SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE = JSON.parse(
+  fs.readFileSync(path.join(ROOT, 'src/data/sienaDayTripFromFlorenceGuide.json'), 'utf-8')
+);
 const SITE_URL = (
   process.env.REACT_APP_SITE_URL ||
   process.env.VITE_SITE_URL ||
@@ -33,6 +36,9 @@ const ARTICLE_SCHEMA_ROUTES = new Set([
   '/siena-itinerary',
   '/siena-accommodation-guide',
   '/travel-tips',
+]);
+const REDIRECTED_ARTICLE_SLUGS = new Set([
+  'siena-day-trip-from-florence',
 ]);
 const DESTINATION_SCHEMA = {
   '/tuscany-travel-guide': {
@@ -199,10 +205,13 @@ const STATIC_ROUTES = [
     'Use this guide to compare transport trade-offs before choosing your route.',
     'The page connects transport planning with Siena itinerary and stay decisions.',
   ]),
-  page('/siena-day-trip-from-florence', 'Siena Day Trip from Florence', 'Plan a focused Siena day trip from Florence with realistic timing and practical route notes.', 'Siena day trip from Florence', [
-    'Keep the day focused around Piazza del Campo, the Duomo, and a realistic meal stop.',
-    'Use the transport guide before committing to a train or bus plan.',
-  ]),
+  page(
+    SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE.canonicalPath,
+    SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE.seoTitle,
+    SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE.metaDescription,
+    SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE.title,
+    []
+  ),
   page('/one-day-in-siena', 'One Day in Siena', 'A practical one-day Siena planning page for short visits, pacing, and first-time priorities.', 'One day in Siena', [
     'Prioritize the Campo, Duomo area, and one slow walk rather than overloading the day.',
     'Use this route as a short-stay entry point before deeper Siena guides.',
@@ -229,6 +238,25 @@ const STATIC_ROUTES = [
   ]),
 ];
 
+const sienaDayTripRoute = STATIC_ROUTES.find((route) => route.path === SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE.canonicalPath);
+if (sienaDayTripRoute) {
+  Object.assign(sienaDayTripRoute, {
+    type: 'siena-day-trip-longform',
+    category: SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE.category,
+    image: `${SITE_URL}${SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE.hero.src}`,
+    exactTitle: true,
+    published: SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE.datePublished,
+    modified: SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE.dateModified,
+    author: SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE.author.name,
+    faq: SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE.faqs,
+    breadcrumbs: [
+      { label: 'Home', to: '/' },
+      { label: 'Tuscany Travel Guide', to: '/tuscany-travel-guide' },
+      { label: 'Siena Day Trip from Florence' },
+    ],
+  });
+}
+
 function page(routePath, title, description, h1, bullets, locale = 'en_US') {
   return { path: routePath, title, description, h1, bullets, locale, canonicalPath: routePath };
 }
@@ -240,6 +268,122 @@ function escapeHtml(value = '') {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
+}
+
+function slugify(text) {
+  return String(text)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+function splitTableLine(line) {
+  return line
+    .trim()
+    .replace(/^\|/, '')
+    .replace(/\|$/, '')
+    .split('|')
+    .map((cell) => cell.trim());
+}
+
+function inlineMarkdownToHtml(text = '') {
+  const parts = [];
+  const re = /\[([^\]]+)\]\(([^)]+)\)|(https?:\/\/[^\s]+)/g;
+  let lastIndex = 0;
+  let match;
+
+  while ((match = re.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(escapeHtml(text.slice(lastIndex, match.index)));
+    }
+
+    const label = match[1] || match[3];
+    const href = match[2] || match[3];
+    const safeHref = escapeHtml(href);
+    const safeLabel = escapeHtml(label);
+    if (/^https?:\/\//i.test(href)) {
+      const partnerRel = isPartnerHref(href) ? 'sponsored noopener noreferrer' : 'noopener noreferrer';
+      parts.push(`<a href="${safeHref}" target="_blank" rel="${partnerRel}">${safeLabel}</a>`);
+    } else {
+      parts.push(`<a href="${safeHref}">${safeLabel}</a>`);
+    }
+
+    lastIndex = re.lastIndex;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(escapeHtml(text.slice(lastIndex)));
+  }
+
+  return parts.join('').replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+}
+
+function isPartnerHref() {
+  return false;
+}
+
+function markdownToHtml(markdown = '') {
+  const lines = markdown.split(/\n/);
+  const html = [];
+  let i = 0;
+
+  while (i < lines.length) {
+    const line = lines[i].trim();
+    if (!line) {
+      i += 1;
+      continue;
+    }
+
+    const heading = line.match(/^(#{2,4})\s+(.+)$/);
+    if (heading) {
+      const level = heading[1].length;
+      const text = heading[2].trim();
+      const id = level <= 3 ? ` id="${slugify(text)}"` : '';
+      html.push(`<h${level}${id}>${escapeHtml(text)}</h${level}>`);
+      i += 1;
+      continue;
+    }
+
+    if (line.startsWith('|')) {
+      const tableLines = [];
+      while (i < lines.length && lines[i].trim().startsWith('|')) {
+        tableLines.push(lines[i]);
+        i += 1;
+      }
+      const [headerLine, ...rowLines] = tableLines;
+      const headers = splitTableLine(headerLine).map((cell) => `<th>${inlineMarkdownToHtml(cell)}</th>`).join('');
+      const rows = rowLines
+        .map((rowLine) => `<tr>${splitTableLine(rowLine).map((cell) => `<td>${inlineMarkdownToHtml(cell)}</td>`).join('')}</tr>`)
+        .join('');
+      html.push(`<div class="longform-table-wrap"><table><thead><tr>${headers}</tr></thead><tbody>${rows}</tbody></table></div>`);
+      continue;
+    }
+
+    if (line.startsWith('- ')) {
+      const items = [];
+      while (i < lines.length && lines[i].trim().startsWith('- ')) {
+        items.push(`<li>${inlineMarkdownToHtml(lines[i].trim().slice(2))}</li>`);
+        i += 1;
+      }
+      html.push(`<ul>${items.join('')}</ul>`);
+      continue;
+    }
+
+    const paragraph = [];
+    while (
+      i < lines.length &&
+      lines[i].trim() &&
+      !/^(#{2,4})\s+/.test(lines[i].trim()) &&
+      !lines[i].trim().startsWith('- ') &&
+      !lines[i].trim().startsWith('|')
+    ) {
+      paragraph.push(lines[i].trim());
+      i += 1;
+    }
+    html.push(`<p>${inlineMarkdownToHtml(paragraph.join(' '))}</p>`);
+  }
+
+  return html.join('');
 }
 
 function stripNoscript(html) {
@@ -262,13 +406,20 @@ function jsonLdScript(schema) {
 }
 
 function breadcrumbJsonLd(route) {
+  const items = route.breadcrumbs || [
+    { label: 'Home', to: '/' },
+    { label: route.h1 || route.title, to: route.canonicalPath },
+  ];
+
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
-      { '@type': 'ListItem', position: 2, name: route.h1 || route.title, item: `${SITE_URL}${route.canonicalPath}` },
-    ],
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.label,
+      ...(item.to ? { item: `${SITE_URL}${item.to === '/' ? '/' : item.to}` } : {}),
+    })),
   };
 }
 
@@ -290,15 +441,27 @@ function articleJsonLd(route, url, fullTitle) {
     '@context': 'https://schema.org',
     '@type': 'Article',
     '@id': `${url}#article`,
-    headline: fullTitle,
+    headline: route.h1 || fullTitle,
     description: route.description,
-    image: [DEFAULT_IMAGE],
-    datePublished: SCHEMA_UPDATED,
-    dateModified: SCHEMA_UPDATED,
-    author: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: SITE_NAME, url: SITE_URL },
+    image: [route.image || DEFAULT_IMAGE],
+    datePublished: route.published || SCHEMA_UPDATED,
+    dateModified: route.modified || route.published || SCHEMA_UPDATED,
+    author: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: route.author || SITE_NAME, url: SITE_URL },
     publisher: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: SITE_NAME, url: SITE_URL },
-    articleSection: route.type === 'article' ? 'Travel article' : 'Travel guide',
+    articleSection: route.category || (route.type === 'article' ? 'Travel article' : 'Travel guide'),
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${url}#webpage` },
+  };
+}
+
+function faqJsonLd(faq = []) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: { '@type': 'Answer', text: item.answer },
+    })),
   };
 }
 
@@ -331,6 +494,7 @@ function schemaScripts(route, url, fullTitle) {
     breadcrumbJsonLd(route),
     webPageJsonLd(route, url, fullTitle),
     routeIsArticle(route) ? articleJsonLd(route, url, fullTitle) : null,
+    route.faq?.length ? faqJsonLd(route.faq) : null,
     destinationJsonLd(route, url),
     route.path === '/'
       ? {
@@ -348,9 +512,10 @@ function schemaScripts(route, url, fullTitle) {
 }
 
 function injectHead(html, route) {
-  const fullTitle = route.title.includes(SITE_NAME) ? route.title : `${route.title} · ${SITE_NAME}`;
+  const fullTitle = route.exactTitle || route.title.includes(SITE_NAME) ? route.title : `${route.title} · ${SITE_NAME}`;
   const url = `${SITE_URL}${route.canonicalPath}`;
   const isArticle = routeIsArticle(route);
+  const image = route.image || DEFAULT_IMAGE;
   const head = [
     `<title data-rh="true">${escapeHtml(fullTitle)}</title>`,
     `<meta data-rh="true" name="description" content="${escapeHtml(route.description)}">`,
@@ -361,12 +526,12 @@ function injectHead(html, route) {
     `<meta data-rh="true" property="og:description" content="${escapeHtml(route.description)}">`,
     `<meta data-rh="true" property="og:url" content="${escapeHtml(url)}">`,
     `<meta data-rh="true" property="og:type" content="${isArticle ? 'article' : 'website'}">`,
-    `<meta data-rh="true" property="og:image" content="${DEFAULT_IMAGE}">`,
+    `<meta data-rh="true" property="og:image" content="${escapeHtml(image)}">`,
     `<meta data-rh="true" property="og:locale" content="${route.locale || 'en_US'}">`,
     `<meta data-rh="true" name="twitter:card" content="summary_large_image">`,
     `<meta data-rh="true" name="twitter:title" content="${escapeHtml(fullTitle)}">`,
     `<meta data-rh="true" name="twitter:description" content="${escapeHtml(route.description)}">`,
-    `<meta data-rh="true" name="twitter:image" content="${DEFAULT_IMAGE}">`,
+    `<meta data-rh="true" name="twitter:image" content="${escapeHtml(image)}">`,
     schemaScripts(route, url, fullTitle),
     `<style data-static-fallback>.static-fallback{font-family:Arial,sans-serif;max-width:76ch;margin:0 auto;padding:2rem;color:#1f1f1f;line-height:1.65}.static-fallback a{color:#b95741}.static-fallback .overline{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#9a6a55}.static-fallback h1{font-family:Georgia,serif;font-size:clamp(2rem,5vw,3.5rem);line-height:1.05;margin:.5rem 0 1rem}.static-fallback ul{padding-left:1.2rem}.static-fallback li{margin:.45rem 0}.js .static-fallback{display:none}</style>`,
     `<script data-static-fallback>document.documentElement.classList.add("js");</script>`,
@@ -375,7 +540,50 @@ function injectHead(html, route) {
   return html.replace('</head>', `${head}</head>`);
 }
 
+function internalReferencesToLinks(markdown = '', linkMap = {}) {
+  return markdown.replace(/\[Internal link:\s*([^\]]+)\]/g, (_match, label) => {
+    const href = linkMap[label] || '/blog';
+    return `[${label}](${href})`;
+  });
+}
+
+function sienaDayTripFallbackMarkup() {
+  const guide = SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE;
+  const links = STATIC_FOOTER_LINKS
+    .map((item) => `<a href="${item.href}">${escapeHtml(item.label)}</a>`)
+    .join(' · ');
+  const credits = [guide.hero, ...Object.values(guide.imagePlacements || {})]
+    .map((image) => (
+      `<li>${escapeHtml(image.caption)} Photo: <a href="${escapeHtml(image.source)}" target="_blank" rel="nofollow noopener">${escapeHtml(image.photographer)}</a>, <a href="${escapeHtml(image.licenseUrl)}" target="_blank" rel="license noopener">${escapeHtml(image.licenseName)}</a>. ${escapeHtml(image.adaptation)}</li>`
+    ))
+    .join('');
+  const published = new Date(guide.datePublished).toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+  });
+
+  return [
+    `<main id="static-fallback" class="static-fallback">`,
+    `<p class="overline">${escapeHtml(guide.category)}</p>`,
+    `<h1>${escapeHtml(guide.title)}</h1>`,
+    `<p>${escapeHtml(guide.excerpt)}</p>`,
+    markdownToHtml(internalReferencesToLinks(guide.introMarkdown, guide.linkMap)),
+    `<p><strong>Author:</strong> <a href="${guide.author.url}">${escapeHtml(guide.author.name)}</a> · <strong>Published:</strong> ${published} · <strong>Fact-checked:</strong> ${escapeHtml(guide.factChecked)}</p>`,
+    `<figure class="article-image"><img src="${guide.hero.src}" alt="${escapeHtml(guide.hero.alt)}" width="${guide.hero.width}" height="${guide.hero.height}" loading="eager" fetchpriority="high"><figcaption>${escapeHtml(guide.hero.caption)} Photo: <a href="${escapeHtml(guide.hero.source)}" target="_blank" rel="nofollow noopener">${escapeHtml(guide.hero.photographer)}</a>, <a href="${escapeHtml(guide.hero.licenseUrl)}" target="_blank" rel="license noopener">${escapeHtml(guide.hero.licenseName)}</a>. ${escapeHtml(guide.hero.adaptation)}</figcaption></figure>`,
+    markdownToHtml(internalReferencesToLinks(guide.bodyMarkdown, guide.linkMap)),
+    `<section id="photo-credits"><h2>Photo credits</h2><ul>${credits}</ul></section>`,
+    `<section><h2>${escapeHtml(guide.author.name)}</h2><p>${escapeHtml(guide.author.bio)}</p><p><a href="/editorial-policy">Editorial policy</a> · <a href="/affiliate-disclosure">Affiliate disclosure</a></p></section>`,
+    `<p>${links}</p>`,
+    `</main>`,
+  ].join('');
+}
+
 function fallbackMarkup(route) {
+  if (route.type === 'siena-day-trip-longform') {
+    return sienaDayTripFallbackMarkup();
+  }
+
   const bullets = (route.bullets || []).map((item) => `<li>${escapeHtml(item)}</li>`).join('');
   const links = STATIC_FOOTER_LINKS
     .map((item) => `<a href="${item.href}">${escapeHtml(item.label)}</a>`)
@@ -501,7 +709,7 @@ function extractArticles() {
     const callText = src.slice(i + 2, j - 1);
     const args = splitTopLevelArgs(callText);
     const slug = stringArg(args[0]);
-    if (slug && !seen.has(slug)) {
+    if (slug && !seen.has(slug) && !REDIRECTED_ARTICLE_SLUGS.has(slug)) {
       seen.add(slug);
       const title = stringArg(args[1]);
       const category = stringArg(args[2]);

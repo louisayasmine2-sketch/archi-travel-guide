@@ -71,6 +71,7 @@ const resources = {
 
 const resourceSets = {
   "siena-travel-guide": ["sienaHotels", "tuscanyTransport", "sienaTours"],
+  "siena-day-trip-from-florence": ["tuscanyTransport", "sienaTours", "tuscanyExperiences"],
   "where-to-stay-in-siena": ["sienaHotels", "tuscanyTransport", "italyEsim"],
   "siena-accommodation-guide": ["sienaHotels", "italyEsim", "sienaTours"],
   "travel-budget-calculator": ["sienaHotels", "tuscanyTransport", "tuscanyExperiences"],

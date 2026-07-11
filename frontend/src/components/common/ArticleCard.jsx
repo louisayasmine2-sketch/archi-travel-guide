@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import LazyImage from "./LazyImage";
 
 export default function ArticleCard({ article, variant = "default" }) {
-  const to = `/blog/${article.slug}`;
+  const to = article.canonicalPath || `/blog/${article.slug}`;
   if (variant === "compact") {
     return (
       <Link to={to} className="group flex gap-4 items-start">

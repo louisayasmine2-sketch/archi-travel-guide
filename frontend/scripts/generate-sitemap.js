@@ -55,7 +55,7 @@ const staticRoutes = [
   { path: '/about',                              changefreq: 'yearly',  priority: 0.5 },
   { path: '/contact',                            changefreq: 'yearly',  priority: 0.5 },
   { path: '/siena-travel-guide',                 changefreq: 'weekly',  priority: 0.8 },
-  { path: '/siena-day-trip-from-florence',       changefreq: 'weekly',  priority: 0.8 },
+  { path: '/siena-day-trip-from-florence',       changefreq: 'weekly',  priority: 0.8, lastmod: '2026-07-11' },
   { path: '/florence-to-siena-by-train-or-bus',  changefreq: 'weekly',  priority: 0.8 },
   { path: '/one-day-in-siena',                   changefreq: 'weekly',  priority: 0.8 },
   { path: '/where-to-stay-in-siena',             changefreq: 'weekly',  priority: 0.8 },
@@ -220,6 +220,7 @@ function render() {
   const redirectedArticleSlugs = new Set([
     'florence-to-siena-transport',
     'best-things-to-do-in-siena',
+    'siena-day-trip-from-florence',
   ]);
 
   const articleRoutes = extractArticles().filter((a) => !redirectedArticleSlugs.has(a.slug)).map((a) => ({

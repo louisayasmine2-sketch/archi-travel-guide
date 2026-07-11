@@ -19,6 +19,7 @@ const TravelTools = lazy(() => import("@/pages/TravelTools"));
 const TravelDeals = lazy(() => import("@/pages/TravelDeals"));
 const Blog = lazy(() => import("@/pages/Blog"));
 const Article = lazy(() => import("@/pages/Article"));
+const SienaDayTripFromFlorence = lazy(() => import("@/pages/SienaDayTripFromFlorence"));
 const City = lazy(() => import("@/pages/City"));
 const About = lazy(() => import("@/pages/About"));
 const Contact = lazy(() => import("@/pages/Contact"));
@@ -67,8 +68,8 @@ function App() {
             <Route path="/tuscany-travel-guide/" element={<Tuscany />} />
             <Route path="/florence-to-siena-by-train-or-bus" element={<Article fixedSlug="florence-to-siena-transport" canonicalPath="/florence-to-siena-by-train-or-bus" />} />
             <Route path="/florence-to-siena-by-train-or-bus/" element={<Article fixedSlug="florence-to-siena-transport" canonicalPath="/florence-to-siena-by-train-or-bus" />} />
-            <Route path="/siena-day-trip-from-florence" element={<HubPage pageKey="siena-itinerary" routePath="/siena-day-trip-from-florence" />} />
-            <Route path="/siena-day-trip-from-florence/" element={<HubPage pageKey="siena-itinerary" routePath="/siena-day-trip-from-florence" />} />
+            <Route path="/siena-day-trip-from-florence" element={<SienaDayTripFromFlorence />} />
+            <Route path="/siena-day-trip-from-florence/" element={<SienaDayTripFromFlorence />} />
             <Route path="/one-day-in-siena" element={<HubPage pageKey="siena-itinerary" routePath="/one-day-in-siena" />} />
             <Route path="/one-day-in-siena/" element={<HubPage pageKey="siena-itinerary" routePath="/one-day-in-siena" />} />
             <Route path="/things-to-do-in-siena" element={<Article fixedSlug="best-things-to-do-in-siena" canonicalPath="/things-to-do-in-siena" />} />
@@ -91,6 +92,8 @@ function App() {
             <Route path="/travel-tools/transport-guide" element={<TransportGuide />} />
             <Route path="/travel-deals" element={<TravelDeals />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/siena-day-trip-from-florence" element={<Navigate to="/siena-day-trip-from-florence" replace />} />
+            <Route path="/blog/siena-day-trip-from-florence/" element={<Navigate to="/siena-day-trip-from-florence" replace />} />
             <Route path="/blog/:slug" element={<Article />} />
             <Route path="/about" element={<About />} />
             <Route path="/about/" element={<About />} />

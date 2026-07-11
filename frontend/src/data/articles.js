@@ -20,6 +20,24 @@ const A = (slug, title, category, region, excerpt, image, sections, faqs = [], u
 
 const allArticles = [
   A(
+    'siena-day-trip-from-florence',
+    'Siena Day Trip from Florence: Complete Travel Guide',
+    'Siena Day Trips', 'Tuscany',
+    'Plan a Siena day trip from Florence by bus, train, or guided tour with realistic timing, arrival points, and a practical one-day itinerary.',
+    '/images/siena-day-trip-from-florence-hero.webp',
+    [
+      { id: 'quick-answer', heading: 'Quick answer', body: 'Siena is a practical car-free day trip from Florence, especially if you leave early and focus on Piazza del Campo, Siena Cathedral, the contrade streets, and one relaxed meal.' },
+      { id: 'transport-options', heading: 'Transport options', body: 'Most independent travelers compare the bus and train. The bus usually arrives closer to the historic center, while the train is comfortable but arrives below the old town.' },
+      { id: 'one-day-itinerary', heading: 'One-day itinerary', body: 'A realistic day keeps the route focused: Piazza del Campo in the morning, the cathedral complex before lunch, and slower streets or Santa Maria della Scala in the afternoon.' },
+    ],
+    [
+      { q: 'Is the bus or train better from Florence to Siena?', a: 'The bus is usually better for reaching Siena’s historic center, while the train is comfortable but requires extra time from Siena station.' },
+      { q: 'Is one day enough for Siena?', a: 'One day is enough for the main highlights, but staying overnight is better if you want a slower pace.' },
+    ],
+    '2026-07-11',
+    { canonicalPath: '/siena-day-trip-from-florence' }
+  ),
+  A(
     'best-things-to-do-in-siena',
     'Best Things to Do in Siena for First-Time Visitors',
     'Things to do', 'Siena',
