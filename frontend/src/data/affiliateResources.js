@@ -1,6 +1,6 @@
-const getEnvUrl = (key, fallback) => {
+const getEnvUrl = (key) => {
   const value = process.env[key];
-  return typeof value === "string" && value.trim().length > 0 ? value.trim() : fallback;
+  return typeof value === "string" && value.trim().length > 0 ? value.trim() : null;
 };
 
 const resources = {
@@ -14,10 +14,7 @@ const resources = {
     bestFor: "First-time Siena stays",
     ctaLabel: "Compare Siena stays",
     type: "hotel",
-    href: getEnvUrl(
-      "REACT_APP_BOOKING_SIENA_URL",
-      "https://www.booking.com/searchresults.html?ss=Siena%2C%20Tuscany%2C%20Italy"
-    ),
+    href: getEnvUrl("REACT_APP_BOOKING_SIENA_URL"),
   },
   tuscanyTransport: {
     id: "tuscany-transport",
@@ -29,7 +26,7 @@ const resources = {
     bestFor: "Route decisions",
     ctaLabel: "Check transport options",
     type: "transport",
-    href: getEnvUrl("REACT_APP_TRANSPORT_PARTNER_URL", "https://www.omio.com/"),
+    href: getEnvUrl("REACT_APP_TRANSPORT_PARTNER_URL"),
   },
   sienaTours: {
     id: "siena-tours",
@@ -41,7 +38,7 @@ const resources = {
     bestFor: "Guided day trips",
     ctaLabel: "Browse Siena tours",
     type: "tour",
-    href: getEnvUrl("REACT_APP_TOURS_SIENA_URL", "https://www.getyourguide.com/siena-l435/"),
+    href: getEnvUrl("REACT_APP_TOURS_SIENA_URL"),
   },
   tuscanyExperiences: {
     id: "tuscany-experiences",
@@ -53,7 +50,7 @@ const resources = {
     bestFor: "Wine and countryside",
     ctaLabel: "Compare experiences",
     type: "tour",
-    href: getEnvUrl("REACT_APP_VIATOR_TUSCANY_URL", "https://www.viator.com/Siena/d944-ttd"),
+    href: getEnvUrl("REACT_APP_VIATOR_TUSCANY_URL"),
   },
   italyEsim: {
     id: "italy-esim",
@@ -65,7 +62,7 @@ const resources = {
     bestFor: "Arrival day",
     ctaLabel: "Review eSIM options",
     type: "connectivity",
-    href: getEnvUrl("REACT_APP_ESIM_PARTNER_URL", "https://www.airalo.com/italy-esim"),
+    href: getEnvUrl("REACT_APP_ESIM_PARTNER_URL"),
   },
 };
 
@@ -80,5 +77,5 @@ const resourceSets = {
 
 export function getAffiliateResources(context = "default") {
   const ids = resourceSets[context] || resourceSets.default;
-  return ids.map((id) => resources[id]).filter(Boolean);
+  return ids.map((id) => resources[id]).filter((resource) => resource?.href);
 }

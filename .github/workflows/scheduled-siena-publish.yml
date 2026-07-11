@@ -1,0 +1,68 @@
+name: Scheduled Siena Cluster Publish
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 12 July 2026, 12:05 WIB. GitHub cron uses UTC.
+    - cron: "5 5 12 7 *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scheduled-siena-cluster-publish
+  cancel-in-progress: false
+
+jobs:
+  trigger-redeploy:
+    name: Trigger production redeploy
+    runs-on: ubuntu-latest
+    outputs:
+      should_smoke: ${{ steps.guard.outputs.should_smoke }}
+
+    steps:
+      - name: Guard scheduled run date
+        id: guard
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "schedule" && "$(date -u +%Y-%m-%d)" != "2026-07-12" ]]; then
+            echo "Scheduled publish window has passed; skipping annual cron repeat."
+            echo "should_smoke=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "should_smoke=true" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout repository
+        if: steps.guard.outputs.should_smoke == 'true'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create redeploy trigger commit
+        if: steps.guard.outputs.should_smoke == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "chore: trigger scheduled Siena cluster publish"
+          git push
+
+      - name: Trigger Cloudflare Pages deploy hook if configured
+        if: steps.guard.outputs.should_smoke == 'true'
+        shell: bash
+        env:
+          DEPLOY_HOOK_URL: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_HOOK_URL }}
+        run: |
+          if [[ -z "$DEPLOY_HOOK_URL" ]]; then
+            echo "No Cloudflare deploy hook secret configured; relying on the GitHub push integration."
+            exit 0
+          fi
+
+          curl -fsS -X POST "$DEPLOY_HOOK_URL"
+
+  smoke:
+    name: Confirm live production output
+    needs: trigger-redeploy
+    if: needs.trigger-redeploy.outputs.should_smoke == 'true'
+    uses: ./.github/workflows/deploy-smoke.yml

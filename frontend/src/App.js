@@ -20,6 +20,7 @@ const TravelDeals = lazy(() => import("@/pages/TravelDeals"));
 const Blog = lazy(() => import("@/pages/Blog"));
 const Article = lazy(() => import("@/pages/Article"));
 const SienaDayTripFromFlorence = lazy(() => import("@/pages/SienaDayTripFromFlorence"));
+const SienaContentClusterArticle = lazy(() => import("@/pages/SienaContentClusterArticle"));
 const City = lazy(() => import("@/pages/City"));
 const About = lazy(() => import("@/pages/About"));
 const Contact = lazy(() => import("@/pages/Contact"));
@@ -70,8 +71,22 @@ function App() {
             <Route path="/florence-to-siena-by-train-or-bus/" element={<Article fixedSlug="florence-to-siena-transport" canonicalPath="/florence-to-siena-by-train-or-bus" />} />
             <Route path="/siena-day-trip-from-florence" element={<SienaDayTripFromFlorence />} />
             <Route path="/siena-day-trip-from-florence/" element={<SienaDayTripFromFlorence />} />
-            <Route path="/one-day-in-siena" element={<HubPage pageKey="siena-itinerary" routePath="/one-day-in-siena" />} />
-            <Route path="/one-day-in-siena/" element={<HubPage pageKey="siena-itinerary" routePath="/one-day-in-siena" />} />
+            <Route path="/piazza-del-campo-guide" element={<SienaContentClusterArticle slug="piazza-del-campo-guide" />} />
+            <Route path="/piazza-del-campo-guide/" element={<SienaContentClusterArticle slug="piazza-del-campo-guide" />} />
+            <Route path="/siena-cathedral-guide" element={<SienaContentClusterArticle slug="siena-cathedral-guide" />} />
+            <Route path="/siena-cathedral-guide/" element={<SienaContentClusterArticle slug="siena-cathedral-guide" />} />
+            <Route path="/torre-del-mangia-guide" element={<SienaContentClusterArticle slug="torre-del-mangia-guide" />} />
+            <Route path="/torre-del-mangia-guide/" element={<SienaContentClusterArticle slug="torre-del-mangia-guide" />} />
+            <Route path="/siena-contrade-guide" element={<SienaContentClusterArticle slug="siena-contrade-guide" />} />
+            <Route path="/siena-contrade-guide/" element={<SienaContentClusterArticle slug="siena-contrade-guide" />} />
+            <Route path="/where-to-eat-in-siena" element={<SienaContentClusterArticle slug="where-to-eat-in-siena" />} />
+            <Route path="/where-to-eat-in-siena/" element={<SienaContentClusterArticle slug="where-to-eat-in-siena" />} />
+            <Route path="/siena-walking-tour" element={<SienaContentClusterArticle slug="siena-walking-tour" />} />
+            <Route path="/siena-walking-tour/" element={<SienaContentClusterArticle slug="siena-walking-tour" />} />
+            <Route path="/santa-maria-della-scala-siena" element={<SienaContentClusterArticle slug="santa-maria-della-scala-siena" />} />
+            <Route path="/santa-maria-della-scala-siena/" element={<SienaContentClusterArticle slug="santa-maria-della-scala-siena" />} />
+            <Route path="/one-day-in-siena" element={<SienaContentClusterArticle slug="one-day-in-siena" />} />
+            <Route path="/one-day-in-siena/" element={<SienaContentClusterArticle slug="one-day-in-siena" />} />
             <Route path="/things-to-do-in-siena" element={<Article fixedSlug="best-things-to-do-in-siena" canonicalPath="/things-to-do-in-siena" />} />
             <Route path="/things-to-do-in-siena/" element={<Article fixedSlug="best-things-to-do-in-siena" canonicalPath="/things-to-do-in-siena" />} />
             <Route path="/florence" element={<City slug="florence" />} />

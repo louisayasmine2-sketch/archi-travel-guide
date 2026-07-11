@@ -17,6 +17,9 @@ const INDEX_PATH = path.join(BUILD_DIR, 'index.html');
 const SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE = JSON.parse(
   fs.readFileSync(path.join(ROOT, 'src/data/sienaDayTripFromFlorenceGuide.json'), 'utf-8')
 );
+const SIENA_CONTENT_CLUSTER = JSON.parse(
+  fs.readFileSync(path.join(ROOT, 'src/data/sienaContentCluster.json'), 'utf-8')
+);
 const SITE_URL = (
   process.env.REACT_APP_SITE_URL ||
   process.env.VITE_SITE_URL ||
@@ -26,6 +29,12 @@ const SITE_URL = (
 const SITE_NAME = 'Archi Travel Guide';
 const DEFAULT_IMAGE = `${SITE_URL}/images/archi-travel-guide-siena-og.webp`;
 const SCHEMA_UPDATED = '2026-07-10';
+const SHOW_SCHEDULED_CONTENT =
+  process.env.REACT_APP_SHOW_SCHEDULED_CONTENT === 'true' ||
+  process.env.SHOW_SCHEDULED_CONTENT === 'true';
+const BUILD_NOW = process.env.SCHEDULED_CONTENT_NOW
+  ? new Date(process.env.SCHEDULED_CONTENT_NOW)
+  : new Date();
 const ARTICLE_SCHEMA_ROUTES = new Set([
   '/siena-travel-guide',
   '/where-to-stay-in-siena',
@@ -261,6 +270,68 @@ function page(routePath, title, description, h1, bullets, locale = 'en_US') {
   return { path: routePath, title, description, h1, bullets, locale, canonicalPath: routePath };
 }
 
+function isScheduledArticlePublished(article) {
+  return SHOW_SCHEDULED_CONTENT || Date.parse(article.publishAtWib) <= BUILD_NOW.getTime();
+}
+
+function publishedSienaClusterRoutes() {
+  return new Set(
+    SIENA_CONTENT_CLUSTER.articles
+      .filter(isScheduledArticlePublished)
+      .map((article) => article.route)
+  );
+}
+
+function sienaClusterRoutes() {
+  const visibleRoutes = publishedSienaClusterRoutes();
+
+  return SIENA_CONTENT_CLUSTER.articles.map((article) => {
+    if (!isScheduledArticlePublished(article)) {
+      return {
+        path: article.route,
+        canonicalPath: article.canonicalPath,
+        title: `${article.title} - scheduled`,
+        exactTitle: true,
+        description: 'This Siena guide is scheduled for publication and is not indexable yet.',
+        h1: article.title,
+        locale: 'en_US',
+        type: 'scheduled-draft',
+        noindex: true,
+        bullets: [
+          `Scheduled for ${article.publishAtWib.replace('T', ' ').replace('+07:00', ' WIB')}.`,
+          'The full guide will be available after its launch time.',
+        ],
+      };
+    }
+
+    return {
+      path: article.route,
+      canonicalPath: article.canonicalPath,
+      title: article.seoTitle,
+      exactTitle: true,
+      description: article.metaDescription,
+      h1: article.title,
+      locale: 'en_US',
+      type: 'siena-cluster-article',
+      image: `${SITE_URL}${article.hero.ogSrc}`,
+      published: article.datePublished,
+      modified: article.dateModified,
+      author: article.author?.name || SITE_NAME,
+      faq: article.faqs,
+      article,
+      relatedLinks: article.relatedLinks.filter((link) => {
+        const target = SIENA_CONTENT_CLUSTER.articles.find((item) => item.route === link.href);
+        return !target || visibleRoutes.has(link.href);
+      }),
+      breadcrumbs: [
+        { label: 'Home', to: '/' },
+        { label: 'Siena Travel Guide', to: '/siena-travel-guide' },
+        { label: article.title },
+      ],
+    };
+  });
+}
+
 function escapeHtml(value = '') {
   return String(value)
     .replace(/&/g, '&amp;')
@@ -268,122 +339,6 @@ function escapeHtml(value = '') {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
-}
-
-function slugify(text) {
-  return String(text)
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '');
-}
-
-function splitTableLine(line) {
-  return line
-    .trim()
-    .replace(/^\|/, '')
-    .replace(/\|$/, '')
-    .split('|')
-    .map((cell) => cell.trim());
-}
-
-function inlineMarkdownToHtml(text = '') {
-  const parts = [];
-  const re = /\[([^\]]+)\]\(([^)]+)\)|(https?:\/\/[^\s]+)/g;
-  let lastIndex = 0;
-  let match;
-
-  while ((match = re.exec(text)) !== null) {
-    if (match.index > lastIndex) {
-      parts.push(escapeHtml(text.slice(lastIndex, match.index)));
-    }
-
-    const label = match[1] || match[3];
-    const href = match[2] || match[3];
-    const safeHref = escapeHtml(href);
-    const safeLabel = escapeHtml(label);
-    if (/^https?:\/\//i.test(href)) {
-      const partnerRel = isPartnerHref(href) ? 'sponsored noopener noreferrer' : 'noopener noreferrer';
-      parts.push(`<a href="${safeHref}" target="_blank" rel="${partnerRel}">${safeLabel}</a>`);
-    } else {
-      parts.push(`<a href="${safeHref}">${safeLabel}</a>`);
-    }
-
-    lastIndex = re.lastIndex;
-  }
-
-  if (lastIndex < text.length) {
-    parts.push(escapeHtml(text.slice(lastIndex)));
-  }
-
-  return parts.join('').replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
-}
-
-function isPartnerHref() {
-  return false;
-}
-
-function markdownToHtml(markdown = '') {
-  const lines = markdown.split(/\n/);
-  const html = [];
-  let i = 0;
-
-  while (i < lines.length) {
-    const line = lines[i].trim();
-    if (!line) {
-      i += 1;
-      continue;
-    }
-
-    const heading = line.match(/^(#{2,4})\s+(.+)$/);
-    if (heading) {
-      const level = heading[1].length;
-      const text = heading[2].trim();
-      const id = level <= 3 ? ` id="${slugify(text)}"` : '';
-      html.push(`<h${level}${id}>${escapeHtml(text)}</h${level}>`);
-      i += 1;
-      continue;
-    }
-
-    if (line.startsWith('|')) {
-      const tableLines = [];
-      while (i < lines.length && lines[i].trim().startsWith('|')) {
-        tableLines.push(lines[i]);
-        i += 1;
-      }
-      const [headerLine, ...rowLines] = tableLines;
-      const headers = splitTableLine(headerLine).map((cell) => `<th>${inlineMarkdownToHtml(cell)}</th>`).join('');
-      const rows = rowLines
-        .map((rowLine) => `<tr>${splitTableLine(rowLine).map((cell) => `<td>${inlineMarkdownToHtml(cell)}</td>`).join('')}</tr>`)
-        .join('');
-      html.push(`<div class="longform-table-wrap"><table><thead><tr>${headers}</tr></thead><tbody>${rows}</tbody></table></div>`);
-      continue;
-    }
-
-    if (line.startsWith('- ')) {
-      const items = [];
-      while (i < lines.length && lines[i].trim().startsWith('- ')) {
-        items.push(`<li>${inlineMarkdownToHtml(lines[i].trim().slice(2))}</li>`);
-        i += 1;
-      }
-      html.push(`<ul>${items.join('')}</ul>`);
-      continue;
-    }
-
-    const paragraph = [];
-    while (
-      i < lines.length &&
-      lines[i].trim() &&
-      !/^(#{2,4})\s+/.test(lines[i].trim()) &&
-      !lines[i].trim().startsWith('- ') &&
-      !lines[i].trim().startsWith('|')
-    ) {
-      paragraph.push(lines[i].trim());
-      i += 1;
-    }
-    html.push(`<p>${inlineMarkdownToHtml(paragraph.join(' '))}</p>`);
-  }
-
-  return html.join('');
 }
 
 function stripNoscript(html) {
@@ -398,7 +353,8 @@ function removeExistingStatic(html) {
 }
 
 function routeIsArticle(route) {
-  return route.type === 'article' || ARTICLE_SCHEMA_ROUTES.has(route.path);
+  if (route.noindex) return false;
+  return route.type === 'article' || route.type === 'siena-cluster-article' || ARTICLE_SCHEMA_ROUTES.has(route.path);
 }
 
 function jsonLdScript(schema) {
@@ -519,7 +475,7 @@ function injectHead(html, route) {
   const head = [
     `<title data-rh="true">${escapeHtml(fullTitle)}</title>`,
     `<meta data-rh="true" name="description" content="${escapeHtml(route.description)}">`,
-    `<meta data-rh="true" name="robots" content="index,follow,max-image-preview:large">`,
+    `<meta data-rh="true" name="robots" content="${route.noindex ? 'noindex,nofollow' : 'index,follow,max-image-preview:large'}">`,
     `<link data-rh="true" rel="canonical" href="${escapeHtml(url)}">`,
     `<meta data-rh="true" property="og:site_name" content="${SITE_NAME}">`,
     `<meta data-rh="true" property="og:title" content="${escapeHtml(fullTitle)}">`,
@@ -538,6 +494,122 @@ function injectHead(html, route) {
   ].join('');
 
   return html.replace('</head>', `${head}</head>`);
+}
+
+function slugify(text) {
+  return String(text)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+function splitTableLine(line) {
+  return line
+    .trim()
+    .replace(/^\|/, '')
+    .replace(/\|$/, '')
+    .split('|')
+    .map((cell) => cell.trim());
+}
+
+function inlineMarkdownToHtml(text = '') {
+  const parts = [];
+  const re = /\[([^\]]+)\]\(([^)]+)\)|(https?:\/\/[^\s]+)/g;
+  let lastIndex = 0;
+  let match;
+
+  while ((match = re.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(escapeHtml(text.slice(lastIndex, match.index)));
+    }
+
+    const label = match[1] || match[3];
+    const href = match[2] || match[3];
+    const safeHref = escapeHtml(href);
+    const safeLabel = escapeHtml(label);
+    if (/^https?:\/\//i.test(href)) {
+      const partnerRel = isPartnerHref(href) ? 'sponsored noopener noreferrer' : 'noopener noreferrer';
+      parts.push(`<a href="${safeHref}" target="_blank" rel="${partnerRel}">${safeLabel}</a>`);
+    } else {
+      parts.push(`<a href="${safeHref}">${safeLabel}</a>`);
+    }
+
+    lastIndex = re.lastIndex;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(escapeHtml(text.slice(lastIndex)));
+  }
+
+  return parts.join('').replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+}
+
+function isPartnerHref(_href) {
+  return false;
+}
+
+function markdownToHtml(markdown = '') {
+  const lines = markdown.split(/\n/);
+  const html = [];
+  let i = 0;
+
+  while (i < lines.length) {
+    const line = lines[i].trim();
+    if (!line) {
+      i += 1;
+      continue;
+    }
+
+    const heading = line.match(/^(#{2,4})\s+(.+)$/);
+    if (heading) {
+      const level = heading[1].length;
+      const text = heading[2].trim();
+      const id = level <= 3 ? ` id="${slugify(text)}"` : '';
+      html.push(`<h${level}${id}>${escapeHtml(text)}</h${level}>`);
+      i += 1;
+      continue;
+    }
+
+    if (line.startsWith('|')) {
+      const tableLines = [];
+      while (i < lines.length && lines[i].trim().startsWith('|')) {
+        tableLines.push(lines[i]);
+        i += 1;
+      }
+      const [headerLine, ...rowLines] = tableLines;
+      const headers = splitTableLine(headerLine).map((cell) => `<th>${inlineMarkdownToHtml(cell)}</th>`).join('');
+      const rows = rowLines
+        .map((rowLine) => `<tr>${splitTableLine(rowLine).map((cell) => `<td>${inlineMarkdownToHtml(cell)}</td>`).join('')}</tr>`)
+        .join('');
+      html.push(`<div class="longform-table-wrap"><table><thead><tr>${headers}</tr></thead><tbody>${rows}</tbody></table></div>`);
+      continue;
+    }
+
+    if (line.startsWith('- ')) {
+      const items = [];
+      while (i < lines.length && lines[i].trim().startsWith('- ')) {
+        items.push(`<li>${inlineMarkdownToHtml(lines[i].trim().slice(2))}</li>`);
+        i += 1;
+      }
+      html.push(`<ul>${items.join('')}</ul>`);
+      continue;
+    }
+
+    const paragraph = [];
+    while (
+      i < lines.length &&
+      lines[i].trim() &&
+      !/^(#{2,4})\s+/.test(lines[i].trim()) &&
+      !lines[i].trim().startsWith('- ') &&
+      !lines[i].trim().startsWith('|')
+    ) {
+      paragraph.push(lines[i].trim());
+      i += 1;
+    }
+    html.push(`<p>${inlineMarkdownToHtml(paragraph.join(' '))}</p>`);
+  }
+
+  return html.join('');
 }
 
 function internalReferencesToLinks(markdown = '', linkMap = {}) {
@@ -579,9 +651,50 @@ function sienaDayTripFallbackMarkup() {
   ].join('');
 }
 
+function hideFutureClusterLinks(html = '') {
+  const visibleRoutes = publishedSienaClusterRoutes();
+  const clusterRoutes = new Set(SIENA_CONTENT_CLUSTER.articles.map((article) => article.route));
+
+  return html.replace(/<a href="(\/[^"]+)"([^>]*)>(.*?)<\/a>/gims, (match, href, attrs, label) => {
+    if (!clusterRoutes.has(href) || visibleRoutes.has(href)) {
+      return match;
+    }
+
+    return `<span class="scheduled-inline-link">${label}</span>`;
+  });
+}
+
+function sienaClusterFallbackMarkup(route) {
+  const article = route.article;
+  const links = STATIC_FOOTER_LINKS
+    .map((item) => `<a href="${item.href}">${escapeHtml(item.label)}</a>`)
+    .join(' · ');
+  const related = (route.relatedLinks || [])
+    .slice(0, 8)
+    .map((link) => `<li><a href="${link.href}">${escapeHtml(link.label)}</a></li>`)
+    .join('');
+
+  return [
+    `<main id="static-fallback" class="static-fallback">`,
+    `<p class="overline">Siena Travel Guide</p>`,
+    `<h1>${escapeHtml(article.title)}</h1>`,
+    `<p>${escapeHtml(article.excerpt)}</p>`,
+    `<figure><img src="${article.hero.src}" alt="${escapeHtml(article.hero.alt)}" width="1600" height="1000" loading="eager" decoding="async"><figcaption>${escapeHtml(article.hero.credit)} License: <a href="${article.hero.licenseUrl}" rel="license noopener">${escapeHtml(article.hero.license)}</a>. Cropped, resized, and compressed for web.</figcaption></figure>`,
+    hideFutureClusterLinks(article.bodyHtml),
+    related ? `<section><h2>Related Siena guides</h2><ul>${related}</ul></section>` : '',
+    `<p>${links}</p>`,
+    `</main>`,
+  ].join('');
+}
+
 function fallbackMarkup(route) {
+
   if (route.type === 'siena-day-trip-longform') {
     return sienaDayTripFallbackMarkup();
+  }
+
+  if (route.type === 'siena-cluster-article') {
+    return sienaClusterFallbackMarkup(route);
   }
 
   const bullets = (route.bullets || []).map((item) => `<li>${escapeHtml(item)}</li>`).join('');
@@ -709,7 +822,12 @@ function extractArticles() {
     const callText = src.slice(i + 2, j - 1);
     const args = splitTopLevelArgs(callText);
     const slug = stringArg(args[0]);
-    if (slug && !seen.has(slug) && !REDIRECTED_ARTICLE_SLUGS.has(slug)) {
+    if (REDIRECTED_ARTICLE_SLUGS.has(slug)) {
+      i = j;
+      continue;
+    }
+
+    if (slug && !seen.has(slug)) {
       seen.add(slug);
       const title = stringArg(args[1]);
       const category = stringArg(args[2]);
@@ -753,7 +871,7 @@ function main() {
   }
 
   const template = fs.readFileSync(INDEX_PATH, 'utf-8');
-  const routes = [...STATIC_ROUTES, ...extractArticles()];
+  const routes = [...STATIC_ROUTES, ...sienaClusterRoutes(), ...extractArticles()];
 
   routes.forEach((route) => {
     const outPath = outputPathFor(route.path);

@@ -44,6 +44,15 @@ const SITE_URL = (
   process.env.NEXT_PUBLIC_SITE_URL ||
   'http://localhost:3000'
 ).replace(/\/$/, '');
+const SIENA_CONTENT_CLUSTER = JSON.parse(
+  fs.readFileSync(path.join(ROOT, 'src/data/sienaContentCluster.json'), 'utf-8')
+);
+const SHOW_SCHEDULED_CONTENT =
+  process.env.REACT_APP_SHOW_SCHEDULED_CONTENT === 'true' ||
+  process.env.SHOW_SCHEDULED_CONTENT === 'true';
+const BUILD_NOW = process.env.SCHEDULED_CONTENT_NOW
+  ? new Date(process.env.SCHEDULED_CONTENT_NOW)
+  : new Date();
 
 // --- Static route table ---------------------------------------------------
 const staticRoutes = [
@@ -57,7 +66,6 @@ const staticRoutes = [
   { path: '/siena-travel-guide',                 changefreq: 'weekly',  priority: 0.8 },
   { path: '/siena-day-trip-from-florence',       changefreq: 'weekly',  priority: 0.8, lastmod: '2026-07-11' },
   { path: '/florence-to-siena-by-train-or-bus',  changefreq: 'weekly',  priority: 0.8 },
-  { path: '/one-day-in-siena',                   changefreq: 'weekly',  priority: 0.8 },
   { path: '/where-to-stay-in-siena',             changefreq: 'weekly',  priority: 0.8 },
   { path: '/things-to-do-in-siena',              changefreq: 'weekly',  priority: 0.8 },
   { path: '/tuscany-travel-guide',               changefreq: 'weekly',  priority: 0.8 },
@@ -206,6 +214,21 @@ function splitTopLevelArgs(callText) {
   return args;
 }
 
+function isScheduledArticlePublished(article) {
+  return SHOW_SCHEDULED_CONTENT || Date.parse(article.publishAtWib) <= BUILD_NOW.getTime();
+}
+
+function extractSienaClusterArticles() {
+  return SIENA_CONTENT_CLUSTER.articles
+    .filter(isScheduledArticlePublished)
+    .map((article) => ({
+      path: article.route,
+      changefreq: 'weekly',
+      priority: article.role === 'Pillar' ? 0.85 : 0.78,
+      lastmod: article.dateModified.slice(0, 10),
+    }));
+}
+
 // --- XML rendering --------------------------------------------------------
 function urlEntry({ path: p, changefreq, priority, lastmod }) {
   const parts = [`<url>`, `<loc>${SITE_URL}${p}</loc>`];
@@ -230,7 +253,8 @@ function render() {
     lastmod: a.updated,
   }));
 
-  const all = [...staticRoutes, ...articleRoutes];
+  const sienaClusterRoutes = extractSienaClusterArticles();
+  const all = [...staticRoutes, ...sienaClusterRoutes, ...articleRoutes];
 
   return [
     '<?xml version="1.0" encoding="UTF-8"?>',
@@ -248,8 +272,9 @@ function main() {
   const outPath = path.join(ROOT, 'public/sitemap.xml');
   fs.writeFileSync(outPath, xml, 'utf-8');
   const articleCount = xml.match(/\/blog\//g)?.length || 0;
+  const clusterCount = extractSienaClusterArticles().length;
   console.log(`✓ Wrote ${outPath}`);
-  console.log(`  ${staticRoutes.length} static + ${articleCount} article URLs`);
+  console.log(`  ${staticRoutes.length} static + ${clusterCount} scheduled Siena + ${articleCount} article URLs`);
   console.log(`  SITE_URL = ${SITE_URL}`);
 }
 
