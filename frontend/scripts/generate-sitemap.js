@@ -102,13 +102,11 @@ const staticRoutes = [
 function extractArticles() {
   const src = fs.readFileSync(path.join(ROOT, 'src/data/articles.js'), 'utf-8');
 
-  const defaultMatch = src.match(/updated\s*=\s*'(\d{4}-\d{2}-\d{2})'/);
+  const defaultMatch = src.match(/updated\s*=\s*['"](\d{4}-\d{2}-\d{2})['"]/);
   const defaultUpdated = defaultMatch ? defaultMatch[1] : new Date().toISOString().slice(0, 10);
 
   const results = [];
   const seen = new Set();
-
-  const dateRe = /^'\d{4}-\d{2}-\d{2}'$/;
 
   let i = 0;
   while ((i = src.indexOf('A(', i)) !== -1) {
@@ -143,21 +141,20 @@ function extractArticles() {
     if (depth !== 0) break;
 
     const callText = src.slice(i + 2, j - 1);
-    const slugMatch = callText.match(/^\s*'([a-z0-9-]+)'/);
-    if (!slugMatch) {
+    const args = splitTopLevelArgs(callText);
+    const slug = stringArg(args[0]);
+    if (!slug) {
       i = j;
       continue;
     }
 
-    const slug = slugMatch[1];
     if (!seen.has(slug)) {
       seen.add(slug);
 
-      const args = splitTopLevelArgs(callText);
-      const explicitUpdated = args.find((arg) => dateRe.test(arg.trim()));
+      const explicitUpdated = args.map(stringArg).find((arg) => /^\d{4}-\d{2}-\d{2}/.test(arg));
       results.push({
         slug,
-        updated: explicitUpdated ? explicitUpdated.trim().slice(1, -1) : defaultUpdated,
+        updated: explicitUpdated ? explicitUpdated.slice(0, 10) : defaultUpdated,
       });
     }
 
@@ -212,6 +209,17 @@ function splitTopLevelArgs(callText) {
 
   if (current.trim()) args.push(current.trim());
   return args;
+}
+
+function stringArg(arg = '') {
+  const trimmed = arg.trim();
+  const quote = trimmed[0];
+  if ((quote !== "'" && quote !== '"') || trimmed[trimmed.length - 1] !== quote) return '';
+  return trimmed
+    .slice(1, -1)
+    .replace(/\\'/g, "'")
+    .replace(/\\"/g, '"')
+    .replace(/\\n/g, '\n');
 }
 
 function isScheduledArticlePublished(article) {

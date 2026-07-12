@@ -17,6 +17,143 @@ import axios from "axios";
 import { toast } from "sonner";
 import { useState } from "react";
 
+const renderInlineMarkdown = (text, keyPrefix) => {
+  const parts = [];
+  const pattern = /(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g;
+  let lastIndex = 0;
+  let match;
+
+  while ((match = pattern.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+
+    const token = match[0];
+    if (token.startsWith("**")) {
+      parts.push(<strong key={`${keyPrefix}-strong-${match.index}`}>{token.slice(2, -2)}</strong>);
+    } else {
+      const linkMatch = token.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+      if (linkMatch) {
+        const [, label, href] = linkMatch;
+        const isInternal = href.startsWith("/");
+        parts.push(
+          isInternal ? (
+            <Link key={`${keyPrefix}-link-${match.index}`} to={href}>
+              {label}
+            </Link>
+          ) : (
+            <a key={`${keyPrefix}-link-${match.index}`} href={href} target="_blank" rel="nofollow noopener noreferrer">
+              {label}
+            </a>
+          )
+        );
+      }
+    }
+
+    lastIndex = match.index + token.length;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+
+  return parts.length ? parts : text;
+};
+
+const stripMarkdownDecorators = (text) =>
+  text
+    .replace(/^\s*[-*]\s+/, "")
+    .replace(/^\s*\d+\.\s+/, "")
+    .trim();
+
+const renderMarkdownTable = (lines, keyPrefix) => {
+  const rows = lines
+    .filter((line) => /^\s*\|/.test(line))
+    .map((line) => line.trim().replace(/^\|/, "").replace(/\|$/, "").split("|").map((cell) => cell.trim()));
+
+  if (rows.length < 2) return null;
+  const header = rows[0];
+  const bodyRows = rows.slice(1).filter((row) => !row.every((cell) => /^:?-{3,}:?$/.test(cell)));
+
+  return (
+    <div key={keyPrefix} className="my-6 overflow-x-auto rounded-2xl border border-[hsl(var(--stone-border))]">
+      <table className="min-w-full text-sm">
+        <thead className="bg-[hsl(var(--ivory-2))]">
+          <tr>
+            {header.map((cell, index) => (
+              <th key={`${keyPrefix}-head-${index}`} className="px-4 py-3 text-left font-semibold text-[hsl(var(--charcoal))]">
+                {renderInlineMarkdown(cell, `${keyPrefix}-head-${index}`)}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {bodyRows.map((row, rowIndex) => (
+            <tr key={`${keyPrefix}-row-${rowIndex}`} className="border-t border-[hsl(var(--stone-border))]">
+              {row.map((cell, cellIndex) => (
+                <td key={`${keyPrefix}-cell-${rowIndex}-${cellIndex}`} className="px-4 py-3 align-top">
+                  {renderInlineMarkdown(cell, `${keyPrefix}-cell-${rowIndex}-${cellIndex}`)}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+const renderArticleBody = (body) => {
+  if (!body) return null;
+
+  return body
+    .split(/\n{2,}/)
+    .map((block) => block.trim())
+    .filter(Boolean)
+    .map((block, blockIndex) => {
+      const keyPrefix = `article-body-${blockIndex}`;
+      const lines = block.split("\n").map((line) => line.trim()).filter(Boolean);
+
+      if (lines.length === 1 && /^#{3,4}\s+/.test(lines[0])) {
+        return (
+          <h3 key={keyPrefix} className="font-serif text-2xl mt-9">
+            {lines[0].replace(/^#{3,4}\s+/, "")}
+          </h3>
+        );
+      }
+
+      if (lines.length > 1 && lines.every((line) => /^\s*\|/.test(line))) {
+        return renderMarkdownTable(lines, keyPrefix);
+      }
+
+      if (lines.length >= 1 && lines.every((line) => /^\s*[-*]\s+/.test(line))) {
+        return (
+          <ul key={keyPrefix}>
+            {lines.map((line, index) => (
+              <li key={`${keyPrefix}-li-${index}`}>
+                {renderInlineMarkdown(stripMarkdownDecorators(line), `${keyPrefix}-li-${index}`)}
+              </li>
+            ))}
+          </ul>
+        );
+      }
+
+      if (lines.length >= 1 && lines.every((line) => /^\s*\d+\.\s+/.test(line))) {
+        return (
+          <ol key={keyPrefix}>
+            {lines.map((line, index) => (
+              <li key={`${keyPrefix}-li-${index}`}>
+                {renderInlineMarkdown(stripMarkdownDecorators(line), `${keyPrefix}-li-${index}`)}
+              </li>
+            ))}
+          </ol>
+        );
+      }
+
+      return <p key={keyPrefix}>{renderInlineMarkdown(lines.join(" "), keyPrefix)}</p>;
+    });
+};
+
 export default function Article({ fixedSlug, canonicalPath }) {
   const { slug: routeSlug } = useParams();
   const slug = fixedSlug || routeSlug;
@@ -55,7 +192,7 @@ export default function Article({ fixedSlug, canonicalPath }) {
   return (
     <article>
       <SEO
-        title={article.title}
+        title={article.seoTitle || article.title}
         description={article.excerpt}
         path={path}
         image={article.image}
@@ -74,7 +211,7 @@ export default function Article({ fixedSlug, canonicalPath }) {
       </header>
 
       <div className="container-editorial">
-        <LazyImage src={article.image} alt={article.title} ratio="16/9" className="rounded-2xl mt-4" eager />
+        <LazyImage src={article.image} alt={article.imageAlt || article.title} ratio="16/9" className="rounded-2xl mt-4" eager />
       </div>
 
       <div className="container-editorial mt-12 grid grid-cols-1 lg:grid-cols-12 gap-12">
@@ -134,9 +271,7 @@ export default function Article({ fixedSlug, canonicalPath }) {
           {article.sections.map((s, i) => (
             <section key={s.id} id={s.id} className="scroll-mt-28">
               <h2 className="font-serif">{s.heading}</h2>
-              {s.body.split("\n\n").map((p, k) => (
-                <p key={k}>{p}</p>
-              ))}
+              {renderArticleBody(s.body)}
               {i === Math.floor(article.sections.length / 2) && <AdPlaceholder className="my-10" />}
             </section>
           ))}

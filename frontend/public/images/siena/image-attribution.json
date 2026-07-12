@@ -1,0 +1,146 @@
+[
+  {
+    "id": "palazzo-torre",
+    "local_original": "images/originals/01-palazzo-pubblico-torre-del-mangia.jpg",
+    "local_web_ready": "images/web-ready/01-hero-palazzo-pubblico-torre-del-mangia.webp",
+    "title": "03 Palazzo Pubblico Torre del Mangia Siena.jpg",
+    "subject": "Palazzo Pubblico and Torre del Mangia, Siena",
+    "author": "Myrabella",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File:03_Palazzo_Pubblico_Torre_del_Mangia_Siena.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Palazzo Pubblico and Torre del Mangia above Piazza del Campo in Siena",
+    "articles": [
+      "best-things-to-do-in-siena"
+    ],
+    "placement": "Hero",
+    "changes": "Cropped to 16:9, resized, and converted to WebP."
+  },
+  {
+    "id": "cathedral-facade",
+    "local_original": "images/originals/02-siena-cathedral-facade.jpg",
+    "local_web_ready": "images/web-ready/02-siena-cathedral-facade.webp",
+    "title": "Siena Cathedral adjusted crop.JPG",
+    "subject": "Facade of Siena Cathedral",
+    "author": "PTG Dudva",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Siena_Cathedral_adjusted_crop.JPG",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Black and white marble facade of Siena Cathedral",
+    "articles": [
+      "siena-3-day-itinerary",
+      "best-things-to-do-in-siena"
+    ],
+    "placement": "Hero / cathedral section",
+    "changes": "Resized and converted to WebP."
+  },
+  {
+    "id": "piccolomini-library",
+    "local_original": "images/originals/03-piccolomini-library.jpg",
+    "local_web_ready": "images/web-ready/03-piccolomini-library.webp",
+    "title": "Biblioteca Duomo Siena.jpg",
+    "subject": "Piccolomini Library in Siena Cathedral",
+    "author": "Gryffindor",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Biblioteca_Duomo_Siena.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Frescoes and painted ceiling inside the Piccolomini Library in Siena Cathedral",
+    "articles": [
+      "siena-2-day-itinerary",
+      "best-things-to-do-in-siena"
+    ],
+    "placement": "Hero / Piccolomini section",
+    "changes": "Resized and converted to WebP."
+  },
+  {
+    "id": "orto-de-pecci",
+    "local_original": "images/originals/04-orto-de-pecci.jpg",
+    "local_web_ready": "images/web-ready/04-orto-de-pecci.webp",
+    "title": "SienaOrtoDePecci3.jpg",
+    "subject": "Orto de' Pecci, Siena",
+    "author": "LigaDue",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File:SienaOrtoDePecci3.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt": "Green space at Orto de' Pecci below Siena's historic center",
+    "articles": [
+      "siena-with-kids",
+      "best-things-to-do-in-siena"
+    ],
+    "placement": "Hero / green-space section",
+    "changes": "Resized and converted to WebP."
+  },
+  {
+    "id": "campo-panorama",
+    "local_original": "images/originals/05-piazza-del-campo-panorama.jpg",
+    "local_web_ready": "images/web-ready/05-piazza-del-campo-panorama.webp",
+    "title": "Siena5.jpg",
+    "subject": "Piazza del Campo, Siena",
+    "author": "Ricardo André Frantz (Tetraktys)",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Siena5.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Panoramic view across Piazza del Campo in Siena",
+    "articles": [
+      "florence-to-siena-by-train-or-bus",
+      "best-things-to-do-in-siena"
+    ],
+    "placement": "Hero / Campo section",
+    "changes": "Converted to WebP."
+  },
+  {
+    "id": "contrada-street",
+    "local_original": "images/originals/06-siena-contrada-street.jpg",
+    "local_web_ready": "images/web-ready/06-siena-contrada-street.webp",
+    "title": "SienaVicoloDellaPallaaCordaStallaDrago.jpg",
+    "subject": "Vicolo della Palla a Corda in the Contrada del Drago, Siena",
+    "author": "LigaDue",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File:SienaVicoloDellaPallaaCordaStallaDrago.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt": "Narrow medieval lane in the Contrada del Drago area of Siena",
+    "articles": [
+      "best-things-to-do-in-siena",
+      "siena-2-day-itinerary",
+      "siena-3-day-itinerary"
+    ],
+    "placement": "Contrade section",
+    "changes": "Resized and converted to WebP."
+  },
+  {
+    "id": "pici-all-aglione",
+    "local_original": "images/originals/07-pici-all-aglione.jpg",
+    "local_web_ready": "images/web-ready/07-pici-all-aglione.webp",
+    "title": "Pici all'aglione.jpg",
+    "subject": "Pici all'aglione",
+    "author": "Superchilum",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Pici_all%27aglione.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt": "Plate of pici all'aglione, a traditional Tuscan pasta dish",
+    "articles": [
+      "how-much-siena-trip-costs",
+      "best-things-to-do-in-siena"
+    ],
+    "placement": "Hero / food section",
+    "changes": "Cropped to 16:9, resized, and converted to WebP."
+  },
+  {
+    "id": "siena-cityscape",
+    "local_original": "images/originals/08-siena-cityscape.jpg",
+    "local_web_ready": "images/web-ready/08-siena-cityscape.webp",
+    "title": "Cityscape of Siena 05.JPG",
+    "subject": "Siena cityscape and Tuscan countryside",
+    "author": "Superchilum",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Cityscape_of_Siena_05.JPG",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt": "Terracotta rooftops across Siena's historic center and surrounding Tuscan hills",
+    "articles": [
+      "where-to-stay-in-siena",
+      "siena-3-day-itinerary"
+    ],
+    "placement": "Hero / skyline section",
+    "changes": "Cropped to 16:9, resized, and converted to WebP."
+  }
+]

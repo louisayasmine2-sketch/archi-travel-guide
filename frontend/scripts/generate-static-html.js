@@ -14,6 +14,9 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const BUILD_DIR = path.join(ROOT, 'build');
 const INDEX_PATH = path.join(BUILD_DIR, 'index.html');
+const FLORENCE_TO_SIENA_GUIDE = JSON.parse(
+  fs.readFileSync(path.join(ROOT, 'src/data/florenceToSienaGuide.json'), 'utf-8')
+);
 const SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE = JSON.parse(
   fs.readFileSync(path.join(ROOT, 'src/data/sienaDayTripFromFlorenceGuide.json'), 'utf-8')
 );
@@ -47,6 +50,7 @@ const ARTICLE_SCHEMA_ROUTES = new Set([
   '/travel-tips',
 ]);
 const REDIRECTED_ARTICLE_SLUGS = new Set([
+  'florence-to-siena-transport',
   'siena-day-trip-from-florence',
 ]);
 const DESTINATION_SCHEMA = {
@@ -210,10 +214,13 @@ const STATIC_ROUTES = [
     'Start with where to stay, what to skip, how to move efficiently and how to stretch your budget.',
     'Use this page as the hub for Siena planning before reading deeper guides.',
   ]),
-  page('/florence-to-siena-by-train-or-bus', 'Florence to Siena by Train or Bus', 'Compare practical train and bus options from Florence to Siena before planning your day trip.', 'Florence to Siena by train or bus', [
-    'Use this guide to compare transport trade-offs before choosing your route.',
-    'The page connects transport planning with Siena itinerary and stay decisions.',
-  ]),
+  page(
+    FLORENCE_TO_SIENA_GUIDE.canonicalPath,
+    FLORENCE_TO_SIENA_GUIDE.seoTitle,
+    FLORENCE_TO_SIENA_GUIDE.metaDescription,
+    FLORENCE_TO_SIENA_GUIDE.title,
+    []
+  ),
   page(
     SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE.canonicalPath,
     SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE.seoTitle,
@@ -246,6 +253,25 @@ const STATIC_ROUTES = [
     'Preload maps and keep offline essentials ready.',
   ]),
 ];
+
+const florenceToSienaRoute = STATIC_ROUTES.find((route) => route.path === FLORENCE_TO_SIENA_GUIDE.canonicalPath);
+if (florenceToSienaRoute) {
+  Object.assign(florenceToSienaRoute, {
+    type: 'florence-to-siena-longform',
+    category: FLORENCE_TO_SIENA_GUIDE.category,
+    image: `${SITE_URL}${FLORENCE_TO_SIENA_GUIDE.hero.src}`,
+    exactTitle: true,
+    published: FLORENCE_TO_SIENA_GUIDE.datePublished,
+    modified: FLORENCE_TO_SIENA_GUIDE.dateModified,
+    author: FLORENCE_TO_SIENA_GUIDE.author.name,
+    faq: FLORENCE_TO_SIENA_GUIDE.faq,
+    breadcrumbs: [
+      { label: 'Home', to: '/' },
+      { label: 'Tuscany Travel Guide', to: '/tuscany-travel-guide' },
+      { label: 'Florence to Siena by Train or Bus' },
+    ],
+  });
+}
 
 const sienaDayTripRoute = STATIC_ROUTES.find((route) => route.path === SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE.canonicalPath);
 if (sienaDayTripRoute) {
@@ -544,8 +570,13 @@ function inlineMarkdownToHtml(text = '') {
   return parts.join('').replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
 }
 
-function isPartnerHref(_href) {
-  return false;
+function isPartnerHref(href) {
+  try {
+    const host = new URL(href).hostname.replace(/^www\./, '');
+    return Object.keys(FLORENCE_TO_SIENA_GUIDE.partnerHosts || {}).some((domain) => host === domain || host.endsWith(`.${domain}`));
+  } catch (_) {
+    return false;
+  }
 }
 
 function markdownToHtml(markdown = '') {
@@ -610,6 +641,32 @@ function markdownToHtml(markdown = '') {
   }
 
   return html.join('');
+}
+
+function florenceToSienaFallbackMarkup() {
+  const guide = FLORENCE_TO_SIENA_GUIDE;
+  const links = guide.relatedLinks
+    .map((item) => `<a href="${item.href}">${escapeHtml(item.label)}</a>`)
+    .join(' · ');
+  const officialSources = guide.officialSources
+    .map((source) => `<li><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.url)}</a></li>`)
+    .join('');
+
+  return [
+    `<main id="static-fallback" class="static-fallback">`,
+    `<p class="overline">${escapeHtml(guide.category)}</p>`,
+    `<h1>${escapeHtml(guide.title)}</h1>`,
+    markdownToHtml(guide.introMarkdown),
+    `<p><strong>Author:</strong> <a href="${guide.author.url}">${escapeHtml(guide.author.name)}</a> · <strong>Published:</strong> July 14, 2026 · <strong>Updated:</strong> July 14, 2026 · <strong>Fact-checked:</strong> ${escapeHtml(guide.factChecked)}</p>`,
+    `<figure class="article-image"><img src="${guide.hero.src}" alt="${escapeHtml(guide.hero.alt)}" width="${guide.hero.width}" height="${guide.hero.height}" loading="eager" fetchpriority="high">${guide.hero.credit ? `<figcaption>${escapeHtml(guide.hero.credit)}</figcaption>` : ""}</figure>`,
+    `<section class="longform-callout">${markdownToHtml(guide.quickAnswerMarkdown)}</section>`,
+    `<aside class="longform-disclosure">${markdownToHtml(guide.disclosureMarkdown)}</aside>`,
+    markdownToHtml(guide.bodyMarkdown),
+    `<section id="official-sources"><h2>Official sources</h2><ul>${officialSources}</ul></section>`,
+    `<section><h2>${escapeHtml(guide.author.name)}</h2><p>${escapeHtml(guide.author.bio)}</p><p><a href="/editorial-policy">Editorial policy</a> · <a href="/affiliate-disclosure">Affiliate disclosure</a></p></section>`,
+    `<p>${links}</p>`,
+    `</main>`,
+  ].join('');
 }
 
 function internalReferencesToLinks(markdown = '', linkMap = {}) {
@@ -688,6 +745,9 @@ function sienaClusterFallbackMarkup(route) {
 }
 
 function fallbackMarkup(route) {
+  if (route.type === 'florence-to-siena-longform') {
+    return florenceToSienaFallbackMarkup();
+  }
 
   if (route.type === 'siena-day-trip-longform') {
     return sienaDayTripFallbackMarkup();
@@ -698,6 +758,10 @@ function fallbackMarkup(route) {
   }
 
   const bullets = (route.bullets || []).map((item) => `<li>${escapeHtml(item)}</li>`).join('');
+  const image = route.image
+    ? `<figure><img src="${escapeHtml(route.image)}" alt="${escapeHtml(route.imageAlt || route.h1 || route.title)}" width="1600" height="900" loading="eager" decoding="async"></figure>`
+    : '';
+  const body = route.bodyHtml || (bullets ? `<ul>${bullets}</ul>` : '');
   const links = STATIC_FOOTER_LINKS
     .map((item) => `<a href="${item.href}">${escapeHtml(item.label)}</a>`)
     .join(' · ');
@@ -707,7 +771,8 @@ function fallbackMarkup(route) {
     `<p class="overline">Archi Travel Guide</p>`,
     `<h1>${escapeHtml(route.h1 || route.title)}</h1>`,
     `<p>${escapeHtml(route.description)}</p>`,
-    bullets ? `<ul>${bullets}</ul>` : '',
+    image,
+    body,
     `<p>${links}</p>`,
     `</main>`,
   ].join('');
@@ -782,6 +847,20 @@ function splitTopLevelArgs(callText) {
   return args;
 }
 
+function safeEvalLiteral(literal, fallback) {
+  try {
+    return Function(`"use strict"; return (${literal});`)();
+  } catch (_) {
+    return fallback;
+  }
+}
+
+function absoluteImageUrl(image = '') {
+  if (!image) return DEFAULT_IMAGE;
+  if (/^https?:\/\//i.test(image)) return image;
+  return `${SITE_URL}${image.startsWith('/') ? image : `/${image}`}`;
+}
+
 function extractArticles() {
   const src = fs.readFileSync(path.join(ROOT, 'src/data/articles.js'), 'utf-8');
   const results = [];
@@ -833,18 +912,30 @@ function extractArticles() {
       const category = stringArg(args[2]);
       const region = stringArg(args[3]);
       const excerpt = stringArg(args[4]);
-      const headings = [...callText.matchAll(/heading:\s*'([^']+)'/g)]
-        .slice(0, 4)
-        .map((match) => match[1]);
+      const image = stringArg(args[5]);
+      const sections = safeEvalLiteral(args[6] || '[]', []);
+      const faqs = safeEvalLiteral(args[7] || '[]', []);
+      const options = safeEvalLiteral(args[9] || '{}', {});
+      const headings = sections.slice(0, 4).map((section) => section.heading).filter(Boolean);
+      const bodyMarkdown = [
+        ...sections.map((section) => `## ${section.heading}\n\n${section.body}`),
+        ...(faqs.length
+          ? [`## Frequently asked questions\n\n${faqs.map((item) => `### ${item.q}\n\n${item.a}`).join('\n\n')}`]
+          : []),
+      ].join('\n\n');
 
       results.push({
         path: `/blog/${slug}`,
         canonicalPath: `/blog/${slug}`,
-        title,
+        title: options.seoTitle || title,
+        exactTitle: Boolean(options.seoTitle),
         description: excerpt,
         h1: title,
         locale: 'en_US',
         type: 'article',
+        image: absoluteImageUrl(image),
+        imageAlt: options.imageAlt || title,
+        bodyHtml: markdownToHtml(bodyMarkdown),
         bullets: [
           `${category} guide for ${region}.`,
           ...headings.map((heading) => `Covers: ${heading}.`),
