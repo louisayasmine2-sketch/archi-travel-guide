@@ -14,8 +14,14 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const BUILD_DIR = path.join(ROOT, 'build');
 const INDEX_PATH = path.join(BUILD_DIR, 'index.html');
-const FLORENCE_TO_SIENA_GUIDE = JSON.parse(
-  fs.readFileSync(path.join(ROOT, 'src/data/florenceToSienaGuide.json'), 'utf-8')
+
+function readJsonIfExists(filePath) {
+  if (!fs.existsSync(filePath)) return null;
+  return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+}
+
+const FLORENCE_TO_SIENA_GUIDE = readJsonIfExists(
+  path.join(ROOT, 'src/data/florenceToSienaGuide.json')
 );
 const SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE = JSON.parse(
   fs.readFileSync(path.join(ROOT, 'src/data/sienaDayTripFromFlorenceGuide.json'), 'utf-8')
@@ -214,13 +220,17 @@ const STATIC_ROUTES = [
     'Start with where to stay, what to skip, how to move efficiently and how to stretch your budget.',
     'Use this page as the hub for Siena planning before reading deeper guides.',
   ]),
-  page(
-    FLORENCE_TO_SIENA_GUIDE.canonicalPath,
-    FLORENCE_TO_SIENA_GUIDE.seoTitle,
-    FLORENCE_TO_SIENA_GUIDE.metaDescription,
-    FLORENCE_TO_SIENA_GUIDE.title,
-    []
-  ),
+  ...(FLORENCE_TO_SIENA_GUIDE
+    ? [
+      page(
+        FLORENCE_TO_SIENA_GUIDE.canonicalPath,
+        FLORENCE_TO_SIENA_GUIDE.seoTitle,
+        FLORENCE_TO_SIENA_GUIDE.metaDescription,
+        FLORENCE_TO_SIENA_GUIDE.title,
+        []
+      ),
+    ]
+    : []),
   page(
     SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE.canonicalPath,
     SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE.seoTitle,
@@ -254,7 +264,9 @@ const STATIC_ROUTES = [
   ]),
 ];
 
-const florenceToSienaRoute = STATIC_ROUTES.find((route) => route.path === FLORENCE_TO_SIENA_GUIDE.canonicalPath);
+const florenceToSienaRoute = FLORENCE_TO_SIENA_GUIDE
+  ? STATIC_ROUTES.find((route) => route.path === FLORENCE_TO_SIENA_GUIDE.canonicalPath)
+  : null;
 if (florenceToSienaRoute) {
   Object.assign(florenceToSienaRoute, {
     type: 'florence-to-siena-longform',
@@ -573,7 +585,7 @@ function inlineMarkdownToHtml(text = '') {
 function isPartnerHref(href) {
   try {
     const host = new URL(href).hostname.replace(/^www\./, '');
-    return Object.keys(FLORENCE_TO_SIENA_GUIDE.partnerHosts || {}).some((domain) => host === domain || host.endsWith(`.${domain}`));
+    return Object.keys(FLORENCE_TO_SIENA_GUIDE?.partnerHosts || {}).some((domain) => host === domain || host.endsWith(`.${domain}`));
   } catch (_) {
     return false;
   }
