@@ -962,6 +962,7 @@ function extractArticles() {
       const region = stringArg(args[3]);
       const excerpt = stringArg(args[4]);
       const image = stringArg(args[5]);
+      const routeImage = image ? absoluteImageUrl(image) : '';
       const sections = safeEvalLiteral(args[6] || '[]', []);
       const faqs = safeEvalLiteral(args[7] || '[]', []);
       const updated = stringArg(args[8]) || SCHEMA_UPDATED;
@@ -987,7 +988,7 @@ function extractArticles() {
         h1: title,
         locale: 'en_US',
         type: 'article',
-        image: absoluteImageUrl(image),
+        image: routeImage,
         imageAlt: options.imageAlt || title,
         imageCredit: options.imageCredit,
         published: options.published || updated.slice(0, 10),

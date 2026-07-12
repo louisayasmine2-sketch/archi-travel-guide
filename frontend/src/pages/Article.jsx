@@ -208,7 +208,7 @@ export default function Article({ fixedSlug, canonicalPath }) {
         title={article.seoTitle || article.title}
         description={article.excerpt}
         path={path}
-        image={article.image}
+        image={article.image || undefined}
         type="article"
         articleMeta={{ published: article.published || article.updated, modified: article.updated, section: article.category, tags: [article.region, article.category] }}
         schema={schemas}
@@ -223,6 +223,7 @@ export default function Article({ fixedSlug, canonicalPath }) {
         <p className="mt-6 text-xl text-[hsl(var(--charcoal-soft))] leading-relaxed max-w-2xl">{article.excerpt}</p>
       </header>
 
+      {article.image && (
       <div className="container-editorial">
         <LazyImage src={article.image} alt={article.imageAlt || article.title} ratio="16/9" className="rounded-2xl mt-4" eager />
         {imageCredit && (
@@ -251,6 +252,7 @@ export default function Article({ fixedSlug, canonicalPath }) {
           </p>
         )}
       </div>
+      )}
 
       <div className="container-editorial mt-12 grid grid-cols-1 lg:grid-cols-12 gap-12">
         {/* TOC */}
