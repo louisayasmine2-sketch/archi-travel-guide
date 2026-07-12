@@ -152,8 +152,10 @@ function extractArticles() {
       seen.add(slug);
 
       const explicitUpdated = args.map(stringArg).find((arg) => /^\d{4}-\d{2}-\d{2}/.test(arg));
+      const options = safeEvalLiteral(args[9] || '{}', {});
       results.push({
         slug,
+        canonicalPath: options.canonicalPath,
         updated: explicitUpdated ? explicitUpdated.slice(0, 10) : defaultUpdated,
       });
     }
@@ -162,6 +164,14 @@ function extractArticles() {
   }
 
   return results;
+}
+
+function safeEvalLiteral(literal, fallback) {
+  try {
+    return Function(`"use strict"; return (${literal});`)();
+  } catch (_) {
+    return fallback;
+  }
 }
 
 function splitTopLevelArgs(callText) {
@@ -255,7 +265,7 @@ function render() {
   ]);
 
   const articleRoutes = extractArticles().filter((a) => !redirectedArticleSlugs.has(a.slug)).map((a) => ({
-    path: `/blog/${a.slug}`,
+    path: a.canonicalPath || `/blog/${a.slug}`,
     changefreq: 'monthly',
     priority: 0.75,
     lastmod: a.updated,

@@ -126,6 +126,18 @@ const renderArticleBody = (body) => {
         return renderMarkdownTable(lines, keyPrefix);
       }
 
+      if (lines.length >= 1 && lines.every((line) => /^\s*>/.test(line))) {
+        return (
+          <blockquote key={keyPrefix}>
+            {lines.map((line, index) => (
+              <p key={`${keyPrefix}-quote-${index}`}>
+                {renderInlineMarkdown(line.replace(/^\s*>\s?/, ""), `${keyPrefix}-quote-${index}`)}
+              </p>
+            ))}
+          </blockquote>
+        );
+      }
+
       if (lines.length >= 1 && lines.every((line) => /^\s*[-*]\s+/.test(line))) {
         return (
           <ul key={keyPrefix}>
@@ -164,8 +176,9 @@ export default function Article({ fixedSlug, canonicalPath }) {
   const monetization = article.monetization || {};
   const bookingCta = monetization.booking;
   const affiliateItems = monetization.affiliates || [];
+  const imageCredit = article.imageCredit;
 
-  const path = canonicalPath || `/blog/${article.slug}`;
+  const path = canonicalPath || article.canonicalPath || `/blog/${article.slug}`;
   const url = canonical(path);
     const regionTo = article.region === 'Siena' ? '/siena' : article.region === 'Tuscany' ? '/tuscany-travel-guide' : article.region === 'Italy' ? '/italy' : '/blog';
   const crumbs = [
@@ -181,7 +194,7 @@ export default function Article({ fixedSlug, canonicalPath }) {
       description: article.excerpt,
       image: article.image,
       url,
-      published: article.updated,
+      published: article.published || article.updated,
       modified: article.updated,
       author: article.author,
       category: article.category,
@@ -197,7 +210,7 @@ export default function Article({ fixedSlug, canonicalPath }) {
         path={path}
         image={article.image}
         type="article"
-        articleMeta={{ published: article.updated, modified: article.updated, section: article.category, tags: [article.region, article.category] }}
+        articleMeta={{ published: article.published || article.updated, modified: article.updated, section: article.category, tags: [article.region, article.category] }}
         schema={schemas}
       />
       <div className="container-editorial pt-8">
@@ -212,6 +225,31 @@ export default function Article({ fixedSlug, canonicalPath }) {
 
       <div className="container-editorial">
         <LazyImage src={article.image} alt={article.imageAlt || article.title} ratio="16/9" className="rounded-2xl mt-4" eager />
+        {imageCredit && (
+          <p className="mt-3 text-xs leading-relaxed text-[hsl(var(--charcoal-soft))]">
+            Photo:{" "}
+            {imageCredit.source ? (
+              <a href={imageCredit.source} target="_blank" rel="nofollow noopener noreferrer" className="link-terra">
+                {imageCredit.author}
+              </a>
+            ) : (
+              imageCredit.author
+            )}
+            {imageCredit.license && (
+              <>
+                {", "}
+                {imageCredit.licenseUrl ? (
+                  <a href={imageCredit.licenseUrl} target="_blank" rel="license noopener noreferrer" className="link-terra">
+                    {imageCredit.license}
+                  </a>
+                ) : (
+                  imageCredit.license
+                )}
+              </>
+            )}
+            {imageCredit.changes ? `. ${imageCredit.changes}` : ""}
+          </p>
+        )}
       </div>
 
       <div className="container-editorial mt-12 grid grid-cols-1 lg:grid-cols-12 gap-12">

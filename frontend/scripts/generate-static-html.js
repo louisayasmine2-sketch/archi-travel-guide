@@ -380,7 +380,7 @@ function escapeHtml(value = '') {
 }
 
 function stripNoscript(html) {
-  return html.replace(/<noscript>[\s\S]*?<\/noscript>/i, '');
+  return html.replace(/<noscript\b[^>]*>[\s\S]*?<\/noscript>/gi, '');
 }
 
 function removeExistingStatic(html) {
@@ -566,7 +566,7 @@ function inlineMarkdownToHtml(text = '') {
     const safeHref = escapeHtml(href);
     const safeLabel = escapeHtml(label);
     if (/^https?:\/\//i.test(href)) {
-      const partnerRel = isPartnerHref(href) ? 'sponsored noopener noreferrer' : 'noopener noreferrer';
+      const partnerRel = isPartnerHref(href) ? 'sponsored nofollow noopener noreferrer' : 'noopener noreferrer';
       parts.push(`<a href="${safeHref}" target="_blank" rel="${partnerRel}">${safeLabel}</a>`);
     } else {
       parts.push(`<a href="${safeHref}">${safeLabel}</a>`);
@@ -622,9 +622,20 @@ function markdownToHtml(markdown = '') {
       const [headerLine, ...rowLines] = tableLines;
       const headers = splitTableLine(headerLine).map((cell) => `<th>${inlineMarkdownToHtml(cell)}</th>`).join('');
       const rows = rowLines
+        .filter((rowLine) => !splitTableLine(rowLine).every((cell) => /^:?-{3,}:?$/.test(cell)))
         .map((rowLine) => `<tr>${splitTableLine(rowLine).map((cell) => `<td>${inlineMarkdownToHtml(cell)}</td>`).join('')}</tr>`)
         .join('');
       html.push(`<div class="longform-table-wrap"><table><thead><tr>${headers}</tr></thead><tbody>${rows}</tbody></table></div>`);
+      continue;
+    }
+
+    if (line.startsWith('>')) {
+      const quotes = [];
+      while (i < lines.length && lines[i].trim().startsWith('>')) {
+        quotes.push(`<p>${inlineMarkdownToHtml(lines[i].trim().replace(/^>\s?/, ''))}</p>`);
+        i += 1;
+      }
+      html.push(`<blockquote>${quotes.join('')}</blockquote>`);
       continue;
     }
 
@@ -638,12 +649,24 @@ function markdownToHtml(markdown = '') {
       continue;
     }
 
+    if (/^\d+\.\s+/.test(line)) {
+      const items = [];
+      while (i < lines.length && /^\d+\.\s+/.test(lines[i].trim())) {
+        items.push(`<li>${inlineMarkdownToHtml(lines[i].trim().replace(/^\d+\.\s+/, ''))}</li>`);
+        i += 1;
+      }
+      html.push(`<ol>${items.join('')}</ol>`);
+      continue;
+    }
+
     const paragraph = [];
     while (
       i < lines.length &&
       lines[i].trim() &&
       !/^(#{2,4})\s+/.test(lines[i].trim()) &&
       !lines[i].trim().startsWith('- ') &&
+      !lines[i].trim().startsWith('>') &&
+      !/^\d+\.\s+/.test(lines[i].trim()) &&
       !lines[i].trim().startsWith('|')
     ) {
       paragraph.push(lines[i].trim());
@@ -653,6 +676,20 @@ function markdownToHtml(markdown = '') {
   }
 
   return html.join('');
+}
+
+function imageCreditHtml(imageCredit) {
+  if (!imageCredit) return '';
+  const author = imageCredit.source
+    ? `<a href="${escapeHtml(imageCredit.source)}" target="_blank" rel="nofollow noopener noreferrer">${escapeHtml(imageCredit.author || 'Photo source')}</a>`
+    : escapeHtml(imageCredit.author || 'Photo source');
+  const license = imageCredit.license
+    ? imageCredit.licenseUrl
+      ? `, <a href="${escapeHtml(imageCredit.licenseUrl)}" target="_blank" rel="license noopener noreferrer">${escapeHtml(imageCredit.license)}</a>`
+      : `, ${escapeHtml(imageCredit.license)}`
+    : '';
+  const changes = imageCredit.changes ? `. ${escapeHtml(imageCredit.changes)}` : '';
+  return `<figcaption>Photo: ${author}${license}${changes}</figcaption>`;
 }
 
 function florenceToSienaFallbackMarkup() {
@@ -771,7 +808,7 @@ function fallbackMarkup(route) {
 
   const bullets = (route.bullets || []).map((item) => `<li>${escapeHtml(item)}</li>`).join('');
   const image = route.image
-    ? `<figure><img src="${escapeHtml(route.image)}" alt="${escapeHtml(route.imageAlt || route.h1 || route.title)}" width="1600" height="900" loading="eager" decoding="async"></figure>`
+    ? `<figure><img src="${escapeHtml(route.image)}" alt="${escapeHtml(route.imageAlt || route.h1 || route.title)}" width="1600" height="900" loading="eager" decoding="async">${imageCreditHtml(route.imageCredit)}</figure>`
     : '';
   const body = route.bodyHtml || (bullets ? `<ul>${bullets}</ul>` : '');
   const links = STATIC_FOOTER_LINKS
@@ -927,8 +964,13 @@ function extractArticles() {
       const image = stringArg(args[5]);
       const sections = safeEvalLiteral(args[6] || '[]', []);
       const faqs = safeEvalLiteral(args[7] || '[]', []);
+      const updated = stringArg(args[8]) || SCHEMA_UPDATED;
       const options = safeEvalLiteral(args[9] || '{}', {});
       const headings = sections.slice(0, 4).map((section) => section.heading).filter(Boolean);
+      const faq = faqs.map((item) => ({
+        question: item.q || item.question,
+        answer: item.a || item.answer,
+      })).filter((item) => item.question && item.answer);
       const bodyMarkdown = [
         ...sections.map((section) => `## ${section.heading}\n\n${section.body}`),
         ...(faqs.length
@@ -938,7 +980,7 @@ function extractArticles() {
 
       results.push({
         path: `/blog/${slug}`,
-        canonicalPath: `/blog/${slug}`,
+        canonicalPath: options.canonicalPath || `/blog/${slug}`,
         title: options.seoTitle || title,
         exactTitle: Boolean(options.seoTitle),
         description: excerpt,
@@ -947,6 +989,11 @@ function extractArticles() {
         type: 'article',
         image: absoluteImageUrl(image),
         imageAlt: options.imageAlt || title,
+        imageCredit: options.imageCredit,
+        published: options.published || updated.slice(0, 10),
+        modified: updated.slice(0, 10),
+        category,
+        faq,
         bodyHtml: markdownToHtml(bodyMarkdown),
         bullets: [
           `${category} guide for ${region}.`,

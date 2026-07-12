@@ -26,7 +26,7 @@ export default function AffiliateCard({ title, provider, description, ctaLabel =
         <a
           href={href}
           target="_blank"
-          rel="sponsored noopener noreferrer"
+          rel="sponsored nofollow noopener noreferrer"
           className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-[hsl(var(--terracotta))] hover:text-[hsl(var(--terracotta-2))]"
         >
           {ctaLabel} <ExternalLink className="w-3.5 h-3.5" />
