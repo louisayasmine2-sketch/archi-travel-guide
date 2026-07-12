@@ -1,11 +1,12 @@
 import "@/App.css";
 import { Suspense, lazy, useEffect } from "react";
-import { BrowserRouter, Routes, Route, useLocation, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation, Navigate, Link } from "react-router-dom";
 import { Toaster } from "sonner";
 
 import Layout from "@/components/layout/Layout";
 import Home from "@/pages/Home";
 import HubPage from "@/pages/HubPage";
+import SEO from "@/components/common/SEO";
 import { trackPageView } from "@/lib/analytics";
 
 const Destinations = lazy(() => import("@/pages/Destinations"));
@@ -48,6 +49,44 @@ function RouteFallback() {
   return <div className="min-h-[calc(100vh-5rem)] lg:min-h-[calc(100vh-6rem)]" aria-hidden="true" />;
 }
 
+function FlorenceToSienaScheduled() {
+  return (
+    <>
+      <SEO
+        title="Florence to Siena by Train or Bus"
+        titleTemplate="replace"
+        description="This Florence to Siena transport guide is scheduled for publication soon. Start with the Siena day trip guide while it is being prepared."
+        path="/florence-to-siena-by-train-or-bus"
+        noindex
+      />
+      <main className="mx-auto flex min-h-[calc(100vh-6rem)] w-full max-w-3xl flex-col justify-center px-6 py-20 sm:px-8">
+        <p className="mb-4 text-xs font-semibold uppercase tracking-[0.28em] text-[#a45d49]">Scheduled guide</p>
+        <h1 className="font-serif text-4xl leading-tight text-[#24211f] sm:text-5xl">
+          Florence to Siena by Train or Bus
+        </h1>
+        <p className="mt-6 max-w-2xl text-lg leading-8 text-[#4f4842]">
+          This transport guide is queued for publication on July 14, 2026. For today, use the Siena day trip guide
+          and main Siena guide while the route article is being prepared.
+        </p>
+        <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+          <Link
+            className="inline-flex items-center justify-center rounded-full bg-[#cf6f57] px-5 py-3 text-sm font-semibold text-white"
+            to="/siena-day-trip-from-florence"
+          >
+            Open today&apos;s Siena article
+          </Link>
+          <Link
+            className="inline-flex items-center justify-center rounded-full border border-[#d8c3b5] px-5 py-3 text-sm font-semibold text-[#24211f]"
+            to="/siena-travel-guide"
+          >
+            Siena travel guide
+          </Link>
+        </div>
+      </main>
+    </>
+  );
+}
+
 function App() {
   return (
     <div className="App">
@@ -67,8 +106,8 @@ function App() {
             <Route path="/siena" element={<Siena />} />
             <Route path="/tuscany-travel-guide" element={<Tuscany />} />
             <Route path="/tuscany-travel-guide/" element={<Tuscany />} />
-            <Route path="/florence-to-siena-by-train-or-bus" element={<Article fixedSlug="florence-to-siena-transport" canonicalPath="/florence-to-siena-by-train-or-bus" />} />
-            <Route path="/florence-to-siena-by-train-or-bus/" element={<Article fixedSlug="florence-to-siena-transport" canonicalPath="/florence-to-siena-by-train-or-bus" />} />
+            <Route path="/florence-to-siena-by-train-or-bus" element={<FlorenceToSienaScheduled />} />
+            <Route path="/florence-to-siena-by-train-or-bus/" element={<FlorenceToSienaScheduled />} />
             <Route path="/siena-day-trip-from-florence" element={<SienaDayTripFromFlorence />} />
             <Route path="/siena-day-trip-from-florence/" element={<SienaDayTripFromFlorence />} />
             <Route path="/piazza-del-campo-guide" element={<SienaContentClusterArticle slug="piazza-del-campo-guide" />} />
@@ -109,6 +148,8 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/siena-day-trip-from-florence" element={<Navigate to="/siena-day-trip-from-florence" replace />} />
             <Route path="/blog/siena-day-trip-from-florence/" element={<Navigate to="/siena-day-trip-from-florence" replace />} />
+            <Route path="/blog/florence-to-siena-transport" element={<Navigate to="/florence-to-siena-by-train-or-bus" replace />} />
+            <Route path="/blog/florence-to-siena-transport/" element={<Navigate to="/florence-to-siena-by-train-or-bus" replace />} />
             <Route path="/blog/:slug" element={<Article />} />
             <Route path="/about" element={<About />} />
             <Route path="/about/" element={<About />} />
