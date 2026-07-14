@@ -114,6 +114,23 @@ const renderArticleBody = (body) => {
       const keyPrefix = `article-body-${blockIndex}`;
       const lines = block.split("\n").map((line) => line.trim()).filter(Boolean);
 
+      if (block.startsWith("![")) {
+        const imageMatch = block.match(/^!\[([^\]]+)\]\(([^)]+)\)(?:\s*\n\s*(.+))?$/s);
+        if (imageMatch) {
+          const [, alt, src, caption] = imageMatch;
+          return (
+            <div key={keyPrefix} className="my-8">
+              <img src={src} alt={alt} className="w-full rounded-2xl object-cover aspect-[16/9] shadow-sm" />
+              {caption && (
+                <p className="mt-2 text-center text-sm text-[hsl(var(--charcoal-soft))] italic animate-fade-in">
+                  {renderInlineMarkdown(caption, `${keyPrefix}-caption`)}
+                </p>
+              )}
+            </div>
+          );
+        }
+      }
+
       if (lines.length === 1 && /^#{3,4}\s+/.test(lines[0])) {
         return (
           <h3 key={keyPrefix} className="font-serif text-2xl mt-9">

@@ -603,6 +603,25 @@ function markdownToHtml(markdown = '') {
       continue;
     }
 
+    if (line.startsWith("![")) {
+      const match = line.match(/^!\[([^\]]+)\]\(([^)]+)\)$/);
+      if (match) {
+        const alt = match[1];
+        const src = match[2];
+        let captionHtml = "";
+        if (i + 1 < lines.length && lines[i + 1].trim()) {
+          const nextLine = lines[i + 1].trim();
+          if (nextLine.startsWith("*") || nextLine.startsWith("_") || nextLine.length < 150) {
+            captionHtml = `<p class="mt-2 text-center text-sm text-[hsl(var(--charcoal-soft))] italic">${inlineMarkdownToHtml(nextLine)}</p>`;
+            i += 1;
+          }
+        }
+        html.push(`<div class="my-8"><img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" class="w-full rounded-2xl object-cover aspect-[16/9] shadow-sm" />${captionHtml}</div>`);
+        i += 1;
+        continue;
+      }
+    }
+
     const heading = line.match(/^(#{2,4})\s+(.+)$/);
     if (heading) {
       const level = heading[1].length;
