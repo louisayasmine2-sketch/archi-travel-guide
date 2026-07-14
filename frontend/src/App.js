@@ -106,8 +106,8 @@ function App() {
             <Route path="/siena" element={<Siena />} />
             <Route path="/tuscany-travel-guide" element={<Tuscany />} />
             <Route path="/tuscany-travel-guide/" element={<Tuscany />} />
-            <Route path="/florence-to-siena-by-train-or-bus" element={<FlorenceToSienaScheduled />} />
-            <Route path="/florence-to-siena-by-train-or-bus/" element={<FlorenceToSienaScheduled />} />
+            <Route path="/florence-to-siena-by-train-or-bus" element={<Article fixedSlug="florence-to-siena-transport" canonicalPath="/florence-to-siena-by-train-or-bus" />} />
+            <Route path="/florence-to-siena-by-train-or-bus/" element={<Article fixedSlug="florence-to-siena-transport" canonicalPath="/florence-to-siena-by-train-or-bus" />} />
             <Route path="/siena-day-trip-from-florence" element={<SienaDayTripFromFlorence />} />
             <Route path="/siena-day-trip-from-florence/" element={<SienaDayTripFromFlorence />} />
             <Route path="/piazza-del-campo-guide" element={<SienaContentClusterArticle slug="piazza-del-campo-guide" />} />
