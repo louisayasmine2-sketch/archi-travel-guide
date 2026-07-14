@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Circle background -->
+  <circle cx="40" cy="40" r="36" fill="#C0603A"/>
+
+  <!-- Letter A -->
+  <text
+    x="40"
+    y="55"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="42"
+    font-weight="400"
+    fill="#FAF8F5"
+    letter-spacing="-1"
+  >A</text>
+
+  <!-- "Archi" text -->
+  <text
+    x="90"
+    y="38"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="28"
+    font-weight="400"
+    fill="#1C1917"
+    letter-spacing="-0.5"
+  >Archi</text>
+
+  <!-- "Travel Guide" text -->
+  <text
+    x="90"
+    y="62"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="20"
+    font-weight="400"
+    fill="#6B6560"
+    letter-spacing="0.5"
+  >Travel Guide</text>
+</svg>
