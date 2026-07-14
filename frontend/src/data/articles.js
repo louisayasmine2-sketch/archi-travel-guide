@@ -3088,8 +3088,7 @@ The practical reality: The blocks immediately south and east of Termini have a r
       { id: "introduction", heading: "Why 5 Days Is the Perfect Length", body: `Many travelers debate how many days to spend in Rome. Three days in Rome feels rushed—you’ll sprint between the Colosseum and Vatican with little time to savor the atmosphere. Seven days, while wonderful for deeper exploration, can leave you feeling you’ve exhausted the historic center’s main highlights.
 
 Five days in Rome strikes the perfect balance. It allows you to experience the city’s iconic sites at a civilized pace, immerse yourself in its neighborhoods, enjoy unhurried meals, and still fit in one exceptional day trip—such as to Naples or Pompeii. This Rome 5 day itinerary ensures you leave feeling enchanted rather than exhausted by the Eternal City.` },
-      { id: "day-1", heading: "Day 1: Arrival & Slow Start in Trastevere", body: `![Trastevere Rome cobblestone streets at dusk romantic atmosphere](https://images.unsplash.com/photo-1588614959060-4d144f28b207?auto=format&fit=crop&w=1600&q=75)
-*Photo by [Unsplash](https://unsplash.com)*
+      { id: "day-1", heading: "Day 1: Arrival & Slow Start in Trastevere", body: `[Recommended photo: Trastevere cobblestone streets at dusk](https://images.unsplash.com/photo-1588614959060-4d144f28b207?auto=format&fit=crop&w=1200&q=80) *(Photo: Unsplash)*
 
 Jet lag is real, especially after a transatlantic flight. On your first day of 5 days in Rome, resist the urge to power through major sights. Instead, ease into the city with a gentle afternoon stroll in Trastevere.
 
@@ -3098,8 +3097,7 @@ This bohemian neighborhood across the Tiber River boasts cobblestone streets, iv
 In the evening, indulge in authentic Roman cuisine at a local trattoria—think cacio e pepe or carbonara. Return to your hotel early for a good night’s sleep. You’ll thank yourself on Day 2.
 
 Practical Tip: Choose accommodation near the main station or the historic center. Wear comfortable shoes—Rome’s streets are uneven.` },
-      { id: "day-2", heading: "Day 2: Ancient Rome – Colosseum, Forum & Palatine Hill", body: `![Colosseum Rome ancient arena exterior view](https://images.unsplash.com/photo-1542820229-081e0c12af0b?auto=format&fit=crop&w=1600&q=75)
-*Photo by [Unsplash](https://unsplash.com)*
+      { id: "day-2", heading: "Day 2: Ancient Rome – Colosseum, Forum & Palatine Hill", body: `[Recommended photo: Colosseum ancient arena exterior](https://images.unsplash.com/photo-1542820229-081e0c12af0b?auto=format&fit=crop&w=1200&q=80) *(Photo: Unsplash)*
 
 Dedicate Day 2 of your Rome 5 day itinerary to the heart of ancient Rome. Start early with pre-booked tickets for the Colosseum, Roman Forum, and Palatine Hill (a must—tickets sell out quickly).
 
@@ -3108,8 +3106,7 @@ Marvel at the Colosseum’s grandeur, imagine gladiatorial spectacles, then expl
 Afternoon: Relax with a leisurely lunch nearby. Evening: Head to the trendy Monti neighborhood for aperitivo and dinner amid boutique shops and vibrant streets.
 
 Pro Tip: Book your Colosseum combo ticket online at least 30 days in advance via the official site for timed entry and skip-the-line access.` },
-      { id: "day-3", heading: "Day 3: Vatican City – Museums, Sistine Chapel & St. Peter’s", body: `![Vatican Museums Sistine Chapel St Peters Basilica](https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&w=1600&q=75)
-*Photo by [Unsplash](https://unsplash.com)*
+      { id: "day-3", heading: "Day 3: Vatican City – Museums, Sistine Chapel & St. Peter’s", body: `[Recommended photo: Vatican Museums and St. Peter's Basilica](https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&w=1200&q=80) *(Photo: Unsplash)*
 
 Rise early for your Vatican day. Arrive at the Vatican Museums by 8am with pre-booked tickets to beat the crowds. Spend the morning wandering through one of the world’s greatest art collections before reaching Michelangelo’s breathtaking Sistine Chapel.
 
@@ -3118,8 +3115,7 @@ Continue to St. Peter’s Basilica, the world’s largest church, for its awe-in
 In the afternoon, cross to Castel Sant’Angelo for views over the Tiber and a relaxed stroll. Enjoy lunch in Prati, a refined neighborhood with excellent restaurants and fewer tourists.
 
 Essential: Vatican tickets sell out fast—pre-book timed entry well in advance.` },
-      { id: "day-4", heading: "Day 4: Historic Center or Day Trip to Naples", body: `![Pantheon Trevi Fountain Piazza Navona](https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?auto=format&fit=crop&w=1600&q=75)
-*Photo by [Unsplash](https://unsplash.com)*
+      { id: "day-4", heading: "Day 4: Historic Center or Day Trip to Naples", body: `[Recommended photo: Pantheon and Trevi Fountain](https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?auto=format&fit=crop&w=1200&q=80) *(Photo: Unsplash)*
 
 Option 1: Iconic Historic Center
 Visit the Pantheon (one of the best-preserved ancient buildings with its revolutionary oculus), toss a coin into the Trevi Fountain, and soak up the baroque beauty of Piazza Navona. Take time for people-watching, gelato, and perhaps a visit to a nearby church or café.
@@ -3128,8 +3124,7 @@ Option 2: Full Day Trip to Naples & Pompeii
 Catch an early Frecciarossa high-speed train from Roma Termini to Naples (just over 1 hour). Explore the vibrant historic center or join a guided tour to the remarkably preserved ruins of Pompeii. Return to Rome in the evening.
 
 Both options deliver unforgettable experiences—the choice depends on whether you prefer more time in Rome or a taste of southern Italy.` },
-      { id: "day-5", heading: "Day 5: Hidden Rome & Departure", body: `![Aventine Hill keyhole view Orange Garden Testaccio](https://images.unsplash.com/photo-1612260249216-7eb6bc7cb0eb?auto=format&fit=crop&w=1600&q=75)
-*Photo by [Unsplash](https://unsplash.com)*
+      { id: "day-5", heading: "Day 5: Hidden Rome & Departure", body: `[Recommended photo: Aventine Hill keyhole view and Orange Garden](https://images.unsplash.com/photo-1612260249216-7eb6bc7cb0eb?auto=format&fit=crop&w=1200&q=80) *(Photo: Unsplash)*
 
 On your final morning, discover a more intimate side of Rome on the Aventine Hill. Peer through the famous keyhole at the Knights of Malta for that perfect framed view of St. Peter’s dome. Stroll through the serene Orange Garden (Giardino degli Aranci) with its fragrant citrus trees and sweeping city views.
 
