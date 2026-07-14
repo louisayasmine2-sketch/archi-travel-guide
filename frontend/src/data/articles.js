@@ -2941,15 +2941,24 @@ const allArticles = [
     ],
   ),
   A(
-    'flexible-itinerary',
-    'How to Build a Flexible Travel Itinerary',
-    'Planning', 'Global',
-    'A repeatable way to plan a trip that has structure but leaves room for the moments you can’t predict.',
-    'https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=1600&q=75',
+    'italy-itinerary-10-days',
+    '10 Day Italy Itinerary: The Complete First-Timer Route for 2026',
+    'Itineraries', 'Italy',
+    'Rome, Florence, Venice, Milan in 10 days by train. The classic first-timer Italy itinerary, no car needed, fully planned for 2026.',
+    'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80',
     [
-      { id: 'anchors', heading: 'Anchor and gap', body: 'Book 1 anchor per day (a museum, a restaurant, a train). Leave the rest open. Two thirds of your best travel moments will happen in those gaps.' },
-      { id: 'buffer', heading: 'Buffer transitions', body: 'The single most common mistake: back-to-back bookings. Add a two-hour buffer around every train, transfer, or timed entry.' },
+      { id: 'intro', heading: 'Why 10 Days Is the Perfect Length', body: 'A 10 day Italy itinerary is the sweet spot for most first-time US and UK travelers. Long enough to properly see Rome, Florence, Venice, and Milan. Short enough to avoid living out of a suitcase every night.\n\nThe common fear is doing too much and ending up exhausted. Ten days solves this by forcing you to choose fewer places and stay long enough to enjoy each one. Three or four cities, two to three nights each.\n\nItaly train network makes it easy. Frecciarossa and Italo high-speed trains connect all four cities center to center under 3 hours per leg. No rental car, no ZTL zone fines.' },
+      { id: 'route', heading: 'The Classic Route: Rome to Florence to Venice to Milan', body: 'Rome 3 nights, Florence 3 nights, Venice 2 nights, Milan 1 night. This order follows Italy high-speed rail spine north with no backtracking.\n\nRome is the starting point on the main Alta Velocita corridor. Florence is 90 minutes north. Venice is 2 hours from Florence by direct Frecciarossa. Milan is 2.5 hours from Venice.\n\nEnding in Milan makes sense for US and UK travelers: Malpensa and Linate have the most direct transatlantic connections. Front-loading Rome and Florence with 3 nights each gives you time for both the Vatican and the Colosseum without rushing.' },
+      { id: 'days', heading: 'Day by Day Plan', body: 'Day 1 Rome: Leonardo Express from Fiumicino to Termini 32 minutes. Walk, eat, sleep. No sightseeing on arrival day.\nDay 2 Rome: Colosseum, Roman Forum, Palatine Hill on one ticket booked in advance. Afternoon Pantheon and Trevi on foot.\nDay 3 Rome: Vatican Museums and Sistine Chapel, 8am entry. St Peters Basilica. Dinner in Trastevere.\nDay 4 Rome to Florence: Frecciarossa 9:25 from Termini, arrives Santa Maria Novella 10:57. Afternoon Duomo exterior, Ponte Vecchio at sunset.\nDay 5 Florence: Uffizi Gallery booked months ahead. Accademia for Michelangelo David. Oltrarno evening.\nDay 6 Tuscany: Day trip to Siena or Chianti. Best done via small-group tour.\nDay 7 Florence to Venice: Morning Frecciarossa 2 hours direct. Afternoon St Marks and Doges Palace.\nDay 8 Venice: Vaporetto on Grand Canal, Rialto Bridge, Murano and Burano islands.\nDay 9 Venice to Milan: Mid-morning train 2h 30min. Duomo di Milano and the Galleria Vittorio Emanuele.\nDay 10 Milan: The Last Supper booked 2-3 months ahead, Duomo rooftop, then airport departure.' },
+      { id: 'jetlag', heading: 'The Jet Lag Reality US Travelers Must Know', body: 'US travelers land in Italy mid-morning after an overnight flight with very little real sleep. The natural instinct is to power through and go straight to the Vatican. This is the most common first-time Italy mistake.\n\nBook Day 1 as a slow day. A short walk, simple lunch, maybe the Pantheon exterior. Save timed entries and anything requiring concentration for Day 2 and 3 after a full night of sleep.\n\nBook hotels near the main train station in each city. Termini in Rome, Santa Maria Novella in Florence, Santa Lucia in Venice, Centrale in Milan. After 20 hours of travel you do not want to drag luggage across cobblestones.' },
+      { id: 'booking', heading: 'What to Book First', body: 'Colosseum: Sells out fastest April through October. Book 60 days ahead minimum.\nVatican Museums: Same level of demand. Book at the same time as the Colosseum.\nUffizi Gallery: Peak season slots disappear months in advance.\nHigh-speed trains: Book early for cheapest fares, not because trains sell out. Trenitalia and Italo release tickets around 4 months ahead.\nHotels: Most flexible category. Two to three months out is fine.\nThe Last Supper Milan: Smallest daily capacity of anything on this itinerary. Book it alongside the Colosseum and Vatican, 2 to 3 months ahead.' }
     ],
+    [
+      { q: 'Can I do 10 days in Italy without a car?', a: 'Yes. For this route a car is a disadvantage. All four cities connect by direct high-speed rail and all four historic centers restrict or fine private cars via ZTL zones. The Tuscany day trip is best handled with a small-group tour.' },
+      { q: 'Is 10 days enough for Italy?', a: 'It is enough for the classic four-city route done properly. Not enough if you want the Amalfi Coast, Cinque Terre, or Sicily too, which each deserve a separate trip. For a first visit, 10 days across Rome, Florence, Venice, and Milan is the right level of ambition.' },
+      { q: 'What is the cheapest way to travel Italy by train?', a: 'Book directly through Trenitalia or Italo around 4 months ahead when tickets release. The cheapest non-refundable fares are limited and sell out first. Compare both operators for each leg and travel midweek where possible.' }
+    ],
+    '2026-07-14T20:30:00+07:00'
   ),
   A(
     'best-things-to-do-in-florence',
