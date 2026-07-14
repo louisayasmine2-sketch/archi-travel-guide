@@ -84,6 +84,7 @@ const HUB_CONTENT = {
       title: "Popular Siena pages",
       items: [
         { to: "/where-to-stay-in-siena", label: "Where to stay", desc: "Terzo, San Donato, Camollia and value picks." },
+        { to: "/florence-to-siena-by-train-or-bus", label: "Florence to Siena transport", desc: "Compare train, bus, and guided tour options." },
         { to: "/siena-itinerary", label: "Siena itinerary", desc: "1-day and 2-day planning templates." },
         { to: "/travel-tips", label: "Travel tips", desc: "Transport, parking, and trip safety checklists." },
       ],
@@ -112,6 +113,7 @@ const HUB_CONTENT = {
       title: "Start with",
       items: [
         { to: "/siena", label: "Siena overview", desc: "Top attractions and practical context." },
+        { to: "/florence-to-siena-by-train-or-bus", label: "Arriving from Florence", desc: "Train, bus, and tour trade-offs before choosing an area." },
         { to: "/blog/siena-2-day-itinerary", label: "2-day itinerary", desc: "Efficient pace for first-timers." },
         { to: "/contact", label: "Contact for booking", desc: "Send your dates and priorities." },
       ],
@@ -136,6 +138,7 @@ const HUB_CONTENT = {
     cta: {
       title: "Build your own",
       items: [
+        { to: "/florence-to-siena-by-train-or-bus", label: "Florence to Siena transport", desc: "Choose the route before locking in your day plan." },
         { to: "/travel-tools/itinerary-generator", label: "Itinerary generator", desc: "Generate a personalized trip flow." },
         { to: "/travel-budget-calculator", label: "Budget calculator", desc: "Tune spending by day and person." },
         { to: "/travel-tools/best-time-to-visit", label: "Best time to visit", desc: "Choose realistic timing for your dates." },
