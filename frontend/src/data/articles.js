@@ -1702,35 +1702,63 @@ const allArticles = [
         }
   ),
   A(
-    'siena-budget-and-meal-planning',
-    'Siena on a Mid-Range Budget: Meals, Hotels, and Movement',
-    'Budget planning', 'Siena',
-    'A practical spending map for a realistic mid-range Siena visit that avoids overpaying for the same 7-hour core.',
-    'https://images.unsplash.com/photo-1533777857889-4be7c050a86c?auto=format&fit=crop&w=1600&q=75',
+    "siena-travel-cost-2026",
+    "Siena Italy Budget Guide 2026: Realistic Costs for US & UK Travelers",
+    "Budget planning", "Siena",
+    "Planning a trip to Siena Italy on a budget in 2026? This practical guide details realistic costs for US and UK travelers on day trips or short stays.",
+    "https://images.unsplash.com/photo-1533777857889-4be7c050a86c?auto=format&fit=crop&w=1600&q=75",
     [
-      { id: 'meal-curve', heading: 'Meal budget pattern', body: 'Set one special dinner, one mid-range dinner, and one casual lunch. The total cost stays predictable even in August.' },
-      { id: 'nights-and-location', heading: 'Hotel spend levers', body: 'Central first-night rates are usually higher, but movement is easier and logistics are smoother. Use value zones 10–15 minutes away to save cost.' },
-      { id: 'transport-cost', heading: 'Transport cost control', body: 'Public transport and short rides are usually cheaper than private transport unless you carry heavy group luggage.' },
-      { id: 'avoid-purchases', heading: 'Avoid impulse purchases', body: 'Skip late-night shopping sprees and souvenir duplication. One small local item plus one edible memory is enough for most trips.' },
+      { id: "introduction", heading: "Realistic Siena Trip Costs", body: `How much does a trip to Siena cost? While cheaper than Florence or Venice, budgeting for Siena requires understanding train logistics, city tax rules, and local dining pricing. This realistic cost breakdown helps first-timers plan their budget for 2026.` },
+      { id: "transportation", heading: "Transportation Costs (Florence/Rome to Siena)", body: `Getting to Siena is straightforward and affordable if you skip the car.
+
+- Bus (131R from Florence): €8.40 one-way – the cheapest and most convenient option.
+- Train (from Florence): €10.20 one-way – comfortable and takes about 1.5 hours.
+- Train (from Rome Termini with transfer): €20–€35 one-way – doable in 3–4 hours.
+
+A car rental isn’t necessary and actually saves you money – you’ll avoid ZTL fines and parking fees (€20–€30 per day) in the historic centre.` },
+      { id: "accommodation", heading: "Accommodation Budget (Hostel vs Hotel vs Apartment)", body: `![Charming hotel room or apartment window view in Siena](https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&fit=crop)
+*Photo by Unsplash (Royalty-free)*
+
+Siena offers good value compared with bigger Tuscan cities. Here are realistic 2026 nightly rates:
+
+- Budget/Guesthouses: €50–€80 per night.
+- Mid-range 3-star Hotels: €90–€140 per night.
+- Boutique / Apartments in the center: €150–€220 per night.` },
+      { id: "food-drink", heading: "Daily Food & Drink Cost Breakdown", body: `![Italian espresso coffee and cornetto croissant at a cafe counter](https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&fit=crop)
+*Photo by Unsplash (Royalty-free)*
+
+You can eat well in Siena without breaking the bank if you follow local habits. A realistic daily food budget looks like this:
+
+- Breakfast (caffè + cornetto at the bar counter): €2.50–€3.50.
+- Lunch (casual panino or slice of pizza): €6–€10.
+- Dinner (seated meal in a local trattoria with house wine): €25–€40 per person.
+- Aperitivo: €8–€12.
+- Total food budget: €40–€65 per day.` },
+      { id: "sightseeing", heading: "Sightseeing & Entry Fees", body: `Most of Siena’s magic is free, but a few paid attractions are worth it:
+
+- Duomo Opa Si Pass (Siena Cathedral complex): €15–€20 (highly recommended).
+- Torre del Mangia: €10.
+- Walking around Piazza del Campo and historic streets: Free.` }
     ],
     [
-      { q: 'Is €140/day realistic?', a: 'For a mid-range couple or pair with one nice dinner, yes. The cost range is wide depending on hotel area and transport choice.' },
-      { q: 'Where should I spend first?', a: 'Accommodation and one quality dinner give biggest return. Spend there; keep one meal and one attraction light.' },
+      { q: "Is Siena cheaper than Florence?", a: "Yes, accommodation and dining are generally 15-25% cheaper." },
+      { q: "What is the tourist tax in Siena?", a: "The 2026 city tourist tax is €2.00 to €5.00 per person per night depending on hotel star rating." },
+      { q: "Can I visit Siena on a budget day trip?", a: "Yes, traveling by bus from Florence and packing a light lunch keeps costs under €30 for the day." }
     ],
-    '2026-07-03',
+    "2026-07-14T22:30:00+07:00",
     {
       monetization: {
         booking: {
-          heading: 'Need a budget-optimized booking package?',
-          description: 'Send your budget target and we will suggest realistic options with the best value split.',
-          linkText: 'Get budget booking help',
-          linkHref: '/contact',
-          linkTone: 'primary',
-          leadSubjectHint: 'Budget Siena trip planning',
+          heading: "Need a budget-optimized booking package?",
+          description: "Send your budget target and we will suggest realistic options with the best value split.",
+          linkText: "Get budget booking help",
+          linkHref: "/contact",
+          linkTone: "primary",
+          leadSubjectHint: "Budget Siena trip planning",
         },
         affiliates: [
-          { title: 'Hotel and package price comparison', provider: 'Hotels', tag: 'Travel deals', description: 'Compare stay and transfer options by price band and cancellation terms.', ctaLabel: 'Open price comparison', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_budget_and_meal_planning' },
-          { title: 'Travel insurance for short trips', provider: 'Insurance', tag: 'Risk', description: 'Basic coverage for trips with transfer, luggage and medical contingencies.', ctaLabel: 'Review insurance options', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_budget_and_meal_planning' },
+          { title: "Hotel and package price comparison", provider: "Hotels", tag: "Travel deals", description: "Compare stay and transfer options by price band and cancellation terms.", ctaLabel: "Open price comparison", href: "/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_travel_cost_2026" },
+          { title: "Travel insurance for short trips", provider: "Insurance", tag: "Risk", description: "Basic coverage for trips with transfer, luggage and medical contingencies.", ctaLabel: "Review insurance options", href: "/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_travel_cost_2026" },
         ],
       },
     }

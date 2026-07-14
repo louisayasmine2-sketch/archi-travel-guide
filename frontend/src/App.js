@@ -158,6 +158,8 @@ function App() {
             <Route path="/blog/perfect-3-day-rome-itinerary/" element={<Navigate to="/blog/rome-5-day-itinerary" replace />} />
             <Route path="/blog/siena-food-that-fits-a-budget" element={<Navigate to="/blog/best-restaurants-siena-italy" replace />} />
             <Route path="/blog/siena-food-that-fits-a-budget/" element={<Navigate to="/blog/best-restaurants-siena-italy" replace />} />
+            <Route path="/blog/siena-budget-and-meal-planning" element={<Navigate to="/blog/siena-travel-cost-2026" replace />} />
+            <Route path="/blog/siena-budget-and-meal-planning/" element={<Navigate to="/blog/siena-travel-cost-2026" replace />} />
             <Route path="/blog/:slug" element={<Article />} />
             <Route path="/about" element={<About />} />
             <Route path="/about/" element={<About />} />
