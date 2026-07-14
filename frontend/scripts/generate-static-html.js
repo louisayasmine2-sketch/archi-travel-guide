@@ -841,7 +841,7 @@ function outputPathFor(routePath) {
 function stringArg(arg = '') {
   const trimmed = arg.trim();
   const quote = trimmed[0];
-  if ((quote !== "'" && quote !== '"') || trimmed[trimmed.length - 1] !== quote) return '';
+  if ((quote !== "'" && quote !== '"' && quote !== '`') || trimmed[trimmed.length - 1] !== quote) return '';
   return trimmed
     .slice(1, -1)
     .replace(/\\'/g, "'")
@@ -873,7 +873,7 @@ function splitTopLevelArgs(callText) {
       continue;
     }
 
-    if (ch === '"' || ch === "'") {
+    if (ch === '"' || ch === "'" || ch === '`') {
       inString = true;
       quote = ch;
       current += ch;
@@ -934,7 +934,7 @@ function extractArticles() {
           inString = false;
           quote = '';
         }
-      } else if (ch === '"' || ch === "'") {
+      } else if (ch === '"' || ch === "'" || ch === '`') {
         inString = true;
         quote = ch;
       } else if (ch === '(') {
