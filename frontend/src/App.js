@@ -150,6 +150,12 @@ function App() {
             <Route path="/blog/siena-day-trip-from-florence/" element={<Navigate to="/siena-day-trip-from-florence" replace />} />
             <Route path="/blog/florence-to-siena-transport" element={<Navigate to="/florence-to-siena-by-train-or-bus" replace />} />
             <Route path="/blog/florence-to-siena-transport/" element={<Navigate to="/florence-to-siena-by-train-or-bus" replace />} />
+            <Route path="/blog/flexible-itinerary" element={<Navigate to="/blog/italy-itinerary-10-days" replace />} />
+            <Route path="/blog/flexible-itinerary/" element={<Navigate to="/blog/italy-itinerary-10-days" replace />} />
+            <Route path="/blog/choose-area-any-city" element={<Navigate to="/blog/where-to-stay-in-rome" replace />} />
+            <Route path="/blog/choose-area-any-city/" element={<Navigate to="/blog/where-to-stay-in-rome" replace />} />
+            <Route path="/blog/perfect-3-day-rome-itinerary" element={<Navigate to="/blog/rome-5-day-itinerary" replace />} />
+            <Route path="/blog/perfect-3-day-rome-itinerary/" element={<Navigate to="/blog/rome-5-day-itinerary" replace />} />
             <Route path="/blog/:slug" element={<Article />} />
             <Route path="/about" element={<About />} />
             <Route path="/about/" element={<About />} />

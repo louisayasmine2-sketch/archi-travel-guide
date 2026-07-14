@@ -3079,21 +3079,55 @@ The practical reality: The blocks immediately south and east of Termini have a r
     '2026-07-04'
   ),
   A(
-    'perfect-3-day-rome-itinerary',
-    'The Perfect 3-Day Rome Itinerary — What to See, Skip, and Savor',
-    'Itineraries', 'Italy',
-    'Three days in Rome is not enough to see everything, but it is exactly enough to see the things that matter.',
-    'https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=75',
+    "rome-5-day-itinerary",
+    "5 Days in Rome: The Perfect Itinerary for the Eternal City",
+    "Itineraries", "Rome",
+    "Discover the ideal 5 days in Rome itinerary. Explore ancient wonders, Vatican masterpieces, and neighborhoods with time for a Naples day trip.",
+    "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=75",
     [
-      { id: 'intro', heading: 'Rome does not do subtlety', body: 'This is a city that built a 50,000-seat amphitheater for entertainment, covered its churches in gold leaf, and invented a fountain so extravagant that it takes up an entire piazza. Rome wants to be seen. Your job, as a visitor, is simply to show up — and to plan your days well enough that you are not too exhausted to appreciate what you are looking at.\n\nThree days in Rome is not enough to see everything. It is, however, exactly enough to see the things that matter — and to eat well while doing it.' },
-      { id: 'day-1', heading: 'Day 1 — Ancient Rome and the Colosseum Quarter', body: 'Start early. The Colosseum opens at 9 a.m., and the line begins forming at 8. Buy your tickets online in advance. Enter the Colosseum first, spend 60 to 90 minutes inside, then walk directly into the Roman Forum through the connecting path.\n\nThe Forum is where most visitors make their first mistake: they rush through it. Do not. This was the political, religious, and commercial heart of the Roman Empire.\n\nFor lunch, walk ten minutes south to the Celio neighborhood. Trattoria Luzzi on Via di San Giovanni in Laterano has been serving enormous plates of cacio e pepe to locals and savvy tourists for decades.\n\nSpend the afternoon at the Capitoline Museums (Musei Capitolini), a short walk from the Forum. It is far less crowded than the Vatican Museums, and many travelers consider it the better collection.' },
-      { id: 'day-2', heading: 'Day 2 — Vatican City and Trastevere', body: 'The Vatican demands a full morning. Arrive at the Vatican Museums by 8 a.m. The Sistine Chapel is at the very end of the museum route, which means you will walk through nearly two kilometers of galleries before reaching Michelangelo\'s ceiling.\n\nAfter the Sistine Chapel, walk directly into St. Peter\'s Basilica through the internal connecting door (this saves you from re-entering through the main security line outside). Climb the dome for the best panoramic view in Rome.\n\nFor lunch, cross the Tiber River and head to Trastevere. This neighborhood feels like a small village trapped inside a major capital. Try Da Enzo al 29 for the best carbonara in the city.\n\nSpend the afternoon wandering Trastevere without a plan.' },
-      { id: 'day-3', heading: 'Day 3 — Baroque Rome, Fountains, and Piazzas', body: 'Your final day belongs to the Rome that exists between the monuments: the piazzas, the fountains, the espresso bars, and the gelato shops.\n\nStart at the Trevi Fountain before 8 a.m. — it is the only way to see it without five hundred other people in your photograph. Throw a coin over your left shoulder with your right hand.\n\nWalk to the Spanish Steps, then continue north to the Borghese Gardens. If you have pre-booked tickets (mandatory), visit the Galleria Borghese.\n\nFor your final Roman lunch, walk to the Pantheon. The building itself is free to enter and remains the best-preserved structure from ancient Rome. Sit in the Piazza della Rotonda afterward and order one last plate of pasta.' }
+      { id: "introduction", heading: "Why 5 Days Is the Perfect Length", body: `Many travelers debate how many days to spend in Rome. Three days in Rome feels rushed—you’ll sprint between the Colosseum and Vatican with little time to savor the atmosphere. Seven days, while wonderful for deeper exploration, can leave you feeling you’ve exhausted the historic center’s main highlights.
+
+Five days in Rome strikes the perfect balance. It allows you to experience the city’s iconic sites at a civilized pace, immerse yourself in its neighborhoods, enjoy unhurried meals, and still fit in one exceptional day trip—such as to Naples or Pompeii. This Rome 5 day itinerary ensures you leave feeling enchanted rather than exhausted by the Eternal City.` },
+      { id: "day-1", heading: "Day 1: Arrival & Slow Start in Trastevere", body: `Jet lag is real, especially after a transatlantic flight. On your first day of 5 days in Rome, resist the urge to power through major sights. Instead, ease into the city with a gentle afternoon stroll in Trastevere.
+
+This bohemian neighborhood across the Tiber River boasts cobblestone streets, ivy-covered buildings, and a village-like charm. Wander without a map, stop for gelato, and people-watch at one of its lively piazzas.
+
+In the evening, indulge in authentic Roman cuisine at a local trattoria—think cacio e pepe or carbonara. Return to your hotel early for a good night’s sleep. You’ll thank yourself on Day 2.
+
+Practical Tip: Choose accommodation near the main station or the historic center. Wear comfortable shoes—Rome’s streets are uneven.` },
+      { id: "day-2", heading: "Day 2: Ancient Rome – Colosseum, Forum & Palatine Hill", body: `Dedicate Day 2 of your Rome 5 day itinerary to the heart of ancient Rome. Start early with pre-booked tickets for the Colosseum, Roman Forum, and Palatine Hill (a must—tickets sell out quickly).
+
+Marvel at the Colosseum’s grandeur, imagine gladiatorial spectacles, then explore the Forum’s ruins where emperors once walked. The Palatine Hill offers panoramic views and insights into imperial palaces.
+
+Afternoon: Relax with a leisurely lunch nearby. Evening: Head to the trendy Monti neighborhood for aperitivo and dinner amid boutique shops and vibrant streets.
+
+Pro Tip: Book your Colosseum combo ticket online at least 30 days in advance via the official site for timed entry and skip-the-line access.` },
+      { id: "day-3", heading: "Day 3: Vatican City – Museums, Sistine Chapel & St. Peter’s", body: `Rise early for your Vatican day. Arrive at the Vatican Museums by 8am with pre-booked tickets to beat the crowds. Spend the morning wandering through one of the world’s greatest art collections before reaching Michelangelo’s breathtaking Sistine Chapel.
+
+Continue to St. Peter’s Basilica, the world’s largest church, for its awe-inspiring scale and Bernini’s masterpieces.
+
+In the afternoon, cross to Castel Sant’Angelo for views over the Tiber and a relaxed stroll. Enjoy lunch in Prati, a refined neighborhood with excellent restaurants and fewer tourists.
+
+Essential: Vatican tickets sell out fast—pre-book timed entry well in advance.` },
+      { id: "day-4", heading: "Day 4: Historic Center or Day Trip to Naples", body: `Option 1: Iconic Historic Center
+Visit the Pantheon (one of the best-preserved ancient buildings with its revolutionary oculus), toss a coin into the Trevi Fountain, and soak up the baroque beauty of Piazza Navona. Take time for people-watching, gelato, and perhaps a visit to a nearby church or café.
+
+Option 2: Full Day Trip to Naples & Pompeii
+Catch an early Frecciarossa high-speed train from Roma Termini to Naples (just over 1 hour). Explore the vibrant historic center or join a guided tour to the remarkably preserved ruins of Pompeii. Return to Rome in the evening.
+
+Both options deliver unforgettable experiences—the choice depends on whether you prefer more time in Rome or a taste of southern Italy.` },
+      { id: "day-5", heading: "Day 5: Hidden Rome & Departure", body: `On your final morning, discover a more intimate side of Rome on the Aventine Hill. Peer through the famous keyhole at the Knights of Malta for that perfect framed view of St. Peter’s dome. Stroll through the serene Orange Garden (Giardino degli Aranci) with its fragrant citrus trees and sweeping city views.
+
+Then head to Testaccio, a genuine Roman neighborhood famous for its food market and traditional cuisine. Sample local specialties or enjoy a final plate of pasta before your afternoon flight or train departure.
+
+This gentle close leaves you with beautiful memories of both the famous and hidden sides of Rome.` }
     ],
     [
-      { q: 'Is the Roma Pass worth it?', a: 'A 72-hour Roma Pass costs 52 euros and includes free entry to your first two museums and unlimited public transport. It is usually worth it if you plan to visit the Colosseum and Borghese Gallery.' }
+      { q: "Is 5 days enough for Rome?", a: "Yes—5 days in Rome is ideal for most first-time visitors. It provides enough time to see the major attractions at a comfortable pace while experiencing the city’s neighborhoods and food culture." },
+      { q: "What is the best day trip from Rome?", a: "The most popular and rewarding day trip is to Naples combined with Pompeii. The high-speed Frecciarossa train makes it feasible and efficient. Alternatives include Tivoli (Villa d’Este and Hadrian’s Villa) or Orvieto." },
+      { q: "How many days do you need in Rome to see everything?", a: "To see the absolute essentials, 4 days minimum. However, to truly appreciate the Eternal City without rushing, 5–6 days is perfect. Longer stays (7–10 days) allow for deeper exploration or additional day trips." }
     ],
-    '2026-07-04'
+    "2026-07-14T21:30:00+07:00"
   ),
   A(
     'florence-travel-budget-guide',
