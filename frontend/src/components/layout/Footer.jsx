@@ -1,52 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail } from "lucide-react";
 
-const cols = [
-  {
-    title: "Destinations",
-    links: [
-      { to: "/italy", label: "Italy" },
-      { to: "/tuscany-travel-guide", label: "Tuscany" },
-      { to: "/siena", label: "Siena" },
-      { to: "/europe", label: "Europe" },
-      { to: "/asia", label: "Asia" },
-      { to: "/destinations", label: "All destinations" },
-    ],
-  },
-  {
-    title: "Travel Tools",
-    links: [
-      { to: "/travel-budget-calculator", label: "Budget calculator" },
-      { to: "/travel-tools/itinerary-generator", label: "Itinerary generator" },
-      { to: "/travel-tools/area-finder", label: "Best area to stay" },
-      { to: "/travel-tools/packing-checklist", label: "Packing checklist" },
-      { to: "/travel-tools/best-time-to-visit", label: "Best time to visit" },
-      { to: "/travel-tools/transport-guide", label: "Transport guide" },
-    ],
-  },
-  {
-    title: "Resources",
-    links: [
-      { to: "/travel-deals", label: "Travel deals & resources" },
-      { to: "/blog", label: "Blog" },
-      { to: "/about", label: "About" },
-      { to: "/contact", label: "Contact" },
-    ],
-  },
-  {
-    title: "Legal",
-    links: [
-      { to: "/privacy-policy", label: "Privacy policy" },
-      { to: "/cookie-policy", label: "Cookie policy" },
-      { to: "/terms-of-service", label: "Terms of service" },
-      { to: "/terms-of-use", label: "Terms of use" },
-      { to: "/affiliate-disclosure", label: "Affiliate disclosure" },
-      { to: "/editorial-policy", label: "Editorial policy" },
-      { to: "/disclaimer", label: "Disclaimer" },
-    ],
-  },
-];
-
 const IgIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
     <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
@@ -89,70 +43,74 @@ const SOCIALS = [
 
 export default function Footer() {
   return (
-    <footer className="mt-24 bg-[hsl(var(--charcoal))] text-[hsl(var(--ivory))]">
-      <div className="container-editorial py-16 lg:py-20">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14">
-          <div className="lg:col-span-4">
-            <div className="flex items-center gap-2 mb-5">
-              <span className="w-9 h-9 rounded-full bg-[hsl(var(--terracotta))] text-[hsl(var(--ivory))] grid place-items-center font-serif text-xl leading-none">A</span>
-              <span className="font-serif text-2xl">Archi Travel Guide</span>
-            </div>
-            <p className="text-[hsl(var(--ivory))]/70 max-w-sm leading-relaxed">
-              A professional, independent travel guide for smart travelers. Practical itineraries, honest recommendations, no clickbait.
-            </p>
-            <p className="mt-6 text-xs tracking-[0.2em] uppercase text-[hsl(var(--ivory))]/50">
-              First pillar · Italy · Tuscany · Siena
-            </p>
-
-            <div className="mt-6">
-              <p className="text-xs tracking-[0.15em] uppercase text-[hsl(var(--ivory))]/50 mb-3">Follow us</p>
-              <div className="flex items-center gap-2 flex-wrap">
-                {SOCIALS.map(({ label, href, Icon }) => (
-                  <a
-                    key={label}
-                    href={href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={label}
-                    className="w-9 h-9 grid place-items-center rounded-full border border-[hsl(var(--ivory))]/20 hover:border-[hsl(var(--terracotta))] hover:text-[hsl(var(--terracotta))] hover:bg-[hsl(var(--terracotta))]/10 transition-all duration-200"
-                  >
-                    <Icon />
-                  </a>
-                ))}
-                <a
-                  href="mailto:contact@affittacameregliarchi.com"
-                  aria-label="Email Archi Travel Guide"
-                  className="w-9 h-9 grid place-items-center rounded-full border border-[hsl(var(--ivory))]/20 hover:border-[hsl(var(--terracotta))] hover:text-[hsl(var(--terracotta))] hover:bg-[hsl(var(--terracotta))]/10 transition-all duration-200"
-                >
-                  <Mail className="w-4 h-4" />
-                </a>
-              </div>
-            </div>
+    <footer className="bg-[#2C211B] text-white py-20 font-sans">
+      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-5 gap-12">
+        {/* Archi Travel Guide */}
+        <div className="md:col-span-2">
+          <div className="flex items-center gap-3 mb-6">
+            <span className="w-10 h-10 rounded-full bg-[#C65A3A] text-white flex items-center justify-center font-serif text-2xl leading-none">A</span>
+            <h4 className="font-serif text-3xl">Archi Travel Guide</h4>
           </div>
-
-          <div className="lg:col-span-8 grid grid-cols-2 md:grid-cols-4 gap-8">
-            {cols.map((c) => (
-              <div key={c.title}>
-                <h4 className="font-serif text-lg mb-4">{c.title}</h4>
-                <ul className="space-y-2.5">
-                  {c.links.map((l) => (
-                    <li key={l.to}>
-                      <Link to={l.to} className="text-sm text-[hsl(var(--ivory))]/70 hover:text-[hsl(var(--terracotta))] transition-colors">
-                        {l.label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+          <p className="text-[#F5EDE3] text-sm leading-relaxed max-w-sm mb-8 opacity-90">
+            Independent. Honest. Made for smart travelers who love Tuscany.
+          </p>
+          
+          <div className="flex items-center gap-3 flex-wrap">
+            {SOCIALS.map(({ label, href, Icon }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
+                className="w-10 h-10 flex items-center justify-center rounded-full border border-white/20 hover:border-[#C65A3A] hover:text-[#C65A3A] hover:bg-[#C65A3A]/10 transition-all duration-300"
+              >
+                <Icon />
+              </a>
             ))}
+            <a
+              href="mailto:contact@affittacameregliarchi.com"
+              aria-label="Email Archi Travel Guide"
+              className="w-10 h-10 flex items-center justify-center rounded-full border border-white/20 hover:border-[#C65A3A] hover:text-[#C65A3A] hover:bg-[#C65A3A]/10 transition-all duration-300"
+            >
+              <Mail className="w-4 h-4" />
+            </a>
           </div>
         </div>
 
-        <div className="mt-14 pt-8 border-t border-[hsl(var(--ivory))]/10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-xs text-[hsl(var(--ivory))]/60">
-          <p>© {new Date().getFullYear()} Archi Travel Guide. Independent editorial publication.</p>
-          <p className="max-w-xl md:text-right">
-            This site may earn a commission from carefully selected affiliate partners at no extra cost to you. Editorial decisions remain independent — see our{" "}
-            <Link to="/editorial-policy" className="underline underline-offset-4 hover:text-[hsl(var(--terracotta))]">editorial policy</Link>.
+        {/* Travel Tools 4D */}
+        <div>
+          <h5 className="uppercase tracking-widest text-xs mb-6 text-[#8A9A5B] font-bold">Travel Tools 4D</h5>
+          <ul className="space-y-3 text-sm text-[#F5EDE3]/90">
+            <li><Link to="/travel-tools" className="hover:text-[#C65A3A] transition-colors duration-300">AI Itinerary Builder</Link></li>
+            <li><Link to="/travel-tools" className="hover:text-[#C65A3A] transition-colors duration-300">Budget + Expense Tracker</Link></li>
+            <li><Link to="/travel-tools" className="hover:text-[#C65A3A] transition-colors duration-300">Smart Packing List PDF</Link></li>
+            <li><Link to="/travel-tools" className="hover:text-[#C65A3A] transition-colors duration-300">Best Area to Stay Finder</Link></li>
+          </ul>
+        </div>
+
+        {/* Destinations */}
+        <div>
+          <h5 className="uppercase tracking-widest text-xs mb-6 text-[#8A9A5B] font-bold">Destinations</h5>
+          <ul className="space-y-3 text-sm text-[#F5EDE3]/90">
+            <li><Link to="/siena" className="hover:text-[#C65A3A] transition-colors duration-300">Siena</Link></li>
+            <li><Link to="/florence" className="hover:text-[#C65A3A] transition-colors duration-300">Florence</Link></li>
+            <li><Link to="/tuscany" className="hover:text-[#C65A3A] transition-colors duration-300">Tuscany Hilltowns</Link></li>
+            <li><Link to="/destinations" className="hover:text-[#C65A3A] transition-colors duration-300">All Destinations</Link></li>
+          </ul>
+        </div>
+
+        {/* Connect & Legal */}
+        <div>
+          <h5 className="uppercase tracking-widest text-xs mb-6 text-[#8A9A5B] font-bold">Connect & Legal</h5>
+          <ul className="space-y-3 text-sm text-[#F5EDE3]/90">
+            <li><Link to="/about" className="hover:text-[#C65A3A] transition-colors duration-300">About Us</Link></li>
+            <li><Link to="/contact" className="hover:text-[#C65A3A] transition-colors duration-300">Contact</Link></li>
+            <li><Link to="/privacy-policy" className="hover:text-[#C65A3A] transition-colors duration-300">Privacy Policy</Link></li>
+            <li><Link to="/terms-of-service" className="hover:text-[#C65A3A] transition-colors duration-300">Terms of Service</Link></li>
+          </ul>
+          <p className="text-xs text-[#F5EDE3]/60 mt-8 leading-relaxed">
+            © 2026 Archi Travel Guide<br/>Independent Editorial
           </p>
         </div>
       </div>

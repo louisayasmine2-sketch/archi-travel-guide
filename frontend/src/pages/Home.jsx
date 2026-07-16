@@ -116,13 +116,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Welcome to Gli Archi 4D Section (parallax heavy) */}
+      {/* Welcome to Gli Archi 4D Section */}
       <section className="relative py-32 bg-[#2C211B] text-white overflow-hidden z-10">
-        {/* Parallax Background Layer */}
         <motion.div 
           style={{ y: welcomeBgY }}
           className="absolute inset-0 bg-cover bg-center opacity-20 h-[120%]" 
-          // Note: using a reliable Unsplash image for Tuscany villa since random isn't stable
           style={{ backgroundImage: "url('https://images.unsplash.com/photo-1549887552-cb1071d3e5ca?q=80&w=1920&auto=format&fit=crop')" }}
         >
         </motion.div>
@@ -147,6 +145,65 @@ export default function HomePage() {
           >
             <div className="absolute inset-0 border border-white/20 rounded-3xl z-10 pointer-events-none"></div>
             <img src="https://images.unsplash.com/photo-1618773928120-2e15dc3ce8aa?q=80&w=800&auto=format&fit=crop" alt="Gli Archi Room" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Destinations in 4D */}
+      <section className="py-28 bg-[#FAF7F2] relative z-20">
+        <div className="max-w-7xl mx-auto px-6">
+          <motion.h2 
+            initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp}
+            className="text-5xl font-serif text-center mb-12 text-[#2C211B]"
+          >
+            Destinations in 4D
+          </motion.h2>
+          
+          <motion.div 
+            initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={staggerContainer}
+            className="grid md:grid-cols-3 gap-8"
+          >
+            {/* Siena */}
+            <motion.div variants={fadeInUp} className="group relative overflow-hidden rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 block">
+              <Link to="/siena">
+                <div className="h-80 bg-cover bg-center relative" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1552604617-2ba077db3d96?q=80&w=800&auto=format&fit=crop')" }}>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent group-hover:from-black/40 transition-all duration-500"></div>
+                  <div className="absolute bottom-8 left-8 text-white">
+                    <h3 className="text-4xl font-serif mb-1 drop-shadow-md">Siena</h3>
+                    <p className="text-[#F5EDE3] drop-shadow-md">The heart of Tuscany</p>
+                  </div>
+                </div>
+                <div className="absolute top-6 right-6 bg-[#C65A3A] text-white text-xs px-4 py-2 rounded-3xl font-bold tracking-wider opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  Explore Now
+                </div>
+              </Link>
+            </motion.div>
+
+            {/* Florence */}
+            <motion.div variants={fadeInUp} className="group relative overflow-hidden rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 block">
+              <Link to="/florence">
+                <div className="h-80 bg-cover bg-center relative" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1543627063-424a1e95690b?q=80&w=800&auto=format&fit=crop')" }}>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent group-hover:from-black/40 transition-all duration-500"></div>
+                  <div className="absolute bottom-8 left-8 text-white">
+                    <h3 className="text-4xl font-serif mb-1 drop-shadow-md">Florence</h3>
+                    <p className="text-[#F5EDE3] drop-shadow-md">Just 1 hour away</p>
+                  </div>
+                </div>
+              </Link>
+            </motion.div>
+
+            {/* Tuscany Hilltowns */}
+            <motion.div variants={fadeInUp} className="group relative overflow-hidden rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 block">
+              <Link to="/tuscany">
+                <div className="h-80 bg-cover bg-center relative" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop')" }}>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent group-hover:from-black/40 transition-all duration-500"></div>
+                  <div className="absolute bottom-8 left-8 text-white">
+                    <h3 className="text-4xl font-serif mb-1 drop-shadow-md">Tuscany Hilltowns</h3>
+                    <p className="text-[#F5EDE3] drop-shadow-md">San Gimignano • Volterra • Montepulciano</p>
+                  </div>
+                </div>
+              </Link>
+            </motion.div>
           </motion.div>
         </div>
       </section>
