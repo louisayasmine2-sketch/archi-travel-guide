@@ -8,6 +8,7 @@ import Home from "@/pages/Home";
 import HubPage from "@/pages/HubPage";
 import SEO from "@/components/common/SEO";
 import { trackPageView } from "@/lib/analytics";
+import GlobalLanguageDetector from "@/components/layout/GlobalLanguageDetector";
 
 const Destinations = lazy(() => import("@/pages/Destinations"));
 const Italy = lazy(() => import("@/pages/Italy"));
@@ -92,7 +93,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <GoogleAnalytics />
-        <Layout>
+        <GlobalLanguageDetector>
+          <Layout>
           <Suspense fallback={<RouteFallback />}>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -192,7 +194,8 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
           </Suspense>
-        </Layout>
+          </Layout>
+        </GlobalLanguageDetector>
         <Toaster position="bottom-right" richColors closeButton />
       </BrowserRouter>
     </div>
