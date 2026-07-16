@@ -44,6 +44,7 @@
     "framer-motion": "11.18.0",
     "input-otp": "1.4.2",
     "jsdom": "^29.1.1",
+    "leaflet": "^1.9.4",
     "lodash": "4.18.1",
     "lucide-react": "0.516.0",
     "next-themes": "0.4.6",
@@ -53,6 +54,7 @@
     "react-dom": "18.3.1",
     "react-helmet-async": "^3.0.0",
     "react-hook-form": "7.56.2",
+    "react-leaflet": "^4.2.1",
     "react-resizable-panels": "3.0.1",
     "react-router-dom": "7.15.0",
     "react-scripts": "5.0.1",
@@ -68,7 +70,6 @@
   "scripts": {
     "start": "craco start",
     "build": "npm run sitemap && craco build && node scripts/generate-static-html.js && node scripts/inject-google-analytics.js",
-    "deploy-smoke": "node scripts/smoke-deploy.mjs",
     "deploy-smoke": "node scripts/smoke-deploy.mjs",
     "test": "craco test",
     "sitemap": "node scripts/generate-sitemap.js"

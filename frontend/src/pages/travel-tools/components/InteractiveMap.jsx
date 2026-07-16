@@ -1,112 +1,106 @@
-import { useState } from "react";
-import axios from "axios";
-import { toast } from "sonner";
-import Breadcrumbs from "@/components/common/Breadcrumbs";
-import AdPlaceholder from "@/components/common/AdPlaceholder";
-import SEO from "@/components/common/SEO";
-import { breadcrumbSchema } from "@/lib/schema";
-import { TOOLS } from "@/constants/testIds";
-import { MapPin } from "lucide-react";
+import React from 'react';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
+import L from 'leaflet';
+import { MapPin } from 'lucide-react';
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
-const SEL = "w-full rounded-xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] px-4 py-3 text-sm focus:border-[hsl(var(--terracotta))] focus:outline-none";
-const LABEL = "text-sm font-medium text-[hsl(var(--charcoal))]";
+// Fix for default Leaflet icon issue in React
+delete L.Icon.Default.prototype._getIconUrl;
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
+  iconUrl: require('leaflet/dist/images/marker-icon.png'),
+  shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+});
+
+const sienaPins = [
+  {
+    id: 1,
+    name: 'Piazza del Campo',
+    position: [43.3184, 11.3316],
+    description: 'The historic heart of Siena. Perfect for first-time visitors wanting to be in the center of the action. Very busy and can be noisy.',
+    isPrimary: false
+  },
+  {
+    id: 2,
+    name: 'Duomo di Siena',
+    position: [43.3176, 11.3289],
+    description: 'Stunning architectural area. Quieter than Il Campo but still very central. Hilly terrain.',
+    isPrimary: false
+  },
+  {
+    id: 3,
+    name: 'Fortezza Medicea',
+    position: [43.3218, 11.3228],
+    description: 'Great for families and active travelers. Close to large parks and easier parking outside the ZTL (Restricted Traffic Zone).',
+    isPrimary: false
+  },
+  {
+    id: 4,
+    name: 'Contrada della Lupa',
+    position: [43.3223, 11.3315],
+    description: 'Authentic local vibe, slightly off the main tourist rush but just steps away from the center. Excellent local trattorias.',
+    isPrimary: true
+  }
+];
 
 export default function InteractiveMap() {
-  const [form, setForm] = useState({ destination: "Siena", budget: "mid", travel_style: "culture", transport_preference: "walk", nightlife: "some", family: false });
-  const [result, setResult] = useState(null);
-  const [loading, setLoading] = useState(false);
-  const upd = (k, v) => setForm((f) => ({ ...f, [k]: v }));
-
-  const submit = async (e) => {
-    e.preventDefault();
-    setLoading(true);
-    try {
-      const res = await axios.post(`${API}/tools/area-finder`, form);
-      setResult(res.data);
-    } catch (_) {
-      toast.error("Couldn't find an area. Please try again.");
-    } finally { setLoading(false); }
-  };
-
   return (
-    <div>
-      
-      <section className="">
-        <div className="container-editorial pt-4 pb-8">
-          
-          <div className="flex items-center gap-3 mt-6">
-            <div className="w-11 h-11 rounded-full bg-[hsl(var(--ivory-2))] grid place-items-center text-[hsl(var(--terracotta))]"><MapPin className="w-5 h-5" /></div>
-            <p className="overline">Best Area to Stay Finder</p>
-          </div>
-          <h2 className="mt-3 font-serif text-5xl md:text-6xl leading-none tracking-tight max-w-3xl">The right neighborhood for your trip.</h2>
-          <p className="mt-5 max-w-2xl text-[hsl(var(--charcoal-soft))] leading-relaxed">
-            Detailed recommendations for Siena, Florence and Rome — general framework for other cities.
-          </p>
+    <div className="font-sans">
+      <div className="flex items-center gap-3 mb-6">
+        <div className="w-12 h-12 rounded-full bg-[#F5EDE3] flex items-center justify-center text-[#C65A3A]">
+          <MapPin className="w-6 h-6" />
         </div>
-      </section>
+        <div>
+          <h2 className="font-serif text-3xl md:text-4xl text-[#2C211B] leading-none">Best Area to Stay Finder</h2>
+          <p className="text-[#8A9A5B] mt-1">Explore Siena's neighborhoods to find your perfect home base.</p>
+        </div>
+      </div>
 
-      <section className="section-y">
-        <div className="container-editorial grid grid-cols-1 lg:grid-cols-12 gap-10">
-          <form onSubmit={submit} data-testid={TOOLS.areaForm} className="lg:col-span-6 rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] p-6 md:p-8 space-y-5">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-              <label className="space-y-1.5"><span className={LABEL}>Destination</span>
-                <input data-testid={TOOLS.areaDestination} className={SEL} value={form.destination} onChange={(e) => upd("destination", e.target.value)} placeholder="e.g. Florence" />
-              </label>
-              <label className="space-y-1.5"><span className={LABEL}>Budget</span>
-                <select data-testid={TOOLS.areaBudget} className={SEL} value={form.budget} onChange={(e) => upd("budget", e.target.value)}>
-                  <option value="budget">Budget</option><option value="mid">Mid</option><option value="luxury">Luxury</option>
-                </select>
-              </label>
-              <label className="space-y-1.5"><span className={LABEL}>Travel style</span>
-                <select data-testid={TOOLS.areaStyle} className={SEL} value={form.travel_style} onChange={(e) => upd("travel_style", e.target.value)}>
-                  <option value="culture">Culture</option><option value="food">Food</option><option value="nature">Nature</option><option value="mix">Mix</option>
-                </select>
-              </label>
-              <label className="space-y-1.5"><span className={LABEL}>Getting around</span>
-                <select data-testid={TOOLS.areaTransport} className={SEL} value={form.transport_preference} onChange={(e) => upd("transport_preference", e.target.value)}>
-                  <option value="walk">Mostly walking</option><option value="public">Mostly public transport</option><option value="car">By car</option>
-                </select>
-              </label>
-              <label className="space-y-1.5"><span className={LABEL}>Nightlife</span>
-                <select data-testid={TOOLS.areaNightlife} className={SEL} value={form.nightlife} onChange={(e) => upd("nightlife", e.target.value)}>
-                  <option value="low">Quiet nights</option><option value="some">Some evening life</option><option value="high">Lively nightlife</option>
-                </select>
-              </label>
-              <label className="flex items-center gap-3 pt-6">
-                <input data-testid={TOOLS.areaFamily} type="checkbox" checked={form.family} onChange={(e) => upd("family", e.target.checked)} className="w-4 h-4 accent-[hsl(var(--terracotta))]" />
-                <span className={LABEL}>Traveling with kids</span>
-              </label>
-            </div>
-            <button data-testid={TOOLS.areaSubmit} type="submit" className="btn-primary" disabled={loading}>
-              {loading ? "Finding area…" : "Find my area"}
-            </button>
-          </form>
-
-          <div className="lg:col-span-6">
-            {result ? (
-              <div data-testid={TOOLS.areaResult} className="rounded-2xl bg-[hsl(var(--charcoal))] text-[hsl(var(--ivory))] p-8 grain">
-                <p className="overline text-[hsl(var(--ivory))]/70">Recommended for {result.destination}</p>
-                <h3 className="font-serif text-4xl md:text-5xl leading-tight mt-3">{result.recommended_area}</h3>
-                <p className="mt-4 text-[hsl(var(--ivory))]/85 leading-relaxed">{result.why}</p>
-                {result.budget_note && <p className="mt-4 text-sm text-[hsl(var(--sand))]">{result.budget_note}</p>}
-                {result.runner_up && (
-                  <div className="mt-8 pt-8 border-t border-[hsl(var(--ivory))]/15">
-                    <p className="text-xs uppercase tracking-widest text-[hsl(var(--ivory))]/60">Runner-up</p>
-                    <p className="font-serif text-2xl mt-1">{result.runner_up}</p>
-                    <p className="text-sm text-[hsl(var(--ivory))]/75 mt-2">{result.runner_up_why}</p>
+      <div className="bg-white rounded-3xl p-2 border border-[#F5EDE3] shadow-sm mb-6">
+        <div className="h-[500px] w-full rounded-2xl overflow-hidden relative z-0">
+          <MapContainer center={[43.3188, 11.3309]} zoom={15} scrollWheelZoom={false} className="h-full w-full">
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            {sienaPins.map((pin) => (
+              <Marker key={pin.id} position={pin.position}>
+                <Popup className="custom-popup">
+                  <div className="text-center p-1">
+                    <h4 className="font-serif text-lg text-[#2C211B] mb-1">{pin.name}</h4>
+                    <p className="text-sm text-[#8A9A5B] mb-3 leading-tight">{pin.description}</p>
+                    {pin.isPrimary ? (
+                      <div className="mt-2">
+                        <span className="inline-block bg-[#F5EDE3] text-[#C65A3A] text-xs font-bold uppercase tracking-wider px-2 py-1 rounded-md mb-2">
+                          ⭐ Recommended Stay
+                        </span>
+                        <a 
+                          href="https://beds24.com/booking2.php?propid=215570" 
+                          target="_blank" 
+                          rel="noreferrer"
+                          className="block w-full bg-[#C65A3A] hover:bg-[#A84A2E] text-white py-2 rounded-lg font-medium transition-colors text-sm"
+                        >
+                          Book Affittacamere Gli Archi
+                        </a>
+                      </div>
+                    ) : null}
                   </div>
-                )}
-              </div>
-            ) : (
-              <div className="rounded-2xl border border-dashed border-[hsl(var(--stone-border))] p-8 text-[hsl(var(--charcoal-soft))] leading-relaxed">
-                Answer the questions to get a targeted neighborhood recommendation. Deep coverage for Siena, Florence and Rome.
-              </div>
-            )}
-            <div className="mt-8"><AdPlaceholder /></div>
-          </div>
+                </Popup>
+              </Marker>
+            ))}
+          </MapContainer>
         </div>
-      </section>
+      </div>
+
+      <div className="bg-[#FAF7F2] rounded-3xl p-6 border border-[#F5EDE3]">
+        <h3 className="font-semibold text-lg text-[#2C211B] mb-3">Why location matters in Siena</h3>
+        <p className="text-[#8A9A5B] text-sm leading-relaxed mb-4">
+          Siena is highly walkable but very hilly. The entire city center is a ZTL (Zona a Traffico Limitato) meaning you cannot drive inside without a special permit. Staying near the edges of the historic center gives you the best of both worlds: walkability to the sights and easier access for luggage and parking.
+        </p>
+        <p className="text-[#8A9A5B] text-sm leading-relaxed">
+          <strong>Tip:</strong> Look for accommodations just inside or right outside the city walls for the most convenient experience.
+        </p>
+      </div>
     </div>
   );
 }
