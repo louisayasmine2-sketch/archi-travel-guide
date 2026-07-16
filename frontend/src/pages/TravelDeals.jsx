@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { toast } from "sonner";
+import { motion } from "framer-motion";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import AffiliateCard from "@/components/common/AffiliateCard";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
@@ -8,6 +9,7 @@ import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";
 import { trackLeadSubmit } from "@/lib/analytics";
 import { Send } from "lucide-react";
+import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 
 const RESOURCES = [
   { title: "Compare hotels across major booking sites", provider: "Hotels", tag: "Search", description: "Meta-search platforms let you compare prices from booking sites in one place — better than pledging loyalty to one.", href: "/travel-deals?utm_source=archi&utm_medium=deals&utm_campaign=hub" },
@@ -20,8 +22,8 @@ const RESOURCES = [
 
 const API = process.env.REACT_APP_BACKEND_URL ? `${process.env.REACT_APP_BACKEND_URL}/api/contact` : null;
 const CONTACT_EMAIL = "contact@affittacameregliarchi.com";
-const FIELD = "w-full rounded-xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] px-4 py-3 text-sm focus:border-[hsl(var(--terracotta))] focus:outline-none";
-const LABEL = "text-sm font-medium text-[hsl(var(--charcoal))]";
+const FIELD = "w-full rounded-2xl border-2 border-[#F5EDE3] bg-[#FAF7F2] px-5 py-4 text-sm focus:border-[#C65A3A] focus:outline-none transition-all shadow-inner";
+const LABEL = "text-sm font-bold text-[#8A9A5B] uppercase tracking-widest";
 
 const requestMailto = ({ name, email, category, message }) => {
   const body = [
@@ -36,47 +38,81 @@ const requestMailto = ({ name, email, category, message }) => {
 };
 
 export default function TravelDeals() {
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 40 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
+  };
+
+  const staggerContainer = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { staggerChildren: 0.15 } }
+  };
+
   return (
-    <div>
+    <div className="min-h-screen bg-[#FAF7F2] font-sans overflow-hidden">
       <SEO
         title="Travel Deals & Resources — Curated tools for hotels, tours, eSIM, insurance"
         description="A small, carefully-chosen shortlist of travel platforms Archi recommends for hotels, tours, eSIM, insurance, transport and gear. Clear affiliate disclosure."
         path="/travel-deals"
         schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Travel Deals & Resources' }])}
       />
-      <section className="border-b border-[hsl(var(--stone-border))]">
-        <div className="container-editorial pt-10 pb-14">
-          <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Travel Deals & Resources" }]} />
-          <p className="overline mt-6">Curated travel resources</p>
-          <h1 className="mt-3 font-serif text-5xl md:text-6xl leading-none tracking-tight max-w-3xl">Travel Deals & Resources</h1>
-          <p className="mt-5 max-w-3xl text-lg text-[hsl(var(--charcoal-soft))] leading-relaxed">
-            A small, carefully-chosen shortlist of platforms we recommend for hotels, tours, connectivity, insurance,
-            transport and gear. Every card is clearly marked. We may earn a commission at no extra cost to you —
-            editorial choices remain independent.
-          </p>
+      
+      {/* 4D Header */}
+      <section className="relative py-32 bg-[#2C211B] text-white overflow-hidden">
+        <motion.div 
+          initial={{ scale: 1.1 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
+          className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=2000&q=80')] bg-cover bg-center opacity-20"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-[#2C211B] z-10"></div>
+        
+        <div className="relative z-20 max-w-7xl mx-auto px-6 text-center">
+          <motion.div initial="hidden" animate="visible" variants={staggerContainer}>
+            <motion.div variants={fadeInUp} className="mb-6 flex justify-center">
+              <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Travel Deals & Resources" }]} />
+            </motion.div>
+            <motion.h1 variants={fadeInUp} className="text-6xl md:text-8xl font-serif mb-6 drop-shadow-xl text-white">
+              Travel Deals <span className="text-[#8A9A5B]">& Resources</span>
+            </motion.h1>
+            <motion.p variants={fadeInUp} className="text-xl max-w-3xl mx-auto text-[#F5EDE3]/90 leading-relaxed drop-shadow-md">
+              A small, carefully-chosen shortlist of platforms we recommend. Every card is clearly marked. We may earn a commission at no extra cost to you.
+            </motion.p>
+          </motion.div>
         </div>
       </section>
 
-      <section className="section-y">
-        <div className="container-editorial">
-          <div className="rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] p-6 mb-10">
-            <p className="text-sm leading-relaxed">
-              <strong className="font-semibold">Affiliate disclosure:</strong> Some cards may contain affiliate links once partner URLs are active.
-              If you buy through a live partner link, we may earn a small commission — the price you pay does not change.
-              We only list tools we would recommend anyway.
+      <section className="py-24 relative z-30">
+        <div className="max-w-7xl mx-auto px-6">
+          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp} className="rounded-[2rem] border border-[#F5EDE3] bg-white p-8 shadow-xl mb-16 flex flex-col md:flex-row items-center gap-6 text-[#8A9A5B]">
+            <div className="p-4 bg-[#FAF7F2] rounded-full text-[#C65A3A]">
+              <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+            </div>
+            <p className="text-lg leading-relaxed flex-1">
+              <strong className="font-semibold text-[#2C211B]">Affiliate disclosure:</strong> Some cards contain affiliate links. If you buy through a partner link, we may earn a small commission — the price you pay does not change. We only list tools we actually use.
             </p>
-          </div>
+          </motion.div>
 
-          <DealLeadForm />
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {RESOURCES.map((r) => (
-              <AffiliateCard key={r.title} {...r} />
-            ))}
-          </div>
-
-          <div className="mt-14">
-            <AdPlaceholder />
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
+            <div className="lg:col-span-8">
+              <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={staggerContainer} className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+                {RESOURCES.map((r) => (
+                  <motion.div key={r.title} variants={fadeInUp} className="group h-full bg-white rounded-[2rem] overflow-hidden shadow-lg hover:shadow-[0_30px_60px_rgba(0,0,0,0.15)] transition-all duration-700 hover:-translate-y-4 border border-[#F5EDE3]/50">
+                    <AffiliateCard {...r} />
+                  </motion.div>
+                ))}
+              </motion.div>
+              
+              <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp}>
+                <AdPlaceholder className="rounded-[2rem] overflow-hidden shadow-xl" />
+              </motion.div>
+            </div>
+            
+            <aside className="lg:col-span-4">
+              <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp} className="sticky top-32">
+                <DealLeadForm />
+              </motion.div>
+            </aside>
           </div>
         </div>
       </section>
@@ -98,85 +134,63 @@ function DealLeadForm() {
     event.preventDefault();
 
     if (!API) {
-      trackLeadSubmit({
-        form_source: "travel_deals_request",
-        delivery_method: "mailto",
-        category: form.category,
-      });
+      trackLeadSubmit({ form_source: "deals_page", delivery_method: "mailto" });
       window.location.href = requestMailto(form);
-      toast.info("Opening your email app with this request prepared.");
+      toast.info("Opening your email app...");
       return;
     }
 
     setLoading(true);
     try {
-      await axios.post(API, {
-        name: form.name,
-        email: form.email,
-        subject: `Travel deals request: ${form.category}`,
-        message: form.message,
-      });
-      trackLeadSubmit({
-        form_source: "travel_deals_request",
-        delivery_method: "backend",
-        category: form.category,
-      });
-      toast.success("Request sent. We will reply with a practical shortlist.");
-      setForm({
-        name: "",
-        email: "",
-        category: "Hotels",
-        message: "I need a short recommendation for Siena or Tuscany. My dates, budget, and travel style are...",
-      });
-    } catch {
-      toast.error(`We could not send this request right now. Please email ${CONTACT_EMAIL}.`);
+      const res = await axios.post(API, form);
+      trackLeadSubmit({ form_source: "deals_page", delivery_method: "backend" });
+      toast.success(res.data.message || "Request sent. We will reply soon.");
+      setForm({ name: "", email: "", category: "Hotels", message: "" });
+    } catch (_) {
+      toast.error(`Could not send right now. Please email ${CONTACT_EMAIL}.`);
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <form onSubmit={submit} className="mb-12 rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] p-6 md:p-8">
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-        <div className="lg:col-span-5">
-          <p className="overline">Fast shortlist</p>
-          <h2 className="mt-2 font-serif text-3xl leading-tight">Need one practical recommendation?</h2>
-          <p className="mt-3 text-sm text-[hsl(var(--charcoal-soft))] leading-relaxed">
-            Send your route, dates and budget. We will point you toward the most useful category first, without pushing a partner link.
-          </p>
+    <div className="rounded-[2.5rem] border border-[#F5EDE3] bg-white p-8 md:p-10 shadow-2xl relative overflow-hidden">
+      <div className="absolute top-0 right-0 p-8 opacity-20">
+        <Send className="w-24 h-24 text-[#C65A3A]" />
+      </div>
+      <div className="relative z-10">
+        <div className="flex items-center gap-3 mb-2">
+          <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B]">Free advice</p>
+          <AIRecommendedBadge />
         </div>
-        <div className="lg:col-span-7 space-y-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <label className="space-y-1.5">
-              <span className={LABEL}>Name</span>
-              <input required value={form.name} onChange={(e) => update("name", e.target.value)} className={FIELD} placeholder="Your name" />
-            </label>
-            <label className="space-y-1.5">
-              <span className={LABEL}>Email</span>
-              <input required type="email" value={form.email} onChange={(e) => update("email", e.target.value)} className={FIELD} placeholder="you@email.com" />
-            </label>
-          </div>
-          <label className="space-y-1.5 block">
-            <span className={LABEL}>What do you need?</span>
-            <select value={form.category} onChange={(e) => update("category", e.target.value)} className={FIELD}>
+        <h3 className="font-serif text-3xl mt-2 mb-8 text-[#2C211B]">Need a custom recommendation?</h3>
+        <form onSubmit={submit} className="space-y-6 relative">
+          <label className="block space-y-2">
+            <span className={LABEL}>Name</span>
+            <input required className={FIELD} value={form.name} onChange={(e) => update("name", e.target.value)} />
+          </label>
+          <label className="block space-y-2">
+            <span className={LABEL}>Email</span>
+            <input required type="email" className={FIELD} value={form.email} onChange={(e) => update("email", e.target.value)} />
+          </label>
+          <label className="block space-y-2">
+            <span className={LABEL}>Category</span>
+            <select className={FIELD + " cursor-pointer"} value={form.category} onChange={(e) => update("category", e.target.value)}>
               <option>Hotels</option>
               <option>Tours</option>
               <option>Transport</option>
-              <option>eSIM</option>
               <option>Insurance</option>
-              <option>Gear</option>
             </select>
           </label>
-          <label className="space-y-1.5 block">
-            <span className={LABEL}>Trip notes</span>
-            <textarea required rows={4} value={form.message} onChange={(e) => update("message", e.target.value)} className={`${FIELD} resize-y`} />
+          <label className="block space-y-2">
+            <span className={LABEL}>Details</span>
+            <textarea required rows={4} className={FIELD + " resize-y"} value={form.message} onChange={(e) => update("message", e.target.value)} />
           </label>
-          <button type="submit" className="btn-primary" disabled={loading}>
-            <Send className="w-4 h-4" />
-            {loading ? "Sending..." : "Send request"}
+          <button type="submit" disabled={loading} className="w-full bg-[#C65A3A] hover:bg-[#A84A2E] text-white px-8 py-4 rounded-2xl text-lg font-semibold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 mt-4">
+            {loading ? "Sending..." : "Request Advice"}
           </button>
-        </div>
+        </form>
       </div>
-    </form>
+    </div>
   );
 }

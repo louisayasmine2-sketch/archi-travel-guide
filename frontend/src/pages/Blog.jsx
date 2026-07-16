@@ -1,11 +1,13 @@
 import { useMemo, useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
+import { motion } from "framer-motion";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import ArticleCard from "@/components/common/ArticleCard";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";
 import { articles } from "@/data/articles";
 import { Search } from "lucide-react";
+import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 
 export default function Blog() {
   const [params, setParams] = useSearchParams();
@@ -28,52 +30,97 @@ export default function Blog() {
     setParams(q.trim() ? { q: q.trim() } : {});
   };
 
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 40 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
+  };
+
+  const staggerContainer = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { staggerChildren: 0.15 } }
+  };
+
   return (
-    <div>
+    <div className="min-h-screen bg-[#FAF7F2] font-sans">
       <SEO
         title="Blog — Every Archi Travel Guide, one shelf"
         description="All Archi Travel Guide articles: itineraries, planning frameworks, budget guides, food guides, transport tips. Filter by destination or search a term."
         path="/blog"
         schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Blog' }])}
       />
-      <section className="border-b border-[hsl(var(--stone-border))]">
-        <div className="container-editorial pt-10 pb-14">
-          <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Blog" }]} />
-          <p className="overline mt-6">Editorial index</p>
-          <h1 className="mt-3 font-serif text-5xl md:text-6xl leading-none tracking-tight max-w-3xl">
-            Every guide, one shelf.
-          </h1>
-          <p className="mt-5 max-w-2xl text-lg text-[hsl(var(--charcoal-soft))] leading-relaxed">
-            Long-form guides, itineraries, and practical frameworks. Filter by destination or search a term.
-          </p>
+      
+      {/* 4D Header */}
+      <section className="relative py-32 bg-[#2C211B] text-white overflow-hidden">
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=2000&q=80')] bg-cover bg-center opacity-20"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-[#2C211B] z-10"></div>
+        
+        <div className="max-w-7xl mx-auto px-6 relative z-20 text-center">
+          <motion.div initial="hidden" animate="visible" variants={staggerContainer}>
+            <motion.div variants={fadeInUp} className="mb-6 flex justify-center">
+              <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Blog" }]} />
+            </motion.div>
+            <motion.h1 variants={fadeInUp} className="text-6xl md:text-8xl font-serif mb-6 drop-shadow-xl">
+              Every guide, <span className="text-[#8A9A5B]">one shelf.</span>
+            </motion.h1>
+            <motion.p variants={fadeInUp} className="text-xl max-w-2xl mx-auto text-[#F5EDE3]/90 leading-relaxed drop-shadow-md">
+              Long-form guides, itineraries, and practical frameworks. Filter by destination or search a term.
+            </motion.p>
+          </motion.div>
+        </div>
+      </section>
 
-          <form onSubmit={onSubmit} className="mt-10 flex flex-col sm:flex-row gap-3 max-w-2xl">
-            <label className="relative flex-1">
-              <Search className="w-4 h-4 absolute left-4 top-1/2 -translate-y-1/2 text-[hsl(var(--charcoal-soft))]" />
+      {/* Filter Section */}
+      <section className="py-12 bg-white shadow-sm sticky top-[4rem] z-30">
+        <div className="max-w-7xl mx-auto px-6">
+          <form onSubmit={onSubmit} className="flex flex-col sm:flex-row gap-4 items-center justify-center max-w-4xl mx-auto">
+            <label className="relative w-full sm:flex-1 shadow-lg rounded-full">
+              <Search className="w-5 h-5 absolute left-5 top-1/2 -translate-y-1/2 text-[#2C211B]/50" />
               <input
                 value={q}
                 onChange={(e) => setQ(e.target.value)}
-                placeholder="Search guides"
-                className="w-full rounded-full border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] pl-11 pr-5 py-3 text-sm focus:border-[hsl(var(--terracotta))] focus:outline-none"
+                placeholder="Search articles (e.g. Rome, Budget)"
+                className="w-full rounded-full border-2 border-[#F5EDE3] bg-[#FAF7F2] pl-14 pr-6 py-4 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors"
               />
             </label>
             <select
               value={region}
               onChange={(e) => setRegion(e.target.value)}
-              className="rounded-full border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] px-5 py-3 text-sm focus:border-[hsl(var(--terracotta))] focus:outline-none"
+              className="w-full sm:w-auto rounded-full border-2 border-[#F5EDE3] bg-[#FAF7F2] px-8 py-4 text-sm focus:border-[#C65A3A] focus:outline-none shadow-lg cursor-pointer transition-colors"
             >
-              {regions.map((r) => <option key={r} value={r}>{r === "all" ? "All regions" : r}</option>)}
+              {regions.map((r) => (
+                <option key={r} value={r}>{r === "all" ? "All regions" : r}</option>
+              ))}
             </select>
           </form>
         </div>
       </section>
 
-      <section className="section-y">
-        <div className="container-editorial">
-          <p className="text-sm text-[hsl(var(--charcoal-soft))] mb-8">{filtered.length} guides</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filtered.map((a) => <ArticleCard key={a.slug} article={a} />)}
+      <section className="py-24">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex items-center justify-between mb-12">
+            <p className="text-xl text-[#8A9A5B] font-serif">{filtered.length} guides found</p>
+            <AIRecommendedBadge />
           </div>
+          
+          {filtered.length === 0 ? (
+            <div className="text-center py-20">
+              <p className="text-2xl text-[#2C211B] font-serif">No guides found for that query.</p>
+            </div>
+          ) : (
+            <motion.div 
+              initial="hidden" 
+              whileInView="visible" 
+              viewport={{ once: true, margin: "-100px" }} 
+              variants={staggerContainer}
+              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+            >
+              {filtered.map((a) => (
+                <motion.div key={a.slug} variants={fadeInUp} className="group bg-white rounded-[2rem] overflow-hidden shadow-xl hover:shadow-[0_30px_60px_rgba(0,0,0,0.15)] transition-all duration-700 hover:-translate-y-4 h-full border border-[#F5EDE3]/50">
+                  <ArticleCard article={a} />
+                </motion.div>
+              ))}
+            </motion.div>
+          )}
         </div>
       </section>
     </div>
