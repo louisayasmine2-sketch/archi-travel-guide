@@ -16,6 +16,8 @@ import { Send, ChevronDown } from "lucide-react";
 import axios from "axios";
 import { toast } from "sonner";
 import { useState } from "react";
+import { motion } from "framer-motion";
+import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 
 const renderInlineMarkdown = (text, keyPrefix) => {
   const parts = [];
@@ -219,8 +221,13 @@ export default function Article({ fixedSlug, canonicalPath }) {
     ...(article.faqs?.length ? [faqSchema(article.faqs)] : []),
   ];
 
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 40 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
+  };
+
   return (
-    <article>
+    <article className="bg-[#FAF7F2] font-sans min-h-screen">
       <SEO
         title={article.seoTitle || article.title}
         description={article.excerpt}
@@ -230,24 +237,50 @@ export default function Article({ fixedSlug, canonicalPath }) {
         articleMeta={{ published: article.published || article.updated, modified: article.updated, section: article.category, tags: [article.region, article.category] }}
         schema={schemas}
       />
-      <div className="container-editorial pt-8">
-        <Breadcrumbs items={crumbs} />
-      </div>
+      
+      {/* 4D Cinematic Hero */}
+      <section className="relative h-[80vh] min-h-[600px] overflow-hidden bg-[#2C211B] text-white">
+        {article.image && (
+          <motion.div 
+            initial={{ scale: 1 }}
+            animate={{ scale: 1.05 }}
+            transition={{ duration: 25, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
+            className="absolute inset-0 w-full h-full"
+          >
+            <img src={article.image} alt={article.imageAlt || article.title} loading="eager" className="w-full h-full object-cover opacity-60" />
+          </motion.div>
+        )}
+        
+        <div className="absolute inset-0 bg-gradient-to-t from-[#2C211B] via-black/40 to-transparent z-10 pointer-events-none"></div>
+        <div className="absolute inset-0 bg-radial-gradient from-transparent via-transparent to-black/60 z-10 pointer-events-none"></div>
+        
+        <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-6 mt-16 max-w-5xl mx-auto">
+          <motion.div initial="hidden" animate="visible" variants={{ hidden: { opacity: 0 }, visible: { opacity: 1, transition: { staggerChildren: 0.15 } } }} className="w-full">
+            <motion.div variants={fadeInUp} className="mb-6 flex justify-center">
+              <Breadcrumbs items={crumbs} />
+            </motion.div>
+            <motion.div variants={fadeInUp} className="mb-4 flex justify-center items-center gap-3">
+               <span className="text-xs uppercase tracking-[0.2em] font-bold text-[#8A9A5B] bg-white/10 px-4 py-1.5 rounded-full backdrop-blur-md border border-white/20">
+                 {article.category}
+               </span>
+               <AIRecommendedBadge />
+            </motion.div>
+            <motion.h1 variants={fadeInUp} className="text-5xl md:text-7xl font-serif leading-[1.05] tracking-tight mb-8 drop-shadow-[0_20px_20px_rgba(0,0,0,0.8)]">
+              {article.title}
+            </motion.h1>
+            <motion.p variants={fadeInUp} className="text-xl md:text-2xl text-[#F5EDE3] drop-shadow-md font-light leading-relaxed max-w-3xl mx-auto">
+              {article.excerpt}
+            </motion.p>
+          </motion.div>
+        </div>
+      </section>
 
-      <header className="container-editorial pt-8 pb-4 max-w-4xl">
-        <p className="overline">{article.category}</p>
-        <h1 className="font-serif text-4xl md:text-6xl leading-[1.05] tracking-tight mt-3">{article.title}</h1>
-        <p className="mt-6 text-xl text-[hsl(var(--charcoal-soft))] leading-relaxed max-w-2xl">{article.excerpt}</p>
-      </header>
-
-      {article.image && (
-      <div className="container-editorial">
-        <LazyImage src={article.image} alt={article.imageAlt || article.title} ratio="16/9" className="rounded-2xl mt-4" eager />
-        {imageCredit && (
-          <p className="mt-3 text-xs leading-relaxed text-[hsl(var(--charcoal-soft))]">
-            Photo:{" "}
-            {imageCredit.source ? (
-              <a href={imageCredit.source} target="_blank" rel="nofollow noopener noreferrer" className="link-terra">
+      {article.image && imageCredit && (
+          <div className="max-w-5xl mx-auto px-6 mt-4">
+            <p className="text-xs leading-relaxed text-[#8A9A5B] text-right">
+              Photo:{" "}
+              {imageCredit.source ? (
+                <a href={imageCredit.source} target="_blank" rel="nofollow noopener noreferrer" className="text-[#C65A3A] hover:underline">
                 {imageCredit.author}
               </a>
             ) : (

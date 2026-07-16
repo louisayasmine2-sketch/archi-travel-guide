@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import { Mail, MapPin, Compass, Calendar, Home, Star } from "lucide-react";
+import { motion } from "framer-motion";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import RecommendedTravelResources from "@/components/common/RecommendedTravelResources";
 import SEO from "@/components/common/SEO";
 import { articleSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { SITE_URL, canonical, websiteSchema } from "@/lib/seo";
+import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 
 const SCHEMA_UPDATED = "2026-07-10";
 
@@ -241,7 +243,7 @@ export default function HubPage({ pageKey, routePath }) {
   ];
 
   return (
-    <div>
+    <div className="min-h-screen bg-[#FAF7F2] font-sans overflow-hidden">
       <SEO
         title={page.title}
         description={page.description}
@@ -251,39 +253,71 @@ export default function HubPage({ pageKey, routePath }) {
         schema={schema}
       />
 
-      <section className="border-b border-[hsl(var(--stone-border))]">
-        <div className="container-editorial pt-10 pb-14">
-          <Breadcrumbs items={breadcrumbs} />
-          <p className="mt-6 inline-flex items-center gap-2 text-sm">
-            <Icon className="w-4 h-4 text-[hsl(var(--terracotta))]" />
-            <span className="overline">Travel hub</span>
-          </p>
-          <h1 className="mt-3 font-serif text-5xl md:text-6xl leading-none tracking-tight max-w-3xl">{page.h1}</h1>
-          <p className="mt-5 max-w-2xl text-lg text-[hsl(var(--charcoal-soft))] leading-relaxed">{page.intro}</p>
-          <ul className="mt-6 space-y-2 text-[hsl(var(--charcoal))]">
-            {page.bullets.map((b) => (
-              <li key={b} className="flex gap-2">
-                <span className="text-[hsl(var(--terracotta))]">•</span>
-                <span>{b}</span>
-              </li>
-            ))}
-          </ul>
-          <a href="/contact" className="inline-flex mt-8 btn-primary">
-            Need direct booking support?
-          </a>
+      {/* 4D Header */}
+      <section className="relative py-32 bg-[#2C211B] text-white overflow-hidden">
+        <motion.div 
+          initial={{ scale: 1.1 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
+          className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=2000&q=80')] bg-cover bg-center opacity-20"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-[#2C211B] z-10"></div>
+        
+        <div className="relative z-20 max-w-7xl mx-auto px-6 text-center">
+          <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: "easeOut" }}>
+            <div className="mb-6 flex justify-center">
+              <Breadcrumbs items={breadcrumbs} />
+            </div>
+            <p className="mt-6 inline-flex items-center justify-center gap-2 text-sm text-[#F5EDE3]">
+              <Icon className="w-4 h-4 text-[#C65A3A]" />
+              <span className="uppercase tracking-[0.2em] font-bold">Travel hub</span>
+            </p>
+            <h1 className="mt-4 font-serif text-5xl md:text-7xl leading-none tracking-tight drop-shadow-xl">
+              {page.h1}
+            </h1>
+            <p className="mt-6 max-w-2xl mx-auto text-xl text-[#F5EDE3]/90 leading-relaxed drop-shadow-md">
+              {page.intro}
+            </p>
+          </motion.div>
         </div>
       </section>
 
-      <section className="section-y">
-        <div className="container-editorial">
-          <h2 className="font-serif text-3xl md:text-4xl">{page.cta.title}</h2>
-          <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
-            {page.cta.items.map((item) => (
-              <Link key={item.to} to={item.to} className="card-editorial p-6 block">
-                <h3 className="font-serif text-2xl">{item.label}</h3>
-                <p className="mt-3 text-sm text-[hsl(var(--charcoal-soft))] leading-relaxed">{item.desc}</p>
-                <span className="mt-5 inline-block text-sm text-[hsl(var(--terracotta))] font-medium">Open →</span>
-              </Link>
+      <section className="py-24 bg-[#FAF7F2] relative z-30">
+        <div className="max-w-7xl mx-auto px-6">
+          
+          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="rounded-[2.5rem] border border-[#F5EDE3] bg-white p-10 md:p-14 shadow-2xl mb-16 flex flex-col md:flex-row items-center gap-10">
+            <div className="flex-1">
+               <div className="flex items-center gap-3 mb-4">
+                  <h2 className="font-serif text-4xl text-[#2C211B]">About this hub</h2>
+                  <AIRecommendedBadge />
+               </div>
+               <ul className="space-y-4 text-[#8A9A5B] text-lg">
+                {page.bullets.map((b) => (
+                  <li key={b} className="flex gap-4">
+                    <span className="text-[#C65A3A] text-2xl font-bold mt-1">•</span>
+                    <span className="leading-relaxed">{b}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <a href="/contact" className="bg-[#2C211B] text-white px-8 py-5 rounded-2xl text-lg font-semibold shadow-xl hover:-translate-y-1 hover:shadow-2xl transition-all w-full md:w-auto text-center">
+              Need direct support?
+            </a>
+          </motion.div>
+
+          <motion.h2 initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="font-serif text-4xl md:text-5xl text-center mb-12 text-[#2C211B]">{page.cta.title}</motion.h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {page.cta.items.map((item, index) => (
+              <motion.div key={item.to} initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: index * 0.15 }} className="group">
+                <Link to={item.to} className="block h-full bg-white rounded-[2rem] p-8 shadow-xl hover:shadow-[0_30px_60px_rgba(0,0,0,0.15)] transition-all duration-700 hover:-translate-y-4 border border-[#F5EDE3]/50">
+                  <h3 className="font-serif text-3xl text-[#2C211B] mb-4 group-hover:text-[#C65A3A] transition-colors">{item.label}</h3>
+                  <p className="text-sm text-[#8A9A5B] leading-relaxed mb-6">{item.desc}</p>
+                  <div className="inline-flex items-center gap-2 text-[#C65A3A] font-semibold group-hover:text-[#A84A2E] transition-colors">
+                    Open <span className="transform transition-transform group-hover:translate-x-1">&rarr;</span>
+                  </div>
+                </Link>
+              </motion.div>
             ))}
           </div>
         </div>
@@ -295,22 +329,23 @@ export default function HubPage({ pageKey, routePath }) {
         />
       )}
 
-      <section className="section-y bg-[hsl(var(--ivory-2))]">
-        <div className="container-editorial max-w-3xl">
-          <p className="overline">Quick FAQ</p>
-          <h2 className="font-serif text-3xl mt-2">Questions travelers ask first</h2>
-          <p className="mt-4 text-[hsl(var(--charcoal-soft))]">
+      <section className="py-24 bg-white relative z-30">
+        <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="max-w-4xl mx-auto px-6">
+          <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B] mb-2 text-center">Quick FAQ</p>
+          <h2 className="font-serif text-4xl md:text-5xl mb-6 text-center text-[#2C211B]">Questions travelers ask first</h2>
+          <p className="text-xl text-[#8A9A5B] text-center mb-12">
             We keep answers short and practical so planning can move forward quickly.
           </p>
-          <div className="mt-8">
+          
+          <div className="space-y-6">
             {page.faqs.map((faq) => (
-              <details key={faq.q} className="group border-b border-[hsl(var(--stone-border))] py-3">
-                <summary className="font-semibold cursor-pointer list-none text-lg">{faq.q}</summary>
-                <p className="mt-3 text-sm text-[hsl(var(--charcoal-soft))] leading-relaxed">{faq.a}</p>
-              </details>
+              <div key={faq.q} className="rounded-2xl border border-[#F5EDE3] bg-[#FAF7F2] p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-serif text-2xl text-[#2C211B] mb-3">{faq.q}</h4>
+                <p className="text-[#8A9A5B] leading-relaxed">{faq.a}</p>
+              </div>
             ))}
           </div>
-        </div>
+        </motion.div>
       </section>
     </div>
   );

@@ -1,12 +1,14 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ExternalLink } from "lucide-react";
+import { motion } from "framer-motion";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema, articleSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import { trackAffiliateClick } from "@/lib/analytics";
 import guide from "@/data/florenceToSienaGuide.json";
+import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 
 const breadcrumbs = [
   { label: "Home", to: "/" },
@@ -253,8 +255,13 @@ export default function FlorenceToSienaGuide() {
   ];
   const items = tocItems(guide.bodyMarkdown);
 
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 40 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
+  };
+
   return (
-    <article className="longform-article">
+    <article className="longform-article bg-[#FAF7F2] font-sans min-h-screen">
       <SEO
         title={guide.seoTitle}
         titleTemplate="exact"
@@ -266,16 +273,42 @@ export default function FlorenceToSienaGuide() {
         schema={schemas}
       />
 
-      <div className="container-editorial pt-8">
-        <Breadcrumbs items={breadcrumbs} />
-      </div>
+      {/* 4D Cinematic Hero */}
+      <section className="relative h-[80vh] min-h-[600px] overflow-hidden bg-[#2C211B] text-white">
+        <motion.div 
+          initial={{ scale: 1 }}
+          animate={{ scale: 1.05 }}
+          transition={{ duration: 25, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
+          className="absolute inset-0 w-full h-full"
+        >
+          <img src={guide.hero.src} alt={guide.hero.alt} loading="eager" className="w-full h-full object-cover opacity-60" />
+        </motion.div>
+        
+        <div className="absolute inset-0 bg-gradient-to-t from-[#2C211B] via-black/40 to-transparent z-10 pointer-events-none"></div>
+        <div className="absolute inset-0 bg-radial-gradient from-transparent via-transparent to-black/60 z-10 pointer-events-none"></div>
+        
+        <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-6 mt-16 max-w-5xl mx-auto">
+          <motion.div initial="hidden" animate="visible" variants={{ hidden: { opacity: 0 }, visible: { opacity: 1, transition: { staggerChildren: 0.15 } } }} className="w-full">
+            <motion.div variants={fadeInUp} className="mb-6 flex justify-center">
+              <Breadcrumbs items={breadcrumbs} />
+            </motion.div>
+            <motion.div variants={fadeInUp} className="mb-4 flex justify-center items-center gap-3">
+               <span className="text-xs uppercase tracking-[0.2em] font-bold text-[#8A9A5B] bg-white/10 px-4 py-1.5 rounded-full backdrop-blur-md border border-white/20">
+                 {guide.category}
+               </span>
+               <AIRecommendedBadge />
+            </motion.div>
+            <motion.h1 variants={fadeInUp} className="text-5xl md:text-7xl font-serif leading-[1.05] tracking-tight mb-8 drop-shadow-[0_20px_20px_rgba(0,0,0,0.8)]">
+              {guide.title}
+            </motion.h1>
+            <motion.div variants={fadeInUp} className="text-xl md:text-2xl text-[#F5EDE3] drop-shadow-md font-light leading-relaxed max-w-3xl mx-auto">
+              <MarkdownBlocks markdown={guide.introMarkdown} />
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
 
       <header className="longform-header container-reading pt-8 pb-6">
-        <p className="overline">{guide.category}</p>
-        <h1>{guide.title}</h1>
-        <div className="longform-intro">
-          <MarkdownBlocks markdown={guide.introMarkdown} />
-        </div>
         <dl className="longform-meta">
           <div>
             <dt>Author</dt>
