@@ -3,6 +3,23 @@ import { Suspense, lazy } from "react";
 import SEO from "@/components/common/SEO";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 
+// Skeleton loader to reduce CLS and provide immediate feedback for LCP
+function ToolSkeleton() {
+  return (
+    <div className="w-full animate-pulse rounded-2xl border border-[hsl(var(--stone-border))] bg-white/50 p-8 space-y-6">
+      <div className="h-10 w-1/3 bg-gray-200 rounded-md"></div>
+      <div className="h-4 w-1/2 bg-gray-200 rounded-md"></div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-8">
+        <div className="h-12 bg-gray-200 rounded-xl"></div>
+        <div className="h-12 bg-gray-200 rounded-xl"></div>
+        <div className="h-12 bg-gray-200 rounded-xl"></div>
+        <div className="h-12 bg-gray-200 rounded-xl"></div>
+      </div>
+      <div className="h-12 w-48 bg-gray-300 rounded-xl mt-6"></div>
+    </div>
+  );
+}
+
 // Lazy load semua tool (hanya di-load saat tab diklik)
 const AIItineraryBuilder = lazy(() => import("./travel-tools/components/AIItineraryBuilder"));
 const BudgetPlanner = lazy(() => import("./travel-tools/components/BudgetPlanner"));
@@ -37,39 +54,39 @@ export default function TravelToolsPage() {
             <TabsTrigger className="flex-1 rounded-2xl data-[state=active]:bg-[#E2725B] data-[state=active]:text-white" value="currency">Currency</TabsTrigger>
           </TabsList>
 
-          {/* Suspense + Lazy Loading */}
-          <TabsContent value="itinerary" className="data-[state=inactive]:hidden">
-            <Suspense fallback={<div className="p-8 text-center text-[#5C6B4A]">Loading Itinerary Builder...</div>}>
+          {/* Suspense + Lazy Loading Without forceMount */}
+          <TabsContent value="itinerary">
+            <Suspense fallback={<ToolSkeleton />}>
               <AIItineraryBuilder />
             </Suspense>
           </TabsContent>
 
-          <TabsContent value="budget" className="data-[state=inactive]:hidden">
-            <Suspense fallback={<div className="p-8 text-center text-[#5C6B4A]">Loading Budget Planner...</div>}>
+          <TabsContent value="budget">
+            <Suspense fallback={<ToolSkeleton />}>
               <BudgetPlanner />
             </Suspense>
           </TabsContent>
 
-          <TabsContent value="transport" className="data-[state=inactive]:hidden">
-            <Suspense fallback={<div className="p-8 text-center text-[#5C6B4A]">Loading Transport Comparator...</div>}>
+          <TabsContent value="transport">
+            <Suspense fallback={<ToolSkeleton />}>
               <TransportComparator />
             </Suspense>
           </TabsContent>
 
-          <TabsContent value="packing" className="data-[state=inactive]:hidden">
-            <Suspense fallback={<div className="p-8 text-center text-[#5C6B4A]">Loading Smart Packing List...</div>}>
+          <TabsContent value="packing">
+            <Suspense fallback={<ToolSkeleton />}>
               <SmartPackingList />
             </Suspense>
           </TabsContent>
 
-          <TabsContent value="map" className="data-[state=inactive]:hidden">
-            <Suspense fallback={<div className="p-8 text-center text-[#5C6B4A]">Loading Interactive Map...</div>}>
+          <TabsContent value="map">
+            <Suspense fallback={<ToolSkeleton />}>
               <InteractiveMap />
             </Suspense>
           </TabsContent>
 
-          <TabsContent value="currency" className="data-[state=inactive]:hidden">
-            <Suspense fallback={<div className="p-8 text-center text-[#5C6B4A]">Loading Currency Converter...</div>}>
+          <TabsContent value="currency">
+            <Suspense fallback={<ToolSkeleton />}>
               <CurrencyConverter />
             </Suspense>
           </TabsContent>
