@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
-import { Menu, X, Search } from "lucide-react";
+import { Menu, X, Search, Globe, ChevronDown, HeartHandshake } from "lucide-react";
 import { NAV } from "@/constants/testIds";
 import MobileMenu from "./MobileMenu";
 
@@ -12,8 +12,6 @@ const NAV_LINKS = [
   { to: "/travel-tools", label: "Travel Tools", tid: NAV.linkTravelTools },
   { to: "/travel-deals", label: "Deals & Resources", tid: NAV.linkTravelDeals },
   { to: "/blog",         label: "Blog",         tid: NAV.linkBlog },
-  { to: "/about",        label: "About",        tid: NAV.linkAbout },
-  { to: "/contact",      label: "Contact",      tid: NAV.linkContact },
 ];
 
 export default function Header() {
@@ -62,26 +60,26 @@ export default function Header() {
     <>
       <header
         className={[
-          "sticky top-0 z-40 transition-all duration-300",
+          "sticky top-0 z-50 transition-all duration-500",
           scrolled
-            ? "backdrop-blur-xl bg-[hsl(var(--ivory))]/85 border-b border-[hsl(var(--stone-border))]"
-            : "bg-[hsl(var(--ivory))] border-b border-transparent",
+            ? "backdrop-blur-xl bg-white/80 border-b border-[#F5EDE3] shadow-sm py-2"
+            : "bg-[#FAF7F2] border-b border-transparent py-4",
         ].join(" ")}
       >
-        <div className="container-editorial flex items-center gap-6 h-16 lg:h-20">
+        <div className="max-w-7xl mx-auto px-6 flex items-center gap-6 h-14 lg:h-16">
           <Link
             to="/"
             data-testid={NAV.logo}
-            className="flex items-center gap-2 shrink-0 group"
+            className="flex items-center gap-3 shrink-0 group"
             aria-label="Archi Travel Guide — home"
           >
-            <span className="w-8 h-8 rounded-full bg-[hsl(var(--terracotta))] text-[hsl(var(--ivory))] grid place-items-center font-serif text-lg leading-none">A</span>
-            <span className="font-serif text-xl lg:text-2xl leading-none tracking-tight group-hover:text-[hsl(var(--terracotta))] transition-colors">
-              Archi <span className="text-[hsl(var(--charcoal-soft))]">Travel Guide</span>
+            <span className="w-10 h-10 rounded-full bg-[#C65A3A] text-white grid place-items-center font-serif text-2xl leading-none group-hover:scale-105 transition-transform duration-300 shadow-md">A</span>
+            <span className="font-serif text-xl lg:text-2xl leading-none tracking-tight group-hover:text-[#C65A3A] transition-colors duration-300">
+              Archi <span className="text-[#8A9A5B]">Travel Guide</span>
             </span>
           </Link>
 
-          <nav className="hidden lg:flex items-center gap-5 xl:gap-7 flex-1 justify-center">
+          <nav className="hidden lg:flex items-center gap-6 flex-1 justify-center">
             {NAV_LINKS.map((l) => (
               <NavLink
                 key={l.to}
@@ -89,45 +87,51 @@ export default function Header() {
                 data-testid={l.tid}
                 className={({ isActive }) =>
                   [
-                    "text-[13px] font-medium tracking-wide transition-colors",
+                    "text-sm font-medium tracking-wide transition-colors duration-300 relative group",
                     isActive
-                      ? "text-[hsl(var(--terracotta))]"
-                      : "text-[hsl(var(--charcoal))] hover:text-[hsl(var(--terracotta))]",
+                      ? "text-[#C65A3A]"
+                      : "text-[#2C211B] hover:text-[#C65A3A]",
                   ].join(" ")
                 }
               >
                 {l.label}
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#C65A3A] transition-all duration-300 group-hover:w-full"></span>
               </NavLink>
             ))}
           </nav>
 
-          <form
-            onSubmit={onSearch}
-            className="hidden md:flex items-center gap-2 rounded-full border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] pl-4 pr-1 py-1 focus-within:border-[hsl(var(--terracotta))]"
-          >
-            <Search className="w-4 h-4 text-[hsl(var(--charcoal-soft))]" />
-            <input
-              value={q}
-              onChange={(e) => setQ(e.target.value)}
-              placeholder="Search guides"
-              className="bg-transparent outline-none text-sm w-32 lg:w-40 placeholder:text-[hsl(var(--charcoal-soft))]"
-              data-testid={NAV.searchInput}
-              aria-label="Search guides"
-            />
-            <button
-              type="submit"
-              data-testid={NAV.searchSubmit}
-              className="text-xs font-medium bg-[hsl(var(--charcoal))] text-[hsl(var(--ivory))] rounded-full px-3 py-1.5 hover:bg-[hsl(var(--terracotta))] transition-colors"
-            >
-              Go
+          <div className="hidden md:flex items-center gap-4">
+            {/* Multi-language switcher prominent */}
+            <div className="relative group flex items-center gap-1.5 cursor-pointer text-sm font-medium text-[#2C211B] hover:text-[#C65A3A] transition-colors">
+              <Globe className="w-4 h-4" />
+              <span>EN</span>
+              <ChevronDown className="w-3 h-3" />
+              <div className="absolute top-full right-0 mt-2 w-32 bg-white border border-[#F5EDE3] rounded-2xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 overflow-hidden">
+                <div className="py-2 flex flex-col">
+                  <button className="px-4 py-2 text-left text-sm hover:bg-[#F5EDE3] hover:text-[#C65A3A] transition-colors font-medium">English</button>
+                  <button className="px-4 py-2 text-left text-sm hover:bg-[#F5EDE3] hover:text-[#C65A3A] transition-colors font-medium">Italiano</button>
+                  <button className="px-4 py-2 text-left text-sm hover:bg-[#F5EDE3] hover:text-[#C65A3A] transition-colors font-medium">Bahasa ID</button>
+                </div>
+              </div>
+            </div>
+
+            {/* Become Affiliate CTA */}
+            <Link to="/travel-deals" className="flex items-center gap-2 bg-[#F5EDE3] text-[#2C211B] hover:bg-[#C65A3A] hover:text-white border border-[#C65A3A]/20 transition-colors duration-300 px-4 py-2 rounded-full text-sm font-bold shadow-sm">
+              <HeartHandshake className="w-4 h-4" />
+              Become Affiliate
+            </Link>
+            
+            {/* Search */}
+            <button className="w-10 h-10 rounded-full border border-[#F5EDE3] flex items-center justify-center hover:border-[#C65A3A] hover:text-[#C65A3A] hover:bg-white transition-all shadow-sm">
+              <Search className="w-4 h-4" />
             </button>
-          </form>
+          </div>
 
           <button
             type="button"
             aria-label="Open menu"
             data-testid={NAV.mobileMenuButton}
-            className="lg:hidden ml-auto p-2 rounded-full border border-[hsl(var(--stone-border))] hover:border-[hsl(var(--terracotta))] transition-colors"
+            className="lg:hidden ml-auto p-2 rounded-full border border-[#F5EDE3] hover:border-[#C65A3A] transition-colors"
             onClick={() => setMobileOpen(true)}
           >
             <Menu className="w-5 h-5" />
