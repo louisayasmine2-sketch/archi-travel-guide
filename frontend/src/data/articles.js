@@ -3689,6 +3689,72 @@ US and UK travelers should buy the mobile pass version. It lives in your phone, 
     ],
     "2026-07-15T14:00:00+07:00"
   ),
+  A(
+    "ees-italy-airports-2026",
+    "EES at Rome & Milan Airports 2026: How US & UK Travelers Survive the Queue",
+    "Travel tips", "Italy",
+    "Beat EES Italy airport queues at Rome Fiumicino and Milan Malpensa in 2026. Real wait times from traveler reports, plus practical tips to navigate the EU Entry/Exit System smoothly.",
+    "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1600&q=75",
+    [
+      { id: "introduction", heading: "The New Reality at Italian Airports in 2026", body: `For many US and UK travelers stepping off a long-haul flight into Italy for the first time in summer 2026, the scene at passport control can feel like a rude awakening. Instead of a quick stamp and welcoming smile, you encounter a new digital border process: the EU Entry/Exit System, or EES.
+
+The EES is the EU's modernization of Schengen border management. Fully operational since 10 April 2026, it replaces manual passport stamps with a secure digital record of every entry and exit. Non-EU citizens — precisely US and British passport holders — must provide biometric data on their first arrival. This shift has caught many first-time visitors off guard, especially at Rome Fiumicino (FCO) and Milan Malpensa (MXP), where summer volumes push the system to its limits.
+
+Travelers on X have shared candid accounts. One family at FCO reported a two-hour wait to clear immigration after their transatlantic flight, while UK visitors at Malpensa described hour-long lines on busy July mornings. Venice Marco Polo (VCE) has seen similar variability. Airport operators at Fiumicino have publicly warned of "disaster" scenarios during peak summer, citing doubled processing times.
+
+Yet these delays are not inevitable. With the right preparation, EES queues are entirely manageable. This guide draws on real-time summer 2026 reports to equip you with the strategies that work. The system is here to stay — those who prepare thrive.` },
+      { id: "what-is-ees", heading: "What is EES and Why It Affects US & UK Travelers", body: `![Busy airport passport control queue travelers](https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&fit=crop)
+*Photo by Unsplash (Royalty-free)*
+
+The EU Entry/Exit System marks one of the most significant upgrades to Schengen border controls in decades. Fully active since 10 April 2026, EES replaces the outdated manual passport stamp with an automated, biometric-based digital record. On your first entry into the Schengen Area, non-EU citizens provide a facial image and four fingerprints. The system then logs every subsequent entry and exit, automatically tracking compliance with the 90-days-in-180-days rule.
+
+This change directly impacts US and UK travelers because both nationalities fall into the visa-exempt, non-EU category. American citizens enjoy visa-free access for short stays, while UK citizens have the same rights post-Brexit. The biometric enrollment happens once per multi-year validity period, making future trips faster as the system simply verifies your stored data. However, the initial registration adds roughly 45–90 seconds per passenger, and when multiplied by thousands of daily arrivals, the cumulative effect creates queues.
+
+**The three main Italian EES airports:**
+- **Rome Fiumicino (FCO)** — Italy's largest international gateway. Heaviest traffic and most public discussion of delays.
+- **Milan Malpensa (MXP)** — Main northern entry point. Two terminals help distribute load.
+- **Venice Marco Polo (VCE)** — Smaller but steady flow of leisure travelers. Most unpredictable of the three.
+
+Current reports from summer 2026 confirm waits ranging from 1 to 5 hours during peak periods, though many travelers experience far shorter lines when flights arrive off-peak. For first-time US and UK visitors, the key takeaway is preparation. The system is not a barrier to Italy — it is a modern safeguard that, once navigated, fades into the background of your journey.` },
+      { id: "queue-times", heading: "Real Queue Times at Each Italian Airport (July–September 2026)", body: `![Rome Fiumicino airport terminal exterior](https://images.unsplash.com/photo-1542296332-2e4473faf563?w=1200&fit=crop)
+*Photo by Unsplash (Royalty-free)*
+
+Real-world data from traveler reports on X paints a clear but variable picture of EES performance during peak summer months.
+
+**Rome Fiumicino (FCO)** remains the most scrutinized hub. Travelers report waits of up to two hours for biometric processing on busy days, with airport leadership warning of potential multi-hour delays during surges. One family shared on X that immigration took two hours upon arrival, while the same group cleared departure in 45 minutes. Best arrival times: very early morning (pre-8 a.m.) or late evening. Midweek flights also experience shorter lines than Friday-to-Sunday peaks.
+
+**Milan Malpensa (MXP)** shows a mixed experience. As an early adopter of EES infrastructure, queues average one to one-and-three-quarter hours during peak periods. One traveler described a full hour on arrival, while others cleared in as little as 20 minutes when the airport temporarily suspended full biometric checks to ease congestion. Best time slots: early morning or post-8 p.m. arrivals.
+
+**Venice Marco Polo (VCE)**, though smaller, is not immune. Reports indicate occasional two-hour delays when multiple flights land simultaneously. However, VCE has also seen days when EES processing was notably faster, making it the most variable of the three. Its lower overall volume often translates to quicker clearance than Rome or Milan. Off-peak arrivals consistently yield the shortest waits here.
+
+Across all three airports, the consensus is clear: **expect 1–3 hours in worst-case peak scenarios**, but plan for far less with strategic timing. Airports have deployed additional self-service kiosks and staff, and EU authorities have permitted limited operational pauses when queues threaten to spiral. Savvy travelers build buffers and monitor conditions via airport apps or airline updates.` },
+      { id: "survival-tips", heading: "8 Practical Tips to Survive EES Without Missing Your Connection", body: `![Traveler with passport ready at airport customs](https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&fit=crop)
+*Photo by Unsplash (Royalty-free)*
+
+These eight strategies, drawn from traveler experiences in summer 2026, empower US and UK visitors to clear immigration efficiently and protect their onward travel.
+
+- **Book flights with a minimum 3 hours 30 minutes connection time.** The biometric enrollment adds measurable minutes per passenger, and summer volumes amplify this. A 3.5-hour buffer provides breathing room even if the line stretches to two hours.
+- **Register biometrics online before arrival where possible.** Some national portals and airline apps now offer partial data upload. Complete any available steps at home to shorten kiosk time upon landing.
+- **Use EES-dedicated lanes, not general passport control.** Look for clearly marked self-service kiosks or EES-specific counters. These lanes are optimized for the new process and often move faster once you understand the flow.
+- **Arrive at the airport at least 3.5 hours before your international departure.** This buffer accounts for EES on both arrival and departure, plus security and baggage drop.
+- **Secure travel insurance that explicitly covers missed connections due to EES delays.** Verify coverage for "border control delays" or purchase a rider that includes hotel, meals, and rebooking costs if queues cause you to miss a flight.
+- **Book the Leonardo Express (Fiumicino) or Malpensa Express (Milan) only after clearing customs.** Many travelers mistakenly reserve trains before landing, only to watch their scheduled departure leave while they are still in the EES queue. Book flexible tickets once you are airside.
+- **Know your rights if you miss a connecting flight.** Document everything — screenshots of queue times, airline communications — and contact your carrier immediately for rerouting and compensation. EU261 may apply in some cases; insurance bridges the gap where it doesn't.
+- **Opt for private airport transfers over public transport during peak periods.** A pre-booked driver waits airside and adjusts to your actual clearance time, eliminating the worry of missed trains or buses. This is particularly valuable for families or those with tight schedules.` },
+      { id: "departure", heading: "EES on Departure: Does It Affect Leaving Italy Too?", body: `Yes, EES operates on departure as well as arrival, but the experience is typically smoother and faster. When leaving Italy, the system records your exit to update your digital travel history and confirm compliance with stay limits. Because most departing passengers have already enrolled on entry, the process is usually a quick scan rather than full registration.
+
+Reports from summer 2026 indicate departure queues at FCO average 10 to 45 minutes — significantly shorter than arrival peaks. Malpensa and Venice follow similar patterns, with many travelers clearing in under 30 minutes when flights are staggered. Families with children under 12 may experience slightly longer waits at certain e-gate lanes, but overall, departure processing benefits from lighter loads and experienced staff.
+
+To minimize delays, arrive with the same 3.5-hour buffer recommended for arrivals and head straight to EES lanes after security. The system's efficiency improves daily as more travelers become familiar with it. While EES does affect your exit from Italy, it rarely disrupts departure plans when you plan conservatively.` }
+    ],
+    [
+      { q: "Does EES apply to US citizens?", a: "Yes. All non-EU citizens, including Americans on visa-free short stays, must complete biometric registration on their first Schengen entry and use the system for every crossing thereafter." },
+      { q: "Does EES apply to UK citizens post-Brexit?", a: "Yes. UK passport holders are treated as non-EU nationals and follow the same biometric and recording requirements as US travelers." },
+      { q: "What happens if I miss my flight because of an EES queue?", a: "Contact your airline immediately for rebooking and assistance. Document your wait time with photos or timestamps. EU261 may apply in some cases, but border-control delays are not always covered — comprehensive travel insurance is the best protection." },
+      { q: "Is EES the same as ETIAS?", a: "No. EES is the biometric entry-exit recording system already in operation. ETIAS is a separate pre-travel authorization (similar to ESTA for the US) that is not yet required for 2026 travel." }
+    ],
+    "2026-07-16T11:00:00+07:00"
+  ),
 ];
 
 export const articles = allArticles.filter(a => new Date(a.updated) <= new Date());
