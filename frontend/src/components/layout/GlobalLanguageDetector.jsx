@@ -51,10 +51,11 @@ export default function GlobalLanguageDetector({ children }) {
   const [lang, setLang] = useState("en");
 
   useEffect(() => {
-    fetch("https://ipapi.co/json/")
+    fetch("https://ipwho.is/")
       .then(res => res.json())
       .then(data => {
-        const countryCode = data.country || "US";
+        // ipwho.is returns the country code in data.country_code
+        const countryCode = data.country_code || "US";
         const detectedLang = languageMap[countryCode] || "en";
         setLang(detectedLang);
       })
