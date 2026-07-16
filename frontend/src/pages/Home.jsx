@@ -14,7 +14,7 @@ export default function HomePage() {
       />
       {/* Hero Section - sesuai mockup */}
       <div className="relative h-screen flex items-center justify-center bg-cover bg-center" 
-           style={{ backgroundImage: "url('https://images.unsplash.com/photo-1499596396569-bea61a96759c?auto=format&fit=crop&q=80&w=2070')" }}>
+           style={{ backgroundImage: "url('/images/archi-travel-guide-siena-homepage-hero-1.webp')" }}>
         <div className="absolute inset-0 bg-black/30"></div>
         
         <div className="relative z-10 text-center text-white px-6 max-w-4xl">
