@@ -3958,6 +3958,9 @@ The fee only applies to day-trippers (anyone not sleeping inside the Municipalit
 *   **Hours:** Strictly 8:30 a.m.–4:00 p.m. Arrive earlier or leave after 4:00 p.m. = no fee.
 *   **Area:** Only the historic centre (centro storico). Murano, Burano, Torcello, and the Lido are completely free.
 
+![Venice July 2026 Access Fee Calendar](/images/venice/calendar-july-2026-access-fee.webp)
+*Plan ahead: Check the official red dates to know exactly when the fee applies.*
+
 **July 2026 fee days from Tuscany perspective:**
 3–5 July | 10–12 July | **17–19 July (today!)** | 24–26 July
 
@@ -3971,6 +3974,9 @@ Outside these dates or outside the 8:30–4:00 window, you can walk straight in 
 3.  Get your QR code instantly by email. Screenshot + save to phone wallet + print as backup.
 4.  Show it only if asked at train station, Piazzale Roma, or main entry points.
 
+![Venice QR Code Check Scene](/images/venice/qr-code-check-scene.webp)
+*Keep your QR code ready on your phone when arriving at Santa Lucia station.*
+
 > **Pro tip from Tuscany travelers:** Book the fee at the same time you book your high-speed train from Florence or Siena. It takes 2 minutes and locks in the €5 rate.`,
       },
       {
@@ -3978,16 +3984,30 @@ Outside these dates or outside the 8:30–4:00 window, you can walk straight in 
         heading: 'Smart Ways to Visit Venice from Tuscany Without Paying the Fee',
         body: `Most visitors from Siena and Florence want to avoid the fee entirely. Here are the easiest strategies:
 
+![Early morning Piazza San Marco](/images/venice/early-morning-piazza-san-marco.webp)
+*Arrive before 8:30 a.m. to skip the fee and enjoy a peaceful St. Mark's Square.*
+
 *   **Time it right:** Catch the early Frecciarossa from Florence (depart ~6:00–7:00 a.m.) and arrive in Venice before 8:30 a.m. Leave after 4:00 p.m. — full day, zero fee.
 *   **Choose a non-fee day:** Weekdays outside the red dates above are completely free.
 *   **Stay overnight in Venice (best hack):** Book one night in Venice and you’re exempt. Register a free exemption QR code with your hotel confirmation. Many travelers from Tuscany do Florence → Venice overnight → back to Siena the next day.
+
+![Venice overnight hotel balcony exemption](/images/venice/overnight-hotel-balcony-exemption.webp)
+*Staying overnight automatically exempts you from the access fee.*
+
 *   **Base in Mestre or use the islands:** Stay in Mestre (cheap hotels) or head straight to Murano/Burano — both free of the access fee and far less crowded.
+
+![Burano free island alternative](/images/venice/burano-free-island-alternative.webp)
+*The colorful island of Burano is completely free from the access fee.*
+
 *   **Combine with a longer Tuscany itinerary:** Many readers do “Tuscany + Venice in 5 days” by staying in Venice one night after 2–3 nights in Siena or Chianti.`,
       },
       {
         id: 'getting-from-tuscany-to-venice',
         heading: 'Getting from Tuscany to Venice – Fast & Easy Options',
-        body: `*   **High-speed train (recommended):** Florence Santa Maria Novella → Venice Santa Lucia: 2h 10m, from €25 one way (Trenitalia or Italo).
+        body: `![Map of Tuscany to Venice train route](/images/venice/map-tuscany-to-venice.webp)
+*The high-speed train from Florence to Venice takes just over 2 hours.*
+
+*   **High-speed train (recommended):** Florence Santa Maria Novella → Venice Santa Lucia: 2h 10m, from €25 one way (Trenitalia or Italo).
 *   **From Siena:** Bus/train combo via Florence (total ~3h 30m).
 *   **Private transfer or car:** Rental from Florence or Siena makes it flexible — park at Tronchetto or Piazzale Roma and walk in.
 
