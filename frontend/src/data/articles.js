@@ -4732,6 +4732,144 @@ See our full Siena guide for interactive maps, updated 2026 bus timetables, and 
       tags: ['hidden gems around siena', 'siena hidden gems', 'tuscany hidden gems 2026', 'quiet villages near siena', 'monteriggioni day trip', 'crete senesi viewpoints', 'san quirico d’orcia', 'uncrowded tuscany', 'siena wine tasting'],
     }
   ),
+  A(
+    'budget-florence-rome-venice-itinerary-10-days',
+    'Budget Florence Rome Venice Itinerary: 10 Days in Summer 2026 for Under €1,200',
+    'Itineraries',
+    'Italy',
+    'A realistic 10-day budget itinerary for Florence, Rome, and Venice in summer 2026. Discover how independent travelers can experience Italy’s classic triangle for under €1,200 using high-speed trains and free attractions.',
+    '/images/italy/budget-italy-itinerary-florence-rome-venice-hero.webp',
+    [
+      {
+        id: 'budget-italy-intro',
+        heading: '10 Days in Italy on a Budget',
+        body: `Online travel communities are packed with budget travelers searching for the perfect Florence Rome Venice itinerary on a budget. Here’s the exact 10-day plan that works in summer 2026 for independent travelers who want to experience Italy’s classic triangle without breaking the bank. This itinerary uses high-speed trains, focuses on free and low-cost attractions, recommends cheap local eats, and keeps accommodation under control. Expect warm weather (30–35°C), crowds, and longer lines in July and August — but with smart planning you can still enjoy the highlights for €700–1,200 per person (excluding international flights). Book everything 60–90 days ahead to lock in the lowest rates.`,
+      },
+      {
+        id: 'day-by-day-route',
+        heading: 'Day-by-Day Route & Transport Breakdown',
+        body: `The logical route starts in Florence (Tuscany), heads south to Rome, then northeast to Venice. All inter-city travel uses comfortable high-speed trains (Frecciarossa or Italo). Book 60–90 days in advance on Trenitalia.com or Italotreno.it for Super Economy or Low Cost fares — Florence to Rome from €19–35 (1h20–30min); Rome to Venice from €29–50 (3h45min). Walk-up prices can double, so reserve early.
+
+*   **Days 1–3: Florence** — Arrive at Florence Airport (FLR) or Santa Maria Novella station. Base yourself near the train station or Duomo for easy walking.
+*   **Day 4: Florence to Rome** — Morning high-speed train (depart after 8 a.m.). Arrive Rome Termini by midday, check in, and enjoy your first stroll through the historic center.
+*   **Days 5–7: Rome** — Three full days to explore ancient Rome and Vatican highlights at a relaxed pace.
+*   **Day 8: Rome to Venice** — Mid-morning high-speed train. Arrive Venezia Santa Lucia by early afternoon.
+*   **Days 9–10: Venice** — Two full days plus arrival afternoon to enjoy the canals and islands. Depart from Venice Marco Polo Airport (VCE) on Day 10 or 11.
+
+Total train cost for two legs: €50–90 per person when booked early. No internal flights or buses needed — trains are faster, more scenic, and greener.`,
+      },
+      {
+        id: 'tuscany-bonus',
+        heading: 'Tuscany Bonus: Easy Day Trip to Siena from Florence',
+        body: `Since you’re already in the heart of Tuscany, don’t miss a quick day trip to Siena (our specialty at Archi Travel Guide). On Day 2 or 3, hop on a regional train or bus (75 minutes, €9–14 one-way). Explore the UNESCO-listed Piazza del Campo, climb the Torre del Mangia for panoramic views, and enjoy authentic Tuscan atmosphere. It’s the perfect way to experience hill-town Tuscany without extra nights.`,
+      },
+      {
+        id: 'where-to-stay-eat',
+        heading: 'Where to Stay Cheap & Eat Local',
+        body: `**Florence**
+Budget hostels and guesthouses near Santa Maria Novella or San Lorenzo market: €30–50/night (dorm or basic private). Book your Florence stay on Booking.com for the best rates.
+Eat local: schiacciata or porchetta from street vendors (€6–10), lunch at Mercato Centrale stalls (€10–15), dinner at family-run trattorias away from the Duomo (€15–20).
+
+![Affordable local street food in Florence](/images/italy/florence-budget-travel-street-food.webp)
+*Eating like a local at markets and street vendors is the secret to surviving Florence on a budget.*
+
+**Rome**
+Hostels and budget hotels in Trastevere or near Termini: €30–55/night. Book your Rome accommodation here.
+Focus on authentic Roman food: pizza al taglio (€3–5), supplì from street spots, cacio e pepe or carbonara at neighborhood trattorias (€12–18). Picnic at Campo de’ Fiori market.
+
+![Enjoying budget-friendly pizza al taglio in Rome](/images/italy/rome-budget-travel-pizza-al-taglio.webp)
+*Pizza al taglio (by the slice) is a delicious and cheap way to fuel your Roman explorations.*
+
+**Venice**
+Venice proper is pricier (€35–65). Save by staying in Mestre (10-minute train, €25–45) and taking a cheap vaporetto in. Book your Venice/Mestre stay via Booking.com.
+Eat cicchetti at bacari bars (€2–4 each with spritz) and fresh seafood or pasta at non-touristy spots (€15–22). Avoid sit-down restaurants on St. Mark’s Square.
+
+![Cicchetti and spritz at a local Venetian bacaro](/images/italy/venice-budget-travel-cicchetti-bar.webp)
+*Skip the expensive sit-down restaurants in Venice and opt for cicchetti (Venetian tapas) with a spritz.*
+
+Daily food budget: €35–55 per person (street food + markets + one simple trattoria meal). Drink free tap water from public fountains.`,
+      },
+      {
+        id: 'free-low-cost-attractions',
+        heading: 'Free & Low-Cost Attractions in Each City',
+        body: `**Florence**
+*   Admire the Duomo’s marble façade and Baptistery doors (free).
+*   Walk Ponte Vecchio at sunset.
+*   Climb to Piazzale Michelangelo for panoramic views (free).
+*   Explore Oltrarno and Santo Spirito square.
+*   Low-cost add-on: €10–16 late-afternoon Uffizi or Accademia (book cheapest slot via Viator or GetYourGuide).
+
+**Rome**
+*   Wander the Pantheon exterior, Trevi Fountain, Spanish Steps, and Piazza Navona (free).
+*   View the Colosseum from outside and stroll the Roman Forum perimeter.
+*   Visit St. Peter’s Basilica (free entry; dome climb optional).
+*   Explore Trastevere streets and Villa Borghese gardens.
+*   Low-cost: €18 Colosseum + Forum combo ticket (book timed entry via GetYourGuide).
+
+**Venice**
+*   Stroll Piazza San Marco and admire the basilica exterior (free).
+*   Wander the maze of calli and cross Rialto Bridge.
+*   Enjoy free views along the Grand Canal from bridges or the Zattere promenade.
+*   People-watch at bacari or catch a sunset over the lagoon.
+*   Low-cost essential: €25 24-hour vaporetto pass for unlimited water-bus rides.
+
+Many state museums offer free entry on the first Sunday of the month — time your visit if dates align.`,
+      },
+      {
+        id: 'money-saving-hacks',
+        heading: 'Money-Saving Hacks for Summer 2026',
+        body: `*   Book trains and hostels 2–3 months ahead (prices rise sharply in July–August).
+*   Use free tip-based walking tours instead of paid guides.
+*   Buy city transit passes only when needed (Rome 24h €7; Venice vaporetto 24h €25).
+*   Eat breakfast and lunch at markets/supermarkets.
+*   Travel light to avoid luggage fees.
+*   Avoid peak meal times and restaurants with English-only menus.
+*   Beat the heat: start early (7–9 a.m.), take a siesta, and visit sights again in late afternoon.`,
+      },
+      {
+        id: 'budget-summary',
+        heading: 'Budget Summary (per person, 10 days)',
+        body: `*   Accommodation: €300–500
+*   Trains: €50–90
+*   Food: €350–550
+*   Attractions & transport: €50–150
+*   Total: €700–1,200 (couples sharing rooms can hit the lower end).
+
+Enjoy Italy on a budget without missing the highlights. Head to our Tuscany & Siena guide for more ideas, or explore our full Florence, Rome, and Venice pages. Safe travels and buon viaggio!`,
+      },
+    ],
+    [
+      {
+        q: 'How much does a Florence-Rome-Venice trip cost?',
+        a: 'A realistic 10-day budget for one independent traveler is €700–1,200 (excluding flights).',
+      },
+      {
+        q: 'Can I do it on a budget in summer?',
+        a: 'Yes — book early, start activities at sunrise, and use the free fountains to stay hydrated.',
+      },
+      {
+        q: 'Best way to travel between the cities?',
+        a: 'High-speed trains win every time: fast, comfortable, and affordable when booked in advance.',
+      },
+    ],
+    '2026-07-17',
+    {
+      seoTitle: 'Budget Florence Rome Venice Itinerary: 10 Days in Summer 2026 for Under €1,200',
+      primaryKeyword: 'budget florence rome venice itinerary',
+      secondaryKeywords: [
+        '10 days in italy budget',
+        'summer 2026 italy itinerary',
+        'italy travel budget',
+        'florence to rome train',
+        'cheap eats rome florence venice',
+        'italy high speed trains',
+        'budget travel italy 2026',
+      ],
+      imageAlt: 'Budget Florence Rome Venice 10 day itinerary summer 2026',
+      canonicalPath: '/blog/budget-florence-rome-venice-itinerary-10-days',
+      tags: ['budget italy itinerary', 'florence rome venice', '10 days in italy budget', 'summer 2026 italy', 'italy travel budget', 'cheap eats rome florence venice', 'budget travel italy 2026'],
+    }
+  ),
 ];
 
 export const articles = allArticles.filter(a => new Date(a.updated) <= new Date());
