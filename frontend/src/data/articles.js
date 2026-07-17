@@ -4280,14 +4280,14 @@ For more ideas on combining opera with vineyards, hilltop villages, and Tuscan t
     'Day Trips from Florence',
     'Siena',
     'Best day trips from Florence to Siena 2026 — easy train or bus, perfect itinerary, and crowd-free tips. Discover Tuscany’s heart in one unforgettable day. Book smarter now!',
-    '/images/siena/best-day-trip-florence-to-siena-piazza-del-campo.webp',
+    '/images/siena/01-hero-palazzo-pubblico-torre-del-mangia.webp',
     [
       {
         id: 'why-siena-top-day-trip',
         heading: 'Why Siena Is the Top Day Trip from Florence',
         body: `Thousands of travelers search for the easiest escape from Florence’s crowds, and Siena consistently ranks as the top choice. This UNESCO-listed medieval gem delivers everything Tuscany promises in a compact, walkable package: the iconic shell-shaped Piazza del Campo, the black-and-white striped Duomo, narrow contrade streets lined with historic palazzos, and an authentic atmosphere that feels worlds away from Florence’s bustle.
 
-![Panoramic view of Siena skyline and Duomo](/images/siena/siena-skyline-view-from-duomo.webp)
+![Panoramic view of Siena skyline](/images/siena/08-siena-cityscape.webp)
 *Siena offers panoramic views of rolling Chianti hills and stunning medieval architecture.*
 
 Unlike busier destinations, Siena rewards a slower pace. Its compact historic center lets you cover the essentials comfortably in one day while still enjoying panoramic views over rolling Chianti hills. Real visitors praise it for being less crowded than Florence yet equally rich in art, history, and cuisine. Whether you seek Gothic architecture, Palio traditions, or simply a genuine Tuscan lunch, Siena offers the perfect contrast to Florence’s Renaissance intensity — and it is reachable in under 90 minutes.`,
@@ -4296,9 +4296,6 @@ Unlike busier destinations, Siena rewards a slower pace. Its compact historic ce
         id: 'train-bus-or-car',
         heading: 'Train, Bus or Car — Which Is Best?',
         body: `For most day-trippers in 2026, the bus stands out as the smartest option. Direct Autolinee Toscane rapid buses (line 131R), FlixBus, or Itabus services depart every 30–60 minutes from Firenze Autostazione (right beside Santa Maria Novella station). The journey takes about 1 hour 15 minutes and costs €6–14 one way. Buses drop you at Piazza Gramsci or nearby, just a 5-minute walk from the Duomo and Piazza del Campo — no extra taxis or steep climbs required.
-
-![Bus terminal for Florence to Siena route](/images/siena/florence-to-siena-bus-journey.webp)
-*Taking the direct bus is the most convenient way to travel from Florence to Siena.*
 
 The train is a solid alternative but slightly less convenient. Regional Trenitalia services from Florence Santa Maria Novella to Siena run hourly and take around 1 hour 30 minutes (€10–18). Note that Siena’s station lies outside the city walls; an escalator and short uphill walk (or local bus) bring you into the center.
 
@@ -4327,24 +4324,27 @@ Driving suits those combining Siena with nearby hill towns such as San Gimignano
 **Morning (9 AM – 12 PM): Piazza del Campo and Civic Heart**
 Begin at the world-famous Piazza del Campo. Sit on the gently sloping brick pavement (divided into nine sectors symbolizing the medieval Council of Nine) and absorb the atmosphere. Climb the Torre del Mangia (102 m, 400 steps, €10) for sweeping Tuscan views if you have energy — tickets sell at the Palazzo Pubblico entrance. Inside the free courtyard and paid Civic Museum, do not miss Ambrogio Lorenzetti’s frescoes *The Allegory of Good and Bad Government* in the Sala della Pace.
 
-![Torre del Mangia towering over Piazza del Campo](/images/siena/torre-del-mangia-piazza-del-campo.webp)
-*The majestic Torre del Mangia offers breathtaking views if you're willing to climb its 400 steps.*
+![Panoramic view of Piazza del Campo](/images/siena/05-piazza-del-campo-panorama.webp)
+*Piazza del Campo, the stunning shell-shaped medieval square at the heart of Siena.*
 
 **Lunch (12:30 – 2 PM): Authentic Sienese Flavors**
 Step one block off the Campo into quieter streets such as Via di Pantaneto or Via dei Rossi. Order classic dishes: hand-rolled pici pasta with wild-boar ragù (cinghiale) or garlic-tomato sauce (aglione), crostini neri (liver pâté on unsalted Tuscan bread), and a glass of local Chianti Colli Senesi. Finish with ricciarelli almond biscuits or cantucci dipped in Vin Santo. Expect €18–28 per person in a proper trattoria — far better value than Campo-side tables.
 
-![Authentic pici pasta with wild boar ragu](/images/siena/pici-pasta-wild-boar-ragu-siena.webp)
+![Authentic pici all'aglione](/images/siena/07-pici-all-aglione.webp)
 *Don't leave Siena without trying hand-rolled pici pasta, a local specialty.*
 
 **Afternoon (2:30 – 6 PM): Duomo Complex and Contrade Streets**
 Head uphill to the breathtaking Duomo (Cathedral). Purchase the OPA SI Pass (around €15–20, valid three days) for skip-the-line access to the striped marble interior, Pinturicchio’s frescoed Piccolomini Library, and the panoramic Facciatone viewpoint on the unfinished New Cathedral façade. The black-and-white marble and intricate floor panels rank among Italy’s finest Gothic treasures. (Note: the famous marble floor is uncovered during the 2026 periods listed above.)
 
-![Stunning interior of Siena Duomo](/images/siena/siena-duomo-marble-floor-interior.webp)
-*The Siena Duomo interior is a masterpiece of black-and-white striped marble.*
+![Stunning facade of Siena Cathedral](/images/siena/02-siena-cathedral-facade.webp)
+*The stunning Siena Cathedral is a masterpiece of Romanesque-Gothic architecture.*
+
+![Piccolomini Library inside the Duomo](/images/siena/03-piccolomini-library.webp)
+*The vibrant Pinturicchio frescoes inside the Piccolomini Library.*
 
 After the Duomo, wander the atmospheric contrade (historic districts). Explore Via della Galluzza, Fontebranda (Siena’s oldest fountain), and the Basilica of San Domenico for peaceful views and a glimpse into local identity. These backstreets reveal Siena’s living medieval soul away from tour groups.
 
-![Colorful flags in Siena's contrade streets](/images/siena/siena-contrade-street-flags.webp)
+![Colorful flags in Siena's contrade streets](/images/siena/06-siena-contrada-street.webp)
 *Wander the contrade streets to see the distinct flags representing Siena's historic districts.*
 
 **Evening (optional extension):** If your schedule allows, enjoy sunset from a panoramic terrace before catching a late bus or train back to Florence.`,
@@ -4355,7 +4355,7 @@ After the Duomo, wander the atmospheric contrade (historic districts). Explore V
         body: `Escape the main sights with these crowd-free gems:
 *   **Orto de’ Pecci** — a serene garden below the Campo with city views and picnic benches.
 
-![Peaceful green space at Orto de' Pecci](/images/siena/orto-de-pecci-garden-siena.webp)
+![Peaceful green space at Orto de' Pecci](/images/siena/04-orto-de-pecci.webp)
 *Orto de' Pecci offers a serene, green escape just steps away from the bustling Piazza del Campo.*
 
 *   **Contrada museums** (small, free or low-cost) — each of Siena’s 17 districts displays Palio banners and artifacts that reveal the city’s passionate community spirit.
