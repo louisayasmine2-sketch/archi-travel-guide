@@ -34,12 +34,26 @@ class ErrorBoundary extends React.Component {
             <p className="text-[#8A9A5B] mb-6">
               We encountered an unexpected issue while loading this page. This usually happens when the app has been updated in the background.
             </p>
-            <button
-              onClick={() => window.location.reload()}
-              className="px-6 py-3 bg-[#C65A3A] text-white rounded-full font-semibold hover:bg-[#A84A2E] transition-colors"
-            >
-              Refresh Page
-            </button>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <button
+                onClick={() => window.location.reload()}
+                className="px-6 py-3 bg-[#C65A3A] text-white rounded-full font-semibold hover:bg-[#A84A2E] transition-colors w-full sm:w-auto"
+              >
+                Refresh Page
+              </button>
+              <a
+                href="/italy"
+                className="px-6 py-3 bg-white text-[#2C211B] border border-[#F5EDE3] rounded-full font-semibold hover:bg-[#FAF7F2] transition-colors w-full sm:w-auto"
+              >
+                Back to Italy
+              </a>
+              <a
+                href="/"
+                className="px-6 py-3 bg-white text-[#2C211B] border border-[#F5EDE3] rounded-full font-semibold hover:bg-[#FAF7F2] transition-colors w-full sm:w-auto"
+              >
+                Go to Home
+              </a>
+            </div>
           </div>
         </div>
       );

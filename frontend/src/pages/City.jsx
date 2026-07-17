@@ -138,7 +138,7 @@ export default function City({ slug: slugProp }) {
               <h2 className="font-serif text-3xl md:text-4xl leading-tight text-[#2C211B] mb-6">Neighborhoods</h2>
               <p className="text-[#8A9A5B] leading-relaxed text-lg mb-8">{city.neighborhoodsIntro}</p>
               <div className="space-y-6">
-                {city.neighborhoods.map((n, i) => (
+                {(city.neighborhoods || []).map((n, i) => (
                   <div key={i} className="rounded-[2rem] border border-[#F5EDE3] bg-white p-8 shadow-lg flex flex-col md:flex-row gap-8">
                     <div className="md:w-1/3">
                       <h3 className="font-serif text-2xl text-[#2C211B]">{n.name}</h3>
