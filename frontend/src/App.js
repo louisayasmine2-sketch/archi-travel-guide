@@ -9,6 +9,7 @@ import HubPage from "@/pages/HubPage";
 import SEO from "@/components/common/SEO";
 import { trackPageView } from "@/lib/analytics";
 import GlobalLanguageDetector from "@/components/layout/GlobalLanguageDetector";
+import ErrorBoundary from "@/components/common/ErrorBoundary";
 
 const Destinations = lazy(() => import("@/pages/Destinations"));
 const Italy = lazy(() => import("@/pages/Italy"));
@@ -42,6 +43,24 @@ function GoogleAnalytics() {
     const pagePath = `${location.pathname}${location.search}`;
     trackPageView(pagePath, document.title);
   }, [location.pathname, location.search]);
+
+  return null;
+}
+
+function BFCacheHandler() {
+  useEffect(() => {
+    const handlePageShow = (event) => {
+      // If the page was restored from BFCache (e.g. back button), 
+      // force a hard reload to circumvent Cloudflare/Framer Motion blank page bugs.
+      if (event.persisted) {
+        window.location.reload();
+      }
+    };
+    window.addEventListener("pageshow", handlePageShow);
+    return () => {
+      window.removeEventListener("pageshow", handlePageShow);
+    };
+  }, []);
 
   return null;
 }
@@ -92,9 +111,11 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <BFCacheHandler />
         <GoogleAnalytics />
         <GlobalLanguageDetector>
           <Layout>
+          <ErrorBoundary>
           <Suspense fallback={<RouteFallback />}>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -194,6 +215,7 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
           </Suspense>
+          </ErrorBoundary>
           </Layout>
         </GlobalLanguageDetector>
         <Toaster position="bottom-right" richColors closeButton />
