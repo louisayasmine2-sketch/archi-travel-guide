@@ -62,6 +62,33 @@ def test_contact_submit(client):
     assert "message" in j
 
 
+def test_contact_honeypot_silently_accepted(client):
+    payload = {
+        "name": "TEST_Bot",
+        "email": "test_bot@example.com",
+        "subject": "Spam",
+        "message": "Bot-filled message.",
+        "website": "http://spam.example.com",
+    }
+    r = client.post(f"{BASE_URL}/api/contact", json=payload)
+    # Honeypot submissions look successful but nothing is stored or emailed.
+    assert r.status_code == 200
+    j = r.json()
+    assert j["success"] is True
+    assert j.get("email_message_id") is None
+
+
+def test_contact_message_too_long(client):
+    payload = {
+        "name": "TEST_User",
+        "email": "test_contact@example.com",
+        "subject": "Hello",
+        "message": "x" * 9000,
+    }
+    r = client.post(f"{BASE_URL}/api/contact", json=payload)
+    assert r.status_code == 422
+
+
 # ---------- Budget Calculator ----------
 @pytest.mark.parametrize("dest", ["Siena", "Tuscany", "Italy", "Europe", "Asia", "Buenos Aires"])
 def test_budget_calculator(client, dest):

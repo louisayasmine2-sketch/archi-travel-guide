@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { HelmetProvider } from "react-helmet-async";
+import { ThemeProvider } from "next-themes";
 import "@/index.css";
 import "./performance/deferThirdPartyWork";
 import App from "@/App";
@@ -20,7 +21,9 @@ root.render(
   <React.StrictMode>
     <HelmetProvider>
       <QueryClientProvider client={queryClient}>
-        <App />
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <App />
+        </ThemeProvider>
       </QueryClientProvider>
     </HelmetProvider>
   </React.StrictMode>,

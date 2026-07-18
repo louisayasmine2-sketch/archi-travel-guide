@@ -1,9 +1,11 @@
-from fastapi import FastAPI, APIRouter, HTTPException
+from fastapi import FastAPI, APIRouter, HTTPException, Request
 from dotenv import load_dotenv
 from starlette.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
 import os
+import time
 import logging
+from contextlib import asynccontextmanager
 from pathlib import Path
 from pydantic import BaseModel, Field, EmailStr, ConfigDict
 from typing import List, Optional, Literal
@@ -15,6 +17,12 @@ import requests
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
 
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
 mongo_url = os.environ['MONGO_URL']
 client = AsyncIOMotorClient(mongo_url)
 db = client[os.environ['DB_NAME']]
@@ -22,8 +30,36 @@ RESEND_API_KEY = os.getenv("RESEND_API_KEY")
 RESEND_FROM_EMAIL = os.getenv("RESEND_FROM_EMAIL")
 RESEND_TO_EMAIL = os.getenv("RESEND_TO_EMAIL")
 
-app = FastAPI(title="Archi Travel Guide API")
+
+@asynccontextmanager
+async def lifespan(_: FastAPI):
+    yield
+    client.close()
+
+
+app = FastAPI(title="Archi Travel Guide API", lifespan=lifespan)
 api_router = APIRouter(prefix="/api")
+
+# ---- Simple in-memory rate limiter (per IP) for public write endpoints ----
+# Good enough for a single-instance deployment; put Cloudflare rate rules in
+# front of /api for anything high-traffic.
+_RATE_WINDOW_SECONDS = 600
+_RATE_MAX_REQUESTS = 5
+_rate_hits: dict = {}
+
+
+def _rate_limited(ip: str) -> bool:
+    now = time.monotonic()
+    hits = [t for t in _rate_hits.get(ip, []) if now - t < _RATE_WINDOW_SECONDS]
+    if len(hits) >= _RATE_MAX_REQUESTS:
+        _rate_hits[ip] = hits
+        return True
+    hits.append(now)
+    _rate_hits[ip] = hits
+    # keep the table small
+    if len(_rate_hits) > 10000:
+        _rate_hits.clear()
+    return False
 
 
 def now_iso():
@@ -40,7 +76,7 @@ def _notify_contact_email(record, *, message_id: str) -> Optional[str]:
         "subject": record.subject,
         "reply_to": record.email,
         "html": f"<p><strong>Lead ID:</strong> {message_id}</p><p><strong>Name:</strong> {record.name}</p><p><strong>Email:</strong> {record.email}</p><p><strong>Message:</strong><br/>{record.message}</p>",
-        "text": f"Lead ID: {message_id}\\nName: {record.name}\\nEmail: {record.email}\\nMessage:\\n{record.message}",
+        "text": f"Lead ID: {message_id}\nName: {record.name}\nEmail: {record.email}\nMessage:\n{record.message}",
     }
     headers = {
         "Authorization": f"Bearer {RESEND_API_KEY}",
@@ -81,10 +117,12 @@ class NewsletterRecord(BaseModel):
 
 
 class ContactMessage(BaseModel):
-    name: str
+    name: str = Field(min_length=1, max_length=200)
     email: EmailStr
-    subject: str
-    message: str
+    subject: str = Field(min_length=1, max_length=300)
+    message: str = Field(min_length=1, max_length=8000)
+    # Honeypot: hidden field in the UI; humans leave it empty, bots fill it.
+    website: Optional[str] = ""
 
 
 class ContactRecord(BaseModel):
@@ -155,8 +193,17 @@ async def newsletter_subscribe(payload: NewsletterSubscribe):
 
 
 @api_router.post("/contact")
-async def contact_submit(payload: ContactMessage):
-    record = ContactRecord(**payload.model_dump())
+async def contact_submit(payload: ContactMessage, request: Request):
+    # Honeypot tripped -> pretend success, store and send nothing.
+    if payload.website:
+        logger.info("Contact honeypot tripped; dropping submission silently.")
+        return {"success": True, "message": "Thanks — we'll get back to you within 3 business days.", "email_message_id": None}
+
+    client_ip = request.client.host if request.client else "unknown"
+    if _rate_limited(client_ip):
+        raise HTTPException(status_code=429, detail="Too many messages. Please try again later.")
+
+    record = ContactRecord(**payload.model_dump(exclude={"website"}))
     await db.contact_messages.insert_one(record.model_dump())
     email_message_id = None
     try:
@@ -468,13 +515,3 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
-logger = logging.getLogger(__name__)
-
-
-@app.on_event("shutdown")
-async def shutdown_db_client():
-    client.close()

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
-import { Menu, X, Search, Globe, ChevronDown, HeartHandshake } from "lucide-react";
+import { Menu, X, Search, Globe, ChevronDown, HeartHandshake, Sun, Moon } from "lucide-react";
+import { useTheme } from "next-themes";
 import { NAV } from "@/constants/testIds";
 import MobileMenu from "./MobileMenu";
 
@@ -17,6 +18,10 @@ const NAV_LINKS = [
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+  
+  useEffect(() => { setMounted(true); }, []);
   const [q, setQ] = useState("");
   const scrolledRef = useRef(false);
   const navigate = useNavigate();
@@ -125,6 +130,17 @@ export default function Header() {
             <button className="w-10 h-10 rounded-full border border-[#F5EDE3] flex items-center justify-center hover:border-[#C65A3A] hover:text-[#C65A3A] hover:bg-white transition-all shadow-sm">
               <Search className="w-4 h-4" />
             </button>
+
+            {/* Theme Toggle */}
+            {mounted && (
+              <button
+                onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+                className="w-10 h-10 rounded-full border border-[#F5EDE3] flex items-center justify-center hover:border-[#C65A3A] hover:text-[#C65A3A] hover:bg-white transition-all shadow-sm"
+                aria-label="Toggle theme"
+              >
+                {theme === 'dark' ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+              </button>
+            )}
           </div>
 
           <button

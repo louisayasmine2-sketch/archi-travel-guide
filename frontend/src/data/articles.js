@@ -4870,6 +4870,337 @@ Enjoy Italy on a budget without missing the highlights. Head to our Tuscany & Si
       tags: ['budget italy itinerary', 'florence rome venice', '10 days in italy budget', 'summer 2026 italy', 'italy travel budget', 'cheap eats rome florence venice', 'budget travel italy 2026'],
     }
   ),
+  A(
+    'best-siena-hotels-with-parking',
+    'Best Siena Hotels with Parking for Drivers and Tuscany Day Trips',
+    'Siena',
+    'Tuscany',
+    'Honest picks of Siena hotels with reliable parking for drivers. Ideal bases for Chianti & Val d’Orcia day trips, with pros, caveats, price bands and tips. Updated July 2026.',
+    '/images/siena/siena-hotels-with-parking-hero.webp',
+    [
+      {
+        id: 'siena-parking-intro',
+        heading: 'Best Siena Hotels with Parking for Drivers and Tuscany Day Trips',
+        body: `If you are arriving in Siena with a rental car and plan to use the city as a launchpad for day trips into Chianti, the Val d’Orcia, or San Gimignano, parking is not a minor detail — it is often the single biggest practical headache.
+
+Siena’s historic centre sits inside a strict ZTL (limited traffic zone). Street parking is scarce, cameras are unforgiving, and many highly rated central hotels simply do not offer easy or free parking. Choosing the wrong base can cost you time, money, and patience before you even reach Piazza del Campo.
+
+This guide focuses exclusively on hotels that solve the car problem. Every property listed offers private, free, or reliably available parking and works well as a base for drivers. Recommendations are independent and practical. We prioritise real-world usefulness over marketing language.
+
+*Some of the links below are affiliate links (Booking.com and Discover Cars). If you book through them we may earn a small commission at no extra cost to you. That never changes the ranking or the honesty of the caveats.*
+
+For neighbourhood character and pure pedestrian recommendations, see our guide: [Where to Stay in Siena](/blog/where-to-stay-in-siena-italy). For broader planning, use the [Siena Travel Guide](/siena) and [Tuscany Travel Guide](/tuscany).
+
+![Map of Siena ZTL and parking zones](/images/siena/siena-parking-map-ztl-zones.webp)
+*Navigating Siena's strict ZTL (Limited Traffic Zone) is crucial for drivers. Booking a hotel with dedicated parking saves you from heavy fines.*`,
+      },
+      {
+        id: 'hotel-athena',
+        heading: 'Hotel Athena – Best overall balance of free parking and walkability',
+        body: `Hotel Athena sits just inside the historic walls near Porta San Marco, outside the strictest ZTL core. It offers free private parking (garage and outdoor spots) that guests repeatedly praise as one of the few genuinely easy options in this location.
+
+The walk to Piazza del Campo takes roughly 8–12 minutes (slightly uphill on the way back). Rooms are comfortable and well-kept rather than luxurious. Breakfast is solid and the panoramic terrace is a genuine plus for an evening drink with views over the valley.
+
+*   **Pros:** Free parking that actually works, short walk to the main sights, helpful staff, good value for the location.
+*   **Caveat:** Parking spaces can be tight and occasionally require staff assistance; some rooms feel dated compared with newer boutique properties. Not ideal if you want pure luxury or a completely flat stroll.
+*   **Price band:** Typically €150–260 per night in summer (verify current rates; higher around Palio).
+*   **Practical tip:** Book the parking when you reserve the room if possible, and enter via the recommended gate so you avoid ZTL cameras.
+
+[Check rates and availability for Hotel Athena](https://www.booking.com/hotel/it/athenasiena.html?aid=2311234)
+
+![Hotel Athena Siena with free parking](/images/siena/hotel-athena-siena-parking.webp)
+*Hotel Athena offers that rare combination in Siena: inside the historic walls but with genuinely accessible free parking.*
+
+![Hotel Athena Siena panoramic terrace](/images/siena/hotel-athena-siena-room.webp)
+*After a day of exploring Tuscany, unwind on Hotel Athena's panoramic terrace overlooking the valley.*`,
+      },
+      {
+        id: 'palazzo-ravizza',
+        heading: 'Palazzo Ravizza – Central garden hotel with private parking',
+        body: `Palazzo Ravizza is one of the few properties that combines a genuinely central location with private parking and a peaceful garden terrace overlooking the Tuscan countryside. The parking is on-site (reports vary between free and a modest daily fee of around €10–20; limited spots).
+
+You are within a 5–10 minute walk of Piazza del Campo and the Duomo. The historic building has character, the garden is a real asset in summer, and breakfast on the terrace is frequently highlighted.
+
+*   **Pros:** Rare combination of centre + parking + garden views; atmospheric; good for couples who still want a car.
+*   **Caveat:** Parking is limited and not always free; access involves a specific gate and ZTL awareness. Rooms vary in size and modernity.
+*   **Price band:** €160–280 in high season.
+*   **Practical tip:** Confirm parking availability and any fee at the time of booking; arrive with clear instructions from the hotel for the correct entrance.
+
+[Check rates and availability for Palazzo Ravizza](https://www.booking.com/hotel/it/palazzoravizza.html?aid=2311234)
+
+![Garden at Palazzo Ravizza Siena](/images/siena/palazzo-ravizza-siena-garden.webp)
+*Palazzo Ravizza offers a tranquil garden oasis right in the city centre, complete with limited on-site parking for guests.*`,
+      },
+      {
+        id: 'hotel-santa-caterina',
+        heading: 'Hotel Santa Caterina – Garden views just outside Porta Romana',
+        body: `Located just outside Porta Romana, Hotel Santa Caterina offers private paid parking (typically €10–15 per day, limited spaces) and a pleasant garden where breakfast is served with views across the hills. The walk into the centre takes 10–15 minutes.
+
+It is quieter than the very heart of the historic core and works well for drivers who want to avoid the tightest streets while still being able to stroll in.
+
+*   **Pros:** Attractive garden setting, straightforward parking, solid breakfast, friendly atmosphere.
+*   **Caveat:** Not as central as Athena or Ravizza; parking must usually be reserved and is not free. Rooms are comfortable but not luxurious.
+*   **Price band:** €130–220.
+*   **Practical tip:** Reserve the parking spot when you book; the short walk is pleasant but involves some hills and cobbles.
+
+[Check rates and availability for Hotel Santa Caterina](https://www.booking.com/hotel/it/hotel-santa-caterina-siena.html?aid=2311234)
+
+![Hotel Santa Caterina Siena garden view](/images/siena/hotel-santa-caterina-siena-view.webp)
+*Enjoy breakfast with a view across the Tuscan hills at Hotel Santa Caterina, located just outside Porta Romana.*`,
+      },
+      {
+        id: 'hotel-italia',
+        heading: 'Hotel Italia – Practical value near the station',
+        body: `Hotel Italia sits in a more residential area closer to the train station. It has a small private paid parking area (€10 per day, limited and best reserved) plus free options nearby or at its sister Hotel Garden roughly 600 m away. The walk to Piazza del Campo is 15–20 minutes.
+
+It is a straightforward, clean, well-run mid-range hotel that appeals to drivers who value easy access in and out of the city more than being right in the tourist core.
+
+*   **Pros:** Reliable (if limited) parking options, good breakfast, convenient for station and highway access, decent value.
+*   **Caveat:** Further walk to the main sights; private parking is tight and not free. Some rooms are in annex buildings.
+*   **Price band:** €110–190.
+*   **Practical tip:** If the main lot is full, the sister hotel parking is a reliable free alternative with a short walk.
+
+[Check rates and availability for Hotel Italia](https://www.booking.com/hotel/it/hotel-italia-siena.html?aid=2311234)
+
+![Hotel Italia Siena exterior](/images/siena/hotel-italia-siena-exterior.webp)
+*Hotel Italia offers excellent value and practical parking options close to Siena's train station.*`,
+      },
+      {
+        id: 'sangallo-park-hotel',
+        heading: 'Sangallo Park Hotel – Best pure road-trip base with pool',
+        body: `Sangallo Park Hotel sits on a hillside a short drive (or bus ride) from the centre. It offers ample free parking, an outdoor pool, panoramic views and a relaxed atmosphere that works especially well if your priority is day trips rather than walking everywhere in Siena.
+
+The historic centre is roughly 10–15 minutes by car or a bit longer by bus/taxi. Many guests use it exactly as a comfortable base for exploring the wider region by car.
+
+*   **Pros:** Free and plentiful parking, pool, views, easy highway access, good for multi-day Tuscany itineraries.
+*   **Caveat:** Not walkable to the main sights in any practical sense; you will use the car, bus or taxi daily. Some rooms can pick up traffic noise from the nearby road.
+*   **Price band:** €100–180.
+*   **Practical tip:** Ideal if you plan more time in the countryside than in the city itself. EV charging is sometimes available.
+
+[Check rates and availability for Sangallo Park Hotel](https://www.booking.com/hotel/it/sangalloparkhotel.html?aid=2311234)
+
+![Pool at Sangallo Park Hotel Siena](/images/siena/sangallo-park-hotel-siena-pool.webp)
+*If your main goal is day-tripping around Tuscany, Sangallo Park Hotel offers a pool, ample free parking, and fast highway access.*`,
+      },
+      {
+        id: 'certosa-di-maggiano',
+        heading: 'Hotel Certosa di Maggiano – Luxury monastery base in the countryside',
+        body: `A converted 14th-century Carthusian monastery about 2 km from the walls, Certosa di Maggiano offers free private parking, a swimming pool, extensive gardens and a high level of service and atmosphere. It is one of the most distinctive stays near Siena.
+
+The centre is a short drive or taxi ride (hotel shuttle is sometimes available). It is perfect if you want a serene, high-end base and are happy to drive or taxi into the city for sightseeing.
+
+*   **Pros:** Exceptional setting and service, free parking, pool and grounds, memorable luxury experience.
+*   **Caveat:** Not walkable; higher price point; historic building means no lifts in some areas and a more formal atmosphere.
+*   **Price band:** €300–550+ (verify carefully).
+*   **Practical tip:** Best for travellers who want the countryside atmosphere as much as the city and are prepared for the higher rate.
+
+[Check rates and availability for Hotel Certosa di Maggiano](https://www.booking.com/hotel/it/certosadimaggiano.html?aid=2311234)
+
+![Luxury setting at Hotel Certosa di Maggiano](/images/siena/certosa-di-maggiano-siena-luxury.webp)
+*Experience a serene, high-end stay at this converted 14th-century monastery, complete with extensive gardens and free parking.*`,
+      },
+      {
+        id: 'grand-hotel-continental',
+        heading: 'Grand Hotel Continental Siena – Luxury central option with valet parking',
+        body: `The Grand Hotel Continental (Starhotels Collezione) sits in a prime central location just a few minutes’ walk from Piazza del Campo. Parking is arranged via a partner garage with valet service (typically €45–65 per night). It is the most convenient luxury choice if you prioritise being in the heart of the action and are willing to pay for the parking solution.
+
+*   **Pros:** Outstanding central location, high service standards, historic building, excellent for those who want to walk everywhere once the car is parked.
+*   **Caveat:** Parking is expensive and off-site; ZTL access requires following hotel instructions carefully. Not the best pure value.
+*   **Price band:** €300–500+ in high season.
+*   **Practical tip:** Confirm the exact valet process and cost when booking; this is the “pay for maximum convenience” option.
+
+[Check rates and availability for Grand Hotel Continental Siena](https://www.booking.com/hotel/it/continentalsiena.html?aid=2311234)
+
+![Grand Hotel Continental Siena luxury valet](/images/siena/grand-hotel-continental-siena-valet.webp)
+*For those who want to be in the absolute centre of the action, Grand Hotel Continental offers maximum luxury and a paid valet service.*
+
+**Other notable option:** Hotel Minerva offers covered garage parking inside the walls with straightforward ZTL access via hotel registration. It’s worth comparing if you prefer maximum centrality.`,
+      },
+      {
+        id: 'comparison-table',
+        heading: 'Comparison Table',
+        body: `| Hotel | Best for | Price band (summer) | Access to centre |
+| :--- | :--- | :--- | :--- |
+| **Hotel Athena** | Free parking + walkability | €150–260 | 8–12 min walk |
+| **Palazzo Ravizza** | Central garden + character | €160–280 | 5–10 min walk |
+| **Hotel Santa Caterina** | Garden views, quieter edge | €130–220 | 10–15 min walk |
+| **Hotel Italia** | Value + station access | €110–190 | 15–20 min walk |
+| **Sangallo Park Hotel** | Pool + pure day-trip base | €100–180 | 10–15 min drive / bus |
+| **Hotel Certosa di Maggiano** | Luxury countryside retreat | €300–550+ | Short drive / taxi |
+| **Grand Hotel Continental** | Luxury + maximum centrality | €300–500+ | 3–5 min walk (paid valet) |
+
+*Prices are approximate mid-to-high season ballparks for a standard double and fluctuate significantly. Always verify current rates and parking availability, especially for the weeks around the Palio on 16 August.*`,
+      },
+      {
+        id: 'next-steps',
+        heading: 'Next Steps',
+        body: `Decide whether walkability or pure driving convenience matters more to you, then check current availability and parking confirmation for two or three of the hotels above. Use the [Travel Budget Calculator](/budget-calculator) to model the full cost of car + hotel + day trips, and cross-reference the neighbourhood character in [Where to Stay in Siena](/blog/where-to-stay-in-siena-italy) if you also want the pedestrian perspective.
+
+Siena rewards drivers who plan the parking piece carefully. Choose one of the hotels on this list and the car becomes an asset rather than a daily complication.
+
+[Compare all rental car prices for Italy on DiscoverCars](https://www.discovercars.com/?a_aid=2311234)`,
+      },
+    ],
+    [
+      {
+        q: 'Is it hard to park a car in Siena’s historic centre?',
+        a: 'Yes. The ZTL is strictly enforced with cameras, street parking is limited, and many central hotels have little or no private parking. Choosing a hotel with reliable on-site or partner parking removes most of the stress. Hotels can usually register your licence plate for temporary ZTL access when needed.',
+      },
+      {
+        q: 'Do any hotels offer free parking inside or near the walls?',
+        a: 'Hotel Athena is one of the strongest and most consistently praised options for free private parking with a short walk to the centre. A few others offer free or low-cost private spots, but availability is limited and should be confirmed at booking.',
+      },
+      {
+        q: 'How early should I book for the August Palio?',
+        a: 'As early as possible. The 16 August race creates a clear surge in demand and prices for any hotel with good parking or central access. Many parking-equipped properties sell out or jump in rate weeks in advance.',
+      },
+      {
+        q: 'Is it better to stay outside the walls if I have a car?',
+        a: 'It depends on your priorities. Outside or edge-of-walls hotels (Sangallo Park, Certosa, Santa Caterina) make driving and day trips easier. Walkable options with parking (Athena, Ravizza) let you leave the car most days once you arrive.',
+      },
+      {
+        q: 'Are the walks from the "walkable with parking" hotels flat?',
+        a: 'No. Siena is hilly and the streets are cobbled. Even a 10-minute walk involves some uphill stretches and uneven surfaces. Comfortable shoes are essential.',
+      },
+    ],
+    '2026-07-18',
+    {
+      seoTitle: 'Best Siena Hotels with Parking for Tuscany Day Trips',
+      primaryKeyword: 'siena hotels with parking',
+      secondaryKeywords: [
+        'best siena hotels for drivers',
+        'hotel athena siena parking',
+        'siena ztl hotel parking',
+        'tuscany day trip base siena',
+        'where to stay in siena with a car',
+        'palazzo ravizza siena',
+      ],
+      imageAlt: 'Best Siena hotels with parking for drivers Tuscany',
+      canonicalPath: '/blog/best-siena-hotels-with-parking',
+      tags: ['siena hotels with parking', 'best siena hotels for drivers', 'hotel athena siena parking', 'siena ztl hotel parking', 'where to stay in siena with a car'],
+    }
+  ),
+  A(
+    'val-dorcia-day-trip-from-siena-2026',
+    'Val d’Orcia Day Trip from Siena: Pienza, Montalcino & Montepulciano (2026 Guide)',
+    'Siena Day Trips',
+    'Tuscany',
+    'Plan a Val d’Orcia day trip from Siena in 2026. Realistic routes to Pienza, Montalcino, and Montepulciano by bus, car, or tour — with timing, wine tips, and a one-day itinerary.',
+    '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Val d’Orcia is the single most rewarding day trip from Siena for landscape lovers. The UNESCO-listed valley of cypress-lined ridges, golden fields, and hilltop towns begins roughly 40 minutes south of the city. With a car you can comfortably combine **Pienza, Montalcino, and Montepulciano** in one day; by public bus, pick **one or two towns** and enjoy them slowly rather than rushing all three.`,
+      },
+      {
+        id: 'why-val-dorcia',
+        heading: 'Why Val d’Orcia deserves a full day',
+        body: `Most of the classic photographs people associate with Tuscany — a lone farmhouse on a ridge, a winding cypress avenue, hills that turn from green to gold through the year — were taken in Val d’Orcia. The valley was inscribed by UNESCO precisely because its Renaissance-era agricultural landscape is still intact and still worked.
+
+Unlike Chianti, which is threaded with woodland, Val d’Orcia is open and sweeping. Views change every few kilometers, and the towns are compact enough that even a short stop feels complete. Basing yourself in Siena puts you closer to the valley than Florence-based travelers, which is a genuine advantage: you can leave after breakfast and still catch the best late-afternoon light on the way back.
+
+![Cypress trees and rolling hills in Val d'Orcia](/images/tuscany/val-dorcia-cypress-trees-landscape.jpg)
+*The open ridgelines of Val d’Orcia, less than an hour south of Siena.*`,
+      },
+      {
+        id: 'the-three-towns',
+        heading: 'The three towns, and how to choose',
+        body: `**Pienza** is the smallest and the easiest to love. Pope Pius II rebuilt his home village as an "ideal Renaissance city," and the result is a perfect miniature: a cathedral, a piazza, a palace, and lanes with names like Via dell’Amore. It is also the home of pecorino di Pienza — plan a cheese tasting. Allow 1.5–2 hours.
+
+**Montalcino** is wine first, everything else second. The town sits high above the valley behind its fortress, and nearly every doorway leads to an enoteca pouring **Brunello di Montalcino**, one of Italy’s most celebrated reds. If wine is your priority, make this your anchor stop. Allow 2–3 hours with a tasting.
+
+**Montepulciano** is the largest and most dramatic of the three, a long climb of palazzi rising to Piazza Grande. Its Vino Nobile cellars — some carved deep into the rock beneath the town — can be visited on the spot. Allow 2–3 hours; expect more visitors here than in Pienza.
+
+If you only have time for two: pair **Pienza + Montalcino** and keep Montepulciano for a future trip.`,
+      },
+      {
+        id: 'getting-there-by-car',
+        heading: 'By car: the classic loop',
+        body: `A rental car turns Val d’Orcia into a flexible loop of roughly 130–150 km round-trip from Siena. A proven route:
+
+1.  Leave Siena on the Via Cassia (SR2) heading south past Buonconvento.
+2.  Detour up to **Montalcino** for the morning and an early tasting.
+3.  Continue to **San Quirico d’Orcia** — a good, quick lunch stop that most tour buses skip.
+4.  Follow the ridge road to **Pienza** for the afternoon: cheese shops, cathedral, and the panoramic walkway behind the town.
+5.  If energy allows, end in **Montepulciano**, then return to Siena via the SS146 and SR2 in time for dinner.
+
+Two practical warnings. First, every one of these towns has a ZTL (restricted traffic zone) — park in the signed lots outside the walls and walk in. Second, the most photographed spots (the cypress circle near San Quirico, the Vitaleta chapel viewpoint) have small pull-offs that fill quickly in summer; go early or late for photographs.`,
+      },
+      {
+        id: 'getting-there-by-bus',
+        heading: 'By bus: doable, with discipline',
+        body: `Regional buses run by Autolinee Toscane connect Siena with the main Val d’Orcia towns. Montalcino and Montepulciano each have direct or one-change connections; Pienza is usually reached on the Montepulciano line.
+
+The honest advice: **check the current timetable the day before**, screenshot it, and treat the last return bus as non-negotiable. Sunday and holiday service is thin, and some runs are school-calendar dependent. A realistic bus plan is one town done well — for example, a full relaxed day in Pienza or Montalcino — rather than a three-town sprint.
+
+If the timetable does not cooperate, a middle path is taking a small-group tour from Siena for the valley itself and saving your bus day for a simpler trip like Monteriggioni. See our guide to [day trips from Siena without a car](/blog/siena-day-trips-without-a-car).`,
+      },
+      {
+        id: 'wine-tasting',
+        heading: 'Wine tasting without the guesswork',
+        body: `Brunello (Montalcino) and Vino Nobile (Montepulciano) are the valley’s headline wines, and tasting culture in 2026 has become more structured: the better cellars now prefer **reservations, even for small tastings**, especially May–October.
+
+A simple approach that works: book one proper cellar visit in advance for the town you care most about, and leave the rest to walk-in enotecas, where a flight of two or three pours with local salumi is easy to find. If you are driving, share tastings or use the spittoons — Tuscan hill roads and generous pours do not mix.
+
+![Wine tasting experience in the Siena countryside](/images/siena/siena-tuscany-wine-tasting-experience.webp)
+*Book one structured tasting, then keep the rest of the day spontaneous.*`,
+      },
+      {
+        id: 'one-day-itinerary',
+        heading: 'A realistic one-day itinerary',
+        body: `**08:30** — Leave Siena (car) or catch the morning bus.
+
+**09:30–12:00** — Montalcino: fortress walls, backstreets, one booked tasting or a relaxed enoteca flight.
+
+**12:15–13:30** — Lunch in San Quirico d’Orcia or a countryside osteria; pici with wild-boar ragù is the local order.
+
+**14:00–16:00** — Pienza: cathedral and piazza, pecorino tasting, and the valley panorama from the walls.
+
+**16:30–17:30** — Golden-hour photo stops along the ridge roads (drivers) or the walk back to the bus stop with a gelato (bus travelers).
+
+**18:30–19:00** — Back in Siena for an aperitivo on the Campo.
+
+Travelers without a car should cut this to one town plus lunch. Slower is better here: Val d’Orcia rewards sitting still — on a wall, in a piazza, at a table — more than almost anywhere in Tuscany.`,
+      },
+      {
+        id: 'when-to-go',
+        heading: 'When to go in 2026',
+        body: `**May and June** bring green hills, poppies, and long days — the classic look. **July and August** are hot and hazier; start early, plan shade at lunch, and expect the fields to turn gold after the grain harvest. **September and October** add harvest energy and softer light, with wine towns at their liveliest. **Winter** is quiet and atmospheric, but check reduced opening hours for cellars and museums, and be aware that bus schedules thin out.
+
+Whatever the month, the valley is at its best in the first and last two hours of daylight — one more argument for basing yourself in nearby Siena rather than day-tripping from Florence. If you are still planning your base, compare options in [Where to stay in Siena](/blog/where-to-stay-in-siena).`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Val d’Orcia is not a checklist destination, and it punishes rushed plans gently: you simply spend your day parking and driving instead of tasting and looking. Choose fewer towns than you think you want, book one tasting, keep the camera ready between stops, and let the landscape do the rest. Done this way, it is the day most travelers name afterwards as the best of their Tuscan trip.`,
+      },
+    ],
+    [
+      { q: 'Can you do a Val d’Orcia day trip from Siena without a car?', a: 'Yes, but plan around the bus timetable. Regional buses reach Montalcino and Montepulciano, and Pienza is on the Montepulciano line. Pick one or two towns, confirm the last return bus, and avoid Sundays when service is thin.' },
+      { q: 'Which is better: Pienza, Montalcino, or Montepulciano?', a: 'Pienza is best for a compact Renaissance townscape and pecorino cheese, Montalcino for Brunello wine, and Montepulciano for dramatic architecture and underground cellars. With limited time, most first-timers enjoy Pienza plus Montalcino.' },
+      { q: 'How far is Val d’Orcia from Siena?', a: 'The valley begins roughly 40 minutes south of Siena by car. A comfortable loop touching Montalcino, San Quirico d’Orcia, and Pienza is around 130–150 km round-trip.' },
+      { q: 'Do you need to book wine tastings in advance?', a: 'For proper cellar visits in Montalcino and Montepulciano, yes — especially from May to October. Walk-in enoteca flights remain easy to find without a booking.' },
+      { q: 'Is Val d’Orcia better from Siena or Florence?', a: 'Siena. It is significantly closer, which means a later start, more time in the valley, and a return in time for dinner. From Florence, the same day involves two to three extra hours of travel.' },
+      { q: 'When do the Tuscan hills look green vs. gold?', a: 'Green from roughly March to early June, then gold after the grain harvest through late summer. September and October bring softer light and the wine harvest.' },
+    ],
+    '2026-07-18',
+    {
+      seoTitle: 'Val d’Orcia Day Trip from Siena: Pienza, Montalcino & Montepulciano (2026)',
+      primaryKeyword: 'val d’orcia day trip from siena',
+      secondaryKeywords: [
+        'val d’orcia from siena',
+        'pienza day trip from siena',
+        'montalcino day trip from siena',
+        'montepulciano from siena',
+        'val d’orcia without a car',
+        'brunello wine tasting day trip',
+      ],
+      imageAlt: 'Cypress-lined road and rolling hills in Val d’Orcia, Tuscany',
+      canonicalPath: '/blog/val-dorcia-day-trip-from-siena-2026',
+      tags: ['val d’orcia day trip from siena', 'pienza day trip', 'montalcino brunello tasting', 'montepulciano vino nobile', 'tuscany day trips'],
+    }
+  ),
 ];
 
 export const articles = allArticles.filter(a => new Date(a.updated) <= new Date());

@@ -42,6 +42,35 @@
     --chart-5: var(--terracotta-2);
     --radius: 0.75rem;
   }
+  .dark {
+    /* Inverted palette for dark mode */
+    --ivory: 60 3% 17%;
+    --ivory-2: 60 3% 21%;
+    --ivory-3: 60 3% 25%;
+    --stone-border: 60 2% 34%;
+    --charcoal: 40 43% 98%;
+    --charcoal-soft: 39 24% 93%;
+    
+    --background: var(--ivory);
+    --foreground: var(--charcoal);
+    --card: var(--ivory);
+    --card-foreground: var(--charcoal);
+    --popover: var(--ivory);
+    --popover-foreground: var(--charcoal);
+    --primary: var(--terracotta);
+    --primary-foreground: var(--ivory);
+    --secondary: var(--ivory-2);
+    --secondary-foreground: var(--charcoal);
+    --muted: var(--ivory-2);
+    --muted-foreground: var(--charcoal-soft);
+    --accent: var(--sand);
+    --accent-foreground: var(--charcoal);
+    --destructive: 358 46% 47%;
+    --destructive-foreground: 0 0% 98%;
+    --border: var(--stone-border);
+    --input: var(--stone-border);
+    --ring: var(--terracotta);
+  }
 }
 
 @layer base {

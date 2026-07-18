@@ -1,2 +1,0 @@
-# Archi Travel Guide: Crete
-

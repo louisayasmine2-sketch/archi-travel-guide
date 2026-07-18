@@ -27,7 +27,8 @@ const contactMailto = ({ name, email, subject, message }) => {
 };
 
 export default function Contact() {
-  const [form, setForm] = useState({ name: "", email: "", subject: "", message: "" });
+  // `website` is a honeypot field: hidden from humans, bots tend to fill it.
+  const [form, setForm] = useState({ name: "", email: "", subject: "", message: "", website: "" });
   const [loading, setLoading] = useState(false);
   const upd = (k, v) => setForm((f) => ({ ...f, [k]: v }));
 
@@ -46,7 +47,7 @@ export default function Contact() {
       const res = await axios.post(API, form);
       trackContactSubmit({ form_source: "contact_page", delivery_method: "backend" });
       toast.success(res.data.message || "Thanks — message sent.");
-      setForm({ name: "", email: "", subject: "", message: "" });
+      setForm({ name: "", email: "", subject: "", message: "", website: "" });
     } catch (_) {
       toast.error(`We could not send this form right now. Please email ${CONTACT_EMAIL}.`);
     } finally {
@@ -132,6 +133,17 @@ export default function Contact() {
 
             <div className="flex-1 relative z-10">
               <form onSubmit={submit} data-testid={CONTACT.form} className="space-y-6">
+                {/* Honeypot — keep hidden from real users; bots auto-fill it */}
+                <input
+                  type="text"
+                  name="website"
+                  value={form.website}
+                  onChange={(e) => upd("website", e.target.value)}
+                  tabIndex={-1}
+                  autoComplete="off"
+                  aria-hidden="true"
+                  className="hidden"
+                />
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <label>
                     <span className={LABEL}>Name</span>
