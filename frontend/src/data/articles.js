@@ -4904,7 +4904,7 @@ The walk to Piazza del Campo takes roughly 8–12 minutes (slightly uphill on th
 *   **Price band:** Typically €150–260 per night in summer (verify current rates; higher around Palio).
 *   **Practical tip:** Book the parking when you reserve the room if possible, and enter via the recommended gate so you avoid ZTL cameras.
 
-[Check rates and availability for Hotel Athena](https://www.booking.com/hotel/it/athenasiena.html?aid=2311234)
+Check rates and availability for Hotel Athena
 
 ![Hotel Athena Siena with free parking](/images/siena/hotel-athena-siena-parking.webp)
 *Hotel Athena offers that rare combination in Siena: inside the historic walls but with genuinely accessible free parking.*
@@ -4924,7 +4924,7 @@ You are within a 5–10 minute walk of Piazza del Campo and the Duomo. The histo
 *   **Price band:** €160–280 in high season.
 *   **Practical tip:** Confirm parking availability and any fee at the time of booking; arrive with clear instructions from the hotel for the correct entrance.
 
-[Check rates and availability for Palazzo Ravizza](https://www.booking.com/hotel/it/palazzoravizza.html?aid=2311234)
+Check rates and availability for Palazzo Ravizza
 
 ![Garden at Palazzo Ravizza Siena](/images/siena/palazzo-ravizza-siena-garden.webp)
 *Palazzo Ravizza offers a tranquil garden oasis right in the city centre, complete with limited on-site parking for guests.*`,
@@ -4941,7 +4941,7 @@ It is quieter than the very heart of the historic core and works well for driver
 *   **Price band:** €130–220.
 *   **Practical tip:** Reserve the parking spot when you book; the short walk is pleasant but involves some hills and cobbles.
 
-[Check rates and availability for Hotel Santa Caterina](https://www.booking.com/hotel/it/hotel-santa-caterina-siena.html?aid=2311234)
+Check rates and availability for Hotel Santa Caterina
 
 ![Hotel Santa Caterina Siena garden view](/images/siena/hotel-santa-caterina-siena-view.webp)
 *Enjoy breakfast with a view across the Tuscan hills at Hotel Santa Caterina, located just outside Porta Romana.*`,
@@ -4958,7 +4958,7 @@ It is a straightforward, clean, well-run mid-range hotel that appeals to drivers
 *   **Price band:** €110–190.
 *   **Practical tip:** If the main lot is full, the sister hotel parking is a reliable free alternative with a short walk.
 
-[Check rates and availability for Hotel Italia](https://www.booking.com/hotel/it/hotel-italia-siena.html?aid=2311234)
+Check rates and availability for Hotel Italia
 
 ![Hotel Italia Siena exterior](/images/siena/hotel-italia-siena-exterior.webp)
 *Hotel Italia offers excellent value and practical parking options close to Siena's train station.*`,
@@ -4975,7 +4975,7 @@ The historic centre is roughly 10–15 minutes by car or a bit longer by bus/tax
 *   **Price band:** €100–180.
 *   **Practical tip:** Ideal if you plan more time in the countryside than in the city itself. EV charging is sometimes available.
 
-[Check rates and availability for Sangallo Park Hotel](https://www.booking.com/hotel/it/sangalloparkhotel.html?aid=2311234)
+Check rates and availability for Sangallo Park Hotel
 
 ![Pool at Sangallo Park Hotel Siena](/images/siena/sangallo-park-hotel-siena-pool.webp)
 *If your main goal is day-tripping around Tuscany, Sangallo Park Hotel offers a pool, ample free parking, and fast highway access.*`,
@@ -4992,7 +4992,7 @@ The centre is a short drive or taxi ride (hotel shuttle is sometimes available).
 *   **Price band:** €300–550+ (verify carefully).
 *   **Practical tip:** Best for travellers who want the countryside atmosphere as much as the city and are prepared for the higher rate.
 
-[Check rates and availability for Hotel Certosa di Maggiano](https://www.booking.com/hotel/it/certosadimaggiano.html?aid=2311234)
+Check rates and availability for Hotel Certosa di Maggiano
 
 ![Luxury setting at Hotel Certosa di Maggiano](/images/siena/certosa-di-maggiano-siena-luxury.webp)
 *Experience a serene, high-end stay at this converted 14th-century monastery, complete with extensive gardens and free parking.*`,
@@ -5007,7 +5007,7 @@ The centre is a short drive or taxi ride (hotel shuttle is sometimes available).
 *   **Price band:** €300–500+ in high season.
 *   **Practical tip:** Confirm the exact valet process and cost when booking; this is the “pay for maximum convenience” option.
 
-[Check rates and availability for Grand Hotel Continental Siena](https://www.booking.com/hotel/it/continentalsiena.html?aid=2311234)
+Check rates and availability for Grand Hotel Continental Siena
 
 ![Grand Hotel Continental Siena luxury valet](/images/siena/grand-hotel-continental-siena-valet.webp)
 *For those who want to be in the absolute centre of the action, Grand Hotel Continental offers maximum luxury and a paid valet service.*
@@ -5036,7 +5036,7 @@ The centre is a short drive or taxi ride (hotel shuttle is sometimes available).
 
 Siena rewards drivers who plan the parking piece carefully. Choose one of the hotels on this list and the car becomes an asset rather than a daily complication.
 
-[Compare all rental car prices for Italy on DiscoverCars](https://www.discovercars.com/?a_aid=2311234)`,
+Compare all rental car prices for Italy on DiscoverCars`,
       },
     ],
     [
