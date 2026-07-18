@@ -90,3 +90,9 @@ credentials.json
 *.key
 .credentials
 _to_delete/
+all-links.txt
+link-check.txt
+audit.csv
+external_links.csv
+image_report.csv
+content_audit.csv
