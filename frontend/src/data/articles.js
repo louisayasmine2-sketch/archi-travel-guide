@@ -4828,7 +4828,7 @@ Enjoy Italy on a budget without missing the highlights. Head to our Tuscany & Si
     'Siena',
     'Tuscany',
     'Honest picks of Siena hotels with reliable parking for drivers. Ideal bases for Chianti & Val d’Orcia day trips, with pros, caveats, price bands and tips. Updated July 2026.',
-    '/images/siena/siena-hotels-with-parking-hero.webp',
+    '',
     [
       {
         id: 'siena-parking-intro',
@@ -4839,11 +4839,8 @@ Siena’s historic centre sits inside a strict ZTL (limited traffic zone). Stree
 
 This guide focuses exclusively on hotels that solve the car problem. Every property listed offers private, free, or reliably available parking and works well as a base for drivers. Recommendations are independent and practical. We prioritise real-world usefulness over marketing language.
 
-*Some of the links below are affiliate links (Booking.com and Discover Cars). If you book through them we may earn a small commission at no extra cost to you. That never changes the ranking or the honesty of the caveats.*
-
 For neighbourhood character and pure pedestrian recommendations, see our guide: [Where to Stay in Siena](/blog/where-to-stay-in-siena-italy). For broader planning, use the [Siena Travel Guide](/siena) and [Tuscany Travel Guide](/tuscany).
 
-![Map of Siena ZTL and parking zones](/images/siena/siena-parking-map-ztl-zones.webp)
 *Navigating Siena's strict ZTL (Limited Traffic Zone) is crucial for drivers. Booking a hotel with dedicated parking saves you from heavy fines.*`,
       },
       {
@@ -4860,27 +4857,24 @@ The walk to Piazza del Campo takes roughly 8–12 minutes (slightly uphill on th
 
 Check rates and availability for Hotel Athena
 
-![Hotel Athena Siena with free parking](/images/siena/hotel-athena-siena-parking.webp)
 *Hotel Athena offers that rare combination in Siena: inside the historic walls but with genuinely accessible free parking.*
 
-![Hotel Athena Siena panoramic terrace](/images/siena/hotel-athena-siena-room.webp)
 *After a day of exploring Tuscany, unwind on Hotel Athena's panoramic terrace overlooking the valley.*`,
       },
       {
         id: 'palazzo-ravizza',
         heading: 'Palazzo Ravizza – Central garden hotel with private parking',
-        body: `Palazzo Ravizza is one of the few properties that combines a genuinely central location with private parking and a peaceful garden terrace overlooking the Tuscan countryside. The parking is on-site (reports vary between free and a modest daily fee of around €10–20; limited spots).
+        body: `Palazzo Ravizza is one of the few properties that combines a genuinely central location with private parking and a peaceful garden terrace overlooking the Tuscan countryside. The parking is on-site and costs €10 per day (limited spots; it cannot be reserved in advance).
 
 You are within a 5–10 minute walk of Piazza del Campo and the Duomo. The historic building has character, the garden is a real asset in summer, and breakfast on the terrace is frequently highlighted.
 
 *   **Pros:** Rare combination of centre + parking + garden views; atmospheric; good for couples who still want a car.
-*   **Caveat:** Parking is limited and not always free; access involves a specific gate and ZTL awareness. Rooms vary in size and modernity.
+*   **Caveat:** Parking is limited and costs €10 per day; access involves a specific gate and ZTL awareness. Rooms vary in size and modernity.
 *   **Price band:** €160–280 in high season.
-*   **Practical tip:** Confirm parking availability and any fee at the time of booking; arrive with clear instructions from the hotel for the correct entrance.
+*   **Practical tip:** Parking cannot be reserved in advance; arrive with clear instructions from the hotel for the correct entrance.
 
 Check rates and availability for Palazzo Ravizza
 
-![Garden at Palazzo Ravizza Siena](/images/siena/palazzo-ravizza-siena-garden.webp)
 *Palazzo Ravizza offers a tranquil garden oasis right in the city centre, complete with limited on-site parking for guests.*`,
       },
       {
@@ -4897,7 +4891,6 @@ It is quieter than the very heart of the historic core and works well for driver
 
 Check rates and availability for Hotel Santa Caterina
 
-![Hotel Santa Caterina Siena garden view](/images/siena/hotel-santa-caterina-siena-view.webp)
 *Enjoy breakfast with a view across the Tuscan hills at Hotel Santa Caterina, located just outside Porta Romana.*`,
       },
       {
@@ -4914,7 +4907,6 @@ It is a straightforward, clean, well-run mid-range hotel that appeals to drivers
 
 Check rates and availability for Hotel Italia
 
-![Hotel Italia Siena exterior](/images/siena/hotel-italia-siena-exterior.webp)
 *Hotel Italia offers excellent value and practical parking options close to Siena's train station.*`,
       },
       {
@@ -4931,7 +4923,6 @@ The historic centre is roughly 10–15 minutes by car or a bit longer by bus/tax
 
 Check rates and availability for Sangallo Park Hotel
 
-![Pool at Sangallo Park Hotel Siena](/images/siena/sangallo-park-hotel-siena-pool.webp)
 *If your main goal is day-tripping around Tuscany, Sangallo Park Hotel offers a pool, ample free parking, and fast highway access.*`,
       },
       {
@@ -4948,7 +4939,6 @@ The centre is a short drive or taxi ride (hotel shuttle is sometimes available).
 
 Check rates and availability for Hotel Certosa di Maggiano
 
-![Luxury setting at Hotel Certosa di Maggiano](/images/siena/certosa-di-maggiano-siena-luxury.webp)
 *Experience a serene, high-end stay at this converted 14th-century monastery, complete with extensive gardens and free parking.*`,
       },
       {
@@ -4963,7 +4953,6 @@ Check rates and availability for Hotel Certosa di Maggiano
 
 Check rates and availability for Grand Hotel Continental Siena
 
-![Grand Hotel Continental Siena luxury valet](/images/siena/grand-hotel-continental-siena-valet.webp)
 *For those who want to be in the absolute centre of the action, Grand Hotel Continental offers maximum luxury and a paid valet service.*
 
 **Other notable option:** Hotel Minerva offers covered garage parking inside the walls with straightforward ZTL access via hotel registration. It’s worth comparing if you prefer maximum centrality.`,
@@ -4981,7 +4970,7 @@ Check rates and availability for Grand Hotel Continental Siena
 | **Hotel Certosa di Maggiano** | Luxury countryside retreat | €300–550+ | Short drive / taxi |
 | **Grand Hotel Continental** | Luxury + maximum centrality | €300–500+ | 3–5 min walk (paid valet) |
 
-*Prices are approximate mid-to-high season ballparks for a standard double and fluctuate significantly. Always verify current rates and parking availability, especially for the weeks around the Palio on 16 August.*`,
+*Prices are approximate mid-to-high season ballparks for a standard double and fluctuate significantly. Always verify current rates and parking availability, especially for the weeks around the Palio races on 2 July and 16 August.*`,
       },
       {
         id: 'next-steps',
@@ -5003,8 +4992,8 @@ Compare all rental car prices for Italy on DiscoverCars`,
         a: 'Hotel Athena is one of the strongest and most consistently praised options for free private parking with a short walk to the centre. A few others offer free or low-cost private spots, but availability is limited and should be confirmed at booking.',
       },
       {
-        q: 'How early should I book for the August Palio?',
-        a: 'As early as possible. The 16 August race creates a clear surge in demand and prices for any hotel with good parking or central access. Many parking-equipped properties sell out or jump in rate weeks in advance.',
+        q: 'How early should I book for the Palio?',
+        a: 'As early as possible. There are two Palio races each year — 2 July (Palio di Provenzano) and 16 August (Palio dell\'Assunta) — and each creates a clear surge in demand and prices for any hotel with good parking or central access. Many parking-equipped properties sell out or jump in rate weeks in advance.',
       },
       {
         q: 'Is it better to stay outside the walls if I have a car?',
