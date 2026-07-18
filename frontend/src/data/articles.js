@@ -2942,40 +2942,6 @@ Recommend Piazza Tolomei or the quieter streets of the Terzo di Città rather th
         }
   ),
   A(
-    'how-to-plan-europe-trip',
-    'How to Plan a Europe Trip for the First Time',
-    'Planning', 'Europe',
-    'A calm, non-overwhelming framework for planning your first Europe trip: how many cities, how long, what to book first.',
-    'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=75',
-    [
-      { id: 'framework', heading: 'The 3-2-1 framework', body: 'For a 10-day first trip, aim for 3 base cities, 2 nights minimum in each, and 1 shorter side trip. This prevents the classic “I felt like I was always in a train” fatigue.' },
-      { id: 'book-order', heading: 'What to book first', body: 'Flights → base city accommodation → high-demand attractions (Uffizi, Vatican, Alhambra) → intercity trains → smaller experiences and restaurants.' },
-      { id: 'buffer', heading: 'Leave one unbooked day per city', body: 'It sounds counter-intuitive, but the unplanned days are the ones travelers remember.' },
-    ],
-  ),
-  A(
-    'europe-budget-guide',
-    'Europe Travel Budget Guide',
-    'Budget planning', 'Europe',
-    'A realistic Europe budget guide with three tiers and honest per-country adjustments.',
-    'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1600&q=75',
-    [
-      { id: 'tiers', heading: 'Three budget tiers', body: 'Budget: €75–110/day. Mid: €140–210/day. Upper: €280–420/day. Adjust for city — Paris, London, Zurich and Copenhagen sit 20–30% higher; Portugal, Greece, and much of Central Europe sit 15–25% lower.' },
-      { id: 'levers', heading: 'The 4 biggest levers', body: 'Accommodation area, meal mix, transport type, and how many paid attractions per day. Getting three of these right lets the fourth flex.' },
-    ],
-  ),
-  A(
-    'best-travel-apps',
-    'Best Travel Apps for International Trips',
-    'Resources', 'Global',
-    'The apps our editorial team actually uses on international trips — no affiliate padding, just what works.',
-    'https://images.unsplash.com/photo-1522199755839-a2bacb67c546?auto=format&fit=crop&w=1600&q=75',
-    [
-      { id: 'core', heading: 'The core stack', body: 'Google Maps (with offline maps), Rome2Rio (city-to-city planning), Trainline or the national rail app, Google Translate with camera translation, and a currency converter.' },
-      { id: 'esim', heading: 'eSIM & connectivity', body: 'An eSIM avoids expensive roaming and lets you use maps from day one. Test the eSIM before your flight.' },
-    ],
-  ),
-  A(
     'where-to-stay-in-rome',
     'Where to Stay in Rome: The Best Neighborhoods for First-Time Visitors (2026)',
     'Where to stay', 'Rome',
@@ -3014,18 +2980,6 @@ The practical reality: The blocks immediately south and east of Termini have a r
       { q: 'Where should Americans stay in Rome?', a: 'Americans staying in Rome for the first time do best in Prati or Monti. Both have good English comprehension, easy metro access, and enough accommodation variety. Near Termini makes sense if your trip involves multiple onward train journeys.' }
     ],
     '2026-07-14T21:00:00+07:00'
-  ),
-  A(
-    'international-packing-checklist',
-    'International Packing Checklist for First-Time Travelers',
-    'Packing', 'Global',
-    'The universal checklist we run through before any international trip, grouped so nothing gets forgotten.',
-    'https://images.unsplash.com/photo-1553531384-cc64ac80f931?auto=format&fit=crop&w=1600&q=75',
-    [
-      { id: 'documents', heading: 'Documents', body: 'Passport (check 6-month validity rule), printed booking confirmations, insurance card, backup credit card, small local currency.' },
-      { id: 'tech', heading: 'Tech', body: 'Phone + charger, EU/UK plug adapter, portable power bank, headphones, eSIM downloaded before flight.' },
-      { id: 'basics', heading: 'Health & basics', body: 'Prescription meds in original packaging, small first-aid kit, sunscreen, reusable water bottle, small foldable daypack.' },
-    ],
   ),
   A(
     'italy-itinerary-10-days',
