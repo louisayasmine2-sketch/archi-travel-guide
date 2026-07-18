@@ -3899,8 +3899,6 @@ Combine visits with strategic day trips to escape the city centre completely. [S
 
 With these X-backed strategies, you'll enjoy authentic Florence without the stress. Ready for more?
 
-**Book your refreshing Siena day trip** with our trusted partner [GetYourGuide](https://www.getyourguide.com/florence-l35/siena-tours-tc28/?partner_id=archi) and discover the full magic of Tuscany.
-
 Explore our complete guides to [Florence](/florence), plan your perfect side trip to [Siena](/siena), and find more expert advice in our [blog](/blog). Start planning your independent journey today and create memories of Florence — and Tuscany — that feel truly personal.
 
 *Safe travels!*`,
