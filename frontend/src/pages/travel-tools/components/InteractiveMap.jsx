@@ -12,34 +12,28 @@ L.Icon.Default.mergeOptions({
   shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
 });
 
+// Descriptions are limited to facts checked against official sources:
+// straight-line distance from the Piazza del Campo pin (computed from these
+// coordinates), the historic-centre ZTL (comune.siena.it), and the car parks
+// listed by Visit Siena (visitsiena.it). No experiential or vibe claims.
 const sienaPins = [
   {
     id: 1,
     name: 'Piazza del Campo',
     position: [43.3184, 11.3316],
-    description: 'The historic heart of Siena. Perfect for first-time visitors wanting to be in the center of the action. Very busy and can be noisy.',
-    isPrimary: false
+    description: "Siena's central square and the reference point for these distances. The whole historic centre is a ZTL — closed to non-permit cars since the 1960s, with 24-hour camera enforcement. Nearest car park: Il Campo, by Porta Tufi."
   },
   {
     id: 2,
     name: 'Duomo di Siena',
     position: [43.3176, 11.3289],
-    description: 'Stunning architectural area. Quieter than Il Campo but still very central. Hilly terrain.',
-    isPrimary: false
+    description: "≈236 m from Piazza del Campo (straight line), inside the ZTL. The Il Duomo car park is beside the cathedral and Santa Maria della Scala."
   },
   {
     id: 3,
     name: 'Fortezza Medicea',
     position: [43.3218, 11.3228],
-    description: 'Great for families and active travelers. Close to large parks and easier parking outside the ZTL (Restricted Traffic Zone).',
-    isPrimary: false
-  },
-  {
-    id: 4,
-    name: 'Contrada della Lupa',
-    position: [43.3223, 11.3315],
-    description: 'Authentic local vibe, slightly off the main tourist rush but just steps away from the center. Excellent local trattorias.',
-    isPrimary: true
+    description: "≈806 m from Piazza del Campo, at the north-western edge by the city walls. Two of Siena's largest car parks are here — Fortezza/Stadio (~800 spaces) and Santa Caterina, whose escalators run up into the centre — so it's the main drive-and-park entry point."
   }
 ];
 
@@ -68,22 +62,7 @@ export default function InteractiveMap() {
                 <Popup className="custom-popup">
                   <div className="text-center p-1">
                     <h4 className="font-serif text-lg text-[#2C211B] mb-1">{pin.name}</h4>
-                    <p className="text-sm text-[#8A9A5B] mb-3 leading-tight">{pin.description}</p>
-                    {pin.isPrimary ? (
-                      <div className="mt-2">
-                        <span className="inline-block bg-[#F5EDE3] text-[#C65A3A] text-xs font-bold uppercase tracking-wider px-2 py-1 rounded-md mb-2">
-                          ⭐ Recommended Stay
-                        </span>
-                        <a 
-                          href="https://beds24.com/booking2.php?propid=215570" 
-                          target="_blank" 
-                          rel="noreferrer"
-                          className="block w-full bg-[#C65A3A] hover:bg-[#A84A2E] text-white py-2 rounded-lg font-medium transition-colors text-sm"
-                        >
-                          Book Affittacamere Gli Archi
-                        </a>
-                      </div>
-                    ) : null}
+                    <p className="text-sm text-[#8A9A5B] leading-tight">{pin.description}</p>
                   </div>
                 </Popup>
               </Marker>
