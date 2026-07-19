@@ -24,6 +24,16 @@ const partnerDestinationType = {
   "Booking.com": "accommodation",
 };
 
+const MONTH_NAMES = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
+
+function formatDisplayDate(isoDate) {
+  const [year, month, day] = isoDate.slice(0, 10).split("-").map(Number);
+  return `${MONTH_NAMES[month - 1]} ${day}, ${year}`;
+}
+
 function slugify(text) {
   return text
     .toLowerCase()
@@ -342,11 +352,11 @@ export default function FlorenceToSienaGuide() {
           </div>
           <div>
             <dt>Published</dt>
-            <dd>July 14, 2026</dd>
+            <dd>{formatDisplayDate(guide.datePublished)}</dd>
           </div>
           <div>
             <dt>Updated</dt>
-            <dd>July 14, 2026</dd>
+            <dd>{formatDisplayDate(guide.dateModified)}</dd>
           </div>
           <div>
             <dt>Fact-checked</dt>
