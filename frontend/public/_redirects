@@ -17,6 +17,8 @@
 /en/breakfast-gli-archi-rooms-siena.html          /where-to-stay-in-siena/ 301
 /travel-tools/budget-calculator                            /travel-budget-calculator/ 301
 /tuscany                                                  /tuscany-travel-guide/ 301
+/go/trainline                                             https://www.thetrainline.com/ 302
+/go/omio                                                  https://www.omio.com/ 302
 /en/*.html   /siena-travel-guide/ 301
 /it/*.html   /siena-travel-guide/ 301
 /en/*   /siena-travel-guide/ 301

@@ -393,7 +393,7 @@ export default function FlorenceToSienaGuide() {
             <p>{guide.author.bio}</p>
             <p>
               We keep source notes visible and separate editorial recommendations from commercial links. Read our{" "}
-              <Link to="/editorial-policy">editorial policy</Link> and <Link to="/affiliate-disclosure">affiliate disclosure</Link>.
+              <Link to="/editorial-policy">editorial policy</Link>.
             </p>
           </section>
         </div>

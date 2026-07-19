@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /go/
 
 Sitemap: https://affittacameregliarchi.com/sitemap.xml
