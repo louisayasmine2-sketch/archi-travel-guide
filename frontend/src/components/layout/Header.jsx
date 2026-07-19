@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
-import { Menu, X, Search, Globe, ChevronDown, HeartHandshake, Sun, Moon } from "lucide-react";
+import { Menu, X, Search, Globe, ChevronDown, Sun, Moon } from "lucide-react";
 import { useTheme } from "next-themes";
 import { NAV } from "@/constants/testIds";
 import MobileMenu from "./MobileMenu";
@@ -120,11 +120,6 @@ export default function Header() {
               </div>
             </div>
 
-            {/* Become Affiliate CTA */}
-            <Link to="/travel-deals" className="flex items-center gap-2 bg-[#F5EDE3] text-[#2C211B] hover:bg-[#C65A3A] hover:text-white border border-[#C65A3A]/20 transition-colors duration-300 px-4 py-2 rounded-full text-sm font-bold shadow-sm">
-              <HeartHandshake className="w-4 h-4" />
-              Become Affiliate
-            </Link>
             
             {/* Search */}
             <button className="w-10 h-10 rounded-full border border-[#F5EDE3] flex items-center justify-center hover:border-[#C65A3A] hover:text-[#C65A3A] hover:bg-white transition-all shadow-sm">
