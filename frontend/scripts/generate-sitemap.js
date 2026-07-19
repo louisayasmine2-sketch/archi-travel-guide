@@ -249,7 +249,11 @@ function extractSienaClusterArticles() {
 
 // --- XML rendering --------------------------------------------------------
 function urlEntry({ path: p, changefreq, priority, lastmod }) {
-  const parts = [`<url>`, `<loc>${SITE_URL}${p}</loc>`];
+  // Cloudflare Pages appends a trailing slash with a 308. Emitting the
+  // slashless form makes Google crawl a URL that immediately redirects,
+  // which shows up as "Page with redirect" in Search Console.
+  const path = p === '/' ? '/' : (p.endsWith('/') ? p : `${p}/`);
+  const parts = [`<url>`, `<loc>${SITE_URL}${path}</loc>`];
   if (lastmod) parts.push(`<lastmod>${lastmod}</lastmod>`);
   if (changefreq) parts.push(`<changefreq>${changefreq}</changefreq>`);
   if (priority != null) parts.push(`<priority>${priority}</priority>`);
