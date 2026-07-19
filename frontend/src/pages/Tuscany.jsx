@@ -28,7 +28,7 @@ export default function Tuscany() {
       name: "Tuscany",
       description: "Italian region known for Siena, Florence, hilltowns, vineyards, food routes, and slow countryside itineraries.",
       image: HERO,
-      url: canonical("/tuscany-travel-guide"),
+      url: canonical("/tuscany-travel-guide/"),
       country: "Italy",
       touristType: ["Cultural travelers", "Food travelers", "Road trip planners", "Couples"],
     }),
@@ -49,7 +49,7 @@ export default function Tuscany() {
       <SEO
         title="Tuscany Travel Guide — Itineraries, food, transport, best time to visit"
         description="Practical Tuscany travel guide from Archi: hilltowns, vineyards, itineraries, food, transport and the best time to visit. Deep coverage starts with Siena."
-        path="/tuscany-travel-guide"
+        path="/tuscany-travel-guide/"
         image={HERO}
         schema={schema}
       />

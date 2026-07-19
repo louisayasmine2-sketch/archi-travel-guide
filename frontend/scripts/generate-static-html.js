@@ -232,6 +232,21 @@ const STATIC_ROUTES = [
   ]),
 ];
 
+// These nine landing pages declared a canonical without the trailing slash the
+// site actually serves (the sitemap lists every one of them with one). Align the
+// static-HTML canonical with the sitemap and the client-rendered <link rel="canonical">.
+// Only `canonicalPath` is touched, not `path` (which drives file output and route
+// lookups), and the set is explicit so other page() routes are not changed.
+const TRAILING_SLASH_CANONICAL = new Set([
+  '/about', '/blog', '/contact', '/destinations', '/italy',
+  '/siena', '/travel-deals', '/travel-tools', '/tuscany-travel-guide',
+]);
+for (const route of STATIC_ROUTES) {
+  if (TRAILING_SLASH_CANONICAL.has(route.canonicalPath) && !route.canonicalPath.endsWith('/')) {
+    route.canonicalPath = `${route.canonicalPath}/`;
+  }
+}
+
 const florenceToSienaRoute = FLORENCE_TO_SIENA_GUIDE
   ? STATIC_ROUTES.find((route) => route.path === FLORENCE_TO_SIENA_GUIDE.canonicalPath)
   : null;

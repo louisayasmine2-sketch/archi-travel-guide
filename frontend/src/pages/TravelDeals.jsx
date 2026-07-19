@@ -87,7 +87,7 @@ export default function TravelDeals() {
       <SEO
         title="Booking Platforms We Point Readers To"
         description="The booking platforms we point readers to for Tuscany travel. We have no affiliate relationship with any of them and earn nothing from these links."
-        path="/travel-deals"
+        path="/travel-deals/"
         noindex
         schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Booking Platforms' }])}
       />

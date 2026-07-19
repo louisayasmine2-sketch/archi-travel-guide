@@ -45,7 +45,7 @@ export default function Blog() {
       <SEO 
         title="Travel Blog · Archi Travel Guide" 
         description="Real stories & guides from Siena & Tuscany"
-        path="/blog"
+        path="/blog/"
       />
 
       {/* Progress Bar - Soft */}

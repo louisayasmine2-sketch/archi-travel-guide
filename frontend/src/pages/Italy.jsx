@@ -31,7 +31,7 @@ export default function Italy() {
       <SEO
         title="Italy Travel Guide — Tuscany, Siena, Florence, Rome, Venice"
         description="A practical Italy travel guide from Archi. Deep editorial coverage of Tuscany and Siena, plus full destination guides for Florence, Rome and Venice."
-        path="/italy"
+        path="/italy/"
         image={HERO}
         schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Destinations', to: '/destinations' }, { label: 'Italy' }])}
       />

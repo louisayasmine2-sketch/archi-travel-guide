@@ -37,7 +37,7 @@ export default function Destinations() {
       <SEO
         title="Destinations"
         description="All Archi Travel Guide destinations — Italy, Tuscany, Siena, Europe and Asia. Deep editorial coverage of the places we know best."
-        path="/destinations"
+        path="/destinations/"
         schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Destinations' }])}
       />
       

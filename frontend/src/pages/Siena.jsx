@@ -28,7 +28,7 @@ export default function Siena() {
       name: "Siena",
       description: "Medieval Tuscan city known for Piazza del Campo, the Palio, Gothic streets, and slow travel planning.",
       image: HERO,
-      url: canonical("/siena"),
+      url: canonical("/siena/"),
       region: "Tuscany",
       country: "Italy",
       touristType: ["Cultural travelers", "Couples", "Families", "Slow travel planners"],
@@ -50,7 +50,7 @@ export default function Siena() {
       <SEO
         title="Siena Travel Guide — Things to do, where to stay, itineraries, family & budget"
         description="The Archi Siena guide: what to do first, where to stay in each terzo, 1–3 day itineraries, family and budget travel, and how to arrive from Florence."
-        path="/siena"
+        path="/siena/"
         image={HERO}
         schema={schema}
       />

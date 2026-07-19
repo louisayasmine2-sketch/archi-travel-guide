@@ -70,7 +70,7 @@ export default function Contact() {
       <SEO
         title="Contact Archi Travel Guide"
         description="Editorial questions, partnership requests, corrections. Reach the Archi Travel Guide team — we respond in 2–3 business days."
-        path="/contact"
+        path="/contact/"
         schema={breadcrumbSchema([{ label: "Home", to: "/" }, { label: "Contact" }])}
       />
       

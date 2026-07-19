@@ -82,10 +82,10 @@ export default function Footer() {
         <div>
           <h5 className="uppercase tracking-widest text-xs mb-6 text-[#8A9A5B] font-bold">Travel Tools 4D</h5>
           <ul className="space-y-3 text-sm text-[#F5EDE3]/90">
-            <li><Link to="/travel-tools" className="hover:text-[#C65A3A] transition-colors duration-300">AI Itinerary Builder</Link></li>
-            <li><Link to="/travel-tools" className="hover:text-[#C65A3A] transition-colors duration-300">Budget + Expense Tracker</Link></li>
-            <li><Link to="/travel-tools" className="hover:text-[#C65A3A] transition-colors duration-300">Smart Packing List PDF</Link></li>
-            <li><Link to="/travel-tools" className="hover:text-[#C65A3A] transition-colors duration-300">Best Area to Stay Finder</Link></li>
+            <li><Link to="/travel-tools/" className="hover:text-[#C65A3A] transition-colors duration-300">Itinerary Builder</Link></li>
+            <li><Link to="/travel-tools/" className="hover:text-[#C65A3A] transition-colors duration-300">Budget + Expense Tracker</Link></li>
+            <li><Link to="/travel-tools/" className="hover:text-[#C65A3A] transition-colors duration-300">Smart Packing List</Link></li>
+            <li><Link to="/travel-tools/" className="hover:text-[#C65A3A] transition-colors duration-300">Best Area to Stay Finder</Link></li>
             <li><Link to="/travel-deals" data-testid="nav-link-travel-deals" className="hover:text-[#C65A3A] transition-colors duration-300">Deals &amp; Resources</Link></li>
           </ul>
         </div>

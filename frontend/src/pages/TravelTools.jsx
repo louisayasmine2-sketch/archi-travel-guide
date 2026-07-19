@@ -3,7 +3,6 @@ import { Suspense, lazy } from "react";
 import SEO from "@/components/common/SEO";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import { Map, MapPin, Calculator, Calendar, Compass, Backpack } from "lucide-react";
-import { AffiliateWidgetSmall, AffiliateWidgetMedium, AffiliateWidgetLarge } from "./travel-tools/components/AffiliateWidgets";
 
 // Skeleton loader to reduce CLS and provide immediate feedback for LCP inside Modal
 function ToolSkeleton() {
@@ -80,15 +79,15 @@ export default function TravelToolsPage() {
     <div className="min-h-screen bg-[#F5EDE3] font-sans pb-24">
       <SEO
         title="Travel Tools — Plan Your Dream Tuscany Trip"
-        description="Free interactive travel planning tools: itinerary builder, budget planner, transport comparator, packing list, map, and currency converter."
-        path="/travel-tools"
+        description="Free Tuscany planning tools: itinerary generator, budget planner, transport comparator, packing list, neighbourhood map, and live currency converter."
+        path="/travel-tools/"
       />
       <div className="max-w-7xl mx-auto px-6 py-12">
         <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Travel Tools" }]} />
         
         <div className="text-center mb-16 mt-8">
           <h1 className="text-5xl md:text-6xl font-serif text-[#2C211B] tracking-tight">Plan Your Dream Tuscany Trip</h1>
-          <p className="text-[#8A9A5B] mt-4 text-xl">Free interactive tools • Hyper-local Siena & Tuscany • Direct to Gli Archi</p>
+          <p className="text-[#8A9A5B] mt-4 text-xl">Free interactive tools • Hyper-local Siena & Tuscany</p>
         </div>
 
         {/* Tools Grid */}
@@ -119,21 +118,6 @@ export default function TravelToolsPage() {
               </DialogContent>
             </Dialog>
           ))}
-        </div>
-
-        {/* Affiliate Widgets Section */}
-        <div className="mt-24 space-y-12">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-serif text-[#2C211B]">Partner with Us</h2>
-            <p className="text-[#8A9A5B] mt-4 text-lg max-w-2xl mx-auto">Embed these tools on your own travel blog or website. We provide customizable widgets to help your readers plan their trips while you earn commissions.</p>
-          </div>
-          
-          <AffiliateWidgetLarge />
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start mt-8">
-             <AffiliateWidgetMedium />
-             <AffiliateWidgetSmall />
-          </div>
         </div>
 
       </div>

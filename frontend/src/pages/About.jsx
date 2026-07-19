@@ -21,7 +21,7 @@ export default function About() {
       <SEO
         title="About Archi Travel Guide"
         description="Archi Travel Guide is a new, independent editorial travel platform. Learn how we work, why we started in Italy, and what Archi is and isn't."
-        path="/about"
+        path="/about/"
         schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'About' }])}
       />
       
