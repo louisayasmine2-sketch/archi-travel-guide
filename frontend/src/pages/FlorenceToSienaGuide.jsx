@@ -96,12 +96,23 @@ function parseMarkdown(markdown) {
       continue;
     }
 
+    if (line.startsWith("> ")) {
+      const quoteLines = [];
+      while (i < lines.length && lines[i].trim().startsWith(">")) {
+        quoteLines.push(lines[i].trim().replace(/^>\s?/, ""));
+        i += 1;
+      }
+      blocks.push({ type: "quote", text: quoteLines.join(" ") });
+      continue;
+    }
+
     const paragraph = [];
     while (
       i < lines.length &&
       lines[i].trim() &&
       !/^(#{2,4})\s+/.test(lines[i].trim()) &&
       !lines[i].trim().startsWith("- ") &&
+      !lines[i].trim().startsWith("> ") &&
       !lines[i].trim().startsWith("|")
     ) {
       paragraph.push(lines[i].trim());
@@ -115,7 +126,7 @@ function parseMarkdown(markdown) {
 
 function renderInline(text, position) {
   const parts = [];
-  const re = /\[([^\]]+)\]\(([^)]+)\)|(https?:\/\/[^\s]+)/g;
+  const re = /\*\*([^*]+)\*\*|\[([^\]]+)\]\(([^)]+)\)|(https?:\/\/[^\s]+)/g;
   let lastIndex = 0;
   let match;
 
@@ -124,8 +135,16 @@ function renderInline(text, position) {
       parts.push(text.slice(lastIndex, match.index));
     }
 
-    const label = match[1] || match[3];
-    const href = match[2] || match[3];
+    if (match[1]) {
+      parts.push(
+        <strong key={`${position}-strong-${match.index}`}>{match[1]}</strong>
+      );
+      lastIndex = re.lastIndex;
+      continue;
+    }
+
+    const label = match[2] || match[4];
+    const href = match[3] || match[4];
     const partner = partnerForHref(href);
     const isExternal = href.startsWith("http");
 
@@ -206,6 +225,14 @@ function MarkdownBlocks({ markdown, className = "", skipHeading = "" }) {
                 </tbody>
               </table>
             </div>
+          );
+        }
+
+        if (block.type === "quote") {
+          return (
+            <blockquote key={`quote-${index}`}>
+              <p>{renderInline(block.text, `quote-${index}`)}</p>
+            </blockquote>
           );
         }
 
@@ -301,9 +328,6 @@ export default function FlorenceToSienaGuide() {
             <motion.h1 variants={fadeInUp} className="text-5xl md:text-7xl font-serif leading-[1.05] tracking-tight mb-8 drop-shadow-[0_20px_20px_rgba(0,0,0,0.8)]">
               {guide.title}
             </motion.h1>
-            <motion.div variants={fadeInUp} className="text-xl md:text-2xl text-[#F5EDE3] drop-shadow-md font-light leading-relaxed max-w-3xl mx-auto">
-              <MarkdownBlocks markdown={guide.introMarkdown} />
-            </motion.div>
           </motion.div>
         </div>
       </section>
@@ -347,6 +371,10 @@ export default function FlorenceToSienaGuide() {
       </figure>
 
       <div className="container-reading">
+        <section className="longform-intro">
+          <MarkdownBlocks markdown={guide.introMarkdown} />
+        </section>
+
         <section className="longform-callout" aria-labelledby="quick-answer-what-is-the-best-way-from-florence-to-siena">
           <MarkdownBlocks markdown={guide.quickAnswerMarkdown} />
         </section>
