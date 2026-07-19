@@ -29,53 +29,12 @@ export const destinations = [
     image: 'https://images.unsplash.com/photo-1646319514161-8fba0ebc3275?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxzaWVuYSUyMGl0YWx5JTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc4MzAwNDQ4Nnww&ixlib=rb-4.1.0&q=85',
     featured: true,
   },
-  {
-    slug: 'europe',
-    name: 'Europe',
-    region: 'Continent',
-    tagline: 'Expanding editorial coverage',
-    blurb: 'France, Spain, Switzerland, Greece and Germany — starter guides and planning frameworks.',
-    image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=75',
-    featured: false,
-  },
-  {
-    slug: 'asia',
-    name: 'Asia',
-    region: 'Continent',
-    tagline: 'Coming soon: our second pillar',
-    blurb: 'Indonesia, Thailand, Japan and Singapore. Skeleton guides today, deep editorial in progress.',
-    image: 'https://images.unsplash.com/photo-1493780474015-ba834fd0ce2f?auto=format&fit=crop&w=1600&q=75',
-    featured: false,
-  },
 ];
 
 export const italyRegions = [
   { slug: 'tuscany', name: 'Tuscany', blurb: 'Countryside, wine and medieval hilltowns.', image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=75' },
   { slug: 'siena', name: 'Siena', blurb: 'The medieval heart of Tuscany.', image: 'https://images.unsplash.com/photo-1646319514161-8fba0ebc3275?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxzaWVuYSUyMGl0YWx5JTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc4MzAwNDQ4Nnww&ixlib=rb-4.1.0&q=85' },
   { slug: 'florence', name: 'Florence', blurb: 'Renaissance capital, walkable centre.', image: 'https://images.unsplash.com/photo-1534445867742-43195f401b6c?auto=format&fit=crop&w=1200&q=75' },
-  { slug: 'rome', name: 'Rome', blurb: 'Ancient layers, modern life.', image: 'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&w=1200&q=75' },
-  { slug: 'venice', name: 'Venice', blurb: 'Islands, canals, quiet mornings.', image: 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1200&q=75' },
-];
-
-export const europeCountries = [
-  { name: 'France', blurb: 'Paris and beyond — from Loire châteaux to Provence. Discover the best hotels and holiday itineraries.', slug: 'france' },
-  { name: 'Spain', blurb: 'Barcelona, Andalucía, and the northern coast. Beach holidays and city escapes.' },
-  { name: 'Switzerland', blurb: 'Alps, trains, and small design-forward cities. Luxury hotels and scenic routes.' },
-  { name: 'Greece', blurb: 'Athens, island hopping frameworks, off-season windows. Boutique hotels and villas.' },
-  { name: 'Germany', blurb: 'Berlin, Bavaria, Christmas markets. Historic accommodations and city breaks.' },
-];
-
-export const franceRegions = [
-  { slug: 'paris', name: 'Paris', blurb: 'The classic starting point. Museums, cafés, and walkable arrondissements.', image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=75' },
-  { slug: 'loire', name: 'Loire Valley', blurb: 'Châteaux and vineyards. Perfect for a short road trip from Paris.', image: 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=75', comingSoon: true },
-  { slug: 'provence', name: 'Provence', blurb: 'Lavender fields, hilltowns, and slow Mediterranean life.', image: 'https://images.unsplash.com/photo-1522199755839-a2bacb67c546?auto=format&fit=crop&w=1200&q=75', comingSoon: true },
-];
-
-export const asiaCountries = [
-  { name: 'Indonesia', blurb: 'Bali beyond the crowds, plus Java and Lombok.' },
-  { name: 'Thailand', blurb: 'Bangkok base, islands, and northern hilltowns.' },
-  { name: 'Japan', blurb: 'First-timer routes and quieter secondary cities.' },
-  { name: 'Singapore', blurb: 'A stopover that earns 3 full days.' },
 ];
 
 export const travelTools = [

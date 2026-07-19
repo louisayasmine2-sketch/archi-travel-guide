@@ -6,13 +6,10 @@ import { NAV } from "@/constants/testIds";
 import MobileMenu from "./MobileMenu";
 
 const NAV_LINKS = [
-  { to: "/destinations", label: "Destinations", tid: NAV.linkDestinations },
-  { to: "/italy",        label: "Italy",        tid: NAV.linkItaly },
-  { to: "/europe",       label: "Europe",       tid: NAV.linkEurope },
-  { to: "/asia",         label: "Asia",         tid: NAV.linkAsia },
-  { to: "/travel-tools", label: "Travel Tools", tid: NAV.linkTravelTools },
-  { to: "/travel-deals", label: "Deals & Resources", tid: NAV.linkTravelDeals },
-  { to: "/blog",         label: "Blog",         tid: NAV.linkBlog },
+  { to: "/siena",                label: "Siena",        tid: NAV.linkSiena },
+  { to: "/tuscany-travel-guide", label: "Tuscany",      tid: NAV.linkTuscany },
+  { to: "/travel-tools",         label: "Travel Tools", tid: NAV.linkTravelTools },
+  { to: "/blog",                 label: "Blog",         tid: NAV.linkBlog },
 ];
 
 export default function Header() {

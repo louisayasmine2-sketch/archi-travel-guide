@@ -80,27 +80,6 @@ const DESTINATION_SCHEMA = {
     country: 'Italy',
     touristType: ['Art travelers', 'Cultural travelers', 'Couples', 'First-time Italy visitors'],
   },
-  '/rome': {
-    name: 'Rome',
-    description: 'Italian capital known for ancient sites, neighborhoods, food, and multi-day cultural itineraries.',
-    region: 'Lazio',
-    country: 'Italy',
-    touristType: ['Cultural travelers', 'Families', 'History travelers', 'First-time Italy visitors'],
-  },
-  '/venice': {
-    name: 'Venice',
-    description: 'Canal city in Veneto known for islands, walking routes, art, and quiet morning travel.',
-    region: 'Veneto',
-    country: 'Italy',
-    touristType: ['Couples', 'Cultural travelers', 'Slow travel planners', 'Island travelers'],
-  },
-  '/paris': {
-    name: 'Paris',
-    description: 'French capital known for art, cafes, walkable arrondissements, museums, and neighborhood-based planning.',
-    region: 'Ile-de-France',
-    country: 'France',
-    touristType: ['Cultural travelers', 'Couples', 'Food travelers', 'Museum travelers'],
-  },
 };
 const STATIC_FOOTER_LINKS = [
   { href: '/siena-travel-guide', label: 'Siena Travel Guide' },
@@ -121,8 +100,8 @@ const STATIC_ROUTES = [
     'Use city guides, itineraries, budget tools and packing checklists to make faster trip decisions.',
     'Commercial links are disclosed clearly and editorial recommendations remain independent.',
   ]),
-  page('/destinations', 'Destinations', 'Browse practical destination guides across Italy, Tuscany, Siena, Europe and Asia.', 'Destinations', [
-    'Start with Siena and Tuscany, then browse broader Italy, Europe and Asia planning guides.',
+  page('/destinations', 'Destinations', 'Practical destination guides for Siena, Florence and the wider Tuscany region.', 'Destinations', [
+    'Siena and Tuscany are the focus, with Florence as the cultural base and transport hub.',
     'Each destination page prioritizes logistics, timing, neighborhoods and realistic planning trade-offs.',
   ]),
   page('/blog', 'Travel Blog', 'Practical travel articles for Siena, Tuscany, Italy, packing, transport, budget planning and itineraries.', 'Travel Blog', [
@@ -167,22 +146,6 @@ const STATIC_ROUTES = [
   page('/florence', 'Florence Travel Guide', 'Practical Florence travel planning for neighborhoods, art, food, transport and Tuscany connections.', 'Florence Travel Guide', [
     'Use Florence as a cultural base and transport hub for Tuscany.',
     'Plan museum timing, neighborhoods and Siena connections before booking.',
-  ]),
-  page('/rome', 'Rome Travel Guide', 'Practical Rome travel planning for first-time visitors, neighborhoods, transport and trip pacing.', 'Rome Travel Guide', [
-    'Plan Rome by neighborhood, transport window and realistic museum timing.',
-    'Use guides to keep first trips focused instead of overpacked.',
-  ]),
-  page('/venice', 'Venice Travel Guide', 'Practical Venice travel planning for stays, routes, timing and crowd-aware itineraries.', 'Venice Travel Guide', [
-    'Plan Venice with route pacing, neighborhood decisions and crowd-aware timing.',
-    'Use simple itinerary structures before booking stays and transport.',
-  ]),
-  page('/europe', 'Europe Travel Guide', 'Practical Europe travel planning guides for routes, cities, rail, budget and timing.', 'Europe Travel Guide', [
-    'Build Europe routes around fewer bases, better timing and less transfer friction.',
-    'Use city and transport guides to simplify booking decisions.',
-  ]),
-  page('/asia', 'Asia Travel Guide', 'Practical Asia travel planning guides for route design, packing, stays and seasonal timing.', 'Asia Travel Guide', [
-    'Plan Asia routes with weather, visas, transport and packing realities in mind.',
-    'Use practical guides before committing to long multi-city routes.',
   ]),
   page('/travel-budget-calculator', 'Travel Budget Calculator', 'Estimate trip costs by destination, accommodation, food, transport and activity choices.', 'Travel Budget Calculator', ['Estimate daily and total travel costs before booking.']),
   page('/travel-tools/itinerary-generator', 'Itinerary Generator', 'Build a practical itinerary structure from trip length, pace and interests.', 'Itinerary Generator', ['Create a realistic day-by-day structure before adding bookings.']),

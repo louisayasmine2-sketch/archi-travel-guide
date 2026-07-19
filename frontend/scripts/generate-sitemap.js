@@ -77,10 +77,6 @@ const staticRoutes = [
   { path: '/italy',                              changefreq: 'weekly',  priority: 0.95 },
   { path: '/siena',                              changefreq: 'weekly',  priority: 0.9 },
   { path: '/florence',                           changefreq: 'monthly', priority: 0.85 },
-  { path: '/rome',                               changefreq: 'monthly', priority: 0.85 },
-  { path: '/venice',                             changefreq: 'monthly', priority: 0.85 },
-  { path: '/europe',                             changefreq: 'monthly', priority: 0.6 },
-  { path: '/asia',                               changefreq: 'monthly', priority: 0.6 },
 
   { path: '/travel-tools/itinerary-generator',   changefreq: 'monthly', priority: 0.8 },
   { path: '/travel-tools/area-finder',           changefreq: 'monthly', priority: 0.8 },

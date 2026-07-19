@@ -86,6 +86,7 @@ export default function Footer() {
             <li><Link to="/travel-tools" className="hover:text-[#C65A3A] transition-colors duration-300">Budget + Expense Tracker</Link></li>
             <li><Link to="/travel-tools" className="hover:text-[#C65A3A] transition-colors duration-300">Smart Packing List PDF</Link></li>
             <li><Link to="/travel-tools" className="hover:text-[#C65A3A] transition-colors duration-300">Best Area to Stay Finder</Link></li>
+            <li><Link to="/travel-deals" data-testid="nav-link-travel-deals" className="hover:text-[#C65A3A] transition-colors duration-300">Deals &amp; Resources</Link></li>
           </ul>
         </div>
 

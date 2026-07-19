@@ -2,10 +2,8 @@
 
 export const NAV = {
 	logo: 'nav-logo',
-	linkDestinations: 'nav-link-destinations',
-	linkItaly: 'nav-link-italy',
-	linkEurope: 'nav-link-europe',
-	linkAsia: 'nav-link-asia',
+	linkSiena: 'nav-link-siena',
+	linkTuscany: 'nav-link-tuscany',
 	linkTravelTools: 'nav-link-travel-tools',
 	linkTravelDeals: 'nav-link-travel-deals',
 	linkBlog: 'nav-link-blog',

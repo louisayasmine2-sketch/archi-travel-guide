@@ -14,9 +14,6 @@ const Destinations = lazy(() => import("@/pages/Destinations"));
 const Italy = lazy(() => import("@/pages/Italy"));
 const Tuscany = lazy(() => import("@/pages/Tuscany"));
 const Siena = lazy(() => import("@/pages/Siena"));
-const France = lazy(() => import("@/pages/France"));
-const Europe = lazy(() => import("@/pages/Europe"));
-const Asia = lazy(() => import("@/pages/Asia"));
 const TravelTools = lazy(() => import("@/pages/TravelTools"));
 const TravelDeals = lazy(() => import("@/pages/TravelDeals"));
 const Blog = lazy(() => import("@/pages/Blog"));
@@ -114,12 +111,6 @@ function App() {
             <Route path="/things-to-do-in-siena" element={<Article fixedSlug="best-things-to-do-in-siena" canonicalPath="/things-to-do-in-siena" />} />
             <Route path="/things-to-do-in-siena/" element={<Article fixedSlug="best-things-to-do-in-siena" canonicalPath="/things-to-do-in-siena" />} />
             <Route path="/florence" element={<City slug="florence" />} />
-            <Route path="/rome" element={<City slug="rome" />} />
-            <Route path="/venice" element={<City slug="venice" />} />
-            <Route path="/france" element={<France />} />
-            <Route path="/paris" element={<City slug="paris" />} />
-            <Route path="/europe" element={<Europe />} />
-            <Route path="/asia" element={<Asia />} />
             <Route path="/travel-tools" element={<TravelTools />} />
             <Route path="/travel-tools/budget-calculator" element={<Navigate to="/travel-budget-calculator" replace />} />
             <Route path="/travel-budget-calculator" element={<BudgetCalculator />} />
