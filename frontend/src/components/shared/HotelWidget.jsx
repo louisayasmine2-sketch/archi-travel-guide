@@ -6,7 +6,7 @@ export default function HotelWidget({
   destination = "Siena", 
   subtitle = "Find the best boutique hotels, B&Bs, and vacation rentals.",
   imageUrl = "https://images.unsplash.com/photo-1560347876-aeef00ee58a1?auto=format&fit=crop&w=800&q=80",
-  affiliateLink = "https://www.booking.com/searchresults.html?aid=1111111&ss=" 
+  affiliateLink = "/go/booking-search?ss="
 }) {
   const handleSearch = (e) => {
     e.preventDefault();

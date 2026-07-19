@@ -84,7 +84,7 @@ export default function PackingChecklist() {
               <p className="text-sm text-[hsl(var(--charcoal-soft))] leading-relaxed">
                 Book your stay early to secure the best spots. Compare prices and find great deals on top-rated accommodations.
               </p>
-              <a href="https://www.booking.com/index.html?aid=YOUR_AFFILIATE_ID" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full py-2.5 rounded-lg border-2 border-[hsl(var(--terracotta))] text-[hsl(var(--terracotta))] hover:bg-[hsl(var(--terracotta))] hover:text-white transition-colors text-sm font-semibold">
+              <a href="/go/booking" target="_blank" rel="noopener noreferrer nofollow" className="flex items-center justify-center gap-2 w-full py-2.5 rounded-lg border-2 border-[hsl(var(--terracotta))] text-[hsl(var(--terracotta))] hover:bg-[hsl(var(--terracotta))] hover:text-white transition-colors text-sm font-semibold">
                 <BedDouble className="w-4 h-4" />
                 Find Hotels
               </a>
@@ -101,7 +101,7 @@ export default function PackingChecklist() {
                     <h3 className="font-serif text-xl sm:text-2xl text-[hsl(var(--charcoal))]">Still need a place to stay?</h3>
                     <p className="text-sm sm:text-base text-[hsl(var(--charcoal-soft))] mt-1">Don't wait until the last minute. Find the best deals in {form.destination}.</p>
                   </div>
-                  <a href="https://www.booking.com/index.html?aid=YOUR_AFFILIATE_ID" target="_blank" rel="noopener noreferrer" className="btn-primary whitespace-nowrap shrink-0 flex items-center gap-2 w-full sm:w-auto justify-center">
+                  <a href="/go/booking" target="_blank" rel="noopener noreferrer nofollow" className="btn-primary whitespace-nowrap shrink-0 flex items-center gap-2 w-full sm:w-auto justify-center">
                     Check Availability
                     <ExternalLink className="w-4 h-4" />
                   </a>

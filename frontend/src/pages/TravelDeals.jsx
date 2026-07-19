@@ -17,7 +17,7 @@ const DEALS = [
     category: "Tours",
     price: "€45",
     destination: "Siena",
-    bookingLink: "https://www.getyourguide.com/siena-l323/siena-duomo-and-city-walking-tour-skip-the-line-t402834/?partner_id=XXXXX",
+    bookingLink: "/go/getyourguide",
     recommended: true,
     image: "https://images.unsplash.com/photo-1646319514161-8fba0ebc3275?auto=format&fit=crop&w=800&q=80",
     description: "Skip the line at the Duomo and walk the historic center with an expert local guide."
@@ -28,7 +28,7 @@ const DEALS = [
     category: "Hotels",
     price: "€150/night",
     destination: "Tuscany",
-    bookingLink: "https://www.booking.com/searchresults.html?region=3014&aid=XXXXX",
+    bookingLink: "/go/booking",
     recommended: true,
     image: "https://images.unsplash.com/photo-1503152394-c571994fd383?auto=format&fit=crop&w=800&q=80",
     description: "Experience an authentic agriturismo with a complimentary wine tasting."
@@ -39,7 +39,7 @@ const DEALS = [
     category: "Transport",
     price: "€9",
     destination: "Siena",
-    bookingLink: "https://www.omio.com/buses/florence/siena?partner_id=XXXXX",
+    bookingLink: "/go/omio",
     recommended: false,
     image: "https://images.unsplash.com/photo-1534445867742-43195f401b6c?auto=format&fit=crop&w=800&q=80",
     description: "Fastest way between the two cities, dropping you directly at the historic center."
@@ -50,7 +50,7 @@ const DEALS = [
     category: "Tours",
     price: "€80",
     destination: "Tuscany",
-    bookingLink: "https://www.viator.com/tours/Siena/Chianti-Wine-Tasting/d802-12345?pid=XXXXX",
+    bookingLink: "/go/viator",
     recommended: true,
     image: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80",
     description: "Visit two renowned wineries with local pairings and transport included."
@@ -61,7 +61,7 @@ const DEALS = [
     category: "Connectivity",
     price: "€20",
     destination: "Global",
-    bookingLink: "https://airalo.com/europe-esim?ref=XXXXX",
+    bookingLink: "/go/airalo",
     recommended: true,
     image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&w=800&q=80",
     description: "Instant activation. Stay connected seamlessly across Italy and the EU."
@@ -72,7 +72,7 @@ const DEALS = [
     category: "Tours",
     price: "€25",
     destination: "Florence",
-    bookingLink: "https://www.getyourguide.com/florence-l32/uffizi-gallery-ticket-t12345/?partner_id=XXXXX",
+    bookingLink: "/go/getyourguide",
     recommended: false,
     image: "https://images.unsplash.com/photo-1541358994356-02e9a66b96e4?auto=format&fit=crop&w=800&q=80",
     description: "Priority entrance to one of the world's most important art collections."

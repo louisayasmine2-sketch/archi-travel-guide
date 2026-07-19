@@ -213,7 +213,7 @@ export default function Blog() {
             {/* Affiliate Teaser */}
             <div className="bg-card rounded-3xl p-6 mb-8 shadow-sm border border-border hover:shadow-md transition-shadow">
               <p className="text-sm font-medium mb-4">Best Siena hotels this month</p>
-              <a href="https://www.booking.com" target="_blank" rel="noopener noreferrer"
+              <a href="/go/booking" target="_blank" rel="noopener noreferrer nofollow"
                  className="flex items-center justify-between bg-muted hover:bg-primary hover:text-primary-foreground rounded-2xl p-4 transition-colors group">
                 <span className="text-primary group-hover:text-primary-foreground font-medium text-sm">Check real-time prices &rarr;</span>
                 <span className="text-2xl">🏨</span>
