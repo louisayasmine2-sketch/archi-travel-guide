@@ -2,6 +2,14 @@
 // Not copied from any previous business. Each article is structured for the
 // Article page template (breadcrumbs, TOC, sections, FAQ, related).
 
+// Two guides also exist as standalone JSON with their own dateModified. Those
+// JSON files are the single source of truth for their dates; the listing stubs
+// below derive `updated` from them (see the two entries with a JSON dateModified
+// instead of a date literal) so the homepage and the guide page can never show
+// conflicting dates for the same article.
+import florenceToSienaGuide from "./florenceToSienaGuide.json";
+import sienaDayTripFromFlorenceGuide from "./sienaDayTripFromFlorenceGuide.json";
+
 const A = (slug, title, category, region, excerpt, image, sections, faqs = [], updated = '2025-11-10', options = {}) => {
   const safeSections = Array.isArray(sections) ? sections : [];
   const safeFaqs = Array.isArray(faqs) ? faqs : [];
@@ -34,7 +42,7 @@ const allArticles = [
       { q: 'Is the bus or train better from Florence to Siena?', a: 'The bus is usually better for reaching Siena’s historic center, while the train is comfortable but requires extra time from Siena station.' },
       { q: 'Is one day enough for Siena?', a: 'One day is enough for the main highlights, but staying overnight is better if you want a slower pace.' },
     ],
-    '2026-07-11',
+    sienaDayTripFromFlorenceGuide.dateModified,
     { canonicalPath: '/siena-day-trip-from-florence' }
   ),
   A(
@@ -313,7 +321,7 @@ const allArticles = [
       { q: 'Is the train or bus better from Florence to Siena?', a: 'The bus is usually better for reaching Siena’s historic center because it arrives at Via Tozzi near Piazza Gramsci. The train is more comfortable but arrives below the center.' },
       { q: 'Can I visit Siena as a day trip from Florence?', a: 'Yes. Siena is very manageable as a day trip, especially if you leave Florence in the morning and check your return schedule in advance.' },
     ],
-    '2026-07-14T20:00:00+07:00',
+    florenceToSienaGuide.dateModified,
     { canonicalPath: '/florence-to-siena-by-train-or-bus' }
   ),
     A(

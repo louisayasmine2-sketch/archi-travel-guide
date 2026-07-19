@@ -62,7 +62,7 @@ export default function HomePage() {
     <>
       <SEO
         title="Archi Travel Guide — The Practical Side of Tuscany"
-        description="Parking, ZTL permits, tickets and transport for Siena and Tuscany, checked against official sources — every figure shows the date we checked it."
+        description="Parking, ZTL permits, tickets and transport for Siena and Tuscany, traced to official sources and dated so you can see how current each guide is."
         path="/"
         schema={ORGANIZATION_JSONLD}
       />
@@ -76,8 +76,8 @@ export default function HomePage() {
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-[#4f4842] sm:text-xl">
               Parking, ZTL permits, tickets and transport for Siena and
-              Tuscany — checked against official sources, with the date we
-              checked.
+              Tuscany — traced to official sources, and dated so you know how
+              current they are.
             </p>
             <div className="mt-10">
               <Link
@@ -116,7 +116,7 @@ export default function HomePage() {
                     {checked && (
                       <p className="mt-4 flex items-center gap-1.5 text-xs text-[#a45d49]">
                         <CalendarCheck className="h-3.5 w-3.5" aria-hidden="true" />
-                        checked {checked}
+                        Updated {checked}
                       </p>
                     )}
                   </Link>
@@ -195,7 +195,7 @@ export default function HomePage() {
                     {updated && (
                       <p className="mt-4 flex items-center gap-1.5 text-xs text-[#a45d49]">
                         <CalendarCheck className="h-3.5 w-3.5" aria-hidden="true" />
-                        updated {updated}
+                        Updated {updated}
                       </p>
                     )}
                   </Link>
