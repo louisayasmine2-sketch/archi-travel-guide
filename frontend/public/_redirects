@@ -21,6 +21,17 @@
 /go/omio                                                  https://www.omio.com/ 302
 /blog/florence-to-siena-transport                         /florence-to-siena-by-train-or-bus/ 301
 /blog/florence-to-siena-transport/                        /florence-to-siena-by-train-or-bus/ 301
+
+# Tuscany scope narrowing — out-of-scope guides retired to their topical successors
+/blog/international-packing-checklist                     /blog/tuscany-packing-checklist/ 301
+/blog/international-packing-checklist/                    /blog/tuscany-packing-checklist/ 301
+/blog/choose-area-any-city                                /blog/where-to-stay-in-siena/ 301
+/blog/choose-area-any-city/                               /blog/where-to-stay-in-siena/ 301
+/blog/europe-budget-guide                                 /blog/how-much-siena-trip-costs/ 301
+/blog/europe-budget-guide/                                /blog/how-much-siena-trip-costs/ 301
+/blog/italy-train-travel-guide                            /florence-to-siena-by-train-or-bus/ 301
+/blog/italy-train-travel-guide/                           /florence-to-siena-by-train-or-bus/ 301
+
 /en/*.html   /siena-travel-guide/ 301
 /it/*.html   /siena-travel-guide/ 301
 /en/*   /siena-travel-guide/ 301
