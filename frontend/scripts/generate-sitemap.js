@@ -60,7 +60,8 @@ const staticRoutes = [
   { path: '/destinations',                       changefreq: 'weekly',  priority: 0.9 },
   { path: '/blog',                               changefreq: 'weekly',  priority: 0.9 },
   { path: '/travel-tools',                       changefreq: 'monthly', priority: 0.9 },
-  { path: '/travel-deals',                       changefreq: 'monthly', priority: 0.7 },
+  // /travel-deals is intentionally absent: the page is noindex until it carries
+  // verified content. Submitting a noindex URL contradicts the robots directive.
   { path: '/about',                              changefreq: 'yearly',  priority: 0.5 },
   { path: '/contact',                            changefreq: 'yearly',  priority: 0.5 },
   { path: '/siena-travel-guide',                 changefreq: 'weekly',  priority: 0.8 },

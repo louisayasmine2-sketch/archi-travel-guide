@@ -7,76 +7,42 @@ import AdPlaceholder from "@/components/common/AdPlaceholder";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";
 import { trackLeadSubmit } from "@/lib/analytics";
-import { Send, Tag, Filter, CheckCircle2 } from "lucide-react";
+import { Send, Filter, ExternalLink } from "lucide-react";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 
-const DEALS = [
+// Booking platforms we point readers to. We have no commercial relationship
+// with any of them, so nothing here claims a price, a discount, or a specific
+// product — only what the platform itself does. Prices change constantly and
+// none of these were verified, so none are stated.
+const PLATFORMS = [
   {
-    id: 1,
-    title: "Siena Duomo & City Walking Tour",
-    category: "Tours",
-    price: "€45",
-    destination: "Siena",
-    bookingLink: "/go/getyourguide",
-    recommended: true,
-    image: "https://images.unsplash.com/photo-1646319514161-8fba0ebc3275?auto=format&fit=crop&w=800&q=80",
-    description: "Skip the line at the Duomo and walk the historic center with an expert local guide."
+    id: "booking",
+    name: "Booking.com",
+    category: "Accommodation",
+    link: "/go/booking",
+    description: "Hotels, B&Bs, agriturismi and apartments across Tuscany. Filter by area first, then check the property's own site — direct rates and cancellation terms sometimes differ from the listing.",
   },
   {
-    id: 2,
-    title: "Boutique Stay in Val d'Orcia",
-    category: "Hotels",
-    price: "€150/night",
-    destination: "Tuscany",
-    bookingLink: "/go/booking",
-    recommended: true,
-    image: "https://images.unsplash.com/photo-1503152394-c571994fd383?auto=format&fit=crop&w=800&q=80",
-    description: "Experience an authentic agriturismo with a complimentary wine tasting."
+    id: "getyourguide",
+    name: "GetYourGuide",
+    category: "Tours and tickets",
+    link: "/go/getyourguide",
+    description: "Guided walks, day trips and timed-entry tickets. Listings are run by independent operators, so read the operator name, group size and cancellation window before booking.",
   },
   {
-    id: 3,
-    title: "Florence to Siena Express Bus",
+    id: "omio",
+    name: "Omio",
     category: "Transport",
-    price: "€9",
-    destination: "Siena",
-    bookingLink: "/go/omio",
-    recommended: false,
-    image: "https://images.unsplash.com/photo-1534445867742-43195f401b6c?auto=format&fit=crop&w=800&q=80",
-    description: "Fastest way between the two cities, dropping you directly at the historic center."
+    link: "/go/omio",
+    description: "Compares trains, buses and coaches across operators, including Florence to Siena. Confirm times against the operator's own timetable — regional services change on Sundays and holidays.",
   },
   {
-    id: 4,
-    title: "Chianti Wine Tasting Half-Day",
-    category: "Tours",
-    price: "€80",
-    destination: "Tuscany",
-    bookingLink: "/go/viator",
-    recommended: true,
-    image: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80",
-    description: "Visit two renowned wineries with local pairings and transport included."
-  },
-  {
-    id: 5,
-    title: "Europe eSIM 30 Days (50GB)",
+    id: "airalo",
+    name: "Airalo",
     category: "Connectivity",
-    price: "€20",
-    destination: "Global",
-    bookingLink: "/go/airalo",
-    recommended: true,
-    image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&w=800&q=80",
-    description: "Instant activation. Stay connected seamlessly across Italy and the EU."
+    link: "/go/airalo",
+    description: "Prepaid eSIM data plans covering Italy and the wider EU. Check your handset supports eSIM and is carrier-unlocked before buying, as plans are not refundable once installed.",
   },
-  {
-    id: 6,
-    title: "Uffizi Gallery Skip-the-Line",
-    category: "Tours",
-    price: "€25",
-    destination: "Florence",
-    bookingLink: "/go/getyourguide",
-    recommended: false,
-    image: "https://images.unsplash.com/photo-1541358994356-02e9a66b96e4?auto=format&fit=crop&w=800&q=80",
-    description: "Priority entrance to one of the world's most important art collections."
-  }
 ];
 
 const API = process.env.REACT_APP_BACKEND_URL ? `${process.env.REACT_APP_BACKEND_URL}/api/contact` : null;
@@ -93,23 +59,18 @@ const requestMailto = ({ name, email, category, message }) => {
     message,
   ].join("\n");
 
-  return `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("Travel deals request")}&body=${encodeURIComponent(body)}`;
+  return `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("Travel recommendation request")}&body=${encodeURIComponent(body)}`;
 };
 
 export default function TravelDeals() {
   const [filterCategory, setFilterCategory] = useState("All");
-  const [filterDestination, setFilterDestination] = useState("All");
 
-  const categories = ["All", ...Array.from(new Set(DEALS.map(d => d.category)))];
-  const destinations = ["All", ...Array.from(new Set(DEALS.map(d => d.destination)))];
+  const categories = ["All", ...Array.from(new Set(PLATFORMS.map(p => p.category)))];
 
-  const filteredDeals = useMemo(() => {
-    return DEALS.filter(deal => {
-      const matchCategory = filterCategory === "All" || deal.category === filterCategory;
-      const matchDestination = filterDestination === "All" || deal.destination === filterDestination;
-      return matchCategory && matchDestination;
-    });
-  }, [filterCategory, filterDestination]);
+  const filteredPlatforms = useMemo(() => {
+    if (filterCategory === "All") return PLATFORMS;
+    return PLATFORMS.filter(p => p.category === filterCategory);
+  }, [filterCategory]);
 
   const fadeInUp = {
     hidden: { opacity: 0, y: 40 },
@@ -124,10 +85,11 @@ export default function TravelDeals() {
   return (
     <div className="min-h-screen bg-[#FAF7F2] font-sans overflow-hidden">
       <SEO
-        title="Travel Deals & Resources — Curated tools for hotels, tours, eSIM, insurance"
-        description="A carefully-chosen shortlist of travel deals for Tuscany. Compare tours, hotels, and transport."
+        title="Booking Platforms We Point Readers To"
+        description="The booking platforms we point readers to for Tuscany travel. We have no affiliate relationship with any of them and earn nothing from these links."
         path="/travel-deals"
-        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Travel Deals & Resources' }])}
+        noindex
+        schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Booking Platforms' }])}
       />
       
       {/* 4D Cinematic Hero */}
@@ -138,7 +100,7 @@ export default function TravelDeals() {
           transition={{ duration: 25, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
           className="absolute inset-0 w-full h-full"
         >
-          <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=2000&q=80" alt="Travel Deals Background" loading="eager" className="w-full h-full object-cover opacity-50" />
+          <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=2000&q=80" alt="" loading="eager" className="w-full h-full object-cover opacity-50" />
         </motion.div>
         
         <div className="absolute inset-0 bg-gradient-to-t from-[#2C211B] via-black/40 to-transparent z-10 pointer-events-none"></div>
@@ -147,13 +109,13 @@ export default function TravelDeals() {
         <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-6 mt-16 max-w-5xl mx-auto">
           <motion.div initial="hidden" animate="visible" variants={staggerContainer} className="w-full">
             <motion.div variants={fadeInUp} className="mb-6 flex justify-center">
-              <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Travel Deals" }]} />
+              <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Booking Platforms" }]} />
             </motion.div>
             <motion.h1 variants={fadeInUp} className="text-5xl md:text-7xl font-serif leading-[1.05] tracking-tight mb-6 drop-shadow-[0_20px_20px_rgba(0,0,0,0.8)]">
-              Travel Deals <span className="text-[#8A9A5B]">& Resources</span>
+              Booking <span className="text-[#8A9A5B]">Platforms</span>
             </motion.h1>
             <motion.p variants={fadeInUp} className="text-xl md:text-2xl text-[#F5EDE3] drop-shadow-md font-light leading-relaxed max-w-3xl mx-auto">
-              Curated partner discounts for Tuscany, Siena, and beyond. Every card is hand-picked.
+              The platforms we point readers to for Tuscany travel. We have no commercial relationship with any of them, and we earn nothing if you book.
             </motion.p>
           </motion.div>
         </div>
@@ -165,31 +127,24 @@ export default function TravelDeals() {
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp} className="rounded-[2rem] border border-[#F5EDE3] bg-white p-8 shadow-xl mb-12 flex flex-col md:flex-row items-center justify-between gap-6">
                <div className="flex items-center gap-4">
                  <Filter className="w-6 h-6 text-[#C65A3A]" />
-                 <span className="font-serif text-2xl text-[#2C211B]">Filter Deals</span>
+                 <span className="font-serif text-2xl text-[#2C211B]">Filter by type</span>
                </div>
                <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
-                 <select 
+                 <select
                    className={FIELD + " cursor-pointer !py-3 !w-full sm:!w-48"}
                    value={filterCategory}
                    onChange={(e) => setFilterCategory(e.target.value)}
                  >
-                   {categories.map(c => <option key={c} value={c}>{c === "All" ? "All Categories" : c}</option>)}
-                 </select>
-                 <select 
-                   className={FIELD + " cursor-pointer !py-3 !w-full sm:!w-48"}
-                   value={filterDestination}
-                   onChange={(e) => setFilterDestination(e.target.value)}
-                 >
-                   {destinations.map(c => <option key={c} value={c}>{c === "All" ? "All Destinations" : c}</option>)}
+                   {categories.map(c => <option key={c} value={c}>{c === "All" ? "All types" : c}</option>)}
                  </select>
                </div>
             </motion.div>
 
             <motion.div layout className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
               <AnimatePresence>
-                {filteredDeals.map((deal) => (
-                  <motion.div 
-                    key={deal.id}
+                {filteredPlatforms.map((platform) => (
+                  <motion.div
+                    key={platform.id}
                     layout
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
@@ -197,55 +152,47 @@ export default function TravelDeals() {
                     transition={{ duration: 0.3 }}
                     className="group flex flex-col bg-white rounded-[2rem] overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-700 hover:-translate-y-4 border border-[#F5EDE3]/50"
                   >
-                    <div className="h-48 relative overflow-hidden">
-                      <img src={deal.image} alt={deal.title} className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                      <div className="absolute top-4 left-4">
-                        <span className="bg-[#2C211B]/80 backdrop-blur-sm text-white text-xs font-bold uppercase tracking-widest px-3 py-1.5 rounded-full border border-white/20">
-                          {deal.category}
-                        </span>
-                      </div>
-                      {deal.recommended && (
-                        <div className="absolute top-4 right-4">
-                          <AIRecommendedBadge />
-                        </div>
-                      )}
-                      <div className="absolute bottom-4 left-4 right-4 flex justify-between items-end">
-                        <span className="text-[#F5EDE3] text-sm font-semibold">{deal.destination}</span>
-                        <span className="text-white font-serif text-2xl font-bold drop-shadow-md">{deal.price}</span>
-                      </div>
-                    </div>
-                    
                     <div className="p-8 flex flex-col flex-1">
-                      <h3 className="font-serif text-2xl text-[#2C211B] mb-3 leading-tight">{deal.title}</h3>
+                      <span className="self-start bg-[#FAF7F2] text-[#8A9A5B] text-xs font-bold uppercase tracking-widest px-3 py-1.5 rounded-full border border-[#F5EDE3] mb-5">
+                        {platform.category}
+                      </span>
+                      <h3 className="font-serif text-2xl text-[#2C211B] mb-3 leading-tight">{platform.name}</h3>
                       <p className="text-sm text-[#8A9A5B] leading-relaxed mb-6 flex-1">
-                        {deal.description}
+                        {platform.description}
                       </p>
-                      <a 
-                        href={deal.bookingLink}
+                      <a
+                        href={platform.link}
                         target="_blank"
                         rel="nofollow noopener noreferrer"
                         className="w-full flex items-center justify-center gap-2 bg-[#FAF7F2] text-[#C65A3A] group-hover:bg-[#C65A3A] group-hover:text-white border border-[#F5EDE3] px-6 py-4 rounded-xl font-semibold transition-colors shadow-sm"
                       >
-                        <Tag className="w-4 h-4" />
-                        Claim Deal
+                        <ExternalLink className="w-4 h-4" />
+                        Visit {platform.name}
                       </a>
-                      <p className="text-[10px] text-center text-[#8A9A5B]/60 mt-4 uppercase tracking-widest font-semibold flex items-center justify-center gap-1">
-                        <CheckCircle2 className="w-3 h-3" /> Partner Affiliate
-                      </p>
                     </div>
                   </motion.div>
                 ))}
               </AnimatePresence>
             </motion.div>
             
-            {filteredDeals.length === 0 && (
+            {filteredPlatforms.length === 0 && (
               <div className="text-center py-20">
-                <p className="text-xl text-[#8A9A5B] font-serif italic">No deals found for your selected filters.</p>
-                <button onClick={() => { setFilterCategory("All"); setFilterDestination("All"); }} className="mt-4 text-[#C65A3A] font-semibold hover:underline">Clear filters</button>
+                <p className="text-xl text-[#8A9A5B] font-serif italic">No platforms of this type are listed.</p>
+                <button onClick={() => setFilterCategory("All")} className="mt-4 text-[#C65A3A] font-semibold hover:underline">Clear filter</button>
               </div>
             )}
-            
+
+            <div className="rounded-[2rem] border border-[#F5EDE3] bg-white p-8 shadow-sm mb-12">
+              <h2 className="font-serif text-2xl text-[#2C211B] mb-3">How we chose these</h2>
+              <p className="text-sm text-[#8A9A5B] leading-relaxed">
+                These are the platforms we use ourselves when planning Tuscany travel. We are not affiliated with any of
+                them, we are not paid to list them, and the links above carry no tracking or affiliate parameters — so we
+                earn nothing whether you book or not. Nothing on this page states a price, because prices on these
+                platforms change constantly and we have not verified any. Check the current price and the cancellation
+                terms on the platform itself before you book.
+              </p>
+            </div>
+
             <AdPlaceholder className="rounded-[2rem] overflow-hidden shadow-xl" />
           </div>
           
@@ -303,8 +250,8 @@ function DealLeadForm() {
           <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B]">Free advice</p>
           <AIRecommendedBadge />
         </div>
-        <h3 className="font-serif text-3xl mt-2 mb-8 text-[#2C211B]">Need a custom deal?</h3>
-        <p className="text-[#8A9A5B] mb-6 leading-relaxed text-sm">Tell us your destination and budget, and we'll send you our top affiliate partners tailored for your trip.</p>
+        <h3 className="font-serif text-3xl mt-2 mb-8 text-[#2C211B]">Need a recommendation?</h3>
+        <p className="text-[#8A9A5B] mb-6 leading-relaxed text-sm">Tell us your dates, budget and travel style, and we will reply with suggestions. We have no commercial relationship with any platform we might mention, and nothing we suggest earns us a commission.</p>
         <form onSubmit={submit} className="space-y-6 relative">
           <label className="block space-y-2">
             <span className={LABEL}>Name</span>
@@ -328,7 +275,7 @@ function DealLeadForm() {
             <textarea required rows={4} className={FIELD + " resize-y"} value={form.message} onChange={(e) => update("message", e.target.value)} />
           </label>
           <button type="submit" disabled={loading} className="w-full bg-[#C65A3A] hover:bg-[#A84A2E] text-white px-8 py-4 rounded-2xl text-lg font-semibold shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 mt-4">
-            {loading ? "Sending..." : "Request Deals"}
+            {loading ? "Sending..." : "Send request"}
           </button>
         </form>
       </div>

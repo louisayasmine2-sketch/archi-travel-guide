@@ -133,11 +133,16 @@ const STATIC_ROUTES = [
     'Plan budgets, choose neighborhoods, build packing lists and compare transport choices.',
     'The tools are designed to support editorial guides, not replace careful booking checks.',
   ]),
-  page('/travel-deals', 'Travel Deals & Resources', 'Curated travel resources for hotels, tours, eSIM, insurance, transport and gear, with clear affiliate disclosure.', 'Travel Deals & Resources', [
-    'A carefully selected shortlist of travel planning categories.',
-    'Partner links are only active when real provider URLs are configured.',
-    'Readers can request a fast shortlist by email when they need practical help.',
-  ]),
+  // noindex until the page carries verified content. Kept out of sitemap.xml for
+  // the same reason — submitting a URL we tell crawlers to ignore contradicts itself.
+  {
+    ...page('/travel-deals', 'Booking Platforms We Point Readers To', 'The booking platforms we point readers to for Tuscany travel. We have no affiliate relationship with any of them and earn nothing from these links.', 'Booking Platforms', [
+      'The booking platforms we use ourselves when planning Tuscany travel.',
+      'We have no commercial relationship with any of them and earn nothing if you book.',
+      'No prices are listed, because none have been verified.',
+    ]),
+    noindex: true,
+  },
   page('/about', 'About Archi Travel Guide', 'Learn how Archi Travel Guide writes independent destination guides, travel tools and monetized recommendations.', 'About Archi Travel Guide', [
     'Archi Travel Guide is an independent editorial travel planning platform.',
     'We do not claim to represent any previous business associated with this domain.',
