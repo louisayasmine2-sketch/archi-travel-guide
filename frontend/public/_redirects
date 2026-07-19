@@ -19,6 +19,8 @@
 /tuscany                                                  /tuscany-travel-guide/ 301
 /go/trainline                                             https://www.thetrainline.com/ 302
 /go/omio                                                  https://www.omio.com/ 302
+/blog/florence-to-siena-transport                         /florence-to-siena-by-train-or-bus/ 301
+/blog/florence-to-siena-transport/                        /florence-to-siena-by-train-or-bus/ 301
 /en/*.html   /siena-travel-guide/ 301
 /it/*.html   /siena-travel-guide/ 301
 /en/*   /siena-travel-guide/ 301
