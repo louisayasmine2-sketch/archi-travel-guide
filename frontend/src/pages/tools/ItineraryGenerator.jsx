@@ -90,7 +90,7 @@ export default function ItineraryGenerator() {
           <div className="lg:col-span-7">
             {result ? (
               <div data-testid={TOOLS.itinResult} className="space-y-5">
-                <p className="text-sm text-[hsl(var(--charcoal-soft))]">{result.party_note}</p>
+                <p className="text-sm text-[hsl(var(--charcoal-soft))]">{result.summary}</p>
                 {result.days.map((d) => (
                   <div key={d.day} className="rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] p-6">
                     <div className="flex items-baseline gap-4">
@@ -102,6 +102,15 @@ export default function ItineraryGenerator() {
                       <div><p className="text-[hsl(var(--charcoal-soft))] text-xs uppercase tracking-widest mb-1">Afternoon</p><p>{d.afternoon}</p></div>
                       <div><p className="text-[hsl(var(--charcoal-soft))] text-xs uppercase tracking-widest mb-1">Evening</p><p>{d.evening}</p></div>
                     </div>
+                    {d.notes?.length > 0 && (
+                      <div className="mt-4 space-y-2">
+                        {d.notes.map((n, i) => (
+                          <p key={i} className="text-xs leading-relaxed text-[hsl(var(--charcoal-soft))] bg-[hsl(var(--ivory))] border border-[hsl(var(--stone-border))] rounded-xl px-3 py-2">
+                            <span className="font-semibold text-[hsl(var(--charcoal))]">Plan around this: </span>{n.text} <span className="opacity-70">(Checked {n.checked})</span>
+                          </p>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>

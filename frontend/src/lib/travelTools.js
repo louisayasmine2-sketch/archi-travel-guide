@@ -83,41 +83,71 @@ export function budgetCalculator(payload) {
 
 const ITIN_TEMPLATES = {
   siena: [
-    ["Piazza del Campo & Palazzo Pubblico", "Torre del Mangia climb", "Sunset aperitivo on the Campo"],
-    ["Siena Cathedral & Piccolomini Library", "Museo dell’Opera & Panorama dal Facciatone", "Enoteca dinner in Terzo di Città"],
-    ["Contrada walking tour", "Pinacoteca Nazionale", "Trattoria dinner near Fontebranda"],
-    ["Day trip: San Gimignano & Monteriggioni", "Return to Siena", "Evening passeggiata"],
-    ["Day trip: Val d’Orcia (Pienza, Montalcino)", "Wine tasting", "Slow dinner in the countryside"],
+    ["Piazza del Campo & Palazzo Pubblico", "Torre del Mangia climb", "Aperitivo on Piazza del Campo"],
+    ["Siena Cathedral & Piccolomini Library", "Museo dell’Opera & Panorama dal Facciatone", "Dinner in Terzo di Città"],
+    ["Contrada walking tour", "Pinacoteca Nazionale", "Dinner near Fontebranda"],
+    ["Day trip: San Gimignano & Monteriggioni", "Return to Siena", "Evening walk"],
+    ["Day trip: Val d’Orcia (Pienza, Montalcino)", "Wine tasting", "Dinner in the countryside"],
   ],
   tuscany: [
-    ["Florence: Duomo, Uffizi highlights", "Ponte Vecchio walk", "Trattoria in Oltrarno"],
-    ["Siena: Piazza del Campo, Duomo", "Terzo di Città stroll", "Enoteca dinner"],
+    ["Florence: Duomo, Uffizi highlights", "Ponte Vecchio walk", "Dinner in Oltrarno"],
+    ["Siena: Piazza del Campo, Duomo", "Walk through Terzo di Città", "Dinner"],
     ["Val d’Orcia road trip", "Pienza & Montalcino", "Brunello tasting"],
-    ["San Gimignano & Volterra", "Etruscan sites", "Countryside agriturismo dinner"],
+    ["San Gimignano & Volterra", "Etruscan sites", "Dinner at an agriturismo"],
     ["Chianti wine route", "Castello tour", "Vineyard picnic"],
   ],
   italy: [
-    ["Rome: Colosseum & Roman Forum", "Palatine Hill", "Trastevere dinner"],
-    ["Rome: Vatican Museums & St Peter’s", "Sunset at Pincio", "Piazza Navona evening"],
-    ["Florence: Duomo & Uffizi", "Ponte Vecchio", "Oltrarno dinner"],
+    ["Rome: Colosseum & Roman Forum", "Palatine Hill", "Dinner in Trastevere"],
+    ["Rome: Vatican Museums & St Peter’s", "Pincio terrace", "Evening at Piazza Navona"],
+    ["Florence: Duomo & Uffizi", "Ponte Vecchio", "Dinner in Oltrarno"],
     ["Siena day trip", "Piazza del Campo & Duomo", "Return to Florence"],
-    ["Venice: San Marco & Doge’s Palace", "Cannaregio walk", "Cicchetti crawl"],
+    ["Venice: San Marco & Doge’s Palace", "Cannaregio walk", "Cicchetti (Venetian small plates)"],
   ],
   default: [
-    ["Arrival & neighborhood orientation", "Signature landmark visit", "Local dinner in a walkable area"],
-    ["Main museum or historic site", "Café break & shopping", "Rooftop or riverside dinner"],
-    ["Half-day guided experience", "Free-time exploration", "Food market crawl"],
-    ["Day trip to nearby region", "Return by early evening", "Slow dinner"],
-    ["Off-the-beaten-path neighborhood", "Local workshop or class", "Farewell dinner"],
+    ["Arrival & neighbourhood orientation", "Main landmark visit", "Dinner nearby"],
+    ["Main museum or historic site", "Café break & shopping", "Evening dinner"],
+    ["Half-day guided experience", "Free-time exploration", "Visit a food market"],
+    ["Day trip to nearby region", "Return by early evening", "Dinner"],
+    ["Quieter residential neighbourhood", "Local workshop or class", "Farewell dinner"],
   ],
 };
 
-const ITIN_TONE = {
-  family: "Includes shorter walking blocks, gelato breaks, and family-friendly restaurants.",
-  couple: "Balances iconic sights with quieter, romantic corners and sunset viewpoints.",
-  solo: "Optimised for walkability, cafés with wifi, and safe evening neighborhoods.",
-  friends: "Adds evening enoteca stops and shared tasting menus.",
-};
+// Operational notes attach to a plan item when a verified rule changes how a
+// visitor should plan around it. Each carries the date it was checked (per
+// CLAUDE.md §1). `match` is a landmark name that appears verbatim in a template
+// item, so a note shows only when that item is actually in the generated plan.
+// Sources (checked 20 July 2026): Torre del Mangia — Comune di Siena / Musei
+// Civici; Cathedral & OPA SI Pass — operaduomo.siena.it and VisitTuscany
+// (pass validity confirmed; current price to be read off the official site);
+// Palio — Comune di Siena. Prices/dates are deliberately not hard-coded where
+// they could not be confirmed on a primary source this session.
+const OPERATIONAL_NOTES = [
+  {
+    match: "Torre del Mangia",
+    checked: "20 July 2026",
+    text: "Tickets are sold same day only, in person at the Palazzo Pubblico — they cannot be reserved in advance, capacity is limited, and the climb goes up in small timed groups. Buy in the morning.",
+  },
+  {
+    match: "Siena Cathedral",
+    checked: "20 July 2026",
+    text: "The marble floor is uncovered only during scheduled periods each year — check the Opera Duomo calendar before fixing your date. Entry is via the OPA SI Pass, valid three consecutive days; it costs more during floor-uncovering periods, so check the current price on the official Opera Duomo site.",
+  },
+  {
+    match: "Piazza del Campo",
+    checked: "20 July 2026",
+    text: "The Palio runs on 2 July and 16 August; trial races fill the days immediately before each, when the Campo is fenced for the track and the city is at its busiest. Check the official Palio calendar if your dates fall near these.",
+  },
+];
+
+// A factual summary of what the generated plan actually covers — the distinct
+// morning stops, in order. No tone, mood or party framing.
+function buildItinerarySummary(destination, days) {
+  const stops = [];
+  for (const d of days) {
+    if (!stops.includes(d.morning)) stops.push(d.morning);
+  }
+  return `A ${days.length}-day outline for ${destination}, structured morning, afternoon and evening. Main stops: ${stops.join("; ")}.`;
+}
 
 export function itineraryGenerator(payload) {
   const dest = (payload.destination || "").trim().toLowerCase();
@@ -131,13 +161,17 @@ export function itineraryGenerator(payload) {
   const days = [];
   for (let i = 0; i < payload.trip_length; i++) {
     const base = template[i % template.length];
-    days.push({ day: i + 1, morning: base[0], afternoon: base[1], evening: base[2] });
+    const items = [base[0], base[1], base[2]];
+    const notes = OPERATIONAL_NOTES
+      .filter((n) => items.some((item) => item.includes(n.match)))
+      .map((n) => ({ text: n.text, checked: n.checked }));
+    days.push({ day: i + 1, morning: base[0], afternoon: base[1], evening: base[2], notes });
   }
   return {
     destination: payload.destination,
     trip_length: payload.trip_length,
     style: payload.travel_style,
-    party_note: ITIN_TONE[payload.party],
+    summary: buildItinerarySummary(payload.destination, days),
     budget_level: payload.budget_level,
     days,
   };

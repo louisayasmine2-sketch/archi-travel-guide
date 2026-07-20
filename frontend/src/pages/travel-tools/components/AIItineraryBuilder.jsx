@@ -112,7 +112,7 @@ export default function AIItineraryBuilder() {
 
               {/* Itinerary Results */}
               <div className="space-y-4">
-                <p className="text-sm font-medium text-[#8A9A5B] bg-[#FAF7F2] p-4 rounded-2xl">{result.party_note}</p>
+                <p className="text-sm font-medium text-[#8A9A5B] bg-[#FAF7F2] p-4 rounded-2xl">{result.summary}</p>
                 {result.days.map((d) => (
                   <div key={d.day} className="rounded-3xl border border-[#F5EDE3] bg-white p-6 md:p-8 shadow-sm">
                     <div className="flex items-center gap-4 border-b border-[#F5EDE3] pb-4 mb-4">
@@ -134,6 +134,15 @@ export default function AIItineraryBuilder() {
                         <p className="text-[#2C211B] leading-relaxed">{d.evening}</p>
                       </div>
                     </div>
+                    {d.notes?.length > 0 && (
+                      <div className="mt-5 space-y-2">
+                        {d.notes.map((n, i) => (
+                          <p key={i} className="text-xs leading-relaxed text-[#8A9A5B] bg-[#FAF7F2] rounded-2xl px-4 py-3">
+                            <span className="font-semibold text-[#2C211B]">Plan around this: </span>{n.text} <span className="opacity-70">(Checked {n.checked})</span>
+                          </p>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>
