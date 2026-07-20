@@ -3,7 +3,6 @@ import { budgetCalculator } from "@/lib/travelTools";
 import { toast } from "sonner";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
-import RecommendedTravelResources from "@/components/common/RecommendedTravelResources";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";
 import { TOOLS } from "@/constants/testIds";
@@ -141,8 +140,6 @@ export default function BudgetCalculator() {
           </aside>
         </div>
       </section>
-
-      <RecommendedTravelResources context="travel-budget-calculator" />
     </div>
   );
 }

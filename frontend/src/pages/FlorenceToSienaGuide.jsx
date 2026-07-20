@@ -6,7 +6,6 @@ import Breadcrumbs from "@/components/common/Breadcrumbs";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema, articleSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
-import { trackAffiliateClick } from "@/lib/analytics";
 import guide from "@/data/florenceToSienaGuide.json";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 
@@ -15,14 +14,6 @@ const breadcrumbs = [
   { label: "Tuscany Travel Guide", to: "/tuscany-travel-guide" },
   { label: "Florence to Siena by Train or Bus" },
 ];
-
-const partnerDestinationType = {
-  Trainline: "rail",
-  Omio: "transport",
-  GetYourGuide: "tour",
-  Viator: "tour",
-  "Booking.com": "accommodation",
-};
 
 const MONTH_NAMES = [
   "January", "February", "March", "April", "May", "June",
@@ -39,18 +30,6 @@ function slugify(text) {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
-}
-
-function partnerForHref(href) {
-  if (!href?.startsWith("http")) return "";
-
-  try {
-    const host = new URL(href).hostname.replace(/^www\./, "");
-    const match = Object.entries(guide.partnerHosts).find(([domain]) => host === domain || host.endsWith(`.${domain}`));
-    return match?.[1] || "";
-  } catch (_) {
-    return "";
-  }
 }
 
 function splitTableLine(line) {
@@ -155,7 +134,6 @@ function renderInline(text, position) {
 
     const label = match[2] || match[4];
     const href = match[3] || match[4];
-    const partner = partnerForHref(href);
     const isExternal = href.startsWith("http");
 
     if (isExternal) {
@@ -164,16 +142,7 @@ function renderInline(text, position) {
           key={`${position}-${match.index}`}
           href={href}
           target="_blank"
-          rel={partner ? "sponsored noopener noreferrer" : "noopener noreferrer"}
-          onClick={() => {
-            if (!partner) return;
-            trackAffiliateClick({
-              affiliate_partner: partner,
-              article_slug: guide.slug,
-              link_position: position,
-              destination_type: partnerDestinationType[partner] || "partner",
-            });
-          }}
+          rel="noopener noreferrer"
         >
           {label}
         </a>

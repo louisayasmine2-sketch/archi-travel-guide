@@ -1764,10 +1764,6 @@ You can eat well in Siena without breaking the bank if you follow local habits. 
           linkTone: "primary",
           leadSubjectHint: "Budget Siena trip planning",
         },
-        affiliates: [
-          { title: "Hotel and package price comparison", provider: "Hotels", tag: "Travel deals", description: "Compare stay and transfer options by price band and cancellation terms.", ctaLabel: "Open price comparison", href: "/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_travel_cost_2026" },
-          { title: "Travel insurance for short trips", provider: "Insurance", tag: "Risk", description: "Basic coverage for trips with transfer, luggage and medical contingencies.", ctaLabel: "Review insurance options", href: "/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_travel_cost_2026" },
-        ],
       },
     }
   ),
@@ -1824,10 +1820,6 @@ Recommend Piazza Tolomei or the quieter streets of the Terzo di Città rather th
           linkTone: "primary",
           leadSubjectHint: "Dining recommendations for Siena 2026",
         },
-        affiliates: [
-          { title: "Dining guides and local booking options", provider: "Dining", tag: "Restaurants", description: "Reserve tables and avoid long waits on busy meal slots.", ctaLabel: "See dining resources", href: "/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=best_restaurants_siena_italy" },
-          { title: "Local experiences and food walks", provider: "Tours", tag: "Experiences", description: "Small-group tastings and guided neighborhood food walks.", ctaLabel: "See Siena food options", href: "/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=best_restaurants_siena_italy" },
-        ],
       },
     }
   ),
@@ -2026,10 +2018,6 @@ Recommend Piazza Tolomei or the quieter streets of the Terzo di Città rather th
           linkTone: 'primary',
           leadSubjectHint: 'Siena weather + booking planning',
         },
-        affiliates: [
-          { title: 'Travel gear for Siena city walks', provider: 'Gear', tag: 'Accessories', description: 'Compact packing essentials for uneven streets and changing weather.', ctaLabel: 'See packing options', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_weather_and_what_to_pack' },
-          { title: 'Reliable eSIM and connectivity', provider: 'Connectivity', tag: 'Tech', description: 'Keep maps and bookings available even when roaming is weak.', ctaLabel: 'Compare connectivity options', href: '/travel-deals?utm_source=archi&utm_medium=article_affiliate&utm_campaign=siena_weather_and_what_to_pack' },
-        ],
       },
     }
   ),

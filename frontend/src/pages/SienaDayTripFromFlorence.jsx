@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
-import RecommendedTravelResources from "@/components/common/RecommendedTravelResources";
 import SEO from "@/components/common/SEO";
 import { articleSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
@@ -327,13 +326,6 @@ export default function SienaDayTripFromFlorence() {
         </div>
         <ArticleFigure image={guide.hero} eager />
       </div>
-
-      <RecommendedTravelResources
-        context="siena-day-trip-from-florence"
-        title="Useful resources for a Siena day trip"
-        intro="Use these after you choose the bus, train, or guided-tour plan. They are practical next steps for timing, tickets, and backup options."
-        className="pt-8 pb-10"
-      />
 
       <div className="container-editorial mt-8 grid grid-cols-1 gap-12 lg:grid-cols-12">
         <aside className="order-2 lg:order-1 lg:col-span-3">

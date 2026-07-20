@@ -74,7 +74,6 @@ export default function PackingChecklist() {
             </button>
             </form>
 
-            {/* Affiliate Sidebar Widget */}
             <div className="rounded-2xl border border-[hsl(var(--stone-border))] bg-white p-6 shadow-sm space-y-4">
               <div className="flex items-center gap-2 text-[hsl(var(--terracotta))]">
                 <MapPin className="w-5 h-5" />
@@ -94,7 +93,6 @@ export default function PackingChecklist() {
             {result ? (
               <div data-testid={TOOLS.packResult} className="space-y-6">
                 
-                {/* Affiliate Contextual Banner */}
                 <div className="rounded-2xl bg-gradient-to-br from-[hsl(var(--terracotta))]/10 to-[hsl(var(--olive))]/10 border border-[hsl(var(--terracotta))]/20 p-5 sm:p-6 flex flex-col sm:flex-row items-center gap-4 sm:gap-6 justify-between">
                   <div className="text-center sm:text-left">
                     <h3 className="font-serif text-xl sm:text-2xl text-[hsl(var(--charcoal))]">Still need a place to stay?</h3>

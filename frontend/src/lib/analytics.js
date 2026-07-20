@@ -240,13 +240,6 @@ export const trackLeadSubmit = (params = {}) => {
   });
 };
 
-export const trackAffiliateClick = (params = {}) => {
-  trackConversionEvent("affiliate_click", {
-    event_category: "affiliate",
-    ...params,
-  });
-};
-
 export const isGaTrackingEnabled = SHOULD_TRACK;
 export const isClarityTrackingEnabled = SHOULD_LOAD_CLARITY;
 export const isAmplitudeTrackingEnabled = SHOULD_LOAD_AMPLITUDE;

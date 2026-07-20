@@ -133,12 +133,5 @@
       "href": "/tuscany-travel-guide",
       "label": "Tuscany travel guide"
     }
-  ],
-  "partnerHosts": {
-    "thetrainline.com": "Trainline",
-    "omio.com": "Omio",
-    "getyourguide.com": "GetYourGuide",
-    "viator.com": "Viator",
-    "booking.com": "Booking.com"
-  }
+  ]
 }

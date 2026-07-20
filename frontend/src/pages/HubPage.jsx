@@ -2,19 +2,12 @@ import { Link } from "react-router-dom";
 import { Mail, MapPin, Compass, Calendar, Home, Star } from "lucide-react";
 import { motion } from "framer-motion";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
-import RecommendedTravelResources from "@/components/common/RecommendedTravelResources";
 import SEO from "@/components/common/SEO";
 import { articleSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { SITE_URL, canonical, websiteSchema } from "@/lib/seo";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 
 const SCHEMA_UPDATED = "2026-07-10";
-
-const RESOURCE_CONTEXTS = new Set([
-  "siena-travel-guide",
-  "where-to-stay-in-siena",
-  "siena-accommodation-guide",
-]);
 
 const HUB_CONTENT = {
   "en-home": {
@@ -315,12 +308,6 @@ export default function HubPage({ pageKey, routePath }) {
           </div>
         </div>
       </section>
-
-      {RESOURCE_CONTEXTS.has(pageKey) && (
-        <RecommendedTravelResources
-          context={pageKey}
-        />
-      )}
 
       <section className="py-24 bg-white relative z-30">
         <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="max-w-4xl mx-auto px-6">

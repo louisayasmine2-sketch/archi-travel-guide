@@ -5,7 +5,6 @@ import FAQAccordion from "@/components/common/FAQAccordion";
 import ArticleCard from "@/components/common/ArticleCard";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
 import LazyImage from "@/components/common/LazyImage";
-import AffiliateCard from "@/components/common/AffiliateCard";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema, articleSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
@@ -194,7 +193,6 @@ export default function Article({ fixedSlug, canonicalPath }) {
   const related = articles.filter((a) => a.slug !== slug && (a.region === article.region || a.category === article.category)).slice(0, 3);
   const monetization = article.monetization || {};
   const bookingCta = monetization.booking;
-  const affiliateItems = monetization.affiliates || [];
   const imageCredit = article.imageCredit;
 
   const path = canonicalPath || article.canonicalPath || `/blog/${article.slug}`;
@@ -321,9 +319,6 @@ export default function Article({ fixedSlug, canonicalPath }) {
                 <li><a href="#faq" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))]">FAQ</a></li>
               )}
               {bookingCta && <li><a href="#booking-cta" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))]">Booking help</a></li>}
-              {affiliateItems.length > 0 && (
-                <li><a href="#affiliate-resources" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))]">Recommended resources</a></li>
-              )}
             </ol>
           </div>
         </aside>
@@ -351,9 +346,6 @@ export default function Article({ fixedSlug, canonicalPath }) {
                   <li><a href="#faq" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))] block">FAQ</a></li>
                 )}
                 {bookingCta && <li><a href="#booking-cta" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))] block">Booking help</a></li>}
-                {affiliateItems.length > 0 && (
-                  <li><a href="#affiliate-resources" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))] block">Recommended resources</a></li>
-                )}
               </ol>
             </div>
           </details>
@@ -403,21 +395,6 @@ export default function Article({ fixedSlug, canonicalPath }) {
                   sourceHint={bookingCta.leadSubjectHint || `Lead: ${article.title}`}
                   sourceSlug={article.slug}
                 />
-              </div>
-            </section>
-          )}
-
-          {affiliateItems.length > 0 && (
-            <section id="affiliate-resources" className="mt-14">
-              <p className="overline">Affiliate resources</p>
-              <h2 className="font-serif mt-2">Helpful next-step options</h2>
-              <p className="mt-3 text-sm text-[hsl(var(--charcoal-soft))] leading-relaxed">
-                Affiliate links are clearly marked and fully optional. If you use them, we may earn a commission at no extra cost.
-              </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-6">
-                {affiliateItems.map((item) => (
-                  <AffiliateCard key={`${slug}-${item.title}`} {...item} />
-                ))}
               </div>
             </section>
           )}

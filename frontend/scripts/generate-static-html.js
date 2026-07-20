@@ -545,8 +545,7 @@ function inlineMarkdownToHtml(text = '') {
     const safeHref = escapeHtml(href);
     const safeLabel = escapeHtml(label);
     if (/^https?:\/\//i.test(href)) {
-      const partnerRel = isPartnerHref(href) ? 'sponsored nofollow noopener noreferrer' : 'noopener noreferrer';
-      parts.push(`<a href="${safeHref}" target="_blank" rel="${partnerRel}">${safeLabel}</a>`);
+      parts.push(`<a href="${safeHref}" target="_blank" rel="noopener noreferrer">${safeLabel}</a>`);
     } else {
       parts.push(`<a href="${safeHref}">${safeLabel}</a>`);
     }
@@ -559,15 +558,6 @@ function inlineMarkdownToHtml(text = '') {
   }
 
   return parts.join('').replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
-}
-
-function isPartnerHref(href) {
-  try {
-    const host = new URL(href).hostname.replace(/^www\./, '');
-    return Object.keys(FLORENCE_TO_SIENA_GUIDE?.partnerHosts || {}).some((domain) => host === domain || host.endsWith(`.${domain}`));
-  } catch (_) {
-    return false;
-  }
 }
 
 function markdownToHtml(markdown = '') {
