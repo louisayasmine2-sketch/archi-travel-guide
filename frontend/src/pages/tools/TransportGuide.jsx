@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
-import AdPlaceholder from "@/components/common/AdPlaceholder";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";
 import { Bus, Plane, Train } from "lucide-react";
@@ -49,7 +48,6 @@ export default function TransportGuide() {
             );
           })}
         </div>
-        <div className="container-editorial mt-14"><AdPlaceholder /></div>
       </section>
     </div>
   );

@@ -2,7 +2,6 @@ import { useState } from "react";
 import { packingChecklist } from "@/lib/travelTools";
 import { toast } from "sonner";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
-import AdPlaceholder from "@/components/common/AdPlaceholder";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";
 import { TOOLS } from "@/constants/testIds";
@@ -131,7 +130,6 @@ export default function PackingChecklist() {
                 Choose a season and trip length to generate a smart packing checklist you can tick as you pack.
               </div>
             )}
-            <div className="mt-8"><AdPlaceholder /></div>
           </div>
         </div>
       </section>

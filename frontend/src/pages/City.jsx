@@ -1,7 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import LazyImage from "@/components/common/LazyImage";
-import AdPlaceholder from "@/components/common/AdPlaceholder";
 import FAQAccordion from "@/components/common/FAQAccordion";
 import ArticleCard from "@/components/common/ArticleCard";
 import HotelWidget from "@/components/shared/HotelWidget";
@@ -127,7 +126,6 @@ export default function City({ slug: slugProp }) {
               </p>
             </section>
 
-            <AdPlaceholder className="rounded-[2rem] overflow-hidden shadow-xl" />
 
             <section id="where-to-stay">
               <div className="flex items-center gap-3 mb-4">
@@ -258,7 +256,6 @@ export default function City({ slug: slugProp }) {
                 ))}
               </ul>
             </div>
-            <AdPlaceholder variant="sidebar" className="rounded-[2rem] overflow-hidden shadow-xl" />
           </aside>
         </div>
       </section>

@@ -3,7 +3,6 @@ import axios from "axios";
 import { toast } from "sonner";
 import { motion, AnimatePresence } from "framer-motion";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
-import AdPlaceholder from "@/components/common/AdPlaceholder";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";
 import { trackLeadSubmit } from "@/lib/analytics";
@@ -193,7 +192,6 @@ export default function TravelDeals() {
               </p>
             </div>
 
-            <AdPlaceholder className="rounded-[2rem] overflow-hidden shadow-xl" />
           </div>
           
           <aside className="lg:col-span-4">

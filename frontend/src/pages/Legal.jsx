@@ -9,10 +9,10 @@ const DOCS = {
     intro: "We collect only what we need to run this website and improve our editorial guides. This policy explains what that means in practice.",
     sections: [
       { h: "What we collect", b: "Newsletter signups (email + source page), contact form submissions (name, email, subject, message), and analytics data such as pages viewed, referrer, approximate country, clicks, scroll depth and session behavior. We do not sell personal data. Ever." },
-      { h: "Cookies", b: "We use a small set of first-party cookies for functionality and, where you consent, analytics and advertising cookies. See our Cookie Policy for the full list." },
-      { h: "Legal bases", b: "We rely on legitimate interest for analytics and consent for advertising cookies. You can withdraw consent at any time via the cookie banner." },
+      { h: "Cookies", b: "We use a small set of first-party cookies for functionality and, where you consent, analytics cookies. See our Cookie Policy for the full list." },
+      { h: "Legal bases", b: "We rely on your consent for analytics cookies. You can withdraw it at any time via the cookie banner." },
       { h: "Your rights", b: "You can request access, correction, or deletion of your data by emailing contact@affittacameregliarchi.com. We respond within 30 days." },
-      { h: "Third parties", b: "We use standard analytics providers including Google Analytics, Microsoft Clarity and Amplitude, and, in the future, Google AdSense for advertising. Any advertising is clearly labeled and content-relevant." },
+      { h: "Third parties", b: "We use standard analytics providers: Google Analytics, Microsoft Clarity and Amplitude." },
     ],
   },
   cookie: {
@@ -21,7 +21,6 @@ const DOCS = {
     sections: [
       { h: "Essential", b: "Required for the site to work — for example, remembering your cookie choice. Cannot be disabled." },
       { h: "Analytics", b: "Used to understand which guides are useful and where readers get stuck, including page views, lead events, clicks, scroll depth, heatmaps and session recordings when enabled." },
-      { h: "Advertising", b: "Only set if you accept. Used to show travel-relevant ads that fund independent editorial work. Ads are always labeled 'Advertisement'." },
       { h: "How to opt out", b: "Use the cookie banner to decline non-essential cookies, or clear cookies in your browser settings." },
     ],
   },

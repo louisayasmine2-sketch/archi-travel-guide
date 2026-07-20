@@ -35,7 +35,7 @@ export default function CookieConsent() {
       aria-label="Cookie consent"
     >
       <p className="text-sm leading-relaxed">
-        We use minimal cookies to understand traffic and, where you consent, to serve travel-relevant advertising.
+        We use essential cookies to run the site and, if you accept, a few analytics cookies to understand how it's used.
         Read our{" "}
         <Link to="/cookie-policy" className="link-terra">cookie policy</Link>.
       </p>

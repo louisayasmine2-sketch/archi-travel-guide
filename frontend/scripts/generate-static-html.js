@@ -159,10 +159,9 @@ const STATIC_ROUTES = [
     'Analytics providers may include Google Analytics, Microsoft Clarity and Amplitude when configured.',
     'You can request access, correction or deletion by emailing contact@affittacameregliarchi.com.',
   ]),
-  page('/cookie-policy', 'Cookie Policy', 'Cookies used by Archi Travel Guide for essential functionality, analytics and future advertising consent.', 'Cookie Policy', [
+  page('/cookie-policy', 'Cookie Policy', 'Cookies used by Archi Travel Guide for essential functionality and analytics.', 'Cookie Policy', [
     'Essential cookies support basic site functionality.',
     'Analytics tools may measure page views, lead events, clicks, scroll depth, heatmaps and session behavior when configured.',
-    'Advertising cookies should only be used where consent and provider setup allow them.',
   ]),
   page('/terms-of-use', 'Terms of Use', 'Terms for using Archi Travel Guide editorial travel content and planning tools.', 'Terms of Use', [
     'Travel content is editorial and for planning purposes.',

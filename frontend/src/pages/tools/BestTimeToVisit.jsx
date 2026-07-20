@@ -2,7 +2,6 @@ import { useState } from "react";
 import { bestTime } from "@/lib/travelTools";
 import { toast } from "sonner";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
-import AdPlaceholder from "@/components/common/AdPlaceholder";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";
 import { TOOLS } from "@/constants/testIds";
@@ -81,7 +80,6 @@ export default function BestTimeToVisit() {
                 Choose a preference to see the months that match — and why.
               </div>
             )}
-            <div className="mt-8"><AdPlaceholder /></div>
           </div>
         </div>
       </section>

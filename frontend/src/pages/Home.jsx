@@ -189,27 +189,27 @@ export default function HomePage() {
 
           <div className="home-hero-content">
             <span className="home-hero-eyebrow rise d2">
-              Independent travel guides · Siena &amp; beyond
+              Practical travel logistics · Siena &amp; Tuscany
             </span>
             <h1 className="rise d3">
-              Plan <span className="home-hero-accent">smarter</span> trips around the world
+              The practical side of <span className="home-hero-accent">Tuscany</span>
             </h1>
             <p className="home-hero-lede rise d4">
-              Practical, independent guides for Siena, Tuscany, Italy, Europe
-              and Asia — with real itineraries, budget tools and honest
-              recommendations. No fluff, no hidden ads.
+              Parking, ZTL permits, tickets and transport for Siena and Tuscany
+              — traced to official sources, and dated so you know how current
+              they are.
             </p>
 
             <div className="home-hero-cta-row rise d4">
               <Link
-                to="/siena-travel-guide"
+                to="/siena-travel-guide/"
                 className="home-hero-btn home-hero-btn-primary"
                 data-testid={HOME.heroCtaPrimary}
               >
                 Explore the Siena guide
               </Link>
               <Link
-                to="/travel-budget-calculator"
+                to="/travel-budget-calculator/"
                 className="home-hero-btn home-hero-btn-glass"
                 data-testid={HOME.heroCtaSecondary}
               >
@@ -219,15 +219,15 @@ export default function HomePage() {
 
             <nav className="home-hero-chips rise d5" aria-label="Popular guides" data-testid={HOME.heroChips}>
               <span className="home-hero-chips-label">Start here</span>
-              <Link className="home-hero-chip" to="/florence-to-siena-by-train-or-bus">
+              <Link className="home-hero-chip" to="/florence-to-siena-by-train-or-bus/">
                 <span className="home-hero-chip-kicker">Transport</span>
                 <span className="home-hero-chip-title">Florence → Siena by train or bus</span>
               </Link>
-              <Link className="home-hero-chip" to="/where-to-stay-in-siena">
+              <Link className="home-hero-chip" to="/where-to-stay-in-siena/">
                 <span className="home-hero-chip-kicker">Stay</span>
                 <span className="home-hero-chip-title">Where to stay in Siena</span>
               </Link>
-              <Link className="home-hero-chip" to="/tuscany-travel-guide">
+              <Link className="home-hero-chip" to="/tuscany-travel-guide/">
                 <span className="home-hero-chip-kicker">Region</span>
                 <span className="home-hero-chip-title">Tuscany travel guide</span>
               </Link>

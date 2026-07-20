@@ -2,7 +2,6 @@ import { useState } from "react";
 import { budgetCalculator } from "@/lib/travelTools";
 import { toast } from "sonner";
 import { Wallet, Plus, Euro } from "lucide-react";
-import AdPlaceholder from "@/components/common/AdPlaceholder";
 
 const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors";
 const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
