@@ -1,136 +1,90 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import SEO from "@/components/common/SEO";
+import { articles } from "@/data/articles";
+
+// Everything on this page is derived from articles.js. No card, date, image or
+// category is hardcoded — the previous version was a mockup wired to nothing.
+const MONTHS = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
+
+// Timezone-safe: parse the ISO date prefix, never new Date(), so an evening
+// +07:00 timestamp doesn't render as the previous day.
+function formatDate(iso) {
+  if (!iso) return "";
+  const [year, month, day] = String(iso).slice(0, 10).split("-").map(Number);
+  if (!year || !month || !day) return "";
+  return `${MONTHS[month - 1]} ${day}, ${year}`;
+}
+
+// The article's real route, always with a trailing slash.
+function articlePath(article) {
+  const path = article.canonicalPath || `/blog/${article.slug}`;
+  return path.endsWith("/") ? path : `${path}/`;
+}
+
+// Category buttons come from the data's distinct category values — so a button
+// can never point at a category no article has, and a new category shows up on
+// its own. Cleaning the vocabulary in articles.js changes this list; the page
+// never hardcodes it.
+const CATEGORIES = ["All", ...[...new Set(articles.map((a) => a.category))].sort((a, b) => a.localeCompare(b))];
+
+// Most-recently-updated first, computed once.
+const BY_RECENT = [...articles].sort((a, b) => new Date(b.updated) - new Date(a.updated));
+
+const PAGE_SIZE = 9;
 
 export default function Blog() {
-  const [activeCategory, setActiveCategory] = useState('All');
-  const categories = ['All', 'Siena', 'Tuscany', 'Where to Stay', 'Getting There', 'Budget Tips', 'Food & Wine'];
-  
-  const [scrollY, setScrollY] = useState(0);
-  const [progress, setProgress] = useState(0);
-  const heroRef = useRef(null);
+  const [activeCategory, setActiveCategory] = useState("All");
+  const [visible, setVisible] = useState(PAGE_SIZE);
 
-  // 4D Scroll Tracking & Progress Bar
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-      const total = document.documentElement.scrollHeight - window.innerHeight;
-      setProgress((window.scrollY / total) * 100);
-    };
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  const filtered = useMemo(
+    () => (activeCategory === "All" ? BY_RECENT : BY_RECENT.filter((a) => a.category === activeCategory)),
+    [activeCategory]
+  );
+  const shown = filtered.slice(0, visible);
+  const recent = BY_RECENT.slice(0, 4);
 
-  // Fade-in on scroll
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.style.opacity = 1;
-            entry.target.style.transform = 'translateY(0)';
-          }
-        });
-      },
-      { threshold: 0.15 }
-    );
-
-    document.querySelectorAll('.fade-in').forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
-  }, []);
+  const pickCategory = (cat) => {
+    setActiveCategory(cat);
+    setVisible(PAGE_SIZE);
+  };
 
   return (
     <div className="bg-background text-foreground font-sans min-h-screen">
-      <SEO 
-        title="Travel Blog · Archi Travel Guide" 
-        description="Real stories & guides from Siena & Tuscany"
+      <SEO
+        title="Travel Blog · Archi Travel Guide"
+        description="Practical Siena and Tuscany travel guides: itineraries, transport, where to stay, day trips, food, budget and seasonal planning."
         path="/blog/"
       />
 
-      {/* Progress Bar - Soft */}
-      <div className="fixed top-0 left-0 h-[3px] bg-primary/70 z-[9999] transition-all" 
-           style={{ width: `${progress}%` }} />
-
-      {/* HERO 4D - SOFT & ELEGANT */}
-      <section ref={heroRef} className="relative h-[calc(100vh-4rem)] lg:h-[calc(100vh-5rem)] overflow-hidden bg-background">
-        {/* Layer Background (soft) */}
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage: `url('https://picsum.photos/id/1015/2000/1200')`,
-            transform: `translateY(${scrollY * 0.15}px)`,
-            filter: 'brightness(0.85) saturate(0.9)'
-          }}
-        />
-        
-        {/* Layer Mid (medium speed) */}
-        <div 
-          className="absolute inset-0 bg-cover bg-center opacity-60"
-          style={{
-            backgroundImage: `url('https://picsum.photos/id/133/2000/1200')`,
-            transform: `translateY(${scrollY * 0.45}px)`,
-            filter: 'brightness(0.9)'
-          }}
-        />
-
-        {/* Layer Foreground (fastest) */}
-        <div 
-          className="absolute inset-0 bg-cover bg-center opacity-40"
-          style={{
-            backgroundImage: `url('https://picsum.photos/id/1016/2000/1200')`,
-            transform: `translateY(${scrollY * 0.75}px)`,
-            filter: 'brightness(0.95)'
-          }}
-        />
-
-        {/* Gradient Soft Hangat */}
-        {/* Mapped to dark mode semantic variables while maintaining the soft feel */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-primary/15 to-background/90" />
-        
-        <div className="relative z-10 max-w-7xl mx-auto px-6 h-full flex items-center">
-          <div className="max-w-2xl text-white">
-            <p className="text-sm tracking-widest mb-3 uppercase opacity-90 drop-shadow-md">Archi Travel Blog</p>
-            <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 drop-shadow-md">
-              Real stories & guides<br />from Siena & Tuscany
-            </h1>
-            
-            {/* Numbered 4D Indicator */}
-            <div className="flex flex-wrap gap-6 md:gap-8 mt-10 md:mt-12">
-              <div className="flex items-center gap-2 md:gap-3">
-                <span className="text-4xl md:text-5xl font-bold text-white/70 drop-shadow-md">01</span>
-                <div>
-                  <p className="text-sm md:text-lg font-medium drop-shadow-md">Siena</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-2 md:gap-3">
-                <span className="text-4xl md:text-5xl font-bold text-white/70 drop-shadow-md">02</span>
-                <div>
-                  <p className="text-sm md:text-lg font-medium drop-shadow-md">Tuscany</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-2 md:gap-3">
-                <span className="text-4xl md:text-5xl font-bold text-white/70 drop-shadow-md">03</span>
-                <div>
-                  <p className="text-sm md:text-lg font-medium drop-shadow-md">Local Tips</p>
-                </div>
-              </div>
-            </div>
-          </div>
+      {/* HERO */}
+      <section className="bg-gradient-to-b from-[#2C211B] to-[#3a2c22] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-20 md:py-28">
+          <p className="text-sm tracking-widest mb-3 uppercase opacity-80">Archi Travel Blog</p>
+          <h1 className="text-4xl md:text-6xl font-bold leading-tight max-w-3xl">
+            Practical guides for Siena &amp; Tuscany
+          </h1>
+          <p className="mt-5 text-lg text-white/80 max-w-2xl leading-relaxed">
+            {articles.length} guides on itineraries, transport, where to stay, day trips and more — each shows the date it was last updated.
+          </p>
         </div>
       </section>
 
-      {/* CATEGORY FILTER */}
+      {/* CATEGORY FILTER — derived from the data */}
       <div className="max-w-7xl mx-auto px-6 py-8 border-b border-border">
         <div className="flex flex-wrap gap-3">
-          {categories.map((cat, i) => (
+          {CATEGORIES.map((cat) => (
             <button
-              key={i}
-              onClick={() => setActiveCategory(cat)}
-              className={`px-6 py-2 border rounded-full text-sm font-medium cursor-pointer transition-colors ${
-                activeCategory === cat 
-                  ? 'bg-primary border-primary text-primary-foreground' 
-                  : 'bg-card border-primary text-primary hover:bg-primary hover:text-primary-foreground'
+              key={cat}
+              onClick={() => pickCategory(cat)}
+              className={`px-5 py-2 border rounded-full text-sm font-medium cursor-pointer transition-colors ${
+                activeCategory === cat
+                  ? "bg-primary border-primary text-primary-foreground"
+                  : "bg-card border-primary text-primary hover:bg-primary hover:text-primary-foreground"
               }`}
             >
               {cat}
@@ -140,112 +94,64 @@ export default function Blog() {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-12 gap-8">
-        {/* MAIN CONTENT */}
+        {/* MAIN LIST */}
         <div className="col-span-12 lg:col-span-8">
-          
-          {/* Featured 4D */}
-          <div className="fade-in mb-12 opacity-0 translate-y-8 transition-all duration-700 [perspective:1000px]">
-            <span className="inline-block px-4 py-1 bg-primary text-primary-foreground text-xs rounded-full font-medium">Archi’s Pick</span>
-            <h2 className="text-3xl md:text-4xl font-semibold mt-4 mb-3">Siena 2026 – Complete 3-Day Local Guide</h2>
-            <p className="text-lg text-muted-foreground">Explore the piazzas, authentic cuisine, and the city's best-kept secrets...</p>
-            <Link to="/siena-travel-guide" className="inline-flex mt-6 items-center gap-2 text-primary font-medium hover:underline">
-              Read More <ArrowRight className="w-4 h-4" />
-            </Link>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {shown.map((a) => (
+              <Link
+                key={a.slug}
+                to={articlePath(a)}
+                className="group flex flex-col bg-card rounded-3xl border border-border p-6 shadow-sm hover:shadow-lg transition-shadow"
+              >
+                <span className="self-start text-xs font-semibold uppercase tracking-wide text-primary bg-muted rounded-full px-3 py-1 mb-4">
+                  {a.category}
+                </span>
+                <h3 className="font-semibold text-xl leading-snug mb-2 group-hover:text-primary transition-colors">
+                  {a.title}
+                </h3>
+                <p className="text-sm text-muted-foreground line-clamp-3 flex-1">{a.excerpt}</p>
+                <div className="mt-4 flex items-center justify-between">
+                  <span className="text-xs text-muted-foreground">Updated {formatDate(a.updated)}</span>
+                  <span className="inline-flex items-center gap-1 text-primary text-sm font-medium">
+                    Read <ArrowRight className="w-4 h-4" />
+                  </span>
+                </div>
+              </Link>
+            ))}
           </div>
 
-          {/* Grid 3D Tilt Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Card 1 */}
-            <div 
-              className="fade-in group bg-card rounded-3xl overflow-hidden shadow-sm hover:shadow-lg border border-border opacity-0 translate-y-8 transition-all duration-500 hover:[transform:rotateX(6deg)_rotateY(6deg)]"
-              style={{ transformStyle: 'preserve-3d' }}
-            >
-              <div className="relative">
-                <img src="https://picsum.photos/id/1016/600/800" alt="Tuscany" className="w-full h-64 object-cover transition-transform group-hover:scale-105 duration-700" />
-                <span className="absolute top-4 left-4 bg-card text-primary text-xs font-bold px-3 py-1 rounded-full">1st</span>
-              </div>
-              <div className="p-6">
-                <h3 className="font-semibold text-xl mb-2">Tuscany Road Trip – Best 7-Day Route</h3>
-                <p className="text-sm text-muted-foreground line-clamp-2">From Florence to Val d'Orcia, the best villas, and wine tasting with a 4D feel...</p>
-                <div className="mt-4 text-xs text-muted-foreground">12 Jul 2026 • 8 min read</div>
-              </div>
-            </div>
+          {filtered.length === 0 && (
+            <p className="text-muted-foreground py-12 text-center">No guides in this category yet.</p>
+          )}
 
-            {/* Card 2 */}
-            <div 
-              className="fade-in group bg-card rounded-3xl overflow-hidden shadow-sm hover:shadow-lg border border-border opacity-0 translate-y-8 transition-all duration-500 hover:[transform:rotateX(6deg)_rotateY(6deg)]"
-              style={{ transformStyle: 'preserve-3d' }}
-            >
-              <div className="relative">
-                <img src="https://picsum.photos/id/133/600/800" alt="Siena" className="w-full h-64 object-cover transition-transform group-hover:scale-105 duration-700" />
-                <span className="absolute top-4 left-4 bg-card text-primary text-xs font-bold px-3 py-1 rounded-full">2nd</span>
-              </div>
-              <div className="p-6">
-                <h3 className="font-semibold text-xl mb-2">Where to Stay in Siena – 12 Best Recommendations</h3>
-                <p className="text-sm text-muted-foreground line-clamp-2">From luxury palazzos to cozy local apartments with a 4D feel...</p>
-                <div className="mt-4 text-xs text-muted-foreground">11 Jul 2026 • 6 min read</div>
-              </div>
+          {visible < filtered.length && (
+            <div className="text-center mt-10">
+              <button
+                onClick={() => setVisible((v) => v + PAGE_SIZE)}
+                className="px-8 py-3 border border-primary rounded-full text-primary font-medium hover:bg-primary hover:text-primary-foreground transition-colors"
+              >
+                Show more ({filtered.length - visible} more)
+              </button>
             </div>
-
-            {/* Card 3 */}
-            <div 
-              className="fade-in group bg-card rounded-3xl overflow-hidden shadow-sm hover:shadow-lg border border-border opacity-0 translate-y-8 transition-all duration-500 hover:[transform:rotateX(6deg)_rotateY(6deg)]"
-              style={{ transformStyle: 'preserve-3d' }}
-            >
-              <div className="relative">
-                <img src="https://picsum.photos/id/201/600/800" alt="Food" className="w-full h-64 object-cover transition-transform group-hover:scale-105 duration-700" />
-                <span className="absolute top-4 left-4 bg-card text-primary text-xs font-bold px-3 py-1 rounded-full">3rd</span>
-              </div>
-              <div className="p-6">
-                <h3 className="font-semibold text-xl mb-2">Tuscany Dining Guide – Don't Miss This</h3>
-                <p className="text-sm text-muted-foreground line-clamp-2">The best ristorantes, osterias, and gelato according to locals with a 4D feel...</p>
-                <div className="mt-4 text-xs text-muted-foreground">10 Jul 2026 • 5 min read</div>
-              </div>
-            </div>
-          </div>
+          )}
         </div>
 
-        {/* SIDEBAR */}
-        <div className="col-span-12 lg:col-span-4">
-          <div className="sticky top-24 fade-in opacity-0 translate-y-8 transition-all duration-700">
-            <h3 className="font-semibold text-xl mb-6">Archi’s Top Picks</h3>
-            
-            {/* Affiliate Teaser */}
-            <div className="bg-card rounded-3xl p-6 mb-8 shadow-sm border border-border hover:shadow-md transition-shadow">
-              <p className="text-sm font-medium mb-4">Best Siena hotels this month</p>
-              <a href="/go/booking" target="_blank" rel="noopener noreferrer nofollow"
-                 className="flex items-center justify-between bg-muted hover:bg-primary hover:text-primary-foreground rounded-2xl p-4 transition-colors group">
-                <span className="text-primary group-hover:text-primary-foreground font-medium text-sm">Check real-time prices &rarr;</span>
-                <span className="text-2xl">🏨</span>
-              </a>
-            </div>
-
-            {/* Recent */}
-            <div className="space-y-6">
-              <div className="flex gap-4 items-center group cursor-pointer">
-                <img src="https://picsum.photos/id/251/80/80" className="w-20 h-20 rounded-2xl object-cover transition-transform group-hover:scale-105" alt="Train" />
-                <div>
-                  <h4 className="font-medium text-sm group-hover:text-primary transition-colors">Florence to Siena by Train – Schedule & Tips</h4>
-                  <p className="text-xs text-muted-foreground mt-1">9 Jul 2026</p>
-                </div>
-              </div>
-              <div className="flex gap-4 items-center group cursor-pointer">
-                <img src="https://picsum.photos/id/320/80/80" className="w-20 h-20 rounded-2xl object-cover transition-transform group-hover:scale-105" alt="Gelato" />
-                <div>
-                  <h4 className="font-medium text-sm group-hover:text-primary transition-colors">10 Best Gelaterias in Florence City Center</h4>
-                  <p className="text-xs text-muted-foreground mt-1">5 Jul 2026</p>
-                </div>
-              </div>
-              <div className="flex gap-4 items-center group cursor-pointer">
-                <img src="https://picsum.photos/id/400/80/80" className="w-20 h-20 rounded-2xl object-cover transition-transform group-hover:scale-105" alt="Museum" />
-                <div>
-                  <h4 className="font-medium text-sm group-hover:text-primary transition-colors">Guide to Buying Uffizi Gallery Tickets Online</h4>
-                  <p className="text-xs text-muted-foreground mt-1">2 Jul 2026</p>
-                </div>
-              </div>
+        {/* SIDEBAR — recently updated, real data */}
+        <aside className="col-span-12 lg:col-span-4">
+          <div className="sticky top-24">
+            <h3 className="font-semibold text-xl mb-6">Recently updated</h3>
+            <div className="space-y-5">
+              {recent.map((a) => (
+                <Link key={a.slug} to={articlePath(a)} className="block group">
+                  <h4 className="font-medium text-sm leading-snug group-hover:text-primary transition-colors">
+                    {a.title}
+                  </h4>
+                  <p className="text-xs text-muted-foreground mt-1">Updated {formatDate(a.updated)}</p>
+                </Link>
+              ))}
             </div>
           </div>
-        </div>
+        </aside>
       </div>
     </div>
   );
