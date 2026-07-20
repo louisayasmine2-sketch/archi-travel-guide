@@ -1,5 +1,5 @@
 import { useState } from "react";
-import axios from "axios";
+import { areaFinder } from "@/lib/travelTools";
 import { toast } from "sonner";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
@@ -8,7 +8,6 @@ import { breadcrumbSchema } from "@/lib/schema";
 import { TOOLS } from "@/constants/testIds";
 import { MapPin } from "lucide-react";
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 const SEL = "w-full rounded-xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] px-4 py-3 text-sm focus:border-[hsl(var(--terracotta))] focus:outline-none";
 const LABEL = "text-sm font-medium text-[hsl(var(--charcoal))]";
 
@@ -22,8 +21,8 @@ export default function AreaFinder() {
     e.preventDefault();
     setLoading(true);
     try {
-      const res = await axios.post(`${API}/tools/area-finder`, form);
-      setResult(res.data);
+      const data = areaFinder(form);
+      setResult(data);
     } catch (_) {
       toast.error("Couldn't find an area. Please try again.");
     } finally { setLoading(false); }

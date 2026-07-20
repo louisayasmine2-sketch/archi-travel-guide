@@ -1,10 +1,9 @@
 import { useState } from "react";
-import axios from "axios";
+import { budgetCalculator } from "@/lib/travelTools";
 import { toast } from "sonner";
 import { Wallet, Plus, Euro } from "lucide-react";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors";
 const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
 
@@ -34,12 +33,12 @@ export default function BudgetPlanner() {
     e.preventDefault();
     setLoading(true);
     try {
-      const res = await axios.post(`${API}/tools/budget-calculator`, {
+      const data = budgetCalculator({
         ...form,
         travelers: Number(form.travelers),
         trip_length: Number(form.trip_length),
       });
-      setResult(res.data);
+      setResult(data);
     } catch (_) {
       toast.error("Couldn't calculate the budget. Please try again.");
     } finally {

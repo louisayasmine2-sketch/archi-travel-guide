@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
-import axios from "axios";
+import { packingChecklist } from "@/lib/travelTools";
 import { toast } from "sonner";
 import { ListChecks, Check, CloudRain, Sun, Snowflake, Download } from "lucide-react";
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors";
 const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
 
@@ -40,8 +39,8 @@ export default function SmartPackingList() {
     e.preventDefault();
     setLoading(true);
     try {
-      const res = await axios.post(`${API}/tools/packing-checklist`, { ...form, trip_length: Number(form.trip_length) });
-      setResult(res.data);
+      const data = packingChecklist({ ...form, trip_length: Number(form.trip_length) });
+      setResult(data);
       setChecked(new Set());
     } catch (_) {
       toast.error("Couldn't generate the checklist. Please try again.");

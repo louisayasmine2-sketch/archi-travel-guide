@@ -1,5 +1,5 @@
 import { useState } from "react";
-import axios from "axios";
+import { itineraryGenerator } from "@/lib/travelTools";
 import { toast } from "sonner";
 import { Sparkles, Map as MapIcon, RefreshCw, Send } from "lucide-react";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
@@ -14,7 +14,6 @@ L.Icon.Default.mergeOptions({
   shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
 });
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors";
 const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
 
@@ -31,8 +30,8 @@ export default function AIItineraryBuilder() {
     e.preventDefault();
     setLoading(true);
     try {
-      const res = await axios.post(`${API}/tools/itinerary-generator`, { ...form, trip_length: Number(form.trip_length) });
-      setResult(res.data);
+      const data = itineraryGenerator({ ...form, trip_length: Number(form.trip_length) });
+      setResult(data);
     } catch (_) {
       toast.error("Couldn't generate the itinerary. Please try again.");
     } finally { setLoading(false); }
