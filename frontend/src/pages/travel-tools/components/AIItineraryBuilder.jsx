@@ -18,7 +18,7 @@ const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-
 const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
 
 export default function AIItineraryBuilder() {
-  const [form, setForm] = useState({ destination: "Siena", trip_length: 3, travel_style: "culture", party: "couple", budget_level: "mid" });
+  const [form, setForm] = useState({ destination: "Siena", trip_length: 3 });
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
 
@@ -43,7 +43,7 @@ export default function AIItineraryBuilder() {
         </div>
         <div>
           <h2 className="font-serif text-3xl md:text-4xl text-[#2C211B] leading-none">Itinerary Generator v2</h2>
-          <p className="text-[#8A9A5B] mt-1">A day-by-day plan that fits your pace.</p>
+          <p className="text-[#8A9A5B] mt-1">A day-by-day outline, structured morning to evening.</p>
         </div>
       </div>
 
@@ -57,32 +57,6 @@ export default function AIItineraryBuilder() {
           <label className="block">
             <span className={LABEL}>Trip length (days)</span>
             <input type="number" min="1" max="14" className={SEL} value={form.trip_length} onChange={(e) => upd("trip_length", e.target.value)} />
-          </label>
-          <label className="block">
-            <span className={LABEL}>Travel style</span>
-            <select className={SEL} value={form.travel_style} onChange={(e) => upd("travel_style", e.target.value)}>
-              <option value="culture">Culture & history</option>
-              <option value="food">Food & wine</option>
-              <option value="nature">Nature & slow travel</option>
-              <option value="mix">A mix of everything</option>
-            </select>
-          </label>
-          <label className="block">
-            <span className={LABEL}>Party</span>
-            <select className={SEL} value={form.party} onChange={(e) => upd("party", e.target.value)}>
-              <option value="solo">Solo</option>
-              <option value="couple">Couple</option>
-              <option value="family">Family with kids</option>
-              <option value="friends">Group of friends</option>
-            </select>
-          </label>
-          <label className="block">
-            <span className={LABEL}>Budget level</span>
-            <select className={SEL} value={form.budget_level} onChange={(e) => upd("budget_level", e.target.value)}>
-              <option value="budget">Budget</option>
-              <option value="mid">Mid-range</option>
-              <option value="luxury">Luxury</option>
-            </select>
           </label>
           <button type="submit" className="w-full mt-4 bg-[#C65A3A] hover:bg-[#A84A2E] text-white py-3 rounded-2xl font-medium transition-colors disabled:opacity-50" disabled={loading}>
             {loading ? "Generating…" : "Generate Itinerary"}

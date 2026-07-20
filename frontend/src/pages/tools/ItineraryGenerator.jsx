@@ -12,7 +12,7 @@ const SEL = "w-full rounded-xl border border-[hsl(var(--stone-border))] bg-[hsl(
 const LABEL = "text-sm font-medium text-[hsl(var(--charcoal))]";
 
 export default function ItineraryGenerator() {
-  const [form, setForm] = useState({ destination: "Siena", trip_length: 3, travel_style: "culture", party: "couple", budget_level: "mid" });
+  const [form, setForm] = useState({ destination: "Siena", trip_length: 3 });
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const upd = (k, v) => setForm((f) => ({ ...f, [k]: v }));
@@ -32,7 +32,7 @@ export default function ItineraryGenerator() {
     <div>
       <SEO
         title="Itinerary Generator — Day-by-day travel plans"
-        description="Generate a day-by-day travel itinerary tuned to your destination, style, party and pace. Built-in presets for Italy, Tuscany, Siena and a smart global default."
+        description="Generate a day-by-day travel outline by destination and trip length. Presets for Siena, Tuscany and Italy; a generic outline for other destinations."
         path="/travel-tools/itinerary-generator"
         schema={breadcrumbSchema([{ label: 'Home', to: '/' }, { label: 'Travel Tools', to: '/travel-tools' }, { label: 'Itinerary Generator' }])}
       />
@@ -43,9 +43,9 @@ export default function ItineraryGenerator() {
             <div className="w-11 h-11 rounded-full bg-[hsl(var(--ivory-2))] grid place-items-center text-[hsl(var(--terracotta))]"><Sparkles className="w-5 h-5" /></div>
             <p className="overline">Itinerary Generator</p>
           </div>
-          <h1 className="mt-3 font-serif text-5xl md:text-6xl leading-none tracking-tight max-w-3xl">A day-by-day plan that fits your pace.</h1>
+          <h1 className="mt-3 font-serif text-5xl md:text-6xl leading-none tracking-tight max-w-3xl">A day-by-day outline, by destination and length.</h1>
           <p className="mt-5 max-w-2xl text-[hsl(var(--charcoal-soft))] leading-relaxed">
-            Pick a destination, length, style and party. We’ll suggest a well-paced itinerary — customisable, not a rigid schedule.
+            Pick a destination and trip length. We’ll suggest a day-by-day outline — a starting point, not a rigid schedule.
           </p>
         </div>
       </section>
@@ -58,29 +58,6 @@ export default function ItineraryGenerator() {
             </label>
             <label className="space-y-1.5 block"><span className={LABEL}>Trip length (days)</span>
               <input data-testid={TOOLS.itinLength} type="number" min="1" max="14" className={SEL} value={form.trip_length} onChange={(e) => upd("trip_length", e.target.value)} />
-            </label>
-            <label className="space-y-1.5 block"><span className={LABEL}>Travel style</span>
-              <select data-testid={TOOLS.itinStyle} className={SEL} value={form.travel_style} onChange={(e) => upd("travel_style", e.target.value)}>
-                <option value="culture">Culture & history</option>
-                <option value="food">Food & wine</option>
-                <option value="nature">Nature & slow travel</option>
-                <option value="mix">A mix of everything</option>
-              </select>
-            </label>
-            <label className="space-y-1.5 block"><span className={LABEL}>Party</span>
-              <select data-testid={TOOLS.itinParty} className={SEL} value={form.party} onChange={(e) => upd("party", e.target.value)}>
-                <option value="solo">Solo</option>
-                <option value="couple">Couple</option>
-                <option value="family">Family with kids</option>
-                <option value="friends">Group of friends</option>
-              </select>
-            </label>
-            <label className="space-y-1.5 block"><span className={LABEL}>Budget level</span>
-              <select data-testid={TOOLS.itinBudget} className={SEL} value={form.budget_level} onChange={(e) => upd("budget_level", e.target.value)}>
-                <option value="budget">Budget</option>
-                <option value="mid">Mid-range</option>
-                <option value="luxury">Luxury</option>
-              </select>
             </label>
             <button data-testid={TOOLS.itinSubmit} type="submit" className="btn-primary" disabled={loading}>
               {loading ? "Generating…" : "Generate itinerary"}

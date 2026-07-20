@@ -170,9 +170,7 @@ export function itineraryGenerator(payload) {
   return {
     destination: payload.destination,
     trip_length: payload.trip_length,
-    style: payload.travel_style,
     summary: buildItinerarySummary(payload.destination, days),
-    budget_level: payload.budget_level,
     days,
   };
 }
