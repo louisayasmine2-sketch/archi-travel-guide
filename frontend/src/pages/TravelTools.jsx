@@ -32,7 +32,7 @@ const CurrencyConverter = lazy(() => import("./travel-tools/components/CurrencyC
 const TOOLS = [
   {
     id: "itinerary",
-    name: "AI Itinerary Builder",
+    name: "Itinerary Generator",
     description: "Generate a personalized day-by-day plan for Tuscany tailored to your pace and interests.",
     icon: Calendar,
     component: AIItineraryBuilder

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { itineraryGenerator } from "@/lib/travelTools";
 import { toast } from "sonner";
-import { Sparkles, Map as MapIcon, RefreshCw, Send } from "lucide-react";
+import { Sparkles, Map as MapIcon } from "lucide-react";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
@@ -21,8 +21,6 @@ export default function AIItineraryBuilder() {
   const [form, setForm] = useState({ destination: "Siena", trip_length: 3, travel_style: "culture", party: "couple", budget_level: "mid" });
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [refinePrompt, setRefinePrompt] = useState("");
-  const [refining, setRefining] = useState(false);
 
   const upd = (k, v) => setForm((f) => ({ ...f, [k]: v }));
 
@@ -35,21 +33,6 @@ export default function AIItineraryBuilder() {
     } catch (_) {
       toast.error("Couldn't generate the itinerary. Please try again.");
     } finally { setLoading(false); }
-  };
-
-  const refineItinerary = async () => {
-    if (!refinePrompt.trim()) return;
-    setRefining(true);
-    try {
-      // Simulate AI refinement delay
-      await new Promise(r => setTimeout(r, 1500));
-      toast.success("Itinerary refined based on your prompt!");
-      setRefinePrompt("");
-    } catch (_) {
-      toast.error("Couldn't refine. Try again.");
-    } finally {
-      setRefining(false);
-    }
   };
 
   return (
@@ -125,26 +108,6 @@ export default function AIItineraryBuilder() {
                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-xl text-sm font-medium text-[#2C211B] shadow-md z-[400] flex items-center gap-2 border border-[#F5EDE3]">
                   <MapIcon className="w-4 h-4 text-[#C65A3A]" /> Map Preview
                 </div>
-              </div>
-
-              {/* Refine with AI */}
-              <div className="bg-white rounded-3xl p-5 border border-[#F5EDE3] shadow-sm flex flex-col md:flex-row gap-3 items-center">
-                <input 
-                  type="text" 
-                  placeholder="E.g., 'Make day 2 less walking' or 'Add more pasta places'"
-                  value={refinePrompt}
-                  onChange={(e) => setRefinePrompt(e.target.value)}
-                  className="flex-1 w-full bg-[#FAF7F2] border-none rounded-2xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#C65A3A]/30"
-                  onKeyDown={(e) => e.key === 'Enter' && refineItinerary()}
-                />
-                <button 
-                  onClick={refineItinerary}
-                  disabled={refining || !refinePrompt.trim()}
-                  className="w-full md:w-auto px-6 py-3 bg-[#2C211B] hover:bg-black text-white rounded-2xl font-medium text-sm flex items-center justify-center gap-2 transition-colors disabled:opacity-50"
-                >
-                  {refining ? <RefreshCw className="w-4 h-4 animate-spin" /> : <Send className="w-4 h-4" />}
-                  Refine with AI
-                </button>
               </div>
 
               {/* Itinerary Results */}
