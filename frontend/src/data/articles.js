@@ -30,7 +30,7 @@ const allArticles = [
   A(
     'siena-day-trip-from-florence',
     'Siena Day Trip from Florence: Complete Travel Guide',
-    'Siena Day Trips', 'Tuscany',
+    'Day trips', 'Tuscany',
     'Plan a Siena day trip from Florence by bus, train, or guided tour with realistic timing, arrival points, and a practical one-day itinerary.',
     '/images/siena-day-trip-from-florence-hero.webp',
     [
@@ -177,7 +177,7 @@ const allArticles = [
   A(
     "how-much-siena-trip-costs",
     "How Much Does a Trip to Siena Cost? 2026 Budget Guide",
-    "Budget planning", "Siena",
+    "Budget", "Siena",
     "Plan a realistic Siena budget for transport, hotels, food, attractions, tours, and family travel, with 2026 planning ranges and saving tips.",
     "/images/siena/07-pici-all-aglione.webp",
     [
@@ -309,7 +309,7 @@ const allArticles = [
   A(
     'florence-to-siena-transport',
     'Florence to Siena by Train or Bus: Complete Travel Guide',
-    'Tuscany Transport', 'Tuscany',
+    'Transport', 'Tuscany',
     'Compare train, bus, and guided tour options from Florence to Siena, including travel times, ticket rules, arrival points, and practical tips.',
     '/images/siena-hero.svg',
     [
@@ -969,7 +969,7 @@ const allArticles = [
     A(
     "siena-hotel-vs-apartment-guide",
     "Siena Hotel vs Apartment: Which Is Better for Your Trip?",
-    "Accommodation", "Siena",
+    "Where to stay", "Siena",
     "Compare a Siena hotel vs apartment for price, location, breakfast, kitchens, families, luggage, parking and short stays, then choose the right accommodation.",
     "/images/siena/06-siena-contrada-street.webp",
     [
@@ -1712,7 +1712,7 @@ const allArticles = [
   A(
     "siena-travel-cost-2026",
     "Siena Italy Budget Guide 2026: Realistic Costs for US & UK Travelers",
-    "Budget planning", "Siena",
+    "Budget", "Siena",
     "Planning a trip to Siena Italy on a budget in 2026? This practical guide details realistic costs for US and UK travelers on day trips or short stays.",
     "https://images.unsplash.com/photo-1533777857889-4be7c050a86c?auto=format&fit=crop&w=1600&q=75",
     [
@@ -2036,7 +2036,7 @@ Recommend Piazza Tolomei or the quieter streets of the Terzo di Città rather th
     A(
     "siena-tours-and-classes-to-book-first",
     "Siena Tours and Classes: What to Book First",
-    "Experiences", "Siena",
+    "Things to do", "Siena",
     "Compare Siena walking tours, Duomo visits, food tours, cooking classes, wine trips and private guides, with advice on what to book first.",
     "/images/siena/03-piccolomini-library.webp",
     [
@@ -2236,7 +2236,7 @@ Recommend Piazza Tolomei or the quieter streets of the Terzo di Città rather th
   A(
     'florence-travel-budget-guide',
     'How Much Does Florence Really Cost? A Practical Budget Guide',
-    'Budget planning', 'Italy',
+    'Budget', 'Italy',
     'A realistic breakdown of what Florence costs today — from budget hostels to luxury hotels, plus money-saving tips.',
     'https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1600&q=75',
     [
@@ -2252,7 +2252,7 @@ Recommend Piazza Tolomei or the quieter streets of the Terzo di Città rather th
   A(
     "italy-hotels-no-ac-2026",
     "Italy Hotels Without AC in 2026: The Honest Guide to Staying Cool in Tuscany & Siena",
-    "Travel tips", "Italy",
+    "Practical tips", "Italy",
     "Shocked by Italy hotels without AC in Tuscany and Siena? Learn why many rooms hit 38°C, how to book real cooling, and 10 survival tips for summer heat.",
     "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=75",
     [
@@ -2324,7 +2324,7 @@ Siena's elevated position and urban design create a microclimate that feels seve
   A(
     'avoid-crowds-in-florence-july-2026',
     'Avoid Crowds in Florence July 2026: Smart Strategies for Independent Travelers',
-    'Tuscany Travel Guides',
+    'Practical tips',
     'Florence',
     'Florence in July 2026 is peak season and very crowded. Here are proven strategies from real travelers on X to skip the lines at the Uffizi and Duomo, discover hidden gems in Oltrarno, and enjoy a stress-free visit — plus the best day trip to Siena.',
     '/images/florence/uffizi-early-morning-july-2026.webp',
@@ -2432,7 +2432,7 @@ Explore our complete guides to [Florence](/florence), plan your perfect side tri
   A(
     'venice-day-trip-from-tuscany-2026-access-fee',
     'Venice Day Trip from Tuscany 2026: Complete Guide to the Access Fee + How to Save Money',
-    'Day Trips from Tuscany',
+    'Day trips',
     'Venice',
     'Planning a Venice day trip from Tuscany or Siena in July 2026? Here’s how the Venice access fee works on 17–19 July, how to pay (or skip it entirely), best train schedules from Florence, and money-saving tips for independent travelers.',
     '/images/venice/hero-venice-tuscany-day-trip.webp',
@@ -2556,7 +2556,7 @@ Safe travels — Venice is waiting, and now you’re fully prepared from your Tu
   A(
     'florence-summer-heat-survival-tips-2026',
     'Florence Summer Heat Survival Tips 2026: Stay Cool & Beat the Heat',
-    'Tuscany Travel Guides',
+    'Practical tips',
     'Florence',
     'Florence summer heat survival tips 2026 — beat 35°C+ days, avoid midday exhaustion, and still see everything. Real traveler hacks for independent visitors. Stay cool and enjoy Italy!',
     '/images/florence/florence-summer-heat-survival-hero.webp',
@@ -2657,7 +2657,7 @@ Explore more Florence guides at [/florence](/florence), discover broader Tuscany
   A(
     'puccini-festival-torre-del-lago-2026-independent-traveler-guide',
     'Puccini Festival Torre del Lago 2026: Independent Traveler Guide',
-    'Tuscany Travel Guides',
+    'Practical tips',
     'Tuscany',
     'Planning to attend the Puccini Festival Torre del Lago 2026 independently? This complete guide for travelers from Florence or Siena covers tickets, transport, best seats, practical tips, and the perfect Lucca day trip — no package tour needed.',
     '/images/tuscany/puccini-festival-torre-del-lago-hero.webp',
@@ -2769,7 +2769,7 @@ For more ideas on combining opera with vineyards, hilltop villages, and Tuscan t
   A(
     'best-day-trips-from-florence-to-siena-2026',
     'Best Day Trips from Florence to Siena: Complete 2026 Guide',
-    'Day Trips from Florence',
+    'Day trips',
     'Siena',
     'Best day trips from Florence to Siena 2026 — easy train or bus, perfect itinerary, and crowd-free tips. Discover Tuscany’s heart in one unforgettable day. Book smarter now!',
     '/images/siena/best-day-trip-florence-to-siena-piazza-del-campo.webp',
@@ -3039,7 +3039,7 @@ Head to our Tuscany page for detailed maps, or explore more in Florence, Siena, 
   A(
     'summer-packing-list-for-tuscany-and-florence-2026',
     'Summer Packing List for Tuscany & Florence 2026: Travel Light & Stay Cool',
-    'Florence',
+    'Packing',
     'Tuscany',
     'Summer packing list for Tuscany & Florence 2026 — breathable linen, supportive shoes for cobblestones, and smart heat-beating essentials from real travelers. Travel light, stay comfortable, and look stylish in Italy’s hottest months.',
     '/images/florence/summer-packing-list-tuscany-florence-hero.webp',
@@ -3138,7 +3138,7 @@ Safe travels!`,
   A(
     'hidden-gems-around-siena-tuscany-2026',
     'Hidden Gems Around Siena, Tuscany: Escape the Crowds in 2026',
-    'Siena',
+    'Things to do',
     'Tuscany',
     'Discover the quiet side of Tuscany near Siena. Explore hidden gems like Monteriggioni, San Quirico d’Orcia, and local vineyards away from the 2026 tour-bus crowds.',
     '/images/siena/hidden-gems-siena-tuscany-hero.webp',
@@ -3227,7 +3227,7 @@ See our full Siena guide for interactive maps, updated 2026 bus timetables, and 
   A(
     'best-siena-hotels-with-parking',
     'Best Siena Hotels with Parking for Drivers and Tuscany Day Trips',
-    'Siena',
+    'Where to stay',
     'Tuscany',
     'Honest picks of Siena hotels with reliable parking for drivers. Ideal bases for Chianti & Val d’Orcia day trips, with pros, caveats, price bands and tips. Updated July 2026.',
     '',
@@ -3426,7 +3426,7 @@ Compare all rental car prices for Italy on DiscoverCars`,
   A(
     'val-dorcia-day-trip-from-siena-2026',
     'Val d’Orcia Day Trip from Siena: Pienza, Montalcino & Montepulciano (2026 Guide)',
-    'Siena Day Trips',
+    'Day trips',
     'Tuscany',
     'Plan a Val d’Orcia day trip from Siena in 2026. Realistic routes to Pienza, Montalcino, and Montepulciano by bus, car, or tour — with timing, wine tips, and a one-day itinerary.',
     '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
@@ -3545,6 +3545,35 @@ Whatever the month, the valley is at its best in the first and last two hours of
     }
   ),
 ];
+
+// The allowed category vocabulary. Every article's `category` must be one of
+// these — the Blog filter buttons are derived from the data, so a typo would
+// otherwise silently create a new category (and a filter button that matches
+// one article). The check below fails the build loudly instead. To add a real
+// category, add it here deliberately.
+export const ARTICLE_CATEGORIES = [
+  'Best time to visit',
+  'Budget',
+  'Day trips',
+  'Family travel',
+  'Food & drink',
+  'Itineraries',
+  'Packing',
+  'Practical tips',
+  'Things to do',
+  'Transport',
+  'Where to stay',
+];
+
+const _allowedCategories = new Set(ARTICLE_CATEGORIES);
+for (const a of allArticles) {
+  if (!_allowedCategories.has(a.category)) {
+    throw new Error(
+      `articles.js: "${a.slug}" has category "${a.category}", which is not in ARTICLE_CATEGORIES. ` +
+      `Fix the typo or add the category to the vocabulary deliberately.`
+    );
+  }
+}
 
 export const articles = allArticles.filter(a => new Date(a.updated) <= new Date());
 
