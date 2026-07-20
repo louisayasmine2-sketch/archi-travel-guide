@@ -21,7 +21,7 @@ const chapters = [
 ];
 
 export default function Siena() {
-  const breadcrumbs = [{ label: 'Home', to: '/' }, { label: 'Italy', to: '/italy/' }, { label: 'Tuscany', to: '/tuscany-travel-guide/' }, { label: 'Siena' }];
+  const breadcrumbs = [{ label: 'Home', to: '/' }, { label: 'Italy', to: '/tuscany-travel-guide/' }, { label: 'Tuscany', to: '/tuscany-travel-guide/' }, { label: 'Siena' }];
   const schema = [
     breadcrumbSchema(breadcrumbs),
     placeSchema({

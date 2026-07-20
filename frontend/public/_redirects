@@ -37,6 +37,9 @@
 /blog/italy-train-travel-guide                            /florence-to-siena-by-train-or-bus/ 301
 /blog/italy-train-travel-guide/                           /florence-to-siena-by-train-or-bus/ 301
 
+/italy   /tuscany-travel-guide/ 301
+/italy/  /tuscany-travel-guide/ 301
+
 /en/*.html   /siena-travel-guide/ 301
 /it/*.html   /siena-travel-guide/ 301
 /en/*   /siena-travel-guide/ 301

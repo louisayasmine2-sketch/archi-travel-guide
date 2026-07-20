@@ -135,10 +135,6 @@ const STATIC_ROUTES = [
     'Send editorial questions, partnership requests and travel planning notes to contact@affittacameregliarchi.com.',
     'Messages are delivered directly to the team, with email fallback if form delivery is unavailable.',
   ]),
-  page('/italy', 'Italy Travel Guide', 'Practical Italy travel planning guides for cities, regions, transport, itineraries and seasonal decisions.', 'Italy Travel Guide', [
-    'Plan Italy with region-first city guides, route decisions and realistic timing advice.',
-    'Siena and Tuscany are the first deep editorial pillars.',
-  ]),
   page('/tuscany-travel-guide', 'Tuscany Travel Guide', 'A practical Tuscany travel guide covering Siena, Florence, hill towns, transport, food, stays and trip timing.', 'Tuscany Travel Guide', [
     'Compare Siena, Florence, countryside routes and day trips without overloading your itinerary.',
     'Use transport, food, stay and budget guides to make practical booking choices.',
@@ -238,7 +234,7 @@ const STATIC_ROUTES = [
 // Only `canonicalPath` is touched, not `path` (which drives file output and route
 // lookups), and the set is explicit so other page() routes are not changed.
 const TRAILING_SLASH_CANONICAL = new Set([
-  '/about', '/blog', '/contact', '/destinations', '/italy',
+  '/about', '/blog', '/contact', '/destinations',
   '/siena', '/travel-deals', '/travel-tools', '/tuscany-travel-guide',
 ]);
 for (const route of STATIC_ROUTES) {

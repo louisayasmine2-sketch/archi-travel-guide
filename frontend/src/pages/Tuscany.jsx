@@ -21,7 +21,7 @@ const sections = [
 
 export default function Tuscany() {
   const tuscanyArticles = articlesByRegion("Tuscany").concat(articlesByRegion("Siena")).slice(0, 6);
-  const breadcrumbs = [{ label: 'Home', to: '/' }, { label: 'Italy', to: '/italy/' }, { label: 'Tuscany' }];
+  const breadcrumbs = [{ label: 'Home', to: '/' }, { label: 'Italy', to: '/tuscany-travel-guide/' }, { label: 'Tuscany' }];
   const schema = [
     breadcrumbSchema(breadcrumbs),
     placeSchema({

@@ -29,7 +29,7 @@ export default function City({ slug: slugProp }) {
 
   const crumbs = [
     { label: 'Home', to: '/' },
-    { label: 'Italy', to: '/italy' },
+    { label: 'Italy', to: '/tuscany-travel-guide/' },
     ...(city.region === 'Tuscany' ? [{ label: 'Tuscany', to: '/tuscany-travel-guide' }] : []),
     { label: city.name },
   ];

@@ -42,7 +42,7 @@ class ErrorBoundary extends React.Component {
                 Refresh Page
               </button>
               <a
-                href="/italy"
+                href="/tuscany-travel-guide/"
                 className="px-6 py-3 bg-white text-[#2C211B] border border-[#F5EDE3] rounded-full font-semibold hover:bg-[#FAF7F2] transition-colors w-full sm:w-auto"
               >
                 Back to Italy

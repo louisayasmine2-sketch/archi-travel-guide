@@ -11,7 +11,6 @@ import GlobalLanguageDetector from "@/components/layout/GlobalLanguageDetector";
 import ErrorBoundary from "@/components/common/ErrorBoundary";
 
 const Destinations = lazy(() => import("@/pages/Destinations"));
-const Italy = lazy(() => import("@/pages/Italy"));
 const Tuscany = lazy(() => import("@/pages/Tuscany"));
 const Siena = lazy(() => import("@/pages/Siena"));
 const TravelTools = lazy(() => import("@/pages/TravelTools"));
@@ -83,7 +82,6 @@ function App() {
             <Route path="/it" element={<HubPage pageKey="it-home" routePath="/it" />} />
             <Route path="/it/" element={<HubPage pageKey="it-home" routePath="/it" />} />
             <Route path="/destinations" element={<Destinations />} />
-            <Route path="/italy" element={<Italy />} />
             <Route path="/tuscany" element={<Navigate to="/tuscany-travel-guide" replace />} />
             <Route path="/siena" element={<Siena />} />
             <Route path="/tuscany-travel-guide" element={<Tuscany />} />

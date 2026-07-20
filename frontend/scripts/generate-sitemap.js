@@ -73,7 +73,6 @@ const staticRoutes = [
   { path: '/siena-accommodation-guide',          changefreq: 'weekly',  priority: 0.8 },
   { path: '/travel-tips',                        changefreq: 'monthly',  priority: 0.75 },
 
-  { path: '/italy',                              changefreq: 'weekly',  priority: 0.95 },
   { path: '/siena',                              changefreq: 'weekly',  priority: 0.9 },
   { path: '/florence',                           changefreq: 'monthly', priority: 0.85 },
 
