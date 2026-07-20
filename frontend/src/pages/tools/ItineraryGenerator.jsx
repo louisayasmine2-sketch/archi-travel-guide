@@ -2,7 +2,6 @@ import { useState } from "react";
 import { itineraryGenerator, ITINERARY_DESTINATIONS } from "@/lib/travelTools";
 import { toast } from "sonner";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
-import AdPlaceholder from "@/components/common/AdPlaceholder";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";
 import { TOOLS } from "@/constants/testIds";
@@ -99,7 +98,6 @@ export default function ItineraryGenerator() {
                 Fill in the form to generate a customisable day-by-day itinerary. Includes presets for Siena, Tuscany, Italy — falls back to a smart default for anywhere else.
               </div>
             )}
-            <div className="mt-8"><AdPlaceholder /></div>
           </div>
         </div>
       </section>

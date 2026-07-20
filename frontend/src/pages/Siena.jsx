@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
-import AdPlaceholder from "@/components/common/AdPlaceholder";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema, placeSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
@@ -136,9 +135,6 @@ export default function Siena() {
               </div>
             </motion.div>
             
-            <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp}>
-              <AdPlaceholder variant="sidebar" className="rounded-[2rem] overflow-hidden shadow-xl" />
-            </motion.div>
           </aside>
           
         </div>

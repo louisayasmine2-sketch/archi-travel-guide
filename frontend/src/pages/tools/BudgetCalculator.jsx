@@ -2,7 +2,6 @@ import { useState } from "react";
 import { budgetCalculator } from "@/lib/travelTools";
 import { toast } from "sonner";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
-import AdPlaceholder from "@/components/common/AdPlaceholder";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";
 import { TOOLS } from "@/constants/testIds";
@@ -136,7 +135,6 @@ export default function BudgetCalculator() {
                 Fill in the form to see a realistic budget range and practical tips. Presets exist for Italy, Tuscany, Siena, Europe and Asia — anything else uses a global baseline.
               </div>
             )}
-            <div className="mt-8"><AdPlaceholder /></div>
           </aside>
         </div>
       </section>

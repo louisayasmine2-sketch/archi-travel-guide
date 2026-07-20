@@ -3,7 +3,6 @@ import Breadcrumbs from "@/components/common/Breadcrumbs";
 import AuthorCard from "@/components/common/AuthorCard";
 import FAQAccordion from "@/components/common/FAQAccordion";
 import ArticleCard from "@/components/common/ArticleCard";
-import AdPlaceholder from "@/components/common/AdPlaceholder";
 import LazyImage from "@/components/common/LazyImage";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema, articleSchema, faqSchema } from "@/lib/schema";
@@ -325,7 +324,6 @@ export default function Article({ fixedSlug, canonicalPath }) {
 
         {/* Content */}
         <div className="lg:col-span-6 order-1 lg:order-2 prose-editorial">
-          <AdPlaceholder className="mb-10" />
 
           {/* Mobile TOC */}
           <details className="lg:hidden mb-10 group rounded-2xl bg-[hsl(var(--ivory-2))] border border-[hsl(var(--stone-border))] overflow-hidden">
@@ -354,7 +352,6 @@ export default function Article({ fixedSlug, canonicalPath }) {
             <section key={s.id} id={s.id} className="scroll-mt-28">
               <h2 className="font-serif">{s.heading}</h2>
               {renderArticleBody(s.body)}
-              {i === Math.floor(article.sections.length / 2) && <AdPlaceholder className="my-10" />}
             </section>
           ))}
 
@@ -399,9 +396,6 @@ export default function Article({ fixedSlug, canonicalPath }) {
             </section>
           )}
 
-          <div className="mt-14">
-            <AdPlaceholder />
-          </div>
         </div>
 
         {/* Right rail */}

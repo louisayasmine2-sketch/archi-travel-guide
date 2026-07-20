@@ -90,7 +90,6 @@ export default function About() {
                 <ul className="text-[#F5EDE3] space-y-3 pl-4">
                   <li>Not a booking engine. We link to specialists who do that well.</li>
                   <li>Not an AI content farm. Every article is human-written and reviewed.</li>
-                  <li>Not a clickbait blog. Ads are labeled, low-density, and never disguised as navigation.</li>
                 </ul>
               </div>
             </motion.div>
