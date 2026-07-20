@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 const DOCS = {
   privacy: {
     title: "Privacy Policy",
-    updated: "November 2025",
     intro: "We collect only what we need to run this website and improve our editorial guides. This policy explains what that means in practice.",
     sections: [
       { h: "What we collect", b: "Newsletter signups (email + source page), contact form submissions (name, email, subject, message), and analytics data such as pages viewed, referrer, approximate country, clicks, scroll depth and session behavior. We do not sell personal data. Ever." },
@@ -18,7 +17,6 @@ const DOCS = {
   },
   cookie: {
     title: "Cookie Policy",
-    updated: "November 2025",
     intro: "This policy explains the cookies used on Archi Travel Guide and how to opt out.",
     sections: [
       { h: "Essential", b: "Required for the site to work — for example, remembering your cookie choice. Cannot be disabled." },
@@ -29,7 +27,6 @@ const DOCS = {
   },
   terms: {
     title: "Terms of Use",
-    updated: "November 2025",
     intro: "By using Archi Travel Guide you agree to these terms.",
     sections: [
       { h: "Editorial nature", b: "The content on this site is editorial and provided for planning purposes. We check facts diligently, but travel details change — always double-check with official sources before booking." },
@@ -39,7 +36,6 @@ const DOCS = {
   },
   editorial: {
     title: "Editorial Policy",
-    updated: "November 2025",
     intro: "The rules we hold ourselves to when writing and updating guides.",
     sections: [
       { h: "Human-written", b: "All articles are written by our editorial team, not by AI. We may use AI as a research assistant, but every published sentence is authored by a human." },
@@ -51,7 +47,6 @@ const DOCS = {
   },
   disclaimer: {
     title: "Disclaimer",
-    updated: "November 2025",
     intro: "Travel recommendations are editorial opinions built from published sources. Read carefully before relying on any itinerary details.",
     sections: [
       { h: "Information accuracy", b: "We make every effort to keep opening hours, prices, routes, and transport details current. Timetables and availability can change before you travel." },
@@ -100,7 +95,7 @@ export default function Legal({ doc }) {
               <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: d.title }]} />
             </motion.div>
             <motion.p variants={fadeInUp} className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B] mb-4">
-              Legal · Updated {d.updated}
+              Legal
             </motion.p>
             <motion.h1 variants={fadeInUp} className="text-5xl md:text-7xl font-serif leading-[1] mb-8 drop-shadow-xl">
               {d.title}
