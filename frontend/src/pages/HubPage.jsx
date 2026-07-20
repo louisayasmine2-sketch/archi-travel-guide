@@ -22,9 +22,9 @@ const HUB_CONTENT = {
     cta: {
       title: "Start with our best pages",
       items: [
-        { to: "/siena-travel-guide", label: "Siena travel guide", desc: "Your one-stop Siena planning path." },
-        { to: "/where-to-stay-in-siena", label: "Where to stay in Siena", desc: "Area-by-area comparison." },
-        { to: "/travel-tips", label: "Travel tips", desc: "Fast, practical traveler checklists." },
+        { to: "/siena-travel-guide/", label: "Siena travel guide", desc: "Your one-stop Siena planning path." },
+        { to: "/where-to-stay-in-siena/", label: "Where to stay in Siena", desc: "Area-by-area comparison." },
+        { to: "/travel-tips/", label: "Travel tips", desc: "Fast, practical traveler checklists." },
       ],
     },
     faqs: [
@@ -45,9 +45,9 @@ const HUB_CONTENT = {
     cta: {
       title: "Inizia qui",
       items: [
-        { to: "/siena-travel-guide", label: "Guida di Siena", desc: "Percorso completo in una pagina." },
-        { to: "/where-to-stay-in-siena", label: "Dove stare a Siena", desc: "Confronto aree e accessibilità." },
-        { to: "/travel-tips", label: "Travel tips", desc: "Checklist operative da viaggio." },
+        { to: "/siena-travel-guide/", label: "Guida di Siena", desc: "Percorso completo in una pagina." },
+        { to: "/where-to-stay-in-siena/", label: "Dove stare a Siena", desc: "Confronto aree e accessibilità." },
+        { to: "/travel-tips/", label: "Travel tips", desc: "Checklist operative da viaggio." },
       ],
     },
     faqs: [
@@ -72,10 +72,10 @@ const HUB_CONTENT = {
     cta: {
       title: "Popular Siena pages",
       items: [
-        { to: "/where-to-stay-in-siena", label: "Where to stay", desc: "Terzo, San Donato, Camollia and value picks." },
-        { to: "/florence-to-siena-by-train-or-bus", label: "Florence to Siena transport", desc: "Compare train, bus, and guided tour options." },
-        { to: "/siena-itinerary", label: "Siena itinerary", desc: "1-day and 2-day planning templates." },
-        { to: "/travel-tips", label: "Travel tips", desc: "Transport, parking, and trip safety checklists." },
+        { to: "/where-to-stay-in-siena/", label: "Where to stay", desc: "Terzo, San Donato, Camollia and value picks." },
+        { to: "/florence-to-siena-by-train-or-bus/", label: "Florence to Siena transport", desc: "Compare train, bus, and guided tour options." },
+        { to: "/siena-itinerary/", label: "Siena itinerary", desc: "1-day and 2-day planning templates." },
+        { to: "/travel-tips/", label: "Travel tips", desc: "Transport, parking, and trip safety checklists." },
       ],
     },
     faqs: [
@@ -101,9 +101,9 @@ const HUB_CONTENT = {
     cta: {
       title: "Start with",
       items: [
-        { to: "/siena", label: "Siena overview", desc: "Top attractions and practical context." },
-        { to: "/florence-to-siena-by-train-or-bus", label: "Arriving from Florence", desc: "Train, bus, and tour trade-offs before choosing an area." },
-        { to: "/blog/siena-2-day-itinerary", label: "2-day itinerary", desc: "Efficient pace for first-timers." },
+        { to: "/siena/", label: "Siena overview", desc: "Top attractions and practical context." },
+        { to: "/florence-to-siena-by-train-or-bus/", label: "Arriving from Florence", desc: "Train, bus, and tour trade-offs before choosing an area." },
+        { to: "/blog/siena-2-day-itinerary/", label: "2-day itinerary", desc: "Efficient pace for first-timers." },
       ],
     },
     faqs: [
@@ -126,10 +126,10 @@ const HUB_CONTENT = {
     cta: {
       title: "Build your own",
       items: [
-        { to: "/florence-to-siena-by-train-or-bus", label: "Florence to Siena transport", desc: "Choose the route before locking in your day plan." },
-        { to: "/travel-tools/itinerary-generator", label: "Itinerary generator", desc: "Generate a personalized trip flow." },
-        { to: "/travel-budget-calculator", label: "Budget calculator", desc: "Tune spending by day and person." },
-        { to: "/travel-tools/best-time-to-visit", label: "Best time to visit", desc: "Choose realistic timing for your dates." },
+        { to: "/florence-to-siena-by-train-or-bus/", label: "Florence to Siena transport", desc: "Choose the route before locking in your day plan." },
+        { to: "/travel-tools/itinerary-generator/", label: "Itinerary generator", desc: "Generate a personalized trip flow." },
+        { to: "/travel-budget-calculator/", label: "Budget calculator", desc: "Tune spending by day and person." },
+        { to: "/travel-tools/best-time-to-visit/", label: "Best time to visit", desc: "Choose realistic timing for your dates." },
       ],
     },
     faqs: [
@@ -152,9 +152,9 @@ const HUB_CONTENT = {
     cta: {
       title: "Direct actions",
       items: [
-        { to: "/where-to-stay-in-siena", label: "See area guide", desc: "Filter by style, walkability, noise, and family needs." },
-        { to: "/siena-itinerary", label: "Itinerary", desc: "Pair your accommodation choice with route planning." },
-        { to: "/contact", label: "Contact", desc: "Send us your dates and constraints." },
+        { to: "/where-to-stay-in-siena/", label: "See area guide", desc: "Filter by style, walkability, noise, and family needs." },
+        { to: "/siena-itinerary/", label: "Itinerary", desc: "Pair your accommodation choice with route planning." },
+        { to: "/contact/", label: "Contact", desc: "Send us your dates and constraints." },
       ],
     },
     faqs: [
@@ -177,9 +177,9 @@ const HUB_CONTENT = {
     cta: {
       title: "Use planning tools",
       items: [
-        { to: "/travel-tools/packing-checklist", label: "Packing checklist", desc: "Create a personalized trip checklist." },
-        { to: "/travel-tools/area-finder", label: "Area finder", desc: "Discover better stay neighborhoods." },
-        { to: "/travel-tools/transport-guide", label: "Transport guide", desc: "Practical intercity and local mobility tips." },
+        { to: "/travel-tools/packing-checklist/", label: "Packing checklist", desc: "Create a personalized trip checklist." },
+        { to: "/travel-tools/area-finder/", label: "Area finder", desc: "Discover better stay neighborhoods." },
+        { to: "/travel-tools/transport-guide/", label: "Transport guide", desc: "Practical intercity and local mobility tips." },
       ],
     },
     faqs: [
@@ -286,7 +286,7 @@ export default function HubPage({ pageKey, routePath }) {
                 ))}
               </ul>
             </div>
-            <a href="/contact" className="bg-[#2C211B] text-white px-8 py-5 rounded-2xl text-lg font-semibold shadow-xl hover:-translate-y-1 hover:shadow-2xl transition-all w-full md:w-auto text-center">
+            <a href="/contact/" className="bg-[#2C211B] text-white px-8 py-5 rounded-2xl text-lg font-semibold shadow-xl hover:-translate-y-1 hover:shadow-2xl transition-all w-full md:w-auto text-center">
               Need direct support?
             </a>
           </motion.div>

@@ -11,17 +11,17 @@ import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 const HERO = "https://images.unsplash.com/photo-1646319514161-8fba0ebc3275?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxzaWVuYSUyMGl0YWx5JTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc4MzAwNDQ4Nnww&ixlib=rb-4.1.0&q=85";
 
 const chapters = [
-  { title: "Things to do", to: "/blog/best-things-to-do-in-siena", blurb: "Piazza del Campo, Duomo, Torre del Mangia — and what to skip on a short trip." },
-  { title: "Where to stay",  to: "/blog/where-to-stay-in-siena", blurb: "Terzo di Città, San Martino or Camollia? Compared honestly." },
-  { title: "2-day itinerary", to: "/blog/siena-2-day-itinerary", blurb: "A well-paced two-day plan that leaves room to breathe." },
-  { title: "3-day itinerary", to: "/blog/siena-3-day-itinerary", blurb: "Add a proper half-day trip to Val d’Orcia or San Gimignano." },
-  { title: "Family travel",   to: "/blog/siena-with-kids", blurb: "Kid-paced days, contrada scavenger hunts, and family-friendly trattorias." },
-  { title: "Budget travel",   to: "/blog/how-much-siena-trip-costs", blurb: "Three tiers of cost, from guesthouse to design hotel." },
-  { title: "Transport",       to: "/florence-to-siena-by-train-or-bus", blurb: "How to arrive from Florence, and when a rental car makes sense." },
+  { title: "Things to do", to: "/blog/best-things-to-do-in-siena/", blurb: "Piazza del Campo, Duomo, Torre del Mangia — and what to skip on a short trip." },
+  { title: "Where to stay",  to: "/blog/where-to-stay-in-siena/", blurb: "Terzo di Città, San Martino or Camollia? Compared honestly." },
+  { title: "2-day itinerary", to: "/blog/siena-2-day-itinerary/", blurb: "A well-paced two-day plan that leaves room to breathe." },
+  { title: "3-day itinerary", to: "/blog/siena-3-day-itinerary/", blurb: "Add a proper half-day trip to Val d’Orcia or San Gimignano." },
+  { title: "Family travel",   to: "/blog/siena-with-kids/", blurb: "Kid-paced days, contrada scavenger hunts, and family-friendly trattorias." },
+  { title: "Budget travel",   to: "/blog/how-much-siena-trip-costs/", blurb: "Three tiers of cost, from guesthouse to design hotel." },
+  { title: "Transport",       to: "/florence-to-siena-by-train-or-bus/", blurb: "How to arrive from Florence, and when a rental car makes sense." },
 ];
 
 export default function Siena() {
-  const breadcrumbs = [{ label: 'Home', to: '/' }, { label: 'Italy', to: '/italy' }, { label: 'Tuscany', to: '/tuscany-travel-guide' }, { label: 'Siena' }];
+  const breadcrumbs = [{ label: 'Home', to: '/' }, { label: 'Italy', to: '/italy/' }, { label: 'Tuscany', to: '/tuscany-travel-guide/' }, { label: 'Siena' }];
   const schema = [
     breadcrumbSchema(breadcrumbs),
     placeSchema({

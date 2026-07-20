@@ -57,7 +57,6 @@ const BUILD_NOW = process.env.SCHEDULED_CONTENT_NOW
 // --- Static route table ---------------------------------------------------
 const staticRoutes = [
   { path: '/',                                   changefreq: 'weekly',  priority: 1.0 },
-  { path: '/destinations',                       changefreq: 'weekly',  priority: 0.9 },
   { path: '/blog',                               changefreq: 'weekly',  priority: 0.9 },
   { path: '/travel-tools',                       changefreq: 'monthly', priority: 0.9 },
   // /travel-deals is intentionally absent: the page is noindex until it carries

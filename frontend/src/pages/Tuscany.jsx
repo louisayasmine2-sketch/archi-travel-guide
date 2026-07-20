@@ -12,16 +12,16 @@ import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 const HERO = "https://images.unsplash.com/photo-1503152394-c571994fd383?auto=format&fit=crop&w=2000&q=75";
 
 const sections = [
-  { title: "Itineraries", to: "/blog?region=Tuscany&cat=itineraries", body: "Two- and three-day plans for Siena, plus longer routes through Val d’Orcia and Chianti." },
-  { title: "Where to stay", to: "/travel-tools", body: "Countryside agriturismos, hilltown boutique hotels, or a base in Florence — which one fits your trip." },
-  { title: "Food guide", to: "/blog", body: "The dishes and wines worth ordering, and the menu vocabulary that opens up family-run trattorias." },
-  { title: "Transport", to: "/florence-to-siena-by-train-or-bus", body: "Bus, train or rental car — how to move between Florence, Siena and the countryside." },
-  { title: "Best season", to: "/travel-tools", body: "Month-by-month realities of Tuscany, with an honest take on August heat and the Palio." },
+  { title: "Itineraries", to: "/blog/?region=Tuscany&cat=itineraries", body: "Two- and three-day plans for Siena, plus longer routes through Val d’Orcia and Chianti." },
+  { title: "Where to stay", to: "/travel-tools/", body: "Countryside agriturismos, hilltown boutique hotels, or a base in Florence — which one fits your trip." },
+  { title: "Food guide", to: "/blog/", body: "The dishes and wines worth ordering, and the menu vocabulary that opens up family-run trattorias." },
+  { title: "Transport", to: "/florence-to-siena-by-train-or-bus/", body: "Bus, train or rental car — how to move between Florence, Siena and the countryside." },
+  { title: "Best season", to: "/travel-tools/", body: "Month-by-month realities of Tuscany, with an honest take on August heat and the Palio." },
 ];
 
 export default function Tuscany() {
   const tuscanyArticles = articlesByRegion("Tuscany").concat(articlesByRegion("Siena")).slice(0, 6);
-  const breadcrumbs = [{ label: 'Home', to: '/' }, { label: 'Italy', to: '/italy' }, { label: 'Tuscany' }];
+  const breadcrumbs = [{ label: 'Home', to: '/' }, { label: 'Italy', to: '/italy/' }, { label: 'Tuscany' }];
   const schema = [
     breadcrumbSchema(breadcrumbs),
     placeSchema({

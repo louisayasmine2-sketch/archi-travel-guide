@@ -100,10 +100,14 @@ const STATIC_ROUTES = [
     'Use city guides, itineraries, budget tools and packing checklists to make faster trip decisions.',
     'Commercial links are disclosed clearly and editorial recommendations remain independent.',
   ]),
-  page('/destinations', 'Destinations', 'Practical destination guides for Siena, Florence and the wider Tuscany region.', 'Destinations', [
-    'Siena and Tuscany are the focus, with Florence as the cultural base and transport hub.',
-    'Each destination page prioritizes logistics, timing, neighborhoods and realistic planning trade-offs.',
-  ]),
+  // noindex: thin page. Kept out of sitemap.xml and the nav; the route still serves.
+  {
+    ...page('/destinations', 'Destinations', 'Practical destination guides for Siena, Florence and the wider Tuscany region.', 'Destinations', [
+      'Siena and Tuscany are the focus, with Florence as the cultural base and transport hub.',
+      'Each destination page prioritizes logistics, timing, neighborhoods and realistic planning trade-offs.',
+    ]),
+    noindex: true,
+  },
   page('/blog', 'Travel Blog', 'Practical travel articles for Siena, Tuscany, Italy, packing, transport, budget planning and itineraries.', 'Travel Blog', [
     'Read city guides, itinerary templates, transport explainers, budget breakdowns and packing advice.',
     'Articles include clear update dates and practical next-step links.',

@@ -35,6 +35,7 @@ export default function Destinations() {
   return (
     <div className="min-h-screen bg-[#FAF7F2] font-sans">
       <SEO
+        noindex
         title="Destinations"
         description="All Archi Travel Guide destinations — Italy, Tuscany, Siena, Europe and Asia. Deep editorial coverage of the places we know best."
         path="/destinations/"
@@ -106,7 +107,7 @@ export default function Destinations() {
             >
               {filtered.map((d, i) => (
                 <motion.div key={d.slug} variants={fadeInUp} className="group relative bg-white rounded-[2rem] overflow-hidden shadow-xl hover:shadow-[0_30px_60px_rgba(0,0,0,0.15)] transition-all duration-700 hover:-translate-y-4 cursor-pointer block">
-                  <Link to={`/${d.slug}`}>
+                  <Link to={`/${d.slug}/`}>
                     <div className="h-72 overflow-hidden relative">
                       <div className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-110" style={{ backgroundImage: `url('${d.image}')` }}></div>
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-90 group-hover:opacity-100 transition-opacity duration-500"></div>
