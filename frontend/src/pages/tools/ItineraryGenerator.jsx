@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { itineraryGenerator } from "@/lib/travelTools";
+import { itineraryGenerator, ITINERARY_DESTINATIONS } from "@/lib/travelTools";
 import { toast } from "sonner";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import AdPlaceholder from "@/components/common/AdPlaceholder";
@@ -16,6 +16,7 @@ export default function ItineraryGenerator() {
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const upd = (k, v) => setForm((f) => ({ ...f, [k]: v }));
+  const maxDays = ITINERARY_DESTINATIONS.find((d) => d.value === form.destination)?.days ?? 1;
 
   const submit = async (e) => {
     e.preventDefault();
@@ -54,10 +55,12 @@ export default function ItineraryGenerator() {
         <div className="container-editorial grid grid-cols-1 lg:grid-cols-12 gap-10">
           <form onSubmit={submit} data-testid={TOOLS.itinForm} className="lg:col-span-5 rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] p-6 md:p-8 space-y-5">
             <label className="space-y-1.5 block"><span className={LABEL}>Destination</span>
-              <input data-testid={TOOLS.itinDestination} className={SEL} value={form.destination} onChange={(e) => upd("destination", e.target.value)} placeholder="e.g. Tuscany" />
+              <select data-testid={TOOLS.itinDestination} className={SEL} value={form.destination} onChange={(e) => upd("destination", e.target.value)}>
+                {ITINERARY_DESTINATIONS.map((d) => <option key={d.value} value={d.value}>{d.label}</option>)}
+              </select>
             </label>
-            <label className="space-y-1.5 block"><span className={LABEL}>Trip length (days)</span>
-              <input data-testid={TOOLS.itinLength} type="number" min="1" max="14" className={SEL} value={form.trip_length} onChange={(e) => upd("trip_length", e.target.value)} />
+            <label className="space-y-1.5 block"><span className={LABEL}>Trip length (days, max {maxDays})</span>
+              <input data-testid={TOOLS.itinLength} type="number" min="1" max={maxDays} className={SEL} value={form.trip_length} onChange={(e) => upd("trip_length", Math.min(Number(e.target.value) || 1, maxDays))} />
             </label>
             <button data-testid={TOOLS.itinSubmit} type="submit" className="btn-primary" disabled={loading}>
               {loading ? "Generating…" : "Generate itinerary"}

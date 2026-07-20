@@ -52,9 +52,6 @@ export const TOOLS = {
 	itinForm: 'tool-itinerary-form',
 	itinDestination: 'tool-itinerary-destination',
 	itinLength: 'tool-itinerary-length',
-	itinStyle: 'tool-itinerary-style',
-	itinParty: 'tool-itinerary-party',
-	itinBudget: 'tool-itinerary-budget',
 	itinSubmit: 'tool-itinerary-submit',
 	itinResult: 'tool-itinerary-result',
 	// Area finder

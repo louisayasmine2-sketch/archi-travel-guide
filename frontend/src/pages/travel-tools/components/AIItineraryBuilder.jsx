@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { itineraryGenerator } from "@/lib/travelTools";
+import { itineraryGenerator, ITINERARY_DESTINATIONS } from "@/lib/travelTools";
 import { toast } from "sonner";
 import { Sparkles, Map as MapIcon } from "lucide-react";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
@@ -23,6 +23,7 @@ export default function AIItineraryBuilder() {
   const [loading, setLoading] = useState(false);
 
   const upd = (k, v) => setForm((f) => ({ ...f, [k]: v }));
+  const maxDays = ITINERARY_DESTINATIONS.find((d) => d.value === form.destination)?.days ?? 1;
 
   const submit = async (e) => {
     e.preventDefault();
@@ -52,11 +53,13 @@ export default function AIItineraryBuilder() {
           <h3 className="font-semibold text-lg text-[#2C211B] mb-4">Trip Details</h3>
           <label className="block">
             <span className={LABEL}>Destination</span>
-            <input className={SEL} value={form.destination} onChange={(e) => upd("destination", e.target.value)} placeholder="e.g. Tuscany" />
+            <select className={SEL} value={form.destination} onChange={(e) => upd("destination", e.target.value)}>
+              {ITINERARY_DESTINATIONS.map((d) => <option key={d.value} value={d.value}>{d.label}</option>)}
+            </select>
           </label>
           <label className="block">
-            <span className={LABEL}>Trip length (days)</span>
-            <input type="number" min="1" max="14" className={SEL} value={form.trip_length} onChange={(e) => upd("trip_length", e.target.value)} />
+            <span className={LABEL}>Trip length (days, max {maxDays})</span>
+            <input type="number" min="1" max={maxDays} className={SEL} value={form.trip_length} onChange={(e) => upd("trip_length", Math.min(Number(e.target.value) || 1, maxDays))} />
           </label>
           <button type="submit" className="w-full mt-4 bg-[#C65A3A] hover:bg-[#A84A2E] text-white py-3 rounded-2xl font-medium transition-colors disabled:opacity-50" disabled={loading}>
             {loading ? "Generating…" : "Generate Itinerary"}

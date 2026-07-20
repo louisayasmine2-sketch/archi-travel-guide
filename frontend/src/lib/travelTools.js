@@ -96,21 +96,15 @@ const ITIN_TEMPLATES = {
     ["San Gimignano & Volterra", "Etruscan sites", "Dinner at an agriturismo"],
     ["Chianti wine route", "Castello tour", "Vineyard picnic"],
   ],
-  italy: [
-    ["Rome: Colosseum & Roman Forum", "Palatine Hill", "Dinner in Trastevere"],
-    ["Rome: Vatican Museums & St Peter’s", "Pincio terrace", "Evening at Piazza Navona"],
-    ["Florence: Duomo & Uffizi", "Ponte Vecchio", "Dinner in Oltrarno"],
-    ["Siena day trip", "Piazza del Campo & Duomo", "Return to Florence"],
-    ["Venice: San Marco & Doge’s Palace", "Cannaregio walk", "Cicchetti (Venetian small plates)"],
-  ],
-  default: [
-    ["Arrival & neighbourhood orientation", "Main landmark visit", "Dinner nearby"],
-    ["Main museum or historic site", "Café break & shopping", "Evening dinner"],
-    ["Half-day guided experience", "Free-time exploration", "Visit a food market"],
-    ["Day trip to nearby region", "Return by early evening", "Dinner"],
-    ["Quieter residential neighbourhood", "Local workshop or class", "Farewell dinner"],
-  ],
 };
+
+// Destinations offered by the itinerary form. Only those with a real template
+// appear; `days` is that template's distinct-day count, which the form uses to
+// cap trip length so the plan is never padded past the content that exists.
+export const ITINERARY_DESTINATIONS = [
+  { value: "Siena", label: "Siena", days: ITIN_TEMPLATES.siena.length },
+  { value: "Tuscany", label: "Tuscany", days: ITIN_TEMPLATES.tuscany.length },
+];
 
 // Operational notes attach to a plan item when a verified rule changes how a
 // visitor should plan around it. Each carries the date it was checked (per
@@ -150,17 +144,20 @@ function buildItinerarySummary(destination, days) {
 }
 
 export function itineraryGenerator(payload) {
-  const dest = (payload.destination || "").trim().toLowerCase();
-  let template = ITIN_TEMPLATES.default;
-  for (const [key, tpl] of Object.entries(ITIN_TEMPLATES)) {
-    if (dest.includes(key)) {
-      template = tpl;
-      break;
-    }
+  // Exact-match only: destination must be one of the templates. There is no
+  // default/fallback — an unsupported destination should not be offered by the
+  // form, so it returns an empty plan rather than generic filler under its name.
+  const key = (payload.destination || "").trim().toLowerCase();
+  const template = ITIN_TEMPLATES[key];
+  if (!template) {
+    return { destination: payload.destination, trip_length: 0, summary: "", days: [] };
   }
+  // Cap at the number of distinct days the template actually has — never repeat
+  // a shorter template to fill a longer request.
+  const dayCount = Math.max(1, Math.min(Number(payload.trip_length) || 1, template.length));
   const days = [];
-  for (let i = 0; i < payload.trip_length; i++) {
-    const base = template[i % template.length];
+  for (let i = 0; i < dayCount; i++) {
+    const base = template[i];
     const items = [base[0], base[1], base[2]];
     const notes = OPERATIONAL_NOTES
       .filter((n) => items.some((item) => item.includes(n.match)))
@@ -169,7 +166,7 @@ export function itineraryGenerator(payload) {
   }
   return {
     destination: payload.destination,
-    trip_length: payload.trip_length,
+    trip_length: dayCount,
     summary: buildItinerarySummary(payload.destination, days),
     days,
   };
