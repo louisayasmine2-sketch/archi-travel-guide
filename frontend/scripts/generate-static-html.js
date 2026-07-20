@@ -484,12 +484,34 @@ function schemaScripts(route, url, fullTitle) {
   return schemas.map(jsonLdScript).join('');
 }
 
+// Homepage-only <head> additions for the video hero. The poster is the LCP
+// element, so it gets a high-priority preload; Marcellus + Instrument Sans
+// load async (same media="print" swap pattern as the global fonts in
+// public/index.html) with display=swap in the URL. Preconnects to the font
+// hosts already exist in the template. No data-rh attribute: react-helmet
+// must not remove these on hydration (Home.jsx mirrors them via Helmet for
+// client-side navigation). Only route "/" is affected.
+const HOME_HERO_POSTER = '/images/archi-hero-poster.jpg';
+const HOME_HERO_FONTS_URL =
+  'https://fonts.googleapis.com/css2?family=Marcellus&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap';
+
+function homeHeroHeadLinks(route) {
+  if (route.path !== '/') return '';
+  return [
+    `<link rel="preload" as="image" href="${HOME_HERO_POSTER}" fetchpriority="high">`,
+    `<link rel="preload" as="style" href="${HOME_HERO_FONTS_URL}">`,
+    `<link rel="stylesheet" href="${HOME_HERO_FONTS_URL}" media="print" onload="this.media='all'">`,
+    `<noscript><link rel="stylesheet" href="${HOME_HERO_FONTS_URL}"></noscript>`,
+  ].join('');
+}
+
 function injectHead(html, route) {
   const fullTitle = route.exactTitle || route.title.includes(SITE_NAME) ? route.title : `${route.title} · ${SITE_NAME}`;
   const url = `${SITE_URL}${route.canonicalPath}`;
   const isArticle = routeIsArticle(route);
   const image = route.image || DEFAULT_IMAGE;
   const head = [
+    homeHeroHeadLinks(route),
     `<title data-rh="true">${escapeHtml(fullTitle)}</title>`,
     `<meta data-rh="true" name="description" content="${escapeHtml(route.description)}">`,
     `<meta data-rh="true" name="robots" content="${route.noindex ? 'noindex,nofollow' : 'index,follow,max-image-preview:large'}">`,

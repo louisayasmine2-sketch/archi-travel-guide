@@ -3,4 +3,9 @@
 
 export const HOME = {
 	emergentLink: 'home-emergent-link',
+	hero: 'home-hero',
+	heroVideo: 'home-hero-video',
+	heroCtaPrimary: 'home-hero-cta-primary',
+	heroCtaSecondary: 'home-hero-cta-secondary',
+	heroChips: 'home-hero-chips',
 };
