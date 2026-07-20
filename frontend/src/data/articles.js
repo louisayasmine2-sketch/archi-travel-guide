@@ -1448,7 +1448,7 @@ const allArticles = [
       { q: "Where does the bus drop me in Siena?", a: "The 131R stops at Antiporto Camollia, just outside the northern Porta Camollia gate, then terminates at the Via Tozzi bus station. Getting off at Antiporto Camollia gives you a short downhill walk into the centre through the gate." },
       { q: "What if there is a strike?", a: "Italian transport strikes are announced in advance and run with protected time bands during which a minimum service operates. Check Autolinee Toscane's service status and strike pages before you travel; if a strike falls on your date, the protected bands or the train give you an alternative." }
     ],
-    "2026-07-21",
+    "2026-07-21T02:07:27+07:00",
     {
       seoTitle: "Florence Airport to Siena: Every Option, Real 2026 Fares",
       primaryKeyword: "Florence Airport to Siena",
