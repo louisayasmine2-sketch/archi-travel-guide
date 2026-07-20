@@ -3471,7 +3471,16 @@ for (const a of allArticles) {
   }
 }
 
-export const articles = allArticles.filter(a => new Date(a.updated) <= new Date());
+// A bare "YYYY-MM-DD" `updated` is pinned to the START of that day in the site's
+// timezone (+07:00 WIB), not UTC midnight — so an article dated today is published
+// for the whole of that WIB day instead of being hidden for viewers east of UTC
+// until UTC catches up (07:00 WIB). A full timestamp (already carrying its own
+// time and offset) is honoured exactly as written.
+const SITE_TZ = '+07:00';
+const publishedAt = (updated) =>
+  new Date(/^\d{4}-\d{2}-\d{2}$/.test(updated) ? `${updated}T00:00:00${SITE_TZ}` : updated);
+
+export const articles = allArticles.filter((a) => publishedAt(a.updated) <= new Date());
 
 export const getArticle = (slug) => articles.find((a) => a.slug === slug);
 export const articlesByRegion = (region) =>
