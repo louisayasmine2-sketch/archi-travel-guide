@@ -33,20 +33,8 @@ const DOCS = {
     intro: "By using Archi Travel Guide you agree to these terms.",
     sections: [
       { h: "Editorial nature", b: "The content on this site is editorial and provided for planning purposes. We check facts diligently, but travel details change — always double-check with official sources before booking." },
-      { h: "Affiliate links", b: "Some outbound links are affiliate links. We may earn a commission at no extra cost to you. Editorial decisions remain independent." },
       { h: "Intellectual property", b: "All original text is © Archi Travel Guide. Images used are either licensed or under an appropriate open license." },
       { h: "Liability", b: "We provide guides in good faith. We are not liable for booking issues, weather changes, transport delays, or other trip disruptions." },
-    ],
-  },
-  affiliate: {
-    title: "Affiliate Disclosure",
-    updated: "November 2025",
-    intro: "Independence matters. Here's exactly how affiliate relationships work on Archi Travel Guide.",
-    sections: [
-      { h: "What is an affiliate link?", b: "A link to a partner site that gives us a small commission if you make a purchase — at no extra cost to you." },
-      { h: "How we choose partners", b: "We only recommend platforms we would use ourselves. If a partner underperforms or acts against our readers’ interests, we drop them." },
-      { h: "How we label affiliate content", b: "Every commercial card is clearly marked, and includes a disclosure. Article-level affiliate content is disclosed at the top of the piece." },
-      { h: "What this doesn't affect", b: "Which destinations we cover, which itineraries we suggest, or what we recommend inside a guide. Editorial decisions are made independently of commercial partners." },
     ],
   },
   editorial: {
@@ -58,18 +46,17 @@ const DOCS = {
       { h: "Fact-checking", b: "Prices, opening hours, transport frequencies and event dates are checked at least twice a year — and on every major update." },
       { h: "Updates", b: "Every article shows an 'Updated' date. Substantial changes trigger a new date; minor typo fixes don’t." },
       { h: "Corrections", b: "If we get something wrong, tell us: contact@affittacameregliarchi.com. We correct promptly and note the change in the article footer." },
-      { h: "No paid coverage", b: "We do not accept payment to feature a destination, hotel or restaurant. Affiliate partnerships (see disclosure) never dictate editorial coverage." },
+      { h: "No paid coverage", b: "We do not accept payment to feature a destination, hotel or restaurant." },
     ],
   },
   disclaimer: {
     title: "Disclaimer",
     updated: "November 2025",
-    intro: "Travel recommendations are editorial opinions built from published sources and practical experience. Read carefully before relying on any itinerary details.",
+    intro: "Travel recommendations are editorial opinions built from published sources. Read carefully before relying on any itinerary details.",
     sections: [
       { h: "Information accuracy", b: "We make every effort to keep opening hours, prices, routes, and transport details current. Timetables and availability can change before you travel." },
       { h: "Booking choices", b: "We provide references and contacts. Confirm details directly with providers before booking or planning an activity." },
       { h: "Liability", b: "We are not liable for delays, weather disruption, roadworks, closures, or booking errors outside our control." },
-      { h: "Affiliate content", b: "Some links may generate a commission at no extra cost to you. This does not affect editorial recommendations." },
       { h: "Local advice", b: "Always follow official local signage and regulations when travelling in unfamiliar areas." },
     ],
   },
@@ -80,7 +67,6 @@ export default function Legal({ doc }) {
   const path = doc === 'privacy' ? '/privacy-policy'
     : doc === 'cookie' ? '/cookie-policy'
     : doc === 'terms' ? '/terms-of-service'
-    : doc === 'affiliate' ? '/affiliate-disclosure'
     : doc === 'disclaimer' ? '/disclaimer'
     : '/editorial-policy';
 

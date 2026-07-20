@@ -82,7 +82,7 @@ export default function About() {
                 <h2 className="text-3xl mb-4 mt-0">How we work</h2>
                 <p className="text-[#2C211B] leading-relaxed">
                   Our guides are written by travelers, checked against local sources, and updated on a visible schedule. We prefer
-                  saying "we don't know yet" over publishing thin content. When we recommend a partner, we say so clearly — with a visible affiliate disclosure.
+                  saying "we don't know yet" over publishing thin content.
                 </p>
               </div>
               <div className="bg-[#2C211B] text-white p-10 rounded-[2rem]">

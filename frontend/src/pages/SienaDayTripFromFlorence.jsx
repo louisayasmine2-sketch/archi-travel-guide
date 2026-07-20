@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import RecommendedTravelResources from "@/components/common/RecommendedTravelResources";
@@ -352,7 +351,7 @@ export default function SienaDayTripFromFlorence() {
           </div>
         </aside>
 
-        <div className="order-1 lg:order-2 lg:col-span-7">
+        <div className="order-1 lg:order-2 lg:col-span-9">
           <div className="prose-editorial">
             {bodyBlocks.map((block, index) => renderBlock(block, index))}
           </div>
@@ -377,19 +376,6 @@ export default function SienaDayTripFromFlorence() {
             </ul>
           </section>
         </div>
-
-        <aside className="order-3 hidden lg:col-span-2 lg:block">
-          <div className="sticky top-28 rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] p-5 text-sm leading-relaxed text-[hsl(var(--charcoal-soft))]">
-            <p className="overline">Disclosure</p>
-            <p className="mt-3">
-              Some outbound links may be affiliate links. Recommendations remain editorial and practical.
-            </p>
-            <Link className="mt-4 inline-flex items-center gap-2 text-[hsl(var(--terracotta))]" to="/affiliate-disclosure">
-              Affiliate disclosure
-              <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
-            </Link>
-          </div>
-        </aside>
       </div>
     </article>
   );

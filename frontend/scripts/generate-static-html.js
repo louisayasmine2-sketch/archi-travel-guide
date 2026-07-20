@@ -172,10 +172,6 @@ const STATIC_ROUTES = [
     'Travel content is editorial and provided in good faith.',
     'Booking decisions remain the responsibility of the reader.',
   ]),
-  page('/affiliate-disclosure', 'Affiliate Disclosure', 'How affiliate links and commercial relationships work on Archi Travel Guide.', 'Affiliate Disclosure', [
-    'Some outbound links may be affiliate links when live partner URLs are configured.',
-    'Affiliate relationships do not determine destination coverage or editorial recommendations.',
-  ]),
   page('/editorial-policy', 'Editorial Policy', 'Editorial standards for Archi Travel Guide research, updates, corrections and independence.', 'Editorial Policy', [
     'Guides are reviewed for practical accuracy and updated when facts change.',
     'Corrections can be sent to contact@affittacameregliarchi.com.',
@@ -714,7 +710,7 @@ function florenceToSienaFallbackMarkup() {
     `<aside class="longform-disclosure">${markdownToHtml(guide.disclosureMarkdown)}</aside>`,
     markdownToHtml(guide.bodyMarkdown),
     `<section id="official-sources"><h2>Official sources</h2><ul>${officialSources}</ul></section>`,
-    `<section><h2>${escapeHtml(guide.author.name)}</h2><p>${escapeHtml(guide.author.bio)}</p><p><a href="/editorial-policy">Editorial policy</a> · <a href="/affiliate-disclosure">Affiliate disclosure</a></p></section>`,
+    `<section><h2>${escapeHtml(guide.author.name)}</h2><p>${escapeHtml(guide.author.bio)}</p><p><a href="/editorial-policy">Editorial policy</a></p></section>`,
     `<p>${links}</p>`,
     `</main>`,
   ].join('');
@@ -753,7 +749,7 @@ function sienaDayTripFallbackMarkup() {
     `<figure class="article-image"><img src="${guide.hero.src}" alt="${escapeHtml(guide.hero.alt)}" width="${guide.hero.width}" height="${guide.hero.height}" loading="eager" fetchpriority="high"><figcaption>${escapeHtml(guide.hero.caption)} Photo: <a href="${escapeHtml(guide.hero.source)}" target="_blank" rel="nofollow noopener">${escapeHtml(guide.hero.photographer)}</a>, <a href="${escapeHtml(guide.hero.licenseUrl)}" target="_blank" rel="license noopener">${escapeHtml(guide.hero.licenseName)}</a>. ${escapeHtml(guide.hero.adaptation)}</figcaption></figure>`,
     markdownToHtml(internalReferencesToLinks(guide.bodyMarkdown, guide.linkMap)),
     `<section id="photo-credits"><h2>Photo credits</h2><ul>${credits}</ul></section>`,
-    `<section><h2>${escapeHtml(guide.author.name)}</h2><p>${escapeHtml(guide.author.bio)}</p><p><a href="/editorial-policy">Editorial policy</a> · <a href="/affiliate-disclosure">Affiliate disclosure</a></p></section>`,
+    `<section><h2>${escapeHtml(guide.author.name)}</h2><p>${escapeHtml(guide.author.bio)}</p><p><a href="/editorial-policy">Editorial policy</a></p></section>`,
     `<p>${links}</p>`,
     `</main>`,
   ].join('');

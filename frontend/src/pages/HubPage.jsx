@@ -24,9 +24,7 @@ const HUB_CONTENT = {
     intro:
       "You’re now on the English landing for Archi Travel Guide. We keep this site focused on practical planning: where to stay in Siena, what to do, transport options, and budget-ready itineraries.",
     bullets: [
-      "Direct booking contact information for fast decisions.",
       "Actionable city and area guides before and during your trip.",
-      "Clear affiliate policy and transparent recommendations.",
     ],
     cta: {
       title: "Start with our best pages",
@@ -37,7 +35,6 @@ const HUB_CONTENT = {
       ],
     },
     faqs: [
-      { q: "Do you help with real bookings?", a: "We provide clear contacts and practical checks, then direct you to the right booking destination quickly." },
       { q: "Can I use this from mobile?", a: "Yes. All pages are responsive and built for fast browsing on the move." },
       { q: "Are your recommendations updated?", a: "We review practical details regularly and keep updates visible in article dates." },
     ],
@@ -50,9 +47,7 @@ const HUB_CONTENT = {
     intro:
       "Benvenuto. Manteniamo contenuti pratici su alloggi, itinerari e consigli reali per chi viaggia a Siena e in Toscana, con contenuti aggiornati e contatti chiari.",
     bullets: [
-      "Contatti rapidi e pratiche guida locale.",
       "Consigli su trasporti, parcheggio e quartieri.",
-      "Guide trasparenti con disclosure affiliata chiara.",
     ],
     cta: {
       title: "Inizia qui",
@@ -63,7 +58,6 @@ const HUB_CONTENT = {
       ],
     },
     faqs: [
-      { q: "Fate prenotazioni dirette?", a: "Forniamo contatti diretti e opzioni pratiche per chiudere velocemente le decisioni di soggiorno." },
       { q: "Posso usare il sito da mobile?", a: "Sì, tutte le pagine sono ottimizzate per uso mobile." },
       { q: "Aggiornate i contenuti?", a: "Sì, i contenuti vengono rivisti regolarmente con date di aggiornamento visibili." },
     ],
@@ -117,7 +111,6 @@ const HUB_CONTENT = {
         { to: "/siena", label: "Siena overview", desc: "Top attractions and practical context." },
         { to: "/florence-to-siena-by-train-or-bus", label: "Arriving from Florence", desc: "Train, bus, and tour trade-offs before choosing an area." },
         { to: "/blog/siena-2-day-itinerary", label: "2-day itinerary", desc: "Efficient pace for first-timers." },
-        { to: "/contact", label: "Contact for booking", desc: "Send your dates and priorities." },
       ],
     },
     faqs: [

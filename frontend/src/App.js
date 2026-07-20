@@ -143,8 +143,6 @@ function App() {
             <Route path="/terms-of-use/" element={<Legal doc="terms" />} />
             <Route path="/terms-of-service" element={<Legal doc="terms" />} />
             <Route path="/terms-of-service/" element={<Legal doc="terms" />} />
-            <Route path="/affiliate-disclosure" element={<Legal doc="affiliate" />} />
-            <Route path="/affiliate-disclosure/" element={<Legal doc="affiliate" />} />
             <Route path="/editorial-policy" element={<Legal doc="editorial" />} />
             <Route path="/editorial-policy/" element={<Legal doc="editorial" />} />
             <Route path="/disclaimer" element={<Legal doc="disclaimer" />} />

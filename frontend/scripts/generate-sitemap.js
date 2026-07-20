@@ -89,7 +89,6 @@ const staticRoutes = [
   { path: '/terms-of-use',                       changefreq: 'yearly',  priority: 0.3 },
   { path: '/terms-of-service',                   changefreq: 'yearly',  priority: 0.3 },
   { path: '/disclaimer',                        changefreq: 'yearly',  priority: 0.3 },
-  { path: '/affiliate-disclosure',               changefreq: 'yearly',  priority: 0.4 },
   { path: '/editorial-policy',                   changefreq: 'yearly',  priority: 0.4 },
 ];
 
