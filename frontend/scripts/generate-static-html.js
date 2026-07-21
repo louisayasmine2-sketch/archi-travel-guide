@@ -95,10 +95,9 @@ const STATIC_FOOTER_LINKS = [
 ];
 
 const STATIC_ROUTES = [
-  page('/', 'Archi Travel Guide', 'Independent travel planning guides for Siena, Tuscany, Italy, Europe and Asia, with practical itineraries, budget tools and honest recommendations.', 'Plan smarter trips around the world', [
-    'Independent travel planning guides with a practical first pillar in Siena and Tuscany.',
-    'Use city guides, itineraries, budget tools and packing checklists to make faster trip decisions.',
-    'Commercial links are disclosed clearly and editorial recommendations remain independent.',
+  page('/', 'Archi Travel Guide', 'Practical travel logistics for Siena and Tuscany: parking, ZTL rules, tickets and transport, traced to official sources and dated.', 'The practical side of Tuscany', [
+    'Parking, ZTL permits, tickets and transport for Siena and Tuscany, traced to official sources.',
+    'Every price and rule shows the date it was last checked.',
   ]),
   // noindex: thin page. Kept out of sitemap.xml and the nav; the route still serves.
   {
