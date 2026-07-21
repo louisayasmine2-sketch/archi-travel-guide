@@ -1704,19 +1704,7 @@ You can eat well in Siena without breaking the bank if you follow local habits. 
       { q: "What is the tourist tax in Siena?", a: "The 2026 city tourist tax is €2.00 to €5.00 per person per night depending on hotel star rating." },
       { q: "Can I visit Siena on a budget day trip?", a: "Yes, traveling by bus from Florence and packing a light lunch keeps costs under €30 for the day." }
     ],
-    "2026-07-14T22:30:00+07:00",
-    {
-      monetization: {
-        booking: {
-          heading: "Need a budget-optimized booking package?",
-          description: "Send your budget target and we will suggest realistic options with the best value split.",
-          linkText: "Get budget booking help",
-          linkHref: "/contact",
-          linkTone: "primary",
-          leadSubjectHint: "Budget Siena trip planning",
-        },
-      },
-    }
+    "2026-07-14T22:30:00+07:00"
   ),
   A(
     "best-restaurants-siena-italy",
@@ -1760,19 +1748,7 @@ Recommend Piazza Tolomei or the quieter streets of the Terzo di Città rather th
       { q: "What is the average cost of dinner in Siena?", a: "Around €30-€45 per person for a mid-range dining experience." },
       { q: "What is the local wine to order?", a: "Chianti Colli Senesi or Brunello di Montalcino." }
     ],
-    "2026-07-14T22:30:00+07:00",
-    {
-      monetization: {
-        booking: {
-          heading: "Need a meal plan for your exact dates?",
-          description: "Share your dining budget and party size for tailored restaurant and area suggestions.",
-          linkText: "Get dining suggestions",
-          linkHref: "/contact",
-          linkTone: "primary",
-          leadSubjectHint: "Dining recommendations for Siena 2026",
-        },
-      },
-    }
+    "2026-07-14T22:30:00+07:00"
   ),
     A(
     "siena-day-trips-without-a-car",
@@ -1958,19 +1934,7 @@ Recommend Piazza Tolomei or the quieter streets of the Terzo di Città rather th
       { q: 'Do I need warm layers in summer?', a: 'For daytime maybe not, but evenings and high walls are usually cooler. A light jumper helps.' },
       { q: 'Is rain common?', a: 'Less than in coastal Italy, but showers are common in shoulders. A compact rain layer is worth the space.' },
     ],
-    '2026-07-03',
-    {
-      monetization: {
-        booking: {
-          heading: 'Need help matching booking dates to weather season?',
-          description: 'Share travel month and trip duration for a practical date and gear recommendation.',
-          linkText: 'Build a season-ready trip',
-          linkHref: '/contact',
-          linkTone: 'primary',
-          leadSubjectHint: 'Siena weather + booking planning',
-        },
-      },
-    }
+    '2026-07-03'
   ),
     A(
     "siena-tours-and-classes-to-book-first",
