@@ -1729,7 +1729,7 @@ These genuine spots are where Sienese residents actually eat, delivering heartfe
 Tucked in a former 19th-century grocery shop on Via del Porrione just steps from Piazza del Campo, this elegant osteria blends historic charm with refined Tuscan cooking. Order the pappardelle al cinghiale or handmade tagliatelle with ragù, paired with an exceptional local wine list. The vibe is sophisticated yet welcoming; expect around €45–60 per person.
 
 ### Trattoria di Fontebranda (casual, near the brick arches, great pici)
-Located near the magnificent Gothic brick arches of Fontebranda, one of Siena’s historic fountains, this casual trattoria is a neighbourhood favourite. Don’t miss their excellent pici all’aglione or pici with cinta senese sausage ragù. Relaxed, family-run atmosphere perfect for lunch. Budget-friendly at €25–35 per person.
+Located near the magnificent Gothic brick arches of Fontebranda, one of Siena’s historic fountains, this casual trattoria is a neighbourhood favourite. Don’t miss their excellent pici all’aglione or pici with cinta senese sausage ragù. Family-run. Budget-friendly at €25–35 per person.
 
 ### Osteria degli Svitati (cozy, local favorite)
 This intimate osteria on Via della Galluzza offers a genuine local experience in a quiet contrada street. Try the pappardelle al cinghiale or classic ribollita. Cozy, no-frills vibe with excellent house wine. A true local favourite with generous portions at €20–30 per person.` },
@@ -2565,7 +2565,7 @@ Explore more Florence guides at [/florence](/florence/), discover broader Tuscan
         heading: 'Opera Under the Stars at Lake Massaciuccoli',
         body: `The 72nd Puccini Festival kicks off tonight, 17 July 2026, on the shores of Lake Massaciuccoli in Torre del Lago. If you’re an independent traveler based in Florence or Siena and want to enjoy world-class opera under the stars without joining a package tour, this guide has everything you need — from tickets and transport to practical tips and the perfect Tuscany day-trip combo.
 
-The festival runs until 5 September 2026 at the Gran Teatro all’Aperto Giacomo Puccini, an open-air theatre right on the lake where the composer once lived and created many of his masterpieces. Performances begin at 9:15 pm, with sunset over the water and the Apuan Alps in the background creating an atmosphere no indoor venue can match.`,
+The festival runs until 5 September 2026 at the Gran Teatro all’Aperto Giacomo Puccini, an open-air theatre right on the lake where the composer once lived and created many of his masterpieces. Performances begin at 9:15 pm, with sunset over the water and the Apuan Alps in the background.`,
       },
       {
         id: 'festival-dates-program-2026',
@@ -3184,7 +3184,7 @@ Check rates and availability for Palazzo Ravizza
 
 It is quieter than the very heart of the historic core and works well for drivers who want to avoid the tightest streets while still being able to stroll in.
 
-*   **Pros:** Attractive garden setting, straightforward parking, solid breakfast, friendly atmosphere.
+*   **Pros:** Attractive garden setting, straightforward parking, solid breakfast, a 10–15 minute walk from the centre.
 *   **Caveat:** Not as central as Athena or Ravizza; parking must usually be reserved and is not free. Rooms are comfortable but not luxurious.
 *   **Price band:** €130–220.
 *   **Practical tip:** Reserve the parking spot when you book; the short walk is pleasant but involves some hills and cobbles.
@@ -3212,7 +3212,7 @@ Check rates and availability for Hotel Italia
       {
         id: 'sangallo-park-hotel',
         heading: 'Sangallo Park Hotel – Best pure road-trip base with pool',
-        body: `Sangallo Park Hotel sits on a hillside a short drive (or bus ride) from the centre. It offers ample free parking, an outdoor pool, panoramic views and a relaxed atmosphere that works especially well if your priority is day trips rather than walking everywhere in Siena.
+        body: `Sangallo Park Hotel sits on a hillside a short drive (or bus ride) from the centre. It offers ample free parking, an outdoor pool and panoramic views — a combination that works especially well if your priority is day trips rather than walking everywhere in Siena.
 
 The historic centre is roughly 10–15 minutes by car or a bit longer by bus/taxi. Many guests use it exactly as a comfortable base for exploring the wider region by car.
 
@@ -3228,12 +3228,12 @@ Check rates and availability for Sangallo Park Hotel
       {
         id: 'certosa-di-maggiano',
         heading: 'Hotel Certosa di Maggiano – Luxury monastery base in the countryside',
-        body: `A converted 14th-century Carthusian monastery about 2 km from the walls, Certosa di Maggiano offers free private parking, a swimming pool, extensive gardens and a high level of service and atmosphere. It is one of the most distinctive stays near Siena.
+        body: `A converted 14th-century Carthusian monastery about 2 km from the walls, Certosa di Maggiano offers free private parking, a swimming pool and extensive gardens. It is one of the most distinctive stays near Siena.
 
 The centre is a short drive or taxi ride (hotel shuttle is sometimes available). It is perfect if you want a serene, high-end base and are happy to drive or taxi into the city for sightseeing.
 
 *   **Pros:** Exceptional setting and service, free parking, pool and grounds, memorable luxury experience.
-*   **Caveat:** Not walkable; higher price point; historic building means no lifts in some areas and a more formal atmosphere.
+*   **Caveat:** Not walkable; higher price point; historic building means no lifts in some areas.
 *   **Price band:** €300–550+ (verify carefully).
 *   **Practical tip:** Best for travellers who want the countryside atmosphere as much as the city and are prepared for the higher rate.
 
