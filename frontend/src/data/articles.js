@@ -706,7 +706,7 @@ const allArticles = [
       {
         "id": "meat-and-hearty-main-dishes",
         "heading": "Meat and hearty main dishes",
-        "body": "### 11. Bistecca alla fiorentina\n\nBistecca alla fiorentina is a thick steak traditionally cooked rare over high heat and often sold by weight. It is designed for sharing.\n\nBefore ordering, confirm the approximate weight, price per unit, and cooking style. Travellers who require well-done meat may prefer another dish rather than arguing with a restaurant built around the traditional preparation.\n\n### 12. Peposo\n\nPeposo is a slow-cooked, peppery beef dish associated with the area around Impruneta. Red wine and long cooking create a rich result.\n\nIt is particularly appealing in cool weather and pairs naturally with Tuscan bread or simple sides.\n\n### 13. Cinghiale\n\nWild boar appears as ragù, stew, cured meat, and other preparations. It is associated with rural and hunting traditions across parts of Tuscany.\n\nTravelers who do not eat game should ask rather than assume a generic “ragù” is beef.\n\n### 14. Arista\n\nArista is roast pork flavored with herbs. It can appear hot as a main course or sliced in simpler settings.\n\nThe dish shows the restrained side of Tuscan meat cooking: good pork, herbs, careful roasting, and little unnecessary decoration.\n\n### 15. Lampredotto\n\nLampredotto is a Florentine tripe specialty often served in a sandwich with sauce. It is a city-specific street-food experience rather than a dish every visitor must enjoy.\n\nStart with a small serving if offal is unfamiliar. Ask how it is dressed and choose a busy, reputable vendor."
+        "body": "### 11. Bistecca alla fiorentina\n\nBistecca alla fiorentina is a thick steak traditionally cooked rare over high heat and often sold by weight. It is designed for sharing.\n\nBefore ordering, confirm the approximate weight, price per unit, and cooking style. Travellers who require well-done meat may prefer another dish rather than arguing with a restaurant built around the traditional preparation.\n\n### 12. Peposo\n\nPeposo is a slow-cooked, peppery beef dish associated with the area around Impruneta. Red wine and long cooking create a rich result.\n\nIt is particularly appealing in cool weather and pairs naturally with Tuscan bread or simple sides.\n\n### 13. Cinghiale\n\nWild boar appears as ragù, stew, cured meat, and other preparations. It is associated with rural and hunting traditions across parts of Tuscany.\n\nTravelers who do not eat game should ask rather than assume a generic “ragù” is beef.\n\n### 14. Arista\n\nArista is roast pork flavored with herbs. It can appear hot as a main course or sliced in simpler settings.\n\nThe dish shows the restrained side of Tuscan meat cooking: good pork, herbs, careful roasting, and little unnecessary decoration.\n\n### 15. Lampredotto\n\nLampredotto is a Florentine tripe speciality often served in a sandwich with sauce. It is a city-specific street-food experience rather than a dish every visitor must enjoy.\n\nStart with a small serving if offal is unfamiliar. Ask how it is dressed and choose a busy, reputable vendor."
       },
       {
         "id": "coastal-and-maremma-food",
@@ -731,7 +731,7 @@ const allArticles = [
       {
         "id": "what-to-order-in-siena",
         "heading": "What to order in Siena",
-        "body": "A focused Siena meal might include crostini neri, pici all’aglione or pici with breadcrumbs, a local meat dish or pecorino, and ricciarelli or panforte.\n\nDo not force every specialty into one sitting. A better strategy is one substantial lunch, one lighter aperitivo, and several bakery stops across the stay.\n\nUse [our Siena 2-day itinerary](/blog/siena-2-day-itinerary/) to place meals without sacrificing the city’s major sights."
+        "body": "A focused Siena meal might include crostini neri, pici all’aglione or pici with breadcrumbs, a local meat dish or pecorino, and ricciarelli or panforte.\n\nDo not force every speciality into one sitting. A better strategy is one substantial lunch, one lighter aperitivo, and several bakery stops across the stay.\n\nUse [our Siena 2-day itinerary](/blog/siena-2-day-itinerary/) to place meals without sacrificing the city’s major sights."
       },
       {
         "id": "how-to-read-an-italian-menu",
@@ -1316,7 +1316,7 @@ const allArticles = [
       {
         "id": "12-45-eat-before-everyone-is-exhausted",
         "heading": "12:45 — Eat before everyone is exhausted",
-        "body": "An early lunch can avoid the busiest period and prevent a hunger-driven collapse.\n\nFamily-friendly choices include:\n\n- Pici with a simple sauce.\n- Soup or vegetable dishes.\n- Shared antipasti.\n- Bread, cheese, and cured products when suitable.\n- Familiar pasta options.\n- Gelato later rather than as the only meal.\n\nAsk about allergens, alcohol in sauces, spice, and meat stock. Portions and sharing policies vary.\n\nThe [Tuscany food guide](/blog/tuscany-food-guide/) explains regional dishes without assuming children will eat every specialty."
+        "body": "An early lunch can avoid the busiest period and prevent a hunger-driven collapse.\n\nFamily-friendly choices include:\n\n- Pici with a simple sauce.\n- Soup or vegetable dishes.\n- Shared antipasti.\n- Bread, cheese, and cured products when suitable.\n- Familiar pasta options.\n- Gelato later rather than as the only meal.\n\nAsk about allergens, alcohol in sauces, spice, and meat stock. Portions and sharing policies vary.\n\nThe [Tuscany food guide](/blog/tuscany-food-guide/) explains regional dishes without assuming children will eat every speciality."
       },
       {
         "id": "14-15-choose-outdoor-space-or-an-indoor-backup",
@@ -2569,7 +2569,7 @@ The festival runs until 5 September 2026 at the Gran Teatro all’Aperto Giacomo
       },
       {
         id: 'festival-dates-program-2026',
-        heading: 'Festival Dates, Program & Highlights 2026',
+        heading: 'Festival Dates, Programme & Highlights 2026',
         body: `This year’s edition celebrates the centenary of Turandot with a spectacular production. Here is the full lineup of Puccini’s greatest works plus special events (all at 9:15 pm):
 
 *   **Turandot (centenary highlight):** 17, 24 July; 1, 9 August
@@ -2724,7 +2724,7 @@ Begin at the world-famous Piazza del Campo. Sit on the gently sloping brick pave
 Step one block off the Campo into quieter streets such as Via di Pantaneto or Via dei Rossi. Order classic dishes: hand-rolled pici pasta with wild-boar ragù (cinghiale) or garlic-tomato sauce (aglione), crostini neri (liver pâté on unsalted Tuscan bread), and a glass of local Chianti Colli Senesi. Finish with ricciarelli almond biscuits or cantucci dipped in Vin Santo. Expect €18–28 per person in a proper trattoria — far better value than Campo-side tables.
 
 ![Authentic pici pasta with wild boar ragu](/images/siena/pici-pasta-wild-boar-ragu-siena.webp)
-*Don't leave Siena without trying hand-rolled pici pasta, a local specialty.*
+*Don't leave Siena without trying hand-rolled pici pasta, a local speciality.*
 
 **Afternoon (2:30 – 6 PM): Duomo Complex and Contrade Streets**
 Head uphill to the breathtaking Duomo (Cathedral). Purchase the OPA SI Pass (around €15–20, valid three days) for skip-the-line access to the striped marble interior, Pinturicchio’s frescoed Piccolomini Library, and the panoramic Facciatone viewpoint on the unfinished New Cathedral façade. The black-and-white marble and intricate floor panels rank among Italy’s finest Gothic treasures. (Note: the famous marble floor is uncovered during the 2026 periods listed above.)
