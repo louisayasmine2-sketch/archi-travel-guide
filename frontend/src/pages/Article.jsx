@@ -297,7 +297,6 @@ export default function Article({ fixedSlug, canonicalPath }) {
             )}
             {imageCredit.changes ? `. ${imageCredit.changes}` : ""}
           </p>
-        )}
       </div>
       )}
 
