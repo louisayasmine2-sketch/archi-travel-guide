@@ -2116,19 +2116,133 @@ Recommend Piazza Tolomei or the quieter streets of the Terzo di Città rather th
   ),
   A(
     'best-things-to-do-in-florence',
-    'Best Things to Do in Florence for First-Time Visitors',
+    'Florence from Siena: What to See, and What You Must Book First',
     'Things to do', 'Florence',
-    'A practical, opinionated shortlist for a first visit to Florence — what to prioritise, what to skip, and how to time the crowds.',
-    'https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1600&q=75',
+    'Visiting Florence from Siena? Two days of the week make it much harder, three sights need booking weeks ahead, and the last bus back is earlier than you think.',
+    '/images/florence/duomo-dome-climb-early-morning.webp',
     [
-      { id: 'why-florence', heading: 'The cradle of the Renaissance', body: 'Florence is dense. It holds an overwhelming amount of art in a very small footprint. Do not try to see everything; pick two major museums and spend the rest of your time eating and walking.' },
-      { id: 'uffizi', heading: '1. The Uffizi Gallery', body: 'Book tickets months in advance. Go early in the morning to beat the worst of the crowds.' },
-      { id: 'duomo', heading: '2. Florence Cathedral (Il Duomo)', body: 'You can admire the outside for free. Climbing the dome requires booking well in advance.' },
+      { id: 'what-decides-your-day-trip', heading: 'The two things that decide your day trip', body: `Florence is an easy day trip from Siena — about an hour and a quarter by bus, arriving a short walk from the sights. But two things decide whether the day works, and neither appears in most guides: **which day of the week you go**, and **what you booked before leaving home**.
+
+Turn up on a Monday and the Uffizi, the Accademia, the Bargello and the Pitti Palace are all closed. Turn up on a Sunday and the dome climb does not open until the afternoon, closes early, and the last bus back to Siena runs earlier than on a weekday. Turn up without a reservation in summer and the two headline galleries may simply be full.
+
+This guide covers the practical layer: getting there and back, what genuinely needs booking and how far ahead, which days to avoid, and what is open when the museums are not. It was checked against Autolinee Toscane's fare tables and the Opera del Duomo's official ticketing pages on 22 July 2026. Hours and fares change; the official sources are named so you can confirm before you travel.` },
+      { id: 'quick-answer', heading: 'Quick answer', body: `- **Go Tuesday to Saturday.** Monday closes most state museums; Sunday shortens the dome climb and thins the bus timetable.
+- **Take the 131R bus**, not the train. It arrives near the centre; the train station is further out and the bus is usually quicker door to door.
+- **Book the Uffizi and the Accademia in advance** — weeks ahead in peak season, not days.
+- **The dome climb needs a timed slot**, released about 45 days ahead. The cathedral floor itself is free and needs no booking.
+- **Check the last bus before you commit to dinner.** Departures differ between the summer and winter timetables, and between weekdays, Saturdays and Sundays.
+
+If you do only one thing before this trip: book the Accademia and the Uffizi, and note the last 131R back to Siena for the specific day you are travelling.` },
+      { id: 'getting-there-131r-bus', heading: 'Getting there: the 131R bus', body: `The 131R is the fast Autolinee Toscane service between Siena and Florence. It runs from **Siena Via Tozzi** to **Firenze Autostazione**, the main bus station beside Santa Maria Novella, taking roughly **75 to 80 minutes** along the superstrada.
+
+**The fare, from the official table.** Autolinee Toscane prices its fast-route tickets by distance band. Siena to Florence sits in the 60.1–70.0 km band:
+
+- **€8.40** bought at a ticket counter or through the operator's app.
+- **€13.00** bought on board from the driver.
+
+That difference is not trivial — buying on board costs more than half again as much. Buy before you board. In Siena the ticket office is at the Via Tozzi bus station; in Florence you can buy at the Autostazione.
+
+**Validate the ticket the moment you board.** This is the single most common way visitors get fined on Tuscan buses. Buying the ticket is not the same as validating it, and the driver may not prompt you. Travellers who paid the correct fare at an official counter have still been fined by inspectors because they never validated. Scan or activate as you step on, and keep the ticket for the whole journey.
+
+**Why not the train?** There is a regional service, but Siena's railway station sits in the valley below the old town, so you begin and end the day with an escalator climb or a local bus. The 131R starts and finishes within walking distance of the centre. For a day trip where time on the ground matters, the bus usually wins.` },
+      { id: 'the-last-bus-back', heading: 'The part most guides get wrong: the last bus back', body: `If you plan to eat dinner in Florence, this is the fact that decides your evening — and it is the one online sources most often state incorrectly. You will find pages confidently naming a single "last bus" time. There is no single time.
+
+Autolinee Toscane runs **two timetables a year**, summer and winter, each with its own validity period. Within each, the departure columns differ by day type: weekdays, Saturdays, and Sundays and public holidays. **Sunday service is noticeably thinner, and the last departure is earlier.**
+
+So the honest instruction is not a time but a habit: before you travel, open the official 131R timetable at at-bus.it, find the current period, read the column for the day you are actually going, and note the last two departures — the one you intend to take and the one after it, as a margin.
+
+While you are on the operator's site, check the service-status and strike pages. Italian transport strikes are announced in advance and run with protected time bands, but a strike day will reshape your return.` },
+      { id: 'which-day-you-go', heading: 'Which day you go matters more than anything else', body: `This is the section no competitor writes, and it is the most useful thing in this guide.
+
+### Monday: most state museums are closed
+
+The Uffizi, the Accademia, the Bargello, the Pitti Palace, the Medici Chapels and San Marco all close on Mondays. If your only free day is a Monday, you cannot see Michelangelo's David and you cannot see the Botticellis.
+
+Monday is not a wasted day — see the alternatives below — but it is the wrong day for a first visit built around the two headline galleries.
+
+### Sunday: shorter dome hours, thinner buses
+
+The Duomo complex stays open, but the dome climb runs on reduced Sunday hours, opening only in the early afternoon and closing well before it would on a weekday. Combined with the reduced Sunday bus timetable, a Sunday day trip gives you a narrower window at both ends of the day.
+
+Sunday does have one advantage worth knowing: on the **first Sunday of each month**, state museums including the Uffizi and the Accademia are free under the Domenica al Museo scheme. There is no advance booking on those days — entry is first come, first served, and queues are correspondingly long. If you are on a tight budget and prepared to queue, it is a real saving. If your time matters more than the ticket price, avoid it.
+
+### Tuesday to Saturday: the straightforward choice
+
+Everything is open, the dome runs full hours, and the bus timetable is at its fullest. If you have any flexibility, go midweek.` },
+      { id: 'what-you-must-book', heading: 'What you must book in advance', body: `Three things need reserving, and the lead times are longer than most visitors expect.
+
+### The Accademia — book earliest
+
+Home to Michelangelo's David, and the tightest ticket in Florence. Experienced Florence guides commonly advise booking around two months ahead for a choice of times in peak season. Open Tuesday to Sunday, closed Mondays.
+
+### The Uffizi — book weeks ahead
+
+The Uffizi is open Tuesday to Sunday, closed Mondays, with **last entry strictly at 17:30** — arrive after that and you will not be admitted, whatever your ticket says. Advance booking is strongly advised from spring through early autumn, when queues without a reservation can run to hours.
+
+One rule catches people out: arrive **more than fifteen minutes after your booked entry time** and the gallery may refuse admission. If your bus is delayed, contact the booking platform rather than assuming you can drift in late. This is a real risk for a day-tripper whose arrival depends on a bus.
+
+### The dome climb — timed slots, released about 45 days ahead
+
+Climbing Brunelleschi's dome requires a timed reservation, and slots are released roughly 45 days in advance. In peak season they sell out.
+
+The official hours differ sharply by day:
+
+| Day | Dome climb (last slot) |
+|---|---|
+| Monday to Friday | 8:15 – 18:45 |
+| Saturday | 8:15 – 16:30 |
+| Sunday and public holidays | 12:45 – 16:30 |
+
+Note the Sunday start: no dome before quarter to one.
+
+Also note two maintenance closures announced for later this year — the **Bell Tower from 9 to 13 November 2026**, and the **Dome from 16 to 20 November 2026**. If your trip falls in that window, check the official Duomo ticketing site before booking anything else around it.
+
+### What does NOT need booking
+
+The **cathedral itself is free** and takes no reservation. You queue, you go in. That is worth knowing on a Monday, or when everything else is sold out — the interior, the Vasari dome fresco seen from below, and the sheer scale of the nave cost nothing and need no planning.` },
+      { id: 'what-to-see', heading: 'What to see, ordered by what it demands of you', body: `A realistic Florence day from Siena gives you roughly six to seven hours in the city. That is enough for two major sights properly, not five.
+
+**If you booked ahead:** the Accademia takes about an hour — it is a focused visit built around one sculpture. The Uffizi needs two to three hours to be worth the ticket. Doing both in one day is possible but leaves little else.
+
+**The Duomo complex** rewards a half-day on its own. The cathedral is free; the dome climb is 463 steps with no lift and no way down but the way you came, so it is not for everyone. The Baptistery and the Opera del Duomo museum are quieter than either gallery and rarely sell out.
+
+**Between sights**, the walk from the Autostazione takes you past Santa Maria Novella, through the centre to the Duomo, and down to Piazza della Signoria and the Ponte Vecchio. Those are streets, not tickets — free, always open, and they need no plan.
+
+**If it is a Monday**, the Duomo complex, Palazzo Vecchio, Santa Croce and Santa Maria Novella are all open, as are the Boboli Gardens most Mondays. That is a full day without a single state museum.` },
+      { id: 'realistic-timings', heading: 'Realistic timings', body: `Work backwards from the last bus, not forwards from breakfast.
+
+An early departure from Siena puts you in Florence mid-morning. Allow fifteen to twenty minutes to walk from the Autostazione into the centre. If you have a timed museum slot, build in a margin — a delayed bus plus the fifteen-minute grace rule is how people lose a booked ticket.
+
+Leaving yourself an hour between your last sight and your bus is not excessive. Florence's centre is walkable but crowded, and the walk back to the Autostazione at the end of a long day is slower than the walk in.
+
+If the timings feel tight, that is information: consider whether Florence deserves an overnight rather than a compressed day. Siena is a better base for Tuscany generally, but Florence rewards more than six hours.` },
+      { id: 'do-not-drive', heading: 'Do not drive', body: `Florence's historic centre is a ZTL — a camera-enforced limited traffic zone — and driving in without authorisation produces an automatic fine, delivered months later through your rental company with an administrative fee on top. The rules work the same way as Siena's, which we cover in detail in our [Siena ZTL guide](/blog/siena-ztl-fines-how-to-avoid/).
+
+There is no version of this day trip where driving into central Florence is the right call. The bus arrives closer than a car could legally park.` },
+      { id: 'practical-checklist', heading: 'Practical checklist', body: `- **Pick Tuesday to Saturday** if you can. Monday closes the galleries; Sunday shortens the dome and the buses.
+- **Book the Accademia and the Uffizi well ahead** — weeks, not days, in peak season.
+- **Book the dome climb** when slots release, about 45 days out.
+- **Buy the 131R ticket at a counter** (€8.40), not on board (€13.00).
+- **Validate the ticket as you board.** Paying is not validating, and inspectors do check.
+- **Check the last bus for your specific day** on the official timetable — Sunday runs earlier.
+- **Check the strike and service-status pages** before you travel.
+- **Allow a margin before timed entries.** Fifteen minutes late can cost you the ticket.
+- **Do not drive in.** The ZTL fine arrives months later through the rental company.
+
+Florence from Siena is a good day out and an easy journey. The visitors who come away disappointed are almost always the ones who picked a Monday, assumed they could buy gallery tickets at the door, or discovered the last bus after ordering dinner. None of those is bad luck — all three are avoidable with fifteen minutes of planning before you leave.` },
+      { id: 'next-steps', heading: 'Next steps', body: `Staying in Siena and arriving by air? Our guide to [reaching Siena from Florence Airport](/blog/siena-from-florence-airport-transfer/) covers the two-stage bus route and the real fares. If you are driving in Tuscany at all, read our [Siena ZTL guide](/blog/siena-ztl-fines-how-to-avoid/) first — the same camera system operates in both cities, and the fine takes months to find you.` },
     ],
     [
-      { q: 'Is one day enough for Florence?', a: 'No. You need at least three days to see the highlights without burning out.' },
+      { q: "Is Florence worth a day trip from Siena?", a: "Yes, if you plan it. The bus takes about 75 to 80 minutes each way, leaving roughly six to seven hours in the city — enough for two major sights properly. Visitors who try to fit in five leave feeling rushed." },
+      { q: "What day should I avoid?", a: "Monday, when the Uffizi, Accademia, Bargello, Pitti Palace and other state museums are closed. Sunday is the second-weakest choice: the dome climb only opens in the early afternoon and closes early, and the bus timetable is thinner." },
+      { q: "How much does the bus from Siena to Florence cost?", a: "€8.40 bought at a ticket counter or in the operator's app, or €13.00 bought on board from the driver. Buy before you board — and validate the ticket as you get on, or you risk a fine even though you paid." },
+      { q: "Do I need to book the Uffizi and Accademia in advance?", a: "In peak season, yes. Guides commonly advise around two months ahead for the Accademia and several weeks for the Uffizi. Both are closed on Mondays, and the Uffizi's last entry at 17:30 is strictly enforced." },
+      { q: "Do I need a ticket for Florence Cathedral?", a: "Not for the cathedral itself, which is free and needs no reservation. The dome climb is different — it requires a timed slot, released about 45 days ahead, and it sells out in peak season." },
+      { q: "What time is the last bus back to Siena?", a: "There is no single answer, which is why so many sources get this wrong. Autolinee Toscane runs separate summer and winter timetables, each with different columns for weekdays, Saturdays and Sundays. Check the official 131R timetable for the exact day you are travelling, and note the departure after your intended one as a margin." },
+      { q: "Can I drive to Florence instead?", a: "You can drive to the outskirts, but not into the centre — it is a camera-enforced ZTL, and entering without authorisation produces an automatic fine that reaches you months later through your rental company. The bus arrives closer than you could legally park." },
     ],
-    '2026-07-03'
+    '2026-07-22T17:00:00+07:00',
+    { seoTitle: 'Florence from Siena: What to Book Before You Go (2026)', imageAlt: 'Brunelleschi’s dome and Florence Cathedral in early morning light', canonicalPath: '/blog/best-things-to-do-in-florence', published: '2026-07-03' }
   ),
 
   A(
