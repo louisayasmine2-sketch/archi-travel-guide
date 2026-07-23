@@ -1689,49 +1689,173 @@ Parking in Siena is straightforward once you accept the basic rule: the car stay
   ),
   A(
     "siena-travel-cost-2026",
-    "Siena Italy Budget Guide 2026: Realistic Costs for US & UK Travellers",
+    "Siena Day Trip or Overnight: What It Actually Costs, and What Changes",
     "Budget", "Siena",
-    "Planning a trip to Siena Italy on a budget in 2026? This practical guide details realistic costs for US and UK travellers on day trips or short stays.",
-    "https://images.unsplash.com/photo-1533777857889-4be7c050a86c?auto=format&fit=crop&w=1600&q=75",
+    "A night in Siena adds tourist tax and a room, but saves €10 a day on parking and unlocks tickets day-trippers often can't get. The real trade-offs, costed.",
+    "/images/siena/05-piazza-del-campo-panorama.webp",
     [
-      { id: "introduction", heading: "Realistic Siena Trip Costs", body: `How much does a trip to Siena cost? While cheaper than Florence or Venice, budgeting for Siena requires understanding train logistics, city tax rules, and local dining pricing. This realistic cost breakdown helps first-timers plan their budget for 2026.` },
-      { id: "transportation", heading: "Transportation Costs (Florence/Rome to Siena)", body: `Getting to Siena is straightforward and affordable if you skip the car.
+      { id: 'introduction', heading: 'Introduction', body: `Most guides answer "how much does Siena cost?" with a daily average — €90 here, €150 there — assembled from nobody knows where. That number cannot help you, because the decision you are actually making is narrower and sharper: **do I come for the day, or do I stay the night?**
 
-- Bus (131R from Florence): €8.40 one-way – the cheapest and most convenient option.
-- Train (from Florence): €10.20 one-way – comfortable and takes about 1.5 hours.
-- Train (from Rome Termini with transfer): €20–€35 one-way – doable in 3–4 hours.
+The honest answer is that the difference is smaller than it looks in one direction and larger in another. An overnight adds a room and a tourist tax of a couple of euros. But it also cuts your parking bill by €10 a day, and it removes a constraint most day visitors do not discover until they hit it: some of Siena's best tickets are only sold on the day, in limited numbers, and they can be gone by the time a day-tripper arrives.
 
-A car rental isn’t necessary and actually saves you money – you’ll avoid ZTL fines and parking fees (€20–€30 per day) in the historic centre.` },
-      { id: "accommodation", heading: "Accommodation Budget (Hostel vs Hotel vs Apartment)", body: `![Charming hotel room or apartment window view in Siena](https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&fit=crop)
-*Photo by Unsplash (Royalty-free)*
+This guide sets out what each option genuinely costs, using figures published by the Comune di Siena and the municipal parking operator, and it is honest about the one number nobody can source: what a room costs. Checked on 23 July 2026.` },
+      { id: 'quick-answer', heading: 'Quick answer', body: `**An overnight adds:**
 
-Siena offers good value compared with bigger Tuscan cities. Here are realistic 2026 nightly rates:
+- A room — market price, no official source, see the bracketing note below
+- Tourist tax of **€2.00 per person per night** in a B&B, apartment or short let, or **€1.00** in a hostel or campsite
 
-- Budget/Guesthouses: €50–€80 per night.
-- Mid-range 3-star Hotels: €90–€140 per night.
-- Boutique / Apartments in the centre: €150–€220 per night.` },
-      { id: "food-drink", heading: "Daily Food & Drink Cost Breakdown", body: `![Italian espresso coffee and cornetto croissant at a cafe counter](https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&fit=crop)
-*Photo by Unsplash (Royalty-free)*
+**An overnight saves or unlocks:**
 
-You can eat well in Siena without breaking the bank if you follow local habits. A realistic daily food budget looks like this:
+- **€10 per day on parking** — hotels can arrange a €25 rate against the standard €35
+- Same-day-only tickets that day visitors frequently miss
+- The last-bus constraint, which shapes a day trip from the moment you arrive
 
-- Breakfast (caffè + cornetto at the bar counter): €2.50–€3.50.
-- Lunch (casual panino or slice of pizza): €6–€10.
-- Dinner (seated meal in a local trattoria with house wine): €25–€40 per person.
-- Aperitivo: €8–€12.
-- Total food budget: €40–€65 per day.` },
-      { id: "sightseeing", heading: "Sightseeing & Entry Fees", body: `Most of Siena’s magic is free, but a few paid attractions are worth it:
+**A day trip costs**, at minimum, your return transport plus whatever you park or ride, and it is entirely reasonable — Siena's centre is compact and one full day covers the main sights.
 
-- Duomo Opa Si Pass (Siena Cathedral complex): €15–€20 (highly recommended).
-- Torre del Mangia: €10.
-- Walking around Piazza del Campo and historic streets: Free.` }
+The real question is not which is cheaper. It is whether the extra ticket access and the removed time pressure are worth a room and roughly €2 a head.` },
+      { id: 'what-a-day-trip-actually-costs', heading: 'What a day trip actually costs', body: `Two ways in, and the sums differ.
+
+### Arriving by bus from Florence
+
+The 131R fast bus runs from Firenze Autostazione to Siena in roughly 75 to 80 minutes. From Autolinee Toscane's published fare table, Siena–Florence sits in the 60.1–70.0 km band:
+
+- **€8.40** bought at a ticket counter or in the operator's app
+- **€13.00** bought on board from the driver
+
+A return day trip bought properly therefore costs **€16.80** in transport. Bought from the driver both ways, it costs €26.00 — a €9.20 penalty for not planning ahead.
+
+One rule matters more than the fare: **validate the ticket the moment you board**. Buying is not validating, the driver may not check, and travellers who paid the correct fare at an official counter have still been fined by inspectors.
+
+### Arriving by car
+
+You cannot drive into the historic centre — it is a camera-enforced ZTL, active 24 hours a day, and the fine is automatic and arrives months later through your rental company. So the cost is parking, and it varies more than most visitors expect:
+
+| Where | Full day |
+|---|---|
+| Central car parks (Il Campo, Il Duomo, Santa Caterina, San Francesco) | €35.00 |
+| Stadio–Fortezza | €26.00 |
+| Policlinico (Eliporto, FastPark) | €2.50 |
+| Il Campino (free area below the Fortezza) | Free |
+
+That is a spread of €35 between the most and least convenient options for the same day out. Il Campino is roughly ten minutes' walk from Piazza del Campo and costs nothing; the Policlinico car parks are further out but charge €2.50 for a full day.
+
+Our [Siena parking guide](/blog/siena-parking-and-transfer-guide/) covers each car park, the escalators, and the days Stadio–Fortezza partly closes.
+
+### The constraint nobody costs
+
+A day trip has a deadline. Autolinee Toscane runs two timetables a year, summer and winter, each with separate columns for weekdays, Saturdays, and Sundays and public holidays — and **Sunday's last departure is noticeably earlier**.
+
+That deadline shapes the whole day. You cannot linger over a late lunch, you cannot decide at 17:00 to add one more museum, and if a queue runs long you lose something else. It costs nothing in euros and a great deal in flexibility.` },
+      { id: 'what-an-overnight-adds', heading: 'What an overnight adds', body: `Two things, and only one of them has an official price.
+
+### The tourist tax — €2.00 a night, and a cap nobody mentions
+
+Siena charges an imposta di soggiorno, collected by your accommodation, not by the city directly. From the Comune di Siena's own page:
+
+- **€2.00 per person per night** for the entire non-hotel sector and short lets — B&Bs, apartments, holiday lets. **Fixed all year**, no seasonal variation.
+- **€1.00 per person per night** for campsites and hostels, also unchanged through the year.
+
+Hotels are charged by star category, and historically the rate varied between winter and summer. Those figures sit on a page the Comune itself marks as superseded, so we are not quoting them — check the current hotel rates on the official page or ask your property, which has to itemise the tax on your receipt.
+
+Three things about this tax that almost no English guide explains:
+
+**There is a cap.** The tax is charged for a maximum of six nights per calendar month in the same property. A week-long stay is not seven nights of tax.
+
+**Airbnb collects it automatically.** Under an agreement between the Comune di Siena and Airbnb Ireland in force since January 2019, the platform charges and remits the tax for its bookings. If you booked through Airbnb, you should not be asked to pay again at the property.
+
+**There are exemptions.** The Comune's regulation lists them: people undergoing treatment at local health facilities, up to two carers per patient, non-self-sufficient disabled guests plus a companion, and coach drivers and tour guides accompanying organised groups. If any applies to you, there is a form at reception.
+
+For two people spending three nights in an apartment, the tax comes to €12 in total. It is not the number that decides your trip, but it should not be a surprise on the bill either.
+
+### The room — and why we will not invent a figure
+
+Here this guide will be less precise than others, deliberately.
+
+Room rates in Siena are market prices set by individual properties and moving constantly with season, demand and how far ahead you book. There is no municipal register, no official rate card, and no source we can cite. Sites that publish confident nightly averages are aggregating booking data of unknown vintage, or estimating.
+
+So rather than repeat a figure we cannot stand behind: **check live prices for your own dates**, and expect three things to move them sharply — high summer, the two Palio dates of 2 July and 16 August, and how central you want to be. Rooms inside the walls carry a premium over accommodation just outside them, and the gap widens in peak season.
+
+Bracket it yourself against real prices for your dates. That will be more accurate than any average we could print.` },
+      { id: 'what-an-overnight-saves', heading: 'What an overnight saves', body: `This is the half of the ledger that almost never appears, and for some travellers it changes the maths entirely.
+
+### €10 a day on parking
+
+If you are staying overnight anywhere in the Comune di Siena, your accommodation can arrange a **hotel rate of €25 per day** at the central car parks, against the standard **€35**.
+
+It is not automatic. The property has to arrange or confirm it, so ask when you book. Over three nights that is €30 saved for one question — which, for a couple, is most of the tourist tax back.
+
+### Tickets a day visitor may not get
+
+This is the strongest practical argument for staying, and it is not about money.
+
+**Torre del Mangia tickets are sold on the day only.** They cannot be reserved in advance, capacity is limited, and visitors climb in small timed groups. A day-tripper arriving mid-morning may find the day's slots already taken. Someone staying overnight can be at the ticket office when it opens.
+
+**The cathedral's inlaid marble floor is uncovered only during scheduled periods** each year, announced by the Opera della Metropolitana. When it is uncovered the complex is busier and the pass costs more; when it is covered you see a different cathedral. Check the official calendar for your dates rather than assuming.
+
+Neither of these is a reason to stay by itself. Together they mean an overnight visitor has options a day visitor does not.
+
+### The deadline
+
+An overnight removes the last-bus problem entirely. You are not working backwards from a departure time, and a queue that runs long costs you nothing but the queue.` },
+      { id: 'which-one-makes-sense-for-you', heading: 'Which one makes sense for you', body: `**A day trip works well if:**
+
+- Siena is one stop in a wider Tuscany itinerary
+- You are content with the main sights — Piazza del Campo, the Duomo complex, the historic streets
+- You can arrive early rather than at midday
+- You are travelling on a Saturday or midweek, when the bus timetable is at its fullest
+- You are prepared to park at Il Campino or the Policlinico car parks and walk
+
+**An overnight is worth the room if:**
+
+- You want the Torre del Mangia and cannot risk the day's tickets being gone
+- You are driving and staying more than one day — the €25 parking rate offsets part of the room
+- You want more than one museum, at a pace that does not race a bus timetable
+- You are visiting on a Sunday, when the last departure is earlier
+- Siena is the anchor of your trip rather than a stop on the way
+
+**Either way:** do not drive into the walls. If your accommodation is inside the ZTL, email them your exact number plate before you arrive — many properties want it at least 48 hours ahead — and read our guide to [avoiding a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/) first.` },
+      { id: 'a-worked-example', heading: 'A worked example', body: `Two people, coming from Florence, wanting the Campo, the Duomo complex and the Torre del Mangia.
+
+**As a day trip by bus:** €16.80 each in return transport bought at the counter, so €33.60 for two, plus attraction tickets. No tax, no room. The risk is the tower: arrive after the day's slots have gone and that part of the plan fails, with no second chance.
+
+**As an overnight by car:** parking at the hotel rate of €25 for the day rather than €35, tourist tax of €2 each so €4 for one night, plus the room. The tower is available first thing in the morning, and the return journey is not a deadline.
+
+The difference between them is the room, plus €4, minus €10 of parking. Whether that is worth it depends entirely on how much you want the things a day trip cannot guarantee.` },
+      { id: 'practical-checklist', heading: 'Practical checklist', body: `- **Buy bus tickets at a counter** — €8.40 against €13.00 from the driver.
+- **Validate the ticket as you board.** Paying is not validating.
+- **Check the last bus for your specific day.** Sunday runs earlier.
+- **Park at Il Campino (free) or Policlinico (€2.50/day)** if cost matters more than five minutes' walk.
+- **Staying over? Ask about the €25 parking rate** before you arrive.
+- **Budget €2 per person per night** in tourist tax for a B&B or apartment, capped at six nights a month.
+- **Booked via Airbnb?** The tax should already be collected — do not pay twice.
+- **Want the Torre del Mangia?** Tickets are same-day only. That favours staying over.
+- **Never drive into the historic centre.** The ZTL runs 24 hours a day.
+
+Siena works as a day trip and rewards an overnight. What it does not reward is arriving without knowing which you have chosen — because the bus deadline, the parking rate and the tower tickets all quietly depend on that decision.` },
+      { id: 'next-steps', heading: 'Next steps', body: `If you are driving, read our guide to [avoiding a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/) before you go anywhere near the walls, then our [Siena parking guide](/blog/siena-parking-and-transfer-guide/) for the car parks and rates. Arriving by air? Our guide to [reaching Siena from Florence Airport](/blog/siena-from-florence-airport-transfer/) covers the two-stage bus route and the real fares.` }
     ],
     [
-      { q: "Is Siena cheaper than Florence?", a: "Yes, accommodation and dining are generally 15-25% cheaper." },
-      { q: "What is the tourist tax in Siena?", a: "The 2026 city tourist tax is €2.00 to €5.00 per person per night depending on hotel star rating." },
-      { q: "Can I visit Siena on a budget day trip?", a: "Yes, travelling by bus from Florence and packing a light lunch keeps costs under €30 for the day." }
+      { q: "How much is the tourist tax in Siena?", a: "€2.00 per person per night for B&Bs, apartments and short lets, fixed all year, and €1.00 for hostels and campsites. Hotels pay by star category — check the current rates on the Comune di Siena's page, since the figures we could find for hotels sit on a page the city marks as superseded. The tax is capped at six nights per calendar month in the same property." },
+      { q: "Do I pay the tourist tax on an Airbnb booking?", a: "Usually not at the property. Under an agreement in force since January 2019, Airbnb collects and remits Siena's tourist tax for its bookings. If a property asks you to pay it again, check your booking confirmation." },
+      { q: "Is Siena worth staying overnight?", a: "It depends on what you want to see. The strongest practical argument is ticket access: Torre del Mangia tickets are sold same-day only with limited capacity, so a day visitor arriving mid-morning may miss them entirely. If you are driving, the €25 hotel parking rate also offsets part of the cost." },
+      { q: "How much does a day trip to Siena cost?", a: "Return bus transport from Florence is €16.80 per person bought at a counter, or €26.00 bought from the driver. If you drive, parking ranges from free at Il Campino to €2.50 a day at the Policlinico car parks and €35 at the central ones. Attraction tickets are extra." },
+      { q: "What is the cheapest way to visit Siena?", a: "Bus in and out with tickets bought at a counter, or drive and park free at Il Campino below the Fortezza — about ten minutes' walk from Piazza del Campo. Street parking is also free between 20:00 and 08:00." },
+      { q: "Why don't you give an average nightly room rate?", a: "Because there is no source we can stand behind. Room rates are market prices set by each property and move constantly with season and demand — there is no municipal register. Check live prices for your own dates instead, and expect high summer and the two Palio dates to raise them sharply." },
+      { q: "Does the tourist tax apply to children?", a: "The Comune's regulation sets out exemptions, and the age threshold for children is one of the details that varies by municipality. Ask your property, which is required to itemise the tax on your receipt and holds the current exemption forms." }
     ],
-    "2026-07-14T22:30:00+07:00"
+    "2026-07-23T22:00:00+07:00",
+    {
+      seoTitle: 'Siena Day Trip vs Overnight: The Real Cost Difference',
+      published: '2026-07-14',
+      imageAlt: 'Panoramic view across Piazza del Campo in Siena',
+      imageCredit: {
+        author: 'Ricardo André Frantz (Tetraktys)',
+        source: 'https://commons.wikimedia.org/wiki/File:Siena5.jpg',
+        license: 'CC BY-SA 3.0',
+        licenseUrl: 'https://creativecommons.org/licenses/by-sa/3.0/',
+        changes: 'Converted to WebP.'
+      }
+    }
   ),
   A(
     "best-restaurants-siena-italy",
