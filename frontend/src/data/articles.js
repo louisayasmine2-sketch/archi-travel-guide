@@ -1115,154 +1115,181 @@ const allArticles = [
   ),
     A(
     "siena-parking-and-transfer-guide",
-    "Where to Park in Siena: ZTL, Car Parks and Transfers",
+    "Where to Park in Siena: Car Parks, Real Rates and the ZTL",
     "Transport", "Siena",
-    "Plan parking in Siena without entering the ZTL. Compare Il Campo, Il Duomo, Santa Caterina, San Francesco, station parking and luggage transfers.",
+    "Every Siena car park with official 2026 rates, which ones have escalators, the €25 hotel rate, and the Wednesday closure that catches drivers out.",
     "/images/siena/01-hero-palazzo-pubblico-torre-del-mangia.webp",
     [
-      {
-        "id": "introduction",
-        "heading": "Introduction",
-        "body": "The safest approach to **parking in Siena** is simple: choose a car park before reaching the city, keep the vehicle outside the restricted historic centre, and complete the journey on foot, by escalator, taxi, or an arranged hotel transfer.\n\nSiena is not a city where driving closer automatically saves effort. A central route can lead toward the ZTL, while a slightly more distant facility with escalators may be easier with luggage or limited mobility.\n\n> **Quick answer:** Use **Il Campo** for the Piazza del Campo side, **Il Duomo** for the cathedral side, **Santa Caterina** for Fontebranda and western access, **San Francesco** for the eastern centre, **Stadio–Fortezza** for the northern side, and **La Stazione** for low-cost longer parking with escalator access. Verify live rates, capacity, roadworks, and access before arrival."
-      },
-      {
-        "id": "siena-parking-comparison",
-        "heading": "Siena parking comparison",
-        "body": "| Car park | Best for | Centre connection | Official rate snapshot checked July 2026* |\n|---|---|---|---|\n| Il Campo | Piazza del Campo and southern centre | Uphill walk from Porta Tufi side | €2/hour; €35 consecutive-day maximum |\n| Il Duomo | Cathedral and Santa Maria della Scala | Shorter central walk | €2/hour; €35 consecutive-day maximum |\n| Santa Caterina | Fontebranda, San Domenico, west side | Escalators | €2/hour; €35 consecutive-day maximum |\n| San Francesco | East side and central access | Escalators | €2/hour; €35 consecutive-day maximum |\n| Stadio–Fortezza | Fortress and north side | Walk into centre | €2/hour, 07:00–20:00; €26 daily |\n| La Stazione | Longer stays and rail area | Escalators toward centre | €0.50 first hour; €2 beyond second hour/full day |\n| Via Roma street parking | Porta Romana side | Uphill walk | On-street tariff published at €1.50/hour |\n| Fortezza-area street lots | North side | Walk | On-street tariff published at €1.50/hour |\n\n\\*Rates are a planning snapshot from Visit Siena’s official page and can change. Check Si.Ge.Ri.Co. or current signage before entering."
-      },
-      {
-        "id": "understand-siena-s-ztl-before-driving",
-        "heading": "Understand Siena’s ZTL before driving",
-        "body": "The historic centre is protected by a **Zona a Traffico Limitato**, or ZTL. Cameras and access controls can record unauthorized entry, and in a rental car the automatic fine can reach you months later — see [how to avoid a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/).\n\nDo not follow a navigation app into a restricted street simply because the route reaches your hotel. Road access can depend on vehicle authorization, time, resident permits, disability permits, hotel procedures, temporary events, and municipal rules.\n\nWhen accommodation is inside the ZTL, contact it before arrival and ask:\n\n1. Can the property authorize temporary vehicle access?\n2. Which gate and route must be used?\n3. Is luggage drop-off allowed?\n4. Does the license plate need registration?\n5. Where must the car be parked afterward?\n6. Are there times when access is prohibited regardless of hotel stay?\n7. What changes during the Palio or roadworks?\n\nKeep the written instructions available. A verbal assumption from a booking platform is not enough."
-      },
-      {
-        "id": "il-campo-car-park",
-        "heading": "Il Campo car park",
-        "body": "Il Campo is a logical choice for travellers approaching the southern side and prioritizing Piazza del Campo. It sits near Porta Tufi and reduces the cross-city walk from some southern routes.\n\nThe name can create false confidence: you are not parking directly on the Campo. The route still involves historic streets and elevation.\n\nChoose it for:\n\n- Piazza del Campo.\n- Palazzo Pubblico.\n- Torre del Mangia.\n- Southern-centre accommodation.\n- A short visit with no oversized luggage.\n\nAs checked in July 2026, the official page lists €2 per hour, a €35 consecutive-day rate, multi-day rates, and a hotel rate under specified conditions. Verify the live tariff and eligibility."
-      },
-      {
-        "id": "il-duomo-car-park",
-        "heading": "Il Duomo car park",
-        "body": "Il Duomo is the most intuitive facility for the cathedral complex, Santa Maria della Scala, and accommodation on the western or southern central side.\n\nIt can save walking compared with other facilities, but central convenience makes it more expensive than station parking. Capacity may be important on busy days.\n\nChoose it when:\n\n- The Duomo is the first priority.\n- A traveller has limited energy.\n- The stay is short.\n- The hotel specifically recommends it.\n- You are prepared for central parking rates."
-      },
-      {
-        "id": "santa-caterina-car-park",
-        "heading": "Santa Caterina car park",
-        "body": "Santa Caterina serves the Fontebranda side and uses escalators to reach the centre. It is useful for Basilica di San Domenico, sites associated with Saint Catherine, and parts of the western historic centre.\n\nEscalators reduce—but do not remove—walking and steps. Confirm the final route to the property, especially with luggage.\n\nThe official Visit Siena page states that Santa Caterina, San Francesco, and La Stazione provide a dedicated free taxi service for people with disabilities on request. Travellers should contact the operator in advance to confirm current eligibility and procedure."
-      },
-      {
-        "id": "san-francesco-car-park",
-        "heading": "San Francesco car park",
-        "body": "San Francesco is useful for eastern access and links to the centre by escalators. It can be a practical alternative when the route from your driving direction avoids circling the city.\n\nChoose it for:\n\n- Eastern-centre accommodation.\n- Basilica di San Francesco area.\n- Escalator-assisted access.\n- Travellers arriving from routes that naturally approach the east.\n\nDo not assume it is best for every central address. Siena’s ridges make direct map distance misleading."
-      },
-      {
-        "id": "stadio-fortezza-car-park",
-        "heading": "Stadio–Fortezza car park",
-        "body": "Stadio–Fortezza is convenient for the Fortezza Medicea, northern side, and parts of the Camollia route.\n\nIt suits day visitors who want to enter from the north and do not mind walking. The official rate snapshot lists €2 per hour from 07:00 to 20:00 and a €26 daily rate.\n\nEvent days can affect access and demand. Check football, market, festival, and municipal notices."
-      },
-      {
-        "id": "la-stazione-car-park",
-        "heading": "La Stazione car park",
-        "body": "La Stazione is the budget-oriented option in the official comparison. The published snapshot lists €0.50 for the first hour and €2 beyond the second hour or for the full day.\n\nThis does not mean the old town is beside the car. The station lies below the centre, and the journey continues by escalators, bus, taxi, or a substantial walk.\n\nIt works well for:\n\n- Longer parking.\n- Travellers comfortable with the station connection.\n- Accommodation outside the deepest centre.\n- Budget-conscious day visits.\n- Meeting someone arriving by train.\n\nOn Monday market periods, special arrangements may apply. Check current signs and official notices."
-      },
-      {
-        "id": "on-street-parking-outside-the-ztl",
-        "heading": "On-street parking outside the ZTL",
-        "body": "Visit Siena lists paid street lots near Via Roma, Porta Laterina, and the Fortezza side. The official page states that charged hours generally run from 08:00 to 20:00, including weekends and holidays, with a published rate of €1.50 per hour.\n\nStreet parking offers less protection and fewer services than a managed facility. Read every sign, avoid resident-only spaces, and do not assume a vacant space is legal.\n\nPayment apps listed by the official site include Sipark, EasyPark, and DropTicket, but availability and app terms should be checked."
-      },
-      {
-        "id": "hotel-parking-and-luggage-transfer",
-        "heading": "Hotel parking and luggage transfer",
-        "body": "“Hotel parking” can mean several different things:\n\n- Private garage at the property.\n- Reserved space outside the walls.\n- Partner garage.\n- Discount at a public facility.\n- Valet-style collection.\n- Temporary ZTL access for luggage only.\n- No parking, only a recommendation.\n\nAsk for the exact address, price, height restriction, opening hours, reservation requirement, and procedure after checkout.\n\nFor accommodation strategy, compare [a Siena hotel vs apartment](/blog/siena-hotel-vs-apartment-guide/) and [where to stay in Siena](/blog/where-to-stay-in-siena/)."
-      },
-      {
-        "id": "arriving-with-heavy-luggage",
-        "heading": "Arriving with heavy luggage",
-        "body": "The best plan is often:\n\n1. Confirm the property’s legal luggage procedure.\n2. Park in the recommended facility.\n3. Use a taxi or escalator route when needed.\n4. Carry only a small overnight bag into difficult buildings.\n5. Leave the car parked until departure.\n\nMoving a vehicle each day introduces ZTL risk and wastes time. Siena’s historic centre is best explored on foot once you are settled."
-      },
-      {
-        "id": "parking-for-a-siena-day-trip",
-        "heading": "Parking for a Siena day trip",
-        "body": "Day visitors should choose parking by first and last attraction:\n\n- Start at Piazza del Campo: Il Campo.\n- Start at the Duomo: Il Duomo.\n- Start near San Domenico: Santa Caterina.\n- Enter from the north: Stadio–Fortezza.\n- Prioritise low cost: La Stazione, accepting the transfer.\n\nBuy attraction tickets separately from parking decisions. Parking availability does not guarantee tower or cathedral admission."
-      },
-      {
-        "id": "parking-during-the-palio",
-        "heading": "Parking during the Palio",
-        "body": "The Palio periods around July 2 and August 16 can bring road closures, barriers, rerouting, exceptional demand, and early attraction closures.\n\nDo not rely on a normal-day parking article during those dates. Check current municipal and Visit Siena notices, contact accommodation, and arrive with additional time."
-      },
-      {
-        "id": "driving-a-rental-car-in-siena",
-        "heading": "Driving a rental car in Siena",
-        "body": "Before leaving the rental desk:\n\n- Photograph the vehicle.\n- Confirm fuel and toll rules.\n- Save emergency contacts.\n- Check whether the car has a manual or automatic transmission.\n- Understand insurance exclusions.\n- Download offline maps.\n- Ask about ZTL fines and administrative fees.\n\nNever leave visible luggage or valuables in the car. Use managed parking and accommodation storage where possible."
-      },
-      {
-        "id": "transfers-when-you-do-not-want-to-drive",
-        "heading": "Transfers when you do not want to drive",
-        "body": "A private transfer can make sense for:\n\n- Late airport arrival.\n- Several passengers with luggage.\n- Young children.\n- Limited mobility.\n- A special weekend.\n- A countryside property without simple public transport.\n\nCompare the total cost per group, cancellation terms, vehicle size, child-seat policy, waiting time, and exact drop-off access.\n\nFor Florence Airport specifically, use [the Florence Airport to Siena transfer guide](/blog/siena-from-florence-airport-transfer/)."
-      },
-      {
-        "id": "accessibility-planning",
-        "heading": "Accessibility planning",
-        "body": "The official Visit Siena page highlights escalator-equipped facilities and an on-request taxi service for people with disabilities at selected car parks. This is useful but not a complete accessibility guarantee.\n\nConfirm:\n\n- Lift or escalator status.\n- Disabled-bay availability.\n- permit recognition.\n- Taxi booking procedure.\n- Drop-off point.\n- Final paving and slopes.\n- Accessible hotel entrance.\n\nAccessibility information should be checked directly with the operator and destination."
-      },
-      {
-        "id": "parking-safety-and-practical-habits",
-        "heading": "Parking safety and practical habits",
-        "body": "- Lock the vehicle.\n- Remove visible bags.\n- Photograph the bay and nearby signs.\n- Save the facility name and entrance.\n- Keep the ticket or digital confirmation.\n- Check closing rules.\n- Allow extra time to find the vehicle.\n- Do not depend on a weak mobile signal for the only payment method."
-      },
-      {
-        "id": "final-recommendation",
-        "heading": "Final recommendation",
-        "body": "Choose parking as part of the itinerary, not as an afterthought at the city gate. The right facility puts you on the correct side of Siena, protects you from ZTL mistakes, and turns the final journey into a manageable walk or escalator ride.\n\nOnce the car is safely outside the centre, leave it there. Siena is far more rewarding when the day is measured in streets, squares, and meals—not repeated attempts to drive closer.\n\n*Editorial fact-check: July 12, 2026. ZTL rules, rates, capacity, road access, and special-event arrangements can change. Verify official information before driving.*"
-      }
+      { id: 'introduction', heading: 'Introduction', body: `Siena's historic centre is closed to unauthorised traffic and enforced by cameras 24 hours a day. So parking is not a detail you sort out on arrival — it is the decision that determines whether your visit starts smoothly or with a fine that reaches you months later.
+
+The good news: Siena has over 4,000 spaces in managed car parks ringing the walls, three of them connected to the centre by escalators, and rates are published by the municipal operator. The bad news is that the two most useful facts about parking here — the hotel discount and the days one major car park partly closes — appear almost nowhere in English.
+
+This guide covers every car park with its official rate, which ones have escalators, how to get the hotel rate, where to park free, and what to do if your accommodation is inside the walls. Rates were checked against Si.Ge.Ri.Co. and Visit Siena on 22 July 2026. Tariffs change; the operator's site is the place to confirm before you travel.` },
+      { id: 'quick-answer', heading: 'Quick answer', body: `- **Do not drive into the historic centre.** It is a camera-enforced ZTL, active 24/7, and the fine is automatic.
+- **Cheapest for a full day:** the Policlinico car parks — first hour free or €0.50, then €2.50 for the rest of the day.
+- **Cheapest central option:** Stadio–Fortezza at €26 a day, against €35 at the other central facilities.
+- **Staying overnight in Siena?** Ask your hotel to arrange the **€25 hotel rate** — a saving of €10 a day.
+- **Escalators to the centre** run from Santa Caterina, San Francesco and the station.
+- **Avoid Stadio–Fortezza on Wednesdays** — the Fortezza side closes for the weekly market.
+
+If you take one thing from this guide: park outside the walls, and if you are staying overnight, ask the hotel about the €25 rate before you arrive.` },
+      { id: 'the-rates-from-the-operator', heading: 'The rates, from the operator', body: `Si.Ge.Ri.Co. runs Siena's managed car parks and publishes the tariffs. As checked on 22 July 2026:
+
+| Car park | Hourly | Daily | Notes |
+|---|---|---|---|
+| Il Campo | €2.00 | €35.00 | 3 days €85, week €140 |
+| Il Duomo | €2.00 | €35.00 | 3 days €85, week €140 |
+| Santa Caterina | €2.00 | €35.00 | Escalator; 3 days €85, week €140 |
+| San Francesco | €2.00 | €35.00 | Escalator; 3 days €85, week €140 |
+| Fonti di Pescaia | €2.00 | €35.00 | 3 days €85, week €140 |
+| Stadio–Fortezza | €2.00 (07:00–20:00) | €26.00 | Cheapest central daily rate |
+| Policlinico (Eliporto, FastPark) | First hour free or €0.50, second €1.00 | €2.50 | Cheapest full-day rate in the city |
+| Street parking (Via Roma, Porta Laterina, Fortezza side) | €1.50 | — | Free 20:00–08:00 |
+
+Two things stand out. **Stadio–Fortezza is €9 a day cheaper** than the other central facilities, for a walk that is barely longer. And the **Policlinico car parks are in a different league on price** — under €3 for a full day — though they sit further out and are aimed at hospital visitors rather than tourists.` },
+      { id: 'the-hotel-rate', heading: 'The hotel rate: €25 instead of €35', body: `This is the most useful money-saving fact about parking in Siena, and it is buried on Italian-language pages.
+
+If you are staying overnight in accommodation within the Comune di Siena, the central car parks charge a **hotel rate of €25 per day** instead of the standard €35 — a saving of €10 for every day of your stay.
+
+It is not applied automatically. Your accommodation has to arrange or confirm it, so ask when you book, or at check-in at the latest. Over three nights that is €30 saved for one question.
+
+There is also a **contrada rate of €1.00 between 19:00 and 03:00**, but that exists for members of Siena's contrade during their own events — not something a visitor can claim.` },
+      { id: 'which-car-park-for-which-part', heading: 'Which car park for which part of the city', body: `Siena sits on ridges. Map distance is misleading, because a facility that looks close may involve a climb. Choose by the side of the city you need, not by the shortest line on a map.
+
+### Santa Caterina — western side, with escalators
+
+Serves Fontebranda, San Domenico and the western centre. Its escalator, the **Risalita del Costone**, starts in front of the Fonte di Fontebranda and brings you out near the Duomo. Convenient if you are arriving from the west or off the Siena–Florence link road at the San Marco exit.
+
+### San Francesco — eastern side, with escalators
+
+On Via Baldassarre Peruzzi, useful if you approach from the east. The **Risalita di Via Peruzzi** runs from just outside the car park up into Piazza San Francesco, effectively depositing you in the historic centre. Open 24 hours.
+
+### Il Campo — southern side, near Porta Tufi
+
+The name misleads: you are not parking on Piazza del Campo. It sits just inside Porta Tufi, on the southern side, and the walk still involves historic streets and a gradient. Sensible if the Campo, Palazzo Pubblico and the Torre del Mangia are your priorities and you are arriving from the south.
+
+### Il Duomo — cathedral side
+
+Closest to the cathedral complex and Santa Maria della Scala, on the western-central side. The most intuitive choice if the Duomo is your first stop, and it saves walking compared with the alternatives — at the standard central rate.
+
+### Stadio–Fortezza — northern side, and the cheapest central option
+
+Around the Fortezza Medicea, near the Lizza park, with **709 spaces across two levels** and two separate entrances. At €26 a day it is the cheapest of the central car parks, and it is open 24 hours.
+
+Two restrictions matter. **Height limit 2.50 m** — cars only, no campervans. And it closes partially on certain days, which is the next section.
+
+### La Stazione — by the railway station
+
+Roughly **502 spaces** on two levels, opposite the railway station, connected to the centre by escalator. Widely described as the cheapest option for a full day. It suits longer stays, rail travellers, and anyone comfortable with the connection up into the town.
+
+One honest caveat: we could not confirm the station car park's current tariff against the operator's published list, which groups the central facilities and the Policlinico car parks but does not clearly state the station rate. Check the signage on arrival or the operator's site rather than relying on a figure quoted elsewhere.
+
+### Policlinico — cheapest, furthest out
+
+The Eliporto and FastPark car parks by the Policlinico Santa Maria alle Scotte are the cheapest in the city: **first hour free or €0.50, second hour €1.00, and €2.50 for anything beyond two hours including a full day**. They exist for hospital visitors and sit well outside the centre, so factor in a bus or a long walk — but for a budget day trip the maths is hard to argue with.` },
+      { id: 'the-closure-that-catches-drivers-out', heading: 'The closure that catches drivers out', body: `Stadio–Fortezza is the one car park with regular partial closures, and no English-language guide mentions them.
+
+**On Wednesdays, the Fortezza side closes** for the weekly market. If you drive up expecting to park there mid-week, you may find that half the facility is unavailable.
+
+**During Robur Siena home football matches**, the stadium side closes, and only the "Giardini della Lizza" sector stays open.
+
+Neither closure makes the car park unusable, but both cut capacity sharply on days that are already busy. If you are arriving on a Wednesday or on a match day, have a second choice in mind — Santa Caterina or San Francesco, both with escalators, are the natural alternatives.` },
+      { id: 'where-to-park-free', heading: 'Where to park free', body: `Two free options exist, both a short walk from the walls.
+
+**Il Campino**, along Viale Vittorio Veneto directly below the Fortezza Medicea, is the most used free area in Siena. It is about a ten-minute walk to Piazza del Campo, and convenient if you arrive from the east or south.
+
+**Strada Malizia** is further out but still walkable, and a reasonable fallback when Il Campino is full.
+
+Free spaces fill early in high season, so treat them as a bonus rather than a plan. And read every sign — a space being empty does not mean it is legal for a visitor.
+
+There is one more free window worth knowing: **street parking is free between 20:00 and 08:00**. If you arrive in the evening and leave in the morning, the paid street lots cost nothing.` },
+      { id: 'if-your-accommodation-is-inside-the-walls', heading: 'If your accommodation is inside the walls', body: `Sometimes you need to reach a property inside the ZTL to drop luggage. This is possible, but only if arranged in advance.
+
+A hotel inside the zone can register your number plate for temporary authorised access. Send them your rental car's **exact** number plate before you arrive — many properties ask for it at least 48 hours ahead. The responsibility for supplying the correct plate is yours; a single wrong character and the camera reading will not match the registration.
+
+Before driving in, ask the property directly:
+
+1. Can you authorise temporary access for my vehicle?
+2. Which gate should I use, and by which route?
+3. Is luggage drop-off allowed, and for how long?
+4. Do you need my number plate in advance, and by when?
+5. Where do I park afterwards?
+6. Are there times when access is prohibited regardless?
+7. Does anything change during the Palio or roadworks?
+
+Keep the answer in writing. A verbal assurance from a booking platform is not the same as the property registering your plate with the municipality.
+
+If any of this is unclear, park outside and walk or take a taxi in with your luggage. Taxis are authorised where private cars are not.
+
+Because where you stay decides how much of this you face, it is worth settling before you book: compare [a Siena hotel vs apartment](/blog/siena-hotel-vs-apartment-guide/) and [where to stay in Siena](/blog/where-to-stay-in-siena/).
+
+For the full picture on how the cameras and fines work, see our guide to [avoiding a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/).` },
+      { id: 'accessibility', heading: 'Accessibility', body: `Santa Caterina, San Francesco and La Stazione are served by escalators. The official Visit Siena page also states that these three car parks offer a **free substitute taxi service for people with disabilities** on request — contact the operator in advance to confirm current eligibility and procedure.
+
+Escalators reduce the climb but do not remove it. Siena's centre is built on hills with cobbled streets and steps, so confirm the final stretch to your accommodation before committing to a car park, particularly with luggage or limited mobility.` },
+      { id: 'arriving-with-heavy-luggage', heading: 'Arriving with heavy luggage', body: `The approach that works:
+
+1. Confirm your property's luggage procedure in writing before you travel.
+2. Park in the facility they recommend, or one with an escalator.
+3. Use a taxi from the car park if the final stretch is steep.
+4. Carry only what you need into difficult buildings.
+5. Leave the car parked until you depart.
+
+Moving the car each day adds ZTL risk and wastes time. Once you are settled, Siena's centre is walkable and the car is a liability rather than an asset.` },
+      { id: 'parking-for-a-day-trip', heading: 'Parking for a day trip', body: `Choose by your first and last stop, not by price alone:
+
+- **Piazza del Campo first:** Il Campo, or Stadio–Fortezza if saving €9 matters more than five minutes.
+- **Duomo first:** Il Duomo.
+- **San Domenico or the western side:** Santa Caterina, with the escalator.
+- **Arriving from the east:** San Francesco, with the escalator.
+- **Arriving from the north:** Stadio–Fortezza — but not on a Wednesday.
+- **Tightest budget:** the Policlinico car parks at €2.50 for the day, accepting the longer connection.
+
+Buy attraction tickets separately and in advance. Parking availability tells you nothing about whether the Torre del Mangia or the cathedral has space for you.` },
+      { id: 'practical-checklist', heading: 'Practical checklist', body: `- **Never drive into the historic centre.** The ZTL is camera-enforced 24 hours a day.
+- **Ask your hotel for the €25 rate** if you are staying overnight — it saves €10 a day.
+- **Stadio–Fortezza is €26/day**, cheaper than the €35 central facilities.
+- **Policlinico is €2.50 for a full day** if you can accept the distance.
+- **Escalators run from** Santa Caterina, San Francesco and the station.
+- **Avoid Stadio–Fortezza on Wednesdays** and Robur Siena home match days.
+- **Street parking is free 20:00–08:00.**
+- **Height limit 2.50 m** at Stadio–Fortezza — no campervans.
+- **If your hotel is inside the walls**, email your exact number plate at least 48 hours ahead.
+- **Check the operator's site** for current tariffs before you travel.
+
+Parking in Siena is straightforward once you accept the basic rule: the car stays outside the walls, and you walk or ride in. The visitors who struggle are the ones who tried to get closer.` },
+      { id: 'next-steps', heading: 'Next steps', body: `Before you drive anywhere near Siena, read our guide to [avoiding a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/) — the cameras run 24 hours a day and the fine reaches you months later through your rental company. If you have not decided whether to drive at all, our guide to [reaching Siena from Florence Airport](/blog/siena-from-florence-airport-transfer/) covers the bus route and real fares.` }
     ],
     [
-      {
-        "q": "Where is the best place to park in Siena?",
-        "a": "Il Campo is useful for Piazza del Campo, Il Duomo for the cathedral, Santa Caterina and San Francesco for escalator access, and La Stazione for lower-cost longer parking."
-      },
-      {
-        "q": "Can tourists drive into Siena’s historic centre?",
-        "a": "Generally, unauthorized vehicles should not enter the ZTL. Some hotels can arrange limited legal access under specific rules. Confirm directly before arrival."
-      },
-      {
-        "q": "Is there free parking in Siena?",
-        "a": "Free options can be limited, conditional, or less convenient. Rules change, and a space without a meter is not automatically legal. Check official signage."
-      },
-      {
-        "q": "Is Siena station parking close to the old town?",
-        "a": "The station is below the historic centre. Escalators and local transport help, but the old town is not directly beside the car park."
-      },
-      {
-        "q": "Can I drop luggage at a central hotel?",
-        "a": "Possibly, when the hotel provides a legal route and registers the vehicle if required. Never assume access without written instructions."
-      },
-      {
-        "q": "How much does parking in Siena cost?",
-        "a": "Official July 2026 planning rates range from a very low station daily rate to higher central hourly and daily tariffs. Check the live operator page and signage because rates can change."
-      }
+      { q: "How much does parking cost in Siena?", a: "Central car parks charge €2.00 per hour with a daily maximum of €35.00. Stadio–Fortezza is cheaper at €26.00 a day. The Policlinico car parks are cheapest at €2.50 for a full day, but sit well outside the centre. Street parking is €1.50 an hour and free between 20:00 and 08:00." },
+      { q: "Is there a discount if I'm staying in a hotel?", a: "Yes. Accommodation within the Comune di Siena can arrange a hotel rate of €25 per day instead of €35 at the central car parks. It is not automatic — ask your property when you book or at check-in." },
+      { q: "Which Siena car parks have escalators?", a: "Santa Caterina, San Francesco and La Stazione. Santa Caterina's Risalita del Costone starts by the Fonte di Fontebranda and comes out near the Duomo; San Francesco's Risalita di Via Peruzzi leads up into Piazza San Francesco." },
+      { q: "Can I park for free in Siena?", a: "Yes, at Il Campino below the Fortezza Medicea — about ten minutes' walk from Piazza del Campo — and at Strada Malizia, slightly further out. Both fill early in high season. Paid street parking is also free between 20:00 and 08:00." },
+      { q: "Can I drive to my hotel inside the walls?", a: "Only if the property registers your number plate for temporary access before you arrive. Send them the exact plate, ideally 48 hours ahead. A booking alone authorises nothing, and the hotel cannot cancel a fine once a camera has recorded you." },
+      { q: "Which car park is best for Piazza del Campo?", a: "Il Campo, just inside Porta Tufi, is closest — though you are not parking on the square itself and the walk involves a gradient. Stadio–Fortezza is a slightly longer walk for €9 less per day." },
+      { q: "Is there anything I should avoid?", a: "Stadio–Fortezza on Wednesdays, when the Fortezza side closes for the weekly market, and on Robur Siena home match days, when the stadium side closes and only the Giardini della Lizza sector stays open." }
     ],
-    "2026-07-12",
+    '2026-07-23T12:00:00+07:00',
     {
-      "seoTitle": "Parking in Siena: Best Car Parks, ZTL and Transfers",
-      "primaryKeyword": "parking in Siena",
-      "secondaryKeywords": [
-        "Siena parking",
-        "where to park in Siena",
-        "Siena ZTL",
-        "parking near Siena old town",
-        "Siena train station parking",
-        "driving in Siena"
+      seoTitle: 'Where to Park in Siena: Real 2026 Rates and the ZTL',
+      primaryKeyword: 'parking in Siena',
+      secondaryKeywords: [
+        'Siena parking',
+        'where to park in Siena',
+        'Siena ZTL',
+        'parking near Siena old town',
+        'Siena train station parking',
+        'driving in Siena'
       ],
-      "canonicalPath": "/blog/siena-parking-and-transfer-guide/",
-      "published": "2026-07-03",
-      "imageAlt": "Palazzo Pubblico and Torre del Mangia above Siena's historic centre",
-      "imageCredit": {
-        "author": "Myrabella",
-        "source": "https://commons.wikimedia.org/wiki/File:03_Palazzo_Pubblico_Torre_del_Mangia_Siena.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "changes": "Cropped to 16:9, resized, and converted to WebP."
+      canonicalPath: '/blog/siena-parking-and-transfer-guide/',
+      published: '2026-07-03',
+      imageAlt: "Palazzo Pubblico and Torre del Mangia above Siena's historic centre",
+      imageCredit: {
+        author: 'Myrabella',
+        source: 'https://commons.wikimedia.org/wiki/File:03_Palazzo_Pubblico_Torre_del_Mangia_Siena.jpg',
+        license: 'CC BY-SA 3.0',
+        licenseUrl: 'https://creativecommons.org/licenses/by-sa/3.0/',
+        changes: 'Cropped to 16:9, resized, and converted to WebP.'
       }
     }
   ),
