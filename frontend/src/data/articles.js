@@ -2816,8 +2816,8 @@ According to Italy’s Ministry of Health, red-alert days (bollino rosso) signal
         heading: 'Daily Schedule Hacks — Early Mornings & Evening Magic',
         body: `The most effective strategy is a complete schedule reset. Shift major outdoor sightseeing to the cooler windows: 7–11 a.m. and after 6 p.m.
 
-*   **Morning golden hours (7–11 a.m.):** Arrive at the Duomo complex, climb the dome, or photograph Ponte Vecchio before crowds and heat build. Book timed-entry tickets for the Uffizi or Galleria dell’Accademia via GetYourGuide or Viator to beat both queues and rising temperatures.
-*   **Midday reset (11 a.m.–5 p.m.):** Retreat indoors or rest. Enjoy a long, shaded lunch, visit air-conditioned museums, or take a genuine Italian siesta in your accommodation. Choose hotels with reliable AC and pools through Booking.com for true comfort during peak heat.
+*   **Morning golden hours (7–11 a.m.):** Arrive at the Duomo complex, climb the dome, or photograph Ponte Vecchio before crowds and heat build. Book timed-entry tickets for the Uffizi or Galleria dell’Accademia through their official ticketing to beat both queues and rising temperatures — resellers add a margin for the same slot.
+*   **Midday reset (11 a.m.–5 p.m.):** Retreat indoors or rest. Enjoy a long, shaded lunch, visit air-conditioned museums, or take a genuine Italian siesta in your accommodation. Choose accommodation with reliable air conditioning and, ideally, a pool — and confirm the cooling with the hotel rather than trusting an amenity tick-box.
 *   **Evening magic (after 6 p.m.):** The city transforms. Golden light bathes the piazzas, temperatures drop noticeably, and locals reappear for aperitivo along the Lungarno or at Piazzale Michelangelo. Sunset walks here or in quieter Oltrarno neighbourhoods feel almost cool by comparison.
 
 ![Early morning Duomo in golden light](/images/florence/early-morning-duomo-golden-light.webp)
@@ -2969,7 +2969,7 @@ Choose central seats in the 1st or 2nd sector. These offer the perfect balance o
 **Combine with a Relaxed Tuscany Day Trip**
 Torre del Lago pairs beautifully with a day in Lucca (Puccini’s birthplace). Start your morning in Florence or Siena, explore Lucca’s historic centre, then head to the lake in the late afternoon. Enjoy an aperitivo by the water, visit the museum, and stay for the evening performance. Return the same night or extend your stay in Viareggio for beach time the next day.
 
-Book your accommodation in Viareggio or Lucca via our partner on Booking.com for the best rates and flexibility. Need wheels for a full Tuscany itinerary? Rent a car easily with Discover Cars.
+Viareggio puts you closest to the theatre; Lucca gives you more to do on a day without a performance. Either way, book well ahead for performance nights.
 
 For more ideas on combining opera with vineyards, hilltop villages, and Tuscan towns, explore our full Tuscany itineraries or the latest festival updates on the blog.`,
       },
@@ -3044,7 +3044,7 @@ Driving suits those combining Siena with nearby hill towns such as San Gimignano
 | **Train** | 1h 30m | €10–18 | Siena station + short walk | Scenic rail fans |
 | **Car** | 1h 10m | Fuel + parking | Paid lots outside walls | Multi-stop Tuscany loop |
 
-> **Pro tip for 2026:** Book bus or train tickets online in advance during peak summer weekends via FlixBus, Omio, or the official Autolinee Toscane app. Early departures (before 9 AM) beat the crowds and secure better return options. Prices are approximate as of July 2026 — always double-check official sites.`,
+> **Pro tip for 2026:** Book bus or train tickets online in advance during peak summer weekends — the official Autolinee Toscane app for regional buses, Trenitalia for trains. Early departures (before 9 AM) beat the crowds and secure better return options. Prices are approximate as of July 2026 — always double-check official sites.`,
       },
       {
         id: 'when-to-visit-siena-2026',
@@ -3098,7 +3098,7 @@ For food, follow the 100-metre rule: walk away from Piazza del Campo to avoid to
       {
         id: 'conclusion-siena-day-trip',
         heading: 'Your Tuscan Adventure Awaits',
-        body: `Prefer a guided experience? Book a skip-the-line day trip from Florence to Siena with expert commentary on GetYourGuide or Viator — perfect if you want zero hassle.
+        body: `Prefer someone else to handle the logistics? A guided day trip removes the timetable problem entirely, at the cost of fixed timings and less time in the quieter streets. Independent travel is cheaper and more flexible; a tour buys you a driver and a decision already made.
 
 Turn your Florence stay into a full Tuscany adventure. Explore deeper with our dedicated Siena guides, discover more from Florence, or plan the ultimate Tuscany itinerary. Check the latest tips on our blog and start planning your unforgettable day trip today. Safe travels!`,
       },
@@ -3172,7 +3172,7 @@ Dedicate the full day to the city’s Renaissance heart. Book timed tickets in a
 Take the direct regional train from Florence Santa Maria Novella (1 hour 28–34 minutes, €13–22 one-way). Explore Siena’s UNESCO-listed centre: Piazza del Campo, the striped Duomo, and the Palio museum. Climb Torre del Mangia for panoramic views. Lunch on local pecorino and wild boar pappardelle. Return to Florence by early evening. Perfect for independent pacing — no group schedule.
 
 **Day 4: Chianti Wine Road (Self-Drive Day)**
-Rent a small automatic car in Florence (pickup after breakfast; book via DiscoverCars with full insurance). Drive the scenic SR222 Chiantigiana route through rolling vineyards. Stop at Greve in Chianti for its market square, then Panzano or Castellina for winery tastings (book 1–2 small family producers like Antinori or Fontodi in advance). Picnic or enjoy a vineyard lunch. Return to Florence by sunset. Total driving: relaxed 2–3 hours.
+Rent a small automatic car in Florence, picking it up after breakfast. Book the automatic ahead and confirm the insurance excess before you drive off. Drive the scenic SR222 Chiantigiana route through rolling vineyards. Stop at Greve in Chianti for its market square, then Panzano or Castellina for winery tastings (book 1–2 small family producers like Antinori or Fontodi in advance). Picnic or enjoy a vineyard lunch. Return to Florence by sunset. Total driving: relaxed 2–3 hours.
 
 ![Rolling vineyards along the Chianti wine road](/images/tuscany/chianti-wine-road-vineyard.webp)
 *Driving the scenic SR222 route through the Chianti vineyards offers ultimate freedom.*
@@ -3206,11 +3206,11 @@ These three areas capture Tuscany’s essence: art and history in Siena, wine cu
         heading: 'Section 3: Transport, Booking & Budget Tips',
         body: `**Transport Options**
 *   **Train:** Excellent for Florence–Siena and Florence–Pisa/Lucca (frequent, affordable, no stress).
-*   **Car:** Essential for Chianti and Val d’Orcia freedom. Rent a small automatic from Florence (book early for 2026 via DiscoverCars). Avoid driving into historic centres (ZTL zones carry automatic fines). Park outside walls and walk in. Hybrid approach works best: trains for cities, car for countryside days 4–6.
+*   **Car:** Essential for Chianti and Val d’Orcia freedom. Rent a small automatic from Florence and book it early. Avoid driving into historic centres (ZTL zones carry automatic fines). Park outside walls and walk in. Hybrid approach works best: trains for cities, car for countryside days 4–6.
 *   **Alternative:** Skip the car entirely and use small-group day tours only for the rural legs, but independent travellers prefer the flexibility of self-drive.
 
 **Booking Tips for 2026**
-Book Uffizi, Duomo climb, and popular wineries 4–8 weeks ahead. Reserve your Florence apartment or hotel early (central locations fill fast) via Booking.com. Use apps like Omio for trains.
+Book Uffizi, Duomo climb, and popular wineries 4–8 weeks ahead. Reserve your Florence apartment or hotel early; central locations fill fast. For trains, buy from Trenitalia directly rather than through a reseller.
 
 **Budget (Mid-Range, Per Person)**
 *   **Accommodation (7 nights Florence base):** €120–200/night for a comfortable apartment.
@@ -3239,7 +3239,7 @@ These stops turn a standard itinerary into a personal discovery.`,
         heading: 'Conclusion',
         body: `Create your perfect Tuscany escape. This independent 7-day plan gives you the freedom real solo travellers crave — no rigid schedules, just beautiful drives, memorable meals, and authentic moments in one of Italy’s most beloved regions.
 
-Head to our Tuscany page for detailed maps, or explore more in Florence, Siena, and the full travel blog. Start planning your dream trip today with Booking.com and DiscoverCars.`,
+Head to our Tuscany page for detailed maps, or explore more in Florence, Siena, and the full travel blog.`,
       },
     ],
     [
@@ -3420,12 +3420,12 @@ Safe travels!`,
       {
         id: 'how-to-reach-them',
         heading: 'How to Reach Them from Siena (or Florence)',
-        body: `Most villages are reachable without a car. Regular Autolinee Toscane buses depart from Siena’s Piazza Gramsci (Monteriggioni: about 20 minutes; Buonconvento: 30–35 minutes; San Quirico d’Orcia: 50–55 minutes). From Florence, the direct bus to Siena takes 75 minutes (€9–14); once there, local routes are inexpensive. For maximum flexibility and remote viewpoints like the Crete Senesi, rent a car in Siena for a day (from €40–60 via DiscoverCars). Guided small-group tours from Siena or Florence combine several gems with wine tastings and require no planning. In summer 2026, start early (before 9 a.m.) to avoid any residual heat and crowds.`,
+        body: `Most villages are reachable without a car. Regular Autolinee Toscane buses depart from Siena’s Piazza Gramsci (Monteriggioni: about 20 minutes; Buonconvento: 30–35 minutes; San Quirico d’Orcia: 50–55 minutes). From Florence, the direct bus to Siena takes 75 minutes (€9–14); once there, local routes are inexpensive. For maximum flexibility and remote viewpoints like the Crete Senesi, hire a car in Siena for a day. Guided small-group tours from Siena or Florence combine several gems with wine tastings and require no planning, at the cost of choosing your own stops. In summer 2026, start early (before 9 a.m.) to avoid any residual heat and crowds.`,
       },
       {
         id: 'conclusion-hidden-gems',
         heading: 'Conclusion',
-        body: `Find your peaceful Tuscany among these hidden gems around Siena. Escape the crowds, taste authentic wines, and create memories in the real heart of the region. Ready to go? Book your Siena countryside tour on Viator or GetYourGuide, or reserve your car via DiscoverCars for total freedom.
+        body: `Find your peaceful Tuscany among these hidden gems around Siena. Escape the crowds, taste authentic wines, and create memories in the real heart of the region. Most of these are reachable by bus if you plan around the timetable; a car turns the same list into a single unhurried day.
 
 See our full Siena guide for interactive maps, updated 2026 bus timetables, and ready-made routes.`,
       },
@@ -3496,8 +3496,6 @@ The hotel is at Via P. Mascagni 55, inside the walls, and describes itself as a 
 *   **Rates:** not published on the hotel's own site — request a quote, and expect Palio dates to price differently.
 *   **Practical tip:** Book the parking when you reserve the room if possible, and enter via the recommended gate so you avoid ZTL cameras.
 
-Check rates and availability for Hotel Athena
-
 *Hotel Athena offers that rare combination in Siena: inside the historic walls but with genuinely accessible free parking.*
 
 *After a day of exploring Tuscany, unwind on Hotel Athena's panoramic terrace overlooking the valley.*`,
@@ -3514,8 +3512,6 @@ The address is Pian dei Mantellini 34, on the Duomo side of the centre. The hote
 *   **Rates:** not published on the hotel's own site — request a quote for your dates.
 *   **Practical tip:** Confirm the parking and the exact entrance with the hotel when you book. Guessing at the gate is what triggers a ZTL fine.
 
-Check rates and availability for Palazzo Ravizza
-
 *Palazzo Ravizza offers a tranquil garden oasis right in the city centre, with on-site parking the hotel provides free to guests.*`,
       },
       {
@@ -3529,8 +3525,6 @@ It is quieter than the very heart of the historic core and works well for driver
 *   **Caveat:** Not as central as Athena or Ravizza, and with only 13 spaces the car park can fill. Rooms are comfortable but not luxurious.
 *   **Rates:** neither room rates nor the parking charge are published on the hotel's own site — ask for both together.
 *   **Practical tip:** Reserve the parking spot when you book, and walk the route once before deciding it suits you — the approach from Porta Romana is a climb on cobbles, not a stroll.
-
-Check rates and availability for Hotel Santa Caterina
 
 *Enjoy breakfast with a view across the Tuscan hills at Hotel Santa Caterina, located just outside Porta Romana.*`,
       },
@@ -3546,8 +3540,6 @@ It is a straightforward, clean, well-run mid-range hotel that appeals to drivers
 *   **Rates:** room rates are not published on the hotel's own site, though the €10 parking charge is — request a room quote for your dates.
 *   **Practical tip:** If the main lot is full, the sister hotel parking is a reliable free alternative with a short walk.
 
-Check rates and availability for Hotel Italia
-
 *Hotel Italia offers excellent value and practical parking options close to Siena's train station.*`,
       },
       {
@@ -3561,8 +3553,6 @@ The hotel is at Strada di Vico Alto 2 and describes itself as "a short distance 
 *   **Caveat:** Not walkable to the main sights in any practical sense; you will use the car, bus or taxi daily. Some rooms can pick up traffic noise from the nearby road.
 *   **Rates:** not published on the hotel's own site — request a quote for your dates.
 *   **Practical tip:** Ideal if you plan more time in the countryside than in the city itself. If you need EV charging, confirm it with the hotel before booking — it is not guaranteed.
-
-Check rates and availability for Sangallo Park Hotel
 
 *If your main goal is day-tripping around Tuscany, Sangallo Park Hotel offers a pool, ample free parking, and fast highway access.*`,
       },
@@ -3578,8 +3568,6 @@ The centre is a short drive or taxi ride away; ask the hotel whether a shuttle r
 *   **Rates:** not published on the hotel's own site — request a quote. This is the most expensive option here, so ask what the rate includes before comparing it with the others.
 *   **Practical tip:** Best for travellers who want the countryside atmosphere as much as the city and are prepared for the higher rate.
 
-Check rates and availability for Hotel Certosa di Maggiano
-
 *Experience a serene, high-end stay at this converted 14th-century monastery, complete with extensive gardens and free parking.*`,
       },
       {
@@ -3591,8 +3579,6 @@ Check rates and availability for Hotel Certosa di Maggiano
 *   **Caveat:** Parking is expensive, off-site and unpublished; ZTL access requires following hotel instructions carefully. Not the best pure value.
 *   **Rates:** not published on the hotel's own site — request a quote covering the room and the valet parking together.
 *   **Practical tip:** Confirm the exact valet process and cost when booking; this is the “pay for maximum convenience” option.
-
-Check rates and availability for Grand Hotel Continental Siena
 
 *For those who want to be in the absolute centre of the action, Grand Hotel Continental offers maximum luxury and a paid valet service.*
 
@@ -3620,9 +3606,7 @@ Check rates and availability for Grand Hotel Continental Siena
         heading: 'Next Steps',
         body: `Decide whether walkability or pure driving convenience matters more to you, then check current availability and parking confirmation for two or three of the hotels above. Use the [Travel Budget Calculator](/travel-budget-calculator/) to model the full cost of car + hotel + day trips, and cross-reference the neighbourhood character in [Where to Stay in Siena](/blog/where-to-stay-in-siena/) if you also want the pedestrian perspective.
 
-Siena rewards drivers who plan the parking piece carefully. Choose one of the hotels on this list and the car becomes an asset rather than a daily complication.
-
-Compare all rental car prices for Italy on DiscoverCars`,
+Siena rewards drivers who plan the parking piece carefully. Choose one of the hotels on this list and the car becomes an asset rather than a daily complication.`,
       },
     ],
     [
