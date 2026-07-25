@@ -27,6 +27,14 @@
 /blog/florence-to-siena-transport                         /florence-to-siena-by-train-or-bus/ 301
 /blog/florence-to-siena-transport/                        /florence-to-siena-by-train-or-bus/ 301
 
+# American-spelled slugs served real content before the canonical fix, so they
+# may be crawled. 301 here rather than relying on the in-app <Navigate>, which
+# only redirects client-side after a 200.
+/blog/puccini-festival-torre-del-lago-2026-independent-traveler-guide   /blog/puccini-festival-torre-del-lago-2026-independent-traveller-guide/ 301
+/blog/puccini-festival-torre-del-lago-2026-independent-traveler-guide/  /blog/puccini-festival-torre-del-lago-2026-independent-traveller-guide/ 301
+/blog/7-day-tuscany-itinerary-independent-travelers-2026-florence-base  /blog/7-day-tuscany-itinerary-independent-travellers-2026-florence-base/ 301
+/blog/7-day-tuscany-itinerary-independent-travelers-2026-florence-base/ /blog/7-day-tuscany-itinerary-independent-travellers-2026-florence-base/ 301
+
 # Tuscany scope narrowing — out-of-scope guides retired to their topical successors
 /blog/international-packing-checklist                     /blog/tuscany-packing-checklist/ 301
 /blog/international-packing-checklist/                    /blog/tuscany-packing-checklist/ 301
