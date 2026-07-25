@@ -1146,7 +1146,10 @@ If you take one thing from this guide: park outside the walls, and if you are st
 | Policlinico (Eliporto, FastPark) | First hour free or €0.50, second €1.00 | €2.50 | Cheapest full-day rate in the city |
 | Street parking (Via Roma, Porta Laterina, Fortezza side) | €1.50 | — | Free 20:00–08:00 |
 
-Two things stand out. **Stadio–Fortezza is €9 a day cheaper** than the other central facilities, for a walk that is barely longer. And the **Policlinico car parks are in a different league on price** — under €3 for a full day — though they sit further out and are aimed at hospital visitors rather than tourists.` },
+Two things stand out. **Stadio–Fortezza is €9 a day cheaper** than the other central facilities, for a walk that is barely longer. And the **Policlinico car parks are in a different league on price** — under €3 for a full day — though they sit further out and are aimed at hospital visitors rather than tourists.
+
+![Schematic of Siena's ZTL and the car parks around it, with daily rates and which have escalators.](/images/siena-ztl-parking-diagram.svg)
+Schematic — not to scale. Rates checked July 2026. Free to reuse with credit.` },
       { id: 'the-hotel-rate', heading: 'The hotel rate: €25 instead of €35', body: `This is the most useful money-saving fact about parking in Siena, and it is buried on Italian-language pages.
 
 If you are staying overnight in accommodation within the Comune di Siena, the central car parks charge a **hotel rate of €25 per day** instead of the standard €35 — a saving of €10 for every day of your stay.
@@ -1500,7 +1503,7 @@ Parking in Siena is straightforward once you accept the basic rule: the car stay
       { id: "why-the-fine-takes-months", heading: "Why the fine takes months to arrive", body: "If you have driven through Siena's centre and heard nothing, do not assume you got away with it. Italian ZTL fines for foreign-plated and rental vehicles are slow — sometimes extraordinarily so.\n\nThe delay is built into the process. The authorities first have to obtain the driver's details from the rental company, which takes time. Only then is the formal fine — the *verbale* — issued and sent. For a fine that has to cross a border to reach a driver abroad, European consumer bodies describe a chain that can, in the worst cases, stretch to well over a year: roughly 150 days for the driver data to change hands, and then a delivery window that can run to many months more.\n\nIn practice most travellers receive their fine six to twelve months after the trip, long after they have forgotten the wrong turn. Some arrive later still. The point is simple: the silence after your trip means nothing. The fine may already be working its way through the system." },
       { id: "what-a-fine-costs", heading: "What a Siena ZTL fine costs", body: "Here this guide will be more careful than most, and deliberately so. Search around and you will find travel sites quoting confident figures for a Siena ZTL fine — €83, €90–100, €80–130, even ranges up to €335. They disagree not because the fine is unknowable but because the law sets a range rather than a single number, because each notice adds costs that vary from case to case, and because many of those figures are lifted from other cities entirely.\n\nHere is what is actually fixed in law. Under Article 7 of the Italian highway code, driving into a ZTL without authorisation carries a penalty of €83 to €332, with the amounts adjusted periodically. A straightforward transit violation is normally assessed at the minimum, and the notice then adds what the law attaches to it — the *spese di notifica* and assessment costs of getting the fine to you — before your rental company's administrative fee goes on top of everything. The exact total appears on the *verbale*; treat any precise all-in figure you see online as an estimate until you see your own notice.\n\nTwo deadlines on that notice matter more than the headline number. Pay within five days of the notice reaching you and the penalty itself is cut by 30 per cent — on the €83 base that means roughly €58, though the notification costs remain payable in full. From day six to day sixty you pay the standard amount. Let it run past sixty days without paying or appealing, and the sum owed roughly doubles and the file moves to enforced collection, with interest and collection costs added along the way. In plain terms: the fine is cheapest in the first five days after it reaches you, and most expensive once you decide it can be ignored." },
       { id: "how-to-pay", heading: "How to pay, and the trap for non-European cards", body: "If you do receive a fine, you can view the photographic evidence and manage the process through Siena's official portal at [siena.multeonline.it](https://siena.multeonline.it/), and the ZTL control office can be reached at ztlsi@comune.siena.it. Using the official channels matters: it is where you can see the actual photograph of your vehicle at the gate, which is worth checking before you pay.\n\nItalian municipal fines are generally paid through PagoPA, the national government payment platform. This is where travellers from outside Europe often hit a wall: PagoPA runs on a network of Italian banks, and foreign cards — US-issued credit cards in particular — are sometimes rejected. If your card fails, the fallback is an international bank transfer to the municipality's account, the details of which should be on your notice. Build in time for this; it is not always instant, and the deadlines on the notice — including the five-day discount window — do not wait for your bank." },
-      { id: "park-outside-the-walls", heading: "The reliable way to avoid all of it: park outside the walls", body: "Everything above disappears if you simply do not drive into the centre. Siena is small, and the car parks just outside the walls are well placed for walking in — some connected to the centre by escalators that carry you up the hill.\n\nThe main options sit around the edge of the old town: the large Fortezza/Stadio car park to the north-west, Santa Caterina with its escalators running up into the centre, and the car park down by the railway station, which is usually the cheapest for a full day. Hourly rates at the edge-of-town car parks run at around €2 per hour; the station lot is cheaper for longer stays. Several of these car parks also offer a discounted hotel rate — commonly around €25 per day against roughly €35 at the standard rate — if your accommodation books it for you, so it is worth asking your hotel before you arrive.\n\nPark in one of these, walk or ride up into the centre, and the ZTL is simply not your problem. For most visitors this is the whole answer." },
+      { id: "park-outside-the-walls", heading: "The reliable way to avoid all of it: park outside the walls", body: "Everything above disappears if you simply do not drive into the centre. Siena is small, and the car parks just outside the walls are well placed for walking in — some connected to the centre by escalators that carry you up the hill.\n\n![Schematic of Siena's ZTL and the car parks around it, with daily rates and which have escalators.](/images/siena-ztl-parking-diagram.svg)\nSchematic — not to scale. Rates checked July 2026. Free to reuse with credit.\n\nThe main options sit around the edge of the old town: the large Fortezza/Stadio car park to the north-west, Santa Caterina with its escalators running up into the centre, and the car park down by the railway station, which is usually the cheapest for a full day. Hourly rates at the edge-of-town car parks run at around €2 per hour; the station lot is cheaper for longer stays. Several of these car parks also offer a discounted hotel rate — commonly around €25 per day against roughly €35 at the standard rate — if your accommodation books it for you, so it is worth asking your hotel before you arrive.\n\nPark in one of these, walk or ride up into the centre, and the ZTL is simply not your problem. For most visitors this is the whole answer." },
       { id: "if-your-hotel-is-inside", heading: "If your hotel is inside the walls", body: "Sometimes you genuinely need to reach accommodation inside the zone — to drop luggage, for instance. This is allowed, but only if it is arranged correctly and in advance.\n\nA hotel inside the ZTL can register your number plate for temporary authorised access. The critical points are these. First, you must arrange it **before** you drive in — the hotel cannot retroactively cancel a fine after a camera has already recorded you. Send the hotel your rental car's exact number plate ahead of arrival; many properties ask for it at least 48 hours beforehand. Second, the responsibility for giving the correct plate is yours: an official Siena permit document notes that the applicant alone is responsible for fines resulting from incorrect plate details. A single wrong character and the registration does not match the camera's reading.\n\nThere is one more rule worth knowing if you hold a permit. Siena requires permit holders to take the shortest route to their destination, avoiding the Zona Y storica and Zona A where possible. A permit to reach your hotel is not a licence to drive around the centre; it authorises a specific journey.\n\nIf in any doubt, the safest course is still to park outside and walk your luggage the last stretch, or take a taxi from the car park into the centre — taxis are authorised where private cars are not." },
       { id: "myths-that-get-people-fined", heading: "The myths that get people fined", body: "Most Siena ZTL fines come down to a handful of wrong assumptions. Correct these and you have avoided the zone.\n\n**\"The ZTL is only active during certain hours.\"** Not in Siena. The Comune states the zone is controlled 24 hours a day, every day. There is no safe overnight or Sunday window.\n\n**\"My sat-nav will route me around it.\"** Do not rely on it. Standard navigation apps do not reliably route around ZTLs, and following one blindly into the centre is one of the most common ways tourists get fined. Some apps handle ZTL warnings better than others, but none should be trusted to keep you out on its own. Know where the walls are and stay outside them.\n\n**\"I'm staying at a hotel inside, so I can drive in.\"** Only if the hotel has registered your plate in advance. A booking alone authorises nothing. Arrange the plate registration before you arrive, or park outside.\n\n**\"Everyone else is driving in, so it must be fine.\"** The other cars you see crossing into the zone are residents, permit holders, and authorised vehicles. They have passes. You do not, and the camera does not care that you were following someone.\n\n**\"I'm home now, so the fine can't reach me.\"** It can, and it does. Italy pursues fines across borders, the process is slow precisely because it is cross-border, and ignoring the notice makes it worse: past sixty days the amount roughly doubles and the debt moves to enforced collection. A fine that arrives eight months later is still a fine." },
       { id: "practical-checklist", heading: "Practical checklist", body: "- **Don't drive into the historic centre.** Park outside the walls — Fortezza/Stadio, Santa Caterina, or the station car park.\n- **Ask your hotel about a discounted car-park rate** — often around €25/day versus €35 standard.\n- **If your hotel is inside the walls**, email them your exact number plate before you arrive, ideally 48 hours ahead.\n- **Assume the cameras are always on.** There is no safe hour.\n- **Remember each gate can be a separate fine** — don't loop through the centre trying to correct a wrong turn; get out the way you came if you can.\n- **Don't trust your sat-nav** to keep you out of the zone.\n- **If a fine arrives, don't ignore it.** Check the photo at siena.multeonline.it, then pay within five days if you can — that cuts the penalty by 30 per cent. Past sixty days the amount roughly doubles.\n- **Non-European card?** Expect possible PagoPA rejection and be ready for an international bank transfer.\n\nSiena's ZTL has a fearsome reputation among visiting drivers, but the fine is entirely avoidable. It catches people who assume it works like a normal traffic restriction — active only at certain hours, forgiving of an honest mistake, avoidable by sat-nav. It is none of those things. Park outside the walls, sort your plate with the hotel if you must go in, and the walk up into the centre is the nicest part of the arrival anyway." },
@@ -1859,47 +1862,123 @@ Siena works as a day trip and rewards an overnight. What it does not reward is a
   ),
   A(
     "best-restaurants-siena-italy",
-    "Best Restaurants in Siena 2026: Where Locals Eat (No Tourist Traps)",
-    "Food & drink", "Siena",
-    "Discover the best restaurants in Siena Italy for authentic Tuscan cuisine in 2026. Eat where locals do – hearty pici pasta and wild boar ragù in charming contrade.",
-    "https://images.unsplash.com/photo-1527515545088-6dfde8f3b7f0?auto=format&fit=crop&w=1600&q=75",
+    "How Eating Out Works in Siena: The Rules Nobody Explains",
+    "Food", "Siena",
+    "Why your Siena bill is higher than the menu prices, when the kitchen is actually open, and the counter-vs-table rule that quietly changes what you pay.",
+    "/images/siena/07-pici-all-aglione.webp",
     [
-      { id: "introduction", heading: "Authentic Tuscan Dining in Siena", body: `Siena is famous for its history, but its culinary scene is a hidden gem of authentic Tuscan cooking. However, the streets surrounding Piazza del Campo are filled with tourist traps. To find real Sienese food, you must wander into the contrade (neighbourhoods).` },
-      { id: "dishes", heading: "Traditional Sienese Dishes to Look For", body: `![Traditional Sienese pasta dish or Tuscan dining table](https://images.unsplash.com/photo-1556761223-4c4282c73f77?w=1200&fit=crop)
-*Photo by Unsplash (Royalty-free)*
+      { id: "introduction", heading: "Introduction", body: `You will not find a list of "the ten best restaurants" here. Whether a trattoria is good is a matter of taste, it changes year to year, and anyone writing that list from a distance is guessing. What does not change, and what actually determines whether your meal goes smoothly, is how eating out in Siena works — the charges that appear on every bill, the hours the kitchen is really open, and the small rules that quietly move what you pay.
 
-Siena’s cuisine celebrates rustic, robust Tuscan traditions that highlight the province’s wild game and handmade pastas. Standout dishes include Pici all’Aglione, satisfyingly thick hand-rolled pasta in a punchy garlic and tomato sauce, and Pappardelle al Cinghiale, broad ribbons coated in rich wild boar ragù.
+Get these wrong and you arrive at 3pm to a closed kitchen, or stare at a bill that is several euros more than the menu prices added up, and assume you have been overcharged. You have not. You have met the coperto, the riposo and the counter-versus-table rule — three things every Italian takes for granted and almost no guide explains to visitors.
 
-What sets it apart from Florence is Sienese food’s heartier character – more game-focused, deeply flavorful, and proudly tied to the rolling hills and forests surrounding the city, offering first-time visitors an authentic taste of the countryside.` },
-      { id: "osterias", heading: "Authentic Osterias & Trattorias (Where Locals Eat)", body: `![Cozy Italian osteria interior or exterior alley](https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&fit=crop)
-*Photo by Unsplash (Royalty-free)*
+This is the practical layer. It was checked against Italian restaurant law and custom on 23 July 2026, and it applies across Siena and Tuscany.` },
+      { id: "quick-answer", heading: "Quick answer", body: `- **The coperto** is a small per-person cover charge, usually €1.50–3, added to almost every sit-down bill. It is legal, must be printed on the menu, and is not a tip.
+- **The kitchen keeps hours.** Lunch is roughly 12:00–14:30, dinner from about 19:00–22:30. Between those, the kitchen is closed even if the room is open — turn up at 16:00 hungry and you get a bar snack, not a meal.
+- **Standing costs less than sitting.** In a bar or café, a coffee at the counter (al banco) is cheaper than the same coffee at a table (al tavolo). Both prices must be posted.
+- **Servizio is not a tip**, and Italians barely tip. A service charge, if any, is printed; a tip is a small optional rounding, not 15–20%.
+- **Restaurants have a closing day** — a giorno di chiusura — often Sunday or Monday. Check before you plan a specific place.
 
-These genuine spots are where Sienese residents actually eat, delivering heartfelt Tuscan cooking without the hype.
+If you take one thing from this: the menu price is not the final price, and the kitchen is not open all afternoon.` },
+      { id: "the-coperto", heading: "The coperto: why the bill is more than the menu", body: `This is the single most common source of "was I overcharged in Italy?" — and the answer is almost always no.
 
-### Osteria Le Logge (elegant, historic)
-Tucked in a former 19th-century grocery shop on Via del Porrione just steps from Piazza del Campo, this elegant osteria blends historic charm with refined Tuscan cooking. Order the pappardelle al cinghiale or handmade tagliatelle with ragù, paired with an exceptional local wine list. The vibe is sophisticated yet welcoming; expect around €45–60 per person.
+The coperto is a fixed cover charge, levied **per person**, that appears on nearly every sit-down restaurant bill in Siena. It typically runs **€1.50 to €3 per person**, lower at simple or self-service places, higher at upscale ones. It is not a modern tourist trap — it is an old and normal part of how Italians have always dined out.
 
-### Trattoria di Fontebranda (casual, near the brick arches, great pici)
-Located near the magnificent Gothic brick arches of Fontebranda, one of Siena’s historic fountains, this casual trattoria is a neighbourhood favourite. Don’t miss their excellent pici all’aglione or pici with cinta senese sausage ragù. Family-run. Budget-friendly at €25–35 per person.
+Three things visitors most often get wrong about it:
 
-### Osteria degli Svitati (cozy, local favourite)
-This intimate osteria on Via della Galluzza offers a genuine local experience in a quiet contrada street. Try the pappardelle al cinghiale or classic ribollita. Cozy, no-frills vibe with excellent house wine. A true local favourite with generous portions at €20–30 per person.` },
-      { id: "avoid-traps", heading: "How to Avoid Tourist Traps in Siena", body: `Follow these practical rules:
+**It is not a tip and does not go to the waiter.** It is simply a different way of pricing: instead of building overheads into each dish, the restaurant lists them separately as the coperto. Tipping on top does not offset it.
 
-- Avoid places with English-only menus or photos of food on the board.
-- Avoid restaurants directly on Piazza del Campo ring (you pay double for the view, not the quality).
-- Always check the “coperto” (cover charge) fee.` },
-      { id: "aperitivo", heading: "Best Areas for Aperitivo", body: `![Aperitivo with Aperol Spritz in a Siena piazza](https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&fit=crop)
-*Photo by Unsplash (Royalty-free)*
+**It is charged for everyone at the table, including children.** A €3 coperto for a family of four is €12 before anyone has eaten. That is worth knowing when it looks like a small number on the menu.
 
-Recommend Piazza Tolomei or the quieter streets of the Terzo di Città rather than the main tourist square.` }
+**It is legal, and it must be printed on the menu.** Italian law requires the charge to be disclosed. If it is on the menu — usually at the bottom, sometimes in small type — you are agreeing to it by sitting down. A charge that is printed is not a scam; it is the posted price for using a table someone will clear and reset.
+
+Unlike Rome, where the direct coperto is banned by regional law and restaurants substitute a "pane" (bread) or "servizio" charge instead, **Tuscany permits the coperto directly**, so in Siena you will usually see the word itself on the menu.
+
+Before you sit down, read the bottom of the menu — restaurants are required to post it, often outside the door. If the coperto looks unreasonable, the move is to choose a different place, not to argue the bill afterwards.` },
+      { id: "coperto-servizio-and-tip", heading: "Coperto, servizio and tip: three different things", body: `Visitors tangle these together and end up paying twice. They are separate.
+
+**Coperto** — the fixed per-person cover charge above. Goes to the restaurant. Almost always present, always disclosed.
+
+**Servizio** — a service charge, shown as a percentage, applied to the food and drink total. It is **rarer** than the coperto and mostly appears in heavily touristed spots. If it is printed on the menu it is mandatory; if it is not printed, you should not see it on the bill. Crucially, servizio is not a tip in disguise — do not add a further tip to cover the staff on top of a servizio line.
+
+**Tip (mancia)** — optional, and small. Italians barely tip at restaurants; there is no 15–20% expectation. Rounding up, or leaving a euro or two for good service, is normal and generous. Leaving nothing is not rude. A servizio charge does not go to staff the way a tip would, but its presence still means no further tip is expected.
+
+The practical rule: find the coperto line, check whether a servizio percentage is printed, and treat any tip as optional rounding rather than an obligation.` },
+      { id: "when-the-kitchen-is-open", heading: "When the kitchen is actually open", body: `This is the one that ruins afternoons. Italian restaurants do not serve food all day — the kitchen keeps hours, and outside them you cannot get a proper meal even if the door is open and people are sitting inside.
+
+**Lunch** runs roughly **12:00 to 14:30**. **Dinner** starts around **19:00** and runs to about **22:30**, though most locals do not sit down for dinner until 20:30 or later. Turn up at 19:00 and you may have the room to yourself — that is normal, not a bad sign.
+
+**Between lunch and dinner, the kitchen is closed.** If you are hungry at 16:00, a restaurant will not cook you a meal. What you can get is bar food — a panino, a slice of pizza, a coffee, a gelato — from a bar or café, which runs on different hours.
+
+There is a Tuscan nuance worth knowing. In the deep south of Italy, whole towns shut for the afternoon riposo and even bars can be hard to find. **Tuscany is more relaxed**: restaurants keep the room open through the afternoon in tourist towns, and bars stay open, so you are rarely stranded. But the kitchen still stops between services. The room being open does not mean the kitchen is.
+
+The practical consequence for a day-tripper: eat your main meal within lunch service, roughly 12:30–14:00, or plan an early dinner from 19:30. Do not count on a sit-down lunch at 15:30. And on a hot day, that mid-afternoon gap is a good time for the sights or a gelato rather than a search for a kitchen that is closed.` },
+      { id: "standing-versus-sitting", heading: "Standing versus sitting: the price changes", body: `In Italian bars and cafés — where most visitors get their coffee — where you drink it changes what it costs.
+
+A coffee taken **al banco**, standing at the counter, is priced low to keep the morning rush moving. The same coffee taken **al tavolo**, sitting at a table with service, costs more, because someone brings it and clears it. This is entirely legal, and both prices must be posted.
+
+The difference is usually small for an espresso but adds up, and it catches visitors who sit down at a pretty piazza café expecting counter prices. In a famous square — the equivalent of Florence's Piazza della Signoria cafés — the table price can be several times the counter price. You are paying for the seat and the view, disclosed on the price list, not being cheated.
+
+If a bar adds a separate servizio al tavolo supplement for table service, that too must be spelled out on the price list, not sprung on you afterwards.
+
+The practical rule: for a quick coffee, drink it standing at the counter like a local and pay the lower price. Sit down when you actually want to sit down, and know the table price before you do.` },
+      { id: "closing-days-and-booking", heading: "Closing days and booking", body: `Two more things shape whether you can eat where you want, when you want.
+
+**Most restaurants have a closing day** — a giorno di chiusura or giorno di riposo — one day a week when they are shut entirely. It is often Sunday or Monday, but it varies by place. A sign reading "chiuso per turno" or "giorno di riposo" means closed all day, not just for the afternoon. If you have your heart set on a specific restaurant, check its closing day before you build an evening around it.
+
+**Booking matters for dinner and weekend lunches.** Popular places in Siena's centre fill, particularly on Friday and Saturday evenings and Sunday lunch. For a specific restaurant on a specific night, book ahead. For a casual lunch you can usually walk in, but the good places go first.
+
+Do not confuse "closed for the afternoon" with "closed today". A kitchen shut at 16:00 will reopen for dinner; a restaurant on its giorno di chiusura will not open at all.` },
+      { id: "reading-a-siena-menu-and-bill", heading: "Reading a Siena menu and bill", body: `Putting it together, here is what to actually look for:
+
+**On the menu, before you sit:**
+
+- The **coperto** line, usually at the bottom — this is your per-person cover charge.
+- Any **servizio** percentage — rarer, but if printed, it is mandatory and no separate tip is needed.
+- In a bar, the **al banco / al tavolo** prices — the counter and table rates.
+
+**On the bill, after:**
+
+- Menu prices for what you ate, plus the coperto per person. That sum should match. If it does, nothing is wrong.
+- A servizio line only if it was printed on the menu.
+- No "hidden" charges — everything on an Italian bill must correspond to something disclosed on the menu.
+
+If a charge appears on the bill that was **not** printed on the menu, that is when you have grounds to question it. A printed charge, however unfamiliar, is simply the posted price.` },
+      { id: "practical-checklist", heading: "Practical checklist", body: `- **Expect a coperto** of €1.50–3 per person on every sit-down bill. It is normal and legal.
+- **The menu price is not the final price** — add the coperto per head.
+- **Eat within kitchen hours:** lunch about 12:00–14:30, dinner from about 19:00.
+- **Do not expect a sit-down meal at 16:00** — the kitchen is closed; get a bar snack instead.
+- **Stand at the counter** for a cheaper coffee; sit only when you want the seat.
+- **Servizio is not a tip.** If it is printed, no further tip is needed; if it is not printed, it should not appear.
+- **Tips are optional and small** — round up if you like, but there is no 15–20% expectation.
+- **Check the closing day** of any specific restaurant before you plan around it.
+- **Book ahead** for dinner and weekend lunches at popular places.
+- **Read the bottom of the menu** before sitting — restaurants must post it, often outside.
+
+None of this is designed to catch tourists out. It is simply how Italians eat, priced and timed differently from what many visitors expect. Read the menu before you sit, eat when the kitchen is open, and stand for your coffee — and eating out in Siena is straightforward, and a good deal.` },
+      { id: "next-steps", heading: "Next steps", body: `Planning a day trip and wondering whether to eat lunch in Siena or Florence? Our guide to [visiting Florence from Siena](/blog/best-things-to-do-in-florence/) covers the timings, and our [day-trip-versus-overnight guide](/blog/siena-travel-cost-2026/) costs out a full day. If you are driving in, read our [Siena ZTL guide](/blog/siena-ztl-fines-how-to-avoid/) first — the historic centre is camera-enforced and the fine reaches you months later.` }
     ],
     [
-      { q: "Do I need to book restaurants in Siena in advance?", a: "Yes, especially for dinner or weekend lunches." },
-      { q: "What is the average cost of dinner in Siena?", a: "Around €30-€45 per person for a mid-range dining experience." },
-      { q: "What is the local wine to order?", a: "Chianti Colli Senesi or Brunello di Montalcino." }
+      { q: "Why is my restaurant bill in Siena higher than the menu prices?", a: "Almost certainly the coperto — a fixed cover charge of about €1.50–3 per person, added to nearly every sit-down bill. It is legal, must be printed on the menu, and is not a tip. Add it per head and the total should match; if it does, you have not been overcharged." },
+      { q: "What is the coperto and do I have to pay it?", a: "The coperto is a per-person cover charge that prices the restaurant's overheads separately from the dishes. If it is printed on the menu — which Italian law requires — you agree to it by sitting down, and yes, you pay it. It is charged for everyone at the table, including children." },
+      { q: "Do I need to tip in Siena?", a: "No, not in the way visitors from some countries expect. Italians barely tip; there is no 15–20% norm. Rounding up or leaving a euro or two for good service is generous. If a servizio charge is printed on the menu, no further tip is expected at all." },
+      { q: "What time do restaurants serve food in Siena?", a: "Lunch runs roughly 12:00 to 14:30 and dinner from about 19:00 to 22:30, though locals often dine after 20:30. Between lunch and dinner the kitchen is closed — you can get bar food like a panino or pizza, but not a full sit-down meal." },
+      { q: "Why was my coffee more expensive at a table?", a: "Because Italian bars charge more for table service (al tavolo) than for standing at the counter (al banco). Both prices must be posted. For a cheaper coffee, drink it standing at the counter; the table price pays for the seat." },
+      { q: "Are restaurants in Siena open on Sundays and Mondays?", a: "It depends on the individual restaurant's closing day, which is often Sunday or Monday but varies. A sign reading \"chiuso per turno\" or \"giorno di riposo\" means closed all day. Check a specific restaurant's closing day before planning around it." },
+      { q: "Is the service charge a scam?", a: "No. A servizio charge is legal as long as it is printed on the menu, and it is rarer than the coperto. What would be improper is a charge on the bill that was never disclosed on the menu. Anything printed, however unfamiliar, is simply the posted price." }
     ],
-    "2026-07-14T22:30:00+07:00"
+    "2026-07-25T12:00:00+07:00",
+    {
+      seoTitle: "How Eating Out Works in Siena: Charges, Hours, Rules",
+      published: "2026-07-14",
+      imageAlt: "Pici all'aglione, a hand-rolled Sienese pasta in garlic and tomato sauce",
+      imageCredit: {
+        author: "Superchilum",
+        source: "https://commons.wikimedia.org/wiki/File:Pici_all%27aglione.jpg",
+        license: "CC BY-SA 4.0",
+        licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+        changes: "Resized and converted to WebP."
+      }
+    }
   ),
     A(
     "siena-day-trips-without-a-car",
