@@ -149,8 +149,12 @@ export default function HomePage() {
 
   return (
     <>
+      {/* Must stay byte-identical to the '/' entry in scripts/generate-static-html.js,
+          which is what crawlers receive; "exact" stops SEO.jsx appending the brand a
+          second time. */}
       <SEO
-        title="Archi Travel Guide — The Practical Side of Tuscany"
+        title="Siena & Tuscany Trip Planning: Transport, Parking, Tickets"
+        titleTemplate="exact"
         description="Parking, ZTL permits, tickets and transport for Siena and Tuscany, traced to official sources and dated so you can see how current each guide is."
         path="/"
         schema={ORGANIZATION_JSONLD}

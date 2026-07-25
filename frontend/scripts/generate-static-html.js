@@ -95,10 +95,18 @@ const STATIC_FOOTER_LINKS = [
 ];
 
 const STATIC_ROUTES = [
-  page('/', 'Archi Travel Guide', 'Practical travel logistics for Siena and Tuscany: parking, ZTL rules, tickets and transport, traced to official sources and dated.', 'The practical side of Tuscany', [
-    'Parking, ZTL permits, tickets and transport for Siena and Tuscany, traced to official sources.',
-    'Every price and rule shows the date it was last checked.',
-  ]),
+  // exactTitle: the head terms "Siena Travel Guide" and "Tuscany Travel Guide"
+  // belong to /siena-travel-guide/ and /tuscany-travel-guide/. The home page
+  // targets the logistics angle instead so it does not compete with them, and
+  // omits the brand suffix to stay inside the ~60-char SERP display limit —
+  // og:site_name already carries the brand for Google's site-name feature.
+  {
+    ...page('/', 'Siena & Tuscany Trip Planning: Transport, Parking, Tickets', 'Practical travel logistics for Siena and Tuscany: parking, ZTL rules, tickets and transport, traced to official sources and dated.', 'The practical side of Tuscany', [
+      'Parking, ZTL permits, tickets and transport for Siena and Tuscany, traced to official sources.',
+      'Every price and rule shows the date it was last checked.',
+    ]),
+    exactTitle: true,
+  },
   // noindex: thin page. Kept out of sitemap.xml and the nav; the route still serves.
   {
     ...page('/destinations', 'Destinations', 'Practical destination guides for Siena, Florence and the wider Tuscany region.', 'Destinations', [
