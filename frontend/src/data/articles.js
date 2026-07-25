@@ -1863,7 +1863,7 @@ Siena works as a day trip and rewards an overnight. What it does not reward is a
   A(
     "best-restaurants-siena-italy",
     "How Eating Out Works in Siena: The Rules Nobody Explains",
-    "Food", "Siena",
+    "Food & drink", "Siena",
     "Why your Siena bill is higher than the menu prices, when the kitchen is actually open, and the counter-vs-table rule that quietly changes what you pay.",
     "/images/siena/07-pici-all-aglione.webp",
     [
