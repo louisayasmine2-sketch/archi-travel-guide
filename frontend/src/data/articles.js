@@ -328,7 +328,7 @@ const allArticles = [
     "tuscany-packing-checklist",
     "Tuscany Packing List: What to Wear and Bring in Every Season",
     "Packing", "Tuscany",
-    "Use this practical Tuscany packing list for spring, summer, autumn and winter, including clothes, shoes, church attire, driving essentials and carry-on tips.",
+    "A practical Tuscany packing list for spring, summer, autumn and winter: clothes, shoes, church attire, driving essentials and carry-on tips.",
     "/images/siena/06-siena-contrada-street.webp",
     [
       {
@@ -813,7 +813,7 @@ const allArticles = [
     "common-mistakes-siena",
     "15 Siena Travel Mistakes to Avoid on Your First Trip",
     "Practical tips", "Siena",
-    "Avoid the most common Siena travel mistakes, from ZTL fines and steep walks to rushed itineraries, Palio crowds, ticket assumptions and poor arrival planning.",
+    "Avoid common Siena travel mistakes, from ZTL fines and steep walks to rushed itineraries, Palio crowds and poor arrival planning.",
     "/images/siena/05-piazza-del-campo-panorama.webp",
     [
       {
@@ -970,7 +970,7 @@ const allArticles = [
     "siena-hotel-vs-apartment-guide",
     "Siena Hotel vs Apartment: Which Is Better for Your Trip?",
     "Where to stay", "Siena",
-    "Compare a Siena hotel vs apartment for price, location, breakfast, kitchens, families, luggage, parking and short stays, then choose the right accommodation.",
+    "Compare a Siena hotel vs apartment on price, location, breakfast, kitchens, families, luggage and parking to choose the right base.",
     "/images/siena/06-siena-contrada-street.webp",
     [
       {
@@ -2348,7 +2348,7 @@ None of this is designed to catch tourists out. It is simply how Italians eat, p
     'best-things-to-do-in-florence',
     'Florence from Siena: What to See, and What You Must Book First',
     'Things to do', 'Florence',
-    'Visiting Florence from Siena? Two days of the week make it much harder, three sights need booking weeks ahead, and the last bus back is earlier than you think.',
+    'Visiting Florence from Siena? Two weekdays make it harder, three sights need booking weeks ahead, and the last bus back leaves early.',
     '/images/florence/duomo-dome-climb-early-morning.webp',
     [
       { id: 'what-decides-your-day-trip', heading: 'The two things that decide your day trip', body: `Florence is an easy day trip from Siena — about an hour and a quarter by bus, arriving a short walk from the sights. But two things decide whether the day works, and neither appears in most guides: **which day of the week you go**, and **what you booked before leaving home**.
@@ -2563,7 +2563,7 @@ Siena's elevated position and urban design create a microclimate that feels seve
     'Avoid Crowds in Florence July 2026: Smart Strategies for Independent Travellers',
     'Practical tips',
     'Florence',
-    'Florence in July 2026 is peak season and very crowded. Here are proven strategies from real travellers on X to skip the lines at the Uffizi and Duomo, discover hidden gems in Oltrarno, and enjoy a stress-free visit — plus the best day trip to Siena.',
+    'Proven ways to dodge Florence’s July 2026 crowds: skip the Uffizi and Duomo queues, explore quieter Oltrarno, and time your day right.',
     '/images/florence/uffizi-early-morning-july-2026.webp',
     [
       {
@@ -2671,7 +2671,7 @@ Explore our complete guides to [Florence](/florence/), plan your perfect side tr
     'Venice Day Trip from Tuscany 2026: Complete Guide to the Access Fee + How to Save Money',
     'Day trips',
     'Venice',
-    'Planning a Venice day trip from Tuscany or Siena in July 2026? Here’s how the Venice access fee works on 17–19 July, how to pay (or skip it entirely), best train schedules from Florence, and money-saving tips for independent travellers.',
+    'How the Venice access fee works on 17–19 July 2026, how to pay or legally avoid it, and the best trains from Florence for a day trip.',
     '/images/venice/hero-venice-tuscany-day-trip.webp',
     [
       {
@@ -2795,7 +2795,7 @@ Safe travels — Venice is waiting, and now you’re fully prepared from your Tu
     'Florence Summer Heat Survival Tips 2026: Stay Cool & Beat the Heat',
     'Practical tips',
     'Florence',
-    'Florence summer heat survival tips 2026 — beat 35°C+ days, avoid midday exhaustion, and still see everything. Real traveller hacks for independent visitors. Stay cool and enjoy Italy!',
+    'Practical ways to handle Florence’s 35°C+ summer days in 2026: timing, shade routes, water fountains and cooler alternatives.',
     '/images/florence/florence-summer-heat-survival-hero.webp',
     [
       {
@@ -2896,7 +2896,7 @@ Explore more Florence guides at [/florence](/florence/), discover broader Tuscan
     'Puccini Festival Torre del Lago 2026: Independent Traveller Guide',
     'Practical tips',
     'Tuscany',
-    'Planning to attend the Puccini Festival Torre del Lago 2026 independently? This complete guide for travellers from Florence or Siena covers tickets, transport, best seats, practical tips, and the perfect Lucca day trip — no package tour needed.',
+    'Attend the Puccini Festival Torre del Lago 2026 independently: tickets, transport from Florence or Siena, seating advice and a Lucca day trip.',
     '/images/tuscany/puccini-festival-torre-del-lago-hero.webp',
     [
       {
@@ -3007,7 +3007,7 @@ For more ideas on combining opera with vineyards, hilltop villages, and Tuscan t
     'Best Day Trips from Florence to Siena: Complete 2026 Guide',
     'Day trips',
     'Siena',
-    'Best day trips from Florence to Siena 2026 — easy train or bus, perfect itinerary, and crowd-free tips. Discover Tuscany’s heart in one unforgettable day. Book smarter now!',
+    'Plan the best Florence to Siena day trip for 2026: train or bus choice, a realistic one-day itinerary and tips for avoiding the crowds.',
     '/images/siena/best-day-trip-florence-to-siena-piazza-del-campo.webp',
     [
       {
@@ -3139,7 +3139,7 @@ Turn your Florence stay into a full Tuscany adventure. Explore deeper with our d
     '7-Day Tuscany Itinerary for Independent Travellers 2026: Florence Base + Self-Drive (Siena, Chianti, Val d’Orcia)',
     'Itineraries',
     'Tuscany',
-    'Planning a 7-day trip to Tuscany as an independent traveller in 2026? This realistic Florence-based itinerary covers Siena by train, Chianti wine roads by car, and the iconic Val d’Orcia landscapes without constant hotel changes. Perfect for solo travellers who want freedom and flexibility.',
+    'A realistic 7-day Tuscany itinerary from a Florence base: Siena by train, Chianti wine roads by car and Val d’Orcia without hotel changes.',
     '/images/tuscany/7-day-tuscany-itinerary-hero.jpg',
     [
       {
@@ -3276,7 +3276,7 @@ Head to our Tuscany page for detailed maps, or explore more in Florence, Siena, 
     'Summer Packing List for Tuscany & Florence 2026: Travel Light & Stay Cool',
     'Packing',
     'Tuscany',
-    'Summer packing list for Tuscany & Florence 2026 — breathable linen, supportive shoes for cobblestones, and smart heat-beating essentials from real travellers. Travel light, stay comfortable, and look stylish in Italy’s hottest months.',
+    'A summer packing list for Tuscany and Florence 2026: breathable linen, supportive shoes for cobblestones and heat-beating essentials.',
     '/images/florence/summer-packing-list-tuscany-florence-hero.webp',
     [
       {
@@ -3375,7 +3375,7 @@ Safe travels!`,
     'Hidden Gems Around Siena, Tuscany: Escape the Crowds in 2026',
     'Things to do',
     'Tuscany',
-    'Discover the quiet side of Tuscany near Siena. Explore hidden gems like Monteriggioni, San Quirico d’Orcia, and local vineyards away from the 2026 tour-bus crowds.',
+    'Discover the quiet side of Tuscany near Siena: Monteriggioni, San Quirico d’Orcia and local vineyards away from the tour-bus crowds.',
     '/images/siena/hidden-gems-siena-tuscany-hero.webp',
     [
       {
@@ -3464,7 +3464,7 @@ See our full Siena guide for interactive maps, updated 2026 bus timetables, and 
     'Best Siena Hotels with Parking for Drivers and Tuscany Day Trips',
     'Where to stay',
     'Tuscany',
-    'Honest picks of Siena hotels with reliable parking for drivers. Ideal bases for Chianti & Val d’Orcia day trips, with pros, caveats, price bands and tips. Updated July 2026.',
+    'Honest picks of Siena hotels with reliable parking, ideal for Chianti and Val d’Orcia day trips, with pros, caveats and price bands.',
     '',
     [
       {
@@ -3663,7 +3663,7 @@ Compare all rental car prices for Italy on DiscoverCars`,
     'Val d’Orcia Day Trip from Siena: Pienza, Montalcino & Montepulciano (2026 Guide)',
     'Day trips',
     'Tuscany',
-    'Plan a Val d’Orcia day trip from Siena in 2026. Realistic routes to Pienza, Montalcino, and Montepulciano by bus, car, or tour — with timing, wine tips, and a one-day itinerary.',
+    'Plan a Val d’Orcia day trip from Siena: realistic routes to Pienza, Montalcino and Montepulciano by bus, car or tour, with timing tips.',
     '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
     [
       {
