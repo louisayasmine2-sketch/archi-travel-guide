@@ -2152,7 +2152,7 @@ None of this is designed to catch tourists out. It is simply how Italians eat, p
     'Siena Weather by Season: What to Pack and Why',
     'Packing', 'Siena',
     'A practical season guide for Siena weather in 2026 planning windows, with clear packing logic for each season.',
-    'https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1600&q=75',
+    '/images/siena/08-siena-cityscape.webp',
     [
       { id: 'spring', heading: 'Spring (March–May)', body: 'Mild days, occasional rain, and uneven walk surfaces. Bring layered layers, a rain shell, and fast-dry shoes.' },
       { id: 'summer', heading: 'Summer (June–August)', body: 'Heat can be high midday. Prioritise hydration, shade windows, and a light cap strategy for museum exits.' },
@@ -2480,7 +2480,7 @@ Florence from Siena is a good day out and an easy journey. The visitors who come
     'How Much Does Florence Really Cost? A Practical Budget Guide',
     'Budget', 'Italy',
     'A realistic breakdown of what Florence costs today — from budget hostels to luxury hotels, plus money-saving tips.',
-    'https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1600&q=75',
+    '/images/italy/florence-budget-travel-street-food.webp',
     [
       { id: 'intro', heading: 'Florence is smaller than you think', body: 'You can walk from one end of the historic centre to the other in about twenty minutes, which means you will spend less on transport and more on the things that actually matter — the food, the art, and the leather jacket you swore you would not buy but absolutely will.\n\nThe good news is that Florence is significantly cheaper than Rome or Venice for accommodation and dining. Here is what Florence actually costs, broken down by budget level.' },
       { id: 'budget', heading: 'Budget Traveller — €65 to €90 per day', body: 'A bed in a well-reviewed hostel runs €25 to €40 per night. Private rooms in basic guesthouses start around €50 to €70.\n\nFor food, eat where the students eat. The area around San Lorenzo and Sant\'Ambrogio is filled with trattorias serving three-course lunch menus for €10 to €13.\n\nFor breakfast, do what locals do: stand at a bar counter, order a cornetto and a caffè, pay €2.50, and leave. Sitting down often doubles the price.' },
@@ -2496,15 +2496,14 @@ Florence from Siena is a good day out and an easy journey. The visitors who come
     "Italy Hotels Without AC in 2026: The Honest Guide to Staying Cool in Tuscany & Siena",
     "Practical tips", "Italy",
     "Shocked by Italy hotels without AC in Tuscany and Siena? Learn why many rooms hit 38°C, how to book real cooling, and 10 survival tips for summer heat.",
-    "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=75",
+    "/images/tuscany/san-gimignano-medieval-towers.webp",
     [
       { id: "introduction", heading: "The Italian Hotel AC Shock That Catches US & UK Travellers Off Guard", body: `Picture this: you've just arrived at your charming €150-a-night hotel in the heart of Tuscany after a long flight. You fling open the door, suitcase in hand, dreaming of a cool sanctuary. Instead, the thermometer reads 38°C. The air feels thick, the stone floors radiate warmth, and there is no reassuring hum of air conditioning. For many US and UK travellers, this moment is the first real culture shock of an Italian summer.
 
 Italy's relationship with air conditioning is fundamentally different from America's. While US hotels treat powerful, icy AC as a non-negotiable standard, Italian properties — especially in historic Tuscany and Siena — rely on centuries-old passive cooling techniques. Thick stone walls, heavy wooden shutters, and strategic cross-ventilation were designed long before modern climate control existed. Retrofitting full AC systems into protected buildings is expensive, sometimes illegal, and not always desired by owners who prefer natural airflow.
 
 Three-star hotels often list "air conditioning" on booking platforms, yet the systems struggle against 35–40°C exterior temperatures. Yet staying cool in Tuscany and Siena is entirely possible once you understand the rules. This honest guide reveals why AC is scarce, how to find properties that actually deliver reliable cooling, and practical strategies to thrive even when your room stays naturally warm. With the right preparation, you will trade refrigerated air for the authentic pleasure of a Tuscan evening breeze — and still sleep soundly.` },
-      { id: "why-no-ac", heading: "Why Italian Hotels Often Don't Have (Good) AC", body: `![Tuscan stone villa with wooden shutters and courtyard summer](https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&fit=crop)
-*Photo by Unsplash (Royalty-free)*
+      { id: "why-no-ac", heading: "Why Italian Hotels Often Don't Have (Good) AC", body: `![Thick stone buildings and wooden shutters inside the walled village of Monteriggioni, Tuscany](/images/tuscany/tuscany-hidden-gems-monteriggioni.webp)
 
 The absence — or weakness — of air conditioning in many Italian hotels is not a flaw in hospitality but a product of deep cultural, legal, and architectural realities. Historic buildings dominate Tuscany and Siena. These centuries-old stone villas, palazzi, and farmhouses were constructed with thick walls that absorb heat during the day and release it slowly at night. Retrofitting modern AC units often requires invasive work that can damage protected structures, making it prohibitively expensive or outright prohibited under Italy's strict heritage laws.
 
@@ -2513,10 +2512,7 @@ Energy regulations add another layer. Italian law restricts air conditioning in 
 Culturally, Italians view excessive cold air with suspicion. The phenomenon known as "colpo d'aria" — a sudden chill blamed for everything from neck pain to summer colds — makes many hoteliers wary of blasting refrigerated air. Instead, the preferred method remains practical and time-honored: closing heavy wooden shutters during the hottest hours, then opening windows after sunset to invite the cooler evening breeze.
 
 Three-star hotels in particular often list "air conditioning" on booking platforms, yet the systems prove inadequate when external temperatures climb above 35°C. Four-star and luxury properties are more likely to invest in powerful, modern systems, but even these may operate with Italian restraint rather than American intensity. Understanding this reality removes the frustration and opens the door to appreciating Italy's elegant, low-tech solutions.` },
-      { id: "booking-tips", heading: "How to Find Hotels With REAL AC in Tuscany & Siena (Booking Tips)", body: `![Hotel room with ceiling fan and open window Italy summer](https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1200&fit=crop)
-*Photo by Unsplash (Royalty-free)*
-
-Finding a hotel in Tuscany or Siena with genuinely effective air conditioning requires more than trusting booking-platform filters. The label "air conditioning" can mean anything from a powerful split-system unit to a portable device that barely moves the needle on a hot day. Savvy travellers treat the filter as a starting point only.
+      { id: "booking-tips", heading: "How to Find Hotels With REAL AC in Tuscany & Siena (Booking Tips)", body: `Finding a hotel in Tuscany or Siena with genuinely effective air conditioning requires more than trusting booking-platform filters. The label "air conditioning" can mean anything from a powerful split-system unit to a portable device that barely moves the needle on a hot day. Savvy travellers treat the filter as a starting point only.
 
 **Step 1 — Search and read recent summer reviews.** On Booking.com, select "air conditioning" as an amenity filter, then search reviews from June through September for phrases like "AC worked well," "room stayed cool," or "strong air conditioning." Current summer season reviews reveal true performance during heatwaves far better than older testimonials.
 
@@ -2534,8 +2530,7 @@ Hotels that answer confidently and specifically are far more likely to deliver w
 Expect to pay €200 or more per night in high summer for properties that guarantee strong, independent AC.
 
 **Agriturismi (farm stays)** often outperform traditional city hotels in natural cooling. Their thick stone construction, rural location away from urban heat islands, and frequent inclusion of pools or shaded courtyards create a naturally cooler environment. Many now add modern AC as a bonus — making them excellent choices for families seeking authentic Tuscan serenity without sacrificing comfort.` },
-      { id: "survival-tips", heading: "10 Survival Tips If Your Room Has No AC", body: `![Siena medieval streets cool stone architecture shade](https://images.unsplash.com/photo-1519197924294-4ba991a11128?w=1200&fit=crop)
-*Photo by Unsplash (Royalty-free)*
+      { id: "survival-tips", heading: "10 Survival Tips If Your Room Has No AC", body: `![Shaded stone archway in a Siena contrada street](/images/siena/06-siena-contrada-street.webp)
 
 Even the most carefully chosen hotel may lack robust air conditioning. These battle-tested strategies turn a warm room into a manageable — even enjoyable — space.
 
@@ -3072,7 +3067,7 @@ Step one block off the Campo into quieter streets such as Via di Pantaneto or Vi
 **Afternoon (2:30 – 6 PM): Duomo Complex and Contrade Streets**
 Head uphill to the breathtaking Duomo (Cathedral). Purchase the OPA SI Pass (around €15–20, valid three days) for skip-the-line access to the striped marble interior, Pinturicchio’s frescoed Piccolomini Library, and the panoramic Facciatone viewpoint on the unfinished New Cathedral façade. The black-and-white marble and intricate floor panels rank among Italy’s finest Gothic treasures. (Note: the famous marble floor is uncovered during the 2026 periods listed above.)
 
-![Stunning interior of Siena Duomo](/images/siena/siena-duomo-marble-floor-interior.webp)
+![Interior of Siena Cathedral with striped marble columns and frescoed apse](/images/siena-cathedral-interior.webp)
 *The Siena Duomo interior is a masterpiece of black-and-white striped marble.*
 
 After the Duomo, wander the atmospheric contrade (historic districts). Explore Via della Galluzza, Fontebranda (Siena’s oldest fountain), and the Basilica of San Domenico for peaceful views and a glimpse into local identity. These backstreets reveal Siena’s living medieval soul away from tour groups.
