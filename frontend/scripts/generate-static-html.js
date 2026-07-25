@@ -605,7 +605,12 @@ function markdownToHtml(markdown = '') {
             i += 1;
           }
         }
-        html.push(`<div class="my-8"><img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" class="w-full rounded-2xl object-cover aspect-[16/9] shadow-sm" />${captionHtml}</div>`);
+        // Vector diagrams (SVG) must show in full — never crop them to a fixed
+        // photo aspect ratio, or labels and the credit line get cut off.
+        const imgClass = /\.svg(\?|$)/i.test(src)
+          ? "w-full h-auto rounded-2xl shadow-sm"
+          : "w-full rounded-2xl object-cover aspect-[16/9] shadow-sm";
+        html.push(`<div class="my-8"><img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" class="${imgClass}" loading="lazy" decoding="async" />${captionHtml}</div>`);
         i += 1;
         continue;
       }

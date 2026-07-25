@@ -118,9 +118,15 @@ const renderArticleBody = (body) => {
         const imageMatch = block.match(/^!\[([^\]]+)\]\(([^)]+)\)(?:\s*\n\s*(.+))?$/s);
         if (imageMatch) {
           const [, alt, src, caption] = imageMatch;
+          // Vector diagrams (SVG) must show in full — never crop them to a fixed
+          // photo aspect ratio, or labels and the credit line get cut off.
+          const isVector = /\.svg(\?|$)/i.test(src);
+          const imgClass = isVector
+            ? "w-full h-auto rounded-2xl shadow-sm"
+            : "w-full rounded-2xl object-cover aspect-[16/9] shadow-sm";
           return (
             <div key={keyPrefix} className="my-8">
-              <img src={src} alt={alt} className="w-full rounded-2xl object-cover aspect-[16/9] shadow-sm" />
+              <img src={src} alt={alt} className={imgClass} loading="lazy" decoding="async" />
               {caption && (
                 <p className="mt-2 text-center text-sm text-[hsl(var(--charcoal-soft))] italic animate-fade-in">
                   {renderInlineMarkdown(caption, `${keyPrefix}-caption`)}

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520" width="680" height="520" role="img" aria-labelledby="routeTitle routeDesc" font-family="Georgia, 'Times New Roman', serif">
+<title id="routeTitle">Two-stage route from Florence Airport to Siena</title>
+<desc id="routeDesc">Schematic diagram. There is no direct bus or train from Florence Airport to Siena; the journey is two stages. Stage one is the T2 tram from Florence Airport to the Santa Maria Novella area, 1.70 euros, about 20 minutes, alighting at Alamanni. Stage two is the 131R bus from Firenze Autostazione to Siena, 8.40 euros bought at a counter or 13.00 euros from the driver, about 75 to 80 minutes, arriving at Antiporto Camollia. The cheapest total is 10.10 euros. Validate every ticket the moment you board or risk a fine. Fares checked July 2026.</desc>
+
+<rect width="680" height="520" fill="#F5EDE3"/>
+
+<text x="340" y="34" text-anchor="middle" dominant-baseline="central" font-size="15" font-weight="600" fill="#2C211B">There is no direct bus or train — the trip is two stages</text>
+
+<g>
+<circle cx="90" cy="120" r="30" fill="#FFFFFF" stroke="#5A9E86" stroke-width="1.5"/>
+<text x="90" y="120" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="600" fill="#2C211B">FLR</text>
+</g>
+<text x="90" y="168" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#4f4842">Florence Airport</text>
+
+<g>
+<circle cx="340" cy="120" r="30" fill="#F7EAE4" stroke="#C65A3A" stroke-width="1.5"/>
+<text x="340" y="113" text-anchor="middle" dominant-baseline="central" font-size="12" font-weight="600" fill="#8C3A1E">Central</text>
+<text x="340" y="128" text-anchor="middle" dominant-baseline="central" font-size="12" font-weight="600" fill="#8C3A1E">Florence</text>
+</g>
+<text x="340" y="168" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#A0492A">Change here</text>
+
+<g>
+<circle cx="590" cy="120" r="30" fill="#FFFFFF" stroke="#7FA254" stroke-width="1.5"/>
+<text x="590" y="120" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="600" fill="#2C211B">Siena</text>
+</g>
+<text x="590" y="168" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#4E6E20">Antiporto Camollia</text>
+
+<line x1="122" y1="120" x2="304" y2="120" stroke="#5A9E86" stroke-width="2"/>
+<path d="M 300 114 L 310 120 L 300 126 Z" fill="#5A9E86"/>
+<line x1="372" y1="120" x2="554" y2="120" stroke="#5A9E86" stroke-width="2"/>
+<path d="M 550 114 L 560 120 L 550 126 Z" fill="#5A9E86"/>
+
+<g>
+<rect x="140" y="220" width="150" height="96" rx="10" fill="#FFFFFF" stroke="#C9BFB3" stroke-width="1"/>
+<text x="215" y="244" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="600" fill="#2C211B">Stage 1 — Tram T2</text>
+<line x1="160" y1="262" x2="270" y2="262" stroke="#C9BFB3" stroke-width="0.75"/>
+<text x="215" y="278" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#4f4842">€1.70 · ~20 min</text>
+<text x="215" y="298" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#4f4842">to Alamanni (SMN)</text>
+</g>
+
+<g>
+<rect x="390" y="220" width="150" height="96" rx="10" fill="#FFFFFF" stroke="#C9BFB3" stroke-width="1"/>
+<text x="465" y="244" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="600" fill="#2C211B">Stage 2 — 131R bus</text>
+<line x1="410" y1="262" x2="520" y2="262" stroke="#C9BFB3" stroke-width="0.75"/>
+<text x="465" y="278" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#4f4842">€8.40 counter · ~75 min</text>
+<text x="465" y="298" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#A0492A">€13.00 from driver</text>
+</g>
+
+<line x1="215" y1="150" x2="215" y2="220" stroke="#C9BFB3" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="465" y1="150" x2="465" y2="220" stroke="#C9BFB3" stroke-width="1" stroke-dasharray="3 3"/>
+
+<g>
+<rect x="150" y="356" width="380" height="44" rx="8" fill="#FBF1DE" stroke="#C99A3F" stroke-width="1"/>
+<text x="340" y="378" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="600" fill="#6E4A0B">Validate every ticket the moment you board — or risk a fine</text>
+</g>
+
+<g>
+<rect x="205" y="424" width="270" height="44" rx="8" fill="#EDF3E4" stroke="#7FA254" stroke-width="1"/>
+<text x="340" y="446" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="600" fill="#3F5A18">Cheapest total: €10.10 at counters</text>
+</g>
+
+<text x="340" y="492" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#6b645c">Schematic — not to scale · fares checked July 2026</text>
+<text x="340" y="508" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#6b645c">Archi Travel Guide · affittacameregliarchi.com · free to reuse with credit (CC BY 4.0)</text>
+</svg>

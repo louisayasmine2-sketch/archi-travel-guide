@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 600" width="680" height="600" role="img" aria-labelledby="ztlTitle ztlDesc" font-family="Georgia, 'Times New Roman', serif">
+<title id="ztlTitle">Siena's ZTL and the car parks around it</title>
+<desc id="ztlDesc">Schematic diagram. Siena's historic centre is a restricted traffic zone enforced by cameras 24 hours a day; entering without a permit generates an automatic fine that reaches rental drivers months later. Six managed car parks sit around the walls: Stadio-Fortezza at 26 euros a day and part-closed on Wednesdays, La Stazione with an escalator, Santa Caterina and San Francesco at 35 euros with escalators, Il Duomo and Il Campo at 35 euros. Guests staying overnight can ask their accommodation for a 25 euro rate instead of 35. Il Campino is free and the Policlinico car parks cost 2.50 euros a day. Rates checked July 2026.</desc>
+
+<rect width="680" height="600" fill="#F5EDE3"/>
+
+<g>
+<rect x="245" y="200" width="190" height="160" rx="24" fill="#F7EAE4" stroke="#C65A3A" stroke-width="1.5"/>
+<text x="340" y="238" text-anchor="middle" dominant-baseline="central" font-size="15" font-weight="600" fill="#8C3A1E">Historic centre</text>
+<text x="340" y="262" text-anchor="middle" dominant-baseline="central" font-size="12.5" fill="#A0492A">ZTL — cameras 24/7</text>
+<text x="340" y="284" text-anchor="middle" dominant-baseline="central" font-size="12.5" fill="#A0492A">Piazza del Campo</text>
+<line x1="272" y1="300" x2="408" y2="300" stroke="#C65A3A" stroke-width="0.5" opacity="0.4"/>
+<text x="340" y="318" text-anchor="middle" dominant-baseline="central" font-size="12.5" fill="#8C3A1E">Enter without a permit:</text>
+<text x="340" y="336" text-anchor="middle" dominant-baseline="central" font-size="12.5" fill="#8C3A1E">automatic fine, months later</text>
+</g>
+
+<g>
+<rect x="55" y="62" width="160" height="74" rx="8" fill="#FFFFFF" stroke="#C9BFB3" stroke-width="1"/>
+<text x="135" y="86" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="600" fill="#2C211B">Stadio–Fortezza</text>
+<text x="135" y="106" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#4f4842">€26/day · north-west</text>
+<text x="135" y="124" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#A0492A">Part-closed Wednesdays</text>
+</g>
+
+<g>
+<rect x="465" y="70" width="160" height="56" rx="8" fill="#FFFFFF" stroke="#5A9E86" stroke-width="1.5"/>
+<text x="545" y="90" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="600" fill="#2C211B">La Stazione</text>
+<text x="545" y="110" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#3F7A64">Escalator · north</text>
+</g>
+
+<g>
+<rect x="45" y="252" width="160" height="56" rx="8" fill="#FFFFFF" stroke="#5A9E86" stroke-width="1.5"/>
+<text x="125" y="272" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="600" fill="#2C211B">Santa Caterina</text>
+<text x="125" y="292" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#3F7A64">€35 · escalator</text>
+</g>
+
+<g>
+<rect x="475" y="252" width="160" height="56" rx="8" fill="#FFFFFF" stroke="#5A9E86" stroke-width="1.5"/>
+<text x="555" y="272" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="600" fill="#2C211B">San Francesco</text>
+<text x="555" y="292" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#3F7A64">€35 · escalator</text>
+</g>
+
+<g>
+<rect x="55" y="420" width="160" height="56" rx="8" fill="#FFFFFF" stroke="#C9BFB3" stroke-width="1"/>
+<text x="135" y="440" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="600" fill="#2C211B">Il Duomo</text>
+<text x="135" y="460" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#4f4842">€35/day · west</text>
+</g>
+
+<g>
+<rect x="465" y="420" width="160" height="56" rx="8" fill="#FFFFFF" stroke="#C9BFB3" stroke-width="1"/>
+<text x="545" y="440" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="600" fill="#2C211B">Il Campo</text>
+<text x="545" y="460" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#4f4842">€35/day · south</text>
+</g>
+
+<line x1="205" y1="280" x2="238" y2="280" stroke="#5A9E86" stroke-width="1.5"/>
+<line x1="442" y1="280" x2="472" y2="280" stroke="#5A9E86" stroke-width="1.5"/>
+<line x1="215" y1="126" x2="262" y2="200" stroke="#C9BFB3" stroke-width="1"/>
+<line x1="465" y1="115" x2="418" y2="200" stroke="#5A9E86" stroke-width="1.5"/>
+<line x1="215" y1="432" x2="262" y2="360" stroke="#C9BFB3" stroke-width="1"/>
+<line x1="465" y1="432" x2="418" y2="360" stroke="#C9BFB3" stroke-width="1"/>
+
+<g>
+<rect x="180" y="392" width="320" height="46" rx="8" fill="#FBF1DE" stroke="#C99A3F" stroke-width="1"/>
+<text x="340" y="408" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="600" fill="#6E4A0B">Staying overnight?</text>
+<text x="340" y="426" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#8A5F14">Ask your hotel: €25/day, not €35</text>
+</g>
+
+<g>
+<rect x="180" y="508" width="320" height="46" rx="8" fill="#EDF3E4" stroke="#7FA254" stroke-width="1"/>
+<text x="340" y="524" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="600" fill="#3F5A18">Cheapest options</text>
+<text x="340" y="542" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#4E6E20">Il Campino free · Policlinico €2.50/day</text>
+</g>
+
+<text x="40" y="170" dominant-baseline="central" font-size="12" fill="#4f4842">Green outline = escalator into the centre</text>
+<text x="40" y="188" dominant-baseline="central" font-size="12" fill="#6b645c">Schematic — not to scale · rates checked July 2026</text>
+
+<text x="40" y="578" dominant-baseline="central" font-size="11" fill="#6b645c">Archi Travel Guide · affittacameregliarchi.com · free to reuse with credit (CC BY 4.0)</text>
+</svg>
