@@ -71,6 +71,7 @@ const staticRoutes = [
   { path: '/tuscany-travel-guide',               changefreq: 'weekly',  priority: 0.8 },
   { path: '/travel-budget-calculator',           changefreq: 'monthly', priority: 0.8 },
   { path: '/siena-accommodation-guide',          changefreq: 'weekly',  priority: 0.8 },
+  { path: '/siena-itinerary',                    changefreq: 'weekly',  priority: 0.8 },
   { path: '/travel-tips',                        changefreq: 'monthly',  priority: 0.75 },
 
   { path: '/siena',                              changefreq: 'weekly',  priority: 0.9 },

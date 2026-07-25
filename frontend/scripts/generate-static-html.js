@@ -67,9 +67,13 @@ const ARTICLE_SCHEMA_ROUTES = new Set([
   '/siena-accommodation-guide',
   '/travel-tips',
 ]);
+// Keep in sync with redirectedArticleSlugs in scripts/generate-sitemap.js.
+// A slug listed there but not here still gets a full indexable page built at
+// /blog/<slug>/, duplicating the canonical route it is supposed to redirect to.
 const REDIRECTED_ARTICLE_SLUGS = new Set([
   'florence-to-siena-transport',
   'siena-day-trip-from-florence',
+  'best-things-to-do-in-siena',
 ]);
 const DESTINATION_SCHEMA = {
   '/tuscany-travel-guide': {

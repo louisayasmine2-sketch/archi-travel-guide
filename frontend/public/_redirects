@@ -27,6 +27,11 @@
 /blog/florence-to-siena-transport                         /florence-to-siena-by-train-or-bus/ 301
 /blog/florence-to-siena-transport/                        /florence-to-siena-by-train-or-bus/ 301
 
+# Served the same article as /things-to-do-in-siena/ with its own self-canonical,
+# so the two competed as duplicates. /things-to-do-in-siena/ is the canonical route.
+/blog/best-things-to-do-in-siena                          /things-to-do-in-siena/ 301
+/blog/best-things-to-do-in-siena/                         /things-to-do-in-siena/ 301
+
 # American-spelled slugs served real content before the canonical fix, so they
 # may be crawled. 301 here rather than relying on the in-app <Navigate>, which
 # only redirects client-side after a 200.
