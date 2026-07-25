@@ -6,6 +6,24 @@ const DEFAULT_DESCRIPTION =
 const DEFAULT_OG_IMAGE = "/og-image.jpg";
 const TWITTER_HANDLE = "@architravelguide";
 
+// Cloudflare Pages 308-redirects /path to /path/, and sitemap.xml emits the
+// slashed form. A canonical naming the slashless URL therefore points at a URL
+// that immediately redirects back, so canonical, sitemap and the URL that
+// actually serves 200 disagree. Normalise to the slashed form.
+//
+// canonical() is also used to absolutise image paths, so anything that ends in
+// a file extension — or carries a query/fragment — is left exactly as it is.
+// scripts/generate-static-html.js and scripts/generate-sitemap.js repeat this
+// rule; they are standalone Node scripts and cannot import from src/.
+const withTrailingSlash = (path) => {
+  if (path.endsWith("/") || /[?#]/.test(path)) {
+    return path;
+  }
+
+  const lastSegment = path.slice(path.lastIndexOf("/") + 1);
+  return lastSegment.includes(".") ? path : `${path}/`;
+};
+
 const canonical = (path = "/") => {
   if (!path) {
     return SITE_URL + "/";
@@ -16,7 +34,7 @@ const canonical = (path = "/") => {
   }
 
   const normalizedPath = path.startsWith("/") ? path : `/${path}`;
-  return `${SITE_URL}${normalizedPath}`;
+  return `${SITE_URL}${withTrailingSlash(normalizedPath)}`;
 };
 
 const ORGANIZATION_JSONLD = {

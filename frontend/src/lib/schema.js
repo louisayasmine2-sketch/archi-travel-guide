@@ -1,5 +1,5 @@
 // JSON-LD schema helpers.
-import { SITE_URL, SITE_NAME } from "@/lib/seo";
+import { SITE_URL, SITE_NAME, canonical } from "@/lib/seo";
 
 export function breadcrumbSchema(items) {
   return {
@@ -9,7 +9,9 @@ export function breadcrumbSchema(items) {
       '@type': 'ListItem',
       position: i + 1,
       name: it.label,
-      ...(it.to ? { item: `${SITE_URL}${it.to}` } : {}),
+      // canonical() rather than plain concatenation: a breadcrumb item naming
+      // the slashless URL points at a 308 redirect, same as the canonical tag.
+      ...(it.to ? { item: canonical(it.to) } : {}),
     })),
   };
 }

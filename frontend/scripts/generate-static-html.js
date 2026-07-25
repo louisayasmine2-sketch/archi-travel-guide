@@ -38,6 +38,18 @@ const SITE_URL = (
 const SITE_NAME = 'Archi Travel Guide';
 const DEFAULT_IMAGE = `${SITE_URL}/images/archi-travel-guide-siena-og.webp`;
 const SCHEMA_UPDATED = '2026-07-10';
+
+// Cloudflare Pages 308-redirects /path to /path/, and sitemap.xml emits the
+// slashed form, so a canonical naming the slashless URL points at a redirect.
+// Keep this identical to withTrailingSlash() in src/lib/seo.js — this script is
+// deliberately dependency-free and cannot import from src/.
+// Paths ending in a file extension (images) or carrying a query/fragment are
+// returned untouched.
+function withTrailingSlash(path) {
+  if (!path || path.endsWith('/') || /[?#]/.test(path)) return path;
+  const lastSegment = path.slice(path.lastIndexOf('/') + 1);
+  return lastSegment.includes('.') ? path : `${path}/`;
+}
 const SHOW_SCHEDULED_CONTENT =
   process.env.REACT_APP_SHOW_SCHEDULED_CONTENT === 'true' ||
   process.env.SHOW_SCHEDULED_CONTENT === 'true';
@@ -397,7 +409,7 @@ function breadcrumbJsonLd(route) {
       '@type': 'ListItem',
       position: index + 1,
       name: item.label,
-      ...(item.to ? { item: `${SITE_URL}${item.to === '/' ? '/' : item.to}` } : {}),
+      ...(item.to ? { item: `${SITE_URL}${withTrailingSlash(item.to)}` } : {}),
     })),
   };
 }
@@ -513,7 +525,7 @@ function homeHeroHeadLinks(route) {
 
 function injectHead(html, route) {
   const fullTitle = route.exactTitle || route.title.includes(SITE_NAME) ? route.title : `${route.title} · ${SITE_NAME}`;
-  const url = `${SITE_URL}${route.canonicalPath}`;
+  const url = `${SITE_URL}${withTrailingSlash(route.canonicalPath)}`;
   const isArticle = routeIsArticle(route);
   const image = route.image || DEFAULT_IMAGE;
   const head = [
