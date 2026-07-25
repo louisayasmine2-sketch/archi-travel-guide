@@ -3489,7 +3489,7 @@ For neighbourhood character and pure pedestrian recommendations, see our guide: 
         heading: 'Hotel Athena – Best overall balance of free parking and walkability',
         body: `Hotel Athena sits just inside the historic walls near Porta San Marco, outside the strictest ZTL core. It offers free private parking (garage and outdoor spots) that guests repeatedly praise as one of the few genuinely easy options in this location.
 
-The walk to Piazza del Campo takes roughly 8–12 minutes (slightly uphill on the way back). Rooms are comfortable and well-kept rather than luxurious. Breakfast is solid and the panoramic terrace is a genuine plus for an evening drink with views over the valley.
+The hotel is at Via P. Mascagni 55, inside the walls, and describes itself as a **ten-minute walk** from the centre without naming a landmark — expect the return leg to be uphill. Rooms are comfortable and well-kept rather than luxurious. Breakfast is solid and the panoramic terrace is a genuine plus for an evening drink with views over the valley.
 
 *   **Pros:** Free parking that actually works, short walk to the main sights, helpful staff, good value for the location.
 *   **Caveat:** Parking spaces can be tight and occasionally require staff assistance; some rooms feel dated compared with newer boutique properties. Not ideal if you want pure luxury or a completely flat stroll.
@@ -3507,7 +3507,7 @@ Check rates and availability for Hotel Athena
         heading: 'Palazzo Ravizza – Central garden hotel with private parking',
         body: `Palazzo Ravizza is one of the few properties that combines a genuinely central location with private parking and a peaceful garden terrace overlooking the Tuscan countryside. The hotel states that its on-site private parking is **free for guests** and calls it "a benefit that no one else has in Siena's center". It does not publish how many spaces there are, so treat it as limited and confirm when you book.
 
-You are within a 5–10 minute walk of Piazza del Campo and the Duomo. The historic building has character, the garden is a real asset in summer, and breakfast on the terrace is frequently highlighted.
+The address is Pian dei Mantellini 34, on the Duomo side of the centre. The hotel says only that it is "within walking distance from Piazza del Campo" and publishes no figure, so check the route for your own pace before assuming it is a short stroll. The historic building has character, the garden is a real asset in summer, and breakfast on the terrace is frequently highlighted.
 
 *   **Pros:** Rare combination of centre + free guest parking + garden views; good for couples who still want a car.
 *   **Caveat:** The hotel does not publish a space count, and access involves a specific gate and ZTL awareness. Rooms vary in size and modernity.
@@ -3521,14 +3521,14 @@ Check rates and availability for Palazzo Ravizza
       {
         id: 'hotel-santa-caterina',
         heading: 'Hotel Santa Caterina – Garden views just outside Porta Romana',
-        body: `Located just outside Porta Romana, Hotel Santa Caterina has a private car park of **13 spaces inside the property**, which the hotel recommends reserving in advance. It does not publish the daily charge, so ask for it when you reserve the space. Breakfast is served in a garden with views across the hills, and the walk into the centre takes 10–15 minutes.
+        body: `Located just outside Porta Romana, Hotel Santa Caterina has a private car park of **13 spaces inside the property**, which the hotel recommends reserving in advance. It does not publish the daily charge, so ask for it when you reserve the space. Breakfast is served in a garden with views across the hills. The address is Via E. S. Piccolomini 7, right at Porta Romana — the hotel calls this "a few minutes' walk from Piazza del Campo", but Porta Romana sits at the bottom of the southern approach, so treat that as optimistic and check the climb before you commit.
 
 It is quieter than the very heart of the historic core and works well for drivers who want to avoid the tightest streets while still being able to stroll in.
 
-*   **Pros:** Attractive garden setting, straightforward parking, solid breakfast, a 10–15 minute walk from the centre.
+*   **Pros:** Attractive garden setting, straightforward parking, solid breakfast, and a gate-side position for driving in and out.
 *   **Caveat:** Not as central as Athena or Ravizza, and with only 13 spaces the car park can fill. Rooms are comfortable but not luxurious.
 *   **Rates:** neither room rates nor the parking charge are published on the hotel's own site — ask for both together.
-*   **Practical tip:** Reserve the parking spot when you book; the short walk is pleasant but involves some hills and cobbles.
+*   **Practical tip:** Reserve the parking spot when you book, and walk the route once before deciding it suits you — the approach from Porta Romana is a climb on cobbles, not a stroll.
 
 Check rates and availability for Hotel Santa Caterina
 
@@ -3537,7 +3537,7 @@ Check rates and availability for Hotel Santa Caterina
       {
         id: 'hotel-italia',
         heading: 'Hotel Italia – Practical value near the station',
-        body: `Hotel Italia sits in a more residential area closer to the train station. Its private car park is the one place on this list that publishes the full terms: **€10.00 per car per day, ten spaces, and a reservation is required** — not merely advisable. The stated window runs from 2pm on arrival day to midday on departure day. There are also free options nearby or at its sister Hotel Garden roughly 600 m away. The walk to Piazza del Campo is 15–20 minutes.
+        body: `Hotel Italia sits in a more residential area closer to the train station. Its private car park is the one place on this list that publishes the full terms: **€10.00 per car per day, ten spaces, and a reservation is required** — not merely advisable. The stated window runs from 2pm on arrival day to midday on departure day. There are also free options nearby or at its sister Hotel Garden. The address is Viale Cavour 67, which the hotel places 300 m from the pedestrian centre — that is the edge of the zone, not Piazza del Campo, so allow noticeably longer to reach the square itself.
 
 It is a straightforward, clean, well-run mid-range hotel that appeals to drivers who value easy access in and out of the city more than being right in the tourist core.
 
@@ -3555,7 +3555,7 @@ Check rates and availability for Hotel Italia
         heading: 'Sangallo Park Hotel – Best pure road-trip base with pool',
         body: `Sangallo Park Hotel sits on a hillside a short drive (or bus ride) from the centre. It offers ample free parking, an outdoor pool and panoramic views — a combination that works especially well if your priority is day trips rather than walking everywhere in Siena.
 
-The historic centre is roughly 10–15 minutes by car or a bit longer by bus/taxi. Many guests use it exactly as a comfortable base for exploring the wider region by car.
+The hotel is at Strada di Vico Alto 2 and describes itself as "a short distance from the center of Siena, in a quiet hillside on the outskirts". It publishes no journey time, but states that buses and taxis connect it to the old town and the station. Many guests use it exactly as a comfortable base for exploring the wider region by car.
 
 *   **Pros:** Free and plentiful parking, pool, views, easy highway access, good for multi-day Tuscany itineraries.
 *   **Caveat:** Not walkable to the main sights in any practical sense; you will use the car, bus or taxi daily. Some rooms can pick up traffic noise from the nearby road.
@@ -3569,7 +3569,7 @@ Check rates and availability for Sangallo Park Hotel
       {
         id: 'certosa-di-maggiano',
         heading: 'Hotel Certosa di Maggiano – Luxury monastery base in the countryside',
-        body: `A converted 14th-century Carthusian monastery about 2 km from the walls, Certosa di Maggiano offers free private parking, a swimming pool and extensive gardens. It is one of the most distinctive stays near Siena.
+        body: `A converted 14th-century Carthusian monastery at Strada di Certosa 82/86, which the hotel places **2 km from Piazza del Campo**, Certosa di Maggiano offers free private parking, a swimming pool and extensive gardens. It is one of the most distinctive stays near Siena.
 
 The centre is a short drive or taxi ride away; ask the hotel whether a shuttle runs on your dates. It is perfect if you want a serene, high-end base and are happy to drive or taxi into the city for sightseeing.
 
@@ -3585,7 +3585,7 @@ Check rates and availability for Hotel Certosa di Maggiano
       {
         id: 'grand-hotel-continental',
         heading: 'Grand Hotel Continental Siena – Luxury central option with valet parking',
-        body: `The Grand Hotel Continental (Starhotels Collezione) sits in a prime central location just a few minutes’ walk from Piazza del Campo. Parking is not free and is handled as a valet service; guest reports put it at roughly €45 per night, but the hotel does not publish the charge, so treat that as an order of magnitude and get the figure in writing before you arrive. It is the most convenient luxury choice if you prioritise being in the heart of the action and are willing to pay for the parking solution.
+        body: `The Grand Hotel Continental (Starhotels Collezione) is at Banchi di Sopra 85, on the main street. It is the one hotel here that publishes the walk precisely: **"only 200 metres from Piazza del Campo", a three-minute walk**. Parking is not free and is handled as a valet service; guest reports put it at roughly €45 per night, but the hotel does not publish the charge, so treat that as an order of magnitude and get the figure in writing before you arrive. It is the most convenient luxury choice if you prioritise being in the heart of the action and are willing to pay for the parking solution.
 
 *   **Pros:** Outstanding central location, high service standards, historic building, excellent for those who want to walk everywhere once the car is parked.
 *   **Caveat:** Parking is expensive, off-site and unpublished; ZTL access requires following hotel instructions carefully. Not the best pure value.
@@ -3601,19 +3601,19 @@ Check rates and availability for Grand Hotel Continental Siena
       {
         id: 'comparison-table',
         heading: 'Comparison Table',
-        body: `The column that decides this choice is the parking, so that is what this table compares. None of the seven publish nightly room rates on their own sites, which is why there is no price column: a range invented here would be worth less to you than a quote for your actual dates.
+        body: `The column that decides this choice is the parking, so that is what this table compares. None of the seven publish nightly room rates on their own sites, which is why there is no price column: a range invented here would be worth less to you than a quote for your actual dates. Addresses are listed for the same reason — only two of the seven publish a distance to Piazza del Campo, and with the street name you can measure the real route, on your own legs and with your own luggage, instead of trusting a marketing phrase.
 
-| Hotel | Best for | Parking, as the hotel states it | Access to centre |
+| Hotel | Best for | Parking, as the hotel states it | Address and stated position |
 | :--- | :--- | :--- | :--- |
-| **Hotel Athena** | Free parking + walkability | Free, private | 8–12 min walk |
-| **Palazzo Ravizza** | Central garden + character | Free for guests; space count not published | 5–10 min walk |
-| **Hotel Santa Caterina** | Garden views, quieter edge | 13 spaces, booking advised; charge not published | 10–15 min walk |
-| **Hotel Italia** | Value + station access | €10.00 per car per day, 10 spaces, booking required | 15–20 min walk |
-| **Sangallo Park Hotel** | Pool + pure day-trip base | Free, large private car park | 10–15 min drive / bus |
-| **Hotel Certosa di Maggiano** | Luxury countryside retreat | Free, private | Short drive / taxi |
-| **Grand Hotel Continental** | Luxury + maximum centrality | Paid valet, off-site; charge not published | 3–5 min walk |
+| **Hotel Athena** | Free parking + walkability | Free, private | Via P. Mascagni 55 — inside the walls; "ten-minute walk", landmark unnamed |
+| **Palazzo Ravizza** | Central garden + character | Free for guests; space count not published | Pian dei Mantellini 34 — "within walking distance" of the Campo; no figure |
+| **Hotel Santa Caterina** | Garden views, quieter edge | 13 spaces, booking advised; charge not published | Via E. S. Piccolomini 7 — at Porta Romana, below the centre; no figure |
+| **Hotel Italia** | Value + station access | €10.00 per car per day, 10 spaces, booking required | Viale Cavour 67 — 300 m from the pedestrian zone edge, not the Campo |
+| **Sangallo Park Hotel** | Pool + pure day-trip base | Free, large private car park | Strada di Vico Alto 2 — outskirts; buses and taxis connect, no time given |
+| **Hotel Certosa di Maggiano** | Luxury countryside retreat | Free, private | Strada di Certosa 82/86 — 2 km from Piazza del Campo |
+| **Grand Hotel Continental** | Luxury + maximum centrality | Paid valet, off-site; charge not published | Banchi di Sopra 85 — 200 m from Piazza del Campo, a three-minute walk |
 
-*Parking details checked against each hotel's official website on 26 July 2026. Only Hotel Italia publishes a price, so confirm the others when you book — and check availability early for the weeks around the Palio races on 2 July and 16 August.*`,
+*Parking, addresses and distances checked against each hotel's official website on 26 July 2026. Only the Grand Hotel Continental and Certosa di Maggiano publish a distance to Piazza del Campo, and only Hotel Italia publishes a parking price — confirm the rest when you book. Whatever the map says, Siena is hilly and cobbled, so a flat-ground estimate will understate the walk back.*`,
       },
       {
         id: 'next-steps',
