@@ -2897,7 +2897,7 @@ Explore more Florence guides at [/florence](/florence/), discover broader Tuscan
     }
   ),
   A(
-    'puccini-festival-torre-del-lago-2026-independent-traveler-guide',
+    'puccini-festival-torre-del-lago-2026-independent-traveller-guide',
     'Puccini Festival Torre del Lago 2026: Independent Traveller Guide',
     'Practical tips',
     'Tuscany',
@@ -3004,7 +3004,6 @@ For more ideas on combining opera with vineyards, hilltop villages, and Tuscan t
         'open air opera italy',
       ],
       imageAlt: 'Wide night shot of Gran Teatro all’Aperto Giacomo Puccini with Lake Massaciuccoli reflection',
-      canonicalPath: '/blog/puccini-festival-torre-del-lago-2026-independent-traveller-guide',
       tags: ['puccini festival 2026', 'torre del lago opera', 'puccini festival independent guide', 'from florence to torre del lago', 'tuscany opera festival', 'lucca day trip', 'avoid package tours tuscany', 'open air opera italy'],
     }
   ),
@@ -3141,7 +3140,7 @@ Turn your Florence stay into a full Tuscany adventure. Explore deeper with our d
     }
   ),
   A(
-    '7-day-tuscany-itinerary-independent-travelers-2026-florence-base',
+    '7-day-tuscany-itinerary-independent-travellers-2026-florence-base',
     '7-Day Tuscany Itinerary for Independent Travellers 2026: Florence Base + Self-Drive (Siena, Chianti, Val d’Orcia)',
     'Itineraries',
     'Tuscany',
@@ -3274,7 +3273,6 @@ Head to our Tuscany page for detailed maps, or explore more in Florence, Siena, 
         'independent travel tuscany',
       ],
       imageAlt: 'Val d’Orcia cypress road or Piazzale Michelangelo sunset',
-      canonicalPath: '/blog/7-day-tuscany-itinerary-independent-travellers-2026-florence-base',
       tags: ['7 day tuscany itinerary', 'tuscany independent travellers', 'florence base tuscany', 'siena day trip from florence', 'chianti self drive', 'val d\'orcia day trip', 'tuscany without group tours', 'tuscany itinerary 2026', 'independent travel tuscany'],
     }
   ),
