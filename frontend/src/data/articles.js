@@ -2522,12 +2522,16 @@ Three-star hotels in particular often list "air conditioning" on booking platfor
 
 Hotels that answer confidently and specifically are far more likely to deliver what you need.
 
-**Siena properties that consistently earn praise for reliable cooling:**
-- **Hotel Athena** — Located inside the city walls, modern systems in recently renovated rooms, panoramic views.
-- **Palazzo Ravizza** — Historic boutique hotel with effective AC, recent guests highlight rooms that stay cool even on the hottest afternoons.
-- **Relais Degli Angeli** — Powerful quiet units and excellent blackout shutters that work in tandem with cooling.
+**Siena properties that publish air conditioning as a room amenity.** What follows is what each hotel states, not a verdict on how a room copes in August — that depends on the room, the floor and the day. Two of the four say the system is controlled per room, which is the detail that matters most:
 
-Expect to pay €200 or more per night in high summer for properties that guarantee strong, independent AC.
+- **Hotel Athena** — its room pages list "autonomous air conditioning and heating", so each room is set independently. The hotel also publishes free private parking and a panoramic terrace.
+- **Hotel Santa Caterina** — states "each room is equipped with independent air conditioning/heating" and, unusually, publishes the operating window: **the air conditioning runs from May to October**. If you are travelling at the edges of that window, ask.
+- **Palazzo Ravizza** — "Air Conditioning" appears in the published in-room amenity list, alongside private parking that the hotel states is free for guests.
+- **Relais degli Angeli** — the hotel's own site does not publish a room amenity list; booking platforms record air conditioning in every room. Confirm it with the hotel rather than relying on the listing.
+
+None of these hotels publish nightly rates on their own sites, so ask for a quote for your dates instead of budgeting from a headline figure. Rooms with genuinely independent cooling are not automatically the expensive ones.
+
+*Air-conditioning details above checked against each hotel's official website on 26 July 2026, except Relais degli Angeli, which does not publish an amenity list.*
 
 **Agriturismi (farm stays)** often outperform traditional city hotels in natural cooling. Their thick stone construction, rural location away from urban heat islands, and frequent inclusion of pools or shaded courtyards create a naturally cooler environment. Many now add modern AC as a bonus — making them excellent choices for families seeking authentic Tuscan serenity without sacrificing comfort.` },
       { id: "survival-tips", heading: "10 Survival Tips If Your Room Has No AC", body: `![Shaded stone archway in a Siena contrada street](/images/siena/06-siena-contrada-street.webp)
@@ -2556,7 +2560,7 @@ Siena's elevated position and urban design create a microclimate that feels seve
       { q: "Is Tuscany cooler than Rome in summer?", a: "Inland Tuscany can be as hot as Rome, but Siena's higher elevation (322m) and stone architecture often provide noticeably cooler nights than both Rome and Florence." },
       { q: "What months is heat in Italy worst?", a: "July and August bring the most intense and prolonged heatwaves, with temperatures frequently exceeding 35°C in Tuscany and Siena. June and September are generally milder and far more comfortable." }
     ],
-    "2026-07-16T11:10:00+07:00"
+    "2026-07-26"
   ),
   A(
     'avoid-crowds-in-florence-july-2026',
@@ -3489,7 +3493,7 @@ The walk to Piazza del Campo takes roughly 8–12 minutes (slightly uphill on th
 
 *   **Pros:** Free parking that actually works, short walk to the main sights, helpful staff, good value for the location.
 *   **Caveat:** Parking spaces can be tight and occasionally require staff assistance; some rooms feel dated compared with newer boutique properties. Not ideal if you want pure luxury or a completely flat stroll.
-*   **Price band:** Typically €150–260 per night in summer (verify current rates; higher around Palio).
+*   **Rates:** not published on the hotel's own site — request a quote, and expect Palio dates to price differently.
 *   **Practical tip:** Book the parking when you reserve the room if possible, and enter via the recommended gate so you avoid ZTL cameras.
 
 Check rates and availability for Hotel Athena
@@ -3501,29 +3505,29 @@ Check rates and availability for Hotel Athena
       {
         id: 'palazzo-ravizza',
         heading: 'Palazzo Ravizza – Central garden hotel with private parking',
-        body: `Palazzo Ravizza is one of the few properties that combines a genuinely central location with private parking and a peaceful garden terrace overlooking the Tuscan countryside. The parking is on-site and costs €10 per day (limited spots; it cannot be reserved in advance).
+        body: `Palazzo Ravizza is one of the few properties that combines a genuinely central location with private parking and a peaceful garden terrace overlooking the Tuscan countryside. The hotel states that its on-site private parking is **free for guests** and calls it "a benefit that no one else has in Siena's center". It does not publish how many spaces there are, so treat it as limited and confirm when you book.
 
 You are within a 5–10 minute walk of Piazza del Campo and the Duomo. The historic building has character, the garden is a real asset in summer, and breakfast on the terrace is frequently highlighted.
 
-*   **Pros:** Rare combination of centre + parking + garden views; good for couples who still want a car.
-*   **Caveat:** Parking is limited and costs €10 per day; access involves a specific gate and ZTL awareness. Rooms vary in size and modernity.
-*   **Price band:** €160–280 in high season.
-*   **Practical tip:** Parking cannot be reserved in advance; arrive with clear instructions from the hotel for the correct entrance.
+*   **Pros:** Rare combination of centre + free guest parking + garden views; good for couples who still want a car.
+*   **Caveat:** The hotel does not publish a space count, and access involves a specific gate and ZTL awareness. Rooms vary in size and modernity.
+*   **Rates:** not published on the hotel's own site — request a quote for your dates.
+*   **Practical tip:** Confirm the parking and the exact entrance with the hotel when you book. Guessing at the gate is what triggers a ZTL fine.
 
 Check rates and availability for Palazzo Ravizza
 
-*Palazzo Ravizza offers a tranquil garden oasis right in the city centre, complete with limited on-site parking for guests.*`,
+*Palazzo Ravizza offers a tranquil garden oasis right in the city centre, with on-site parking the hotel provides free to guests.*`,
       },
       {
         id: 'hotel-santa-caterina',
         heading: 'Hotel Santa Caterina – Garden views just outside Porta Romana',
-        body: `Located just outside Porta Romana, Hotel Santa Caterina offers private paid parking (typically €10–15 per day, limited spaces) and a pleasant garden where breakfast is served with views across the hills. The walk into the centre takes 10–15 minutes.
+        body: `Located just outside Porta Romana, Hotel Santa Caterina has a private car park of **13 spaces inside the property**, which the hotel recommends reserving in advance. It does not publish the daily charge, so ask for it when you reserve the space. Breakfast is served in a garden with views across the hills, and the walk into the centre takes 10–15 minutes.
 
 It is quieter than the very heart of the historic core and works well for drivers who want to avoid the tightest streets while still being able to stroll in.
 
 *   **Pros:** Attractive garden setting, straightforward parking, solid breakfast, a 10–15 minute walk from the centre.
-*   **Caveat:** Not as central as Athena or Ravizza; parking must usually be reserved and is not free. Rooms are comfortable but not luxurious.
-*   **Price band:** €130–220.
+*   **Caveat:** Not as central as Athena or Ravizza, and with only 13 spaces the car park can fill. Rooms are comfortable but not luxurious.
+*   **Rates:** neither room rates nor the parking charge are published on the hotel's own site — ask for both together.
 *   **Practical tip:** Reserve the parking spot when you book; the short walk is pleasant but involves some hills and cobbles.
 
 Check rates and availability for Hotel Santa Caterina
@@ -3533,13 +3537,13 @@ Check rates and availability for Hotel Santa Caterina
       {
         id: 'hotel-italia',
         heading: 'Hotel Italia – Practical value near the station',
-        body: `Hotel Italia sits in a more residential area closer to the train station. It has a small private paid parking area (€10 per day, limited and best reserved) plus free options nearby or at its sister Hotel Garden roughly 600 m away. The walk to Piazza del Campo is 15–20 minutes.
+        body: `Hotel Italia sits in a more residential area closer to the train station. Its private car park is the one place on this list that publishes the full terms: **€10.00 per car per day, ten spaces, and a reservation is required** — not merely advisable. The stated window runs from 2pm on arrival day to midday on departure day. There are also free options nearby or at its sister Hotel Garden roughly 600 m away. The walk to Piazza del Campo is 15–20 minutes.
 
 It is a straightforward, clean, well-run mid-range hotel that appeals to drivers who value easy access in and out of the city more than being right in the tourist core.
 
 *   **Pros:** Reliable (if limited) parking options, good breakfast, convenient for station and highway access, decent value.
-*   **Caveat:** Further walk to the main sights; private parking is tight and not free. Some rooms are in annex buildings.
-*   **Price band:** €110–190.
+*   **Caveat:** Further walk to the main sights; ten spaces is genuinely tight and the parking is not free. Some rooms are in annex buildings.
+*   **Rates:** room rates are not published on the hotel's own site, though the €10 parking charge is — request a room quote for your dates.
 *   **Practical tip:** If the main lot is full, the sister hotel parking is a reliable free alternative with a short walk.
 
 Check rates and availability for Hotel Italia
@@ -3555,7 +3559,7 @@ The historic centre is roughly 10–15 minutes by car or a bit longer by bus/tax
 
 *   **Pros:** Free and plentiful parking, pool, views, easy highway access, good for multi-day Tuscany itineraries.
 *   **Caveat:** Not walkable to the main sights in any practical sense; you will use the car, bus or taxi daily. Some rooms can pick up traffic noise from the nearby road.
-*   **Price band:** €100–180.
+*   **Rates:** not published on the hotel's own site — request a quote for your dates.
 *   **Practical tip:** Ideal if you plan more time in the countryside than in the city itself. If you need EV charging, confirm it with the hotel before booking — it is not guaranteed.
 
 Check rates and availability for Sangallo Park Hotel
@@ -3571,7 +3575,7 @@ The centre is a short drive or taxi ride away; ask the hotel whether a shuttle r
 
 *   **Pros:** Exceptional setting and service, free parking, pool and grounds, memorable luxury experience.
 *   **Caveat:** Not walkable; higher price point; historic building means no lifts in some areas.
-*   **Price band:** €300–550+ (verify carefully).
+*   **Rates:** not published on the hotel's own site — request a quote. This is the most expensive option here, so ask what the rate includes before comparing it with the others.
 *   **Practical tip:** Best for travellers who want the countryside atmosphere as much as the city and are prepared for the higher rate.
 
 Check rates and availability for Hotel Certosa di Maggiano
@@ -3581,11 +3585,11 @@ Check rates and availability for Hotel Certosa di Maggiano
       {
         id: 'grand-hotel-continental',
         heading: 'Grand Hotel Continental Siena – Luxury central option with valet parking',
-        body: `The Grand Hotel Continental (Starhotels Collezione) sits in a prime central location just a few minutes’ walk from Piazza del Campo. Parking is arranged via a partner garage with valet service (typically €45–65 per night). It is the most convenient luxury choice if you prioritise being in the heart of the action and are willing to pay for the parking solution.
+        body: `The Grand Hotel Continental (Starhotels Collezione) sits in a prime central location just a few minutes’ walk from Piazza del Campo. Parking is not free and is handled as a valet service; guest reports put it at roughly €45 per night, but the hotel does not publish the charge, so treat that as an order of magnitude and get the figure in writing before you arrive. It is the most convenient luxury choice if you prioritise being in the heart of the action and are willing to pay for the parking solution.
 
 *   **Pros:** Outstanding central location, high service standards, historic building, excellent for those who want to walk everywhere once the car is parked.
-*   **Caveat:** Parking is expensive and off-site; ZTL access requires following hotel instructions carefully. Not the best pure value.
-*   **Price band:** €300–500+ in high season.
+*   **Caveat:** Parking is expensive, off-site and unpublished; ZTL access requires following hotel instructions carefully. Not the best pure value.
+*   **Rates:** not published on the hotel's own site — request a quote covering the room and the valet parking together.
 *   **Practical tip:** Confirm the exact valet process and cost when booking; this is the “pay for maximum convenience” option.
 
 Check rates and availability for Grand Hotel Continental Siena
@@ -3597,17 +3601,19 @@ Check rates and availability for Grand Hotel Continental Siena
       {
         id: 'comparison-table',
         heading: 'Comparison Table',
-        body: `| Hotel | Best for | Price band (summer) | Access to centre |
-| :--- | :--- | :--- | :--- |
-| **Hotel Athena** | Free parking + walkability | €150–260 | 8–12 min walk |
-| **Palazzo Ravizza** | Central garden + character | €160–280 | 5–10 min walk |
-| **Hotel Santa Caterina** | Garden views, quieter edge | €130–220 | 10–15 min walk |
-| **Hotel Italia** | Value + station access | €110–190 | 15–20 min walk |
-| **Sangallo Park Hotel** | Pool + pure day-trip base | €100–180 | 10–15 min drive / bus |
-| **Hotel Certosa di Maggiano** | Luxury countryside retreat | €300–550+ | Short drive / taxi |
-| **Grand Hotel Continental** | Luxury + maximum centrality | €300–500+ | 3–5 min walk (paid valet) |
+        body: `The column that decides this choice is the parking, so that is what this table compares. None of the seven publish nightly room rates on their own sites, which is why there is no price column: a range invented here would be worth less to you than a quote for your actual dates.
 
-*Prices are approximate mid-to-high season ballparks for a standard double and fluctuate significantly. Always verify current rates and parking availability, especially for the weeks around the Palio races on 2 July and 16 August.*`,
+| Hotel | Best for | Parking, as the hotel states it | Access to centre |
+| :--- | :--- | :--- | :--- |
+| **Hotel Athena** | Free parking + walkability | Free, private | 8–12 min walk |
+| **Palazzo Ravizza** | Central garden + character | Free for guests; space count not published | 5–10 min walk |
+| **Hotel Santa Caterina** | Garden views, quieter edge | 13 spaces, booking advised; charge not published | 10–15 min walk |
+| **Hotel Italia** | Value + station access | €10.00 per car per day, 10 spaces, booking required | 15–20 min walk |
+| **Sangallo Park Hotel** | Pool + pure day-trip base | Free, large private car park | 10–15 min drive / bus |
+| **Hotel Certosa di Maggiano** | Luxury countryside retreat | Free, private | Short drive / taxi |
+| **Grand Hotel Continental** | Luxury + maximum centrality | Paid valet, off-site; charge not published | 3–5 min walk |
+
+*Parking details checked against each hotel's official website on 26 July 2026. Only Hotel Italia publishes a price, so confirm the others when you book — and check availability early for the weeks around the Palio races on 2 July and 16 August.*`,
       },
       {
         id: 'next-steps',
@@ -3626,7 +3632,7 @@ Compare all rental car prices for Italy on DiscoverCars`,
       },
       {
         q: 'Do any hotels offer free parking inside or near the walls?',
-        a: 'Hotel Athena is one of the strongest and most consistently praised options for free private parking with a short walk to the centre. A few others offer free or low-cost private spots, but availability is limited and should be confirmed at booking.',
+        a: 'Yes. Hotel Athena and Palazzo Ravizza both state that private parking is free for guests, and Ravizza is the more central of the two — it calls on-site parking a benefit no other hotel in the centre offers. Neither publishes how many spaces it has, so confirm at booking rather than assuming a space will be free on the day.',
       },
       {
         q: 'How early should I book for the Palio?',
@@ -3641,7 +3647,7 @@ Compare all rental car prices for Italy on DiscoverCars`,
         a: 'No. Siena is hilly and the streets are cobbled. Even a 10-minute walk involves some uphill stretches and uneven surfaces. Comfortable shoes are essential.',
       },
     ],
-    '2026-07-18',
+    '2026-07-26',
     {
       seoTitle: 'Best Siena Hotels with Parking for Tuscany Day Trips',
       primaryKeyword: 'siena hotels with parking',
