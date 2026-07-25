@@ -3465,7 +3465,7 @@ See our full Siena guide for interactive maps, updated 2026 bus timetables, and 
     'Where to stay',
     'Tuscany',
     'Honest picks of Siena hotels with reliable parking, ideal for Chianti and Val d’Orcia day trips, with pros, caveats and price bands.',
-    '',
+    '/images/siena/08-siena-cityscape.webp',
     [
       {
         id: 'siena-parking-intro',
@@ -3476,7 +3476,7 @@ Siena’s historic centre sits inside a [strict ZTL](/blog/siena-ztl-fines-how-t
 
 This guide focuses exclusively on hotels that solve the car problem. Every property listed offers private, free, or reliably available parking and works well as a base for drivers. Recommendations are independent and practical. We prioritise real-world usefulness over marketing language.
 
-For neighbourhood character and pure pedestrian recommendations, see our guide: [Where to Stay in Siena](/blog/where-to-stay-in-siena-italy/). For broader planning, use the [Siena Travel Guide](/siena/) and [Tuscany Travel Guide](/tuscany/).
+For neighbourhood character and pure pedestrian recommendations, see our guide: [Where to Stay in Siena](/blog/where-to-stay-in-siena/). For broader planning, use the [Siena Travel Guide](/siena/) and [Tuscany Travel Guide](/tuscany/).
 
 *Navigating Siena's strict ZTL (Limited Traffic Zone) is crucial for drivers. Booking a hotel with dedicated parking saves you from heavy fines.*`,
       },
@@ -3556,7 +3556,7 @@ The historic centre is roughly 10–15 minutes by car or a bit longer by bus/tax
 *   **Pros:** Free and plentiful parking, pool, views, easy highway access, good for multi-day Tuscany itineraries.
 *   **Caveat:** Not walkable to the main sights in any practical sense; you will use the car, bus or taxi daily. Some rooms can pick up traffic noise from the nearby road.
 *   **Price band:** €100–180.
-*   **Practical tip:** Ideal if you plan more time in the countryside than in the city itself. EV charging is sometimes available.
+*   **Practical tip:** Ideal if you plan more time in the countryside than in the city itself. If you need EV charging, confirm it with the hotel before booking — it is not guaranteed.
 
 Check rates and availability for Sangallo Park Hotel
 
@@ -3567,7 +3567,7 @@ Check rates and availability for Sangallo Park Hotel
         heading: 'Hotel Certosa di Maggiano – Luxury monastery base in the countryside',
         body: `A converted 14th-century Carthusian monastery about 2 km from the walls, Certosa di Maggiano offers free private parking, a swimming pool and extensive gardens. It is one of the most distinctive stays near Siena.
 
-The centre is a short drive or taxi ride (hotel shuttle is sometimes available). It is perfect if you want a serene, high-end base and are happy to drive or taxi into the city for sightseeing.
+The centre is a short drive or taxi ride away; ask the hotel whether a shuttle runs on your dates. It is perfect if you want a serene, high-end base and are happy to drive or taxi into the city for sightseeing.
 
 *   **Pros:** Exceptional setting and service, free parking, pool and grounds, memorable luxury experience.
 *   **Caveat:** Not walkable; higher price point; historic building means no lifts in some areas.
@@ -3612,7 +3612,7 @@ Check rates and availability for Grand Hotel Continental Siena
       {
         id: 'next-steps',
         heading: 'Next Steps',
-        body: `Decide whether walkability or pure driving convenience matters more to you, then check current availability and parking confirmation for two or three of the hotels above. Use the [Travel Budget Calculator](/budget-calculator/) to model the full cost of car + hotel + day trips, and cross-reference the neighbourhood character in [Where to Stay in Siena](/blog/where-to-stay-in-siena-italy/) if you also want the pedestrian perspective.
+        body: `Decide whether walkability or pure driving convenience matters more to you, then check current availability and parking confirmation for two or three of the hotels above. Use the [Travel Budget Calculator](/travel-budget-calculator/) to model the full cost of car + hotel + day trips, and cross-reference the neighbourhood character in [Where to Stay in Siena](/blog/where-to-stay-in-siena/) if you also want the pedestrian perspective.
 
 Siena rewards drivers who plan the parking piece carefully. Choose one of the hotels on this list and the car becomes an asset rather than a daily complication.
 
@@ -3653,7 +3653,7 @@ Compare all rental car prices for Italy on DiscoverCars`,
         'where to stay in siena with a car',
         'palazzo ravizza siena',
       ],
-      imageAlt: 'Best Siena hotels with parking for drivers Tuscany',
+      imageAlt: "Siena's historic centre and rooftops with the Tuscan countryside beyond",
       canonicalPath: '/blog/best-siena-hotels-with-parking',
       tags: ['siena hotels with parking', 'best siena hotels for drivers', 'hotel athena siena parking', 'siena ztl hotel parking', 'where to stay in siena with a car'],
     }
