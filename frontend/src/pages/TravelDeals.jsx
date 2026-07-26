@@ -93,14 +93,6 @@ export default function TravelDeals() {
       
       {/* 4D Cinematic Hero */}
       <section className="relative h-[60vh] min-h-[500px] overflow-hidden bg-[#2C211B] text-white">
-        <motion.div 
-          initial={{ scale: 1 }}
-          animate={{ scale: 1.05 }}
-          transition={{ duration: 25, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
-          className="absolute inset-0 w-full h-full"
-        >
-          <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=2000&q=80" alt="" loading="eager" className="w-full h-full object-cover opacity-50" />
-        </motion.div>
         
         <div className="absolute inset-0 bg-gradient-to-t from-[#2C211B] via-black/40 to-transparent z-10 pointer-events-none"></div>
         <div className="absolute inset-0 bg-radial-gradient from-transparent via-transparent to-black/60 z-10 pointer-events-none"></div>

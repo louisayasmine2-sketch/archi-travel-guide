@@ -3,7 +3,6 @@ import Breadcrumbs from "@/components/common/Breadcrumbs";
 import LazyImage from "@/components/common/LazyImage";
 import FAQAccordion from "@/components/common/FAQAccordion";
 import ArticleCard from "@/components/common/ArticleCard";
-import HotelWidget from "@/components/shared/HotelWidget";
 import SEO from "@/components/common/SEO";
 import { getCity } from "@/data/cities";
 import { getArticle } from "@/data/articles";

@@ -27,12 +27,6 @@ export default function About() {
       
       {/* 4D Header */}
       <section className="relative py-32 bg-[#2C211B] text-white overflow-hidden">
-        <motion.div 
-          initial={{ scale: 1.1 }}
-          animate={{ scale: 1 }}
-          transition={{ duration: 1.5, ease: "easeOut" }}
-          className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1518398046578-8cca57782e17?auto=format&fit=crop&w=2000&q=80')] bg-cover bg-center opacity-20"
-        />
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-[#2C211B] z-10"></div>
         
         <div className="relative z-20 max-w-7xl mx-auto px-6 text-center">
