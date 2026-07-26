@@ -3787,6 +3787,62 @@ That matters because the most common mistake visitors make is assuming Siena rac
 **Come for the Palio** if the event itself is the reason for the trip and you accept a packed square, real August heat, and a plan that may move by a day. **Come in a different week** if what you want is Siena — the cathedral, the museums, a long lunch, streets you can actually walk down.`,
       },
       {
+        id: 'where-the-palio-came-from',
+        heading: 'Where the Palio came from',
+        body: `The race did not always run in the square. The word itself comes from the Latin *pallium*, a drape — the length of precious cloth given to the winner. The oldest documented Sienese race is from **1239**, and for centuries these were *palii alla lunga*, run in a straight line through the streets rather than in circuits of the Campo.
+
+Four dates matter, and the official Siena tourism board publishes them:
+
+| Date | What changed |
+|---|---|
+| 26 June 1605 | The contrade organise a race in Piazza del Campo for the first time — with buffaloes, to celebrate the election of Pope Paul V |
+| 1659 | The 2 July race becomes an annual fixture, in honour of the Visitation and the Madonna di Provenzano |
+| 1701 | The Contrada dell’Oca holds a Palio on **16 August** to mark a victory. The August race dates from here |
+| 7 May 1721 | The Biccherna issues the first written Regulation of the Palio, in sixteen articles — including the rule that ten contrade run, chosen by lot |
+
+This matters for a visitor for one reason. What you are watching is not a revival or a re-enactment staged for tourists. It is a continuous civic institution refined in the same square for four centuries, and the rule that decides who runs on 16 August was written down in 1721. That is the difference between the Palio and almost every other historical pageant in Italy.`,
+      },
+      {
+        id: 'what-the-contrade-actually-are',
+        heading: 'What the contrade actually are',
+        body: `English-language coverage tends to call them districts, neighbourhoods or factions. All three undersell it.
+
+The historic centre is divided into **seventeen contrade**, and their boundaries have not moved since **1729**, when the city’s governor, Princess Violante Beatrice of Bavaria, fixed them by decree in a *Bando sui confini*. Each contrada has its own territory, its own people, and its own elected government that runs its affairs year-round.
+
+That government is not ceremonial. Each contrada operates:
+
+- a **museum**, holding the Palii it has won over the centuries, along with the *Masgalani* — the prize awarded to the contrada that parades best in the historical procession
+- a **society**, a social and recreational club where members meet throughout the year
+- an **oratory**, the church where the horse is blessed before the race
+- a **fontanina**, a monumental fountain carrying the contrada’s symbols
+
+The fountain is where it becomes clear that this is not a hobby. At the fontanina, contrada members are *baptised* — a rite that enshrines membership for life. People are born into a contrada, and they remain in it.
+
+Once you know that, the two annual races stop looking like a sporting fixture and start looking like what they are: the visible peak of something that runs continuously underneath the city. It also explains why photographing a contrada dinner or a blessing at close range is poor manners. You are not at an event. You are in someone’s neighbourhood, on their most important day.
+
+**The seventeen:** Aquila, Bruco, Chiocciola, Civetta, Drago, Giraffa, Istrice, Leocorno, Lupa, Nicchio, Oca, Onda, Pantera, Selva, Tartuca, Torre, Valdimontone.
+
+Their museums can be visited by arrangement, and doing so on a normal week is one of the better things to do in Siena. Contact the contrada directly; these are not ticketed attractions with opening hours.`,
+      },
+      {
+        id: 'how-the-ten-are-chosen',
+        heading: 'Why only ten contrade run',
+        body: `Seventeen contrade exist but only **ten** run in each Palio, and the selection is not random goodwill. It follows a fixed rule.
+
+The seven contrade that **did not** run in the same race the previous year are automatically in. They are joined by **three drawn by lot** from among the ten that did run. The same mechanism applies separately to the July race and the August race, so a contrada’s July history has no bearing on its August entry. The Comune states that the draw is held **at least twenty days before each Palio**.
+
+In practice it is settled far earlier than that, which is useful if you are planning a trip. **The ten for 16 August 2026 were drawn on the evening of 5 July 2026**, in the Palazzo Comunale, in front of the mayor and the captains of all seventeen contrade:
+
+| Status | Contrade |
+|---|---|
+| Running by right | Selva, Chiocciola, Oca, Nicchio, Lupa, Istrice, Torre |
+| Drawn by lot | Aquila, Onda, Giraffa |
+
+Two of the standing rivalries are in that field — **Oca against Torre**, and **Lupa against Istrice**. Rivalries are the part of the Palio a visitor is least equipped to see and most rewarded by knowing about: a contrada that cannot win will spend the race stopping its rival from winning, and the result is celebrated almost as much.
+
+So by the time you arrive in August, the ten have been known for weeks and the city has had time to build up to it. Find out which ten are running before you go, and the race stops being ten anonymous horses.`,
+      },
+      {
         id: 'what-happens-across-the-four-days',
         heading: 'What happens across the four days',
         body: `The official programme describes an event lasting four days, of which the race is the last few minutes. For August 2026 the shape is this:
@@ -3797,12 +3853,36 @@ That matters because the most common mistake visitors make is assuming Siena rac
 | 13–16 August | Six trial races | Mornings at 9:00 and evenings at 19:15 in August |
 | 15 August | The *prova generale* | The fifth trial, run the evening before the race |
 | 16 August, 08:00 | Jockey mass, then the *provaccia* | The sixth and final trial, run with famously little effort |
-| 16 August, mid-morning | Signing of the jockeys | After this the contrada cannot change rider |
+| 16 August, 10:30 | Signing of the jockeys | Before the mayor; after this the contrada cannot change rider |
 | 16 August, early afternoon | Blessing of the horses | In each contrada’s oratory, horse and jockey before the altar |
-| 16 August, afternoon | Historical procession | Fourteen groups, close to six hundred costumed figures |
+| 16 August, afternoon | Historical procession | Fourteen groups, close to seven hundred costumed figures |
 | 16 August, 19:00 | The race | |
 
 The trials are the part visitors underestimate. Each one draws a crowd of contradaioli walking the horse from its stable to the Campo, singing on the way. If you want the atmosphere without the crush of race day, a trial evening gives you a great deal of it.`,
+      },
+      {
+        id: 'the-tratta',
+        heading: 'The tratta: how a horse meets a contrada',
+        body: `On **13 August** for the Assumption race, the horses and the contrade are matched. This is the *tratta*, and it is the moment the Palio stops being abstract.
+
+The horses arrive having already been examined by a veterinary commission. In the morning they are led into the **Entrone**, the Cortile del Podestà of Palazzo Pubblico, grouped into batteries and run on the track in the Campo — partly to judge them, partly to check they can handle the *tuff*, the special earth laid over the paving for Palio days.
+
+Once the batteries are done, the captains of the ten contrade meet in the presence of the mayor and settle on the ten horses judged eligible. Then, on a stage in front of the Palazzo Pubblico, the draw takes place and each horse is matched to a contrada.
+
+That draw is the pivot of the whole event, because the horse is the part a contrada cannot subsequently manage. The jockey is the variable: riders can still be swapped right up to the *segnatura dei fantini*, the formal signing at **10:30 on race morning** in the presence of the mayor, after which no substitution is allowed. A strong horse turns a contrada’s week into celebration; a weak one changes the mood on the street within the hour.
+
+After the draw the *Barbaresco* — the contrada’s official stable boy — takes the horse and walks it to the contrada’s stable, accompanied by its members. If you are in Siena on the 13th, this is the first point at which you will see the city visibly reorganise itself.`,
+      },
+      {
+        id: 'the-historical-procession',
+        heading: 'The historical procession',
+        body: `Before the race there is a procession, and it is substantially longer than the race. Treat it as the main event of the afternoon rather than a preamble to sit through.
+
+It commemorates the institutions and the grandeur of the old Sienese Republic. The Comune’s own description puts it at **fourteen groups and close to seven hundred costumed figures**, including the *Comparse* of the contrade. They form up at the Palazzo di Giustizia, line up in Piazza del Duomo, parade through the streets of the historic centre, and enter the Campo on the first chime of **Sunto**, the great bell at the top of Torre del Mangia.
+
+The procession closes with the **Carroccio**, the modern descendant of the Republic’s triumphal chariot, carrying the Drappellone itself. The prize is then hoisted on the judges’ stand at the height of the *mossa*, the start line, and the contrade perform the *sbandierata della Vittoria* — a flag-waving finale that dates only from the end of the First World War, which is recent by the standards of everything around it.
+
+Two practical notes. First, the procession is why people who arrive in the Campo an hour before the race find it already full — the crowd assembled for the pageantry, not the horses. Second, if you are standing in the centre for free, the procession happens around you at close range, which is the strongest argument for the free option over a distant seat.`,
       },
       {
         id: 'the-race-itself',
@@ -3814,6 +3894,17 @@ The horses run **three laps of the track laid around Piazza del Campo**, describ
 If the start is judged invalid a second mortar recalls the horses and the whole line-up begins again. That can happen repeatedly, which is why a race of three laps can be preceded by an hour of tension in the square.
 
 The official material does not publish a race duration, and neither will we. What it does publish is the structure above: four days of ritual, then three laps.`,
+      },
+      {
+        id: 'the-drappellone',
+        heading: 'The Drappellone: what they are actually racing for',
+        body: `There is no prize money worth the effort and no trophy in the usual sense. The winning contrada takes the **Drappellone** — described in the Comune’s own material as a painted silk banner, the prize of the *Carriera*. A new one is commissioned for each race, and a different artist paints each one.
+
+The Sienese call it *il cencio*, the rag, which tells you something about the affection involved.
+
+The winning contrada keeps it, permanently, in its museum alongside every banner it has won. That is the whole economy of the Palio. Ten contrade spend a year and a considerable amount of money to win a painted cloth, and the one that does celebrates for months.
+
+If you understand nothing else before you go, understand this: nobody in that square is competing for a purse. That is why the atmosphere is unlike any sporting event you have been to.`,
       },
       {
         id: 'watching-for-free-or-paying',
@@ -3849,7 +3940,9 @@ Do not go if what you actually want is Siena. The museums cut their hours, the c
 
 And a matter of manners, since it comes up: the contrade are living neighbourhood institutions, not a costume event. Dinners, ceremonies and church blessings are their own, and are best watched from a respectful distance rather than photographed at close range.
 
-*Race mechanics, the four-day programme and the free-access wording above are taken from the official Palio brochure published by the Comune di Siena, checked on 26 July 2026. The July 2026 postponement and result were confirmed against Italian news coverage of the race.*`,
+If you are going anyway, read our companion guide to [Ferragosto and Palio week](/blog/siena-ferragosto-and-palio-week/) before you fix your dates. It carries the verified museum hours for the 15th and 16th, the cathedral floor calendar — which does not favour you that week — and a day-by-day plan for 13 to 16 August.
+
+*Race mechanics, the four-day programme, the tratta, the historical procession, the Drappellone and the free-access wording above are taken from the Comune di Siena’s official Palio pages and brochure; the history dates from the official Siena tourism board; the 1729 boundary decree and the contrada institutions from the same two sources. All checked on 26 July 2026. The ten contrade for 16 August 2026, drawn on 5 July 2026, and the July 2026 postponement and result were confirmed against Italian news coverage including ANSA.*`,
       },
     ],
     [
@@ -3890,11 +3983,11 @@ And a matter of manners, since it comes up: the contrade are living neighbourhoo
         heading: 'Why 13–16 August is an awkward week',
         body: `Two things collide in Siena in mid-August, and most guides cover only one of them.
 
-**Ferragosto falls on 15 August.** It is Italy’s biggest summer public holiday, the day much of the country stops and goes to the coast. Shops shut, opening hours contract, and services run reduced timetables.
+**Ferragosto falls on 15 August**, a Saturday in 2026. It is Italy’s biggest summer public holiday, the day much of the country stops and goes to the coast. Shops shut, opening hours contract, and services run reduced timetables.
 
-**The Palio dell’Assunta is run on 16 August**, with its four-day programme starting on the 13th. The city fills, the centre is progressively closed to traffic and then to movement, and the institutions around Piazza del Campo change their hours.
+**The Palio dell’Assunta is run on 16 August**, a Sunday in 2026, with its four-day programme starting on the 13th. The city fills, the centre is progressively closed to traffic and then to movement, and the institutions around Piazza del Campo change their hours.
 
-So the 15th is a national holiday and the 16th is the busiest day of the Sienese year, back to back. If you are in Siena that week without knowing this, you will find a beautiful city in which quite a lot is unexpectedly shut.`,
+So the 15th is a national holiday and the 16th is both a Sunday and the busiest day of the Sienese year, back to back. That pairing matters more than it sounds: the cathedral complex runs a separate Sunday-and-holiday timetable, and it applies on both days. If you are in Siena that week without knowing this, you will find a beautiful city in which quite a lot is unexpectedly shut.`,
       },
       {
         id: 'museum-hours-checked',
@@ -3912,6 +4005,57 @@ Santa Maria della Scala is the useful case: it publishes its Palio-day hours ope
 The Museo Civico and Torre del Mangia are inside Palazzo Pubblico — the building the race finishes in front of. Their published pages carry no Palio-day exception, but they sit on the track. **Absence of a published closure is not a guarantee of normal opening**, so confirm directly if the 16th is your only chance to climb the tower.
 
 Ticket prices at the time of checking: Santa Maria della Scala €9.00 full, or €8.00 with reservation. Museo Civico €10.00 full, or €11.00 booked ahead. Torre del Mangia €10.00.`,
+      },
+      {
+        id: 'the-cathedral-floor-you-will-just-miss',
+        heading: 'The cathedral floor you will just miss',
+        body: `This is the detail that catches out people who plan a mid-August trip around the cathedral, and almost nobody flags it in advance.
+
+Siena Cathedral’s marble inlay floor is normally kept covered for conservation and revealed only in scheduled windows. The Opera del Duomo publishes the 2026 calendar as **27 June to 31 July**, then **18 August to 15 November**.
+
+Read those dates against Palio week. The first window shuts on 31 July. The second opens on **18 August**. The Palio dell’Assunta runs on **16 August**. So for the whole of the Palio programme — the 13th through the 16th — the floor is **covered**, and it is uncovered again **two days after the race**.
+
+If the floor is a reason you are coming to Siena, that is a decisive piece of information. Shift the trip two days later and you get both the uncovered floor and a city that has emptied out. Arrive for the Palio and you will walk over the most famous floor in Tuscany without seeing it.
+
+**Then there is the second trap, which is the opening time.** The complex keeps two timetables: weekdays, and Sundays and public holidays. In the covered-floor part of August the holiday timetable is **13:30–18:00** — an afternoon-only opening.
+
+Now read the calendar. **15 August 2026 is a Saturday and a national holiday. 16 August 2026 is a Sunday.** Both therefore run on the holiday timetable. On Ferragosto the cathedral does not open until 13:30, and on race day it does not open until 13:30 either — by which time the historical procession is already assembling in Piazza del Duomo, immediately outside it.
+
+**Cathedral complex hours and prices, as published, checked 26 July 2026:**
+
+| Item | Detail |
+|---|---|
+| Hours, weekdays 1–4 and 14 August | 10:00–19:00 (Museo dell’Opera 09:30–19:30) |
+| Hours, 5–13 August | **10:00–18:00** — an hour earlier, covering the first day of Palio week |
+| Hours, **Sundays and public holidays** while the floor is covered | **13:30–18:00** — this is what applies on both 15 and 16 August |
+| Last admission | 30 minutes before closing |
+| OPA SI Pass, floor covered | **€14.00** |
+| OPA SI Pass, floor uncovered — from 18 August | **€16.00** |
+| Pass validity | Three consecutive days from purchase |
+| Pass covers | Cathedral, Piccolomini Library, Museo dell’Opera, the panoramic walkway, Crypt, Baptistry, Gate of Heaven |
+
+No outright closure is published for 15 or 16 August, so the complex remains the most reliable indoor option in a week when a lot is shut — but plan it as an afternoon, not a morning. The three-day pass helps here: bought on the 14th, it still works on the 16th.`,
+      },
+      {
+        id: 'torre-del-mangia-in-palio-week',
+        heading: 'Torre del Mangia is the worst gamble of the week',
+        body: `The tower above Palazzo Pubblico is the view everyone wants, and Palio week is the hardest week of the year to get it. The rules the Museo Civico publishes explain why.
+
+- **No ticket including the tower can be booked in advance.** They are sold only at the Museo Civico ticket office, on the day of the visit. There is no way to secure the climb before you arrive.
+- Ascents leave **every 45 minutes, in groups of 25 people**.
+- A visit is capped at **30 minutes** in total — climb, pause at the top, descent.
+- The tower has a **daily maximum capacity**, and **ticket sales stop once it is reached**. There is no queue that eventually delivers you to the top; the sales simply end.
+- It is roughly **400 steps**, and there is **no lift**.
+- Under-14s may only go up accompanied by an adult.
+- The tower **closes in bad weather**, as well as for restoration and maintenance.
+
+Now put that against 16 August. Twenty-five people every 45 minutes is a fixed ceiling, and it does not move because the city has filled up. Because nothing can be pre-booked, the whole day’s allocation goes to whoever is standing at the ticket office early enough — and the daily cap will be reached sooner than on a normal day. The same weather that can postpone the race also shuts the tower.
+
+There is also a scheduling problem specific to race day. The tower is where **Sunto**, the great bell, is rung to bring the historical procession into the Campo. The square below is being prepared and then filled from the middle of the day onward.
+
+**The honest advice:** if you want the tower, climb it on a day that is not the 16th, and go early rather than assuming the afternoon will work. If your only day in Siena is race day, treat the tower as unlikely and plan around the cathedral complex instead, which has published hours and a three-day pass.
+
+One more note the official warnings make plainly, and which matters more in August heat: the climb is strongly discouraged for anyone with heart or respiratory conditions, claustrophobia, vertigo or diabetes, and for women who are pregnant. In a narrow, unventilated medieval shaft in mid-August, take that seriously rather than treating it as boilerplate.`,
       },
       {
         id: 'what-ferragosto-actually-closes',
@@ -3942,13 +4086,45 @@ Two things are worth planning around regardless of the timetable:
 If you are driving, the restricted traffic zone is enforced by camera year-round and the restrictions expand around the race. Confirm the exact approach and parking with your accommodation rather than following a map app into a fine.`,
       },
       {
+        id: 'where-to-stay-this-week',
+        heading: 'Where to stay, and why it matters more this week',
+        body: `In an ordinary week the choice between a room by the Campo and a room near a gate is a matter of taste. In Palio week it decides how your days actually work.
+
+**Central rooms stop being convenient on the 16th.** The centre closes progressively through race day, and a room a minute from the Campo is a room you may not be able to reach with a suitcase in the afternoon. The advantage of being central — stepping out early, returning late — is real on the 13th, 14th and 15th, and largely cancelled on the day itself.
+
+**Arriving by car is the hardest version of this week.** The restricted traffic zone is camera-enforced year-round and the restrictions widen around the race. If you are driving, a property with confirmed parking is not a luxury but the difference between a fine and a functioning trip. Our guide to [Siena hotels with parking](/blog/best-siena-hotels-with-parking/) lists what each property publishes, and two of them state that guest parking is free.
+
+**Book earlier than feels reasonable.** This is the most expensive and least available week of the Sienese year, and the constraint is not just price — it is that the rooms are simply gone. If your dates are fixed by the race, the room is the first thing to secure, ahead of the flights.
+
+For the trade-offs between areas in general, [where to stay in Siena](/blog/where-to-stay-in-siena/) compares the districts properly. Read it with one adjustment for this week: weight the walk from your door to the Campo more heavily than you otherwise would, and weight the evening atmosphere less, because the evening atmosphere will find you wherever you are.
+
+If you have not yet decided whether the race is worth building a trip around, our [guide to the Palio itself](/blog/palio-di-siena-guide/) sets out what happens across the four days and what watching from the centre of the Campo actually involves.`,
+      },
+      {
+        id: 'a-plan-for-the-four-days',
+        heading: 'A workable plan for 13–16 August',
+        body: `Put the verified constraints together and the week plans itself in a fairly specific way.
+
+**Thursday 13 August — arrive today.** This is the *tratta*, when the horses are drawn and matched to the ten contrade in the Campo. It is genuinely interesting to watch and the city is busy without yet being impassable. It is also the last comfortable day to move luggage across the centre. Note the cathedral complex closes at 18:00 rather than 19:00 up to and including this date.
+
+**Friday 14 August — do your museums, and your shopping.** This is the one full weekday of the four, with the cathedral complex back on 10:00–19:00, and it is the day to buy anything you will need for the next 72 hours: water, breakfast, medicines, whatever you would otherwise go looking for on the 15th. **If you want Torre del Mangia, this is the morning to do it** — the tickets cannot be booked, so be at the Museo Civico ticket office early. There are trials morning and evening.
+
+**Saturday 15 August, Ferragosto — plan a light afternoon.** Expect closures and reduced services, and do not schedule anything you cannot afford to find shut. The cathedral complex publishes no closure, but it is on holiday hours: **13:30–18:00**, so there is no morning visit to be had. Santa Maria della Scala publishes no Ferragosto variation. In the evening comes the *prova generale*, the fifth trial, the closest thing to a dress rehearsal. Book dinner in advance and confirm the restaurant is actually open that night.
+
+**Sunday 16 August — race day, and only race day.** The morning brings the jockey mass and the *provaccia*, then the signing of the jockeys at 10:30. Santa Maria della Scala closes at **16:30**. The cathedral complex, being a Sunday, again opens only at **13:30** — and the historical procession forms in Piazza del Duomo right outside it in the early afternoon, so treat that visit as unlikely rather than planned. The horses are blessed in the contrada oratories, and the race runs at **19:00**. Do not plan anything else. If you want a free place in the centre of the Campo you need to be in it hours ahead, and once it fills you are staying.
+
+**Monday 17 August — do not book an early train.** Celebrations run deep into the night, and if weather pushes the race back a day, the 17th becomes race day. An early departure on the 17th is the tightest booking of the whole trip.
+
+**From Tuesday 18 August** the cathedral floor is uncovered again — at which point the pass rises to €16.00 — and the city begins to empty. If your dates are flexible at all, the back half of that week is the better half.`,
+      },
+      {
         id: 'is-it-worth-it',
         heading: 'So is this week worth it?',
         body: `If you want the Palio, this is the week, and the closures are simply the price. Plan the 15th as a light day — the trials, the contrade walking their horses, a booked dinner — rather than the day you had earmarked for museums.
 
 If you want Siena, this is the week to avoid. You will pay the most for a room, see the least of the city, and spend the 15th finding things shut. The same trip in late September costs less and gives you the cathedral, the museums and the streets without the crowd.
 
-*Museum hours and prices above were checked against Santa Maria della Scala’s and the Museo Civico’s own websites on 26 July 2026. Where a source publishes nothing, this guide says so rather than filling the gap.*`,
+*Museum hours and prices above were checked against Santa Maria della Scala’s and the Museo Civico’s own websites on 26 July 2026, and the cathedral floor calendar, opening hours and pass prices against the Opera del Duomo’s own site on the same date. Where a source publishes nothing, this guide says so rather than filling the gap.*`,
       },
     ],
     [
@@ -3957,7 +4133,10 @@ If you want Siena, this is the week to avoid. You will pay the most for a room, 
       { q: 'When is Ferragosto 2026?', a: 'Saturday 15 August 2026. In Siena it falls inside the Palio programme, the day before the Palio dell’Assunta on 16 August.' },
       { q: 'Do buses and trains run on 15 August?', a: 'Services generally run reduced holiday timetables. Autolinee Toscane does not publish a dedicated Ferragosto schedule on the pages we checked, so verify your specific departure on the operator’s timetable rather than trusting a figure quoted second-hand.' },
       { q: 'When should I arrive for the 16 August Palio?', a: 'Before the 16th. The centre closes progressively through race day and moving luggage across it is difficult. Avoid booking onward travel early on the 17th, both because celebrations run late and because weather can push the race back a day.' },
-      { q: 'Is mid-August a good time to visit Siena?', a: 'Only if the Palio is the reason. It is the most expensive, most crowded and hottest week of the year, with reduced museum hours on both the 15th and the 16th. Late September gives you far more of the city for less.' },
+      { q: 'Can you see Siena Cathedral’s marble floor during Palio week?', a: 'No. The Opera del Duomo publishes the 2026 uncovering windows as 27 June to 31 July and 18 August to 15 November. The floor is therefore covered throughout the 13–16 August programme and is revealed again two days after the race.' },
+      { q: 'Can you climb Torre del Mangia on Palio day?', a: 'It is the worst day of the year to try. Tickets including the tower cannot be booked in advance and are sold only at the Museo Civico ticket office on the day; ascents leave every 45 minutes in groups of 25, and sales stop once the daily capacity is reached. It also shuts in bad weather. Climb it earlier in the week instead.' },
+      { q: 'What time does Siena Cathedral open on 15 and 16 August 2026?', a: '13:30, on both days. 15 August is a public holiday and 16 August 2026 falls on a Sunday, so the cathedral complex runs its Sunday and holiday timetable of 13:30–18:00 rather than the weekday 10:00–19:00. There is no morning visit to be had on either day.' },
+      { q: 'Is mid-August a good time to visit Siena?', a: 'Only if the Palio is the reason. It is the most expensive, most crowded and hottest week of the year, with reduced museum hours on the 16th and the cathedral floor still covered. Late September gives you far more of the city for less.' },
     ],
     '2026-07-26',
     {
