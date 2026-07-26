@@ -85,34 +85,9 @@ const HUB_CONTENT = {
     ],
     schemaType: "article",
   },
-  // TODO: /where-to-stay-in-siena needs owner-authored editorial expansion.
-  // Current body text is intentionally temporary and should be replaced with
-  // a full article with practical booking guidance before ranking-focused campaigns.
-  "where-to-stay-in-siena": {
-    title: "Where to Stay in Siena",
-    description: "Zone-by-zone Siena accommodation advice for couples, families, and budget-focused travelers.",
-    h1: "Where to stay in Siena",
-    intro: "Choose by mood and mobility, not just price. The best stay is not always the cheapest one.",
-    bullets: [
-      "Terzo di Città for walkability and local atmosphere.",
-      "San Martino for quieter nights with easy access.",
-      "Camollia for practical family routines and service proximity.",
-    ],
-    cta: {
-      title: "Start with",
-      items: [
-        { to: "/siena/", label: "Siena overview", desc: "Top attractions and practical context." },
-        { to: "/florence-to-siena-by-train-or-bus/", label: "Arriving from Florence", desc: "Train, bus, and tour trade-offs before choosing an area." },
-        { to: "/blog/siena-2-day-itinerary/", label: "2-day itinerary", desc: "Efficient pace for first-timers." },
-      ],
-    },
-    faqs: [
-      { q: "What's best for families?", a: "Prioritize quieter terzi near family-friendly food and services, and confirm elevator availability early." },
-      { q: "Need a short weekend stay?", a: "Look for places 3–5 blocks outside the main piazza to avoid noise while still being close." },
-      { q: "Any safety tips?", a: "Use daytime route scouting and keep booking receipts accessible for transfers and check-in." },
-    ],
-    schemaType: "article",
-  },
+  // TODO: /siena-itinerary is still a three-bullet stub competing with the real
+  // 2-day and 3-day itinerary articles. Same problem /where-to-stay-in-siena had
+  // before the article took over that route; resolve it the same way.
   "siena-itinerary": {
     title: "Siena Itinerary Guide",
     description: "Practical Siena itinerary for 1 day, 2 days, and 3 days with pacing and transport notes.",
@@ -136,31 +111,6 @@ const HUB_CONTENT = {
       { q: "How to balance art and food?", a: "Block morning museums and afternoon food/walks to avoid burnout." },
       { q: "Where to park?", a: "Reserve for city limits and use peripheral parking when possible." },
       { q: "Best first-day order?", a: "Piazza del Campo, Duomo, then a short walk through nearby lanes." },
-    ],
-    schemaType: "article",
-  },
-  "siena-accommodation-guide": {
-    title: "Siena Accommodation Guide",
-    description: "Clear guide to B&Bs, apartments, and practical stay categories around Siena.",
-    h1: "Siena accommodation guide",
-    intro: "A practical room-by-room and area-by-area approach for travelers with different budgets.",
-    bullets: [
-      "What to ask before confirming a booking.",
-      "How to compare B&B quality without fake ratings.",
-      "Parking and transfer access checkpoints.",
-    ],
-    cta: {
-      title: "Direct actions",
-      items: [
-        { to: "/where-to-stay-in-siena/", label: "See area guide", desc: "Filter by style, walkability, noise, and family needs." },
-        { to: "/siena-itinerary/", label: "Itinerary", desc: "Pair your accommodation choice with route planning." },
-        { to: "/contact/", label: "Contact", desc: "Send us your dates and constraints." },
-      ],
-    },
-    faqs: [
-      { q: "Which area is quietest?", a: "For first-time travelers, Terzo di Città and nearby quieter blocks usually perform better at night." },
-      { q: "Do I need a deposit before checking-in?", a: "Yes, many places ask for a deposit. Confirm policy before booking." },
-      { q: "Can you suggest room types?", a: "Couples usually prefer double rooms; families often need flexible bed configurations and transport access." },
     ],
     schemaType: "article",
   },

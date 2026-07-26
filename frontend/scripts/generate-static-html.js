@@ -64,7 +64,6 @@ const ARTICLE_SCHEMA_ROUTES = new Set([
   '/one-day-in-siena',
   '/things-to-do-in-siena',
   '/siena-itinerary',
-  '/siena-accommodation-guide',
   '/travel-tips',
 ]);
 // Keep in sync with redirectedArticleSlugs in scripts/generate-sitemap.js.
@@ -74,6 +73,14 @@ const REDIRECTED_ARTICLE_SLUGS = new Set([
   'florence-to-siena-transport',
   'siena-day-trip-from-florence',
   'best-things-to-do-in-siena',
+]);
+// Articles whose canonical home is a root-level route rather than /blog/<slug>.
+// These are NOT listed above: listing them there would drop the article body and
+// leave the canonical URL with only the thin page() shell, which is exactly the
+// duplication problem this mapping exists to avoid. Instead the full article is
+// emitted at the root path, and /blog/<slug> 301s to it via public/_redirects.
+const ROOT_ROUTE_ARTICLE_SLUGS = new Map([
+  ['where-to-stay-in-siena', '/where-to-stay-in-siena'],
 ]);
 const DESTINATION_SCHEMA = {
   '/tuscany-travel-guide': {
@@ -228,10 +235,6 @@ const STATIC_ROUTES = [
     'Prioritize the Campo, Duomo area, and one slow walk rather than overloading the day.',
     'Use this route as a short-stay entry point before deeper Siena guides.',
   ]),
-  page('/where-to-stay-in-siena', 'Where to Stay in Siena', 'Zone-by-zone Siena accommodation advice for couples, families and budget-focused travelers.', 'Where to stay in Siena', [
-    'Choose by mood and mobility, not just price.',
-    'Compare Terzo di Citta, San Martino and Camollia for comfort, noise and access.',
-  ]),
   page('/things-to-do-in-siena', 'Things to Do in Siena', 'A practical shortlist of things to do in Siena for first-time visitors and short stays.', 'Things to do in Siena', [
     'Start with the sights that shape a first Siena visit, then leave room for slow streets and food stops.',
     'This page keeps priority clear for travelers with limited time.',
@@ -239,10 +242,6 @@ const STATIC_ROUTES = [
   page('/siena-itinerary', 'Siena Itinerary Guide', 'Practical Siena itinerary guidance for 1 day, 2 days and 3 days with pacing and transport notes.', 'Siena itinerary', [
     'Use 1-day, 2-day and 3-day structures that balance sights, food and downtime.',
     'Add countryside time only when the core city plan has enough room.',
-  ]),
-  page('/siena-accommodation-guide', 'Siena Accommodation Guide', 'Clear guide to B&Bs, apartments and practical stay categories around Siena.', 'Siena accommodation guide', [
-    'Compare B&Bs, apartments and hotels by comfort, location, parking and check-in needs.',
-    'Ask the right questions before confirming a room.',
   ]),
   page('/travel-tips', 'Travel Tips for Siena and Tuscany', 'Compact travel tips for mobility, parking, packing, safety and money-saving habits in Italy.', 'Travel tips that save time and stress', [
     'Plan transfer windows around weather, strikes, parking and old-town walking limits.',
@@ -1016,9 +1015,11 @@ function extractArticles() {
           : []),
       ].join('\n\n');
 
+      const rootRoute = ROOT_ROUTE_ARTICLE_SLUGS.get(slug);
+
       results.push({
-        path: `/blog/${slug}`,
-        canonicalPath: options.canonicalPath || `/blog/${slug}`,
+        path: rootRoute || `/blog/${slug}`,
+        canonicalPath: rootRoute || options.canonicalPath || `/blog/${slug}`,
         title: options.seoTitle || title,
         exactTitle: Boolean(options.seoTitle),
         description: excerpt,

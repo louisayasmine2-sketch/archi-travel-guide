@@ -130,6 +130,8 @@ function App() {
             <Route path="/blog/siena-budget-and-meal-planning/" element={<Navigate to="/blog/siena-travel-cost-2026" replace />} />
             <Route path="/blog/best-things-to-do-in-siena" element={<Navigate to="/things-to-do-in-siena/" replace />} />
             <Route path="/blog/best-things-to-do-in-siena/" element={<Navigate to="/things-to-do-in-siena/" replace />} />
+            <Route path="/blog/where-to-stay-in-siena" element={<Navigate to="/where-to-stay-in-siena/" replace />} />
+            <Route path="/blog/where-to-stay-in-siena/" element={<Navigate to="/where-to-stay-in-siena/" replace />} />
             <Route path="/blog/puccini-festival-torre-del-lago-2026-independent-traveler-guide" element={<Navigate to="/blog/puccini-festival-torre-del-lago-2026-independent-traveller-guide" replace />} />
             <Route path="/blog/puccini-festival-torre-del-lago-2026-independent-traveler-guide/" element={<Navigate to="/blog/puccini-festival-torre-del-lago-2026-independent-traveller-guide" replace />} />
             <Route path="/blog/7-day-tuscany-itinerary-independent-travelers-2026-florence-base" element={<Navigate to="/blog/7-day-tuscany-itinerary-independent-travellers-2026-florence-base" replace />} />
@@ -153,12 +155,15 @@ function App() {
             <Route path="/disclaimer/" element={<Legal doc="disclaimer" />} />
             <Route path="/siena-travel-guide" element={<HubPage pageKey="siena-travel-guide" routePath="/siena-travel-guide" />} />
             <Route path="/siena-travel-guide/" element={<HubPage pageKey="siena-travel-guide" routePath="/siena-travel-guide" />} />
-            <Route path="/where-to-stay-in-siena" element={<HubPage pageKey="where-to-stay-in-siena" routePath="/where-to-stay-in-siena" />} />
-            <Route path="/where-to-stay-in-siena/" element={<HubPage pageKey="where-to-stay-in-siena" routePath="/where-to-stay-in-siena" />} />
+            {/* The real 2,400-word article now serves this URL, replacing a three-bullet
+                hub stub that competed with it. Same pattern as /things-to-do-in-siena/. */}
+            <Route path="/where-to-stay-in-siena" element={<Article fixedSlug="where-to-stay-in-siena" canonicalPath="/where-to-stay-in-siena" />} />
+            <Route path="/where-to-stay-in-siena/" element={<Article fixedSlug="where-to-stay-in-siena" canonicalPath="/where-to-stay-in-siena" />} />
             <Route path="/siena-itinerary" element={<HubPage pageKey="siena-itinerary" routePath="/siena-itinerary" />} />
             <Route path="/siena-itinerary/" element={<HubPage pageKey="siena-itinerary" routePath="/siena-itinerary" />} />
-            <Route path="/siena-accommodation-guide" element={<HubPage pageKey="siena-accommodation-guide" routePath="/siena-accommodation-guide" />} />
-            <Route path="/siena-accommodation-guide/" element={<HubPage pageKey="siena-accommodation-guide" routePath="/siena-accommodation-guide" />} />
+            {/* Third URL on the accommodation topic, thin and duplicative. Retired. */}
+            <Route path="/siena-accommodation-guide" element={<Navigate to="/where-to-stay-in-siena/" replace />} />
+            <Route path="/siena-accommodation-guide/" element={<Navigate to="/where-to-stay-in-siena/" replace />} />
             <Route path="/travel-tips" element={<HubPage pageKey="travel-tips" routePath="/travel-tips" />} />
             <Route path="/travel-tips/" element={<HubPage pageKey="travel-tips" routePath="/travel-tips" />} />
             <Route path="*" element={<NotFound />} />

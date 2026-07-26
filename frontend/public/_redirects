@@ -32,6 +32,13 @@
 /blog/best-things-to-do-in-siena                          /things-to-do-in-siena/ 301
 /blog/best-things-to-do-in-siena/                         /things-to-do-in-siena/ 301
 
+# Three URLs covered "where to stay in Siena": two three-bullet hub stubs and the
+# real article. The article now serves /where-to-stay-in-siena/; the other two retire.
+/blog/where-to-stay-in-siena                              /where-to-stay-in-siena/ 301
+/blog/where-to-stay-in-siena/                             /where-to-stay-in-siena/ 301
+/siena-accommodation-guide                                /where-to-stay-in-siena/ 301
+/siena-accommodation-guide/                               /where-to-stay-in-siena/ 301
+
 # American-spelled slugs served real content before the canonical fix, so they
 # may be crawled. 301 here rather than relying on the in-app <Navigate>, which
 # only redirects client-side after a 200.

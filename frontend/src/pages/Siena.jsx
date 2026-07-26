@@ -23,7 +23,7 @@ const HERO_CREDIT = {
 const chapters = [
   // /blog/best-things-to-do-in-siena/ 301s to this route; link the destination directly.
   { title: "Things to do", to: "/things-to-do-in-siena/", blurb: "Piazza del Campo, Duomo, Torre del Mangia — and what to skip on a short trip." },
-  { title: "Where to stay",  to: "/blog/where-to-stay-in-siena/", blurb: "Terzo di Città, San Martino or Camollia? Compared honestly." },
+  { title: "Where to stay",  to: "/where-to-stay-in-siena/", blurb: "Terzo di Città, San Martino or Camollia? Compared honestly." },
   { title: "2-day itinerary", to: "/blog/siena-2-day-itinerary/", blurb: "A well-paced two-day plan that leaves room to breathe." },
   { title: "3-day itinerary", to: "/blog/siena-3-day-itinerary/", blurb: "Add a proper half-day trip to Val d’Orcia or San Gimignano." },
   { title: "Family travel",   to: "/blog/siena-with-kids/", blurb: "Kid-paced days, contrada scavenger hunts, and family-friendly trattorias." },

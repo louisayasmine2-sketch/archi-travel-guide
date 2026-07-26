@@ -70,7 +70,6 @@ const staticRoutes = [
   { path: '/things-to-do-in-siena',              changefreq: 'weekly',  priority: 0.8 },
   { path: '/tuscany-travel-guide',               changefreq: 'weekly',  priority: 0.8 },
   { path: '/travel-budget-calculator',           changefreq: 'monthly', priority: 0.8 },
-  { path: '/siena-accommodation-guide',          changefreq: 'weekly',  priority: 0.8 },
   { path: '/siena-itinerary',                    changefreq: 'weekly',  priority: 0.8 },
   { path: '/travel-tips',                        changefreq: 'monthly',  priority: 0.75 },
 
@@ -261,6 +260,8 @@ function render() {
     'florence-to-siena-transport',
     'best-things-to-do-in-siena',
     'siena-day-trip-from-florence',
+    // Served at /where-to-stay-in-siena/; the /blog/ URL 301s there.
+    'where-to-stay-in-siena',
   ]);
 
   const articleRoutes = extractArticles().filter((a) => !redirectedArticleSlugs.has(a.slug)).map((a) => ({
