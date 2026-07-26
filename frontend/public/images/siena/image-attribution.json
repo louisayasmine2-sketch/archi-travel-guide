@@ -11,9 +11,10 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
     "alt": "Palazzo Pubblico and Torre del Mangia above Piazza del Campo in Siena",
     "articles": [
-      "best-things-to-do-in-siena"
+      "best-things-to-do-in-siena",
+      "siena-hub"
     ],
-    "placement": "Hero",
+    "placement": "Hero (things to do in Siena article, /siena/ hub, destination cards, LazyImage fallback)",
     "changes": "Cropped to 16:9, resized, and converted to WebP."
   },
   {

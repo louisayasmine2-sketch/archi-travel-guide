@@ -7,7 +7,18 @@ import { canonical } from "@/lib/seo";
 import { articlesByRegion } from "@/data/articles";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 
-const HERO = "https://images.unsplash.com/photo-1646319514161-8fba0ebc3275?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxzaWVuYSUyMGl0YWx5JTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc4MzAwNDQ4Nnww&ixlib=rb-4.1.0&q=85";
+// Self-hosted per the house rule against hotlinking. 1600x900 WebP, 53 KB.
+// Attribution is required by the licence and is rendered under the hero below.
+const HERO = "/images/siena/01-hero-palazzo-pubblico-torre-del-mangia.webp";
+const HERO_ALT =
+  "Palazzo Pubblico and Torre del Mangia above Piazza del Campo in Siena";
+const HERO_CREDIT = {
+  author: "Myrabella",
+  source: "https://commons.wikimedia.org/wiki/File:03_Palazzo_Pubblico_Torre_del_Mangia_Siena.jpg",
+  license: "CC BY-SA 3.0",
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
+  changes: "Cropped to 16:9, resized, and converted to WebP.",
+};
 
 const chapters = [
   // /blog/best-things-to-do-in-siena/ 301s to this route; link the destination directly.
@@ -24,12 +35,15 @@ const chapters = [
 
 export default function Siena() {
   const breadcrumbs = [{ label: 'Home', to: '/' }, { label: 'Tuscany', to: '/tuscany-travel-guide/' }, { label: 'Siena' }];
+  // og:image and schema image must be absolute; canonical() leaves paths with a
+  // file extension unslashed, so it is the right helper for an image path.
+  const heroUrl = canonical(HERO);
   const schema = [
     breadcrumbSchema(breadcrumbs),
     placeSchema({
       name: "Siena",
       description: "Medieval Tuscan city known for Piazza del Campo, the Palio, Gothic streets, and slow travel planning.",
-      image: HERO,
+      image: heroUrl,
       url: canonical("/siena/"),
       region: "Tuscany",
       country: "Italy",
@@ -53,7 +67,7 @@ export default function Siena() {
         title="Siena Travel Guide — Things to do, where to stay, itineraries, family & budget"
         description="The Archi Siena guide: what to do first, where to stay in each terzo, 1–3 day itineraries, family and budget travel, and how to arrive from Florence."
         path="/siena/"
-        image={HERO}
+        image={heroUrl}
         schema={schema}
       />
       
@@ -65,7 +79,7 @@ export default function Siena() {
           transition={{ duration: 25, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
           className="absolute inset-0 w-full h-full"
         >
-          <img src={HERO} alt="Siena skyline" loading="eager" className="w-full h-full object-cover opacity-80" />
+          <img src={HERO} alt={HERO_ALT} width="1600" height="900" loading="eager" fetchpriority="high" className="w-full h-full object-cover opacity-80" />
         </motion.div>
         
         <div className="absolute inset-0 bg-gradient-to-t from-[#2C211B] via-black/40 to-transparent z-10 pointer-events-none"></div>
@@ -90,6 +104,21 @@ export default function Siena() {
           </motion.div>
         </div>
       </section>
+
+      {/* CC BY-SA requires attribution wherever the image is shown. */}
+      <div className="max-w-7xl mx-auto px-6 mt-4 relative z-30">
+        <p className="text-xs leading-relaxed text-[#8A9A5B] text-right">
+          Photo:{" "}
+          <a href={HERO_CREDIT.source} target="_blank" rel="nofollow noopener noreferrer" className="text-[#C65A3A] hover:underline">
+            {HERO_CREDIT.author}
+          </a>
+          {", "}
+          <a href={HERO_CREDIT.licenseUrl} target="_blank" rel="license noopener noreferrer" className="text-[#C65A3A] hover:underline">
+            {HERO_CREDIT.license}
+          </a>
+          {`. ${HERO_CREDIT.changes}`}
+        </p>
+      </div>
 
       <section className="py-24 bg-[#FAF7F2] relative z-30">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-16">
