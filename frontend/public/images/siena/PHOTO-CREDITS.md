@@ -83,3 +83,40 @@ Display the credit in the figure caption or in a clearly visible Photo Credits s
 - **Changes:** Cropped to 16:9, resized, and converted to WebP.
 - **Alt text:** Terracotta rooftops across Siena's historic center and surrounding Tuscan hills
 - **Suggested credit:** Photo by Superchilum, via Wikimedia Commons, CC BY-SA 4.0; Cropped to 16:9, resized, and converted to WebP.
+
+---
+
+# In-body images for `best-hotels-in-siena`
+
+Seven images prepared on 28 July 2026 for `/blog/best-hotels-in-siena/`. Five are
+in-body derivatives of the eight Wikimedia files above — same photographers, same
+licences, resized and re-encoded to sit under 200KB. Two are Pexels stock, used
+**only** in generic sections and never beneath a named hotel, because they do not
+show any property in the article.
+
+## 9-13. Wikimedia derivatives (credit required)
+
+| File | Photographer | Licence | Derived from |
+| --- | --- | --- | --- |
+| `siena-palazzo-pubblico-inbody.webp` | Myrabella | CC BY-SA 3.0 | 01 |
+| `siena-cathedral-facade-inbody.webp` | PTG Dudva | CC BY-SA 3.0 | 02 |
+| `siena-orto-de-pecci-inbody.webp` | LigaDue | CC BY-SA 4.0 | 04 |
+| `siena-contrada-street-inbody.webp` | LigaDue | CC BY-SA 4.0 | 06 |
+| `siena-rooftops-inbody.webp` | Superchilum | CC BY-SA 4.0 | 08 |
+
+- **Changes:** resized to in-body width and re-encoded to WebP under 200KB. Source
+  pages and licence URLs are unchanged from entries 1-8 above.
+- **Credit is displayed** in the article's own "Photo credits" section, as this file
+  requires. ShareAlike applies to these adaptations.
+
+## 14-15. Pexels stock (attribution not required, recorded anyway)
+
+- **Files:** `hotel-room-warm-lamp-generic.webp`, `hotel-room-bed-linen-generic.webp`
+- **Photographers:** cottonbro; Markus Spiske
+- **Licence:** Pexels License — https://www.pexels.com/license/ (free for commercial
+  use, attribution not required)
+- **Sources:** https://www.pexels.com/photo/vintage-telephone-beside-the-bed-7609139/ ;
+  https://www.pexels.com/photo/white-bed-linen-near-white-table-lamp-26139/
+- **Changes:** resized to 1200px wide and converted to WebP.
+- **Editorial constraint:** these show no property named in the article. They must
+  never be placed under a hotel heading, and their captions must not imply otherwise.

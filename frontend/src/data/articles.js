@@ -3663,7 +3663,10 @@ Siena rewards drivers who plan the parking piece carefully. Choose one of the ho
 
 Siena is small, but it is not flat. The historic centre sits on three ridges, the streets are cobbled, and two addresses that look adjacent on a map can be separated by a climb. That is why the useful question is not "how far is the hotel from Piazza del Campo" but "what does the hotel itself publish, and what is it quietly silent about".
 
-If you are driving and parking is your main constraint, the companion guide is [Best Siena hotels with parking](/blog/best-siena-hotels-with-parking/). If you have not yet chosen a district, start with [Where to stay in Siena](/blog/where-to-stay-in-siena/), which compares six areas rather than named properties. If you are still weighing a room against a flat, see [Siena hotel vs apartment](/blog/siena-hotel-vs-apartment-guide/).`,
+If you are driving and parking is your main constraint, the companion guide is [Best Siena hotels with parking](/blog/best-siena-hotels-with-parking/). If you have not yet chosen a district, start with [Where to stay in Siena](/blog/where-to-stay-in-siena/), which compares six areas rather than named properties. If you are still weighing a room against a flat, see [Siena hotel vs apartment](/blog/siena-hotel-vs-apartment-guide/).
+
+![A warmly lit hotel room with a bedside lamp, armchair and vintage telephone](/images/siena/hotel-room-warm-lamp-generic.webp)
+Illustrative stock photograph. No image in this guide shows a room at any of the five hotels — none of them supplied photographs, and we do not use pictures taken from booking platforms.`,
       },
       {
         id: 'how-we-checked',
@@ -3690,7 +3693,10 @@ Two other published details are worth having. The rooms are soundproofed and the
 *   **Solves:** arriving with luggage in a historic building, and light sleeping in a central location.
 *   **Caveat:** check-in runs from 3pm until 8pm only. If your train or bus lands late, arrange arrival in advance rather than assuming reception is staffed.
 *   **Parking:** the hotel directs guests to the car park inside the Stadium or around the medieval Fortress — and adds the detail almost everyone misses, that the Fortress parking "is unavailable on Wednesdays because of the outdoor city market". Plan a Wednesday arrival around that.
-*   **Rates:** not published on the hotel's own site.`,
+*   **Rates:** not published on the hotel's own site.
+
+![Terracotta rooftops across Siena's historic centre and surrounding Tuscan hills](/images/siena/siena-rooftops-inbody.webp)
+Rooftops across Siena's historic centre. A general view of the city, not the hotel.`,
       },
       {
         id: 'il-battistero-siena',
@@ -3703,7 +3709,10 @@ Downstairs there is an enoteca beneath the Duomo holding, by the hotel's own acc
 
 *   **Solves:** wanting the Cathedral quarter with a published walking distance rather than a vague claim.
 *   **Caveat:** the site does not state whether there is a lift, does not mention air conditioning, and gives no parking or ZTL guidance. In a seven-room historic building on a raised square, the lift question is the one to ask before you book — not after.
-*   **Rates:** not published on the hotel's own site.`,
+*   **Rates:** not published on the hotel's own site.
+
+![Black and white marble facade of Siena Cathedral](/images/siena/siena-cathedral-facade-inbody.webp)
+The marble facade of Siena Cathedral. Il Battistero stands on Piazza San Giovanni behind it — this is the Duomo, not the hotel.`,
       },
       {
         id: 'antica-residenza-cicogna',
@@ -3719,7 +3728,10 @@ The detail most worth the price of admission is the ZTL instruction. If you are 
 *   **Solves:** a car-free arrival where you would rather follow written directions than improvise with a map.
 *   **Caveat:** the site does not state whether there is a lift. On a street like Via delle Terme that is worth confirming before booking an upper floor.
 *   **Parking:** the residenza publishes four options — a valet garage at €25 per 24 hours about 2 km away, free spaces near the Fortress walls around ten minutes' walk, the stadium car park, and station parking at €2 per day.
-*   **Rates:** not published on the hotel's own site.`,
+*   **Rates:** not published on the hotel's own site.
+
+![Narrow medieval lane in the Contrada del Drago area of Siena](/images/siena/siena-contrada-street-inbody.webp)
+A narrow lane in Siena's Contrada del Drago — the kind of street the residenza's written directions lead you through, not Via delle Terme itself.`,
       },
       {
         id: 'palazzetto-rosso',
@@ -3733,7 +3745,10 @@ One honest warning about the address. The site gives Via dei Rossi 37 in one pla
 *   **Solves:** wanting modern design and a lift without leaving the historic centre.
 *   **Caveat:** on parking, the site says only "Car park is not a problem! Ask for more information at the time of booking!" — no location, no price, no indication whether it is on site. Treat that as unanswered and get it in writing.
 *   **Distance:** no walking distance or time to Piazza del Campo or the Duomo is published.
-*   **Rates:** not published on the hotel's own site.`,
+*   **Rates:** not published on the hotel's own site.
+
+![Palazzo Pubblico and Torre del Mangia above Piazza del Campo in Siena](/images/siena/siena-palazzo-pubblico-inbody.webp)
+Palazzo Pubblico and Torre del Mangia above Piazza del Campo. A city landmark, not the hotel.`,
       },
       {
         id: 'hotel-chiusarelli',
@@ -3747,7 +3762,10 @@ Rooms have air conditioning and heating, Wi-Fi, satellite TV, a safe and a bath 
 *   **Solves:** arriving by bus, needing several rooms, or wanting a restaurant in the building.
 *   **Caveat:** the hotel does not publish whether it has a lift, which in a 48-room 19th-century villa is a fair question to put to reception before booking. It also describes the walk to Piazza del Campo only as "a few minutes", with no figure.
 *   **Parking:** there is a small private car park, but the site is explicit that "Parking cannot be booked in advance" — so it cannot be relied on. It lists free spaces near the Fortezza, a private garage, and the Stadium car park.
-*   **Rates:** not published on the hotel's own site.`,
+*   **Rates:** not published on the hotel's own site.
+
+![Green space at Orto de' Pecci below Siena's historic centre](/images/siena/siena-orto-de-pecci-inbody.webp)
+Orto de' Pecci, the green valley below the historic centre. A public garden in Siena, not the hotel's own.`,
       },
       {
         id: 'siena-hotels-compared',
@@ -3803,7 +3821,10 @@ One honest gap: the operator does **not** publish operating hours for the escala
 6. **Is breakfast included, and when is it served?** Only Il Battistero publishes times (8:30 to 10:00).
 7. **What changes during Palio week?** The races fall on 2 July and 16 August, and access, rates and minimum stays all shift around them.
 
-Model the whole cost, not just the room, with the [Travel Budget Calculator](/travel-budget-calculator/).`,
+Model the whole cost, not just the room, with the [Travel Budget Calculator](/travel-budget-calculator/).
+
+![White bed linen beside a table lamp in a naturally lit room](/images/siena/hotel-room-bed-linen-generic.webp)
+Illustrative stock photograph. Ask each hotel for pictures of the exact room you are booking rather than the room category — in buildings this old, two rooms at the same rate can differ sharply.`,
       },
       {
         id: 'next-steps',
@@ -3813,6 +3834,23 @@ Model the whole cost, not just the room, with the [Travel Budget Calculator](/tr
 Then send the seven questions above before you pay. Every one of them exists because a hotel on this list left it unanswered, and every one of them is cheaper to ask now than to discover on a cobbled street with a suitcase.
 
 For the wider picture, use the [Siena travel guide](/siena/) and the [Tuscany travel guide](/tuscany-travel-guide/).`,
+      },
+      {
+        id: 'photo-credits',
+        heading: 'Photo credits',
+        body: `Worth stating plainly, because it is the kind of thing guides usually leave vague: **none of the photographs in this article shows a room at any of the five hotels.** None of them supplied images, and we do not lift pictures from booking platforms. The two room photographs are generic stock, placed only in the introduction and the checklist, never under a hotel heading.
+
+The five Siena photographs are real views of the city, taken from Wikimedia Commons and used under Creative Commons Attribution-ShareAlike licences. Each was cropped to 16:9, resized for in-body display and re-encoded as WebP; nothing else was altered. As adaptations, they remain under the same ShareAlike terms.
+
+| Photograph | Photographer | Licence |
+|---|---|---|
+| [Palazzo Pubblico and Torre del Mangia](https://commons.wikimedia.org/wiki/File:03_Palazzo_Pubblico_Torre_del_Mangia_Siena.jpg) | Myrabella | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
+| [Facade of Siena Cathedral](https://commons.wikimedia.org/wiki/File:Siena_Cathedral_adjusted_crop.JPG) | PTG Dudva | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
+| [Orto de' Pecci](https://commons.wikimedia.org/wiki/File:SienaOrtoDePecci3.jpg) | LigaDue | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| [Lane in the Contrada del Drago](https://commons.wikimedia.org/wiki/File:SienaVicoloDellaPallaaCordaStallaDrago.jpg) | LigaDue | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| [Siena rooftops and Tuscan hills](https://commons.wikimedia.org/wiki/File:Cityscape_of_Siena_05.JPG) | Superchilum | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+
+The two room photographs are by cottonbro and Markus Spiske, under the [Pexels License](https://www.pexels.com/license/), which permits commercial use without attribution. We credit them anyway.`,
       },
     ],
     [
