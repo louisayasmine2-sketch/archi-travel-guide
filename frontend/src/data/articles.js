@@ -2477,19 +2477,117 @@ Florence from Siena is a good day out and an easy journey. The visitors who come
 
   A(
     'florence-travel-budget-guide',
-    'How Much Does Florence Really Cost? A Practical Budget Guide',
+    'What Florence Actually Costs: The Fixed Prices, Verified',
     'Budget', 'Italy',
-    'A realistic breakdown of what Florence costs today — from budget hostels to luxury hotels, plus money-saving tips.',
+    'Verified Florence museum tickets, the 2026 afternoon Uffizi discount and the official tourist tax table, checked against the sources that set them.',
     '/images/italy/florence-budget-travel-street-food.webp',
     [
-      { id: 'intro', heading: 'Florence is smaller than you think', body: 'You can walk from one end of the historic centre to the other in about twenty minutes, which means you will spend less on transport and more on the things that actually matter — the food, the art, and the leather jacket you swore you would not buy but absolutely will.\n\nThe good news is that Florence is significantly cheaper than Rome or Venice for accommodation and dining. Here is what Florence actually costs, broken down by budget level.' },
-      { id: 'budget', heading: 'Budget Traveller — €65 to €90 per day', body: 'A bed in a well-reviewed hostel runs €25 to €40 per night. Private rooms in basic guesthouses start around €50 to €70.\n\nFor food, eat where the students eat. The area around San Lorenzo and Sant\'Ambrogio is filled with trattorias serving three-course lunch menus for €10 to €13.\n\nFor breakfast, do what locals do: stand at a bar counter, order a cornetto and a caffè, pay €2.50, and leave. Sitting down often doubles the price.' },
-      { id: 'mid-range', heading: 'Mid-Range Traveller — €130 to €180 per day', body: 'A double room in a three-star hotel in the Oltrarno district costs €90 to €140 per night.\n\nLunch at a proper trattoria costs €20 to €30 per person. Dinner at one of the city\'s beloved neighbourhood restaurants runs €30 to €45, including wine.\n\nThe mid-range traveller should budget for two or three paid museums: the Uffizi (€25), the Accademia Gallery (€16), and the Palazzo Pitti (€15). Book online to avoid queues.' },
-      { id: 'luxury', heading: 'Luxury Traveller — €350 and above per day', body: 'Florence has some of the most beautiful boutique hotels in Europe. A luxury room starts around €400 per night.\n\nDining at this level is an event. The best meal you will eat might be a €60 bistecca alla fiorentina (Florentine T-bone steak) at a traditional steakhouse.\n\nFor a unique luxury experience, book a private after-hours tour of the Vasari Corridor.' },
-      { id: 'tips', heading: 'Money-Saving Tips for All Budgets', body: '• Water is free. Ask for "acqua del rubinetto" (tap water) at restaurants.\n• Aperitivo culture is your secret weapon. Many bars offer a free buffet of pasta and snacks when you order a drink between 6 and 9 p.m.\n• Avoid restaurants with photos on the menu. Photos mean tourist prices and tourist quality.' }
+      {
+        id: 'what-can-actually-be-verified',
+        heading: 'The costs you can check, and the ones nobody can',
+        body: `Most Florence budget guides open with a daily figure — €90 for a budget day, €150 mid-range, €350 for luxury. Those numbers are almost always invented. They are averages of averages, rarely sourced, and they go stale the moment a hotel changes its rates.
+
+This guide does something narrower and more useful. Florence has a set of costs that are **published, fixed and checkable**: museum tickets and the city's tourist tax. Those are the ones that decide whether a day out costs €30 or €80, and they are the ones you can plan against precisely. Every figure below was read on the source that sets it, on the date stated at the end.
+
+For the rest — what a room, a lunch or a plate of *bistecca* costs — this guide tells you how to find out rather than making a number up. That section is deliberately short, and it explains why.`,
+      },
+      {
+        id: 'museum-tickets-verified',
+        heading: 'Museum tickets, from the museums themselves',
+        body: `Two things surprise people here. The first is that **booking ahead costs more, not less**, at the state museums — the advance price is a higher price, not a discount. The second is the afternoon rate at the Uffizi, which is new and which most guides have not caught up with.
+
+| Museum | At the door | Booked ahead | Reduced |
+|---|---|---|---|
+| **Uffizi Gallery** | €25 | **€29** | €2 |
+| **Palazzo Pitti** | €16 | **€19** | €3 |
+| **Boboli Gardens** | €10 | **€13** | €3 |
+| **Galleria dell'Accademia** | €20 | €20 + €4 booking fee | €2 (EU citizens 18–25) |
+
+The Accademia also sells combined tickets: **€26** with the Museo Nazionale del Bargello, and **€38** for the six museums of the Accademia and Bargello institution. If you were going to visit two of those anyway, the combined ticket is the cheapest way to do it.
+
+**The one that saves real money:** since 1 January 2026 the Uffizi charges **€16 for entry from 4pm onwards**, against €25 at the door earlier in the day. That is €9 off the single most expensive ticket in Florence, for the price of visiting late. In midsummer it is also the more comfortable time to be inside.
+
+One deliberate gap. The Duomo complex — the dome climb, baptistery and museum — sells combined passes, and it is a significant cost for most visitors. The Opera del Duomo's site blocks automated access, so **we could not read its current prices during this check and will not quote a figure we have not seen.** Check duomo.firenze.it directly, and note the dome climb requires a timed slot.`,
+      },
+      {
+        id: 'tourist-tax',
+        heading: 'The tourist tax, which is charged separately',
+        body: `This is the cost people forget, because it usually is not in the room rate. Florence charges an *imposta di soggiorno* per person per night, set by the city council and collected by your accommodation, generally in cash or card at check-out.
+
+The current rates were set by council deliberation 535 of 10 December 2024 and took effect on 1 February 2025:
+
+| Accommodation | Per person, per night |
+|---|---|
+| 5-star hotel | €8.00 |
+| 4-star hotel | €7.00 |
+| Historic residence (*residenza d'epoca*) | €7.00 |
+| 3-star hotel | €6.00 |
+| Entrepreneurial B&B | €6.00 |
+| 2-star hotel | €4.50 |
+| Youth hostel | €4.00 |
+| *Case per ferie* | €4.00 |
+| 1-star hotel | €3.50 |
+| Campsite | €3.50 |
+
+Three rules that change the arithmetic:
+
+- It is capped at **seven consecutive nights** per person. From the eighth night of the same stay, no further tax is due.
+- **Children under 12 are exempt.** For a family of four with two young children, that is the whole tax halved.
+- Other exemptions include students of the University of Florence, people with severe disabilities and one companion, and carers, up to two per patient.
+
+For two adults, four nights in a 4-star hotel, that is €56 on top of the room rate — enough to matter, and easy to be caught out by.`,
+      },
+      {
+        id: 'what-we-will-not-estimate',
+        heading: 'What this guide will not estimate, and how to find it instead',
+        body: `Rooms, meals and coffee vary by season, street and day of the week, and nobody publishes a figure you could rely on. A guide that tells you a trattoria lunch costs "€10 to €13" is quoting someone's memory of a meal, not a source.
+
+So instead of a number, here is how to get a real one for your dates:
+
+- **Rooms:** search your actual dates rather than reading an average. Florence prices move sharply around events, and a figure that was true in November tells you nothing about June.
+- **Restaurants:** most trattorias post the menu with prices at the door, and many publish it online. Look at three near where you will actually be, on the day of the week you will be there.
+- **Coffee and pastries:** the price difference between standing at the counter and sitting at a table is real and is displayed by law on the price list. Check it before you sit down.
+- **Tap water** is free and drinkable. Ask for *acqua del rubinetto*.
+
+The honest summary: your fixed costs in Florence are the museums and the tax, and those are above. Everything else is a decision you make on the day.`,
+      },
+      {
+        id: 'florence-from-siena',
+        heading: 'Doing Florence from Siena',
+        body: `If you are based in Siena, a Florence day trip removes the most expensive line from the budget entirely — the Florence room, and the tourist tax with it. You pay Siena's rates instead, and Siena is not a cheap city either, but you are not paying twice.
+
+What it costs you back is time and flexibility. The last bus is earlier than people expect, and several of the sights above need booking days ahead. Read [Florence from Siena: what to see and what to book first](/blog/best-things-to-do-in-florence/) before fixing a date, and [Florence to Siena by train or bus](/florence-to-siena-by-train-or-bus/) for the connection itself.
+
+If you are going the other way and pricing a Siena stay, the same fixed-cost logic applies there: see [what a Siena trip actually costs](/blog/siena-travel-cost-2026/).
+
+*Museum prices checked against the Uffizi Galleries' and the Galleria dell'Accademia's own ticket pages on 28 July 2026. Tourist tax rates read from the Comune di Firenze's council deliberation 535 of 10 December 2024, in force since 1 February 2025, together with the city's own exemption list. Duomo complex prices are not quoted because the official site could not be read during this check. No figure in this guide comes from a booking platform or from memory.*`,
+      },
     ],
-    [],
-    '2026-07-04'
+    [
+      { q: 'Is it cheaper to book Florence museum tickets in advance?', a: 'No — at the state museums the advance price is higher. The Uffizi is €25 at the door and €29 booked ahead; Palazzo Pitti €16 and €19; the Boboli Gardens €10 and €13. The Galleria dell’Accademia charges €20 plus a €4 booking fee. You are paying for a guaranteed time slot, not getting a discount.' },
+      { q: 'Is there a cheaper time to visit the Uffizi?', a: 'Yes. Since 1 January 2026 the Uffizi ticket costs €16 for visitors entering from 4pm onwards, against €25 at the door earlier in the day. It is the single biggest saving available on a Florence museum ticket, and late afternoon is also cooler in summer.' },
+      { q: 'How much is the tourist tax in Florence?', a: 'It depends on where you stay, and it is charged per person per night on top of the room rate. Council deliberation 535 of December 2024 sets it at €8.00 for 5-star hotels, €7.00 for 4-star and historic residences, €6.00 for 3-star hotels and entrepreneurial B&Bs, €4.50 for 2-star, €4.00 for youth hostels, and €3.50 for 1-star hotels and campsites.' },
+      { q: 'Do children pay the Florence tourist tax?', a: 'Children under 12 are exempt. The tax is also capped at seven consecutive nights per person, so from the eighth night of the same stay nothing further is due. Other exemptions include University of Florence students, people with severe disabilities plus one companion, and up to two carers per patient.' },
+      { q: 'Is there a combined ticket for Florence museums?', a: 'The Galleria dell’Accademia sells a €26 ticket combining it with the Museo Nazionale del Bargello, and a €38 ticket covering the six museums of the Accademia and Bargello institution. If two of those were already on your list, the combined ticket is the cheaper route.' },
+      { q: 'How much does a day in Florence cost?', a: 'No honest answer exists as a single number, and guides that give one are estimating. What can be verified is the fixed part: museum tickets and the tourist tax, both listed in this guide from the sources that set them. Rooms and meals vary by season, street and day, so price those for your own dates rather than trusting an average.' },
+      { q: 'Is it cheaper to visit Florence as a day trip from Siena?', a: 'It removes the Florence room and its tourist tax from the budget, which is usually the largest single saving available. What it costs is flexibility: the last bus back is earlier than most people expect, and several major sights need booking days ahead.' },
+    ],
+    '2026-07-28',
+    {
+      seoTitle: 'What Florence Costs: Verified Tickets and Tourist Tax',
+      primaryKeyword: 'florence travel budget',
+      secondaryKeywords: [
+        'how much does florence cost',
+        'uffizi ticket price 2026',
+        'florence tourist tax 2026',
+        'galleria accademia ticket price',
+        'florence museum tickets cost',
+        'florence day trip from siena cost',
+      ],
+      imageAlt: 'Street food and a busy market street in Florence',
+      canonicalPath: '/blog/florence-travel-budget-guide/',
+      tags: ['florence travel budget', 'florence tourist tax', 'uffizi ticket price', 'florence museum tickets', 'florence from siena'],
+    }
   ),
   A(
     "italy-hotels-no-ac-2026",
