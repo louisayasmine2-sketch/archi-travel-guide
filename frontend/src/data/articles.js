@@ -3649,6 +3649,224 @@ Siena rewards drivers who plan the parking piece carefully. Choose one of the ho
     }
   ),
   A(
+    'best-hotels-in-siena',
+    'Best Hotels in Siena: Five Central Stays for Travellers on Foot',
+    'Where to stay',
+    'Siena',
+    'Five central Siena hotels compared for travellers on foot, with verified addresses and what each hotel does and does not publish.',
+    '/images/siena/05-piazza-del-campo-panorama.webp',
+    [
+      {
+        id: 'who-this-guide-is-for',
+        heading: 'Best Hotels in Siena for Travellers on Foot',
+        body: `This guide is for the traveller who will arrive in Siena without a car, or who will park once and then leave the car alone for three days. It solves a narrow problem: which central properties are genuinely practical to walk out of, and what each one will and will not tell you before you pay.
+
+Siena is small, but it is not flat. The historic centre sits on three ridges, the streets are cobbled, and two addresses that look adjacent on a map can be separated by a climb. That is why the useful question is not "how far is the hotel from Piazza del Campo" but "what does the hotel itself publish, and what is it quietly silent about".
+
+If you are driving and parking is your main constraint, the companion guide is [Best Siena hotels with parking](/blog/best-siena-hotels-with-parking/). If you have not yet chosen a district, start with [Where to stay in Siena](/blog/where-to-stay-in-siena/), which compares six areas rather than named properties. If you are still weighing a room against a flat, see [Siena hotel vs apartment](/blog/siena-hotel-vs-apartment-guide/).`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How these five were checked',
+        body: `Every address, room count, breakfast arrangement and parking note below was read on each hotel's own website, not on a booking platform and not from memory. Where a hotel does not publish something, this guide says so rather than filling the gap with an estimate.
+
+That last point matters more than it sounds. Only two of these five publish a distance to Piazza del Campo. The others describe themselves as "a few steps" or "a few minutes" away, which is marketing language, not a measurement. A guide that converts those phrases into confident numbers is inventing them.
+
+Two properties were researched and then cut. La Terrazza sul Campo and Palazzo Coli Bizzarrini appear on booking platforms but have no official website that could be confirmed, so nothing about them could be verified to the same standard as the five below. Hotel Duomo was also cut: its homepage is live, but every inner page — rooms, location, information — returned a server error, so its room count, lift and parking could not be checked at all.
+
+Car park tariffs, escalator routes and entrance closures come from a different primary source: Si.Ge.Ri.Co., the company that runs parking for the Comune di Siena. Where a hotel's description of a public car park differs from the operator's, this guide follows the operator.
+
+*Addresses, room counts, breakfast arrangements, lift information and hotel parking notes checked against each hotel's official website on 28 July 2026; car park tariffs and escalator information checked against Si.Ge.Ri.Co. on the same date. None of these hotels publishes nightly rates on its own site; request a quote for your dates, and expect the two Palio weeks to price differently.*`,
+      },
+      {
+        id: 'campo-regio-relais',
+        heading: 'Campo Regio Relais — solves the lift problem in a historic building',
+        body: `If your worry is dragging a suitcase up a medieval staircase, this is the one property here that answers the question directly. Its own FAQ states plainly: "There are 3 floors plus the ground-floor. We do have an elevator." Among small historic residenze in Siena, a published yes on the lift is unusual.
+
+The address is Via della Sapienza 25, and the hotel gives street-level directions rather than a distance: follow Via della Sapienza until number 25 and the entrance is on the right. On the walk itself, the site claims only that guests can "easily reach the most important monuments of the city" — no figure, so treat the walk as unmeasured and check it against your own pace.
+
+Two other published details are worth having. The rooms are soundproofed and the hotel sits in the pedestrian area, which is a real advantage on a centre this compact. And the superior room Camporegio 5 has a private terrace with a view over the city, while Camporegio 6 looks onto the small Camporegio square.
+
+*   **Solves:** arriving with luggage in a historic building, and light sleeping in a central location.
+*   **Caveat:** check-in runs from 3pm until 8pm only. If your train or bus lands late, arrange arrival in advance rather than assuming reception is staffed.
+*   **Parking:** the hotel directs guests to the car park inside the Stadium or around the medieval Fortress — and adds the detail almost everyone misses, that the Fortress parking "is unavailable on Wednesdays because of the outdoor city market". Plan a Wednesday arrival around that.
+*   **Rates:** not published on the hotel's own site.`,
+      },
+      {
+        id: 'il-battistero-siena',
+        heading: 'Il Battistero Siena — the only one that publishes a distance to the Campo',
+        body: `This is the pick when you want the Duomo end of the centre and you want the walk quantified rather than described. The hotel publishes a figure — 250 metres to Piazza del Campo — which makes it one of only two properties in this guide that commits to a number at all.
+
+The address is Piazza San Giovanni 12/13, directly on the small square behind the Cathedral, and the property has seven rooms and suites. Breakfast is the other unusually precise detail: a buffet served every morning from 8:30 to 10:00. If you are an early riser planning to be at the Duomo on opening, that window is worth checking against your plans before you book.
+
+Downstairs there is an enoteca beneath the Duomo holding, by the hotel's own account, more than 10,000 bottles, tasted in a cellar with brick and tufa vaults where a stretch of the medieval aqueduct is still visible. There is also a bistrot on the square. For a stay where dinner and a tasting can happen in the same building, that is a genuine advantage on a rainy evening.
+
+*   **Solves:** wanting the Cathedral quarter with a published walking distance rather than a vague claim.
+*   **Caveat:** the site does not state whether there is a lift, does not mention air conditioning, and gives no parking or ZTL guidance. In a seven-room historic building on a raised square, the lift question is the one to ask before you book — not after.
+*   **Rates:** not published on the hotel's own site.`,
+      },
+      {
+        id: 'antica-residenza-cicogna',
+        heading: 'Antica Residenza Cicogna — the clearest arrival instructions of the five',
+        body: `Choose this one if the part of the trip that worries you is getting from the bus or the station to the front door. No other property here documents the approach as carefully.
+
+The address is Via delle Terme 76, and the residenza publishes 200 metres to Piazza del Campo — the shortest published distance in this guide. It also gives the walk from the bus: roughly 300 metres from the Piazza Gramsci stop, with turn-by-turn directions along Via dei Termini, right onto Via del Cavalletto, then left into Via delle Terme to number 76. From the railway station it states about 1.5 km, with a taxi costing approximately €10 or the first bus running to Piazza Gramsci.
+
+There are five double rooms and two suites, air conditioning, and a buffet breakfast served in a large ground-floor room.
+
+The detail most worth the price of admission is the ZTL instruction. If you are driving in to drop bags, the residenza states that you must enter the restricted traffic area from the Chiesa di San Domenico gate, "as it is the only permitted entrance". Getting that wrong is how a camera fine reaches you months later — see [how to avoid Siena ZTL fines](/blog/siena-ztl-fines-how-to-avoid/).
+
+*   **Solves:** a car-free arrival where you would rather follow written directions than improvise with a map.
+*   **Caveat:** the site does not state whether there is a lift. On a street like Via delle Terme that is worth confirming before booking an upper floor.
+*   **Parking:** the residenza publishes four options — a valet garage at €25 per 24 hours about 2 km away, free spaces near the Fortress walls around ten minutes' walk, the stadium car park, and station parking at €2 per day.
+*   **Rates:** not published on the hotel's own site.`,
+      },
+      {
+        id: 'palazzetto-rosso',
+        heading: 'Palazzetto Rosso — design rooms with a lift, on the Via dei Rossi side',
+        body: `This is the choice for travellers who want a contemporary room inside a medieval shell, on the quieter northern approach rather than in the crush around the Campo. The building dates from the middle of the 13th century and holds nine rooms and suites, each a named category rather than a numbered box — Suite Panoramic TopView and Junior Suite Charme among them.
+
+Practically, two things stand out. The hotel states it has a modern lift, alongside a monumental staircase built entirely in brick, so the historic fabric has not been left to defeat your luggage. It also states that alternative air conditioning is fitted.
+
+One honest warning about the address. The site gives Via dei Rossi 37 in one place and 38–42 in another. That is a small discrepancy, but it is the kind that matters when you are wheeling a case over cobbles in the dark, so confirm the exact number in your booking confirmation.
+
+*   **Solves:** wanting modern design and a lift without leaving the historic centre.
+*   **Caveat:** on parking, the site says only "Car park is not a problem! Ask for more information at the time of booking!" — no location, no price, no indication whether it is on site. Treat that as unanswered and get it in writing.
+*   **Distance:** no walking distance or time to Piazza del Campo or the Duomo is published.
+*   **Rates:** not published on the hotel's own site.`,
+      },
+      {
+        id: 'hotel-chiusarelli',
+        heading: 'Hotel Chiusarelli — the practical pick for bus arrivals and families',
+        body: `If you are coming from Florence on the bus, or you want a full-service hotel rather than a seven-room residenza, this is the one that fits. It is a neoclassical villa on Viale Curtatone with 48 rooms — by some distance the largest property in this guide, which is what makes it a realistic option for families needing more than one room.
+
+The location argument is concrete rather than atmospheric. The hotel publishes that the central bus station at Piazza Gramsci is 150 metres away, and a bus stop 200 metres away. For anyone arriving on the 131R from Florence with luggage, that is a materially easier walk than crossing the centre.
+
+Rooms have air conditioning and heating, Wi-Fi, satellite TV, a safe and a bath or shower, and some have a balcony over a green area. Breakfast is a buffet served in a bright veranda, and there is an on-site restaurant, Gli Orti di San Domenico. There is also a terrace and a small garden — worth having if you are travelling with children who need somewhere to decompress.
+
+*   **Solves:** arriving by bus, needing several rooms, or wanting a restaurant in the building.
+*   **Caveat:** the hotel does not publish whether it has a lift, which in a 48-room 19th-century villa is a fair question to put to reception before booking. It also describes the walk to Piazza del Campo only as "a few minutes", with no figure.
+*   **Parking:** there is a small private car park, but the site is explicit that "Parking cannot be booked in advance" — so it cannot be relied on. It lists free spaces near the Fortezza, a private garage, and the Stadium car park.
+*   **Rates:** not published on the hotel's own site.`,
+      },
+      {
+        id: 'siena-hotels-compared',
+        heading: 'The five compared',
+        body: `| Hotel | Solves | Rooms | Distance to the Campo | Lift |
+|---|---|---|---|---|
+| **Campo Regio Relais** | Luggage in a historic building; quiet rooms | Not published | Not published — "easily reach" only | **Yes** — stated |
+| **Il Battistero Siena** | Cathedral quarter with a measured walk | 7 rooms and suites | **250 m** — published | Not stated |
+| **Antica Residenza Cicogna** | Car-free arrival with written directions | 5 doubles + 2 suites | **200 m** — published | Not stated |
+| **Palazzetto Rosso** | Modern design inside a 13th-century shell | 9 rooms and suites | Not published | **Yes** — stated |
+| **Hotel Chiusarelli** | Bus arrivals, families, on-site restaurant | 48 rooms | Not published — "a few minutes" | Not stated |
+
+*Checked against each hotel's official website on 28 July 2026. Three of the five do not publish whether they have a lift; in a city built on ridges, ask before booking an upper floor rather than after.*
+
+Two of these hotels appear to contradict each other on parking, and it is worth knowing why they do not. Hotel Chiusarelli describes the Stadium car park as free overnight and €2 from 7am to 8pm; Antica Residenza Cicogna describes stadium parking at €2 per hour. Siena's municipal car park operator, Si.Ge.Ri.Co., publishes the answer: Stadio–Fortezza is €2.00 per hour from 07:00 to 20:00 all year, with a continuous daily rate of €26.00. Both hotels are right. Chiusarelli is describing the tariffed window, Cicogna the hourly rate inside it. Outside 07:00–20:00 there is no hourly charge.`,
+      },
+      {
+        id: 'getting-from-the-car-park-to-your-hotel',
+        heading: 'Getting from the car park to your hotel on foot',
+        body: `If you are parking once and then walking for the rest of the trip, the car park you choose matters more than the nightly rate. Siena's municipal operator, Si.Ge.Ri.Co., runs more than 4,000 spaces across eight multi-storey car parks — and only three of them are connected to the city's escalators.
+
+Those escalators, the *risalite meccanizzate*, were built by the Comune di Siena over the past fifteen years on the northern, eastern and western approaches, specifically to get people up the height difference into the centre. There are three: Stazione Antiporto–Porta Camollia, San Francesco, and Costone. The operator states that they connect the **San Francesco, Santa Caterina and La Stazione** car parks to the historic centre.
+
+Notice what is absent from that list. **Stadio–Fortezza is not escalator-served**, and it is the car park that both Campo Regio Relais and Hotel Chiusarelli point their guests towards. If you are arriving with heavy luggage, San Francesco or Santa Caterina will cost more per day and save you the climb. That is the trade-off, and no hotel on this list spells it out.
+
+Three further details the operator publishes that are worth knowing before you arrive:
+
+*   **There is an official hotel tariff.** At the Campo, Duomo, San Francesco and Santa Caterina car parks, Si.Ge.Ri.Co. lists a *Tariffa Hotel* capped at €25.00 per day, against a standard continuous daily rate of €35.00 at the same car parks. Ask your hotel whether it can register you for it — that is a saving of €10 a day that almost no guide mentions.
+*   **A free taxi service for people with disabilities** operates from the main car parks. The operator describes it as a dedicated free service.
+*   **The Stadium car park has two entrances, and both close.** The Fortezza-side entrance is closed on Wednesdays for the weekly market — which confirms what Campo Regio Relais tells its guests — and the Stadium-side entrance closes during Robur Siena football matches. Separately, the pedestrian passage linking the Stadium car park to Via F. Tozzi is kept shut between 01:00 and 07:00 on a Local Police directive, until further notice. A late arrival planning to walk out that way will find it locked.
+
+| Car park | Hourly | Daily | Escalator to the centre |
+|---|---|---|---|
+| **Stadio–Fortezza** | €2.00, 07:00–20:00 | €26.00 | No |
+| **Santa Caterina, San Francesco, Campo, Duomo** | €2.00 | €35.00 (hotel tariff €25.00) | Yes, except Campo and Duomo |
+| **La Stazione** | €0.50 first hour, then €2.00 | €2.00 full day | Yes |
+| **Le Fonti di Pescaia** | €1.00 first hour, then €1.50 | Not published | No |
+
+*Car park tariffs, entrance closures and escalator routes taken from Si.Ge.Ri.Co., the Comune di Siena's parking operator, on 28 July 2026. Parking at La Stazione is free on Wednesday mornings from 08:30 to 15:00 during the weekly market.*
+
+One honest gap: the operator does **not** publish operating hours for the escalators, and it runs a replacement taxi service for when they are down. Treat them as a convenience, not a guarantee, and do not plan a late-night arrival around them.`,
+      },
+      {
+        id: 'what-to-confirm-before-you-book',
+        heading: 'What to confirm before you pay',
+        body: `The gaps in what these hotels publish are predictable, so the questions are the same each time. Send them in one message and you will get one reply.
+
+1. **Is there a lift, and which floor is the room on?** Three of the five do not publish this.
+2. **What is the exact street number?** Particularly at Palazzetto Rosso, where the site gives two.
+3. **Where can a taxi legally stop?** "Central" and "reachable by car" are not the same thing in a ZTL.
+4. **If you are driving in at all, which gate?** Cicogna states San Domenico is the only permitted entrance for its address; other hotels will have their own.
+5. **What time does reception close?** Campo Regio publishes 3pm to 8pm; the others do not publish a window.
+6. **Is breakfast included, and when is it served?** Only Il Battistero publishes times (8:30 to 10:00).
+7. **What changes during Palio week?** The races fall on 2 July and 16 August, and access, rates and minimum stays all shift around them.
+
+Model the whole cost, not just the room, with the [Travel Budget Calculator](/travel-budget-calculator/).`,
+      },
+      {
+        id: 'next-steps',
+        heading: 'Next steps',
+        body: `Pick by the problem you are actually solving. Arriving by bus with luggage or with children, choose Chiusarelli. Wanting the Cathedral quarter with a published distance, choose Il Battistero. Worried about stairs, choose Campo Regio Relais or Palazzetto Rosso, the only two that state they have a lift. Wanting the shortest documented walk to the Campo and the clearest arrival instructions, choose Antica Residenza Cicogna.
+
+Then send the seven questions above before you pay. Every one of them exists because a hotel on this list left it unanswered, and every one of them is cheaper to ask now than to discover on a cobbled street with a suitcase.
+
+For the wider picture, use the [Siena travel guide](/siena/) and the [Tuscany travel guide](/tuscany-travel-guide/).`,
+      },
+    ],
+    [
+      {
+        q: 'Which hotels in Siena publish how far they are from Piazza del Campo?',
+        a: 'Only two of the five in this guide. Antica Residenza Cicogna publishes 200 metres and Il Battistero Siena publishes 250 metres. Campo Regio Relais, Palazzetto Rosso and Hotel Chiusarelli describe the walk only as "easily reached" or "a few minutes" without giving a figure, so treat those as unmeasured.',
+      },
+      {
+        q: 'Do central Siena hotels have lifts?',
+        a: 'Some do, but most do not say. Campo Regio Relais states it has an elevator across three floors plus the ground floor, and Palazzetto Rosso states it has a modern lift. Il Battistero, Antica Residenza Cicogna and Hotel Chiusarelli do not publish the information at all. Ask before booking an upper floor.',
+      },
+      {
+        q: 'Can I stay in central Siena without a car?',
+        a: 'Yes, and it is usually easier. Hotel Chiusarelli publishes that the central bus station at Piazza Gramsci is 150 metres away, and Antica Residenza Cicogna publishes about 300 metres to the same stop plus written walking directions. Antica Residenza Cicogna also states the railway station is about 1.5 km away, with a taxi costing approximately €10.',
+      },
+      {
+        q: 'How much does parking cost near these hotels?',
+        a: 'Siena’s municipal operator, Si.Ge.Ri.Co., publishes the rates. Stadio–Fortezza is €2.00 per hour from 07:00 to 20:00 with a daily rate of €26.00. Santa Caterina, San Francesco, Campo and Duomo are €2.00 per hour with a continuous daily rate of €35.00 — but these four also offer an official hotel tariff capped at €25.00 per day, so ask your hotel to register you for it. La Stazione is €0.50 for the first hour and free on Wednesday mornings from 08:30 to 15:00 during the weekly market.',
+      },
+      {
+        q: 'Do Siena’s escalators reach every car park?',
+        a: 'No. The operator states that the escalators, the risalite meccanizzate, connect the San Francesco, Santa Caterina and La Stazione car parks to the historic centre. Stadio–Fortezza is not escalator-served, which matters if you are walking in with heavy luggage. The operator does not publish operating hours for the escalators and runs a replacement taxi service when they are out of use, so do not rely on them for a late arrival.',
+      },
+      {
+        q: 'Do any of these hotels publish their nightly rates?',
+        a: 'No. None of the five publishes nightly rates on its own website. Request a quote for your dates directly, and expect the two Palio weeks around 2 July and 16 August to price differently from the rest of the year.',
+      },
+      {
+        q: 'Which Siena hotel is best for families?',
+        a: 'Hotel Chiusarelli is the most practical of the five. With 48 rooms it is the only property here large enough to make connecting or multiple rooms realistic, and it has an on-site restaurant, a terrace and a small garden. The others range from five to nine rooms.',
+      },
+      {
+        q: 'Is it a problem to arrive in Siena on a Wednesday?',
+        a: 'It can be if you are driving. Campo Regio Relais states that the parking around the medieval Fortress is unavailable on Wednesdays because of the outdoor city market. If you arrive by car on a Wednesday, plan for the Stadium car park or another option instead.',
+      },
+    ],
+    '2026-07-28',
+    {
+      seoTitle: 'Best Hotels in Siena: 5 Central Stays Compared',
+      primaryKeyword: 'best hotels in Siena',
+      secondaryKeywords: [
+        'best hotels in Siena Italy',
+        'central Siena hotels',
+        'where to stay in Siena historic centre',
+        'Siena hotels with a lift',
+        'Siena hotels near Piazza del Campo',
+        'small hotels Siena',
+      ],
+      imageAlt: 'Piazza del Campo and the surrounding rooftops in the centre of Siena',
+      canonicalPath: '/blog/best-hotels-in-siena/',
+      tags: ['best hotels in siena', 'central siena hotels', 'siena hotels near piazza del campo', 'where to stay in siena historic centre', 'siena hotels with a lift'],
+    }
+  ),
+  A(
     'val-dorcia-day-trip-from-siena-2026',
     'Val d’Orcia Day Trip from Siena: Pienza, Montalcino & Montepulciano (2026 Guide)',
     'Day trips',
