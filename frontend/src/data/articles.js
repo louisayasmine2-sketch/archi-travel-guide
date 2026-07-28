@@ -4045,18 +4045,34 @@ That matters because the most common mistake visitors make is assuming Siena rac
       {
         id: 'what-happens-across-the-four-days',
         heading: 'What happens across the four days',
-        body: `The official programme describes an event lasting four days, of which the race is the last few minutes. For August 2026 the shape is this:
+        body: `The official programme describes an event lasting four days, of which the race is the last few minutes. In 2026 those four days fall **Thursday to Sunday**, and the weekdays matter more than usual — because Ferragosto lands inside them.
 
-| When | What | Notes |
+| Date | Day | What happens |
 |---|---|---|
-| 13 August | The *tratta* | Horses are tested on the tuff laid in the Campo, ten are judged eligible, and each is drawn to a contrada |
-| 13–16 August | Six trial races | Mornings at 9:00 and evenings at 19:15 in August |
-| 15 August | The *prova generale* | The fifth trial, run the evening before the race |
-| 16 August, 08:00 | Jockey mass, then the *provaccia* | The sixth and final trial, run with famously little effort |
-| 16 August, mid-morning | Signing of the jockeys | After this the contrada cannot change rider |
-| 16 August, early afternoon | Blessing of the horses | In each contrada’s oratory, horse and jockey before the altar |
-| 16 August, afternoon | Historical procession | Fourteen groups, close to six hundred costumed figures |
-| 16 August, 19:00 | The race | |
+| 13 August | **Thursday** | The *tratta*: horses are tested on the tuff laid in the Campo, ten are judged eligible, and each is drawn to a contrada. The first trial runs that evening |
+| 14 August | **Friday** | Trials morning and evening — and the last ordinary shopping day before the holiday |
+| 15 August | **Saturday** | **Ferragosto**, a national public holiday. The *prova generale*, the fifth trial, runs in the evening |
+| 16 August | **Sunday** | Jockey mass, then the *provaccia*; signing of the jockeys, after which the contrada cannot change rider; blessing of the horses in each contrada's oratory; the historical procession of close to six hundred costumed figures; then the race |
+
+Six trials run across those days, two a day, morning and evening.
+
+![Panoramic view across Piazza del Campo in Siena](/images/siena/siena-rooftops-inbody.webp)
+Piazza del Campo, seen from above. The race runs on a track of tuff laid around the outside of the shell; the crowd stands in the middle.
+
+**Now a warning about the times that is worth more than the times themselves.** When we checked on 28 July 2026, the Comune di Siena had **not yet published** the hour-by-hour programme for 16 August. Every set of August times circulating online traces back to the Comune's page for the **2024** race, published on 11 August 2024. Treat those as the year-before-last's schedule, not this year's.
+
+What the Comune has published for 2026 is the July race, issued on 25 June, a week before it ran:
+
+| Stage | Official time, 2 July 2026 |
+|---|---|
+| Jockey mass | 07:45 |
+| Morning trials: track cleared, then horses out | 08:40, then 09:00 |
+| Evening trials and the *prova generale*, horses out | 19:45 |
+| *Provaccia*, horses out | 09:00 |
+| *Corteo storico* enters the Campo | 17:20 |
+| Race — horses out of the Cortile del Podestà | 19:30 |
+
+Use that as the shape of the day, not as August's clock. The two races have historically started at different times, and the August start is precisely the figure we cannot yet verify. On both the 2024 and 2026 evidence the Comune publishes roughly a week ahead, so the 16 August programme should appear in the first half of August. Check it then, rather than trusting a number copied from a previous year.
 
 The trials are the part visitors underestimate. Each one draws a crowd of contradaioli walking the horse from its stable to the Campo, singing on the way. If you want the atmosphere without the crush of race day, a trial evening gives you a great deal of it.`,
       },
@@ -4105,11 +4121,16 @@ Do not go if what you actually want is Siena. The museums cut their hours, the c
 
 And a matter of manners, since it comes up: the contrade are living neighbourhood institutions, not a costume event. Dinners, ceremonies and church blessings are their own, and are best watched from a respectful distance rather than photographed at close range.
 
-*Race mechanics, the four-day programme and the free-access wording above are taken from the official Palio brochure published by the Comune di Siena, checked on 26 July 2026. The July 2026 postponement and result were confirmed against Italian news coverage of the race.*`,
+![Palazzo Pubblico and Torre del Mangia above Piazza del Campo in Siena](/images/siena/siena-palazzo-pubblico-inbody.webp)
+Palazzo Pubblico and the Torre del Mangia. The race finishes in front of this building, and the museums inside it sit directly on the track.
+
+*Race mechanics, the four-day programme and the free-access wording above are taken from the official Palio material published by the Comune di Siena, checked on 26 July 2026 and re-checked on 28 July 2026. The three laps over roughly 1,000 metres, the* canapi*, the tenth horse entering* di rincorsa*, the mortar recall on an invalid start and the fact that a* scosso *horse can win are all confirmed on the Comune's own race page. The 2 July 2026 times are from the Comune's schedule published on 25 June 2026; no equivalent page for 16 August 2026 existed when we checked. The July 2026 postponement and result were confirmed against Italian news coverage.*`,
       },
     ],
     [
-      { q: 'When is the Palio di Siena in 2026?', a: 'There are two races: 2 July, the Palio di Provenzano, and 16 August, the Palio dell’Assunta. The August race is scheduled for 19:00, with the four-day programme running from 13 August.' },
+      { q: 'When is the Palio di Siena in 2026?', a: 'There are two races: 2 July, the Palio di Provenzano, and 16 August, the Palio dell’Assunta. In 2026 the August four-day programme runs Thursday 13 to Sunday 16 August, with the race on the Sunday. Ferragosto, the national holiday, falls on the Saturday in between.' },
+      { q: 'What time does the August 2026 Palio start?', a: 'The Comune di Siena had not published the hour-by-hour programme for 16 August 2026 when we checked on 28 July. The August times circulating online come from the Comune’s page for the 2024 race. For the 2 July 2026 race the Comune published the schedule on 25 June, about a week ahead, so expect the August programme in the first half of the month and check it then rather than relying on a previous year’s time.' },
+      { q: 'Does Ferragosto affect the Palio week?', a: 'In 2026 it does, more than usual. Ferragosto falls on Saturday 15 August and the race on Sunday 16 August, so a national holiday and a Sunday run back to back. Friday 14 August is the last ordinary shopping day, and bus timetables change across both days.' },
       { q: 'Can you watch the Palio for free?', a: 'Yes. The official material states you can watch from inside the Piazza for free, or pay for a place on the stands, windows or balconies around it. The free option means standing in the centre of the Campo for hours with no shade and no easy exit once it fills.' },
       { q: 'How long does the race last?', a: 'The official material does not publish a duration. It states the horses run three laps of the track around Piazza del Campo, described as a 1,000-metre course. Expect the build-up and repeated false starts to take far longer than the running.' },
       { q: 'What happens if it rains on Palio day?', a: 'The race can be postponed. In 2026 the July race moved from 2 July to 3 July because of bad weather. If the Palio is the reason for your trip, book a spare night rather than a train out the next morning.' },
@@ -4117,7 +4138,7 @@ And a matter of manners, since it comes up: the contrade are living neighbourhoo
       { q: 'Can a horse win without its jockey?', a: 'Yes. A horse that finishes first without its rider still wins. The Sienese call such a horse scosso.' },
       { q: 'Is Siena worth visiting during the Palio?', a: 'It depends what you came for. For the event itself, yes. For Siena as a city, no — museum hours are cut, the centre is packed and rooms are at their most expensive. A quieter week gives you far more of the cathedral, the museums and the streets.' },
     ],
-    '2026-07-26',
+    '2026-07-28',
     {
       seoTitle: 'Palio di Siena 2026: What Happens and Whether to Go',
       primaryKeyword: 'palio di siena',
@@ -4150,7 +4171,14 @@ And a matter of manners, since it comes up: the contrade are living neighbourhoo
 
 **The Palio dell’Assunta is run on 16 August**, with its four-day programme starting on the 13th. The city fills, the centre is progressively closed to traffic and then to movement, and the institutions around Piazza del Campo change their hours.
 
-So the 15th is a national holiday and the 16th is the busiest day of the Sienese year, back to back. If you are in Siena that week without knowing this, you will find a beautiful city in which quite a lot is unexpectedly shut.`,
+So the 15th is a national holiday and the 16th is the busiest day of the Sienese year, back to back. If you are in Siena that week without knowing this, you will find a beautiful city in which quite a lot is unexpectedly shut.
+
+**In 2026 the calendar makes it worse, and this is the detail to plan around.** The four days fall Thursday to Sunday: the *tratta* on Thursday 13th, trials on Friday 14th, **Ferragosto on Saturday 15th**, and the **race on Sunday 16th**.
+
+That means the holiday and the weekend stack. Saturday is a national holiday, Sunday is both race day and a Sunday — so shops, offices and transport are reduced two days running, and Sunday is thinner again than Saturday. **Friday 14 August is your last ordinary day** for a supermarket run, a pharmacy, a bank, or anything else that assumes a working week.
+
+![Narrow medieval lane in the Contrada del Drago area of Siena](/images/siena/siena-contrada-street-inbody.webp)
+A lane in the Contrada del Drago. In Palio week the contrade walk their horses through streets like this one, and the crowds follow.`,
       },
       {
         id: 'museum-hours-checked',
@@ -4188,7 +4216,21 @@ What to do about it instead:
       {
         id: 'getting-in-and-out',
         heading: 'Getting in and out',
-        body: `Regional buses and trains generally run reduced holiday timetables on 15 August. We checked Autolinee Toscane’s own pages for a published Ferragosto schedule and **did not find one**, so treat any specific departure time you read elsewhere as unverified and check the operator’s timetable for your date before you rely on it.
+        body: `There is no published "Ferragosto timetable", and looking for one is the wrong search. What exists is better, and it answers the question properly once you know how Italian bus timetables are built.
+
+Autolinee Toscane's own timetable for the 131R, the Siena–Poggibonsi–Florence line, sorts every departure into one of three categories: **Feriale**, **Feriale escluso Sabato** — weekdays excluding Saturday — and **Festivo**. The current summer timetable is marked *Valido dal 27.07.2026*, so it is the one in force for the whole Palio week.
+
+Apply the 2026 calendar to those categories and the week resolves:
+
+| Date | Day | Which timetable applies |
+|---|---|---|
+| 14 August | Friday | Full weekday service |
+| 15 August | **Saturday** | Departures marked *Feriale escluso Sabato* **do not run at all** — before any holiday effect |
+| 16 August | **Sunday** | **Festivo** timetable, the thinnest of the three |
+
+That is the part almost every guide misses. The Saturday reduction is not a Ferragosto special measure — it is the ordinary Saturday timetable, and it applies every week of the year. Ferragosto sits on top of it. Then race day is a Sunday, which is *Festivo*, thinner again.
+
+What we still cannot tell you: whether the operator additionally treats 15 August as *Festivo* rather than as a Saturday. That is not stated on the pages or in the PDF we read, and the two would give different departures. Download the 131R timetable from Autolinee Toscane and read the category column against your own date before you commit to a departure.
 
 Two things are worth planning around regardless of the timetable:
 
@@ -4204,18 +4246,22 @@ If you are driving, the restricted traffic zone is enforced by camera year-round
 
 If you want Siena, this is the week to avoid. You will pay the most for a room, see the least of the city, and spend the 15th finding things shut. The same trip in late September costs less and gives you the cathedral, the museums and the streets without the crowd.
 
-*Museum hours and prices above were checked against Santa Maria della Scala’s and the Museo Civico’s own websites on 26 July 2026. Where a source publishes nothing, this guide says so rather than filling the gap.*`,
+![Green space at Orto de' Pecci below Siena's historic centre](/images/siena/siena-orto-de-pecci-inbody.webp)
+Orto de' Pecci, in the valley below the walls. On a week when the centre is full and much of it is shut, the green space just outside it is the part nobody queues for.
+
+*Museum hours and prices above were checked against Santa Maria della Scala's and the Museo Civico's own websites on 26 July 2026. Bus timetable categories and the 27 July 2026 validity date come from Autolinee Toscane's own published timetable for line 131R, read on 28 July 2026. Weekday dates were computed from the 2026 calendar, not carried over from a previous year. Where a source publishes nothing, this guide says so rather than filling the gap.*`,
       },
     ],
     [
       { q: 'Is everything closed in Siena on Ferragosto?', a: 'No, but a lot is. 15 August is a national public holiday: public offices close, many independent shops and restaurants close, and transport runs reduced timetables. Which specific businesses open is not published anywhere, so buy what you need on the 14th.' },
       { q: 'Are Siena’s museums open on Palio day?', a: 'Santa Maria della Scala publishes reduced hours of 10:00–16:30 on 16 August. The Museo Civico and Torre del Mangia publish no Palio-day variation, but they sit on Palazzo Pubblico beside the track, so confirm directly if that is your only chance to visit.' },
       { q: 'When is Ferragosto 2026?', a: 'Saturday 15 August 2026. In Siena it falls inside the Palio programme, the day before the Palio dell’Assunta on 16 August.' },
-      { q: 'Do buses and trains run on 15 August?', a: 'Services generally run reduced holiday timetables. Autolinee Toscane does not publish a dedicated Ferragosto schedule on the pages we checked, so verify your specific departure on the operator’s timetable rather than trusting a figure quoted second-hand.' },
+      { q: 'Do buses run on 15 and 16 August 2026?', a: 'Yes, but on reduced timetables, and the reason is structural rather than special. Autolinee Toscane sorts every departure on the 131R Siena–Florence line into Feriale, Feriale escluso Sabato, or Festivo, in a timetable valid from 27 July 2026. Saturday 15 August loses every departure marked Feriale escluso Sabato, which is the ordinary Saturday pattern rather than a Ferragosto measure. Sunday 16 August runs the Festivo timetable, the thinnest of the three. Read the category column against your date before booking.' },
+      { q: 'Which day should I do my shopping in Palio week?', a: 'Friday 14 August. In 2026 Ferragosto falls on the Saturday and the race on the Sunday, so Friday is the last ordinary working day before two reduced days back to back. Buy water, breakfast, medicines and anything for children then.' },
       { q: 'When should I arrive for the 16 August Palio?', a: 'Before the 16th. The centre closes progressively through race day and moving luggage across it is difficult. Avoid booking onward travel early on the 17th, both because celebrations run late and because weather can push the race back a day.' },
       { q: 'Is mid-August a good time to visit Siena?', a: 'Only if the Palio is the reason. It is the most expensive, most crowded and hottest week of the year, with reduced museum hours on both the 15th and the 16th. Late September gives you far more of the city for less.' },
     ],
-    '2026-07-26',
+    '2026-07-28',
     {
       seoTitle: 'Siena at Ferragosto and Palio Week: What Is Open',
       primaryKeyword: 'siena ferragosto',
