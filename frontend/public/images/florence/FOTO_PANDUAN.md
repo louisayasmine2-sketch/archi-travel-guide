@@ -1,5 +1,5 @@
 # 📸 PANDUAN FOTO — Artikel Florence
-## Artikel: "Avoid Crowds in Florence July 2026"
+## Artikel: "Avoid Crowds in Florence August 2026" (sebelumnya July 2026)
 ### Folder tujuan: `frontend/public/images/florence/`
 
 ---
@@ -14,7 +14,7 @@
 
 | No | Nama File (harus persis) | Posisi di Artikel | Deskripsi Foto |
 |----|--------------------------|-------------------|----------------|
-| 1 | uffizi-early-morning-july-2026.webp | Hero / Featured Image | Uffizi Gallery pagi pukul 8:15, hall hampir kosong |
+| 1 | uffizi-early-morning.webp | Hero / Featured Image | Uffizi Gallery pagi pukul 8:15, hall hampir kosong |
 | 2 | duomo-dome-climb-early-morning.webp | Setelah "Best Times" | Antrean Duomo dome climb pagi hari (kosong/sepi) |
 | 3 | oltrarno-artisan-street.webp | Setelah "Hidden Gems" Oltrarno | Jalan artisan Oltrarno dengan workshop lokal |
 | 4 | san-miniato-al-monte-panoramic-view.webp | Setelah "Hidden Gems" San Miniato | View dari San Miniato al Monte terrace |
@@ -40,7 +40,7 @@ Foto ini disimpan di: `frontend/public/images/siena/`
 frontend/public/images/
 ├── florence/                              ← FOLDER INI
 │   ├── FOTO_PANDUAN.md                    ← File panduan ini
-│   ├── uffizi-early-morning-july-2026.webp
+│   ├── uffizi-early-morning.webp
 │   ├── duomo-dome-climb-early-morning.webp
 │   ├── oltrarno-artisan-street.webp
 │   ├── san-miniato-al-monte-panoramic-view.webp
@@ -71,7 +71,7 @@ frontend/public/images/
 
 ## ✅ CHECKLIST SETELAH UPLOAD
 
-- [ ] uffizi-early-morning-july-2026.webp
+- [ ] uffizi-early-morning.webp
 - [ ] duomo-dome-climb-early-morning.webp
 - [ ] oltrarno-artisan-street.webp
 - [ ] san-miniato-al-monte-panoramic-view.webp
