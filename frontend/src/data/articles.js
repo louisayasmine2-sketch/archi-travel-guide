@@ -2679,65 +2679,61 @@ Explore our complete guides to [Florence](/florence/), plan your perfect side tr
   ),
   A(
     'venice-day-trip-from-tuscany-2026-access-fee',
-    'Venice Day Trip from Tuscany 2026: Complete Guide to the Access Fee + How to Save Money',
+    'Venice Day Trip from Tuscany 2026: The Access Fee Has Ended + How to Save Money',
     'Day trips',
     'Venice',
-    'How the Venice access fee works on 17–19 July 2026, how to pay or legally avoid it, and the best trains from Florence for a day trip.',
+    'The Venice access fee trial ended on 27 July 2026 — no fee for the rest of the year. What that means for day trips from Florence or Siena.',
     '/images/venice/hero-venice-tuscany-day-trip.webp',
     [
       {
         id: 'venice-access-fee-july-2026',
-        heading: 'Venice Access Fee July 2026 – What Tuscany Travellers Need to Know',
-        body: `If you’re based in Siena, Florence, or anywhere in Tuscany and planning a Venice day trip this summer, you’re not alone. Thousands of travellers make the journey every weekend. But right now — 17–19 July 2026 — the Venice Access Fee (Contributo di Accesso) is in effect, and day-trippers need to know the rules to avoid fines of €50–€300.
+        heading: 'Venice Access Fee – Ended for 2026: What Tuscany Travellers Need to Know',
+        body: `**Update, checked 29 July 2026:** the official access-fee site ([cda.ve.it/en](https://cda.ve.it/en/)) now states that the trial period of the Venice Access Fee (Contributo di Accesso) for 2026 has ended. As of 27 July, the fee no longer applies. For the rest of 2026 you can walk into the historic centre on any day, at any time — no payment, no registration, no QR code.
 
-Here’s the practical, no-fluff guide for independent travellers coming from Tuscany.
+If you are planning a Venice day trip from Siena, Florence, or anywhere in Tuscany this summer or autumn, that removes the one piece of paperwork that caught day-trippers out earlier in the year.
 
-The fee only applies to day-trippers (anyone not sleeping inside the Municipality of Venice) who enter the historic centre between 8:30 a.m. and 4:00 p.m. on selected peak days.
+It is worth understanding how the 2026 scheme worked, because the municipality decides each year whether to run it again, and if it returns in spring 2027 it will most likely take the same shape:
 
-*   **Cost:** €5 per person (14 years and older) if you book at least 4 days in advance. €10 if you book within the final 3 days.
-*   **Hours:** Strictly 8:30 a.m.–4:00 p.m. Arrive earlier or leave after 4:00 p.m. = no fee.
-*   **Area:** Only the historic centre (centro storico). Murano, Burano, Torcello, and the Lido are completely free.
+*   **Who it applied to:** day-trippers (anyone not sleeping inside the Municipality of Venice) entering the historic centre between 8:30 a.m. and 4:00 p.m. on 60 selected peak days between April and July 2026 — the final fee days were 24–26 July.
+*   **Cost:** €5 per person (14 years and older) when paid at least 4 days in advance, €10 within the final 3 days.
+*   **Area:** only the historic centre (centro storico). Murano, Burano, Torcello, and the Lido were always outside the scheme.
 
 ![Venice July 2026 Access Fee Calendar](/images/venice/calendar-july-2026-access-fee.webp)
-*Plan ahead: Check the official red dates to know exactly when the fee applies.*
-
-**July 2026 fee days from Tuscany perspective:**
-3–5 July | 10–12 July | **17–19 July (today!)** | 24–26 July
-
-Outside these dates or outside the 8:30–4:00 window, you can walk straight in — no payment, no QR code needed.`,
+*The final fee weekends of the 2026 trial. The calendar resets each year — check the official site before booking a spring 2027 trip.*`,
       },
       {
         id: 'how-to-pay-skip-fee',
-        heading: 'Step-by-Step: How to Pay (or Skip) the Fee from Tuscany',
-        body: `1.  Go to the official site: [cda.veneziaunica.it/en](https://cda.veneziaunica.it/en)
-2.  Pick your date and pay (€5 early bird rate is worth it).
+        heading: 'If the Fee Returns in 2027: How Paying Worked',
+        body: `Nothing to do for the rest of 2026. But if the municipality reinstates the fee next spring, the 2026 process was straightforward and will be a useful template:
+
+1.  Go to the official site: [cda.veneziaunica.it/en](https://cda.veneziaunica.it/en)
+2.  Pick your date and pay — the early rate rewarded booking at least 4 days ahead.
 3.  Get your QR code instantly by email. Screenshot + save to phone wallet + print as backup.
-4.  Show it only if asked at train station, Piazzale Roma, or main entry points.
+4.  Show it only if asked at the train station, Piazzale Roma, or main entry points.
 
 ![Venice QR Code Check Scene](/images/venice/qr-code-check-scene.webp)
-*Keep your QR code ready on your phone when arriving at Santa Lucia station.*
+*How checks worked during the trial: QR codes shown on arrival at Santa Lucia station.*
 
-> **Pro tip from Tuscany travellers:** Book the fee at the same time you book your high-speed train from Florence or Siena. It takes 2 minutes and locks in the €5 rate.`,
+> **Pro tip for 2027 planners:** if fee days come back, book the fee at the same time you book your high-speed train from Florence or Siena — it takes a couple of minutes and locks in the cheaper rate.`,
       },
       {
         id: 'smart-ways-visit-without-paying',
-        heading: 'Smart Ways to Visit Venice from Tuscany Without Paying the Fee',
-        body: `Most visitors from Siena and Florence want to avoid the fee entirely. Here are the easiest strategies:
+        heading: 'The Fee Is Gone, the Crowds Are Not: Timing Tricks That Still Pay Off',
+        body: `Every trick travellers used to dodge the fee is still the best way to dodge the crowds — and in August, the heat:
 
 ![Early morning Piazza San Marco](/images/venice/early-morning-piazza-san-marco.webp)
-*Arrive before 8:30 a.m. to skip the fee and enjoy a peaceful St. Mark's Square.*
+*Arrive early and enjoy a peaceful St. Mark's Square before the day-trip wave lands.*
 
-*   **Time it right:** Catch the early Frecciarossa from Florence (depart ~6:00–7:00 a.m.) and arrive in Venice before 8:30 a.m. Leave after 4:00 p.m. — full day, zero fee.
-*   **Choose a non-fee day:** Weekdays outside the red dates above are completely free.
-*   **Stay overnight in Venice (best hack):** Book one night in Venice and you’re exempt. Register a free exemption QR code with your hotel confirmation. Many travellers from Tuscany do Florence → Venice overnight → back to Siena the next day.
+*   **Time it right:** Catch the early Frecciarossa from Florence (depart ~6:00–7:00 a.m.) and you are crossing a quiet Piazza San Marco while most day-trippers are still on the mainland. Stay past 4:00 p.m. and the centre empties again.
+*   **Stay overnight in Venice:** The city after the day crowds leave is a different place. Many travellers from Tuscany do Florence → Venice overnight → back to Siena the next day.
 
 ![Venice overnight hotel balcony exemption](/images/venice/overnight-hotel-balcony-exemption.webp)
-*Staying overnight automatically exempts you from the access fee.*
+*An overnight stay shows you the Venice that day-trippers never see.*
 
-*   **Base in Mestre or use the islands:** Stay in Mestre (cheap hotels) or head straight to Murano/Burano — both free of the access fee and far less crowded.
+*   **Base in Mestre or use the islands:** Stay in Mestre for cheaper rooms, or head straight to Murano and Burano — far less crowded than the San Marco core.
 
 ![Burano free island alternative](/images/venice/burano-free-island-alternative.webp)
-*The colourful island of Burano is completely free from the access fee.*
+*The colourful island of Burano — quieter than the historic centre all summer.*
 
 *   **Combine with a longer Tuscany itinerary:** Many readers do “Tuscany + Venice in 5 days” by staying in Venice one night after 2–3 nights in Siena or Chianti.`,
       },
@@ -2747,45 +2743,42 @@ Outside these dates or outside the 8:30–4:00 window, you can walk straight in 
         body: `![Map of Tuscany to Venice train route](/images/venice/map-tuscany-to-venice.webp)
 *The high-speed train from Florence to Venice takes just over 2 hours.*
 
-*   **High-speed train (recommended):** Florence Santa Maria Novella → Venice Santa Lucia: 2h 10m, from €25 one way (Trenitalia or Italo).
+*   **High-speed train (recommended):** Florence Santa Maria Novella → Venice Santa Lucia in roughly 2h 10m (Trenitalia or Italo). Book ahead for the cheapest fares — prices vary widely by date and time.
 *   **From Siena:** Bus/train combo via Florence (total ~3h 30m).
 *   **Private transfer or car:** Rental from Florence or Siena makes it flexible — park at Tronchetto or Piazzale Roma and walk in.
 
 **Alternatives If You Want Zero Stress**
 
-*   Skip the historic centre on fee days and head to the lagoon islands first (vaporetto from Venice but enter after 4:00 p.m.).
-*   Book a small-group day tour from Florence or Siena that includes the fee handling.`,
+*   Start with the lagoon islands in the morning and save the San Marco core for late afternoon, when the day-trip crowds thin out.
+*   Book a small-group day tour from Florence or Siena if you would rather not manage trains and timings yourself.`,
       },
       {
         id: 'ready-for-venice-day-trip',
         heading: 'Ready for Your Venice Day Trip from Tuscany?',
-        body: `With a little planning, the 2026 Venice access fee is easy to manage — or skip completely. Whether you’re based in Siena, the Chianti hills, or Florence, you can still enjoy La Serenissima without stress or surprise fines.
+        body: `With the access fee finished for 2026, a Venice day trip from Tuscany is now as simple as it was before the trial: pick a day, book a train, and go early. Whether you’re based in Siena, the Chianti hills, or Florence, you can enjoy La Serenissima without paperwork or surprise fines — at least until next spring.
 
-Book your perfect Tuscany + Venice combo now:
-→ [High-speed train tickets from Florence/Siena](#)
-→ [Overnight hotels in Venice (exempt from fee)](#)
-→ [Guided day tours from Tuscany](#)
+Planning the wider trip? Use our [7-day Tuscany itinerary](/blog/7-day-tuscany-itinerary-independent-travellers-2026-florence-base/) to slot Venice in as an overnight, or start with our guides to [Florence](/florence/) and [Siena](/siena/).
 
 Safe travels — Venice is waiting, and now you’re fully prepared from your Tuscany base.`,
       },
     ],
     [
       {
-        q: 'Do I still pay the Venice access fee if I’m staying in Tuscany?',
-        a: 'Yes — unless you sleep inside Venice municipality. Day-trippers from Siena or Florence must pay or time their visit outside fee hours.',
+        q: 'Do I still pay the Venice access fee if I’m visiting from Tuscany?',
+        a: 'Not any more in 2026. The trial period ended and, as of 27 July 2026, the fee no longer applies — the official site confirms no payment or registration is needed for the rest of the year.',
       },
       {
-        q: 'Is it worth paying the €5–€10 fee?',
-        a: 'For most independent travellers, yes — it’s cheap insurance against fines and takes 2 minutes online.',
+        q: 'Will the Venice access fee come back in 2027?',
+        a: 'The municipality decides year by year and had not announced 2027 plans when we checked on 29 July 2026. If it returns, expect the same shape: spring-to-summer peak days, roughly 8:30 a.m.–4:00 p.m., day-trippers only. Check cda.ve.it before booking a spring weekend.',
       },
       {
         q: 'What if I arrive by car from Tuscany?',
-        a: 'Park at Tronchetto or Piazzale Roma (outside the fee zone) and time your walk into the historic centre.',
+        a: 'Park at Tronchetto or Piazzale Roma and walk in. With the fee ended there is no timing constraint — but arriving early still beats both the parking queues and the crowds.',
       },
     ],
-    '2026-07-17',
+    '2026-07-29',
     {
-      seoTitle: 'Venice Day Trip from Tuscany 2026: Complete Guide to the Access Fee + How to Save Money',
+      seoTitle: 'Venice Day Trip from Tuscany 2026: The Access Fee Has Ended + How to Save Money',
       primaryKeyword: 'venice day trip from tuscany 2026',
       secondaryKeywords: [
         'venice access fee 2026',
