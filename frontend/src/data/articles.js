@@ -2878,7 +2878,7 @@ Explore more Florence guides at [/florence](/florence/), discover broader Tuscan
         a: 'Prioritise breathable linen or cotton clothing, a wide-brimmed hat, SPF 50+ sunscreen, comfortable walking shoes, a reusable water bottle, and a portable fan. A modest scarf for church dress codes and electrolyte packets complete the essentials. For a full list, see our Tuscany packing list.',
       },
     ],
-    '2026-07-17',
+    '2026-07-29',
     {
       seoTitle: 'Florence Summer Heat Survival Tips 2026: Stay Cool & Beat the Heat',
       primaryKeyword: 'florence summer heat survival tips 2026',
@@ -2906,28 +2906,26 @@ Explore more Florence guides at [/florence](/florence/), discover broader Tuscan
       {
         id: 'puccini-festival-2026-intro',
         heading: 'Opera Under the Stars at Lake Massaciuccoli',
-        body: `The 72nd Puccini Festival kicks off tonight, 17 July 2026, on the shores of Lake Massaciuccoli in Torre del Lago. If you’re an independent traveller based in Florence or Siena and want to enjoy world-class opera under the stars without joining a package tour, this guide has everything you need — from tickets and transport to practical tips and the perfect Tuscany day-trip combo.
+        body: `The 72nd Puccini Festival is in full swing on the shores of Lake Massaciuccoli in Torre del Lago, and there is still more than a month of it left: performances run until 5 September 2026, including the Turandot centenary production and Plácido Domingo’s gala on 30 August. If you’re an independent traveller based in Florence or Siena and want to enjoy world-class opera under the stars without joining a package tour, this guide has everything you need — from tickets and transport to practical tips and the perfect Tuscany day-trip combo.
 
-The festival runs until 5 September 2026 at the Gran Teatro all’Aperto Giacomo Puccini, an open-air theatre right on the lake where the composer once lived and created many of his masterpieces. Performances begin at 9:15 pm, with sunset over the water and the Apuan Alps in the background.`,
+The festival takes place at the Gran Teatro all’Aperto Giacomo Puccini, an open-air theatre right on the lake where the composer once lived and created many of his masterpieces. Performances begin at 9:15 pm, with sunset over the water and the Apuan Alps in the background.`,
       },
       {
         id: 'festival-dates-program-2026',
         heading: 'Festival Dates, Programme & Highlights 2026',
-        body: `This year’s edition celebrates the centenary of Turandot with a spectacular production. Here is the full lineup of Puccini’s greatest works plus special events (all at 9:15 pm):
+        body: `This year’s edition celebrates the centenary of Turandot with a spectacular production. The season opened on 17 July; these are the remaining performances (all at 9:15 pm):
 
-*   **Turandot (centenary highlight):** 17, 24 July; 1, 9 August
-*   **Tosca:** 18, 31 July; 8, 21 August
-*   **La Bohème:** 25 July; 6, 28 August
+*   **Tosca:** 31 July; 8, 21 August
+*   **Turandot (centenary highlight):** 1, 9 August
+*   **La Bohème:** 6, 28 August
 *   **Madama Butterfly:** 7, 22 August; 4 September
 *   **La Fanciulla del West:** 29 August; 5 September
 
 **Special events**
 
-*   **22 July** – Gala Lirico with Jonas Kaufmann and Maria Agresta
-*   **27 July** – Dance performance “Puccini” by étoile Eleonora Abbagnato
 *   **30 August** – Grand Gala with Plácido Domingo
 
-*All information is taken directly from the official Puccini Festival website (puccinifestival.it).*`,
+*Dates checked against the official Puccini Festival website (puccinifestival.it) on 29 July 2026 — confirm your date there before buying, as programmes can change.*`,
       },
       {
         id: 'how-to-get-there-florence-siena',
@@ -2988,7 +2986,7 @@ For more ideas on combining opera with vineyards, hilltop villages, and Tuscan t
         a: 'Yes — especially for popular dates, opening night, and galas. Independent travellers can easily secure seats directly through the official website, but advance booking ensures the best available seats.',
       },
     ],
-    '2026-07-17',
+    '2026-07-29',
     {
       seoTitle: 'Puccini Festival Torre del Lago 2026: Independent Traveller Guide from Florence & Siena',
       primaryKeyword: 'puccini festival torre del lago 2026 independent traveller guide',
@@ -3357,7 +3355,7 @@ Safe travels!`,
         a: 'Wide-brim hat, SPF 50+ sunscreen, reusable water bottle, lightweight scarf for churches and AC, and a small crossbody bag. Keep your luggage light so you can move freely through piazzas and hill towns.',
       },
     ],
-    '2026-07-17',
+    '2026-07-29',
     {
       seoTitle: 'Summer Packing List for Tuscany & Florence 2026: Travel Light & Stay Cool',
       primaryKeyword: 'summer packing list tuscany 2026',
