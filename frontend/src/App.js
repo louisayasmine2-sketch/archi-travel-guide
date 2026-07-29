@@ -134,6 +134,8 @@ function App() {
             <Route path="/blog/puccini-festival-torre-del-lago-2026-independent-traveler-guide/" element={<Navigate to="/blog/puccini-festival-torre-del-lago-2026-independent-traveller-guide" replace />} />
             <Route path="/blog/7-day-tuscany-itinerary-independent-travelers-2026-florence-base" element={<Navigate to="/blog/7-day-tuscany-itinerary-independent-travellers-2026-florence-base" replace />} />
             <Route path="/blog/7-day-tuscany-itinerary-independent-travelers-2026-florence-base/" element={<Navigate to="/blog/7-day-tuscany-itinerary-independent-travellers-2026-florence-base" replace />} />
+            <Route path="/blog/avoid-crowds-in-florence-july-2026" element={<Navigate to="/blog/avoid-crowds-in-florence-august-2026" replace />} />
+            <Route path="/blog/avoid-crowds-in-florence-july-2026/" element={<Navigate to="/blog/avoid-crowds-in-florence-august-2026" replace />} />
             <Route path="/blog/:slug" element={<Article />} />
             <Route path="/about" element={<About />} />
             <Route path="/about/" element={<About />} />
