@@ -1,7 +1,21 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { budgetCalculator } from "@/lib/travelTools";
 import { toast } from "sonner";
-import { Wallet, Plus, Euro } from "lucide-react";
+import { Wallet, Plus, Euro, X } from "lucide-react";
+
+// Expenses survive closing the tool's modal — this is a running holiday
+// tracker, not a per-session scratchpad.
+const EXPENSES_STORAGE_KEY = "archi_expense_tracker_v1";
+
+function loadExpenses() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(EXPENSES_STORAGE_KEY) || "[]");
+    if (!Array.isArray(parsed)) return [];
+    return parsed.filter((e) => e && typeof e.name === "string" && Number.isFinite(e.amount));
+  } catch {
+    return [];
+  }
+}
 
 const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors";
 const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
@@ -22,8 +36,16 @@ export default function BudgetPlanner() {
   // Expense Tracker State
   const [expenseName, setExpenseName] = useState("");
   const [expenseAmount, setExpenseAmount] = useState("");
-  const [expenses, setExpenses] = useState([]);
-  
+  const [expenses, setExpenses] = useState(loadExpenses);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(EXPENSES_STORAGE_KEY, JSON.stringify(expenses));
+    } catch {
+      // Storage full or blocked — the in-memory list still works.
+    }
+  }, [expenses]);
+
   const totalExpense = expenses.reduce((acc, curr) => acc + curr.amount, 0);
 
   const upd = (k, v) => setForm((f) => ({ ...f, [k]: v }));
@@ -53,6 +75,8 @@ export default function BudgetPlanner() {
       toast.success("Expense added!");
     }
   };
+
+  const removeExpense = (id) => setExpenses((list) => list.filter((e) => e.id !== id));
 
   return (
     <div className="font-sans">
@@ -178,16 +202,24 @@ export default function BudgetPlanner() {
             {expenses.length > 0 && (
               <div className="mt-6 space-y-3">
                 {expenses.map((exp) => (
-                  <div key={exp.id} className="flex justify-between items-center bg-[#FAF7F2] px-4 py-3 rounded-xl text-sm border border-[#F5EDE3]">
-                    <span className="font-medium text-[#2C211B]">{exp.name}</span>
-                    <span className="text-[#C65A3A] font-semibold">+{exp.amount.toFixed(2)} EUR</span>
+                  <div key={exp.id} className="flex justify-between items-center gap-3 bg-[#FAF7F2] px-4 py-3 rounded-xl text-sm border border-[#F5EDE3]">
+                    <span className="font-medium text-[#2C211B] flex-1 min-w-0 truncate">{exp.name}</span>
+                    <span className="text-[#C65A3A] font-semibold shrink-0">+{exp.amount.toFixed(2)} EUR</span>
+                    <button
+                      type="button"
+                      onClick={() => removeExpense(exp.id)}
+                      aria-label={`Remove ${exp.name}`}
+                      className="shrink-0 w-7 h-7 rounded-full grid place-items-center text-[#8A9A5B] hover:bg-[#C65A3A] hover:text-white transition-colors"
+                    >
+                      <X className="w-4 h-4" />
+                    </button>
                   </div>
                 ))}
               </div>
             )}
             
             <div className="mt-6 pt-4 border-t border-[#F5EDE3] flex justify-between items-end">
-              <span className="text-[#8A9A5B] text-sm uppercase tracking-wider font-semibold">Total Today</span>
+              <span className="text-[#8A9A5B] text-sm uppercase tracking-wider font-semibold">Total Spent</span>
               <span className="text-3xl font-semibold text-[#C65A3A]">{totalExpense.toFixed(2)} <span className="text-lg">EUR</span></span>
             </div>
           </div>

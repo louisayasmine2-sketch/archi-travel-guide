@@ -17,6 +17,26 @@ L.Icon.Default.mergeOptions({
 const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors";
 const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
 
+// Map view per itinerary destination. Keys match ITIN_TEMPLATES in
+// lib/travelTools.js (lower-cased destination).
+const MAP_VIEWS = {
+  siena: {
+    center: [43.3184, 11.3316],
+    zoom: 13,
+    markers: [
+      { position: [43.3184, 11.3316], label: "Piazza del Campo — the day-1 starting point of this itinerary." },
+    ],
+  },
+  tuscany: {
+    center: [43.55, 11.3],
+    zoom: 9,
+    markers: [
+      { position: [43.7696, 11.2558], day: 1, label: "Florence — day 1 of this itinerary." },
+      { position: [43.3184, 11.3316], day: 2, label: "Siena — day 2 of this itinerary." },
+    ],
+  },
+};
+
 export default function AIItineraryBuilder() {
   const [form, setForm] = useState({ destination: "Siena", trip_length: 3 });
   const [result, setResult] = useState(null);
@@ -69,23 +89,31 @@ export default function AIItineraryBuilder() {
         <div className="lg:col-span-8 space-y-6">
           {result ? (
             <>
-              {/* Interactive Map */}
+              {/* Interactive Map — view follows the generated destination.
+                  key remounts the MapContainer, since center/zoom are only
+                  read on first render. */}
+              {(() => {
+                const view = MAP_VIEWS[result.destination.trim().toLowerCase()] ?? MAP_VIEWS.siena;
+                const markers = view.markers.filter((m) => !m.day || m.day <= result.trip_length);
+                return (
               <div className="rounded-3xl overflow-hidden border border-[#F5EDE3] shadow-sm h-64 z-0 relative">
-                <MapContainer center={[43.3188, 11.3309]} zoom={13} scrollWheelZoom={false} className="h-full w-full">
+                <MapContainer key={result.destination} center={view.center} zoom={view.zoom} scrollWheelZoom={false} className="h-full w-full">
                   <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                   />
-                  <Marker position={[43.3188, 11.3309]}>
-                    <Popup>
-                      Central Siena - Suggested starting point for your itinerary.
-                    </Popup>
-                  </Marker>
+                  {markers.map((m) => (
+                    <Marker key={m.label} position={m.position}>
+                      <Popup>{m.label}</Popup>
+                    </Marker>
+                  ))}
                 </MapContainer>
                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-xl text-sm font-medium text-[#2C211B] shadow-md z-[400] flex items-center gap-2 border border-[#F5EDE3]">
                   <MapIcon className="w-4 h-4 text-[#C65A3A]" /> Map Preview
                 </div>
               </div>
+                );
+              })()}
 
               {/* Itinerary Results */}
               <div className="space-y-4">

@@ -49,6 +49,10 @@ export default function SmartPackingList() {
 
   const toggle = (k) => setChecked((s) => { const n = new Set(s); n.has(k) ? n.delete(k) : n.add(k); return n; });
 
+  const totalItems = result
+    ? Object.values(result.categories).reduce((n, items) => n + items.length, 0)
+    : 0;
+
   const downloadPDF = () => {
     // Simple way to trigger print which allows saving to PDF natively
     window.print();
@@ -132,6 +136,20 @@ export default function SmartPackingList() {
                 </button>
               </div>
 
+              {/* Packing progress */}
+              <div className="no-print bg-white p-4 rounded-2xl border border-[#F5EDE3]">
+                <div className="flex justify-between items-baseline mb-2">
+                  <span className="text-sm font-medium text-[#2C211B]">Packing progress</span>
+                  <span className="text-sm text-[#8A9A5B]">{checked.size} of {totalItems} packed</span>
+                </div>
+                <div className="h-2.5 rounded-full bg-[#F5EDE3] overflow-hidden">
+                  <div
+                    className="h-full rounded-full bg-[#8A9A5B] transition-all duration-300"
+                    style={{ width: totalItems ? `${(checked.size / totalItems) * 100}%` : "0%" }}
+                  />
+                </div>
+              </div>
+
               {Object.entries(result.categories).map(([cat, items]) => (
                 <div key={cat} className="rounded-3xl border border-[#F5EDE3] bg-white p-6 shadow-sm">
                   <h3 className="font-serif text-2xl text-[#2C211B] mb-4">{cat}</h3>
@@ -149,7 +167,7 @@ export default function SmartPackingList() {
                             {it}
                           </button>
                           {/* Print-only list item format */}
-                          <div className="hidden @media print:flex items-center gap-2 text-sm mb-2">
+                          <div className="hidden print:flex items-center gap-2 text-sm mb-2">
                             <div className="w-4 h-4 border border-black rounded-sm"></div>
                             {it}
                           </div>

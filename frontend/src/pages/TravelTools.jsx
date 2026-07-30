@@ -2,7 +2,7 @@ import { Dialog, DialogContent, DialogTrigger, DialogTitle } from "@/components/
 import { Suspense, lazy } from "react";
 import SEO from "@/components/common/SEO";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
-import { Map, MapPin, Calculator, Calendar, Compass, Backpack } from "lucide-react";
+import { Map, MapPin, Calculator, Calendar, Compass, Backpack, Sun } from "lucide-react";
 
 // Skeleton loader to reduce CLS and provide immediate feedback for LCP inside Modal
 function ToolSkeleton() {
@@ -28,6 +28,7 @@ const TransportComparator = lazy(() => import("./travel-tools/components/Transpo
 const SmartPackingList = lazy(() => import("./travel-tools/components/SmartPackingList"));
 const InteractiveMap = lazy(() => import("./travel-tools/components/InteractiveMap"));
 const CurrencyConverter = lazy(() => import("./travel-tools/components/CurrencyConverter"));
+const BestTimeFinder = lazy(() => import("./travel-tools/components/BestTimeFinder"));
 
 const TOOLS = [
   {
@@ -66,6 +67,13 @@ const TOOLS = [
     component: InteractiveMap
   },
   {
+    id: "best-time",
+    name: "Best Time to Visit",
+    description: "Find the right months for your trip — optimised for weather, crowds, prices, or festivals.",
+    icon: Sun,
+    component: BestTimeFinder
+  },
+  {
     id: "currency",
     name: "Live Currency Converter",
     description: "Instantly check the latest exchange rates for USD, GBP, and more to EUR.",
@@ -79,7 +87,7 @@ export default function TravelToolsPage() {
     <div className="min-h-screen bg-[#F5EDE3] font-sans pb-24">
       <SEO
         title="Travel Tools — Plan Your Dream Tuscany Trip"
-        description="Free Tuscany planning tools: itinerary generator, budget planner, transport comparator, packing list, neighbourhood map, and live currency converter."
+        description="Free Tuscany planning tools: itinerary generator, budget planner, best-time finder, transport comparator, packing list, map and currency converter."
         path="/travel-tools/"
       />
       <div className="max-w-7xl mx-auto px-6 py-12">
