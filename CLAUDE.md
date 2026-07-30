@@ -64,9 +64,9 @@ Lead each recommendation with what it solves, not what it is.
 
 ## 6. Auditing
 
-Two read-only scanners are planned for the tools/ directory and are not yet implemented. Until they exist, bulk edits are verified by hand against the checks below.
+Two read-only scanners live in the tools/ directory. Run them before and after any bulk edit.
 
-When built, both must parse this repo's actual content stores — the A() object literals in frontend/src/data/articles.js and the JSON files in frontend/src/data/ — not a directory of markdown files. Invoke them with `python`, not `python3`, which is not on PATH on this machine.
+Both parse this repo's actual content stores — the A() object literals in frontend/src/data/articles.js and the JSON files in frontend/src/data/ — not a directory of markdown files. Invoke them with `python`, not `python3`, which is not on PATH on this machine.
 
 - audit_content.py — disclosure mismatches, banned hedge phrases, meta description length, missing FAQ schema, articles with no images.
 - check_links_and_images.py — every outbound URL for verification, every image reference checked against frontend/public/, and any tracking or affiliate parameters found.
