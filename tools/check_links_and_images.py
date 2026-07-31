@@ -10,13 +10,23 @@ Checks:
                              unless supplied explicitly in-session.
   direct_commercial_link   — an outbound link straight to a booking platform
                              instead of the /go/{slug} internal redirect
-  url_broken / url_error   — every outbound URL is requested and anything that
-                             does not answer 2xx/3xx is reported (skipped
-                             entirely with --offline). url_broken is a
-                             confirmed HTTP failure; url_error means the URL
-                             could not be verified from this machine (DNS,
-                             TLS, proxy) and must be re-checked, not assumed
-                             fine.
+  go_slug_unresolved       — a /go/{slug} reference (in the content stores or
+                             in frontend/src) with no matching entry in
+                             frontend/public/_redirects; it would silently
+                             fall through to the SPA's 404 page
+  go_destination_tracking_param — a /go/ destination in _redirects carrying a
+                             tracking or affiliate parameter (none may ship
+                             unless supplied explicitly in-session)
+  url_broken / url_error   — every outbound URL (including /go/ destinations)
+                             is requested and anything that does not answer
+                             2xx/3xx is reported (skipped entirely with
+                             --offline). url_broken is a confirmed HTTP
+                             failure; url_error means the URL could not be
+                             verified from this machine (DNS, TLS, proxy) and
+                             must be re-checked, not assumed fine.
+
+/go/ entries defined but referenced nowhere are listed informationally — a
+dead entry is not broken, but it is worth knowing about.
 
 This script never writes to content. If it reports something, fix the content.
 Run with:  python tools/check_links_and_images.py  [--offline] [--json]
@@ -31,7 +41,13 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-from content_store import PUBLIC_DIR, load_all
+import re
+
+from content_store import PUBLIC_DIR, REPO_ROOT, load_all
+
+REDIRECTS_FILE = REPO_ROOT / "frontend" / "public" / "_redirects"
+SRC_DIR = REPO_ROOT / "frontend" / "src"
+GO_REF = re.compile(r"/go/[a-z0-9-]+")
 
 TRACKING_PARAMS = {
     "aid", "tag", "ref", "ref_", "affiliate_id", "aff", "aff_id", "affid",
@@ -95,6 +111,43 @@ def check_url(url, ctx):
     return False, "unreachable"
 
 
+def load_go_redirects():
+    """slug path -> destination URL, from the /go/ lines in _redirects."""
+    table = {}
+    if not REDIRECTS_FILE.is_file():
+        return table
+    for line in REDIRECTS_FILE.read_text(encoding="utf-8").splitlines():
+        parts = line.strip().split()
+        if parts and not parts[0].startswith("#") and parts[0].startswith("/go/") and len(parts) >= 2:
+            table[parts[0]] = parts[1]
+    return table
+
+
+def collect_go_refs(articles):
+    """Every /go/{slug} referenced in the content stores or in frontend/src,
+    mapped to the places that use it."""
+    refs = {}
+    for art in articles:
+        for ref in set(GO_REF.findall(art.text)):
+            refs.setdefault(ref, []).append(f"{art.store}:{art.ident}")
+    for path in sorted(SRC_DIR.rglob("*")):
+        if path.suffix not in (".js", ".jsx") or not path.is_file():
+            continue
+        try:
+            text = path.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        for ref in set(GO_REF.findall(text)):
+            refs.setdefault(ref, []).append(str(path.relative_to(REPO_ROOT)))
+    return refs
+
+
+def tracking_params_in(url):
+    query = urllib.parse.urlsplit(url).query
+    params = [k for k, _ in urllib.parse.parse_qsl(query, keep_blank_values=True)]
+    return sorted({k for k in params if k.lower() in TRACKING_PARAMS or k.lower().startswith(TRACKING_PREFIXES)})
+
+
 def static_findings(article):
     findings = []
 
@@ -110,11 +163,9 @@ def static_findings(article):
         findings.append(("hotlinked_image", src + label))
 
     for url in article.urls:
-        query = urllib.parse.urlsplit(url).query
-        params = [k for k, _ in urllib.parse.parse_qsl(query, keep_blank_values=True)]
-        bad = [k for k in params if k.lower() in TRACKING_PARAMS or k.lower().startswith(TRACKING_PREFIXES)]
+        bad = tracking_params_in(url)
         if bad:
-            findings.append(("tracking_param", f"{url} -> {', '.join(sorted(set(bad)))}"))
+            findings.append(("tracking_param", f"{url} -> {', '.join(bad)}"))
         if _is_commercial(_host(url)):
             findings.append(("direct_commercial_link", f"{url} — must go through /go/{{slug}}"))
 
@@ -141,6 +192,30 @@ def main():
                 "findings": [{"check": c, "detail": d} for c, d in findings],
             })
 
+    # /go/ redirect integrity: every referenced slug must resolve, and no
+    # destination may carry tracking parameters. Destinations join the
+    # outbound-URL verification pass.
+    go_table = load_go_redirects()
+    go_refs = collect_go_refs(articles)
+    go_report = []
+    for ref, users in sorted(go_refs.items()):
+        if ref not in go_table:
+            go_report.append({
+                "check": "go_slug_unresolved",
+                "detail": f"{ref} has no entry in frontend/public/_redirects",
+                "used_by": sorted(set(users)),
+            })
+    for slug_path, dest in sorted(go_table.items()):
+        bad = tracking_params_in(dest)
+        if bad:
+            go_report.append({
+                "check": "go_destination_tracking_param",
+                "detail": f"{slug_path} -> {dest} ({', '.join(bad)})",
+                "used_by": [],
+            })
+        all_urls.setdefault(dest, []).append(f"_redirects:{slug_path}")
+    go_unused = sorted(p for p in go_table if p not in go_refs)
+
     url_results = []
     if not args.offline:
         ctx = _ssl_context()
@@ -160,24 +235,33 @@ def main():
             "articles_scanned": len(articles),
             "urls_checked": 0 if args.offline else len(all_urls),
             "flagged": report,
+            "go_findings": go_report,
+            "go_unused": go_unused,
             "url_failures": url_results,
         }, indent=2))
     else:
-        print(f"\nScanned {len(articles)} articles; {len(all_urls)} distinct outbound URLs"
+        print(f"\nScanned {len(articles)} articles; {len(go_refs)} /go/ references against "
+              f"{len(go_table)} redirect entries; {len(all_urls)} distinct outbound URLs"
               + (" (not verified — --offline)" if args.offline else " verified") + ".\n")
         for entry in report:
             print(f"[{entry['store']}] {entry['article']}")
             for f in entry["findings"]:
                 print(f"  - {f['check']}: {f['detail']}")
             print()
+        for f in go_report:
+            print(f"{f['check']}: {f['detail']}")
+            for user in f["used_by"]:
+                print(f"    used by {user}")
+        if go_unused:
+            print("info — /go/ entries defined but referenced nowhere: " + ", ".join(go_unused))
         for r in url_results:
             print(f"{r['check']}: {r['url']} ({r['detail']})")
             for user in r["used_by"]:
                 print(f"    used by {user}")
-        if not report and not url_results:
+        if not report and not go_report and not url_results:
             print("No findings.")
 
-    sys.exit(1 if (report or url_results) else 0)
+    sys.exit(1 if (report or go_report or url_results) else 0)
 
 
 if __name__ == "__main__":
