@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
-import { Menu, X, Search, Globe, ChevronDown, Sun, Moon } from "lucide-react";
+import { Menu, Search, Sun, Moon } from "lucide-react";
 import { useTheme } from "next-themes";
 import { NAV } from "@/constants/testIds";
 import MobileMenu from "./MobileMenu";
@@ -107,21 +107,6 @@ export default function Header() {
             {/* My Trip chip — appears once a plan is saved */}
             <TripChip />
 
-            {/* Multi-language switcher prominent */}
-            <div className="relative group flex items-center gap-1.5 cursor-pointer text-sm font-medium text-[#2C211B] hover:text-[#C65A3A] transition-colors">
-              <Globe className="w-4 h-4" />
-              <span>EN</span>
-              <ChevronDown className="w-3 h-3" />
-              <div className="absolute top-full right-0 mt-2 w-32 bg-white border border-[#F5EDE3] rounded-2xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 overflow-hidden">
-                <div className="py-2 flex flex-col">
-                  <button className="px-4 py-2 text-left text-sm hover:bg-[#F5EDE3] hover:text-[#C65A3A] transition-colors font-medium">English</button>
-                  <button className="px-4 py-2 text-left text-sm hover:bg-[#F5EDE3] hover:text-[#C65A3A] transition-colors font-medium">Italiano</button>
-                  <button className="px-4 py-2 text-left text-sm hover:bg-[#F5EDE3] hover:text-[#C65A3A] transition-colors font-medium">Bahasa ID</button>
-                </div>
-              </div>
-            </div>
-
-            
             {/* Search */}
             <button className="w-10 h-10 rounded-full border border-[#F5EDE3] flex items-center justify-center hover:border-[#C65A3A] hover:text-[#C65A3A] hover:bg-white transition-all shadow-sm">
               <Search className="w-4 h-4" />
