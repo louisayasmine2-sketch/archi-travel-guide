@@ -1,9 +1,12 @@
 import { Dialog, DialogContent, DialogTrigger, DialogTitle } from "@/components/ui/dialog";
-import { Suspense, lazy, useState } from "react";
+import { Suspense, lazy, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import SEO from "@/components/common/SEO";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
-import { loadTripPlan, saveTripPlan, TRIP_DESTINATIONS, TRIP_SEASONS } from "@/lib/tripPlan";
+import {
+  loadTripPlan, saveTripPlan, TRIP_DESTINATIONS, TRIP_SEASONS,
+  daysUntilTrip, tripOverlapsPalio, PALIO_NOTE, loadTripProgress, TRIP_CHANGE_EVENT,
+} from "@/lib/tripPlan";
 import { Map, MapPin, Calculator, Calendar, Compass, Backpack, Sun, Luggage, FileText } from "lucide-react";
 
 // Skeleton loader to reduce CLS and provide immediate feedback for LCP inside Modal
@@ -98,11 +101,21 @@ const TRIP_SEL = "rounded-xl border border-[#F5EDE3] bg-white px-3 py-2.5 text-s
 // pre-filled from it. Saved to localStorage on every change.
 function TripBar() {
   const [plan, setPlan] = useState(loadTripPlan);
+  const [progress, setProgress] = useState(loadTripProgress);
   const upd = (k, v) => {
     const next = { ...plan, [k]: v };
     setPlan(next);
     saveTripPlan(next);
   };
+
+  // Tools write their own progress marks — refresh the badges when they do.
+  useEffect(() => {
+    const refresh = () => setProgress(loadTripProgress());
+    window.addEventListener(TRIP_CHANGE_EVENT, refresh);
+    return () => window.removeEventListener(TRIP_CHANGE_EVENT, refresh);
+  }, []);
+
+  const days = daysUntilTrip(plan);
 
   return (
     <div className="mb-12 rounded-3xl border border-[#C65A3A]/20 bg-white p-6 shadow-sm">
@@ -116,7 +129,7 @@ function TripBar() {
             <p className="text-xs text-[#8A9A5B]">Set once — every tool starts from this.</p>
           </div>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 flex-1">
+        <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 flex-1">
           <label className="block">
             <span className="block text-xs font-medium text-[#8A9A5B] mb-1">Destination</span>
             <select className={TRIP_SEL + " w-full"} value={plan.destination} onChange={(e) => upd("destination", e.target.value)}>
@@ -139,9 +152,48 @@ function TripBar() {
               {TRIP_SEASONS.map((s) => <option key={s} value={s}>{s.charAt(0).toUpperCase() + s.slice(1)}</option>)}
             </select>
           </label>
+          <label className="block col-span-2 sm:col-span-1">
+            <span className="block text-xs font-medium text-[#8A9A5B] mb-1">Start date (optional)</span>
+            <input type="date" className={TRIP_SEL + " w-full"} value={plan.start_date}
+              onChange={(e) => upd("start_date", e.target.value)} />
+          </label>
         </div>
       </div>
+
+      {/* Countdown + verified Palio warning */}
+      {days !== null && days >= 0 && (
+        <p className="mt-4 text-sm font-medium text-[#C65A3A]">
+          {days === 0 ? `Departure day — enjoy ${plan.destination}!` : `${days} ${days === 1 ? "day" : "days"} until your ${plan.destination} trip.`}
+        </p>
+      )}
+      {tripOverlapsPalio(plan) && (
+        <p className="mt-3 text-xs leading-relaxed text-[#8A9A5B] bg-[#FAF7F2] rounded-2xl px-4 py-3">
+          <span className="font-semibold text-[#2C211B]">Your dates overlap the Palio: </span>
+          {PALIO_NOTE.text} <span className="opacity-70">(Checked {PALIO_NOTE.checked})</span>
+        </p>
+      )}
+
+      {/* Planning progress */}
+      <div className="mt-4 pt-4 border-t border-[#F5EDE3] flex flex-wrap items-center gap-2 text-xs">
+        <span className="text-[#8A9A5B] font-medium uppercase tracking-wider mr-1">Planning progress</span>
+        <ProgressBadge done={progress.planSet} label="Trip set" />
+        <ProgressBadge done={progress.itineraryDone} label="Itinerary" />
+        <ProgressBadge done={progress.budgetDone} label="Budget" />
+        <ProgressBadge
+          done={progress.packing ? progress.packing.done === progress.packing.total : false}
+          label={progress.packing ? `Packing ${progress.packing.done}/${progress.packing.total}` : "Packing"}
+        />
+      </div>
     </div>
+  );
+}
+
+function ProgressBadge({ done, label }) {
+  return (
+    <span className={["px-3 py-1.5 rounded-full border font-medium",
+      done ? "border-[#8A9A5B] bg-[#8A9A5B]/10 text-[#8A9A5B]" : "border-[#F5EDE3] text-[#8A9A5B]/60"].join(" ")}>
+      {done ? "✓ " : ""}{label}
+    </span>
   );
 }
 

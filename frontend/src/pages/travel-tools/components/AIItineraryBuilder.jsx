@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { itineraryGenerator, ITINERARY_DESTINATIONS } from "@/lib/travelTools";
-import { loadTripPlan } from "@/lib/tripPlan";
+import { loadTripPlan, markToolDone } from "@/lib/tripPlan";
 import { toast } from "sonner";
 import { Sparkles, Map as MapIcon, Share2 } from "lucide-react";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
@@ -90,6 +90,7 @@ export default function AIItineraryBuilder() {
     try {
       const data = itineraryGenerator({ ...form, trip_length: Number(form.trip_length) });
       setResult(data);
+      markToolDone("itinerary");
     } catch (_) {
       toast.error("Couldn't generate the itinerary. Please try again.");
     } finally { setLoading(false); }

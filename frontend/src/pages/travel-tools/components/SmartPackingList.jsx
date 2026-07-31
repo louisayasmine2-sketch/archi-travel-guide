@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { packingChecklist } from "@/lib/travelTools";
-import { loadTripPlan } from "@/lib/tripPlan";
+import { loadTripPlan, notifyTripChange } from "@/lib/tripPlan";
 import { toast } from "sonner";
 import { ListChecks, Check, CloudRain, Sun, Snowflake, Download } from "lucide-react";
 
@@ -36,6 +36,7 @@ export default function SmartPackingList() {
     try {
       if (result) {
         localStorage.setItem(PACKING_STORAGE_KEY, JSON.stringify({ form, result, checked: [...checked] }));
+        notifyTripChange();
       }
     } catch {
       // Storage blocked or full — the in-memory checklist still works.
