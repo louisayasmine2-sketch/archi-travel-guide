@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { budgetCalculator } from "@/lib/travelTools";
+import { loadTripPlan } from "@/lib/tripPlan";
 import { toast } from "sonner";
 import { Wallet, Plus, Euro, X } from "lucide-react";
 
@@ -21,14 +22,18 @@ const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-
 const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
 
 export default function BudgetPlanner() {
-  const [form, setForm] = useState({
-    destination: "Siena",
-    travelers: 2,
-    trip_length: 4,
-    accommodation_level: "mid",
-    food_level: "casual",
-    transport_type: "public",
-    activities_level: "moderate",
+  // Destination, party size and nights come pre-filled from "My Trip".
+  const [form, setForm] = useState(() => {
+    const plan = loadTripPlan();
+    return {
+      destination: plan.destination,
+      travelers: plan.travelers,
+      trip_length: plan.trip_length,
+      accommodation_level: "mid",
+      food_level: "casual",
+      transport_type: "public",
+      activities_level: "moderate",
+    };
   });
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);

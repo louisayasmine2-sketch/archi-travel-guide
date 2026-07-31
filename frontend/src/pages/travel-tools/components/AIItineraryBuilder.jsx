@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { itineraryGenerator, ITINERARY_DESTINATIONS } from "@/lib/travelTools";
+import { loadTripPlan } from "@/lib/tripPlan";
 import { toast } from "sonner";
-import { Sparkles, Map as MapIcon } from "lucide-react";
+import { Sparkles, Map as MapIcon, Share2 } from "lucide-react";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
@@ -37,10 +38,48 @@ const MAP_VIEWS = {
   },
 };
 
+// Initial form state: a ?dest=&days= share link wins, then the saved
+// "My Trip" plan, then the defaults. Only template-backed destinations count.
+function initialForm() {
+  const valid = (d) => ITINERARY_DESTINATIONS.some((x) => x.value === d);
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const dest = params.get("dest");
+    const days = parseInt(params.get("days"), 10);
+    if (valid(dest)) {
+      const max = ITINERARY_DESTINATIONS.find((x) => x.value === dest).days;
+      return {
+        form: { destination: dest, trip_length: Math.min(Math.max(days || 1, 1), max) },
+        fromShareLink: true,
+      };
+    }
+  } catch { /* no window (prerender) or bad params — fall through */ }
+  const plan = loadTripPlan();
+  if (valid(plan.destination)) {
+    const max = ITINERARY_DESTINATIONS.find((x) => x.value === plan.destination).days;
+    return { form: { destination: plan.destination, trip_length: Math.min(plan.trip_length, max) }, fromShareLink: false };
+  }
+  return { form: { destination: "Siena", trip_length: 3 }, fromShareLink: false };
+}
+
 export default function AIItineraryBuilder() {
-  const [form, setForm] = useState({ destination: "Siena", trip_length: 3 });
-  const [result, setResult] = useState(null);
+  const [init] = useState(initialForm);
+  const [form, setForm] = useState(init.form);
+  // A share link opens with its itinerary already generated.
+  const [result, setResult] = useState(() =>
+    init.fromShareLink ? itineraryGenerator({ ...init.form, trip_length: Number(init.form.trip_length) }) : null
+  );
   const [loading, setLoading] = useState(false);
+
+  const copyShareLink = async () => {
+    const url = `${window.location.origin}/travel-tools?tool=itinerary&dest=${encodeURIComponent(result.destination)}&days=${result.trip_length}`;
+    try {
+      await navigator.clipboard.writeText(url);
+      toast.success("Share link copied — anyone opening it sees this itinerary.");
+    } catch {
+      toast.error(`Couldn't copy automatically. Link: ${url}`);
+    }
+  };
 
   const upd = (k, v) => setForm((f) => ({ ...f, [k]: v }));
   const maxDays = ITINERARY_DESTINATIONS.find((d) => d.value === form.destination)?.days ?? 1;
@@ -117,7 +156,16 @@ export default function AIItineraryBuilder() {
 
               {/* Itinerary Results */}
               <div className="space-y-4">
-                <p className="text-sm font-medium text-[#8A9A5B] bg-[#FAF7F2] p-4 rounded-2xl">{result.summary}</p>
+                <div className="flex flex-col sm:flex-row sm:items-center gap-3 bg-[#FAF7F2] p-4 rounded-2xl">
+                  <p className="text-sm font-medium text-[#8A9A5B] flex-1">{result.summary}</p>
+                  <button
+                    type="button"
+                    onClick={copyShareLink}
+                    className="shrink-0 flex items-center gap-2 px-4 py-2 bg-white border border-[#C65A3A] text-[#C65A3A] hover:bg-[#C65A3A] hover:text-white rounded-xl text-sm font-medium transition-colors"
+                  >
+                    <Share2 className="w-4 h-4" /> Copy share link
+                  </button>
+                </div>
                 {result.days.map((d) => (
                   <div key={d.day} className="rounded-3xl border border-[#F5EDE3] bg-white p-6 md:p-8 shadow-sm">
                     <div className="flex items-center gap-4 border-b border-[#F5EDE3] pb-4 mb-4">

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { packingChecklist } from "@/lib/travelTools";
+import { loadTripPlan } from "@/lib/tripPlan";
 import { toast } from "sonner";
 import { ListChecks, Check, CloudRain, Sun, Snowflake, Download } from "lucide-react";
 
@@ -7,7 +8,11 @@ const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-
 const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
 
 export default function SmartPackingList() {
-  const [form, setForm] = useState({ destination: "Tuscany", season: "spring", trip_length: 7 });
+  // Destination, season and length come pre-filled from "My Trip".
+  const [form, setForm] = useState(() => {
+    const plan = loadTripPlan();
+    return { destination: plan.destination, season: plan.season, trip_length: plan.trip_length };
+  });
   const [result, setResult] = useState(null);
   const [checked, setChecked] = useState(new Set());
   const [loading, setLoading] = useState(false);

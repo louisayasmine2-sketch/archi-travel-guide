@@ -1,8 +1,10 @@
 import { Dialog, DialogContent, DialogTrigger, DialogTitle } from "@/components/ui/dialog";
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import SEO from "@/components/common/SEO";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
-import { Map, MapPin, Calculator, Calendar, Compass, Backpack, Sun } from "lucide-react";
+import { loadTripPlan, saveTripPlan, TRIP_DESTINATIONS, TRIP_SEASONS } from "@/lib/tripPlan";
+import { Map, MapPin, Calculator, Calendar, Compass, Backpack, Sun, Luggage } from "lucide-react";
 
 // Skeleton loader to reduce CLS and provide immediate feedback for LCP inside Modal
 function ToolSkeleton() {
@@ -82,7 +84,64 @@ const TOOLS = [
   }
 ];
 
+const TRIP_SEL = "rounded-xl border border-[#F5EDE3] bg-white px-3 py-2.5 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors";
+
+// "My Trip" bar: describe the trip once and every tool below opens
+// pre-filled from it. Saved to localStorage on every change.
+function TripBar() {
+  const [plan, setPlan] = useState(loadTripPlan);
+  const upd = (k, v) => {
+    const next = { ...plan, [k]: v };
+    setPlan(next);
+    saveTripPlan(next);
+  };
+
+  return (
+    <div className="mb-12 rounded-3xl border border-[#C65A3A]/20 bg-white p-6 shadow-sm">
+      <div className="flex flex-col lg:flex-row lg:items-center gap-4">
+        <div className="flex items-center gap-3 lg:w-64 shrink-0">
+          <div className="w-11 h-11 rounded-full bg-[#FAF7F2] grid place-items-center text-[#C65A3A]">
+            <Luggage className="w-5 h-5" />
+          </div>
+          <div>
+            <p className="font-serif text-xl text-[#2C211B] leading-tight">My Trip</p>
+            <p className="text-xs text-[#8A9A5B]">Set once — every tool starts from this.</p>
+          </div>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 flex-1">
+          <label className="block">
+            <span className="block text-xs font-medium text-[#8A9A5B] mb-1">Destination</span>
+            <select className={TRIP_SEL + " w-full"} value={plan.destination} onChange={(e) => upd("destination", e.target.value)}>
+              {TRIP_DESTINATIONS.map((d) => <option key={d} value={d}>{d}</option>)}
+            </select>
+          </label>
+          <label className="block">
+            <span className="block text-xs font-medium text-[#8A9A5B] mb-1">Nights</span>
+            <input type="number" min="1" max="60" className={TRIP_SEL + " w-full"} value={plan.trip_length}
+              onChange={(e) => upd("trip_length", Math.min(Math.max(Number(e.target.value) || 1, 1), 60))} />
+          </label>
+          <label className="block">
+            <span className="block text-xs font-medium text-[#8A9A5B] mb-1">Travellers</span>
+            <input type="number" min="1" max="20" className={TRIP_SEL + " w-full"} value={plan.travelers}
+              onChange={(e) => upd("travelers", Math.min(Math.max(Number(e.target.value) || 1, 1), 20))} />
+          </label>
+          <label className="block">
+            <span className="block text-xs font-medium text-[#8A9A5B] mb-1">Season</span>
+            <select className={TRIP_SEL + " w-full"} value={plan.season} onChange={(e) => upd("season", e.target.value)}>
+              {TRIP_SEASONS.map((s) => <option key={s} value={s}>{s.charAt(0).toUpperCase() + s.slice(1)}</option>)}
+            </select>
+          </label>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function TravelToolsPage() {
+  // ?tool={id} deep-links straight into a tool's modal (used by share links).
+  const [searchParams] = useSearchParams();
+  const openToolId = searchParams.get("tool");
+
   return (
     <div className="min-h-screen bg-[#F5EDE3] font-sans pb-24">
       <SEO
@@ -98,10 +157,12 @@ export default function TravelToolsPage() {
           <p className="text-[#8A9A5B] mt-4 text-xl">Free interactive tools • Hyper-local Siena & Tuscany</p>
         </div>
 
+        <TripBar />
+
         {/* Tools Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {TOOLS.map((tool) => (
-            <Dialog key={tool.id}>
+            <Dialog key={tool.id} defaultOpen={tool.id === openToolId}>
               <div className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-md border border-[#C65A3A]/20 transition-all duration-300 flex flex-col h-full animate-in fade-in zoom-in-95 duration-300">
                 <div className="w-14 h-14 rounded-full bg-[#FAF7F2] flex items-center justify-center text-[#C65A3A] mb-6">
                   <tool.icon className="w-7 h-7" />

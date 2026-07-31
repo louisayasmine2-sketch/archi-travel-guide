@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { bestTime } from "@/lib/travelTools";
+import { loadTripPlan } from "@/lib/tripPlan";
 import { Sun } from "lucide-react";
 
 const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors";
@@ -17,7 +18,11 @@ const PREFERENCES = [
 ];
 
 export default function BestTimeFinder() {
-  const [destination, setDestination] = useState("Tuscany");
+  // Pre-filled from "My Trip" when its destination has an entry here.
+  const [destination, setDestination] = useState(() => {
+    const d = loadTripPlan().destination;
+    return DESTINATIONS.includes(d) ? d : "Tuscany";
+  });
   const [preference, setPreference] = useState("good_weather");
 
   // Pure table lookup — no fetch, so the result updates as the form changes.
