@@ -5187,6 +5187,146 @@ Rearrange freely around rain — every outdoor day here has an indoor understudy
       tags: ['tuscany in october', 'montalcino harvest', 'olio nuovo', 'duomo floor uncovering 2026', 'tuscany autumn'],
     }
   ),
+  A(
+    'tuscany-in-december-2026',
+    'Tuscany in December 2026: Siena’s Medieval Market, New Oil & Quiet Christmas',
+    'Best time to visit',
+    'Tuscany',
+    'Tuscany in December 2026: Siena’s Mercato nel Campo, the Val d’Orcia oil festival, olio nuovo at its peak, holiday closures and honest winter advice.',
+    '/images/siena/05-piazza-del-campo-panorama.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `December is Tuscany for people who want the region to themselves — and who understand the deal. Days are short and cold, some rural Tuscany is closed for winter, and the Duomo’s famous floor is back under its protective boards. In exchange: Siena’s **Mercato nel Campo** turns the Campo into a medieval market on its traditional first-weekend-of-December dates, the Val d’Orcia celebrates the year’s **new oil** at San Quirico’s early-December festival, the season’s olio nuovo and white truffles are both on the table, and the towns spend the month lit, garlanded and almost entirely local. Build the trip around food, museums and the festive calendar, and December pays for itself in atmosphere.`,
+      },
+      {
+        id: 'the-case-for-december',
+        heading: 'The case for December',
+        body: `Every month in this series trades something for something. December’s trade is the starkest and, for the right traveller, the best. What you give up is daylight — about nine hours of it, with sunset before 17:00 — along with terrace weather, some countryside infrastructure, and the uncovered cathedral floor that defined the autumn. What you get is Tuscany at its least performed: locals-only streets, unhurried restaurants cooking their richest food of the year, accommodation at its most negotiable outside the holiday dates themselves, and the peculiar privilege of famous places in their off-duty clothes.
+
+December is also, quietly, one of the most photogenic months. Low sun all day, Christmas lights on medieval stone after 16:30, and the Campo — for one weekend — full of wooden stalls instead of tour groups. If your idea of a Tuscan trip is built on long evenings at the table rather than long afternoons in the vineyards, skip straight to booking. If it is built on golden landscapes, [October](/blog/tuscany-in-october-2026/) is your month instead.
+
+![Piazza del Campo in Siena seen in panorama](/images/siena/05-piazza-del-campo-panorama.webp)
+*The Campo out of season: one December weekend a year, it becomes a medieval market again.*`,
+      },
+      {
+        id: 'december-weather',
+        heading: 'The weather, honestly',
+        body: `Long-term climate averages, as checked in July 2026: Siena in December runs around **9–10°C by day and about 3°C at night**, with roughly eleven days seeing some rain; Florence is a degree or two milder by day and drops near freezing overnight. Snow is rare but not unknown — a dusting on the Campo happens some winters and paralyses nothing. The defining number is daylight: about **nine hours**, sunrise around 7:40 and sunset around 16:40.
+
+Plan the day shape accordingly. Mornings are for outdoor sightseeing while the light is good; the hours after 16:00 belong to interiors — churches, museums, enotecas, and the aperitivo hour that Italian winters were designed around. Fog is possible in the valleys, cold wind is common on the hilltops, and heated interiors are universal in the cities and variable in the countryside.
+
+Pack a genuinely warm coat rather than layered optimism, gloves and a hat for the evening passeggiata, and shoes that handle cold wet stone. [The packing checklist](/blog/tuscany-packing-checklist/) covers winter specifics — the one addition December demands is checking, before booking, that your accommodation states its heating plainly.`,
+      },
+      {
+        id: 'mercato-nel-campo',
+        heading: 'Mercato nel Campo: Siena’s December headline',
+        body: `Once a year, Siena revives the Mercato Grande — the great medieval market that once filled Piazza del Campo — and the result is the city’s best December tradition. For one weekend, **traditionally the first weekend of December**, more than a hundred and fifty wooden stalls take over the shell-shaped square: Tuscan food and wine producers on one side, artisans on the other, with the day running roughly morning to evening and the event held rain or shine in all but extreme weather.
+
+It is a genuinely good market rather than a tourist pastiche — Sienese do their Christmas food shopping here — and it is the single most atmospheric thing that happens on the Campo outside Palio season. Go hungry: the stalls are a rolling lunch of pecorino, cured meats, porchetta, chestnuts, mulled wine and the city’s Christmas sweets.
+
+The honest note our standards require: as of our July 2026 check, the comune had not yet published the 2026 edition’s dates. The first-weekend pattern points to early December — confirm on Siena’s official tourism channels once the winter programme is announced, and book accommodation for that weekend ahead of the confirmation rather than after it, because the city fills.`,
+      },
+      {
+        id: 'san-quirico-oil-festival',
+        heading: 'The Val d’Orcia’s oil festival at San Quirico',
+        body: `December’s second fixed point sits an hour south. **San Quirico d’Orcia** — the small Via Francigena town between Pienza and Montalcino — has celebrated the year’s new extra-virgin olive oil with its **Festa dell’Olio** every December since 1993: guided tastings of the new pressing with experts walking visitors through the oil’s character, producers from the surrounding hills selling direct, food stalls pairing the oil with everything it belongs on, and winter folklore filling the streets between them.
+
+Recent editions have run across the early-December days around the Immacolata holiday — the 2025 edition ran 5–8 December — and the 2026 dates had not been published at our July 2026 check; confirm on the town’s official channels. The pairing writes itself: an early-December trip can plausibly take Siena’s Mercato nel Campo one day and San Quirico’s oil festival another, with the [Val d’Orcia’s](/blog/val-dorcia-day-trip-from-siena-2026/) winter light — bare, sharp and strange — as the drive between them.
+
+This is also the moment to say plainly: [the olio nuovo](/blog/tuscany-olive-harvest-olio-nuovo-2026/) is at full strength in December. The pressing rush is over, every producer has the new vintage on sale, and a tin bought at a festival stall from the farmer who made it is the best-value Christmas present Tuscany sells.`,
+      },
+      {
+        id: 'december-table',
+        heading: 'The December table: Siena’s sweets come home',
+        body: `December is the month Siena’s two famous sweets stop being souvenirs and become what they always were: Christmas food. **Panforte** — the dense, spiced medieval cake of fruit, nuts and honey — and **ricciarelli**, the soft almond biscuits, fill every bakery window in the city, and buying them in December from a Sienese pasticceria is the difference between eating a tradition and eating a airport gift. Ask for them by name, take them home whole, and serve them the way the city does — in thin slices, with coffee or vin santo, at the end of a long meal.
+
+Around the sweets, the winter kitchen is at full depth: ribollita and other bread soups at their thickest, wild boar and hare over pappardelle, white truffle still shaving over tagliolini in the season’s tail, chestnuts in castagnaccio and roast form, and the new oil poured raw over all of it. Enotecas are in conversation mode, and the year’s new vintage is settling in the cellars beneath your glass.
+
+[The Tuscany food guide](/blog/tuscany-food-guide/) maps the canon; December is the month the canon was written for. Book the special dinner for a weeknight — holiday weekends fill with Italian families doing exactly what you are doing.`,
+      },
+      {
+        id: 'holiday-calendar',
+        heading: 'The holiday calendar: dates that shape the month',
+        body: `Italy’s December runs on fixed public holidays, and they shape opening hours more than the weather does. **8 December, the Immacolata**, is a national holiday and the traditional opening of the festive season — lights on, presepi (nativity scenes) unveiled, and a long-weekend surge of Italian travellers around it. **25 and 26 December — Natale and Santo Stefano** — close most things, with Christmas Day the quietest day of the Italian year; plan a hotel with a restaurant or a booked Christmas lunch well ahead. The season then runs through New Year to **Epiphany on 6 January**, which closes the festive calendar.
+
+Around those dates, expect Sunday-style transport timetables on the holidays themselves, museums on reduced winter schedules generally, and the counterintuitive rhythm of an Italian December: the cities busiest with domestic visitors on the holiday weekends and remarkably quiet on the ordinary weekdays between them. Those weekdays — a Tuesday in mid-December, say — are among the emptiest good-weather-permitting sightseeing days of the entire year.
+
+One planning warning inherited from every winter month: **verify current winter opening hours venue by venue**, including [Siena’s museums](/blog/best-things-to-do-in-siena/), rather than assuming the summer schedule. The Duomo’s marble floor is back under its protective boards — [the 2026 uncovering ended 15 November](/blog/tuscany-in-november-2026/) — and the cathedral runs winter hours, though the complex remains open and the crowds of the uncovering season are gone.`,
+      },
+      {
+        id: 'christmas-atmosphere',
+        heading: 'Lights, presepi and the quiet contrade',
+        body: `Tuscan Christmas is decoration with restraint: warm lights strung over stone lanes, shop windows dressed with care, and the nativity-scene tradition — the presepe — taken seriously in churches across the region, from simple parish arrangements to elaborate constructed landscapes. Walking a city after dark in December, with the lights on and the streets local, is the season’s core experience and it is entirely free.
+
+In Siena the month belongs to the residents in a way even November does not. The contrade hold their winter rhythms — social clubs, dinners, the long off-season of a city whose year peaks in July and August — and visitors who walk beyond the Campo-to-Duomo spine will find neighbourhood Siena at its most unguarded. Florence dresses more grandly for the season and fills more heavily on the holiday weekends; the choice between them in December is the choice between a lit drawing room and a lit kitchen. We would take the kitchen — but [the transport guide](/florence-to-siena-by-train-or-bus/) makes doing both straightforward, and December’s empty trains make the connection painless.`,
+      },
+      {
+        id: 'countryside-in-winter',
+        heading: 'The countryside: beautiful, reduced, drive-only',
+        body: `Rural Tuscany in December operates on winter rules. A meaningful share of agriturismi close for the season or open only for the holidays; countryside restaurants reduce to weekend service; village museums run short hours or shut entirely; and bus service on rural lines is at its annual minimum, with holiday timetables thinning it further. The landscape compensates in its own register — bare vines in ranks, olive trees silver against brown fields, woodsmoke, and light that photographers cross the world for — but it must be visited deliberately.
+
+The rules from [November](/blog/tuscany-in-november-2026/) apply with less slack: drive, check the week’s actual opening days before committing to any specific cellar or restaurant, aim at working places and events rather than pure scenery, and be off the hill roads before dark — which now means before 17:00. Montalcino and Montepulciano keep their enotecas open and their tasting rooms warm year-round; the [Val d’Orcia day trip](/blog/val-dorcia-day-trip-from-siena-2026/) works in December as a compact, early-started loop with the oil festival as its anchor when the dates align.`,
+      },
+      {
+        id: 'new-year',
+        heading: 'Seeing the year out',
+        body: `If your December runs to its end, plan New Year’s Eve — the notte di San Silvestro — around the table rather than a square. The Italian tradition is the **cenone**, the long year-end dinner, and Tuscan restaurants sell it as a fixed multi-course menu that books out well in advance; reserve as soon as your dates are certain, and expect lentils on the menu, eaten at midnight for luck. City squares fill with informal celebration, but this is not a fireworks-arms-race culture — the night’s centre of gravity is indoors.
+
+**1 January is a public holiday** on the quiet model of Christmas Day: sleep in, walk the empty streets, and plan nothing ambitious. The season then coasts on holiday rhythms until **Epiphany on 6 January**, when the Befana closes the calendar, the lights come down, and Tuscany begins its quietest weeks of all — the deep-winter lull that makes December look busy.`,
+      },
+      {
+        id: 'a-december-plan',
+        heading: 'A December long weekend that works',
+        body: `**Friday — Siena.** Arrive, drop bags, and take the city after dark: lights on the banchi, aperitivo indoors, and the first panforte of the trip. If your dates catch the Mercato nel Campo weekend, this evening walk doubles as reconnaissance.
+
+**Saturday — the Campo or the museums.** On market weekend, give the morning to the stalls and eat lunch standing up. Otherwise: the cathedral complex on winter hours, the Museo Civico’s frescoes, and Santa Maria della Scala’s covered depths — December’s indoor bench is the same as November’s, minus the queues.
+
+**Sunday — the Val d’Orcia.** An early drive south: San Quirico for the oil festival when dates align (or its enotecas when they do not), Pienza or Montalcino for lunch, winter light on the ridges, and back before dark.
+
+**Monday — Florence or the slow morning.** Either the emptiest Uffizi of the year via an early train, or the December luxury of nowhere to be: coffee, a last bakery visit, and the Campo with pigeons outnumbering people.
+
+The plan’s only fixed points are the two festival calendars — everything else in December rearranges without penalty, which is precisely the month’s charm.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Weather figures were checked in July 2026 against long-term climate averages; the Mercato nel Campo’s first-weekend-of-December tradition, scale and format against Siena’s official tourism information and recent editions; and the San Quirico d’Orcia Festa dell’Olio’s history (annual since 1993) and recent early-December dates (5–8 December in 2025) against the event’s published materials. **Neither event’s 2026 dates had been published at our check** — confirm both on official channels once winter programmes are announced. Public-holiday dates follow the fixed Italian calendar. The Duomo floor’s 2026 uncovering ended 15 November, per the Opera del Duomo’s published calendar. We have no affiliate relationship with any venue, event or festival named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `December closes this series where it should: with the reminder that Tuscany is not a set that strikes itself when the visitors leave. The region’s best month is the one that matches what you came for — and December’s offer is specific: the year’s richest food, a medieval market on the most beautiful square in Italy, new oil from the hands that pressed it, and cities returned so completely to their residents that being there feels less like tourism than like being let in. Bring a real coat, book the two festival weekends early, and keep a slice of panforte for the flight home. It travels better than summer does.`,
+      },
+    ],
+    [
+      { q: 'Is December a good time to visit Tuscany?', a: 'For food, atmosphere and empty cities, yes — it is the most local month of the year, with Siena’s Mercato nel Campo and the Val d’Orcia’s oil festival as anchors. For landscapes and terrace weather it is the wrong month: days are short, cold and sometimes wet.' },
+      { q: 'What is the weather like in Tuscany in December?', a: 'Long-term averages show Siena around 9–10°C by day and 3°C at night with roughly eleven rain days; Florence runs slightly milder by day and near freezing overnight. Daylight is about nine hours, with sunset around 16:40. Snow is rare but possible.' },
+      { q: 'When is the Mercato nel Campo in Siena?', a: 'Traditionally the first weekend of December, when over 150 wooden stalls recreate the medieval Mercato Grande on Piazza del Campo. The 2026 dates had not been published at our July 2026 check — confirm on Siena’s official tourism channels.' },
+      { q: 'What is the Festa dell’Olio in San Quirico d’Orcia?', a: 'The Val d’Orcia’s celebration of the year’s new olive oil, held annually in early December since 1993, with guided tastings and producers selling direct; the 2025 edition ran 5–8 December. Confirm the 2026 dates on the town’s official channels.' },
+      { q: 'Is the Siena Duomo floor visible in December 2026?', a: 'No — the 2026 uncovering window ended on 15 November and the protective boards are back. The cathedral complex remains open on winter hours and is at its quietest, but the floor itself waits for the next uncovering period.' },
+      { q: 'What is closed in Tuscany in December?', a: 'Much of rural Tuscany runs winter rules: many agriturismi and countryside restaurants close or reduce to weekends, museums keep shorter winter hours, and 8, 25 and 26 December are public holidays with Sunday-style transport. City sights stay open — verify each venue’s current schedule.' },
+      { q: 'What should you eat in Tuscany in December?', a: 'The winter canon: ribollita, wild-boar pappardelle, the tail of white truffle season, chestnuts, and olio nuovo over everything — plus Siena’s Christmas sweets, panforte and ricciarelli, bought in the month they were made for.' },
+      { q: 'Is Christmas Day a good day to sightsee in Tuscany?', a: 'No — 25 December is the quietest day of the Italian year, with most venues closed and transport minimal. Plan a booked Christmas lunch or a hotel with a restaurant, enjoy the walk, and save the sightseeing for the days around it.' },
+    ],
+    '2026-07-31',
+    {
+      seoTitle: 'Tuscany in December 2026: Medieval Market, New Oil & Quiet Christmas',
+      primaryKeyword: 'tuscany in december',
+      secondaryKeywords: [
+        'tuscany december 2026',
+        'mercato nel campo siena',
+        'siena christmas market',
+        'festa dell’olio san quirico',
+        'tuscany winter travel',
+        'tuscany weather december',
+      ],
+      imageAlt: 'Panoramic view of Piazza del Campo in Siena',
+      canonicalPath: '/blog/tuscany-in-december-2026',
+      tags: ['tuscany in december', 'mercato nel campo', 'siena christmas', 'festa dell’olio', 'tuscany winter'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
