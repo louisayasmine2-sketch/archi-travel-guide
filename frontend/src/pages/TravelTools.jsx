@@ -4,7 +4,7 @@ import { useSearchParams } from "react-router-dom";
 import SEO from "@/components/common/SEO";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import { loadTripPlan, saveTripPlan, TRIP_DESTINATIONS, TRIP_SEASONS } from "@/lib/tripPlan";
-import { Map, MapPin, Calculator, Calendar, Compass, Backpack, Sun, Luggage } from "lucide-react";
+import { Map, MapPin, Calculator, Calendar, Compass, Backpack, Sun, Luggage, FileText } from "lucide-react";
 
 // Skeleton loader to reduce CLS and provide immediate feedback for LCP inside Modal
 function ToolSkeleton() {
@@ -31,8 +31,16 @@ const SmartPackingList = lazy(() => import("./travel-tools/components/SmartPacki
 const InteractiveMap = lazy(() => import("./travel-tools/components/InteractiveMap"));
 const CurrencyConverter = lazy(() => import("./travel-tools/components/CurrencyConverter"));
 const BestTimeFinder = lazy(() => import("./travel-tools/components/BestTimeFinder"));
+const TripSheet = lazy(() => import("./travel-tools/components/TripSheet"));
 
 const TOOLS = [
+  {
+    id: "trip-sheet",
+    name: "My Trip Sheet",
+    description: "Turn your My Trip plan into one printable page: day-by-day itinerary, budget estimate, best months and packing list.",
+    icon: FileText,
+    component: TripSheet
+  },
   {
     id: "itinerary",
     name: "Itinerary Generator",
@@ -146,7 +154,7 @@ export default function TravelToolsPage() {
     <div className="min-h-screen bg-[#F5EDE3] font-sans pb-24">
       <SEO
         title="Travel Tools — Plan Your Dream Tuscany Trip"
-        description="Free Tuscany planning tools: itinerary generator, budget planner, best-time finder, transport comparator, packing list, map and currency converter."
+        description="Free Tuscany planning tools: printable trip sheet, itinerary generator, budget planner, best-time finder, transport comparator, packing list and more."
         path="/travel-tools/"
       />
       <div className="max-w-7xl mx-auto px-6 py-12">
