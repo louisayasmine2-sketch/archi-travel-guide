@@ -94,5 +94,6 @@ all-links.txt
 link-check.txt
 audit.csv
 external_links.csv
+.gateway-audit.json
 image_report.csv
 content_audit.csv
