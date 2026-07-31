@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Wallet, ArrowDownUp } from "lucide-react";
 
-const CURRENCIES = ["EUR", "USD", "GBP", "AUD", "CAD", "JPY"];
+const CURRENCIES = ["EUR", "USD", "GBP", "AUD", "CAD", "JPY", "CHF", "SGD", "IDR", "NZD"];
 const SEL = "w-full px-4 py-3 rounded-2xl border border-[#F5EDE3] focus:outline-none focus:border-[#C65A3A] bg-white transition-colors";
 
 export default function CurrencyConverter() {

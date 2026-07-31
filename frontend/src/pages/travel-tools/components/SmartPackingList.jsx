@@ -7,14 +7,40 @@ import { ListChecks, Check, CloudRain, Sun, Snowflake, Download } from "lucide-r
 const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors";
 const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
 
+// A packing list is ticked over days, not one sitting — the generated
+// checklist and its ticks survive closing the modal.
+const PACKING_STORAGE_KEY = "archi_packing_list_v1";
+
+function loadSaved() {
+  try {
+    const s = JSON.parse(localStorage.getItem(PACKING_STORAGE_KEY) || "null");
+    if (!s || typeof s !== "object" || !s.result || typeof s.result.categories !== "object") return null;
+    return { form: s.form, result: s.result, checked: Array.isArray(s.checked) ? s.checked : [] };
+  } catch {
+    return null;
+  }
+}
+
 export default function SmartPackingList() {
-  // Destination, season and length come pre-filled from "My Trip".
+  const [saved] = useState(loadSaved);
+  // A saved checklist wins; otherwise pre-fill from "My Trip".
   const [form, setForm] = useState(() => {
+    if (saved?.form) return saved.form;
     const plan = loadTripPlan();
     return { destination: plan.destination, season: plan.season, trip_length: plan.trip_length };
   });
-  const [result, setResult] = useState(null);
-  const [checked, setChecked] = useState(new Set());
+  const [result, setResult] = useState(() => saved?.result ?? null);
+  const [checked, setChecked] = useState(() => new Set(saved?.checked ?? []));
+
+  useEffect(() => {
+    try {
+      if (result) {
+        localStorage.setItem(PACKING_STORAGE_KEY, JSON.stringify({ form, result, checked: [...checked] }));
+      }
+    } catch {
+      // Storage blocked or full — the in-memory checklist still works.
+    }
+  }, [form, result, checked]);
   const [loading, setLoading] = useState(false);
   const [weatherNote, setWeatherNote] = useState("");
 
