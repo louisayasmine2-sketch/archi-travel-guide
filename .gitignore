@@ -97,3 +97,4 @@ external_links.csv
 .gateway-audit.json
 image_report.csv
 content_audit.csv
+output/
