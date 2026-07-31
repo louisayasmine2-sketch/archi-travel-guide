@@ -5039,6 +5039,154 @@ Swap days freely around the weather; the plan’s only fixed points are the book
       tags: ['tuscany in november', 'san miniato truffle festival', 'white truffle season', 'olio nuovo', 'tuscany low season'],
     }
   ),
+  A(
+    'tuscany-in-october-2026',
+    'Tuscany in October 2026: The Golden Month Between Two Harvests',
+    'Best time to visit',
+    'Tuscany',
+    'Tuscany in October 2026: the late wine harvest, the first olive pressings, the uncovered Duomo floor all month, weather averages and honest advice.',
+    '/images/tuscany/tuscany-hidden-gems-monteriggioni.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `October is Tuscany’s handover month, and in 2026 it may be the smartest booking of the year: the tail of the wine harvest still running in Montalcino, the first olive pressings starting from mid-month, the Siena Duomo’s uncovered marble floor on show **every day of the month**, and weather that averages a genuinely pleasant 20°C by day. Crowds fall week by week, prices follow, and the landscape does its one costume change of the year — green to gold to amber. Book the cathedral and one farm or cellar visit ahead; keep an eye on the clock change late in the month; and pack for warm days with real autumn edges.`,
+      },
+      {
+        id: 'the-handover-month',
+        heading: 'The month between two harvests',
+        body: `Tuscany’s autumn is really two seasons with a seam down the middle, and October is the seam. In its first weeks the **vendemmia** is still finishing: the last Sangiovese comes in across the higher vineyards, and in Montalcino the slow-ripening Sangiovese Grosso destined for Brunello keeps crews picking into late October. By mid-month the attention swings to the olive groves, where Tuscany’s deliberately early harvest begins and the first **olio nuovo** ribbons out of the mills.
+
+For a visitor this overlap is the itinerary-shaping fact of the month. Time an October trip to its middle two weeks and you can plausibly see both harvests working — a cellar still fermenting the new vintage one day, a frantoio pressing the first oil the next. No other month offers that double bill so reliably; [our wine harvest guide](/blog/tuscany-wine-harvest-vendemmia-2026/) and [olive harvest guide](/blog/tuscany-olive-harvest-olio-nuovo-2026/) cover each side of the seam in depth.
+
+![Cypress trees and rolling hills south of Siena](/images/tuscany/val-dorcia-cypress-trees-landscape.jpg)
+*October in the Sienese hills: the landscape’s one costume change of the year.*`,
+      },
+      {
+        id: 'october-weather',
+        heading: 'The weather, honestly',
+        body: `Long-term climate averages for October, as checked in July 2026: Siena runs from daytime highs around **23°C at the start of the month to about 17°C at its end**, with overnight lows near 10°C, roughly **12 days with some rain and around 110mm** across the month; Florence is near-identical. That makes October measurably wetter than September but far gentler than November — and its warm spells, when they come, are some of the most comfortable sightseeing weather of the year.
+
+Read the month in halves. **Early October** is late September with better light: outdoor lunches, warm afternoons, active vineyards. **Late October** is early autumn proper: jacket evenings, the first fires lit in country restaurants, and shorter days — sharpened by the fact that **clocks go back an hour on Sunday 25 October 2026**, after which dusk arrives noticeably earlier and evening plans move indoors.
+
+Pack in layers with one warm outer and one waterproof; leave the summer-only wardrobe at home after the first week. [The shoulder-season packing list](/blog/tuscany-packing-checklist/) covers the specifics, and the one-indoor-half-day-in-reserve rule we give for [September](/blog/siena-in-september-2026/) applies with a second half-day added.`,
+      },
+      {
+        id: 'duomo-floor-all-month',
+        heading: 'The Duomo floor: uncovered every day of October',
+        body: `Siena’s headline sight needs no date arithmetic this month. The cathedral’s inlaid marble floor, uncovered from 18 August 2026 under the “Il Sommo Bene” programme, remains fully on show until 15 November — **every day of October is inside the window**, with published visiting hours of 10:00–19:00 running through 30 October, as checked in July 2026.
+
+October is arguably the floor’s best month. September’s residual summer crowds have faded, November’s reduced hours have not yet arrived, and the low autumn light through the cathedral’s windows flatters the pavement in a way high summer never does. The **OPA SI Pass** remains the ticket to buy — listed at €16 during uncovering periods, valid three consecutive days across the complex, with the Piccolomini Library, crypt, baptistery, Museo dell’Opera and Facciatone viewpoint included.
+
+The advice stands from our other autumn guides: book the official channel for your first morning, arrive at opening, and spend as much time looking down as up. If your trip runs into November, remember the hard boundary — [the floor goes back under boards after 15 November](/blog/tuscany-in-november-2026/).`,
+      },
+      {
+        id: 'montalcino-late-harvest',
+        heading: 'Montalcino: the last cellars still picking',
+        body: `If seeing an active wine harvest matters to you, October narrows the map in a useful way. While Chianti’s Sangiovese is largely in by early month, **Montalcino’s higher, slower vineyards keep picking into late October** — which makes the Brunello capital the single most reliable destination in Tuscany for late-season harvest atmosphere.
+
+The town rewards the trip regardless: fortress walls, enotecas on every corner, and the [Val d’Orcia’s](/blog/val-dorcia-day-trip-from-siena-2026/) finest driving country all around. In October the combination is at full strength — trailers of fruit through the streets in the morning, tastings in the afternoon, and the valley’s famous light doing its best work at the day’s edges.
+
+Montalcino also carries October’s traditional town event: the **Sagra del Tordo**, the archery festival held annually on the last weekend of the month, with the town’s four historic quarters — Borghetto, Pianello, Ruga and Travaglio — competing in costume after a procession of well over a hundred participants, a tradition dating from 1958. An honest note from our July 2026 check: the festival’s detailed 2026 programme and exact dates had not yet been published — confirm them on the festival’s official channels before building a weekend around it, and book Montalcino accommodation early for that weekend regardless.`,
+      },
+      {
+        id: 'first-pressings',
+        heading: 'The first pressings and the saffron dawn',
+        body: `From mid-October the region’s frantoi begin their season, and by the month’s last week the olive harvest is genuinely under way — nets beneath the trees, farms taking their first fruit to the mill, and the year’s first fettunta appearing wherever new oil is poured. October travellers catch the season’s freshest edge: the very first pressings, tasted days old, before even the November crowds of olio nuovo enthusiasts arrive. [The full olive-season playbook is here](/blog/tuscany-olive-harvest-olio-nuovo-2026/).
+
+October has a quieter, stranger harvest too. In the fields around San Gimignano, the **autumn saffron harvest** happens at dawn: crocus flowers picked daily before they open, stigmas separated by hand, exactly as the town’s medieval trade records describe. Zafferano di San Gimignano carries DOP protection, and autumn is when the season’s tiny, precious crop is gathered — one more reason [the town of towers](/blog/san-gimignano-day-trip-from-siena-2026/) earns an October day trip, with Vernaccia and thinning crowds as the supporting act.
+
+Between the grapes, the olives and the saffron, October is the month Tuscany’s food identity is most visibly *made* rather than merely served.`,
+      },
+      {
+        id: 'crowds-and-value',
+        heading: 'Crowds and value: the falling curve',
+        body: `October sits on the steepest part of Tuscany’s visitor curve, and the direction is downward — each week quieter than the last. The month opens still feeling like high shoulder season, especially around fine weekends, and closes on the doorstep of the low season proper.
+
+That curve is a tool. **Travellers who want energy** — full restaurant terraces, busy tasting rooms, harvest bustle — should book the first half. **Travellers who want space** — empty lanes, walk-in tables, negotiable rates — should book the last ten days and accept shorter evenings as the price. Either way, October undercuts September on cost while keeping most of its daylight advantages, and it beats November for outdoor plans by a comfortable margin.
+
+The persistent exception is the day-trip corridor: Florence’s coaches run all year, so Siena’s Campo-to-Duomo spine and San Gimignano’s two squares still fill in the middle of any dry day. The counter-moves never change — mornings, evenings, and two streets beyond the corridor. [Where to stay in Siena](/blog/where-to-stay-in-siena/) makes the inside-the-walls case; in October the maths favours it strongly, since being resident at 8am and 7pm is where the month’s magic lives.`,
+      },
+      {
+        id: 'october-table',
+        heading: 'The October table',
+        body: `October eating is the year’s best bridge: summer’s produce not yet gone, winter’s comfort dishes arriving with conviction. Porcini reach their peak and appear over tagliatelle, on crostini and grilled whole; chestnuts begin their season in roast form and in castagnaccio, the dense Tuscan chestnut cake; game ragùs return over pici and pappardelle; and the last **schiacciata con l’uva** of the vendemmia shares bakery counters with the season’s first olive-oil rituals.
+
+It is also the fairest month to judge a Tuscan kitchen. The tourist-season compromises fade with the crowds, locals reclaim their tables, and menus shorten toward what the week actually delivered. Follow the shortening: the blackboard over the printed menu, the osteria full of Italian over the terrace full of cameras, and [the food guide’s standing advice](/blog/tuscany-food-guide/) about walking two streets before sitting down.
+
+Drink the transition too — the new vintage is fermenting behind every cellar door, which makes October tastings unusually good conversations. Ask what the harvest was like; in a good year you will not get a short answer.`,
+      },
+      {
+        id: 'october-light',
+        heading: 'Fog, gold and low sun: October for photographers',
+        body: `October is the month Tuscany’s postcard industry was built on, and the reasons are technical as much as romantic. The sun sits low enough all day to model the hills rather than flatten them; the first cold, still mornings send valley fog through the Crete Senesi and the Val d’Orcia, leaving hilltop farmhouses and cypress lines floating on white; and the colour change moves through the month — vineyards first, turning yellow and rust as the vine leaves finish their year, then the broader countryside toward every shade of amber.
+
+The practical playbook: for fog, be in position before dawn on a clear, cold morning after a still night — the classic viewpoints south of Siena reward the alarm clock — and expect it burned off by mid-morning. For colour, the second half of the month is the safer bet, when the vine rows are fully turned. For towns, shoot the first and last open hours; wet cobbles after an afternoon shower double the value of evening light.
+
+None of this requires equipment beyond patience and a phone. It does require basing yourself where the light is — one more argument for [sleeping inside the landscape](/blog/where-to-stay-in-siena/) rather than commuting into it.`,
+      },
+      {
+        id: 'october-with-kids',
+        heading: 'October with children',
+        body: `October is a quietly excellent family month. The fierce heat that makes small children miserable in July is gone, queues stop testing everyone’s patience, and the month’s signature activities are unusually child-compatible: the olive harvest — [the most family-friendly farm experience in Italy](/blog/tuscany-olive-harvest-olio-nuovo-2026/) — begins in its final weeks, grape-themed bakery treats linger from the vendemmia, and gelato weather persists through most afternoons.
+
+The late-October school half-term weeks bring a noticeable wave of British families, so expect a modest bump in family visitors around the month’s end — book family rooms for those dates earlier than the low-season norm suggests. Otherwise the standard pacing advice from [our Siena with kids guide](/blog/siena-with-kids/) applies with the weather on your side: one anchor activity per day, open spaces between the museums, and the Torre climbs saved for children with genuine stamina.
+
+The single best October family memory on offer: a farm morning in the olive groves at the month’s end, where the work happens at child height and the reward is bread, oil and a story they will retell for years.`,
+      },
+      {
+        id: 'an-october-plan',
+        heading: 'A five-day October plan',
+        body: `**Day one — Siena.** The Duomo at opening for the uncovered floor, the Piccolomini Library and Facciatone on the same pass, and an evening walk when the day-trippers have gone.
+
+**Day two — the contrade and museums.** Museo Civico for the Lorenzetti frescoes, Santa Maria della Scala, and the quieter districts beyond the corridor — with a long lunch in the middle, as the month intends.
+
+**Day three — Montalcino and the Val d’Orcia.** Late-harvest country: a booked cellar visit, San Quirico or Pienza for lunch, and the valley’s amber light on the drive home.
+
+**Day four — San Gimignano.** Towers, Vernaccia, saffron season and thinner crowds; climb Torre Grossa if the queue allows and take [the early bus](/blog/san-gimignano-day-trip-from-siena-2026/) to beat the corridor rush.
+
+**Day five — the first pressing.** A frantoio or farm morning as the olive season opens, fettunta with oil days old, and a tin in the luggage for the flight home.
+
+Rearrange freely around rain — every outdoor day here has an indoor understudy, which is precisely October’s planning virtue. With a week rather than five days, add a second countryside morning for whichever harvest you missed, and one deliberately empty afternoon in Siena: October is the month when doing nothing on a warm square stops being a waste of time and starts being the point of the trip.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `The Duomo floor’s 2026 uncovering window and October hours (10:00–19:00 through 30 October) and the €16 OPA SI Pass price were checked in July 2026 against the Opera del Duomo’s published information; harvest-timing ranges against Tuscan producers’ and official tourism sources’ seasonal descriptions; weather figures against long-term climate averages; and the Sagra del Tordo’s traditional last-weekend-of-October pattern against the festival’s own materials — its detailed 2026 programme was not yet published at our check, so confirm dates on the official channels. The clock change follows the standard EU calendar (last Sunday of October). We have no affiliate relationship with any venue, event, farm or festival named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Every Tuscan month has a personality, and October’s is generosity: two harvests, one uncovered masterpiece, weather that still says yes more often than no, and a visitor curve bending steadily in your favour. Book the cathedral and one working farm or cellar, put your trip in the month’s middle if you want both harvests or its end if you want the region to yourself, and let the golden month do what it has always done — send people home planning the next trip before the first one is over.`,
+      },
+    ],
+    [
+      { q: 'Is October a good time to visit Tuscany?', a: 'One of the best: the wine harvest finishes and the olive harvest begins in the same month, the Siena Duomo floor is uncovered throughout October 2026, daytime averages sit near 20°C, and crowds and prices fall week by week.' },
+      { q: 'What is the weather like in Tuscany in October?', a: 'Long-term averages show Siena falling from about 23°C daytime highs early in the month to around 17°C at its end, lows near 10°C, and roughly 12 days with some rain. Early October feels like late summer; late October is true autumn.' },
+      { q: 'Can you still see the wine harvest in October?', a: 'Yes, in the right places — Montalcino’s higher vineyards pick their Sangiovese Grosso for Brunello into late October, making it the most reliable late-harvest destination. Chianti’s harvest is largely finished by early month.' },
+      { q: 'Does the olive harvest start in October?', a: 'The first pressings begin from mid-October and picking is genuinely under way by the month’s final week, when the year’s first olio nuovo appears at the mills — the freshest moment of the entire oil season.' },
+      { q: 'Is the Siena Duomo floor uncovered in October 2026?', a: 'Yes, every day of the month — the official window runs 18 August to 15 November 2026, with October hours of 10:00–19:00 through the 30th and the OPA SI Pass listed at €16, as checked in July 2026.' },
+      { q: 'What is the Sagra del Tordo in Montalcino?', a: 'Montalcino’s traditional festival on the last weekend of October, dating from 1958: an archery tournament between the town’s four historic quarters with a costumed procession of over a hundred participants. The detailed 2026 programme was unpublished at our July 2026 check — confirm dates on the festival’s official channels.' },
+      { q: 'When do the clocks change in Italy in autumn 2026?', a: 'On Sunday 25 October 2026, the last Sunday of the month, clocks go back one hour. Evenings darken noticeably earlier from that date, so plan viewpoints and countryside driving for the afternoon and dinners for after dark.' },
+      { q: 'Is early or late October better for a Tuscany trip?', a: 'Early-to-mid October for warmth, energy and the chance of seeing both harvests working; the final ten days for emptier towns, lower rates and the season’s first fires — traded against shorter, cooler evenings after the clock change.' },
+    ],
+    '2026-07-31',
+    {
+      seoTitle: 'Tuscany in October 2026: Two Harvests, the Duomo Floor & Golden Light',
+      primaryKeyword: 'tuscany in october',
+      secondaryKeywords: [
+        'tuscany october 2026',
+        'tuscany weather october',
+        'montalcino harvest october',
+        'olive harvest october tuscany',
+        'siena duomo floor october',
+        'sagra del tordo montalcino',
+      ],
+      imageAlt: 'The walled village of Monteriggioni surrounded by autumn Tuscan hills',
+      canonicalPath: '/blog/tuscany-in-october-2026',
+      tags: ['tuscany in october', 'montalcino harvest', 'olio nuovo', 'duomo floor uncovering 2026', 'tuscany autumn'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
