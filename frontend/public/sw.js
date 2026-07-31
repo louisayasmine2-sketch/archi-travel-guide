@@ -12,17 +12,35 @@
  * Bump VERSION to invalidate old caches on deploy of a new SW.
  */
 
-const VERSION = "v1";
+const VERSION = "v2";
 const SHELL_CACHE = `archi-shell-${VERSION}`;
 const RUNTIME_CACHE = `archi-runtime-${VERSION}`;
 const SHELL_URLS = ["/", "/travel-tools"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches
-      .open(SHELL_CACHE)
-      .then((cache) => cache.addAll(SHELL_URLS))
-      .then(() => self.skipWaiting())
+    (async () => {
+      const shell = await caches.open(SHELL_CACHE);
+      await shell.addAll(SHELL_URLS);
+      // The page that registered this worker fetched its assets BEFORE the
+      // worker controlled it, so runtime caching alone would leave the first
+      // visit uncached and offline broken. CRA publishes the hashed asset
+      // list as asset-manifest.json — precache everything it names.
+      try {
+        const res = await fetch("/asset-manifest.json");
+        if (res.ok) {
+          const manifest = await res.json();
+          const files = Object.values(manifest.files || {}).filter(
+            (f) => typeof f === "string" && f.startsWith("/")
+          );
+          const runtime = await caches.open(RUNTIME_CACHE);
+          await Promise.all(files.map((f) => runtime.add(f).catch(() => undefined)));
+        }
+      } catch {
+        // Manifest missing — runtime caching still covers later visits.
+      }
+      await self.skipWaiting();
+    })()
   );
 });
 
