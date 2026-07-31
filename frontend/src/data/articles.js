@@ -4343,6 +4343,15 @@ In July and August the nearer lots fill by mid-morning. If you are combining tow
 If you only want the Duomo, buy the €5 ticket. If you want the tower — and you should — the €15 pass is the better purchase, since it folds the Duomo in and spreads over two days. Confirm prices and current inclusions at the ticket office or the official channels when you buy; a heavily promoted online “skip-the-line” markup is rarely necessary here outside peak weekends.`,
       },
       {
+        id: 'inside-the-pass',
+        heading: 'What the pass actually gets you',
+        body: `Most visitors buy the pass for Torre Grossa and never open the rest of it. That is a waste, because the civic cluster is genuinely good — and, spread over the pass’s two days of validity, it turns a rushed climb into a proper visit.
+
+**Palazzo Comunale** is the anchor: the town hall’s frescoed chambers, including the council hall associated with Dante, who addressed San Gimignano’s council as an envoy of Florence, and rooms of Sienese- and Florentine-school painting that reward more attention than the queue for the tower suggests. The **Pinacoteca** upstairs continues the collection. **Torre Grossa** itself is the payoff — climb it from here, ideally as early in your visit as the queue allows, because the view organises everything else you will walk past.
+
+The same ticket then scatters you around town: the **archaeological museum and the Spezieria di Santa Fina**, the reconstructed pharmacy of the town’s medieval hospital with its shelves of jars and herbal preparations; the **modern and contemporary art gallery** sharing the complex; and **San Lorenzo in Ponte**, a small deconsecrated church whose surviving fresco fragments you will likely have entirely to yourself. None of these is a headline sight. Together they are the difference between seeing San Gimignano and ticking it.`,
+      },
+      {
         id: 'one-day-itinerary',
         heading: 'A realistic one-day plan from Siena',
         body: `**08:00–08:30** — Morning bus 130 from Siena (confirm the exact departure the evening before).
@@ -4358,6 +4367,17 @@ If you only want the Duomo, buy the €5 ticket. If you want the tower — and y
 **16:00 onwards** — Either catch a late-afternoon bus back, or hold out for the golden hour when the coaches have gone and the brick turns amber, and take one of the last runs home. Verify that last departure before you commit to the sunset.`,
       },
       {
+        id: 'where-to-eat',
+        heading: 'Eating well in a town built for day-trippers',
+        body: `San Gimignano feeds thousands of visitors a day, which means the worst meals in town are easy to find and the good ones take a five-minute walk. The reliable rule from Siena applies here too: step off the two main squares before you sit down, and choose the room full of people eating full meals over the terrace full of people photographing them.
+
+What to order is more distinctive than the setting suggests. San Gimignano is one of the few places in Italy with its own protected saffron: **Zafferano di San Gimignano DOP**, grown only within the municipality, protected since 2005 and hand-picked at dawn in the autumn crocus harvest. The town traded it across the Mediterranean in the thirteenth century — records survive of shipments to Pisa and Genoa — and it long paid for a share of the towers you came to see. Look for it in risotto, fresh pasta, and even gelato; a small jar from a local producer is the one souvenir here that is genuinely of this place.
+
+Beyond the saffron, menus are classic hill-town Tuscan: pici with wild-boar ragù, ribollita in the cooler months, crostini, pecorino from the surrounding valleys, and grilled meats. Gelato in Piazza della Cisterna is a San Gimignano ritual with a permanent queue — join it once, then compare it with the quieter gelateria you pass on the way back to the bus.
+
+Cheapest good option of all: buy bread, cheese, finocchiona and fruit from a delicatessen on the side lanes and carry it up to the Rocca, where the picnic view outclasses every terrace in town.`,
+      },
+      {
         id: 'vernaccia-wine',
         heading: 'Vernaccia: the white wine the town is famous for',
         body: `San Gimignano is the rare Tuscan wine town whose flagship is white. **Vernaccia di San Gimignano** — crisp, dry, faintly bitter-almond on the finish — has been grown on these sandstone hills since the Middle Ages, was praised by Dante, and in 1966 became the first Italian wine awarded DOC status; it now carries the higher DOCG classification.
@@ -4368,6 +4388,15 @@ You do not need a formal tour to try it. Nearly every enoteca and restaurant in 
 *A glass of Vernaccia with lunch is the easiest wine tasting in Tuscany.*`,
       },
       {
+        id: 'with-kids',
+        heading: 'San Gimignano with children',
+        body: `For children, San Gimignano has one enormous advantage over most Tuscan art towns: it looks the way a medieval town is supposed to look. You are not asking them to imagine anything — the towers, gates and walls do the work, and the whole centre reads as a castle you are allowed to wander around.
+
+A family visit works best built around three fixed points. First, **Torre Grossa**: the climb is a long, steep run of stairs, so judge it against your child’s stamina rather than their enthusiasm, but the reward — spotting the bus stop, the car parks and the vineyards from above — lands better with kids than most museums ever will. Second, **gelato in Piazza della Cisterna**, deployed at the energy dip rather than on arrival. Third, the **Rocca di Montestaffoli**, whose grassy space and rampart fragments are the natural place to let younger children move freely while adults take in the view.
+
+Two practical warnings. The lanes are cobbled and the gradients real, so a baby carrier beats a pushchair for the youngest travellers — the same advice as for [Siena with kids](/blog/siena-with-kids/). And the midday crowd crush in the main lane is genuinely unpleasant with small children in tow, which makes the early bus from Siena even more worthwhile for families than for everyone else.`,
+      },
+      {
         id: 'pairing-and-alternatives',
         heading: 'Pairing it with other stops',
         body: `By public transport, San Gimignano is a full day done properly — resist the urge to bolt on a second town. Drivers have more options: **Monteriggioni**, the tiny walled outpost on the Siena road, pairs naturally with San Gimignano and needs only an hour; **Colle di Val d’Elsa**, the crystal town, sits just off the same route home.
@@ -4376,6 +4405,15 @@ You do not need a formal tour to try it. Nearly every enoteca and restaurant in 
 *Monteriggioni’s complete ring of walls — a natural second stop for drivers.*
 
 If you have several day-trip slots in your Siena stay, our view on priorities: [Val d’Orcia](/blog/val-dorcia-day-trip-from-siena-2026/) for landscape, San Gimignano for a single unforgettable townscape, and the quieter [hidden gems around Siena](/blog/siena-day-trips-without-a-car/) once the headliners are done. For the full menu, see [the best day trips from Siena without a car](/blog/siena-day-trips-without-a-car/).`,
+      },
+      {
+        id: 'tour-or-independent',
+        heading: 'Guided tour or independent: the honest comparison',
+        body: `Combined coach and minivan tours from Florence and Siena bundle San Gimignano with Chianti stops or Siena itself, and they solve real problems: no timetables to align, no parking, a guide to compress the history, and a wine tasting arranged without any research. If your only free day starts in Florence, or the group includes someone for whom the bus-and-change routine is a genuine burden, a small-group tour is a defensible choice.
+
+What a tour cannot give you is the town itself. Tour scheduling puts every group in San Gimignano in the same crowded midday window, for a stop measured in minutes — enough for the two squares, the gelato and the photograph, with the tower climb usually sacrificed. The independent version from Siena costs a bus fare and one pass, and buys you the empty morning squares or the amber evening light, a proper lunch, and the parts of the pass no group ever reaches.
+
+Our recommendation follows from that: **from Siena, go independently; from Florence, a tour is the fallback**, not the first choice — and if you do book one, prefer a small-group departure that states its San Gimignano dwell time before you pay, and read the inclusions rather than the photographs.`,
       },
       {
         id: 'how-we-checked',
@@ -4396,6 +4434,8 @@ If you have several day-trip slots in your Siena stay, our view on priorities: [
       { q: 'How long do you need in San Gimignano?', a: 'Four to six hours is right: the squares and Duomo, the Torre Grossa climb, a proper lunch, and the quieter lanes and Rocca viewpoint. The common 60–90 minute tour stop only covers the two squares.' },
       { q: 'Where do you park for San Gimignano?', a: 'In the signed lots outside the walls — the historic centre is closed to visitor traffic. As checked in July 2026, P1 Giubileo on the south side is listed at €2 per hour for the first two hours and €7 per 24 hours; P2 Montemaggio is closer to the gate but dearer at €15 per 24 hours.' },
       { q: 'Is San Gimignano better from Siena or Florence?', a: 'Siena. It is one direct bus of around an hour, against a train-plus-bus connection from Florence. The shorter link also makes it practical to arrive early or stay late, which is the key to enjoying the town.' },
+      { q: 'What food is San Gimignano famous for?', a: 'Saffron and white wine. Zafferano di San Gimignano DOP has been protected since 2005 and is grown only within the municipality, and Vernaccia di San Gimignano was the first Italian wine awarded DOC status in 1966. Menus otherwise run to classic Tuscan hill-town cooking: pici with wild-boar ragù, pecorino, crostini and gelato.' },
+      { q: 'Is San Gimignano good with kids?', a: 'Yes, with pacing. The town reads as a real castle, the Rocca gives children space to move, and the Torre Grossa climb is a memorable reward for older kids. Use a carrier rather than a pushchair on the cobbles, and avoid the midday crowd crush by arriving early.' },
     ],
     '2026-07-31',
     {
