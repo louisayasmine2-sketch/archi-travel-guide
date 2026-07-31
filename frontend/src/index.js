@@ -16,6 +16,16 @@ const queryClient = new QueryClient({
   },
 });
 
+// Offline support: register the runtime-caching service worker (production
+// only, and only where the API exists). See public/sw.js for the strategy.
+if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/sw.js").catch(() => {
+      // Registration failing (private mode, unsupported) never blocks the app.
+    });
+  });
+}
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
