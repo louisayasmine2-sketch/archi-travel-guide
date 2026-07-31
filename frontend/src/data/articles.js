@@ -4745,6 +4745,153 @@ Car logistics are the season’s one real constraint: farm and mill visits scatt
       tags: ['tuscany olive harvest', 'olio nuovo', 'frantoio', 'tuscany in october', 'tuscany in november'],
     }
   ),
+  A(
+    'siena-in-september-2026',
+    'Siena in September 2026: Uncovered Duomo Floor, Harvest & Fewer Crowds',
+    'Best time to visit',
+    'Siena',
+    'Siena in September 2026: the Duomo’s marble floor uncovered all month, post-Palio calm, wine harvest day trips, weather averages and a practical plan.',
+    '/images/siena/siena-skyline-view-from-duomo.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `September is the month we would send a first-time visitor to Siena in 2026. The Palio crowds and August heat are gone, the wine harvest is starting in the hills around the city, and the Duomo’s famous marble floor — normally protected under boarding — is **fully uncovered for the whole month**, within the official 18 August to 15 November window. Weather runs warm-not-hot with the first proper rains, prices ease from their August peak, and the two big regional wine events of the year both land inside the month. Book the cathedral and your room ahead; leave the rest loose.`,
+      },
+      {
+        id: 'why-september',
+        heading: 'Why September is Siena’s sweet spot',
+        body: `Siena’s year has a rhythm most visitors never see because they arrive at its loudest point. July and August belong to the Palio — the 2 July and 16 August races, the crowds around them, and the heat that makes midday sightseeing a campaign. Then, within days of the August race, the city exhales. Barriers come down, the Campo returns to café tables and students, and Siena gets back to being a working Tuscan provincial capital with a university and a season of harvests starting in the hills.
+
+September visitors inherit all of it: a city at local pace, landscapes at their most active, and daylight still long enough for full day trips. The month is not a secret — it is widely and correctly named among the best times to visit — but it absorbs its visitors in a way high summer cannot, because they are no longer competing with the region’s biggest event for rooms, tables and shade.
+
+![View over Siena’s rooftops and countryside from the cathedral complex](/images/siena/siena-skyline-view-from-duomo.webp)
+*September light over Siena: summer’s haze gone, the countryside turning to harvest.*`,
+      },
+      {
+        id: 'september-weather',
+        heading: 'The weather, honestly',
+        body: `Long-term climate averages for Siena in September, as checked in July 2026: daytime highs around **27°C at the start of the month, cooling toward the low 20s by its end**, overnight lows around 14°C, and roughly nine days with some rain across the month. In practice that means three different Septembers depending on your dates.
+
+**Early September** still behaves like gentle summer: warm afternoons, outdoor dinners without a jacket, and the last of the high-summer light. **Mid-month** is the balance point — reliably warm days, fresh mornings, and the harvest beginning in earnest. **Late September** starts to feel autumnal: a jacket for the evening passeggiata, a real chance of a wet day, and the kind of dramatic skies that make the Campo photogenic in a way flat August sunshine never manages.
+
+The practical translation: pack layers rather than a single-season wardrobe, keep one indoor half-day in reserve for rain — Siena is unusually well equipped for it, with Santa Maria della Scala and the museum cluster — and book outdoor-terrace dinners earlier in the month rather than later. Our [Tuscany packing checklist](/blog/tuscany-packing-checklist/) covers the shoulder-season kit in detail.`,
+      },
+      {
+        id: 'duomo-floor',
+        heading: 'The uncovered Duomo floor: September’s headline',
+        body: `For most of the year, the majority of Siena Cathedral’s inlaid marble floor — dozens of scenes worked into the pavement over five centuries — is boarded over for its own protection. In 2026 the official uncovering calendar opens it fully from **27 June to 31 July** and again from **18 August to 15 November**, under the year’s theme “Il Sommo Bene”. Every day of September falls inside that second window.
+
+This is the single strongest reason to choose September for a first Siena visit. The uncovered floor turns the cathedral from a spectacular building into something closer to a walkable illuminated manuscript, and it changes how you visit: you spend as much time looking down as up, and the marked route through the nave becomes a slow procession past sibyls, allegories and Old Testament scenes.
+
+Practicalities, as checked in July 2026: cathedral visiting hours during the uncovering period run 10:00–19:00 (holidays differ), and the best-value ticket remains the **OPA SI Pass**, listed at €16 during uncovering periods and valid three consecutive days for the cathedral complex — Piccolomini Library, crypt, baptistery, Museo dell’Opera and the Facciatone viewpoint included. Demand is highest in the uncovering windows, so book through the official channel for your first morning rather than gambling on the queue, and go at opening — the floor photographs best before the crowds stand on it.`,
+      },
+      {
+        id: 'after-the-palio',
+        heading: 'The contrade after the Palio',
+        body: `Visitors who read about the Palio sometimes assume the contrade — Siena’s seventeen historic districts — pack up their identity with the race barriers. September proves otherwise. The flags, fountains and emblems stay; victory celebrations from the August race can run on in the winning district; and contrada life continues at neighbourhood scale, in the dinners, notice boards and social clubs that tourists walking the Campo-to-Duomo corridor never see.
+
+For a September visitor the etiquette is simple and the reward real. Walk beyond the main corridor into districts like the Onda, Bruco or Oca streets; read the plaques and fountains; and treat anything that looks like a private community gathering as exactly that. What you get in exchange is the thing high-summer visitors largely miss: the sense that the city’s pageantry is the surface of a civic structure that runs all year.
+
+![Contrada flags hanging along a narrow street in Siena](/images/siena/siena-contrade-street-flags.webp)
+*The contrade don’t leave when the Palio crowds do.*
+
+If understanding the system appeals, our [Palio di Siena guide](/blog/palio-di-siena-guide/) explains the contrade properly — and why a September visit is the calm way to appreciate what July and August visitors experience at full volume.`,
+      },
+      {
+        id: 'crowds-and-prices',
+        heading: 'Crowds and prices: what actually eases',
+        body: `September is quieter than July and August, but be precise about what that means. Siena remains a headline destination and its historic centre is compact, so the Campo-to-Duomo corridor still fills through the middle of the day — day-trip coaches from Florence run all year. What changes is everything around that corridor: mornings and evenings are genuinely local again, restaurants reclaim their pace, and the side streets empty within two turns.
+
+Accommodation follows the same curve. Rates soften from the August-and-Palio peak and availability widens, though September weekends — especially those aligned with the region’s wine events — book out well ahead. The practical rules: travel midweek if you can, book your room as early as your dates firm up, and plan headline sights for opening time or late afternoon, keeping the crowded middle of the day for lunch, museums or the quieter districts. Compare neighbourhoods in [where to stay in Siena](/blog/where-to-stay-in-siena/) — in September, the value case for staying inside the walls and having the city at 8am is at its strongest.`,
+      },
+      {
+        id: 'harvest-day-trips',
+        heading: 'September day trips: the harvest at your doorstep',
+        body: `No month upgrades Siena’s day-trip menu like September, because the countryside around the city is working. The Sangiovese harvest builds through the month in the hills — [our Tuscany wine harvest guide](/blog/tuscany-wine-harvest-vendemmia-2026/) covers the vendemmia in depth — and two dated events anchor the calendar in 2026.
+
+The **54th Expo Chianti Classico** runs **10–13 September** in Greve in Chianti, putting producers from the whole Chianti Classico zone on one square. From a Siena base it is a committed day out — the practical route runs via Florence — but for wine-focused travellers it is the event of the month. Two weeks later, the **centenary Festa dell’Uva** in Impruneta (**Sunday 27 September**) offers the spectacle version of harvest culture, best folded into a Florence day.
+
+Closer to the walls, the classics are all in season: [Val d’Orcia](/blog/val-dorcia-day-trip-from-siena-2026/) with Montalcino’s cellars at their liveliest, [San Gimignano](/blog/san-gimignano-day-trip-from-siena-2026/) as the white-wine and saffron counterpoint, and the [car-free options](/blog/siena-day-trips-without-a-car/) for travellers without a hire car. One planning note: harvest-season cellar visits increasingly expect reservations, so book the one tasting you care about and keep the rest spontaneous.`,
+      },
+      {
+        id: 'eating-in-september',
+        heading: 'Eating in Siena in September',
+        body: `September menus are the year’s handover. Summer’s tomatoes and panzanella linger at the start of the month; by its end, porcini mushrooms are over pasta, game is back on trattoria blackboards, and the first harvest specialities appear — including **schiacciata con l’uva**, the grape-studded harvest flatbread that bakeries make only in vendemmia season.
+
+The Sienese staples need no season: pici with wild-boar ragù or all’aglione, crostini neri, pecorino from the Crete, ricciarelli and panforte with coffee. What September adds is comfort — eating outdoors stays pleasant for most of the month, but the city’s snug interior rooms start to earn their keep on the first cool evenings.
+
+The advice we give in every Siena guide holds hardest in September, when restaurant attention returns: skip the Campo terraces for anything beyond one scenic drink, walk two streets in any direction, and order what the blackboard says the kitchen found that week. [Our Tuscany food guide](/blog/tuscany-food-guide/) maps the dishes; September supplies their best versions.`,
+      },
+      {
+        id: 'rainy-day-bench',
+        heading: 'The rainy-day bench: September indoors',
+        body: `Nine average rain days across the month means most September trips meet at least one wet spell, and Siena handles rain better than almost any city in Tuscany — its museum stock is deep, central and, unusually for a medieval hill town, partly step-free.
+
+**Santa Maria della Scala** is the first substitution to make: the vast former pilgrim hospital opposite the Duomo swallows half a day with its frescoed halls, underground levels and archaeological collections, and its summer-season opening hours generally run through the end of October. It is also the accessibility standout among the city’s major sights. The **Museo Civico** inside Palazzo Pubblico is the second: Lorenzetti’s Allegory of Good and Bad Government is arguably the most rewarding single room in Siena, and rain is the excuse to stand in front of it for as long as it deserves. The **Pinacoteca Nazionale** rounds out the bench for anyone drawn to Sienese gold-ground painting.
+
+Add the cathedral complex itself — crypt, baptistery and Museo dell’Opera are all under cover and all inside the OPA SI Pass — and a wet September day stops being a lost day at all. Save the outdoor pieces (Facciatone, tower climbs, contrade wandering) for the dry hours; September rain rarely settles in for days the way November’s can.`,
+      },
+      {
+        id: 'september-light',
+        heading: 'Mornings and evenings: using the September light',
+        body: `September rearranges Siena’s best hours. The sun sits lower than in high summer, the haze thins after the first rains, and the brick city does what it was built to do: turn amber twice a day.
+
+**Mornings are for the monuments.** Between about 8:00 and 10:00 the corridor from the Campo to the Duomo belongs to residents, delivery carts and early risers; the light rakes across the Campo’s herringbone brick, and you can photograph the square with single figures in it rather than crowds. Be at the cathedral for opening and you meet the uncovered floor at its emptiest.
+
+**Evenings are for the edges.** The Facciatone viewpoint late in the afternoon puts the low sun behind the Duomo’s stripes; the Fortezza Medicea catches the last light with the city skyline in profile; and the Campo at dusk — espresso-coloured shadows climbing the Torre del Mangia — is the image most visitors take home. In between, the passeggiata along Banchi di Sopra is at its most local in September, when the university city reasserts itself and the evening crowd is Sienese again.
+
+The practical upshot: plan September days as a morning shift and an evening shift with a long, unhurried middle — lunch, museums, a siesta — exactly the rhythm the city itself keeps.`,
+      },
+      {
+        id: 'a-september-plan',
+        heading: 'A three-day September plan',
+        body: `**Day one — the city, properly.** Duomo complex at opening with the uncovered floor, Piccolomini Library, then the Facciatone viewpoint. Long lunch off the main corridor. Afternoon in Santa Maria della Scala, evening passeggiata and an aperitivo as the Campo turns gold.
+
+**Day two — the contrade and the slow city.** Morning walk through two or three districts beyond the corridor — fountains, emblems, quiet lanes. Museo Civico and, if the queue cooperates, Torre del Mangia. Afternoon at the Fortezza or Orto de’ Pecci; dinner in a contrada-neighbourhood osteria.
+
+**Day three — the harvest.** One countryside day, chosen by taste: Val d’Orcia for Brunello country at vintage time, San Gimignano for towers and Vernaccia, or — on the right 2026 dates — the Expo Chianti Classico. Book the tasting, respect the last bus or the ZTL rules, and be back for a final evening on the Campo.
+
+Stretch to four or five days and September rewards it: the [2-day](/blog/siena-2-day-itinerary/) and [3-day itineraries](/blog/siena-3-day-itinerary/) expand each block, and the month’s calendar means the extra days fill themselves — a second countryside day for the harvest, a slower museum day in town, or simply a morning with nothing planned beyond coffee on a quiet square, which is the September luxury the busy months cannot offer at any price.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `The 2026 floor-uncovering window (18 August–15 November), cathedral hours and the €16 OPA SI Pass price during uncovering periods were checked in July 2026 against the Opera del Duomo’s published information; the Expo Chianti Classico dates (10–13 September 2026) and the Festa dell’Uva centenary date (27 September 2026) against the organisers’ announcements; and weather figures against long-term climate averages. Hours and prices change — confirm on the official channels close to your dates. We have no affiliate relationship with any venue or event named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Every city has a month when its best qualities line up, and for Siena in 2026 that month is September: the year’s greatest floor uncovered underfoot, the year’s harvest starting beyond the walls, and the city itself handed back to the people who live there. Come midweek, book the cathedral and one tasting, pack a layer for the evening — and let the month do what it does better than any other: make Siena feel less like a destination and more like a place you briefly got to live.`,
+      },
+    ],
+    [
+      { q: 'Is September a good time to visit Siena?', a: 'It is arguably the best month of 2026: the Duomo floor is fully uncovered all month, the Palio crowds and peak heat are gone, the wine harvest animates the surrounding hills, and prices ease from their August peak.' },
+      { q: 'Is the Siena Duomo floor uncovered in September 2026?', a: 'Yes — the official 2026 calendar uncovers the marble floor from 18 August to 15 November, so every day of September falls inside the window. Cathedral hours in the period run 10:00–19:00, and the OPA SI Pass is listed at €16, as checked in July 2026.' },
+      { q: 'What is the weather like in Siena in September?', a: 'Long-term averages show highs around 27°C early in the month cooling to the low 20s by its end, lows around 14°C, and roughly nine days with some rain. Pack layers and keep one indoor half-day in reserve.' },
+      { q: 'Is there a Palio in September?', a: 'No — the two annual races are 2 July and 16 August. September shows you the contrade at neighbourhood scale instead: flags, fountains and community life without the race-week crowds and closures.' },
+      { q: 'Is Siena crowded in September?', a: 'The central Campo-to-Duomo corridor still fills in the middle of the day with day-trippers, but mornings, evenings and the side streets return to local pace. Weekends near the wine events book out; midweek is noticeably calmer.' },
+      { q: 'What events are near Siena in September 2026?', a: 'The 54th Expo Chianti Classico in Greve (10–13 September) and the centenary Festa dell’Uva in Impruneta (Sunday 27 September), with the Sangiovese harvest building through the month across Chianti and Val d’Orcia.' },
+      { q: 'What should you pack for Siena in September?', a: 'Layers: warm-day clothing plus a jacket for evenings, comfortable shoes for cobbles and hills, and rain cover for the handful of wet days. Later in the month, plan for genuinely cool nights.' },
+      { q: 'Should you book ahead for Siena in September?', a: 'Yes for three things: your room (especially weekends), the cathedral complex during the floor uncovering, and any specific winery visit — harvest-season cellars increasingly expect reservations. The rest of the month can stay spontaneous.' },
+    ],
+    '2026-07-31',
+    {
+      seoTitle: 'Siena in September 2026: Duomo Floor, Harvest & Fewer Crowds',
+      primaryKeyword: 'siena in september',
+      secondaryKeywords: [
+        'siena september 2026',
+        'siena duomo floor uncovered 2026',
+        'best time to visit siena',
+        'siena weather september',
+        'siena after the palio',
+        'tuscany in september',
+      ],
+      imageAlt: 'View over Siena’s rooftops and the Tuscan countryside from the cathedral complex',
+      canonicalPath: '/blog/siena-in-september-2026',
+      tags: ['siena in september', 'duomo floor uncovering 2026', 'best time to visit siena', 'siena events september', 'tuscany in september'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
