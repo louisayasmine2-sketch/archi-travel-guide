@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { budgetCalculator } from "@/lib/travelTools";
-import { loadTripPlan } from "@/lib/tripPlan";
+import { loadTripPlan, markToolDone } from "@/lib/tripPlan";
 import { toast } from "sonner";
 import { Wallet, Plus, Euro, X } from "lucide-react";
 
@@ -65,6 +65,7 @@ export default function BudgetPlanner() {
         trip_length: Number(form.trip_length),
       });
       setResult(data);
+      markToolDone("budget");
     } catch (_) {
       toast.error("Couldn't calculate the budget. Please try again.");
     } finally {

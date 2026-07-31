@@ -4,6 +4,7 @@ import { Menu, X, Search, Globe, ChevronDown, Sun, Moon } from "lucide-react";
 import { useTheme } from "next-themes";
 import { NAV } from "@/constants/testIds";
 import MobileMenu from "./MobileMenu";
+import TripChip from "./TripChip";
 
 const NAV_LINKS = [
   { to: "/siena",                label: "Siena",        tid: NAV.linkSiena },
@@ -103,6 +104,9 @@ export default function Header() {
           </nav>
 
           <div className="hidden md:flex items-center gap-4">
+            {/* My Trip chip — appears once a plan is saved */}
+            <TripChip />
+
             {/* Multi-language switcher prominent */}
             <div className="relative group flex items-center gap-1.5 cursor-pointer text-sm font-medium text-[#2C211B] hover:text-[#C65A3A] transition-colors">
               <Globe className="w-4 h-4" />
