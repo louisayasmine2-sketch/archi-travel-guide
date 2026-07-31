@@ -1,15 +1,46 @@
 import { useState, useEffect } from "react";
 import { packingChecklist } from "@/lib/travelTools";
+import { loadTripPlan } from "@/lib/tripPlan";
 import { toast } from "sonner";
 import { ListChecks, Check, CloudRain, Sun, Snowflake, Download } from "lucide-react";
 
 const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors";
 const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
 
+// A packing list is ticked over days, not one sitting — the generated
+// checklist and its ticks survive closing the modal.
+const PACKING_STORAGE_KEY = "archi_packing_list_v1";
+
+function loadSaved() {
+  try {
+    const s = JSON.parse(localStorage.getItem(PACKING_STORAGE_KEY) || "null");
+    if (!s || typeof s !== "object" || !s.result || typeof s.result.categories !== "object") return null;
+    return { form: s.form, result: s.result, checked: Array.isArray(s.checked) ? s.checked : [] };
+  } catch {
+    return null;
+  }
+}
+
 export default function SmartPackingList() {
-  const [form, setForm] = useState({ destination: "Tuscany", season: "spring", trip_length: 7 });
-  const [result, setResult] = useState(null);
-  const [checked, setChecked] = useState(new Set());
+  const [saved] = useState(loadSaved);
+  // A saved checklist wins; otherwise pre-fill from "My Trip".
+  const [form, setForm] = useState(() => {
+    if (saved?.form) return saved.form;
+    const plan = loadTripPlan();
+    return { destination: plan.destination, season: plan.season, trip_length: plan.trip_length };
+  });
+  const [result, setResult] = useState(() => saved?.result ?? null);
+  const [checked, setChecked] = useState(() => new Set(saved?.checked ?? []));
+
+  useEffect(() => {
+    try {
+      if (result) {
+        localStorage.setItem(PACKING_STORAGE_KEY, JSON.stringify({ form, result, checked: [...checked] }));
+      }
+    } catch {
+      // Storage blocked or full — the in-memory checklist still works.
+    }
+  }, [form, result, checked]);
   const [loading, setLoading] = useState(false);
   const [weatherNote, setWeatherNote] = useState("");
 
@@ -48,6 +79,10 @@ export default function SmartPackingList() {
   };
 
   const toggle = (k) => setChecked((s) => { const n = new Set(s); n.has(k) ? n.delete(k) : n.add(k); return n; });
+
+  const totalItems = result
+    ? Object.values(result.categories).reduce((n, items) => n + items.length, 0)
+    : 0;
 
   const downloadPDF = () => {
     // Simple way to trigger print which allows saving to PDF natively
@@ -132,6 +167,20 @@ export default function SmartPackingList() {
                 </button>
               </div>
 
+              {/* Packing progress */}
+              <div className="no-print bg-white p-4 rounded-2xl border border-[#F5EDE3]">
+                <div className="flex justify-between items-baseline mb-2">
+                  <span className="text-sm font-medium text-[#2C211B]">Packing progress</span>
+                  <span className="text-sm text-[#8A9A5B]">{checked.size} of {totalItems} packed</span>
+                </div>
+                <div className="h-2.5 rounded-full bg-[#F5EDE3] overflow-hidden">
+                  <div
+                    className="h-full rounded-full bg-[#8A9A5B] transition-all duration-300"
+                    style={{ width: totalItems ? `${(checked.size / totalItems) * 100}%` : "0%" }}
+                  />
+                </div>
+              </div>
+
               {Object.entries(result.categories).map(([cat, items]) => (
                 <div key={cat} className="rounded-3xl border border-[#F5EDE3] bg-white p-6 shadow-sm">
                   <h3 className="font-serif text-2xl text-[#2C211B] mb-4">{cat}</h3>
@@ -149,7 +198,7 @@ export default function SmartPackingList() {
                             {it}
                           </button>
                           {/* Print-only list item format */}
-                          <div className="hidden @media print:flex items-center gap-2 text-sm mb-2">
+                          <div className="hidden print:flex items-center gap-2 text-sm mb-2">
                             <div className="w-4 h-4 border border-black rounded-sm"></div>
                             {it}
                           </div>

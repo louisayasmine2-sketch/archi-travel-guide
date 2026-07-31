@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { itineraryGenerator, ITINERARY_DESTINATIONS } from "@/lib/travelTools";
+import { loadTripPlan } from "@/lib/tripPlan";
 import { toast } from "sonner";
-import { Sparkles, Map as MapIcon } from "lucide-react";
+import { Sparkles, Map as MapIcon, Share2 } from "lucide-react";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
@@ -17,10 +18,68 @@ L.Icon.Default.mergeOptions({
 const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors";
 const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
 
+// Map view per itinerary destination. Keys match ITIN_TEMPLATES in
+// lib/travelTools.js (lower-cased destination).
+const MAP_VIEWS = {
+  siena: {
+    center: [43.3184, 11.3316],
+    zoom: 13,
+    markers: [
+      { position: [43.3184, 11.3316], label: "Piazza del Campo — the day-1 starting point of this itinerary." },
+    ],
+  },
+  tuscany: {
+    center: [43.55, 11.3],
+    zoom: 9,
+    markers: [
+      { position: [43.7696, 11.2558], day: 1, label: "Florence — day 1 of this itinerary." },
+      { position: [43.3184, 11.3316], day: 2, label: "Siena — day 2 of this itinerary." },
+    ],
+  },
+};
+
+// Initial form state: a ?dest=&days= share link wins, then the saved
+// "My Trip" plan, then the defaults. Only template-backed destinations count.
+function initialForm() {
+  const valid = (d) => ITINERARY_DESTINATIONS.some((x) => x.value === d);
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const dest = params.get("dest");
+    const days = parseInt(params.get("days"), 10);
+    if (valid(dest)) {
+      const max = ITINERARY_DESTINATIONS.find((x) => x.value === dest).days;
+      return {
+        form: { destination: dest, trip_length: Math.min(Math.max(days || 1, 1), max) },
+        fromShareLink: true,
+      };
+    }
+  } catch { /* no window (prerender) or bad params — fall through */ }
+  const plan = loadTripPlan();
+  if (valid(plan.destination)) {
+    const max = ITINERARY_DESTINATIONS.find((x) => x.value === plan.destination).days;
+    return { form: { destination: plan.destination, trip_length: Math.min(plan.trip_length, max) }, fromShareLink: false };
+  }
+  return { form: { destination: "Siena", trip_length: 3 }, fromShareLink: false };
+}
+
 export default function AIItineraryBuilder() {
-  const [form, setForm] = useState({ destination: "Siena", trip_length: 3 });
-  const [result, setResult] = useState(null);
+  const [init] = useState(initialForm);
+  const [form, setForm] = useState(init.form);
+  // A share link opens with its itinerary already generated.
+  const [result, setResult] = useState(() =>
+    init.fromShareLink ? itineraryGenerator({ ...init.form, trip_length: Number(init.form.trip_length) }) : null
+  );
   const [loading, setLoading] = useState(false);
+
+  const copyShareLink = async () => {
+    const url = `${window.location.origin}/travel-tools?tool=itinerary&dest=${encodeURIComponent(result.destination)}&days=${result.trip_length}`;
+    try {
+      await navigator.clipboard.writeText(url);
+      toast.success("Share link copied — anyone opening it sees this itinerary.");
+    } catch {
+      toast.error(`Couldn't copy automatically. Link: ${url}`);
+    }
+  };
 
   const upd = (k, v) => setForm((f) => ({ ...f, [k]: v }));
   const maxDays = ITINERARY_DESTINATIONS.find((d) => d.value === form.destination)?.days ?? 1;
@@ -69,27 +128,44 @@ export default function AIItineraryBuilder() {
         <div className="lg:col-span-8 space-y-6">
           {result ? (
             <>
-              {/* Interactive Map */}
+              {/* Interactive Map — view follows the generated destination.
+                  key remounts the MapContainer, since center/zoom are only
+                  read on first render. */}
+              {(() => {
+                const view = MAP_VIEWS[result.destination.trim().toLowerCase()] ?? MAP_VIEWS.siena;
+                const markers = view.markers.filter((m) => !m.day || m.day <= result.trip_length);
+                return (
               <div className="rounded-3xl overflow-hidden border border-[#F5EDE3] shadow-sm h-64 z-0 relative">
-                <MapContainer center={[43.3188, 11.3309]} zoom={13} scrollWheelZoom={false} className="h-full w-full">
+                <MapContainer key={result.destination} center={view.center} zoom={view.zoom} scrollWheelZoom={false} className="h-full w-full">
                   <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                   />
-                  <Marker position={[43.3188, 11.3309]}>
-                    <Popup>
-                      Central Siena - Suggested starting point for your itinerary.
-                    </Popup>
-                  </Marker>
+                  {markers.map((m) => (
+                    <Marker key={m.label} position={m.position}>
+                      <Popup>{m.label}</Popup>
+                    </Marker>
+                  ))}
                 </MapContainer>
                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-xl text-sm font-medium text-[#2C211B] shadow-md z-[400] flex items-center gap-2 border border-[#F5EDE3]">
                   <MapIcon className="w-4 h-4 text-[#C65A3A]" /> Map Preview
                 </div>
               </div>
+                );
+              })()}
 
               {/* Itinerary Results */}
               <div className="space-y-4">
-                <p className="text-sm font-medium text-[#8A9A5B] bg-[#FAF7F2] p-4 rounded-2xl">{result.summary}</p>
+                <div className="flex flex-col sm:flex-row sm:items-center gap-3 bg-[#FAF7F2] p-4 rounded-2xl">
+                  <p className="text-sm font-medium text-[#8A9A5B] flex-1">{result.summary}</p>
+                  <button
+                    type="button"
+                    onClick={copyShareLink}
+                    className="shrink-0 flex items-center gap-2 px-4 py-2 bg-white border border-[#C65A3A] text-[#C65A3A] hover:bg-[#C65A3A] hover:text-white rounded-xl text-sm font-medium transition-colors"
+                  >
+                    <Share2 className="w-4 h-4" /> Copy share link
+                  </button>
+                </div>
                 {result.days.map((d) => (
                   <div key={d.day} className="rounded-3xl border border-[#F5EDE3] bg-white p-6 md:p-8 shadow-sm">
                     <div className="flex items-center gap-4 border-b border-[#F5EDE3] pb-4 mb-4">
