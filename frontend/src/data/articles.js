@@ -4892,6 +4892,153 @@ Stretch to four or five days and September rewards it: the [2-day](/blog/siena-2
       tags: ['siena in september', 'duomo floor uncovering 2026', 'best time to visit siena', 'siena events september', 'tuscany in september'],
     }
   ),
+  A(
+    'tuscany-in-november-2026',
+    'Tuscany in November 2026: Truffles, Olio Nuovo & the Duomo Floor’s Last Weeks',
+    'Best time to visit',
+    'Tuscany',
+    'Tuscany in November 2026: the Duomo floor’s final uncovered weeks, San Miniato’s white truffle festival dates, olio nuovo and honest weather advice.',
+    '/images/tuscany/florence-piazzale-michelangelo-sunset.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `November is Tuscany with the volume turned down and the flavour turned up. It is statistically the wettest month of the year — plan for that honestly — but in exchange 2026 offers a calendar the summer cannot match: the Siena Duomo’s uncovered marble floor until **15 November**, the white truffle festival in San Miniato across the month’s **last three weekends (14–15, 21–22 and 28–29 November)**, working olive mills pouring the new oil, and the region’s towns handed back to the people who live in them. Come for the food and the museums, pack for rain, and book the two dated things — the cathedral and one truffle or frantoio day — before you fly.`,
+      },
+      {
+        id: 'the-case-for-november',
+        heading: 'The case for November',
+        body: `Nobody drifts into a November trip to Tuscany by accident, and that is precisely its appeal. The visitors who come in the low season are here on purpose — for the truffle markets, the new oil, the uncrowded museums — and the region responds in kind. Restaurants have their full attention back, accommodation is at its most negotiable of the year, queues largely stop existing, and the famous towns return to their own rhythms: school runs, market days, church bells and early dinners.
+
+The trade is stated plainly in the next section: shorter days, real rain, and a countryside that has finished performing for the year. Travellers who need terrace weather and long golden evenings should choose [September](/blog/siena-in-september-2026/) instead. But for a traveller whose idea of Tuscany is a museum in the morning, a long lunch, and a plate of something seasonal in a warm room while it rains on the cobbles outside — November is not a compromise month. It is the target.
+
+![Sunset over Florence from Piazzale Michelangelo](/images/tuscany/florence-piazzale-michelangelo-sunset.jpg)
+*Low-season light: shorter days, softer colours, and cities returned to their residents.*`,
+      },
+      {
+        id: 'november-weather',
+        heading: 'The weather, honestly',
+        body: `Long-term climate averages, as checked in July 2026: Siena in November runs around **15°C by day and 6°C at night**, with roughly **14 rain days and about 121mm of rain** — its wettest month of the year. Florence is near-identical at about 14°C daytime and slightly wetter still. Daylight is short: plan for useful light from mid-morning to late afternoon and build evenings around dinners rather than views.
+
+What this means in practice is less discouraging than the numbers suggest. Fourteen rain days rarely means fourteen washed-out days; November rain in Tuscany often arrives as spells with clear, cold, brilliantly sharp intervals between them — some of the best photography light of the year, with low sun on wet stone. The failure mode to avoid is the summer itinerary run in November: long rural walks, evening viewpoints, and bus-timed village-hopping all fight the season.
+
+Pack accordingly: a proper waterproof rather than a travel poncho, shoes that grip wet cobbles, layers for heated interiors and cold streets, and an umbrella you do not love, because Tuscan hill-town gusts eat umbrellas. [The full shoulder-and-cold-season kit list is here](/blog/tuscany-packing-checklist/).`,
+      },
+      {
+        id: 'duomo-floor-last-weeks',
+        heading: 'The Duomo floor: the last uncovered weeks',
+        body: `The single most time-sensitive reason to choose early November in 2026 is in Siena. The cathedral’s inlaid marble floor — uncovered from 18 August under the year’s “Il Sommo Bene” programme — stays fully on show only until **15 November 2026**, after which the protective boarding returns for the floor’s own preservation.
+
+The first half of the month is therefore the quietest window of the entire uncovering: the summer visitors are gone, the cruise-season day-trippers have thinned, and the published visiting hours for 1–15 November, as checked in July 2026, run **10:30–17:30** (holidays differ). The **OPA SI Pass** remains the sensible ticket, listed at €16 during uncovering periods and valid three consecutive days across the cathedral complex.
+
+Treat the 15 November boundary as hard when planning: after it, the cathedral remains magnificent and the crowds smaller still, but the floor — the thing 2026 will be remembered for — goes back under its boards. If your dates straddle mid-month, put Siena in the first half. [Our Siena in September guide](/blog/siena-in-september-2026/) covers the same sight in its busier window; November is the connoisseur’s version.`,
+      },
+      {
+        id: 'truffle-month',
+        heading: 'White truffle month: San Miniato’s three weekends',
+        body: `November is white truffle season in Tuscany, and its centre of gravity is San Miniato, the hill town midway between Florence and Pisa whose surrounding hills are serious truffle country. In 2026 the town’s **national white truffle market-exhibition runs across the last three weekends of November: 14–15, 21–22 and 28–29 November**, as checked in July 2026 against the event’s published dates.
+
+The format is a town-wide market: hunters and dealers selling the year’s tubers by weight, stalls and restaurants shaving them over everything from tagliolini to fried eggs, and the historic centre given over to the smell — which no photograph conveys and no first-timer forgets. San Miniato’s truffle pedigree is real: it was here in 1954 that hunter Arturo Gallerini unearthed a white truffle of 2,520 grams, still celebrated as one of the largest ever found, which was famously presented to US President Eisenhower.
+
+Practicalities: on festival weekends **private cars cannot drive to the historic centre — a shuttle bus is mandatory**, so follow the event’s parking-and-shuttle arrangements rather than improvising. Weekends are busy by November standards; go early in the day. And set expectations on price before you fall in love: fresh white truffle is a luxury product sold by the gram, so the affordable way in is a truffle dish at a restaurant rather than a tuber for the suitcase.`,
+      },
+      {
+        id: 'olio-nuovo-window',
+        heading: 'The olio nuovo window is wide open',
+        body: `The other great November flavour needs no festival. Through most of the month Tuscany’s frantoi are pressing the olive harvest, and the **olio nuovo** — the vivid green, peppery new oil at its aromatic peak — is at its youngest and best. Mills welcome visitors in season, farms run harvest and pressing experiences into November, and fettunta (grilled bread, garlic, new oil) is on every table that takes food seriously.
+
+We cover the whole season — timing, joining a harvest day, tasting technique, and the IGP/DOP labels worth knowing — in [our Tuscany olive harvest and olio nuovo guide](/blog/tuscany-olive-harvest-olio-nuovo-2026/). For a November trip the short version is: book the farm or mill visit ahead, buy your year’s oil where it was pressed, and let the tin be the souvenir that outlasts every fridge magnet.
+
+Combined with the truffle weekends, this is the itinerary-shaping fact of the month: **November is the one month when Tuscany’s two greatest seasonal products peak together.** A food-first week can hold a truffle Saturday in San Miniato and a frantoio morning in the Sienese hills without either feeling rushed.`,
+      },
+      {
+        id: 'november-table',
+        heading: 'The November table',
+        body: `Beyond the headliners, November menus are Tuscan cooking at its most personal. This is full comfort-food season: ribollita thick enough to stand a spoon in, pappa al pomodoro gone wintry, wild boar and hare ragùs over pici and pappardelle, porcini while they last, chestnuts in everything from flour cakes to roast form, and game birds on the blackboards of serious osterie.
+
+![Pici all’aglione, the classic hand-rolled Tuscan pasta](/images/tuscany/07-pici-all-aglione.webp)
+*Comfort-food season: November is when Tuscany’s kitchens play at home.*
+
+It is also a wine moment. The year’s vendemmia is in the cellars fermenting, and enotecas have time again for conversation; a rainy November afternoon in a Siena or Montalcino wine bar, working through a flight with the person who chose the bottles, beats most summer tastings for what you actually learn. Pair the month with [our Tuscany food guide](/blog/tuscany-food-guide/) and order seasonally without mercy — this is the month the kitchens cook for themselves.`,
+      },
+      {
+        id: 'cities-indoors',
+        heading: 'Cities built for the season',
+        body: `November redistributes your time from landscapes to interiors, and Tuscany’s cities are unusually good at absorbing it. Siena’s indoor bench is deep — the cathedral complex on the OPA pass, the Museo Civico’s frescoed halls, Santa Maria della Scala’s vast covered levels — though note that **many sights switch to reduced winter hours from around the start of November**, so verify current times for each venue rather than assuming the summer schedule; [our best things to do in Siena guide](/blog/best-things-to-do-in-siena/) covers the venues themselves.
+
+Florence in November is the version of the city that summer visitors are promised and rarely get: the Uffizi and its peers at low-season density, café interiors that feel like the point rather than the shelter, and neighbourhood streets — the Oltrarno above all — at working pace. One calendar note for early-month planners: **1 November is Ognissanti (All Saints’ Day), a national public holiday**, so expect Sunday-style transport timetables, some closures, and busier-than-usual museums on the day itself.
+
+The month’s end brings the first Christmas lights and the opening of the festive season in the bigger towns — a pleasant bonus for late-November travellers, and a reason the final truffle weekend feels distinctly wintry in the best way.`,
+      },
+      {
+        id: 'countryside-caveats',
+        heading: 'The countryside, with caveats',
+        body: `The honest section: rural Tuscany contracts in November. Agriturismi and countryside restaurants reduce days or close for the season once the olive harvest winds down; village museums shorten hours; Sunday and holiday bus service — thin in high season — is at its thinnest; and the famous viewpoints spend some days inside cloud. The Val d’Orcia and Chianti remain beautiful, but they are landscapes to visit *around* the weather rather than regardless of it.
+
+Three rules keep a November countryside day enjoyable. **Check before you go** — the week’s opening days for any specific cellar, mill or restaurant, not last summer’s website copy. **Drive if you can** — this is the month when [the car-free day-trip playbook](/blog/siena-day-trips-without-a-car/) narrows to its most robust routes, while empty November roads make driving the year’s easiest. **Aim at working places** — a frantoio pressing that day, an enoteca with a stove, a truffle-town market — rather than at pure scenery, and the season works with you instead of against you.`,
+      },
+      {
+        id: 'where-to-base',
+        heading: 'Where to base yourself in November',
+        body: `The low season changes the basing calculus. In summer we argue for location above all; in November, the building matters as much as the address, because you will spend more waking hours inside it than in any other month.
+
+**Siena** is the stronger base for this specific November: the Duomo floor’s final fortnight, the frantoio country at its door, and a compact centre where a rainy evening still ends with a five-minute walk home. Choose the room for its heating, its lift or lack of stairs with wet luggage, and its distance from an actual restaurant street — the checklist in [where to stay in Siena](/blog/where-to-stay-in-siena/) applies with the comfort items promoted to the top. Confirm heating dates explicitly with smaller properties; medieval buildings are wonderful at many things, but improvised warmth is not one of them.
+
+**Florence** wins for museum-first trips and rail flexibility — day trips to San Miniato’s truffle weekends are simpler from the Florence side, and the city’s indoor depth is unmatched when the weather digs in. The [Florence-or-Siena transport trade-offs](/florence-to-siena-by-train-or-bus/) are the same as ever, but November tilts toward wherever your indoor priorities live.
+
+**The countryside** is the romantic answer and the demanding one: glorious with a car, a fireplace and a well-stocked kitchen, isolating without them. Book rural stays only after confirming what is open, heated and serving dinner within reach in your actual week — not in the property’s summer photographs.`,
+      },
+      {
+        id: 'a-november-plan',
+        heading: 'A November long weekend that works',
+        body: `**Thursday — Siena.** Arrive, and if your dates fall on or before 15 November, give the afternoon to the Duomo and its uncovered floor in the 10:30–17:30 window. Aperitivo indoors on the Campo’s edge; dinner of ribollita and wild boar somewhere with a fire.
+
+**Friday — the Sienese hills.** A booked frantoio or farm morning for the olio nuovo, a long countryside lunch, and back to Siena for Santa Maria della Scala or the Museo Civico as the light goes.
+
+**Saturday — San Miniato.** On the festival weekends, take the truffle market head-on: shuttle bus in, morning among the stalls, truffle tagliolini for lunch, and a walk on the town’s ridgeline between showers.
+
+**Sunday — Florence.** Low-season museums in the morning, the Oltrarno after lunch, and a sunset that arrives conveniently before dinner. Sunday transport runs thin — check the return timetable before committing to the evening.
+
+Swap days freely around the weather; the plan’s only fixed points are the booked mill visit and, if you want it, the floor’s 15 November deadline.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `The Duomo floor’s 2026 uncovering end-date (15 November), the 1–15 November visiting hours and the €16 OPA SI Pass price were checked in July 2026 against the Opera del Duomo’s published information; the San Miniato white truffle festival weekends (14–15, 21–22, 28–29 November 2026) and its shuttle-bus arrangement against the event’s published details; and weather figures against long-term climate averages. Winter opening hours vary venue by venue — confirm each on its official channel close to your dates. We have no affiliate relationship with any venue, event, farm or festival named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `November asks a simple question: what did you actually come to Tuscany for? If the answer involves terraces and swimming pools, come another month. If it involves eating the best food of the Tuscan year in warm rooms, seeing the Duomo floor without a crowd standing on it, smelling a truffle market from two streets away and carrying home oil pressed the week you tasted it — then book the wet month with confidence, bring a real coat, and let everyone else wonder why your photographs have no strangers in them.`,
+      },
+    ],
+    [
+      { q: 'Is November a good time to visit Tuscany?', a: 'For food-and-museum travellers, yes — arguably the best-value month of the year. It is also statistically the wettest, with short days and a contracted countryside, so it suits indoor-and-table itineraries far better than landscape-first ones.' },
+      { q: 'What is the weather like in Tuscany in November?', a: 'Long-term averages show daytime highs around 14–15°C, nights near 6°C, and roughly 14 rain days — the wettest month in both Siena and Florence. Rain tends to come in spells with sharp clear intervals rather than solid washed-out weeks.' },
+      { q: 'Is the Siena Duomo floor still uncovered in November 2026?', a: 'Only until 15 November — the official 2026 uncovering window ends then and the protective boarding returns. Published visiting hours for 1–15 November run 10:30–17:30, with the OPA SI Pass listed at €16, as checked in July 2026.' },
+      { q: 'When is the San Miniato truffle festival in 2026?', a: 'Across the last three weekends of November 2026: 14–15, 21–22 and 28–29 November. On festival weekends private cars cannot reach the historic centre and a shuttle bus is mandatory — follow the event’s parking arrangements.' },
+      { q: 'Can you still see the olive harvest in November?', a: 'Yes — mills press through much of the month and olio nuovo is at its peak, with farm and frantoio visits bookable well into November. It is the one month when the new oil and white truffle seasons fully overlap.' },
+      { q: 'What should you pack for Tuscany in November?', a: 'A genuine waterproof, shoes with grip for wet cobbles, warm layers, and a expendable umbrella. Plan around short daylight: views and countryside by day, dinners and interiors after dark.' },
+      { q: 'Are things closed in Tuscany in November?', a: 'Some. Many sights switch to reduced winter hours around the start of the month, rural agriturismi and restaurants cut days or close for the season, and 1 November is a national public holiday with Sunday-style transport. Check each venue’s current schedule rather than summer listings.' },
+      { q: 'Is November cheaper for visiting Tuscany?', a: 'It is the low season: accommodation is at its most negotiable, availability is wide outside the truffle-festival weekends, and the crowds that define summer pricing pressure are gone. The truffle weekends themselves book up locally — reserve those ahead.' },
+    ],
+    '2026-07-31',
+    {
+      seoTitle: 'Tuscany in November 2026: Truffles, Olio Nuovo & the Duomo Floor',
+      primaryKeyword: 'tuscany in november',
+      secondaryKeywords: [
+        'tuscany november 2026',
+        'san miniato truffle festival 2026',
+        'white truffle season tuscany',
+        'siena duomo floor november',
+        'tuscany low season',
+        'tuscany weather november',
+      ],
+      imageAlt: 'Sunset over Florence seen from Piazzale Michelangelo in the low season',
+      canonicalPath: '/blog/tuscany-in-november-2026',
+      tags: ['tuscany in november', 'san miniato truffle festival', 'white truffle season', 'olio nuovo', 'tuscany low season'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
