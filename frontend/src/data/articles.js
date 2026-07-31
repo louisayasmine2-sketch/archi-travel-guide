@@ -4598,6 +4598,153 @@ Either month, pack for swings rather than a single climate: warm middays, cool m
       tags: ['tuscany wine harvest', 'vendemmia 2026', 'expo chianti classico', 'festa dell’uva impruneta', 'tuscany in september'],
     }
   ),
+  A(
+    'tuscany-olive-harvest-olio-nuovo-2026',
+    'Tuscany Olive Harvest 2026: Olio Nuovo Season & How to Join In',
+    'Food & drink',
+    'Tuscany',
+    'Tuscany’s 2026 olive harvest guide: when olio nuovo arrives, how to visit a working frantoio, and why this is the harvest visitors can join.',
+    '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Tuscany’s olive harvest runs from late October through November, a few weeks behind the grape harvest, and it is the more open of the two: estates and agriturismi across the region run insured, bookable harvest experiences where guests genuinely help pick. The prize is **olio nuovo** — the just-pressed, unfiltered new oil, vivid green and peppery — best tasted within weeks of pressing on grilled bread at a working frantoio. Come between mid-October and mid-November, book the farm day ahead, and plan the rest of the trip around mills, markets and the year’s quietest good weather.`,
+      },
+      {
+        id: 'the-second-harvest',
+        heading: 'Tuscany’s second harvest — and the one you can join',
+        body: `By the time the last Sangiovese comes off the vines, Tuscany’s attention has already shifted to the silver side of the landscape. The olive groves that terrace every hillside between the vineyards get their turn from late October: nets spread beneath the trees, hand rakes combing the branches, crates of green-and-violet fruit heading for the mill the same day they are picked.
+
+Here is the practical difference from the [wine harvest a few weeks earlier](/blog/tuscany-wine-harvest-vendemmia-2026/): the vendemmia is closed to casual hands — insured contracted workers only, with visitors limited to supervised “experiences” — while the olive harvest has developed a genuine guest-participation culture. Farms and agriturismi across Tuscany now run olive-harvest days where picking alongside the household is the activity itself, structured as an insured, certified farm experience rather than informal labour. You rake, you empty nets, you ride to the frantoio, and you taste the result on bread the same evening.
+
+That difference makes October the better month for travellers who want to *do* the harvest rather than watch it — and it pairs naturally with the region’s emptiest good-weather weeks of the year.
+
+![Cypress trees and rolling autumn countryside in Val d’Orcia](/images/tuscany/val-dorcia-cypress-trees-landscape.jpg)
+*Late autumn in the Sienese hills: harvest nets out, summer crowds gone.*`,
+      },
+      {
+        id: 'when-it-happens',
+        heading: 'When the 2026 harvest happens',
+        body: `The Tuscan norm is a **deliberately early harvest**. Picking generally begins in late October and runs through November, with the first pressings of the season from mid-October onward; the exact start moves with the weather and each estate’s judgement of ripeness. Quality-focused producers pick olives still partly green, accepting less oil per tree in exchange for the aromatic, antioxidant-rich style Tuscany is known for.
+
+The classic Tuscan varieties — **Frantoio, Leccino, Moraiolo and Pendolino** — are picked by hand or with hand-held rakes onto nets, then rushed to the mill: the fruit is cold-extracted within hours of picking, because waiting costs freshness and flavour.
+
+For trip planning, the reliable window is **the last week of October through the third week of November**. Earlier than that you may catch only the first estates; later, the mills are still pressing but the picking tails off. As with the grapes, no farm will guarantee months ahead that your specific date is a picking day — book the experience, and let the farm confirm the fine detail near the time.`,
+      },
+      {
+        id: 'olio-nuovo',
+        heading: 'Olio nuovo: what the fuss is about',
+        body: `Olio nuovo is simply the season’s oil at its youngest — unfiltered, cloudy-green, weeks old at most. It behaves less like a condiment and more like a seasonal product with a peak, which is why Tuscans queue for it and why it rarely travels.
+
+Taste it and the style announces itself: grass and artichoke on the nose, sometimes tomato-leaf and almond; a real bitterness; and a peppery catch at the back of the throat that can make first-timers cough. None of that is a flaw. The bite is the signature of a fresh, polyphenol-rich early-harvest oil — the compounds responsible fade over the months, which is exactly why the new oil is an event and an eleven-month-old bottle is just olive oil.
+
+The canonical way to meet it is **fettunta**: bread grilled or toasted, rubbed with garlic, salted, and drowned in new oil — nothing else. At harvest tables the ritual is communal: the bottle circulates, everyone pours over their slice, and the year’s oil gets its verdict. Order fettunta wherever you see it in November; it is the cheapest great thing on any Tuscan menu that month.`,
+      },
+      {
+        id: 'joining-a-harvest-day',
+        heading: 'Joining a harvest day: what it actually involves',
+        body: `A typical bookable olive-harvest day at a Tuscan farm or agriturismo runs like this: a morning start in the grove, instruction with the rakes and nets, an hour or three of genuine picking at whatever pace suits you, a farm lunch, and then the part that turns the day from pleasant to memorable — following the fruit to the **frantoio** and watching your morning’s work washed, crushed and pressed, with a first taste of the oil while it is still minutes old.
+
+Choosing well matters more than choosing famous. Look for farms that state plainly that guests join the actual harvest as a structured, insured activity; that press their own fruit or work with a named local mill; and that put the tasting at the end of the process rather than in a shop. Staying overnight at a harvesting agriturismo is the deepest version — some hosts fold guests into the harvest simply because it is what the household is doing that week.
+
+Set expectations honestly: this is participation, not employment. You will not clear a grove, and nobody needs you to — the farm is sharing its work, insured and certified for exactly that. Book ahead; the harvest weeks are short, English-language slots are limited, and the best farm days go to people who planned in September.`,
+      },
+      {
+        id: 'frantoio-visits',
+        heading: 'The frantoio: Tuscany’s best free show',
+        body: `Even without a picking day, the mills themselves are worth a detour. Through late October and November, working frantoi press continuously, and many welcome visitors during their season — watching the wash, the crush, the centrifuge, and the first green ribbon of oil emerging is the olive world’s equivalent of seeing the cellar during the vendemmia.
+
+Several realities to respect. A frantoio in season is a production line with tractors arriving on farm schedules, so call or book rather than drifting in, and stay where you are put. The best time is late afternoon and evening, when the day’s fruit is being pressed. And the tasting at the end is the point: new oil on plain bread, judged on the spot. Buy your year’s supply there — a tin from the mill that pressed it, dated with the harvest, is the single best-value gastronomic souvenir Tuscany sells in autumn.
+
+If your route runs through the Sienese hills, mills and producing estates cluster along the same roads our [Val d’Orcia](/blog/val-dorcia-day-trip-from-siena-2026/) and [Chianti-side day trips](/blog/siena-day-trips-without-a-car/) already follow — the harvest simply gives those routes a working season.`,
+      },
+      {
+        id: 'labels-and-buying',
+        heading: 'Reading the labels: IGP, DOP and what to buy',
+        body: `Tuscan oil has a protection system worth understanding for ten minutes before you buy.
+
+**Toscano IGP** guarantees Tuscan origin and production methods across the region — the broad, reliable mark. Inside it, **DOP designations narrow the place and the profile**: Chianti Classico DOP from the same hills as the wine, Lucca DOP in the north-west, Seggiano DOP around Monte Amiata, and **Terre di Siena DOP** in the province our own guides call home. A DOP name on a harvest-season bottle ties the oil to a specific territory in the same way the wine appellations do.
+
+Buying advice that survives contact with a market stall: prefer bottles and tins that state the **harvest year**; prefer dark glass or tin over clear glass; expect real early-harvest Tuscan oil to cost serious money, because hand-picked, low-yield fruit pressed within hours is expensive to make; and treat a bargain-priced “Tuscan style” bottle as exactly what the phrase admits. In season, the surest purchase of all is the one made at the frantoio or farm that pressed it.
+
+![The walled village of Monteriggioni in the Sienese hills](/images/siena/monteriggioni-walled-village-siena.webp)
+*Terre di Siena oil country: the same hills our Siena day-trip routes cross.*`,
+      },
+      {
+        id: 'how-to-taste',
+        heading: 'How to taste oil like you mean it',
+        body: `Tasting olive oil properly takes two minutes to learn and upgrades every mill visit of the trip.
+
+Pour a little into a small cup or glass and warm it in a cupped hand for a moment — aroma rises with temperature. Smell first: fresh Tuscan oil should read as green things — cut grass, artichoke, leaves — never as anything waxy or stale. Then take a small sip with a deliberate slurp of air, the same undignified technique the professionals use, and let it coat the back of the mouth.
+
+You are checking for the three positive attributes the tasting world grades: **fruitiness** in the aroma and flavour, **bitterness** on the tongue, and **pungency** — that peppery burn in the throat. In a young early-harvest oil all three should be present and unapologetic. What you never want: flat, greasy, rancid-nut or musty notes, the signatures of old or badly stored oil.
+
+Then watch what the kitchens do with the new pressing. In season it lands raw on everything the region already loves — over ribollita, over white beans, over grilled meat, over thick vegetable soups — always added at the table, never cooked away. Copy that logic with the tin you bring home: the new oil is for finishing, and the frying pan can have last year’s bottle.`,
+      },
+      {
+        id: 'with-kids',
+        heading: 'The most family-friendly harvest in Italy',
+        body: `If you travel with children, the olive harvest is the agricultural experience to pick — better than the vendemmia by a distance. The work happens at ground level and child height: nets to spread and empty, low branches to comb with a plastic rake, olives to gather by the handful, and no machinery a farm will let anyone near. Farms hosting family harvest days are used to short attention spans, and the rhythm — pick a while, run around the grove a while — suits small guests better than any museum.
+
+The mill visit lands with children too: fruit goes in one end, green oil ribbons out the other, and the transformation is visible in a way most food production never is. Cap the day with fettunta — bread, garlic, oil their own hands helped pick — and the trip acquires the story they will actually retell.
+
+Practicalities: confirm with the farm that children are welcome on the specific day, dress everyone in clothes that can meet mud and oil, and bring layers — grove mornings in late October are cold in the shade and warm in the sun within the same hour. The same pacing advice as our [Siena with kids guide](/blog/siena-with-kids/) applies: one anchor activity, generous slack around it.`,
+      },
+      {
+        id: 'festivals-and-timing',
+        heading: 'Olio nuovo festivals — and an honest note on 2026 dates',
+        body: `Across Tuscany, the new oil gets its own round of town festivals — **feste dell’olio nuovo** — generally held from late October to mid-November, when the presses are running and the first oil is ready to pour. They follow the sagra format: trestle tables, fettunta by the hundred, the local mills and farms selling the new pressing, and the town in coats rather than shorts.
+
+The honest note: as of our July 2026 check, individual towns had not yet published their 2026 olive festival dates — these are announced close to the season, once the harvest’s own timing firms up. Rather than repeat a guessed date, our advice is to fix your travel window on the harvest itself (late October to mid-November), then check the comune and tourist-office pages of the towns on your route in early October, when the year’s programmes appear. Build the trip around the mills and farms, and let a festival be the bonus that lands on it.`,
+      },
+      {
+        id: 'planning-the-trip',
+        heading: 'Planning an olive-season trip from Siena',
+        body: `Late autumn changes the shape of a Tuscan day: mornings can be crisp, light ends in the late afternoon, and rain is part of the deal. It also empties the towns. The same streets that queue in July are local again in November, accommodation is at its most negotiable, and restaurants have their attention back — [the quiet-season case we make in best time to visit Tuscany](/blog/best-time-to-visit-tuscany/) is at its strongest in olive season.
+
+A workable week from a Siena base: two farm days booked for the harvest and frantoio, one town day in [San Gimignano](/blog/san-gimignano-day-trip-from-siena-2026/) — where the saffron harvest overlaps the olive one — one [Val d’Orcia day](/blog/val-dorcia-day-trip-from-siena-2026/) while Montalcino’s late vendemmia hands over to the mills, and the rest left loose for weather. Pack for layers and wet cobbles rather than a single climate — [the shoulder-season kit list is here](/blog/tuscany-packing-checklist/) — and choose accommodation with heating confirmed and dinner reachable on foot; compare areas in [where to stay in Siena](/blog/where-to-stay-in-siena/).
+
+Car logistics are the season’s one real constraint: farm and mill visits scatter beyond bus routes, so this is the Tuscan trip where a hired car earns its cost most clearly. The consolation is that autumn driving is the year’s easiest — empty roads, no coach traffic, and parking pressure gone even in the famous towns.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Harvest timing, olio nuovo characteristics, participation norms and the IGP/DOP designation structure were checked in July 2026 against Tuscan producers’ and culinary sources’ published seasonal information. Exact picking weeks always depend on the year’s weather, and 2026 festival dates were not yet published at our check — confirm both with the farms, mills and comune pages on your route close to the season. We have no affiliate relationship with any farm, mill, agriturismo or tour named or implied here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `The grape harvest gets the photographs, but the olive harvest is the one that lets you in: a morning under the nets, a mill running at dusk, and a slice of burnt bread carrying the greenest oil you will ever taste. Come in the window between late October and mid-November, book the farm day before you fly, buy your oil where it was pressed — and accept in advance that every bottle you take home will be judged, unfairly, against fettunta eaten standing up at the frantoio.`,
+      },
+    ],
+    [
+      { q: 'When is the olive harvest in Tuscany in 2026?', a: 'From late October through November, with the first pressings from mid-October. Tuscany picks deliberately early, while the fruit is still partly green, for an aromatic, antioxidant-rich style. Exact weeks depend on the year’s weather and each estate’s judgement.' },
+      { q: 'Can tourists join the olive harvest in Tuscany?', a: 'Yes — unlike the grape harvest, olive picking is widely open to visitors through insured, bookable farm experiences. A typical day includes picking with rakes and nets, a farm lunch, and following the fruit to the mill for a first taste of the new oil.' },
+      { q: 'What is olio nuovo?', a: 'The season’s just-pressed, unfiltered oil — cloudy green, grassy and artichoke-scented, with real bitterness and a peppery catch in the throat. That bite signals fresh polyphenols, which fade over the months; the new oil is at its best within weeks of pressing.' },
+      { q: 'What is fettunta?', a: 'Tuscany’s harvest bruschetta: grilled bread rubbed with garlic, salted, and poured generously with new oil, eaten as the first verdict on the year’s pressing. In olive season it appears on menus and at every mill and farm table.' },
+      { q: 'What do Toscano IGP and the DOP names mean on olive oil?', a: 'Toscano IGP guarantees Tuscan origin and methods region-wide. DOP names narrow the territory and profile — Chianti Classico, Lucca, Seggiano and Terre di Siena among them — tying the oil to a specific area the way wine appellations do.' },
+      { q: 'When are the olio nuovo festivals in 2026?', a: 'Towns generally hold them from late October to mid-November, but as of July 2026 the individual 2026 dates were not yet published — they are announced close to the season. Fix your window on the harvest itself and check comune and tourist-office pages in early October.' },
+      { q: 'Do you need a car for an olive harvest trip?', a: 'Realistically yes for the farms and mills, which sit beyond bus routes. The season compensates: autumn roads are the year’s emptiest, and parking pressure is gone even in famous towns. Town days from Siena still work car-free.' },
+      { q: 'Is November a good time to visit Tuscany?', a: 'For food-focused travellers it is one of the best-kept secrets: working mills, olio nuovo, truffle and porcini season, empty towns and negotiable room rates — traded against short days and the real chance of rain.' },
+    ],
+    '2026-07-31',
+    {
+      seoTitle: 'Tuscany Olive Harvest 2026: Olio Nuovo, Frantoio Visits & Joining In',
+      primaryKeyword: 'tuscany olive harvest',
+      secondaryKeywords: [
+        'olive harvest tuscany 2026',
+        'olio nuovo tuscany',
+        'olive picking experience tuscany',
+        'frantoio visit tuscany',
+        'tuscany in october',
+        'tuscany in november',
+      ],
+      imageAlt: 'Cypress trees and rolling autumn countryside in Val d’Orcia, Tuscany',
+      canonicalPath: '/blog/tuscany-olive-harvest-olio-nuovo-2026',
+      tags: ['tuscany olive harvest', 'olio nuovo', 'frantoio', 'tuscany in october', 'tuscany in november'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
