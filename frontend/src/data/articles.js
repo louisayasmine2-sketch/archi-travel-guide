@@ -5956,6 +5956,156 @@ Run this plan from the 18th onward and you collect the floor, the emptying towns
       tags: ['tuscany in august', 'ferragosto', 'palio dell’assunta', 'tuscany summer', 'tuscany heat'],
     }
   ),
+  A(
+    'tuscany-in-january-2027',
+    'Tuscany in January 2027: The Quietest Month, and Who It’s Secretly For',
+    'Best time to visit',
+    'Tuscany',
+    'Tuscany in January 2027: the year’s emptiest month — winter sales, thermal springs, Viareggio Carnival’s 30 January opening and honest cold-season advice.',
+    '/images/florence/san-miniato-al-monte-panoramic-view.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `January is Tuscany’s empty quarter — the coldest, quietest, cheapest month, when the region belongs to its residents more completely than at any other time. It is the wrong month for landscapes and terraces, and the right one for a specific kind of traveller: museum lovers meeting the Uffizi at its annual emptiest, shoppers arriving as the **winter saldi open in the first days of the month**, cold-weather romantics steaming in the Val d’Orcia’s thermal springs, and — new for 2027 — carnival chasers, because the **Carnevale di Viareggio opens on Saturday 30 January 2027**, putting one of Europe’s great spectacles inside the month for once. Book city over countryside, confirm heating everywhere, and treat the low season’s closures as the price of having Tuscany to yourself.`,
+      },
+      {
+        id: 'the-case-for-january',
+        heading: 'The case for January',
+        body: `Nobody sells January in Tuscany, which is precisely its value. Every structural pressure that defines the visitor year — queues, coach parties, dynamic pricing, the fight for restaurant tables — simply switches off. Rooms cost what they actually cost; famous museums hold a handful of people; waiters have time; and the cities revert to their winter selves: students, market shoppers, espresso counters with regulars.
+
+The honest ledger, stated plainly. Against you: the year’s coldest weather, around nine hours of usable daylight, the deepest rural closures of the calendar, and none of the landscape glamour the brochures were shot in. For you: the lowest prices of the year, zero crowd-planning, the [winter kitchen at full depth](/blog/tuscany-in-december-2026/), and an unhurried quality no peak-season itinerary can buy at any price.
+
+January rewards exactly one strategy — **city-based, interior-led, food-forward** — and punishes every attempt to run a summer trip in a winter month. This guide builds that strategy.
+
+![Panoramic view over Florence from San Miniato al Monte](/images/florence/san-miniato-al-monte-panoramic-view.webp)
+*January light over Florence: short days, sharp air, and a city returned to itself.*`,
+      },
+      {
+        id: 'january-weather',
+        heading: 'The weather, honestly',
+        body: `Long-term climate averages, as checked in July 2026: **Siena around 9°C by day and roughly 1°C at night**, with about 13 days seeing some rain across the month; **Florence — its coldest month — around 11°C by day and 2°C overnight**, with rain on eight or so days. Snow is rare in both cities but not unheard of, likelier early in the month, and when it comes it decorates rather than disrupts.
+
+What the numbers feel like on the ground: cold, frequently bright mornings; a real chill after 16:00; and the kind of damp that makes a proper coat non-negotiable. Fog settles in the valleys — occasionally spectacular over the Crete Senesi — and the hilltop towns catch a wind the summer visitor never meets.
+
+The packing translation: a genuinely warm coat, layers for heated interiors versus cold streets, waterproof footwear for wet stone, hat and gloves for the evening hours, and [the cold-season checklist](/blog/tuscany-packing-checklist/) for the rest. The accommodation translation is a single rule from [our December guide](/blog/tuscany-in-december-2026/), promoted to law in January: **heating confirmed explicitly, in writing, before booking** — especially in older buildings and anywhere rural.`,
+      },
+      {
+        id: 'epiphany-and-the-lull',
+        heading: 'Epiphany, the Befana, and the deep lull',
+        body: `January opens inside the festive season’s last act. **1 January is a public holiday** on the quiet Italian model — minimal transport, most doors shut, streets given over to the passeggiata — and the season closes with **Epiphany on 6 January**, when the Befana delivers the year’s final presents, the lights come down, and Italy goes definitively back to work.
+
+What follows, from roughly the 7th onward, is the deepest lull of the Tuscan year — and for the right traveller, the entire point of the month. Mid-January weekdays are the emptiest sightseeing days that exist: first-entry bookings become unnecessary almost everywhere, the famous squares hold more pigeons than people by mid-morning, and even Siena’s Campo-to-Duomo corridor — crowded in every other month of this series — moves at resident pace.
+
+Two planning notes for the holiday tail: the 6th itself is a full public holiday with Sunday-style transport, and the days around it carry the last surge of Italian family travel, so the true price floor and crowd floor both arrive after Epiphany, not before it.`,
+      },
+      {
+        id: 'saldi',
+        heading: 'The saldi: Italy’s serious sales season',
+        body: `January’s one genuine mass event is commercial. The **saldi invernali** — Italy’s regulated winter sales — open nationwide in the first days of January and run for weeks: in the 2026 round, Tuscany’s sales began on **3 January and ran for 60 days**, and the regional pattern repeats each year, with the 2027 dates set regionally and announced close to the season.
+
+This matters to travellers more than it sounds. Italian sales are the real thing — regulated, storewide and steep — and Florence is one of Europe’s serious shopping cities, from the fashion streets around Via Tornabuoni to the artisan workshops of the Oltrarno, where January brings discounts to leather, paper and clothing that never see them in tourist season. Siena’s compact shopping streets join the same calendar.
+
+The tactics: the opening days have the stock, the later weeks have the depths; weekday mornings beat the first Saturday crush; and the saldi pair naturally with the museum-first January itinerary — sales in the cold late afternoon, once the day’s sight is done and the light has gone anyway. Confirm the exact 2027 start date on regional announcements near the new year.`,
+      },
+      {
+        id: 'viareggio-carnival',
+        heading: 'Viareggio Carnival: the 30 January 2027 opening',
+        body: `Most years, carnival is February’s story. In 2027 it starts early: the **Carnevale di Viareggio** — the coastal town’s century-old festival of giant satirical papier-mâché floats, one of Europe’s great carnivals — opens with its first parade on **Saturday 30 January 2027**, with further parades published for 4, 7, 9, 14 and 20 February, as checked in July 2026 against the event’s announced calendar.
+
+For a January traveller this is a gift: the month’s one world-class spectacle, an easy coastal day from Florence by train via Viareggio’s own station, and the opening parade’s particular energy — floats revealed for the first time, the town at full voice. The floats themselves are astonishing constructions, multi-storey moving sculptures lampooning the year’s politics and culture, built in secret through the autumn in the town’s dedicated hangars.
+
+Practicalities: parades are ticketed — buy through the official channels — seaside January is colder than it looks, so dress for wind off the water, and confirm the published schedule near the date as carnival calendars can adjust. For trips that miss the 30th, the remaining parades give [February](/blog/best-time-to-visit-tuscany/) its own reason — and this series its next chapter.`,
+      },
+      {
+        id: 'museums-month',
+        heading: 'Museum month: the emptiest Uffizi of the year',
+        body: `January is the month the great collections are closest to private. The Uffizi in mid-January is the version every summer visitor wishes they had met: the Botticelli rooms at conversational density, no timed-entry anxiety, and the luxury of doubling back. Florence’s second tier — the Bargello, the Brancacci Chapel, the Palazzo Pitti galleries — drops to a handful of viewers per room.
+
+Siena’s indoor bench, mapped in [the November](/blog/tuscany-in-november-2026/) and [December](/blog/tuscany-in-december-2026/) guides, runs on winter hours but without even December’s modest bustle: the Museo Civico’s Lorenzetti frescoes, Santa Maria della Scala’s covered labyrinth, and the cathedral complex — its famous floor under boards until the next uncovering, its winter quiet absolute. [The best-things-to-do guide](/blog/best-things-to-do-in-siena/) covers the venues; January’s only planning rule is to **verify each site’s current winter schedule**, since reduced days and shortened hours peak in exactly these weeks.
+
+The month’s rhythm writes itself: one major collection per morning, a long lunch, a second interior or the saldi in the afternoon, dinner booked for warmth rather than scarcity. It is the least logistical sightseeing of the Tuscan year.`,
+      },
+      {
+        id: 'thermal-springs',
+        heading: 'The thermal springs: January’s secret weapon',
+        body: `Tuscany’s underrated winter asset is volcanic. The region is seamed with **natural thermal springs**, and January — steam rising into cold air, crowds gone — is their finest month. In the Val d’Orcia, **Bagno Vignoni** centres on its extraordinary medieval square that is itself a steaming thermal pool (bathing is in the spa facilities and pools around it, not the historic square), while **Bagni San Filippo** offers its white calcium formations and warm cascades in the woods on Monte Amiata’s flank. Further south in the Maremma, the sulphurous falls at **Saturnia** are the famous postcard.
+
+The January formula: a morning in Siena or Pienza, an afternoon soak as the light fades, dinner with the appetite only hot water in cold air produces. Spa facilities run year-round with winter hours — book ahead for the structured ones, check current access arrangements for the free natural sites near your date, and pack the swimsuit no one expects on a January packing list.
+
+Logistics lean on a car, [as all winter countryside does](/blog/tuscany-in-december-2026/); the springs cluster along [the Val d’Orcia routes](/blog/val-dorcia-day-trip-from-siena-2026/), making them the rare January reason to leave the cities — and a good one.`,
+      },
+      {
+        id: 'january-table',
+        heading: 'The January table',
+        body: `The winter kitchen peaks in January. This is the month for ribollita eaten as intended — thick, reheated, better on day two — for pappardelle under wild-boar and hare ragùs, for bistecca justified by the temperature, and for the black winter truffle that succeeds [autumn’s white](/blog/tuscany-in-november-2026/) at gentler prices. The [olio nuovo](/blog/tuscany-olive-harvest-olio-nuovo-2026/) pressed in November is still young and peppery — January is its last unambiguous season — and blood oranges from the south stack the market stalls.
+
+January dining has its own pleasures of access: the season’s quiet means the small rooms that book out from spring to autumn take walk-ins, kitchens cook for regulars rather than turnover, and lunch can stretch shamelessly because nothing outside is rushing you. The one caution repeats from every winter month: independent restaurants take their own holidays in the low season, so check the week’s opening days for anywhere specific, and keep [the food guide’s](/blog/tuscany-food-guide/) two-streets rule as backup.
+
+Pair the month with wine bought where it was made: enotecas in Montalcino and Montepulciano stay open and conversational, and January’s empty roads make [the Val d’Orcia wine towns](/blog/val-dorcia-day-trip-from-siena-2026/) a calm drive rather than a season’s campaign.`,
+      },
+      {
+        id: 'where-to-base',
+        heading: 'Where to base yourself in January',
+        body: `January inverts several of this site’s standing recommendations, so state the winter rules plainly.
+
+**City beats countryside, without exception for first-timers.** The rural closures, short days and heating lottery that [November](/blog/tuscany-in-november-2026/) and [December](/blog/tuscany-in-december-2026/) manage around reach their maximum in January; a farmhouse that is magic in October is a logistics exercise in the deep winter. Save the agriturismo for another month unless you know exactly what you are booking.
+
+**Florence edges Siena for the full-January agenda** — the museum depth, the saldi at their strongest, the Viareggio train — which reverses [our usual verdict](/blog/florence-or-siena-which-to-visit-2026/). But Siena keeps its trump card: the winter-evening city, resident and lamplit, is the month’s most atmospheric sleep, and the [where-to-stay guide’s](/blog/where-to-stay-in-siena/) comfort checklist (heating, lift, restaurant street within two minutes) is the January booking bible. The honest synthesis is the same split as ever, weighted city-heavy: Florence for the days, a Siena night or two for the soul.
+
+**Whatever you book, book warmth first.** In January the property’s heating, insulation and indoor common space matter more than its view — the view is dark by 17:00 anyway.`,
+      },
+      {
+        id: 'a-january-plan',
+        heading: 'A January long weekend that works',
+        body: `**Friday — Florence.** Arrive, coat on, straight to the winter city: an afternoon collection (the Bargello suits short days), the saldi streets as the lights come on, dinner in the Oltrarno.
+
+**Saturday — the Uffizi, properly.** The year’s emptiest great museum, taken slowly all morning. Long lunch. Second interior or shopping by afternoon; San Miniato al Monte for the sunset over a cold, clear city if the sky cooperates.
+
+**Sunday — Siena.** The 131R down, the quiet Campo, Museo Civico and Santa Maria della Scala on winter hours, the winter kitchen at dinner. Sleep in Siena for the resident-city evening.
+
+**Monday — the springs or the carnival.** With a car: Bagno Vignoni or Bagni San Filippo for the steam-in-cold-air morning. Without one — and from 30 January 2027 — the train to Viareggio for the opening parade instead. Either ending sends you home with the thing January promises: a Tuscany nobody else was in.
+
+Swap any day for weather; nothing here has a queue, which is the entire point. Stretch the weekend to a week and January simply repeats its pleasures at lower intensity — another collection, another soak, another long lunch — without ever asking you to compete for any of them.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Weather figures were checked in July 2026 against long-term climate averages; the Carnevale di Viareggio’s 2027 parade calendar (opening 30 January 2027, with parades on 4, 7, 9, 14 and 20 February) against the event’s announced dates — confirm near the date on official channels, as carnival schedules can adjust; and the saldi pattern against the regulated regional calendar, in which Tuscany’s 2026 winter sales opened on 3 January for 60 days, with 2027 dates set regionally and announced close to the season. Public-holiday dates follow the fixed Italian calendar. Thermal-spring access descriptions are general — check current arrangements and winter hours for specific sites near your date. We have no affiliate relationship with any venue, spa or event named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Every month in this series trades something; January just states its trade with unusual honesty. It offers no golden hills, no terrace evenings, no harvest theatre — and in exchange it hands over the region itself: the paintings without the crowds, the tables without the reservations, the prices without the season, steam rising off Roman water into cold blue air, and — for one Saturday at the month’s end in 2027 — giant paper giants dancing down a seafront. Come with a real coat and modest daylight ambitions, and January quietly delivers what the famous months only advertise: Tuscany, undivided, yours.`,
+      },
+    ],
+    [
+      { q: 'Is January a good time to visit Tuscany?', a: 'For museum-first, food-forward city trips it is the year’s best-kept secret: the lowest prices, the emptiest great collections and zero crowd-planning — traded against cold weather, short days and the deepest rural closures of the calendar.' },
+      { q: 'How cold is Tuscany in January?', a: 'Long-term averages put Siena around 9°C by day and about 1°C at night, and Florence — its coldest month — near 11°C by day and 2°C overnight. Snow is rare but possible. Pack a genuinely warm coat and confirm your accommodation’s heating in writing.' },
+      { q: 'When do the winter sales start in Italy in 2027?', a: 'The saldi invernali open in the first days of January under a regulated regional calendar — Tuscany’s 2026 round began on 3 January and ran 60 days — with exact 2027 dates announced regionally near the new year.' },
+      { q: 'When is the Viareggio Carnival in 2027?', a: 'Unusually early: the opening parade is Saturday 30 January 2027, with further parades announced for 4, 7, 9, 14 and 20 February. Parades are ticketed through official channels; confirm the schedule near the date.' },
+      { q: 'Are museums open in Tuscany in January?', a: 'Yes, on winter schedules — and at their annual emptiest, with mid-January weekdays the quietest sightseeing days of the year. Verify each venue’s current reduced days and hours, which peak in these weeks.' },
+      { q: 'What is there to do in Tuscany in January?', a: 'The great museums without crowds, the regulated winter sales, the thermal springs of the Val d’Orcia and Maremma steaming in cold air, the winter kitchen at full depth — and from 30 January 2027, the opening of the Viareggio Carnival.' },
+      { q: 'Is the countryside worth visiting in January?', a: 'Selectively, by car: the wine-town enotecas stay open, the thermal springs are at their atmospheric best and the empty roads make driving easy — but agriturismi and rural restaurants are at their most closed, so verify everything specific before going.' },
+      { q: 'What do public holidays close in early January?', a: '1 January and Epiphany on 6 January are full public holidays with Sunday-style transport and widespread closures. The festive season’s last family-travel surge surrounds the 6th; the true low-season quiet begins after it.' },
+    ],
+    '2026-07-31',
+    {
+      seoTitle: 'Tuscany in January 2027: Sales, Springs & the Carnival’s Early Start',
+      primaryKeyword: 'tuscany in january',
+      secondaryKeywords: [
+        'tuscany january 2027',
+        'tuscany weather january',
+        'viareggio carnival 2027',
+        'italy winter sales january',
+        'tuscany thermal springs winter',
+        'tuscany low season',
+      ],
+      imageAlt: 'Winter panorama over Florence from San Miniato al Monte',
+      canonicalPath: '/blog/tuscany-in-january-2027',
+      tags: ['tuscany in january', 'viareggio carnival', 'saldi invernali', 'thermal springs tuscany', 'tuscany winter'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
