@@ -5187,6 +5187,306 @@ Rearrange freely around rain — every outdoor day here has an indoor understudy
       tags: ['tuscany in october', 'montalcino harvest', 'olio nuovo', 'duomo floor uncovering 2026', 'tuscany autumn'],
     }
   ),
+  A(
+    'tuscany-in-december-2026',
+    'Tuscany in December 2026: Siena’s Medieval Market, New Oil & Quiet Christmas',
+    'Best time to visit',
+    'Tuscany',
+    'Tuscany in December 2026: Siena’s Mercato nel Campo, the Val d’Orcia oil festival, olio nuovo at its peak, holiday closures and honest winter advice.',
+    '/images/siena/05-piazza-del-campo-panorama.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `December is Tuscany for people who want the region to themselves — and who understand the deal. Days are short and cold, some rural Tuscany is closed for winter, and the Duomo’s famous floor is back under its protective boards. In exchange: Siena’s **Mercato nel Campo** turns the Campo into a medieval market on its traditional first-weekend-of-December dates, the Val d’Orcia celebrates the year’s **new oil** at San Quirico’s early-December festival, the season’s olio nuovo and white truffles are both on the table, and the towns spend the month lit, garlanded and almost entirely local. Build the trip around food, museums and the festive calendar, and December pays for itself in atmosphere.`,
+      },
+      {
+        id: 'the-case-for-december',
+        heading: 'The case for December',
+        body: `Every month in this series trades something for something. December’s trade is the starkest and, for the right traveller, the best. What you give up is daylight — about nine hours of it, with sunset before 17:00 — along with terrace weather, some countryside infrastructure, and the uncovered cathedral floor that defined the autumn. What you get is Tuscany at its least performed: locals-only streets, unhurried restaurants cooking their richest food of the year, accommodation at its most negotiable outside the holiday dates themselves, and the peculiar privilege of famous places in their off-duty clothes.
+
+December is also, quietly, one of the most photogenic months. Low sun all day, Christmas lights on medieval stone after 16:30, and the Campo — for one weekend — full of wooden stalls instead of tour groups. If your idea of a Tuscan trip is built on long evenings at the table rather than long afternoons in the vineyards, skip straight to booking. If it is built on golden landscapes, [October](/blog/tuscany-in-october-2026/) is your month instead.
+
+![Piazza del Campo in Siena seen in panorama](/images/siena/05-piazza-del-campo-panorama.webp)
+*The Campo out of season: one December weekend a year, it becomes a medieval market again.*`,
+      },
+      {
+        id: 'december-weather',
+        heading: 'The weather, honestly',
+        body: `Long-term climate averages, as checked in July 2026: Siena in December runs around **9–10°C by day and about 3°C at night**, with roughly eleven days seeing some rain; Florence is a degree or two milder by day and drops near freezing overnight. Snow is rare but not unknown — a dusting on the Campo happens some winters and paralyses nothing. The defining number is daylight: about **nine hours**, sunrise around 7:40 and sunset around 16:40.
+
+Plan the day shape accordingly. Mornings are for outdoor sightseeing while the light is good; the hours after 16:00 belong to interiors — churches, museums, enotecas, and the aperitivo hour that Italian winters were designed around. Fog is possible in the valleys, cold wind is common on the hilltops, and heated interiors are universal in the cities and variable in the countryside.
+
+Pack a genuinely warm coat rather than layered optimism, gloves and a hat for the evening passeggiata, and shoes that handle cold wet stone. [The packing checklist](/blog/tuscany-packing-checklist/) covers winter specifics — the one addition December demands is checking, before booking, that your accommodation states its heating plainly.`,
+      },
+      {
+        id: 'mercato-nel-campo',
+        heading: 'Mercato nel Campo: Siena’s December headline',
+        body: `Once a year, Siena revives the Mercato Grande — the great medieval market that once filled Piazza del Campo — and the result is the city’s best December tradition. For one weekend, **traditionally the first weekend of December**, more than a hundred and fifty wooden stalls take over the shell-shaped square: Tuscan food and wine producers on one side, artisans on the other, with the day running roughly morning to evening and the event held rain or shine in all but extreme weather.
+
+It is a genuinely good market rather than a tourist pastiche — Sienese do their Christmas food shopping here — and it is the single most atmospheric thing that happens on the Campo outside Palio season. Go hungry: the stalls are a rolling lunch of pecorino, cured meats, porchetta, chestnuts, mulled wine and the city’s Christmas sweets.
+
+The honest note our standards require: as of our July 2026 check, the comune had not yet published the 2026 edition’s dates. The first-weekend pattern points to early December — confirm on Siena’s official tourism channels once the winter programme is announced, and book accommodation for that weekend ahead of the confirmation rather than after it, because the city fills.`,
+      },
+      {
+        id: 'san-quirico-oil-festival',
+        heading: 'The Val d’Orcia’s oil festival at San Quirico',
+        body: `December’s second fixed point sits an hour south. **San Quirico d’Orcia** — the small Via Francigena town between Pienza and Montalcino — has celebrated the year’s new extra-virgin olive oil with its **Festa dell’Olio** every December since 1993: guided tastings of the new pressing with experts walking visitors through the oil’s character, producers from the surrounding hills selling direct, food stalls pairing the oil with everything it belongs on, and winter folklore filling the streets between them.
+
+Recent editions have run across the early-December days around the Immacolata holiday — the 2025 edition ran 5–8 December — and the 2026 dates had not been published at our July 2026 check; confirm on the town’s official channels. The pairing writes itself: an early-December trip can plausibly take Siena’s Mercato nel Campo one day and San Quirico’s oil festival another, with the [Val d’Orcia’s](/blog/val-dorcia-day-trip-from-siena-2026/) winter light — bare, sharp and strange — as the drive between them.
+
+This is also the moment to say plainly: [the olio nuovo](/blog/tuscany-olive-harvest-olio-nuovo-2026/) is at full strength in December. The pressing rush is over, every producer has the new vintage on sale, and a tin bought at a festival stall from the farmer who made it is the best-value Christmas present Tuscany sells.`,
+      },
+      {
+        id: 'december-table',
+        heading: 'The December table: Siena’s sweets come home',
+        body: `December is the month Siena’s two famous sweets stop being souvenirs and become what they always were: Christmas food. **Panforte** — the dense, spiced medieval cake of fruit, nuts and honey — and **ricciarelli**, the soft almond biscuits, fill every bakery window in the city, and buying them in December from a Sienese pasticceria is the difference between eating a tradition and eating a airport gift. Ask for them by name, take them home whole, and serve them the way the city does — in thin slices, with coffee or vin santo, at the end of a long meal.
+
+Around the sweets, the winter kitchen is at full depth: ribollita and other bread soups at their thickest, wild boar and hare over pappardelle, white truffle still shaving over tagliolini in the season’s tail, chestnuts in castagnaccio and roast form, and the new oil poured raw over all of it. Enotecas are in conversation mode, and the year’s new vintage is settling in the cellars beneath your glass.
+
+[The Tuscany food guide](/blog/tuscany-food-guide/) maps the canon; December is the month the canon was written for. Book the special dinner for a weeknight — holiday weekends fill with Italian families doing exactly what you are doing.`,
+      },
+      {
+        id: 'holiday-calendar',
+        heading: 'The holiday calendar: dates that shape the month',
+        body: `Italy’s December runs on fixed public holidays, and they shape opening hours more than the weather does. **8 December, the Immacolata**, is a national holiday and the traditional opening of the festive season — lights on, presepi (nativity scenes) unveiled, and a long-weekend surge of Italian travellers around it. **25 and 26 December — Natale and Santo Stefano** — close most things, with Christmas Day the quietest day of the Italian year; plan a hotel with a restaurant or a booked Christmas lunch well ahead. The season then runs through New Year to **Epiphany on 6 January**, which closes the festive calendar.
+
+Around those dates, expect Sunday-style transport timetables on the holidays themselves, museums on reduced winter schedules generally, and the counterintuitive rhythm of an Italian December: the cities busiest with domestic visitors on the holiday weekends and remarkably quiet on the ordinary weekdays between them. Those weekdays — a Tuesday in mid-December, say — are among the emptiest good-weather-permitting sightseeing days of the entire year.
+
+One planning warning inherited from every winter month: **verify current winter opening hours venue by venue**, including [Siena’s museums](/blog/best-things-to-do-in-siena/), rather than assuming the summer schedule. The Duomo’s marble floor is back under its protective boards — [the 2026 uncovering ended 15 November](/blog/tuscany-in-november-2026/) — and the cathedral runs winter hours, though the complex remains open and the crowds of the uncovering season are gone.`,
+      },
+      {
+        id: 'christmas-atmosphere',
+        heading: 'Lights, presepi and the quiet contrade',
+        body: `Tuscan Christmas is decoration with restraint: warm lights strung over stone lanes, shop windows dressed with care, and the nativity-scene tradition — the presepe — taken seriously in churches across the region, from simple parish arrangements to elaborate constructed landscapes. Walking a city after dark in December, with the lights on and the streets local, is the season’s core experience and it is entirely free.
+
+In Siena the month belongs to the residents in a way even November does not. The contrade hold their winter rhythms — social clubs, dinners, the long off-season of a city whose year peaks in July and August — and visitors who walk beyond the Campo-to-Duomo spine will find neighbourhood Siena at its most unguarded. Florence dresses more grandly for the season and fills more heavily on the holiday weekends; the choice between them in December is the choice between a lit drawing room and a lit kitchen. We would take the kitchen — but [the transport guide](/florence-to-siena-by-train-or-bus/) makes doing both straightforward, and December’s empty trains make the connection painless.`,
+      },
+      {
+        id: 'countryside-in-winter',
+        heading: 'The countryside: beautiful, reduced, drive-only',
+        body: `Rural Tuscany in December operates on winter rules. A meaningful share of agriturismi close for the season or open only for the holidays; countryside restaurants reduce to weekend service; village museums run short hours or shut entirely; and bus service on rural lines is at its annual minimum, with holiday timetables thinning it further. The landscape compensates in its own register — bare vines in ranks, olive trees silver against brown fields, woodsmoke, and light that photographers cross the world for — but it must be visited deliberately.
+
+The rules from [November](/blog/tuscany-in-november-2026/) apply with less slack: drive, check the week’s actual opening days before committing to any specific cellar or restaurant, aim at working places and events rather than pure scenery, and be off the hill roads before dark — which now means before 17:00. Montalcino and Montepulciano keep their enotecas open and their tasting rooms warm year-round; the [Val d’Orcia day trip](/blog/val-dorcia-day-trip-from-siena-2026/) works in December as a compact, early-started loop with the oil festival as its anchor when the dates align.`,
+      },
+      {
+        id: 'new-year',
+        heading: 'Seeing the year out',
+        body: `If your December runs to its end, plan New Year’s Eve — the notte di San Silvestro — around the table rather than a square. The Italian tradition is the **cenone**, the long year-end dinner, and Tuscan restaurants sell it as a fixed multi-course menu that books out well in advance; reserve as soon as your dates are certain, and expect lentils on the menu, eaten at midnight for luck. City squares fill with informal celebration, but this is not a fireworks-arms-race culture — the night’s centre of gravity is indoors.
+
+**1 January is a public holiday** on the quiet model of Christmas Day: sleep in, walk the empty streets, and plan nothing ambitious. The season then coasts on holiday rhythms until **Epiphany on 6 January**, when the Befana closes the calendar, the lights come down, and Tuscany begins its quietest weeks of all — the deep-winter lull that makes December look busy.`,
+      },
+      {
+        id: 'a-december-plan',
+        heading: 'A December long weekend that works',
+        body: `**Friday — Siena.** Arrive, drop bags, and take the city after dark: lights on the banchi, aperitivo indoors, and the first panforte of the trip. If your dates catch the Mercato nel Campo weekend, this evening walk doubles as reconnaissance.
+
+**Saturday — the Campo or the museums.** On market weekend, give the morning to the stalls and eat lunch standing up. Otherwise: the cathedral complex on winter hours, the Museo Civico’s frescoes, and Santa Maria della Scala’s covered depths — December’s indoor bench is the same as November’s, minus the queues.
+
+**Sunday — the Val d’Orcia.** An early drive south: San Quirico for the oil festival when dates align (or its enotecas when they do not), Pienza or Montalcino for lunch, winter light on the ridges, and back before dark.
+
+**Monday — Florence or the slow morning.** Either the emptiest Uffizi of the year via an early train, or the December luxury of nowhere to be: coffee, a last bakery visit, and the Campo with pigeons outnumbering people.
+
+The plan’s only fixed points are the two festival calendars — everything else in December rearranges without penalty, which is precisely the month’s charm.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Weather figures were checked in July 2026 against long-term climate averages; the Mercato nel Campo’s first-weekend-of-December tradition, scale and format against Siena’s official tourism information and recent editions; and the San Quirico d’Orcia Festa dell’Olio’s history (annual since 1993) and recent early-December dates (5–8 December in 2025) against the event’s published materials. **Neither event’s 2026 dates had been published at our check** — confirm both on official channels once winter programmes are announced. Public-holiday dates follow the fixed Italian calendar. The Duomo floor’s 2026 uncovering ended 15 November, per the Opera del Duomo’s published calendar. We have no affiliate relationship with any venue, event or festival named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `December closes this series where it should: with the reminder that Tuscany is not a set that strikes itself when the visitors leave. The region’s best month is the one that matches what you came for — and December’s offer is specific: the year’s richest food, a medieval market on the most beautiful square in Italy, new oil from the hands that pressed it, and cities returned so completely to their residents that being there feels less like tourism than like being let in. Bring a real coat, book the two festival weekends early, and keep a slice of panforte for the flight home. It travels better than summer does.`,
+      },
+    ],
+    [
+      { q: 'Is December a good time to visit Tuscany?', a: 'For food, atmosphere and empty cities, yes — it is the most local month of the year, with Siena’s Mercato nel Campo and the Val d’Orcia’s oil festival as anchors. For landscapes and terrace weather it is the wrong month: days are short, cold and sometimes wet.' },
+      { q: 'What is the weather like in Tuscany in December?', a: 'Long-term averages show Siena around 9–10°C by day and 3°C at night with roughly eleven rain days; Florence runs slightly milder by day and near freezing overnight. Daylight is about nine hours, with sunset around 16:40. Snow is rare but possible.' },
+      { q: 'When is the Mercato nel Campo in Siena?', a: 'Traditionally the first weekend of December, when over 150 wooden stalls recreate the medieval Mercato Grande on Piazza del Campo. The 2026 dates had not been published at our July 2026 check — confirm on Siena’s official tourism channels.' },
+      { q: 'What is the Festa dell’Olio in San Quirico d’Orcia?', a: 'The Val d’Orcia’s celebration of the year’s new olive oil, held annually in early December since 1993, with guided tastings and producers selling direct; the 2025 edition ran 5–8 December. Confirm the 2026 dates on the town’s official channels.' },
+      { q: 'Is the Siena Duomo floor visible in December 2026?', a: 'No — the 2026 uncovering window ended on 15 November and the protective boards are back. The cathedral complex remains open on winter hours and is at its quietest, but the floor itself waits for the next uncovering period.' },
+      { q: 'What is closed in Tuscany in December?', a: 'Much of rural Tuscany runs winter rules: many agriturismi and countryside restaurants close or reduce to weekends, museums keep shorter winter hours, and 8, 25 and 26 December are public holidays with Sunday-style transport. City sights stay open — verify each venue’s current schedule.' },
+      { q: 'What should you eat in Tuscany in December?', a: 'The winter canon: ribollita, wild-boar pappardelle, the tail of white truffle season, chestnuts, and olio nuovo over everything — plus Siena’s Christmas sweets, panforte and ricciarelli, bought in the month they were made for.' },
+      { q: 'Is Christmas Day a good day to sightsee in Tuscany?', a: 'No — 25 December is the quietest day of the Italian year, with most venues closed and transport minimal. Plan a booked Christmas lunch or a hotel with a restaurant, enjoy the walk, and save the sightseeing for the days around it.' },
+    ],
+    '2026-07-31',
+    {
+      seoTitle: 'Tuscany in December 2026: Medieval Market, New Oil & Quiet Christmas',
+      primaryKeyword: 'tuscany in december',
+      secondaryKeywords: [
+        'tuscany december 2026',
+        'mercato nel campo siena',
+        'siena christmas market',
+        'festa dell’olio san quirico',
+        'tuscany winter travel',
+        'tuscany weather december',
+      ],
+      imageAlt: 'Panoramic view of Piazza del Campo in Siena',
+      canonicalPath: '/blog/tuscany-in-december-2026',
+      tags: ['tuscany in december', 'mercato nel campo', 'siena christmas', 'festa dell’olio', 'tuscany winter'],
+    }
+  ),
+  A(
+    'florence-or-siena-which-to-visit-2026',
+    'Florence or Siena: Which Should You Visit in 2026? An Honest Comparison',
+    'Practical tips',
+    'Tuscany',
+    'Florence or Siena in 2026? An honest comparison: first trips, bases, art, food, budgets, seasons — and how to combine both in one itinerary.',
+    '/images/tuscany/florence-uffizi-gallery-art.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `**Visit Florence for the art, base yourself in Siena for the region, and see both if you have four days or more.** Florence is one of the world’s great art cities — the Uffizi, Michelangelo’s David, Brunelleschi’s dome — and it earns two full days from anyone who cares about the Renaissance. Siena is the better *experience* of a Tuscan city: smaller, more intact, more local after dark, and far better placed for the Chianti, Val d’Orcia and San Gimignano. They sit just over an hour apart by the 131R bus, so this is not a hard either/or — it is a question of where your nights go. The rest of this guide answers it persona by persona.`,
+      },
+      {
+        id: 'how-far-apart',
+        heading: 'How far apart are Florence and Siena?',
+        body: `Close enough that the comparison is really about nights, not geography. The **131R fast bus** links central Florence with Siena in about **74 minutes**, at **€8.40** bought online or at the counter (€13.00 on board), as checked in July 2026 — and it arrives on the practical side of Siena’s historic centre. The **train** takes around an hour and a half with a change or slow service via Empoli, and arrives below Siena’s old town, which matters with luggage.
+
+The practical consequences: either city can be day-tripped from the other; a two-centre trip loses only half a travel day to the switch; and there is no version of this decision that locks you out of the other city. [Our Florence-to-Siena transport guide](/florence-to-siena-by-train-or-bus/) covers tickets, stations and the bus-versus-train choice in full — read it before you book anything, because the arrival points shape which end of Siena to sleep in.`,
+      },
+      {
+        id: 'first-trip',
+        heading: 'Which is better for a first trip to Italy?',
+        body: `**Florence — with a caveat.** On a first Italian trip, the roll-call matters: the Uffizi’s Botticellis, the Accademia’s David, the Duomo and its climbable dome, Ponte Vecchio, and a concentration of Renaissance landmarks nothing in Europe matches. Skipping all of that on a first visit usually produces regret, and Florence’s transport links make it the easier logistical anchor for a first-timer’s Tuscany.
+
+The caveat is honest and important: Florence in season is intensely crowded, and its centre can feel like a museum with a city attached. First-time visitors who care more about *atmosphere* than named masterpieces — who want evening streets that belong to residents, a square worth sitting in for an hour, a city they can hold in their head after two days — consistently report loving Siena more. [Our best things to do in Siena guide](/blog/best-things-to-do-in-siena/) shows what that version of the trip looks like.
+
+The synthesis for most first trips: **days in Florence, nights in Siena** — or two nights in each. The either/or framing is the only wrong answer.`,
+      },
+      {
+        id: 'better-base',
+        heading: 'Which is the better base for exploring Tuscany?',
+        body: `**Siena, and it is not close.** Look at the map of what independent travellers actually want to reach: the **Chianti** hills begin immediately north of Siena; the **Val d’Orcia** — Pienza, Montalcino, Montepulciano — starts forty minutes south; **San Gimignano** is one direct bus west; Monteriggioni is on the doorstep. From Siena these are relaxed day trips with time in hand. From Florence, the Val d’Orcia in particular costs two to three extra travel hours per day, which turns the region’s best landscapes into an endurance event.
+
+Florence’s counter-argument is rail: it is the better base for train day trips — Pisa, Lucca, Bologna — and for travellers arriving and departing by air. But for the classic Tuscany of hill towns, wine roads and cypress ridges, [the Siena day-trip menu](/blog/siena-day-trips-without-a-car/) is simply the stronger hand, with [Val d’Orcia](/blog/val-dorcia-day-trip-from-siena-2026/) and [San Gimignano](/blog/san-gimignano-day-trip-from-siena-2026/) as the proof.
+
+![Terracotta rooftops across Siena’s historic centre](/images/siena/08-siena-cityscape.webp)
+*Siena: the smaller city, and the better-placed base for almost everything travellers call “Tuscany”.*`,
+      },
+      {
+        id: 'art-and-museums',
+        heading: 'Which is better for art and museums?',
+        body: `**Florence, by the length of the Renaissance — but Siena’s case is subtler than its reputation.** Florence holds the headline collection of Western art: the Uffizi, the Accademia, the Bargello’s sculpture, the Brancacci Chapel frescoes, and churches that would each anchor a smaller city’s tourism single-handed. If specific famous works are the reason you are coming to Italy, Florence wins and no honest guide pretends otherwise.
+
+Siena’s art is a different proposition: not a greatest-hits collection but a complete medieval city with its masterpieces still in situ. Lorenzetti’s Allegory of Good and Bad Government in the Museo Civico, Duccio’s Maestà in the cathedral museum, the Piccolomini Library’s frescoes — and above all the cathedral itself, whose inlaid marble floor is fully uncovered in 2026 from **18 August to 15 November**, one of the year’s genuine art events anywhere in Italy.
+
+The practical framing: Florence is where you go to see art; Siena is where you go to stand inside it. Visitors with two art days should spend both in Florence; visitors with four should split them.`,
+      },
+      {
+        id: 'food-and-evenings',
+        heading: 'Which is better for food and evenings?',
+        body: `**Siena for the evening; call the food a draw decided by how you eat.** Both cities cook the same Tuscan canon well — ribollita, pici, wild-boar ragù, bistecca, pecorino — and both have tourist traps in their most photographed locations. Florence offers more range at the top and bottom: more ambitious restaurants, more international options, and the great food-market culture of the Mercato Centrale. Siena offers a higher hit rate two streets from the centre, its own sweet tradition — panforte and ricciarelli, best [in their Christmas home month](/blog/tuscany-in-december-2026/) — and easier access to the wine country its lists are drawn from.
+
+The evening is where the cities genuinely separate. Florence after dark remains a busy international city. Siena after the day-trippers leave becomes something rarer: a resident city again, with the Campo settling into golden light and the passeggiata running on local time. Travellers consistently name that hour as the reason they wished they had slept in Siena. [Where to stay in Siena](/blog/where-to-stay-in-siena/) covers how to buy that hour well.`,
+      },
+      {
+        id: 'budget',
+        heading: 'Which is cheaper?',
+        body: `**Siena, moderately and fairly consistently.** Like-for-like accommodation generally costs less than Florence’s equivalent in season, restaurant prices away from the Campo undercut Florence’s centre, and Siena’s headline sights bundle into passes — the cathedral’s OPA SI Pass and the civic museums — that cost less than Florence’s top-tier ticket stack, where the Uffizi and Accademia alone consume a meaningful budget line in high season.
+
+The honest qualifiers: Florence’s hostel and apartment supply gives true budget travellers more floor to stand on; Palio week (around 2 July and 16 August) inverts everything, making Siena briefly the most expensive room in Tuscany; and transport economics favour whichever city you fly through. For full numbers rather than adjectives, [our Siena trip-cost guide](/blog/how-much-siena-trip-costs/) and [Florence budget guide](/blog/florence-travel-budget-guide/) break both cities down line by line — the comparison there is date-stamped and worth ten minutes before you commit nights.`,
+      },
+      {
+        id: 'with-kids',
+        heading: 'Which is better with children?',
+        body: `**Siena, for most families with young children; Florence for teenagers with an art spark.** Siena’s advantages are structural: a compact, traffic-free centre where children can walk safely, the Campo as a natural evening playground, climbable towers, green escapes like Orto de’ Pecci, and a scale that does not exhaust small legs. [Our Siena with kids guide](/blog/siena-with-kids/) turns that into an actual plan.
+
+Florence asks more of families — bigger crowds, longer queues, more traffic, museum days that test patience — and returns more only when the children are old enough to meet the art halfway. A teenager who has just met the David is having a different trip from a six-year-old queueing behind them.
+
+The seasonal note from our monthly guides applies doubly with children: [September](/blog/siena-in-september-2026/) and [October](/blog/tuscany-in-october-2026/) soften both cities’ crowds, and the autumn harvest season adds farm experiences — [the olive harvest above all](/blog/tuscany-olive-harvest-olio-nuovo-2026/) — that beat any museum for the under-tens.`,
+      },
+      {
+        id: 'by-season',
+        heading: 'Does the season change the answer?',
+        body: `Meaningfully. **In high summer**, Siena’s Palio (2 July and 16 August) makes it either the reason for your trip or the thing to plan around — [our Palio guide](/blog/palio-di-siena-guide/) explains which — while Florence’s heat and crowds argue for [survival tactics](/blog/florence-summer-heat-survival-tips-2026/) or a different month altogether. **In autumn 2026**, Siena’s stock rises sharply: the uncovered Duomo floor until 15 November, the wine harvest around the city, and the [September](/blog/siena-in-september-2026/)–[October](/blog/tuscany-in-october-2026/) sweet spot we cover month by month. **In winter**, both cities reward the food-and-museums traveller; Siena adds the Mercato nel Campo’s medieval market weekend in [December](/blog/tuscany-in-december-2026/), Florence adds the emptiest Uffizi of the year.
+
+If your dates are fixed, let the season cast the deciding vote between two cities this evenly matched. If your dates are flexible, [the best time to visit Tuscany guide](/blog/best-time-to-visit-tuscany/) is the place to start — choose the month first, the base second.`,
+      },
+      {
+        id: 'do-both',
+        heading: 'Can you do both — and how?',
+        body: `Yes, and above three or four nights you should. The patterns that work, in ascending order of time:
+
+**The day trip (1 day).** Based in one city, visit the other. Florence-based travellers day-tripping to Siena should take the early 131R and stay for the golden hour — [the day-trip playbook is here](/blog/best-day-trips-from-florence-to-siena-2026/). Siena-based travellers get Florence’s museums with an early bus and pre-booked tickets.
+
+**The split (4–7 nights).** Two or three nights in each, moving once. Order matters less than people fear; ending in whichever city hosts your departure airport saves a stressed final morning. This is the format we would book for most first-time couples.
+
+**The Siena base with Florence raids (5–10 nights).** Sleep in Siena throughout; give Florence one or two pre-booked museum days by bus. This maximises evening quality and day-trip reach at the cost of two extra transit runs — the format for travellers who already know the art matters less to them than the region.
+
+For the full-region version, [the 7-day Tuscany itinerary](/blog/7-day-tuscany-itinerary-independent-travellers-2026-florence-base/) shows the Florence-based alternative — read it against this guide and choose the shape that fits your priorities rather than ours.`,
+      },
+      {
+        id: 'common-mistakes',
+        heading: 'The five mistakes people make choosing between them',
+        body: `**1. Treating it as either/or.** The cities are 74 minutes apart. The most common regret we hear is not “we picked the wrong city” but “we didn’t realise how easy both was.”
+
+**2. Day-tripping Siena and judging it at noon.** A midday-only visit meets Siena at its most crowded and leaves before its best hour. If Siena underwhelmed you on a coach-tour stop, you have not actually seen it — the evening city is the argument.
+
+**3. Booking Florence for the region.** Travellers who want the Val d’Orcia, Chianti and hill towns but sleep in Florence spend their week in transit. Match the base to the trip you actually described when you planned it.
+
+**4. Ignoring the calendar.** Palio week transforms Siena’s prices and access; the 2026 floor uncovering transforms its cathedral; Florence’s museum queues transform with the seasons. The same two cities produce different trips in different months — [start from the month](/blog/best-time-to-visit-tuscany/), then choose.
+
+**5. Underestimating luggage logistics.** Siena’s bus arrives near the centre; its train station sits below the old town; Florence’s stations are central but its ZTL punishes improvised driving. The transfer details in [our transport guide](/florence-to-siena-by-train-or-bus/) — and [the mistakes guide](/blog/common-mistakes-siena/) — cost ten minutes to read and save the worst hour of the trip.`,
+      },
+      {
+        id: 'the-verdict',
+        heading: 'The verdict, persona by persona',
+        body: `**First trip to Italy, art matters:** Florence days, Siena nights — or split 2/2.
+
+**Renaissance pilgrimage:** Florence, full stop. Add Siena only if the cathedral floor’s 2026 window overlaps your dates.
+
+**Tuscany of hill towns and wine roads:** Base in Siena. Florence becomes an optional museum day.
+
+**Couples after atmosphere:** Siena, with [a weekend itinerary built for exactly this](/blog/siena-weekend-itinerary-for-couples/).
+
+**Families with young children:** Siena. With teenagers: split.
+
+**Budget-led trip:** Siena outside Palio dates; check both cost guides before deciding.
+
+**Food-first trip:** Split — Florence’s markets and range, Siena’s evenings and wine country.
+
+**Autumn 2026 specifically:** Siena. The uncovered floor, the harvests and the month guides above make this the year the smaller city wins the tiebreak.
+
+Whichever way you land, the two cities are seventy-odd minutes apart and the ticket costs less than a museum entry. The stakes are real but not ruinous — and the traveller who chooses “wrong” has merely booked the first half of their next trip. In our experience, that next trip almost always happens: Florence sends people home with a camera roll, Siena sends them home with a reason to return, and the best itineraries are built by travellers honest about which souvenir they want more.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Transport figures (the 131R’s €8.40 online fare, €13.00 on-board fare and roughly 74-minute journey) reflect our July 2026 checks, documented in [the airport-transfer guide](/blog/siena-from-florence-airport-transfer/); the Siena Duomo floor’s 2026 uncovering window (18 August–15 November) was checked in July 2026 against the Opera del Duomo’s published calendar; Palio dates are the fixed 2 July and 16 August. Comparative statements about prices and crowds are editorial judgements grounded in the date-stamped cost guides linked above rather than single-day snapshots. We have no affiliate relationship with any venue, operator or attraction named here; recommendations are editorial.`,
+      },
+    ],
+    [
+      { q: 'Is Florence or Siena better to visit?', a: 'Florence is better for headline Renaissance art — the Uffizi, the David, the Duomo. Siena is the better experience of a Tuscan city and the far better base for the Chianti, Val d’Orcia and San Gimignano. With four or more days, see both: they are just over an hour apart.' },
+      { q: 'Is Siena worth visiting if I’ve seen Florence?', a: 'Yes — arguably more so, because it answers what Florence lacks: an intact medieval city that returns to its residents each evening, with the Campo, the cathedral complex and the contrade as its own first-rank sights.' },
+      { q: 'How do you get from Florence to Siena?', a: 'The 131R fast bus takes about 74 minutes and cost €8.40 online or at the counter (€13.00 aboard) as checked in July 2026, arriving near Siena’s historic centre. The train takes around 90 minutes and arrives below the old town.' },
+      { q: 'Should I stay in Florence or Siena?', a: 'Sleep in Siena if your trip is about Tuscany — evenings, day trips and value all favour it. Sleep in Florence if your trip is about museums and rail connections. The strongest common answer is nights in both.' },
+      { q: 'Is one day enough for Siena from Florence?', a: 'One day covers Siena’s essentials — the Campo, the cathedral complex, a contrada walk and a good lunch — if you take an early bus. What a day trip cannot buy is the evening, which is Siena’s best hour.' },
+      { q: 'Is Siena cheaper than Florence?', a: 'Generally yes: rooms, restaurants away from the Campo and bundled museum passes all tend to undercut Florence in season. The exception is Palio week in July and August, when Siena briefly becomes the most expensive stay in Tuscany.' },
+      { q: 'Which is better with kids, Florence or Siena?', a: 'Siena for younger children — compact, traffic-free and walkable, with towers to climb and squares to run in. Florence rewards families with teenagers who are ready for the art. In autumn, farm harvest experiences near Siena beat both cities’ museums for small children.' },
+      { q: 'Which is better in autumn 2026?', a: 'Siena. The cathedral’s marble floor is uncovered until 15 November 2026, the wine and olive harvests surround the city from September to November, and the autumn events calendar — Greve’s wine expo, the truffle season — sits closer to a Siena base.' },
+      { q: 'Can you visit both Florence and Siena in one trip?', a: 'Easily. The proven formats are the day trip from either base, a two-or-three-night split between them, or a Siena base with one or two pre-booked Florence museum days by bus. Above three nights, doing both beats choosing.' },
+      { q: 'Do you need a car for Florence or Siena?', a: 'For the cities themselves, no — both centres are walkable and connected by frequent public transport, and both restrict cars heavily. A car earns its cost only for deep countryside touring, and even then Siena’s day-trip menu works largely car-free.' },
+    ],
+    '2026-07-31',
+    {
+      seoTitle: 'Florence or Siena: Which to Visit in 2026? Honest Comparison',
+      primaryKeyword: 'florence or siena',
+      secondaryKeywords: [
+        'florence vs siena',
+        'siena or florence which is better',
+        'where to stay florence or siena',
+        'florence or siena as a base',
+        'is siena worth visiting',
+        'florence and siena itinerary',
+      ],
+      imageAlt: 'Renaissance art inside the Uffizi Gallery in Florence',
+      canonicalPath: '/blog/florence-or-siena-which-to-visit-2026',
+      tags: ['florence or siena', 'florence vs siena', 'tuscany base', 'where to stay in tuscany', 'tuscany trip planning'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
