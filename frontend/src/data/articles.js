@@ -5327,6 +5327,166 @@ The plan’s only fixed points are the two festival calendars — everything els
       tags: ['tuscany in december', 'mercato nel campo', 'siena christmas', 'festa dell’olio', 'tuscany winter'],
     }
   ),
+  A(
+    'florence-or-siena-which-to-visit-2026',
+    'Florence or Siena: Which Should You Visit in 2026? An Honest Comparison',
+    'Practical tips',
+    'Tuscany',
+    'Florence or Siena in 2026? An honest comparison: first trips, bases, art, food, budgets, seasons — and how to combine both in one itinerary.',
+    '/images/tuscany/florence-uffizi-gallery-art.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `**Visit Florence for the art, base yourself in Siena for the region, and see both if you have four days or more.** Florence is one of the world’s great art cities — the Uffizi, Michelangelo’s David, Brunelleschi’s dome — and it earns two full days from anyone who cares about the Renaissance. Siena is the better *experience* of a Tuscan city: smaller, more intact, more local after dark, and far better placed for the Chianti, Val d’Orcia and San Gimignano. They sit just over an hour apart by the 131R bus, so this is not a hard either/or — it is a question of where your nights go. The rest of this guide answers it persona by persona.`,
+      },
+      {
+        id: 'how-far-apart',
+        heading: 'How far apart are Florence and Siena?',
+        body: `Close enough that the comparison is really about nights, not geography. The **131R fast bus** links central Florence with Siena in about **74 minutes**, at **€8.40** bought online or at the counter (€13.00 on board), as checked in July 2026 — and it arrives on the practical side of Siena’s historic centre. The **train** takes around an hour and a half with a change or slow service via Empoli, and arrives below Siena’s old town, which matters with luggage.
+
+The practical consequences: either city can be day-tripped from the other; a two-centre trip loses only half a travel day to the switch; and there is no version of this decision that locks you out of the other city. [Our Florence-to-Siena transport guide](/florence-to-siena-by-train-or-bus/) covers tickets, stations and the bus-versus-train choice in full — read it before you book anything, because the arrival points shape which end of Siena to sleep in.`,
+      },
+      {
+        id: 'first-trip',
+        heading: 'Which is better for a first trip to Italy?',
+        body: `**Florence — with a caveat.** On a first Italian trip, the roll-call matters: the Uffizi’s Botticellis, the Accademia’s David, the Duomo and its climbable dome, Ponte Vecchio, and a concentration of Renaissance landmarks nothing in Europe matches. Skipping all of that on a first visit usually produces regret, and Florence’s transport links make it the easier logistical anchor for a first-timer’s Tuscany.
+
+The caveat is honest and important: Florence in season is intensely crowded, and its centre can feel like a museum with a city attached. First-time visitors who care more about *atmosphere* than named masterpieces — who want evening streets that belong to residents, a square worth sitting in for an hour, a city they can hold in their head after two days — consistently report loving Siena more. [Our best things to do in Siena guide](/blog/best-things-to-do-in-siena/) shows what that version of the trip looks like.
+
+The synthesis for most first trips: **days in Florence, nights in Siena** — or two nights in each. The either/or framing is the only wrong answer.`,
+      },
+      {
+        id: 'better-base',
+        heading: 'Which is the better base for exploring Tuscany?',
+        body: `**Siena, and it is not close.** Look at the map of what independent travellers actually want to reach: the **Chianti** hills begin immediately north of Siena; the **Val d’Orcia** — Pienza, Montalcino, Montepulciano — starts forty minutes south; **San Gimignano** is one direct bus west; Monteriggioni is on the doorstep. From Siena these are relaxed day trips with time in hand. From Florence, the Val d’Orcia in particular costs two to three extra travel hours per day, which turns the region’s best landscapes into an endurance event.
+
+Florence’s counter-argument is rail: it is the better base for train day trips — Pisa, Lucca, Bologna — and for travellers arriving and departing by air. But for the classic Tuscany of hill towns, wine roads and cypress ridges, [the Siena day-trip menu](/blog/siena-day-trips-without-a-car/) is simply the stronger hand, with [Val d’Orcia](/blog/val-dorcia-day-trip-from-siena-2026/) and [San Gimignano](/blog/san-gimignano-day-trip-from-siena-2026/) as the proof.
+
+![Terracotta rooftops across Siena’s historic centre](/images/siena/08-siena-cityscape.webp)
+*Siena: the smaller city, and the better-placed base for almost everything travellers call “Tuscany”.*`,
+      },
+      {
+        id: 'art-and-museums',
+        heading: 'Which is better for art and museums?',
+        body: `**Florence, by the length of the Renaissance — but Siena’s case is subtler than its reputation.** Florence holds the headline collection of Western art: the Uffizi, the Accademia, the Bargello’s sculpture, the Brancacci Chapel frescoes, and churches that would each anchor a smaller city’s tourism single-handed. If specific famous works are the reason you are coming to Italy, Florence wins and no honest guide pretends otherwise.
+
+Siena’s art is a different proposition: not a greatest-hits collection but a complete medieval city with its masterpieces still in situ. Lorenzetti’s Allegory of Good and Bad Government in the Museo Civico, Duccio’s Maestà in the cathedral museum, the Piccolomini Library’s frescoes — and above all the cathedral itself, whose inlaid marble floor is fully uncovered in 2026 from **18 August to 15 November**, one of the year’s genuine art events anywhere in Italy.
+
+The practical framing: Florence is where you go to see art; Siena is where you go to stand inside it. Visitors with two art days should spend both in Florence; visitors with four should split them.`,
+      },
+      {
+        id: 'food-and-evenings',
+        heading: 'Which is better for food and evenings?',
+        body: `**Siena for the evening; call the food a draw decided by how you eat.** Both cities cook the same Tuscan canon well — ribollita, pici, wild-boar ragù, bistecca, pecorino — and both have tourist traps in their most photographed locations. Florence offers more range at the top and bottom: more ambitious restaurants, more international options, and the great food-market culture of the Mercato Centrale. Siena offers a higher hit rate two streets from the centre, its own sweet tradition — panforte and ricciarelli, best [in their Christmas home month](/blog/tuscany-in-december-2026/) — and easier access to the wine country its lists are drawn from.
+
+The evening is where the cities genuinely separate. Florence after dark remains a busy international city. Siena after the day-trippers leave becomes something rarer: a resident city again, with the Campo settling into golden light and the passeggiata running on local time. Travellers consistently name that hour as the reason they wished they had slept in Siena. [Where to stay in Siena](/blog/where-to-stay-in-siena/) covers how to buy that hour well.`,
+      },
+      {
+        id: 'budget',
+        heading: 'Which is cheaper?',
+        body: `**Siena, moderately and fairly consistently.** Like-for-like accommodation generally costs less than Florence’s equivalent in season, restaurant prices away from the Campo undercut Florence’s centre, and Siena’s headline sights bundle into passes — the cathedral’s OPA SI Pass and the civic museums — that cost less than Florence’s top-tier ticket stack, where the Uffizi and Accademia alone consume a meaningful budget line in high season.
+
+The honest qualifiers: Florence’s hostel and apartment supply gives true budget travellers more floor to stand on; Palio week (around 2 July and 16 August) inverts everything, making Siena briefly the most expensive room in Tuscany; and transport economics favour whichever city you fly through. For full numbers rather than adjectives, [our Siena trip-cost guide](/blog/how-much-siena-trip-costs/) and [Florence budget guide](/blog/florence-travel-budget-guide/) break both cities down line by line — the comparison there is date-stamped and worth ten minutes before you commit nights.`,
+      },
+      {
+        id: 'with-kids',
+        heading: 'Which is better with children?',
+        body: `**Siena, for most families with young children; Florence for teenagers with an art spark.** Siena’s advantages are structural: a compact, traffic-free centre where children can walk safely, the Campo as a natural evening playground, climbable towers, green escapes like Orto de’ Pecci, and a scale that does not exhaust small legs. [Our Siena with kids guide](/blog/siena-with-kids/) turns that into an actual plan.
+
+Florence asks more of families — bigger crowds, longer queues, more traffic, museum days that test patience — and returns more only when the children are old enough to meet the art halfway. A teenager who has just met the David is having a different trip from a six-year-old queueing behind them.
+
+The seasonal note from our monthly guides applies doubly with children: [September](/blog/siena-in-september-2026/) and [October](/blog/tuscany-in-october-2026/) soften both cities’ crowds, and the autumn harvest season adds farm experiences — [the olive harvest above all](/blog/tuscany-olive-harvest-olio-nuovo-2026/) — that beat any museum for the under-tens.`,
+      },
+      {
+        id: 'by-season',
+        heading: 'Does the season change the answer?',
+        body: `Meaningfully. **In high summer**, Siena’s Palio (2 July and 16 August) makes it either the reason for your trip or the thing to plan around — [our Palio guide](/blog/palio-di-siena-guide/) explains which — while Florence’s heat and crowds argue for [survival tactics](/blog/florence-summer-heat-survival-tips-2026/) or a different month altogether. **In autumn 2026**, Siena’s stock rises sharply: the uncovered Duomo floor until 15 November, the wine harvest around the city, and the [September](/blog/siena-in-september-2026/)–[October](/blog/tuscany-in-october-2026/) sweet spot we cover month by month. **In winter**, both cities reward the food-and-museums traveller; Siena adds the Mercato nel Campo’s medieval market weekend in [December](/blog/tuscany-in-december-2026/), Florence adds the emptiest Uffizi of the year.
+
+If your dates are fixed, let the season cast the deciding vote between two cities this evenly matched. If your dates are flexible, [the best time to visit Tuscany guide](/blog/best-time-to-visit-tuscany/) is the place to start — choose the month first, the base second.`,
+      },
+      {
+        id: 'do-both',
+        heading: 'Can you do both — and how?',
+        body: `Yes, and above three or four nights you should. The patterns that work, in ascending order of time:
+
+**The day trip (1 day).** Based in one city, visit the other. Florence-based travellers day-tripping to Siena should take the early 131R and stay for the golden hour — [the day-trip playbook is here](/blog/best-day-trips-from-florence-to-siena-2026/). Siena-based travellers get Florence’s museums with an early bus and pre-booked tickets.
+
+**The split (4–7 nights).** Two or three nights in each, moving once. Order matters less than people fear; ending in whichever city hosts your departure airport saves a stressed final morning. This is the format we would book for most first-time couples.
+
+**The Siena base with Florence raids (5–10 nights).** Sleep in Siena throughout; give Florence one or two pre-booked museum days by bus. This maximises evening quality and day-trip reach at the cost of two extra transit runs — the format for travellers who already know the art matters less to them than the region.
+
+For the full-region version, [the 7-day Tuscany itinerary](/blog/7-day-tuscany-itinerary-independent-travellers-2026-florence-base/) shows the Florence-based alternative — read it against this guide and choose the shape that fits your priorities rather than ours.`,
+      },
+      {
+        id: 'common-mistakes',
+        heading: 'The five mistakes people make choosing between them',
+        body: `**1. Treating it as either/or.** The cities are 74 minutes apart. The most common regret we hear is not “we picked the wrong city” but “we didn’t realise how easy both was.”
+
+**2. Day-tripping Siena and judging it at noon.** A midday-only visit meets Siena at its most crowded and leaves before its best hour. If Siena underwhelmed you on a coach-tour stop, you have not actually seen it — the evening city is the argument.
+
+**3. Booking Florence for the region.** Travellers who want the Val d’Orcia, Chianti and hill towns but sleep in Florence spend their week in transit. Match the base to the trip you actually described when you planned it.
+
+**4. Ignoring the calendar.** Palio week transforms Siena’s prices and access; the 2026 floor uncovering transforms its cathedral; Florence’s museum queues transform with the seasons. The same two cities produce different trips in different months — [start from the month](/blog/best-time-to-visit-tuscany/), then choose.
+
+**5. Underestimating luggage logistics.** Siena’s bus arrives near the centre; its train station sits below the old town; Florence’s stations are central but its ZTL punishes improvised driving. The transfer details in [our transport guide](/florence-to-siena-by-train-or-bus/) — and [the mistakes guide](/blog/common-mistakes-siena/) — cost ten minutes to read and save the worst hour of the trip.`,
+      },
+      {
+        id: 'the-verdict',
+        heading: 'The verdict, persona by persona',
+        body: `**First trip to Italy, art matters:** Florence days, Siena nights — or split 2/2.
+
+**Renaissance pilgrimage:** Florence, full stop. Add Siena only if the cathedral floor’s 2026 window overlaps your dates.
+
+**Tuscany of hill towns and wine roads:** Base in Siena. Florence becomes an optional museum day.
+
+**Couples after atmosphere:** Siena, with [a weekend itinerary built for exactly this](/blog/siena-weekend-itinerary-for-couples/).
+
+**Families with young children:** Siena. With teenagers: split.
+
+**Budget-led trip:** Siena outside Palio dates; check both cost guides before deciding.
+
+**Food-first trip:** Split — Florence’s markets and range, Siena’s evenings and wine country.
+
+**Autumn 2026 specifically:** Siena. The uncovered floor, the harvests and the month guides above make this the year the smaller city wins the tiebreak.
+
+Whichever way you land, the two cities are seventy-odd minutes apart and the ticket costs less than a museum entry. The stakes are real but not ruinous — and the traveller who chooses “wrong” has merely booked the first half of their next trip. In our experience, that next trip almost always happens: Florence sends people home with a camera roll, Siena sends them home with a reason to return, and the best itineraries are built by travellers honest about which souvenir they want more.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Transport figures (the 131R’s €8.40 online fare, €13.00 on-board fare and roughly 74-minute journey) reflect our July 2026 checks, documented in [the airport-transfer guide](/blog/siena-from-florence-airport-transfer/); the Siena Duomo floor’s 2026 uncovering window (18 August–15 November) was checked in July 2026 against the Opera del Duomo’s published calendar; Palio dates are the fixed 2 July and 16 August. Comparative statements about prices and crowds are editorial judgements grounded in the date-stamped cost guides linked above rather than single-day snapshots. We have no affiliate relationship with any venue, operator or attraction named here; recommendations are editorial.`,
+      },
+    ],
+    [
+      { q: 'Is Florence or Siena better to visit?', a: 'Florence is better for headline Renaissance art — the Uffizi, the David, the Duomo. Siena is the better experience of a Tuscan city and the far better base for the Chianti, Val d’Orcia and San Gimignano. With four or more days, see both: they are just over an hour apart.' },
+      { q: 'Is Siena worth visiting if I’ve seen Florence?', a: 'Yes — arguably more so, because it answers what Florence lacks: an intact medieval city that returns to its residents each evening, with the Campo, the cathedral complex and the contrade as its own first-rank sights.' },
+      { q: 'How do you get from Florence to Siena?', a: 'The 131R fast bus takes about 74 minutes and cost €8.40 online or at the counter (€13.00 aboard) as checked in July 2026, arriving near Siena’s historic centre. The train takes around 90 minutes and arrives below the old town.' },
+      { q: 'Should I stay in Florence or Siena?', a: 'Sleep in Siena if your trip is about Tuscany — evenings, day trips and value all favour it. Sleep in Florence if your trip is about museums and rail connections. The strongest common answer is nights in both.' },
+      { q: 'Is one day enough for Siena from Florence?', a: 'One day covers Siena’s essentials — the Campo, the cathedral complex, a contrada walk and a good lunch — if you take an early bus. What a day trip cannot buy is the evening, which is Siena’s best hour.' },
+      { q: 'Is Siena cheaper than Florence?', a: 'Generally yes: rooms, restaurants away from the Campo and bundled museum passes all tend to undercut Florence in season. The exception is Palio week in July and August, when Siena briefly becomes the most expensive stay in Tuscany.' },
+      { q: 'Which is better with kids, Florence or Siena?', a: 'Siena for younger children — compact, traffic-free and walkable, with towers to climb and squares to run in. Florence rewards families with teenagers who are ready for the art. In autumn, farm harvest experiences near Siena beat both cities’ museums for small children.' },
+      { q: 'Which is better in autumn 2026?', a: 'Siena. The cathedral’s marble floor is uncovered until 15 November 2026, the wine and olive harvests surround the city from September to November, and the autumn events calendar — Greve’s wine expo, the truffle season — sits closer to a Siena base.' },
+      { q: 'Can you visit both Florence and Siena in one trip?', a: 'Easily. The proven formats are the day trip from either base, a two-or-three-night split between them, or a Siena base with one or two pre-booked Florence museum days by bus. Above three nights, doing both beats choosing.' },
+      { q: 'Do you need a car for Florence or Siena?', a: 'For the cities themselves, no — both centres are walkable and connected by frequent public transport, and both restrict cars heavily. A car earns its cost only for deep countryside touring, and even then Siena’s day-trip menu works largely car-free.' },
+    ],
+    '2026-07-31',
+    {
+      seoTitle: 'Florence or Siena: Which to Visit in 2026? Honest Comparison',
+      primaryKeyword: 'florence or siena',
+      secondaryKeywords: [
+        'florence vs siena',
+        'siena or florence which is better',
+        'where to stay florence or siena',
+        'florence or siena as a base',
+        'is siena worth visiting',
+        'florence and siena itinerary',
+      ],
+      imageAlt: 'Renaissance art inside the Uffizi Gallery in Florence',
+      canonicalPath: '/blog/florence-or-siena-which-to-visit-2026',
+      tags: ['florence or siena', 'florence vs siena', 'tuscany base', 'where to stay in tuscany', 'tuscany trip planning'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
