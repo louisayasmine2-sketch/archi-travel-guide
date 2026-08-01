@@ -6106,6 +6106,160 @@ Swap any day for weather; nothing here has a queue, which is the entire point. S
       tags: ['tuscany in january', 'viareggio carnival', 'saldi invernali', 'thermal springs tuscany', 'tuscany winter'],
     }
   ),
+  A(
+    'tuscany-in-february-2027',
+    'Tuscany in February 2027: Carnival Month, Honestly Reviewed',
+    'Best time to visit',
+    'Tuscany',
+    'Tuscany in February 2027: Viareggio Carnival’s parade dates, Carnival sweets, a Valentine’s Sunday, the sales’ tail end and honest winter advice.',
+    '/images/florence/florence-golden-hour-sunset-bardini.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `February is January with a party attached. The weather stays cold — it is statistically Siena’s snowiest month, which still means barely a day of it — and the low-season quiet, low prices and empty museums all carry over. What changes is the calendar: the **Carnevale di Viareggio** runs five parades through the month (**4, 7, 9, 14 and 20 February 2027**, following its 30 January opening), **Martedì Grasso falls on Tuesday 9 February**, the carnival sweets take over every bakery, and **Valentine’s Day lands on a Sunday — and on a parade day**. Build a February trip the January way — city-based, interior-led, food-forward — then bolt the carnival day on top, and the year’s least fashionable month quietly becomes one of its most fun.`,
+      },
+      {
+        id: 'the-case-for-february',
+        heading: 'The case for February',
+        body: `Everything that recommends [January](/blog/tuscany-in-january-2027/) recommends February: rock-bottom rates, museums at conversational density, restaurants cooking for regulars, and a Tuscany that belongs to the people who live in it. February adds three sweeteners of its own.
+
+First, **the light turns**. Days stretch noticeably through the month — by late February, sunset has pushed usefully past 17:30 — and the region’s clear cold spells produce some of the sharpest photographic light of the year. Second, **the calendar wakes up**: carnival season peaks, with Viareggio’s giant floats as the headline and bakery counters across the region marking the season in fried dough. Third, **the tail of the saldi**: the regulated winter sales that open in early January run for weeks, so early-February shoppers still catch the deep-discount phase with less competition than the opening days.
+
+The honest counterweight is unchanged from midwinter: this is a cold, short-day, interiors-first month, rural Tuscany remains largely dormant, and none of the postcard landscape is on duty. Come for the cities, the food and the floats — not the hills.
+
+![Golden hour over Florence from the Bardini terraces](/images/florence/florence-golden-hour-sunset-bardini.webp)
+*February’s reward for the cold: the year’s sharpest golden hours, with nobody in front of them.*`,
+      },
+      {
+        id: 'february-weather',
+        heading: 'The weather, honestly',
+        body: `Long-term climate averages, as checked in July 2026: **Siena around 10°C by day and 2°C at night, with rain on roughly 11 days** — and, as the year’s snowiest month, an average of about one snow day; **Florence runs similar by day and touches freezing overnight**. In practice February mixes three weathers: bright cold spells with brilliant light, grey damp stretches that argue for museums, and the occasional theatrical morning when Siena’s rooftops wear an hour of white before it melts.
+
+The month warms nothing but promises everything: by its final week the first blossom appears in sheltered corners, café tables edge back outside on sunny middays, and the region visibly leans toward spring.
+
+Packing is January’s list unchanged — the genuinely warm coat, the layers, the waterproof footwear, [the cold-season checklist](/blog/tuscany-packing-checklist/) — with one addition for carnival-goers: the Viareggio seafront in February means wind off the winter sea, so the parade day is the coldest-feeling day of the trip. Dress for it and it is glorious; underdress and the floats blur past a countdown to indoor heating.`,
+      },
+      {
+        id: 'viareggio-in-full',
+        heading: 'Viareggio in full: five parades and Martedì Grasso',
+        body: `February is the Carnevale di Viareggio’s month. After its early opening on 30 January, the 2027 calendar published at our July 2026 check runs parades on **Thursday 4, Sunday 7, Tuesday 9, Sunday 14 and Saturday 20 February** — with **Tuesday 9 February as Martedì Grasso**, carnival’s traditional climax, and the closing parade on the 20th crowning the season’s winning floats.
+
+What you get is one of Europe’s great spectacles: multi-storey papier-mâché giants — satirical, political, astonishingly engineered — processing along the seafront Passeggiata between the Liberty-era façades, with marching bands, confetti by the tonne and a town fully given over to it. The floats are built in secret through autumn in the Cittadella hangars by dynasties of carnival artisans; the craft alone justifies the trip.
+
+Practical playbook: parades are ticketed through official channels — buy ahead for the Sundays, which draw the biggest crowds; the Thursday and the closing Saturday run calmer; trains from Florence reach Viareggio’s own station, making it an easy car-free day; arrive early enough to see the floats stationary before they move, which is when the craftsmanship rewards close attention — the articulated heads, the moving eyes, the sheer scale read differently at rest than in motion; and confirm the schedule near your date, as carnival calendars can adjust. Eat before or after rather than during: the seafront stalls feed the queue, but Viareggio’s side-street trattorie feed the town, and a fish lunch two streets inland is the day’s quiet second act. Sunday 14 February — Valentine’s Day on a parade day — will be the season’s most booked afternoon; plan accordingly in either direction.`,
+      },
+      {
+        id: 'carnival-table',
+        heading: 'The carnival table: what February tastes like',
+        body: `Carnival announces itself in Tuscan bakeries before any float moves. The season’s signature is **cenci** — “rags” of crisp fried dough dusted with icing sugar, the Tuscan cousin of the chiacchiere eaten across Italy only in these weeks — stacked on every counter from late January to Martedì Grasso and gone within days of it. Alongside them comes **schiacciata alla fiorentina**, Florence’s soft orange-scented carnival cake with its powdered-sugar giglio, and fried rice fritters in the run-up to spring.
+
+These are seasonal in the strictest sense: arrive in March and they have vanished. Eat them the local way — standing at the pasticceria counter with a coffee, mid-morning — and February’s cold streets acquire a running consolation. Prices sit in ordinary-pastry territory, the quality bar in a good Tuscan bakery is high, and comparing the cenci of three different counters across a weekend is the kind of research this site wholeheartedly endorses.
+
+The savoury month is midwinter at full depth, unchanged from [the January table](/blog/tuscany-in-january-2027/): ribollita, hare and boar over pappardelle, bistecca earned by the temperature, black truffle in its quiet season, and the young olive oil’s final emphatic weeks. The [food guide](/blog/tuscany-food-guide/) maps the canon; February’s only addition is the sugar dust on your coat.`,
+      },
+      {
+        id: 'valentines',
+        heading: 'A Valentine’s Sunday: February for couples',
+        body: `Valentine’s Day 2027 falls on a **Sunday**, which hands couples a ready-made long weekend — and Tuscany in the low season is quietly built for it. The formula is the winter-romance version of [our Siena weekend itinerary for couples](/blog/siena-weekend-itinerary-for-couples/): a room inside the walls with heating confirmed, lamplit passeggiata streets that empty by nine, long dinners nobody hurries, and the city’s resident winter atmosphere doing the work summer terraces only imitate.
+
+The three February upgrades: a **thermal-springs afternoon** — steam rising off [Bagno Vignoni or Bagni San Filippo](/blog/tuscany-in-january-2027/) into cold air is the region’s most cinematic winter experience, and its most Valentine-proof; the **empty-museum date**, because sharing the Uffizi’s Botticelli rooms with a dozen people is a different experience from sharing them with a thousand; and, for couples of the confetti persuasion, **the parade-day Sunday itself** at Viareggio — book the tickets and the dinner early, as the coincidence of dates will concentrate the month’s demand on that one weekend.
+
+The honest note: restaurants price and fill for the occasion everywhere. Book the Valentine’s dinner as early as the room, consider celebrating on the Saturday for calmer tables — and remember that in the low season the romance is structural rather than purchased: the lamplit lane, the empty square and the unhurried table come free with the month.`,
+      },
+      {
+        id: 'everything-else-still-works',
+        heading: 'Everything January offered still works',
+        body: `February inherits the whole midwinter playbook, so this section is a checklist rather than a repeat.
+
+**Museums:** still at their annual quietest outside the carnival weekends — the Uffizi, the Bargello, Siena’s [Museo Civico and Santa Maria della Scala](/blog/best-things-to-do-in-siena/) on winter hours; verify current schedules venue by venue.
+
+**The saldi:** the winter sales’ 60-day arc from early January runs deep into February — later weeks trade selection for depth.
+
+**Thermal springs:** at their steaming best all month; book structured spas ahead, check access for the free natural sites.
+
+**The cities over the countryside:** rural closures remain near their maximum; [the January basing rules](/blog/tuscany-in-january-2027/) — city-first, Florence edging Siena for the full winter agenda, heating before views — apply unchanged, with one February amendment: a Viareggio-focused trip can justify a Florence base outright for the train line.
+
+**The wine towns:** Montalcino and Montepulciano enotecas stay open and conversational, and February’s empty roads keep [the Val d’Orcia](/blog/val-dorcia-day-trip-from-siena-2026/) a calm drive for the springs-and-wine day.
+
+![Terracotta rooftops of Siena under winter light](/images/siena/siena-rooftops-inbody.webp)
+*The low season’s standing offer: the famous cities, unshared.*`,
+      },
+      {
+        id: 'february-light',
+        heading: 'The light, the bare hills and the first blossom',
+        body: `February is a photographer’s sleeper month, for reasons the postcard calendar never admits. The sun stays low enough all day to model the cities’ stone and brick; cold clear spells deliver a clarity the humid months never manage; and the season’s occasional snow morning — likeliest in this of all months — turns Siena’s rooftops into an image almost nobody owns, because almost nobody is there holding a camera.
+
+The countryside offers a different, sparser beauty: vine rows pruned to black calligraphy on bare hills, olive groves silver against brown earth, woodsmoke over the Crete Senesi, and valley fog on the cold still mornings. It is not the golden Tuscany of [October](/blog/tuscany-in-october-2026/) — it is its winter negative, and treated as such it rewards the drive.
+
+Then, in the month’s final week, the year audibly turns: the first blossom appears in sheltered corners — almond first, ahead of everything — café tables creep back onto sunny pavements, and the 17:30 sunset makes an evening passeggiata feel like a recovered luxury. February’s last days are the low season’s soft closing: still empty, still cheap, and suddenly, unmistakably, pointed at spring.`,
+      },
+      {
+        id: 'february-quirks',
+        heading: 'Planning around February’s quirks',
+        body: `Four low-season mechanics to respect, inherited from the winter playbook and tuned for this month.
+
+**Winter hours peak now.** Reduced days and shortened schedules reach their maximum across museums and monuments — the standing rule from [November](/blog/tuscany-in-november-2026/) onward applies at full strength: verify every specific venue’s current hours, and never assume the summer listing.
+
+**The chiuso-per-ferie tail.** Some family restaurants that worked through Christmas take their own holiday in the post-Epiphany lull; the two-streets rule needs a backup plan more than usual.
+
+**Sundays are thin twice over.** Festivo transport timetables meet carnival demand on parade Sundays: rural buses run their sparsest schedules exactly when Viareggio trains run their fullest. Book the carnival train times rather than improvising, and keep countryside plans to weekdays.
+
+**School half-terms ripple in.** Northern European February breaks send a modest family wave through the middle of the month — nothing like summer, but enough that the carnival Sundays and Valentine’s weekend concentrate most of February’s bookings into a handful of dates. Travel the other days and the month is January-empty; travel those dates and book like it is June.`,
+      },
+      {
+        id: 'a-february-plan',
+        heading: 'A February long weekend that works',
+        body: `**Friday — Florence.** Arrive, warm up inside a collection for the afternoon, then the sales streets and an Oltrarno dinner. Cenci from a pasticceria are the day’s obligatory punctuation.
+
+**Saturday — the empty-museum day.** The Uffizi all morning at February density, long lunch, San Miniato or the Bardini terraces for the sharp winter sunset if the sky is clear.
+
+**Sunday — the carnival.** Train to Viareggio for the parade: floats stationary in the morning, the procession through the afternoon, sea wind respected, chips of confetti in your coat for weeks. (On non-parade weekends, substitute the Siena day below.)
+
+**Monday — Siena, slowly.** The 131R down, the winter Campo, one museum, the resident city at lunch — and home with the low season’s particular souvenir: the memory of famous places with nobody in them.
+
+Couples aiming at the 13th–14th should book everything early and swap the Monday for a Val d’Orcia springs afternoon. Families should note the carnival is superbly child-friendly — the floats land hardest with exactly the audience that finds museums long.
+
+**With a full week**, layer the pieces instead of racing them: two Florence museum days, the carnival day, a Siena overnight for the winter-evening city, the springs-and-wine drive through the Val d’Orcia, and one deliberately unplanned morning — February’s abundance is time, and the itineraries that honour it come home happiest. The [Florence-or-Siena comparison](/blog/florence-or-siena-which-to-visit-2026/) settles where the extra nights go; in this month, the honest answer is wherever the heating is best.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Weather figures were checked in July 2026 against long-term climate averages. The Carnevale di Viareggio’s 2027 calendar (opening 30 January; parades 4, 7, 9, 14 and 20 February, with Martedì Grasso on the 9th) was checked in July 2026 against the event’s announced dates — confirm near your date on official channels, as carnival schedules can adjust. The saldi’s February tail follows the regulated 60-day regional pattern documented in [our January guide](/blog/tuscany-in-january-2027/). Valentine’s Day 2027 falling on a Sunday is fixed calendar fact. Carnival sweets’ seasonality describes bakery tradition rather than any single shop’s stock. We have no affiliate relationship with any venue, event or spa named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `February is the month Tuscany stops being stoic about winter and starts playing with it: paper giants on a cold seafront, sugar dust on bakery counters, steam off Roman water, and the first blossom betting on spring. It asks the same price as January — the coat, the short days, the indoor ambitions — and pays a better rate: everything the quietest month offers, plus a carnival, a Sunday made for couples, and light that lengthens perceptibly while you are there. If you can only be talked into one midwinter month, this is the one — and if the floats are rolling on the day you are free, stop deliberating and buy the ticket.`,
+      },
+    ],
+    [
+      { q: 'Is February a good time to visit Tuscany?', a: 'For low-season city trips with a spectacle attached, yes: January’s empty museums and low prices carry over, and the Carnevale di Viareggio runs five parades through February 2027, with Martedì Grasso on Tuesday the 9th.' },
+      { q: 'What is the weather like in Tuscany in February?', a: 'Cold: long-term averages put Siena around 10°C by day and 2°C at night with rain on about 11 days, and February is statistically its snowiest month — which still means roughly a single day of snow. Days lengthen noticeably by the month’s end.' },
+      { q: 'When are the Viareggio Carnival parades in February 2027?', a: 'On 4, 7, 9, 14 and 20 February 2027, following the 30 January opening — with carnival’s traditional climax, Martedì Grasso, on Tuesday 9 February and the closing parade on the 20th. Parades are ticketed; confirm the schedule near your date.' },
+      { q: 'What are cenci?', a: 'Tuscany’s carnival sweet: crisp fried ribbons of dough under icing sugar, stacked in every bakery from late January until Martedì Grasso and gone within days of it. Florence adds schiacciata alla fiorentina, its soft orange carnival cake.' },
+      { q: 'Is Valentine’s Day worth planning around in Tuscany?', a: 'In 2027 it falls on a Sunday — and on a Viareggio parade day — making it a natural long weekend. Book rooms and the Valentine’s dinner early; a thermal-springs afternoon and the empty-museum date are the low season’s best romantic upgrades.' },
+      { q: 'Are the winter sales still on in February?', a: 'Yes — the regulated saldi open in early January and run for around 60 days, so February catches their deeper-discount tail with thinner crowds than the opening weekend.' },
+      { q: 'Is the Viareggio Carnival good for children?', a: 'Exceptionally: giant moving floats, bands and confetti land hardest with exactly the audience that tires of museums. Sundays are the busiest parades; the Thursday and closing Saturday run calmer, and sea-wind-proof clothing matters for everyone.' },
+      { q: 'Can you visit the Tuscan countryside in February?', a: 'Selectively, by car: the wine-town enotecas, the thermal springs and the empty winter roads all reward a day out, but rural accommodation and restaurants remain at their most closed. Base in the cities and raid the countryside.' },
+    ],
+    '2026-07-31',
+    {
+      seoTitle: 'Tuscany in February 2027: Viareggio Carnival, Sweets & Winter Value',
+      primaryKeyword: 'tuscany in february',
+      secondaryKeywords: [
+        'tuscany february 2027',
+        'viareggio carnival february 2027',
+        'tuscany weather february',
+        'martedì grasso 2027',
+        'tuscany valentine’s day',
+        'tuscany winter travel',
+      ],
+      imageAlt: 'Golden winter light over Florence from the Bardini gardens',
+      canonicalPath: '/blog/tuscany-in-february-2027',
+      tags: ['tuscany in february', 'viareggio carnival', 'carnival in italy', 'tuscany winter', 'valentine’s day italy'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
