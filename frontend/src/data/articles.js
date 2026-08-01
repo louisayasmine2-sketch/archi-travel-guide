@@ -5487,6 +5487,164 @@ Whichever way you land, the two cities are seventy-odd minutes apart and the tic
       tags: ['florence or siena', 'florence vs siena', 'tuscany base', 'where to stay in tuscany', 'tuscany trip planning'],
     }
   ),
+  A(
+    'siena-or-san-gimignano-day-trip-2026',
+    'Siena or San Gimignano: Which Day Trip Should You Choose in 2026?',
+    'Day trips',
+    'Tuscany',
+    'Siena or San Gimignano for your spare Tuscan day? An honest comparison of the two classic day trips — and whether combining both actually works.',
+    '/images/siena/siena-piazza-del-campo-day-trip.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `**With one spare day, choose Siena.** It is a complete city rather than a single spectacular sight: a first-rank cathedral, real museums, living neighbourhoods, and enough depth that a full day feels short. **Choose San Gimignano instead when the skyline is the point** — its medieval towers are the single most striking image in Tuscany — or when you want a compact half-day village experience rather than a city. **Do not try to do both independently in one day** by public transport; the connection between them wastes the best hours of each. Combined coach tours exist and solve the logistics at the cost of depth — this guide covers when that trade is worth it.`,
+      },
+      {
+        id: 'the-short-version',
+        heading: 'Two very different day trips',
+        body: `The comparison misleads people because the two names appear side by side in every Tuscany itinerary, as if they were two brands of the same product. They are not.
+
+**Siena** is a functioning provincial capital of medieval Europe’s first rank: a cathedral complex that absorbs half a day on its own — with its inlaid marble floor fully uncovered in 2026 from **18 August to 15 November** — the shell-shaped Campo, serious museums, seventeen living contrade, and an evening life that belongs to residents. A day trip samples it; it cannot finish it.
+
+**San Gimignano** is a large village with the most dramatic silhouette in Italy: a ridge-top cluster of medieval tower-houses, a UNESCO-listed centre you can cross on foot in ten minutes, one climbable tower with a magnificent view, a two-square core, and a famous white wine. It is genuinely wonderful — and it is finishable in four to six unhurried hours, which is precisely why it suits a different kind of day than Siena does.
+
+![Piazza del Campo filling with light on a Siena day trip](/images/siena/siena-piazza-del-campo-day-trip.webp)
+*Siena’s Campo: a city’s living room, not a viewpoint stop.*`,
+      },
+      {
+        id: 'getting-to-each',
+        heading: 'Getting to each from Florence (and from each other)',
+        body: `**Florence to Siena** is the easier run: the direct **131R fast bus** takes about 74 minutes and cost **€8.40** online or at the counter (€13.00 aboard) as checked in July 2026, arriving usefully close to the historic centre. The train takes around an hour and a half and arrives below the old town. [The full transport guide is here](/florence-to-siena-by-train-or-bus/).
+
+**Florence to San Gimignano** always involves a change: regional train to Poggibonsi (the faster runs just under an hour), then the **130 bus** up the hill, about 20 minutes. It is perfectly workable — [our San Gimignano guide](/blog/san-gimignano-day-trip-from-siena-2026/) walks through it — but the connection is why coach tours are so heavily marketed for this particular town.
+
+**Between the two:** the same 130 bus links Siena and San Gimignano via Poggibonsi in around an hour, which makes San Gimignano an easy day out **from a Siena base** — and that, rather than cramming both into one Florence day, is the itinerary shape that actually works. Siena-based travellers get both towns properly across two relaxed days.`,
+      },
+      {
+        id: 'sights-compared',
+        heading: 'Which has the better sights?',
+        body: `**Siena, by depth; San Gimignano, by single image.**
+
+Siena’s hand is a city’s hand: the cathedral and Piccolomini Library, the uncovered floor in its 2026 window, Santa Maria della Scala’s labyrinth, the Museo Civico’s Lorenzetti frescoes, Torre del Mangia, and the contrade streets that reward aimless walking. As checked in July 2026, the cathedral’s **OPA SI Pass is €16** during the floor-uncovering period and the civic museum cluster prices separately — [the full sight-by-sight guide is here](/blog/best-things-to-do-in-siena/).
+
+San Gimignano’s hand is shorter but its top card is remarkable: the tower skyline, best absorbed from Torre Grossa’s summit and the Rocca viewpoint. The **San Gimignano Pass at €15** (checked July 2026) bundles the civic museums, the tower climb and the Duomo with its complete fresco cycles — genuinely good interiors that most day-trippers skip. Add Vernaccia, Italy’s first DOC wine, and the town’s DOP saffron, and the village earns its half day handsomely.
+
+The honest scoring: if you never went inside a single building, San Gimignano’s streets would beat Siena’s corridor for pure spectacle. The moment doors open, Siena pulls away and does not look back.`,
+      },
+      {
+        id: 'crowds-compared',
+        heading: 'Which handles crowds better?',
+        body: `Both suffer at midday in season; they suffer differently. **San Gimignano’s crowding is claustrophobic** — the whole visitor flow squeezes down one lane between two squares, so a busy day is felt every minute you are in the core. Its salvation is that the crowd is a day visitor crowd on a tight schedule: before 10:00 and after 17:00 the town is transformed, which is why our guide bangs on about the early bus.
+
+**Siena’s crowding is corridor-shaped** — dense from the Campo to the Duomo, thin two streets away in any direction. Even at peak, the city offers escapes San Gimignano physically cannot: bigger squares, more streets, museums that swallow hundreds of people invisibly.
+
+The seasonal overlay matters too. Siena has the Palio (2 July and 16 August) — either your reason for coming or your reason to reschedule, [as our Palio guide explains](/blog/palio-di-siena-guide/) — while [September](/blog/siena-in-september-2026/) and [October](/blog/tuscany-in-october-2026/) soften both towns dramatically. In high summer with a fixed date, Siena absorbs the season better; in shoulder season, both behave.`,
+      },
+      {
+        id: 'food-and-wine',
+        heading: 'Which is better for food and wine?',
+        body: `**Siena for eating, San Gimignano for one specific glass.** Siena’s restaurant depth — trattorie in the contrade, serious enotecas, the pici-and-wild-boar canon, panforte and ricciarelli from their home bakeries — belongs to a city where residents outnumber visitors at dinner. [Our food guide](/blog/tuscany-food-guide/) maps it.
+
+San Gimignano’s table is a village table with two aces: **Vernaccia di San Gimignano**, the crisp white that became Italy’s first DOC wine in 1966, poured by the glass everywhere in its home town; and **saffron**, the town’s DOP-protected medieval export, worth seeking out in a risotto or fresh pasta at lunch. Eat two lanes off the main squares — the same rule as everywhere in Tuscany — and lunch in San Gimignano is a genuine pleasure rather than a refuelling stop.
+
+A day-trip technicality that decides some visits: Siena’s dinner hour is reachable on a day trip only if you accept a late bus back; San Gimignano’s evening is effectively reserved for overnight guests. If the meal is the point of your day, Siena’s longer menu of return buses keeps more options open.`,
+      },
+      {
+        id: 'personas',
+        heading: 'The verdict, traveller by traveller',
+        body: `**One spare day from Florence, first time in Tuscany:** Siena. Depth beats silhouette when you only get one card to play.
+
+**Photographer or view-chaser:** San Gimignano — early bus, Torre Grossa at opening, the Rocca for the classic angle, gone before the coaches peak.
+
+**Art and history appetite:** Siena, and in 2026 doubly so while the cathedral floor is uncovered (18 August–15 November).
+
+**With young children:** San Gimignano’s compact, car-free core and single climbable tower make an easier family day; Siena rewards families with more stamina. [The Siena with kids guide](/blog/siena-with-kids/) helps you judge.
+
+**Wine-led day:** San Gimignano for Vernaccia in its home town — or better, fold it into [the harvest-season itineraries](/blog/tuscany-wine-harvest-vendemmia-2026/).
+
+**Based in Siena already:** the question dissolves — [take the 130 bus and do San Gimignano properly](/blog/san-gimignano-day-trip-from-siena-2026/) as its own relaxed day.
+
+**Only interested in ticking both:** take a combined tour, read the next section first.`,
+      },
+      {
+        id: 'both-in-one-day',
+        heading: 'Can you do Siena and San Gimignano in one day?',
+        body: `**By public transport: technically yes, practically no.** The 130 bus connects them in about an hour via Poggibonsi, so the maths seems to work — until you subtract the connection time, the midday arrival into whichever town comes second, and the early departure the return timetable forces. You would visit both and see neither; every hour spent in transit is subtracted from the exact midday-avoiding strategy that makes each town enjoyable.
+
+**By combined coach tour: yes, with open eyes.** The Florence day tours that bundle Siena, San Gimignano and a Chianti lunch solve every logistical problem at once, and for travellers with one day and no appetite for timetables they are a defensible product. The cost is depth: expect roughly 60–90 minutes in San Gimignano and two or three hours in Siena — the squares, the photograph, and in Siena usually the cathedral’s exterior rather than its interior. Our standing advice from [the Florence-or-Siena comparison](/blog/florence-or-siena-which-to-visit-2026/) applies: prefer small-group departures that state their dwell times before you pay.
+
+**The better answer, if your trip allows it:** one night in Siena. It converts the impossible single day into two easy ones — Siena with its evening, San Gimignano by the direct bus — and [where to stay in Siena](/blog/where-to-stay-in-siena/) shows what that one night buys.`,
+      },
+      {
+        id: 'model-days',
+        heading: 'A model day in each',
+        body: `**Siena, done right (from Florence).** On the 131R by 08:30; walking into the Campo before 10:00 while the light is still low. Cathedral complex first — the uncovered floor in its 2026 window, the Piccolomini Library, the Facciatone view — then a long lunch two streets off the corridor. Afternoon split between Santa Maria della Scala or the Museo Civico and an aimless hour in the contrade. Aperitivo on the Campo’s edge as the day-trippers drain away, and a late-enough bus back that you catch the beginning of Siena’s golden hour. [The full playbook is here](/blog/best-day-trips-from-florence-to-siena-2026/).
+
+**San Gimignano, done right (from Siena or Florence).** The earliest workable bus, walking in through Porta San Giovanni before the coaches land. Torre Grossa and the civic museums on the €15 pass first, the Duomo’s fresco cycles before the midday squeeze, then a Vernaccia-and-saffron lunch off the main squares. The quiet third of the town after lunch — the Rocca viewpoint, San Lorenzo in Ponte, the lanes toward Porta San Matteo — and either an afternoon bus out or, better, the golden hour after 17:00 when the town returns to itself. [The full guide is here](/blog/san-gimignano-day-trip-from-siena-2026/).
+
+![The medieval towers of San Gimignano above the town’s rooftops](/images/tuscany/san-gimignano-medieval-towers.webp)
+*San Gimignano’s answer to everything: the skyline that ends the argument.*
+
+Notice the shared spine: early arrival, interiors before noon, the crowded middle spent at a table, and the day’s edges protected. The towns differ; the technique does not.`,
+      },
+      {
+        id: 'overnight-option',
+        heading: 'What about staying overnight?',
+        body: `The overnight question separates the towns more sharply than any daytime comparison. **Siena overnight is a categorical upgrade**: the evening city — resident, golden, unhurried — is its best self, and a night unlocks the two-day version of this whole dilemma, with San Gimignano as an easy second-day bus trip. Rooms span every budget and area; [where to stay in Siena](/blog/where-to-stay-in-siena/) and [the hotel guide](/blog/best-hotels-in-siena/) cover the trade-offs.
+
+**San Gimignano overnight is a niche luxury** — and for the right traveller, a spectacular one. When the last coaches leave, a town of a few thousand residents keeps its floodlit towers and empty squares for a handful of hotel guests; dawn from the town walls, before the first bus arrives, is one of Tuscany’s quiet privileges. The constraints are real: accommodation inside the walls is limited and books out, evening dining options are fewer, and onward logistics the next morning depend on the same bus timetable you came in on.
+
+The decision rule: one available night goes to Siena, almost always. A second night, on a trip built around photography or slow villages, is where San Gimignano’s case becomes genuinely competitive.`,
+      },
+      {
+        id: 'common-mistakes',
+        heading: 'The four mistakes people make choosing',
+        body: `**1. Judging both at noon.** The midday versions of these towns are their worst versions. Whichever you choose, the early start is not optional advice — it is the difference between the town in the photographs and the town in the complaints.
+
+**2. Picking San Gimignano for depth or Siena for a quick stop.** Each town punishes being treated like the other. San Gimignano stretched across a full slow day runs out of interiors; Siena compressed into two hours is a corridor walk past closed doors.
+
+**3. Ignoring the 2026 calendar.** The uncovered Duomo floor (to 15 November) tilts a close call toward Siena this year; Palio dates flip Siena from ideal to impossible for a casual day trip; [autumn’s harvest season](/blog/tuscany-olive-harvest-olio-nuovo-2026/) upgrades every countryside connection.
+
+**4. Booking the combined tour by price alone.** The cheap large-coach versions minimise exactly what you came for — time in the towns. If a tour is the right call, the dwell time is the specification that matters; everything else is upholstery.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Transport figures (131R at €8.40 online / ~74 minutes; the 130 bus connection via Poggibonsi at around an hour) and ticket prices (San Gimignano Pass €15; Siena’s OPA SI Pass €16 during the floor-uncovering period) reflect our July 2026 checks, documented in [the San Gimignano guide](/blog/san-gimignano-day-trip-from-siena-2026/) and [the airport-transfer guide](/blog/siena-from-florence-airport-transfer/). The Duomo floor’s 2026 window (18 August–15 November) was checked against the Opera del Duomo’s published calendar; Palio dates are the fixed 2 July and 16 August. Tour dwell-time ranges describe how combined day tours are commonly structured rather than any single operator’s product. We have no affiliate relationship with any operator, venue or attraction named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Strip the comparison to its core and it stops being difficult. San Gimignano is the greatest single view in Tuscany; Siena is the greatest single day. If your spare day must carry your whole impression of the region, give it to the city that keeps unfolding after the first photograph. If your trip already has depth elsewhere — or the skyline has lived in your imagination since you first saw it — take the early bus to the towers and let them be exactly what they promise. And if you find yourself unable to choose, listen to that: it is your itinerary telling you to sleep in Siena and stop choosing at all.`,
+      },
+    ],
+    [
+      { q: 'Is Siena or San Gimignano better for a day trip?', a: 'Siena for most travellers with one day: it is a complete city with first-rank sights and real depth. San Gimignano wins when the tower skyline and a compact half-day village experience are what you want.' },
+      { q: 'Can you visit Siena and San Gimignano in one day?', a: 'Independently by public transport, not well — the connection eats the best hours of each town. Combined coach tours do both in a day at the cost of depth, typically 60–90 minutes in San Gimignano. One night in Siena converts it into two easy days.' },
+      { q: 'How do you get from Siena to San Gimignano?', a: 'Autolinee Toscane bus 130 via Poggibonsi, around an hour; some departures run through and others require a change at Poggibonsi. Check the specific run and the last return before travelling.' },
+      { q: 'Is San Gimignano worth visiting?', a: 'Yes — the medieval tower skyline is the most dramatic single image in Tuscany, and the €15 pass bundles a genuinely good set of interiors with the Torre Grossa climb. It rewards four to six hours, ideally early or late in the day.' },
+      { q: 'Which is more crowded, Siena or San Gimignano?', a: 'San Gimignano feels more crowded because its entire visitor flow squeezes down one lane; Siena’s crowds concentrate on the Campo-to-Duomo corridor and dissolve two streets away. Both transform before 10:00 and after 17:00.' },
+      { q: 'Which is cheaper to visit?', a: 'They are comparable for a day trip. San Gimignano’s €15 pass covers nearly everything; Siena’s sights split across the €16 OPA SI Pass and the separately ticketed civic museums, so an everything day costs more — but its free layer of streets and squares is also bigger.' },
+      { q: 'Which is better with kids?', a: 'San Gimignano for a shorter, simpler family day: compact, car-free, one tower, gelato in the square. Siena offers more for families who can pace a full day — and more escapes when energy dips.' },
+      { q: 'Does the 2026 Duomo floor uncovering change the choice?', a: 'It strengthens Siena’s case between 18 August and 15 November 2026, when the cathedral’s inlaid marble floor is fully on show — one of the year’s art events in Italy and something San Gimignano has no equivalent to.' },
+    ],
+    '2026-07-31',
+    {
+      seoTitle: 'Siena or San Gimignano: Which Day Trip in 2026? Honest Comparison',
+      primaryKeyword: 'siena or san gimignano',
+      secondaryKeywords: [
+        'siena vs san gimignano',
+        'siena or san gimignano day trip',
+        'san gimignano or siena from florence',
+        'siena and san gimignano in one day',
+        'which is better siena or san gimignano',
+      ],
+      imageAlt: 'Piazza del Campo in Siena during a day trip',
+      canonicalPath: '/blog/siena-or-san-gimignano-day-trip-2026',
+      tags: ['siena or san gimignano', 'tuscany day trips', 'day trip comparison', 'san gimignano', 'siena day trip'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
