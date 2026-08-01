@@ -5805,6 +5805,157 @@ For harvest-season trips, sequence by the calendar instead: Chianti in September
       tags: ['val d’orcia or chianti', 'tuscany wine country', 'chianti classico', 'brunello di montalcino', 'tuscany day trips'],
     }
   ),
+  A(
+    'tuscany-in-august-2026',
+    'Tuscany in August 2026: The Honest Guide to the Hardest Month',
+    'Best time to visit',
+    'Tuscany',
+    'Tuscany in August 2026, honestly: Palio and Ferragosto dates, the Duomo floor’s 18 August reopening, heat tactics and where the month still works.',
+    '/images/florence/early-morning-duomo-golden-light.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `August is Tuscany’s hardest month — the hottest, the most crowded and the most expensive — and this guide will not pretend otherwise. But 2026’s calendar splits it into two very different halves. **Early August** is peak season at full intensity, building to the **Palio dell’Assunta on 16 August** and the **Ferragosto holiday on Saturday 15 August**, when much of Italy closes and travels at once. **Late August** is the quiet reward: the crowds begin draining, the Siena Duomo’s marble floor is **uncovered again from 18 August**, and the wine harvest starts on the coast. If your dates are flexible, aim for the 17th onward. If they are not — school holidays fix millions of trips in this month — the playbook below makes August genuinely work: mornings for everything, air conditioning confirmed in writing, and the two national dates planned around rather than discovered.`,
+      },
+      {
+        id: 'two-augusts',
+        heading: 'The two Augusts',
+        body: `Treat August as two months wearing one name.
+
+**1–16 August** is Italy on holiday inside its own most famous region. Beaches full, autostrade loaded, city hotels at peak rates, and the temperature graph at its annual summit. In Siena the fortnight builds toward the Palio: barriers up, contrade dinners in the streets, the Campo transformed — electric if you came for it, obstructive if you did not. The period peaks at **Ferragosto (15 August)**, a national public holiday on a Saturday in 2026, when public offices close, many family businesses shutter for their own holidays, and transport drops to holiday timetables.
+
+**17–31 August** is the exhale. The Palio crowds disperse within a day or two, Italian holidaymakers begin their drift home, rates soften noticeably in the final week, and two quiet openings mark the turn: the **Duomo floor’s uncovering from 18 August**, and the first grapes coming off the vines in the coastal Maremma. By the month’s last days you can feel [September](/blog/siena-in-september-2026/) — the best month of the Tuscan year — arriving early.
+
+The single most useful August decision is which of these two months you book.`,
+      },
+      {
+        id: 'august-weather',
+        heading: 'The heat, honestly',
+        body: `Long-term climate averages, as checked in July 2026: **Siena around 31°C by day and 18°C at night; Florence around 32°C by day and 19°C at night**, with roughly six to eight days of rain in the month — mostly short, violent afternoon thunderstorms off the Apennines rather than wet days. Two structural notes matter more than the averages: heatwaves can push well past those figures for days at a time, and the cities’ stone amplifies the afternoon while Siena’s hilltop position at least returns cool air after dark.
+
+The rhythm that works is the one the region itself keeps: **out by 8:00, biggest sight first, indoors or shaded by 13:00, siesta without guilt, out again after 17:00**. Fountains and free water refills are everywhere once you look; the [Florence heat survival guide](/blog/florence-summer-heat-survival-tips-2026/) maps them alongside the coolest interiors, and the [summer packing list](/blog/summer-packing-list-for-tuscany-and-florence-2026/) covers the kit — linen, real sun protection, a refillable bottle.
+
+The non-negotiable is the room: confirm **air conditioning in writing, for your dates**, before booking anything. Many charming Tuscan properties do not have it or ration it, [as our no-AC guide explains at length](/blog/italy-hotels-no-ac-2026/) — in August, that guide is the difference between a holiday and an endurance event.`,
+      },
+      {
+        id: 'palio-week',
+        heading: 'Palio week: 16 August, and the days around it',
+        body: `The **Palio dell’Assunta** runs on **Sunday 16 August 2026** — the second of Siena’s two annual races — and it bends the whole week around itself. Trial races, contrade processions and street dinners fill the preceding days; the centre closes progressively on race day; moving luggage across the city becomes genuinely difficult; and weather can push the race back a day, which is why booking onward travel early on the 17th is a known mistake.
+
+Whether that makes mid-August Siena wonderful or impossible depends entirely on intent. If the Palio is the reason for your trip, [our Palio guide](/blog/palio-di-siena-guide/) covers what actually happens, where to stand, and what it costs in comfort. If it is not, the honest advice is to visit Siena before the 10th or after the 17th — the [Ferragosto and Palio week guide](/blog/siena-ferragosto-and-palio-week/) documents, date by date, what is open, what closes and which buses thin out across the critical stretch.
+
+One planning rule from that guide worth repeating here, because it saves more August trips than any other: **do your shopping on Friday 14 August.** With Ferragosto on the Saturday and the Palio on the Sunday, the 14th is the last ordinary working day before two reduced days back to back.`,
+      },
+      {
+        id: 'floor-reopens',
+        heading: '18 August: the Duomo floor returns',
+        body: `Late August carries a prize the early month cannot offer. From **18 August 2026**, the Siena Duomo’s inlaid marble floor — boarded for protection most of the year — is fully uncovered again under the year’s “Il Sommo Bene” programme, with visiting hours of **10:00–19:00** and the **OPA SI Pass at €16** during the uncovering period, as checked in July 2026.
+
+The tactical opportunity is the window’s first days. The uncovering runs until 15 November, and its early-autumn weeks — [September](/blog/siena-in-september-2026/) and [October](/blog/tuscany-in-october-2026/) — draw the aware crowds. The **18–31 August fortnight** sits in a gap: the floor on show, the Palio masses gone, the September wave not yet arrived, and first-entry slots at opening time the emptiest they will be until November. An August traveller who books the pass for 8 a.m. — the month’s golden hour anyway — meets one of Italy’s great art sights in the best conditions the year offers.
+
+Pair it with Santa Maria della Scala across the square — vast, covered and mercifully cool — and late-August Siena assembles the rare thing: a full, serious sightseeing day that never fights the heat. The pass runs three consecutive days, so a late-August base in the city can return to the complex each morning at opening, taking the library, the crypt and the Facciatone in instalments while the streets outside are still in shadow — the exact opposite of the one-hot-afternoon cathedral visit that defines most August memories of Siena.`,
+      },
+      {
+        id: 'crowds-and-costs',
+        heading: 'Crowds, costs and the chiuso per ferie problem',
+        body: `August pricing is peak pricing: accommodation at its annual high through the Ferragosto fortnight, coastal Tuscany effectively sold out, and the Palio inverting Siena’s market for its week. The relief valve is the calendar — the final week of August softens measurably — and the booking rule is the obvious one: for fixed August dates, book far ahead; for flexible ones, buy the month’s end.
+
+The subtler August tax is **chiuso per ferie** — “closed for holidays” — the handwritten sign on the door of the family trattoria, bakery or workshop whose owners are at the beach like everyone else. It clusters around Ferragosto and affects exactly the independent places this site exists to point people toward. The counter-moves: check current opening days for any specific restaurant you care about, keep a second choice in pocket, and lean on hotel restaurants and the bigger museum cafés in the dead zone of 13–17 August.
+
+Crowd-wise, the paradox of August is that the famous cities can feel simultaneously packed with visitors and empty of residents. The fix is the same as [July’s](/blog/avoid-crowds-in-florence-july-2026/): the day’s edges, the two-streets-away rule, and booked first-entry slots for anything with a queue.`,
+      },
+      {
+        id: 'where-august-works',
+        heading: 'Where August actually works',
+        body: `Some of Tuscany handles the month better than its cities do.
+
+**Hill towns in the evening** are August’s best version of themselves: Siena’s Campo after 19:00, [San Gimignano past 17:00 when the coaches leave](/blog/san-gimignano-day-trip-from-siena-2026/), Pienza at dusk. Build days that arrive late rather than early where evenings are the goal.
+
+**Agriturismi with pools** are the structural answer for families and heat-averse travellers: sightseeing mornings, pool afternoons, countryside dinners. August is the month the pool stops being a luxury line-item and becomes the itinerary’s hinge.
+
+**The coast begins its harvest**: in the Maremma and around Bolgheri, the vendemmia’s earliest picking starts from mid-August with the white varieties — [the wine harvest guide](/blog/tuscany-wine-harvest-vendemmia-2026/) covers the season that late-August travellers catch the very front of.
+
+**Day trips need August discipline**: [the Val d’Orcia](/blog/val-dorcia-day-trip-from-siena-2026/) at dawn or golden hour, not midday; and a [Venice day trip](/blog/venice-day-trip-from-tuscany-2026-access-fee/) means the access-fee rules plus peak crowds — read that guide before committing a day to it.
+
+![A quiet contrada street in Siena](/images/siena/06-siena-contrada-street.webp)
+*August’s secret is the day’s edges: streets like this at 8 a.m. belong to you.*`,
+      },
+      {
+        id: 'getting-around',
+        heading: 'Getting around in August',
+        body: `**Buses run all month — but read the timetable’s categories, not just its times.** Autolinee Toscane sorts departures into Feriale (working days), Feriale escluso Sabato and Festivo columns, and August’s holiday dates flip which column applies: Ferragosto Saturday loses the weekday-only runs, and Sunday 16 August runs the thin Festivo schedule — the structural detail [our Ferragosto guide documents](/blog/siena-ferragosto-and-palio-week/) against the 131R timetable valid from late July 2026. The practical rule: check the category column against your specific date before relying on any rural or evening departure, and screenshot the last two returns as always.
+
+**Driving is easy except when all of Italy drives.** The Ferragosto weekends load the autostrade with the national holiday migration — avoid long transfers on the Saturdays around the 15th if you can choose. Otherwise August roads are manageable; the traps are the permanent ones ([ZTL cameras](/blog/siena-ztl-fines-how-to-avoid/) forgive nothing in any season) plus one seasonal addition: a car parked in full sun becomes an oven, so shaded parking is worth paying for and nothing living or meltable stays in the boot.
+
+**Trains hold up well** — the Florence–Siena and coastal lines run their normal patterns outside the holiday dates themselves — and air-conditioned regional carriages are, not incidentally, among the month’s most pleasant public spaces. [The transport guide](/florence-to-siena-by-train-or-bus/) covers the bus-versus-train choice; in August, the train’s climate control quietly strengthens its case.`,
+      },
+      {
+        id: 'with-kids',
+        heading: 'August with children',
+        body: `August is when most families have no choice about dates — so the honest framing is not “should you” but “how”. Three structures carry a family August:
+
+**The pool-anchored base.** An agriturismo or apartment with a pool converts the dangerous 13:00–17:00 block from a problem into the day’s highlight. Children forgive a lot of morning sightseeing when the afternoon is guaranteed water.
+
+**The one-thing morning.** One sight, booked for opening, finished by noon — the [Siena with kids](/blog/siena-with-kids/) pacing rules apply at double strength in the heat, and gelato negotiations are the legitimate currency of August parenting.
+
+**The evening town.** Small children thrive in the passeggiata hours: squares at 19:00, dinner outside at 20:30, the walk back through lit streets. August’s late Italian rhythm suits families better than the northern-European schedule ever did.
+
+The cautions: hydration relentlessly, shade as a route-planning criterion, the Palio crowd-crush is no place for small children on race day itself, and Ferragosto’s closures hit exactly the supplies — pharmacies, small groceries — that families assume are always open. The Friday-14th shopping rule is a family rule above all.`,
+      },
+      {
+        id: 'an-august-plan',
+        heading: 'A late-August week that beats the month',
+        body: `**Days one and two — Siena, from the 18th.** First-entry Duomo with the newly uncovered floor, Santa Maria della Scala in the afternoon heat, contrade evenings. Post-Palio Siena with the floor on show is August’s best-kept secret.
+
+**Day three — San Gimignano.** Early bus, Torre Grossa at opening, Vernaccia lunch, back before the afternoon peak — or the reverse: arrive at 16:00 and own the evening.
+
+**Day four — pool and nothing.** The deliberately empty day is not wasted in August; it is the month’s load-bearing wall.
+
+**Day five — Val d’Orcia at the edges.** Dawn departure, Montalcino and Pienza before noon, long shaded lunch, golden-hour ridge roads home.
+
+**Days six and seven — Florence, carefully.** Booked first entries, [the heat playbook](/blog/florence-summer-heat-survival-tips-2026/) in force, museums in the afternoon, Oltrarno evenings.
+
+Run this plan from the 18th onward and you collect the floor, the emptying towns and the softening rates while the calendar still says August — the connoisseur’s version of the hardest month.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `The Palio dell’Assunta date (16 August) and Ferragosto (15 August 2026, a Saturday) are fixed calendar facts, with the closure and transport detail documented in [our Ferragosto guide’s July 2026 checks](/blog/siena-ferragosto-and-palio-week/); the Duomo floor’s 18 August–15 November uncovering window, its 10:00–19:00 hours and the €16 OPA SI Pass were checked in July 2026 against the Opera del Duomo’s published information; weather figures against long-term climate averages; and the coastal harvest’s mid-August start against Tuscan producers’ published seasonal descriptions. Chiuso-per-ferie patterns describe how August closures commonly behave rather than any specific business’s plans — check the places you care about, close to your dates. We have no affiliate relationship with any venue or event named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `August in Tuscany is the month that punishes default behaviour and rewards intent. Drift into it — midday sightseeing, unbooked rooms, the 15th discovered on arrival — and it will hand you the worst version of a great region. Plan it — mornings owned, air conditioning confirmed, the two national dates respected, the 18th circled for the floor — and it quietly delivers experiences the easier months cannot: the Palio if you came for it, and the strange, generous emptiness after it if you did not. The hardest month is not the wrong month. It is the one that makes you earn it.`,
+      },
+    ],
+    [
+      { q: 'Is August a good time to visit Tuscany?', a: 'It is the hottest, most crowded and most expensive month — but it works with the right playbook: mornings for sightseeing, confirmed air conditioning, the 15–16 August holiday dates planned around, and a preference for the quieter second half of the month.' },
+      { q: 'How hot is Tuscany in August?', a: 'Long-term averages put Siena around 31°C and Florence around 32°C by day, with nights near 18–19°C and occasional heatwaves running hotter. Rain comes as short afternoon thunderstorms on roughly six to eight days.' },
+      { q: 'What is Ferragosto and does it affect a trip?', a: 'The 15 August national holiday — in 2026 a Saturday — when offices close, many family businesses take their own holidays and transport runs reduced timetables. Shop for essentials on Friday the 14th and plan an unambitious day.' },
+      { q: 'When is the Palio in August 2026?', a: 'The Palio dell’Assunta runs on Sunday 16 August 2026, with trials and contrade events filling the preceding days. It is unmissable if it is your reason for coming and worth planning around if not — the centre closes progressively on race day and weather can push the race back a day.' },
+      { q: 'Is the Siena Duomo floor visible in August 2026?', a: 'From 18 August, yes — the marble floor’s second 2026 uncovering window opens then and runs to 15 November, with hours of 10:00–19:00 and the OPA SI Pass at €16 as checked in July 2026. The window’s first fortnight is its quietest until November.' },
+      { q: 'Is early or late August better in Tuscany?', a: 'Late August, clearly: the Palio and Ferragosto peak passes on the 16th, crowds and rates ease through the final week, the Duomo floor returns on the 18th and the coastal wine harvest begins. Flexible travellers should book from the 17th onward.' },
+      { q: 'Does everything close in Tuscany in August?', a: 'No, but the chiuso-per-ferie tradition closes many family-run restaurants and shops around Ferragosto while their owners holiday. Major sights stay open. Check current opening days for specific places you care about and keep alternatives in pocket.' },
+      { q: 'Is August in Tuscany doable with kids?', a: 'Yes, with structure: a pool-anchored base for afternoons, one booked sight per morning, evening towns for atmosphere, relentless hydration — and no small children in the Palio race-day crowd crush.' },
+    ],
+    '2026-07-31',
+    {
+      seoTitle: 'Tuscany in August 2026: Palio, Ferragosto, Heat & the Honest Playbook',
+      primaryKeyword: 'tuscany in august',
+      secondaryKeywords: [
+        'tuscany august 2026',
+        'tuscany weather august',
+        'ferragosto 2026 tuscany',
+        'palio august 16 2026',
+        'siena duomo floor august',
+        'tuscany august with kids',
+      ],
+      imageAlt: 'Early morning golden light on Florence cathedral before the crowds arrive',
+      canonicalPath: '/blog/tuscany-in-august-2026',
+      tags: ['tuscany in august', 'ferragosto', 'palio dell’assunta', 'tuscany summer', 'tuscany heat'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
