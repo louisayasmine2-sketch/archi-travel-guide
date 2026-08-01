@@ -5645,6 +5645,166 @@ The decision rule: one available night goes to Siena, almost always. A second ni
       tags: ['siena or san gimignano', 'tuscany day trips', 'day trip comparison', 'san gimignano', 'siena day trip'],
     }
   ),
+  A(
+    'val-dorcia-or-chianti-which-to-visit-2026',
+    'Val d’Orcia or Chianti: Which Tuscan Wine Country Should You Visit in 2026?',
+    'Day trips',
+    'Tuscany',
+    'Val d’Orcia or Chianti for your Tuscan wine-country day? An honest comparison of landscapes, wines, towns, seasons and car-free logistics for 2026.',
+    '/images/tuscany/chianti-wine-road-vineyard.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `**Val d’Orcia for the landscape, Chianti for the wine culture — and your base city should usually cast the deciding vote.** The Val d’Orcia, south of Siena, is the Tuscany of the photographs: open UNESCO-listed ridgelines, cypress avenues, and the hill towns of Pienza, Montalcino and Montepulciano, home to Brunello and Vino Nobile. Chianti, the wooded hill country between Florence and Siena, is less sweeping to look at but easier to reach, denser with tasting rooms, and in 2026 it hosts the year’s best wine event — the **Expo Chianti Classico in Greve, 10–13 September**. From Florence without a car, Chianti wins on logistics alone; from Siena, both are in reach and the Val d’Orcia repays the extra effort. With two countryside days, do one of each — they are different enough that neither repeats the other.`,
+      },
+      {
+        id: 'two-tuscanies',
+        heading: 'Two different Tuscanies',
+        body: `The confusion is understandable: both are “Tuscan wine country an hour from a famous city”. But they are distinct landscapes with distinct characters, and knowing which film you want to be in decides most of this comparison.
+
+**Chianti** — properly the Chianti Classico zone between Florence and Siena — is intimate country: wooded hills, vineyards threaded between oak and chestnut forest, stone hamlets at the end of cypress drives, and the wine towns of Greve, Radda and Castellina strung along the famous SR222 wine road. Its beauty reveals itself in stretches — a bend, a valley, an avenue — rather than in panoramas.
+
+**The Val d’Orcia**, south of Siena, is the opposite: open, sweeping and composed, a UNESCO World Heritage landscape of bare ridgelines, solitary farmhouses and grain fields that turn from green to gold through the year. It was inscribed precisely because its Renaissance-era agricultural landscape survives intact — and it is where nearly every iconic “Tuscany” photograph you have ever seen was taken.
+
+![Cypress trees and rolling hills in the Val d’Orcia](/images/tuscany/val-dorcia-cypress-trees-landscape.jpg)
+*The Val d’Orcia: the Tuscany of the photographs, an hour south of Siena.*`,
+      },
+      {
+        id: 'getting-to-each',
+        heading: 'Getting to each: the logistics decide more than taste does',
+        body: `**Chianti is the accessible one.** From Florence, Autolinee Toscane’s **route 365** reaches Greve in Chianti in roughly an hour, with departures through the day from the Fortezza side of the centre — buy tickets before boarding and screenshot the return timetable. That single bus line makes Greve the only major Tuscan wine town with a genuinely easy car-free connection from a big city, [as our wine harvest guide details](/blog/tuscany-wine-harvest-vendemmia-2026/). From Siena, central Chianti is awkward by public transport — the practical route runs via Florence — but easy by car up the SR222.
+
+**The Val d’Orcia demands more.** From Siena by car it is a relaxed 40-minute run to the valley’s edge and a classic 130–150km loop through the towns. By bus it is doable with discipline — Montalcino and Montepulciano have connections, Pienza sits on the Montepulciano line — but Sunday service is thin and a realistic car-free day means one town done slowly, not three. [The full Val d’Orcia playbook is here](/blog/val-dorcia-day-trip-from-siena-2026/), and [the car-free menu here](/blog/siena-day-trips-without-a-car/).
+
+The blunt version: **no car + Florence base = Chianti; car + either base = your choice; Siena base = both are on the table.**`,
+      },
+      {
+        id: 'landscape-compared',
+        heading: 'Which has the better landscape?',
+        body: `**The Val d’Orcia, and it is not particularly close — with one honest caveat.** The valley’s open composition is why it carries the UNESCO listing and the calendar-cover monopoly: cypress circles and avenues, the chapel of Vitaleta’s postcard setting, ridge roads where every kilometre reframes the view, and autumn fog mornings that [October photographers cross the world for](/blog/tuscany-in-october-2026/). If your day is measured in photographs and vistas, the Val d’Orcia wins on every count.
+
+The caveat is that Chianti’s charm is real but different in kind: closer, greener, more inhabited. A Chianti drive is a sequence of intimate scenes — a vineyard gate, a hamlet church, a forest bend opening onto vines — that reward slow travel and repeat visits more than they reward a single day’s highlight reel. Travellers who found the Val d’Orcia “beautiful but exposed” often prefer Chianti’s enclosure; they are rarer than the reverse, but they are not wrong.
+
+One practical landscape note: the Val d’Orcia’s famous photo stops have small pull-offs that fill quickly in season. Early and late beats midday there even more than elsewhere in Tuscany — and on the busiest autumn weekends, the difference between arriving at eight and arriving at eleven is the difference between a photograph and a car park.`,
+      },
+      {
+        id: 'wine-compared',
+        heading: 'Which is better for wine?',
+        body: `**Call it a draw on quality and a split on style — with 2026’s calendar tilting toward Chianti.**
+
+**Chianti Classico** is a single, coherent appellation with the densest tasting infrastructure in Tuscany: castle estates, family cellars and roadside tasting rooms within minutes of each other, which makes an improvised multi-stop day genuinely feasible. And 2026 gives it the year’s headline event: the **54th Expo Chianti Classico, 10–13 September in Greve’s Piazza Matteotti** — €20 admission with tasting glass and tickets, as checked in July 2026 — the one occasion when producers from the whole zone pour side by side on one square.
+
+**The Val d’Orcia’s** wine case rests on two of Italy’s most celebrated names: **Brunello di Montalcino** and **Vino Nobile di Montepulciano**, tasted in their home towns, often in cellars carved beneath them. The experience runs more formal and more booked — serious visits across both zones increasingly expect reservations from May to October, harvest weeks above all — and the wines themselves anchor the deeper end of the tasting spectrum.
+
+The styles of day differ accordingly: Chianti suits the grazing generalist, the Val d’Orcia the pilgrim with two booked appointments. [The vendemmia guide](/blog/tuscany-wine-harvest-vendemmia-2026/) covers how both behave in harvest season.`,
+      },
+      {
+        id: 'towns-compared',
+        heading: 'Which has the better towns?',
+        body: `**The Val d’Orcia, comfortably.** Pienza is a perfect Renaissance miniature with a cheese habit; Montalcino is a fortress town whose every doorway pours Brunello; Montepulciano climbs theatrically to its Piazza Grande above underground cellars; San Quirico d’Orcia — host of [December’s oil festival](/blog/tuscany-in-december-2026/) — is the quiet connoisseur’s stop the coaches skip. Any one of them anchors a day; together they are the best town-hopping circuit in Tuscany.
+
+Chianti’s towns are pleasant rather than headline: Greve’s arcaded market square (at its absolute best during the Expo), Radda’s walled core, Castellina’s underground vault-street. They serve the wine country rather than starring in it — with one borderline exception worth knowing: **Monteriggioni**, the tiny, perfectly walled outpost on Chianti’s southern edge, twenty minutes from Siena and worth an hour of anyone’s day, [as our hidden-gems guide covers](/blog/hidden-gems-around-siena-tuscany-2026/).
+
+If towns are the point and wine is the excuse, the Val d’Orcia is your valley. If wine is the point and towns are the punctuation, Chianti holds serve.`,
+      },
+      {
+        id: 'seasons-compared',
+        heading: 'Does the season change the answer?',
+        body: `Substantially — the two regions peak at different moments.
+
+**September belongs to Chianti** in 2026: its Sangiovese harvest runs from mid-month, the Expo fills Greve’s square on 10–13 September, and the wooded hills are at their liveliest. [The September guide](/blog/siena-in-september-2026/) and vendemmia article map the month.
+
+**October belongs to the Val d’Orcia**: Montalcino’s Sangiovese Grosso keeps picking into late October — the last reliable harvest-watching in Tuscany — while the valley’s open landscape does its green-to-amber turn and the fog mornings begin. [October’s guide](/blog/tuscany-in-october-2026/) calls it the seam month for exactly this reason.
+
+**High summer** flattens the difference: both regions run hot and hazy, tastings need booking, and the Val d’Orcia’s exposed ridges punish midday ambition. **Winter** narrows it the other way — Chianti’s tasting rooms and Montalcino’s enotecas stay warm and open year-round, but rural infrastructure contracts, [as the November](/blog/tuscany-in-november-2026/) and December guides detail. Flexible dates? Choose the region first, then let its best month set the calendar.`,
+      },
+      {
+        id: 'eating-in-each',
+        heading: 'Eating in each region',
+        body: `Both regions eat magnificently; they specialise differently.
+
+**The Val d’Orcia’s table is a producers’ table.** Pienza is Tuscany’s pecorino capital — a cheese course there is obligatory, ideally bought where it was aged — while the valley’s osterie run to pici with wild-boar or aglione sauces, Cinta Senese pork, and Sunday-lunch cooking aimed at locals as much as visitors. San Quirico and the smaller stops feed you better value than the famous three towns’ main squares; the two-streets-away rule applies even in villages.
+
+**Chianti’s table is a farmhouse table with a butcher’s heart.** This is bistecca country — the great Florentine steak eaten closer to its source — backed by estate restaurants where the wine list is the farm’s own, forest food in season (porcini, game), and Greve’s market-square delis assembling the best picnic in the region. During [the September harvest](/blog/tuscany-wine-harvest-vendemmia-2026/), schiacciata con l’uva appears in the bakeries; from late October, both regions pour [the new oil](/blog/tuscany-olive-harvest-olio-nuovo-2026/) over everything.
+
+The draw is honest: you will not eat badly in either. The Val d’Orcia edges the cheese and pasta canon; Chianti edges the meat and the estate-lunch experience. [The food guide](/blog/tuscany-food-guide/) maps the shared repertoire.`,
+      },
+      {
+        id: 'model-days',
+        heading: 'A model day in each',
+        body: `**A Val d’Orcia day (from Siena, by car).** Away by 08:30, south on the Cassia. Montalcino for the morning — fortress walls and one booked Brunello tasting. San Quirico d’Orcia for an unhurried lunch the coaches skip. Pienza for the afternoon: cathedral, pecorino, the panoramic walk behind town. Golden-hour photo stops on the ridge roads home, and dinner back in Siena. Bus travellers: one town, done slowly, with the return timetable screenshotted — [the full guide has the details](/blog/val-dorcia-day-trip-from-siena-2026/).
+
+**A Chianti day (from Florence, car-free).** The morning 365 bus to Greve — market square, wine museum of a square that it is, and a tasting flight in an enoteca. A long estate or trattoria lunch. Either a second village by afternoon bus or, smarter, staying put: Greve rewards depth more than Chianti rewards hopping. Back on an evening bus with a boot-bag of bottles. Drivers swap the bus for the SR222 and add Castellina or Radda — plus **Monteriggioni’s walls** on the Siena end if the day runs long.
+
+The shared rules: book the one tasting that matters, protect the day’s golden edges, and if you are driving, spit like a professional — [the wine-road discipline](/blog/siena-ztl-fines-how-to-avoid/) extends to what is in the glass, and every town on both routes parks outside its walls.`,
+      },
+      {
+        id: 'personas',
+        heading: 'The verdict, traveller by traveller',
+        body: `**Photographer or first-time landscape romantic:** Val d’Orcia — early start, golden hours protected.
+
+**Wine-first day with minimal planning:** Chianti’s tasting density wins; add the Expo if your dates touch 10–13 September 2026.
+
+**Serious wine pilgrim:** Val d’Orcia, with two booked cellar visits in Montalcino or Montepulciano.
+
+**Florence base, no car:** Chianti via the 365 to Greve — the only easy answer, and a good one.
+
+**Siena base:** Val d’Orcia first; it is the trip Florence-based travellers cannot comfortably make, [and your base was chosen for it](/blog/florence-or-siena-which-to-visit-2026/).
+
+**Families:** Chianti’s shorter drives and Monteriggioni’s walkable walls edge it for young children; the Val d’Orcia suits kids who can ride an hour between gelato stops.
+
+**Two countryside days available:** one of each, in that order — Val d’Orcia for the spectacle, Chianti for the slow second day. They complement rather than repeat.
+
+**Harvest-season traveller in 2026:** let the calendar choose — Chianti while its vendemmia and the Expo run in September, the Val d’Orcia while Montalcino still picks in October. Booked around those weeks, the same two regions deliver two entirely different trips, and the [autumn month guides](/blog/tuscany-in-october-2026/) turn the sequencing into an itinerary.`,
+      },
+      {
+        id: 'both-in-one-trip',
+        heading: 'Doing both in one trip',
+        body: `A Siena base makes the double trivial: the city sits between the two regions, and [our where-to-stay guide](/blog/where-to-stay-in-siena/) exists largely because of that geography. The clean pattern for a week: one full Val d’Orcia loop with a booked tasting; one Chianti day — by car up the SR222, or via Florence and the 365 for the car-free; and Monteriggioni folded into whichever day passes it.
+
+What does not work is the single heroic day attempting both regions. They lie in opposite directions from Siena, the connecting roads are slow by design, and every hour in transit is an hour subtracted from the golden light that justified the trip. The same one-day rule from [our other comparisons](/blog/siena-or-san-gimignano-day-trip-2026/) applies: depth in one beats a checklist across two.
+
+For harvest-season trips, sequence by the calendar instead: Chianti in September, the Val d’Orcia in October, and [the olive season](/blog/tuscany-olive-harvest-olio-nuovo-2026/) bridging both from mid-October — the autumn guides stack into exactly this itinerary.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `The Expo Chianti Classico dates (10–13 September 2026) and €20 admission were checked in July 2026 against the organisers’ published information; the 365 bus route and roughly one-hour Florence–Greve journey against Autolinee Toscane route information; harvest-timing ranges (Chianti Classico from mid-September; Montalcino into late October) against producers’ and official tourism sources’ seasonal descriptions; and the Val d’Orcia’s UNESCO status and loop distances against the site’s own documented guides. Tasting-reservation norms describe how estates across both zones were operating for the 2026 season at our check. We have no affiliate relationship with any estate, operator or event named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Choosing between the Val d’Orcia and Chianti is choosing between Tuscany’s two best arguments: the landscape that made the region famous, and the wine country that made it beloved. Pick by base and season if logistics rule you; pick the Val d’Orcia if one image has to carry the trip; pick Chianti if the glass matters more than the camera. And if the choice keeps refusing to settle, take the hint the geography has been offering all along — sleep in Siena, where the road south leads to one and the road north to the other, and stop treating it as a choice at all.`,
+      },
+    ],
+    [
+      { q: 'Is Val d’Orcia or Chianti better?', a: 'Val d’Orcia for landscapes and hill towns — it is the UNESCO-listed Tuscany of the photographs. Chianti for wine-tasting density and car-free access from Florence. From a Siena base both are reachable, and a two-day trip does one of each.' },
+      { q: 'Can you visit Chianti without a car?', a: 'Yes — it is the one Tuscan wine region with an easy public-transport artery: Autolinee Toscane’s 365 bus from Florence reaches Greve in about an hour. Buy tickets before boarding and check the return timetable.' },
+      { q: 'Can you visit Val d’Orcia without a car?', a: 'With discipline. Buses from Siena reach Montalcino and Montepulciano, with Pienza on the Montepulciano line, but service is thin on Sundays and a realistic car-free day means one town done slowly rather than a three-town loop.' },
+      { q: 'Which has better wine, Chianti or Val d’Orcia?', a: 'Both are elite. Chianti Classico offers the densest casual tasting landscape in Tuscany; the Val d’Orcia holds Brunello di Montalcino and Vino Nobile di Montepulciano, tasted in their home towns, usually by reservation.' },
+      { q: 'What is the Expo Chianti Classico 2026?', a: 'The zone’s annual producers’ fair, running 10–13 September 2026 in Greve in Chianti’s Piazza Matteotti — €20 admission including tasting glass and tickets, as checked in July 2026 — the one event where the whole appellation pours on a single square.' },
+      { q: 'When is the harvest in each region?', a: 'Chianti Classico’s Sangiovese is generally picked from mid-September into early October; Montalcino’s slower Sangiovese Grosso for Brunello continues into late October, making the Val d’Orcia the better late-season harvest destination.' },
+      { q: 'Can you do Val d’Orcia and Chianti in one day?', a: 'Not meaningfully — they lie in opposite directions from Siena on slow roads, and the day disappears into transit. Do one properly, or base in Siena and give each its own day.' },
+      { q: 'Is the famous cypress-lined road Tuscany photo in Chianti or Val d’Orcia?', a: 'Val d’Orcia. The cypress avenues, lone farmhouses and open golden ridgelines of the classic photographs are almost all in the valley south of Siena — arrive early or late, as the famous pull-offs fill quickly in season.' },
+    ],
+    '2026-07-31',
+    {
+      seoTitle: 'Val d’Orcia or Chianti: Which to Visit in 2026? Honest Comparison',
+      primaryKeyword: 'val d’orcia or chianti',
+      secondaryKeywords: [
+        'val d’orcia vs chianti',
+        'chianti or val d’orcia which is better',
+        'tuscany wine region comparison',
+        'chianti without a car',
+        'val d’orcia day trip',
+        'tuscany landscape photography',
+      ],
+      imageAlt: 'A road winding through Chianti vineyards in the hills between Florence and Siena',
+      canonicalPath: '/blog/val-dorcia-or-chianti-which-to-visit-2026',
+      tags: ['val d’orcia or chianti', 'tuscany wine country', 'chianti classico', 'brunello di montalcino', 'tuscany day trips'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
