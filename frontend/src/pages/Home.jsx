@@ -12,7 +12,13 @@ import {
 } from "lucide-react";
 import SEO from "@/components/common/SEO";
 import { ORGANIZATION_JSONLD } from "@/lib/seo";
-import { articles, getArticle } from "@/data/articles";
+// Metadata-only index (slug/title/excerpt/canonicalPath/updated), generated
+// by scripts/generate-articles-index.js — the homepage must never pull the
+// full article bodies (~830KB) into its bundle.
+import articlesIndex from "@/data/articlesIndex.json";
+
+const articles = articlesIndex;
+const getArticle = (slug) => articlesIndex.find((a) => a.slug === slug);
 import { HOME } from "@/constants/testIds";
 import TiltCard from "@/components/common/TiltCard";
 import Reveal from "@/components/common/Reveal";
