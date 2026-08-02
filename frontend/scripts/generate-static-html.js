@@ -36,6 +36,11 @@ const SITE_URL = (
   'https://affittacameregliarchi.com'
 ).replace(/\/$/, '');
 const SITE_NAME = 'Archi Travel Guide';
+// Keep identical to DEFAULT_DESCRIPTION in src/lib/seo.js — the WebSite node
+// below must match the client-side one field-for-field so the shared @id
+// resolves to a single entity.
+const SITE_DESCRIPTION =
+  'Discover practical travel guidance for Siena and Tuscany: where to stay, what to do, how to plan transport, and budget-friendly trip planning.';
 const DEFAULT_IMAGE = `${SITE_URL}/images/archi-travel-guide-siena-og.webp`;
 const SCHEMA_UPDATED = '2026-07-10';
 
@@ -484,6 +489,32 @@ function destinationJsonLd(route, url) {
   };
 }
 
+// Site identity, asserted on every page, not just the homepage. Shapes and
+// @ids mirror websiteSchema() / ORGANIZATION_JSONLD in src/lib/seo.js (this
+// script is dependency-free and cannot import them): identical @ids let the
+// static and client-rendered copies dedupe into one entity.
+function websiteJsonLd() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${SITE_URL}/#website`,
+    url: SITE_URL,
+    name: SITE_NAME,
+    description: SITE_DESCRIPTION,
+  };
+}
+
+function organizationJsonLd() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': `${SITE_URL}/#organization`,
+    name: SITE_NAME,
+    url: SITE_URL,
+    brand: { '@type': 'Brand', name: SITE_NAME },
+  };
+}
+
 function schemaScripts(route, url, fullTitle) {
   const schemas = [
     breadcrumbJsonLd(route),
@@ -491,16 +522,8 @@ function schemaScripts(route, url, fullTitle) {
     routeIsArticle(route) ? articleJsonLd(route, url, fullTitle) : null,
     route.faq?.length ? faqJsonLd(route.faq) : null,
     destinationJsonLd(route, url),
-    route.path === '/'
-      ? {
-          '@context': 'https://schema.org',
-          '@type': 'WebSite',
-          '@id': `${SITE_URL}/#website`,
-          name: SITE_NAME,
-          url: SITE_URL,
-          description: route.description,
-        }
-      : null,
+    websiteJsonLd(),
+    organizationJsonLd(),
   ].filter(Boolean);
 
   return schemas.map(jsonLdScript).join('');

@@ -53,9 +53,14 @@
 /italy   /tuscany-travel-guide/ 301
 /italy/  /tuscany-travel-guide/ 301
 
-/en/*.html   /siena-travel-guide/ 301
-/it/*.html   /siena-travel-guide/ 301
-/en/*   /siena-travel-guide/ 301
-/it/*   /siena-travel-guide/ 301
+# Domain sterilisation: any legacy-era path not mapped above lands on the
+# homepage. /en/* and /it/* subsume their old *.html variants; the root-level
+# /*.html infix splat is greedy across slashes and verified to match under
+# wrangler pages dev (it also shadows direct requests for /index.html and
+# /logo-download.html, which is intended). Matching is case-sensitive; the
+# zone-level www rule in Cloudflare handles host-level cleanup.
+/en/*    / 301
+/it/*    / 301
+/*.html  / 301
 
 /*                                                       /index.html 200

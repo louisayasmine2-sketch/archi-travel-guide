@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import { SITE_URL, SITE_NAME, SITE_TAGLINE, DEFAULT_OG_IMAGE, DEFAULT_DESCRIPTION, TWITTER_HANDLE, canonical } from "@/lib/seo";
+import { SITE_URL, SITE_NAME, SITE_TAGLINE, DEFAULT_OG_IMAGE, DEFAULT_DESCRIPTION, TWITTER_HANDLE, canonical, ORGANIZATION_JSONLD, websiteSchema } from "@/lib/seo";
 
 /**
  * SEO component — renders <title>, meta description, OG, Twitter card, canonical,
@@ -38,7 +38,17 @@ export default function SEO({
       ? `${title} · ${SITE_NAME}`
       : `${SITE_NAME} — ${SITE_TAGLINE}`;
 
-  const schemas = Array.isArray(schema) ? schema : schema ? [schema] : [];
+  // Site identity is asserted on every page. The WebSite/Organization nodes here
+  // and the ones scripts/generate-static-html.js bakes into the static shells
+  // share the same #website / #organization @ids, so consumers dedupe them into
+  // a single entity; the @id filter keeps a page that still passes its own copy
+  // from emitting twins.
+  const passed = Array.isArray(schema) ? schema : schema ? [schema] : [];
+  const passedIds = new Set(passed.map((s) => s && s["@id"]).filter(Boolean));
+  const schemas = [
+    ...passed,
+    ...[websiteSchema(), ORGANIZATION_JSONLD].filter((s) => !passedIds.has(s["@id"])),
+  ];
 
   return (
     <Helmet>

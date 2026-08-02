@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import SEO from "@/components/common/SEO";
 import { articleSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
-import { SITE_URL, canonical, websiteSchema } from "@/lib/seo";
+import { SITE_URL, canonical } from "@/lib/seo";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 
 const SCHEMA_UPDATED = "2026-07-10";
@@ -225,7 +225,6 @@ export default function HubPage({ pageKey, routePath }) {
           }),
         ]
       : []),
-    ...(page.schemaType === "website" ? [websiteSchema()] : []),
   ];
 
   return (

@@ -15,9 +15,12 @@ const checks = [
     expectedCanonical: PRIMARY_ORIGIN,
   },
   {
+    // Domain sterilisation: www must never serve content — the zone-level
+    // Redirect Rule 301s it to the apex, so the chain has to open with a 3xx.
     url: `https://${WWW_HOST}/`,
     expectTitle: "Archi Travel Guide",
     expectedCanonical: PRIMARY_ORIGIN,
+    expectRedirect: true,
   },
   {
     url: `https://${PRIMARY_HOST}/siena-travel-guide`,
@@ -38,6 +41,27 @@ const checks = [
     url: `https://${PRIMARY_HOST}/en/rooms-bed-and-breakfast-in-siena.html`,
     expectTitle: "Where to Stay in Siena",
     expectedCanonical: `${PRIMARY_ORIGIN}/where-to-stay-in-siena`,
+    expectRedirect: true,
+  },
+  {
+    // Legacy paths without a granular mapping land on the homepage:
+    // /en/* and /it/* catch-alls plus the root-level /*.html rule.
+    url: `https://${PRIMARY_HOST}/en/any-legacy-path`,
+    expectTitle: "Archi Travel Guide",
+    expectedCanonical: PRIMARY_ORIGIN,
+    expectRedirect: true,
+  },
+  {
+    url: `https://${PRIMARY_HOST}/index-en.html`,
+    expectTitle: "Archi Travel Guide",
+    expectedCanonical: PRIMARY_ORIGIN,
+    expectRedirect: true,
+  },
+  {
+    url: `https://${PRIMARY_HOST}/any-legacy-page.html`,
+    expectTitle: "Archi Travel Guide",
+    expectedCanonical: PRIMARY_ORIGIN,
+    expectRedirect: true,
   },
 ];
 
@@ -192,6 +216,9 @@ for (const check of checks) {
     const titleOk = title.includes(check.expectTitle);
     const canonicalOk = normalizedCanonical === expectedCanonical;
     const bad = hasForbiddenShell(body);
+    const redirectOk =
+      !check.expectRedirect ||
+      (chain.length > 1 && chain[0].status >= 300 && chain[0].status < 400);
 
     const statusText = formatChain(chain);
     const finalStatus = final.status;
@@ -199,7 +226,7 @@ for (const check of checks) {
       ? new URL(final.location, final.url || check.url).toString()
       : final.url || check.url;
 
-    const ok = statusesOk && titleOk && canonicalOk && !bad;
+    const ok = statusesOk && titleOk && canonicalOk && redirectOk && !bad;
     console.log(`[${ok ? "OK" : "FAIL"}] [${CHECK_DEVICE}] ${check.url} => status ${finalStatus} chain ${statusText}`);
     console.log(`  final: ${finalUrl}`);
     console.log(`  canonical: ${canonical || "(missing)"}`);
@@ -214,6 +241,7 @@ for (const check of checks) {
       if (!canonicalOk) console.log(`  reason: canonical mismatch`);
       if (!titleOk) console.log(`  reason: title mismatch`);
       if (!statusesOk) console.log(`  reason: unexpected status chain -> ${statusText}`);
+      if (!redirectOk) console.log(`  reason: expected a redirect but URL served content directly`);
       if (result.error) console.log(`  reason: ${result.error}`);
       if (bad) console.log("  reason: JS-shell or runtime error pattern detected");
     }
