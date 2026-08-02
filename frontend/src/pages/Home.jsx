@@ -14,6 +14,8 @@ import SEO from "@/components/common/SEO";
 import { ORGANIZATION_JSONLD } from "@/lib/seo";
 import { articles, getArticle } from "@/data/articles";
 import { HOME } from "@/constants/testIds";
+import TiltCard from "@/components/common/TiltCard";
+import Reveal from "@/components/common/Reveal";
 import ResumeTripBand from "@/components/home/ResumeTripBand";
 import PalioCountdown from "@/components/home/PalioCountdown";
 import MonthPicker from "@/components/home/MonthPicker";
@@ -258,28 +260,31 @@ export default function HomePage() {
               Essential guides
             </h2>
             <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              {pillars.map(({ slug, Icon, article }) => {
+              {pillars.map(({ slug, Icon, article }, i) => {
                 const checked = formatDisplayDate(article.updated);
                 return (
-                  <Link
-                    key={slug}
-                    to={articlePath(article)}
-                    className="group flex flex-col rounded-lg border border-[#e8dfd4] bg-white p-6 transition-colors hover:border-[#C65A3A]/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C65A3A]"
-                  >
-                    <Icon className="h-6 w-6 text-[#C65A3A]" strokeWidth={1.5} aria-hidden="true" />
-                    <h3 className="mt-4 font-serif text-lg font-medium text-[#2C211B]">
-                      {article.title}
-                    </h3>
-                    <p className="mt-2 flex-1 text-sm leading-relaxed">
-                      {article.excerpt}
-                    </p>
-                    {checked && (
-                      <p className="mt-4 flex items-center gap-1.5 text-xs text-[#a45d49]">
-                        <CalendarCheck className="h-3.5 w-3.5" aria-hidden="true" />
-                        Updated {checked}
-                      </p>
-                    )}
-                  </Link>
+                  <Reveal key={slug} delay={i * 60} className="h-full">
+                    <TiltCard className="h-full rounded-lg">
+                      <Link
+                        to={articlePath(article)}
+                        className="group flex h-full flex-col rounded-lg border border-[#e8dfd4] bg-white p-6 transition-colors hover:border-[#C65A3A]/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C65A3A]"
+                      >
+                        <Icon className="h-6 w-6 text-[#C65A3A]" strokeWidth={1.5} aria-hidden="true" />
+                        <h3 className="mt-4 font-serif text-lg font-medium text-[#2C211B]">
+                          {article.title}
+                        </h3>
+                        <p className="mt-2 flex-1 text-sm leading-relaxed">
+                          {article.excerpt}
+                        </p>
+                        {checked && (
+                          <p className="mt-4 flex items-center gap-1.5 text-xs text-[#a45d49]">
+                            <CalendarCheck className="h-3.5 w-3.5" aria-hidden="true" />
+                            Updated {checked}
+                          </p>
+                        )}
+                      </Link>
+                    </TiltCard>
+                  </Reveal>
                 );
               })}
             </div>
@@ -338,27 +343,30 @@ export default function HomePage() {
               Recently updated guides
             </h2>
             <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
-              {recentlyUpdated.map((article) => {
+              {recentlyUpdated.map((article, i) => {
                 const updated = formatDisplayDate(article.updated);
                 return (
-                  <Link
-                    key={article.slug}
-                    to={articlePath(article)}
-                    className="group flex flex-col rounded-lg border border-[#e8dfd4] bg-white p-6 transition-colors hover:border-[#C65A3A]/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C65A3A]"
-                  >
-                    <h3 className="font-serif text-lg font-medium text-[#2C211B] group-hover:text-[#C65A3A]">
-                      {article.title}
-                    </h3>
-                    <p className="mt-2 flex-1 text-sm leading-relaxed">
-                      {article.excerpt}
-                    </p>
-                    {updated && (
-                      <p className="mt-4 flex items-center gap-1.5 text-xs text-[#a45d49]">
-                        <CalendarCheck className="h-3.5 w-3.5" aria-hidden="true" />
-                        Updated {updated}
-                      </p>
-                    )}
-                  </Link>
+                  <Reveal key={article.slug} delay={i * 60} className="h-full">
+                    <TiltCard className="h-full rounded-lg">
+                      <Link
+                        to={articlePath(article)}
+                        className="group flex h-full flex-col rounded-lg border border-[#e8dfd4] bg-white p-6 transition-colors hover:border-[#C65A3A]/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C65A3A]"
+                      >
+                        <h3 className="font-serif text-lg font-medium text-[#2C211B] group-hover:text-[#C65A3A]">
+                          {article.title}
+                        </h3>
+                        <p className="mt-2 flex-1 text-sm leading-relaxed">
+                          {article.excerpt}
+                        </p>
+                        {updated && (
+                          <p className="mt-4 flex items-center gap-1.5 text-xs text-[#a45d49]">
+                            <CalendarCheck className="h-3.5 w-3.5" aria-hidden="true" />
+                            Updated {updated}
+                          </p>
+                        )}
+                      </Link>
+                    </TiltCard>
+                  </Reveal>
                 );
               })}
             </div>

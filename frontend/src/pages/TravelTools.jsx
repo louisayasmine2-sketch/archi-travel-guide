@@ -8,6 +8,8 @@ import {
   daysUntilTrip, tripOverlapsPalio, PALIO_NOTE, loadTripProgress, TRIP_CHANGE_EVENT,
 } from "@/lib/tripPlan";
 import { Map, MapPin, Calculator, Calendar, Compass, Backpack, Sun, Luggage, FileText, Hotel } from "lucide-react";
+import TiltCard from "@/components/common/TiltCard";
+import Reveal from "@/components/common/Reveal";
 
 // Skeleton loader to reduce CLS and provide immediate feedback for LCP inside Modal
 function ToolSkeleton() {
@@ -229,9 +231,10 @@ export default function TravelToolsPage() {
 
         {/* Tools Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {TOOLS.map((tool) => (
+          {TOOLS.map((tool, i) => (
             <Dialog key={tool.id} defaultOpen={tool.id === openToolId}>
-              <div className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-md border border-[#C65A3A]/20 transition-all duration-300 flex flex-col h-full animate-in fade-in zoom-in-95 duration-300">
+              <Reveal delay={(i % 3) * 60} className="h-full">
+              <TiltCard className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-md border border-[#C65A3A]/20 transition-all duration-300 flex flex-col h-full animate-in fade-in zoom-in-95 duration-300">
                 <div className="w-14 h-14 rounded-full bg-[#FAF7F2] flex items-center justify-center text-[#C65A3A] mb-6">
                   <tool.icon className="w-7 h-7" />
                 </div>
@@ -242,7 +245,8 @@ export default function TravelToolsPage() {
                     Try Now
                   </button>
                 </DialogTrigger>
-              </div>
+              </TiltCard>
+              </Reveal>
 
               {/* Modal Content */}
               <DialogContent className="max-w-[95vw] md:max-w-[60vw] max-h-[90vh] overflow-y-auto bg-[#F5EDE3] p-0 border-none rounded-3xl">
