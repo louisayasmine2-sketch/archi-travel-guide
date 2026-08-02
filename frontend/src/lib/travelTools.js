@@ -79,6 +79,27 @@ export function budgetCalculator(payload) {
   };
 }
 
+// Per-category split of the same estimate budgetCalculator produces. Uses the
+// identical rate tables, so the categories always sum to the base total the
+// low–high range is derived from.
+export function budgetBreakdown(payload) {
+  const rates = rateBucket(payload.destination);
+  const travelers = Math.max(payload.travelers, 1);
+  const perDay = {
+    Accommodation: (rates.stay[payload.accommodation_level] / travelers) * 1.6,
+    Food: rates.food[payload.food_level],
+    Transport: rates.trans[payload.transport_type],
+    Activities: rates.act[payload.activities_level],
+  };
+  const total = Object.values(perDay).reduce((a, b) => a + b, 0);
+  return Object.entries(perDay).map(([category, ppd]) => ({
+    category,
+    per_person_per_day: pyRound(ppd, 2),
+    trip_total: Math.trunc(pyRound(ppd * travelers * payload.trip_length, -1)),
+    share: total ? ppd / total : 0,
+  }));
+}
+
 // ---------- Itinerary Generator ----------
 
 const ITIN_TEMPLATES = {

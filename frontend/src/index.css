@@ -845,3 +845,20 @@
   opacity: 1;
   transform: none;
 }
+
+/* Skip-to-content link: visually hidden until keyboard focus lands on it. */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: #2C211B;
+  color: #F5EDE3;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0 0 0.75rem 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.skip-link:focus {
+  left: 0;
+}

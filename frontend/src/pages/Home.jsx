@@ -16,6 +16,9 @@ import { articles, getArticle } from "@/data/articles";
 import { HOME } from "@/constants/testIds";
 import TiltCard from "@/components/common/TiltCard";
 import Reveal from "@/components/common/Reveal";
+import ResumeTripBand from "@/components/home/ResumeTripBand";
+import PalioCountdown from "@/components/home/PalioCountdown";
+import MonthPicker from "@/components/home/MonthPicker";
 
 // Hero assets are served as plain static files from /public/images — never
 // inlined as base64 (the design mockup only embedded them for preview).
@@ -240,6 +243,15 @@ export default function HomePage() {
             </nav>
           </div>
         </section>
+
+        {/* Returning planners see their trip; new visitors see nothing */}
+        <ResumeTripBand />
+
+        {/* Only in the 60 days before a verified Palio date */}
+        <PalioCountdown />
+
+        {/* Month-of-travel picker, resolved from published month guides */}
+        <MonthPicker />
 
         {/* Pillar cards — one resolved article per slot */}
         <section className="px-4 py-12 sm:px-6 sm:py-16">

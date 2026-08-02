@@ -1,30 +1,39 @@
 import { useState } from "react";
 import { itineraryGenerator, budgetCalculator, packingChecklist, bestTime, ITINERARY_DESTINATIONS } from "@/lib/travelTools";
-import { loadTripPlan } from "@/lib/tripPlan";
+import { loadTripPlan, loadBudgetPrefs } from "@/lib/tripPlan";
 import { FileText, Printer, CalendarDays, Wallet, Sun, ListChecks } from "lucide-react";
 
 // One printable page composed entirely from the "My Trip" plan and the same
 // verified tables the individual tools use — no new claims, no fetches.
-const BUDGET_ASSUMPTIONS = {
-  accommodation_level: "mid",
-  food_level: "casual",
-  transport_type: "public",
-  activities_level: "moderate",
+// Budget style comes from the levels last used in the Budget Planner.
+
+const PREF_LABELS = {
+  accommodation_level: { budget: "budget guesthouses", mid: "mid-range hotels", luxury: "luxury boutique stays" },
+  food_level: { street: "casual & street food", casual: "trattoria meals", fine: "fine dining" },
+  transport_type: { public: "public transport", mixed: "mixed transport", private: "private transport" },
+  activities_level: { light: "a light activity pace", moderate: "a moderate activity pace", packed: "a packed activity pace" },
 };
 
 function buildSheet() {
   const plan = loadTripPlan();
+  const prefs = loadBudgetPrefs();
   const maxDays = ITINERARY_DESTINATIONS.find((d) => d.value === plan.destination)?.days ?? 1;
   const itinerary = itineraryGenerator({ destination: plan.destination, trip_length: Math.min(plan.trip_length, maxDays) });
   const budget = budgetCalculator({
     destination: plan.destination,
     travelers: plan.travelers,
     trip_length: plan.trip_length,
-    ...BUDGET_ASSUMPTIONS,
+    ...prefs,
   });
+  const assumptions = [
+    PREF_LABELS.accommodation_level[prefs.accommodation_level],
+    PREF_LABELS.food_level[prefs.food_level],
+    PREF_LABELS.transport_type[prefs.transport_type],
+    PREF_LABELS.activities_level[prefs.activities_level],
+  ].join(", ");
   const months = bestTime({ destination: plan.destination, preference: "good_weather" });
   const packing = packingChecklist({ season: plan.season, trip_length: plan.trip_length });
-  return { plan, itinerary, budget, months, packing, itineraryCapped: plan.trip_length > maxDays };
+  return { plan, itinerary, budget, assumptions, months, packing, itineraryCapped: plan.trip_length > maxDays };
 }
 
 const SECTION = "rounded-3xl border border-[#F5EDE3] bg-white p-6 shadow-sm";
@@ -33,7 +42,7 @@ const SECTION_TITLE = "flex items-center gap-2 font-serif text-2xl text-[#2C211B
 export default function TripSheet() {
   // Built once when the modal opens — reopen to pick up My Trip changes.
   const [sheet] = useState(buildSheet);
-  const { plan, itinerary, budget, months, packing, itineraryCapped } = sheet;
+  const { plan, itinerary, budget, assumptions, months, packing, itineraryCapped } = sheet;
 
   return (
     <div className="font-sans printable-area">
@@ -104,7 +113,7 @@ export default function TripSheet() {
             ${budget.estimated_low.toLocaleString()}–${budget.estimated_high.toLocaleString()} <span className="text-base text-[#8A9A5B] font-sans">USD total</span>
           </p>
           <p className="text-sm text-[#8A9A5B] mt-2">
-            About ${budget.per_person_per_day} per person per day, assuming mid-range hotels, trattoria meals, public transport and a moderate activity pace — open the Budget Planner to change those assumptions.
+            About ${budget.per_person_per_day} per person per day, assuming {assumptions} — your last choices in the Budget Planner; recalculate there to change them.
           </p>
         </div>
 

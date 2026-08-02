@@ -7,7 +7,7 @@ import {
   loadTripPlan, saveTripPlan, TRIP_DESTINATIONS, TRIP_SEASONS,
   daysUntilTrip, tripOverlapsPalio, PALIO_NOTE, loadTripProgress, TRIP_CHANGE_EVENT,
 } from "@/lib/tripPlan";
-import { Map, MapPin, Calculator, Calendar, Compass, Backpack, Sun, Luggage, FileText } from "lucide-react";
+import { Map, MapPin, Calculator, Calendar, Compass, Backpack, Sun, Luggage, FileText, Hotel } from "lucide-react";
 import TiltCard from "@/components/common/TiltCard";
 import Reveal from "@/components/common/Reveal";
 
@@ -37,6 +37,7 @@ const InteractiveMap = lazy(() => import("./travel-tools/components/InteractiveM
 const CurrencyConverter = lazy(() => import("./travel-tools/components/CurrencyConverter"));
 const BestTimeFinder = lazy(() => import("./travel-tools/components/BestTimeFinder"));
 const TripSheet = lazy(() => import("./travel-tools/components/TripSheet"));
+const AreaMatch = lazy(() => import("./travel-tools/components/AreaMatch"));
 
 const TOOLS = [
   {
@@ -73,6 +74,13 @@ const TOOLS = [
     description: "Create a season-appropriate packing checklist for your Tuscany trip based on local weather.",
     icon: Backpack,
     component: SmartPackingList
+  },
+  {
+    id: "area-match",
+    name: "Area Match",
+    description: "Answer four questions and get the neighbourhood that fits your stay in Siena, Florence, or Rome.",
+    icon: Hotel,
+    component: AreaMatch
   },
   {
     id: "map",

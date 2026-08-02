@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { packingChecklist } from "@/lib/travelTools";
 import { loadTripPlan, notifyTripChange } from "@/lib/tripPlan";
 import { toast } from "sonner";
-import { ListChecks, Check, CloudRain, Sun, Snowflake, Download } from "lucide-react";
+import { ListChecks, Check, CloudRain, Sun, Snowflake, Download, Plus, X } from "lucide-react";
 
 const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors";
 const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
@@ -15,11 +15,18 @@ function loadSaved() {
   try {
     const s = JSON.parse(localStorage.getItem(PACKING_STORAGE_KEY) || "null");
     if (!s || typeof s !== "object" || !s.result || typeof s.result.categories !== "object") return null;
-    return { form: s.form, result: s.result, checked: Array.isArray(s.checked) ? s.checked : [] };
+    return {
+      form: s.form,
+      result: s.result,
+      checked: Array.isArray(s.checked) ? s.checked : [],
+      customItems: Array.isArray(s.customItems) ? s.customItems.filter((i) => typeof i === "string") : [],
+    };
   } catch {
     return null;
   }
 }
+
+const CUSTOM_CATEGORY = "Your items";
 
 export default function SmartPackingList() {
   const [saved] = useState(loadSaved);
@@ -31,17 +38,35 @@ export default function SmartPackingList() {
   });
   const [result, setResult] = useState(() => saved?.result ?? null);
   const [checked, setChecked] = useState(() => new Set(saved?.checked ?? []));
+  const [customItems, setCustomItems] = useState(() => saved?.customItems ?? []);
+  const [newItem, setNewItem] = useState("");
 
   useEffect(() => {
     try {
       if (result) {
-        localStorage.setItem(PACKING_STORAGE_KEY, JSON.stringify({ form, result, checked: [...checked] }));
+        localStorage.setItem(PACKING_STORAGE_KEY, JSON.stringify({ form, result, checked: [...checked], customItems }));
         notifyTripChange();
       }
     } catch {
       // Storage blocked or full — the in-memory checklist still works.
     }
-  }, [form, result, checked]);
+  }, [form, result, checked, customItems]);
+
+  const addCustomItem = () => {
+    const item = newItem.trim();
+    if (!item || customItems.includes(item)) return;
+    setCustomItems([...customItems, item]);
+    setNewItem("");
+  };
+
+  const removeCustomItem = (item) => {
+    setCustomItems((list) => list.filter((i) => i !== item));
+    setChecked((s) => {
+      const n = new Set(s);
+      n.delete(`${CUSTOM_CATEGORY}::${item}`);
+      return n;
+    });
+  };
   const [loading, setLoading] = useState(false);
   const [weatherNote, setWeatherNote] = useState("");
 
@@ -82,7 +107,7 @@ export default function SmartPackingList() {
   const toggle = (k) => setChecked((s) => { const n = new Set(s); n.has(k) ? n.delete(k) : n.add(k); return n; });
 
   const totalItems = result
-    ? Object.values(result.categories).reduce((n, items) => n + items.length, 0)
+    ? Object.values(result.categories).reduce((n, items) => n + items.length, 0) + customItems.length
     : 0;
 
   const downloadPDF = () => {
@@ -209,6 +234,62 @@ export default function SmartPackingList() {
                   </ul>
                 </div>
               ))}
+
+              {/* Custom items — the visitor's own additions, persisted with the list */}
+              <div className="rounded-3xl border border-[#F5EDE3] bg-white p-6 shadow-sm">
+                <h3 className="font-serif text-2xl text-[#2C211B] mb-4">{CUSTOM_CATEGORY}</h3>
+                <div className="no-print flex gap-3 mb-4">
+                  <input
+                    placeholder="Add your own item (e.g. Camera batteries)"
+                    value={newItem}
+                    onChange={(e) => setNewItem(e.target.value)}
+                    onKeyDown={(e) => { if (e.key === "Enter") { e.preventDefault(); addCustomItem(); } }}
+                    className="flex-1 px-4 py-3 rounded-2xl border border-[#F5EDE3] focus:outline-none focus:border-[#C65A3A] text-sm"
+                  />
+                  <button
+                    type="button"
+                    onClick={addCustomItem}
+                    disabled={!newItem.trim()}
+                    className="shrink-0 flex items-center gap-2 px-4 py-3 bg-[#C65A3A] hover:bg-[#A84A2E] text-white rounded-2xl text-sm font-medium transition-colors disabled:opacity-50"
+                  >
+                    <Plus className="w-4 h-4" /> Add
+                  </button>
+                </div>
+                {customItems.length ? (
+                  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {customItems.map((it) => {
+                      const key = `${CUSTOM_CATEGORY}::${it}`;
+                      const isChecked = checked.has(key);
+                      return (
+                        <li key={key} className="flex items-center gap-2">
+                          <button type="button" onClick={() => toggle(key)} className={["flex-1 flex items-center gap-3 rounded-xl px-4 py-3 text-left text-sm border transition-all no-print",
+                            isChecked ? "border-[#8A9A5B] bg-[#8A9A5B]/10 text-[#8A9A5B] line-through" : "border-[#F5EDE3] hover:border-[#C65A3A] text-[#2C211B]"].join(" ")}>
+                            <span className={["w-5 h-5 rounded-md border grid place-items-center shrink-0 transition-colors", isChecked ? "border-[#8A9A5B] bg-[#8A9A5B] text-white" : "border-[#8A9A5B]/50"].join(" ")}>
+                              {isChecked && <Check className="w-3.5 h-3.5" />}
+                            </span>
+                            {it}
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => removeCustomItem(it)}
+                            aria-label={`Remove ${it}`}
+                            className="no-print shrink-0 w-8 h-8 rounded-full grid place-items-center text-[#8A9A5B] hover:bg-[#C65A3A] hover:text-white transition-colors"
+                          >
+                            <X className="w-4 h-4" />
+                          </button>
+                          {/* Print-only list item format */}
+                          <div className="hidden print:flex items-center gap-2 text-sm mb-2">
+                            <div className="w-4 h-4 border border-black rounded-sm"></div>
+                            {it}
+                          </div>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                ) : (
+                  <p className="no-print text-sm text-[#8A9A5B]">Anything the smart list misses — add it here and tick it off with the rest.</p>
+                )}
+              </div>
             </div>
           ) : (
             <div className="rounded-3xl border border-dashed border-[#8A9A5B]/30 bg-white p-12 text-center text-[#8A9A5B] flex flex-col items-center justify-center min-h-[300px] no-print">
