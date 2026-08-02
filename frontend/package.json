@@ -69,7 +69,8 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "npm run sitemap && craco build && node scripts/generate-static-html.js && node scripts/inject-google-analytics.js",
+    "build": "npm run sitemap && npm run llms && craco build && node scripts/generate-static-html.js && node scripts/inject-google-analytics.js",
+    "llms": "node scripts/generate-llms-txt.js",
     "deploy-smoke": "node scripts/smoke-deploy.mjs",
     "test": "craco test",
     "test:e2e": "playwright test",
