@@ -68,8 +68,37 @@ function canonicalPathArg(arg = '') {
   return m ? m[1] : null;
 }
 
+// Two listing stubs pass `updated` as a variable reference to their JSON
+// guide's dateModified (e.g. `florenceToSienaGuide.dateModified`) — the JSON
+// is the single source of truth for those dates. Resolve such references by
+// reading the import statements and loading the JSON, instead of silently
+// falling back to DEFAULT_UPDATED.
+function jsonImportMap(src) {
+  const map = {};
+  const re = /import\s+([A-Za-z_$][\w$]*)\s+from\s+["']\.\/([\w.-]+\.json)["']/g;
+  let m;
+  while ((m = re.exec(src)) !== null) map[m[1]] = m[2];
+  return map;
+}
+
+function resolveDateModifiedRef(args, imports) {
+  const ref = args.find((a) => /^[A-Za-z_$][\w$]*\.dateModified$/.test(a.trim()));
+  if (!ref) return null;
+  const file = imports[ref.trim().split('.')[0]];
+  if (!file) return null;
+  try {
+    const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data', file), 'utf-8'));
+    return typeof data.dateModified === 'string' && /^\d{4}-\d{2}-\d{2}/.test(data.dateModified)
+      ? data.dateModified.slice(0, 10)
+      : null;
+  } catch (_) {
+    return null;
+  }
+}
+
 function extractArticles() {
   const src = fs.readFileSync(path.join(ROOT, 'src/data/articles.js'), 'utf-8');
+  const imports = jsonImportMap(src);
   const results = [];
   const seen = new Set();
   let i = 0;
@@ -101,12 +130,16 @@ function extractArticles() {
     if (slug && !seen.has(slug)) {
       seen.add(slug);
       const explicitUpdated = args.map(stringArg).find((a) => /^\d{4}-\d{2}-\d{2}/.test(a));
+      const updated =
+        (explicitUpdated ? explicitUpdated.slice(0, 10) : null) ||
+        resolveDateModifiedRef(args, imports) ||
+        DEFAULT_UPDATED;
       results.push({
         slug,
         title: stringArg(args[1]),
         excerpt: stringArg(args[4]),
         canonicalPath: canonicalPathArg(args[9] || ''),
-        updated: explicitUpdated ? explicitUpdated.slice(0, 10) : DEFAULT_UPDATED,
+        updated,
       });
     }
     i = j;
