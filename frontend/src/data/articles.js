@@ -6702,6 +6702,158 @@ For travellers, the strategic takeaway is comfortable: **every one of these meas
       tags: ['florence rules 2026', 'florence tourist fines', 'overtourism italy', 'florence travel news', 'florence practical tips'],
     }
   ),
+  A(
+    'italy-beach-rules-2026',
+    'Italy’s Beach Rules 2026: Booked Beaches, Real Fines & How the System Works',
+    'Practical tips',
+    'Italy',
+    'Italy’s 2026 beach rules, verified: which beaches now require booking, the fines that are real (mats, smoking, the 5-metre strip) and how it all works.',
+    '/images/venice/burano-free-island-alternative.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Italy has not “banned the beach”, whatever the headlines imply — but 2026 is the year the country’s most fragile coastlines moved decisively to **capped numbers, advance booking and enforced conduct rules**. The verified pattern, as checked in July 2026: Tuscany’s own **Cala Violina** caps entry at 700 people a day with a mandatory €1 booking all summer; Sardinia’s **La Pelosa** charges €3.50 and fines €100 for a towel laid without a rigid mat beneath it; **Pesaro** banned smoking across its entire beachfront from 1 April 2026 with fines up to €500; and everywhere, the **five-metre shoreline strip** must stay clear of towels and loungers. None of this touches the ordinary paid-beach-club day that remains Italy’s default. What changed, where, and how to have a flawless beach day anyway — below.`,
+      },
+      {
+        id: 'why-2026',
+        heading: 'Why 2026 became the year of beach rules',
+        body: `The mechanics are the same as [Florence’s street rules](/blog/florence-tourist-rules-2026) and [Venice’s access fee](/blog/venice-day-trip-from-tuscany-2026-access-fee): a finite, fragile asset meeting effectively infinite summer demand, and local government reaching for caps, fees and ordinances where goodwill stopped working. On the most photographed coves the problem is physical — trampled dunes, sand carried away a towel-load at a time, coastlines eroding under their own popularity — and the response has been to treat the beach less like open ground and more like a museum with a capacity.
+
+What makes 2026 notable is scale: booking systems, once a Sardinian curiosity, now run from Tuscany’s Maremma to the islands, and the international press spent early July declaring it the summer of “beaches by reservation”. The direction of travel is one-way; the list of managed beaches will be longer next year, not shorter.
+
+The reassuring counterweight, before the details: **the overwhelming majority of Italy’s thousands of kilometres of coast needs no booking, charges no entry, and works exactly as it always has.** The rules concentrate on a short list of celebrated places — and on behaviour that was never really acceptable anywhere.`,
+      },
+      {
+        id: 'how-italian-beaches-work',
+        heading: 'First, how Italian beaches actually work',
+        body: `The context every rule sits inside — and the thing first-time visitors most often misunderstand. Italy’s coast divides into two regimes.
+
+**The stabilimento balneare** — the beach club — is the default of Italian summer: a concession-run stretch of managed sand where you pay for the day (an umbrella and two loungers as the basic unit), and in exchange get facilities, a bar, showers, lifeguards and order. Prices vary enormously with glamour — the famous Versilia establishments around Forte dei Marmi occupy the luxury end — and August weekends book out at the popular ones. It is not a tourist trap; it is how Italians themselves do the sea.
+
+**The spiaggia libera** — the free beach — is the public alternative: unmanaged sand, no fee, no services, bring everything yourself. Every comune must maintain public stretches, typically at the ends of or between the concessions, and they fill fastest on summer weekends.
+
+Nearly all the new rules attach to specific *places* (capped coves) or specific *behaviour* (where your towel goes, what you light, what you take), not to this system itself. Know which regime you are standing in — the signage always tells you — and ninety per cent of beach-rule anxiety dissolves.`,
+      },
+      {
+        id: 'booked-beaches',
+        heading: 'The booked beaches: Cala Violina and the Sardinian pattern',
+        body: `**Cala Violina** — the Maremma’s celebrated “singing sand” cove between Follonica and Punta Ala — is Tuscany’s flagship example, and its 2026 system is precise: from **1 June to 30 September**, entry is capped at **700 people a day**, access runs 8:30–18:30, and booking is **mandatory through the official comune-run portal** at **€1 per person over twelve** (younger children free, but still requiring a booking). Reservations open only within **72 hours of the visit date**, the beach is reached by a 20–30 minute walk or cycle through coastal pine forest, and turning up unbooked in season means being turned away at the checkpoint, not negotiating.
+
+Sardinia wrote the template Tuscany borrowed. **La Pelosa** at Stintino — the Caribbean-postcard beach of a thousand feeds — runs timed, capped entry at **€3.50 per person** (under-12s exempt from reservation), and pairs it with the conduct rules in the next section. **Punta Molentis** near Villasimius limits umbrellas, tents and gazebos to one per family group, positioned only where attendants permit, explicitly to slow erosion.
+
+The shared logic: book the famous cove like you would [a Duomo entry slot](/blog/siena-in-september-2026/) — early inside its booking window, with the confirmation on your phone — or choose one of the hundred unmanaged beaches nearby and skip the ceremony entirely.`,
+      },
+      {
+        id: 'the-real-fines',
+        heading: 'The fines that are real',
+        body: `Filtered for what is verified rather than viral:
+
+**The mat rule.** At La Pelosa, a towel laid directly on the sand draws a **€100 on-the-spot fine** — a rigid mat must sit beneath it, because towels strip sand grain by grain from a beach that is measurably shrinking. This is the origin of every “Italy fines you for a towel!” headline: real, but one named beach with a stated reason.
+
+**The smoking bans.** **Pesaro** prohibited smoking across its entire beach area from **1 April 2026**, with fines of **€25–€500**, and it joins a lengthening list of comuni restricting beach smoking; La Pelosa bans it outright. Assume any managed beach may be smoke-free and look for the signs.
+
+**The five-metre strip.** The battigia — the strip nearest the waterline — must remain free for movement: no towels, loungers or umbrellas parked on it, anywhere. This one is national custom with local enforcement, and it is the rule casual visitors break most.
+
+**Taking the beach home.** Removing sand, stones or shells is prohibited at protected sites and can be penalised heavily — the souvenir is a photograph.
+
+**Squatting the sand.** Gear planted at dawn to claim territory, then abandoned, is confiscated on beaches across the country under local ordinances. Arrive, occupy, enjoy — but the towel does not hold a mortgage.`,
+      },
+      {
+        id: 'tuscany-coast',
+        heading: 'The Tuscan coast, practically',
+        body: `For readers of this site, the sea is usually a day trip or a two-day detour, and the coast splits into two characters.
+
+**Versilia**, in the north-west, is the classic: a continuous ribbon of stabilimenti from **Viareggio** — [carnival town in winter](/blog/tuscany-in-february-2027), beach town in summer, with its own railway station — up through Lido di Camaiore to Forte dei Marmi’s celebrity end. It is the easy car-free choice from Florence by train, the free-beach stretches are limited and busy, and an August Sunday here is an Italian cultural experience in its own right, in every sense.
+
+**The Maremma**, in the south, is the wilder answer: pine-backed dunes, protected coves, and the region’s best swimming water around **Castiglione della Pescaia**, Punta Ala and the Cala Violina headlands — [the same coast whose early harvest opens the wine season](/blog/tuscany-wine-harvest-vendemmia-2026). It rewards a car and a booked cove, and pairs naturally with southern-Tuscany touring rather than a dash from Florence.
+
+The honest matrix: **easy beach day, no car — Versilia by train; best beach, with planning — Maremma with a Cala Violina booking; neither — the pool**, which is why [our August guide](/blog/tuscany-in-august-2026) rates a pool-anchored base so highly in the hottest month.`,
+      },
+      {
+        id: 'beach-day-logistics',
+        heading: 'The beach-day playbook from Florence or Siena',
+        body: `**Timing**: the sea is the one Tuscan excursion where August works in your favour — [the franchigia keeps trains strike-free through the peak](/blog/italy-transport-strikes-survival-guide-2026) — but weekends double every queue, so a weekday beach day is worth rearranging for.
+
+**Getting there**: Florence to Viareggio runs directly by rail; from Siena, everything coastal effectively routes by car, which argues for folding the sea into a Maremma overnight rather than a long single day.
+
+**Booking**: check three things 72 hours out — the cove’s booking portal if you are aiming at a managed beach, the stabilimento’s availability if you want loungers on an August weekend, and the return timetable with [the usual second-to-last-departure discipline](/blog/siena-day-trips-without-a-car).
+
+**Kit**: water and shade double in importance on the exposed coast; [the summer packing list](/blog/summer-packing-list-for-tuscany-and-florence-2026) covers it, and at a mat-rule beach the mat is the one item that cannot be improvised.
+
+**Conduct**: the five-metre strip stays clear, smoke only where permitted, and everything carried in walks back out. The rules reward exactly the traveller this site writes for — the one who checked.`,
+      },
+      {
+        id: 'beach-culture',
+        heading: 'The unwritten rules: how Italians do the beach',
+        body: `Beyond the ordinances runs the etiquette — unenforced, universally observed, and the difference between blending in and broadcasting.
+
+The Italian beach day has a liturgy: morning arrival and the establishment of camp; swimming in unhurried instalments; **a proper lunch**, either the stabilimento’s restaurant or a multi-course picnic that shames northern-European sandwich culture; the sacred digestive pause afterwards (the old no-swimming-after-eating doctrine survives as folk law); and the late-afternoon golden session before the evening passeggiata in beach-town whites. August regulars hold the same umbrella for weeks and treat it as an address.
+
+The visitor’s translations: swimwear belongs on the sand and not in the town — [the same fines Venice writes](/blog/venice-day-trip-from-tuscany-2026-access-fee) exist in beach towns’ centres; a cover-up and footwear go on for the bar; music stays in your headphones; and the beach empties for lunch for a reason worth copying rather than exploiting.
+
+None of this is compliance — it is fluency, and it is the cheapest upgrade an Italian beach day offers. Watch the family under the next umbrella for ten minutes and you will learn more usable beach law than any ordinance publishes.`,
+      },
+      {
+        id: 'with-children',
+        heading: 'Beach days with children',
+        body: `For families, the stabilimento earns its fee several times over: shallow managed water, lifeguards, showers, shade you did not carry, bathrooms within toddler range, and the great Italian tradition of other children to absorb yours. Many run summer activity clubs, and August’s family-packed rows are their own childcare ecosystem. Book weekend loungers ahead in peak season the way you would [a family room in Siena](/blog/siena-with-kids).
+
+Free beaches suit self-sufficient families and fail unequipped ones — no facilities means every drop of water and inch of shade arrives on your shoulders, which on an exposed August beach is a real logistics exercise.
+
+Two safety notes that double as rules: the **flag system** is binding in spirit everywhere — take a red flag seriously even where the water photographs like a pool; and the capped coves’ walking access (Cala Violina’s 20–30 forest minutes) is a genuine consideration with small children and full arms — a stabilimento with a car park may simply be the better family answer, and there is no prize for the harder version.`,
+      },
+      {
+        id: 'checking-local-rules',
+        heading: 'How to check any beach’s current rules',
+        body: `Beach rules are the most local regulations in Italy — written by comuni, varied cove by cove, and revised season by season — which is why this article names its examples and dates rather than promising a national table that would mislead within a year.
+
+The verification routine takes five minutes: **the comune’s website** (the town hall of the beach you are visiting) publishes the summer ordinances and runs the booking portals — Cala Violina’s sits under Scarlino’s official system; **the beach’s own signage** at every access path states the binding local rules, in Italian and usually English at managed sites; and for stabilimenti, **the establishment itself** answers by phone or social channels — including the only question that matters on an August Saturday, which is whether there is space.
+
+Distrust, as ever, the undated listicle: beach-fine stories recirculate for years exactly like [Florence’s sandwich ordinance](/blog/florence-tourist-rules-2026), attached to the wrong region or a repealed rule. Primary sources are unusually easy here — the comune either lists the ordinance or it does not.
+
+![Colourful waterfront houses on the island of Burano in the Venetian lagoon](/images/venice/burano-free-island-alternative.webp)
+*Italy’s crowded-coast pressures run the length of the country — the answers, increasingly, are caps, bookings and conduct rules.*`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked in July 2026: Cala Violina’s system — the 700-person daily cap, 8:30–18:30 access, mandatory 1 June–30 September booking at €1 per person over twelve, the 72-hour booking window and foot-or-bicycle access — against the comune’s official booking information; La Pelosa’s €3.50 ticket, under-12 reservation exemption, mandatory rigid mat with €100 fines, and its smoking and sand-removal prohibitions, plus Punta Molentis’ umbrella limits, against the beaches’ published rules and contemporaneous reporting; and Pesaro’s whole-beach smoking ban from 1 April 2026 with €25–€500 fines against its announcement coverage. The five-metre shoreline rule and unattended-gear confiscations reflect national norms enforced through local ordinances, which vary — **always confirm the specific beach’s current rules on its comune’s official channels near your date.** We have no affiliate relationship with any beach operator, stabilimento or booking platform; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Read cynically, 2026 is the year Italy put its beaches behind a booking form. Read accurately, it is the year a handful of the country’s most loved coves stopped being loved to death — and the price of admission turned out to be a euro, a mat and a little foresight. The system asks of a beach day exactly what this site asks of every Tuscan day: check the primary source, book the thing with a capacity, arrive early, and behave like a guest. Do that, and the reward is the old promise intact — clear water over singing sand, pine shade at your back, and the satisfying knowledge that the crowd who didn’t check is somewhere else, arguing with a checkpoint.`,
+      },
+    ],
+    [
+      { q: 'Do you need to book beaches in Italy now?', a: 'Only a short list of protected, famous ones — Tuscany’s Cala Violina (700 a day, €1, June–September) and Sardinian coves like La Pelosa (€3.50) run capped booking systems. The vast majority of Italian beaches, paid clubs and free stretches alike, require no reservation.' },
+      { q: 'How does the Cala Violina booking work in 2026?', a: 'Through the comune’s official portal: mandatory from 1 June to 30 September, €1 per person over twelve (younger children free but booked), 700 entries a day between 8:30 and 18:30, bookable only within 72 hours of your visit, and access on foot or bike through the pine forest.' },
+      { q: 'Is it true you can be fined for a beach towel in Italy?', a: 'At La Pelosa in Sardinia, yes — €100 if the towel touches the sand without a rigid mat beneath it, a conservation measure against sand loss. It is a named-beach rule, not a national one, but it is the pattern protected beaches are adopting.' },
+      { q: 'Can you smoke on Italian beaches?', a: 'Increasingly not. Pesaro banned smoking across its entire beachfront from 1 April 2026 with fines of €25–€500, protected beaches like La Pelosa prohibit it, and comuni keep joining the list. Look for signage and assume managed beaches may be smoke-free.' },
+      { q: 'What is the five-metre rule on Italian beaches?', a: 'The strip closest to the waterline must stay clear of towels, loungers and umbrellas so people can move along the shore. It applies everywhere, enforced locally — and it is the rule visitors break most without knowing it exists.' },
+      { q: 'What is a stabilimento balneare?', a: 'Italy’s beach club: a managed concession where you pay for the day — umbrella, loungers, bar, showers, lifeguards. It is how Italians do the sea. Free public beaches (spiagge libere) run alongside, unmanaged and unpriced.' },
+      { q: 'Which Tuscan beaches are best from Florence or Siena?', a: 'Car-free from Florence: the Versilia strip via Viareggio’s station. With a car and planning: the Maremma — Castiglione della Pescaia, Punta Ala and a booked Cala Violina slot — folded into a southern-Tuscany overnight rather than a single long day.' },
+      { q: 'Can you take sand or shells home from Italy?', a: 'Not from protected beaches, where removal of sand, stones and shells is prohibited and penalised — and nowhere is it good practice. The rule exists because a million small souvenirs measurably shrink a beach.' },
+      { q: 'Where do I check a specific beach’s rules?', a: 'The comune’s official website publishes the season’s ordinances and runs any booking portal, and the beach’s own signage states the binding rules. Distrust undated articles — beach-rule stories circulate for years after the rules change.' },
+    ],
+    '2026-08-12',
+    {
+      seoTitle: 'Italy Beach Rules 2026: Booked Coves, Real Fines & the System',
+      primaryKeyword: 'italy beach rules 2026',
+      secondaryKeywords: [
+        'cala violina booking 2026',
+        'la pelosa beach rules',
+        'italy beach fines towel',
+        'do you need to book beaches in italy',
+        'stabilimento balneare explained',
+        'tuscany beaches from florence',
+      ],
+      imageAlt: 'Colourful waterfront houses on the island of Burano in the Venetian lagoon',
+      canonicalPath: '/blog/italy-beach-rules-2026',
+      tags: ['italy beach rules', 'cala violina', 'beach fines italy', 'tuscany coast', 'overtourism italy'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
