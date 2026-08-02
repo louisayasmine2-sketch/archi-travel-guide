@@ -8,17 +8,22 @@ const CHECK_DEVICE = "mobile";
 const USER_AGENT =
   "Mozilla/5.0 (Linux; Android 12; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36";
 
+// The homepage title is deliberately "exact" (no appended brand), and
+// extractTitle() does not decode entities, so the leading "Siena &amp;" is
+// unusable as a match — this substring sits after the ampersand.
+const HOME_TITLE = "Tuscany Trip Planning: Transport, Parking, Tickets";
+
 const checks = [
   {
     url: `https://${PRIMARY_HOST}/`,
-    expectTitle: "Archi Travel Guide",
+    expectTitle: HOME_TITLE,
     expectedCanonical: PRIMARY_ORIGIN,
   },
   {
     // Domain sterilisation: www must never serve content — the zone-level
     // Redirect Rule 301s it to the apex, so the chain has to open with a 3xx.
     url: `https://${WWW_HOST}/`,
-    expectTitle: "Archi Travel Guide",
+    expectTitle: HOME_TITLE,
     expectedCanonical: PRIMARY_ORIGIN,
     expectRedirect: true,
   },
@@ -47,19 +52,19 @@ const checks = [
     // Legacy paths without a granular mapping land on the homepage:
     // /en/* and /it/* catch-alls plus the root-level /*.html rule.
     url: `https://${PRIMARY_HOST}/en/any-legacy-path`,
-    expectTitle: "Archi Travel Guide",
+    expectTitle: HOME_TITLE,
     expectedCanonical: PRIMARY_ORIGIN,
     expectRedirect: true,
   },
   {
     url: `https://${PRIMARY_HOST}/index-en.html`,
-    expectTitle: "Archi Travel Guide",
+    expectTitle: HOME_TITLE,
     expectedCanonical: PRIMARY_ORIGIN,
     expectRedirect: true,
   },
   {
     url: `https://${PRIMARY_HOST}/any-legacy-page.html`,
-    expectTitle: "Archi Travel Guide",
+    expectTitle: HOME_TITLE,
     expectedCanonical: PRIMARY_ORIGIN,
     expectRedirect: true,
   },
