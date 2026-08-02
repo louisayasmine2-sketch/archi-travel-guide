@@ -82,18 +82,18 @@ musiman yang paling dekat tanggalnya dulu, lalu hub komparasi yang jadi pusat in
 | URL | Last published | Day 0 | Day 1 | Day 3 | Day 7 | CTR trend |
 | --- | --- | --- | --- | --- | --- | --- |
 | /blog/tuscany-in-august-2026 | 2026-07-31 |  |  |  |  |  |
-| /blog/siena-in-september-2026 | 2026-07-31 |  |  |  |  |  |
+| /blog/siena-in-september-2026 | 2026-08-02 |  |  |  |  |  |
 | /blog/tuscany-wine-harvest-vendemmia-2026 | 2026-07-31 |  |  |  |  |  |
-| /blog/florence-or-siena-which-to-visit-2026 | 2026-07-31 |  |  |  |  |  |
+| /blog/florence-or-siena-which-to-visit-2026 | 2026-08-03 |  |  |  |  |  |
 | /blog/san-gimignano-day-trip-from-siena-2026 | 2026-07-31 |  |  |  |  |  |
-| /blog/siena-or-san-gimignano-day-trip-2026 | 2026-07-31 |  |  |  |  |  |
-| /blog/tuscany-in-october-2026 | 2026-07-31 |  |  |  |  |  |
-| /blog/tuscany-olive-harvest-olio-nuovo-2026 | 2026-07-31 |  |  |  |  |  |
-| /blog/val-dorcia-or-chianti-which-to-visit-2026 | 2026-07-31 |  |  |  |  |  |
-| /blog/tuscany-in-november-2026 | 2026-07-31 |  |  |  |  |  |
-| /blog/tuscany-in-december-2026 | 2026-07-31 |  |  |  |  |  |
-| /blog/tuscany-in-january-2027 | 2026-07-31 |  |  |  |  |  |
-| /blog/tuscany-in-february-2027 | 2026-07-31 |  |  |  |  |  |
+| /blog/siena-or-san-gimignano-day-trip-2026 | 2026-08-05 |  |  |  |  |  |
+| /blog/tuscany-in-october-2026 | 2026-08-06 |  |  |  |  |  |
+| /blog/tuscany-olive-harvest-olio-nuovo-2026 | 2026-08-04 |  |  |  |  |  |
+| /blog/val-dorcia-or-chianti-which-to-visit-2026 | 2026-08-07 |  |  |  |  |  |
+| /blog/tuscany-in-november-2026 | 2026-08-08 |  |  |  |  |  |
+| /blog/tuscany-in-december-2026 | 2026-08-09 |  |  |  |  |  |
+| /blog/tuscany-in-january-2027 | 2026-08-10 |  |  |  |  |  |
+| /blog/tuscany-in-february-2027 | 2026-08-11 |  |  |  |  |  |
 
 Catatan batch 2:
 - Semua artikel 2.500+ kata, FAQPage JSON-LD aktif, meta description valid 110–155.

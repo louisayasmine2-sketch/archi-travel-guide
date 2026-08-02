@@ -4728,7 +4728,7 @@ Car logistics are the season’s one real constraint: farm and mill visits scatt
       { q: 'Do you need a car for an olive harvest trip?', a: 'Realistically yes for the farms and mills, which sit beyond bus routes. The season compensates: autumn roads are the year’s emptiest, and parking pressure is gone even in famous towns. Town days from Siena still work car-free.' },
       { q: 'Is November a good time to visit Tuscany?', a: 'For food-focused travellers it is one of the best-kept secrets: working mills, olio nuovo, truffle and porcini season, empty towns and negotiable room rates — traded against short days and the real chance of rain.' },
     ],
-    '2026-07-31',
+    '2026-08-04',
     {
       seoTitle: 'Tuscany Olive Harvest 2026: Olio Nuovo, Frantoio Visits & Joining In',
       primaryKeyword: 'tuscany olive harvest',
@@ -4875,7 +4875,7 @@ Stretch to four or five days and September rewards it: the [2-day](/blog/siena-2
       { q: 'What should you pack for Siena in September?', a: 'Layers: warm-day clothing plus a jacket for evenings, comfortable shoes for cobbles and hills, and rain cover for the handful of wet days. Later in the month, plan for genuinely cool nights.' },
       { q: 'Should you book ahead for Siena in September?', a: 'Yes for three things: your room (especially weekends), the cathedral complex during the floor uncovering, and any specific winery visit — harvest-season cellars increasingly expect reservations. The rest of the month can stay spontaneous.' },
     ],
-    '2026-07-31',
+    '2026-08-02',
     {
       seoTitle: 'Siena in September 2026: Duomo Floor, Harvest & Fewer Crowds',
       primaryKeyword: 'siena in september',
@@ -5022,7 +5022,7 @@ Swap days freely around the weather; the plan’s only fixed points are the book
       { q: 'Are things closed in Tuscany in November?', a: 'Some. Many sights switch to reduced winter hours around the start of the month, rural agriturismi and restaurants cut days or close for the season, and 1 November is a national public holiday with Sunday-style transport. Check each venue’s current schedule rather than summer listings.' },
       { q: 'Is November cheaper for visiting Tuscany?', a: 'It is the low season: accommodation is at its most negotiable, availability is wide outside the truffle-festival weekends, and the crowds that define summer pricing pressure are gone. The truffle weekends themselves book up locally — reserve those ahead.' },
     ],
-    '2026-07-31',
+    '2026-08-08',
     {
       seoTitle: 'Tuscany in November 2026: Truffles, Olio Nuovo & the Duomo Floor',
       primaryKeyword: 'tuscany in november',
@@ -5170,7 +5170,7 @@ Rearrange freely around rain — every outdoor day here has an indoor understudy
       { q: 'When do the clocks change in Italy in autumn 2026?', a: 'On Sunday 25 October 2026, the last Sunday of the month, clocks go back one hour. Evenings darken noticeably earlier from that date, so plan viewpoints and countryside driving for the afternoon and dinners for after dark.' },
       { q: 'Is early or late October better for a Tuscany trip?', a: 'Early-to-mid October for warmth, energy and the chance of seeing both harvests working; the final ten days for emptier towns, lower rates and the season’s first fires — traded against shorter, cooler evenings after the clock change.' },
     ],
-    '2026-07-31',
+    '2026-08-06',
     {
       seoTitle: 'Tuscany in October 2026: Two Harvests, the Duomo Floor & Golden Light',
       primaryKeyword: 'tuscany in october',
@@ -5310,7 +5310,7 @@ The plan’s only fixed points are the two festival calendars — everything els
       { q: 'What should you eat in Tuscany in December?', a: 'The winter canon: ribollita, wild-boar pappardelle, the tail of white truffle season, chestnuts, and olio nuovo over everything — plus Siena’s Christmas sweets, panforte and ricciarelli, bought in the month they were made for.' },
       { q: 'Is Christmas Day a good day to sightsee in Tuscany?', a: 'No — 25 December is the quietest day of the Italian year, with most venues closed and transport minimal. Plan a booked Christmas lunch or a hotel with a restaurant, enjoy the walk, and save the sightseeing for the days around it.' },
     ],
-    '2026-07-31',
+    '2026-08-09',
     {
       seoTitle: 'Tuscany in December 2026: Medieval Market, New Oil & Quiet Christmas',
       primaryKeyword: 'tuscany in december',
@@ -5470,7 +5470,7 @@ Whichever way you land, the two cities are seventy-odd minutes apart and the tic
       { q: 'Can you visit both Florence and Siena in one trip?', a: 'Easily. The proven formats are the day trip from either base, a two-or-three-night split between them, or a Siena base with one or two pre-booked Florence museum days by bus. Above three nights, doing both beats choosing.' },
       { q: 'Do you need a car for Florence or Siena?', a: 'For the cities themselves, no — both centres are walkable and connected by frequent public transport, and both restrict cars heavily. A car earns its cost only for deep countryside touring, and even then Siena’s day-trip menu works largely car-free.' },
     ],
-    '2026-07-31',
+    '2026-08-03',
     {
       seoTitle: 'Florence or Siena: Which to Visit in 2026? Honest Comparison',
       primaryKeyword: 'florence or siena',
@@ -5629,7 +5629,7 @@ The decision rule: one available night goes to Siena, almost always. A second ni
       { q: 'Which is better with kids?', a: 'San Gimignano for a shorter, simpler family day: compact, car-free, one tower, gelato in the square. Siena offers more for families who can pace a full day — and more escapes when energy dips.' },
       { q: 'Does the 2026 Duomo floor uncovering change the choice?', a: 'It strengthens Siena’s case between 18 August and 15 November 2026, when the cathedral’s inlaid marble floor is fully on show — one of the year’s art events in Italy and something San Gimignano has no equivalent to.' },
     ],
-    '2026-07-31',
+    '2026-08-05',
     {
       seoTitle: 'Siena or San Gimignano: Which Day Trip in 2026? Honest Comparison',
       primaryKeyword: 'siena or san gimignano',
@@ -5788,7 +5788,7 @@ For harvest-season trips, sequence by the calendar instead: Chianti in September
       { q: 'Can you do Val d’Orcia and Chianti in one day?', a: 'Not meaningfully — they lie in opposite directions from Siena on slow roads, and the day disappears into transit. Do one properly, or base in Siena and give each its own day.' },
       { q: 'Is the famous cypress-lined road Tuscany photo in Chianti or Val d’Orcia?', a: 'Val d’Orcia. The cypress avenues, lone farmhouses and open golden ridgelines of the classic photographs are almost all in the valley south of Siena — arrive early or late, as the famous pull-offs fill quickly in season.' },
     ],
-    '2026-07-31',
+    '2026-08-07',
     {
       seoTitle: 'Val d’Orcia or Chianti: Which to Visit in 2026? Honest Comparison',
       primaryKeyword: 'val d’orcia or chianti',
@@ -6089,7 +6089,7 @@ Swap any day for weather; nothing here has a queue, which is the entire point. S
       { q: 'Is the countryside worth visiting in January?', a: 'Selectively, by car: the wine-town enotecas stay open, the thermal springs are at their atmospheric best and the empty roads make driving easy — but agriturismi and rural restaurants are at their most closed, so verify everything specific before going.' },
       { q: 'What do public holidays close in early January?', a: '1 January and Epiphany on 6 January are full public holidays with Sunday-style transport and widespread closures. The festive season’s last family-travel surge surrounds the 6th; the true low-season quiet begins after it.' },
     ],
-    '2026-07-31',
+    '2026-08-10',
     {
       seoTitle: 'Tuscany in January 2027: Sales, Springs & the Carnival’s Early Start',
       primaryKeyword: 'tuscany in january',
@@ -6243,7 +6243,7 @@ Couples aiming at the 13th–14th should book everything early and swap the Mond
       { q: 'Is the Viareggio Carnival good for children?', a: 'Exceptionally: giant moving floats, bands and confetti land hardest with exactly the audience that tires of museums. Sundays are the busiest parades; the Thursday and closing Saturday run calmer, and sea-wind-proof clothing matters for everyone.' },
       { q: 'Can you visit the Tuscan countryside in February?', a: 'Selectively, by car: the wine-town enotecas, the thermal springs and the empty winter roads all reward a day out, but rural accommodation and restaurants remain at their most closed. Base in the cities and raid the countryside.' },
     ],
-    '2026-07-31',
+    '2026-08-11',
     {
       seoTitle: 'Tuscany in February 2027: Viareggio Carnival, Sweets & Winter Value',
       primaryKeyword: 'tuscany in february',
@@ -6566,6 +6566,140 @@ In both cases the practical moves are identical: let the airline rebook you rath
       imageAlt: 'A regional bus journey through the Tuscan countryside between Florence and Siena',
       canonicalPath: '/blog/italy-transport-strikes-survival-guide-2026',
       tags: ['italy strikes', 'sciopero', 'italy trains', 'travel disruption', 'passenger rights'],
+    }
+  ),
+  A(
+    'florence-tourist-rules-2026',
+    'Florence’s New Tourist Rules 2026: What Actually Changed (and What’s Recycled News)',
+    'Practical tips',
+    'Tuscany',
+    'Florence’s real 2026 rules, verified: the outdoor-dining overhaul, the e-scooter rental ban, keybox and rental restrictions — and the recycled myths.',
+    '/images/florence/oltrarno-artisan-street.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Florence has genuinely rewritten chunks of its rulebook for 2026 — but not the chunks the viral headlines describe. The real changes, verified against the city’s announcements as of July 2026: a **major outdoor-dining overhaul effective 11 February 2026** (structures banned outright on 50 UNESCO-area streets, strictly regulated on 73 more); the **end of shared e-scooter rentals from 1 April 2026**; a **keybox ban for holiday rentals** in force since February 2025; and **short-term rental restrictions in the UNESCO centre**, upheld in court in May 2026 and now being extended outward. Meanwhile the story most outlets keep re-publishing — “Florence will now fine you €500 for eating a sandwich” — is a 2018 ordinance covering four specific streets, recycled annually as news. What each rule actually means for your visit, below.`,
+      },
+      {
+        id: 'headlines-vs-reality',
+        heading: 'The headlines vs the rulebook',
+        body: `Florence rule stories follow a pattern worth understanding before any individual rule: a real municipal ordinance — usually aimed at businesses, landlords or operators rather than tourists — passes; international outlets translate it into a “tourists face fines!” headline; and the story then recirculates for years, unmoored from its date. The sandwich-fine story is the genre’s classic: reported breathlessly every summer since 2018, almost never with its street names or trial-period context attached.
+
+The 2026 reality is both calmer and more interesting. The city government has spent the year on its most significant public-space reform in over a decade, driven by UNESCO-heritage obligations and a genuine overtourism problem — and nearly all of it targets **the supply side**: café terraces, rental operators, scooter companies, landlords. The visitor’s experience changes noticeably; the visitor’s legal exposure barely changes at all.
+
+That distinction is this article’s spine. For each rule: what passed, when it took effect, whom it binds, and what — if anything — you need to do differently. Where a claim circulating online could not be verified against primary announcements, we say so, in line with [how we handle every fast-moving story](/blog/italy-entry-requirements-ees-etias-2026).`,
+      },
+      {
+        id: 'outdoor-dining',
+        heading: 'The outdoor-dining overhaul: 50 streets cleared, 73 regulated',
+        body: `The biggest genuine change of 2026 arrived on **11 February**, when Florence’s new rules for dehors — the outdoor dining structures that colonised the city’s streets after 2020 — took effect, in what the city describes as its largest public-space regulation update in fifteen years, developed with the cultural-heritage authorities.
+
+The shape of it: on **50 streets and squares inside the UNESCO World Heritage area** — including Ponte Vecchio, Piazzale degli Uffizi, Via Roma, Via Maggio, Via Romana, Borgo Santa Croce, Via dei Georgofili and Piazza di Santa Maria Nuova — outdoor dining structures are banned outright. On **another 73 streets**, they remain permitted but strictly regulated across five categories, with bans on plastic sheeting, tarpaulins and awnings, on advertising and branded decor, and on bright-coloured lighting — while plants and seasonal flowers are actively encouraged. Enforcement began immediately: the city issued around thirty fines to businesses in the first weeks.
+
+**What it means for you**: nothing to comply with — the rules bind the restaurants — but the streetscape is changing. Some famous lanes have lost their tables entirely, so a remembered terrace may now be indoor seating; the aesthetic is swinging from plastic marquee toward open-air tables and greenery; and the competition for the remaining outdoor seats in the centre is real on fine evenings. Book ahead for terrace dinners, or do as the Florentines do and [head for the Oltrarno](/blog/best-things-to-do-in-florence/), where the neighbourhood squares carry the evening.
+
+![Comfortable walking on Florence’s cobbled streets](/images/florence/comfortable-walking-shoes-cobblestones.webp)
+*The 2026 direction of travel: streets handed back to the people walking them.*`,
+      },
+      {
+        id: 'scooter-ban',
+        heading: 'The e-scooter rental ban: gone since 1 April 2026',
+        body: `Florence’s shared e-scooter era ended on **1 April 2026**, when the city’s decision to terminate rental scooter services took effect — municipal police removed around eighty vehicles from the streets on day one. The council’s stated reasons: road safety, the practical impossibility of enforcing Italy’s helmet requirement on casual renters, and the familiar catalogue of pavement-blocking parking and wrong-way riding. In parallel, the city is **expanding its bike-share fleet** as the replacement.
+
+The scope matters: this ends the **shared rental services** — the app-unlocked scooters scattered across the centre. It is not a ban on scooters as a category; privately owned vehicles remain subject to the national rules (helmet, insurance, no pavements).
+
+**What it means for you**: if your mental map of Florence included grabbing a scooter between sights, replace it. The honest substitutes are the ones the city intends: the expanded bike-share for longer hops, and feet for everything else — a Florence-sized historic centre was never a scooter problem, as anyone who has walked [from the Duomo to Piazzale Michelangelo](/blog/best-things-to-do-in-florence/) knows. The change lands hardest on nobody: the centre is compact, the buses run, and the pavements are calmer for it.`,
+      },
+      {
+        id: 'sandwich-rule',
+        heading: 'The famous “sandwich fine”: what the 2018 rule actually says',
+        body: `Now the recycled story. The ordinance behind every “fined for eating in Florence!” headline dates to **September 2018** and is precise: it targets stopping to eat on **four specific locations** — Via de’ Neri, Piazzale degli Uffizi, Piazza del Grano and Via della Ninna, the panino-and-gelato corridor around the Uffizi — during **lunch and dinner windows (roughly 12:00–15:00 and 18:00–22:00)**, with fines of **€150–€500** aimed at people eating on doorsteps, pavements and shopfronts. It began as a time-limited trial; its formal status today is not clearly published, and we will not pretend otherwise.
+
+The practical guidance survives regardless of the ordinance’s current legal state, because it reflects how the city actually polices its space: **do not turn a doorstep or a monument’s steps into a picnic bench in the densest corridor of the centre**. Buy the panino — Via de’ Neri’s fame is deserved — and then carry it somewhere built for lingering: a proper piazza bench, the riverside, [the Boboli or Bardini gardens](/blog/avoid-crowds-in-florence-july-2026/), or the steps and lawns where eating is an accepted part of the scene rather than an obstruction.
+
+The meta-lesson is the article’s thesis in miniature: the rule is narrow, old and sensible; the headline is broad, evergreen and wrong. When a Florence rule story reaches you stripped of street names and dates, assume recycling until a primary source says otherwise — a filter that, once installed, will save you from half the travel journalism written about Italy.`,
+      },
+      {
+        id: 'rentals-and-keyboxes',
+        heading: 'Keyboxes and short-term rentals: the rules behind your check-in',
+        body: `Two connected fronts target the holiday-rental economy rather than travellers — but change how visits begin.
+
+**The keybox ban** took effect in **February 2025**: exterior self-check-in keyboxes — the combination lockboxes that had colonised doorways across the centre — had to come off Florence’s buildings. **Short-term rental restrictions** go further: the city blocks the creation of **new tourist rentals in the UNESCO historic centre** (existing legal operators from 2024 continue), a regulation **upheld by the courts in May 2026**, and the city has announced plans to extend limits beyond the centre.
+
+**What it means for you**: apartments remain bookable — the restrictions bite on *new* supply — but **self-check-in by lockbox is no longer the norm**. Expect hosted handovers, staffed receptions or managed key exchanges; confirm the check-in procedure and its hours *before* booking, especially for late arrivals, and treat a listing still advertising an exterior keybox in Florence as a question mark over the operator’s attention to the rules. Longer-term, expect the centre’s supply to tilt back toward hotels and B&Bs — a shift already priced into [our accommodation advice](/blog/italy-hotels-no-ac-2026): the property’s operating reality, not its photographs, is what to interrogate.`,
+      },
+      {
+        id: 'conduct-basics',
+        heading: 'The conduct layer: unwritten Florence, written down',
+        body: `Around the headline ordinances runs a quieter layer of conduct enforcement, common to every heritage city drowning in visitors: keep off monuments that are not seating, keep swimwear for the pool, keep amplified noise down, leave no litter, and treat fountains as sculpture rather than plumbing. Florence polices these with patrols and fines like [Venice does](/blog/venice-day-trip-from-tuscany-2026-access-fee/), and the specifics evolve ordinance by ordinance — which is why we decline to print a definitive fine-schedule table that would be stale within a season.
+
+The reliable compass costs nothing: **behave like a guest in a working city rather than a visitor to a theme park**, and no conduct rule in Florence will ever apply to you. Eat sitting at tables or in green spaces; photograph without blocking; speak at street volume; dress for a city that goes to church. Travellers who arrive with that posture have never needed to memorise an ordinance — and travellers without it discover that enforcement exists.
+
+The same posture, incidentally, is what the city’s residents notice and reward: the barista’s warmth, the trattoria’s patience and [the quality of advice you receive](/blog/tuscany-food-guide/) all track the distinction between guest and consumer with remarkable precision.`,
+      },
+      {
+        id: 'why-florence-is-doing-this',
+        heading: 'Why Florence is doing this',
+        body: `The context that makes 2026’s rules coherent rather than random: Florence’s historic centre is a UNESCO World Heritage Site of about five square kilometres absorbing many millions of visitors a year, and the post-2020 rebound stressed it visibly — terraces annexing streets, rental supply hollowing out residential buildings, scooters treating the centre as a racetrack, and the city’s own residents increasingly priced and crowded out of it.
+
+The 2026 programme reads as a single strategy across its fronts: **reclaim public space** (the dehors rules), **calm the streets** (the scooter decision), **defend the housing stock** (the rental and keybox measures), and **protect the heritage designation** that underwrites the city’s entire visitor economy. Agree or disagree with individual measures, the direction is unmistakable — and it mirrors [Venice’s access-fee experiment](/blog/venice-day-trip-from-tuscany-2026-access-fee/) as part of the decade’s defining question for Italian heritage cities: how to remain places people live, not sets people visit.
+
+For travellers, the strategic takeaway is comfortable: **every one of these measures makes Florence better to actually visit** — calmer streets, real check-ins, freer pavements, terraces that frame the architecture instead of hiding it. The rules are not aimed at you. They are aimed at making the city worth your trip.`,
+      },
+      {
+        id: 'trip-checklist',
+        heading: 'The practical checklist for 2026 visitors',
+        body: `Distilled to actions:
+
+**Booking accommodation**: confirm the check-in procedure explicitly (no exterior keyboxes; hosted or managed handover is the norm) and its latest hours; prefer operators transparent about their registration status; expect centre apartment supply to keep tightening — book earlier than you used to.
+
+**Eating and drinking**: reserve outdoor tables in the centre on fine evenings — there are fewer of them by design; carry takeaway food to piazzas, gardens and riverside rather than doorsteps, and skip the picnic entirely on the Uffizi corridor’s four streets at meal hours.
+
+**Getting around**: no shared scooters — plan on feet for the centre, the expanded bike-share for longer hops, and [the buses and trains](/florence-to-siena-by-train-or-bus/) for everything regional.
+
+**General conduct**: monuments are not furniture, fountains are not pools, and street volume beats speaker volume. That sentence is the entire compliance burden of a normal visitor.
+
+**Staying current**: rules evolve — the rental restrictions are mid-extension as we write — so for anything consequential to your booking, check the city’s own announcements near your dates rather than a headline of unknown vintage. It is the same rule this site applies to [every moving target](/blog/italy-transport-strikes-survival-guide-2026).`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked in July 2026 against the city’s announcements and contemporaneous primary reporting: the outdoor-dining rules’ 11 February 2026 effective date, the 50-street ban and 73-street regulated tiers with their named locations and material rules, and the initial enforcement; the shared e-scooter rental termination from 1 April 2026 and the bike-share expansion; the exterior keybox ban in force since February 2025; and the UNESCO-centre short-term rental restrictions, their May 2026 court confirmation and the announced extension plans. The street-eating ordinance’s September 2018 origin, four named locations, meal-time windows and €150–€500 fine range are documented in its original reporting; **its current formal status is not clearly published, and we flag that honestly rather than asserting it either way.** Conduct-rule specifics change ordinance by ordinance — verify anything consequential on official channels near your dates. We have no affiliate relationship with any operator, platform or venue named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Strip away the recycled headlines and Florence’s 2026 rulebook tells a city’s story, not a tourist-trap story: a place of five square kilometres and immeasurable inheritance deciding, measure by measure, that it would rather be lived in than consumed. None of it asks anything of a thoughtful visitor beyond what thoughtfulness already gives — a confirmed check-in, a booked table, a sandwich eaten sitting down somewhere lovely. Come with that much, and every rule in this article is invisible; what you will notice instead is their dividend: pavements you can walk, façades you can see, and a city centre measurably closer to the one the postcards promised. The fine print, it turns out, is on your side.`,
+      },
+    ],
+    [
+      { q: 'Can you really be fined for eating in the street in Florence?', a: 'The famous rule is a September 2018 ordinance covering four specific locations around the Uffizi — Via de’ Neri, Piazzale degli Uffizi, Piazza del Grano and Via della Ninna — at meal hours, with fines of €150–€500 aimed at eating on doorsteps and pavements. Its current formal status is unclear; the practical rule stands: eat sitting somewhere appropriate, not on doorsteps in the densest corridor.' },
+      { q: 'What are Florence’s new outdoor dining rules?', a: 'From 11 February 2026, outdoor dining structures are banned on 50 UNESCO-area streets — including Ponte Vecchio and Piazzale degli Uffizi — and strictly regulated on 73 more, with plastic sheeting, awnings, advertising and bright lighting prohibited. The rules bind restaurants, not visitors; the visible effect is fewer, nicer terraces.' },
+      { q: 'Are e-scooters banned in Florence?', a: 'Shared rental e-scooters are gone: the service termination took effect on 1 April 2026 and removals began immediately. Privately owned scooters remain legal under national rules. The city expanded its bike-share as the replacement — and the compact centre walks well.' },
+      { q: 'Can you still rent an Airbnb in Florence?', a: 'Yes — existing legal short-term rentals continue. What is blocked is new tourist-rental registrations in the UNESCO historic centre, a restriction upheld in court in May 2026 and now slated for extension outward. Practical effect for guests: tighter supply and hosted check-ins.' },
+      { q: 'Why are keyboxes banned in Florence?', a: 'The February 2025 ban on exterior self-check-in keyboxes targets the anonymised holiday-rental economy and its effect on residential buildings. For guests it means hosted handovers or managed key exchange — confirm the procedure and its hours before booking, especially for late arrivals.' },
+      { q: 'Do Florence’s new rules affect tourists directly?', a: 'Barely. Nearly everything binds businesses, landlords and operators. A visitor’s entire compliance burden: eat sitting somewhere sensible, treat monuments as monuments, expect a hosted check-in, and walk or cycle instead of scooting.' },
+      { q: 'Is Florence still worth visiting with all these restrictions?', a: 'More so, arguably: the measures reclaim pavements, calm streets and protect the streetscape that is the reason to come. The rules are aimed at overtourism’s mechanics, not at visitors — and their dividend is a more visitable city.' },
+      { q: 'Where can I check Florence’s current rules before travelling?', a: 'For anything consequential — rental legality, check-in rules, conduct ordinances — rely on the city’s official announcements near your dates rather than undated headlines. Rule stories about Florence circulate for years after their facts change.' },
+      { q: 'Does Siena have similar tourist rules?', a: 'Siena’s signature rule is its round-the-clock ZTL — the restricted traffic zone that fines improvised driving — plus the usual heritage-city conduct standards. The overtourism ordinances making Florence headlines are largely Florence-specific, but the guest-in-a-working-city posture travels perfectly.' },
+      { q: 'Do the new rules change where to stay in Florence?', a: 'They tilt the calculus: centre apartment supply is tightening and self-check-in is gone, which strengthens the case for hotels, B&Bs and hosted rentals with staffed handovers — and for booking earlier than you used to, especially in high season.' },
+    ],
+    '2026-08-01',
+    {
+      seoTitle: 'Florence Tourist Rules 2026: What Actually Changed, Verified',
+      primaryKeyword: 'florence tourist rules 2026',
+      secondaryKeywords: [
+        'florence new rules tourists',
+        'florence eating street fine',
+        'florence outdoor dining ban 2026',
+        'florence e-scooter ban',
+        'florence airbnb rules 2026',
+        'florence keybox ban',
+      ],
+      imageAlt: 'An artisan street in Florence’s Oltrarno district',
+      canonicalPath: '/blog/florence-tourist-rules-2026',
+      tags: ['florence rules 2026', 'florence tourist fines', 'overtourism italy', 'florence travel news', 'florence practical tips'],
     }
   ),
 ];
