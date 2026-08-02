@@ -1,13 +1,20 @@
 import "@/App.css";
 import { Suspense, lazy, useEffect } from "react";
 import { BrowserRouter, Routes, Route, useLocation, Navigate } from "react-router-dom";
-import { Toaster } from "sonner";
 
 import Layout from "@/components/layout/Layout";
-import Home from "@/pages/Home";
-import HubPage from "@/pages/HubPage";
 import { trackPageView } from "@/lib/analytics";
 import ErrorBoundary from "@/components/common/ErrorBoundary";
+
+// Home and HubPage were the only eagerly-imported pages, which dragged the
+// full article corpus and framer-motion into the main bundle for every route.
+// Lazy like everything else; the prerendered static fallback keeps first
+// paint fast while chunks load.
+const Home = lazy(() => import("@/pages/Home"));
+const HubPage = lazy(() => import("@/pages/HubPage"));
+// Toasts only fire from lazily-loaded pages, so sonner (~90KB) has no
+// business in the main bundle either.
+const Toaster = lazy(() => import("sonner").then((m) => ({ default: m.Toaster })));
 
 const Destinations = lazy(() => import("@/pages/Destinations"));
 const Tuscany = lazy(() => import("@/pages/Tuscany"));
@@ -164,7 +171,9 @@ function App() {
           </Suspense>
           </ErrorBoundary>
         </Layout>
-        <Toaster position="bottom-right" richColors closeButton />
+        <Suspense fallback={null}>
+          <Toaster position="bottom-right" richColors closeButton />
+        </Suspense>
       </BrowserRouter>
     </div>
   );

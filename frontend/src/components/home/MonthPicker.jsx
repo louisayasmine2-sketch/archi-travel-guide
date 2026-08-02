@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { articles } from "@/data/articles";
+import articles from "@/data/articlesIndex.json";
 import { bestTime } from "@/lib/travelTools";
 import TuscanScene from "@/components/common/TuscanScene";
 import { CalendarDays, ArrowRight } from "lucide-react";
