@@ -1,4 +1,4 @@
-// End-to-end coverage of the /travel-tools hub and all eight tools,
+// End-to-end coverage of the /travel-tools hub and all nine tools,
 // run against the production build (see playwright.config.js).
 const { test, expect } = require("@playwright/test");
 
@@ -22,8 +22,8 @@ test.beforeEach(async ({ page }) => {
   await page.goto("/travel-tools");
 });
 
-test("hub renders all eight tool cards", async ({ page }) => {
-  await expect(page.locator("button:has-text('Try Now')")).toHaveCount(8);
+test("hub renders all nine tool cards", async ({ page }) => {
+  await expect(page.locator("button:has-text('Try Now')")).toHaveCount(9);
   await expect(page.locator("text=My Trip").first()).toBeVisible();
 });
 
@@ -133,4 +133,60 @@ test("dates overlapping the Palio show the verified warning", async ({ page }) =
   await setTrip(page, { destination: "Siena", nights: 8, date: `${year}-08-10` });
   await expect(page.locator("text=Your dates overlap the Palio")).toBeVisible();
   await expect(page.locator("text=Checked 20 July 2026")).toBeVisible();
+});
+
+test("area match quiz updates the recommendation live", async ({ page }) => {
+  await openTool(page, "Area Match");
+  const dialog = page.locator("[role='dialog']");
+  // Siena + walking is the default; family flips the pick to walk_family.
+  await expect(dialog.locator("text=Your match in Siena")).toBeVisible();
+  await dialog.locator("input[type='checkbox']").check();
+  await expect(dialog.locator("text=Terzo di Città")).toBeVisible();
+  await dialog.locator("select").nth(0).selectOption("Rome");
+  await expect(dialog.locator("text=Prati")).toBeVisible();
+});
+
+test("budget result includes a category breakdown that feeds the trip sheet", async ({ page }) => {
+  await openTool(page, "Tuscany Budget Planner");
+  const dialog = page.locator("[role='dialog']");
+  await dialog.locator("select").nth(0).selectOption("luxury");
+  await dialog.locator("button:has-text('Calculate My Budget')").click();
+  await expect(dialog.locator("text=Where it goes")).toBeVisible();
+  await expect(dialog.locator(".h-2.rounded-full").first()).toBeVisible();
+  await page.keyboard.press("Escape");
+  // The sheet's assumption line reflects the saved luxury choice.
+  await page.goto("/travel-tools?tool=trip-sheet");
+  await expect(page.locator("text=luxury boutique stays")).toBeVisible();
+});
+
+test("currency converter falls back to the dated cached rate when the API is down", async ({ page }) => {
+  await page.route("**/api.frankfurter.app/**", (route) => {
+    const url = new URL(route.request().url());
+    const to = url.searchParams.get("to");
+    const amount = parseFloat(url.searchParams.get("amount"));
+    route.fulfill({ json: { amount, base: url.searchParams.get("from"), date: "2026-07-29", rates: { [to]: amount * 0.865 } } });
+  });
+  await openTool(page, "Live Currency Converter");
+  await expect(page.locator("#result")).toContainText("86.50");
+
+  // API goes away: the converter must keep working on the saved rate,
+  // clearly labelled with its date.
+  await page.unroute("**/api.frankfurter.app/**");
+  await page.route("**/api.frankfurter.app/**", (route) => route.abort());
+  await page.locator("#amount").fill("200");
+  await expect(page.locator("text=Offline — using the saved rate from 2026-07-29")).toBeVisible();
+  await expect(page.locator("#result")).toContainText("173.00");
+});
+
+test("custom packing items are added, counted and persisted", async ({ page }) => {
+  await openTool(page, "Smart Packing List");
+  await page.locator("button:has-text('Generate Checklist')").click();
+  await expect(page.locator("text=Your items")).toBeVisible();
+  await page.locator("input[placeholder*='Add your own item']").fill("Camera batteries");
+  await page.locator("button:has-text('Add')").click();
+  await expect(page.locator("text=Camera batteries").first()).toBeVisible();
+  await page.keyboard.press("Escape");
+
+  await openTool(page, "Smart Packing List");
+  await expect(page.locator("text=Camera batteries").first()).toBeVisible();
 });

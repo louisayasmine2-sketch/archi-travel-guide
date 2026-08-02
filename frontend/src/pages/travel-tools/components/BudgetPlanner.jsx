@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { budgetCalculator } from "@/lib/travelTools";
-import { loadTripPlan, markToolDone } from "@/lib/tripPlan";
+import { budgetCalculator, budgetBreakdown } from "@/lib/travelTools";
+import { loadTripPlan, loadBudgetPrefs, saveBudgetPrefs, markToolDone } from "@/lib/tripPlan";
 import { toast } from "sonner";
 import { Wallet, Plus, Euro, X } from "lucide-react";
 
@@ -22,20 +22,19 @@ const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-
 const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
 
 export default function BudgetPlanner() {
-  // Destination, party size and nights come pre-filled from "My Trip".
+  // Destination, party size and nights come pre-filled from "My Trip";
+  // the style levels from the last calculation (shared with the Trip Sheet).
   const [form, setForm] = useState(() => {
     const plan = loadTripPlan();
     return {
       destination: plan.destination,
       travelers: plan.travelers,
       trip_length: plan.trip_length,
-      accommodation_level: "mid",
-      food_level: "casual",
-      transport_type: "public",
-      activities_level: "moderate",
+      ...loadBudgetPrefs(),
     };
   });
   const [result, setResult] = useState(null);
+  const [breakdown, setBreakdown] = useState(null);
   const [loading, setLoading] = useState(false);
   
   // Expense Tracker State
@@ -59,12 +58,19 @@ export default function BudgetPlanner() {
     e.preventDefault();
     setLoading(true);
     try {
-      const data = budgetCalculator({
+      const payload = {
         ...form,
         travelers: Number(form.travelers),
         trip_length: Number(form.trip_length),
+      };
+      setResult(budgetCalculator(payload));
+      setBreakdown(budgetBreakdown(payload));
+      saveBudgetPrefs({
+        accommodation_level: form.accommodation_level,
+        food_level: form.food_level,
+        transport_type: form.transport_type,
+        activities_level: form.activities_level,
       });
-      setResult(data);
       markToolDone("budget");
     } catch (_) {
       toast.error("Couldn't calculate the budget. Please try again.");
@@ -160,6 +166,23 @@ export default function BudgetPlanner() {
                   Per person, per day: <strong className="text-white text-lg ml-2">${result.per_person_per_day}</strong>
                 </p>
               </div>
+              {/* Where the money goes — same tables, so the split matches */}
+              {breakdown && (
+                <div className="mt-6 pt-6 border-t border-gray-700 space-y-3">
+                  <p className="text-[#8A9A5B] font-medium uppercase tracking-wider text-xs">Where it goes</p>
+                  {breakdown.map((b) => (
+                    <div key={b.category}>
+                      <div className="flex justify-between text-xs text-gray-300 mb-1">
+                        <span>{b.category}</span>
+                        <span>~${b.trip_total.toLocaleString()} · {Math.round(b.share * 100)}%</span>
+                      </div>
+                      <div className="h-2 rounded-full bg-gray-700 overflow-hidden">
+                        <div className="h-full rounded-full bg-[#C65A3A]" style={{ width: `${b.share * 100}%` }} />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
               <ul className="mt-6 space-y-3 text-sm text-gray-300">
                 {result.tips.map((t, i) => (
                   <li key={i} className="flex gap-3 items-start">

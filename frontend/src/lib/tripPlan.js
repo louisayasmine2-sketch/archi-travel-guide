@@ -104,6 +104,44 @@ export function tripOverlapsPalio(plan) {
 }
 
 // ---------------------------------------------------------------------------
+// Budget style preferences — the levels last used in the Budget Planner, so
+// the Trip Sheet estimates with the visitor's actual travel style instead of
+// hard-coded defaults.
+// ---------------------------------------------------------------------------
+
+const BUDGET_PREFS_KEY = "archi_budget_prefs_v1";
+
+export const DEFAULT_BUDGET_PREFS = {
+  accommodation_level: "mid",
+  food_level: "casual",
+  transport_type: "public",
+  activities_level: "moderate",
+};
+
+export function loadBudgetPrefs() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(BUDGET_PREFS_KEY) || "null");
+    if (!parsed || typeof parsed !== "object") return { ...DEFAULT_BUDGET_PREFS };
+    const pick = (key, allowed) => (allowed.includes(parsed[key]) ? parsed[key] : DEFAULT_BUDGET_PREFS[key]);
+    return {
+      accommodation_level: pick("accommodation_level", ["budget", "mid", "luxury"]),
+      food_level: pick("food_level", ["street", "casual", "fine"]),
+      transport_type: pick("transport_type", ["public", "mixed", "private"]),
+      activities_level: pick("activities_level", ["light", "moderate", "packed"]),
+    };
+  } catch {
+    return { ...DEFAULT_BUDGET_PREFS };
+  }
+}
+
+export function saveBudgetPrefs(prefs) {
+  try {
+    localStorage.setItem(BUDGET_PREFS_KEY, JSON.stringify(prefs));
+  } catch { /* storage blocked — the sheet falls back to defaults */ }
+  notifyTripChange();
+}
+
+// ---------------------------------------------------------------------------
 // Planning progress — which tools the visitor has already used.
 // ---------------------------------------------------------------------------
 
