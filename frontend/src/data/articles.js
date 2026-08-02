@@ -4728,7 +4728,7 @@ Car logistics are the season’s one real constraint: farm and mill visits scatt
       { q: 'Do you need a car for an olive harvest trip?', a: 'Realistically yes for the farms and mills, which sit beyond bus routes. The season compensates: autumn roads are the year’s emptiest, and parking pressure is gone even in famous towns. Town days from Siena still work car-free.' },
       { q: 'Is November a good time to visit Tuscany?', a: 'For food-focused travellers it is one of the best-kept secrets: working mills, olio nuovo, truffle and porcini season, empty towns and negotiable room rates — traded against short days and the real chance of rain.' },
     ],
-    '2026-07-31',
+    '2026-08-04',
     {
       seoTitle: 'Tuscany Olive Harvest 2026: Olio Nuovo, Frantoio Visits & Joining In',
       primaryKeyword: 'tuscany olive harvest',
@@ -4875,7 +4875,7 @@ Stretch to four or five days and September rewards it: the [2-day](/blog/siena-2
       { q: 'What should you pack for Siena in September?', a: 'Layers: warm-day clothing plus a jacket for evenings, comfortable shoes for cobbles and hills, and rain cover for the handful of wet days. Later in the month, plan for genuinely cool nights.' },
       { q: 'Should you book ahead for Siena in September?', a: 'Yes for three things: your room (especially weekends), the cathedral complex during the floor uncovering, and any specific winery visit — harvest-season cellars increasingly expect reservations. The rest of the month can stay spontaneous.' },
     ],
-    '2026-07-31',
+    '2026-08-02',
     {
       seoTitle: 'Siena in September 2026: Duomo Floor, Harvest & Fewer Crowds',
       primaryKeyword: 'siena in september',
@@ -5022,7 +5022,7 @@ Swap days freely around the weather; the plan’s only fixed points are the book
       { q: 'Are things closed in Tuscany in November?', a: 'Some. Many sights switch to reduced winter hours around the start of the month, rural agriturismi and restaurants cut days or close for the season, and 1 November is a national public holiday with Sunday-style transport. Check each venue’s current schedule rather than summer listings.' },
       { q: 'Is November cheaper for visiting Tuscany?', a: 'It is the low season: accommodation is at its most negotiable, availability is wide outside the truffle-festival weekends, and the crowds that define summer pricing pressure are gone. The truffle weekends themselves book up locally — reserve those ahead.' },
     ],
-    '2026-07-31',
+    '2026-08-08',
     {
       seoTitle: 'Tuscany in November 2026: Truffles, Olio Nuovo & the Duomo Floor',
       primaryKeyword: 'tuscany in november',
@@ -5170,7 +5170,7 @@ Rearrange freely around rain — every outdoor day here has an indoor understudy
       { q: 'When do the clocks change in Italy in autumn 2026?', a: 'On Sunday 25 October 2026, the last Sunday of the month, clocks go back one hour. Evenings darken noticeably earlier from that date, so plan viewpoints and countryside driving for the afternoon and dinners for after dark.' },
       { q: 'Is early or late October better for a Tuscany trip?', a: 'Early-to-mid October for warmth, energy and the chance of seeing both harvests working; the final ten days for emptier towns, lower rates and the season’s first fires — traded against shorter, cooler evenings after the clock change.' },
     ],
-    '2026-07-31',
+    '2026-08-06',
     {
       seoTitle: 'Tuscany in October 2026: Two Harvests, the Duomo Floor & Golden Light',
       primaryKeyword: 'tuscany in october',
@@ -5310,7 +5310,7 @@ The plan’s only fixed points are the two festival calendars — everything els
       { q: 'What should you eat in Tuscany in December?', a: 'The winter canon: ribollita, wild-boar pappardelle, the tail of white truffle season, chestnuts, and olio nuovo over everything — plus Siena’s Christmas sweets, panforte and ricciarelli, bought in the month they were made for.' },
       { q: 'Is Christmas Day a good day to sightsee in Tuscany?', a: 'No — 25 December is the quietest day of the Italian year, with most venues closed and transport minimal. Plan a booked Christmas lunch or a hotel with a restaurant, enjoy the walk, and save the sightseeing for the days around it.' },
     ],
-    '2026-07-31',
+    '2026-08-09',
     {
       seoTitle: 'Tuscany in December 2026: Medieval Market, New Oil & Quiet Christmas',
       primaryKeyword: 'tuscany in december',
@@ -5470,7 +5470,7 @@ Whichever way you land, the two cities are seventy-odd minutes apart and the tic
       { q: 'Can you visit both Florence and Siena in one trip?', a: 'Easily. The proven formats are the day trip from either base, a two-or-three-night split between them, or a Siena base with one or two pre-booked Florence museum days by bus. Above three nights, doing both beats choosing.' },
       { q: 'Do you need a car for Florence or Siena?', a: 'For the cities themselves, no — both centres are walkable and connected by frequent public transport, and both restrict cars heavily. A car earns its cost only for deep countryside touring, and even then Siena’s day-trip menu works largely car-free.' },
     ],
-    '2026-07-31',
+    '2026-08-03',
     {
       seoTitle: 'Florence or Siena: Which to Visit in 2026? Honest Comparison',
       primaryKeyword: 'florence or siena',
@@ -5629,7 +5629,7 @@ The decision rule: one available night goes to Siena, almost always. A second ni
       { q: 'Which is better with kids?', a: 'San Gimignano for a shorter, simpler family day: compact, car-free, one tower, gelato in the square. Siena offers more for families who can pace a full day — and more escapes when energy dips.' },
       { q: 'Does the 2026 Duomo floor uncovering change the choice?', a: 'It strengthens Siena’s case between 18 August and 15 November 2026, when the cathedral’s inlaid marble floor is fully on show — one of the year’s art events in Italy and something San Gimignano has no equivalent to.' },
     ],
-    '2026-07-31',
+    '2026-08-05',
     {
       seoTitle: 'Siena or San Gimignano: Which Day Trip in 2026? Honest Comparison',
       primaryKeyword: 'siena or san gimignano',
@@ -5788,7 +5788,7 @@ For harvest-season trips, sequence by the calendar instead: Chianti in September
       { q: 'Can you do Val d’Orcia and Chianti in one day?', a: 'Not meaningfully — they lie in opposite directions from Siena on slow roads, and the day disappears into transit. Do one properly, or base in Siena and give each its own day.' },
       { q: 'Is the famous cypress-lined road Tuscany photo in Chianti or Val d’Orcia?', a: 'Val d’Orcia. The cypress avenues, lone farmhouses and open golden ridgelines of the classic photographs are almost all in the valley south of Siena — arrive early or late, as the famous pull-offs fill quickly in season.' },
     ],
-    '2026-07-31',
+    '2026-08-07',
     {
       seoTitle: 'Val d’Orcia or Chianti: Which to Visit in 2026? Honest Comparison',
       primaryKeyword: 'val d’orcia or chianti',
@@ -6089,7 +6089,7 @@ Swap any day for weather; nothing here has a queue, which is the entire point. S
       { q: 'Is the countryside worth visiting in January?', a: 'Selectively, by car: the wine-town enotecas stay open, the thermal springs are at their atmospheric best and the empty roads make driving easy — but agriturismi and rural restaurants are at their most closed, so verify everything specific before going.' },
       { q: 'What do public holidays close in early January?', a: '1 January and Epiphany on 6 January are full public holidays with Sunday-style transport and widespread closures. The festive season’s last family-travel surge surrounds the 6th; the true low-season quiet begins after it.' },
     ],
-    '2026-07-31',
+    '2026-08-10',
     {
       seoTitle: 'Tuscany in January 2027: Sales, Springs & the Carnival’s Early Start',
       primaryKeyword: 'tuscany in january',
@@ -6243,7 +6243,7 @@ Couples aiming at the 13th–14th should book everything early and swap the Mond
       { q: 'Is the Viareggio Carnival good for children?', a: 'Exceptionally: giant moving floats, bands and confetti land hardest with exactly the audience that tires of museums. Sundays are the busiest parades; the Thursday and closing Saturday run calmer, and sea-wind-proof clothing matters for everyone.' },
       { q: 'Can you visit the Tuscan countryside in February?', a: 'Selectively, by car: the wine-town enotecas, the thermal springs and the empty winter roads all reward a day out, but rural accommodation and restaurants remain at their most closed. Base in the cities and raid the countryside.' },
     ],
-    '2026-07-31',
+    '2026-08-11',
     {
       seoTitle: 'Tuscany in February 2027: Viareggio Carnival, Sweets & Winter Value',
       primaryKeyword: 'tuscany in february',
@@ -6685,7 +6685,7 @@ For travellers, the strategic takeaway is comfortable: **every one of these meas
       { q: 'Does Siena have similar tourist rules?', a: 'Siena’s signature rule is its round-the-clock ZTL — the restricted traffic zone that fines improvised driving — plus the usual heritage-city conduct standards. The overtourism ordinances making Florence headlines are largely Florence-specific, but the guest-in-a-working-city posture travels perfectly.' },
       { q: 'Do the new rules change where to stay in Florence?', a: 'They tilt the calculus: centre apartment supply is tightening and self-check-in is gone, which strengthens the case for hotels, B&Bs and hosted rentals with staffed handovers — and for booking earlier than you used to, especially in high season.' },
     ],
-    '2026-07-31',
+    '2026-08-01',
     {
       seoTitle: 'Florence Tourist Rules 2026: What Actually Changed, Verified',
       primaryKeyword: 'florence tourist rules 2026',
