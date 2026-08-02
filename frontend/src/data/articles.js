@@ -2363,12 +2363,12 @@ This guide covers the practical layer: getting there and back, what genuinely ne
 - **Check the last bus before you commit to dinner.** Departures differ between the summer and winter timetables, and between weekdays, Saturdays and Sundays.
 
 If you do only one thing before this trip: book the Accademia and the Uffizi, and note the last 131R back to Siena for the specific day you are travelling.` },
-      { id: 'getting-there-131r-bus', heading: 'Getting there: the 131R bus', body: `The 131R is the fast Autolinee Toscane service between Siena and Florence. It runs from **Siena Via Tozzi** to **Firenze Autostazione**, the main bus station beside Santa Maria Novella, taking roughly **75 to 80 minutes** along the superstrada.
+      { id: 'getting-there-131r-bus', heading: 'Getting there: the 131R bus', body: `The 131R is the fast Autolinee Toscane service between Siena and Florence. It runs from **Siena Via Tozzi** to **Firenze Autostazione**, the main bus station beside Santa Maria Novella, taking about **75 minutes** along the superstrada on the summer timetable valid from 27 July 2026.
 
-**The fare, from the official table.** Autolinee Toscane prices its fast-route tickets by distance band. Siena to Florence sits in the 60.1–70.0 km band:
+**The fare, from the official table.** Autolinee Toscane prices its fast-route tickets by distance band. Siena to Florence sits in the 60.1–70.0 km band, which as checked on 3 August 2026 gives:
 
-- **€8.40** bought at a ticket counter or through the operator's app.
-- **€13.00** bought on board from the driver.
+- **€9.90** bought at a ticket counter or through the operator's app.
+- **€16.00** bought on board from the driver.
 
 That difference is not trivial — buying on board costs more than half again as much. Buy before you board. In Siena the ticket office is at the Via Tozzi bus station; in Florence you can buy at the Autostazione.
 
@@ -2452,7 +2452,7 @@ There is no version of this day trip where driving into central Florence is the 
       { id: 'practical-checklist', heading: 'Practical checklist', body: `- **Pick Tuesday to Saturday** if you can. Monday closes the galleries; Sunday shortens the dome and the buses.
 - **Book the Accademia and the Uffizi well ahead** — weeks, not days, in peak season.
 - **Book the dome climb** when slots release, about 45 days out.
-- **Buy the 131R ticket at a counter** (€8.40), not on board (€13.00).
+- **Buy the 131R ticket at a counter** (€9.90), not on board (€16.00) — fares checked 3 August 2026.
 - **Validate the ticket as you board.** Paying is not validating, and inspectors do check.
 - **Check the last bus for your specific day** on the official timetable — Sunday runs earlier.
 - **Check the strike and service-status pages** before you travel.
@@ -2465,13 +2465,13 @@ Florence from Siena is a good day out and an easy journey. The visitors who come
     [
       { q: "Is Florence worth a day trip from Siena?", a: "Yes, if you plan it. The bus takes about 75 to 80 minutes each way, leaving roughly six to seven hours in the city — enough for two major sights properly. Visitors who try to fit in five leave feeling rushed." },
       { q: "What day should I avoid?", a: "Monday, when the Uffizi, Accademia, Bargello, Pitti Palace and other state museums are closed. Sunday is the second-weakest choice: the dome climb only opens in the early afternoon and closes early, and the bus timetable is thinner." },
-      { q: "How much does the bus from Siena to Florence cost?", a: "€8.40 bought at a ticket counter or in the operator's app, or €13.00 bought on board from the driver. Buy before you board — and validate the ticket as you get on, or you risk a fine even though you paid." },
+      { q: "How much does the bus from Siena to Florence cost?", a: "€9.90 bought at a ticket counter or in the operator's app, or €16.00 bought on board from the driver, as checked on 3 August 2026. Buy before you board — and validate the ticket as you get on, or you risk a fine even though you paid." },
       { q: "Do I need to book the Uffizi and Accademia in advance?", a: "In peak season, yes. Guides commonly advise around two months ahead for the Accademia and several weeks for the Uffizi. Both are closed on Mondays, and the Uffizi's last entry at 17:30 is strictly enforced." },
       { q: "Do I need a ticket for Florence Cathedral?", a: "Not for the cathedral itself, which is free and needs no reservation. The dome climb is different — it requires a timed slot, released about 45 days ahead, and it sells out in peak season." },
       { q: "What time is the last bus back to Siena?", a: "There is no single answer, which is why so many sources get this wrong. Autolinee Toscane runs separate summer and winter timetables, each with different columns for weekdays, Saturdays and Sundays. Check the official 131R timetable for the exact day you are travelling, and note the departure after your intended one as a margin." },
       { q: "Can I drive to Florence instead?", a: "You can drive to the outskirts, but not into the centre — it is a camera-enforced ZTL, and entering without authorisation produces an automatic fine that reaches you months later through your rental company. The bus arrives closer than you could legally park." },
     ],
-    '2026-07-22T17:00:00+07:00',
+    '2026-08-03T12:00:00+07:00',
     { seoTitle: 'Florence from Siena: What to Book Before You Go (2026)', imageAlt: 'Brunelleschi’s dome and Florence Cathedral in early morning light', canonicalPath: '/blog/best-things-to-do-in-florence', published: '2026-07-03' }
   ),
 
