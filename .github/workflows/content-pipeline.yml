@@ -1,0 +1,72 @@
+name: content-pipeline
+
+# Otomasi produksi konten:
+# - otomatis saat artikel baru/berubah di-push (frontend/build/blog/*/index.html)
+# - atau manual: tab Actions -> content-pipeline -> Run workflow (isi path artikel)
+#
+# Hasil: zip "paket-konten" di halaman run (Artifacts), berisi output/pipeline/<slug>/
+# Kunci dibaca dari GitHub Secrets (VSLLM_KEY) - tidak pernah ada di file ini.
+
+on:
+  push:
+    branches: ["main", "content/**"]
+    paths:
+      - "frontend/build/blog/**/index.html"
+  workflow_dispatch:
+    inputs:
+      article:
+        description: "Path artikel, mis. frontend/build/blog/siena-2-day-itinerary/index.html"
+        required: false
+
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2   # butuh commit sebelumnya untuk mendeteksi artikel yang berubah
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pasang dependensi
+        run: |
+          npm ci
+          pip install edge-tts
+
+      - name: Tentukan artikel yang diproses
+        run: |
+          if [ -n "${{ github.event.inputs.article }}" ]; then
+            echo "${{ github.event.inputs.article }}" > artikel.txt
+          else
+            git diff --name-only HEAD^ HEAD -- 'frontend/build/blog/**/index.html' > artikel.txt || true
+          fi
+          echo "-- artikel yang akan diproses --"; cat artikel.txt || true
+
+      - name: Jalankan pipeline
+        env:
+          VSLLM_KEY: ${{ secrets.VSLLM_KEY }}
+          # ganti dua baris ini kalau pindah gateway/model:
+          PIPE_BASE_URL: "https://vsllm.com"
+          PIPE_MODEL: "gpt-5.5"
+        run: |
+          [ -s artikel.txt ] || { echo "tidak ada artikel baru - selesai."; exit 0; }
+          while IFS= read -r a; do
+            [ -f "$a" ] || { echo "lewati (tidak ada): $a"; continue; }
+            echo "== memproses: $a =="
+            node scripts/run-all.mjs --article "$a"
+          done < artikel.txt
+
+      - name: Unggah hasil
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: paket-konten
+          path: output/pipeline/
+          if-no-files-found: ignore
