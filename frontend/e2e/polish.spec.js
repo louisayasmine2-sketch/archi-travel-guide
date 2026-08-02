@@ -28,6 +28,19 @@ test("offline banner appears when the connection drops and clears on reconnect",
   await expect(page.locator("text=You're offline")).toHaveCount(0);
 });
 
+test("llms.txt follows the spec shape and carries real links", async ({ page }) => {
+  const res = await page.request.get("/llms.txt");
+  expect(res.status()).toBe(200);
+  const body = await res.text();
+  expect(body.startsWith("# Archi Travel Guide")).toBe(true);
+  expect(body).toContain("\n> ");            // required blockquote summary
+  expect(body).toContain("\n## Start here"); // H2 link-list sections
+  expect(body).toContain("\n## Guides");
+  const links = body.match(/^- \[[^\]]+\]\(https?:\/\/[^)]+\)/gm) || [];
+  expect(links.length).toBeGreaterThanOrEqual(30);
+  expect(body).not.toContain("localhost");
+});
+
 test("404 page offers search and the most useful routes", async ({ page }) => {
   await page.goto("/this-page-does-not-exist");
   await expect(page.locator("text=Not every road is paved.")).toBeVisible();
