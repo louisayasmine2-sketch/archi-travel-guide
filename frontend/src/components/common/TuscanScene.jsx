@@ -11,14 +11,24 @@ const MID_HILLS = ["#8A9A5B", "#94A063", "#7F9157"];
 const FRONT_HILLS = ["#C08552", "#B98A6A", "#C65A3A"];
 const CYPRESS = "#4C5B3F";
 
-export default function TuscanScene({ variant = 0, className = "" }) {
+// Optional seasonal palettes: same geometry, different light. Winter is pale
+// and cool, spring fresh, summer warm and dry, autumn ochre.
+const SEASONS = {
+  winter: { sky: "#F3F1EC", sun: "#DCCBA4", far: "#C9CDBC", mid: "#A7AE96", front: "#BFA98F" },
+  spring: { sky: "#F8F4E9", sun: "#E5C468", far: "#BFD0A0", mid: "#8FAB62", front: "#B99B72" },
+  summer: { sky: "#FAF2E1", sun: "#D98E4A", far: "#C2BC8B", mid: "#94A05B", front: "#C6763A" },
+  autumn: { sky: "#F7EFE3", sun: "#C97A3D", far: "#C8B98E", mid: "#9A9459", front: "#B0793F" },
+};
+
+export default function TuscanScene({ variant = 0, season, className = "" }) {
   const v = ((variant % 9) + 9) % 9;
   const sunX = 50 + ((v * 47) % 300);
-  const sky = SKIES[v % SKIES.length];
-  const sun = SUNS[v % SUNS.length];
-  const far = FAR_HILLS[(v + 1) % FAR_HILLS.length];
-  const mid = MID_HILLS[v % MID_HILLS.length];
-  const front = FRONT_HILLS[(v + 2) % FRONT_HILLS.length];
+  const pal = SEASONS[season];
+  const sky = pal ? pal.sky : SKIES[v % SKIES.length];
+  const sun = pal ? pal.sun : SUNS[v % SUNS.length];
+  const far = pal ? pal.far : FAR_HILLS[(v + 1) % FAR_HILLS.length];
+  const mid = pal ? pal.mid : MID_HILLS[v % MID_HILLS.length];
+  const front = pal ? pal.front : FRONT_HILLS[(v + 2) % FRONT_HILLS.length];
   // Hill curvature and cypress placement shift per variant.
   const w1 = 20 + (v * 11) % 30;
   const w2 = 15 + (v * 7) % 25;

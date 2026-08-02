@@ -16,6 +16,9 @@ test("month picker shows a guide for covered months and an honest fallback other
   await page.locator("button:has-text('February')").click();
   await expect(page.locator("text=No dedicated February guide yet")).toBeVisible();
   await expect(page.locator("text=May, June, September")).toBeVisible();
+
+  // The panel carries its seasonal illustration in both states.
+  await expect(page.locator(".tuscan-scene")).toHaveCount(1);
 });
 
 test("palio countdown appears exactly when inside the 60-day window", async ({ page }) => {

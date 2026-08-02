@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { articles } from "@/data/articles";
 import { bestTime } from "@/lib/travelTools";
+import TuscanScene from "@/components/common/TuscanScene";
 import { CalendarDays, ArrowRight } from "lucide-react";
 
 const MONTHS = [
@@ -16,6 +17,14 @@ const MONTHS = [
 function monthGuide(month) {
   const needle = `-in-${month.toLowerCase()}-2`;
   return articles.find((a) => a.slug.includes(needle)) || null;
+}
+
+// Northern-hemisphere season for the illustration's light.
+function seasonOf(monthIndex) {
+  if (monthIndex === 11 || monthIndex <= 1) return "winter";
+  if (monthIndex <= 4) return "spring";
+  if (monthIndex <= 7) return "summer";
+  return "autumn";
 }
 
 export default function MonthPicker() {
@@ -55,29 +64,37 @@ export default function MonthPicker() {
         </div>
 
         <div className="mt-6 rounded-3xl border border-[#F5EDE3] bg-white p-6 sm:p-8 shadow-sm">
-          {guide ? (
-            <>
-              <p className="text-xs font-semibold uppercase tracking-widest text-[#8A9A5B]">Month guide</p>
-              <h3 className="mt-2 font-serif text-2xl text-[#2C211B]">{guide.title}</h3>
-              <p className="mt-3 text-sm text-[#8A9A5B] leading-relaxed max-w-3xl">{guide.excerpt}</p>
-              <Link
-                to={guide.canonicalPath || `/blog/${guide.slug}`}
-                className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-[#C65A3A] hover:underline"
-              >
-                Read the {month} guide <ArrowRight className="w-4 h-4" />
-              </Link>
-            </>
-          ) : (
-            <>
-              <p className="text-xs font-semibold uppercase tracking-widest text-[#8A9A5B]">No dedicated {month} guide yet</p>
-              <p className="mt-3 text-sm text-[#8A9A5B] leading-relaxed max-w-3xl">
-                For context while you plan: the best-weather months for Tuscany are <span className="text-[#2C211B] font-medium">{fallback.months}</span>. {fallback.note}
-              </p>
-              <Link to="/travel-tools" className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-[#C65A3A] hover:underline">
-                Compare months in the Best Time tool <ArrowRight className="w-4 h-4" />
-              </Link>
-            </>
-          )}
+          <div className="flex flex-col-reverse md:flex-row gap-6 md:items-center">
+            <div className="flex-1 min-w-0">
+              {guide ? (
+                <>
+                  <p className="text-xs font-semibold uppercase tracking-widest text-[#8A9A5B]">Month guide</p>
+                  <h3 className="mt-2 font-serif text-2xl text-[#2C211B]">{guide.title}</h3>
+                  <p className="mt-3 text-sm text-[#8A9A5B] leading-relaxed max-w-3xl">{guide.excerpt}</p>
+                  <Link
+                    to={guide.canonicalPath || `/blog/${guide.slug}`}
+                    className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-[#C65A3A] hover:underline"
+                  >
+                    Read the {month} guide <ArrowRight className="w-4 h-4" />
+                  </Link>
+                </>
+              ) : (
+                <>
+                  <p className="text-xs font-semibold uppercase tracking-widest text-[#8A9A5B]">No dedicated {month} guide yet</p>
+                  <p className="mt-3 text-sm text-[#8A9A5B] leading-relaxed max-w-3xl">
+                    For context while you plan: the best-weather months for Tuscany are <span className="text-[#2C211B] font-medium">{fallback.months}</span>. {fallback.note}
+                  </p>
+                  <Link to="/travel-tools" className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-[#C65A3A] hover:underline">
+                    Compare months in the Best Time tool <ArrowRight className="w-4 h-4" />
+                  </Link>
+                </>
+              )}
+            </div>
+            {/* Seasonal illustration — same light as the chosen month */}
+            <div className="md:w-72 h-24 md:h-36 rounded-2xl overflow-hidden border border-[#F5EDE3] shrink-0">
+              <TuscanScene variant={MONTHS.indexOf(month)} season={seasonOf(MONTHS.indexOf(month))} className="w-full h-full block" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
