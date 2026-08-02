@@ -1720,12 +1720,12 @@ The real question is not which is cheaper. It is whether the extra ticket access
 
 ### Arriving by bus from Florence
 
-The 131R fast bus runs from Firenze Autostazione to Siena in roughly 75 to 80 minutes. From Autolinee Toscane's published fare table, Siena–Florence sits in the 60.1–70.0 km band:
+The 131R fast bus runs from Firenze Autostazione to Siena in about 75 minutes on the summer timetable valid from 27 July 2026. From Autolinee Toscane's published fast-route fare table, Siena–Florence sits in the 60.1–70.0 km band, which as checked on 3 August 2026 gives:
 
-- **€8.40** bought at a ticket counter or in the operator's app
-- **€13.00** bought on board from the driver
+- **€9.90** bought at a ticket counter or in the operator's app
+- **€16.00** bought on board from the driver
 
-A return day trip bought properly therefore costs **€16.80** in transport. Bought from the driver both ways, it costs €26.00 — a €9.20 penalty for not planning ahead.
+A return day trip bought properly therefore costs **€19.80** in transport. Bought from the driver both ways, it costs €32.00 — a €12.20 penalty for not planning ahead.
 
 One rule matters more than the fare: **validate the ticket the moment you board**. Buying is not validating, the driver may not check, and travellers who paid the correct fare at an official counter have still been fined by inspectors.
 
@@ -1819,14 +1819,14 @@ An overnight removes the last-bus problem entirely. You are not working backward
 **Either way:** do not drive into the walls. If your accommodation is inside the ZTL, email them your exact number plate before you arrive — many properties want it at least 48 hours ahead — and read our guide to [avoiding a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/) first.` },
       { id: 'a-worked-example', heading: 'A worked example', body: `Two people, coming from Florence, wanting the Campo, the Duomo complex and the Torre del Mangia.
 
-**As a day trip by bus:** €16.80 each in return transport bought at the counter, so €33.60 for two, plus attraction tickets. No tax, no room. The risk is the tower: arrive after the day's slots have gone and that part of the plan fails, with no second chance.
+**As a day trip by bus:** €19.80 each in return transport bought at the counter (fares checked 3 August 2026), so €39.60 for two, plus attraction tickets. No tax, no room. The risk is the tower: arrive after the day's slots have gone and that part of the plan fails, with no second chance.
 
 **As an overnight by car:** parking at the hotel rate of €25 for the day rather than €35, tourist tax of €2 each so €4 for one night, plus the room. The tower is available first thing in the morning, and the return journey is not a deadline.
 
 The difference between them is the room, plus €4, minus €10 of parking. Whether that is worth it depends entirely on how much you want the things a day trip cannot guarantee.` },
-      { id: 'practical-checklist', heading: 'Practical checklist', body: `- **Buy bus tickets at a counter** — €8.40 against €13.00 from the driver.
+      { id: 'practical-checklist', heading: 'Practical checklist', body: `- **Buy bus tickets at a counter** — €9.90 against €16.00 from the driver (checked 3 August 2026).
 - **Validate the ticket as you board.** Paying is not validating.
-- **Check the last bus for your specific day.** Sunday runs earlier.
+- **Check the last bus for your specific day.** On the current summer timetable the last Sunday departure back to Florence is 19:10, against 20:45 on weekdays.
 - **Park at Il Campino (free) or Policlinico (€2.50/day)** if cost matters more than five minutes' walk.
 - **Staying over? Ask about the €25 parking rate** before you arrive.
 - **Budget €2 per person per night** in tourist tax for a B&B or apartment, capped at six nights a month.
@@ -1846,7 +1846,7 @@ Siena works as a day trip and rewards an overnight. What it does not reward is a
       { q: "Why don't you give an average nightly room rate?", a: "Because there is no source we can stand behind. Room rates are market prices set by each property and move constantly with season and demand — there is no municipal register. Check live prices for your own dates instead, and expect high summer and the two Palio dates to raise them sharply." },
       { q: "Does the tourist tax apply to children?", a: "The Comune's regulation sets out exemptions, and the age threshold for children is one of the details that varies by municipality. Ask your property, which is required to itemise the tax on your receipt and holds the current exemption forms." }
     ],
-    "2026-07-23T22:00:00+07:00",
+    "2026-08-03T12:00:00+07:00",
     {
       seoTitle: 'Siena Day Trip vs Overnight: The Real Cost Difference',
       published: '2026-07-14',
