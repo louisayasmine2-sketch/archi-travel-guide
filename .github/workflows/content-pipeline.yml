@@ -53,8 +53,8 @@ jobs:
         env:
           VSLLM_KEY: ${{ secrets.VSLLM_KEY }}
           # ganti dua baris ini kalau pindah gateway/model:
-          PIPE_BASE_URL: "https://vsllm.com"
-          PIPE_MODEL: "gpt-5.5"
+          PIPE_BASE_URL: "https://gorouter.app"
+          PIPE_MODEL: "claude-opus-4-8"
         run: |
           [ -s artikel.txt ] || { echo "tidak ada artikel baru - selesai."; exit 0; }
           while IFS= read -r a; do
