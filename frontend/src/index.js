@@ -26,9 +26,22 @@ if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
   });
 }
 
+// The prerendered static fallback (see scripts/generate-static-html.js) stays
+// visible until React is actually ready, so slow connections see content
+// immediately instead of a blank page. Remove it in a layout effect — after
+// React commits its DOM but before the browser paints — so the swap never
+// shows both versions at once.
+function RemoveStaticFallback() {
+  React.useLayoutEffect(() => {
+    document.getElementById("static-fallback")?.remove();
+  }, []);
+  return null;
+}
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <RemoveStaticFallback />
     <HelmetProvider>
       <QueryClientProvider client={queryClient}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
