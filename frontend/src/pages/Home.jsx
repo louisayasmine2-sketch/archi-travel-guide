@@ -11,7 +11,6 @@ import {
   Ban,
 } from "lucide-react";
 import SEO from "@/components/common/SEO";
-import { ORGANIZATION_JSONLD } from "@/lib/seo";
 // Metadata-only index (slug/title/excerpt/canonicalPath/updated), generated
 // by scripts/generate-articles-index.js — the homepage must never pull the
 // full article bodies (~830KB) into its bundle.
@@ -168,7 +167,6 @@ export default function HomePage() {
         titleTemplate="exact"
         description="Parking, ZTL permits, tickets and transport for Siena and Tuscany, traced to official sources and dated so you can see how current each guide is."
         path="/"
-        schema={ORGANIZATION_JSONLD}
       />
 
       {/* Homepage-only performance hints: the poster is the LCP element.

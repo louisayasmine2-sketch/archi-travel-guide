@@ -132,7 +132,7 @@ Sitemap: https://affittacameregliarchi.com/sitemap.xml
 ```
 MONGO_URL=<your-production-connection-string>
 DB_NAME=archi_travel_guide
-CORS_ORIGINS=https://affittacameregliarchi.com,https://www.affittacameregliarchi.com
+CORS_ORIGINS=https://affittacameregliarchi.com
 RESEND_API_KEY=<your-production-resend-api-key>
 RESEND_FROM_EMAIL=Archi Travel Guide <noreply@affittacameregliarchi.com>
 RESEND_TO_EMAIL=contact@affittacameregliarchi.com
@@ -150,8 +150,10 @@ REACT_APP_SITE_URL=https://affittacameregliarchi.com yarn build
 
 Serve the `build/` folder from any static host. Configure the host to:
 
-1. Redirect `www.affittacameregliarchi.com` → apex (or vice-versa — pick one and
-   make it canonical).
+1. Redirect `www.affittacameregliarchi.com` → apex. The apex is the only
+   canonical host: www is handled by a zone-level Cloudflare Redirect Rule
+   (301, path preserved) and never serves the app, so it must not appear in
+   CORS origins, canonicals, or the sitemap.
 2. Redirect all non-`/api/*` paths to `/index.html` for SPA routing.
 3. Set `Cache-Control: public, max-age=31536000, immutable` for `/static/*`.
 4. Set `Cache-Control: public, max-age=0, must-revalidate` for `/index.html`.
