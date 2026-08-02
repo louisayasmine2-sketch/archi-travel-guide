@@ -52,11 +52,14 @@ export default function Header() {
 
   useEffect(() => { setMobileOpen(false); }, [pathname]);
 
+  const [searchOpen, setSearchOpen] = useState(false);
+
   const onSearch = (e) => {
     e.preventDefault();
     if (!q.trim()) return;
     navigate(`/blog?q=${encodeURIComponent(q.trim())}`);
     setQ("");
+    setSearchOpen(false);
   };
 
   return (
@@ -107,10 +110,40 @@ export default function Header() {
             {/* My Trip chip — appears once a plan is saved */}
             <TripChip />
 
-            {/* Search */}
-            <button className="w-10 h-10 rounded-full border border-[#F5EDE3] flex items-center justify-center hover:border-[#C65A3A] hover:text-[#C65A3A] hover:bg-white transition-all shadow-sm">
-              <Search className="w-4 h-4" />
-            </button>
+            {/* Search — expands into a working form (submits to /blog?q=) */}
+            {searchOpen ? (
+              <form onSubmit={onSearch} className="flex items-center gap-2">
+                <input
+                  autoFocus
+                  data-testid={NAV.searchInput}
+                  value={q}
+                  onChange={(e) => setQ(e.target.value)}
+                  onKeyDown={(e) => { if (e.key === "Escape") setSearchOpen(false); }}
+                  onBlur={() => { if (!q.trim()) setSearchOpen(false); }}
+                  placeholder="Search guides…"
+                  aria-label="Search guides"
+                  className="w-44 px-4 py-2 rounded-full border border-[#C65A3A]/50 bg-white text-sm focus:outline-none focus:border-[#C65A3A]"
+                />
+                <button
+                  type="submit"
+                  data-testid={NAV.searchSubmit}
+                  aria-label="Submit search"
+                  className="w-10 h-10 rounded-full bg-[#C65A3A] text-white flex items-center justify-center hover:bg-[#A84A2E] transition-all shadow-sm shrink-0"
+                >
+                  <Search className="w-4 h-4" />
+                </button>
+              </form>
+            ) : (
+              <button
+                type="button"
+                onClick={() => setSearchOpen(true)}
+                aria-label="Search the site"
+                aria-expanded={searchOpen}
+                className="w-10 h-10 rounded-full border border-[#F5EDE3] flex items-center justify-center hover:border-[#C65A3A] hover:text-[#C65A3A] hover:bg-white transition-all shadow-sm"
+              >
+                <Search className="w-4 h-4" />
+              </button>
+            )}
 
             {/* Theme Toggle */}
             {mounted && (
