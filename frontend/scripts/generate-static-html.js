@@ -550,8 +550,12 @@ function injectHead(html, route) {
     `<meta data-rh="true" name="twitter:description" content="${escapeHtml(route.description)}">`,
     `<meta data-rh="true" name="twitter:image" content="${escapeHtml(image)}">`,
     schemaScripts(route, url, fullTitle),
-    `<style data-static-fallback>.static-fallback{font-family:Arial,sans-serif;max-width:76ch;margin:0 auto;padding:2rem;color:#1f1f1f;line-height:1.65}.static-fallback a{color:#b95741}.static-fallback .overline{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#9a6a55}.static-fallback h1{font-family:Georgia,serif;font-size:clamp(2rem,5vw,3.5rem);line-height:1.05;margin:.5rem 0 1rem}.static-fallback ul{padding-left:1.2rem}.static-fallback li{margin:.45rem 0}.js .static-fallback{display:none}</style>`,
-    `<script data-static-fallback>document.documentElement.classList.add("js");</script>`,
+    // The fallback stays VISIBLE until React hydrates (index.js removes it in
+    // a layout effect, before the first client paint). Previously an inline
+    // script hid it instantly for every JS browser, which meant first paint
+    // waited for the whole main bundle — 4-5s FCP on mobile. Progressive
+    // enhancement instead: content paints as soon as HTML+CSS arrive.
+    `<style data-static-fallback>.static-fallback{font-family:Arial,sans-serif;max-width:76ch;margin:0 auto;padding:2rem;color:#1f1f1f;line-height:1.65}.static-fallback a{color:#b95741}.static-fallback .overline{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#9a6a55}.static-fallback h1{font-family:Georgia,serif;font-size:clamp(2rem,5vw,3.5rem);line-height:1.05;margin:.5rem 0 1rem}.static-fallback ul{padding-left:1.2rem}.static-fallback li{margin:.45rem 0}</style>`,
   ].join('');
 
   return html.replace('</head>', `${head}</head>`);

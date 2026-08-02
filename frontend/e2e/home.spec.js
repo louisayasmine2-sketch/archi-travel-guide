@@ -21,6 +21,21 @@ test("month picker shows a guide for covered months and an honest fallback other
   await expect(page.locator(".tuscan-scene")).toHaveCount(1);
 });
 
+test("prerendered fallback paints without JS and is swapped out after hydration", async ({ page, browser }) => {
+  // Hydrated visit: React removed the fallback, real hero is up.
+  await page.goto("/");
+  await expect(page.locator("#static-fallback")).toHaveCount(0);
+  await expect(page.locator("h1:has-text('The practical side')")).toBeVisible();
+
+  // No-JS visit: the prerendered content is immediately visible — this is
+  // what fast first paint on slow connections relies on.
+  const noJs = await browser.newContext({ javaScriptEnabled: false });
+  const p = await noJs.newPage();
+  await p.goto("/");
+  await expect(p.locator("#static-fallback h1")).toBeVisible();
+  await noJs.close();
+});
+
 test("palio countdown appears exactly when inside the 60-day window", async ({ page }) => {
   // Mirror of nextPalio() in PalioCountdown.jsx so the assertion is correct
   // on any day the suite runs.

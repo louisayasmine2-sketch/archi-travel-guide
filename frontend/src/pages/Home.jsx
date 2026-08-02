@@ -180,14 +180,17 @@ export default function HomePage() {
             Styles live in src/index.css under "Homepage video hero". */}
         <section className="home-hero" data-testid={HOME.hero}>
           <div className="home-hero-bg" ref={bgRef}>
+            {/* preload="none" + no autoplay attribute: the 2.3MB loop must
+                not compete with first paint on slow connections. The effect
+                below calls play() once React is up, which starts the fetch
+                after the page is already visible. */}
             <video
               ref={videoRef}
               className="home-hero-video"
-              autoPlay
               muted
               loop
               playsInline
-              preload="metadata"
+              preload="none"
               poster={HERO_POSTER}
               aria-label="Aerial view of Piazza del Campo and Torre del Mangia in Siena at golden hour, gently moving"
               data-testid={HOME.heroVideo}
