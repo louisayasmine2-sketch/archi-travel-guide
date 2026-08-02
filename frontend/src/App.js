@@ -7,7 +7,6 @@ import Layout from "@/components/layout/Layout";
 import Home from "@/pages/Home";
 import HubPage from "@/pages/HubPage";
 import { trackPageView } from "@/lib/analytics";
-import GlobalLanguageDetector from "@/components/layout/GlobalLanguageDetector";
 import ErrorBoundary from "@/components/common/ErrorBoundary";
 
 const Destinations = lazy(() => import("@/pages/Destinations"));
@@ -71,8 +70,7 @@ function App() {
       <BrowserRouter>
         <BFCacheHandler />
         <GoogleAnalytics />
-        <GlobalLanguageDetector>
-          <Layout>
+        <Layout>
           <ErrorBoundary>
           <Suspense fallback={<RouteFallback />}>
           <Routes>
@@ -165,8 +163,7 @@ function App() {
           </Routes>
           </Suspense>
           </ErrorBoundary>
-          </Layout>
-        </GlobalLanguageDetector>
+        </Layout>
         <Toaster position="bottom-right" richColors closeButton />
       </BrowserRouter>
     </div>
