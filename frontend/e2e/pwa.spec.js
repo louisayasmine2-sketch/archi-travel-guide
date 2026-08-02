@@ -29,5 +29,5 @@ test("manifest is valid and the site works offline after one visit", async ({ pa
 
   await context.setOffline(true);
   await page.reload({ waitUntil: "domcontentloaded" });
-  await expect(page.locator("button:has-text('Try Now')")).toHaveCount(8, { timeout: 15000 });
+  await expect(page.locator("button:has-text('Try Now')")).toHaveCount(9, { timeout: 15000 });
 });

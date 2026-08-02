@@ -4,6 +4,28 @@ import { Wallet, ArrowDownUp } from "lucide-react";
 const CURRENCIES = ["EUR", "USD", "GBP", "AUD", "CAD", "JPY", "CHF", "SGD", "IDR", "NZD"];
 const SEL = "w-full px-4 py-3 rounded-2xl border border-[#F5EDE3] focus:outline-none focus:border-[#C65A3A] bg-white transition-colors";
 
+// Last successful rate per pair, so the converter keeps working offline —
+// clearly labelled with the rate's date rather than pretending it is live.
+const FX_CACHE_KEY = "archi_fx_cache_v1";
+
+function readCachedRate(from, to) {
+  try {
+    const cache = JSON.parse(localStorage.getItem(FX_CACHE_KEY) || "{}");
+    const hit = cache?.[`${from}_${to}`];
+    return hit && typeof hit.rate === "number" && typeof hit.date === "string" ? hit : null;
+  } catch {
+    return null;
+  }
+}
+
+function writeCachedRate(from, to, rate, date) {
+  try {
+    const cache = JSON.parse(localStorage.getItem(FX_CACHE_KEY) || "{}") || {};
+    cache[`${from}_${to}`] = { rate, date };
+    localStorage.setItem(FX_CACHE_KEY, JSON.stringify(cache));
+  } catch { /* storage blocked — live-only behaviour remains */ }
+}
+
 export default function CurrencyConverter() {
   const [amount, setAmount] = useState("100");
   const [from, setFrom] = useState("USD");
@@ -40,11 +62,19 @@ export default function CurrencyConverter() {
         const data = await res.json();
         const converted = data?.rates?.[to];
         if (typeof converted !== "number") throw new Error("Unexpected response");
-        setResult({ value: converted, rate: converted / value, date: data.date });
+        writeCachedRate(from, to, converted / value, data.date);
+        setResult({ value: converted, rate: converted / value, date: data.date, stale: false });
         setLoading(false);
       } catch (err) {
         if (err.name !== "AbortError") {
-          setError("Couldn't fetch the exchange rate. Please try again.");
+          // Offline or API down: fall back to the last live rate for this
+          // pair, clearly dated — better than a dead tool mid-trip.
+          const cached = readCachedRate(from, to);
+          if (cached) {
+            setResult({ value: value * cached.rate, rate: cached.rate, date: cached.date, stale: true });
+          } else {
+            setError("Couldn't fetch the exchange rate. Please try again.");
+          }
           setLoading(false);
         }
       }
@@ -121,9 +151,16 @@ export default function CurrencyConverter() {
             </div>
             {error && <p className="text-red-500 text-sm mt-2 text-center">{error}</p>}
             {result && !loading && !error && from !== to && (
-              <p className="text-xs text-[#8A9A5B] mt-3 text-center">
-                1 {from} = {result.rate.toFixed(4)} {to} · reference rate dated {result.date} · source: frankfurter.app
-              </p>
+              result.stale ? (
+                <p className="text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded-xl px-3 py-2 mt-3 text-center">
+                  Offline — using the saved rate from {result.date} (1 {from} = {result.rate.toFixed(4)} {to}).
+                  It may have changed; reconnect for the live rate.
+                </p>
+              ) : (
+                <p className="text-xs text-[#8A9A5B] mt-3 text-center">
+                  1 {from} = {result.rate.toFixed(4)} {to} · reference rate dated {result.date} · source: frankfurter.app
+                </p>
+              )
             )}
           </div>
         </div>
