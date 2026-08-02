@@ -10,6 +10,7 @@ import {
 import { Map, MapPin, Calculator, Calendar, Compass, Backpack, Sun, Luggage, FileText, Hotel } from "lucide-react";
 import TiltCard from "@/components/common/TiltCard";
 import Reveal from "@/components/common/Reveal";
+import TuscanScene from "@/components/common/TuscanScene";
 
 // Skeleton loader to reduce CLS and provide immediate feedback for LCP inside Modal
 function ToolSkeleton() {
@@ -235,10 +236,16 @@ export default function TravelToolsPage() {
             <Dialog key={tool.id} defaultOpen={tool.id === openToolId}>
               <Reveal delay={(i % 3) * 60} className="h-full">
               <TiltCard className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-md border border-[#C65A3A]/20 transition-all duration-300 flex flex-col h-full animate-in fade-in zoom-in-95 duration-300">
-                <div className="w-14 h-14 rounded-full bg-[#FAF7F2] flex items-center justify-center text-[#C65A3A] mb-6">
-                  <tool.icon className="w-7 h-7" />
+                {/* Stylised Tuscan illustration — decorative, unique per card */}
+                <div className="rounded-2xl overflow-hidden mb-5 h-24 border border-[#F5EDE3]">
+                  <TuscanScene variant={i} className="w-full h-full block" />
                 </div>
-                <h3 className="text-2xl font-serif text-[#2C211B] mb-3">{tool.name}</h3>
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-11 h-11 rounded-full bg-[#FAF7F2] flex items-center justify-center text-[#C65A3A] shrink-0">
+                    <tool.icon className="w-6 h-6" />
+                  </div>
+                  <h3 className="text-2xl font-serif text-[#2C211B]">{tool.name}</h3>
+                </div>
                 <p className="text-[#8A9A5B] mb-8 flex-grow">{tool.description}</p>
                 <DialogTrigger asChild>
                   <button className="w-full py-4 rounded-2xl bg-[#C65A3A] hover:bg-[#A84A2E] text-white font-medium transition-colors">

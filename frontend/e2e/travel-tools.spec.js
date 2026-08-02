@@ -25,6 +25,8 @@ test.beforeEach(async ({ page }) => {
 test("hub renders all nine tool cards", async ({ page }) => {
   await expect(page.locator("button:has-text('Try Now')")).toHaveCount(9);
   await expect(page.locator("text=My Trip").first()).toBeVisible();
+  // each card carries its decorative Tuscan illustration
+  await expect(page.locator(".tuscan-scene")).toHaveCount(9);
 });
 
 test("My Trip bar pre-fills the budget planner", async ({ page }) => {
