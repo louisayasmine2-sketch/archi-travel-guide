@@ -5515,7 +5515,7 @@ Whichever way you land, the two cities are seventy-odd minutes apart and the tic
       {
         id: 'getting-to-each',
         heading: 'Getting to each from Florence (and from each other)',
-        body: `**Florence to Siena** is the easier run: the direct **131R fast bus** takes about 74 minutes and cost **€8.40** online or at the counter (€13.00 aboard) as checked in July 2026, arriving usefully close to the historic centre. The train takes around an hour and a half and arrives below the old town. [The full transport guide is here](/florence-to-siena-by-train-or-bus/).
+        body: `**Florence to Siena** is the easier run: the direct **131R fast bus** takes about 75 minutes and costs **€9.90** online or at the counter (€16.00 aboard) as checked on 3 August 2026, arriving usefully close to the historic centre. The train takes around an hour and a half and arrives below the old town. [The full transport guide is here](/florence-to-siena-by-train-or-bus/).
 
 **Florence to San Gimignano** always involves a change: regional train to Poggibonsi (the faster runs just under an hour), then the **130 bus** up the hill, about 20 minutes. It is perfectly workable — [our San Gimignano guide](/blog/san-gimignano-day-trip-from-siena-2026/) walks through it — but the connection is why coach tours are so heavily marketed for this particular town.
 
@@ -5611,7 +5611,7 @@ The decision rule: one available night goes to Siena, almost always. A second ni
       {
         id: 'how-we-checked',
         heading: 'How we checked these details',
-        body: `Transport figures (131R at €8.40 online / ~74 minutes; the 130 bus connection via Poggibonsi at around an hour) and ticket prices (San Gimignano Pass €15; Siena’s OPA SI Pass €16 during the floor-uncovering period) reflect our July 2026 checks, documented in [the San Gimignano guide](/blog/san-gimignano-day-trip-from-siena-2026/) and [the airport-transfer guide](/blog/siena-from-florence-airport-transfer/). The Duomo floor’s 2026 window (18 August–15 November) was checked against the Opera del Duomo’s published calendar; Palio dates are the fixed 2 July and 16 August. Tour dwell-time ranges describe how combined day tours are commonly structured rather than any single operator’s product. We have no affiliate relationship with any operator, venue or attraction named here; recommendations are editorial.`,
+        body: `Transport figures for the 131R (€9.90 online / ~75 minutes) were re-verified against Autolinee Toscane’s published fare tables and summer timetable on 3 August 2026; the 130 bus connection via Poggibonsi (around an hour) and ticket prices (San Gimignano Pass €15; Siena’s OPA SI Pass €16 during the floor-uncovering period) reflect our July 2026 checks, documented in [the San Gimignano guide](/blog/san-gimignano-day-trip-from-siena-2026/) and [the airport-transfer guide](/blog/siena-from-florence-airport-transfer/). The Duomo floor’s 2026 window (18 August–15 November) was checked against the Opera del Duomo’s published calendar; Palio dates are the fixed 2 July and 16 August. Tour dwell-time ranges describe how combined day tours are commonly structured rather than any single operator’s product. We have no affiliate relationship with any operator, venue or attraction named here; recommendations are editorial.`,
       },
       {
         id: 'final-thoughts',
