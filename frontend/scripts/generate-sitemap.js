@@ -47,6 +47,12 @@ const SITE_URL = (
 const SIENA_CONTENT_CLUSTER = JSON.parse(
   fs.readFileSync(path.join(ROOT, 'src/data/sienaContentCluster.json'), 'utf-8')
 );
+// The two longform guides own their dates (single source of truth); read them
+// so their <lastmod> can never drift from the pages' real dateModified.
+const guideLastmod = (file) =>
+  JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data', file), 'utf-8')).dateModified.slice(0, 10);
+const FLORENCE_TO_SIENA_LASTMOD = guideLastmod('florenceToSienaGuide.json');
+const SIENA_DAY_TRIP_LASTMOD = guideLastmod('sienaDayTripFromFlorenceGuide.json');
 const SHOW_SCHEDULED_CONTENT =
   process.env.REACT_APP_SHOW_SCHEDULED_CONTENT === 'true' ||
   process.env.SHOW_SCHEDULED_CONTENT === 'true';
@@ -64,8 +70,8 @@ const staticRoutes = [
   { path: '/about',                              changefreq: 'yearly',  priority: 0.5 },
   { path: '/contact',                            changefreq: 'yearly',  priority: 0.5 },
   { path: '/siena-travel-guide',                 changefreq: 'weekly',  priority: 0.8 },
-  { path: '/siena-day-trip-from-florence',       changefreq: 'weekly',  priority: 0.8, lastmod: '2026-07-11' },
-  { path: '/florence-to-siena-by-train-or-bus',  changefreq: 'weekly',  priority: 0.8 },
+  { path: '/siena-day-trip-from-florence',       changefreq: 'weekly',  priority: 0.8, lastmod: SIENA_DAY_TRIP_LASTMOD },
+  { path: '/florence-to-siena-by-train-or-bus',  changefreq: 'weekly',  priority: 0.8, lastmod: FLORENCE_TO_SIENA_LASTMOD },
   { path: '/where-to-stay-in-siena',             changefreq: 'weekly',  priority: 0.8 },
   { path: '/things-to-do-in-siena',              changefreq: 'weekly',  priority: 0.8 },
   { path: '/tuscany-travel-guide',               changefreq: 'weekly',  priority: 0.8 },
