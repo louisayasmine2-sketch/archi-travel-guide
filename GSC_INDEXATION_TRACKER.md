@@ -53,3 +53,52 @@ Isi status sesuai:
   - `/siena`, `/siena-2-day-itinerary`, `/siena-3-day-itinerary`.
 - Submit ulang Sitemap + request indexing ulang untuk URL yang belum.
 
+---
+
+# Batch 2 — Sprint musim gugur + hub komparasi (published 2026-07-31)
+
+13 artikel baru, semua sudah di sitemap.xml (regenerate otomatis saat `yarn build`).
+Setelah deploy: URL Inspection → Request indexing untuk tiap URL di bawah, lalu isi tabel.
+
+Prioritas request indexing (kalau kuota harian GSC terbatas, jalankan sesuai urutan ini —
+musiman yang paling dekat tanggalnya dulu, lalu hub komparasi yang jadi pusat internal link):
+
+1. `/blog/tuscany-in-august-2026` — relevan *sekarang* (Agustus mulai besok)
+2. `/blog/siena-in-september-2026`
+3. `/blog/tuscany-wine-harvest-vendemmia-2026`
+4. `/blog/florence-or-siena-which-to-visit-2026` — hub komparasi terbesar
+5. `/blog/san-gimignano-day-trip-from-siena-2026`
+6. `/blog/siena-or-san-gimignano-day-trip-2026`
+7. `/blog/tuscany-in-october-2026`
+8. `/blog/tuscany-olive-harvest-olio-nuovo-2026`
+9. `/blog/val-dorcia-or-chianti-which-to-visit-2026`
+10. `/blog/tuscany-in-november-2026`
+11. `/blog/tuscany-in-december-2026`
+12. `/blog/tuscany-in-january-2027`
+13. `/blog/tuscany-in-february-2027`
+
+## Daily track log — Batch 2
+
+| URL | Last published | Day 0 | Day 1 | Day 3 | Day 7 | CTR trend |
+| --- | --- | --- | --- | --- | --- | --- |
+| /blog/tuscany-in-august-2026 | 2026-07-31 |  |  |  |  |  |
+| /blog/siena-in-september-2026 | 2026-07-31 |  |  |  |  |  |
+| /blog/tuscany-wine-harvest-vendemmia-2026 | 2026-07-31 |  |  |  |  |  |
+| /blog/florence-or-siena-which-to-visit-2026 | 2026-07-31 |  |  |  |  |  |
+| /blog/san-gimignano-day-trip-from-siena-2026 | 2026-07-31 |  |  |  |  |  |
+| /blog/siena-or-san-gimignano-day-trip-2026 | 2026-07-31 |  |  |  |  |  |
+| /blog/tuscany-in-october-2026 | 2026-07-31 |  |  |  |  |  |
+| /blog/tuscany-olive-harvest-olio-nuovo-2026 | 2026-07-31 |  |  |  |  |  |
+| /blog/val-dorcia-or-chianti-which-to-visit-2026 | 2026-07-31 |  |  |  |  |  |
+| /blog/tuscany-in-november-2026 | 2026-07-31 |  |  |  |  |  |
+| /blog/tuscany-in-december-2026 | 2026-07-31 |  |  |  |  |  |
+| /blog/tuscany-in-january-2027 | 2026-07-31 |  |  |  |  |  |
+| /blog/tuscany-in-february-2027 | 2026-07-31 |  |  |  |  |  |
+
+Catatan batch 2:
+- Semua artikel 2.500+ kata, FAQPage JSON-LD aktif, meta description valid 110–155.
+- Tiap URL menerima 5–20 internal link dari artikel lain (discovery path selain sitemap).
+- Follow-up 7-hari yang sama dengan batch 1 berlaku; halaman pendukung untuk internal
+  link tambahan: tiga hub komparasi (florence-or-siena, siena-or-san-gimignano,
+  val-dorcia-or-chianti) — semuanya sudah menaut ke artikel musiman.
+

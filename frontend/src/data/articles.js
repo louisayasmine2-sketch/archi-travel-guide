@@ -6106,6 +6106,468 @@ Swap any day for weather; nothing here has a queue, which is the entire point. S
       tags: ['tuscany in january', 'viareggio carnival', 'saldi invernali', 'thermal springs tuscany', 'tuscany winter'],
     }
   ),
+  A(
+    'tuscany-in-february-2027',
+    'Tuscany in February 2027: Carnival Month, Honestly Reviewed',
+    'Best time to visit',
+    'Tuscany',
+    'Tuscany in February 2027: Viareggio Carnival’s parade dates, Carnival sweets, a Valentine’s Sunday, the sales’ tail end and honest winter advice.',
+    '/images/florence/florence-golden-hour-sunset-bardini.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `February is January with a party attached. The weather stays cold — it is statistically Siena’s snowiest month, which still means barely a day of it — and the low-season quiet, low prices and empty museums all carry over. What changes is the calendar: the **Carnevale di Viareggio** runs five parades through the month (**4, 7, 9, 14 and 20 February 2027**, following its 30 January opening), **Martedì Grasso falls on Tuesday 9 February**, the carnival sweets take over every bakery, and **Valentine’s Day lands on a Sunday — and on a parade day**. Build a February trip the January way — city-based, interior-led, food-forward — then bolt the carnival day on top, and the year’s least fashionable month quietly becomes one of its most fun.`,
+      },
+      {
+        id: 'the-case-for-february',
+        heading: 'The case for February',
+        body: `Everything that recommends [January](/blog/tuscany-in-january-2027/) recommends February: rock-bottom rates, museums at conversational density, restaurants cooking for regulars, and a Tuscany that belongs to the people who live in it. February adds three sweeteners of its own.
+
+First, **the light turns**. Days stretch noticeably through the month — by late February, sunset has pushed usefully past 17:30 — and the region’s clear cold spells produce some of the sharpest photographic light of the year. Second, **the calendar wakes up**: carnival season peaks, with Viareggio’s giant floats as the headline and bakery counters across the region marking the season in fried dough. Third, **the tail of the saldi**: the regulated winter sales that open in early January run for weeks, so early-February shoppers still catch the deep-discount phase with less competition than the opening days.
+
+The honest counterweight is unchanged from midwinter: this is a cold, short-day, interiors-first month, rural Tuscany remains largely dormant, and none of the postcard landscape is on duty. Come for the cities, the food and the floats — not the hills.
+
+![Golden hour over Florence from the Bardini terraces](/images/florence/florence-golden-hour-sunset-bardini.webp)
+*February’s reward for the cold: the year’s sharpest golden hours, with nobody in front of them.*`,
+      },
+      {
+        id: 'february-weather',
+        heading: 'The weather, honestly',
+        body: `Long-term climate averages, as checked in July 2026: **Siena around 10°C by day and 2°C at night, with rain on roughly 11 days** — and, as the year’s snowiest month, an average of about one snow day; **Florence runs similar by day and touches freezing overnight**. In practice February mixes three weathers: bright cold spells with brilliant light, grey damp stretches that argue for museums, and the occasional theatrical morning when Siena’s rooftops wear an hour of white before it melts.
+
+The month warms nothing but promises everything: by its final week the first blossom appears in sheltered corners, café tables edge back outside on sunny middays, and the region visibly leans toward spring.
+
+Packing is January’s list unchanged — the genuinely warm coat, the layers, the waterproof footwear, [the cold-season checklist](/blog/tuscany-packing-checklist/) — with one addition for carnival-goers: the Viareggio seafront in February means wind off the winter sea, so the parade day is the coldest-feeling day of the trip. Dress for it and it is glorious; underdress and the floats blur past a countdown to indoor heating.`,
+      },
+      {
+        id: 'viareggio-in-full',
+        heading: 'Viareggio in full: five parades and Martedì Grasso',
+        body: `February is the Carnevale di Viareggio’s month. After its early opening on 30 January, the 2027 calendar published at our July 2026 check runs parades on **Thursday 4, Sunday 7, Tuesday 9, Sunday 14 and Saturday 20 February** — with **Tuesday 9 February as Martedì Grasso**, carnival’s traditional climax, and the closing parade on the 20th crowning the season’s winning floats.
+
+What you get is one of Europe’s great spectacles: multi-storey papier-mâché giants — satirical, political, astonishingly engineered — processing along the seafront Passeggiata between the Liberty-era façades, with marching bands, confetti by the tonne and a town fully given over to it. The floats are built in secret through autumn in the Cittadella hangars by dynasties of carnival artisans; the craft alone justifies the trip.
+
+Practical playbook: parades are ticketed through official channels — buy ahead for the Sundays, which draw the biggest crowds; the Thursday and the closing Saturday run calmer; trains from Florence reach Viareggio’s own station, making it an easy car-free day; arrive early enough to see the floats stationary before they move, which is when the craftsmanship rewards close attention — the articulated heads, the moving eyes, the sheer scale read differently at rest than in motion; and confirm the schedule near your date, as carnival calendars can adjust. Eat before or after rather than during: the seafront stalls feed the queue, but Viareggio’s side-street trattorie feed the town, and a fish lunch two streets inland is the day’s quiet second act. Sunday 14 February — Valentine’s Day on a parade day — will be the season’s most booked afternoon; plan accordingly in either direction.`,
+      },
+      {
+        id: 'carnival-table',
+        heading: 'The carnival table: what February tastes like',
+        body: `Carnival announces itself in Tuscan bakeries before any float moves. The season’s signature is **cenci** — “rags” of crisp fried dough dusted with icing sugar, the Tuscan cousin of the chiacchiere eaten across Italy only in these weeks — stacked on every counter from late January to Martedì Grasso and gone within days of it. Alongside them comes **schiacciata alla fiorentina**, Florence’s soft orange-scented carnival cake with its powdered-sugar giglio, and fried rice fritters in the run-up to spring.
+
+These are seasonal in the strictest sense: arrive in March and they have vanished. Eat them the local way — standing at the pasticceria counter with a coffee, mid-morning — and February’s cold streets acquire a running consolation. Prices sit in ordinary-pastry territory, the quality bar in a good Tuscan bakery is high, and comparing the cenci of three different counters across a weekend is the kind of research this site wholeheartedly endorses.
+
+The savoury month is midwinter at full depth, unchanged from [the January table](/blog/tuscany-in-january-2027/): ribollita, hare and boar over pappardelle, bistecca earned by the temperature, black truffle in its quiet season, and the young olive oil’s final emphatic weeks. The [food guide](/blog/tuscany-food-guide/) maps the canon; February’s only addition is the sugar dust on your coat.`,
+      },
+      {
+        id: 'valentines',
+        heading: 'A Valentine’s Sunday: February for couples',
+        body: `Valentine’s Day 2027 falls on a **Sunday**, which hands couples a ready-made long weekend — and Tuscany in the low season is quietly built for it. The formula is the winter-romance version of [our Siena weekend itinerary for couples](/blog/siena-weekend-itinerary-for-couples/): a room inside the walls with heating confirmed, lamplit passeggiata streets that empty by nine, long dinners nobody hurries, and the city’s resident winter atmosphere doing the work summer terraces only imitate.
+
+The three February upgrades: a **thermal-springs afternoon** — steam rising off [Bagno Vignoni or Bagni San Filippo](/blog/tuscany-in-january-2027/) into cold air is the region’s most cinematic winter experience, and its most Valentine-proof; the **empty-museum date**, because sharing the Uffizi’s Botticelli rooms with a dozen people is a different experience from sharing them with a thousand; and, for couples of the confetti persuasion, **the parade-day Sunday itself** at Viareggio — book the tickets and the dinner early, as the coincidence of dates will concentrate the month’s demand on that one weekend.
+
+The honest note: restaurants price and fill for the occasion everywhere. Book the Valentine’s dinner as early as the room, consider celebrating on the Saturday for calmer tables — and remember that in the low season the romance is structural rather than purchased: the lamplit lane, the empty square and the unhurried table come free with the month.`,
+      },
+      {
+        id: 'everything-else-still-works',
+        heading: 'Everything January offered still works',
+        body: `February inherits the whole midwinter playbook, so this section is a checklist rather than a repeat.
+
+**Museums:** still at their annual quietest outside the carnival weekends — the Uffizi, the Bargello, Siena’s [Museo Civico and Santa Maria della Scala](/blog/best-things-to-do-in-siena/) on winter hours; verify current schedules venue by venue.
+
+**The saldi:** the winter sales’ 60-day arc from early January runs deep into February — later weeks trade selection for depth.
+
+**Thermal springs:** at their steaming best all month; book structured spas ahead, check access for the free natural sites.
+
+**The cities over the countryside:** rural closures remain near their maximum; [the January basing rules](/blog/tuscany-in-january-2027/) — city-first, Florence edging Siena for the full winter agenda, heating before views — apply unchanged, with one February amendment: a Viareggio-focused trip can justify a Florence base outright for the train line.
+
+**The wine towns:** Montalcino and Montepulciano enotecas stay open and conversational, and February’s empty roads keep [the Val d’Orcia](/blog/val-dorcia-day-trip-from-siena-2026/) a calm drive for the springs-and-wine day.
+
+![Terracotta rooftops of Siena under winter light](/images/siena/siena-rooftops-inbody.webp)
+*The low season’s standing offer: the famous cities, unshared.*`,
+      },
+      {
+        id: 'february-light',
+        heading: 'The light, the bare hills and the first blossom',
+        body: `February is a photographer’s sleeper month, for reasons the postcard calendar never admits. The sun stays low enough all day to model the cities’ stone and brick; cold clear spells deliver a clarity the humid months never manage; and the season’s occasional snow morning — likeliest in this of all months — turns Siena’s rooftops into an image almost nobody owns, because almost nobody is there holding a camera.
+
+The countryside offers a different, sparser beauty: vine rows pruned to black calligraphy on bare hills, olive groves silver against brown earth, woodsmoke over the Crete Senesi, and valley fog on the cold still mornings. It is not the golden Tuscany of [October](/blog/tuscany-in-october-2026/) — it is its winter negative, and treated as such it rewards the drive.
+
+Then, in the month’s final week, the year audibly turns: the first blossom appears in sheltered corners — almond first, ahead of everything — café tables creep back onto sunny pavements, and the 17:30 sunset makes an evening passeggiata feel like a recovered luxury. February’s last days are the low season’s soft closing: still empty, still cheap, and suddenly, unmistakably, pointed at spring.`,
+      },
+      {
+        id: 'february-quirks',
+        heading: 'Planning around February’s quirks',
+        body: `Four low-season mechanics to respect, inherited from the winter playbook and tuned for this month.
+
+**Winter hours peak now.** Reduced days and shortened schedules reach their maximum across museums and monuments — the standing rule from [November](/blog/tuscany-in-november-2026/) onward applies at full strength: verify every specific venue’s current hours, and never assume the summer listing.
+
+**The chiuso-per-ferie tail.** Some family restaurants that worked through Christmas take their own holiday in the post-Epiphany lull; the two-streets rule needs a backup plan more than usual.
+
+**Sundays are thin twice over.** Festivo transport timetables meet carnival demand on parade Sundays: rural buses run their sparsest schedules exactly when Viareggio trains run their fullest. Book the carnival train times rather than improvising, and keep countryside plans to weekdays.
+
+**School half-terms ripple in.** Northern European February breaks send a modest family wave through the middle of the month — nothing like summer, but enough that the carnival Sundays and Valentine’s weekend concentrate most of February’s bookings into a handful of dates. Travel the other days and the month is January-empty; travel those dates and book like it is June.`,
+      },
+      {
+        id: 'a-february-plan',
+        heading: 'A February long weekend that works',
+        body: `**Friday — Florence.** Arrive, warm up inside a collection for the afternoon, then the sales streets and an Oltrarno dinner. Cenci from a pasticceria are the day’s obligatory punctuation.
+
+**Saturday — the empty-museum day.** The Uffizi all morning at February density, long lunch, San Miniato or the Bardini terraces for the sharp winter sunset if the sky is clear.
+
+**Sunday — the carnival.** Train to Viareggio for the parade: floats stationary in the morning, the procession through the afternoon, sea wind respected, chips of confetti in your coat for weeks. (On non-parade weekends, substitute the Siena day below.)
+
+**Monday — Siena, slowly.** The 131R down, the winter Campo, one museum, the resident city at lunch — and home with the low season’s particular souvenir: the memory of famous places with nobody in them.
+
+Couples aiming at the 13th–14th should book everything early and swap the Monday for a Val d’Orcia springs afternoon. Families should note the carnival is superbly child-friendly — the floats land hardest with exactly the audience that finds museums long.
+
+**With a full week**, layer the pieces instead of racing them: two Florence museum days, the carnival day, a Siena overnight for the winter-evening city, the springs-and-wine drive through the Val d’Orcia, and one deliberately unplanned morning — February’s abundance is time, and the itineraries that honour it come home happiest. The [Florence-or-Siena comparison](/blog/florence-or-siena-which-to-visit-2026/) settles where the extra nights go; in this month, the honest answer is wherever the heating is best.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Weather figures were checked in July 2026 against long-term climate averages. The Carnevale di Viareggio’s 2027 calendar (opening 30 January; parades 4, 7, 9, 14 and 20 February, with Martedì Grasso on the 9th) was checked in July 2026 against the event’s announced dates — confirm near your date on official channels, as carnival schedules can adjust. The saldi’s February tail follows the regulated 60-day regional pattern documented in [our January guide](/blog/tuscany-in-january-2027/). Valentine’s Day 2027 falling on a Sunday is fixed calendar fact. Carnival sweets’ seasonality describes bakery tradition rather than any single shop’s stock. We have no affiliate relationship with any venue, event or spa named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `February is the month Tuscany stops being stoic about winter and starts playing with it: paper giants on a cold seafront, sugar dust on bakery counters, steam off Roman water, and the first blossom betting on spring. It asks the same price as January — the coat, the short days, the indoor ambitions — and pays a better rate: everything the quietest month offers, plus a carnival, a Sunday made for couples, and light that lengthens perceptibly while you are there. If you can only be talked into one midwinter month, this is the one — and if the floats are rolling on the day you are free, stop deliberating and buy the ticket.`,
+      },
+    ],
+    [
+      { q: 'Is February a good time to visit Tuscany?', a: 'For low-season city trips with a spectacle attached, yes: January’s empty museums and low prices carry over, and the Carnevale di Viareggio runs five parades through February 2027, with Martedì Grasso on Tuesday the 9th.' },
+      { q: 'What is the weather like in Tuscany in February?', a: 'Cold: long-term averages put Siena around 10°C by day and 2°C at night with rain on about 11 days, and February is statistically its snowiest month — which still means roughly a single day of snow. Days lengthen noticeably by the month’s end.' },
+      { q: 'When are the Viareggio Carnival parades in February 2027?', a: 'On 4, 7, 9, 14 and 20 February 2027, following the 30 January opening — with carnival’s traditional climax, Martedì Grasso, on Tuesday 9 February and the closing parade on the 20th. Parades are ticketed; confirm the schedule near your date.' },
+      { q: 'What are cenci?', a: 'Tuscany’s carnival sweet: crisp fried ribbons of dough under icing sugar, stacked in every bakery from late January until Martedì Grasso and gone within days of it. Florence adds schiacciata alla fiorentina, its soft orange carnival cake.' },
+      { q: 'Is Valentine’s Day worth planning around in Tuscany?', a: 'In 2027 it falls on a Sunday — and on a Viareggio parade day — making it a natural long weekend. Book rooms and the Valentine’s dinner early; a thermal-springs afternoon and the empty-museum date are the low season’s best romantic upgrades.' },
+      { q: 'Are the winter sales still on in February?', a: 'Yes — the regulated saldi open in early January and run for around 60 days, so February catches their deeper-discount tail with thinner crowds than the opening weekend.' },
+      { q: 'Is the Viareggio Carnival good for children?', a: 'Exceptionally: giant moving floats, bands and confetti land hardest with exactly the audience that tires of museums. Sundays are the busiest parades; the Thursday and closing Saturday run calmer, and sea-wind-proof clothing matters for everyone.' },
+      { q: 'Can you visit the Tuscan countryside in February?', a: 'Selectively, by car: the wine-town enotecas, the thermal springs and the empty winter roads all reward a day out, but rural accommodation and restaurants remain at their most closed. Base in the cities and raid the countryside.' },
+    ],
+    '2026-07-31',
+    {
+      seoTitle: 'Tuscany in February 2027: Viareggio Carnival, Sweets & Winter Value',
+      primaryKeyword: 'tuscany in february',
+      secondaryKeywords: [
+        'tuscany february 2027',
+        'viareggio carnival february 2027',
+        'tuscany weather february',
+        'martedì grasso 2027',
+        'tuscany valentine’s day',
+        'tuscany winter travel',
+      ],
+      imageAlt: 'Golden winter light over Florence from the Bardini gardens',
+      canonicalPath: '/blog/tuscany-in-february-2027',
+      tags: ['tuscany in february', 'viareggio carnival', 'carnival in italy', 'tuscany winter', 'valentine’s day italy'],
+    }
+  ),
+  A(
+    'italy-entry-requirements-ees-etias-2026',
+    'Italy Entry Requirements 2026: EES Is Live, ETIAS Is Delayed — What You Actually Need',
+    'Practical tips',
+    'Italy',
+    'Italy entry requirements in 2026, straight: the EES biometric border is live, ETIAS is delayed with no confirmed date, and the 90/180 rule now has teeth.',
+    '/images/italy/budget-italy-itinerary-florence-rome-venice-hero.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Two systems dominate every headline about entering Italy in 2026, and travellers keep conflating them. The status, as checked at the end of July 2026:
+
+**EES (Entry/Exit System) — live now.** Since 10 April 2026 the EU’s biometric border system has been fully operational at every Schengen external border, Italy included. There is nothing to apply for and nothing to pay: it happens *at* the border, where your passport, fingerprints and photo are registered instead of a stamp. Budget extra time on your first arrival.
+
+**ETIAS — not live, and delayed.** The €20 travel authorisation for visa-free visitors (Americans, Britons, Canadians, Australians and around 60 other nationalities) has **no confirmed start date**. In mid-July 2026 the EU removed its “last quarter of 2026” target from the official site, with a revised timeline expected after September 2026. **You do not need ETIAS to visit Italy today, and anyone charging you for one right now is not official.**
+
+Everything else — the 90/180-day rule, passport validity — is unchanged in law, but the new border computer enforces it to the day. The details, nationality by nationality, below.`,
+      },
+      {
+        id: 'two-systems-one-minute',
+        heading: 'EES vs ETIAS: the one-minute distinction',
+        body: `The two acronyms travel together in every news story, which is exactly why they get confused. They are different things at different stages.
+
+**EES is a border process.** It replaces the passport stamp with a digital record: on your first entry to the Schengen area since 12 October 2025, a border officer (or self-service kiosk) registers your passport details, fingerprints and facial image; on later trips the system verifies you against that record. It applies when you arrive, requires no advance action, and costs nothing.
+
+**ETIAS is a pre-travel authorisation** — closer to America’s ESTA than to a visa. Once it launches, visa-free visitors will apply online before travelling, pay **€20** (with exemptions for under-18s, over-70s and certain family members of EU citizens), and receive an authorisation linked to their passport, expected to be valid for **three years** or until the passport expires. It is not a visa, and for the overwhelming majority approval is designed to be near-instant.
+
+The operative difference in mid-2026: **EES affects your trip now; ETIAS affects no trip yet.** Plan for the first, ignore sales pitches about the second, and check the official EU travel site — travel-europe.europa.eu — for the only launch date that will ever count.`,
+      },
+      {
+        id: 'ees-in-practice',
+        heading: 'EES in practice: what actually happens at the border',
+        body: `The system went live on **12 October 2025**, rolled out progressively, and has been **fully operational at all external border crossing points since 10 April 2026** — the date manual passport stamping ended. By the EU’s own figures, it registered over 45 million border crossings in its first months.
+
+What it means at an Italian airport: on your **first EES entry**, expect the full registration — passport scan, four fingerprints, facial image, and the standard questions about your stay. It adds minutes per traveller, which is why arrivals halls feel slower than the pre-2026 routine. On **subsequent entries** within three years, the check is verification against your existing record and runs faster, often at self-service gates where available.
+
+The honest seasonal note: this is the system’s **first full summer**, and travel press has reported waits of two to five hours at some major Schengen hubs in peak periods — Amsterdam, Paris CDG, Frankfurt, Barcelona and Vienna among those named. Italian airports have not been the headline offenders, but if your route to Tuscany connects through a big northern hub, the practical advice is blunt: longer connection times than you used to book, documents ready, and patience budgeted like luggage.
+
+One more consequence worth understanding: because entries and exits are now recorded digitally, **the system counts your Schengen days automatically** — which brings us to the rule that has not changed but suddenly has teeth.`,
+      },
+      {
+        id: 'the-90-180-rule',
+        heading: 'The 90/180 rule: old law, new enforcement',
+        body: `Visa-free visitors to the Schengen area — which includes Italy and every neighbour a Tuscan itinerary touches — may stay **90 days within any rolling 180-day window**. This is not new. What is new is that EES turned it from a rule enforced by squinting at passport stamps into a rule enforced by a database that knows your day count to the digit.
+
+Practical implications for ordinary travellers are modest: a two-week Tuscany trip does not approach the limit. The people who need to count carefully are long-stay visitors, retirees wintering in Italy, remote workers stringing European months together, and anyone combining multiple EU trips in a half-year — the 180-day window is *rolling*, not calendar-based, and days in France or Spain count against the same allowance as days in Italy.
+
+The passport rules are equally unchanged and equally enforced: for visa-free visitors, a passport must generally be **issued within the last 10 years** and **valid for at least three months beyond your intended departure** from the Schengen area. Check both dates before booking, not before flying — a passport that fails either test is the one entry problem no amount of queueing solves.`,
+      },
+      {
+        id: 'etias-delay',
+        heading: 'The ETIAS delay: what happened in July 2026',
+        body: `For two years the official line was that ETIAS would “start operations in the last quarter of 2026”. In **mid-July 2026 that target quietly disappeared from the EU’s official ETIAS pages**, and reporting — led by the Financial Times — indicates that eu-LISA, the EU agency building the system, has internally concluded a 2026 launch is no longer feasible. A revised timeline is expected after the agency’s board meets in **September 2026**.
+
+What this means for travellers, stated plainly:
+
+- **No trip you can book today requires ETIAS.** Autumn 2026, the winter season, and in all likelihood well beyond it: nothing to apply for.
+- **When it does launch, the design includes a transitional period** — the EU’s stated approach pairs the start of operations with a grace phase before authorisation becomes a hard requirement, so the first travellers affected will not be turned away for lacking a document that launched mid-trip.
+- **The only launch date that matters will appear on the official EU travel site** and in an EU press release. Any blog, agency or “ETIAS portal” announcing a confirmed date before that is guessing — or selling.
+
+Our own practice follows the same rule we apply to [festival dates](/blog/tuscany-in-october-2026/): we publish what the primary source says, date-stamp it, and flag what is genuinely unknown. As of the end of July 2026, the honest status of ETIAS is: designed, priced at €20, and unscheduled.`,
+      },
+      {
+        id: 'scam-warning',
+        heading: 'The scam layer: who not to pay',
+        body: `Every delayed government system grows a fringe of look-alike websites, and ETIAS has a flourishing one. Search for it and the results fill with polished, official-sounding portals — some openly commercial, some designed to be mistaken for the EU — offering to “pre-register”, “check eligibility” or process a future application for a fee several times the real €20.
+
+The rules that keep you safe are short. **Nothing can be applied for before launch**, so any pre-launch payment buys nothing the EU recognises. **The only application channel will be the official EU website and official mobile app** — the address to remember is travel-europe.europa.eu. **The real fee is €20**, waived for under-18s and over-70s; a “service” charging €60 to submit a €20 form is legal in many jurisdictions but pointless in all of them. And no legitimate process will ever contact you by email or message asking for payment to “complete” an authorisation you never started.
+
+This paragraph will age well or badly depending on the September announcement — which is precisely why the how-we-checked section below carries a date. When the launch is real, this article will say so; until then, keep your card in your pocket.`,
+      },
+      {
+        id: 'nationality-checklist',
+        heading: 'The checklist, nationality by nationality',
+        body: `**US, UK, Canadian and Australian passport holders** (and the other visa-exempt nationalities): no visa for stays up to 90/180; EES registration happens automatically at the border — first entry slower, repeat entries faster; no ETIAS yet, no action required; passport issued within 10 years and valid 3+ months beyond departure. That is the entire list.
+
+**EU and Schengen-country citizens**: none of this applies — EES and ETIAS are for third-country nationals. Dual citizens travelling on an EU passport bypass both systems entirely, which makes the EU passport the better travel document for entering Italy where there is a choice.
+
+**Non-visa-exempt nationalities**: the Schengen visa process is unchanged — ETIAS is not a visa and never replaces one; EES registration applies at the border alongside the visa.
+
+**Residents of Italy or another Schengen state** with a valid permit: exempt from EES registration when travelling on that status — carry the permit alongside the passport.
+
+For every category, one shared upgrade: because records are now digital, **discrepancies surface immediately**. Names that differ between bookings and passports, expired documents, and miscounted days used to slip through; the polite version of 2026 border reality is that they no longer do.`,
+      },
+      {
+        id: 'tuscany-practicalities',
+        heading: 'What this means for a Tuscany trip, concretely',
+        body: `**Flying into Florence or Pisa directly** from outside Schengen: arrive with the first-entry EES registration in mind — the regional airports process smaller volumes than the mega-hubs, which generally means gentler queues, but build slack into any onward connection like [the Florence-airport-to-Siena run](/blog/siena-from-florence-airport-transfer/), whose bus will not wait for biometrics.
+
+**Connecting through a major hub** (Amsterdam, Paris, Frankfurt): your EES registration happens at the *first* Schengen entry point, not in Italy — which is where this summer’s reported multi-hour waits live. Book connections you would have called generous in 2024, and treat sub-90-minute Schengen connections as optimistic until the system’s first summer settles.
+
+**Arriving by train or car from within Schengen** — from France, Switzerland or Austria into Italy: no EES process; you crossed the external border wherever you first entered the zone.
+
+**Once inside, nothing changed.** No internal checks, no papers between Florence and Siena, [the same buses](/florence-to-siena-by-train-or-bus/) and the same freedoms. The 2026 border story is entirely about the perimeter — cross it once, correctly, with time in hand, and every guide on this site works exactly as written.
+
+![QR-code checks at Venice: digital travel administration is spreading across Europe](/images/venice/qr-code-check-scene.webp)
+*The direction of travel: digital checks at Europe’s borders — and, as with [Venice’s access fee](/blog/venice-day-trip-from-tuscany-2026-access-fee/), inside them.*`,
+      },
+      {
+        id: 'timeline',
+        heading: 'The timeline at a glance',
+        body: `**12 October 2025** — EES begins operating, phased in progressively across Schengen external borders alongside passport stamping.
+
+**10 April 2026** — EES becomes fully operational at all external border crossing points; manual passport stamping ends. Every eligible arrival since is registered biometrically.
+
+**Summer 2026** — the system’s first peak season; travel press reports multi-hour waits at some major hub airports while first-time registrations dominate.
+
+**Mid-July 2026** — the EU removes the “last quarter of 2026” ETIAS launch target from its official pages; reporting indicates the agency building the system considers a 2026 start unfeasible.
+
+**September 2026** — the eu-LISA board meets; a revised ETIAS timeline is expected after it. This is the next date worth watching.
+
+**ETIAS launch (date unknown)** — whenever it comes, the stated design pairs it with a transitional grace period before the €20 authorisation becomes a hard entry requirement.
+
+Bookmark this sequence rather than any single headline: most confusion in circulation comes from articles written at one point on this line and read at another.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked at the end of July 2026: the EES launch (12 October 2025) and full-operation date (10 April 2026, ending passport stamping) against the European Commission’s and Council’s published information, along with the EU’s reported figure of 45+ million registered crossings; the ETIAS design (€20 fee, under-18/over-70 exemptions, three-year validity, visa-exempt nationalities) against official EU descriptions; and the July 2026 removal of the “last quarter of 2026” launch target — with a revised timeline expected after eu-LISA’s September 2026 board meeting — against contemporaneous reporting led by the Financial Times. Summer 2026 queue reports at specific hub airports are press accounts, not official statistics. **This is a fast-moving topic: treat travel-europe.europa.eu as the only authoritative source for launch dates, and expect this article to be updated when the September announcement lands.** We have no affiliate relationship with any visa-service, portal or operator — and as the scam section explains, before launch you should not be paying anyone at all.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `The 2026 border story reads like alarming news and resolves, on inspection, into two calm sentences: the queue got slower once and smarter forever, and the €20 form is not for sale yet. Travellers who conflate EES and ETIAS book panic; travellers who separate them book flights. Register once, count your days honestly, keep your money away from look-alike portals, bookmark the official site for the real launch date — and then get back to the decisions that actually shape a Tuscan trip: [which month](/blog/tuscany-in-october-2026/), [which base](/blog/florence-or-siena-which-to-visit-2026/), and [which hill town gets your one spare day](/blog/siena-or-san-gimignano-day-trip-2026/). The border is administration. Tuscany is the point.`,
+      },
+    ],
+    [
+      { q: 'Do I need ETIAS to visit Italy in 2026?', a: 'No. ETIAS has no confirmed launch date — the EU removed its “last quarter of 2026” target from the official site in July 2026, with a revised timeline expected after September 2026. No trip bookable today requires it, and no legitimate body can sell you one yet.' },
+      { q: 'What is the EES and is it running in Italy?', a: 'The EU’s Entry/Exit System — a biometric border registration that replaced passport stamping. It launched on 12 October 2025 and has been fully operational at all Schengen external borders, including Italy’s, since 10 April 2026. It happens at the border; there is nothing to apply for and nothing to pay.' },
+      { q: 'Does EES make airport arrival slower?', a: 'First-time registration adds minutes per traveller, and in the system’s first summer the travel press reported multi-hour peaks at some major hubs like Amsterdam, Paris CDG and Frankfurt. Repeat entries verify faster. Book longer connections than you used to and arrive with documents ready.' },
+      { q: 'How much will ETIAS cost and how long will it last?', a: 'The fee is set at €20, waived for under-18s and over-70s and certain family members of EU citizens. The authorisation is designed to be valid for three years or until the linked passport expires, covering unlimited short trips in that period.' },
+      { q: 'Is ETIAS a visa?', a: 'No — it is a travel authorisation for nationalities that do not need a visa, closer to the US ESTA. Travellers who need a Schengen visa keep needing one; ETIAS neither replaces nor changes that process.' },
+      { q: 'What is the 90/180 rule?', a: 'Visa-free visitors may spend at most 90 days in the Schengen area within any rolling 180-day window, counting all Schengen countries together. The rule is old; what changed is that EES now counts your days automatically, so overstays are detected precisely.' },
+      { q: 'What passport validity does Italy require?', a: 'For visa-free visitors, a passport generally must be issued within the last 10 years and valid for at least three months beyond your intended departure from the Schengen area. Check both dates when you book, not when you fly.' },
+      { q: 'Where do I apply for ETIAS when it launches?', a: 'Only through the official EU channel — travel-europe.europa.eu and the official app. Third-party “portals” charging more than the €20 fee add nothing, and before launch any site taking ETIAS payments is selling something that does not exist.' },
+      { q: 'Do EU citizens need EES or ETIAS?', a: 'No — both systems apply to non-EU (third-country) nationals. Dual citizens entering on an EU passport bypass both, and Schengen-resident permit holders are exempt from EES registration when travelling on that status.' },
+      { q: 'Will ETIAS be required as soon as it launches?', a: 'The EU’s stated approach pairs the launch with a transitional grace period before the authorisation becomes a hard entry requirement, so travellers mid-trip at launch will not be refused for lacking it. The specifics will come with the official launch announcement.' },
+    ],
+    '2026-07-31',
+    {
+      seoTitle: 'Italy Entry Requirements 2026: EES Live, ETIAS Delayed — The Facts',
+      primaryKeyword: 'italy entry requirements 2026',
+      secondaryKeywords: [
+        'do i need etias for italy',
+        'etias delayed 2026',
+        'etias launch date',
+        'ees italy airports',
+        'entry exit system italy',
+        'schengen 90/180 rule',
+        'italy visa requirements us citizens 2026',
+      ],
+      imageAlt: 'Travel planning scene for an Italy itinerary across Florence, Rome and Venice',
+      canonicalPath: '/blog/italy-entry-requirements-ees-etias-2026',
+      tags: ['italy entry requirements', 'etias', 'ees', 'schengen rules', 'travel news 2026'],
+    }
+  ),
+  A(
+    'italy-transport-strikes-survival-guide-2026',
+    'Italy Transport Strikes: The Calm Traveller’s Guide (2026)',
+    'Transport',
+    'Italy',
+    'How Italy’s transport strikes really work: the summer strike ban, guaranteed service windows, your compensation rights and where real dates live.',
+    '/images/siena/florence-to-siena-bus-journey.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `First, the news that defuses most August anxiety: Italy’s **summer strike ban — the franchigia estiva — legally bars air and rail strikes from 27 July to 5 September**, so the peak holiday weeks you are probably reading this for are protected by law. For the rest of the year, Italian transport strikes are real but radically more manageable than the headlines suggest: they are **announced well in advance**, published on official calendars, limited by **guaranteed service windows** (roughly 06:00–09:00 and 18:00–21:00 for regional transport), and softened by lists of long-distance trains that run no matter what. Add the fact that an airline’s own crew striking still entitles you to EU compensation, and the Italian sciopero turns out to be one of Europe’s most navigable travel disruptions — once you know the machinery. This guide explains it.`,
+      },
+      {
+        id: 'why-strikes-feel-scarier-than-they-are',
+        heading: 'Why strikes feel scarier than they are',
+        body: `The English word “strike” conjures a shutdown; the Italian sciopero is closer to a scheduled, regulated slowdown. Three structural facts separate the fear from the reality.
+
+**They are announced, not sprung.** Italian law requires advance notice for transport strikes, which is why every one of them appears on an official government calendar days or weeks ahead. A strike can catch you unprepared, but it cannot catch you unannounced.
+
+**They are partial, not total.** Essential-service law obliges operators to keep minimum services running: commuter-band trains, listed long-distance services, and legally protected time windows. “Rail strike” in Italy has never meant “no trains”.
+
+**They are short.** The standard format is a single day — often 24 hours from evening to evening, or a defined stretch like 09:00 to 17:00 — with normal service resuming immediately after. Multi-day transport strikes are rare enough to be national news.
+
+The travellers who get burned are almost always the ones who never checked, booked the last connection of the day, and met the one gap in the system. Every section below exists to make you the other kind of traveller.`,
+      },
+      {
+        id: 'the-summer-ban',
+        heading: 'The summer ban: why August is the safest month',
+        body: `Italy protects its own holiday season by statute. The **franchigia estiva** forbids strikes in the air and rail sectors from **27 July to 5 September**, bracketing the national holiday migration around [Ferragosto](/blog/tuscany-in-august-2026/) — which means the country’s busiest travel weeks are, counter-intuitively, its most strike-proof.
+
+The practical read for visitors: an August itinerary needs no strike contingency at all for trains and flights, and this is one of the few unqualified logistical advantages [the hardest month](/blog/tuscany-in-august-2026/) holds over the shoulder seasons. Similar protected windows exist around other major holiday periods and election days; the summer one is simply the longest and the most relevant to international visitors.
+
+Two honest footnotes. The ban covers industrial action, not everything else that can disrupt travel — engineering works, weather and ordinary delays operate year-round, as the Florence rail-hub works of late July 2026 demonstrated to anyone routed around them. And local-transport sectors outside air and rail have their own calendars, so the ban is a strong shield rather than a total one. But as a planning fact it stands: **strike risk in Italy is seasonal, and late summer is its floor.**`,
+      },
+      {
+        id: 'fasce-di-garanzia',
+        heading: 'Guaranteed windows: the 06:00–09:00 and 18:00–21:00 rule',
+        body: `The heart of the Italian system is the **fascia di garanzia** — the guaranteed service window. On strike days, regional trains and local public transport are legally required to run essentially normal service during the commuting bands, **roughly 06:00–09:00 and 18:00–21:00, Monday to Saturday**. The strike occupies the hours between and around them.
+
+This single fact converts most strike days from cancelled plans into rescheduled ones. A Florence day trip on a strike day is not impossible — it is a day trip that travels out in the morning window and back in the evening one, with the middle of the day spent exactly where you wanted to be anyway. The traveller who internalises the bands loses a little flexibility; the traveller who ignores them loses the day.
+
+Long-distance travel has a parallel protection: **operators publish lists of guaranteed national trains** — specific high-speed and InterCity services that run on every strike day, holidays included. Before any strike-day journey, the sequence is: check whether your train is on the guaranteed list; if not, move it into a window or onto a listed service; and screenshot what you decide, because the information desk queue on strike morning is the one queue this guide cannot shorten.
+
+Sundays and holidays carry their own patterns, and individual strikes can vary their stated hours — which is why the next section matters more than any rule of thumb.`,
+      },
+      {
+        id: 'where-real-dates-live',
+        heading: 'Where the real dates live',
+        body: `Strike rumours travel through hotel lobbies and social feeds; strike facts live in exactly three places.
+
+**The national strike calendar** maintained under Italy’s transport ministry lists every announced action — sector, region, hours, unions — and is the canonical answer to “is there a strike on my date”. **The strike-oversight authority** (the Commissione di Garanzia, which polices the essential-services rules) publishes the regulatory picture. And **the operators themselves** — Trenitalia and Italo for rail, [Autolinee Toscane](/florence-to-siena-by-train-or-bus/) for Tuscan buses, each airline and airport for flights — publish the service-level detail that actually decides your day: guaranteed train lists, revised timetables, rebooking and refund arrangements.
+
+The workflow that takes three minutes per trip: check the calendar when you book, check it again the week you travel, and on any flagged date go straight to your operator’s strike page for the specifics. Skip the aggregator sites when the primary sources are this good — a lesson [our editorial standards apply to everything](/blog/italy-entry-requirements-ees-etias-2026), and one that matters doubly for a topic this rumour-prone.
+
+One Tuscan specific: Autolinee Toscane announces bus strikes with the same advance notice and band structure, so [the 131R](/blog/siena-from-florence-airport-transfer/) and the rural lines follow the same playbook — morning band out, evening band back, and the middle of the day planned around it.`,
+      },
+      {
+        id: 'reading-an-announcement',
+        heading: 'How to read a strike announcement',
+        body: `Strike listings look bureaucratic until you know which four fields decide your day.
+
+**Sector** tells you what is actually affected: “trasporto ferroviario” is rail, “trasporto pubblico locale” is city buses and trams, “trasporto aereo” is aviation — and a strike in one sector leaves the others running normally. Half the panicked lobby conversations we have overheard involved a rail traveller worrying about a bus strike.
+
+**Territory** narrows it further: national actions are the headline-makers, but many listings are regional or even single-company — a Milan local-transport strike is weather on the other side of the country for a Tuscany itinerary.
+
+**Hours** are the operative fact: “24 ore” typically runs from one evening to the next (often 21:00 to 21:00), while a “dalle 09:00 alle 17:00” action leaves both commuter bands untouched by design. Match the stated hours against the guaranteed windows and your plan usually survives intact.
+
+**The union footprint** is the subtlest field: action called by a single small union generally means a thinner strike — more services run than the announcement implies — while the major confederations acting together signal a day to take at face value.
+
+Ten seconds per field, and a listing that read as “Italy on strike” resolves into “buses in one region, midday only, minor union”. That translation skill is the whole game.`,
+      },
+      {
+        id: 'strike-day-playbook',
+        heading: 'The strike-day playbook: trains and buses',
+        body: `If a flagged date and your itinerary collide, run this sequence.
+
+**Reshape, don’t cancel.** Move intercity journeys onto guaranteed-list trains or into the protected bands. A strike day is a bad day to *transfer* between cities and a perfectly good day to *be* in one — swap the travel day with a sightseeing day if the itinerary allows.
+
+**Know your ticket rights.** For cancelled services, operators provide rebooking onto later trains or refunds under their published strike arrangements — claim through the operator’s channels rather than assuming the money is lost.
+
+**Build the buffer where it counts.** The standing rule from [every day-trip guide on this site](/blog/siena-day-trips-without-a-car/) — treat the second-to-last connection as your last — becomes non-negotiable on strike-adjacent days. Never let a strike evening hold your only route to an airport hotel.
+
+**On the day, verify before you walk.** Individual services in the bands occasionally run late or crowded as demand compresses into them; the operator’s live app tells you more than the platform display’s optimism.
+
+**And keep perspective.** A well-played strike day in Florence or Siena is indistinguishable from a normal day with slightly odd transport hours — the museums, [the long lunch](/blog/tuscany-food-guide/) and the evening passeggiata never went on strike in the first place.
+
+A worked example makes it concrete. Suppose a 24-hour rail strike lands on the day you planned to move from Florence to Siena. The guaranteed-list check takes two minutes; if nothing suits, the 131R bus may be unaffected entirely (different sector), and if both are flagged, the move shifts to the morning window — bags packed the night before, the 07:40 out, checked in by nine, and the “strike day” becomes a full first day in Siena instead of a lost one. That is the standard shape of a solved sciopero: not heroics, one evening of reading.`,
+      },
+      {
+        id: 'flights-and-eu261',
+        heading: 'Flights: your rights are stronger than you think',
+        body: `Air strikes divide into two legal species, and the difference is worth money.
+
+**When the airline’s own staff strike** — pilots or cabin crew — European courts have ruled this is *not* an “extraordinary circumstance” under the EU’s air passenger rights regulation. Translation: beyond rerouting or refund, you may be owed **cash compensation of €250–€600** for a cancellation or long delay caused by the airline’s own workforce, depending on route distance. Airlines rarely volunteer this; claim it in writing, and persist.
+
+**When the strike is external to the airline** — air-traffic control, airport ground staff, security — it generally does count as extraordinary, which switches off the cash compensation. But the airline’s **duty of care survives**: rerouting at the earliest opportunity or a refund, plus meals and accommodation where waits stretch. “The strike isn’t our fault” is a defence against compensation, never against care.
+
+In both cases the practical moves are identical: let the airline rebook you rather than abandoning the ticket, keep receipts for reasonable expenses, and put claims in writing afterwards. And remember the calendar advantage — within the **27 July–5 September franchigia**, Italian air-sector strikes are off the table entirely, which quietly makes late summer the safest booking window for tight connections.`,
+      },
+      {
+        id: 'tuscany-lens',
+        heading: 'The Tuscany lens: what strikes actually threaten here',
+        body: `Filter the national picture through a Tuscan itinerary and the exposure shrinks further.
+
+**Least exposed: the walking core.** A trip based [inside Siena’s walls](/blog/where-to-stay-in-siena/) or central Florence barely notices a local-transport strike — the historic centres run on feet.
+
+**Moderately exposed: the day-trip network.** [Bus-based excursions](/blog/siena-day-trips-without-a-car/) — San Gimignano, the Val d’Orcia lines — feel strike days most, because rural routes have no metro-style density to absorb them. The fix is scheduling, not cancellation: shift the countryside day to the clear date and give the strike day to the city.
+
+**Most exposed: the transfer days.** Airport runs and city switches are where a strike costs real money, which is why [the airport-transfer guide’s](/blog/siena-from-florence-airport-transfer/) margin-of-safety advice exists. Check the calendar before fixing flights, and never schedule an arrival or departure transfer entirely inside a flagged strike’s hours.
+
+**July 2026 illustrated the pattern**: a wave of actions peaked on 21 July — inside the notice system, published in advance, navigated by everyone who looked — and then the franchigia dropped its curtain on the 27th. The system is noisy, regulated and survivable. That is the whole story, most years.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked at the end of July 2026: the summer strike ban’s 27 July–5 September span for the air and rail sectors, the guaranteed-window structure for regional and local transport (roughly 06:00–09:00 and 18:00–21:00, Monday–Saturday) and the existence of published guaranteed national train lists, against Italy’s essential-services framework as described by the strike-oversight and transport-ministry sources and the operators’ own strike pages; and the EU passenger-rights distinction — airline-staff strikes not qualifying as extraordinary circumstances, external strikes qualifying but preserving the duty of care — against the European courts’ established interpretation of the air passenger rights regulation. Individual strikes set their own hours and service levels: **always verify your specific date on the official calendar and your operator’s strike page.** We have no affiliate relationship with any operator, airline or claims service; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Somewhere in the imagination of every first-time visitor is a strike that strands them on a platform with a dead itinerary. The real Italian version is almost disappointingly orderly: a date on a public calendar, a morning window that runs anyway, a list of trains that never stop, a legal quiet season covering the exact weeks most visitors fly, and a compensation regime that pays out when an airline’s own crew grounds you. Respect the system’s two demands — check the calendar, protect your transfer days — and the sciopero joins the ZTL and the validation machine in the family of Italian travel monsters that turn out, on inspection, to be paperwork. Plan the trip. Italy will mostly run it on time.`,
+      },
+    ],
+    [
+      { q: 'Are there transport strikes in Italy in August?', a: 'Effectively no — the summer strike ban (franchigia estiva) legally bars air and rail strikes from 27 July to 5 September, protecting the peak holiday season. Engineering works and ordinary delays still operate, but strike risk in late summer is at its annual floor.' },
+      { q: 'Do trains still run during an Italian rail strike?', a: 'Yes, partially. Regional services must run in the guaranteed windows of roughly 06:00–09:00 and 18:00–21:00 (Monday–Saturday), and operators publish lists of long-distance trains guaranteed to run on any strike day. Check whether your train is listed, or move it into a window.' },
+      { q: 'How do I find out about strikes in Italy?', a: 'From three official sources: the national strike calendar under the transport ministry, the strike-oversight authority, and your operator’s own strike page (Trenitalia, Italo, Autolinee Toscane, your airline). Check when you book and again the week you travel — strikes are announced in advance by law.' },
+      { q: 'Can I get compensation if a strike cancels my flight?', a: 'Often, yes. If the airline’s own pilots or crew struck, European courts say that is not an extraordinary circumstance — cash compensation of €250–€600 can be due on top of rerouting or refund. External strikes (air-traffic control, airport staff) switch off the cash but not the airline’s duty of care.' },
+      { q: 'How long do Italian strikes last?', a: 'Usually a single day — often 24 hours or a defined band such as 09:00–17:00 — with normal service resuming immediately. Multi-day transport strikes are rare. The format is regulated, announced and predictable.' },
+      { q: 'What should I do if a strike falls on my travel day?', a: 'Reshape rather than cancel: move intercity journeys onto guaranteed trains or into the protected windows, swap a transfer day with a sightseeing day where possible, use operator channels for rebooking or refunds, and never leave an airport transfer entirely inside a strike’s hours.' },
+      { q: 'Do strikes affect the Florence to Siena bus?', a: 'Bus strikes follow the same rules: advance announcement and protected commuter bands. On a flagged day, take the 131R in the morning window and return in the evening one — and treat the second-to-last departure as your last, which is our standing advice in any case.' },
+      { q: 'Is a strike a reason to avoid visiting Italy?', a: 'No. Strikes are announced, partial, short and regulated — and banned outright in the air and rail sectors from 27 July to 5 September. With a three-minute calendar check per trip, they reduce to a scheduling detail, not a risk.' },
+    ],
+    '2026-07-31',
+    {
+      seoTitle: 'Italy Transport Strikes Explained: Bans, Guaranteed Trains & Rights',
+      primaryKeyword: 'italy transport strikes',
+      secondaryKeywords: [
+        'italy train strike what to do',
+        'italy strike august ban',
+        'fasce di garanzia strike hours',
+        'italy strike calendar official',
+        'flight cancelled strike compensation eu261',
+        'italy strikes 2026',
+      ],
+      imageAlt: 'A regional bus journey through the Tuscan countryside between Florence and Siena',
+      canonicalPath: '/blog/italy-transport-strikes-survival-guide-2026',
+      tags: ['italy strikes', 'sciopero', 'italy trains', 'travel disruption', 'passenger rights'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
