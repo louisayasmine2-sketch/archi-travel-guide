@@ -20,6 +20,9 @@ export function articleSchema({ title, description, image, url, published, modif
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
+    // Same @id the static shells emit (scripts/generate-static-html.js), so
+    // the client- and static-rendered copies dedupe into one entity.
+    ...(url ? { '@id': `${url}#article` } : {}),
     headline: title,
     description,
     ...(image ? { image: [image] } : {}),

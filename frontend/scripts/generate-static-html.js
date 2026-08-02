@@ -396,9 +396,18 @@ function removeExistingStatic(html) {
     .replace(/<main id="static-fallback"[\s\S]*?<\/main>/i, '');
 }
 
+// Route paths from page() are slashless, but JSON-guide routes take their
+// canonicalPath verbatim, which may carry a trailing slash. Normalise before
+// any path-keyed lookup, or schema selection silently misses those routes
+// (the transport guide shipped without its Article node because of this).
+function routeKey(route) {
+  const stripped = (route.path || '').replace(/\/+$/, '');
+  return stripped || '/';
+}
+
 function routeIsArticle(route) {
   if (route.noindex) return false;
-  return route.type === 'article' || route.type === 'siena-cluster-article' || ARTICLE_SCHEMA_ROUTES.has(route.path);
+  return route.type === 'article' || route.type === 'siena-cluster-article' || ARTICLE_SCHEMA_ROUTES.has(routeKey(route));
 }
 
 function jsonLdScript(schema) {
@@ -466,7 +475,7 @@ function faqJsonLd(faq = []) {
 }
 
 function destinationJsonLd(route, url) {
-  const destination = DESTINATION_SCHEMA[route.path];
+  const destination = DESTINATION_SCHEMA[routeKey(route)];
   if (!destination) return null;
 
   return {
