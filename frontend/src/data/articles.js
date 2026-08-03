@@ -100,7 +100,7 @@ const allArticles = [
       { id: "5-siena-train-station-and-antiporto", heading: "5. Siena train station and Antiporto", body: "### Best for rail travellers, onward connections, and some drivers\n\nSiena railway station sits outside and below the historic centre. Properties near the station can be practical for travellers making rail connections, carrying heavy luggage, or staying in larger modern accommodation.\n\nThe official city map shows the station, local bus links, taxi points, parking, and escalator routes. However, “near the station” does not mean “inside the old town.” Reaching Piazza del Campo still requires an uphill connection, local bus, taxi, or a longer walk.\n\nThe station area may offer:\n\n- easier road access;\n- larger rooms or modern facilities;\n- supermarkets and everyday services;\n- less expensive accommodation on some dates;\n- a simpler departure with luggage.\n\nIt usually does not offer the same evening atmosphere as the historic centre. Guests who imagine stepping from their hotel directly into medieval Siena may be disappointed.\n\nChoose this area when transport convenience is more important than staying among the monuments. It can also work for a family with luggage, but compare the full door-to-door route rather than judging only the room price." },
       { id: "6-outside-the-walls-and-in-the-siena-countryside", heading: "6. Outside the walls and in the Siena countryside", body: "### Best for drivers, space, parking, and a rural Tuscany experience\n\nA countryside hotel, villa, or agriturismo can provide vineyard views, gardens, pools, parking, and a quieter pace. This is the right choice for travellers who see Siena as one part of a wider road trip through Chianti, Val d’Orcia, Montalcino, or San Gimignano.\n\nIt is not automatically the best “authentic” experience. Staying outside the city can make spontaneous evening walks and dinners difficult, especially when local public transport is limited. Driving into Siena also means understanding the restricted traffic zone and using legal parking outside the central streets.\n\nBefore booking a rural property, check:\n\n- whether a car is effectively required;\n- the real driving time to a practical Siena car park;\n- restaurant opening days and dinner options;\n- whether breakfast is included;\n- pool opening dates;\n- check-in hours;\n- road conditions after dark;\n- taxi availability and likely cost.\n\nFor a three-day itinerary with one countryside day, this option can work beautifully. For a first-time visitor without a car, a central or Camollia-side stay is usually simpler.\n\n[Compare city and countryside options in our Siena 3-day itinerary](/blog/siena-3-day-itinerary/)." },
       { id: "best-area-to-stay-in-siena-by-traveler-type", heading: "Best area to stay in Siena by traveller type", body: "### For a first visit\n\nChoose the historic centre between the Campo and Duomo. You will pay more for the location, but the ability to walk out early and return after dinner is valuable on a short trip.\n\n### For a romantic stay\n\nLook around the Duomo, Via di Città, or quieter streets on the San Domenico side. Prioritise a room with a view, terrace, or historic character only after confirming stairs, air conditioning, and noise.\n\n### For families\n\nA spacious property near Porta Camollia, La Lizza, or just outside the most crowded lanes can be easier than a tiny room beside the Campo. Check lift access, family-room configuration, breakfast, refrigerator availability, and stroller storage.\n\nRead [Siena with kids](/blog/siena-with-kids/) before choosing the exact location.\n\n### For nightlife and late dinners\n\nThe central streets around the Campo, Banchi di Sopra, Pantaneto, and San Martino provide easier access to evening restaurants and bars. “Nightlife” in Siena is generally smaller-scale than in major Italian cities, but central rooms can still hear late activity.\n\n### For budget travellers\n\nCompare Porta Camollia, the station side, guesthouses outside the most famous streets, and rooms without landmark views. A lower nightly rate is not a saving if it creates repeated taxi costs or difficult transport.\n\n[Use our Siena trip-cost guide to build a complete daily budget](/blog/how-much-siena-trip-costs/).\n\n### For travellers with a car\n\nChoose accommodation with confirmed parking or clear instructions to a legal car park. Do not assume a central property can be reached by private car; much of the historic centre is within a restricted traffic zone.\n\n### For limited mobility\n\nContact the property directly. Ask for the exact number of steps, lift-door width, bathroom access, entrance gradient, and nearest vehicle drop-off. “Accessible room” can describe the room while ignoring the medieval street outside." },
-      { id: "how-many-nights-should-you-stay-in-siena", heading: "How many nights should you stay in Siena?", body: "### One night\n\nOne night allows the main attractions plus the quieter evening atmosphere. Stay central or near Camollia to minimise transfer time.\n\n### Two nights\n\nTwo nights are ideal for most first-time visitors. You can spend two full days in the city without turning museums, meals, and views into a race.\n\n### Three or more nights\n\nA longer stay makes Siena a possible base for a countryside tour or a nearby town. It also creates time for museums and neighbourhoods that day visitors miss." },
+      { id: "how-many-nights-should-you-stay-in-siena", heading: "How many nights should you stay in Siena?", body: "### One night\n\nOne night allows the main attractions plus the quieter evening atmosphere. Stay central or near Camollia to minimise transfer time.\n\n### Two nights\n\nTwo nights are ideal for most first-time visitors. You can spend two full days in the city without turning museums, meals, and views into a race.\n\n### Three or more nights\n\nA longer stay makes Siena a possible base for a countryside tour or a nearby town. It also creates time for museums and neighbourhoods that day visitors miss. Still weighing zero nights against one? [Siena: day trip or overnight stay](/blog/siena-day-trip-or-stay-overnight/) settles it with the verified bus timetable and ticket rules." },
       { id: "booking-checklist-before-you-pay", heading: "Booking checklist before you pay", body: "A beautiful room photo does not answer the most important Siena questions. Verify:\n\n1. **Exact location:** Is the room in the listed building, or is check-in elsewhere?\n2. **Stairs and lift:** Which floor is the room on, and is the lift large enough for luggage or a stroller?\n3. **Arrival:** Where can a taxi or car legally stop?\n4. **Parking:** Is it on-site, reserved, public, or simply “nearby”?\n5. **Noise:** Does the room face a busy street, bar, or internal courtyard?\n6. **Climate control:** Is air conditioning available in the room and during your travel dates?\n7. **Breakfast:** Is it included, served on-site, or provided at a café?\n8. **Cancellation:** Are taxes, city charges, and cancellation terms clearly shown?\n9. **Palio dates:** Does access change around July 2 or August 16?\n10. **Recent reviews:** Do recent guests mention construction, access problems, or changed management?" },
       { id: "final-recommendation", heading: "Final recommendation", body: "For the most memorable first stay, choose a room inside the historic centre and arrive with light luggage. For the most practical stay, choose Porta Camollia or the Viale Tozzi side. For rail convenience, stay near the station. For a road trip, use the countryside—but only when you are comfortable trading spontaneous city evenings for space and scenery.\n\nThe right Siena room does more than shorten a walk. It changes the rhythm of the trip. When the last day-tour groups leave, shutters close above the lanes and the Campo settles into evening, staying overnight gives you a version of the city that cannot be experienced on a timetable. Choose the area that lets you be there for it." }
     ],
@@ -1248,7 +1248,7 @@ Moving the car each day adds ZTL risk and wastes time. Once you are settled, Sie
 - **Arriving from the north:** Stadio–Fortezza — but not on a Wednesday.
 - **Tightest budget:** the Policlinico car parks at €2.50 for the day, accepting the longer connection.
 
-Buy attraction tickets separately and in advance. Parking availability tells you nothing about whether the Torre del Mangia or the cathedral has space for you.` },
+Buy attraction tickets separately and in advance. Parking availability tells you nothing about whether the Torre del Mangia or the cathedral has space for you. If the answer changes your plan, [Siena: day trip or overnight stay](/blog/siena-day-trip-or-stay-overnight/) weighs the day trip against a night — including what parking does to the sums.` },
       { id: 'practical-checklist', heading: 'Practical checklist', body: `- **Never drive into the historic centre.** The ZTL is camera-enforced 24 hours a day.
 - **Ask your hotel for the €25 rate** if you are staying overnight — it saves €10 a day.
 - **Stadio–Fortezza is €26/day**, cheaper than the €35 central facilities.
@@ -1823,7 +1823,7 @@ An overnight removes the last-bus problem entirely. You are not working backward
 
 **As an overnight by car:** parking at the hotel rate of €25 for the day rather than €35, tourist tax of €2 each so €4 for one night, plus the room. The tower is available first thing in the morning, and the return journey is not a deadline.
 
-The difference between them is the room, plus €4, minus €10 of parking. Whether that is worth it depends entirely on how much you want the things a day trip cannot guarantee.` },
+The difference between them is the room, plus €4, minus €10 of parking. Whether that is worth it depends entirely on how much you want the things a day trip cannot guarantee. For the decision itself — which days a day trip works at all, and when the night pays for itself — see [Siena: day trip or overnight stay](/blog/siena-day-trip-or-stay-overnight/).` },
       { id: 'practical-checklist', heading: 'Practical checklist', body: `- **Buy bus tickets at a counter** — €9.90 against €16.00 from the driver (checked 3 August 2026).
 - **Validate the ticket as you board.** Paying is not validating.
 - **Check the last bus for your specific day.** On the current summer timetable the last Sunday departure back to Florence is 19:10, against 20:45 on weekdays.
@@ -5643,6 +5643,120 @@ The decision rule: one available night goes to Siena, almost always. A second ni
       imageAlt: 'Piazza del Campo in Siena during a day trip',
       canonicalPath: '/blog/siena-or-san-gimignano-day-trip-2026',
       tags: ['siena or san gimignano', 'tuscany day trips', 'day trip comparison', 'san gimignano', 'siena day trip'],
+    }
+  ),
+  A(
+    'siena-day-trip-or-stay-overnight',
+    'Siena Day Trip or Overnight Stay: How to Decide (2026)',
+    'Day trips',
+    'Tuscany',
+    'Day trip to Siena or stay the night? Decide with the verified 2026 bus timetable, same-day tower tickets and real costs, not dated forum threads.',
+    '/images/siena/05-piazza-del-campo-panorama.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `**The day of the week decides more than anything else.** On the summer timetable valid from 27 July 2026 (checked 3 August 2026), a weekday bus day trip gives you roughly nine hours in Siena. On a Sunday or public holiday the same trip shrinks to a choice between a 10:25 arrival with a 19:10 last bus home and an afternoon-only visit, because no 131R leaves Florence between 09:10 and 14:10.
+
+**Take the day trip** when you can travel Monday to Saturday, catch a morning bus, and your list is Piazza del Campo, the cathedral complex and one museum.
+
+**Stay the night** when the Torre del Mangia is non-negotiable (tickets are same-day only), when you are visiting during the cathedral floor uncovering of 18 August to 15 November 2026, when your only free day is a Sunday, or when you are driving — the parking arithmetic then favours the overnight.`,
+      },
+      {
+        id: 'what-a-day-trip-actually-covers',
+        heading: 'What a day trip actually covers, by arrival time',
+        body: `Work backwards from two published facts: when you arrive, and when the last realistic departure leaves.
+
+**Arriving by bus on a weekday.** The 08:10 from Firenze Autostazione reaches Siena Via Tozzi at 09:25, beside the old town (summer timetable, checked 3 August 2026). The last weekday 131R back leaves Via Tozzi at 20:45 — and the sensible plan targets the departure before the one you strictly need. That window comfortably holds the Campo (no ticket required), the cathedral complex on the OPA SI Pass — €14, or €16 during the floor-uncovering weeks, as checked in July 2026 — and the Museo Civico at €10 (July 2026), with an unhurried lunch between them.
+
+**Arriving later.** Every hour after 10:00 removes one of those blocks. From a 14:00 arrival, treat the day as the Campo, one interior, and a walk — not a compressed version of the full list.
+
+**Arriving by train** adds the connection from the station below the hill, which is the main reason the bus is the default for this decision: [Florence to Siena by train or bus](/florence-to-siena-by-train-or-bus/) covers that trade-off in full.
+
+**What never fits reliably:** the Torre del Mangia. Its tickets are same-day only, sold in 45-minute admission slots limited to 25 people (official July 2026 information). A day tripper arriving at 09:25 can queue at opening and often succeed; a day tripper arriving after lunch is gambling.`,
+      },
+      {
+        id: 'the-day-of-week-decides',
+        heading: 'The day of the week decides',
+        body: `This is the part the old forum threads miss, and it is entirely a matter of published timetable, not opinion. All figures below are from the Autolinee Toscane 131R summer timetable valid from 27 July 2026, checked on 3 August 2026.
+
+| Day | First useful 131R from Florence | Last 131R back from Siena | Day-trip verdict |
+|---|---|---|---|
+| Monday–Friday | 06:45, or 08:10 arriving 09:25 | 20:45 | Full sightseeing day |
+| Saturday | Morning services run to the weekday pattern | 19:10 | Full day, earlier exit |
+| Sunday and holidays | 09:10 arriving 10:25 — then nothing until 14:10 | 19:10 | Compressed, or afternoon-only |
+
+Two consequences follow directly. A Sunday day tripper who misses the 09:10 has lost the morning entirely. And on any Saturday, Sunday or holiday, dinner in Siena is off the menu — the 19:10 leaves before most kitchens open.
+
+Autolinee Toscane publishes two timetables a year, summer and winter, so recheck the official 131R PDF for your own date. And treat the two Palio days — 2 July and 16 August — as their own category: crowds, opening hours and transport all change around them.`,
+      },
+      {
+        id: 'when-the-overnight-wins',
+        heading: 'When the overnight wins',
+        body: `Each of these is a checkable fact, not a preference.
+
+1. **The Torre del Mangia.** Same-day tickets only, 45-minute slots of 25 people, open 10:00–19:00 with last admission 18:15 in the main season, €10 for the tower or €15 combined with the Museo Civico (all July 2026 checks). Sleeping in Siena means being at the ticket office at opening with the whole day's slots still available.
+
+2. **The floor uncovering, 18 August to 15 November 2026.** The cathedral's inlaid marble floor is fully on show only in this window (checked July 2026 against the Opera del Duomo calendar). It is the year's strongest single reason to give Siena more than a day.
+
+3. **A Sunday-only schedule.** If your free day is a Sunday, the timetable above makes the overnight the difference between a real visit and a half one.
+
+4. **Arriving by car.** Day parking at the central car parks is €35; overnight guests can ask their hotel for the €25 rate instead (both July 2026). Add the fact that ZTL access requires your number plate registered in advance — many properties want it 48 hours ahead — and the car case tilts firmly toward booking a room.
+
+5. **Two-day pacing on one ticket.** The OPA SI Pass is valid for three consecutive days (July 2026), so an overnight splits the cathedral complex across two visits instead of one compressed block.`,
+      },
+      {
+        id: 'what-the-two-options-cost',
+        heading: 'What the two options cost',
+        body: `The short version — [the full cost catalog](/blog/siena-travel-cost-2026/) prices every scenario in detail.
+
+**Day trip by bus:** €19.80 per person in return transport bought at a counter or in the app (fares checked 3 August 2026), plus attraction tickets.
+
+**One night:** the same transport, plus the room — compare areas in [where to stay in Siena](/blog/where-to-stay-in-siena/) — plus tourist tax of €2 per person per night for a B&B, apartment or short let, and the €25 hotel parking rate instead of €35 if you drive (July 2026 checks).
+
+So the marginal cost of the night is the room, €2 a head in tax, and — for drivers — €10 less in parking. What it buys is measured in the sections above: the tower queue at opening, the uncovered floor, and a timetable that stops dictating your afternoon.`,
+      },
+      {
+        id: 'if-you-are-driving',
+        heading: 'If you are driving',
+        body: `The decision barely changes, but the numbers do. Read [avoiding a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/) before you go anywhere near the walls — the centre is camera-enforced 24 hours a day — and [the Siena parking guide](/blog/siena-parking-and-transfer-guide/) for every car park and rate. For a day trip, the Policlinico car parks at €2.50 for the day (July 2026) undercut the central €35 if you accept the longer connection; for an overnight, ask your accommodation for the €25 rate and send your number plate ahead.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `The 131R fares (€9.90 counter/app, €16.00 from the driver, €19.80 return) and the summer timetable figures (arrival times, the Sunday gap, the 20:45 and 19:10 last departures) were verified against Autolinee Toscane's published fare tables and timetable PDF on 3 August 2026, as documented in [Florence to Siena by train or bus](/florence-to-siena-by-train-or-bus/). Parking rates, the €25 hotel rate and ZTL practice reflect July 2026 checks documented in the parking guide. Torre del Mangia ticket mechanics, the OPA SI Pass prices and validity, and the floor-uncovering window reflect July 2026 checks against the official operator and Opera del Duomo pages. No figure in this article was estimated; where a fact could change with the winter timetable, we say so.`,
+      },
+    ],
+    [
+      { q: 'Can you visit Siena as a day trip?', a: 'Yes, comfortably, on a weekday: the 08:10 bus from Firenze Autostazione arrives beside the old town at 09:25 and the last bus back leaves at 20:45 (summer timetable, checked 3 August 2026). The realistic list is Piazza del Campo, the cathedral complex and one museum.' },
+      { q: 'Can you do a Siena day trip on a Sunday?', a: 'Only in a reduced form. On Sundays and holidays the 09:10 is the sole morning bus from Florence — the next is 14:10 — and the last bus back leaves Siena at 19:10 (checked 3 August 2026). Catch the 09:10 or accept an afternoon-only visit; if your only free day is a Sunday, that is the strongest argument for staying the night.' },
+      { q: 'What time is the last bus from Siena back to Florence?', a: 'On the summer timetable checked 3 August 2026: 20:45 on weekdays, 19:10 on Saturdays, Sundays and public holidays. The timetable changes twice a year, so recheck the official 131R PDF for your date.' },
+      { q: 'Is one night in Siena enough?', a: 'One night covers the main attractions and fixes the two day-trip weaknesses: you can be at the Torre del Mangia ticket office at opening for the same-day-only tickets, and the bus timetable stops deciding when your day ends. Two nights suit most first-time visitors with museum plans.' },
+      { q: 'How much more does staying overnight cost?', a: 'The room, plus €2 per person per night in tourist tax for a B&B or apartment, minus €10 of parking for drivers who switch from the €35 central day rate to the €25 hotel rate (July 2026 checks). Transport is unchanged: €19.80 return by bus as checked 3 August 2026.' },
+      { q: 'Does the Palio change the decision?', a: 'Yes, in both directions. Around 2 July and 16 August rooms are at their most expensive and scarce, while crowds, opening hours and transport all change. For the race itself an overnight is close to essential; for seeing Siena as a city, pick a different week entirely.' },
+    ],
+    '2026-08-13',
+    {
+      seoTitle: 'Siena Day Trip or Overnight Stay? How to Decide (2026)',
+      primaryKeyword: 'siena day trip or stay overnight',
+      secondaryKeywords: [
+        'siena day trip or overnight',
+        'is a day trip to siena enough',
+        'siena day trip on sunday',
+        'should i stay overnight in siena',
+        'one night in siena',
+      ],
+      imageAlt: 'Panoramic view across Piazza del Campo in Siena',
+      canonicalPath: '/blog/siena-day-trip-or-stay-overnight',
+      published: '2026-08-13',
+      tags: ['siena day trip', 'siena overnight', 'trip planning', 'siena timetable', 'tuscany decisions'],
+      imageCredit: {
+        author: 'Ricardo André Frantz (Tetraktys)',
+        source: 'https://commons.wikimedia.org/wiki/File:Siena5.jpg',
+        license: 'CC BY-SA 3.0',
+        licenseUrl: 'https://creativecommons.org/licenses/by-sa/3.0/',
+        changes: 'Converted to WebP.'
+      },
     }
   ),
   A(
