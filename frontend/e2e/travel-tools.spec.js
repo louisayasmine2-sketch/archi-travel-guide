@@ -99,7 +99,9 @@ test("transport comparator moves the best match with the chosen priority", async
   await expect(bestMatchCard()).toContainText("131R regional bus");
   await page.locator("button:has-text('Comfort and space on board')").click();
   await expect(bestMatchCard()).toContainText("Regional train");
-  await expect(page.locator("text=Fact-checked July 23, 2026")).toBeVisible();
+  // The date comes from the guide JSON's factChecked field and moves every
+  // time the guide is re-verified — assert the shape, not a frozen date.
+  await expect(page.locator("text=/Fact-checked [A-Z][a-z]+ \\d{1,2}, \\d{4}/")).toBeVisible();
 });
 
 test("trip sheet composes itinerary, budget, months and packing from the plan", async ({ page }) => {
