@@ -6854,6 +6854,158 @@ Distrust, as ever, the undated listicle: beach-fine stories recirculate for year
       tags: ['italy beach rules', 'cala violina', 'beach fines italy', 'tuscany coast', 'overtourism italy'],
     }
   ),
+  A(
+    'tuscany-on-screen-film-locations-2026',
+    'Tuscany on Screen: Film Locations You Can Actually Visit (2026)',
+    'Things to do',
+    'Tuscany',
+    'Tuscany’s real film locations, verified: You, Me & Tuscany’s Val d’Orcia villages, Twilight’s Montepulciano, Bond’s Siena and Gladiator’s cypress road.',
+    '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Tuscany has been playing itself — and occasionally other places — on screen for decades, and 2026 gave set-jetters a fresh reason to book: **You, Me & Tuscany**, the Universal romantic comedy starring Halle Bailey and Regé-Jean Page, filmed its Tuscan story in **Pienza, Montalcino and the Val d’Orcia** — the exact triangle our day-trip guides already cover. Behind it stands the permanent canon, every location verified and visitable: **Montepulciano**, which played Volterra in Twilight’s New Moon; **Siena’s Piazza del Campo**, where Quantum of Solace opened Bond’s chase against real Palio footage; the cypress track at **Terrapille outside Pienza**, Gladiator’s Elysian Fields; and the monastery of **Sant’Anna in Camprena**, The English Patient’s convalescent home — which you can actually stay in. Add Andrea Bocelli’s annual amphitheatre concerts at Lajatico, and screen-Tuscany turns out to be a practical, bookable itinerary rather than a trivia list. Here is the map.`,
+      },
+      {
+        id: 'set-jetting-2026',
+        heading: 'Why screen-Tuscany is having a 2026 moment',
+        body: `Set-jetting — travelling to the places a film or series made you want — has grown from a niche habit into one of the travel industry’s named trends, and Tuscany is structurally suited to it: its landscapes photograph like production design, its villages are compact enough to recognise street by street, and its filming locations sit twenty minutes apart rather than across a continent.
+
+The 2026 catalyst is **You, Me & Tuscany**, released in the United States on 10 April 2026: a big-studio romantic comedy whose leads — Halle Bailey and Regé-Jean Page, the latter carrying a Bridgerton-sized following — put the Val d’Orcia in front of an audience of millions at exactly the moment [the region’s harvest season](/blog/tuscany-wine-harvest-vendemmia-2026) makes it most worth visiting. Location searches for the film are active, and its eventual streaming arrival will renew them; we have not verified a streaming date and will not guess one.
+
+The honest framing before the itineraries: film tourism is a *reason to go*, not a different *way* to go. Every location in this guide obeys the same rules as the rest of this site — book what has a capacity, respect what is private, arrive at the edges of the day — and the film adds a layer to a trip that would already be worth taking.`,
+      },
+      {
+        id: 'you-me-tuscany',
+        heading: 'You, Me & Tuscany (2026): the new pilgrimage',
+        body: `The film — directed by Kat Coiro, with Marco Calvani alongside Bailey and Page — tells its story of a young cook and a Tuscan villa across the Val d’Orcia’s golden geography. As checked in July 2026 against production reporting: **Pienza** served as the production’s village hub, with the surrounding vineyards and ridge roads supplying the landscape; in **Montalcino**, the **Sesti estate** stood in for the story’s central winery; interiors were built at Cinecittà in Rome, with a Rome hotel sequence shot at a real property there.
+
+Visiting the film’s Tuscany is gloriously simple, because it is the same triangle [our Val d’Orcia guide](/blog/val-dorcia-day-trip-from-siena-2026) maps: Pienza’s lanes and pecorino shops, Montalcino’s fortress and Brunello cellars, and the ridge roads between them. The Sesti estate is a working Brunello producer — if you hope to taste there, treat it like any serious Montalcino cellar and enquire ahead for a booked visit rather than arriving as a film pilgrim; [harvest-season reservation culture](/blog/tuscany-wine-harvest-vendemmia-2026) applies in full.
+
+The deeper reward of this particular film is that it requires no scene-matching at all: its subject *is* the landscape, and a day spent driving the Val d’Orcia at golden hour is the film’s experience, minus the script.`,
+      },
+      {
+        id: 'twilight-montepulciano',
+        heading: 'Twilight in Montepulciano: the town that played Volterra',
+        body: `The most heavily pilgrimaged screen site in Tuscany involves a sleight of hand. In **The Twilight Saga: New Moon** (2009), the vampire city of Volterra — a real Tuscan town — was actually played by **Montepulciano**, fifty-odd miles away, whose Renaissance streets the production preferred.
+
+The verified geography of the shoot: **Piazza Grande** and the entrance of the **Palazzo Comunale** staged the saga’s pivotal fountain scene — the square’s clock tower and palazzo are instantly recognisable to fans, though the fountain itself was a set-piece built for the film; the historic **Redi cellar** and palazzo interiors served the Volturi’s underworld; and the country lanes near the temple of **San Biagio** carried the arrival sequences. Local operators run New Moon walking tours, and the town has embraced its alter ego with good humour.
+
+Practicalities: Montepulciano is covered in [our Val d’Orcia guide](/blog/val-dorcia-day-trip-from-siena-2026) — the film adds a route through town rather than a new logistics problem. Fans get the best photographs early, before the piazza fills; everyone else gets Vino Nobile cellars carved beneath the very streets the Volturi stalked, which is a better ending than the film’s.
+
+And spare a thought for the real **Volterra** — alabaster town, Etruscan museum, no vampires filmed — which fields the confusion graciously, markets it gently, and deserves a visit entirely on its own considerable merits.`,
+      },
+      {
+        id: 'bond-in-siena',
+        heading: 'Bond in Siena: Quantum of Solace and the real Palio',
+        body: `**Quantum of Solace** (2008) opens with Bond arriving into chaos: a foot chase that erupts through **Siena** while the **Palio** thunders around Piazza del Campo. The production detail worth knowing — verified through location records — is that the race footage is *real*: crews filmed the actual Palio, run as ever on its fixed dates of 2 July and 16 August, months before principal photography, then threaded Daniel Craig’s chase through the city’s rooftops, aqueduct passages and lanes, with the Via Duprè area among the recognisable streets below the Campo.
+
+For a visitor this is the easiest film location in Tuscany, because it is simply **Siena** — the Campo you will stand in anyway, the contrade lanes [our guides already walk](/blog/best-things-to-do-in-siena), and, if you time it for early July or mid-August, the very race the film captured, with [everything the Palio demands and delivers](/blog/palio-di-siena-guide) covered separately.
+
+The Bond layer rewards one specific habit: looking *up*. The chase lives on Siena’s rooftops and ledges, and the city’s skyline — terracotta, towers, impossible angles — reads differently once you have seen it used as a stunt course. The film compressed the geography, as films do; the city it compressed is all still there.`,
+      },
+      {
+        id: 'gladiator-terrapille',
+        heading: 'Gladiator’s Elysian Fields: the Terrapille road',
+        body: `The most transcendent few seconds of screen-Tuscany are a man’s hand brushing wheat. **Gladiator** (2000) shot Maximus’ visions of the afterlife — the Elysian Fields — on the **Terrapille farm road about three kilometres south of Pienza**: a cypress-lined track dropping through open grain fields with the whole Val d’Orcia composed behind it, verified across the valley’s own tourism records.
+
+It remains a working agricultural landscape, which shapes the visit. The lane serves the Terrapille farm; walk the public track respectfully, keep vehicles to the legitimate pull-offs on the Pienza road above, and treat the wheat as somebody’s crop rather than a prop — the scene’s power came from an ordinary field, and the ordinary field still has a farmer. The classic photograph is from the viewpoint above, where the cypress line and the farmhouse align; [October’s low light](/blog/tuscany-in-october-2026) and the post-harvest gold of late summer serve it best, and dawn beats every other hour for having it to yourself.
+
+![Cypress trees and rolling hills in the Val d’Orcia](/images/tuscany/val-dorcia-cypress-trees-landscape.jpg)
+*Cypress country south of Pienza — the landscape Gladiator borrowed for the Elysian Fields.*`,
+      },
+      {
+        id: 'english-patient',
+        heading: 'The English Patient: sleep in the film’s monastery',
+        body: `The Oscar-laden **The English Patient** (1996) set its Italian heart in a ruined monastery where a burned man remembers a desert. The location is real and unusually accessible: **Sant’Anna in Camprena**, a former monastery in the folds of countryside north of Pienza, whose frescoed refectory and quiet cloister carried the film’s convalescent scenes.
+
+The practical magic, verified through the property’s own operation: the complex now runs as a **diocese-overseen agriturismo** — which means the film’s location is not a viewpoint but an overnight. Rooms are simple in the monastic register, the silence is the amenity, and waking inside a location most fans only screenshot is one of the great quiet flexes of Tuscan travel. Book directly and well ahead for summer; the property’s scale is modest and its fame is not.
+
+Even without staying, the monastery anchors the best half-day loop in film-Tuscany: Sant’Anna’s lanes, Pienza for lunch, and the Terrapille cypresses by late afternoon — three films’ worth of geography inside one [Val d’Orcia day](/blog/val-dorcia-day-trip-from-siena-2026), none of it requiring a ticket.`,
+      },
+      {
+        id: 'bocelli-lajatico',
+        heading: 'The Bocelli pilgrimage: Lajatico’s Teatro del Silenzio',
+        body: `Not all screen-and-stage Tuscany is fiction. In the hills of his home village of **Lajatico**, between Pisa and Volterra, **Andrea Bocelli** performs each July at the **Teatro del Silenzio** — an open-air amphitheatre built into the landscape that stays deliberately silent the rest of the year, waking for a handful of summer evenings that draw audiences and guest artists from around the world.
+
+The 2026 edition — the event’s twenty-first — has just passed as we write, built around the thirtieth anniversary of the *Romanza* album, with Matteo Bocelli opening the week. The forward-looking fact for readers planning ahead, checked in July 2026: **limited ticket allocations for the 2027 edition are already being offered, with dates not yet formally announced** — the pattern is late July, and the official Teatro del Silenzio channels are the only source worth trusting for the confirmed calendar. Demand comfortably exceeds the hillside’s capacity every year; this is a book-the-moment-dates-publish event.
+
+Logistics are rural-Tuscan standard: Lajatico is a car destination, the concerts end late on unlit roads, and the smart versions either sleep nearby or build the evening into [a slower western-Tuscany loop](/blog/san-gimignano-day-trip-from-siena-2026) — San Gimignano and Volterra sit conveniently between Lajatico and the Siena side of the region.`,
+      },
+      {
+        id: 'the-film-day',
+        heading: 'The one-day film itinerary from Siena',
+        body: `Every location above except Lajatico fits a single, unhurried Val d’Orcia day — the same loop [our standing guide](/blog/val-dorcia-day-trip-from-siena-2026) recommends, re-scored for cinema.
+
+**08:30** — south from Siena on the Cassia, coffee in **San Quirico d’Orcia** as the valley opens.
+
+**09:30** — **Sant’Anna in Camprena**: the English Patient’s cloister in morning quiet (respect the agriturismo’s guests; this is someone’s holiday breakfast).
+
+**11:00** — **Pienza**: You, Me & Tuscany’s hub village, pecorino, and lunch booked rather than hoped for.
+
+**14:00** — the **Terrapille viewpoint**: Gladiator’s cypresses in full afternoon light, photographed from the public vantage without troubling the farm.
+
+**15:30** — **Montepulciano**: New Moon’s Piazza Grande, the Redi cellar’s underworld, and a Vino Nobile tasting as the coach crowds thin.
+
+**18:00** — the ridge roads home, golden hour doing the cinematography, Siena — Bond’s Siena — for dinner.
+
+Drivers own this day; car-free travellers should aim the [bus-based version](/blog/siena-day-trips-without-a-car) at Montepulciano alone and do it deeply. Either way, the films turn out to be a route the landscape had already written — and travellers with a second day can add the western wing: Volterra for the town Twilight named, San Gimignano for the skyline every production covets, and Lajatico if the concert calendar aligns.`,
+      },
+      {
+        id: 'location-etiquette',
+        heading: 'Set-jetting etiquette: the five rules',
+        body: `Film locations concentrate visitors onto places never designed for them, so the code matters.
+
+**1. Private stays private.** Terrapille is a farm, Sant’Anna hosts sleeping guests, the Sesti estate is a working winery. The film conferred fame, not access — book, ask, or admire from the public vantage.
+
+**2. Residents outrank fans.** Montepulciano’s piazza is the town’s living room before it is anyone’s film set; the [contrade lanes Bond ran](/blog/best-things-to-do-in-siena) are neighbourhoods. Photograph the place, not the people in it.
+
+**3. The scene was dressed.** Fountains were built, geography compressed, interiors shot in Rome. Arriving with documentary expectations sets up disappointment; arriving for the real place, with the film as its ghost layer, sets up delight.
+
+**4. Peak sites, edge hours.** The famous frames — Piazza Grande, the Terrapille viewpoint — obey [the same crowd physics as everything in Tuscany](/blog/avoid-crowds-in-florence-july-2026): dawn and dusk belong to you, midday belongs to the coaches.
+
+**5. Leave the location castable.** No drones over farms and villages without permissions, nothing carved, nothing taken — the next production, and the next visitor, inherit what you leave.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked in July 2026: You, Me & Tuscany’s release (Universal, 10 April 2026 in the US), principal cast and director, and its Pienza, Montalcino (Sesti estate), Val d’Orcia and Cinecittà locations against production and location reporting — its streaming date was unverified at our check and is deliberately omitted; New Moon’s Montepulciano-as-Volterra locations (Piazza Grande, Palazzo Comunale entrance, Redi cellar, San Biagio lanes) against Tuscan tourism and location records; Quantum of Solace’s Siena geography and its use of real Palio footage against location documentation; Gladiator’s Terrapille road placement (~3km south of Pienza) against the valley’s official records; Sant’Anna in Camprena’s English Patient role and its current diocese-overseen agriturismo operation against the property’s documentation; and the Teatro del Silenzio’s 2026 edition and early 2027 ticket offering against the event’s published information — 2027 dates were unannounced at our check. A celebrity-winery claim that circulated in our research could not be verified and does not appear in this article. We have no affiliate relationship with any tour, estate, property or event named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `The secret this article keeps circling is that screen-Tuscany and real Tuscany are the same place, and the films knew it: nobody built the Val d’Orcia a better backdrop, they just pointed cameras at the one that was there. Come for Halle Bailey’s villa roads or Bella’s fountain or the wheat that doubled for heaven, and what you will actually collect is the region itself — a monastery breakfast, a cellar under a vampire street, a horse race a spy once ran through — with the pleasant discovery that the location scouts were only ever travel writers with bigger budgets. Follow their notes. They had excellent taste.`,
+      },
+    ],
+    [
+      { q: 'Where was You, Me & Tuscany filmed?', a: 'Its Tuscan scenes centre on Pienza and the Val d’Orcia, with Montalcino’s Sesti estate playing the story’s winery; interiors were built at Cinecittà in Rome, with a Rome hotel sequence at a real property. The film released in the US on 10 April 2026.' },
+      { q: 'Was Twilight: New Moon really filmed in Volterra?', a: 'No — the Volterra scenes were shot in Montepulciano, whose Piazza Grande and Palazzo Comunale staged the fountain scene, with the Redi cellar as the Volturi’s domain. The real Volterra appears in the story but not the footage.' },
+      { q: 'Where is the Gladiator field in Tuscany?', a: 'The Elysian Fields scene was shot on the Terrapille farm road about three kilometres south of Pienza — a cypress-lined track through working grain fields. View and photograph it from the public vantage; it remains an active farm.' },
+      { q: 'Can you stay in the English Patient monastery?', a: 'Yes — Sant’Anna in Camprena, north of Pienza, now operates as a diocese-overseen agriturismo. Rooms are simple, the setting is the point, and summer dates book out well ahead.' },
+      { q: 'Is the Palio in Quantum of Solace real?', a: 'Yes — the production filmed the actual Palio di Siena, run on its fixed dates of 2 July and 16 August, months before shooting the chase, then wove Bond’s pursuit through Siena’s real rooftops and lanes.' },
+      { q: 'When are Andrea Bocelli’s Lajatico concerts in 2027?', a: 'Dates were unannounced at our July 2026 check, though limited 2027 allocations were already being offered; the pattern is late July at the Teatro del Silenzio. Trust only the event’s official channels for the confirmed calendar, and book immediately when dates publish.' },
+      { q: 'Can you visit all the film locations in one day?', a: 'Everything except Lajatico fits one Val d’Orcia loop from Siena: Sant’Anna in Camprena, Pienza, the Terrapille viewpoint and Montepulciano, with Siena itself as Bond’s bookend. Drivers manage it comfortably; car-free travellers should focus on Montepulciano.' },
+      { q: 'Are there guided Twilight tours in Montepulciano?', a: 'Yes — local operators run New Moon walking tours through the film’s locations, and the town has embraced its Volterra role. Early morning gives fans the emptiest photographs of Piazza Grande.' },
+    ],
+    '2026-08-13',
+    {
+      seoTitle: 'Tuscany Film Locations 2026: You Me & Tuscany, Twilight, Bond & More',
+      primaryKeyword: 'tuscany film locations',
+      secondaryKeywords: [
+        'you me and tuscany filming locations',
+        'twilight new moon montepulciano',
+        'gladiator filming location tuscany',
+        'english patient monastery tuscany',
+        'quantum of solace siena',
+        'teatro del silenzio bocelli 2027',
+        'set jetting italy',
+      ],
+      imageAlt: 'Cypress-lined road through the Val d’Orcia, the landscape used in Gladiator’s Elysian Fields',
+      canonicalPath: '/blog/tuscany-on-screen-film-locations-2026',
+      tags: ['tuscany film locations', 'set jetting', 'you me and tuscany', 'twilight montepulciano', 'val d’orcia'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
