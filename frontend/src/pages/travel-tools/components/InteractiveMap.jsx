@@ -16,7 +16,7 @@ L.Icon.Default.mergeOptions({
 // straight-line distance from the Piazza del Campo pin (computed from these
 // coordinates), the historic-centre ZTL (comune.siena.it), and the car parks
 // listed by Visit Siena (visitsiena.it). No experiential or vibe claims.
-const sienaPins = [
+export const sienaPins = [
   {
     id: 1,
     name: 'Piazza del Campo',
