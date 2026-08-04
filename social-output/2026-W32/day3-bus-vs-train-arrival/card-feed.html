@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Fact card</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&family=Outfit:wght@500;600;700&display=swap">
+<style>
+  /* Brand tokens copied from frontend/src/index.css — keep in sync by hand. */
+  :root {
+    --ivory: #FDFBF7;
+    --ivory-2: #F4F1EB;
+    --ivory-3: #EBE7E0;
+    --charcoal: #2C2C2A;
+    --charcoal-soft: #575754;
+    --terracotta: #C86B53;
+    --terracotta-2: #A85540;
+    --olive: #6B705C;
+    --sand: #D4A373;
+    --pad: 84px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 100%; height: 100%; }
+  body {
+    background: var(--ivory);
+    color: var(--charcoal);
+    font-family: 'Manrope', system-ui, sans-serif;
+    overflow: hidden;
+  }
+  .card {
+    width: 100vw;
+    height: 100vh;
+    padding: var(--pad);
+    display: flex;
+    flex-direction: column;
+    border: 14px solid var(--ivory-2);
+    position: relative;
+  }
+  .brand {
+    font-family: 'Outfit', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+  }
+  .tagline {
+    margin-top: 14px;
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--charcoal-soft);
+  }
+  .rule {
+    margin-top: 34px;
+    width: 96px;
+    height: 5px;
+    background: var(--sand);
+    border-radius: 3px;
+  }
+  .middle {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 44px;
+  }
+  .hook {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 600;
+    font-size: 84px;
+    line-height: 1.08;
+    color: var(--charcoal);
+  }
+  .figure {
+    font-family: 'Outfit', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 170px;
+    line-height: 1;
+    color: var(--terracotta);
+    letter-spacing: -0.01em;
+  }
+  .figure-label {
+    margin-top: 18px;
+    font-size: 34px;
+    font-weight: 600;
+    color: var(--charcoal);
+    line-height: 1.35;
+  }
+  .detail {
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--charcoal-soft);
+    line-height: 1.5;
+    max-width: 88%;
+  }
+  .footer {
+    border-top: 3px solid var(--ivory-3);
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 24px;
+  }
+  .checked {
+    font-family: 'Outfit', system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    color: var(--olive);
+  }
+  .url {
+    font-size: 27px;
+    font-weight: 600;
+    color: var(--charcoal-soft);
+  }
+  /* Pinterest (1000x1500) is narrower and taller: tighten scale a touch. */
+  body.pin .hook { font-size: 78px; }
+  body.pin .figure { font-size: 150px; }
+  body.pin .card { --pad: 76px; }
+</style>
+</head>
+<body class="feed">
+  <div class="card">
+    <header>
+      <div class="brand">Archi Travel Guide</div>
+      <div class="tagline">Every number dated & checked against official sources</div>
+      <div class="rule"></div>
+    </header>
+    <div class="middle">
+      <div class="hook">Bus and train don't arrive in the same Siena.</div>
+      <div>
+        <div class="figure">~2 km</div>
+        <div class="figure-label">the railway station sits this far below the hilltop old town</div>
+      </div>
+      <div class="detail">The 131R bus stops beside the centre at Via Tozzi / Piazza Gramsci. For a Piazza del Campo day trip, that decides it.</div>
+    </div>
+    <footer class="footer">
+      <div class="checked">Checked 11 July 2026 — official source</div>
+      <div class="url">affittacameregliarchi.com</div>
+    </footer>
+  </div>
+</body>
+</html>
