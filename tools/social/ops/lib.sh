@@ -150,8 +150,7 @@ run_claude() {
   prompt="$(cat "$SOCIAL_DIR/PROMPT.md"; printf '\n\n'; cat "$mode_file")"
   (cd "$WT" && claude -p "$prompt" \
     --allowedTools "Read" "Glob" "Grep" \
-      "Write(tools/social/weeks/**)" \
-      "Write(tools/social/queue.json)" \
+      "Edit(tools/social/weeks/**)" \
       "Edit(tools/social/queue.json)" \
     --disallowedTools "Bash" "WebFetch" "WebSearch" "Task" "NotebookEdit" \
     --max-turns 50 \
