@@ -1,0 +1,283 @@
+{
+  "facts": [
+    {
+      "id": "131r-fare-rise",
+      "status": "used",
+      "usedIn": "2026-W32",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "€9.90 bought at a ticket counter or in the operator's app; €16.00 bought on board from the driver. Those figures are higher than the €8.40 and €13.00 we verified on 22 July 2026.",
+      "checked": "3 August 2026",
+      "targetPath": "/florence-to-siena-by-train-or-bus"
+    },
+    {
+      "id": "sunday-timetable",
+      "status": "used",
+      "usedIn": "2026-W32",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "After the 09:10 from Firenze Autostazione there is no 131R until 14:10. On Sundays and public holidays there are only eight departures all day and the last leaves at 19:10. Summer timetable valid from 27 July 2026.",
+      "checked": "3 August 2026",
+      "targetPath": "/blog/florence-to-siena-transport"
+    },
+    {
+      "id": "bus-vs-train-arrival",
+      "status": "used",
+      "usedIn": "2026-W32",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "The 131R bus stops beside Siena's old town at Via Tozzi/Piazza Gramsci, while the railway station sits about 2 km below the hill.",
+      "checked": "11 July 2026",
+      "targetPath": "/florence-to-siena-by-train-or-bus"
+    },
+    {
+      "id": "parking-free-vs-35",
+      "status": "used",
+      "usedIn": "2026-W32",
+      "sourceStore": "articles.js (siena-parking-and-transfer-guide)",
+      "sourceQuote": "Il Campino, along Viale Vittorio Veneto directly below the Fortezza Medicea, is the most used free area in Siena. About a ten-minute walk to Piazza del Campo. Central car parks (Il Campo, Il Duomo, Santa Caterina, San Francesco): €35 continuous daily rate. Rates checked against Si.Ge.Ri.Co. and Visit Siena on 22 July 2026.",
+      "checked": "22 July 2026",
+      "targetPath": "/blog/siena-parking-and-transfer-guide"
+    },
+    {
+      "id": "airport-cheapest-route",
+      "status": "used",
+      "usedIn": "2026-W32",
+      "sourceStore": "articles.js (siena-from-florence-airport-transfer)",
+      "sourceQuote": "The cheapest reliable route is the tram plus the 131R bus, and it costs about €11.90 if you buy both tickets at machines or online rather than from a driver — both fares checked 3 August 2026.",
+      "checked": "3 August 2026",
+      "targetPath": "/blog/siena-from-florence-airport-transfer"
+    },
+    {
+      "id": "tourist-tax",
+      "status": "used",
+      "usedIn": "2026-W32",
+      "sourceStore": "articles.js (siena-travel-cost-2026)",
+      "sourceQuote": "Tourist tax of €2.00 per person per night in a B&B, apartment or short let, or €1.00 in a hostel or campsite. Figures published by the Comune di Siena. Checked on 23 July 2026.",
+      "checked": "23 July 2026",
+      "targetPath": "/blog/siena-travel-cost-2026"
+    },
+    {
+      "id": "torre-del-mangia-same-day",
+      "status": "used",
+      "usedIn": "2026-W32",
+      "sourceStore": "sienaContentCluster.json (torre-del-mangia-guide)",
+      "sourceQuote": "The official Museo Civico page states that tickets including the tower are not reservable. Tickets that include the tower are sold for the same day; places are limited. Morning offers the best chance of securing a same-day place. FACT CHECKED: 11 July 2026.",
+      "checked": "11 July 2026",
+      "targetPath": "/torre-del-mangia-guide"
+    },
+    {
+      "id": "eur1190-this-article-is-for-travellers-arriving",
+      "status": "candidate",
+      "sourceStore": "articles.js",
+      "sourceQuote": "This article is for travellers arriving without a car.\" }, { id: \"quick-answer\", heading: \"Quick answer\", body: \"The cheapest reliable route is the **tram plus the 131R bus**, and it costs about **€11.90** if you buy both tickets at machines or online rather than from a driver — both fares checked 3 August 2026.",
+      "checked": "3 August 2026",
+      "figureHint": "€11.90"
+    },
+    {
+      "id": "0-km-florence-to-siena-falls-in-the",
+      "status": "candidate",
+      "sourceStore": "articles.js",
+      "sourceQuote": "Florence to Siena falls in the 60.1–70.0 km band, which as checked on 3 August 2026 sets the fare at:",
+      "checked": "3 August 2026",
+      "figureHint": "0 km"
+    },
+    {
+      "id": "eur990-eur990-at-the-counter-is-the",
+      "status": "candidate",
+      "sourceStore": "articles.js",
+      "sourceQuote": "€9.90 at the counter is the current official fare for a single journey as checked on 3 August 2026 — and it moved between our own July and August checks, so treat any undated figure as suspect.",
+      "checked": "3 August 2026",
+      "figureHint": "€9.90"
+    },
+    {
+      "id": "75-minutes-journey-time-about-75-minutes-on",
+      "status": "candidate",
+      "sourceStore": "articles.js",
+      "sourceQuote": "**Journey time.** About 75 minutes on the fast service, per the summer timetable valid from 27 July 2026 (checked 3 August 2026).",
+      "checked": "3 August 2026",
+      "figureHint": "75 minutes"
+    },
+    {
+      "id": "eur1190-cheapest-reliable-total-eur1190-tram-at",
+      "status": "candidate",
+      "sourceStore": "articles.js",
+      "sourceQuote": "**Cheapest reliable total: €11.90** — tram at €2.00 plus the 131R bought at the counter at €9.90, both checked 3 August 2026.",
+      "checked": "3 August 2026",
+      "figureHint": "€11.90"
+    },
+    {
+      "id": "eur1190-the-fast-bus-for-the-second",
+      "status": "candidate",
+      "sourceStore": "articles.js",
+      "sourceQuote": "The fast bus for the second leg, the 131R, runs from Firenze Autostazione and does not call at the airport.\" }, { q: \"How much does it cost to get from Florence Airport to Siena?\", a: \"The cheapest reliable route costs about €11.90: the tram into Florence at €2.00, plus the 131R bus to Siena at €9.90 bought at a ticket counter, fares checked 3 August 2026.",
+      "checked": "3 August 2026",
+      "figureHint": "€11.90"
+    },
+    {
+      "id": "0-km-from-autolinee-toscane-s-published-fast",
+      "status": "candidate",
+      "sourceStore": "articles.js",
+      "sourceQuote": "From Autolinee Toscane's published fast-route fare table, Siena–Florence sits in the 60.1–70.0 km band, which as checked on 3 August 2026 gives:",
+      "checked": "3 August 2026",
+      "figureHint": "0 km"
+    },
+    {
+      "id": "eur1980-as-a-day-trip-by-bus",
+      "status": "candidate",
+      "sourceStore": "articles.js",
+      "sourceQuote": "**As a day trip by bus:** €19.80 each in return transport bought at the counter (fares checked 3 August 2026), so €39.60 for two, plus attraction tickets.",
+      "checked": "3 August 2026",
+      "figureHint": "€19.80"
+    },
+    {
+      "id": "eur990-whether-that-is-worth-it-depends",
+      "status": "candidate",
+      "sourceStore": "articles.js",
+      "sourceQuote": "Whether that is worth it depends entirely on how much you want the things a day trip cannot guarantee.` }, { id: 'practical-checklist', heading: 'Practical checklist', body: `- **Buy bus tickets at a counter** — €9.90 against €16.00 from the driver (checked 3 August 2026).",
+      "checked": "3 August 2026",
+      "figureHint": "€9.90"
+    },
+    {
+      "id": "eur25-if-you-are-driving-the-eur25",
+      "status": "candidate",
+      "sourceStore": "articles.js",
+      "sourceQuote": "If you are driving, the €25 hotel parking rate also offsets part of the cost.\" }, { q: \"How much does a day trip to Siena cost?\", a: \"Return bus transport from Florence is €19.80 per person bought at a counter, or €32.00 bought from the driver, as checked on 3 August 2026.",
+      "checked": "3 August 2026",
+      "figureHint": "€25"
+    },
+    {
+      "id": "0-km-siena-to-florence-sits-in-the",
+      "status": "candidate",
+      "sourceStore": "articles.js",
+      "sourceQuote": "Siena to Florence sits in the 60.1–70.0 km band, which as checked on 3 August 2026 gives:",
+      "checked": "3 August 2026",
+      "figureHint": "0 km"
+    },
+    {
+      "id": "eur990-buy-the-131r-ticket-at-a",
+      "status": "candidate",
+      "sourceStore": "articles.js",
+      "sourceQuote": "- **Buy the 131R ticket at a counter** (€9.90), not on board (€16.00) — fares checked 3 August 2026.",
+      "checked": "3 August 2026",
+      "figureHint": "€9.90"
+    },
+    {
+      "id": "eur990-sunday-is-the-second-weakest-choice",
+      "status": "candidate",
+      "sourceStore": "articles.js",
+      "sourceQuote": "Sunday is the second-weakest choice: the dome climb only opens in the early afternoon and closes early, and the bus timetable is thinner.\" }, { q: \"How much does the bus from Siena to Florence cost?\", a: \"€9.90 bought at a ticket counter or in the operator's app, or €16.00 bought on board from the driver, as checked on 3 August 2026.",
+      "checked": "3 August 2026",
+      "figureHint": "€9.90"
+    },
+    {
+      "id": "75-minutes-the-131r-fast-bus-links-central",
+      "status": "candidate",
+      "sourceStore": "articles.js",
+      "sourceQuote": "The **131R fast bus** links central Florence with Siena in about **75 minutes**, at **€9.90** bought online or at the counter (€16.00 on board), as checked on 3 August 2026 — and it arrives on the practical side of Siena’s historic centre.",
+      "checked": "3 August 2026",
+      "figureHint": "75 minutes"
+    },
+    {
+      "id": "75-minutes-for-a-piazza-del-campo-day",
+      "status": "candidate",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "For a Piazza del Campo day trip, take the 131R bus — about 75 minutes and €9.90 one-way, as checked on 3 August 2026.",
+      "checked": "3 August 2026",
+      "figureHint": "75 minutes"
+    },
+    {
+      "id": "75-minutes-journey-time-about-75-minutes-on",
+      "status": "candidate",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "| Journey time | About **75 minutes** on the current timetable, valid from 27 July 2026 (checked 3 Aug 2026); traffic can add time | **1 hr 20 min–1 hr 45 min** planning range, direct or changing at Empoli (checked 23 Jul 2026) |",
+      "checked": "3 Aug 2026",
+      "figureHint": "75 minutes"
+    },
+    {
+      "id": "eur990-one-way-fare-eur990-app-counter",
+      "status": "candidate",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "| One-way fare | **€9.90** app/counter; **€16.00** from the driver (checked 3 Aug 2026) | Not published as a flat fare — check the Trenitalia app for your date |",
+      "checked": "3 Aug 2026",
+      "figureHint": "€9.90"
+    },
+    {
+      "id": "60-minutes-frequency-weekdays-roughly-every-20-60",
+      "status": "candidate",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "| Frequency | Weekdays roughly every 20–60 minutes; **Sundays and holidays only six departure times from Florence** (seven coaches — two share the 09:10 slot), none between 09:10 and 14:10, and **eight departures back from Siena**, the last at 19:10 (checked 5 Aug 2026) | Mix of direct and Empoli-change itineraries; pattern varies by day — check the live timetable |",
+      "checked": "5 Aug 2026",
+      "figureHint": "60 minutes"
+    },
+    {
+      "id": "0-km-siena-florence-sits-in-autolinee-toscane",
+      "status": "candidate",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "Siena–Florence sits in Autolinee Toscane’s 60.1–70.0 km band (checked 22 July 2026), and the fast-route fare tables as checked on 3 August 2026 give:",
+      "checked": "22 July 2026",
+      "figureHint": "0 km"
+    },
+    {
+      "id": "eur840-those-figures-are-higher-than-the",
+      "status": "candidate",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "Those figures are higher than the €8.40 and €13.00 we verified on 22 July 2026 — the operator’s published fare tables changed between our checks, which is exactly why every figure here carries its date.",
+      "checked": "22 July 2026",
+      "figureHint": "€8.40"
+    },
+    {
+      "id": "75-minutes-the-131r-runs-about-75-minutes",
+      "status": "candidate",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "The 131R runs about **75 minutes** on the current summer timetable, valid from 27 July 2026 and checked on 3 August 2026.",
+      "checked": "3 August 2026",
+      "figureHint": "75 minutes"
+    },
+    {
+      "id": "eur990-a-counter-or-app-ticket-costs",
+      "status": "candidate",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "A counter or app ticket costs €9.90; buying from the driver costs €16.00 (fast-route driver tariff, checked 3 August 2026), and onboard sales are suspended during ticket inspections, so it is not something to rely on.",
+      "checked": "3 August 2026",
+      "figureHint": "€9.90"
+    },
+    {
+      "id": "eur1600-buying-from-the-driver-is-a",
+      "status": "candidate",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "Buying from the driver is a fallback, not a plan: on the fast-route driver tariff checked 3 August 2026, the Siena–Florence band costs **€16.00 instead of €9.90**, and onboard sales are suspended while inspectors are working.",
+      "checked": "3 August 2026",
+      "figureHint": "€16.00"
+    },
+    {
+      "id": "2045-on-the-summer-timetable-valid-from",
+      "status": "candidate",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "On the summer timetable valid from 27 July 2026 (checked 3 August 2026): the last weekday 131R back to Florence leaves Siena Via Tozzi at **20:45**; on Sundays and public holidays there are only eight departures all day and the last leaves at **19:10**.",
+      "checked": "3 August 2026",
+      "figureHint": "20:45"
+    },
+    {
+      "id": "eur1980-by-bus-return-transport-costs-eur1980",
+      "status": "candidate",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "By bus, return transport costs **€19.80 per person** with tickets bought through the app or at a counter, or €32.00 bought from the driver (fares checked 3 August 2026).",
+      "checked": "3 August 2026",
+      "figureHint": "€19.80"
+    },
+    {
+      "id": "75-minutes-the-131r-bus-runs-about-75",
+      "status": "candidate",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "The 131R bus runs about 75 minutes on the current summer timetable (checked 3 August 2026); the train is usually longer, roughly 1 hour 20 to 1 hour 45 depending on whether it is direct or changes at Empoli.",
+      "checked": "3 August 2026",
+      "figureHint": "75 minutes"
+    },
+    {
+      "id": "75-minutes-check-the-exact-date-and-choose",
+      "status": "candidate",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "Check the exact date and choose a direct option when simplicity matters.\" }, { \"question\": \"How long does Florence to Siena take?\", \"answer\": \"The 131R bus runs about 75 minutes on the current summer timetable (checked 3 August 2026); the train is usually longer, roughly 1 hour 20 to 1 hour 45 depending on whether it is direct or changes at Empoli.",
+      "checked": "3 August 2026",
+      "figureHint": "75 minutes"
+    }
+  ]
+}
