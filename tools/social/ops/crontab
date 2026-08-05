@@ -1,0 +1,4 @@
+# Social pipeline schedule — run by supercronic (system TZ = Asia/Jakarta = WIB).
+# Weekly batch: Sunday 20:00 WIB. Daily promo check: 06:30 WIB.
+0 20 * * 0 /home/archi/archi-travel-guide/tools/social/ops/run-weekly.sh
+30 6 * * * /home/archi/archi-travel-guide/tools/social/ops/run-daily.sh
