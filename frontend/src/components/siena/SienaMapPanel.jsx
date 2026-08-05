@@ -1,30 +1,13 @@
-import { Link } from "react-router-dom";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 // Importing the pins also applies the module's Leaflet default-icon fix.
 import { sienaPins } from "@/pages/travel-tools/components/InteractiveMap";
-import articlesIndex from "@/data/articlesIndex.json";
-import { MapPin, ArrowRight } from "lucide-react";
-
-const MONTHS = [
-  "January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December",
-];
-
-// Month guide for the CURRENT month, resolved from the published-articles
-// index — shown only when it actually exists, so no dead links.
-function currentMonthGuide() {
-  const month = MONTHS[new Date().getMonth()];
-  const needle = `-in-${month.toLowerCase()}-2`;
-  const guide = articlesIndex.find((a) => a.slug.includes(needle));
-  return guide ? { month, guide } : null;
-}
+import MonthCue from "@/components/common/MonthCue";
+import { MapPin } from "lucide-react";
 
 // The verified Siena pins (ZTL, car parks, distances — each fact-checked in
 // the map tool) surfaced directly on the destination page.
 export default function SienaMapPanel() {
-  const cue = currentMonthGuide();
-
   return (
     <section className="py-16 bg-[#FAF7F2]">
       <div className="max-w-7xl mx-auto px-6">
@@ -60,18 +43,7 @@ export default function SienaMapPanel() {
           Distances, ZTL and car-park facts in the pins are checked against comune.siena.it and Visit Siena — tap a marker.
         </p>
 
-        {cue && (
-          <Link
-            to={(cue.guide.canonicalPath || `/blog/${cue.guide.slug}`).replace(/\/?$/, "/")}
-            className="mt-6 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 rounded-2xl bg-[#2C211B] text-[#F5EDE3] px-6 py-4 hover:bg-[#3a2c22] transition-colors group"
-          >
-            <span className="font-medium">Going this month?</span>
-            <span className="text-sm text-gray-300 flex-1 truncate">{cue.guide.title}</span>
-            <span className="text-sm font-medium text-[#C65A3A] group-hover:underline shrink-0 inline-flex items-center gap-1">
-              Read the {cue.month} guide <ArrowRight className="w-4 h-4" />
-            </span>
-          </Link>
-        )}
+        <MonthCue />
       </div>
     </section>
   );
