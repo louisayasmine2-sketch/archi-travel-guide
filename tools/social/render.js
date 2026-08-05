@@ -3,7 +3,9 @@
 // Self-contained: run `npm install` and `npx playwright install chromium`
 // in tools/social/ first. Never touches the site build.
 //
-// Usage: node render.js [outputDir]   (default: ../../social-output/2026-W32)
+// Usage: node render.js [outputDir] [factsFile]
+//   outputDir  default: ../../social-output/2026-W32
+//   factsFile  default: facts.json next to this script (the W32 batch)
 
 const fs = require('fs');
 const path = require('path');
@@ -14,7 +16,8 @@ const FORMATS = [
   { name: 'pin', class: 'pin', width: 1000, height: 1500 },
 ];
 
-const data = JSON.parse(fs.readFileSync(path.join(__dirname, 'facts.json'), 'utf8'));
+const factsFile = path.resolve(process.argv[3] || path.join(__dirname, 'facts.json'));
+const data = JSON.parse(fs.readFileSync(factsFile, 'utf8'));
 const template = fs.readFileSync(path.join(__dirname, 'template.html'), 'utf8');
 
 function fill(tpl, vars) {

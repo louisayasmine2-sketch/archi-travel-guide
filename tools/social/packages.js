@@ -4,12 +4,18 @@
 // All figures are verbatim from the content stores via facts.json — this
 // file adds voice, never numbers.
 //
-// Usage: node packages.js [outputDir]   (default: ../../social-output/2026-W32)
+// Usage: node packages.js [outputDir] [factsFile]
+//   outputDir  default: ../../social-output/2026-W32
+//   factsFile  default: facts.json next to this script (the W32 batch).
+// From W33 on, each fact in the facts file carries its own `copy` object
+// (caption, hashtags, alt, pinterestTitle, pinterestDescription, voiceover);
+// the built-in COPY table below only serves the original W32 batch.
 
 const fs = require('fs');
 const path = require('path');
 
-const data = JSON.parse(fs.readFileSync(path.join(__dirname, 'facts.json'), 'utf8'));
+const factsFile = path.resolve(process.argv[3] || path.join(__dirname, 'facts.json'));
+const data = JSON.parse(fs.readFileSync(factsFile, 'utf8'));
 const PLATFORMS = ['instagram', 'facebook', 'pinterest'];
 
 const link = (fact, platform) =>
@@ -107,7 +113,7 @@ function main() {
   const facts = [...data.facts].sort((a, b) => a.day - b.day);
 
   for (const fact of facts) {
-    const copy = COPY[fact.id];
+    const copy = fact.copy || COPY[fact.id];
     if (!copy) throw new Error(`No copy for fact ${fact.id}`);
     const dir = path.join(outRoot, `day${fact.day}-${fact.id}`);
     fs.mkdirSync(dir, { recursive: true });
@@ -148,7 +154,7 @@ ${copy.voiceover}
     console.log('package', path.relative(process.cwd(), dir), `(voiceover ${words} words)`);
   }
 
-  const guide = `# Posting guide — Week 1 (2026-W32 batch)
+  const guide = `# Posting guide — ${data.weekLabel || 'Week 1 (2026-W32 batch)'}
 
 Positioning line (approved): **"Every number dated & checked against official sources"**
 
@@ -161,8 +167,8 @@ ${facts.map((f) => `| ${f.day} | ${f.weekday} ${f.date} | day${f.day}-${f.id} | 
 
 ## Notes
 
-- **Day 4 (Saturday) carries the Sunday-timetable card on purpose** — it lands
-  the day before people get caught by the Sunday gap.
+${data.weekNotes ? data.weekNotes.map((n) => `- ${n}`).join('\n') : `- **Day 4 (Saturday) carries the Sunday-timetable card on purpose** — it lands
+  the day before people get caught by the Sunday gap.`}
 - Each package folder contains: both PNGs (plus their source HTML), \`caption.md\`
   (caption + hashtags + per-platform UTM links), \`alt-text.txt\`, \`pinterest.md\`
   (title, description, destination link), and \`voiceover.md\` (30–45 s script).
