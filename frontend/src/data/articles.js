@@ -7155,6 +7155,168 @@ One scheduling grace note: whichever route you ride, aim to arrive by late after
       tags: ['rome to siena', 'siena transport', 'italy trains', 'italy buses', 'tuscany travel planning'],
     }
   ),
+  A(
+    'tuscan-food-calendar-seasonal-dishes',
+    'The Tuscan Food Calendar: Dishes Worth Timing Your Trip Around (2026–27)',
+    'Food & drink',
+    'Tuscany',
+    'The Tuscan foods locals wait all year for — olio nuovo, schiacciata all’uva, white truffle, carnival cenci — and the exact seasons to catch each one.',
+    '/images/siena/pici-pasta-wild-boar-ragu-siena.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Tuscany’s most beloved foods are not on the menu all year — and that is precisely why locals count the days for them. The headline calendar: **schiacciata all’uva**, the grape-harvest flatbread, exists only during the vendemmia weeks of September and October; **olio nuovo**, the peppery new olive oil, peaks from late October through December; **white truffle** rules November, crowned by San Miniato’s market weekends; **panforte and ricciarelli** come home to Siena’s Christmas; **cenci** appear for Carnival and vanish on Martedì Grasso; spring belongs to **raw fava beans with young pecorino**, the May Day picnic in edible form; and summer runs on **panzanella** and tomatoes at their peak. Our [25-dish food guide](/blog/tuscany-food-guide) covers what everything *is* — this article covers the question that actually shapes a trip: **when**.`,
+      },
+      {
+        id: 'why-timing-beats-lists',
+        heading: 'Why timing beats any list of dishes',
+        body: `Every Tuscany food article tells you to eat ribollita and bistecca, and they are right, and you can do both in any month of the year. But the dishes Tuscans themselves get sentimental about are the ones with an expiry date — the first pressing tasted standing up at the mill, the bakery tray of grape bread that means the harvest has started, the fried dough that means Carnival has arrived. Seasonality here is not a restaurant marketing word; it is the calendar people actually live by, [as our harvest guides document at length](/blog/tuscany-olive-harvest-olio-nuovo-2026).
+
+For a traveller this changes the planning question. A trip built around *where* to eat can happen anytime; a trip built around *what* you most want to taste has dates attached — sometimes a season, sometimes a few specific weekends. Miss the window and no amount of money buys the dish: nobody bakes schiacciata all’uva in March, and February’s cenci are gone by Lent as surely as the confetti.
+
+What follows is the year as Tuscan appetites experience it, season by season, each entry with its window, its home ground, and the trip-planning link to catch it. Treat it as the menu you book flights against.`,
+      },
+      {
+        id: 'autumn-vendemmia',
+        heading: 'September–October: the grape weeks',
+        body: `Autumn opens with the year’s most theatrical seasonal food. **Schiacciata all’uva** — flat, olive-oil-rich dough pressed full of small black grapes, sticky, crunchy with seeds, faintly winey — appears in Florentine and central-Tuscan bakeries only while [the vendemmia runs](/blog/tuscany-wine-harvest-vendemmia-2026), roughly September into October, and disappears with the harvest. It is eaten by the slice, standing up, and its arrival in the bakery window is how the city knows the grapes are in.
+
+The same weeks bring the year’s first **porcini** in volume — over tagliatelle, on crostini, grilled whole — and the return of game to trattoria blackboards as the hunting season opens: wild boar and hare ragùs thickening over [pici](/blog/tuscany-food-guide) as the evenings cool.
+
+Trip-planning translation: [September](/blog/siena-in-september-2026) and [October](/blog/tuscany-in-october-2026) put this table alongside active harvest scenery and the year’s best festival calendar — the single richest food-travel window of the Tuscan year, and our standing answer to “when should a food-first traveller come”.`,
+      },
+      {
+        id: 'autumn-olio-nuovo',
+        heading: 'Late October–December: the new oil',
+        body: `If one Tuscan food deserves the word “awaited”, it is **olio nuovo**. The deliberately early olive harvest starts in late October, the mills press through November, and for a few weeks the region eats its oil at its absolute youngest — unfiltered, cloudy green, grassy and artichoke-scented, with the peppery catch in the throat that marks fresh polyphenols at full strength. [Our olive-harvest guide](/blog/tuscany-olive-harvest-olio-nuovo-2026) covers the season in depth, including how visitors can genuinely join the picking.
+
+The canonical delivery mechanism is **fettunta**: bread grilled, rubbed with garlic, salted, drowned in new oil, eaten as the year’s verdict. Mills pour it at the press, farms pour it at harvest lunches, and by late November every serious kitchen is finishing soups and beans with it — always raw, at the table, never cooked away.
+
+The anticipation is real enough to have its own festivals: [San Quirico d’Orcia has celebrated the new oil each December since 1993](/blog/tuscany-in-december-2026), and a tin bought at the frantoio that pressed it remains the best-value edible souvenir the region sells. The window for the *nuovo* experience proper: **late October to roughly year’s end** — after which it is still excellent oil, but the event has passed.`,
+      },
+      {
+        id: 'november-truffle',
+        heading: 'November: white truffle month',
+        body: `November’s awaited food needs no cooking at all — a few grams of it shaved over tagliolini justify the month. **White truffle** season centres on November, and its Tuscan capital is **San Miniato**, whose national market-exhibition fills [the last three weekends of November 2026 (14–15, 21–22, 28–29)](/blog/tuscany-in-november-2026) with hunters, dealers, and a smell no photograph conveys.
+
+The affordable way in — the one we recommend — is a truffle *dish* rather than a truffle *purchase*: tagliolini al tartufo, eggs with shavings, the classic vehicles that let a restaurant’s buying skill work for you. The intense weeks also produce the year’s best truffle-hunting experiences, walked with a trifolau and his dog through the oak woods — book ahead, and treat November as the honest season rather than the year-round “truffle menus” tourism sometimes stages.
+
+Around the tuber, November’s table is deep winter warming up: **castagnaccio** (the dense chestnut-flour cake with rosemary and pine nuts) in its chestnut-season prime, roast chestnuts on street corners, and the new oil everywhere. For food-first travellers, [November is the sleeper month of the year](/blog/tuscany-in-november-2026) — the only one when the white truffle and the olio nuovo peak together.`,
+      },
+      {
+        id: 'december-sweets',
+        heading: 'December: Siena’s sweets come home',
+        body: `Siena’s two famous sweets are sold to visitors all year — and belong, by history and habit, to Christmas. **Panforte**, the dense medieval press of fruit, nuts, honey and spice, and **ricciarelli**, the soft almond biscuits, fill the city’s bakery windows through December as actual seasonal food: bought whole, given as gifts, served in thin slices with coffee or vin santo at the end of the year’s longest meals. Eating them in [December, in Siena](/blog/tuscany-in-december-2026), from a pasticceria rather than a souvenir shelf, is the difference between tasting a tradition and merely purchasing one.
+
+December’s savoury table is the winter canon at full depth — ribollita thick enough to stand a spoon in, the last emphatic weeks of the new oil, the tail of white truffle season — and the month adds its own event-food layer: the **Mercato nel Campo’s** stalls of porchetta, pecorino and mulled wine on Siena’s great square, and the oil festival south in the Val d’Orcia.
+
+The anticipation here runs in both directions: the sweets announce Christmas, and Christmas justifies the sweets. Carry a whole panforte home — it travels absurdly well — and December’s calendar entry survives into January’s coffee.`,
+      },
+      {
+        id: 'carnival-cenci',
+        heading: 'January–February: fried dough and the Carnival clock',
+        body: `Deep winter’s awaited foods run on the Carnival countdown. **Cenci** — “rags” of crisp fried dough under icing sugar, Tuscany’s answer to the chiacchiere eaten across Italy — stack up on every bakery counter from late January and vanish within days of **Martedì Grasso** ([9 February in 2027](/blog/tuscany-in-february-2027)). Alongside them: **schiacciata alla fiorentina**, Florence’s soft orange-scented Carnival cake with its powdered-sugar giglio, and rice fritters as the season peaks.
+
+These are the strictest windows on the whole calendar — arrive in March and the counters hold no evidence the season ever happened — and the correct consumption ritual is the local one: standing at the pasticceria bar, mid-morning, coffee in the other hand, comparing bakeries across a weekend [as our February guide cheerfully recommends](/blog/tuscany-in-february-2027).
+
+The savoury anticipation of the season is quieter but real: **black winter truffle** succeeding November’s white at gentler prices, blood oranges from the south stacking the market stalls, and the year’s best excuse for bistecca — the temperature.
+
+![Pici with wild boar ragù, the cool-season classic of the Sienese table](/images/siena/pici-pasta-wild-boar-ragu-siena.webp)
+*The cool months’ standing order: hand-rolled pici under wild-boar ragù.*`,
+      },
+      {
+        id: 'spring-baccelli',
+        heading: 'April–May: raw fava beans and young pecorino',
+        body: `Spring’s awaited food is the simplest on this list and among the oldest. **Baccelli** — fresh fava beans, eaten *raw* from the pod — paired with young **pecorino**, is Tuscany’s ritual of the season: the pairing locals call cacio e baccelli, carried in paper bags to the traditional picnics of **Easter Monday and the first of May**, shelled by hand between conversation, with a lineage food historians trace to Roman spring festivals two millennia back.
+
+The cheese half of the equation is its own seasonal event: spring is lambing time, and the young pecorino of the season — the mild, milky **marzolino**, “March cheese” — is the fava’s canonical partner, abundant exactly when the pods fill the market stalls from April through May.
+
+Nothing about this dish can be booked, ticketed or queued for, which is its charm: buy the pods and a wedge at any spring market — Siena’s included — find a wall with a view, and you are performing the season correctly. The window: **April to late May**, after which the beans grow starchy and the ritual rests for a year. Around it, spring’s table adds artichokes, asparagus and the first outdoor lunches of the year.`,
+      },
+      {
+        id: 'summer-panzanella',
+        heading: 'June–August: bread salads and the tomato’s reign',
+        body: `Summer’s anticipation is the tomato’s. **Panzanella** — stale bread revived with water and vinegar, tossed with tomatoes at their August peak, onion, basil and oil — is the season on a plate, and its quality tracks the tomato so directly that locals treat a great panzanella as proof of a great summer. Its companion **pappa al pomodoro**, the bread-and-tomato porridge served warm or room-temperature, does the same work in a softer register.
+
+Summer also stages Tuscany’s great **event foods**: the contrade dinners of [Palio week](/blog/palio-di-siena-guide), when Siena’s neighbourhoods set thousands of places at long tables in the streets — communal cooking as civic identity, glimpsable respectfully even by outsiders — and the sagra circuit of village food festivals that fills the countryside’s summer weekends with pici, wild boar and grilled everything.
+
+And the year’s sweetest anticipation stays humble: **gelato weather**, at full authority from June through August, with [the hardest month’s heat](/blog/tuscany-in-august-2026) as its best justification. By late August, the first coastal grapes are coming in — and the calendar bends back toward the vendemmia where this article began.`,
+      },
+      {
+        id: 'hunting-the-windows',
+        heading: 'How to catch the windows like a local',
+        body: `The calendar above gives the shape; on the ground, four habits find the actual food.
+
+**Read bakery counters as noticeboards.** The seasonal items are never advertised — they simply appear. A tray of grape-studded flatbread in September, powdered rags in February: the counter announces the season days before any menu does, so glance into every pasticceria you pass.
+
+**Shop the weekly market.** Every town’s market morning — Siena’s included — is the season rendered as stalls: the first fava pods, the porcini crates, the chestnut sacks. Ten minutes’ walk through it tells you exactly what to order at dinner.
+
+**Ask the five-word question.** *«Cosa c’è di stagione?»* — what’s in season? — asked of any waiter or stallholder, outperforms every listicle ever written, this one included. Tuscan kitchens love the question and answer it with the thing they are proudest of that week.
+
+![A convivial Sienese table set for the season’s eating](/images/siena/where-to-eat-in-siena-hero.webp)
+*The final verification step for everything in this article: a table, in season.*
+
+**Follow the sagra posters.** The village food-festival flyers taped to bar windows — sagra della polenta, del cinghiale, del tartufo — are rural Tuscany’s live seasonal feed, and [the where-to-eat groundwork](/blog/best-things-to-do-in-siena) does the rest.`,
+      },
+      {
+        id: 'the-planning-grid',
+        heading: 'The whole year on one screen',
+        body: `**September–October** — schiacciata all’uva; porcini; new-vintage energy. *Book: [the harvest weeks](/blog/tuscany-wine-harvest-vendemmia-2026).*
+
+**Late October–December** — olio nuovo and fettunta at the mills. *Book: [a frantoio visit](/blog/tuscany-olive-harvest-olio-nuovo-2026).*
+
+**November** — white truffle; San Miniato’s market weekends; castagnaccio. *Book: [the November window](/blog/tuscany-in-november-2026).*
+
+**December** — panforte and ricciarelli at home in Siena; market-stall eating on the Campo. *Book: [early December](/blog/tuscany-in-december-2026).*
+
+**Late January–Martedì Grasso** — cenci and schiacciata alla fiorentina; black truffle. *Book: [Carnival month](/blog/tuscany-in-february-2027).*
+
+**April–May** — raw baccelli with young pecorino; artichokes; the picnic holidays. *Book: any spring market town.*
+
+**June–August** — panzanella and the tomato peak; contrade dinners; the sagra circuit. *Book: [with the August playbook](/blog/tuscany-in-august-2026).*
+
+Two dishes need no calendar at all — ribollita and bistecca hold the fort year-round — and one rule covers everything above: **when a menu offers the seasonal thing in its season, order it without deliberation.** The kitchen is showing off what the year just delivered.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Seasonal windows in this guide reflect the traditions and harvest timings verified across our 2026 reporting: the vendemmia and schiacciata all’uva weeks, the olive harvest and olio nuovo season, the San Miniato white-truffle weekends (14–15, 21–22, 28–29 November 2026) and the San Quirico oil festival’s early-December pattern are all checked against the primary sources documented in the linked guides; the Carnival sweets’ windows follow the fixed liturgical calendar (Martedì Grasso falls on 9 February 2027); and the spring baccelli-and-pecorino tradition — the Easter Monday and May Day picnic pairing with young marzolino — was checked in August 2026 against Tuscan food-culture sources. Individual bakeries, mills and restaurants set their own calendars: treat every window here as the season’s shape, and the shop counter as the final authority. We have no affiliate relationship with any producer, restaurant or festival named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `There is a version of Tuscan eating that treats the region as a museum of greatest hits, available on demand. The better version — the one Tuscans practise — treats it as a broadcast schedule: the grape bread announcing September, the green oil announcing November, the fried rags announcing Carnival, the raw beans announcing spring. Plan a trip against this calendar and you stop being an audience and start being a participant: you will stand in the right bakery in the right week, order the thing that just arrived, and understand — one slice of sticky harvest bread in hand — why the locals spent all year waiting. Then you will spend all year waiting too, which is the dish’s final ingredient.`,
+      },
+    ],
+    [
+      { q: 'What food is Tuscany famous for seasonally?', a: 'The awaited classics: schiacciata all’uva in the September–October grape harvest, olio nuovo from late October through December, white truffle in November, panforte and ricciarelli at Christmas in Siena, cenci during Carnival, raw fava beans with young pecorino in spring, and panzanella at the summer tomato peak.' },
+      { q: 'When is olio nuovo season in Tuscany?', a: 'From the first pressings in late October through roughly the end of the year, with November the heart of it — the oil at its youngest, greenest and most peppery, classically eaten as fettunta on garlic-rubbed grilled bread.' },
+      { q: 'When can you eat schiacciata all’uva?', a: 'Only during the grape-harvest weeks, roughly September into October. Bakeries make it while the vendemmia runs and stop when it ends — no other month offers it.' },
+      { q: 'When is truffle season in Tuscany?', a: 'White truffle peaks in November — San Miniato’s market runs the last three weekends of November 2026 — with the gentler black winter truffle carrying December into early spring. Order it as a dish (tagliolini al tartufo) rather than buying a tuber unless you know your grams.' },
+      { q: 'What are cenci and when do you eat them?', a: 'Tuscany’s Carnival sweet: crisp fried ribbons of dough under icing sugar, on bakery counters from late January until Martedì Grasso (9 February in 2027) and gone within days of it, alongside Florence’s schiacciata alla fiorentina cake.' },
+      { q: 'What is the fava bean and pecorino tradition?', a: 'Spring’s ritual: raw baccelli shelled straight from the pod, eaten with young pecorino — ideally the mild spring marzolino — at the traditional Easter Monday and May Day picnics. The season runs April to late May.' },
+      { q: 'What is the best month for food in Tuscany?', a: 'For sheer overlap, November: white truffle and olio nuovo peak together, chestnuts and game fill the menus, and prices are low. For the fullest calendar of harvest theatre, September–October. Both beat summer for eating, if not for weather.' },
+      { q: 'Are panforte and ricciarelli only available at Christmas?', a: 'They are sold year-round in Siena, but December is their true season — bought whole from a pasticceria as Christmas food, in the city they belong to. The out-of-season versions exist for visitors; the December ones exist for Siena.' },
+    ],
+    '2026-08-15',
+    {
+      seoTitle: 'Tuscan Food Calendar: Seasonal Dishes Worth Timing a Trip For',
+      primaryKeyword: 'tuscany seasonal food',
+      secondaryKeywords: [
+        'what to eat in tuscany in autumn',
+        'olio nuovo season',
+        'truffle season tuscany',
+        'schiacciata all’uva when',
+        'tuscan christmas sweets',
+        'fave e pecorino tradition',
+        'best month for food in tuscany',
+      ],
+      imageAlt: 'Hand-rolled pici pasta with wild boar ragù, a classic of the Sienese cool season',
+      canonicalPath: '/blog/tuscan-food-calendar-seasonal-dishes',
+      tags: ['tuscany seasonal food', 'tuscan food calendar', 'olio nuovo', 'truffle season', 'tuscan traditions'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
