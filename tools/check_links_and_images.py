@@ -10,6 +10,10 @@ Checks:
                              unless supplied explicitly in-session.
   direct_commercial_link   — an outbound link straight to a booking platform
                              instead of the /go/{slug} internal redirect
+  internal_link_broken     — an internal link in article content that resolves
+                             to no real route (not an article, static route,
+                             or _redirects entry): it would silently land on
+                             the SPA's 404 page
   go_slug_unresolved       — a /go/{slug} reference (in the content stores or
                              in frontend/src) with no matching entry in
                              frontend/public/_redirects; it would silently
@@ -26,7 +30,9 @@ Checks:
                              must be re-checked, not assumed fine.
 
 /go/ entries defined but referenced nowhere are listed informationally — a
-dead entry is not broken, but it is worth knowing about.
+dead entry is not broken, but it is worth knowing about. Internal links whose
+target article exists but is SCHEDULED for a future publish date are also
+informational (they resolve the day the target goes live).
 
 This script never writes to content. If it reports something, fix the content.
 Run with:  python tools/check_links_and_images.py  [--offline] [--json]
@@ -109,6 +115,50 @@ def check_url(url, ctx):
                 continue
             return False, f"{type(e).__name__}: {e}"
     return False, "unreachable"
+
+
+APP_ROUTES_FILE = REPO_ROOT / "frontend" / "src" / "App.js"
+SITEMAP_FILE = REPO_ROOT / "frontend" / "public" / "sitemap.xml"
+INTERNAL_LINK = re.compile(r"(?:\]\(|href=\")(/(?!go/|images/)[^)\"#?\s]*)")
+
+
+def _norm(p):
+    return p.rstrip("/") or "/"
+
+
+def load_valid_routes(articles, go_table):
+    """Every internal path that actually resolves: router routes and redirect
+    targets from App.js, _redirects sources and internal targets, sitemap
+    entries, and every article's own route."""
+    valid = set()
+    if APP_ROUTES_FILE.is_file():
+        src = APP_ROUTES_FILE.read_text(encoding="utf-8")
+        for m in re.finditer(r'path="([^"*:]+)"', src):
+            valid.add(_norm(m.group(1)))
+        for m in re.finditer(r'to="([^"]+)"', src):
+            valid.add(_norm(m.group(1).split("?")[0]))
+    if REDIRECTS_FILE.is_file():
+        for line in REDIRECTS_FILE.read_text(encoding="utf-8").splitlines():
+            parts = line.strip().split()
+            if len(parts) >= 2 and parts[0].startswith("/") and not parts[0].startswith("#"):
+                if "*" not in parts[0]:
+                    valid.add(_norm(parts[0].split("?")[0]))
+                if parts[1].startswith("/") and "*" not in parts[1]:
+                    valid.add(_norm(parts[1].split("?")[0]))
+    if SITEMAP_FILE.is_file():
+        for m in re.finditer(r"<loc>([^<]+)</loc>", SITEMAP_FILE.read_text(encoding="utf-8")):
+            path = re.sub(r"^https?://[^/]+", "", m.group(1))
+            if path:
+                valid.add(_norm(path))
+    for art in articles:
+        if art.route:
+            valid.add(_norm(art.route))
+    valid.update(_norm(p) for p in go_table)
+    return valid
+
+
+def collect_internal_links(article):
+    return sorted({_norm(m) for m in INTERNAL_LINK.findall(article.text) if len(m) > 1})
 
 
 def load_go_redirects():
@@ -216,6 +266,24 @@ def main():
         all_urls.setdefault(dest, []).append(f"_redirects:{slug_path}")
     go_unused = sorted(p for p in go_table if p not in go_refs)
 
+    # Internal links: every in-content path must resolve to a real route.
+    valid_routes = load_valid_routes(articles, go_table)
+    scheduled_routes = {_norm(a.route) for a in articles if a.route and not a.published}
+    broken_internal = {}   # link -> [users]
+    scheduled_internal = {}
+    for art in articles:
+        user = f"{art.store}:{art.ident}"
+        for link in collect_internal_links(art):
+            if link in valid_routes:
+                if link in scheduled_routes:
+                    scheduled_internal.setdefault(link, []).append(user)
+                continue
+            broken_internal.setdefault(link, []).append(user)
+    internal_report = [
+        {"check": "internal_link_broken", "detail": f"{link} resolves to no route", "used_by": sorted(set(users))}
+        for link, users in sorted(broken_internal.items())
+    ]
+
     url_results = []
     if not args.offline:
         ctx = _ssl_context()
@@ -237,10 +305,13 @@ def main():
             "flagged": report,
             "go_findings": go_report,
             "go_unused": go_unused,
+            "internal_findings": internal_report,
+            "internal_scheduled": {k: sorted(set(v)) for k, v in scheduled_internal.items()},
             "url_failures": url_results,
         }, indent=2))
     else:
-        print(f"\nScanned {len(articles)} articles; {len(go_refs)} /go/ references against "
+        print(f"\nScanned {len(articles)} articles; {sum(len(collect_internal_links(a)) for a in articles)} internal links "
+              f"against {len(valid_routes)} routes; {len(go_refs)} /go/ references against "
               f"{len(go_table)} redirect entries; {len(all_urls)} distinct outbound URLs"
               + (" (not verified — --offline)" if args.offline else " verified") + ".\n")
         for entry in report:
@@ -252,16 +323,23 @@ def main():
             print(f"{f['check']}: {f['detail']}")
             for user in f["used_by"]:
                 print(f"    used by {user}")
+        for f in internal_report:
+            print(f"{f['check']}: {f['detail']}")
+            for user in f["used_by"]:
+                print(f"    used by {user}")
         if go_unused:
             print("info — /go/ entries defined but referenced nowhere: " + ", ".join(go_unused))
+        for link, users in sorted(scheduled_internal.items()):
+            print(f"info — internal link to a SCHEDULED article (resolves at publish): {link} "
+                  f"(from {', '.join(sorted(set(users)))})")
         for r in url_results:
             print(f"{r['check']}: {r['url']} ({r['detail']})")
             for user in r["used_by"]:
                 print(f"    used by {user}")
-        if not report and not go_report and not url_results:
+        if not report and not go_report and not internal_report and not url_results:
             print("No findings.")
 
-    sys.exit(1 if (report or go_report or url_results) else 0)
+    sys.exit(1 if (report or go_report or internal_report or url_results) else 0)
 
 
 if __name__ == "__main__":

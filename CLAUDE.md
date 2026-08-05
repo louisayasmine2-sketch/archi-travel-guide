@@ -69,7 +69,7 @@ Two read-only scanners live in the tools/ directory. Run them before and after a
 Both parse this repo's actual content stores — the A() object literals in frontend/src/data/articles.js and the JSON files in frontend/src/data/ — not a directory of markdown files. Invoke them with `python`, not `python3`, which is not on PATH on this machine.
 
 - audit_content.py — disclosure mismatches, banned hedge phrases, meta description length, missing FAQ schema, articles with no images.
-- check_links_and_images.py — every outbound URL for verification, every image reference checked against frontend/public/, any tracking or affiliate parameters found, and /go/ redirect integrity: every /go/{slug} referenced in content or frontend/src must have an entry in frontend/public/_redirects, and no destination may carry tracking parameters.
+- check_links_and_images.py — every outbound URL for verification, every image reference checked against frontend/public/, any tracking or affiliate parameters found, and /go/ redirect integrity: every /go/{slug} referenced in content or frontend/src must have an entry in frontend/public/_redirects, and no destination may carry tracking parameters. Internal links in article content are resolved against the real route map (router routes, articles, _redirects, sitemap); links to scheduled articles are informational, unknown paths are failures.
 
 Neither script may write to content. If either reports something, fix the content — never edit the script to silence a finding.
 
