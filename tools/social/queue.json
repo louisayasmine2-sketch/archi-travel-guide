@@ -121,7 +121,8 @@
     },
     {
       "id": "eur1980-as-a-day-trip-by-bus",
-      "status": "candidate",
+      "status": "used",
+      "usedIn": "2026-W33",
       "sourceStore": "articles.js",
       "sourceQuote": "**As a day trip by bus:** €19.80 each in return transport bought at the counter (fares checked 3 August 2026), so €39.60 for two, plus attraction tickets.",
       "checked": "3 August 2026",
@@ -265,7 +266,8 @@
     },
     {
       "id": "75-minutes-the-131r-bus-runs-about-75",
-      "status": "candidate",
+      "status": "used",
+      "usedIn": "2026-W33",
       "sourceStore": "florenceToSienaGuide.json",
       "sourceQuote": "The 131R bus runs about 75 minutes on the current summer timetable (checked 3 August 2026); the train is usually longer, roughly 1 hour 20 to 1 hour 45 depending on whether it is direct or changes at Empoli.",
       "checked": "3 August 2026",
