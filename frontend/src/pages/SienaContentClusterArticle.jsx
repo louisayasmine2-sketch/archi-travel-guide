@@ -7,6 +7,7 @@ import { canonical } from "@/lib/seo";
 import cluster from "@/data/sienaContentCluster.json";
 import NotFound from "./NotFound";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
+import ToolCue from "@/components/common/ToolCue";
 
 const PREVIEW_SCHEDULED_CONTENT =
   process.env.REACT_APP_SHOW_SCHEDULED_CONTENT === "true";
@@ -248,6 +249,8 @@ export default function SienaContentClusterArticle({ slug }) {
               </div>
             </section>
           )}
+
+          <ToolCue category={article.category} />
         </div>
 
         <aside className="order-3 hidden lg:col-span-2 lg:block">

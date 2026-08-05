@@ -13,6 +13,7 @@ const CUES = {
   Itineraries: { tool: "itinerary", name: "Itinerary Generator", line: "Generate your own day-by-day outline." },
   Packing: { tool: "packing", name: "Smart Packing List", line: "Build a season-matched checklist you can tick off." },
   "Practical tips": { tool: "trip-sheet", name: "My Trip Sheet", line: "Pull your whole plan into one printable page." },
+  "Siena Travel Guide": { tool: "itinerary", name: "Itinerary Generator", line: "Turn the highlights into a day-by-day plan." },
   "Things to do": { tool: "itinerary", name: "Itinerary Generator", line: "Turn the highlights into a day-by-day plan." },
   Transport: { tool: "transport", name: "Transport Comparator", line: "Pick the option that fits how you travel." },
   "Where to stay": { tool: "area-match", name: "Area Match", line: "Answer four questions, get the neighbourhood that fits." },

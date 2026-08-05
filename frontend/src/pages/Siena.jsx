@@ -6,7 +6,7 @@ import { breadcrumbSchema, placeSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import { articlesByRegion } from "@/data/articles";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
-import SienaPlanStrip from "@/components/siena/SienaPlanStrip";
+import PlanStrip from "@/components/common/PlanStrip";
 import KnowBeforeYouGo from "@/components/siena/KnowBeforeYouGo";
 import SienaMapPanel from "@/components/siena/SienaMapPanel";
 
@@ -92,7 +92,7 @@ export default function Siena() {
       </section>
 
       {/* My Trip-aware planning strip */}
-      <SienaPlanStrip />
+      <PlanStrip destination="Siena" />
 
       {/* Verified operational rules, surfaced from the itinerary tool's notes */}
       <KnowBeforeYouGo />
