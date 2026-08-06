@@ -5735,7 +5735,7 @@ So the marginal cost of the night is the room, €2 a head in tax, and — for d
       { q: 'How much more does staying overnight cost?', a: 'The room, plus €2 per person per night in tourist tax for a B&B or apartment, minus €10 of parking for drivers who switch from the €35 central day rate to the €25 hotel rate (July 2026 checks). Transport is unchanged: €19.80 return by bus as checked 3 August 2026.' },
       { q: 'Does the Palio change the decision?', a: 'Yes, in both directions. Around 2 July and 16 August rooms are at their most expensive and scarce, while crowds, opening hours and transport all change. For the race itself an overnight is close to essential; for seeing Siena as a city, pick a different week entirely.' },
     ],
-    '2026-08-13',
+    '2026-08-14',
     {
       seoTitle: 'Siena Day Trip or Overnight Stay? How to Decide (2026)',
       primaryKeyword: 'siena day trip or stay overnight',
@@ -5748,7 +5748,7 @@ So the marginal cost of the night is the room, €2 a head in tax, and — for d
       ],
       imageAlt: 'Panoramic view across Piazza del Campo in Siena',
       canonicalPath: '/blog/siena-day-trip-or-stay-overnight',
-      published: '2026-08-13',
+      published: '2026-08-14',
       tags: ['siena day trip', 'siena overnight', 'trip planning', 'siena timetable', 'tuscany decisions'],
       imageCredit: {
         author: 'Ricardo André Frantz (Tetraktys)',
