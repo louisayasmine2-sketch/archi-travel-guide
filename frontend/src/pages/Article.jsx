@@ -5,6 +5,7 @@ import FAQAccordion from "@/components/common/FAQAccordion";
 import ArticleCard from "@/components/common/ArticleCard";
 import LazyImage from "@/components/common/LazyImage";
 import SEO from "@/components/common/SEO";
+import ToolCue from "@/components/common/ToolCue";
 import { breadcrumbSchema, articleSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import { trackLeadSubmit } from "@/lib/analytics";
@@ -413,6 +414,8 @@ export default function Article({ fixedSlug, canonicalPath }) {
               are checked at least twice a year. <Link to="/editorial-policy" className="link-terra">Read more →</Link>
             </p>
           </div>
+          {/* Category-matched tool deep link */}
+          <ToolCue category={article.category} />
         </aside>
       </div>
 

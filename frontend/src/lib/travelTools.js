@@ -136,7 +136,7 @@ export const ITINERARY_DESTINATIONS = [
 // (pass validity confirmed; current price to be read off the official site);
 // Palio — Comune di Siena. Prices/dates are deliberately not hard-coded where
 // they could not be confirmed on a primary source this session.
-const OPERATIONAL_NOTES = [
+export const OPERATIONAL_NOTES = [
   {
     match: "Torre del Mangia",
     checked: "20 July 2026",

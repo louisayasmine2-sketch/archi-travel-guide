@@ -7,6 +7,8 @@ import SEO from "@/components/common/SEO";
 import { breadcrumbSchema, placeSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
+import PlanStrip from "@/components/common/PlanStrip";
+import MonthCue from "@/components/common/MonthCue";
 
 const HERO = "https://images.unsplash.com/photo-1503152394-c571994fd383?auto=format&fit=crop&w=2000&q=75";
 
@@ -84,6 +86,14 @@ export default function Tuscany() {
               Hilltowns, vineyards, slow food and long shadows. This is where Archi Travel Guide begins — with the region we know most intimately.
             </motion.p>
           </motion.div>
+        </div>
+      </section>
+
+      <PlanStrip destination="Tuscany" />
+
+      <section className="pb-2 bg-[#FAF7F2]">
+        <div className="max-w-7xl mx-auto px-6">
+          <MonthCue />
         </div>
       </section>
 

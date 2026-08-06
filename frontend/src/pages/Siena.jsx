@@ -6,6 +6,9 @@ import { breadcrumbSchema, placeSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import { articlesByRegion } from "@/data/articles";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
+import PlanStrip from "@/components/common/PlanStrip";
+import KnowBeforeYouGo from "@/components/siena/KnowBeforeYouGo";
+import SienaMapPanel from "@/components/siena/SienaMapPanel";
 
 const HERO = "https://images.unsplash.com/photo-1646319514161-8fba0ebc3275?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxzaWVuYSUyMGl0YWx5JTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc4MzAwNDQ4Nnww&ixlib=rb-4.1.0&q=85";
 
@@ -87,6 +90,15 @@ export default function Siena() {
           </motion.div>
         </div>
       </section>
+
+      {/* My Trip-aware planning strip */}
+      <PlanStrip destination="Siena" />
+
+      {/* Verified operational rules, surfaced from the itinerary tool's notes */}
+      <KnowBeforeYouGo />
+
+      {/* Fact-checked pins + current-month guide cue */}
+      <SienaMapPanel />
 
       <section className="py-24 bg-[#FAF7F2] relative z-30">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-16">

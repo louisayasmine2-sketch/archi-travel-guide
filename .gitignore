@@ -96,3 +96,6 @@ audit.csv
 external_links.csv
 image_report.csv
 content_audit.csv
+
+# social pipeline run logs
+tools/social/logs/

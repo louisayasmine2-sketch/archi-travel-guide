@@ -1,0 +1,11 @@
+{
+  "name": "archi-social-cards",
+  "private": true,
+  "description": "Self-contained fact-card generator. Not part of the site build.",
+  "scripts": {
+    "render": "node render.js"
+  },
+  "dependencies": {
+    "playwright": "1.62.1"
+  }
+}

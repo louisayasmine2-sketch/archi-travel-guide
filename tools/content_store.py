@@ -14,7 +14,20 @@ text reaches a scanner, so editor notes and quoted examples are never flagged:
 import json
 import re
 from dataclasses import dataclass, field
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+# articles.js publishes an entry once its `updated` date has passed in the
+# site's +07:00 timezone; A()'s default updated is 2025-11-10.
+SITE_TZ = timezone(timedelta(hours=7))
+DEFAULT_UPDATED = "2025-11-10"
+
+
+def _is_published(date_str):
+    try:
+        return datetime.strptime(date_str[:10], "%Y-%m-%d").replace(tzinfo=SITE_TZ) <= datetime.now(SITE_TZ)
+    except (ValueError, TypeError):
+        return True
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "frontend" / "src" / "data"
@@ -48,6 +61,8 @@ class Article:
     image_refs: list = field(default_factory=list)   # local /images/... paths
     external_image_srcs: list = field(default_factory=list)  # http(s) srcs used AS images
     urls: list = field(default_factory=list)         # outbound URLs (own site excluded)
+    route: str = None   # the article's own path (canonicalPath or /blog/{slug})
+    published: bool = True  # False when the entry is scheduled for the future
 
 
 def _host(url):
@@ -196,9 +211,13 @@ def load_articles_js():
         faq_strings = _string_literals(faqs_raw)
         text = "\n".join(body_strings + faq_strings)
         hero = _unquote(args[5])
+        canonical_m = re.search(r"canonicalPath:\s*['\"]([^'\"]+)['\"]", args[9] if len(args) > 9 else "")
+        updated = next((s for s in (_unquote(a) for a in args) if s and re.match(r"^\d{4}-\d{2}-\d{2}", s)), DEFAULT_UPDATED)
         art = Article(
             store="articles.js",
             ident=slug,
+            route=(canonical_m.group(1) if canonical_m else f"/blog/{slug}"),
+            published=_is_published(updated),
             title=_unquote(args[1]) or "",
             meta=_unquote(args[4]),
             text=text,
@@ -246,9 +265,12 @@ def _article_from_json(store, ident, node):
     inline_ext = [
         m.group(1) for m in re.finditer(r"<img[^>]*\bsrc=[\"'](https?://[^\"']+)", text, re.IGNORECASE)
     ]
+    publish_at = node.get("publishAtWib") or node.get("datePublished")
     return Article(
         store=store,
         ident=ident,
+        route=node.get("canonicalPath") or node.get("route"),
+        published=_is_published(publish_at) if publish_at else True,
         title=node.get("title", ""),
         meta=node.get("metaDescription"),
         text=text,

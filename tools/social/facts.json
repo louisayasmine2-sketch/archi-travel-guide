@@ -1,0 +1,109 @@
+{
+  "site": {
+    "name": "Archi Travel Guide",
+    "url": "affittacameregliarchi.com",
+    "baseUrl": "https://affittacameregliarchi.com",
+    "tagline": "Every number dated & checked against official sources",
+    "utm": "utm_medium=social&utm_campaign=factcards"
+  },
+  "facts": [
+    {
+      "id": "131r-fare-rise",
+      "day": 1,
+      "date": "2026-08-05",
+      "weekday": "Wednesday",
+      "checked": "3 August 2026",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "€9.90 bought at a ticket counter or in the operator's app; €16.00 bought on board from the driver. Those figures are higher than the €8.40 and €13.00 we verified on 22 July 2026.",
+      "targetPath": "/florence-to-siena-by-train-or-bus",
+      "hook": "The Florence–Siena bus fare just went up.",
+      "figure": "€9.90",
+      "figureLabel": "one-way at the counter or in the app — up from €8.40",
+      "detail": "Buy on board from the driver and the same journey costs €16.00. The operator's fare tables changed between our July and August checks."
+    },
+    {
+      "id": "sunday-timetable",
+      "day": 4,
+      "date": "2026-08-08",
+      "weekday": "Saturday",
+      "checked": "3 August 2026",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "After the 09:10 from Firenze Autostazione there is no 131R until 14:10. On Sundays and public holidays there are only eight departures all day and the last leaves at 19:10. Summer timetable valid from 27 July 2026.",
+      "targetPath": "/blog/florence-to-siena-transport",
+      "hook": "Planning a Sunday day trip to Siena?",
+      "figure": "09:10",
+      "figureLabel": "after this bus, nothing to Siena until 14:10",
+      "detail": "Only eight 131R departures back on Sundays — the last leaves Siena at 19:10, against 20:45 on weekdays."
+    },
+    {
+      "id": "bus-vs-train-arrival",
+      "day": 3,
+      "date": "2026-08-07",
+      "weekday": "Friday",
+      "checked": "11 July 2026",
+      "sourceStore": "florenceToSienaGuide.json",
+      "sourceQuote": "The 131R bus stops beside Siena's old town at Via Tozzi/Piazza Gramsci, while the railway station sits about 2 km below the hill.",
+      "targetPath": "/florence-to-siena-by-train-or-bus",
+      "hook": "Bus and train don't arrive in the same Siena.",
+      "figure": "~2 km",
+      "figureLabel": "the railway station sits this far below the hilltop old town",
+      "detail": "The 131R bus stops beside the centre at Via Tozzi / Piazza Gramsci. For a Piazza del Campo day trip, that decides it."
+    },
+    {
+      "id": "parking-free-vs-35",
+      "day": 5,
+      "date": "2026-08-09",
+      "weekday": "Sunday",
+      "checked": "22 July 2026",
+      "sourceStore": "articles.js (siena-parking-and-transfer-guide)",
+      "sourceQuote": "Il Campino, along Viale Vittorio Veneto directly below the Fortezza Medicea, is the most used free area in Siena. About a ten-minute walk to Piazza del Campo. Central car parks (Il Campo, Il Duomo, Santa Caterina, San Francesco): €35 continuous daily rate. Rates checked against Si.Ge.Ri.Co. and Visit Siena on 22 July 2026.",
+      "targetPath": "/blog/siena-parking-and-transfer-guide",
+      "hook": "Parking in Siena: €0 or €35 a day.",
+      "figure": "€35",
+      "figureLabel": "daily rate at the central car parks",
+      "detail": "Il Campino, below the Fortezza Medicea, is free — about ten minutes' walk to Piazza del Campo. Free spaces fill early in high season."
+    },
+    {
+      "id": "airport-cheapest-route",
+      "day": 2,
+      "date": "2026-08-06",
+      "weekday": "Thursday",
+      "checked": "3 August 2026",
+      "sourceStore": "articles.js (siena-from-florence-airport-transfer)",
+      "sourceQuote": "The cheapest reliable route is the tram plus the 131R bus, and it costs about €11.90 if you buy both tickets at machines or online rather than from a driver — both fares checked 3 August 2026.",
+      "targetPath": "/blog/siena-from-florence-airport-transfer",
+      "hook": "Florence Airport to Siena, without a taxi.",
+      "figure": "€11.90",
+      "figureLabel": "tram T2 into Florence (€2.00) + 131R bus to Siena (€9.90)",
+      "detail": "The cheapest reliable route. Buy at machines or online — from the driver, the bus leg alone is €16.00."
+    },
+    {
+      "id": "tourist-tax",
+      "day": 6,
+      "date": "2026-08-10",
+      "weekday": "Monday",
+      "checked": "23 July 2026",
+      "sourceStore": "articles.js (siena-travel-cost-2026)",
+      "sourceQuote": "Tourist tax of €2.00 per person per night in a B&B, apartment or short let, or €1.00 in a hostel or campsite. Figures published by the Comune di Siena. Checked on 23 July 2026.",
+      "targetPath": "/blog/siena-travel-cost-2026",
+      "hook": "Siena's tourist tax, in one line.",
+      "figure": "€2.00",
+      "figureLabel": "per person, per night — B&Bs, apartments and short lets",
+      "detail": "€1.00 in hostels and campsites. Set by the Comune di Siena, on top of the displayed room price."
+    },
+    {
+      "id": "torre-del-mangia-same-day",
+      "day": 7,
+      "date": "2026-08-11",
+      "weekday": "Tuesday",
+      "checked": "11 July 2026",
+      "sourceStore": "sienaContentCluster.json (torre-del-mangia-guide)",
+      "sourceQuote": "The official Museo Civico page states that tickets including the tower are not reservable. Tickets that include the tower are sold for the same day; places are limited. Morning offers the best chance of securing a same-day place. FACT CHECKED: 11 July 2026.",
+      "targetPath": "/torre-del-mangia-guide",
+      "hook": "You cannot book Torre del Mangia in advance.",
+      "figure": "Same-day",
+      "figureLabel": "tower tickets are sold on the day only — not reservable",
+      "detail": "Places are limited and the tower can close in bad weather. Morning offers the best chance of a slot."
+    }
+  ]
+}
