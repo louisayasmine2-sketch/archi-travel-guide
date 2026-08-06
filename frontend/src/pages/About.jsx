@@ -31,7 +31,8 @@ export default function About() {
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
-          className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1518398046578-8cca57782e17?auto=format&fit=crop&w=2000&q=80')] bg-cover bg-center opacity-20"
+          className="absolute inset-0 bg-cover bg-center opacity-20"
+          style={{ backgroundImage: "url('/images/siena/05-piazza-del-campo-panorama.webp')" }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-[#2C211B] z-10"></div>
         

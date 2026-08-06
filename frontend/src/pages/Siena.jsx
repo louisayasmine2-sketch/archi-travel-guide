@@ -10,7 +10,7 @@ import PlanStrip from "@/components/common/PlanStrip";
 import KnowBeforeYouGo from "@/components/siena/KnowBeforeYouGo";
 import SienaMapPanel from "@/components/siena/SienaMapPanel";
 
-const HERO = "https://images.unsplash.com/photo-1646319514161-8fba0ebc3275?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxzaWVuYSUyMGl0YWx5JTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc4MzAwNDQ4Nnww&ixlib=rb-4.1.0&q=85";
+const HERO = "/images/siena/08-siena-cityscape.webp";
 
 const chapters = [
   { title: "Things to do", to: "/blog/best-things-to-do-in-siena/", blurb: "Piazza del Campo, Duomo, Torre del Mangia — and what to skip on a short trip." },
@@ -29,7 +29,7 @@ export default function Siena() {
     placeSchema({
       name: "Siena",
       description: "Medieval Tuscan city known for Piazza del Campo, the Palio, Gothic streets, and slow travel planning.",
-      image: HERO,
+      image: canonical(HERO),
       url: canonical("/siena/"),
       region: "Tuscany",
       country: "Italy",
@@ -53,7 +53,7 @@ export default function Siena() {
         title="Siena Travel Guide — Things to do, where to stay, itineraries, family & budget"
         description="The Archi Siena guide: what to do first, where to stay in each terzo, 1–3 day itineraries, family and budget travel, and how to arrive from Florence."
         path="/siena/"
-        image={HERO}
+        image={canonical(HERO)}
         schema={schema}
       />
       

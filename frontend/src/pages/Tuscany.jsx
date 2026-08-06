@@ -10,7 +10,7 @@ import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 import PlanStrip from "@/components/common/PlanStrip";
 import MonthCue from "@/components/common/MonthCue";
 
-const HERO = "https://images.unsplash.com/photo-1503152394-c571994fd383?auto=format&fit=crop&w=2000&q=75";
+const HERO = "/images/tuscany/chianti-wine-road-vineyard.webp";
 
 const sections = [
   { title: "Itineraries", to: "/blog/?region=Tuscany&cat=itineraries", body: "Two- and three-day plans for Siena, plus longer routes through Val d’Orcia and Chianti." },
@@ -28,7 +28,7 @@ export default function Tuscany() {
     placeSchema({
       name: "Tuscany",
       description: "Italian region known for Siena, Florence, hilltowns, vineyards, food routes, and slow countryside itineraries.",
-      image: HERO,
+      image: canonical(HERO),
       url: canonical("/tuscany-travel-guide/"),
       country: "Italy",
       touristType: ["Cultural travelers", "Food travelers", "Road trip planners", "Couples"],
@@ -51,7 +51,7 @@ export default function Tuscany() {
         title="Tuscany Travel Guide — Itineraries, food, transport, best time to visit"
         description="Practical Tuscany travel guide from Archi: hilltowns, vineyards, itineraries, food, transport and the best time to visit. Deep coverage starts with Siena."
         path="/tuscany-travel-guide/"
-        image={HERO}
+        image={canonical(HERO)}
         schema={schema}
       />
       
@@ -63,7 +63,7 @@ export default function Tuscany() {
           transition={{ duration: 25, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
           className="absolute inset-0 w-full h-full"
         >
-          <img src={HERO} alt="Tuscany cypress road" loading="eager" className="w-full h-full object-cover opacity-80" />
+          <img src={HERO} alt="Chianti wine road through vineyard hills" loading="eager" className="w-full h-full object-cover opacity-80" />
         </motion.div>
         
         <div className="absolute inset-0 bg-gradient-to-t from-[#2C211B] via-black/40 to-transparent z-10 pointer-events-none"></div>
@@ -133,7 +133,7 @@ export default function Tuscany() {
           <aside className="lg:col-span-4 space-y-10">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp} className="rounded-[2rem] border border-[#F5EDE3] bg-white overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-500 sticky top-32 group">
               <div className="aspect-[4/3] overflow-hidden relative">
-                <LazyImage src="https://images.unsplash.com/photo-1516815231560-8f41ec531527?auto=format&fit=crop&w=1200&q=75" alt="Val d'Orcia" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
+                <LazyImage src="/images/tuscany/val-dorcia-cypress-trees-landscape.jpg" alt="Val d'Orcia cypress road at sunset" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
                 <div className="absolute top-4 right-4 z-10"><AIRecommendedBadge /></div>
               </div>
               <div className="p-8">

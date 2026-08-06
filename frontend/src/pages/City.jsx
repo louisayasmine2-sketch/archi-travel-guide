@@ -34,7 +34,7 @@ export default function City({ slug: slugProp }) {
 
   const schemas = [
     breadcrumbSchema(crumbs),
-    placeSchema({ name: city.name, description: city.metaDescription, image: city.hero, url, region: city.region }),
+    placeSchema({ name: city.name, description: city.metaDescription, image: canonical(city.hero), url, region: city.region }),
     faqSchema(city.faqs),
   ];
 
@@ -49,7 +49,7 @@ export default function City({ slug: slugProp }) {
         title={city.metaTitle}
         description={city.metaDescription}
         path={path}
-        image={city.hero}
+        image={canonical(city.hero)}
         schema={schemas}
       />
 

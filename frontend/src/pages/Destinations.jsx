@@ -44,7 +44,7 @@ export default function Destinations() {
       
       {/* 4D Parallax Header */}
       <section className="relative py-32 bg-[#2C211B] text-white overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1552832230-c0197dd311b5?q=80&w=1920&auto=format&fit=crop')] bg-cover bg-center opacity-20"></div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: "url('/images/siena/08-siena-cityscape.webp')" }}></div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-[#2C211B] z-10"></div>
         
         <div className="max-w-7xl mx-auto px-6 relative z-20 text-center">

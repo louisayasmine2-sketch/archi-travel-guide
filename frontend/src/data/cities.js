@@ -12,7 +12,7 @@ export const cities = {
     tagline: 'Renaissance capital, walkable centre',
     metaTitle: 'Florence Travel Guide — What to see, where to stay, when to go',
     metaDescription: 'A practical Florence travel guide: what to prioritise on a first visit, the best area to stay, honest itinerary lengths, transport tips, and realistic costs.',
-    hero: 'https://images.unsplash.com/photo-1534445867742-43195f401b6c?auto=format&fit=crop&w=2000&q=75',
+    hero: '/images/tuscany/florence-piazzale-michelangelo-sunset.jpg',
     overview:
       'Florence is dense. Its historic core fits inside a walk of about 40 minutes, and the great sights — the Duomo, the Uffizi, the Ponte Vecchio — sit almost on top of each other. That density is a gift and a warning: two days is enough to see the icons, but you will not truly know the city on a two-day trip.',
     overview2:
