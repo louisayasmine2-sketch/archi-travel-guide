@@ -28,6 +28,13 @@ Checks:
                              failure; url_error means the URL could not be
                              verified from this machine (DNS, TLS, proxy) and
                              must be re-checked, not assumed fine.
+  component_hotlinked_image — an external image URL in a page component,
+                             shared component, or data file under
+                             frontend/src (the content stores only cover
+                             article bodies; 18 Unsplash hotlinks shipped in
+                             components before this check existed)
+  component_image_missing  — a /images/... reference in frontend/src with no
+                             file under frontend/public/
 
 /go/ entries defined but referenced nowhere are listed informationally — a
 dead entry is not broken, but it is worth knowing about. Internal links whose
@@ -70,6 +77,24 @@ COMMERCIAL_HOSTS = (
 )
 
 BANNED_IMAGE_HOSTS = ("pbs.twimg.com",)
+
+IMAGE_EXTS = (".jpg", ".jpeg", ".png", ".webp", ".avif", ".gif", ".svg")
+
+# Hosts that only ever serve image files, so a URL pointing at them is an
+# image load even when the path carries no file extension (Unsplash-style).
+IMAGE_CDN_HOSTS = (
+    "images.unsplash.com", "pbs.twimg.com", "upload.wikimedia.org",
+    "cf.bstatic.com", "a0.muscache.com", "images.trvl-media.com",
+)
+
+# Attribution/credit PAGES about an image — links to these are citations,
+# not image loads, even though some paths end in .jpg (commons File: pages).
+CREDIT_PAGE_HOSTS = ("commons.wikimedia.org", "unsplash.com", "creativecommons.org")
+
+# Deliberate exceptions: Leaflet map tiles are fetched from the OSM tile
+# service by design (attribution rendered on the map); they are not content
+# images and cannot be self-hosted.
+ALLOWED_EXTERNAL_IMAGE_HOSTS = ("tile.openstreetmap.org",)
 
 TIMEOUT = 20
 USER_AGENT = "Mozilla/5.0 (compatible; ArchiContentAudit/1.0; +https://affittacameregliarchi.com)"
@@ -192,6 +217,64 @@ def collect_go_refs(articles):
     return refs
 
 
+STRING_LIT = re.compile(r"""["'`]([^"'`\n]+)["'`]|url\(\s*([^)"'\s]+)\s*\)""")
+# articles.js is a content store: its bodies (including commons credit links)
+# are already parsed and checked article-by-article via content_store.
+COMPONENT_SCAN_EXCLUDE = {SRC_DIR / "data" / "articles.js"}
+
+
+def _is_image_load(url):
+    host = _host(url)
+    if any(host == h or host.endswith("." + h) for h in ALLOWED_EXTERNAL_IMAGE_HOSTS):
+        return False
+    # CDN hosts before credit pages: images.unsplash.com is a load host even
+    # though unsplash.com itself only serves credit pages.
+    if any(host == h or host.endswith("." + h) for h in IMAGE_CDN_HOSTS):
+        return True
+    if any(host == h or host.endswith("." + h) for h in CREDIT_PAGE_HOSTS):
+        return False
+    path = urllib.parse.urlsplit(url).path.lower()
+    return path.endswith(IMAGE_EXTS)
+
+
+def scan_component_images():
+    """Image references in frontend/src outside the content stores: external
+    image loads are hotlinks; local /images/... paths must exist on disk."""
+    findings = []
+    for path in sorted(SRC_DIR.rglob("*")):
+        if path.suffix not in (".js", ".jsx", ".css", ".json") or not path.is_file():
+            continue
+        if path in COMPONENT_SCAN_EXCLUDE:
+            continue
+        try:
+            text = path.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        rel_file = str(path.relative_to(REPO_ROOT))
+        seen = set()
+        for m in STRING_LIT.finditer(text):
+            s = (m.group(1) or m.group(2) or "").strip()
+            if not s or s in seen or s.startswith("data:"):
+                continue
+            seen.add(s)
+            if s.startswith(("http://", "https://")):
+                if _is_image_load(s):
+                    findings.append({
+                        "check": "component_hotlinked_image",
+                        "detail": s,
+                        "used_by": [rel_file],
+                    })
+            elif s.startswith("/images/"):
+                rel = urllib.parse.unquote(s.split("?")[0].split("#")[0]).lstrip("/")
+                if not (PUBLIC_DIR / rel).is_file():
+                    findings.append({
+                        "check": "component_image_missing",
+                        "detail": s,
+                        "used_by": [rel_file],
+                    })
+    return findings
+
+
 def tracking_params_in(url):
     query = urllib.parse.urlsplit(url).query
     params = [k for k, _ in urllib.parse.parse_qsl(query, keep_blank_values=True)]
@@ -284,6 +367,8 @@ def main():
         for link, users in sorted(broken_internal.items())
     ]
 
+    component_report = scan_component_images()
+
     url_results = []
     if not args.offline:
         ctx = _ssl_context()
@@ -306,6 +391,7 @@ def main():
             "go_findings": go_report,
             "go_unused": go_unused,
             "internal_findings": internal_report,
+            "component_findings": component_report,
             "internal_scheduled": {k: sorted(set(v)) for k, v in scheduled_internal.items()},
             "url_failures": url_results,
         }, indent=2))
@@ -327,6 +413,10 @@ def main():
             print(f"{f['check']}: {f['detail']}")
             for user in f["used_by"]:
                 print(f"    used by {user}")
+        for f in component_report:
+            print(f"{f['check']}: {f['detail']}")
+            for user in f["used_by"]:
+                print(f"    used by {user}")
         if go_unused:
             print("info — /go/ entries defined but referenced nowhere: " + ", ".join(go_unused))
         for link, users in sorted(scheduled_internal.items()):
@@ -336,10 +426,10 @@ def main():
             print(f"{r['check']}: {r['url']} ({r['detail']})")
             for user in r["used_by"]:
                 print(f"    used by {user}")
-        if not report and not go_report and not internal_report and not url_results:
+        if not report and not go_report and not internal_report and not component_report and not url_results:
             print("No findings.")
 
-    sys.exit(1 if (report or go_report or internal_report or url_results) else 0)
+    sys.exit(1 if (report or go_report or internal_report or component_report or url_results) else 0)
 
 
 if __name__ == "__main__":
