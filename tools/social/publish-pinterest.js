@@ -17,8 +17,8 @@
 //                             [--sandbox|--production] [--week 2026-W33]
 //                             [--package day3-…] [--state <path>]
 //
-// Exit codes: 0 published, or nothing due, or already published (all success);
-//             1 failure.
+// Exit codes: 0 published, nothing due, already published, or waiting for
+//             credentials (all success); 1 failure.
 
 const fs = require('fs');
 const os = require('os');
@@ -29,6 +29,7 @@ const {
   readEnv,
   resolveEnvName,
   assertEnvAllowed,
+  envKey,
   getAccessToken,
   ensureBoard,
   api,
@@ -214,6 +215,21 @@ async function main() {
   assertEnvAllowed(envName, env);
 
   log(`pinterest publish — date ${date} (WIB), environment ${envName}${DRY_RUN ? ', DRY RUN' : ''}`);
+
+  // Credentials not installed yet is a waiting state, not a failure: exit 0 on
+  // one line so the runner stays quiet. A dry run needs no token and proceeds.
+  // Once a token exists, any API error is a real failure and exits 1 as usual.
+  const hasCredentials = Boolean(
+    env[envKey('PINTEREST_ACCESS_TOKEN', envName)] || env[envKey('PINTEREST_REFRESH_TOKEN', envName)]
+  );
+  if (!DRY_RUN && !hasCredentials) {
+    log(
+      `waiting for credentials: no ${envKey('PINTEREST_ACCESS_TOKEN', envName)} or ` +
+        `${envKey('PINTEREST_REFRESH_TOKEN', envName)} in tools/social/.env — no-op ` +
+        `(install with: node pinterest-auth.js${envName === 'sandbox' ? ' --sandbox' : ''})`
+    );
+    return 0;
+  }
 
   fetchMain();
 

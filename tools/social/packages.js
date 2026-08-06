@@ -21,6 +21,32 @@ const PLATFORMS = ['instagram', 'facebook', 'pinterest'];
 const link = (fact, platform) =>
   `${data.site.baseUrl}${fact.targetPath}?utm_source=${platform}&${data.site.utm}`;
 
+// Alt text is read aloud by screen readers exactly as written, so no markdown
+// token may survive into alt-text.txt. Pinterest caps alt_text at 500 chars;
+// over-length copy is an editorial problem — refuse rather than truncate.
+const ALT_TEXT_LIMIT = 500;
+
+function plainAltText(id, text) {
+  const plain = String(text)
+    .replace(/!\[([^\]]*)\]\([^)]*\)/g, '$1') // images → their alt
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1') // links → their label
+    .replace(/(\*\*|__)([\s\S]*?)\1/g, '$2') // bold
+    .replace(/(^|[\s(])[*_]([^*_\n]+)[*_](?=$|[\s).,;:!?])/gm, '$1$2') // italics
+    .replace(/`+([^`]*)`+/g, '$1') // inline code
+    .replace(/^\s{0,3}#{1,6}\s+/gm, '') // headings
+    .replace(/^\s{0,3}>\s?/gm, '') // blockquotes
+    .replace(/^\s*(?:[-*+]|\d+[.)])\s+/gm, '') // list markers
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (plain.length > ALT_TEXT_LIMIT) {
+    throw new Error(
+      `${id}: alt text is ${plain.length} characters after markdown cleanup, ` +
+        `over Pinterest's ${ALT_TEXT_LIMIT} limit — shorten the copy, do not truncate it`
+    );
+  }
+  return plain;
+}
+
 const COPY = {
   '131r-fare-rise': {
     caption: `The Florence–Siena bus fare just went up.
@@ -131,7 +157,7 @@ ${copy.hashtags.join(' ')}
 ${PLATFORMS.map((p) => `- ${p}: ${link(fact, p)}`).join('\n')}
 `);
 
-    fs.writeFileSync(path.join(dir, 'alt-text.txt'), copy.alt + '\n');
+    fs.writeFileSync(path.join(dir, 'alt-text.txt'), plainAltText(fact.id, copy.alt) + '\n');
 
     fs.writeFileSync(path.join(dir, 'pinterest.md'), `# Pinterest — ${fact.id}
 

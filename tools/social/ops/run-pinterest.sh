@@ -2,6 +2,8 @@
 # Daily Pinterest publish: 07:00 WIB. Pins today's card from the batch that is
 # already merged to main. Reads everything from origin/main, so an unmerged
 # batch is invisible to it; a day with no card is a logged no-op, not an error.
+# Credentials not yet installed in .env is also a no-op, with a Telegram
+# reminder at most once every 3 days — ❌ stays reserved for real failures.
 #
 # Usage: run-pinterest.sh [--dry-run] [--date YYYY-MM-DD] [extra publisher flags]
 
@@ -43,9 +45,36 @@ fi
 # `set -e` would otherwise fire the failure trap on a successful run.
 SUMMARY=$(grep -E '^(\[SANDBOX\] )?(published|already published|nothing scheduled)' "$OUTPUT_FILE" | tail -1 || true)
 PIN_LINE=$(grep -E '^created pin ' "$OUTPUT_FILE" | tail -1 || true)
+WAITING=$(grep -E '^waiting for credentials' "$OUTPUT_FILE" | tail -1 || true)
 DRY=false
 for a in "$@"; do [ "$a" = "--dry-run" ] && DRY=true; done
 rm -f "$OUTPUT_FILE"
+
+# Credentials not installed is a waiting state, not a failure: the daily run is
+# a quiet no-op, and Telegram carries at most one reminder every 3 days so the
+# alarm channel stays reserved for real failures.
+if [ -n "$WAITING" ]; then
+  log "waiting for credentials — quiet no-op (${WAITING})"
+  CRED_REMINDER="$LOG_DIR/.pinterest-cred-reminder"
+  if [ ! -f "$CRED_REMINDER" ] || [ -n "$(find "$CRED_REMINDER" -mmin +4320 2>/dev/null)" ]; then
+    AUTH_FLAG=""
+    [ "$PIN_ENV" = "sandbox" ] && AUTH_FLAG=" --sandbox"
+    if telegram_send "⏳ ${RUN_NAME}
+
+Publisher menunggu kredensial Pinterest — tools/social/.env belum berisi token untuk environment ${PIN_ENV}.
+Pasang dengan: node tools/social/pinterest-auth.js${AUTH_FLAG}
+
+Pengingat ini maksimal 1× per 3 hari; run harian lainnya no-op senyap."; then
+      touch "$CRED_REMINDER"
+    else
+      log "credential reminder not sent — will retry on a later run"
+    fi
+  else
+    log "credential reminder throttled (last sent under 3 days ago)"
+  fi
+  log "=== done ==="
+  exit 0
+fi
 
 case "$SUMMARY" in
   nothing*|already*)
