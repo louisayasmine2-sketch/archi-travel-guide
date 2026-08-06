@@ -280,6 +280,38 @@
       "sourceQuote": "Check the exact date and choose a direct option when simplicity matters.\" }, { \"question\": \"How long does Florence to Siena take?\", \"answer\": \"The 131R bus runs about 75 minutes on the current summer timetable (checked 3 August 2026); the train is usually longer, roughly 1 hour 20 to 1 hour 45 depending on whether it is direct or changes at Empoli.",
       "checked": "3 August 2026",
       "figureHint": "75 minutes"
+    },
+    {
+      "id": "1000-monday-10-august-the-tower-opens",
+      "status": "candidate",
+      "sourceStore": "sienaContentCluster.json",
+      "sourceQuote": "Monday 10 August the tower opens 10:00–18:30 with the ticket office closing at 17:45, and Tuesday 11 and Wednesday 12 August it opens 10:00–19:00 with the ticket office closing at 18:15, as checked on 6 August 2026.",
+      "checked": "6 August 2026",
+      "figureHint": "10:00"
+    },
+    {
+      "id": "1400-torre-del-mangia-is-closed-all",
+      "status": "candidate",
+      "sourceStore": "sienaContentCluster.json",
+      "sourceQuote": "Torre del Mangia is closed all day on Thursday 13 August, and the Museo Civico opens only from 14:00 to 16:30 that day, with its ticket office closing at 15:45, as checked on 6 August 2026.",
+      "checked": "6 August 2026",
+      "figureHint": "14:00"
+    },
+    {
+      "id": "1000-the-tower-then-opens-1000-1530",
+      "status": "candidate",
+      "sourceStore": "sienaContentCluster.json",
+      "sourceQuote": "The tower then opens 10:00–15:30 on Friday 14 August, ticket office 14:45, and 10:00–14:30 on Ferragosto, Saturday 15 August, ticket office 13:45, as checked on 6 August 2026.",
+      "checked": "6 August 2026",
+      "figureHint": "10:00"
+    },
+    {
+      "id": "1000-on-race-day-sunday-16-august",
+      "status": "candidate",
+      "sourceStore": "sienaContentCluster.json",
+      "sourceQuote": "On race day, Sunday 16 August 2026, Torre del Mangia opens 10:00–13:00 with the ticket office closing at 12:15, and the Museo Civico is closed all day, as checked on 6 August 2026.",
+      "checked": "6 August 2026",
+      "figureHint": "10:00"
     }
   ]
 }
