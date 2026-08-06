@@ -5,7 +5,7 @@ import { MapPin, Calendar, Users, Search, ArrowRight, Star, Coffee } from "lucid
 export default function HotelWidget({ 
   destination = "Siena", 
   subtitle = "Find the best boutique hotels, B&Bs, and vacation rentals.",
-  imageUrl = "https://images.unsplash.com/photo-1560347876-aeef00ee58a1?auto=format&fit=crop&w=800&q=80",
+  imageUrl = "/images/siena/hotel-room-warm-lamp-generic.webp",
   searchLink = "/go/booking-search?ss="
 }) {
   const handleSearch = (e) => {

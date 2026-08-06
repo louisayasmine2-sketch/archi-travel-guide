@@ -8,7 +8,7 @@ export const destinations = [
     region: 'Europe',
     tagline: 'Where the first editorial pillar lives',
     blurb: 'Rome to Venice, Tuscan hilltowns to the Amalfi coast — practical planning for every kind of traveler.',
-    image: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=75',
+    image: '/images/italy/budget-italy-itinerary-florence-rome-venice-hero.webp',
     featured: true,
   },
   {
@@ -17,7 +17,7 @@ export const destinations = [
     region: 'Italy',
     tagline: 'Rolling hills, medieval towns, slow food',
     blurb: 'Vineyards, Val d’Orcia road trips and hilltown itineraries designed to slow down without missing much.',
-    image: 'https://images.unsplash.com/photo-1761995912965-8f134652fc6e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHx0dXNjYW55JTIwcm9sbGluZyUyMGhpbGxzJTIwc3VucmlzZXxlbnwwfHx8fDE3ODMwMDQ0ODZ8MA&ixlib=rb-4.1.0&q=85',
+    image: '/images/tuscany/san-gimignano-medieval-towers.webp',
     featured: true,
   },
   {
@@ -26,15 +26,15 @@ export const destinations = [
     region: 'Tuscany',
     tagline: 'Medieval heart of Tuscany',
     blurb: 'Piazza del Campo, Contrada traditions and a two-day plan that fits families, couples and solo travelers.',
-    image: 'https://images.unsplash.com/photo-1646319514161-8fba0ebc3275?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxzaWVuYSUyMGl0YWx5JTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc4MzAwNDQ4Nnww&ixlib=rb-4.1.0&q=85',
+    image: '/images/siena/08-siena-cityscape.webp',
     featured: true,
   },
 ];
 
 export const italyRegions = [
-  { slug: 'tuscany', name: 'Tuscany', blurb: 'Countryside, wine and medieval hilltowns.', image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=75' },
-  { slug: 'siena', name: 'Siena', blurb: 'The medieval heart of Tuscany.', image: 'https://images.unsplash.com/photo-1646319514161-8fba0ebc3275?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxzaWVuYSUyMGl0YWx5JTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc4MzAwNDQ4Nnww&ixlib=rb-4.1.0&q=85' },
-  { slug: 'florence', name: 'Florence', blurb: 'Renaissance capital, walkable centre.', image: 'https://images.unsplash.com/photo-1534445867742-43195f401b6c?auto=format&fit=crop&w=1200&q=75' },
+  { slug: 'tuscany', name: 'Tuscany', blurb: 'Countryside, wine and medieval hilltowns.', image: '/images/tuscany/chianti-wine-road-vineyard.webp' },
+  { slug: 'siena', name: 'Siena', blurb: 'The medieval heart of Tuscany.', image: '/images/siena/08-siena-cityscape.webp' },
+  { slug: 'florence', name: 'Florence', blurb: 'Renaissance capital, walkable centre.', image: '/images/tuscany/florence-piazzale-michelangelo-sunset.jpg' },
 ];
 
 export const travelTools = [
