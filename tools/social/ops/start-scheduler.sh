@@ -15,6 +15,9 @@ fi
 [ -x "$BIN" ] || { echo "supercronic not installed — run ops/install-scheduler.sh" >&2; exit 1; }
 
 mkdir -p "$(dirname "$LOG")"
-nohup "$BIN" "$SCRIPT_DIR/crontab" >>"$LOG" 2>&1 &
+# -inotify: supercronic reads the crontab once at start, so without it a merge
+# that adds or changes a schedule line does nothing until someone restarts the
+# scheduler by hand. With it, the file is watched and reloaded in place.
+nohup "$BIN" -inotify "$SCRIPT_DIR/crontab" >>"$LOG" 2>&1 &
 echo $! > "$PIDFILE"
 echo "supercronic started (pid $(cat "$PIDFILE")), schedule: $SCRIPT_DIR/crontab"

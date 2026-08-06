@@ -32,6 +32,11 @@ this environment can host. The trade-offs and mitigations:
 - No catch-up runs after downtime: a missed Sunday slot means running
   `run-weekly.sh` by hand (it is idempotent — it exits if the week's branch
   already exists on origin).
+- **Schedule changes need a reload.** supercronic reads `crontab` once at
+  start. `start-scheduler.sh` now passes `-inotify`, so an edited or newly
+  merged crontab reloads in place — but an instance started before that change
+  has to be restarted once for the flag to take effect:
+  `kill "$(cat /tmp/supercronic.pid)" && ops/start-scheduler.sh`.
 
 ## Runner guarantees
 
