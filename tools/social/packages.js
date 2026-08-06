@@ -179,6 +179,30 @@ ${data.weekNotes ? data.weekNotes.map((n) => `- ${n}`).join('\n') : `- **Day 4 (
 - To regenerate everything: \`cd tools/social && npm install &&\`
   \`npx playwright install chromium && node render.js && node packages.js\`.
 
+## Pinterest: scheduling by hand until the API is approved
+
+The API publisher (\`tools/social/publish-pinterest.js\`, 07:00 WIB) can only
+post to the sandbox while the app is on Trial access, so Pinterest is posted by
+hand in the meantime. Pinterest's own scheduler covers a whole batch: its help
+pages state you can schedule a Pin up to 30 days in advance, one Pin at a time,
+with up to 10 Pins scheduled for the future (checked 6 August 2026) — enough for
+a seven-day batch in one sitting:
+
+1. Open Pinterest on the web, signed in to the business account, and click
+   **Create → Create Pin**.
+2. Upload \`card-pin-1000x1500.png\` from the day's package folder.
+3. Paste **Title** and **Description** from that folder's \`pinterest.md\`,
+   verbatim — the description carries the check date, which is the whole point
+   of the card.
+4. Paste the **Destination link** from the same file. It already carries
+   \`utm_source=pinterest\`; do not swap in the plain article URL.
+5. Add the alt text from \`alt-text.txt\` (Pinterest calls it "Alt text" under
+   the image).
+6. Choose the board, then **Publish at a later date** and set the date from the
+   table above, morning local time.
+7. Repeat for each day. Scheduled Pins show up on your profile — Pinterest
+   notes it can take a few minutes for them to appear.
+
 ## Target articles and check dates
 
 ${facts.map((f) => `- **day${f.day}-${f.id}** → ${data.site.baseUrl}${f.targetPath} (figures checked ${f.checked})`).join('\n')}

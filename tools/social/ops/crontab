@@ -1,4 +1,7 @@
 # Social pipeline schedule — run by supercronic (system TZ = Asia/Jakarta = WIB).
 # Weekly batch: Sunday 20:00 WIB. Daily promo check: 06:30 WIB.
+# Pinterest publish: 07:00 WIB, after the promo run so a same-day promo that
+# gets merged early can still be picked up the following day.
 0 20 * * 0 /home/archi/archi-travel-guide/tools/social/ops/run-weekly.sh
 30 6 * * * /home/archi/archi-travel-guide/tools/social/ops/run-daily.sh
+0 7 * * * /home/archi/archi-travel-guide/tools/social/ops/run-pinterest.sh

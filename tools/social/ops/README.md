@@ -13,6 +13,8 @@ message with the compare link; merging and scheduling happen from a phone.
 | `../verify.js` | Pre-commit gate: verbatim figures and quotes, direction-with-counts (RECONCILE.md), banned phrases, UTM/path hygiene. A failing gate fails the run. |
 | `run-weekly.sh` | Sunday 20:00 WIB — next week's 7 packages → branch `social/<ISO-week>` → push → Telegram. `--test` flag for E2E rehearsals. |
 | `run-daily.sh` | 06:30 WIB — if an article's `datePublished` is today, one same-day promo package → branch `social/promo-<date>` → push → Telegram. Clean silent no-op otherwise. |
+| `run-pinterest.sh` | 07:00 WIB — pins today's card to Pinterest via `../publish-pinterest.js`, reading the batch from `origin/main` only. No card today, or already pinned: logged no-op, no Telegram. |
+| `../publish-pinterest.js` + `../pinterest-auth.js` | Pinterest API v5 client: OAuth with rotating refresh tokens, one pin a day from the merged batch, readback before anything is recorded. Sandbox by default; refuses production until Standard access. See `../README.md` and `../STANDARD-APPLICATION.md`. |
 | `lib.sh` | Shared: .env loading, timestamped logs, locking, Telegram, worktree isolation, failure trap, chromium-libs bootstrap. |
 | `crontab` + `start-scheduler.sh` + `install-scheduler.sh` | supercronic schedule (see below). |
 
@@ -56,6 +58,8 @@ kill "$(cat /tmp/supercronic.pid)"          # stop
 tail -f ../logs/supercronic.log             # scheduler log
 ls -t ../logs/ | head                       # recent run logs
 ops/run-weekly.sh --test   # E2E rehearsal on a social/test-e2e-* branch
+ops/run-pinterest.sh --dry-run --verbose    # Pinterest publish, no API call
+node ../publish-pinterest.js --dry-run --date 2026-08-12 --verbose
 ```
 
 After merging `tools/social-pipeline` into main, keep the repo checkout on

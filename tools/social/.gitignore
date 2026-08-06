@@ -1,2 +1,6 @@
 node_modules/
 package-lock.json
+
+# Local publish state: which package has been pinned, in which environment.
+# Machine-specific and never part of a review — it must not be committed.
+pinterest-state.json
