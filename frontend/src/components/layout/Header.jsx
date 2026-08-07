@@ -3,6 +3,7 @@ import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import { Menu, Search, Sun, Moon } from "lucide-react";
 import { useTheme } from "next-themes";
 import { NAV } from "@/constants/testIds";
+import { searchSite } from "@/lib/searchIndex";
 import MobileMenu from "./MobileMenu";
 import TripChip from "./TripChip";
 
@@ -53,13 +54,34 @@ export default function Header() {
   useEffect(() => { setMobileOpen(false); }, [pathname]);
 
   const [searchOpen, setSearchOpen] = useState(false);
+  const [activeIdx, setActiveIdx] = useState(-1);
+  const results = q.trim() ? searchSite(q.trim()) : [];
 
-  const onSearch = (e) => {
-    e.preventDefault();
-    if (!q.trim()) return;
-    navigate(`/blog?q=${encodeURIComponent(q.trim())}`);
+  const goTo = (path) => {
+    navigate(path);
     setQ("");
     setSearchOpen(false);
+    setActiveIdx(-1);
+  };
+
+  // Enter submits the full /blog?q= listing; a suggestion is only opened
+  // when the user has explicitly highlighted it with the arrow keys.
+  const onSearch = (e) => {
+    e.preventDefault();
+    if (activeIdx >= 0 && results[activeIdx]) return goTo(results[activeIdx].path);
+    if (!q.trim()) return;
+    goTo(`/blog?q=${encodeURIComponent(q.trim())}`);
+  };
+
+  const onSearchKey = (e) => {
+    if (e.key === "Escape") { setSearchOpen(false); setActiveIdx(-1); }
+    else if (e.key === "ArrowDown" && results.length) {
+      e.preventDefault();
+      setActiveIdx((i) => (i + 1) % results.length);
+    } else if (e.key === "ArrowUp" && results.length) {
+      e.preventDefault();
+      setActiveIdx((i) => (i <= 0 ? results.length - 1 : i - 1));
+    }
   };
 
   return (
@@ -110,19 +132,25 @@ export default function Header() {
             {/* My Trip chip — appears once a plan is saved */}
             <TripChip />
 
-            {/* Search — expands into a working form (submits to /blog?q=) */}
+            {/* Search — live suggestions from the published-content index;
+                Enter opens the highlighted (or first) result, or falls back
+                to the filtered /blog?q= listing. */}
             {searchOpen ? (
-              <form onSubmit={onSearch} className="flex items-center gap-2">
+              <form onSubmit={onSearch} className="relative flex items-center gap-2">
                 <input
                   autoFocus
                   data-testid={NAV.searchInput}
                   value={q}
-                  onChange={(e) => setQ(e.target.value)}
-                  onKeyDown={(e) => { if (e.key === "Escape") setSearchOpen(false); }}
+                  onChange={(e) => { setQ(e.target.value); setActiveIdx(-1); }}
+                  onKeyDown={onSearchKey}
                   onBlur={() => { if (!q.trim()) setSearchOpen(false); }}
                   placeholder="Search guides…"
                   aria-label="Search guides"
-                  className="w-44 px-4 py-2 rounded-full border border-[#C65A3A]/50 bg-white text-sm focus:outline-none focus:border-[#C65A3A]"
+                  role="combobox"
+                  aria-expanded={results.length > 0}
+                  aria-controls="nav-search-listbox"
+                  aria-autocomplete="list"
+                  className="w-56 px-4 py-2 rounded-full border border-[#C65A3A]/50 bg-white text-sm focus:outline-none focus:border-[#C65A3A]"
                 />
                 <button
                   type="submit"
@@ -132,6 +160,43 @@ export default function Header() {
                 >
                   <Search className="w-4 h-4" />
                 </button>
+                {results.length > 0 && (
+                  <ul
+                    id="nav-search-listbox"
+                    role="listbox"
+                    data-testid="nav-search-suggestions"
+                    className="absolute right-0 top-full mt-2 w-80 rounded-2xl border border-[#F5EDE3] bg-white shadow-xl overflow-hidden z-50"
+                  >
+                    {results.map((r, i) => (
+                      <li key={r.path} role="option" aria-selected={i === activeIdx}>
+                        <button
+                          type="button"
+                          data-testid="nav-search-suggestion"
+                          onMouseDown={(e) => { e.preventDefault(); goTo(r.path); }}
+                          className={[
+                            "w-full text-left px-4 py-3 flex items-start gap-3 transition-colors",
+                            i === activeIdx ? "bg-[#FAF7F2]" : "hover:bg-[#FAF7F2]",
+                          ].join(" ")}
+                        >
+                          <span className="mt-0.5 text-[10px] font-bold uppercase tracking-wider text-[#8A9A5B] bg-[#F5EDE3] rounded-full px-2 py-0.5 shrink-0">
+                            {r.type}
+                          </span>
+                          <span className="text-sm text-[#2C211B] leading-snug line-clamp-2">{r.title}</span>
+                        </button>
+                      </li>
+                    ))}
+                    <li className="border-t border-[#F5EDE3]">
+                      <button
+                        type="button"
+                        data-testid="nav-search-see-all"
+                        onMouseDown={(e) => { e.preventDefault(); goTo(`/blog?q=${encodeURIComponent(q.trim())}`); }}
+                        className="w-full text-left px-4 py-2.5 text-xs text-[#8A9A5B] hover:bg-[#FAF7F2]"
+                      >
+                        See all results for “{q.trim()}” →
+                      </button>
+                    </li>
+                  </ul>
+                )}
               </form>
             ) : (
               <button
