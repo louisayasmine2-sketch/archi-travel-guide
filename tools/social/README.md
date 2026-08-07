@@ -33,6 +33,27 @@ node packages.js    # text files + POSTING-GUIDE.md
 Both scripts accept an output directory as their first argument for future
 weeks, e.g. `node render.js ../../social-output/2026-W33`.
 
+## Channel publishers
+
+`publish-telegram-channel.js` and `publish-bluesky.js` (shared plumbing in
+`batch.js`) each publish today's card to their channel, once:
+
+```bash
+node publish-telegram-channel.js [--dry-run] [--date YYYY-MM-DD] [--verbose]
+node publish-bluesky.js          [--dry-run] [--date YYYY-MM-DD] [--verbose]
+```
+
+Both read every input — POSTING-GUIDE.md, caption.md, alt-text.txt, the feed
+PNG — from `origin/main` with `git show`, never from the working tree, so an
+unmerged batch cannot be published. The post link is taken from caption.md
+with `utm_source` swapped to the channel; copy is used verbatim (Bluesky drops
+trailing paragraphs to fit its 300-grapheme cap, it never rewrites). Each
+records what it published in a gitignored `<channel>-state.json` after reading
+the post back from the API; re-runs are no-ops, as are days with no card and
+missing credentials (`.env.example` documents the keys: `TELEGRAM_CHANNEL_ID`
+for the channel — the alarm bot must be one of its admins — and
+`BLUESKY_HANDLE` + `BLUESKY_APP_PASSWORD`).
+
 ### If Chromium won't launch (missing system libraries, no sudo)
 
 This machine lacks Chromium's system libraries. Without root, download and

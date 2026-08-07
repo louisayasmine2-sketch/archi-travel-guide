@@ -1,2 +1,6 @@
 node_modules/
 package-lock.json
+
+# Local publish state: which package has gone out, per channel.
+telegram-state.json
+bluesky-state.json
