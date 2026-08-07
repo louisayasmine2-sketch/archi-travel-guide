@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
+import { Link, useSearchParams } from "react-router-dom";
+import { ArrowRight, X } from "lucide-react";
 import SEO from "@/components/common/SEO";
 import { articles } from "@/data/articles";
 
@@ -38,18 +38,45 @@ const BY_RECENT = [...articles].sort((a, b) => new Date(b.updated) - new Date(a.
 const PAGE_SIZE = 9;
 
 export default function Blog() {
-  const [activeCategory, setActiveCategory] = useState("All");
+  // ?q= (header/mobile search), ?cat= and ?region= (destination-page links)
+  // are all honoured — a search that silently ignored its query shipped here
+  // once and must not again.
+  const [searchParams, setSearchParams] = useSearchParams();
+  const query = (searchParams.get("q") || "").trim();
+  const region = (searchParams.get("region") || "").trim();
+  const catParam = (searchParams.get("cat") || "").trim().toLowerCase();
+
+  const [activeCategory, setActiveCategory] = useState(
+    () => CATEGORIES.find((c) => c.toLowerCase() === catParam) || "All"
+  );
   const [visible, setVisible] = useState(PAGE_SIZE);
 
-  const filtered = useMemo(
-    () => (activeCategory === "All" ? BY_RECENT : BY_RECENT.filter((a) => a.category === activeCategory)),
-    [activeCategory]
-  );
+  const filtered = useMemo(() => {
+    let list = activeCategory === "All" ? BY_RECENT : BY_RECENT.filter((a) => a.category === activeCategory);
+    if (region) {
+      list = list.filter((a) => (a.region || "").toLowerCase() === region.toLowerCase());
+    }
+    if (query) {
+      const tokens = query.toLowerCase().split(/\s+/).filter(Boolean);
+      list = list.filter((a) => {
+        const haystack = `${a.title} ${a.excerpt} ${a.category}`.toLowerCase();
+        return tokens.every((t) => haystack.includes(t));
+      });
+    }
+    return list;
+  }, [activeCategory, query, region]);
   const shown = filtered.slice(0, visible);
   const recent = BY_RECENT.slice(0, 4);
 
   const pickCategory = (cat) => {
     setActiveCategory(cat);
+    setVisible(PAGE_SIZE);
+  };
+
+  const clearSearch = () => {
+    const next = new URLSearchParams(searchParams);
+    next.delete("q");
+    setSearchParams(next);
     setVisible(PAGE_SIZE);
   };
 
@@ -96,6 +123,22 @@ export default function Blog() {
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-12 gap-8">
         {/* MAIN LIST */}
         <div className="col-span-12 lg:col-span-8">
+          {query && (
+            <div data-testid="blog-search-summary" className="mb-8 flex flex-wrap items-center gap-3">
+              <p className="text-sm text-muted-foreground">
+                <span className="font-semibold text-foreground">{filtered.length}</span>{" "}
+                {filtered.length === 1 ? "guide matches" : "guides match"} “{query}”
+                {region ? ` in ${region}` : ""}
+              </p>
+              <button
+                onClick={clearSearch}
+                data-testid="blog-search-clear"
+                className="inline-flex items-center gap-1 text-sm text-primary border border-primary rounded-full px-3 py-1 hover:bg-primary hover:text-primary-foreground transition-colors"
+              >
+                <X className="w-3.5 h-3.5" /> Clear search
+              </button>
+            </div>
+          )}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {shown.map((a) => (
               <Link
@@ -121,7 +164,11 @@ export default function Blog() {
           </div>
 
           {filtered.length === 0 && (
-            <p className="text-muted-foreground py-12 text-center">No guides in this category yet.</p>
+            <p className="text-muted-foreground py-12 text-center">
+              {query
+                ? `No guides match “${query}”. Try a shorter keyword, or browse by category above.`
+                : "No guides in this category yet."}
+            </p>
           )}
 
           {visible < filtered.length && (

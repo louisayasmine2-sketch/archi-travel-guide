@@ -47,7 +47,7 @@ test("404 page offers search and the most useful routes", async ({ page }) => {
   const main = page.locator("#main-content");
   await expect(main.locator("a:has-text('Travel Tools')")).toBeVisible();
   await expect(main.locator("a:has-text('Florence → Siena transport')")).toBeVisible();
-  await page.locator("input[aria-label='Search guides']").fill("palio");
+  await page.locator("#main-content input[aria-label='Search guides']").fill("palio");
   await page.keyboard.press("Enter");
   await expect(page).toHaveURL(/\/blog\?q=palio/);
 });

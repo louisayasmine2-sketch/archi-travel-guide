@@ -32,9 +32,10 @@ test("hub renders all nine tool cards", async ({ page }) => {
 test("My Trip bar pre-fills the budget planner", async ({ page }) => {
   await setTrip(page, { destination: "Tuscany", nights: 5, travelers: 4 });
   await openTool(page, "Tuscany Budget Planner");
-  await expect(page.locator("form input").nth(0)).toHaveValue("Tuscany");
-  await expect(page.locator("form input").nth(1)).toHaveValue("4");
-  await expect(page.locator("form input").nth(2)).toHaveValue("5");
+  const dialogInputs = page.locator("[role='dialog'] form input");
+  await expect(dialogInputs.nth(0)).toHaveValue("Tuscany");
+  await expect(dialogInputs.nth(1)).toHaveValue("4");
+  await expect(dialogInputs.nth(2)).toHaveValue("5");
 });
 
 test("itinerary generates day cards, a map and a share button", async ({ page }) => {

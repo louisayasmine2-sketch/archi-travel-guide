@@ -1,13 +1,24 @@
-import { useEffect } from "react";
-import { NavLink } from "react-router-dom";
-import { X } from "lucide-react";
+import { useEffect, useState } from "react";
+import { NavLink, useNavigate } from "react-router-dom";
+import { X, Search } from "lucide-react";
 import { NAV } from "@/constants/testIds";
 
 export default function MobileMenu({ open, onClose, links }) {
+  const [q, setQ] = useState("");
+  const navigate = useNavigate();
+
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
     return () => { document.body.style.overflow = ""; };
   }, [open]);
+
+  const onSearch = (e) => {
+    e.preventDefault();
+    if (!q.trim()) return;
+    navigate(`/blog?q=${encodeURIComponent(q.trim())}`);
+    setQ("");
+    onClose();
+  };
 
   return (
     <div
@@ -37,6 +48,24 @@ export default function MobileMenu({ open, onClose, links }) {
             <X className="w-5 h-5" />
           </button>
         </div>
+        <form onSubmit={onSearch} className="px-6 pt-4 flex items-center gap-2">
+          <input
+            data-testid="mobile-search-input"
+            value={q}
+            onChange={(e) => setQ(e.target.value)}
+            placeholder="Search guides…"
+            aria-label="Search guides"
+            className="flex-1 px-4 py-2.5 rounded-full border border-[hsl(var(--stone-border))] bg-white text-sm focus:outline-none focus:border-[hsl(var(--terracotta))]"
+          />
+          <button
+            type="submit"
+            data-testid="mobile-search-submit"
+            aria-label="Submit search"
+            className="w-10 h-10 rounded-full bg-[hsl(var(--terracotta))] text-white flex items-center justify-center shrink-0"
+          >
+            <Search className="w-4 h-4" />
+          </button>
+        </form>
         <nav className="flex flex-col px-6 py-4">
           {links.map((l) => (
             <NavLink
