@@ -228,12 +228,12 @@ const allArticles = [
       {
         "id": "the-best-time-for-different-travelers",
         "heading": "The best time for different travellers",
-        "body": "### Best overall: May and late September\n\nMay brings green countryside, spring flowers, and generally comfortable sightseeing conditions. Late September retains warmth but starts to feel more relaxed after the peak summer rush. Both periods work well for combining Florence, Siena, hill towns, and a rural stay.\n\nThese are not secret low-season months. Popular hotels, agriturismi, wineries, and guided tours can still fill, especially around weekends and public holidays. Book the parts of your trip that matter most rather than assuming shoulder season means unlimited availability.\n\n### Best for lower crowds: November through March\n\nWinter is useful for travellers who prioritise churches, museums, restaurants, and historic streets over long countryside drives. Florence, Siena, Lucca, Pisa, and Arezzo remain rewarding, while queues are often shorter outside holiday periods.\n\nThe trade-off is shorter daylight, cooler weather, and reduced schedules. Some rural hotels, wineries, beach businesses, and seasonal restaurants close temporarily. Build the trip around cities or confirm each countryside booking before relying on it.\n\n### Best for countryside scenery: April through June\n\nSpring gradually turns the hills green and fills the landscape with flowers. The official Tuscany tourism site highlights spring and autumn as particularly good periods for hiking.\n\nApril is less predictable than travel photography suggests: expect changing temperatures, showers, and cool mornings. By late May and June, outdoor plans become easier, although midday heat can already be noticeable.\n\n### Best for food and wine: September through November\n\nAutumn is associated with grape harvests, olives, mushrooms, chestnuts, and truffles across different parts of Tuscany. The exact timing depends on weather, elevation, producer, and local tradition, so do not assume every harvest activity is open to visitors.\n\nWine tastings operate year-round, but autumn adds energy to the countryside. Reserve serious tastings and restaurant meals in advance, especially in Chianti, Montalcino, Montepulciano, and popular Val d’Orcia towns.\n\nRead the [Tuscany food guide](/blog/tuscany-food-guide/) before planning your regional stops.\n\n### Best for festivals: June through August\n\nSummer brings open-air performances, local festivals, long evenings, and the Palio di Siena. The two annual Palio races are traditionally held on July 2 and August 16, with preparations and neighbourhood events before race day.\n\nA festival trip requires more planning than a normal city break. Accommodation may be expensive, traffic controls can change, and attraction schedules may be adjusted. Treat the event as the centre of the itinerary rather than squeezing it into a standard sightseeing day.\n\n### Best for beaches and pools: late June through early September\n\nThe Tuscan coast and islands are at their liveliest in summer. A pool becomes valuable at a countryside property when daytime temperatures rise, particularly for families or travellers spending several nights outside the cities.\n\nAugust is also a major Italian holiday period. Coastal destinations can be very busy, while some city businesses may close around Ferragosto. Verify restaurant and transport plans instead of assuming all services operate normally."
+        "body": "### Best overall: May and late September\n\nMay brings green countryside, spring flowers, and generally comfortable sightseeing conditions. Late September retains warmth but starts to feel more relaxed after the peak summer rush. Both periods work well for combining Florence, Siena, hill towns, and a rural stay.\n\nThese are not secret low-season months. Popular hotels, agriturismi, wineries, and guided tours can still fill, especially around weekends and public holidays. Book the parts of your trip that matter most rather than assuming shoulder season means unlimited availability.\n\n### Best for lower crowds: November through March\n\nWinter is useful for travellers who prioritise churches, museums, restaurants, and historic streets over long countryside drives. Florence, Siena, Lucca, Pisa, and Arezzo remain rewarding, while queues are often shorter outside holiday periods.\n\nThe trade-off is shorter daylight, cooler weather, and reduced schedules. Some rural hotels, wineries, beach businesses, and seasonal restaurants close temporarily. Build the trip around cities or confirm each countryside booking before relying on it.\n\n### Best for countryside scenery: April through June\n\nSpring gradually turns the hills green and fills the landscape with flowers. The official Tuscany tourism site highlights spring and autumn as particularly good periods for hiking.\n\nApril is less predictable than travel photography suggests: expect changing temperatures, showers, and cool mornings. By late May and June, outdoor plans become easier, although midday heat can already be noticeable.\n\n### Best for food and wine: September through November\n\nAutumn is associated with grape harvests, olives, mushrooms, chestnuts, and truffles across different parts of Tuscany. The exact timing depends on weather, elevation, producer, and local tradition, so do not assume every harvest activity is open to visitors.\n\nWine tastings operate year-round, but autumn adds energy to the countryside. Reserve serious tastings and restaurant meals in advance, especially in Chianti, Montalcino, Montepulciano, and popular Val d’Orcia towns.\n\nRead the [Tuscany food guide](/blog/tuscany-food-guide/) before planning your regional stops. Our [wine harvest](/blog/tuscany-wine-harvest-vendemmia-2026/) and [olive harvest](/blog/tuscany-olive-harvest-olio-nuovo-2026/) guides cover joining each season, and the [Tuscan food calendar](/blog/tuscan-food-calendar-seasonal-dishes/) maps the dishes worth timing a trip around.\n\n### Best for festivals: June through August\n\nSummer brings open-air performances, local festivals, long evenings, and the Palio di Siena. The two annual Palio races are traditionally held on July 2 and August 16, with preparations and neighbourhood events before race day.\n\nA festival trip requires more planning than a normal city break. Accommodation may be expensive, traffic controls can change, and attraction schedules may be adjusted. Treat the event as the centre of the itinerary rather than squeezing it into a standard sightseeing day.\n\n### Best for beaches and pools: late June through early September\n\nThe Tuscan coast and islands are at their liveliest in summer. A pool becomes valuable at a countryside property when daytime temperatures rise, particularly for families or travellers spending several nights outside the cities.\n\nAugust is also a major Italian holiday period. Coastal destinations can be very busy, while some city businesses may close around Ferragosto. Verify restaurant and transport plans instead of assuming all services operate normally."
       },
       {
         "id": "tuscany-month-by-month",
         "heading": "Tuscany month by month",
-        "body": "### Tuscany in January\n\nJanuary is quiet, cool, and well suited to museums, churches, food, and unhurried city walks. Rural landscapes can look stark rather than postcard-green, but the absence of summer crowds reveals a more everyday side of Tuscany.\n\nBase yourself in a city with year-round services. Bring a warm layer, rain protection, and shoes that handle wet stone.\n\n### Tuscany in February\n\nFebruary remains low season, with Carnival events bringing colour to parts of the region. Viareggio is the best-known Carnival destination, but dates vary each year.\n\nThis month can work for a short city break or food-focused weekend. Do not expect every agriturismo or countryside experience to be operating.\n\n### Tuscany in March\n\nMarch is transitional. Sunny afternoons can feel like spring, but cold rain and sharp evenings remain possible. It is a good month for travellers who value lower prices and do not mind flexible plans.\n\nPack layers rather than one heavy outfit. Keep at least one indoor option for each day.\n\n### Tuscany in April\n\nApril offers blossoms, fresh landscapes, Easter traditions, and increasingly active tourism. It is also one of the months most likely to punish overconfident packing: warm sunshine can turn into rain or a cool evening quickly.\n\nEaster dates shift annually and can affect crowds, opening hours, transport, and accommodation. Check the calendar before choosing a “quiet” April weekend.\n\n### Tuscany in May\n\nMay is one of the strongest all-round choices. Days are longer, the countryside is green, and walking is generally more comfortable than in midsummer.\n\nDemand is also strong. Reserve desirable hotels, farm stays, rental cars, winery visits, and major museum tickets before arrival.\n\n### Tuscany in June\n\nJune offers long daylight, warm evenings, and reliable conditions for road trips, terraces, outdoor dining, and pool stays. It is a particularly good month for couples and travellers combining cities with the countryside.\n\nHeat can build late in the month. Schedule major outdoor sights in the morning and allow a slower midday rhythm.\n\n### Tuscany in July\n\nJuly is hot, bright, and busy. Siena’s July Palio creates a unique atmosphere but also brings crowd controls and schedule changes. Florence’s major attractions require careful timing, while rural stays are more pleasant when they include shade or a pool.\n\nPlan less per day than you would in spring. Carry water and sun protection, and avoid designing an itinerary that depends on walking through exposed squares at midday.\n\n### Tuscany in August\n\nAugust is peak holiday season for the coast and many countryside properties. Siena’s August Palio is traditionally held on August 16. Cities may feel quieter in some residential areas around Ferragosto, but major sights remain busy with visitors.\n\nBook accommodation early and verify every transport connection. Air conditioning should be treated as a specific property filter, not an assumption.\n\n### Tuscany in September\n\nSeptember remains warm, especially early in the month, but the light and pace begin to change. Harvest activity adds interest to wine areas, while city sightseeing becomes easier later in the month.\n\nThis is still a popular travel period. Reserve key experiences and build flexibility around harvest work, which can change producers’ availability.\n\n### Tuscany in October\n\nOctober combines food, wine, softer landscapes, and cooler walking temperatures. Search demand for “Tuscany in October” is strong because travellers want autumn atmosphere without winter closures.\n\nExpect shorter days and variable rain. Finish countryside drives before dark and choose accommodation with a comfortable indoor space.\n\n### Tuscany in November\n\nNovember is quiet and food-oriented. Olive oil, seasonal dishes, and indoor cultural visits can define the trip, but rain and early darkness reduce the appeal of an overambitious road itinerary.\n\nStay in fewer bases and prioritise places with year-round restaurants. Check opening days carefully.\n\n### Tuscany in December\n\nDecember brings Christmas lights, markets, religious traditions, and a more intimate mood in historic centres. The period around Christmas and New Year is not necessarily inexpensive, even though the rest of winter is low season.\n\nA city-based itinerary works best. Rural stays are quieter at this time of year, but confirm heating, restaurant access, and transport before booking."
+        "body": "### Tuscany in January\n\nJanuary is quiet, cool, and well suited to museums, churches, food, and unhurried city walks. Rural landscapes can look stark rather than postcard-green, but the absence of summer crowds reveals a more everyday side of Tuscany.\n\nBase yourself in a city with year-round services. Bring a warm layer, rain protection, and shoes that handle wet stone. Our dedicated [Tuscany in January guide](/blog/tuscany-in-january-2027/) covers the winter sales, the thermal springs, and the low-season playbook in depth.\n\n### Tuscany in February\n\nFebruary remains low season, with Carnival events bringing colour to parts of the region. Viareggio is the best-known Carnival destination, but dates vary each year.\n\nThis month can work for a short city break or food-focused weekend. Do not expect every agriturismo or countryside experience to be operating. For the Viareggio parade calendar, the Carnival sweets and the month’s full case, see [Tuscany in February](/blog/tuscany-in-february-2027/).\n\n### Tuscany in March\n\nMarch is transitional. Sunny afternoons can feel like spring, but cold rain and sharp evenings remain possible. It is a good month for travellers who value lower prices and do not mind flexible plans.\n\nPack layers rather than one heavy outfit. Keep at least one indoor option for each day.\n\n### Tuscany in April\n\nApril offers blossoms, fresh landscapes, Easter traditions, and increasingly active tourism. It is also one of the months most likely to punish overconfident packing: warm sunshine can turn into rain or a cool evening quickly.\n\nEaster dates shift annually and can affect crowds, opening hours, transport, and accommodation. Check the calendar before choosing a “quiet” April weekend.\n\n### Tuscany in May\n\nMay is one of the strongest all-round choices. Days are longer, the countryside is green, and walking is generally more comfortable than in midsummer.\n\nDemand is also strong. Reserve desirable hotels, farm stays, rental cars, winery visits, and major museum tickets before arrival.\n\n### Tuscany in June\n\nJune offers long daylight, warm evenings, and reliable conditions for road trips, terraces, outdoor dining, and pool stays. It is a particularly good month for couples and travellers combining cities with the countryside.\n\nHeat can build late in the month. Schedule major outdoor sights in the morning and allow a slower midday rhythm.\n\n### Tuscany in July\n\nJuly is hot, bright, and busy. Siena’s July Palio creates a unique atmosphere but also brings crowd controls and schedule changes. Florence’s major attractions require careful timing, while rural stays are more pleasant when they include shade or a pool.\n\nPlan less per day than you would in spring. Carry water and sun protection, and avoid designing an itinerary that depends on walking through exposed squares at midday.\n\n### Tuscany in August\n\nAugust is peak holiday season for the coast and many countryside properties. Siena’s August Palio is traditionally held on August 16. Cities may feel quieter in some residential areas around Ferragosto, but major sights remain busy with visitors.\n\nBook accommodation early and verify every transport connection. Air conditioning should be treated as a specific property filter, not an assumption. The honest month-long playbook — Ferragosto, the Palio and the quieter late-August turn — is in [Tuscany in August](/blog/tuscany-in-august-2026/).\n\n### Tuscany in September\n\nSeptember remains warm, especially early in the month, but the light and pace begin to change. Harvest activity adds interest to wine areas, while city sightseeing becomes easier later in the month.\n\nThis is still a popular travel period. Reserve key experiences and build flexibility around harvest work, which can change producers’ availability. See [Siena in September](/blog/siena-in-september-2026/) for the month’s full case, including the uncovered Duomo floor.\n\n### Tuscany in October\n\nOctober combines food, wine, softer landscapes, and cooler walking temperatures. Search demand for “Tuscany in October” is strong because travellers want autumn atmosphere without winter closures.\n\nExpect shorter days and variable rain. Finish countryside drives before dark and choose accommodation with a comfortable indoor space. Our [Tuscany in October guide](/blog/tuscany-in-october-2026/) covers the two-harvest handover month in depth.\n\n### Tuscany in November\n\nNovember is quiet and food-oriented. Olive oil, seasonal dishes, and indoor cultural visits can define the trip, but rain and early darkness reduce the appeal of an overambitious road itinerary.\n\nStay in fewer bases and prioritise places with year-round restaurants. Check opening days carefully. The full month — the white-truffle weekends, olio nuovo and the honest caveats — is in [Tuscany in November](/blog/tuscany-in-november-2026/).\n\n### Tuscany in December\n\nDecember brings Christmas lights, markets, religious traditions, and a more intimate mood in historic centres. The period around Christmas and New Year is not necessarily inexpensive, even though the rest of winter is low season.\n\nA city-based itinerary works best. Rural stays are quieter at this time of year, but confirm heating, restaurant access, and transport before booking. See [Tuscany in December](/blog/tuscany-in-december-2026/) for the Mercato nel Campo, the Val d’Orcia oil festival and the holiday calendar."
       },
       {
         "id": "how-tuscany-s-regions-change-the-answer",
@@ -253,7 +253,7 @@ const allArticles = [
       {
         "id": "final-recommendation",
         "heading": "Final recommendation",
-        "body": "For a first Tuscany trip, choose May, June, late September, or early October and divide the stay between one art city and one slower base. The right month is not the one with perfect weather; it is the month that supports the experiences you care about most.\n\nA spring road framed by green hills, a warm evening in Siena, an autumn lunch near a vineyard, or a quiet winter museum can each become the version of Tuscany worth travelling for.\n\n*Editorial fact-check: July 12, 2026. Seasonal conditions, events, opening schedules, and transport services change. Verify time-sensitive details before travel.*"
+        "body": "For a first Tuscany trip, choose May, June, late September, or early October and divide the stay between one art city and one slower base. The right month is not the one with perfect weather; it is the month that supports the experiences you care about most.\n\nA spring road framed by green hills, a warm evening in Siena, an autumn lunch near a vineyard, or a quiet winter museum can each become the version of Tuscany worth travelling for.\n\n*Editorial fact-check: July 12, 2026; month-guide links and harvest references added 6 August 2026. Seasonal conditions, events, opening schedules, and transport services change. Verify time-sensitive details before travel.*"
       }
     ],
     [
@@ -282,7 +282,7 @@ const allArticles = [
         "a": "Parts of November through February are often less expensive outside Christmas and New Year. Prices depend on the exact city, event calendar, and whether a property remains open."
       }
     ],
-    "2026-07-12",
+    "2026-08-06",
     {
       "seoTitle": "Best Time to Visit Tuscany: Month-by-Month Guide",
       "primaryKeyword": "best time to visit Tuscany",
@@ -7153,6 +7153,318 @@ One scheduling grace note: whichever route you ride, aim to arrive by late after
       imageAlt: 'Piazza del Campo in Siena, the arrival point that justifies the journey from Rome',
       canonicalPath: '/blog/rome-to-siena-train-bus-2026',
       tags: ['rome to siena', 'siena transport', 'italy trains', 'italy buses', 'tuscany travel planning'],
+    }
+  ),
+  A(
+    'tuscan-food-calendar-seasonal-dishes',
+    'The Tuscan Food Calendar: Dishes Worth Timing Your Trip Around (2026–27)',
+    'Food & drink',
+    'Tuscany',
+    'The Tuscan foods locals wait all year for — olio nuovo, schiacciata all’uva, white truffle, carnival cenci — and the exact seasons to catch each one.',
+    '/images/siena/pici-pasta-wild-boar-ragu-siena.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Tuscany’s most beloved foods are not on the menu all year — and that is precisely why locals count the days for them. The headline calendar: **schiacciata all’uva**, the grape-harvest flatbread, exists only during the vendemmia weeks of September and October; **olio nuovo**, the peppery new olive oil, peaks from late October through December; **white truffle** rules November, crowned by San Miniato’s market weekends; **panforte and ricciarelli** come home to Siena’s Christmas; **cenci** appear for Carnival and vanish on Martedì Grasso; spring belongs to **raw fava beans with young pecorino**, the May Day picnic in edible form; and summer runs on **panzanella** and tomatoes at their peak. Our [25-dish food guide](/blog/tuscany-food-guide) covers what everything *is* — this article covers the question that actually shapes a trip: **when**.`,
+      },
+      {
+        id: 'why-timing-beats-lists',
+        heading: 'Why timing beats any list of dishes',
+        body: `Every Tuscany food article tells you to eat ribollita and bistecca, and they are right, and you can do both in any month of the year. But the dishes Tuscans themselves get sentimental about are the ones with an expiry date — the first pressing tasted standing up at the mill, the bakery tray of grape bread that means the harvest has started, the fried dough that means Carnival has arrived. Seasonality here is not a restaurant marketing word; it is the calendar people actually live by, [as our harvest guides document at length](/blog/tuscany-olive-harvest-olio-nuovo-2026).
+
+For a traveller this changes the planning question. A trip built around *where* to eat can happen anytime; a trip built around *what* you most want to taste has dates attached — sometimes a season, sometimes a few specific weekends. Miss the window and no amount of money buys the dish: nobody bakes schiacciata all’uva in March, and February’s cenci are gone by Lent as surely as the confetti.
+
+What follows is the year as Tuscan appetites experience it, season by season, each entry with its window, its home ground, and the trip-planning link to catch it. Treat it as the menu you book flights against.`,
+      },
+      {
+        id: 'autumn-vendemmia',
+        heading: 'September–October: the grape weeks',
+        body: `Autumn opens with the year’s most theatrical seasonal food. **Schiacciata all’uva** — flat, olive-oil-rich dough pressed full of small black grapes, sticky, crunchy with seeds, faintly winey — appears in Florentine and central-Tuscan bakeries only while [the vendemmia runs](/blog/tuscany-wine-harvest-vendemmia-2026), roughly September into October, and disappears with the harvest. It is eaten by the slice, standing up, and its arrival in the bakery window is how the city knows the grapes are in.
+
+The same weeks bring the year’s first **porcini** in volume — over tagliatelle, on crostini, grilled whole — and the return of game to trattoria blackboards as the hunting season opens: wild boar and hare ragùs thickening over [pici](/blog/tuscany-food-guide) as the evenings cool.
+
+Trip-planning translation: [September](/blog/siena-in-september-2026) and [October](/blog/tuscany-in-october-2026) put this table alongside active harvest scenery and the year’s best festival calendar — the single richest food-travel window of the Tuscan year, and our standing answer to “when should a food-first traveller come”.`,
+      },
+      {
+        id: 'autumn-olio-nuovo',
+        heading: 'Late October–December: the new oil',
+        body: `If one Tuscan food deserves the word “awaited”, it is **olio nuovo**. The deliberately early olive harvest starts in late October, the mills press through November, and for a few weeks the region eats its oil at its absolute youngest — unfiltered, cloudy green, grassy and artichoke-scented, with the peppery catch in the throat that marks fresh polyphenols at full strength. [Our olive-harvest guide](/blog/tuscany-olive-harvest-olio-nuovo-2026) covers the season in depth, including how visitors can genuinely join the picking.
+
+The canonical delivery mechanism is **fettunta**: bread grilled, rubbed with garlic, salted, drowned in new oil, eaten as the year’s verdict. Mills pour it at the press, farms pour it at harvest lunches, and by late November every serious kitchen is finishing soups and beans with it — always raw, at the table, never cooked away.
+
+The anticipation is real enough to have its own festivals: [San Quirico d’Orcia has celebrated the new oil each December since 1993](/blog/tuscany-in-december-2026), and a tin bought at the frantoio that pressed it remains the best-value edible souvenir the region sells. The window for the *nuovo* experience proper: **late October to roughly year’s end** — after which it is still excellent oil, but the event has passed.`,
+      },
+      {
+        id: 'november-truffle',
+        heading: 'November: white truffle month',
+        body: `November’s awaited food needs no cooking at all — a few grams of it shaved over tagliolini justify the month. **White truffle** season centres on November, and its Tuscan capital is **San Miniato**, whose national market-exhibition fills [the last three weekends of November 2026 (14–15, 21–22, 28–29)](/blog/tuscany-in-november-2026) with hunters, dealers, and a smell no photograph conveys.
+
+The affordable way in — the one we recommend — is a truffle *dish* rather than a truffle *purchase*: tagliolini al tartufo, eggs with shavings, the classic vehicles that let a restaurant’s buying skill work for you. The intense weeks also produce the year’s best truffle-hunting experiences, walked with a trifolau and his dog through the oak woods — book ahead, and treat November as the honest season rather than the year-round “truffle menus” tourism sometimes stages.
+
+Around the tuber, November’s table is deep winter warming up: **castagnaccio** (the dense chestnut-flour cake with rosemary and pine nuts) in its chestnut-season prime, roast chestnuts on street corners, and the new oil everywhere. For food-first travellers, [November is the sleeper month of the year](/blog/tuscany-in-november-2026) — the only one when the white truffle and the olio nuovo peak together.`,
+      },
+      {
+        id: 'december-sweets',
+        heading: 'December: Siena’s sweets come home',
+        body: `Siena’s two famous sweets are sold to visitors all year — and belong, by history and habit, to Christmas. **Panforte**, the dense medieval press of fruit, nuts, honey and spice, and **ricciarelli**, the soft almond biscuits, fill the city’s bakery windows through December as actual seasonal food: bought whole, given as gifts, served in thin slices with coffee or vin santo at the end of the year’s longest meals. Eating them in [December, in Siena](/blog/tuscany-in-december-2026), from a pasticceria rather than a souvenir shelf, is the difference between tasting a tradition and merely purchasing one.
+
+December’s savoury table is the winter canon at full depth — ribollita thick enough to stand a spoon in, the last emphatic weeks of the new oil, the tail of white truffle season — and the month adds its own event-food layer: the **Mercato nel Campo’s** stalls of porchetta, pecorino and mulled wine on Siena’s great square, and the oil festival south in the Val d’Orcia.
+
+The anticipation here runs in both directions: the sweets announce Christmas, and Christmas justifies the sweets. Carry a whole panforte home — it travels absurdly well — and December’s calendar entry survives into January’s coffee.`,
+      },
+      {
+        id: 'carnival-cenci',
+        heading: 'January–February: fried dough and the Carnival clock',
+        body: `Deep winter’s awaited foods run on the Carnival countdown. **Cenci** — “rags” of crisp fried dough under icing sugar, Tuscany’s answer to the chiacchiere eaten across Italy — stack up on every bakery counter from late January and vanish within days of **Martedì Grasso** ([9 February in 2027](/blog/tuscany-in-february-2027)). Alongside them: **schiacciata alla fiorentina**, Florence’s soft orange-scented Carnival cake with its powdered-sugar giglio, and rice fritters as the season peaks.
+
+These are the strictest windows on the whole calendar — arrive in March and the counters hold no evidence the season ever happened — and the correct consumption ritual is the local one: standing at the pasticceria bar, mid-morning, coffee in the other hand, comparing bakeries across a weekend [as our February guide cheerfully recommends](/blog/tuscany-in-february-2027).
+
+The savoury anticipation of the season is quieter but real: **black winter truffle** succeeding November’s white at gentler prices, blood oranges from the south stacking the market stalls, and the year’s best excuse for bistecca — the temperature.
+
+![Pici with wild boar ragù, the cool-season classic of the Sienese table](/images/siena/pici-pasta-wild-boar-ragu-siena.webp)
+*The cool months’ standing order: hand-rolled pici under wild-boar ragù.*`,
+      },
+      {
+        id: 'spring-baccelli',
+        heading: 'April–May: raw fava beans and young pecorino',
+        body: `Spring’s awaited food is the simplest on this list and among the oldest. **Baccelli** — fresh fava beans, eaten *raw* from the pod — paired with young **pecorino**, is Tuscany’s ritual of the season: the pairing locals call cacio e baccelli, carried in paper bags to the traditional picnics of **Easter Monday and the first of May**, shelled by hand between conversation, with a lineage food historians trace to Roman spring festivals two millennia back.
+
+The cheese half of the equation is its own seasonal event: spring is lambing time, and the young pecorino of the season — the mild, milky **marzolino**, “March cheese” — is the fava’s canonical partner, abundant exactly when the pods fill the market stalls from April through May.
+
+Nothing about this dish can be booked, ticketed or queued for, which is its charm: buy the pods and a wedge at any spring market — Siena’s included — find a wall with a view, and you are performing the season correctly. The window: **April to late May**, after which the beans grow starchy and the ritual rests for a year. Around it, spring’s table adds artichokes, asparagus and the first outdoor lunches of the year.`,
+      },
+      {
+        id: 'summer-panzanella',
+        heading: 'June–August: bread salads and the tomato’s reign',
+        body: `Summer’s anticipation is the tomato’s. **Panzanella** — stale bread revived with water and vinegar, tossed with tomatoes at their August peak, onion, basil and oil — is the season on a plate, and its quality tracks the tomato so directly that locals treat a great panzanella as proof of a great summer. Its companion **pappa al pomodoro**, the bread-and-tomato porridge served warm or room-temperature, does the same work in a softer register.
+
+Summer also stages Tuscany’s great **event foods**: the contrade dinners of [Palio week](/blog/palio-di-siena-guide), when Siena’s neighbourhoods set thousands of places at long tables in the streets — communal cooking as civic identity, glimpsable respectfully even by outsiders — and the sagra circuit of village food festivals that fills the countryside’s summer weekends with pici, wild boar and grilled everything.
+
+And the year’s sweetest anticipation stays humble: **gelato weather**, at full authority from June through August, with [the hardest month’s heat](/blog/tuscany-in-august-2026) as its best justification. By late August, the first coastal grapes are coming in — and the calendar bends back toward the vendemmia where this article began.`,
+      },
+      {
+        id: 'hunting-the-windows',
+        heading: 'How to catch the windows like a local',
+        body: `The calendar above gives the shape; on the ground, four habits find the actual food.
+
+**Read bakery counters as noticeboards.** The seasonal items are never advertised — they simply appear. A tray of grape-studded flatbread in September, powdered rags in February: the counter announces the season days before any menu does, so glance into every pasticceria you pass.
+
+**Shop the weekly market.** Every town’s market morning — Siena’s included — is the season rendered as stalls: the first fava pods, the porcini crates, the chestnut sacks. Ten minutes’ walk through it tells you exactly what to order at dinner.
+
+**Ask the five-word question.** *«Cosa c’è di stagione?»* — what’s in season? — asked of any waiter or stallholder, outperforms every listicle ever written, this one included. Tuscan kitchens love the question and answer it with the thing they are proudest of that week.
+
+![A convivial Sienese table set for the season’s eating](/images/siena/where-to-eat-in-siena-hero.webp)
+*The final verification step for everything in this article: a table, in season.*
+
+**Follow the sagra posters.** The village food-festival flyers taped to bar windows — sagra della polenta, del cinghiale, del tartufo — are rural Tuscany’s live seasonal feed, and [the where-to-eat groundwork](/blog/best-things-to-do-in-siena) does the rest.`,
+      },
+      {
+        id: 'the-planning-grid',
+        heading: 'The whole year on one screen',
+        body: `**September–October** — schiacciata all’uva; porcini; new-vintage energy. *Book: [the harvest weeks](/blog/tuscany-wine-harvest-vendemmia-2026).*
+
+**Late October–December** — olio nuovo and fettunta at the mills. *Book: [a frantoio visit](/blog/tuscany-olive-harvest-olio-nuovo-2026).*
+
+**November** — white truffle; San Miniato’s market weekends; castagnaccio. *Book: [the November window](/blog/tuscany-in-november-2026).*
+
+**December** — panforte and ricciarelli at home in Siena; market-stall eating on the Campo. *Book: [early December](/blog/tuscany-in-december-2026).*
+
+**Late January–Martedì Grasso** — cenci and schiacciata alla fiorentina; black truffle. *Book: [Carnival month](/blog/tuscany-in-february-2027).*
+
+**April–May** — raw baccelli with young pecorino; artichokes; the picnic holidays. *Book: any spring market town.*
+
+**June–August** — panzanella and the tomato peak; contrade dinners; the sagra circuit. *Book: [with the August playbook](/blog/tuscany-in-august-2026).*
+
+Two dishes need no calendar at all — ribollita and bistecca hold the fort year-round — and one rule covers everything above: **when a menu offers the seasonal thing in its season, order it without deliberation.** The kitchen is showing off what the year just delivered.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Seasonal windows in this guide reflect the traditions and harvest timings verified across our 2026 reporting: the vendemmia and schiacciata all’uva weeks, the olive harvest and olio nuovo season, the San Miniato white-truffle weekends (14–15, 21–22, 28–29 November 2026) and the San Quirico oil festival’s early-December pattern are all checked against the primary sources documented in the linked guides; the Carnival sweets’ windows follow the fixed liturgical calendar (Martedì Grasso falls on 9 February 2027); and the spring baccelli-and-pecorino tradition — the Easter Monday and May Day picnic pairing with young marzolino — was checked in August 2026 against Tuscan food-culture sources. Individual bakeries, mills and restaurants set their own calendars: treat every window here as the season’s shape, and the shop counter as the final authority. We have no affiliate relationship with any producer, restaurant or festival named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `There is a version of Tuscan eating that treats the region as a museum of greatest hits, available on demand. The better version — the one Tuscans practise — treats it as a broadcast schedule: the grape bread announcing September, the green oil announcing November, the fried rags announcing Carnival, the raw beans announcing spring. Plan a trip against this calendar and you stop being an audience and start being a participant: you will stand in the right bakery in the right week, order the thing that just arrived, and understand — one slice of sticky harvest bread in hand — why the locals spent all year waiting. Then you will spend all year waiting too, which is the dish’s final ingredient.`,
+      },
+    ],
+    [
+      { q: 'What food is Tuscany famous for seasonally?', a: 'The awaited classics: schiacciata all’uva in the September–October grape harvest, olio nuovo from late October through December, white truffle in November, panforte and ricciarelli at Christmas in Siena, cenci during Carnival, raw fava beans with young pecorino in spring, and panzanella at the summer tomato peak.' },
+      { q: 'When is olio nuovo season in Tuscany?', a: 'From the first pressings in late October through roughly the end of the year, with November the heart of it — the oil at its youngest, greenest and most peppery, classically eaten as fettunta on garlic-rubbed grilled bread.' },
+      { q: 'When can you eat schiacciata all’uva?', a: 'Only during the grape-harvest weeks, roughly September into October. Bakeries make it while the vendemmia runs and stop when it ends — no other month offers it.' },
+      { q: 'When is truffle season in Tuscany?', a: 'White truffle peaks in November — San Miniato’s market runs the last three weekends of November 2026 — with the gentler black winter truffle carrying December into early spring. Order it as a dish (tagliolini al tartufo) rather than buying a tuber unless you know your grams.' },
+      { q: 'What are cenci and when do you eat them?', a: 'Tuscany’s Carnival sweet: crisp fried ribbons of dough under icing sugar, on bakery counters from late January until Martedì Grasso (9 February in 2027) and gone within days of it, alongside Florence’s schiacciata alla fiorentina cake.' },
+      { q: 'What is the fava bean and pecorino tradition?', a: 'Spring’s ritual: raw baccelli shelled straight from the pod, eaten with young pecorino — ideally the mild spring marzolino — at the traditional Easter Monday and May Day picnics. The season runs April to late May.' },
+      { q: 'What is the best month for food in Tuscany?', a: 'For sheer overlap, November: white truffle and olio nuovo peak together, chestnuts and game fill the menus, and prices are low. For the fullest calendar of harvest theatre, September–October. Both beat summer for eating, if not for weather.' },
+      { q: 'Are panforte and ricciarelli only available at Christmas?', a: 'They are sold year-round in Siena, but December is their true season — bought whole from a pasticceria as Christmas food, in the city they belong to. The out-of-season versions exist for visitors; the December ones exist for Siena.' },
+    ],
+    '2026-08-15',
+    {
+      seoTitle: 'Tuscan Food Calendar: Seasonal Dishes Worth Timing a Trip For',
+      primaryKeyword: 'tuscany seasonal food',
+      secondaryKeywords: [
+        'what to eat in tuscany in autumn',
+        'olio nuovo season',
+        'truffle season tuscany',
+        'schiacciata all’uva when',
+        'tuscan christmas sweets',
+        'fave e pecorino tradition',
+        'best month for food in tuscany',
+      ],
+      imageAlt: 'Hand-rolled pici pasta with wild boar ragù, a classic of the Sienese cool season',
+      canonicalPath: '/blog/tuscan-food-calendar-seasonal-dishes',
+      tags: ['tuscany seasonal food', 'tuscan food calendar', 'olio nuovo', 'truffle season', 'tuscan traditions'],
+    }
+  ),
+  A(
+    'what-to-buy-in-tuscany-souvenirs',
+    'What to Buy in Tuscany: Souvenirs Worth Suitcase Space (and Where)',
+    'Practical tips',
+    'Tuscany',
+    'What to buy in Tuscany, honestly: the oil, saffron, sweets, wine and crafts that are really from here, where to buy each — and the traps to skip.',
+    '/images/siena/where-to-eat-in-siena-og.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `The best Tuscan souvenirs share one property: **they are actually from here, and better here than anywhere else you will ever buy them.** The shortlist we would carry home ourselves: a **tin of olive oil from the mill that pressed it**; a jar of **Zafferano di San Gimignano DOP** saffron; a whole **panforte** and a box of **ricciarelli** from a Sienese pasticceria; a wedge of **pecorino di Pienza**; a bottle each of **Brunello, Vino Nobile or Chianti Classico** — shipped by the producer if your luggage disagrees; and one piece of the region’s living crafts — **Florentine leather or marbled paper from the Oltrarno’s workshops, or Volterra alabaster** carved on the town that has worked it since the Etruscans. The rule underneath every entry: buy the thing **where it is made, from the people who made it** — and the traps section below covers what to leave on the shelf, including the counterfeit “bargains” Italian law fines *buyers* for.`,
+      },
+      {
+        id: 'the-rule',
+        heading: 'The one rule: buy at the source',
+        body: `Tuscany punishes generic souvenir shopping and rewards provenance like nowhere else. The same €15 can buy a mass-produced “Tuscan” trinket assembled elsewhere, or a kilo of pecorino aged by the family that milked the sheep — and the second one is usually *cheaper* at the farm than its lookalike is at the airport.
+
+The pattern this article repeats deliberately: every category has a **place of origin you can stand in** — the frantoio for oil, the pasticceria for panforte, the enoteca or cellar for wine, the bottega for leather and paper, the town of Volterra for alabaster — and buying there gets you three things at once: the genuine article, the better price, and the story that makes a souvenir worth its suitcase space. It also puts your money into the exact workshops and farms whose survival keeps Tuscany worth visiting, which is the closest thing travel shopping has to a moral dimension.
+
+The practical consequence for planning: **souvenir shopping in Tuscany is an itinerary feature, not an errand.** The buying happens *on* [the day trips this site already maps](/blog/siena-day-trips-without-a-car) — which is why each entry below names its territory.`,
+      },
+      {
+        id: 'olive-oil',
+        heading: 'The tin of oil: Tuscany’s best-value edible souvenir',
+        body: `We have called it this before and stand by it: **a tin of extra-virgin olive oil bought at the frantoio or farm that pressed it** is the single best-value gastronomic souvenir the region sells. In [the harvest season](/blog/tuscany-olive-harvest-olio-nuovo-2026) — late October onward — that means the year’s olio nuovo at its green, peppery peak; the rest of the year, the current vintage from the same producers.
+
+Buying rules that survive contact with a market stall, from [our olive-harvest guide’s label section](/blog/tuscany-olive-harvest-olio-nuovo-2026): prefer **tins or dark glass** over clear bottles; insist on a stated **harvest year**; understand the marks — **Toscano IGP** for region-wide assurance, the tighter **DOP names** (Chianti Classico, Terre di Siena, Seggiano, Lucca) for territory; and treat a bargain-priced “Tuscan style” bottle as exactly what the phrase admits. Real hand-picked early-harvest oil costs real money because it costs real money to make.
+
+Logistics: oil flies **in checked luggage only** — a sealed tin, wrapped in clothing, travels indestructibly — and larger purchases ship: most serious producers arrange it routinely. Size advice from experience: the 3- or 5-litre tin feels excessive at the mill and prescient by February.`,
+      },
+      {
+        id: 'saffron-and-sweets',
+        heading: 'Saffron, panforte and the sweets with a home town',
+        body: `**Zafferano di San Gimignano DOP** is the connoisseur’s pick of the whole list: a spice grown only within one municipality, protected since 2005, hand-picked at dawn in the autumn crocus harvest, with a trade pedigree [the town’s medieval ledgers document](/blog/san-gimignano-day-trip-from-siena-2026). A small jar of threads weighs nothing, survives any journey, and is — as our San Gimignano guide put it — the one souvenir there that is genuinely *of* that place. Buy it in town, from local producers, in thread form rather than powder.
+
+Siena’s counterpart is edible architecture: a **whole panforte** — dense, spiced, medieval, and a famously robust traveller — and **ricciarelli**, the soft almond biscuits, both bought from a city pasticceria rather than a souvenir shelf. [December is their true season](/blog/tuscany-in-december-2026), but they are made and sold year-round, and a panforte carried home whole and served in thin slices is the closest a suitcase gets to importing Siena.
+
+Round out the edible category with **pecorino di Pienza** from its home town’s shops (vacuum-sealing for travel is routine — ask), **cantucci with vin santo** as the classic pairing gift, and dried **porcini** in autumn. All of it fits [the food calendar’s seasonal logic](/blog/tuscan-food-calendar-seasonal-dishes): buy what the season just delivered.`,
+      },
+      {
+        id: 'wine',
+        heading: 'Wine: bottles, shipping and the labels that matter',
+        body: `The wine souvenir has a hierarchy of ambition. The modest version: a bottle or three of **Chianti Classico, Vernaccia di San Gimignano** (Italy’s first DOC, from 1966) or **Rosso di Montalcino**, wrapped in knitwear in the checked bag. The serious version: **Brunello di Montalcino or Vino Nobile di Montepulciano** bought at the cellar after [a booked tasting](/blog/val-dorcia-day-trip-from-siena-2026) — and here the smart move is usually not to carry at all: **most producers arrange shipping routinely**, it removes every airline variable, and it converts the purchase into a delivery that arrives home just as the holiday fades.
+
+Buying wisdom the enotecas themselves will confirm: buy what you actually tasted rather than what the label’s reputation suggests; the mid-range of a great producer usually beats the entry level of a famous name; and **vin santo** with cantucci makes the best wine-adjacent gift for non-collectors — distinctive, affordable, and unmistakably Tuscan.
+
+One warning transplanted from [the harvest guide](/blog/tuscany-wine-harvest-vendemmia-2026): if you are carrying rather than shipping, remember that bottles fly checked-only, and that a dedicated padded wine sleeve costs less than one broken Brunello.`,
+      },
+      {
+        id: 'crafts',
+        heading: 'The living crafts: leather, marbled paper, alabaster',
+        body: `Tuscany’s craft souvenirs divide into two economies — workshop and stall — and only one of them is worth your money.
+
+**Florentine leather** is the famous case. The tradition is real and centuries deep, and its honest home is the **Oltrarno** — the San Frediano, Santo Spirito and San Niccolò quarters whose botteghe form one of Europe’s densest concentrations of working artisans. A belt, bag or notebook bought from a workshop where you can see the bench beats anything from the stall economy around the famous squares, where “leather” spans every quality and origin the word can legally stretch to.
+
+**Marbled paper** — carta marmorizzata — is Florence’s quieter signature: a technique that reached the city on fifteenth-century trade routes and survives in generational workshops. Notebooks, boxes and sheets of hand-marbled paper are light, flat, inexpensive and unmistakably Florentine — the traveller’s ideal craft souvenir.
+
+**Volterra alabaster** completes the set: the town has carved its translucent stone since **Etruscan times** and remains Italy’s one significant centre still working it traditionally. Buy in Volterra itself — [the real one, no vampires](/blog/tuscany-on-screen-film-locations-2026) — from workshops rather than generic gift shops.
+
+![An artisan street in Florence’s Oltrarno district](/images/florence/oltrarno-artisan-street.webp)
+*The Oltrarno’s botteghe: the difference between a souvenir and a stall trinket is a workbench you can see.*`,
+      },
+      {
+        id: 'wearables-and-saldi',
+        heading: 'Wearables, the saldi, and when fashion shopping makes sense',
+        body: `Tuscany’s wearable shopping runs from artisan to industrial, and timing changes the mathematics. Florence remains a serious fashion city — the streets around Via Tornabuoni for the headline names, the Oltrarno for made-to-last leather goods — and [the regulated winter saldi](/blog/tuscany-in-january-2027) turn January and February into the year’s buying window, with genuine storewide discounts under a rule-bound national system rather than perpetual fake “sales”.
+
+The honest guidance by budget: at the artisan end, buy the thing you watched being finished; at the fashion end, buy in the saldi or accept full boutique price with grace; and at the stall end — the €20 “cashmere” scarf, the €40 “leather” jacket — apply the counterfeit section below before parting with anything.
+
+The sleeper wearable souvenir nobody plans and everybody uses: **proper Italian-made gloves, scarves or knitwear from ordinary good shops** in Florence or Siena — the kind residents buy — which outlast novelty purchases by years and carry the quieter kind of provenance. In [winter months](/blog/tuscany-in-february-2027), buying them mid-trip doubles as weather strategy — and years later, the pair of Florentine gloves that outlived three winters will have quietly become the most-used souvenir of the entire trip, which is its own definition of value.`,
+      },
+      {
+        id: 'what-not-to-buy',
+        heading: 'What not to buy: the five traps',
+        body: `**1. Counterfeits — the trap with a fine attached.** Italian law targets the *buyer* of fake designer goods, not just the seller: purchases from street vendors can draw fines reported at up to **€7,000**, with enforcement active in tourist shopping areas, precisely to protect the artisan economy this article keeps pointing you toward. However friendly the price of the “Gucci” on the blanket, the transaction is illegal on your side of it too.
+
+**2. “Tuscan-style” oil.** The phrase is a confession. If the label names no producer, no harvest year and no place, it is a bottle of marketing — [the label rules](/blog/tuscany-olive-harvest-olio-nuovo-2026) take ten seconds to apply.
+
+**3. Most “truffle oil”.** The cheap ubiquitous version is typically aroma-compound flavouring that never met a truffle. In [truffle season](/blog/tuscany-in-november-2026), buy preserved truffle products from the market dealers or eat the real thing instead.
+
+**4. Beach souvenirs that are the beach.** Sand, shells and stones from protected coasts are [prohibited to remove and penalised](/blog/italy-beach-rules-2026) — the postcard costs less than the fine.
+
+**5. The made-elsewhere shelf.** Fridge magnets, aprons and “Italian” ceramics with suspiciously global supply chains — harmless, but they spend the same euros a bottega was hoping for. When in doubt, apply the article’s rule: can you stand where it was made?`,
+      },
+      {
+        id: 'getting-it-home',
+        heading: 'Getting it all home',
+        body: `The logistics, condensed. **Liquids** — oil, wine, vin santo — travel in checked luggage under standard airline liquid rules, wrapped in the centre of the bag; tins beat bottles, padded sleeves beat optimism, and above two or three bottles the producer-shipping conversation beats everything. **Cheese** travels happily vacuum-sealed (ask the shop — it is routine) and survives a day of transit without refrigeration in all but high summer. **Panforte** is the suitcase’s most forgiving passenger; ricciarelli want a tin against crushing. **Saffron, dried porcini, marbled paper** — weightless, crushproof at the top of the bag.
+
+**Crafts**: leather needs nothing; alabaster wants clothing-wrap and a spot away from the wheels; anything genuinely fragile is a shipping conversation at purchase, not a packing problem at midnight.
+
+**Customs sense**: within the EU, movement is free for personal quantities. Beyond it — UK, US, Australia especially — check your own country’s food-import rules before flying: cured meats are commonly restricted, hard aged cheese and sealed commercial products usually travel legitimately, and declaring honestly costs minutes while gambling costs the ricciarelli. Rules differ by country and change — verify yours close to travel.`,
+      },
+      {
+        id: 'city-map',
+        heading: 'The quick map: what to buy where',
+        body: `**Siena** — panforte and ricciarelli from a pasticceria; pici and local pecorino from the food shops; [Terre di Siena DOP oil](/blog/tuscany-olive-harvest-olio-nuovo-2026); wine from an enoteca after tasting. Peak occasion: [the Mercato nel Campo’s December weekend](/blog/tuscany-in-december-2026).
+
+**Florence** — Oltrarno leather and marbled paper from working botteghe; fashion in [the saldi window](/blog/tuscany-in-january-2027); food-market treats from the market halls.
+
+**San Gimignano** — saffron threads (DOP) and Vernaccia, [both genuinely of the town](/blog/san-gimignano-day-trip-from-siena-2026).
+
+**Pienza and the Val d’Orcia** — pecorino at its source; Brunello and Vino Nobile [at the cellars](/blog/val-dorcia-day-trip-from-siena-2026); oil at the farm gates.
+
+**Volterra** — alabaster from the workshops of its only traditional home.
+
+**The countryside mills and farms** — the oil tin, [in season above all](/blog/tuscan-food-calendar-seasonal-dishes), plus honey, dried herbs and the farm-gate extras that never reach shops.
+
+The pattern holds everywhere: the town’s *thing*, bought in the town, from its makers. Plan the shopping *into* the day trips rather than around them — the frantoio purchase happens on the harvest morning, the saffron jar on the San Gimignano day, the alabaster on the Volterra detour — and the suitcase fills itself without a single hour spent “souvenir shopping” as an activity, which is exactly how the region intends it.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked in August 2026: the craft traditions — the Oltrarno’s standing as one of Europe’s densest working-artisan quarters with its leather, marbled-paper, gilding and bookbinding lineages; Florentine paper marbling’s fifteenth-century arrival via trade routes; and Volterra’s position as Italy’s one significant centre still working alabaster traditionally, on an Etruscan-era lineage — against Tuscan tourism and craft-heritage sources. The buyer-side counterfeit penalties (fines reported up to €7,000, with active enforcement in tourist shopping areas) reflect Italy’s anti-counterfeiting framework as described in current travel-law reporting — the principle is settled even where individual penalty amounts vary by case. Food and wine provenance facts (saffron DOP, oil labels, first-DOC Vernaccia, harvest seasons) carry over from the primary-source checks documented in the linked guides. Customs allowances differ by destination country — verify your own rules close to travel. We have no affiliate relationship with any shop, producer, workshop or platform; recommendations are editorial, and no individual businesses are named by design.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `The souvenir question is really the trip question in miniature: did you visit Tuscany, or a gift-shop rendering of it? Every entry on this list answers the same way — the oil from the press, the saffron from the one town on earth entitled to the name, the paper from the bench where it was combed into pattern, the cake that has outlived every empire since it was first pressed. Pack light on the way out, buy where you can shake the maker’s hand, ship what deserves shipping — and months from now, when the tin runs low and the panforte is a memory, you will discover the real function of a proper souvenir: it is not a reminder of the trip. It is the argument for the next one.`,
+      },
+    ],
+    [
+      { q: 'What is Tuscany famous for buying?', a: 'Olive oil bought at the mill, Siena’s panforte and ricciarelli, San Gimignano’s DOP saffron, pecorino di Pienza, the great red wines (Brunello, Vino Nobile, Chianti Classico), Florentine leather and marbled paper from the Oltrarno’s workshops, and Volterra alabaster.' },
+      { q: 'What is the best food souvenir from Tuscany?', a: 'A tin of extra-virgin olive oil from the frantoio that pressed it — the region’s best-value edible purchase, especially in the olio nuovo season from late October. A whole panforte from a Sienese pasticceria is the most travel-proof runner-up.' },
+      { q: 'Can you take olive oil and wine on a plane from Italy?', a: 'In checked luggage, yes, under standard liquid rules — tins and padded sleeves recommended. Beyond two or three bottles, ask the producer about shipping: most arrange it routinely and it removes every airline variable.' },
+      { q: 'Is it illegal to buy fake designer goods in Italy?', a: 'Yes — the law targets buyers as well as sellers, with fines reported at up to €7,000 and active enforcement in tourist shopping areas. The street-vendor “bargain” is an offence on your side of the transaction too.' },
+      { q: 'Where should you buy leather in Florence?', a: 'From working workshops — the Oltrarno quarters of San Frediano, Santo Spirito and San Niccolò hold one of Europe’s densest concentrations of artisans. A bench you can see beats any stall around the famous squares.' },
+      { q: 'What is special about Volterra alabaster?', a: 'Volterra has carved its translucent local stone since Etruscan times and is Italy’s one significant centre still working alabaster by traditional methods. Buy it in the town’s workshops, at the only source that matters.' },
+      { q: 'When is the best time to shop in Tuscany?', a: 'For food, the autumn harvest season, when the new oil, truffles and the year’s produce peak. For fashion, the regulated winter saldi from early January. For crafts, any month — the workshops work year-round.' },
+      { q: 'Can you bring Tuscan cheese and salami home?', a: 'Within the EU, yes in personal quantities. To the UK, US or Australia, check your country’s food-import rules first: cured meats are commonly restricted, while vacuum-sealed aged cheese usually travels legitimately. Declare honestly — rules change and vary by country.' },
+    ],
+    '2026-08-16',
+    {
+      seoTitle: 'What to Buy in Tuscany: The Souvenirs Actually Worth It (2026)',
+      primaryKeyword: 'what to buy in tuscany',
+      secondaryKeywords: [
+        'tuscany souvenirs',
+        'best souvenirs from florence',
+        'what to buy in siena',
+        'tuscan olive oil souvenir',
+        'san gimignano saffron',
+        'florence leather shopping',
+        'volterra alabaster',
+      ],
+      imageAlt: 'A Sienese food table — the edible side of Tuscany’s best souvenirs',
+      canonicalPath: '/blog/what-to-buy-in-tuscany-souvenirs',
+      tags: ['tuscany souvenirs', 'what to buy in tuscany', 'tuscan crafts', 'olive oil', 'florence shopping'],
     }
   ),
 ];
