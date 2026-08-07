@@ -7467,6 +7467,153 @@ The pattern holds everywhere: the town’s *thing*, bought in the town, from its
       tags: ['tuscany souvenirs', 'what to buy in tuscany', 'tuscan crafts', 'olive oil', 'florence shopping'],
     }
   ),
+  A(
+    'via-francigena-day-walk-siena',
+    'Walk the Via Francigena for a Day: Siena’s Ancient Pilgrim Road',
+    'Things to do',
+    'Tuscany',
+    'Walk one day of the Via Francigena from Siena: the Monteriggioni stage, the medieval arrival on foot, credentials, seasons and honest trail advice.',
+    '/images/tuscany/tuscany-hidden-gems-monteriggioni.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Threading right through this site’s home territory runs one of Europe’s great journeys: the **Via Francigena**, the medieval pilgrim road from Canterbury to Rome, whose official Tuscan route passes San Gimignano, Monteriggioni, Siena and San Quirico d’Orcia in turn. You do not need weeks, boots-hardened feet or religion to taste it — **one day does it**. The stage to walk is **Monteriggioni to Siena: around fifteen kilometres** of cypress-lined hills, country churches and farm tracks, ending with the one arrival no bus can sell you — walking into Siena the way every traveller arrived for a thousand years. Ambitious walkers can take the full **San Gimignano–Monteriggioni stage (just under thirty kilometres)** instead. The route is officially waymarked, the season matters, and the details — logistics, credentials, and what a day on the road actually feels like — are below.`,
+      },
+      {
+        id: 'what-is-the-francigena',
+        heading: 'What the Via Francigena actually is',
+        body: `In the year 990, Sigeric, Archbishop of Canterbury, walked home from Rome and noted his seventy-nine overnight stops — and that itinerary, recorded by a tired Anglo-Saxon cleric, became the spine of the **Via Francigena**, “the road from Francia”: the great medieval corridor along which pilgrims, merchants, armies and ideas moved between northern Europe and Rome for centuries.
+
+Today it is a revived, officially waymarked **Council of Europe Cultural Route** running some two thousand kilometres from Canterbury to Rome — the Camino de Santiago’s quieter, arguably more beautiful sibling — and its Tuscan section is the showpiece: roughly four hundred kilometres entering at the Cisa Pass and running south in stages of fifteen to thirty kilometres, straight through the towns this site spends its life writing about. [San Gimignano’s towers](/blog/san-gimignano-day-trip-from-siena-2026) grew rich feeding and fleecing Francigena pilgrims; **Monteriggioni’s walls** were built to watch the road; Siena itself boomed as the route’s great city; and [San Quirico d’Orcia](/blog/tuscany-in-december-2026) still keeps its pilgrim hospital church.
+
+Which means something quietly wonderful for a visitor based in Siena: **the region’s most famous day-trip towns are not a scatter of attractions — they are stops on one road**, and you can walk it.`,
+      },
+      {
+        id: 'why-one-day',
+        heading: 'Why one day is the honest recommendation',
+        body: `The full Tuscan Francigena is a two-week undertaking, and the Canterbury–Rome whole a trip of months — magnificent, and not what this article proposes. The one-day version exists for the same reason [our other guides](/blog/siena-day-trips-without-a-car) keep recommending depth over coverage: a single stage, walked slowly, delivers the essential experience — the rhythm, the waymarks, the landscape unrolling at three kilometres an hour, the arrival earned rather than delivered — without committing your holiday to blisters.
+
+It is also the rare Tuscan activity that inverts the usual economics: **it is almost free**. No tickets, no timed entry, no queue — a bus fare out, a picnic [bought like a local](/blog/tuscan-food-calendar-seasonal-dishes), and a day of the same country that tour vehicles photograph through glass.
+
+And it solves a problem this site hears constantly: travellers who love the *idea* of the Tuscan landscape but experience it only as scenery between parking. A Francigena stage is the landscape as a place you are *in* — the cypress avenue at footstep speed, the farm dog, the chapel bell — which is the version every photograph was always trying to capture.`,
+      },
+      {
+        id: 'the-stage',
+        heading: 'The stage to walk: Monteriggioni to Siena',
+        body: `The day-walk of choice is the route’s final approach to Siena: **Monteriggioni to Siena, around fifteen kilometres**, a half-day’s unhurried walking through exactly the country the postcards promise — cypress-lined farm roads, olive groves, country pievi (parish churches), and long views that assemble themselves toward Siena’s towers as you close in.
+
+It starts perfectly: **Monteriggioni**, the tiny ring-walled outpost [our hidden-gems guide loves](/blog/hidden-gems-around-siena-tuscany-2026), was built by Siena in the thirteenth century precisely to guard this road — Dante name-checked its crown of towers — and leaving through its gate *on foot, southbound* is as close to time travel as Tuscany offers. The middle hours are farm country: gravel strade bianche, oak shade, the official waymarks doing the navigation. The finale is the point of the whole exercise: entering Siena through its northern gate at walking pace, [Camollia-side](/blog/where-to-stay-in-siena), the way the city was designed to be entered — with the Campo, an aperitivo and your own accommodation waiting as the medieval pilgrim’s reward, upgraded.
+
+Fitness required: moderate — it is countryside walking with rolling climbs, not mountaineering. Time: four to six hours plus stops, which leaves a full Sienese evening on the far side. Direction: **walk toward Siena**, always — the arrival is the prize, and the logistics agree, as the next section shows.`,
+      },
+      {
+        id: 'logistics',
+        heading: 'The logistics: out by bus, home on foot',
+        body: `The day works because Siena is your base and the walk *ends* at your door. The pattern: a **morning regional bus from Siena out to Monteriggioni** — the village sits on the Siena–Poggibonsi corridor, a short ride; check the current timetable on the Autolinee Toscane planner [with the usual discipline](/blog/siena-day-trips-without-a-car) — then coffee inside the walls, and boots south by mid-morning. No return transport to plan, no car park, no ZTL: the walk delivers you home.
+
+Carry the day-walker’s kit: **two litres of water per person** (refill at village fountains), a picnic from Siena’s food shops, sun protection sized to the season, and the footwear rule that decides everything — worn-in walking shoes or light boots, never box-fresh anything. [The packing checklist](/blog/tuscany-packing-checklist) covers the seasonal layers.
+
+Navigation is the easy part: the route carries the **official Via Francigena waymarking** — the pilgrim signs and stickers that appear at every junction that matters — and the official association publishes maps and GPS tracks for anyone who wants a screen backup. Our standing advice: download the official resources rather than improvising from a general map app, which does not know a strada bianca from a driveway.
+
+Walkers wanting the *harder* day take the previous stage instead — **San Gimignano to Monteriggioni, just under thirty kilometres** — a genuine full stage for genuinely fit walkers, reached by [the morning 130 bus](/blog/san-gimignano-day-trip-from-siena-2026) and finishing with the Monteriggioni bus home.`,
+      },
+      {
+        id: 'five-scenes',
+        heading: 'What the day actually feels like: the stage in five scenes',
+        body: `**Scene one: the gate.** Monteriggioni before the coaches — espresso inside the walls, the piazza still shuttered, and then the southern gate and the first waymark, pointing at open country. The village that exists in most visitors’ memories as a twenty-minute photo stop becomes, in one step, a departure point — which is what it was built to be.
+
+**Scene two: the white roads.** The middle hours belong to the strade bianche — the gravel farm roads that carry the route through olive terraces and oak wood, past working farmhouses and the occasional Romanesque country church that has watched this exact traffic for eight centuries. The soundtrack is footsteps, cicadas in season, and a tractor somewhere being Tuscan.
+
+**Scene three: the picnic.** Mid-stage, shade and a view align, and the market picnic earns its carriage. This is the hour that converts walkers into repeat walkers.
+
+**Scene four: the reveal.** At some rise in the final third — every walker remembers theirs — Siena’s towers assemble on the horizon for the first time, exactly as they did for every pilgrim who ever walked this approach, and the remaining kilometres reorganise themselves around that skyline.
+
+**Scene five: the gate again.** Entering the city on foot through the Camollia side, cobbles replacing gravel, the street noise rising — and then the Campo, and a seat, and the specific quality of an aperitivo that has been walked for. No arrival by wheel resembles it. Porta Camollia’s inscription famously greets arrivals with Siena’s open heart — a welcome written, fittingly, for people arriving exactly the way you just did.`,
+      },
+      {
+        id: 'credential',
+        heading: 'Credentials, stamps and the truth about the Testimonium',
+        body: `The Francigena has its own pilgrim paperwork, and one honest clarification saves disappointment. The **credential** — the pilgrim passport, issued through the route’s official association — is the document you have stamped at churches, bars and town offices along the way, and it is worth carrying even for a single stage: the stamps are the route’s native souvenir, and [unlike most souvenirs](/blog/what-to-buy-in-tuscany-souvenirs), this one can only be earned.
+
+The **Testimonium**, however — the official certificate of pilgrimage awarded in Rome, the Francigena’s answer to the Camino’s Compostela — requires walking **at least the final hundred kilometres into Rome**. A Sienese day stage, however lovely, does not qualify, and no guide that respects you should imply otherwise. What your day *does* earn: a stamped credential page from one of the route’s most beautiful stages, the knowledge of what the road actually feels like — and, in our experience of such things, the quiet beginning of a plan to come back and walk the hundred.
+
+Treat the paperwork as the garnish, not the meal. The stage itself — the road, the pace, the arrival — is the thing, and it needs no certificate to have happened; the aperitivo at the end notarises it perfectly well.`,
+      },
+      {
+        id: 'when-to-walk',
+        heading: 'When to walk it',
+        body: `The stage obeys [the same calendar as everything here](/blog/best-time-to-visit-tuscany), sharpened by exposure and effort.
+
+**Best: late September through October** — [harvest country underfoot](/blog/tuscany-in-october-2026), walking temperatures, the vendemmia animating the farms you pass, and the autumn light doing the cinematography. **May and early June** run it close, green and flower-lined. **Spring and autumn shoulder days** need only a rain layer and a flexible attitude.
+
+**Summer demands the dawn version**: in [July and August](/blog/tuscany-in-august-2026) this is an exposed, shadeless-in-stretches route that should be finished by early afternoon — first bus out, walk done by one, Campo aperitivo by five. Doable, done every year, and only sensible with [the heat playbook](/blog/florence-summer-heat-survival-tips-2026) fully applied.
+
+**Winter is for the equipped**: [November through February](/blog/tuscany-in-november-2026) offer empty tracks, bare-hill beauty and short days that argue for the earliest start and a hard turnaround time — mud-ready footwear obligatory, and the reward is having a thousand-year-old road entirely to yourself.`,
+      },
+      {
+        id: 'trail-craft',
+        heading: 'Trail craft: the five habits of a good stage',
+        body: `**1. Start earlier than feels necessary.** Every hour before ten is worth two after noon — for heat, light and the pleasure of empty track.
+
+**2. Follow the waymarks, not your instincts.** The official signs have absorbed centuries of route-finding; when a shortcut tempts, remember it has tempted everyone since Sigeric, and the waymarked way exists because the shortcuts ended badly.
+
+**3. Refill at every fountain.** Tuscan villages keep public water running; passing one with capacity to spare is the day’s only genuinely amateur move.
+
+**4. Eat like the road expects.** A real picnic at a real viewpoint mid-stage — pecorino, bread, fruit, [assembled from a Sienese market](/blog/tuscan-food-calendar-seasonal-dishes) — beats arriving hungry and beats every roadside compromise.
+
+**5. Leave the road as found.** Gates closed, farms unphotographed-at-close-range, greetings returned — *buongiorno* works on every pilgrim and every farmer — and nothing carried in left behind. The Francigena survives on the goodwill of the working countryside it crosses; walkers are its guests, [as everywhere in this region](/blog/florence-tourist-rules-2026).
+
+![Cypress trees and rolling hills along the road south of Siena](/images/tuscany/val-dorcia-cypress-trees-landscape.jpg)
+*The road at footstep speed: what every photograph of Tuscany was trying to capture.*`,
+      },
+      {
+        id: 'beyond-the-day',
+        heading: 'If the day hooks you',
+        body: `It tends to. The natural escalations, in order: the **San Gimignano–Monteriggioni stage** for the full-length experience; a **two-day mini-pilgrimage** — San Gimignano to Siena with the Monteriggioni night between, luggage light, [rooms booked ahead](/blog/where-to-stay-in-siena); the **southern continuation** through the Val d’Orcia, where the route threads [San Quirico and the postcard country](/blog/val-dorcia-day-trip-from-siena-2026); and eventually — the one they all lead to — **the final hundred kilometres into Rome**, Testimonium and all, for which your Sienese stage will turn out to have been the audition.
+
+For any multi-day version, graduate from this article to the official association’s resources — stage guides, GPS tracks, accommodation lists for pilgrims — which are the proper tools for the proper undertaking. Our lane is the day that starts and ends with [a Siena base](/blog/where-to-stay-in-siena); theirs is the road to Rome.
+
+Either way, you will have joined a select statistic: of the millions who visit this region yearly, the fraction who have actually *walked* any of the road that built it rounds to zero. The view is better from inside that fraction.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked in August 2026 against the route’s official and regional tourism documentation: the Via Francigena’s Canterbury–Rome course on Archbishop Sigeric’s recorded 990 itinerary and its status as an officially waymarked Council of Europe Cultural Route; the Tuscan section’s roughly four-hundred-kilometre course in stages of fifteen to thirty kilometres; the Monteriggioni–Siena stage at around fifteen kilometres and the San Gimignano–Monteriggioni stage at just under thirty; and the Testimonium’s requirement of walking at least the final hundred kilometres into Rome. Bus connections follow the Autolinee Toscane network — verify current timetables on the official planner before walking, and use the route association’s official maps and GPS resources for navigation rather than this article, which is a planning guide, not a trail guide. We have no affiliate relationship with any operator, association or accommodation; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Every other article on this site moves you through Tuscany at machine speed — bus, train, rental car — and the region is generous enough to be wonderful at all of them. But it was built at walking pace, by people moving along one road, and for one day that road is still there, waymarked and waiting, between a ring of thirteenth-century walls and the gate of Siena. Take the morning bus out. Buy the picnic. Follow the signs south. And somewhere in the third hour — cypress shade, gravel underfoot, towers assembling on the horizon — you will understand something about this place that no vehicle window has ever once delivered: Tuscany is not scenery. It is a road, and you are finally on it.`,
+      },
+    ],
+    [
+      { q: 'What is the Via Francigena?', a: 'The medieval pilgrim road from Canterbury to Rome, based on the itinerary Archbishop Sigeric recorded in 990, revived today as an officially waymarked Council of Europe Cultural Route. Its Tuscan section passes San Gimignano, Monteriggioni, Siena and the Val d’Orcia.' },
+      { q: 'Can you walk the Via Francigena in one day?', a: 'One stage, yes — and it is the honest way to taste the route. The classic day is Monteriggioni to Siena, around fifteen kilometres of waymarked farm roads and cypress hills, ending with the medieval arrival into Siena on foot.' },
+      { q: 'How hard is the Monteriggioni to Siena walk?', a: 'Moderate: rolling countryside walking of four to six hours plus stops, on gravel roads and tracks. Worn-in shoes, two litres of water and sun protection cover the requirements; it is a walk, not a trek.' },
+      { q: 'How do you get to the start without a car?', a: 'A short morning regional bus from Siena reaches Monteriggioni on the Poggibonsi corridor — check current times on the Autolinee Toscane planner. The walk then ends at your Siena base, so there is no return transport to arrange.' },
+      { q: 'Do you get a certificate for walking one stage?', a: 'No — the Testimonium, the official pilgrim certificate issued in Rome, requires walking at least the final hundred kilometres into the city. A day stage earns stamps in the pilgrim credential instead, the route’s own souvenir.' },
+      { q: 'When is the best time to walk the Via Francigena in Tuscany?', a: 'Late September through October for harvest country and walking temperatures, with May and early June close behind. In July and August walk at dawn and finish by early afternoon; in winter, start early and expect mud and solitude.' },
+      { q: 'Is the route signposted?', a: 'Yes — official Via Francigena waymarks carry the navigation at every meaningful junction, and the route association publishes maps and GPS tracks as backup. Follow the signs rather than improvised shortcuts.' },
+      { q: 'What is the harder one-day option?', a: 'The full San Gimignano to Monteriggioni stage: just under thirty kilometres, a genuine pilgrim stage for fit walkers, reached by the morning 130 bus from Siena and finished with the short bus home from Monteriggioni.' },
+    ],
+    '2026-08-17',
+    {
+      seoTitle: 'Via Francigena Day Walk from Siena: The Pilgrim Road in One Day',
+      primaryKeyword: 'via francigena day walk',
+      secondaryKeywords: [
+        'via francigena tuscany stages',
+        'monteriggioni to siena walk',
+        'via francigena siena',
+        'walking in tuscany one day',
+        'via francigena testimonium requirements',
+        'san gimignano to monteriggioni',
+      ],
+      imageAlt: 'The walled village of Monteriggioni, built to guard the Via Francigena',
+      canonicalPath: '/blog/via-francigena-day-walk-siena',
+      tags: ['via francigena', 'walking in tuscany', 'monteriggioni', 'pilgrimage routes', 'slow travel'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
