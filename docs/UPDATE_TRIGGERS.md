@@ -54,3 +54,9 @@ First editing session of each month: skim this file top to bottom (5 min),
 fire any triggered rows, and re-run `python tools/audit_content.py` after
 edits. September 2026's session is the big one: triggers 1, 9 and 12 all
 likely fire.
+
+## Added August 2026
+
+| # | Trigger | Expected when | Verify against | Articles | Change | Done |
+| --- | --- | --- | --- | --- | --- | --- |
+| 14 | Ministry of Health summer heat-bulletin season ends / restarts | bulletins run in summer months each year | salute.gov.it heat pages | `florence-summer-heat-survival-tips-2026`, `tuscany-in-august-2026` | Keep the bollino-rosso reference seasonal; re-verify the bulletin's format each May |  |

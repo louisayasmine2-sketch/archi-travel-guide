@@ -2807,6 +2807,8 @@ Safe travels — Venice is waiting, and now you’re fully prepared from your Tu
         heading: 'Understanding Florence Heat in July 2026',
         body: `Florence in July 2026 continues to battle intense summer heat, with lingering effects from the recent heat dome and ongoing high temperatures. Independent travellers on X are sharing stories of midday exhaustion, long queues in direct sun, and the need to completely rethink daily plans. The good news? With smart adjustments, you can still experience the Duomo, the Uffizi, Ponte Vecchio, and the magic of the Arno River without heat exhaustion derailing your trip.
 
+One official tool worth knowing (added to this guide August 2026): Italy’s Ministry of Health publishes a daily summer heat-warning bulletin for major cities, Florence included, using a colour scale that peaks at the level-3 “bollino rosso” (red sticker) — the state’s highest heat-health alert, issued repeatedly across Italian cities this summer. Check the current colour for Florence on the ministry’s heat pages when planning demanding days: a red-alert day is the day to run this article’s indoor-first playbook in full.
+
 July is traditionally Florence’s hottest month. Daytime highs regularly reach 35–38°C (95–100°F), with peaks approaching or exceeding 40°C during active heat domes. Perceived temperatures often feel 3–5°C higher due to humidity and the city’s stone-paved historic centre, which traps heat like a natural bowl. Overnight lows hover around 20–25°C, creating “tropical nights” that offer little relief.
 
 According to Italy’s Ministry of Health, red-alert days (bollino rosso) signal health risks for everyone — not just vulnerable groups — and authorities advise limiting outdoor exposure between 11 a.m. and 5 p.m. The urban layout, combined with the persistence of high-pressure systems, makes Florence hotter than many coastal Tuscan areas. Planning around these realities is essential for independent visitors who prefer exploring on foot.`,
@@ -2878,7 +2880,7 @@ Explore more Florence guides at [/florence](/florence/), discover broader Tuscan
         a: 'Prioritise breathable linen or cotton clothing, a wide-brimmed hat, SPF 50+ sunscreen, comfortable walking shoes, a reusable water bottle, and a portable fan. A modest scarf for church dress codes and electrolyte packets complete the essentials. For a full list, see our Tuscany packing list.',
       },
     ],
-    '2026-07-17',
+    '2026-08-06',
     {
       seoTitle: 'Florence Summer Heat Survival Tips 2026: Stay Cool & Beat the Heat',
       primaryKeyword: 'florence summer heat survival tips 2026',
