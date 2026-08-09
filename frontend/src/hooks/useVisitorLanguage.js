@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { BANNER_STRINGS, pickLanguage } from "@/lib/geoLanguage";
+import { BANNER_STRINGS, isDismissalActive, pickLanguage } from "@/lib/geoLanguage";
 
 const DISMISS_KEY = "archi_lang_banner_dismissed";
 const COUNTRY_CACHE_KEY = "archi_geo_country";
@@ -38,14 +38,14 @@ async function fetchCountry() {
 
 // Suggests a language for the visitor based on the country their IP resolves
 // to (browser language as fallback). Returns { suggestion, dismiss }, where
-// suggestion is { lang, strings } or null. A dismissal is remembered across
-// visits.
+// suggestion is { lang, strings } or null. A dismissal holds for
+// DISMISS_TTL_MS, after which the suggestion may appear once more.
 export default function useVisitorLanguage() {
   const [suggestion, setSuggestion] = useState(null);
 
   useEffect(() => {
     try {
-      if (localStorage.getItem(DISMISS_KEY)) return;
+      if (isDismissalActive(localStorage.getItem(DISMISS_KEY))) return;
     } catch (_) { /* ignore */ }
 
     let cancelled = false;
@@ -65,7 +65,7 @@ export default function useVisitorLanguage() {
   }, []);
 
   const dismiss = () => {
-    try { localStorage.setItem(DISMISS_KEY, "1"); } catch (_) { /* ignore */ }
+    try { localStorage.setItem(DISMISS_KEY, String(Date.now())); } catch (_) { /* ignore */ }
     setSuggestion(null);
   };
 

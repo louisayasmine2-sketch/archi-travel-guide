@@ -224,5 +224,6 @@ How it works:
   back to the browser language; with an English browser locale the banner
   simply never shows.
 - A dismissal is remembered in localStorage under
-  `archi_lang_banner_dismissed`; the detected country is cached per session
-  under `archi_geo_country`.
+  `archi_lang_banner_dismissed` for 30 days (`DISMISS_TTL_MS` in
+  `src/lib/geoLanguage.js`), after which the suggestion may appear once more;
+  the detected country is cached per session under `archi_geo_country`.

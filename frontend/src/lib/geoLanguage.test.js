@@ -1,7 +1,9 @@
 import {
   BANNER_STRINGS,
   COUNTRY_LANGUAGES,
+  DISMISS_TTL_MS,
   buildTranslateUrl,
+  isDismissalActive,
   pickLanguage,
 } from "./geoLanguage";
 
@@ -51,6 +53,24 @@ describe("data integrity", () => {
       expect(strings.translate).toBeTruthy();
       expect(strings.dismiss).toBeTruthy();
     }
+  });
+});
+
+describe("isDismissalActive", () => {
+  const now = 1_754_000_000_000;
+
+  it("holds within the TTL and expires after it", () => {
+    expect(isDismissalActive(String(now - 1000), now)).toBe(true);
+    expect(isDismissalActive(String(now - DISMISS_TTL_MS + 1000), now)).toBe(true);
+    expect(isDismissalActive(String(now - DISMISS_TTL_MS - 1000), now)).toBe(false);
+  });
+
+  it("treats missing or unreadable values as expired", () => {
+    expect(isDismissalActive(null, now)).toBe(false);
+    expect(isDismissalActive("", now)).toBe(false);
+    expect(isDismissalActive("not-a-number", now)).toBe(false);
+    // Pre-TTL format stored "1" — decades old, so the banner may return.
+    expect(isDismissalActive("1", now)).toBe(false);
   });
 });
 

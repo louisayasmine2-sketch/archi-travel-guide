@@ -164,6 +164,21 @@ export function pickLanguage(country, browserLanguages = []) {
   return matchOffered(browserLanguages[0]);
 }
 
+// How long a dismissal keeps the banner away. After this the suggestion may
+// appear once more — a returning visitor's situation can change, but nagging
+// every visit would train people to ignore the strip entirely.
+export const DISMISS_TTL_MS = 30 * 24 * 60 * 60 * 1000;
+
+// Whether a stored dismissal (a Date.now() string) is still in force.
+// Unreadable values — including the pre-TTL format that stored "1" — count
+// as expired, so the banner may show again.
+export function isDismissalActive(stored, now = Date.now()) {
+  if (!stored) return false;
+  const ts = Number(stored);
+  if (!Number.isFinite(ts)) return false;
+  return now - ts < DISMISS_TTL_MS;
+}
+
 // Google Translate's page-translation endpoint for the current page.
 export function buildTranslateUrl(lang, pageUrl) {
   return `https://translate.google.com/translate?sl=en&tl=${encodeURIComponent(
