@@ -7935,6 +7935,179 @@ One week, three festivals, two seasons, and the year’s pivot witnessed from th
       tags: ['tuscany in march', 'easter in tuscany', 'scoppio del carro', 'tuscany spring', 'florence traditions'],
     }
   ),
+
+  A(
+    'giostra-del-saracino-arezzo-2026',
+    'Giostra del Saracino 2026: Arezzo Runs Its 150th Joust on 6 September',
+    'Day trips',
+    'Tuscany',
+    'Arezzo runs the 150th Giostra del Saracino on 6 September 2026: how the joust works, verified ticket prices and dates, and the day trip by train.',
+    '',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `On **Sunday 6 September 2026 at 17:00**, eight costumed knights will gallop across Piazza Grande in Arezzo and drive lances into the shield of a rotating wooden king — and this time the city is counting: it is the **150th edition** of the Giostra del Saracino in its modern form, a milestone Arezzo has marked with a celebratory image and a full ceremonial week.
+
+The essentials, as checked on 9 August 2026: grandstand seats run **€40–100** depending on stand and sector, with reduced rates for children aged 5–14 and over-70s; sales open **Saturday 29 August** in person (maximum four tickets per buyer), standing tickets follow on **30 August**, and online sales start **31 August** on the official Arezzo ticketing portal. Arezzo is an easy **train day trip from Florence** — direct services in about an hour or less, then a ten-to-fifteen-minute uphill walk to the centre. From Siena, the practical route is the direct regional bus or the train via Florence; there is no direct rail line.
+
+If you are anywhere in Tuscany in the first week of September, this is the event worth reorganising a day around: a genuine civic ritual with seven centuries of history behind it, run for the city itself rather than for visitors — which is exactly why it is worth seeing.`,
+      },
+      {
+        id: 'what-it-is',
+        heading: 'What the Giostra actually is',
+        body: `The Giostra del Saracino is Arezzo's answer to Siena's Palio: a twice-yearly contest between the city's historic quarters, fought not with racehorses but with lances. Its roots are medieval — jousting against a Saracen-effigy target was a cavalry training exercise that hardened into civic spectacle — and after centuries of interruptions the city revived it in **1931** as a regulated tournament between the four quarters. The September 2026 running is the 150th edition counted from that modern revival.
+
+The target is the **Buratto**, a wooden, armoured effigy titled the King of the Indies, mounted on a swivel at the top of Piazza Grande's sloping course. The knight charges uphill and strikes the shield in the Buratto's left hand; the effigy spins with the blow, and the whip it holds in its right — the **mazzafrusto**, three cords each ending in a leather-covered wooden ball — whirls round at the rider's back. Hitting the target is the job; not being hit back is the skill.
+
+Two things distinguish the Giostra from a costumed re-enactment. First, it is scored, judged and fiercely contested — quarters have lost captains and friendships over half-points. Second, the city takes it personally: the week before the joust, Arezzo belongs to flag-throwers, drummers, blessing ceremonies and quarter dinners, and on the day itself several hundred participants in fourteenth-century dress process through the streets before a lance is ever couched.`,
+      },
+      {
+        id: 'the-150th',
+        heading: 'Why the 150th edition matters',
+        body: `Anniversary editions change the temperature of the event. The Giostra normally runs twice a year — a June evening edition under floodlights and a September afternoon edition — and September 2026 lands on the round number: **150 editions** since the 1931 revival. Local press report the city unveiled a celebratory image for the occasion, and the ceremonial calendar around the joust is being run in full.
+
+For a visitor, the practical consequences cut both ways. The atmosphere will be at its densest: quarter dinners at their longest, the procession at its proudest, the piazza at its loudest. But demand follows sentiment — Arezzo's own residents will want to be in Piazza Grande for this one, ticket queues at the 29 August opening are expected to be sharp, and the local press describe an early-morning scramble with the four-per-person cap in place precisely to spread seats around. If a grandstand seat matters to you, treat the online opening on 31 August as your moment and be on the portal when it goes live. If you are happy standing, your window opens a day earlier, in person.`,
+      },
+      {
+        id: 'four-quarters',
+        heading: 'The four quartieri',
+        body: `Everything in the Giostra runs through the four gate-quarters of the medieval city: **Porta Crucifera**, **Porta del Foro**, **Porta Sant'Andrea** and **Porta Santo Spirito**. Each fields two knights, keeps its own colours, church, museum and headquarters, and carries its own tally of past victories — recited with the precision of league tables.
+
+The quarters are the reason the event feels alive rather than performed. Allegiances are inherited; the propitiatory dinners on the eve of the joust seat hundreds of members under quarter banners; and victory means the **Lancia d'Oro** — the golden lance trophy, newly designed for each edition and presented in the days before the joust — paraded back to the winning quarter's headquarters at night amid singing that carries across half the city.
+
+Visitors do not need to pick a side, but it helps to notice them: the colours draped from windows as you walk in from the station tell you whose streets you are crossing, and the quarter museums — small, volunteer-run, scattered through the centre — are the best free-to-cheap context you can get on a first visit. If the joust itself is sold out, the quarters are also where the event remains visible: dinners, processions and the returning celebration all happen in the open.
+
+![Heraldic contrada banners strung across a street in Siena](/images/siena/siena-contrade-street-flags.webp)
+*Quarter banners in Siena, photographed for our contrade guide — Arezzo's four quartieri dress their streets the same way in Giostra week; we have not yet photographed Arezzo itself.*`,
+      },
+      {
+        id: 'how-it-works',
+        heading: 'How the joust works — and how it is scored',
+        body: `The course, called the **lizza**, runs diagonally uphill across Piazza Grande for **forty-six metres**. One at a time, each knight receives the lance at the piazza's stone well, waits behind the start line for the field master's signal, then charges at full gallop and strikes the Buratto's shield.
+
+The scoring is forensic. The shield — the *tabellone* — is divided into **twelve zones worth one to five points**, and the lance tip carries an inked pad that leaves a mark; a technical jury measures the geometric centre of the stain to award the score. Around that base score sit the multipliers and bonuses that decide editions:
+
+- **Breaking the lance on impact doubles the points** scored on the shield.
+- **Tearing away the mazzafrusto's balls earns extra points** — one ball adds one, two add two, all three add four.
+- The theoretical maximum for a single charge is therefore **fourteen**: a five, doubled for a broken lance, plus all three balls away.
+
+There are penalties too — a knight caught by the returning mazzafrusto, or losing control of horse or lance, gives points away, which is why the crowd holds its breath twice per run: once at the strike, once as the whip whips round.
+
+The contest itself is short and total: after the **two ordinary rounds of charges**, if two or more quarters stand level, tie-break runs — the *spareggi* — continue until the scores diverge. Then the piazza stops being a stadium and becomes a celebration, or four different arguments, depending on where you are standing.`,
+      },
+      {
+        id: 'the-week',
+        heading: 'The ceremonial week, day by day',
+        body: `The joust is the final hour of a nine-day sequence, and several of the earlier pieces are free to watch. The 2026 September programme, as published by the event's official channels and local press:
+
+| Date | Time | What happens |
+| --- | --- | --- |
+| Sat 29 Aug | 11:00 | Presentation of the September **Lancia d'Oro** |
+| Sun 30 Aug | 11:00 | Draw of the running order and the captains' oath |
+| Mon 31 Aug – Wed 2 Sep | 16:30–19:30 | Knights' training runs in Piazza Grande |
+| Thu 3 Sep | 17:00 | Full simulation of the joust |
+| Fri 4 Sep | 21:30 | **Prova Generale** — the dress rehearsal, ticketed |
+| Sat 5 Sep | 11:30 | Stamping of the horses and investiture of the jousters |
+| Sat 5 Sep | from 20:30 | Propitiatory dinners in the four quarters |
+| Sun 6 Sep | 17:00 | **The 150th Giostra del Saracino** |
+
+Two notes from that table worth acting on. The **training runs and simulation** in the early week put knights, horses and the Buratto in the piazza with a fraction of Sunday's crowd — if you are in Tuscany those days and only want the spectacle, an early-week evening delivers most of it for nothing. And the **Prova Generale** on Friday night is the insider's compromise: the full ceremony rehearsed under lights, tickets sold alongside the Sunday ones. If Sunday sells out before you get there, Friday is the fallback to check first.`,
+      },
+      {
+        id: 'tickets',
+        heading: 'Tickets: prices, dates and the honest caveats',
+        body: `As announced for the September 2026 edition and reported by Arezzo's local press at our 9 August check:
+
+**Grandstand (tribune) seats:**
+
+| Stand | Sector | Price |
+| --- | --- | --- |
+| Chimet Poltroncine (armchair) | Lancia d'Oro | €100 |
+| Chimet Poltroncine | Central | €70 |
+| Chimet Poltroncine | Fontana | €60 |
+| Chimet | Central | €60 |
+| Chimet | Buratto side | €50 |
+| Chimet | Fontana side | €40 |
+| Orchidea Preziosi | First sector | €50 |
+| Orchidea Preziosi | Second sector | €40 |
+
+A third stand (Chimera Gold) is also on sale; its pricing did not appear in the announcements we checked, so ask when booking. **Reductions**: €10 off the full price of any stand for ages 5–14 and over-70s; children up to 4 enter free seated on an adult's lap.
+
+**The sales sequence matters more than the prices:**
+
+- **Saturday 29 August, morning** — in-person sales open, grandstands only, **maximum four tickets per person**. Local press expect queues from early morning.
+- **Sunday 30 August, 15:00** — standing tickets go on sale.
+- **Monday 31 August, 15:00** — everything moves online at the official portal, **discoverarezzo.ticka.it**.
+
+The caveats we would want told to us: prices and arrangements are as reported days before sales open and can be adjusted by the organisers; the Prova Generale is ticketed separately alongside the Sunday sale; and standing positions in a sloping, packed piazza favour the tall and the early. Confirm everything on the official Giostra and Discover Arezzo channels before you build a trip around a seat — and buy from the official portal only, for the same reason [we give about every event](/blog/italy-entry-requirements-ees-etias-2026/): resale mark-ups on civic events are pure loss.`,
+      },
+      {
+        id: 'getting-there',
+        heading: 'Getting to Arezzo: train first, car last',
+        body: `**From Florence, this is one of Tuscany's easiest day trips.** Arezzo sits on the main Florence–Rome line with direct trains through the day — around an hour on the regionale, less on faster services — at regional fares listed from roughly €10 on the aggregators at our check (confirm the live fare when booking; regional pricing is fixed but service types differ). From Arezzo station, the historic centre is a **ten-to-fifteen-minute walk, uphill**, along Corso Italia straight towards Piazza Grande. On joust day, follow the drums.
+
+**From Siena, plan more carefully.** There is **no direct train** — the rail routing runs via Chiusi and takes close to three hours, which kills a day trip. The direct option is Autolinee Toscane's regional bus **line 138** (Siena–Ambra–Monte San Savino–Arezzo), about six services on weekdays taking a little over an hour. The catch is the calendar: **the Giostra is a Sunday**, and regional bus frequencies thin on Sundays — check the 138's Sunday timetable on the at-bus.it planner before committing, and treat the last return as one connection earlier than it claims, [the standing rule for every day trip we publish](/blog/siena-day-trips-without-a-car/). If the Sunday bus does not cooperate, the train via Florence is the reliable workaround: Siena–Florence by rail or bus, then the direct Arezzo train.
+
+**Driving is the worst option on this particular day.** Arezzo's centre is camera-enforced ZTL at the best of times, and joust day adds closure ordinances around the course and processional streets. If you must drive, park low and outside the old town and walk up; the [same discipline that applies in Siena](/blog/siena-ztl-fines-how-to-avoid/) applies here, with a festival layered on top.
+
+One more September-specific check before any of it: the summer strike moratorium ends on 5 September, the day before the joust. Glance at [the national strike calendar](/blog/italy-transport-strikes-survival-guide-2026/) the week you travel.`,
+      },
+      {
+        id: 'day-plan',
+        heading: 'A realistic joust-day plan from Florence',
+        body: `**Morning.** Take a mid-morning train and drop into Arezzo before midday — early enough for the city's other headline act: Piero della Francesca's **Legend of the True Cross** fresco cycle in the Basilica di San Francesco, one of the great fresco achievements of the fifteenth century, with timed entry that is far easier to get before the joust crowds concentrate. The Duomo and Santa Maria della Pieve — whose apse forms one wall of Piazza Grande itself — round out a compact art morning, everything within ten minutes' walk.
+
+**Lunch.** Eat early and unhurried; kitchens fill with quarter partisans as the afternoon builds. This is Chianina beef country, and September menus begin leaning towards the harvest table [we map in the vendemmia guide](/blog/tuscany-wine-harvest-vendemmia-2026/).
+
+**Afternoon.** The procession — several hundred participants in historical dress, drummers, sbandieratori flag-throwers — moves through the centre ahead of the joust; position yourself along Corso Italia rather than fighting for piazza edges if you are unticketed. Ticket holders should be in their stands well before 17:00; the piazza seals as the ceremony begins.
+
+**The joust and after.** The contest itself resolves in charges of seconds each, stretched over an afternoon of ceremony, scoring pauses and — if the quarters finish level — sudden-death tension. Afterwards, either follow the winning quarter's celebration as the Lancia d'Oro goes home through the streets, or slip downhill ahead of the crowd for the evening train. Check the return timetable before you commit to the party; the party will not check it for you.`,
+      },
+      {
+        id: 'september-fit',
+        heading: 'Where the Giostra fits in a September Tuscany trip',
+        body: `The first fortnight of September 2026 is unusually dense even by Tuscan standards. The Giostra's ceremonial week runs from 29 August; [Siena's own September](/blog/siena-in-september-2026/) is in full swing; the [wine harvest is running early this year](/blog/tuscany-wine-harvest-vendemmia-2026/), pulling picking scenes into the first half of the month; and the harvest festivals follow through the rest of September.
+
+A workable shape for a week: base in Siena or Florence, give **Sunday 6 September to Arezzo**, put a wine-country day either side of it, and keep one flexible day for whichever of the season's events fits your dates. The joust needs no car; the wine country arguably does — [that trade-off is its own decision](/blog/val-dorcia-or-chianti-which-to-visit-2026/), and September is the best month of the year to be making it.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research: the joust date, start time and 150th-edition status from the event's official channels and Arezzo local press; the ceremonial-week programme (Lancia d'Oro presentation, draw and oath, training days, simulation, Prova Generale, investiture, quarter dinners) from the same announcements; grandstand prices, reductions, the four-ticket cap, the 29–31 August sales sequence and the discoverarezzo.ticka.it portal from Arezzo local press reporting the official arrangements; the scoring system (twelve-zone shield, one to five points, doubled for a broken lance, mazzafrusto bonuses, forty-six-metre lizza, tie-break rules) from the quarters' and event's published rule descriptions; Florence–Arezzo train times and indicative fares from journey aggregators (treat exact fares as unverified until purchase); and the Siena options from Autolinee Toscane's published line information for route 138. Ticket arrangements were announced but sales had not yet opened at our check — details can change, and the official Giostra del Saracino and Discover Arezzo channels are the only authoritative sources. We have no affiliate relationship with the event, any ticket seller or any operator named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Tuscany sells its past everywhere, but only a handful of times a year does a city stop pretending for visitors and perform a ritual entirely for itself. Siena does it twice each summer with the Palio. Arezzo does it with lances, a spinning king and a golden trophy — and on 6 September 2026 it does it for the hundred-and-fiftieth time, which is precisely the kind of edition people later claim they attended. Be early for tickets, earlier for the train, and stand where the drums are loudest.`,
+      },
+    ],
+    [
+      { q: 'When is the Giostra del Saracino in 2026?', a: 'The September edition — the 150th of the modern era — runs on Sunday 6 September 2026 at 17:00 in Piazza Grande, Arezzo, with a ceremonial week from 29 August including a ticketed dress rehearsal on Friday 4 September at 21:30.' },
+      { q: 'How much do Giostra del Saracino tickets cost?', a: 'As announced for September 2026: grandstand seats from €40 to €100 depending on stand and sector, with €10 reductions for ages 5–14 and over-70s and free entry for under-4s on an adult’s lap. Standing tickets are sold separately. Confirm prices on the official channels — sales open 29 August in person and 31 August online at the official Discover Arezzo portal.' },
+      { q: 'Can you watch the Giostra for free?', a: 'The piazza itself is fully ticketed on joust day, including standing areas. What is free: the knights’ training runs and the simulation earlier in the week, the costumed procession through the centre before the joust, and the winning quarter’s celebration afterwards.' },
+      { q: 'Is Arezzo an easy day trip from Florence?', a: 'Yes — direct trains on the main Florence–Rome line take about an hour or less, with regional fares listed from roughly €10 at our check, and the centre is a ten-to-fifteen-minute uphill walk from the station. It is one of the simplest rail day trips in Tuscany.' },
+      { q: 'How do you get to Arezzo from Siena?', a: 'There is no direct train — rail routing via Chiusi takes close to three hours. Autolinee Toscane’s bus line 138 runs direct in a little over an hour, but service is thin and the joust falls on a Sunday, so check the Sunday timetable on at-bus.it first; otherwise go by train via Florence.' },
+      { q: 'What is the Lancia d’Oro?', a: 'The golden lance: the trophy awarded to the winning quarter, newly designed for every edition and presented in the days before the joust. The winning quarter parades it back to its headquarters through the streets on the night of the victory.' },
+      { q: 'Is the Giostra del Saracino suitable for children?', a: 'Broadly yes — it is a costumed civic festival with drummers and flag-throwers, and under-4s enter free on an adult’s lap with 5–14s at reduced rates. The cautions are practical: a packed, sloping piazza, an afternoon of ceremony before the action, and charges by armoured riders that are loud and fast. A grandstand seat is worth the extra for families.' },
+    ],
+    '2026-08-20',
+    {
+      seoTitle: 'Giostra del Saracino 2026: Arezzo’s 150th Joust — Tickets & Day Trip',
+      primaryKeyword: 'giostra del saracino 2026',
+      secondaryKeywords: [
+        'giostra del saracino tickets',
+        'arezzo joust september 2026',
+        'giostra del saracino arezzo 150th',
+        'arezzo day trip from florence',
+        'what to do in arezzo',
+        'tuscany events september 2026',
+      ],
+      imageAlt: 'Heraldic banners in a Tuscan street — the quarter rivalry tradition behind Arezzo’s Giostra',
+      canonicalPath: '/blog/giostra-del-saracino-arezzo-2026',
+      tags: ['giostra del saracino', 'arezzo', 'tuscany events', 'day trips from florence', 'september in tuscany'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of

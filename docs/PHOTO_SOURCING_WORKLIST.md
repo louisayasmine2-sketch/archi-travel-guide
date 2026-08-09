@@ -57,6 +57,7 @@ location guide. All are *nice-to-have*; the article works without them.
 | 2 | `images/tuscany/piazza-grande-montepulciano.webp` | Piazza Grande + Palazzo Comunale (New Moon scene) | Commons category `Piazza Grande of Montepulciano` (17 files listed); e.g. `File:Montepulciano, piazza grande 01.jpg` / `02.jpg` / `File:Montepulciano Piazza Grande.jpg` | "Piazza Grande and the Palazzo Comunale in Montepulciano, filming location for New Moon's Volterra scenes" |
 | 3 | `images/tuscany/sant-anna-in-camprena-monastery.webp` | Sant'Anna in Camprena facade or courtyard | Commons category `Sant'Anna in Camprena`: `File:Monastero di Sant'Anna in Camprena, facciata.JPG` · `...cortile.jpg` · `File:Sant'Anna in Camprena.jpg` | "The former monastery of Sant'Anna in Camprena near Pienza, filming location of The English Patient" |
 | 4 | `images/siena/piazza-del-campo-bond.webp` | Campo angle suited to the Bond section | Already-owned Campo assets may suffice — check `05-piazza-del-campo-panorama.webp` first before sourcing anything new | — |
+| 5 | `images/tuscany/giostra-del-saracino-arezzo.webp` | The joust in Piazza Grande — knight charging the Buratto, or the piazza dressed for the event | Commons category `Giostra del Saracino` has multiple files from past editions; open file pages and check licence tags | "A knight charges the Buratto during Arezzo's Giostra del Saracino in Piazza Grande" — becomes the hero of `giostra-del-saracino-arezzo-2026` (currently shipped with an honest Siena-flags stand-in and empty hero) |
 
 ---
 
