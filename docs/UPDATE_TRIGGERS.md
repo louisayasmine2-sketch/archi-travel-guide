@@ -18,7 +18,7 @@ Slugs refer to `frontend/src/data/articles.js`.
 
 | # | Trigger event | Expected when | Verify against | Articles to update | What to change | Done |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | **ETIAS revised timeline announced** (eu-LISA board) | after Sep 2026 | travel-europe.europa.eu + EU press release | `italy-entry-requirements-ees-etias-2026` | Quick answer, delay section, timeline, 2 FAQs; remove "no confirmed date" phrasing; new checked-stamp |  |
+| 1 | **ETIAS revised timeline announced** (eu-LISA board) | after Sep 2026 | travel-europe.europa.eu + EU press release | `italy-entry-requirements-ees-etias-2026` | Quick answer, delay section, timeline, 2 FAQs; remove "no confirmed date" phrasing; new checked-stamp | interim 9 Aug 2026: "until at least 2027" press consensus added; trigger still open for the official date |
 | 2 | **Duomo floor 2027 uncovering calendar published** | winter 2026–27 | operaduomo.siena.it | `siena-in-september-2026`, `tuscany-in-october-2026`, `tuscany-in-november-2026`, `tuscany-in-august-2026`, `florence-or-siena…`, `siena-or-san-gimignano…` | 2026 window references gain the 2027 dates (or a "for 2027 see official calendar" line); OPA prices re-checked |  |
 | 3 | **Mercato nel Campo 2026 dates announced** | ~Oct–Nov 2026 | Comune di Siena / visitsiena | `tuscany-in-december-2026` | Replace "first-weekend pattern + unpublished" with the real dates in body + FAQ |  |
 | 4 | **Festa dell'Olio San Quirico 2026 dates announced** | ~Oct–Nov 2026 | Comune San Quirico d'Orcia | `tuscany-in-december-2026` | Same treatment as #3 |  |

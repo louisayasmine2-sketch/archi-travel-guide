@@ -6281,7 +6281,7 @@ Couples aiming at the 13th–14th should book everything early and swap the Mond
 
 **EES (Entry/Exit System) — live now.** Since 10 April 2026 the EU’s biometric border system has been fully operational at every Schengen external border, Italy included. There is nothing to apply for and nothing to pay: it happens *at* the border, where your passport, fingerprints and photo are registered instead of a stamp. Budget extra time on your first arrival.
 
-**ETIAS — not live, and delayed.** The €20 travel authorisation for visa-free visitors (Americans, Britons, Canadians, Australians and around 60 other nationalities) has **no confirmed start date**. In mid-July 2026 the EU removed its “last quarter of 2026” target from the official site, with a revised timeline expected after September 2026. **You do not need ETIAS to visit Italy today, and anyone charging you for one right now is not official.**
+**ETIAS — not live, and delayed.** The €20 travel authorisation for visa-free visitors (Americans, Britons, Canadians, Australians and around 60 other nationalities) has **no confirmed start date**. In mid-July 2026 the EU removed its “last quarter of 2026” target from the official site — which now states simply that ETIAS is not in operation — and by early August the travel press was reporting the launch as delayed **until at least 2027**, with a revised timeline expected after September 2026. **You do not need ETIAS to visit Italy today, and anyone charging you for one right now is not official.**
 
 Everything else — the 90/180-day rule, passport validity — is unchanged in law, but the new border computer enforces it to the day. The details, nationality by nationality, below.`,
       },
@@ -6319,7 +6319,7 @@ The passport rules are equally unchanged and equally enforced: for visa-free vis
       {
         id: 'etias-delay',
         heading: 'The ETIAS delay: what happened in July 2026',
-        body: `For two years the official line was that ETIAS would “start operations in the last quarter of 2026”. In **mid-July 2026 that target quietly disappeared from the EU’s official ETIAS pages**, and reporting — led by the Financial Times — indicates that eu-LISA, the EU agency building the system, has internally concluded a 2026 launch is no longer feasible. A revised timeline is expected after the agency’s board meets in **September 2026**.
+        body: `For two years the official line was that ETIAS would “start operations in the last quarter of 2026”. In **mid-July 2026 that target quietly disappeared from the EU’s official ETIAS pages**, and reporting — led by the Financial Times — indicates that eu-LISA, the EU agency building the system, has internally concluded a 2026 launch is no longer feasible. By early August the reporting had converged: US and European travel press now describe the launch as delayed **until at least 2027**, and the official pages state only that ETIAS is not currently in operation. A revised timeline is expected after the agency’s board meets in **September 2026**.
 
 What this means for travellers, stated plainly:
 
@@ -6378,14 +6378,14 @@ For every category, one shared upgrade: because records are now digital, **discr
 
 **September 2026** — the eu-LISA board meets; a revised ETIAS timeline is expected after it. This is the next date worth watching.
 
-**ETIAS launch (date unknown)** — whenever it comes, the stated design pairs it with a transitional grace period before the €20 authorisation becomes a hard entry requirement.
+**ETIAS launch (date unknown; reporting points to 2027 at the earliest)** — whenever it comes, the stated design pairs it with a transitional grace period before the €20 authorisation becomes a hard entry requirement.
 
 Bookmark this sequence rather than any single headline: most confusion in circulation comes from articles written at one point on this line and read at another.`,
       },
       {
         id: 'how-we-checked',
         heading: 'How we checked these details',
-        body: `Checked at the end of July 2026: the EES launch (12 October 2025) and full-operation date (10 April 2026, ending passport stamping) against the European Commission’s and Council’s published information, along with the EU’s reported figure of 45+ million registered crossings; the ETIAS design (€20 fee, under-18/over-70 exemptions, three-year validity, visa-exempt nationalities) against official EU descriptions; and the July 2026 removal of the “last quarter of 2026” launch target — with a revised timeline expected after eu-LISA’s September 2026 board meeting — against contemporaneous reporting led by the Financial Times. Summer 2026 queue reports at specific hub airports are press accounts, not official statistics. **This is a fast-moving topic: treat travel-europe.europa.eu as the only authoritative source for launch dates, and expect this article to be updated when the September announcement lands.** We have no affiliate relationship with any visa-service, portal or operator — and as the scam section explains, before launch you should not be paying anyone at all.`,
+        body: `Checked at the end of July 2026 and re-checked 9 August 2026 (when the until-at-least-2027 reporting was added): the EES launch (12 October 2025) and full-operation date (10 April 2026, ending passport stamping) against the European Commission’s and Council’s published information, along with the EU’s reported figure of 45+ million registered crossings; the ETIAS design (€20 fee, under-18/over-70 exemptions, three-year validity, visa-exempt nationalities) against official EU descriptions; and the July 2026 removal of the “last quarter of 2026” launch target — with a revised timeline expected after eu-LISA’s September 2026 board meeting — against contemporaneous reporting led by the Financial Times. Summer 2026 queue reports at specific hub airports are press accounts, not official statistics. **This is a fast-moving topic: treat travel-europe.europa.eu as the only authoritative source for launch dates, and expect this article to be updated when the September announcement lands.** We have no affiliate relationship with any visa-service, portal or operator — and as the scam section explains, before launch you should not be paying anyone at all.`,
       },
       {
         id: 'final-thoughts',
@@ -6394,7 +6394,7 @@ Bookmark this sequence rather than any single headline: most confusion in circul
       },
     ],
     [
-      { q: 'Do I need ETIAS to visit Italy in 2026?', a: 'No. ETIAS has no confirmed launch date — the EU removed its “last quarter of 2026” target from the official site in July 2026, with a revised timeline expected after September 2026. No trip bookable today requires it, and no legitimate body can sell you one yet.' },
+      { q: 'Do I need ETIAS to visit Italy in 2026?', a: 'No. ETIAS has no confirmed launch date — the EU removed its “last quarter of 2026” target from the official site in July 2026, and by August the travel press was reporting a delay until at least 2027, with a revised timeline expected after September 2026. No trip bookable today requires it, and no legitimate body can sell you one yet.' },
       { q: 'What is the EES and is it running in Italy?', a: 'The EU’s Entry/Exit System — a biometric border registration that replaced passport stamping. It launched on 12 October 2025 and has been fully operational at all Schengen external borders, including Italy’s, since 10 April 2026. It happens at the border; there is nothing to apply for and nothing to pay.' },
       { q: 'Does EES make airport arrival slower?', a: 'First-time registration adds minutes per traveller, and in the system’s first summer the travel press reported multi-hour peaks at some major hubs like Amsterdam, Paris CDG and Frankfurt. Repeat entries verify faster. Book longer connections than you used to and arrive with documents ready.' },
       { q: 'How much will ETIAS cost and how long will it last?', a: 'The fee is set at €20, waived for under-18s and over-70s and certain family members of EU citizens. The authorisation is designed to be valid for three years or until the linked passport expires, covering unlimited short trips in that period.' },
@@ -6405,7 +6405,7 @@ Bookmark this sequence rather than any single headline: most confusion in circul
       { q: 'Do EU citizens need EES or ETIAS?', a: 'No — both systems apply to non-EU (third-country) nationals. Dual citizens entering on an EU passport bypass both, and Schengen-resident permit holders are exempt from EES registration when travelling on that status.' },
       { q: 'Will ETIAS be required as soon as it launches?', a: 'The EU’s stated approach pairs the launch with a transitional grace period before the authorisation becomes a hard entry requirement, so travellers mid-trip at launch will not be refused for lacking it. The specifics will come with the official launch announcement.' },
     ],
-    '2026-07-31',
+    '2026-08-09',
     {
       seoTitle: 'Italy Entry Requirements 2026: EES Live, ETIAS Delayed — The Facts',
       primaryKeyword: 'italy entry requirements 2026',
