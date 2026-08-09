@@ -870,3 +870,53 @@
 .skip-link:focus {
   left: 0;
 }
+
+/* Print-to-PDF from a tool dialog (Trip Sheet, Smart Packing List).
+   The sheet lives inside a Radix dialog: position fixed, centred by a
+   -50%/-50% transform, and scroll-clipped by max-height + overflow — each of
+   which breaks paged output (content pinned to one shifted viewport, clipped
+   after the first page). Neutralise all of it for print and let the sheet
+   flow as a normal document. One copy here — the per-component <style> tags
+   this replaces only handled visibility and produced broken PDFs. */
+@media print {
+  body {
+    overflow: visible !important; /* Radix locks body scroll while open */
+  }
+  body * {
+    visibility: hidden;
+  }
+  /* The dialog portal mounts inside #root, so the app tree cannot simply be
+     display:none'd away. Collapse the page height instead: the app behind
+     the dialog is what would otherwise print as trailing blank pages. */
+  html, body, #root {
+    height: auto !important;
+  }
+  #root > *:not(:has(.printable-area)) {
+    display: none !important;
+  }
+  .printable-area,
+  .printable-area * {
+    visibility: visible;
+  }
+  [role="dialog"] {
+    position: static !important;
+    transform: none !important;
+    max-height: none !important;
+    max-width: none !important;
+    width: 100% !important;
+    overflow: visible !important;
+    border: none !important;
+    box-shadow: none !important;
+    animation: none !important;
+  }
+  .printable-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

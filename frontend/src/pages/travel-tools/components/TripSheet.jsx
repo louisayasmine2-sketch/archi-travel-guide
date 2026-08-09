@@ -46,14 +46,9 @@ export default function TripSheet() {
 
   return (
     <div className="font-sans printable-area">
-      <style dangerouslySetInnerHTML={{__html: `
-        @media print {
-          body * { visibility: hidden; }
-          .printable-area, .printable-area * { visibility: visible; }
-          .printable-area { position: absolute; left: 0; top: 0; width: 100%; padding: 20px; }
-          .no-print { display: none !important; }
-        }
-      `}} />
+      {/* Print/PDF rules live in index.css (@media print): the sheet must be
+          freed from the dialog's fixed/transformed/scroll-clipped container
+          or the PDF comes out blank past the title. */}
 
       <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-6">
         <div className="flex items-center gap-3 flex-1">
