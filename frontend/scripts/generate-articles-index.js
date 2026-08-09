@@ -3,9 +3,12 @@
  * scripts/generate-articles-index.js
  *
  * Writes src/data/articlesIndex.json: the lightweight metadata (slug, title,
- * excerpt, canonicalPath, updated) of every PUBLISHED article, extracted from
- * the A() calls in src/data/articles.js with the same dependency-free parser
- * the sitemap and llms.txt generators use.
+ * excerpt, canonicalPath, updated) of every PUBLISHED article — the A() calls
+ * in src/data/articles.js (parsed with the same dependency-free parser the
+ * sitemap and llms.txt generators use), the Siena cluster pages in
+ * sienaContentCluster.json, and the standalone Florence→Siena guide. Search
+ * (lib/searchIndex.js) and the month cue read this index, so a page missing
+ * here is invisible to both.
  *
  * Why: articles.js carries every article's full body (~830KB of the main
  * bundle before this existed). Listing surfaces — the homepage pillars,
@@ -114,6 +117,42 @@ function extractArticles() {
   return results;
 }
 
+// The Siena cluster and the standalone Florence→Siena guide live in JSON data
+// files with their own publish timestamps; without them the index (and so
+// site search and 404 suggestions) cannot see those routes.
+function extractJsonArticles(now) {
+  const results = [];
+
+  const cluster = JSON.parse(
+    fs.readFileSync(path.join(ROOT, 'src/data/sienaContentCluster.json'), 'utf-8')
+  );
+  for (const a of cluster.articles) {
+    if (new Date(a.publishAtWib) > now) continue;
+    results.push({
+      slug: a.slug,
+      title: a.title,
+      excerpt: a.excerpt,
+      canonicalPath: a.canonicalPath,
+      updated: String(a.dateModified).slice(0, 10),
+    });
+  }
+
+  const f2s = JSON.parse(
+    fs.readFileSync(path.join(ROOT, 'src/data/florenceToSienaGuide.json'), 'utf-8')
+  );
+  if (new Date(f2s.datePublished) <= now) {
+    results.push({
+      slug: f2s.slug,
+      title: f2s.title,
+      excerpt: f2s.metaDescription,
+      canonicalPath: f2s.canonicalPath,
+      updated: String(f2s.dateModified).slice(0, 10),
+    });
+  }
+
+  return results;
+}
+
 function main() {
   // Same publish rule (and +07:00 site timezone) as articles.js's own
   // `articles` export: future-dated entries are not listed.
@@ -121,6 +160,13 @@ function main() {
   const published = extractArticles().filter(
     (a) => new Date(`${a.updated}T00:00:00+07:00`) <= now
   );
+  const seen = new Set(published.map((a) => a.slug));
+  for (const extra of extractJsonArticles(now)) {
+    if (!seen.has(extra.slug)) {
+      seen.add(extra.slug);
+      published.push(extra);
+    }
+  }
   const out = path.join(ROOT, 'src/data/articlesIndex.json');
   fs.writeFileSync(out, `${JSON.stringify(published, null, 1)}\n`);
   console.log(`articlesIndex.json written: ${published.length} published articles`);

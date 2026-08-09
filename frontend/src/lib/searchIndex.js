@@ -36,6 +36,32 @@ const GUIDES = articlesIndex.map((a) => {
 });
 
 export const SEARCH_INDEX = [...GUIDES, ...DESTINATIONS, ...TOOLS];
+export const GUIDE_COUNT = GUIDES.length;
+
+// Words that appear in almost every slug and carry no signal for matching.
+const PATH_STOPWORDS = new Set(["the", "and", "for", "with", "from", "guide", "blog", "www", "html", "index"]);
+
+// Best-effort matches for a mistyped or moved URL (the 404 page). Unlike
+// searchSite this scores per-token (OR), because a typo in one path segment
+// must not blank out every suggestion.
+export function suggestForPath(pathname, limit = 4) {
+  const tokens = String(pathname || "")
+    .toLowerCase()
+    .split(/[^a-z]+/)
+    .filter((t) => t.length > 2 && !PATH_STOPWORDS.has(t));
+  if (!tokens.length) return [];
+  const scored = [];
+  for (const entry of SEARCH_INDEX) {
+    const haystack = `${entry.title} ${entry.path}`.toLowerCase();
+    const hits = tokens.filter((t) => haystack.includes(t)).length;
+    if (hits > 0) scored.push([hits, entry]);
+  }
+  scored.sort((a, b) => b[0] - a[0]);
+  // Only offer suggestions that share a real majority of the path's words —
+  // a one-word overlap on a five-word path is noise, not a suggestion.
+  const threshold = Math.max(1, Math.ceil(tokens.length / 2));
+  return scored.filter(([hits]) => hits >= threshold).slice(0, limit).map(([, entry]) => entry);
+}
 
 // Multi-word AND match. Title hits rank above excerpt-only hits; ties keep
 // index order (guides are already most-relevant-first from the generator).
