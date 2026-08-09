@@ -4469,7 +4469,7 @@ Our recommendation follows from that: **from Siena, go independently; from Flore
       {
         id: 'quick-answer',
         heading: 'Quick answer',
-        body: `The vendemmia — Tuscany’s wine harvest — runs from late August to mid-October, with the Sangiovese heartland around Chianti, Siena and Montalcino at its busiest from mid-September to early October. Visitors cannot legally pick grapes as casual labour, but a booked “harvest experience” puts you beside the work, and two big free-to-enter September events anchor a trip in 2026: the **54th Expo Chianti Classico in Greve (10–13 September)** and the **centenary Festa dell’Uva in Impruneta (Sunday 27 September)**. Base yourself in Siena or Florence, book the winery experience ahead, and build the rest of the trip around long lunches and golden light.`,
+        body: `The vendemmia — Tuscany’s wine harvest — runs from late August to mid-October, with the Sangiovese heartland around Chianti, Siena and Montalcino at its busiest from mid-September to early October. **One 2026-specific note: the hot summer has pulled the whole calendar earlier** — Italian trade press and the consortia report picking starting roughly ten days to two weeks ahead of the historical average, so this year the earlier end of every window is the safer bet. Visitors cannot legally pick grapes as casual labour, but a booked “harvest experience” puts you beside the work, and two big free-to-enter September events anchor a trip in 2026: the **54th Expo Chianti Classico in Greve (10–13 September)** and the **centenary Festa dell’Uva in Impruneta (Sunday 27 September)**. Base yourself in Siena or Florence, book the winery experience ahead, and build the rest of the trip around long lunches and golden light.`,
       },
       {
         id: 'what-vendemmia-is',
@@ -4477,6 +4477,8 @@ Our recommendation follows from that: **from Siena, go independently; from Flore
         body: `For most of the year, a Tuscan vineyard is scenery. For a few weeks in September and October it becomes a workplace: crews moving down the rows from early morning, trailers of grapes queuing at cellar doors, presses running late into the evening, and a smell of crushed fruit hanging over every wine town. If you have only ever seen Tuscany at rest, harvest is the season when the landscape explains itself.
 
 The timing moves with geography and grape. White varieties come off the vines first, and the warm coastal zones — Bolgheri and the Maremma — begin earliest, from the second half of August. The Sangiovese that becomes Chianti Classico is generally picked from mid-September into early October, and in Montalcino the slower-ripening Sangiovese Grosso destined for Brunello can keep crews out into late October. Elevation, weather and each estate’s own judgement shift the start by days or weeks either way — which is exactly why no winery will promise months in advance that “your” date will be a picking day.
+
+**The 2026 season is running early.** As of our 9 August check, Italian trade press and consortium announcements describe a harvest pulled forward by the hot summer: picking of sparkling-wine bases began in early August, the Consorzio Maremma Toscana confirmed a start around fifteen days ahead of its historical average, and reports suggest even Sangiovese could come off the vines earlier than the usual mid-September start. The same reporting expects volumes in line with recent years or slightly down, with quality prospects described as medium-high and dependent — as always — on August and September weather. For a 2026 trip, the practical translation: if watching the harvest is the point, favour the **first half of September** over the second in the lower and warmer zones, and confirm picking windows with your chosen estate in the week before you travel rather than trusting any calendar, including this one.
 
 ![A road through Chianti vineyards in the wine country between Florence and Siena](/images/tuscany/chianti-wine-road-vineyard.webp)
 *Chianti’s vineyard roads at harvest: the busiest, best-smelling weeks of the wine year.*
@@ -4567,7 +4569,7 @@ Either month, pack for swings rather than a single climate: warm middays, cool m
       {
         id: 'how-we-checked',
         heading: 'How we checked these details',
-        body: `Event dates and prices were checked in July 2026 against the organisers’ published information: the Expo Chianti Classico dates (10–13 September 2026) and €20 admission from the event’s official channels, and the Festa dell’Uva centenary date (27 September 2026) from the festival’s own announcements. Harvest-timing ranges reflect how the season is described by Tuscany’s official tourism sources and working estates; the exact picking weeks always depend on the year’s weather. Bus details reflect Autolinee Toscane route information — confirm timetables on their planner close to your date. We have no affiliate relationship with any winery, tour operator or event named here; recommendations are editorial.`,
+        body: `Event dates and prices were checked in July 2026 against the organisers’ published information: the Expo Chianti Classico dates (10–13 September 2026) and €20 admission from the event’s official channels, and the Festa dell’Uva centenary date (27 September 2026) from the festival’s own announcements. Harvest-timing ranges reflect how the season is described by Tuscany’s official tourism sources and working estates; the exact picking weeks always depend on the year’s weather. The 2026 early-start picture (re-checked 9 August 2026) comes from Italian trade press and consortium announcements — including the Consorzio Maremma Toscana’s confirmed ~15-day anticipation and a Gambero Rosso survey of consortium expectations — and is attributed as reporting, not as a promise about any estate’s dates. Bus details reflect Autolinee Toscane route information — confirm timetables on their planner close to your date. We have no affiliate relationship with any winery, tour operator or event named here; recommendations are editorial.`,
       },
       {
         id: 'final-thoughts',
@@ -4585,7 +4587,7 @@ Either month, pack for swings rather than a single climate: warm middays, cool m
       { q: 'Should you choose Siena or Florence as a harvest base?', a: 'Siena puts you inside the southern wine belt — Chianti, Val d’Orcia, Montalcino, San Gimignano — while Florence is better for the Expo in Greve and the Festa dell’Uva in Impruneta. With ten days, split the trip and do both.' },
       { q: 'Do wineries accept walk-in tastings during harvest?', a: 'Increasingly no. Across Chianti, Montalcino and Montepulciano, structured cellar visits expect reservations through the May-to-October season, and harvest is the busiest moment of the winery’s year. Book the estates you care about and keep walk-ins for town enotecas.' },
     ],
-    '2026-07-31',
+    '2026-08-09',
     {
       seoTitle: 'Tuscany Wine Harvest 2026: Vendemmia, Festivals & How to Join In',
       primaryKeyword: 'tuscany wine harvest',
@@ -6281,7 +6283,7 @@ Couples aiming at the 13th–14th should book everything early and swap the Mond
 
 **EES (Entry/Exit System) — live now.** Since 10 April 2026 the EU’s biometric border system has been fully operational at every Schengen external border, Italy included. There is nothing to apply for and nothing to pay: it happens *at* the border, where your passport, fingerprints and photo are registered instead of a stamp. Budget extra time on your first arrival.
 
-**ETIAS — not live, and delayed.** The €20 travel authorisation for visa-free visitors (Americans, Britons, Canadians, Australians and around 60 other nationalities) has **no confirmed start date**. In mid-July 2026 the EU removed its “last quarter of 2026” target from the official site, with a revised timeline expected after September 2026. **You do not need ETIAS to visit Italy today, and anyone charging you for one right now is not official.**
+**ETIAS — not live, and delayed.** The €20 travel authorisation for visa-free visitors (Americans, Britons, Canadians, Australians and around 60 other nationalities) has **no confirmed start date**. In mid-July 2026 the EU removed its “last quarter of 2026” target from the official site — which now states simply that ETIAS is not in operation — and by early August the travel press was reporting the launch as delayed **until at least 2027**, with a revised timeline expected after September 2026. **You do not need ETIAS to visit Italy today, and anyone charging you for one right now is not official.**
 
 Everything else — the 90/180-day rule, passport validity — is unchanged in law, but the new border computer enforces it to the day. The details, nationality by nationality, below.`,
       },
@@ -6319,7 +6321,7 @@ The passport rules are equally unchanged and equally enforced: for visa-free vis
       {
         id: 'etias-delay',
         heading: 'The ETIAS delay: what happened in July 2026',
-        body: `For two years the official line was that ETIAS would “start operations in the last quarter of 2026”. In **mid-July 2026 that target quietly disappeared from the EU’s official ETIAS pages**, and reporting — led by the Financial Times — indicates that eu-LISA, the EU agency building the system, has internally concluded a 2026 launch is no longer feasible. A revised timeline is expected after the agency’s board meets in **September 2026**.
+        body: `For two years the official line was that ETIAS would “start operations in the last quarter of 2026”. In **mid-July 2026 that target quietly disappeared from the EU’s official ETIAS pages**, and reporting — led by the Financial Times — indicates that eu-LISA, the EU agency building the system, has internally concluded a 2026 launch is no longer feasible. By early August the reporting had converged: US and European travel press now describe the launch as delayed **until at least 2027**, and the official pages state only that ETIAS is not currently in operation. A revised timeline is expected after the agency’s board meets in **September 2026**.
 
 What this means for travellers, stated plainly:
 
@@ -6378,14 +6380,14 @@ For every category, one shared upgrade: because records are now digital, **discr
 
 **September 2026** — the eu-LISA board meets; a revised ETIAS timeline is expected after it. This is the next date worth watching.
 
-**ETIAS launch (date unknown)** — whenever it comes, the stated design pairs it with a transitional grace period before the €20 authorisation becomes a hard entry requirement.
+**ETIAS launch (date unknown; reporting points to 2027 at the earliest)** — whenever it comes, the stated design pairs it with a transitional grace period before the €20 authorisation becomes a hard entry requirement.
 
 Bookmark this sequence rather than any single headline: most confusion in circulation comes from articles written at one point on this line and read at another.`,
       },
       {
         id: 'how-we-checked',
         heading: 'How we checked these details',
-        body: `Checked at the end of July 2026: the EES launch (12 October 2025) and full-operation date (10 April 2026, ending passport stamping) against the European Commission’s and Council’s published information, along with the EU’s reported figure of 45+ million registered crossings; the ETIAS design (€20 fee, under-18/over-70 exemptions, three-year validity, visa-exempt nationalities) against official EU descriptions; and the July 2026 removal of the “last quarter of 2026” launch target — with a revised timeline expected after eu-LISA’s September 2026 board meeting — against contemporaneous reporting led by the Financial Times. Summer 2026 queue reports at specific hub airports are press accounts, not official statistics. **This is a fast-moving topic: treat travel-europe.europa.eu as the only authoritative source for launch dates, and expect this article to be updated when the September announcement lands.** We have no affiliate relationship with any visa-service, portal or operator — and as the scam section explains, before launch you should not be paying anyone at all.`,
+        body: `Checked at the end of July 2026 and re-checked 9 August 2026 (when the until-at-least-2027 reporting was added): the EES launch (12 October 2025) and full-operation date (10 April 2026, ending passport stamping) against the European Commission’s and Council’s published information, along with the EU’s reported figure of 45+ million registered crossings; the ETIAS design (€20 fee, under-18/over-70 exemptions, three-year validity, visa-exempt nationalities) against official EU descriptions; and the July 2026 removal of the “last quarter of 2026” launch target — with a revised timeline expected after eu-LISA’s September 2026 board meeting — against contemporaneous reporting led by the Financial Times. Summer 2026 queue reports at specific hub airports are press accounts, not official statistics. **This is a fast-moving topic: treat travel-europe.europa.eu as the only authoritative source for launch dates, and expect this article to be updated when the September announcement lands.** We have no affiliate relationship with any visa-service, portal or operator — and as the scam section explains, before launch you should not be paying anyone at all.`,
       },
       {
         id: 'final-thoughts',
@@ -6394,7 +6396,7 @@ Bookmark this sequence rather than any single headline: most confusion in circul
       },
     ],
     [
-      { q: 'Do I need ETIAS to visit Italy in 2026?', a: 'No. ETIAS has no confirmed launch date — the EU removed its “last quarter of 2026” target from the official site in July 2026, with a revised timeline expected after September 2026. No trip bookable today requires it, and no legitimate body can sell you one yet.' },
+      { q: 'Do I need ETIAS to visit Italy in 2026?', a: 'No. ETIAS has no confirmed launch date — the EU removed its “last quarter of 2026” target from the official site in July 2026, and by August the travel press was reporting a delay until at least 2027, with a revised timeline expected after September 2026. No trip bookable today requires it, and no legitimate body can sell you one yet.' },
       { q: 'What is the EES and is it running in Italy?', a: 'The EU’s Entry/Exit System — a biometric border registration that replaced passport stamping. It launched on 12 October 2025 and has been fully operational at all Schengen external borders, including Italy’s, since 10 April 2026. It happens at the border; there is nothing to apply for and nothing to pay.' },
       { q: 'Does EES make airport arrival slower?', a: 'First-time registration adds minutes per traveller, and in the system’s first summer the travel press reported multi-hour peaks at some major hubs like Amsterdam, Paris CDG and Frankfurt. Repeat entries verify faster. Book longer connections than you used to and arrive with documents ready.' },
       { q: 'How much will ETIAS cost and how long will it last?', a: 'The fee is set at €20, waived for under-18s and over-70s and certain family members of EU citizens. The authorisation is designed to be valid for three years or until the linked passport expires, covering unlimited short trips in that period.' },
@@ -6405,7 +6407,7 @@ Bookmark this sequence rather than any single headline: most confusion in circul
       { q: 'Do EU citizens need EES or ETIAS?', a: 'No — both systems apply to non-EU (third-country) nationals. Dual citizens entering on an EU passport bypass both, and Schengen-resident permit holders are exempt from EES registration when travelling on that status.' },
       { q: 'Will ETIAS be required as soon as it launches?', a: 'The EU’s stated approach pairs the launch with a transitional grace period before the authorisation becomes a hard entry requirement, so travellers mid-trip at launch will not be refused for lacking it. The specifics will come with the official launch announcement.' },
     ],
-    '2026-07-31',
+    '2026-08-09',
     {
       seoTitle: 'Italy Entry Requirements 2026: EES Live, ETIAS Delayed — The Facts',
       primaryKeyword: 'italy entry requirements 2026',
@@ -6456,7 +6458,9 @@ The travellers who get burned are almost always the ones who never checked, book
 
 The practical read for visitors: an August itinerary needs no strike contingency at all for trains and flights, and this is one of the few unqualified logistical advantages [the hardest month](/blog/tuscany-in-august-2026/) holds over the shoulder seasons. Similar protected windows exist around other major holiday periods and election days; the summer one is simply the longest and the most relevant to international visitors.
 
-Two honest footnotes. The ban covers industrial action, not everything else that can disrupt travel — engineering works, weather and ordinary delays operate year-round, as the Florence rail-hub works of late July 2026 demonstrated to anyone routed around them. And local-transport sectors outside air and rail have their own calendars, so the ban is a strong shield rather than a total one. But as a planning fact it stands: **strike risk in Italy is seasonal, and late summer is its floor.**`,
+Two honest footnotes. The ban covers industrial action, not everything else that can disrupt travel — engineering works, weather and ordinary delays operate year-round, as the Florence rail-hub works of late July 2026 demonstrated to anyone routed around them. And local-transport sectors outside air and rail have their own calendars, so the ban is a strong shield rather than a total one. But as a planning fact it stands: **strike risk in Italy is seasonal, and late summer is its floor.**
+
+**And the floor has an end date: 5 September 2026.** The autumn calendar is already filling — as of our 9 August check, Italian strike-calendar reporting listed a 24-hour Trenitalia regional stoppage in Piedmont across 7–8 September (a reminder that regional strikes are regional: that one does not touch Tuscany), a 24-hour strike by security staff at Rome's Fiumicino and Ciampino airports on **10 September** — directly relevant if your Tuscany trip starts with [a Rome arrival](/blog/rome-to-siena-train-bus-2026/) — and, the month's headline, a **general strike across 25–26 September** with local public transport out from 8:00 to 21:00 on the 26th. New proclamations are added weekly, so treat that list as the early shape of the month, not the final one: the official calendar remains the only source that matters for your specific date. Travelling in September? Run the three-minute workflow this guide teaches, and expect to actually use it.`,
       },
       {
         id: 'fasce-di-garanzia',
@@ -6539,7 +6543,7 @@ In both cases the practical moves are identical: let the airline rebook you rath
       {
         id: 'how-we-checked',
         heading: 'How we checked these details',
-        body: `Checked at the end of July 2026: the summer strike ban’s 27 July–5 September span for the air and rail sectors, the guaranteed-window structure for regional and local transport (roughly 06:00–09:00 and 18:00–21:00, Monday–Saturday) and the existence of published guaranteed national train lists, against Italy’s essential-services framework as described by the strike-oversight and transport-ministry sources and the operators’ own strike pages; and the EU passenger-rights distinction — airline-staff strikes not qualifying as extraordinary circumstances, external strikes qualifying but preserving the duty of care — against the European courts’ established interpretation of the air passenger rights regulation. Individual strikes set their own hours and service levels: **always verify your specific date on the official calendar and your operator’s strike page.** We have no affiliate relationship with any operator, airline or claims service; recommendations are editorial.`,
+        body: `Checked at the end of July 2026: the summer strike ban’s 27 July–5 September span for the air and rail sectors, the guaranteed-window structure for regional and local transport (roughly 06:00–09:00 and 18:00–21:00, Monday–Saturday) and the existence of published guaranteed national train lists, against Italy’s essential-services framework as described by the strike-oversight and transport-ministry sources and the operators’ own strike pages; and the EU passenger-rights distinction — airline-staff strikes not qualifying as extraordinary circumstances, external strikes qualifying but preserving the duty of care — against the European courts’ established interpretation of the air passenger rights regulation. Individual strikes set their own hours and service levels: **always verify your specific date on the official calendar and your operator’s strike page.** The September 2026 proclamations cited (Piedmont rail 7–8, Rome airport security 10, the 25–26 general strike) reflect Italian strike-calendar reporting at our 9 August 2026 re-check; the autumn list will grow, and the official MIT calendar supersedes anything written here. We have no affiliate relationship with any operator, airline or claims service; recommendations are editorial.`,
       },
       {
         id: 'final-thoughts',
@@ -6557,7 +6561,7 @@ In both cases the practical moves are identical: let the airline rebook you rath
       { q: 'Do strikes affect the Florence to Siena bus?', a: 'Bus strikes follow the same rules: advance announcement and protected commuter bands. On a flagged day, take the 131R in the morning window and return in the evening one — and treat the second-to-last departure as your last, which is our standing advice in any case.' },
       { q: 'Is a strike a reason to avoid visiting Italy?', a: 'No. Strikes are announced, partial, short and regulated — and banned outright in the air and rail sectors from 27 July to 5 September. With a three-minute calendar check per trip, they reduce to a scheduling detail, not a risk.' },
     ],
-    '2026-07-31',
+    '2026-08-09',
     {
       seoTitle: 'Italy Transport Strikes Explained: Bans, Guaranteed Trains & Rights',
       primaryKeyword: 'italy transport strikes',
@@ -7931,6 +7935,330 @@ One week, three festivals, two seasons, and the year’s pivot witnessed from th
       imageAlt: 'Shaded garden paths in Florence’s Boboli Gardens in early spring',
       canonicalPath: '/blog/tuscany-in-march-2027',
       tags: ['tuscany in march', 'easter in tuscany', 'scoppio del carro', 'tuscany spring', 'florence traditions'],
+    }
+  ),
+
+  A(
+    'giostra-del-saracino-arezzo-2026',
+    'Giostra del Saracino 2026: Arezzo Runs Its 150th Joust on 6 September',
+    'Day trips',
+    'Tuscany',
+    'Arezzo runs the 150th Giostra del Saracino on 6 September 2026: how the joust works, verified ticket prices and dates, and the day trip by train.',
+    '',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `On **Sunday 6 September 2026 at 17:00**, eight costumed knights will gallop across Piazza Grande in Arezzo and drive lances into the shield of a rotating wooden king — and this time the city is counting: it is the **150th edition** of the Giostra del Saracino in its modern form, a milestone Arezzo has marked with a celebratory image and a full ceremonial week.
+
+The essentials, as checked on 9 August 2026: grandstand seats run **€40–100** depending on stand and sector, with reduced rates for children aged 5–14 and over-70s; sales open **Saturday 29 August** in person (maximum four tickets per buyer), standing tickets follow on **30 August**, and online sales start **31 August** on the official Arezzo ticketing portal. Arezzo is an easy **train day trip from Florence** — direct services in about an hour or less, then a ten-to-fifteen-minute uphill walk to the centre. From Siena, the practical route is the direct regional bus or the train via Florence; there is no direct rail line.
+
+If you are anywhere in Tuscany in the first week of September, this is the event worth reorganising a day around: a genuine civic ritual with seven centuries of history behind it, run for the city itself rather than for visitors — which is exactly why it is worth seeing.`,
+      },
+      {
+        id: 'what-it-is',
+        heading: 'What the Giostra actually is',
+        body: `The Giostra del Saracino is Arezzo's answer to Siena's Palio: a twice-yearly contest between the city's historic quarters, fought not with racehorses but with lances. Its roots are medieval — jousting against a Saracen-effigy target was a cavalry training exercise that hardened into civic spectacle — and after centuries of interruptions the city revived it in **1931** as a regulated tournament between the four quarters. The September 2026 running is the 150th edition counted from that modern revival.
+
+The target is the **Buratto**, a wooden, armoured effigy titled the King of the Indies, mounted on a swivel at the top of Piazza Grande's sloping course. The knight charges uphill and strikes the shield in the Buratto's left hand; the effigy spins with the blow, and the whip it holds in its right — the **mazzafrusto**, three cords each ending in a leather-covered wooden ball — whirls round at the rider's back. Hitting the target is the job; not being hit back is the skill.
+
+Two things distinguish the Giostra from a costumed re-enactment. First, it is scored, judged and fiercely contested — quarters have lost captains and friendships over half-points. Second, the city takes it personally: the week before the joust, Arezzo belongs to flag-throwers, drummers, blessing ceremonies and quarter dinners, and on the day itself several hundred participants in fourteenth-century dress process through the streets before a lance is ever couched.`,
+      },
+      {
+        id: 'the-150th',
+        heading: 'Why the 150th edition matters',
+        body: `Anniversary editions change the temperature of the event. The Giostra normally runs twice a year — a June evening edition under floodlights and a September afternoon edition — and September 2026 lands on the round number: **150 editions** since the 1931 revival. Local press report the city unveiled a celebratory image for the occasion, and the ceremonial calendar around the joust is being run in full.
+
+For a visitor, the practical consequences cut both ways. The atmosphere will be at its densest: quarter dinners at their longest, the procession at its proudest, the piazza at its loudest. But demand follows sentiment — Arezzo's own residents will want to be in Piazza Grande for this one, ticket queues at the 29 August opening are expected to be sharp, and the local press describe an early-morning scramble with the four-per-person cap in place precisely to spread seats around. If a grandstand seat matters to you, treat the online opening on 31 August as your moment and be on the portal when it goes live. If you are happy standing, your window opens a day earlier, in person.`,
+      },
+      {
+        id: 'four-quarters',
+        heading: 'The four quartieri',
+        body: `Everything in the Giostra runs through the four gate-quarters of the medieval city: **Porta Crucifera**, **Porta del Foro**, **Porta Sant'Andrea** and **Porta Santo Spirito**. Each fields two knights, keeps its own colours, church, museum and headquarters, and carries its own tally of past victories — recited with the precision of league tables.
+
+The quarters are the reason the event feels alive rather than performed. Allegiances are inherited; the propitiatory dinners on the eve of the joust seat hundreds of members under quarter banners; and victory means the **Lancia d'Oro** — the golden lance trophy, newly designed for each edition and presented in the days before the joust — paraded back to the winning quarter's headquarters at night amid singing that carries across half the city.
+
+Visitors do not need to pick a side, but it helps to notice them: the colours draped from windows as you walk in from the station tell you whose streets you are crossing, and the quarter museums — small, volunteer-run, scattered through the centre — are the best free-to-cheap context you can get on a first visit. If the joust itself is sold out, the quarters are also where the event remains visible: dinners, processions and the returning celebration all happen in the open.
+
+![Heraldic contrada banners strung across a street in Siena](/images/siena/siena-contrade-street-flags.webp)
+*Quarter banners in Siena, photographed for our contrade guide — Arezzo's four quartieri dress their streets the same way in Giostra week; we have not yet photographed Arezzo itself.*`,
+      },
+      {
+        id: 'how-it-works',
+        heading: 'How the joust works — and how it is scored',
+        body: `The course, called the **lizza**, runs diagonally uphill across Piazza Grande for **forty-six metres**. One at a time, each knight receives the lance at the piazza's stone well, waits behind the start line for the field master's signal, then charges at full gallop and strikes the Buratto's shield.
+
+The scoring is forensic. The shield — the *tabellone* — is divided into **twelve zones worth one to five points**, and the lance tip carries an inked pad that leaves a mark; a technical jury measures the geometric centre of the stain to award the score. Around that base score sit the multipliers and bonuses that decide editions:
+
+- **Breaking the lance on impact doubles the points** scored on the shield.
+- **Tearing away the mazzafrusto's balls earns extra points** — one ball adds one, two add two, all three add four.
+- The theoretical maximum for a single charge is therefore **fourteen**: a five, doubled for a broken lance, plus all three balls away.
+
+There are penalties too — a knight caught by the returning mazzafrusto, or losing control of horse or lance, gives points away, which is why the crowd holds its breath twice per run: once at the strike, once as the whip whips round.
+
+The contest itself is short and total: after the **two ordinary rounds of charges**, if two or more quarters stand level, tie-break runs — the *spareggi* — continue until the scores diverge. Then the piazza stops being a stadium and becomes a celebration, or four different arguments, depending on where you are standing.`,
+      },
+      {
+        id: 'the-week',
+        heading: 'The ceremonial week, day by day',
+        body: `The joust is the final hour of a nine-day sequence, and several of the earlier pieces are free to watch. The 2026 September programme, as published by the event's official channels and local press:
+
+| Date | Time | What happens |
+| --- | --- | --- |
+| Sat 29 Aug | 11:00 | Presentation of the September **Lancia d'Oro** |
+| Sun 30 Aug | 11:00 | Draw of the running order and the captains' oath |
+| Mon 31 Aug – Wed 2 Sep | 16:30–19:30 | Knights' training runs in Piazza Grande |
+| Thu 3 Sep | 17:00 | Full simulation of the joust |
+| Fri 4 Sep | 21:30 | **Prova Generale** — the dress rehearsal, ticketed |
+| Sat 5 Sep | 11:30 | Stamping of the horses and investiture of the jousters |
+| Sat 5 Sep | from 20:30 | Propitiatory dinners in the four quarters |
+| Sun 6 Sep | 17:00 | **The 150th Giostra del Saracino** |
+
+Two notes from that table worth acting on. The **training runs and simulation** in the early week put knights, horses and the Buratto in the piazza with a fraction of Sunday's crowd — if you are in Tuscany those days and only want the spectacle, an early-week evening delivers most of it for nothing. And the **Prova Generale** on Friday night is the insider's compromise: the full ceremony rehearsed under lights, tickets sold alongside the Sunday ones. If Sunday sells out before you get there, Friday is the fallback to check first.`,
+      },
+      {
+        id: 'tickets',
+        heading: 'Tickets: prices, dates and the honest caveats',
+        body: `As announced for the September 2026 edition and reported by Arezzo's local press at our 9 August check:
+
+**Grandstand (tribune) seats:**
+
+| Stand | Sector | Price |
+| --- | --- | --- |
+| Chimet Poltroncine (armchair) | Lancia d'Oro | €100 |
+| Chimet Poltroncine | Central | €70 |
+| Chimet Poltroncine | Fontana | €60 |
+| Chimet | Central | €60 |
+| Chimet | Buratto side | €50 |
+| Chimet | Fontana side | €40 |
+| Orchidea Preziosi | First sector | €50 |
+| Orchidea Preziosi | Second sector | €40 |
+
+A third stand (Chimera Gold) is also on sale; its pricing did not appear in the announcements we checked, so ask when booking. **Reductions**: €10 off the full price of any stand for ages 5–14 and over-70s; children up to 4 enter free seated on an adult's lap.
+
+**The sales sequence matters more than the prices:**
+
+- **Saturday 29 August, morning** — in-person sales open, grandstands only, **maximum four tickets per person**. Local press expect queues from early morning.
+- **Sunday 30 August, 15:00** — standing tickets go on sale.
+- **Monday 31 August, 15:00** — everything moves online at the official portal, **discoverarezzo.ticka.it**.
+
+The caveats we would want told to us: prices and arrangements are as reported days before sales open and can be adjusted by the organisers; the Prova Generale is ticketed separately alongside the Sunday sale; and standing positions in a sloping, packed piazza favour the tall and the early. Confirm everything on the official Giostra and Discover Arezzo channels before you build a trip around a seat — and buy from the official portal only, for the same reason [we give about every event](/blog/italy-entry-requirements-ees-etias-2026/): resale mark-ups on civic events are pure loss.`,
+      },
+      {
+        id: 'getting-there',
+        heading: 'Getting to Arezzo: train first, car last',
+        body: `**From Florence, this is one of Tuscany's easiest day trips.** Arezzo sits on the main Florence–Rome line with direct trains through the day — around an hour on the regionale, less on faster services — at regional fares listed from roughly €10 on the aggregators at our check (confirm the live fare when booking; regional pricing is fixed but service types differ). From Arezzo station, the historic centre is a **ten-to-fifteen-minute walk, uphill**, along Corso Italia straight towards Piazza Grande. On joust day, follow the drums.
+
+**From Siena, plan more carefully.** There is **no direct train** — the rail routing runs via Chiusi and takes close to three hours, which kills a day trip. The direct option is Autolinee Toscane's regional bus **line 138** (Siena–Ambra–Monte San Savino–Arezzo), about six services on weekdays taking a little over an hour. The catch is the calendar: **the Giostra is a Sunday**, and regional bus frequencies thin on Sundays — check the 138's Sunday timetable on the at-bus.it planner before committing, and treat the last return as one connection earlier than it claims, [the standing rule for every day trip we publish](/blog/siena-day-trips-without-a-car/). If the Sunday bus does not cooperate, the train via Florence is the reliable workaround: Siena–Florence by rail or bus, then the direct Arezzo train.
+
+**Driving is the worst option on this particular day.** Arezzo's centre is camera-enforced ZTL at the best of times, and joust day adds closure ordinances around the course and processional streets. If you must drive, park low and outside the old town and walk up; the [same discipline that applies in Siena](/blog/siena-ztl-fines-how-to-avoid/) applies here, with a festival layered on top.
+
+One more September-specific check before any of it: the summer strike moratorium ends on 5 September, the day before the joust. Glance at [the national strike calendar](/blog/italy-transport-strikes-survival-guide-2026/) the week you travel.`,
+      },
+      {
+        id: 'day-plan',
+        heading: 'A realistic joust-day plan from Florence',
+        body: `**Morning.** Take a mid-morning train and drop into Arezzo before midday — early enough for the city's other headline act: Piero della Francesca's **Legend of the True Cross** fresco cycle in the Basilica di San Francesco, one of the great fresco achievements of the fifteenth century, with timed entry that is far easier to get before the joust crowds concentrate. The Duomo and Santa Maria della Pieve — whose apse forms one wall of Piazza Grande itself — round out a compact art morning, everything within ten minutes' walk.
+
+**Lunch.** Eat early and unhurried; kitchens fill with quarter partisans as the afternoon builds. This is Chianina beef country, and September menus begin leaning towards the harvest table [we map in the vendemmia guide](/blog/tuscany-wine-harvest-vendemmia-2026/).
+
+**Afternoon.** The procession — several hundred participants in historical dress, drummers, sbandieratori flag-throwers — moves through the centre ahead of the joust; position yourself along Corso Italia rather than fighting for piazza edges if you are unticketed. Ticket holders should be in their stands well before 17:00; the piazza seals as the ceremony begins.
+
+**The joust and after.** The contest itself resolves in charges of seconds each, stretched over an afternoon of ceremony, scoring pauses and — if the quarters finish level — sudden-death tension. Afterwards, either follow the winning quarter's celebration as the Lancia d'Oro goes home through the streets, or slip downhill ahead of the crowd for the evening train. Check the return timetable before you commit to the party; the party will not check it for you.`,
+      },
+      {
+        id: 'september-fit',
+        heading: 'Where the Giostra fits in a September Tuscany trip',
+        body: `The first fortnight of September 2026 is unusually dense even by Tuscan standards. The Giostra's ceremonial week runs from 29 August; [Siena's own September](/blog/siena-in-september-2026/) is in full swing; the [wine harvest is running early this year](/blog/tuscany-wine-harvest-vendemmia-2026/), pulling picking scenes into the first half of the month; and the harvest festivals follow through the rest of September.
+
+A workable shape for a week: base in Siena or Florence, give **Sunday 6 September to Arezzo**, put a wine-country day either side of it, and keep one flexible day for whichever of the season's events fits your dates. The joust needs no car; the wine country arguably does — [that trade-off is its own decision](/blog/val-dorcia-or-chianti-which-to-visit-2026/), and September is the best month of the year to be making it.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research: the joust date, start time and 150th-edition status from the event's official channels and Arezzo local press; the ceremonial-week programme (Lancia d'Oro presentation, draw and oath, training days, simulation, Prova Generale, investiture, quarter dinners) from the same announcements; grandstand prices, reductions, the four-ticket cap, the 29–31 August sales sequence and the discoverarezzo.ticka.it portal from Arezzo local press reporting the official arrangements; the scoring system (twelve-zone shield, one to five points, doubled for a broken lance, mazzafrusto bonuses, forty-six-metre lizza, tie-break rules) from the quarters' and event's published rule descriptions; Florence–Arezzo train times and indicative fares from journey aggregators (treat exact fares as unverified until purchase); and the Siena options from Autolinee Toscane's published line information for route 138. Ticket arrangements were announced but sales had not yet opened at our check — details can change, and the official Giostra del Saracino and Discover Arezzo channels are the only authoritative sources. We have no affiliate relationship with the event, any ticket seller or any operator named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Tuscany sells its past everywhere, but only a handful of times a year does a city stop pretending for visitors and perform a ritual entirely for itself. Siena does it twice each summer with the Palio. Arezzo does it with lances, a spinning king and a golden trophy — and on 6 September 2026 it does it for the hundred-and-fiftieth time, which is precisely the kind of edition people later claim they attended. Be early for tickets, earlier for the train, and stand where the drums are loudest.`,
+      },
+    ],
+    [
+      { q: 'When is the Giostra del Saracino in 2026?', a: 'The September edition — the 150th of the modern era — runs on Sunday 6 September 2026 at 17:00 in Piazza Grande, Arezzo, with a ceremonial week from 29 August including a ticketed dress rehearsal on Friday 4 September at 21:30.' },
+      { q: 'How much do Giostra del Saracino tickets cost?', a: 'As announced for September 2026: grandstand seats from €40 to €100 depending on stand and sector, with €10 reductions for ages 5–14 and over-70s and free entry for under-4s on an adult’s lap. Standing tickets are sold separately. Confirm prices on the official channels — sales open 29 August in person and 31 August online at the official Discover Arezzo portal.' },
+      { q: 'Can you watch the Giostra for free?', a: 'The piazza itself is fully ticketed on joust day, including standing areas. What is free: the knights’ training runs and the simulation earlier in the week, the costumed procession through the centre before the joust, and the winning quarter’s celebration afterwards.' },
+      { q: 'Is Arezzo an easy day trip from Florence?', a: 'Yes — direct trains on the main Florence–Rome line take about an hour or less, with regional fares listed from roughly €10 at our check, and the centre is a ten-to-fifteen-minute uphill walk from the station. It is one of the simplest rail day trips in Tuscany.' },
+      { q: 'How do you get to Arezzo from Siena?', a: 'There is no direct train — rail routing via Chiusi takes close to three hours. Autolinee Toscane’s bus line 138 runs direct in a little over an hour, but service is thin and the joust falls on a Sunday, so check the Sunday timetable on at-bus.it first; otherwise go by train via Florence.' },
+      { q: 'What is the Lancia d’Oro?', a: 'The golden lance: the trophy awarded to the winning quarter, newly designed for every edition and presented in the days before the joust. The winning quarter parades it back to its headquarters through the streets on the night of the victory.' },
+      { q: 'Is the Giostra del Saracino suitable for children?', a: 'Broadly yes — it is a costumed civic festival with drummers and flag-throwers, and under-4s enter free on an adult’s lap with 5–14s at reduced rates. The cautions are practical: a packed, sloping piazza, an afternoon of ceremony before the action, and charges by armoured riders that are loud and fast. A grandstand seat is worth the extra for families.' },
+    ],
+    '2026-08-20',
+    {
+      seoTitle: 'Giostra del Saracino 2026: Arezzo’s 150th Joust — Tickets & Day Trip',
+      primaryKeyword: 'giostra del saracino 2026',
+      secondaryKeywords: [
+        'giostra del saracino tickets',
+        'arezzo joust september 2026',
+        'giostra del saracino arezzo 150th',
+        'arezzo day trip from florence',
+        'what to do in arezzo',
+        'tuscany events september 2026',
+      ],
+      imageAlt: 'Heraldic banners in a Tuscan street — the quarter rivalry tradition behind Arezzo’s Giostra',
+      canonicalPath: '/blog/giostra-del-saracino-arezzo-2026',
+      tags: ['giostra del saracino', 'arezzo', 'tuscany events', 'day trips from florence', 'september in tuscany'],
+    }
+  ),
+
+  A(
+    'tuscany-september-2026-festivals-events',
+    'Tuscany in September 2026: Seven Festivals Worth Planning Around, With Dates',
+    'Things to do',
+    'Tuscany',
+    'Seven Tuscany festivals with verified dates for September 2026 — Arezzo’s 150th joust, Chianti’s wine expo, Lucca’s candlelit Luminara and more.',
+    '/images/tuscany/chianti-wine-road-vineyard.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `September is when Tuscany's event calendar stops being decorative and starts being a reason to move your dates. In 2026 the month stacks up unusually well, and — rarer still — the dates are already published. The seven worth planning around, all verified against official channels or the organisers' announcements at our 9 August check:
+
+- **Sun 6 September** — the [Giostra del Saracino](/blog/giostra-del-saracino-arezzo-2026/) in Arezzo: the 150th edition of the city's mounted joust.
+- **Mon 7 September** — the **Festa della Rificolona**, Florence's paper-lantern procession.
+- **Thu 10 – Sun 13 September** — the **54th Expo Chianti Classico** in Greve in Chianti, the year's biggest Chianti wine fair.
+- **Sun 13 September** — the **Luminara di Santa Croce** in Lucca: the whole city lit by candles, procession at 20:00, fireworks at 23:30.
+- **Sat 26 September** — the **Carro Matto**, a cart stacked with 1,500 wine flasks rolling through Florence.
+- **Sun 27 September** — the **centenary Festa dell'Uva** in Impruneta, the grape festival's hundredth edition.
+- **Sat 26 September – Sun 4 October** — the **34th BIAF**, Florence's biennial antiques fair at Palazzo Corsini.
+
+Underneath all of it runs [a wine harvest arriving ten to fifteen days early this year](/blog/tuscany-wine-harvest-vendemmia-2026/) — and one administrative note: the national strike moratorium ends 5 September, so [check the strike calendar](/blog/italy-transport-strikes-survival-guide-2026/) for whichever dates you pick.`,
+      },
+      {
+        id: 'why-september',
+        heading: 'Why September earns the fuss',
+        body: `Three currents converge. The heat breaks but the days stay long; the summer crowds thin while everything remains open; and the countryside flips from scenery to work as the vendemmia rolls through the vineyards — in 2026, earlier than usual, which pushes picking scenes into the very weeks these festivals occupy.
+
+The events in this guide are not tourist products invented to fill a calendar. The Giostra is contested by Arezzo's quarters for their own honour; the Luminara is a religious procession five centuries deep in Lucca's identity; the Rificolona is Florentine families walking their children through the streets with lanterns. Visitors are welcome at all of them — but the crowd around you will be substantially local, which is exactly the measure of an event worth crossing a region for.
+
+One planning discipline before the list: **September weekends are the pressure points.** Four of the seven fall on weekends, room prices in the host towns move accordingly, and regional transport runs thinner on Sundays. Book the beds first, then the trains, then the restaurants — in that order.`,
+      },
+      {
+        id: 'giostra',
+        heading: 'Sunday 6 September — Giostra del Saracino, Arezzo',
+        body: `The headline act of the month, and of this century-and-a-half: Arezzo's mounted joust runs its **150th modern edition** at 17:00 in Piazza Grande, eight knights charging a rotating Saracen effigy for the Lancia d'Oro while the four quarters of the city hold their breath.
+
+We have published [a full planning guide to the joust](/blog/giostra-del-saracino-arezzo-2026/) — tickets (€40–100 grandstands, sales from 29 August, online from 31 August), the free-to-watch ceremonial week before it, and the train logistics from Florence and Siena. The short version for this list: Arezzo is an easy direct train from Florence, the piazza is fully ticketed on the day, and the anniversary edition will sell hard. If the joust is your anchor event, secure the seat before you book anything else.`,
+      },
+      {
+        id: 'rificolona',
+        heading: 'Monday 7 September — Festa della Rificolona, Florence',
+        body: `The evening before the Nativity of the Virgin, Florence turns its children loose with **paper lanterns on sticks** — the rificolone — in a procession that traditionally winds towards Piazza Santissima Annunziata. The custom descends from country pilgrims who walked into the city overnight for the feast and its market, lighting their way with lanterns; Florentine street kids mocked the rustics' swinging lights, and the mockery hardened into a festival, complete with the surviving tradition of pea-shooter attempts on other people's lanterns.
+
+It is free, it is gentle, and it is one of the few major Florentine traditions that peaks after dinner — which makes it the easiest event on this list to add to a trip without reorganising anything. Expect the procession and piazza to be at their fullest from dusk; expect handmade lanterns to outnumber bought ones; and if you are travelling with children, this is their event of the month. Verify the evening's timings closer to the date on the city's official channels — the pattern is stable, the precise programme is published near the day.`,
+      },
+      {
+        id: 'expo-chianti',
+        heading: 'Thursday 10 – Sunday 13 September — Expo Chianti Classico, Greve',
+        body: `The **54th Expo Chianti Classico** fills Piazza Matteotti in Greve in Chianti for four days: dozens of producers from across the denomination pouring at stands a few steps apart, plus a programme of cultural events, winemaker encounters and cellar visits around the town. For anyone who wants to understand Chianti Classico without driving between ten estates, this is the most efficient — and most convivial — four days of the year, and the official expochianticlassico.com site carries the producer list and programme.
+
+The practicalities we would want known in advance: the tasting formula historically works on a **paid glass-and-tastings basis** — confirm the current arrangement on the official site rather than assuming a figure. Greve reaches from Florence [without a car via Autolinee Toscane's route 365](/blog/tuscany-wine-harvest-vendemmia-2026/) — the one major wine town with a genuinely easy bus link — but services thin on Sunday, and the festival's final day is a Sunday. If you are basing in Siena, central Chianti is awkward by public transport; the bus via Florence or a driven day are the honest options, and if the second appeals, [the car question has its own guide](/blog/renting-a-car-in-tuscany-2026/).`,
+      },
+      {
+        id: 'luminara',
+        heading: 'Sunday 13 September — Luminara di Santa Croce, Lucca',
+        body: `On the night of 13 September, Lucca switches off and lights up: **thousands of candles line the facades, towers and streets** of the historic centre for the Luminara di Santa Croce, honouring the Volto Santo — the ancient wooden crucifix the city has venerated for a millennium. The solemn procession leaves the Basilica of San Frediano at **20:00**, retracing the legendary transfer of the crucifix to the Cathedral of San Martino; the Mottettone — the festival's choral work — sounds in the cathedral around **21:00**, and a fireworks display closes the night at **23:30**.
+
+It is the most atmospheric single evening on the Tuscan September calendar, and the logistics need respect: Lucca sits about eighty minutes from Florence by regional train, the candlelit procession route packs solid well before 20:00, and the last convenient trains back to Florence leave before the fireworks do. The comfortable version of this evening involves **sleeping in Lucca** — decide early, because the city knows what it has, and the 13th falls on a Sunday in 2026, colliding with the Expo Chianti Classico's final day for anyone trying to do both.`,
+      },
+      {
+        id: 'carro-matto',
+        heading: 'Saturday 26 September — the Carro Matto, Florence',
+        body: `On the fourth Saturday of the month, a **“crazy cart” stacked with 1,500 wine flasks** — built into a swaying pyramid, drawn by white oxen — rolls from the Rufina wine country into central Florence, escorted by the historical procession of the Florentine Republic. It commemorates the centuries when Chianti Rufina's harvest entered the city exactly this way, and it ends with the traditional blessing of the new wine.
+
+As a spectacle it is short, photogenic and free: position along the route through the centre — the cart traditionally pauses around the Duomo and Piazza della Signoria — and let it come to you. It shares its weekend with the BIAF opening and precedes Impruneta's grape festival by a day, which makes the final September weekend the densest of the month for anyone based in Florence. Timings are published by the city close to the date; the fourth-Saturday pattern and the 1,500-flask cart are the fixed points.`,
+      },
+      {
+        id: 'impruneta',
+        heading: 'Sunday 27 September — the centenary Festa dell’Uva, Impruneta',
+        body: `Impruneta's grape festival reaches its **hundredth edition** in 2026, and the town — twenty-odd minutes south of Florence, famous otherwise for its terracotta — takes it seriously: four rioni (districts) spend months building parade floats and choreographing performances on the grape-and-wine theme, competing for the year's title in front of a packed Piazza Buondelmonti on the last Sunday of September.
+
+We covered the centenary in [the vendemmia guide](/blog/tuscany-wine-harvest-vendemmia-2026/) as one of the two anchor events of harvest season, and the advice holds: it is the closest thing Tuscany has to a harvest carnival, the centenary edition will draw the biggest crowd in its history, and access from Florence is a short bus ride that will be at its fullest of the year that afternoon. Go early, expect the town to be pedestrianised, and treat the float parade as the fixed point with timings confirmed on the festival's channels near the date.`,
+      },
+      {
+        id: 'biaf',
+        heading: '26 September – 4 October — BIAF, Florence’s biennial antiques fair',
+        body: `Different register, same calendar: the **34th Biennale Internazionale dell'Antiquariato di Firenze** occupies Palazzo Corsini on the Arno for nine days from 26 September. It is one of the world's major old-master and antiques fairs — museum-grade paintings, sculpture and furniture, much of it for sale to institutions and collectors, all of it viewable by the public for the price of a ticket.
+
+For most travellers it is a half-day of world-class browsing in a Baroque palace that is otherwise rarely open; for anyone with a serious interest in Italian art, it is a destination in itself. It runs on weekdays too, which makes it the month's best **bad-weather insurance**: if rain lands on your Florence days in that window, this is where the day goes. Hours and ticketing are on the fair's official site.`,
+      },
+      {
+        id: 'sagra-culture',
+        heading: 'The undercard: sagra season',
+        body: `Around the headline events, September runs on **sagre** — the small-town food festivals where a village firehouse or football pitch becomes a kitchen dedicated to one thing: porcini, wild boar, ravioli, the last tomatoes, the first grapes. Listings aggregators count well over a dozen across Tuscany in September 2026, with the harvest-belt towns busiest.
+
+We do not list individual sagre here for a simple reason: their dates and menus are published locally, often late, and a guide that names them months ahead is guessing. The reliable method instead: once you know your dates and base, search the town-plus-“sagra” combination for the villages within half an hour of you, or watch the posters that appear on every roundabout the week before. The [food calendar](/blog/tuscan-food-calendar-seasonal-dishes/) explains what September tastes like — porcini arriving, game returning, schiacciata con l'uva in the bakeries — so you know what to hope your nearest sagra is serving.`,
+      },
+      {
+        id: 'building-a-week',
+        heading: 'Building a week around the calendar',
+        body: `The month divides into two natural clusters.
+
+**The first-half cluster (5–13 September)** is the strongest single week of events Tuscany offers all year: position in Florence or Siena, day-trip to **Arezzo on Sunday the 6th** for the joust, catch the **Rificolona on the 7th** in Florence, ride the 365 bus to Greve for a day of the **Expo Chianti Classico (10th–13th)**, and finish in **Lucca on the 13th** for the Luminara — sleeping there if the fireworks matter to you. The early-running harvest means vineyard scenes the whole way through.
+
+**The final-weekend cluster (26–27 September)** suits a Florence base: **Carro Matto Saturday**, **Impruneta's centenary Sunday**, BIAF whenever the weather turns. It is the gentler, cheaper end of the month with the vendemmia still visible in the higher zones.
+
+Both clusters obey the same three rules: book the host-town beds first; check Sunday transport before promising anyone a day trip; and glance at [the strike calendar](/blog/italy-transport-strikes-survival-guide-2026/) once when you book and once the week you travel — the moratorium ends 5 September, and the month's biggest announced action falls on 25–26 September, directly on top of the final-weekend cluster. [Siena's own September rhythm](/blog/siena-in-september-2026/) and [the month-by-month overview](/blog/best-time-to-visit-tuscany/) round out the planning set.`,
+      },
+      {
+        id: 'practicalities',
+        heading: 'Event-month practicalities',
+        body: `A few habits separate the travellers who enjoy festival Tuscany from the ones who endure it.
+
+**Dress for two seasons a day.** September evenings turn cool the moment the sun drops, and four of these seven events peak at or after dusk — the Luminara and Rificolona are entirely evening affairs. A warm layer in the bag is the difference between staying for the fireworks and leaving before them.
+
+**Eat on the event's schedule, not yours.** Festival towns compress lunch service before the spectacle and overflow after it. Book the table when you book the trip for the Luminara and the Giostra; for the sagre, arrive hungry and early, since the good dishes genuinely run out.
+
+**Carry some cash.** Sagra stands, lantern sellers and festival gabelle remain stubbornly cash-first even as the cities go card-everything.
+
+**Protect the return leg.** Every event on this list except BIAF ends in darkness or near it. Before committing to a finale, know your last train or bus — and apply the standing rule from [our day-trip playbooks](/blog/siena-day-trips-without-a-car/): treat the second-to-last connection as your last. Festival crowds move at festival speed, and stations are never as close as they looked at noon.
+
+**Let one thing go.** The 13th of September offers Greve's wine fair and Lucca's candlelit night simultaneously, eighty kilometres apart. The itinerary that tries to take both delivers neither; the month is rich enough to forgive the sacrifice.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research: the Giostra del Saracino date, time and edition from the event's official channels and Arezzo local press (full sourcing in [the dedicated guide](/blog/giostra-del-saracino-arezzo-2026/)); the Expo Chianti Classico dates (10–13 September, Piazza Matteotti, 54th edition) from the fair's official site; the Luminara di Santa Croce programme (procession 20:00 from San Frediano, Mottettone, fireworks 23:30) from Lucca's official tourism pages and festival listings; the Rificolona (7 September) and Carro Matto (fourth Saturday) from Visit Tuscany's published 2026 events overview, with precise timings left to the city's near-date announcements; the Impruneta centenary date (27 September) as verified for our vendemmia guide from the festival's announcements; and the BIAF dates (26 September–4 October, Palazzo Corsini, 34th edition) from the same regional overview. Sagra counts reflect listings aggregators and are described as a pattern, not a programme. Event programmes firm up near their dates — the organisers' official channels supersede everything here. We have no affiliate relationship with any event, venue or operator named; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Most months in Tuscany, events are the seasoning. In September 2026 they are close to the meal: a 150th-anniversary joust, a centenary grape festival, a candlelit city and the region's biggest wine fair, all inside four weeks that also happen to hold the harvest and the year's kindest weather. Pick a cluster, book the beds before the enthusiasm fades, and leave one evening unplanned — September in Tuscany is at its best when it is allowed to interrupt you.`,
+      },
+    ],
+    [
+      { q: 'What are the main events in Tuscany in September 2026?', a: 'The verified headliners: Arezzo’s 150th Giostra del Saracino (6 September), Florence’s Rificolona lantern procession (7 September), the 54th Expo Chianti Classico in Greve (10–13 September), Lucca’s Luminara di Santa Croce (13 September), Florence’s Carro Matto (26 September), Impruneta’s centenary Festa dell’Uva (27 September) and the BIAF antiques biennial (26 September–4 October).' },
+      { q: 'Which September 2026 events are free?', a: 'The Rificolona, the Luminara’s street spectacle and procession, the Carro Matto and Impruneta’s festival atmosphere are free to watch. The Giostra’s piazza is fully ticketed on joust day (its training week is free), the Expo Chianti Classico historically charges for its tasting glass, and BIAF sells entry tickets.' },
+      { q: 'Can you visit the Expo Chianti Classico without a car?', a: 'Yes — Greve in Chianti is the one major Chianti wine town with an easy bus link: Autolinee Toscane’s route 365 from Florence, roughly an hour. Note the fair’s final day (13 September) is a Sunday, when services thin — check the timetable both ways before committing.' },
+      { q: 'Is the Luminara di Santa Croce worth staying overnight in Lucca?', a: 'If the full evening matters, yes. The procession starts at 20:00, the fireworks close the night at 23:30, and convenient last trains back to Florence leave before the finale. Lucca’s hotels know the date — book early.' },
+      { q: 'How does the early 2026 wine harvest affect a September trip?', a: 'Trade press and consortium reports put the 2026 vendemmia ten to fifteen days ahead of the historical average, so picking scenes concentrate in the first half of September in the warmer, lower zones. If watching harvest work is the goal, favour early September and confirm timing with any estate you plan to visit.' },
+      { q: 'Do September strikes affect these events?', a: 'They can: the summer strike moratorium ends 5 September, and at our August check the month’s announced actions included a Rome airport security strike on 10 September and a general strike across 25–26 September — the latter directly on the Carro Matto–Impruneta weekend. Events themselves are unaffected; reaching them is the variable. Check the official strike calendar when you book and again the week you travel.' },
+    ],
+    '2026-08-21',
+    {
+      seoTitle: 'Tuscany September 2026 Events: 7 Festivals With Verified Dates',
+      primaryKeyword: 'tuscany september 2026 events',
+      secondaryKeywords: [
+        'tuscany festivals september 2026',
+        'expo chianti classico 2026',
+        'luminara di santa croce 2026',
+        'rificolona florence 2026',
+        'festa dell uva impruneta 2026',
+        'what to do in tuscany in september',
+      ],
+      imageAlt: 'A road through Chianti vineyards, the wine country that hosts September’s Expo Chianti Classico',
+      canonicalPath: '/blog/tuscany-september-2026-festivals-events',
+      tags: ['tuscany events', 'september in tuscany', 'tuscany festivals', 'wine harvest', 'florence events'],
     }
   ),
 ];
