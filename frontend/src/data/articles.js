@@ -4469,7 +4469,7 @@ Our recommendation follows from that: **from Siena, go independently; from Flore
       {
         id: 'quick-answer',
         heading: 'Quick answer',
-        body: `The vendemmia — Tuscany’s wine harvest — runs from late August to mid-October, with the Sangiovese heartland around Chianti, Siena and Montalcino at its busiest from mid-September to early October. Visitors cannot legally pick grapes as casual labour, but a booked “harvest experience” puts you beside the work, and two big free-to-enter September events anchor a trip in 2026: the **54th Expo Chianti Classico in Greve (10–13 September)** and the **centenary Festa dell’Uva in Impruneta (Sunday 27 September)**. Base yourself in Siena or Florence, book the winery experience ahead, and build the rest of the trip around long lunches and golden light.`,
+        body: `The vendemmia — Tuscany’s wine harvest — runs from late August to mid-October, with the Sangiovese heartland around Chianti, Siena and Montalcino at its busiest from mid-September to early October. **One 2026-specific note: the hot summer has pulled the whole calendar earlier** — Italian trade press and the consortia report picking starting roughly ten days to two weeks ahead of the historical average, so this year the earlier end of every window is the safer bet. Visitors cannot legally pick grapes as casual labour, but a booked “harvest experience” puts you beside the work, and two big free-to-enter September events anchor a trip in 2026: the **54th Expo Chianti Classico in Greve (10–13 September)** and the **centenary Festa dell’Uva in Impruneta (Sunday 27 September)**. Base yourself in Siena or Florence, book the winery experience ahead, and build the rest of the trip around long lunches and golden light.`,
       },
       {
         id: 'what-vendemmia-is',
@@ -4477,6 +4477,8 @@ Our recommendation follows from that: **from Siena, go independently; from Flore
         body: `For most of the year, a Tuscan vineyard is scenery. For a few weeks in September and October it becomes a workplace: crews moving down the rows from early morning, trailers of grapes queuing at cellar doors, presses running late into the evening, and a smell of crushed fruit hanging over every wine town. If you have only ever seen Tuscany at rest, harvest is the season when the landscape explains itself.
 
 The timing moves with geography and grape. White varieties come off the vines first, and the warm coastal zones — Bolgheri and the Maremma — begin earliest, from the second half of August. The Sangiovese that becomes Chianti Classico is generally picked from mid-September into early October, and in Montalcino the slower-ripening Sangiovese Grosso destined for Brunello can keep crews out into late October. Elevation, weather and each estate’s own judgement shift the start by days or weeks either way — which is exactly why no winery will promise months in advance that “your” date will be a picking day.
+
+**The 2026 season is running early.** As of our 9 August check, Italian trade press and consortium announcements describe a harvest pulled forward by the hot summer: picking of sparkling-wine bases began in early August, the Consorzio Maremma Toscana confirmed a start around fifteen days ahead of its historical average, and reports suggest even Sangiovese could come off the vines earlier than the usual mid-September start. The same reporting expects volumes in line with recent years or slightly down, with quality prospects described as medium-high and dependent — as always — on August and September weather. For a 2026 trip, the practical translation: if watching the harvest is the point, favour the **first half of September** over the second in the lower and warmer zones, and confirm picking windows with your chosen estate in the week before you travel rather than trusting any calendar, including this one.
 
 ![A road through Chianti vineyards in the wine country between Florence and Siena](/images/tuscany/chianti-wine-road-vineyard.webp)
 *Chianti’s vineyard roads at harvest: the busiest, best-smelling weeks of the wine year.*
@@ -4567,7 +4569,7 @@ Either month, pack for swings rather than a single climate: warm middays, cool m
       {
         id: 'how-we-checked',
         heading: 'How we checked these details',
-        body: `Event dates and prices were checked in July 2026 against the organisers’ published information: the Expo Chianti Classico dates (10–13 September 2026) and €20 admission from the event’s official channels, and the Festa dell’Uva centenary date (27 September 2026) from the festival’s own announcements. Harvest-timing ranges reflect how the season is described by Tuscany’s official tourism sources and working estates; the exact picking weeks always depend on the year’s weather. Bus details reflect Autolinee Toscane route information — confirm timetables on their planner close to your date. We have no affiliate relationship with any winery, tour operator or event named here; recommendations are editorial.`,
+        body: `Event dates and prices were checked in July 2026 against the organisers’ published information: the Expo Chianti Classico dates (10–13 September 2026) and €20 admission from the event’s official channels, and the Festa dell’Uva centenary date (27 September 2026) from the festival’s own announcements. Harvest-timing ranges reflect how the season is described by Tuscany’s official tourism sources and working estates; the exact picking weeks always depend on the year’s weather. The 2026 early-start picture (re-checked 9 August 2026) comes from Italian trade press and consortium announcements — including the Consorzio Maremma Toscana’s confirmed ~15-day anticipation and a Gambero Rosso survey of consortium expectations — and is attributed as reporting, not as a promise about any estate’s dates. Bus details reflect Autolinee Toscane route information — confirm timetables on their planner close to your date. We have no affiliate relationship with any winery, tour operator or event named here; recommendations are editorial.`,
       },
       {
         id: 'final-thoughts',
@@ -4585,7 +4587,7 @@ Either month, pack for swings rather than a single climate: warm middays, cool m
       { q: 'Should you choose Siena or Florence as a harvest base?', a: 'Siena puts you inside the southern wine belt — Chianti, Val d’Orcia, Montalcino, San Gimignano — while Florence is better for the Expo in Greve and the Festa dell’Uva in Impruneta. With ten days, split the trip and do both.' },
       { q: 'Do wineries accept walk-in tastings during harvest?', a: 'Increasingly no. Across Chianti, Montalcino and Montepulciano, structured cellar visits expect reservations through the May-to-October season, and harvest is the busiest moment of the winery’s year. Book the estates you care about and keep walk-ins for town enotecas.' },
     ],
-    '2026-07-31',
+    '2026-08-09',
     {
       seoTitle: 'Tuscany Wine Harvest 2026: Vendemmia, Festivals & How to Join In',
       primaryKeyword: 'tuscany wine harvest',
