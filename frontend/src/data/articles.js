@@ -8261,6 +8261,140 @@ Both clusters obey the same three rules: book the host-town beds first; check Su
       tags: ['tuscany events', 'september in tuscany', 'tuscany festivals', 'wine harvest', 'florence events'],
     }
   ),
+
+  A(
+    'rent-a-car-in-florence-or-siena-2026',
+    'Should You Rent a Car in Florence or Siena? The Decision, Honestly Argued',
+    'Transport',
+    'Tuscany',
+    'Rent the car in Florence or Siena? Where the offices are, how ZTL exposure differs, what one-way drops cost you, and the answer by trip shape.',
+    '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `The question sounds like geography but is really arithmetic: **rent where your driving starts, for as few days as possible.**
+
+- **Flying into Florence and heading for the countryside?** Take the car at **Florence airport** — you pay the airport premium, but you roll straight onto the ring roads and the Florence–Siena raccordo without touching city traffic.
+- **Spending days in Florence first?** Do not collect the car until the morning you leave. A parked rental in Florence burns money and risks fines; the city offices cluster a few minutes' walk from Santa Maria Novella station, positioned so you can drive out without crossing the ZTL.
+- **Based in Siena?** Rent **in Siena, for the countryside days only**. The offices sit on the valley floor near the station — a taxi or urban bus from the old town — and you are in open country within minutes of the keys. Three rental days instead of seven is the biggest saving available in this entire decision.
+- **Split stay, Florence then Siena (or the reverse)?** Collect the car the day you move between them, and price the one-way drop *before* assuming it: cross-city drop fees vary by company and only the checkout quote tells the truth.
+
+The rest of this guide argues each branch properly — offices, ZTL exposure, hours, one-ways and the costs nobody prices in — with the caveats attached where they belong.`,
+      },
+      {
+        id: 'real-question',
+        heading: 'What actually differs between the two cities',
+        body: `Strip away the anxiety and only five things genuinely change with the pickup city:
+
+**Where the offices are.** Florence has the full spread: airport desks plus a cluster of city agencies in the streets southwest of Santa Maria Novella station — traveller reports consistently place the majors around Borgo Ognissanti and the streets off it. Siena's agencies sit in the modern lower town near the railway station, below the historic centre; reachable, but plan the taxi or urban bus hop rather than assuming a stroll from the Campo.
+
+**How much city you must drive through.** Florence is a big, congested city whose historic core is camera-guarded; Siena is a small city whose restricted zone is compact and — from the valley-floor offices — simply never entered. The first fifteen minutes of a Florence city pickup are the most stressful driving of most Tuscan holidays. The first fifteen minutes of a Siena pickup are a ring road and then vineyards.
+
+**Fleet depth and hours.** Florence, and especially its airport, carries more cars, longer counters and better odds of the exact category you booked — the [automatic-gearbox scarcity our rental guide documents](/blog/renting-a-car-in-tuscany-2026/) bites hardest at small offices. Smaller city and Siena branches keep tighter hours, with Sunday the day to check twice before building plans on a pickup or return.
+
+**The one-way question.** Same-city return is the pricing default everywhere; dropping in the other city can be free, cheap or startling depending on company and season, and the fee only shows itself at checkout.
+
+**The airport premium.** Airport desks carry surcharges city offices do not — the recurring theme of traveller reports is that the airport costs more and the city costs time. Which one is worth paying depends entirely on your first hour of driving, which is what the next two sections are about.`,
+      },
+      {
+        id: 'florence-pickup',
+        heading: 'Renting in Florence: airport versus city office',
+        body: `**The airport case.** Florence airport sits northwest of the city, effectively on top of the A11 junction, with the A1 and the free Florence–Siena raccordo minutes away. Collect a car there and the city simply never happens to you: no ZTL geometry, no bus lanes, no Vespas materialising in mirrors. You pay for that in airport fees and, if you are staying in the centre first, a tram or taxi ride out to the terminal. For anyone whose Tuscan plan is *land, drive, countryside*, this is the clean answer.
+
+**The city-office case.** The station-area agencies — the Borgo Ognissanti cluster and the desks around Santa Maria Novella — price lower than the airport and sit within walking distance of most central accommodation. The geometry works in your favour on the way out: the offices lie outside the restricted zone's cameras, which guard entries rather than exits, so a sensible westward exit route touches nothing enforced. The honest caveats: you are still driving out of a busy Italian city at whatever hour you chose, one wrong turn toward the centre is [an automatic fine in the post](/blog/florence-tourist-rules-2026/), and morning pickup queues at station-area desks are a standing feature of traveller reports. Book the pickup hour deliberately: mid-morning, after the commuter wave, before the queue.
+
+**The rule either way**: never hold a rental car during your Florence city days. Central parking is expensive, the ZTL makes casual driving worthless, and every day the car sits is a day of rental and parking bought for nothing. Collect it the morning the countryside begins.`,
+      },
+      {
+        id: 'siena-pickup',
+        heading: 'Renting in Siena: small, low-stress, slightly awkward to reach',
+        body: `Siena's rental offices live where the trains do: on the valley floor in the lower town, a steep drop below the historic centre. Traveller reports agree on the essentials — the agencies are near the station area rather than the old town, close enough that the hop costs a short taxi ride or an urban bus, far enough that nobody enjoys the walk with luggage uphill on the return.
+
+What Siena gives you in exchange is the gentlest rental experience in Tuscany. There is no metropolis to escape: from the offices you are on the ring road immediately and [in the Val d'Orcia or Chianti within half an hour](/blog/val-dorcia-or-chianti-which-to-visit-2026/), with the city's camera-guarded centre — [whose fines this site has documented at length](/blog/siena-ztl-fines-how-to-avoid/) — simply never on your route, because no sane route from the valley floor enters it.
+
+The trade-offs are the small-office kind. Fleets are shallower, so the automatic you need in hill country must be booked early and confirmed as guaranteed; counter hours are tighter than Florence's, with Sundays and lunchtimes the classic traps for both pickup and return; and if your category is unavailable, the nearest deep fleet is an hour away rather than across the tarmac. None of this argues against Siena — it argues for booking Siena carefully.
+
+One Siena-specific gift worth naming: because the offices sit outside the walls, returning the car and [parking yourself back into the city](/blog/siena-parking-and-transfer-guide/) are the same manoeuvre. Drop the keys, cross to the station area, ride up to the centre, done — no fine risk at either end.`,
+      },
+      {
+        id: 'one-way',
+        heading: 'The one-way question: collect in one city, drop in the other',
+        body: `The split-stay itinerary — Florence days, then Siena days, or the reverse — makes the one-way rental look elegant: collect the car the morning you leave city one, use it for the transfer and the countryside, drop it in city two.
+
+The logistics genuinely are elegant. The pricing needs checking every single time. Within-Italy one-way fees are set by each company and vary from nothing to substantial; no figure printed here would survive contact with your dates, so we state the rule instead of a number: **price the same itinerary both ways — one-way drop versus round-trip return — before booking, and treat the checkout total as the only real quote.** Our [rental guide's broader advice](/blog/renting-a-car-in-tuscany-2026/) applies unchanged: the conditions attached to the specific offer are the contract, and the small print on drop-off location (which office, what hours, where to leave keys out-of-hours) matters more than usual when the drop city is not the pickup city.
+
+Two patterns from traveller reports worth copying. Ending the trip at an airport? Drop the car at the airport, whatever city you rented in — returning a car to a city office and then taxiing to a terminal recreates the airport premium in reverse, paid in stress. And if the one-way fee on your dates is ugly, check the reverse itinerary: sometimes the same trip run Siena-first prices differently, and the [Florence-or-Siena base question](/blog/florence-or-siena-which-to-visit-2026/) was open anyway.`,
+      },
+      {
+        id: 'ztl-first-km',
+        heading: 'The ZTL, in one paragraph per city',
+        body: `**Florence**: the restricted zone wraps the historic core, cameras face the entry points, and rental pickups near the station can leave westward without crossing a gate — but the zone's edge runs close enough to the station streets that a navigation app recalculating at the wrong moment is all it takes. Set the destination *before* pulling out, refuse every "faster route through the centre" suggestion, and the exit is genuinely uneventful.
+
+**Siena**: the zone covers the entire old town, runs around the clock, and has no legitimate reason to appear in a rental itinerary at all — offices, ring road and every countryside direction lie outside it. The renters who collect fines in Siena are almost always [navigating to a centre hotel on arrival](/blog/siena-ztl-fines-how-to-avoid/), which is a different mistake with its own guide. Collecting or returning a rental on the valley floor, you are structurally safe.
+
+If those two paragraphs read as "Florence requires one minute of care and Siena requires none", that is the accurate summary — and for nervous first-time drivers in Italy it is a legitimate reason on its own to shape the trip so the driving starts in Siena.`,
+      },
+      {
+        id: 'decision',
+        heading: 'The decision, trip shape by trip shape',
+        body: `**Fly-in, straight to the countryside (agriturismo trips, wine-country weeks).** Florence airport pickup. Pay the premium, skip the city entirely, return to the airport at the end. The simplest version of renting in Tuscany.
+
+**Florence city days first, then countryside.** City-office pickup on departure morning — cheaper than the airport, and the car exists only for the days it earns. Mid-morning slot, westward exit, [ZTL vigilance for one kilometre](/blog/florence-tourist-rules-2026/), done.
+
+**Siena base, countryside day trips.** Rent in Siena for exactly the days the countryside requires — often two or three of a seven-day stay, since [Siena's own day-trip menu runs fine without a car](/blog/siena-day-trips-without-a-car/) for San Gimignano and Florence itself. This is the cheapest total-cost pattern in this guide, and the least stressful driving.
+
+**Split stay.** Collect the car the morning you change cities; drop it in the second city or its airport; price the one-way against the round trip before committing. If the fee offends, invert the itinerary or keep the car only for the middle countryside days and connect the cities [by bus or rail](/blog/rome-to-siena-train-bus-2026/) instead.
+
+**No countryside plans at all.** Then the answer to "Florence or Siena?" is *neither* — [both cities punish cars and reward buses](/blog/florence-or-siena-which-to-visit-2026/), and the money belongs in better rooms and longer lunches.
+
+Whichever branch is yours, the comparison step is the same: a broker such as [DiscoverCars](/go/discovercars-italy) shows both cities' offices, fleets and drop-fee totals side by side for your actual dates — which turns most of this article's "it depends" into a number — and booking direct with a supplier you trust works equally well. Read the excess, deposit and fuel terms attached to the specific offer before paying; [our rental guide walks through every clause](/blog/renting-a-car-in-tuscany-2026/).`,
+      },
+      {
+        id: 'cost-logic',
+        heading: 'The cost logic most comparisons miss',
+        body: `Travellers agonise over the airport surcharge and then rent the car for seven days when their itinerary drives on three. The office choice moves the total by a modest percentage; **the day count moves it by multiples** — every excess day carries the rental rate, the insurance, the parking and the low-grade worry of a car you are responsible for and not using.
+
+So run the decision in this order. First, mark the days that genuinely require a car — usually the [Val d'Orcia, Chianti and multi-stop rural days](/blog/val-dorcia-or-chianti-which-to-visit-2026/), rarely the city days. Second, choose the pickup point that sits at the start of that block: Florence airport if the block starts at landing, a Florence city office if it starts after the museums, Siena's valley floor if it starts from a Siena base. Third, and only third, compare prices across companies for that exact window — with the [insurance-excess arithmetic from the rental guide](/blog/renting-a-car-in-tuscany-2026/) in view, because a cheap headline rate with a €3,000 excess is not cheap.
+
+September note, since this guide publishes into harvest season: [the 2026 vendemmia is running early](/blog/tuscany-wine-harvest-vendemmia-2026/), the wine roads are at their busiest and loveliest in the first half of the month, and estate visits with tastings are precisely the days to structure around a designated driver, a tour, or the tasting-friendly bus reality of Greve — a car is not automatically the right tool for wine days, and the honest wine-day answer is sometimes to leave it parked.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research: office locations and pickup-experience patterns (the Borgo Ognissanti/Santa Maria Novella cluster in Florence, airport desks at FLR, Siena's agencies in the lower town near the station requiring a taxi or bus hop from the centre) from rental companies' published branch information and consistent traveller reports on major travel forums; the exit-route and camera-placement picture from the same reports alongside this site's own previously verified ZTL research for [Siena](/blog/siena-ztl-fines-how-to-avoid/) and [Florence](/blog/florence-tourist-rules-2026/). We deliberately print no rental prices, airport-fee amounts or one-way fees: they vary by company, date and season, and any figure would be stale before you read it — the checkout quote for your dates is the only real number. Traveller-report claims (queue patterns, office hours) are described as patterns, not guarantees; confirm hours with the branch when booking. Disclosure: the DiscoverCars link on this page is an affiliate link — if you book through it we may earn a commission, at no extra cost to you. No supplier is recommended, and the advice on where and whether to rent does not change either way. Platform links use our internal /go/ shortcuts.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `"Florence or Siena?" turns out to be the wrong first question. Ask instead: *which days of this trip actually need a car?* Answer that honestly and the pickup city usually names itself — the airport if driving starts at landing, a station-side Florence office if it starts after the city, Siena's valley floor if it starts from the Campo's shadow. Rent for those days and no others, price the one-way before believing in it, and let the car be what it should be in Tuscany: a countryside tool, collected where the countryside begins.`,
+      },
+    ],
+    [
+      { q: 'Is it cheaper to rent a car in Florence or Siena?', a: 'Neither city is reliably cheaper; the real variables are airport surcharges versus city-office rates, fleet depth on your dates, and how many rental days your itinerary actually needs. Cutting a seven-day rental to the three days that require a car saves more than any office choice. Compare both cities for your exact window before deciding.' },
+      { q: 'Should I pick up a rental car at Florence airport or in the city?', a: 'Airport if your driving starts at landing — you pay more but join the motorways without touching city traffic. City office if you have Florence days first: collect the car the morning you leave, from the station-area agencies that sit outside the ZTL cameras, and never keep a parked rental during city sightseeing days.' },
+      { q: 'Can I rent a car in Florence and drop it off in Siena?', a: 'Yes — most major companies offer within-Italy one-way rentals between the two. The drop fee varies from nothing to substantial by company and season, and only appears in the checkout total, so price the one-way against a round-trip return before booking and check the drop-off office location and hours.' },
+      { q: 'Where are the car rental offices in Siena?', a: 'In the modern lower town near the railway station, below the historic centre — a short taxi or urban bus ride from the old town rather than a comfortable walk with luggage. From there you reach the ring road and open countryside in minutes without ever entering Siena’s camera-enforced ZTL.' },
+      { q: 'Do I risk a ZTL fine picking up a rental car in Florence?', a: 'The station-area offices sit outside the restricted zone, whose cameras guard entry points, so a deliberate westward exit touches nothing enforced. The risk is a navigation app rerouting you toward the centre — set your destination before pulling out and refuse any route through the historic core.' },
+      { q: 'Do I need a car at all for Florence and Siena?', a: 'For the cities themselves, no — both punish cars with restricted zones and expensive parking, and the bus connects them well. A car earns its cost only for the countryside: Val d’Orcia, Chianti and multi-stop rural days. Rent for those days specifically and use public transport for the rest.' },
+    ],
+    '2026-08-22',
+    {
+      seoTitle: 'Rent a Car in Florence or Siena? The Honest Decision Guide (2026)',
+      primaryKeyword: 'should i rent a car in florence or siena',
+      secondaryKeywords: [
+        'rent car florence or siena',
+        'florence airport car rental vs city',
+        'car rental siena italy location',
+        'one way car rental florence to siena',
+        'do i need a car in tuscany',
+        'picking up rental car florence ztl',
+      ],
+      imageAlt: 'A cypress-lined road in the Val d’Orcia — the countryside driving that decides where to collect the car',
+      canonicalPath: '/blog/rent-a-car-in-florence-or-siena-2026',
+      tags: ['car rental tuscany', 'florence or siena', 'tuscany transport', 'driving in tuscany', 'trip planning'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
