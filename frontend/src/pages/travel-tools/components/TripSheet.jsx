@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { itineraryGenerator, budgetCalculator, packingChecklist, bestTime, ITINERARY_DESTINATIONS } from "@/lib/travelTools";
 import { loadTripPlan, loadBudgetPrefs } from "@/lib/tripPlan";
-import { FileText, Printer, CalendarDays, Wallet, Sun, ListChecks } from "lucide-react";
+import { itineraryToIcs, downloadIcs, dayDateLabel } from "@/lib/icsExport";
+import { FileText, Printer, CalendarDays, CalendarPlus, Wallet, Sun, ListChecks } from "lucide-react";
 
 // One printable page composed entirely from the "My Trip" plan and the same
 // verified tables the individual tools use — no new claims, no fetches.
@@ -62,13 +63,28 @@ export default function TripSheet() {
             </p>
           </div>
         </div>
-        <button
-          type="button"
-          onClick={() => window.print()}
-          className="no-print shrink-0 flex items-center gap-2 px-5 py-3 bg-[#A84A2E] hover:bg-[#8F3E26] text-white rounded-2xl font-medium transition-colors"
-        >
-          <Printer className="w-4 h-4" /> Print / save as PDF
-        </button>
+        <div className="no-print shrink-0 flex flex-wrap gap-2">
+          {plan.start_date && (
+            <button
+              type="button"
+              data-testid="add-to-calendar"
+              onClick={() => {
+                const ics = itineraryToIcs({ plan, itinerary });
+                if (ics) downloadIcs(ics, `archi-${plan.destination.toLowerCase()}-trip.ics`);
+              }}
+              className="flex items-center gap-2 px-5 py-3 bg-white border border-[#C65A3A] text-[#A84A2E] hover:bg-[#A84A2E] hover:text-white rounded-2xl font-medium transition-colors"
+            >
+              <CalendarPlus className="w-4 h-4" /> Add to calendar
+            </button>
+          )}
+          <button
+            type="button"
+            onClick={() => window.print()}
+            className="flex items-center gap-2 px-5 py-3 bg-[#A84A2E] hover:bg-[#8F3E26] text-white rounded-2xl font-medium transition-colors"
+          >
+            <Printer className="w-4 h-4" /> Print / save as PDF
+          </button>
+        </div>
       </div>
 
       <p className="no-print text-xs text-[#657143] bg-[#FAF7F2] rounded-2xl px-4 py-3 mb-6">
@@ -85,9 +101,14 @@ export default function TripSheet() {
             </p>
           )}
           <div className="space-y-3">
-            {itinerary.days.map((d) => (
+            {itinerary.days.map((d, i) => (
               <div key={d.day} className="border-b border-[#F5EDE3] last:border-0 pb-3 last:pb-0">
-                <p className="text-sm font-semibold text-[#A84A2E] uppercase tracking-wider mb-1">Day {d.day}</p>
+                <p className="text-sm font-semibold text-[#A84A2E] uppercase tracking-wider mb-1">
+                  Day {d.day}
+                  {plan.start_date && dayDateLabel(plan.start_date, i) && (
+                    <span className="normal-case tracking-normal text-[#657143] font-medium"> · {dayDateLabel(plan.start_date, i)}</span>
+                  )}
+                </p>
                 <p className="text-sm text-[#2C211B]">
                   <span className="text-[#657143]">Morning:</span> {d.morning} · <span className="text-[#657143]">Afternoon:</span> {d.afternoon} · <span className="text-[#657143]">Evening:</span> {d.evening}
                 </p>

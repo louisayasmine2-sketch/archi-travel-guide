@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { itineraryGenerator, ITINERARY_DESTINATIONS } from "@/lib/travelTools";
-import { loadTripPlan, markToolDone } from "@/lib/tripPlan";
+import { loadTripPlan, markToolDone, hasTripPlan } from "@/lib/tripPlan";
+import { itineraryToIcs, downloadIcs, dayDateLabel } from "@/lib/icsExport";
 import { toast } from "sonner";
-import { Sparkles, Map as MapIcon, Share2 } from "lucide-react";
+import { Sparkles, Map as MapIcon, Share2, CalendarPlus } from "lucide-react";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
@@ -73,12 +74,38 @@ export default function AIItineraryBuilder() {
 
   const copyShareLink = async () => {
     const url = `${window.location.origin}/travel-tools?tool=itinerary&dest=${encodeURIComponent(result.destination)}&days=${result.trip_length}`;
+    // Native share sheet where available (mobile); clipboard elsewhere.
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: `${result.destination} itinerary — Archi Travel Guide`, url });
+        return;
+      } catch (err) {
+        if (err?.name === "AbortError") return; // user closed the sheet
+      }
+    }
     try {
       await navigator.clipboard.writeText(url);
       toast.success("Share link copied — anyone opening it sees this itinerary.");
     } catch {
       toast.error(`Couldn't copy automatically. Link: ${url}`);
     }
+  };
+
+  // Calendar export needs real dates: only offered when the saved My Trip
+  // plan has a start date, matches the itinerary's destination, AND covers
+  // its length — otherwise the export would date days after the trip ends.
+  const calendarPlan = (() => {
+    if (!result || !hasTripPlan()) return null;
+    const plan = loadTripPlan();
+    const matches = plan.start_date &&
+      plan.destination === result.destination &&
+      plan.trip_length >= result.trip_length;
+    return matches ? plan : null;
+  })();
+
+  const addToCalendar = () => {
+    const ics = itineraryToIcs({ plan: calendarPlan, itinerary: result });
+    if (ics) downloadIcs(ics, `archi-${result.destination.toLowerCase()}-trip.ics`);
   };
 
   const upd = (k, v) => setForm((f) => ({ ...f, [k]: v }));
@@ -159,20 +186,33 @@ export default function AIItineraryBuilder() {
               <div className="space-y-4">
                 <div className="flex flex-col sm:flex-row sm:items-center gap-3 bg-[#FAF7F2] p-4 rounded-2xl">
                   <p className="text-sm font-medium text-[#657143] flex-1">{result.summary}</p>
+                  {calendarPlan && (
+                    <button
+                      type="button"
+                      data-testid="itinerary-add-to-calendar"
+                      onClick={addToCalendar}
+                      className="shrink-0 flex items-center gap-2 px-4 py-2 bg-white border border-[#C65A3A] text-[#A84A2E] hover:bg-[#A84A2E] hover:text-white rounded-xl text-sm font-medium transition-colors"
+                    >
+                      <CalendarPlus className="w-4 h-4" /> Add to calendar
+                    </button>
+                  )}
                   <button
                     type="button"
                     onClick={copyShareLink}
                     className="shrink-0 flex items-center gap-2 px-4 py-2 bg-white border border-[#C65A3A] text-[#A84A2E] hover:bg-[#A84A2E] hover:text-white rounded-xl text-sm font-medium transition-colors"
                   >
-                    <Share2 className="w-4 h-4" /> Copy share link
+                    <Share2 className="w-4 h-4" /> Share
                   </button>
                 </div>
-                {result.days.map((d) => (
+                {result.days.map((d, i) => (
                   <div key={d.day} className="rounded-3xl border border-[#F5EDE3] bg-white p-6 md:p-8 shadow-sm">
                     <div className="flex items-center gap-4 border-b border-[#F5EDE3] pb-4 mb-4">
                       <div className="bg-[#A84A2E]/10 text-[#A84A2E] px-4 py-1.5 rounded-full font-bold uppercase tracking-wider text-sm">
                         Day {d.day}
                       </div>
+                      {calendarPlan && dayDateLabel(calendarPlan.start_date, i) && (
+                        <span className="text-sm font-medium text-[#657143]">{dayDateLabel(calendarPlan.start_date, i)}</span>
+                      )}
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
                       <div>
