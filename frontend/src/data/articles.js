@@ -8523,6 +8523,140 @@ What the numbers support saying: overnighting in Siena is common but far from un
       tags: ['siena overnight', 'siena day trip', 'where to stay in siena', 'siena at night', 'trip planning'],
     }
   ),
+
+  A(
+    'montalcino-or-montepulciano-2026',
+    'Montalcino or Montepulciano? Two Wine Towns, One Honest Comparison',
+    'Day trips',
+    'Tuscany',
+    'Montalcino or Montepulciano? The wines, the towns, walk-in tastings versus appointments, and how to reach each from Siena — compared honestly.',
+    '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Ask the travel forums and you will find this question asked a dozen times and answered with shrugs. Here is the version with actual edges:
+
+**Choose Montalcino if the wine is the point.** Brunello is the bigger name, the town is smaller and quieter — especially after dark — and the single most convenient tasting experience in either town sits inside its fourteenth-century fortress. The price of admission: winery visits around Montalcino run on appointments and real money, and the town's sight list is short.
+
+**Choose Montepulciano if the town is the point.** It is roughly twice the size, architecturally richer — a Renaissance high street climbing to one of Tuscany's great squares — and its signature experience, the **underground cellar tours in the town centre, is free and needs no booking**. The wine, Vino Nobile, is the humbler label and the kinder price.
+
+**Without a car, from Siena: Montepulciano wins on logistics.** Bus line 112 runs there directly on weekdays via San Quirico and Pienza in about an hour and a half; Montalcino usually means a train-plus-bus change at Buonconvento and a wider time spread. On Sundays, treat both as effectively out of reach by bus until you have checked the timetable yourself.
+
+And the answer nobody asks for but everyone should hear: **with a car and two days, do both** — they sit forty minutes apart across the Val d'Orcia, and the comparison is the fun.`,
+      },
+      {
+        id: 'two-wines',
+        heading: 'The two wines: what the labels actually mean',
+        body: `Both towns built their fame on Sangiovese, and both wear Italy's top classification — Brunello di Montalcino and Vino Nobile di Montepulciano were in the very first group of DOCGs approved in July 1980, alongside Barolo. From there they diverge.
+
+**Brunello di Montalcino** must be **100 per cent Sangiovese** — the local clone traditionally called Brunello — and it is one of Italy's most celebrated and most expensive wines. The discipline is in the waiting: a standard Brunello may only be released from 1 January of the **fifth year** after harvest, with a minimum two years in oak and four months in bottle; the Riserva waits until the sixth. That patience is much of what you are paying for, and prices reflect it.
+
+**Vino Nobile di Montepulciano** must be at least **70 per cent Sangiovese** (known here as Prugnolo Gentile), aged a minimum of two years — three for the Riserva, including six months in bottle. It is consistently the cheaper of the two wines, even at its most lauded: the "noble" in the name refers to its aristocratic history, not its price bracket, and for many drinkers that makes it the better-value discovery of a Tuscan trip.
+
+One warning for the label-confused, because it costs real money: **Vino Nobile di Montepulciano has nothing to do with Montepulciano d'Abruzzo**, the inexpensive everyday wine from central-eastern Italy whose grape happens to be *called* Montepulciano. Same word, different grape, different region, very different bottle. The town's enotecas will forgive the question; wine lists will not warn you.`,
+      },
+      {
+        id: 'two-towns',
+        heading: 'The two towns: size, shape and evenings',
+        body: `The numbers frame the feel. Montalcino's comune counts about **5,600 residents** to Montepulciano's **13,500** — the whole-territory figures rather than the old centres, but the ratio holds in the streets: Montepulciano is the bigger, busier, more architecturally layered town; Montalcino is the compact hill village that happens to sit on a wine empire.
+
+**Montalcino** gathers around its fortress and a handful of streets with long views over the Val d'Orcia and the Crete. Traveller reports repeat the same two words — small and quiet — and mean them kindly: fewer coaches, gentler gradients within the centre, and evenings that are genuinely peaceful once the day visitors go. Its sight list is honest rather than long, which is exactly right for a day built around wine.
+
+**Montepulciano** is a proper Renaissance town poured along a ridge: palazzo-lined Corso climbing from the lower gate to **Piazza Grande** at the summit, where the Palazzo Comunale — its Florentine-style facade attributed to Michelozzo and completed around 1440 — offers a tower and terrace with views across both the Val di Chiana and the Val d'Orcia. The climb is the tax: from the bus end of town to the piazza is a long, steep haul, and anyone with mobility limits should plan around it. The reward is a town with more to look at, more places to eat, more shops — and, in high season, distinctly more people, a share of them [tracing the Twilight scenes filmed on Piazza Grande](/blog/tuscany-on-screen-film-locations-2026/).`,
+      },
+      {
+        id: 'sights-compared',
+        heading: 'The sights, compared',
+        body: `**Montalcino's anchor is the Fortezza**, the pentagonal fortress raised in 1361 at the town's highest point and later extended under the Medici. The courtyard is free to wander; walking the ramparts has in recent years carried a small charge — guest reviews cite a few euros, and also report restoration works limiting access to parts of the walls, so check what is open when you arrive rather than promising yourself the full circuit. Beyond the fortress: the town museums, the long terrace views, and the streets themselves.
+
+**Montepulciano stacks more**: Piazza Grande and its climbable Palazzo Comunale tower; the Corso's parade of Renaissance palazzi; the **underground cellars** hollowed beneath the town (next section, because they are really a tasting experience); and — below the walls — the **Tempio di San Biagio**, Antonio da Sangallo the Elder's High Renaissance masterpiece in white travertine, built 1518–1545 on a Greek-cross plan. It is ten to fifteen minutes downhill from the centre, uphill back, and worth both directions; a small entry charge has applied in recent years, so carry a few euros and check at the door.
+
+Scored purely as sightseeing, Montepulciano wins on volume and Montalcino on setting. Scored as a day, they even out: Montalcino's shorter list leaves room for the longer tastings its wine demands.`,
+      },
+      {
+        id: 'tasting-on-foot',
+        heading: 'Wine tasting on foot: the sharpest practical difference',
+        body: `Here is the contrast that should probably decide most itineraries, and that almost no comparison states plainly.
+
+**In Montalcino, serious tasting is an appointment culture.** The estates are working farms scattered across the territory, visits are booked ahead, and current guest-reported pricing typically runs **€25–45 per person** for a cellar visit with a tasting of the current range, more with vineyard walks or food, and into serious money for vertical tastings of older Brunello vintages. Without a car, the walkable option matters enormously: **Enoteca la Fortezza**, the wine shop operating inside the fortress since 1980, pours Brunello flights on the spot — guest reviews cite figures around €25 for a three-glass tasting with accompaniments — making it the one place in either town where a bus traveller can taste top-tier Brunello without transport, appointments or a driver.
+
+**In Montepulciano, the cellars come to you.** The town's historic producers open their underground vaults right on the Corso and Piazza Grande as walk-in attractions: **Ercolani's** sprawling "underground city", the **De' Ricci** cellars — the so-called wine cathedral beneath Palazzo Ricci — and **Contucci's** vaults under its palazzo on Piazza Grande, where the family has been making wine for centuries. Guest reports through 2026 describe free cellar visits and free or low-cost tastings as the norm at several of them, with the honest understanding that you are in a shop and the exit runs past the till. For casual wine tourists, families, and anyone travelling by bus, this is the friendliest wine experience in southern Tuscany.
+
+The un-hedged summary: **Montalcino rewards planning and budget; Montepulciano rewards wandering.** Neither is wrong — they are different sports.`,
+      },
+      {
+        id: 'getting-there',
+        heading: 'Getting to each from Siena (and the Sunday problem)',
+        body: `**By bus, Montepulciano is the straightforward one**: Autolinee Toscane's extraurban **line 112** runs from Siena on weekdays via San Quirico d'Orcia and Pienza, fastest journeys around **1h35**, roughly hourly through the working day. The route itself is half the value — it threads [the Val d'Orcia's postcard country](/blog/val-dorcia-day-trip-from-siena-2026/), and Pienza sits on it as a natural stop.
+
+**Montalcino asks a little more**: the direct approach is extraurban **line 114** (Siena–Buonconvento–Torrenieri–Montalcino), or the Siena–Grosseto line train to **Buonconvento** with the 114 for the short climb up. End-to-end timings vary with the connection — allow roughly **1.5 to 2 hours** and plan around the return times before committing to the day.
+
+**The Sunday warning applies to both, doubled.** Published timetables for these extraurban lines are built around working days, and sources genuinely conflict about what, if anything, runs on Sundays and holidays. Our standing advice: treat both towns as **weekday bus trips**, verify your exact date on the at-bus.it planner, and never build a Sunday plan on an aggregator's optimism — [the same discipline every car-free day trip from Siena requires](/blog/siena-day-trips-without-a-car/).
+
+**By car**, the calculus flips to easy: Montalcino is about **41 km from Siena, around 50 minutes**; Montepulciano about **63 km, around an hour** — and the two sit roughly 40 minutes apart, which is what makes the two-town, two-day version work. [Where to collect the car is its own decision](/blog/rent-a-car-in-florence-or-siena-2026/), and both towns follow the standard hill-town rule: park in the lots outside the walls and walk in. **By rail, neither works**: Montepulciano's own station sits some 10 km from the hill town, and the mainline railhead at Chiusi is about 20 km out with a connecting bus — technically possible, practically a last resort.`,
+      },
+      {
+        id: 'who-for-whom',
+        heading: 'The verdict, traveller by traveller',
+        body: `**The serious wine pilgrim** → Montalcino. Book two estate visits ahead, budget properly for them, and let the town's quiet be the rest between tastings. The Brunello release discipline means you are tasting wines with real age — this is the day trip that behaves like a pilgrimage.
+
+**The casual taster and first-timer** → Montepulciano. Free cellars, no bookings, a magnificent town around them, and Vino Nobile prices that let you carry a case home without wincing.
+
+**The car-free traveller from Siena** → Montepulciano on a weekday, with Pienza folded into the same 112 route. Montalcino by bus is doable but demands timetable discipline; save it for a day when the connections align, and aim the tasting at the fortress enoteca.
+
+**Families** → Montepulciano: the cellars are an adventure children actually enjoy, and the town has more to absorb non-drinkers. The climb is the one caveat for pushchairs.
+
+**The evening-lover staying overnight** → Montalcino, hands down. Travellers describe it as very quiet at night in the way [that transforms Siena too](/blog/siena-day-trip-or-overnight-2026/) — a wine town returned to its residents, with the Val d'Orcia going gold outside the walls.
+
+**The photographer** → split decision: Montepulciano for architecture and the Palazzo Comunale's double-valley panorama; Montalcino for the landscape it floats on. [The wider Val d'Orcia-versus-Chianti question](/blog/val-dorcia-or-chianti-which-to-visit-2026/) covers the countryside itself.`,
+      },
+      {
+        id: 'doing-both',
+        heading: 'Doing both — and when the calendar decides for you',
+        body: `With a car, the two-day version is the honest recommendation: they are close enough that choosing feels artificial, and tasting Brunello and Vino Nobile a day apart teaches more about Sangiovese than any single visit can. Base in one — Montalcino for quiet, Montepulciano for choice — or [day-trip both from a Siena base](/blog/val-dorcia-day-trip-from-siena-2026/).
+
+The calendar adds its own weights. [Harvest season](/blog/tuscany-wine-harvest-vendemmia-2026/) — running early in 2026 — makes estate country magnetic but also busy at the cellar door: appointment-culture Montalcino handles the season more predictably than walk-in optimism. [October](/blog/tuscany-in-october-2026/) is Montalcino's most atmospheric stretch as the countryside turns. And in high summer both towns bake by afternoon; the morning bus and an early climb are the difference between loving and enduring either.
+
+One last scheduling note: both towns keep Italian small-town rhythms, and cellar doors, museums and family restaurants thin out over Monday lunchtimes and midweek afternoons off-season. Whichever town you choose, check your one must-do — a particular cellar, the tower, a booked tasting — against its own published hours before locking the day, because in towns this size a single closure can reshape the visit.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research: the wine rules (Brunello's 100% Sangiovese and fifth-year release with two years' oak; Vino Nobile's 70% minimum and two-year ageing, Riserva three; both towns' July 1980 first-cohort DOCG status) against consortium and wine-reference sources; population figures (comune-level, 2025) from statistical sources; tasting-culture pricing (Montalcino's €25–45 typical cellar-visit band, the fortress enoteca's guest-cited flight pricing, Montepulciano's free walk-in cellar norms at Ercolani and Contucci) from producer information and 2024–2026 guest reports, framed as typical and guest-cited rather than guaranteed; monument facts (Fortezza 1361, Palazzo Comunale facade c.1440, San Biagio 1518–1545) from heritage sources; and transport (lines 112 and 114, the Buonconvento rail option, ~1h35 fastest Siena–Montepulciano, driving distances) from Autolinee Toscane's published line information and route planners. Where sources conflicted — the fortress rampart fee and current access, San Biagio's entry charge, Sunday services on both bus lines, exact bus fares and end-to-end Montalcino timings — we have hedged, given ranges, or declined to print figures, and said so in the text. Prices and timetables change: confirm tastings with the venues and buses on the at-bus.it planner for your date. We have no affiliate relationship with any winery, cellar, enoteca or operator named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Montalcino or Montepulciano is one of those Tuscan questions that improves on inspection, because the towns are not rivals so much as opposites wearing the same landscape: one small, still and built around a patient wine; the other tall, busy and generous with its cellars. Pick by temperament — planners and pilgrims south-west to Montalcino, wanderers and first-timers east to Montepulciano — pick by weekday if the bus is your ride, and if the trip allows both, take both and settle the argument at your own table.`,
+      },
+    ],
+    [
+      { q: 'Which is better, Montalcino or Montepulciano?', a: 'Montalcino for serious wine — Brunello, appointment tastings, a small quiet town; Montepulciano for the better all-round visit — a grander townscape, free walk-in underground cellars, cheaper Vino Nobile, and easier weekday bus access from Siena. With a car and two days, do both: they are about forty minutes apart.' },
+      { q: 'What is the difference between Brunello and Vino Nobile?', a: 'Brunello di Montalcino is 100% Sangiovese, released only from the fifth year after harvest (Riserva sixth) and priced among Italy’s top wines. Vino Nobile di Montepulciano is at least 70% Sangiovese, aged a minimum of two years, and consistently cheaper. Both were in Italy’s first DOCG group of 1980 — and neither has anything to do with Montepulciano d’Abruzzo.' },
+      { q: 'Can you do wine tasting in Montepulciano without booking?', a: 'Yes — that is its superpower. The historic cellars in the town centre (Ercolani, De’ Ricci, Contucci) operate as walk-in attractions, with guest reports through 2026 describing free cellar visits and free or low-cost tastings as the norm. You browse, you taste, and the exit passes the shop.' },
+      { q: 'How do you get to Montepulciano from Siena without a car?', a: 'Autolinee Toscane bus line 112, weekdays, via San Quirico d’Orcia and Pienza — fastest journeys around 1h35, roughly hourly in the working day. Sunday and holiday service is unreliable-to-absent in published timetables, so verify your date on the at-bus.it planner before planning a weekend visit.' },
+      { q: 'How do you get to Montalcino from Siena without a car?', a: 'Bus line 114 (Siena–Buonconvento–Torrenieri–Montalcino), or the Siena–Grosseto train to Buonconvento connecting to the 114 for the climb. Allow roughly 1.5–2 hours end to end depending on the connection, plan the return times first, and treat it as a weekday trip.' },
+      { q: 'Is Montepulciano too steep to visit?', a: 'It is a genuine hill town: the walk from the lower (bus) end to Piazza Grande at the top is long and steep, and San Biagio adds a downhill-then-uphill leg outside the walls. Most visitors manage it at a stroll with stops; anyone with mobility limits should start at the top if arriving by taxi, or favour flatter Montalcino.' },
+      { q: 'Which is less crowded, Montalcino or Montepulciano?', a: 'Montalcino, consistently. Montepulciano absorbs more coach and day-trip traffic — its size, fame and film locations see to that — while Montalcino’s evenings in particular are described by travellers as genuinely peaceful once day visitors leave.' },
+    ],
+    '2026-08-24',
+    {
+      seoTitle: 'Montalcino or Montepulciano? Wines, Towns & Buses Compared (2026)',
+      primaryKeyword: 'montalcino or montepulciano',
+      secondaryKeywords: [
+        'montalcino vs montepulciano',
+        'brunello vs vino nobile',
+        'montepulciano underground cellars',
+        'montalcino wine tasting without a car',
+        'siena to montepulciano bus',
+        'siena to montalcino bus',
+      ],
+      imageAlt: 'The Val d’Orcia landscape that separates Montalcino and Montepulciano',
+      canonicalPath: '/blog/montalcino-or-montepulciano-2026',
+      tags: ['montalcino', 'montepulciano', 'tuscany wine towns', 'brunello', 'vino nobile', 'day trips from siena'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
