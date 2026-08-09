@@ -24,11 +24,10 @@ const routesOf = (article) => {
   return routes;
 };
 
-const textOf = (article) =>
-  [
-    ...(article.sections || []).map((s) => s.body || ""),
-    ...(article.faqs || []).map((f) => f.a || ""),
-  ].join("\n");
+// Section bodies only. FAQAccordion renders answers as plain text, so a
+// markdown link in an FAQ is not a link — it reaches the reader as literal
+// brackets and reaches a crawler as nothing.
+const textOf = (article) => (article.sections || []).map((s) => s.body || "").join("\n");
 
 // One pass over every published body, at module load.
 const inboundCounts = (() => {
