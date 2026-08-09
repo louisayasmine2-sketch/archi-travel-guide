@@ -43,14 +43,14 @@ test("itinerary generates day cards, a map and a share button", async ({ page })
   await page.locator("button:has-text('Generate Itinerary')").click();
   await expect(page.locator(".leaflet-container")).toBeVisible();
   await expect(page.locator("text=Day 1").first()).toBeVisible();
-  await expect(page.locator("button:has-text('Copy share link')")).toBeVisible();
+  await expect(page.locator("button:has-text('Share')")).toBeVisible();
 });
 
 test("a share deep link opens with the itinerary already generated", async ({ page }) => {
   await page.goto("/travel-tools?tool=itinerary&dest=Siena&days=2");
   await expect(page.locator("text=Day 1").first()).toBeVisible();
   await expect(page.locator("text=Day 2").first()).toBeVisible();
-  await expect(page.locator("button:has-text('Copy share link')")).toBeVisible();
+  await expect(page.locator("button:has-text('Share')")).toBeVisible();
 });
 
 test("currency converter auto-converts, swaps, and survives a malformed response", async ({ page }) => {
