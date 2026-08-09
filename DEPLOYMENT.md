@@ -176,6 +176,14 @@ Run these once, in this order:
    the visit appears in Microsoft Clarity.
 9. If `REACT_APP_AMPLITUDE_API_KEY` is set, accept the cookie banner and confirm
    `page_view` appears in Amplitude.
+10. `curl -s https://affittacameregliarchi.com/api/geo` — expect
+    `{"country":"XX"}` with your two-letter country code (see section 12).
+11. Click-test the language banner's Google Translate link once (visit via a
+    VPN exit in e.g. Italy or Indonesia, or clear `archi_lang_banner_dismissed`
+    from localStorage and set the browser language). The
+    `translate.google.com/translate?sl=en&tl=…&u=…` URL pattern could not be
+    verified from the development environment's network, so confirm it
+    resolves to the translated page.
 
 ## 10. Deferred integrations
 
@@ -191,3 +199,30 @@ Run these once, in this order:
 Since the site is static SPA + stateless backend, roll back by redeploying the
 previous build tag. MongoDB collections (`newsletter`, `contact_messages`)
 are additive — no migrations required.
+
+## 12. Language detection (`/api/geo` Pages Function)
+
+`frontend/functions/api/geo.js` is a Cloudflare Pages Function. Pages picks up
+the `functions/` directory automatically when the project root is `frontend/`
+— no extra configuration, and Functions take precedence over static assets and
+`_redirects` for their route.
+
+How it works:
+
+- Cloudflare resolves the visitor's IP to a country at the edge; the function
+  returns only `{"country":"IT"}`-style JSON with `Cache-Control: no-store`.
+  The IP is never read, stored, or sent to any third party.
+- The frontend (`src/hooks/useVisitorLanguage.js`) maps the country to a
+  language (`src/lib/geoLanguage.js`) and, for non-English-speaking countries,
+  shows a dismissible strip offering a Google-Translate view of the page in
+  the visitor's language. It never redirects automatically — IP location is a
+  guess, and auto-redirects hurt SEO and visitors on VPNs.
+- `/api/geo` is relative to the Pages domain, so it does not collide with the
+  FastAPI backend, which the frontend reaches via the absolute
+  `REACT_APP_BACKEND_URL`.
+- Where the function is unavailable (local dev, other hosts), the hook falls
+  back to the browser language; with an English browser locale the banner
+  simply never shows.
+- A dismissal is remembered in localStorage under
+  `archi_lang_banner_dismissed`; the detected country is cached per session
+  under `archi_geo_country`.

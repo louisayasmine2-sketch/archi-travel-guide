@@ -4,6 +4,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import CookieConsent from "./CookieConsent";
 import OfflineBanner from "./OfflineBanner";
+import LanguageSuggestionBanner from "./LanguageSuggestionBanner";
 
 export default function Layout({ children }) {
   const { pathname } = useLocation();
@@ -15,6 +16,7 @@ export default function Layout({ children }) {
     <div className="min-h-screen flex flex-col bg-[hsl(var(--ivory))] text-[hsl(var(--charcoal))]">
       <a href="#main-content" className="skip-link">Skip to content</a>
       <OfflineBanner />
+      <LanguageSuggestionBanner />
       <Header />
       <main id="main-content" tabIndex={-1} className="flex-1">{children}</main>
       <Footer />

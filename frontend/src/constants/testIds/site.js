@@ -93,3 +93,9 @@ export const COOKIE = {
 	accept: 'cookie-accept',
 	decline: 'cookie-decline',
 };
+
+export const LANGUAGE_BANNER = {
+	banner: 'language-banner',
+	translate: 'language-banner-translate',
+	dismiss: 'language-banner-dismiss',
+};
