@@ -78,6 +78,15 @@ export default function About() {
               </p>
             </motion.div>
 
+            <motion.div variants={fadeInUp} className="mb-16">
+              <h2 className="text-3xl mb-4">About the company</h2>
+              <p>
+                This website is operated by <strong>PT Archi Travel Guide</strong>, a company registered in
+                Indonesia (business registration no. 0908260024539), based in Tulungagung. Editorial and
+                commercial enquiries: <a href="mailto:contact@affittacameregliarchi.com">contact@affittacameregliarchi.com</a>.
+              </p>
+            </motion.div>
+
             <motion.div variants={fadeInUp} className="mb-16 grid md:grid-cols-2 gap-10">
               <div className="bg-[#F5EDE3] p-10 rounded-[2rem]">
                 <h2 className="text-3xl mb-4 mt-0">How we work</h2>
