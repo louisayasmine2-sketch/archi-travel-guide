@@ -112,7 +112,7 @@ export default function Legal({ doc }) {
             {d.sections.map((s) => (
               <motion.div key={s.h} variants={fadeInUp} className="rounded-[2rem] border border-[#F5EDE3] bg-white p-10 shadow-lg hover:shadow-xl transition-shadow duration-500">
                 <h2 className="font-serif text-3xl mb-4 text-[#2C211B]">{s.h}</h2>
-                <p className="text-lg text-[#8A9A5B] leading-relaxed">{s.b}</p>
+                <p className="text-lg text-[#657143] leading-relaxed">{s.b}</p>
               </motion.div>
             ))}
           </motion.div>

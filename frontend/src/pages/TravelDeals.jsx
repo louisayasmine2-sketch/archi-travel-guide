@@ -47,7 +47,7 @@ const PLATFORMS = [
 const API = process.env.REACT_APP_BACKEND_URL ? `${process.env.REACT_APP_BACKEND_URL}/api/contact` : null;
 const CONTACT_EMAIL = "contact@affittacameregliarchi.com";
 const FIELD = "w-full rounded-2xl border-2 border-[#F5EDE3] bg-[#FAF7F2] px-5 py-4 text-sm focus:border-[#C65A3A] focus:outline-none transition-all shadow-inner";
-const LABEL = "text-sm font-bold text-[#8A9A5B] uppercase tracking-widest";
+const LABEL = "text-sm font-bold text-[#657143] uppercase tracking-widest";
 
 const requestMailto = ({ name, email, category, message }) => {
   const body = [
@@ -125,7 +125,7 @@ export default function TravelDeals() {
           <div className="lg:col-span-8">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp} className="rounded-[2rem] border border-[#F5EDE3] bg-white p-8 shadow-xl mb-12 flex flex-col md:flex-row items-center justify-between gap-6">
                <div className="flex items-center gap-4">
-                 <Filter className="w-6 h-6 text-[#C65A3A]" />
+                 <Filter className="w-6 h-6 text-[#A84A2E]" />
                  <span className="font-serif text-2xl text-[#2C211B]">Filter by type</span>
                </div>
                <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
@@ -152,18 +152,18 @@ export default function TravelDeals() {
                     className="group flex flex-col bg-white rounded-[2rem] overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-700 hover:-translate-y-4 border border-[#F5EDE3]/50"
                   >
                     <div className="p-8 flex flex-col flex-1">
-                      <span className="self-start bg-[#FAF7F2] text-[#8A9A5B] text-xs font-bold uppercase tracking-widest px-3 py-1.5 rounded-full border border-[#F5EDE3] mb-5">
+                      <span className="self-start bg-[#FAF7F2] text-[#657143] text-xs font-bold uppercase tracking-widest px-3 py-1.5 rounded-full border border-[#F5EDE3] mb-5">
                         {platform.category}
                       </span>
                       <h3 className="font-serif text-2xl text-[#2C211B] mb-3 leading-tight">{platform.name}</h3>
-                      <p className="text-sm text-[#8A9A5B] leading-relaxed mb-6 flex-1">
+                      <p className="text-sm text-[#657143] leading-relaxed mb-6 flex-1">
                         {platform.description}
                       </p>
                       <a
                         href={platform.link}
                         target="_blank"
                         rel="nofollow noopener noreferrer"
-                        className="w-full flex items-center justify-center gap-2 bg-[#FAF7F2] text-[#C65A3A] group-hover:bg-[#C65A3A] group-hover:text-white border border-[#F5EDE3] px-6 py-4 rounded-xl font-semibold transition-colors shadow-sm"
+                        className="w-full flex items-center justify-center gap-2 bg-[#FAF7F2] text-[#A84A2E] group-hover:bg-[#A84A2E] group-hover:text-white border border-[#F5EDE3] px-6 py-4 rounded-xl font-semibold transition-colors shadow-sm"
                       >
                         <ExternalLink className="w-4 h-4" />
                         Visit {platform.name}
@@ -176,14 +176,14 @@ export default function TravelDeals() {
             
             {filteredPlatforms.length === 0 && (
               <div className="text-center py-20">
-                <p className="text-xl text-[#8A9A5B] font-serif italic">No platforms of this type are listed.</p>
-                <button onClick={() => setFilterCategory("All")} className="mt-4 text-[#C65A3A] font-semibold hover:underline">Clear filter</button>
+                <p className="text-xl text-[#657143] font-serif italic">No platforms of this type are listed.</p>
+                <button onClick={() => setFilterCategory("All")} className="mt-4 text-[#A84A2E] font-semibold hover:underline">Clear filter</button>
               </div>
             )}
 
             <div className="rounded-[2rem] border border-[#F5EDE3] bg-white p-8 shadow-sm mb-12">
               <h2 className="font-serif text-2xl text-[#2C211B] mb-3">How we chose these</h2>
-              <p className="text-sm text-[#8A9A5B] leading-relaxed">
+              <p className="text-sm text-[#657143] leading-relaxed">
                 These are the platforms we use ourselves when planning Tuscany travel. We are not affiliated with any of
                 them, we are not paid to list them, and the links above carry no tracking or affiliate parameters — so we
                 earn nothing whether you book or not. Nothing on this page states a price, because prices on these
@@ -241,15 +241,15 @@ function DealLeadForm() {
   return (
     <div className="rounded-[2.5rem] border border-[#F5EDE3] bg-white p-8 md:p-10 shadow-2xl relative overflow-hidden">
       <div className="absolute top-0 right-0 p-8 opacity-20">
-        <Send className="w-24 h-24 text-[#C65A3A]" />
+        <Send className="w-24 h-24 text-[#A84A2E]" />
       </div>
       <div className="relative z-10">
         <div className="flex items-center gap-3 mb-2">
-          <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B]">Free advice</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#657143]">Free advice</p>
           <AIRecommendedBadge />
         </div>
         <h3 className="font-serif text-3xl mt-2 mb-8 text-[#2C211B]">Need a recommendation?</h3>
-        <p className="text-[#8A9A5B] mb-6 leading-relaxed text-sm">Tell us your dates, budget and travel style, and we will reply with suggestions. We have no commercial relationship with any platform we might mention, and nothing we suggest earns us a commission.</p>
+        <p className="text-[#657143] mb-6 leading-relaxed text-sm">Tell us your dates, budget and travel style, and we will reply with suggestions. We have no commercial relationship with any platform we might mention, and nothing we suggest earns us a commission.</p>
         <form onSubmit={submit} className="space-y-6 relative">
           <label className="block space-y-2">
             <span className={LABEL}>Name</span>
@@ -272,7 +272,7 @@ function DealLeadForm() {
             <span className={LABEL}>Details</span>
             <textarea required rows={4} className={FIELD + " resize-y"} value={form.message} onChange={(e) => update("message", e.target.value)} />
           </label>
-          <button type="submit" disabled={loading} className="w-full bg-[#C65A3A] hover:bg-[#A84A2E] text-white px-8 py-4 rounded-2xl text-lg font-semibold shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 mt-4">
+          <button type="submit" disabled={loading} className="w-full bg-[#A84A2E] hover:bg-[#8F3E26] text-white px-8 py-4 rounded-2xl text-lg font-semibold shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 mt-4">
             {loading ? "Sending..." : "Send request"}
           </button>
         </form>

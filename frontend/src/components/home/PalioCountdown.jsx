@@ -31,17 +31,17 @@ export default function PalioCountdown() {
           className="group flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 rounded-2xl bg-[#2C211B] text-[#F5EDE3] px-6 py-4 hover:bg-[#3a2c22] transition-colors"
         >
           <span className="flex items-center gap-2 font-medium">
-            <Flag className="w-4 h-4 text-[#C65A3A]" />
+            <Flag className="w-4 h-4 text-[#D38066]" />
             Palio di Siena — {race.label}
             {race.days > 0 && (
-              <span className="text-[#C65A3A]">· in {race.days} {race.days === 1 ? "day" : "days"}</span>
+              <span className="text-[#D38066]">· in {race.days} {race.days === 1 ? "day" : "days"}</span>
             )}
-            {race.days === 0 && <span className="text-[#C65A3A]">· today</span>}
+            {race.days === 0 && <span className="text-[#D38066]">· today</span>}
           </span>
           <span className="text-sm text-gray-300 flex-1">
             Trial races fill the days immediately before each race, when the Campo is fenced and the city is at its busiest.
           </span>
-          <span className="text-sm font-medium text-[#C65A3A] group-hover:underline shrink-0">
+          <span className="text-sm font-medium text-[#D38066] group-hover:underline shrink-0">
             Read the Palio guide →
           </span>
         </Link>

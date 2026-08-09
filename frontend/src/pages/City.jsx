@@ -93,106 +93,106 @@ export default function City({ slug: slugProp }) {
           <div className="lg:col-span-8 space-y-16">
             <section id="overview">
               <div className="flex items-center gap-3 mb-4">
-                <ICONS.overview className="w-5 h-5 text-[#C65A3A]" />
-                <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B]">Overview</p>
+                <ICONS.overview className="w-5 h-5 text-[#A84A2E]" />
+                <p className="text-xs font-bold uppercase tracking-widest text-[#657143]">Overview</p>
               </div>
               <h2 className="font-serif text-4xl md:text-5xl leading-tight text-[#2C211B] mb-6">How to think about {city.name}</h2>
-              <p className="text-[#8A9A5B] leading-relaxed text-lg mb-4">{city.overview}</p>
-              <p className="text-[#8A9A5B] leading-relaxed text-lg">{city.overview2}</p>
+              <p className="text-[#657143] leading-relaxed text-lg mb-4">{city.overview}</p>
+              <p className="text-[#657143] leading-relaxed text-lg">{city.overview2}</p>
             </section>
 
             <section id="best-time">
               <div className="flex items-center gap-3 mb-4">
-                <ICONS.best className="w-5 h-5 text-[#C65A3A]" />
-                <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B]">Best time to visit</p>
+                <ICONS.best className="w-5 h-5 text-[#A84A2E]" />
+                <p className="text-xs font-bold uppercase tracking-widest text-[#657143]">Best time to visit</p>
               </div>
               <h2 className="font-serif text-3xl md:text-4xl leading-tight text-[#2C211B] mb-6">When to go</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="rounded-[2rem] border border-[#F5EDE3] bg-white p-8 shadow-md">
-                  <p className="text-xs uppercase tracking-widest text-[#8A9A5B] font-bold mb-3">Best months</p>
-                  <p className="text-[#8A9A5B] leading-relaxed">{city.bestTime.good}</p>
+                  <p className="text-xs uppercase tracking-widest text-[#657143] font-bold mb-3">Best months</p>
+                  <p className="text-[#657143] leading-relaxed">{city.bestTime.good}</p>
                 </div>
                 <div className="rounded-[2rem] border border-[#F5EDE3] bg-white p-8 shadow-md">
-                  <p className="text-xs uppercase tracking-widest text-[#C65A3A] font-bold mb-3">Avoid</p>
-                  <p className="text-[#8A9A5B] leading-relaxed">{city.bestTime.avoid}</p>
+                  <p className="text-xs uppercase tracking-widest text-[#A84A2E] font-bold mb-3">Avoid</p>
+                  <p className="text-[#657143] leading-relaxed">{city.bestTime.avoid}</p>
                 </div>
                 <div className="rounded-[2rem] border border-[#F5EDE3] bg-white p-8 shadow-md">
                   <p className="text-xs uppercase tracking-widest text-[#2C211B] font-bold mb-3">Quiet & cheap</p>
-                  <p className="text-[#8A9A5B] leading-relaxed">{city.bestTime.quiet}</p>
+                  <p className="text-[#657143] leading-relaxed">{city.bestTime.quiet}</p>
                 </div>
               </div>
-              <p className="mt-6 text-sm text-[#8A9A5B]">
-                Want month-by-month recommendations? Try our <Link to="/travel-tools" className="text-[#C65A3A] hover:underline font-semibold">Best Time to Visit tool</Link>.
+              <p className="mt-6 text-sm text-[#657143]">
+                Want month-by-month recommendations? Try our <Link to="/travel-tools" className="text-[#A84A2E] hover:underline font-semibold">Best Time to Visit tool</Link>.
               </p>
             </section>
 
 
             <section id="where-to-stay">
               <div className="flex items-center gap-3 mb-4">
-                <ICONS.stay className="w-5 h-5 text-[#C65A3A]" />
-                <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B]">Where to stay</p>
+                <ICONS.stay className="w-5 h-5 text-[#A84A2E]" />
+                <p className="text-xs font-bold uppercase tracking-widest text-[#657143]">Where to stay</p>
               </div>
               <h2 className="font-serif text-3xl md:text-4xl leading-tight text-[#2C211B] mb-6">Neighborhoods</h2>
-              <p className="text-[#8A9A5B] leading-relaxed text-lg mb-8">{city.neighborhoodsIntro}</p>
+              <p className="text-[#657143] leading-relaxed text-lg mb-8">{city.neighborhoodsIntro}</p>
               <div className="space-y-6">
                 {(city.neighborhoods || []).map((n, i) => (
                   <div key={i} className="rounded-[2rem] border border-[#F5EDE3] bg-white p-8 shadow-lg flex flex-col md:flex-row gap-8">
                     <div className="md:w-1/3">
                       <h3 className="font-serif text-2xl text-[#2C211B]">{n.name}</h3>
-                      <p className="text-sm font-semibold text-[#8A9A5B] mt-2">{n.vibe}</p>
+                      <p className="text-sm font-semibold text-[#657143] mt-2">{n.vibe}</p>
                     </div>
                     <div className="md:w-2/3">
-                      <p className="text-[#8A9A5B] leading-relaxed">{n.description}</p>
+                      <p className="text-[#657143] leading-relaxed">{n.description}</p>
                     </div>
                   </div>
                 ))}
               </div>
-              <p className="mt-6 text-sm text-[#8A9A5B]">
-                Compare areas based on your travel style with our <Link to="/travel-tools" className="text-[#C65A3A] hover:underline font-semibold">Area Finder tool</Link>.
+              <p className="mt-6 text-sm text-[#657143]">
+                Compare areas based on your travel style with our <Link to="/travel-tools" className="text-[#A84A2E] hover:underline font-semibold">Area Finder tool</Link>.
               </p>
             </section>
 
             <section id="transport">
               <div className="flex items-center gap-3 mb-4">
-                <ICONS.transport className="w-5 h-5 text-[#C65A3A]" />
-                <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B]">Transport</p>
+                <ICONS.transport className="w-5 h-5 text-[#A84A2E]" />
+                <p className="text-xs font-bold uppercase tracking-widest text-[#657143]">Transport</p>
               </div>
               <h2 className="font-serif text-3xl md:text-4xl leading-tight text-[#2C211B] mb-6">Getting in & around</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="rounded-[2rem] border border-[#F5EDE3] bg-white p-8 shadow-md">
                   <h3 className="font-serif text-2xl text-[#2C211B] mb-3">Arriving</h3>
-                  <p className="text-[#8A9A5B] leading-relaxed">{city.transport.arrive}</p>
+                  <p className="text-[#657143] leading-relaxed">{city.transport.arrive}</p>
                 </div>
                 <div className="rounded-[2rem] border border-[#F5EDE3] bg-white p-8 shadow-md">
                   <h3 className="font-serif text-2xl text-[#2C211B] mb-3">Getting around</h3>
-                  <p className="text-[#8A9A5B] leading-relaxed">{city.transport.around}</p>
+                  <p className="text-[#657143] leading-relaxed">{city.transport.around}</p>
                 </div>
               </div>
             </section>
 
             <section id="itinerary">
               <div className="flex items-center gap-3 mb-4">
-                <ICONS.itinerary className="w-5 h-5 text-[#C65A3A]" />
-                <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B]">Itinerary ideas</p>
+                <ICONS.itinerary className="w-5 h-5 text-[#A84A2E]" />
+                <p className="text-xs font-bold uppercase tracking-widest text-[#657143]">Itinerary ideas</p>
               </div>
               <h2 className="font-serif text-3xl md:text-4xl leading-tight text-[#2C211B] mb-6">How to spend your days</h2>
               <div className="space-y-6">
                 {city.itineraryIdeas.map((d, i) => (
                   <div key={i} className="rounded-[2rem] border border-[#F5EDE3] bg-white p-8 shadow-md">
                     <h3 className="font-serif text-2xl text-[#2C211B] mb-3">{d.title}</h3>
-                    <p className="text-[#8A9A5B] leading-relaxed">{d.body}</p>
+                    <p className="text-[#657143] leading-relaxed">{d.body}</p>
                   </div>
                 ))}
               </div>
-              <p className="mt-6 text-sm text-[#8A9A5B]">
-                Build a custom day-by-day plan with our <Link to="/travel-tools" className="text-[#C65A3A] hover:underline font-semibold">Itinerary Generator</Link>.
+              <p className="mt-6 text-sm text-[#657143]">
+                Build a custom day-by-day plan with our <Link to="/travel-tools" className="text-[#A84A2E] hover:underline font-semibold">Itinerary Generator</Link>.
               </p>
             </section>
 
             <section id="budget">
               <div className="flex items-center gap-3 mb-4">
-                <ICONS.budget className="w-5 h-5 text-[#C65A3A]" />
-                <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B]">Budget</p>
+                <ICONS.budget className="w-5 h-5 text-[#A84A2E]" />
+                <p className="text-xs font-bold uppercase tracking-widest text-[#657143]">Budget</p>
               </div>
               <h2 className="font-serif text-3xl md:text-4xl leading-tight text-[#2C211B] mb-6">What it costs</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -202,19 +202,19 @@ export default function City({ slug: slugProp }) {
                   { label: 'Luxury', value: city.budget.luxury },
                 ].map((t) => (
                   <div key={t.label} className="rounded-[2rem] border border-[#F5EDE3] bg-white p-8 shadow-md text-center">
-                    <p className="text-xs uppercase tracking-widest font-bold text-[#C65A3A] mb-3">{t.label}</p>
+                    <p className="text-xs uppercase tracking-widest font-bold text-[#A84A2E] mb-3">{t.label}</p>
                     <p className="text-[#2C211B] font-medium text-lg leading-relaxed">{t.value}</p>
                   </div>
                 ))}
               </div>
-              <p className="mt-6 text-sm text-[#8A9A5B] text-center">
-                Fine-tune with our <Link to="/travel-tools" className="text-[#C65A3A] hover:underline font-semibold">Trip Budget Calculator</Link>.
+              <p className="mt-6 text-sm text-[#657143] text-center">
+                Fine-tune with our <Link to="/travel-tools" className="text-[#A84A2E] hover:underline font-semibold">Trip Budget Calculator</Link>.
               </p>
             </section>
 
             <section id="faq" className="scroll-mt-32">
               <div className="flex items-center gap-3 mb-2">
-                <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B]">Frequently asked</p>
+                <p className="text-xs font-bold uppercase tracking-widest text-[#657143]">Frequently asked</p>
               </div>
               <h2 className="font-serif text-3xl md:text-4xl leading-tight text-[#2C211B] mb-6">FAQ</h2>
               <div className="bg-white rounded-[2rem] border border-[#F5EDE3] p-8 shadow-xl">
@@ -225,7 +225,7 @@ export default function City({ slug: slugProp }) {
 
           <aside className="lg:col-span-4 space-y-10">
             <div className="rounded-[2rem] border border-[#F5EDE3] bg-white p-8 shadow-xl sticky top-32">
-              <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B] mb-4">On this page</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-[#657143] mb-4">On this page</p>
               <ol className="space-y-4">
                 {[
                   ['overview', 'Overview'],
@@ -237,7 +237,7 @@ export default function City({ slug: slugProp }) {
                   ['faq', 'FAQ'],
                 ].map(([id, label]) => (
                   <li key={id}>
-                    <a href={`#${id}`} className="text-[#2C211B] hover:text-[#C65A3A] font-medium transition-colors">{label}</a>
+                    <a href={`#${id}`} className="text-[#2C211B] hover:text-[#A84A2E] font-medium transition-colors">{label}</a>
                   </li>
                 ))}
               </ol>
@@ -247,11 +247,11 @@ export default function City({ slug: slugProp }) {
               <div className="absolute top-0 right-0 p-6">
                 <AIRecommendedBadge />
               </div>
-              <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B] mb-4">Keep exploring</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-[#657143] mb-4">Keep exploring</p>
               <ul className="space-y-4">
                 {city.internalLinks.map((l) => (
                   <li key={l.to}>
-                    <Link to={l.to} className="text-white hover:text-[#C65A3A] font-serif text-xl transition-colors">{l.label} &rarr;</Link>
+                    <Link to={l.to} className="text-white hover:text-[#D38066] font-serif text-xl transition-colors">{l.label} &rarr;</Link>
                   </li>
                 ))}
               </ul>
@@ -265,7 +265,7 @@ export default function City({ slug: slugProp }) {
           <div className="max-w-7xl mx-auto px-6">
             <div className="flex items-end justify-between mb-12 border-b border-[#F5EDE3] pb-6">
               <h2 className="font-serif text-4xl text-[#2C211B]">Related guides</h2>
-              <Link to="/blog" className="text-[#C65A3A] font-semibold hover:underline">All guides &rarr;</Link>
+              <Link to="/blog" className="text-[#A84A2E] font-semibold hover:underline">All guides &rarr;</Link>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {relatedArticles.map((a) => (

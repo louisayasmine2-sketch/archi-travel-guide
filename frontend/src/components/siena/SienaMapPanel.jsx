@@ -12,10 +12,10 @@ export default function SienaMapPanel() {
     <section className="py-16 bg-[#FAF7F2]">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center gap-3 mb-2">
-          <div className="w-10 h-10 rounded-full bg-[#F5EDE3] grid place-items-center text-[#C65A3A]">
+          <div className="w-10 h-10 rounded-full bg-[#F5EDE3] grid place-items-center text-[#A84A2E]">
             <MapPin className="w-5 h-5" />
           </div>
-          <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B]">Orientation</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#657143]">Orientation</p>
         </div>
         <h2 className="font-serif text-4xl md:text-5xl text-[#2C211B] mb-8">The lie of the land</h2>
 
@@ -31,7 +31,7 @@ export default function SienaMapPanel() {
                   <Popup>
                     <div className="text-center p-1">
                       <h4 className="font-serif text-lg text-[#2C211B] mb-1">{pin.name}</h4>
-                      <p className="text-sm text-[#8A9A5B] leading-tight">{pin.description}</p>
+                      <p className="text-sm text-[#657143] leading-tight">{pin.description}</p>
                     </div>
                   </Popup>
                 </Marker>
@@ -39,7 +39,7 @@ export default function SienaMapPanel() {
             </MapContainer>
           </div>
         </div>
-        <p className="mt-3 text-xs text-[#8A9A5B]">
+        <p className="mt-3 text-xs text-[#657143]">
           Distances, ZTL and car-park facts in the pins are checked against comune.siena.it and Visit Siena — tap a marker.
         </p>
 

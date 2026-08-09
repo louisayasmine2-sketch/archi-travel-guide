@@ -279,7 +279,7 @@ export default function HomePage() {
                         to={articlePath(article)}
                         className="group flex h-full flex-col rounded-lg border border-[#e8dfd4] bg-white p-6 transition-colors hover:border-[#C65A3A]/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C65A3A]"
                       >
-                        <Icon className="h-6 w-6 text-[#C65A3A]" strokeWidth={1.5} aria-hidden="true" />
+                        <Icon className="h-6 w-6 text-[#A84A2E]" strokeWidth={1.5} aria-hidden="true" />
                         <h3 className="mt-4 font-serif text-lg font-medium text-[#2C211B]">
                           {article.title}
                         </h3>
@@ -310,7 +310,7 @@ export default function HomePage() {
             <div className="mt-10 grid grid-cols-1 gap-10 md:grid-cols-3">
               <div>
                 <div className="flex items-center gap-3">
-                  <CheckCircle2 className="h-5 w-5 shrink-0 text-[#C65A3A]" strokeWidth={1.5} aria-hidden="true" />
+                  <CheckCircle2 className="h-5 w-5 shrink-0 text-[#A84A2E]" strokeWidth={1.5} aria-hidden="true" />
                   <h3 className="font-serif text-lg font-medium text-[#2C211B]">
                     Official sources first
                   </h3>
@@ -322,7 +322,7 @@ export default function HomePage() {
               </div>
               <div>
                 <div className="flex items-center gap-3">
-                  <CalendarCheck className="h-5 w-5 shrink-0 text-[#C65A3A]" strokeWidth={1.5} aria-hidden="true" />
+                  <CalendarCheck className="h-5 w-5 shrink-0 text-[#A84A2E]" strokeWidth={1.5} aria-hidden="true" />
                   <h3 className="font-serif text-lg font-medium text-[#2C211B]">
                     Every figure dated
                   </h3>
@@ -333,7 +333,7 @@ export default function HomePage() {
               </div>
               <div>
                 <div className="flex items-center gap-3">
-                  <Ban className="h-5 w-5 shrink-0 text-[#C65A3A]" strokeWidth={1.5} aria-hidden="true" />
+                  <Ban className="h-5 w-5 shrink-0 text-[#A84A2E]" strokeWidth={1.5} aria-hidden="true" />
                   <h3 className="font-serif text-lg font-medium text-[#2C211B]">
                     Nobody pays to be listed
                   </h3>
@@ -362,7 +362,7 @@ export default function HomePage() {
                         to={articlePath(article)}
                         className="group flex h-full flex-col rounded-lg border border-[#e8dfd4] bg-white p-6 transition-colors hover:border-[#C65A3A]/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C65A3A]"
                       >
-                        <h3 className="font-serif text-lg font-medium text-[#2C211B] group-hover:text-[#C65A3A]">
+                        <h3 className="font-serif text-lg font-medium text-[#2C211B] group-hover:text-[#A84A2E]">
                           {article.title}
                         </h3>
                         <p className="mt-2 flex-1 text-sm leading-relaxed">

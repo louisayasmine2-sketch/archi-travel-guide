@@ -13,7 +13,7 @@ import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 const CONTACT_EMAIL = "contact@affittacameregliarchi.com";
 const API = process.env.REACT_APP_BACKEND_URL ? `${process.env.REACT_APP_BACKEND_URL}/api/contact` : null;
 const SEL = "w-full rounded-2xl border-2 border-[#F5EDE3] bg-[#FAF7F2] px-5 py-4 text-sm focus:border-[#C65A3A] focus:outline-none transition-all shadow-inner";
-const LABEL = "text-sm font-bold text-[#8A9A5B] uppercase tracking-widest mb-2 block";
+const LABEL = "text-sm font-bold text-[#657143] uppercase tracking-widest mb-2 block";
 
 const contactMailto = ({ name, email, subject, message }) => {
   const body = [
@@ -91,7 +91,7 @@ export default function Contact() {
               <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Contact" }]} />
             </motion.div>
             <motion.h1 variants={fadeInUp} className="text-6xl md:text-8xl font-serif mb-6 drop-shadow-xl text-white">
-              Say <span className="text-[#C65A3A]">hello.</span>
+              Say <span className="text-[#D38066]">hello.</span>
             </motion.h1>
             <motion.p variants={fadeInUp} className="text-xl max-w-2xl mx-auto text-[#F5EDE3]/90 leading-relaxed drop-shadow-md">
               Editorial questions, partnership requests, corrections — we read every message. Response time is typically 2–3 business days.
@@ -110,7 +110,7 @@ export default function Contact() {
             className="rounded-[3rem] border-2 border-[#F5EDE3] bg-white p-10 md:p-16 shadow-2xl relative overflow-hidden flex flex-col md:flex-row gap-16"
           >
             <div className="absolute top-0 right-0 p-8 opacity-10 pointer-events-none">
-              <MessageSquare className="w-48 h-48 text-[#8A9A5B]" />
+              <MessageSquare className="w-48 h-48 text-[#657143]" />
             </div>
             
             <div className="flex-1 relative z-10">
@@ -118,16 +118,16 @@ export default function Contact() {
                 <h2 className="font-serif text-4xl text-[#2C211B]">Send a message</h2>
                 <AIRecommendedBadge />
               </div>
-              <p className="text-lg text-[#8A9A5B] leading-relaxed mb-10">
-                Messages are delivered directly to <a className="text-[#C65A3A] font-semibold hover:underline" href={"mailto:" + CONTACT_EMAIL}>{CONTACT_EMAIL}</a>. 
+              <p className="text-lg text-[#657143] leading-relaxed mb-10">
+                Messages are delivered directly to <a className="text-[#A84A2E] font-semibold hover:underline" href={"mailto:" + CONTACT_EMAIL}>{CONTACT_EMAIL}</a>. 
                 If delivery is temporarily unavailable, we will show a clear fallback.
               </p>
               
               <div className="bg-[#FAF7F2] p-8 rounded-[2rem] border border-[#F5EDE3] flex items-center gap-4">
-                <Mail className="w-8 h-8 text-[#C65A3A]" />
+                <Mail className="w-8 h-8 text-[#A84A2E]" />
                 <div>
-                  <p className="text-sm font-bold uppercase tracking-widest text-[#8A9A5B]">Direct Email</p>
-                  <a href={"mailto:" + CONTACT_EMAIL} className="text-[#2C211B] font-serif text-xl hover:text-[#C65A3A] transition-colors">{CONTACT_EMAIL}</a>
+                  <p className="text-sm font-bold uppercase tracking-widest text-[#657143]">Direct Email</p>
+                  <a href={"mailto:" + CONTACT_EMAIL} className="text-[#2C211B] font-serif text-xl hover:text-[#A84A2E] transition-colors">{CONTACT_EMAIL}</a>
                 </div>
               </div>
             </div>
@@ -163,7 +163,7 @@ export default function Contact() {
                   <span className={LABEL}>Message</span>
                   <textarea required rows={5} data-testid={CONTACT.message} className={SEL + " resize-y"} value={form.message} onChange={(e) => upd("message", e.target.value)} />
                 </label>
-                <button type="submit" data-testid={CONTACT.submit} className="w-full bg-[#C65A3A] hover:bg-[#A84A2E] text-white px-8 py-5 rounded-2xl text-lg font-semibold shadow-[0_10px_20px_rgba(198,90,58,0.3)] hover:shadow-[0_15px_30px_rgba(198,90,58,0.4)] transition-all duration-300 hover:-translate-y-1 mt-4" disabled={loading}>
+                <button type="submit" data-testid={CONTACT.submit} className="w-full bg-[#A84A2E] hover:bg-[#8F3E26] text-white px-8 py-5 rounded-2xl text-lg font-semibold shadow-[0_10px_20px_rgba(198,90,58,0.3)] hover:shadow-[0_15px_30px_rgba(198,90,58,0.4)] transition-all duration-300 hover:-translate-y-1 mt-4" disabled={loading}>
                   {loading ? "Sending..." : "Send Message"}
                 </button>
               </form>

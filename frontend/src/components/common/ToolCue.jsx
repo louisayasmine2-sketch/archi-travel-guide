@@ -30,13 +30,13 @@ export default function ToolCue({ category }) {
       className="group mt-8 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 rounded-2xl bg-[hsl(var(--charcoal))] text-[hsl(var(--ivory))] px-6 py-4 hover:opacity-95 transition-opacity"
     >
       <span className="flex items-center gap-2 font-medium shrink-0">
-        <Wrench className="w-4 h-4 text-[hsl(var(--terracotta))]" />
+        <Wrench className="w-4 h-4 text-[#D38066]" />
         Continue planning
       </span>
       <span className="text-sm opacity-80 flex-1">
         {cue ? `${cue.name} — ${cue.line}` : "Nine free interactive planners for your Tuscany trip."}
       </span>
-      <span className="text-sm font-medium text-[hsl(var(--terracotta))] group-hover:underline shrink-0 inline-flex items-center gap-1">
+      <span className="text-sm font-medium text-[#D38066] bg-[hsl(var(--charcoal))] group-hover:underline shrink-0 inline-flex items-center gap-1">
         Open the tool <ArrowRight className="w-4 h-4" />
       </span>
     </Link>

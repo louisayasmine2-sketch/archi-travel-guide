@@ -5,7 +5,7 @@ import { toast } from "sonner";
 import { ListChecks, Check, CloudRain, Sun, Snowflake, Download, Plus, X } from "lucide-react";
 
 const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors";
-const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
+const LABEL = "text-sm font-medium text-[#657143] mb-1.5 block";
 
 // A packing list is ticked over days, not one sitting — the generated
 // checklist and its ticks survive closing the modal.
@@ -116,9 +116,9 @@ export default function SmartPackingList() {
   };
 
   const SeasonIcon = () => {
-    if (form.season === 'summer') return <Sun className="w-5 h-5 text-[#C65A3A]" />;
-    if (form.season === 'winter') return <Snowflake className="w-5 h-5 text-[#8A9A5B]" />;
-    return <CloudRain className="w-5 h-5 text-[#8A9A5B]" />;
+    if (form.season === 'summer') return <Sun className="w-5 h-5 text-[#A84A2E]" />;
+    if (form.season === 'winter') return <Snowflake className="w-5 h-5 text-[#657143]" />;
+    return <CloudRain className="w-5 h-5 text-[#657143]" />;
   };
 
   return (
@@ -134,12 +134,12 @@ export default function SmartPackingList() {
       `}} />
 
       <div className="flex items-center gap-3 mb-6">
-        <div className="w-12 h-12 rounded-full bg-[#F5EDE3] flex items-center justify-center text-[#C65A3A] no-print">
+        <div className="w-12 h-12 rounded-full bg-[#F5EDE3] flex items-center justify-center text-[#A84A2E] no-print">
           <ListChecks className="w-6 h-6" />
         </div>
         <div>
           <h2 className="font-serif text-3xl md:text-4xl text-[#2C211B] leading-none">Smart Packing List</h2>
-          <p className="text-[#8A9A5B] mt-1 no-print">Everything you need, nothing extra.</p>
+          <p className="text-[#657143] mt-1 no-print">Everything you need, nothing extra.</p>
         </div>
       </div>
 
@@ -164,7 +164,7 @@ export default function SmartPackingList() {
               <span className={LABEL}>Trip length (days)</span>
               <input type="number" min="1" max="60" className={SEL} value={form.trip_length} onChange={(e) => upd("trip_length", e.target.value)} />
             </label>
-            <button type="submit" className="w-full mt-4 bg-[#C65A3A] hover:bg-[#A84A2E] text-white py-3 rounded-2xl font-medium transition-colors disabled:opacity-50" disabled={loading}>
+            <button type="submit" className="w-full mt-4 bg-[#A84A2E] hover:bg-[#8F3E26] text-white py-3 rounded-2xl font-medium transition-colors disabled:opacity-50" disabled={loading}>
               {loading ? "Building…" : "Generate Checklist"}
             </button>
           </form>
@@ -175,7 +175,7 @@ export default function SmartPackingList() {
               <SeasonIcon />
               Weather Insight: {form.season.charAt(0).toUpperCase() + form.season.slice(1)}
             </div>
-            <p className="text-sm text-[#8A9A5B] leading-relaxed">
+            <p className="text-sm text-[#657143] leading-relaxed">
               {weatherNote}
             </p>
           </div>
@@ -188,7 +188,7 @@ export default function SmartPackingList() {
                 <p className="text-sm font-medium text-[#2C211B]">
                   Checklist for {form.trip_length} days in {form.destination}
                 </p>
-                <button onClick={downloadPDF} className="no-print flex items-center gap-2 px-4 py-2 bg-white border border-[#C65A3A] text-[#C65A3A] hover:bg-[#C65A3A] hover:text-white rounded-xl text-sm font-medium transition-colors">
+                <button onClick={downloadPDF} className="no-print flex items-center gap-2 px-4 py-2 bg-white border border-[#C65A3A] text-[#A84A2E] hover:bg-[#A84A2E] hover:text-white rounded-xl text-sm font-medium transition-colors">
                   <Download className="w-4 h-4" /> Download PDF
                 </button>
               </div>
@@ -197,7 +197,7 @@ export default function SmartPackingList() {
               <div className="no-print bg-white p-4 rounded-2xl border border-[#F5EDE3]">
                 <div className="flex justify-between items-baseline mb-2">
                   <span className="text-sm font-medium text-[#2C211B]">Packing progress</span>
-                  <span className="text-sm text-[#8A9A5B]">{checked.size} of {totalItems} packed</span>
+                  <span className="text-sm text-[#657143]">{checked.size} of {totalItems} packed</span>
                 </div>
                 <div className="h-2.5 rounded-full bg-[#F5EDE3] overflow-hidden">
                   <div
@@ -217,7 +217,7 @@ export default function SmartPackingList() {
                       return (
                         <li key={key}>
                           <button type="button" onClick={() => toggle(key)} className={["w-full flex items-center gap-3 rounded-xl px-4 py-3 text-left text-sm border transition-all no-print",
-                            isChecked ? "border-[#8A9A5B] bg-[#8A9A5B]/10 text-[#8A9A5B] line-through" : "border-[#F5EDE3] hover:border-[#C65A3A] text-[#2C211B]"].join(" ")}>
+                            isChecked ? "border-[#8A9A5B] bg-[#8A9A5B]/10 text-[#657143] line-through" : "border-[#F5EDE3] hover:border-[#C65A3A] text-[#2C211B]"].join(" ")}>
                             <span className={["w-5 h-5 rounded-md border grid place-items-center shrink-0 transition-colors", isChecked ? "border-[#8A9A5B] bg-[#8A9A5B] text-white" : "border-[#8A9A5B]/50"].join(" ")}>
                               {isChecked && <Check className="w-3.5 h-3.5" />}
                             </span>
@@ -250,7 +250,7 @@ export default function SmartPackingList() {
                     type="button"
                     onClick={addCustomItem}
                     disabled={!newItem.trim()}
-                    className="shrink-0 flex items-center gap-2 px-4 py-3 bg-[#C65A3A] hover:bg-[#A84A2E] text-white rounded-2xl text-sm font-medium transition-colors disabled:opacity-50"
+                    className="shrink-0 flex items-center gap-2 px-4 py-3 bg-[#A84A2E] hover:bg-[#8F3E26] text-white rounded-2xl text-sm font-medium transition-colors disabled:opacity-50"
                   >
                     <Plus className="w-4 h-4" /> Add
                   </button>
@@ -263,7 +263,7 @@ export default function SmartPackingList() {
                       return (
                         <li key={key} className="flex items-center gap-2">
                           <button type="button" onClick={() => toggle(key)} className={["flex-1 flex items-center gap-3 rounded-xl px-4 py-3 text-left text-sm border transition-all no-print",
-                            isChecked ? "border-[#8A9A5B] bg-[#8A9A5B]/10 text-[#8A9A5B] line-through" : "border-[#F5EDE3] hover:border-[#C65A3A] text-[#2C211B]"].join(" ")}>
+                            isChecked ? "border-[#8A9A5B] bg-[#8A9A5B]/10 text-[#657143] line-through" : "border-[#F5EDE3] hover:border-[#C65A3A] text-[#2C211B]"].join(" ")}>
                             <span className={["w-5 h-5 rounded-md border grid place-items-center shrink-0 transition-colors", isChecked ? "border-[#8A9A5B] bg-[#8A9A5B] text-white" : "border-[#8A9A5B]/50"].join(" ")}>
                               {isChecked && <Check className="w-3.5 h-3.5" />}
                             </span>
@@ -273,7 +273,7 @@ export default function SmartPackingList() {
                             type="button"
                             onClick={() => removeCustomItem(it)}
                             aria-label={`Remove ${it}`}
-                            className="no-print shrink-0 w-8 h-8 rounded-full grid place-items-center text-[#8A9A5B] hover:bg-[#C65A3A] hover:text-white transition-colors"
+                            className="no-print shrink-0 w-8 h-8 rounded-full grid place-items-center text-[#657143] hover:bg-[#A84A2E] hover:text-white transition-colors"
                           >
                             <X className="w-4 h-4" />
                           </button>
@@ -287,12 +287,12 @@ export default function SmartPackingList() {
                     })}
                   </ul>
                 ) : (
-                  <p className="no-print text-sm text-[#8A9A5B]">Anything the smart list misses — add it here and tick it off with the rest.</p>
+                  <p className="no-print text-sm text-[#657143]">Anything the smart list misses — add it here and tick it off with the rest.</p>
                 )}
               </div>
             </div>
           ) : (
-            <div className="rounded-3xl border border-dashed border-[#8A9A5B]/30 bg-white p-12 text-center text-[#8A9A5B] flex flex-col items-center justify-center min-h-[300px] no-print">
+            <div className="rounded-3xl border border-dashed border-[#8A9A5B]/30 bg-white p-12 text-center text-[#657143] flex flex-col items-center justify-center min-h-[300px] no-print">
               <ListChecks className="w-12 h-12 mb-4 opacity-20" />
               <p className="max-w-sm mx-auto">Choose a season and trip length to generate a smart packing checklist you can tick as you pack.</p>
             </div>

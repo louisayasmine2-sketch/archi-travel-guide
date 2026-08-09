@@ -48,7 +48,7 @@ export default function Footer() {
         {/* Archi Travel Guide */}
         <div className="md:col-span-2">
           <div className="flex items-center gap-3 mb-6">
-            <span className="w-10 h-10 rounded-full bg-[#C65A3A] text-white flex items-center justify-center font-serif text-2xl leading-none">A</span>
+            <span className="w-10 h-10 rounded-full bg-[#A84A2E] text-white flex items-center justify-center font-serif text-2xl leading-none">A</span>
             <h4 className="font-serif text-3xl">Archi Travel Guide</h4>
           </div>
           <p className="text-[#F5EDE3] text-sm leading-relaxed max-w-sm mb-8 opacity-90">
@@ -63,7 +63,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={label}
-                className="w-10 h-10 flex items-center justify-center rounded-full border border-white/20 hover:border-[#C65A3A] hover:text-[#C65A3A] hover:bg-[#C65A3A]/10 transition-all duration-300"
+                className="w-10 h-10 flex items-center justify-center rounded-full border border-white/20 hover:border-[#C65A3A] hover:text-[#D38066] hover:bg-[#D38066]/10 transition-all duration-300"
               >
                 <Icon />
               </a>
@@ -71,7 +71,7 @@ export default function Footer() {
             <a
               href="mailto:contact@affittacameregliarchi.com"
               aria-label="Email Archi Travel Guide"
-              className="w-10 h-10 flex items-center justify-center rounded-full border border-white/20 hover:border-[#C65A3A] hover:text-[#C65A3A] hover:bg-[#C65A3A]/10 transition-all duration-300"
+              className="w-10 h-10 flex items-center justify-center rounded-full border border-white/20 hover:border-[#C65A3A] hover:text-[#D38066] hover:bg-[#D38066]/10 transition-all duration-300"
             >
               <Mail className="w-4 h-4" />
             </a>
@@ -82,11 +82,11 @@ export default function Footer() {
         <div>
           <h5 className="uppercase tracking-widest text-xs mb-6 text-[#8A9A5B] font-bold">Travel Tools 4D</h5>
           <ul className="space-y-3 text-sm text-[#F5EDE3]/90">
-            <li><Link to="/travel-tools/" className="hover:text-[#C65A3A] transition-colors duration-300">Itinerary Builder</Link></li>
-            <li><Link to="/travel-tools/" className="hover:text-[#C65A3A] transition-colors duration-300">Budget + Expense Tracker</Link></li>
-            <li><Link to="/travel-tools/" className="hover:text-[#C65A3A] transition-colors duration-300">Smart Packing List</Link></li>
-            <li><Link to="/travel-tools/" className="hover:text-[#C65A3A] transition-colors duration-300">Best Area to Stay Finder</Link></li>
-            <li><Link to="/travel-deals" data-testid="nav-link-travel-deals" className="hover:text-[#C65A3A] transition-colors duration-300">Deals &amp; Resources</Link></li>
+            <li><Link to="/travel-tools/" className="hover:text-[#D38066] transition-colors duration-300">Itinerary Builder</Link></li>
+            <li><Link to="/travel-tools/" className="hover:text-[#D38066] transition-colors duration-300">Budget + Expense Tracker</Link></li>
+            <li><Link to="/travel-tools/" className="hover:text-[#D38066] transition-colors duration-300">Smart Packing List</Link></li>
+            <li><Link to="/travel-tools/" className="hover:text-[#D38066] transition-colors duration-300">Best Area to Stay Finder</Link></li>
+            <li><Link to="/travel-deals" data-testid="nav-link-travel-deals" className="hover:text-[#D38066] transition-colors duration-300">Deals &amp; Resources</Link></li>
           </ul>
         </div>
 
@@ -94,10 +94,10 @@ export default function Footer() {
         <div>
           <h5 className="uppercase tracking-widest text-xs mb-6 text-[#8A9A5B] font-bold">Destinations</h5>
           <ul className="space-y-3 text-sm text-[#F5EDE3]/90">
-            <li><Link to="/siena" className="hover:text-[#C65A3A] transition-colors duration-300">Siena</Link></li>
-            <li><Link to="/florence" className="hover:text-[#C65A3A] transition-colors duration-300">Florence</Link></li>
-            <li><Link to="/tuscany" className="hover:text-[#C65A3A] transition-colors duration-300">Tuscany Hilltowns</Link></li>
-            <li><Link to="/destinations" className="hover:text-[#C65A3A] transition-colors duration-300">All Destinations</Link></li>
+            <li><Link to="/siena" className="hover:text-[#D38066] transition-colors duration-300">Siena</Link></li>
+            <li><Link to="/florence" className="hover:text-[#D38066] transition-colors duration-300">Florence</Link></li>
+            <li><Link to="/tuscany" className="hover:text-[#D38066] transition-colors duration-300">Tuscany Hilltowns</Link></li>
+            <li><Link to="/destinations" className="hover:text-[#D38066] transition-colors duration-300">All Destinations</Link></li>
           </ul>
         </div>
 
@@ -105,10 +105,10 @@ export default function Footer() {
         <div>
           <h5 className="uppercase tracking-widest text-xs mb-6 text-[#8A9A5B] font-bold">Connect & Legal</h5>
           <ul className="space-y-3 text-sm text-[#F5EDE3]/90">
-            <li><Link to="/about" className="hover:text-[#C65A3A] transition-colors duration-300">About Us</Link></li>
-            <li><Link to="/contact" className="hover:text-[#C65A3A] transition-colors duration-300">Contact</Link></li>
-            <li><Link to="/privacy-policy" className="hover:text-[#C65A3A] transition-colors duration-300">Privacy Policy</Link></li>
-            <li><Link to="/terms-of-service" className="hover:text-[#C65A3A] transition-colors duration-300">Terms of Service</Link></li>
+            <li><Link to="/about" className="hover:text-[#D38066] transition-colors duration-300">About Us</Link></li>
+            <li><Link to="/contact" className="hover:text-[#D38066] transition-colors duration-300">Contact</Link></li>
+            <li><Link to="/privacy-policy" className="hover:text-[#D38066] transition-colors duration-300">Privacy Policy</Link></li>
+            <li><Link to="/terms-of-service" className="hover:text-[#D38066] transition-colors duration-300">Terms of Service</Link></li>
           </ul>
           <p className="text-xs text-[#F5EDE3]/60 mt-8 leading-relaxed">
             © 2026 Archi Travel Guide<br/>Independent Editorial

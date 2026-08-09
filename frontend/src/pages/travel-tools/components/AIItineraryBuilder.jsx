@@ -16,7 +16,7 @@ L.Icon.Default.mergeOptions({
 });
 
 const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors";
-const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
+const LABEL = "text-sm font-medium text-[#657143] mb-1.5 block";
 
 // Map view per itinerary destination. Keys match ITIN_TEMPLATES in
 // lib/travelTools.js (lower-cased destination).
@@ -99,12 +99,12 @@ export default function AIItineraryBuilder() {
   return (
     <div className="font-sans">
       <div className="flex items-center gap-3 mb-6">
-        <div className="w-12 h-12 rounded-full bg-[#F5EDE3] flex items-center justify-center text-[#C65A3A]">
+        <div className="w-12 h-12 rounded-full bg-[#F5EDE3] flex items-center justify-center text-[#A84A2E]">
           <Sparkles className="w-6 h-6" />
         </div>
         <div>
           <h2 className="font-serif text-3xl md:text-4xl text-[#2C211B] leading-none">Itinerary Generator v2</h2>
-          <p className="text-[#8A9A5B] mt-1">A day-by-day outline, structured morning to evening.</p>
+          <p className="text-[#657143] mt-1">A day-by-day outline, structured morning to evening.</p>
         </div>
       </div>
 
@@ -121,7 +121,7 @@ export default function AIItineraryBuilder() {
             <span className={LABEL}>Trip length (days, max {maxDays})</span>
             <input type="number" min="1" max={maxDays} className={SEL} value={form.trip_length} onChange={(e) => upd("trip_length", Math.min(Number(e.target.value) || 1, maxDays))} />
           </label>
-          <button type="submit" className="w-full mt-4 bg-[#C65A3A] hover:bg-[#A84A2E] text-white py-3 rounded-2xl font-medium transition-colors disabled:opacity-50" disabled={loading}>
+          <button type="submit" className="w-full mt-4 bg-[#A84A2E] hover:bg-[#8F3E26] text-white py-3 rounded-2xl font-medium transition-colors disabled:opacity-50" disabled={loading}>
             {loading ? "Generating…" : "Generate Itinerary"}
           </button>
         </form>
@@ -149,7 +149,7 @@ export default function AIItineraryBuilder() {
                   ))}
                 </MapContainer>
                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-xl text-sm font-medium text-[#2C211B] shadow-md z-[400] flex items-center gap-2 border border-[#F5EDE3]">
-                  <MapIcon className="w-4 h-4 text-[#C65A3A]" /> Map Preview
+                  <MapIcon className="w-4 h-4 text-[#A84A2E]" /> Map Preview
                 </div>
               </div>
                 );
@@ -158,11 +158,11 @@ export default function AIItineraryBuilder() {
               {/* Itinerary Results */}
               <div className="space-y-4">
                 <div className="flex flex-col sm:flex-row sm:items-center gap-3 bg-[#FAF7F2] p-4 rounded-2xl">
-                  <p className="text-sm font-medium text-[#8A9A5B] flex-1">{result.summary}</p>
+                  <p className="text-sm font-medium text-[#657143] flex-1">{result.summary}</p>
                   <button
                     type="button"
                     onClick={copyShareLink}
-                    className="shrink-0 flex items-center gap-2 px-4 py-2 bg-white border border-[#C65A3A] text-[#C65A3A] hover:bg-[#C65A3A] hover:text-white rounded-xl text-sm font-medium transition-colors"
+                    className="shrink-0 flex items-center gap-2 px-4 py-2 bg-white border border-[#C65A3A] text-[#A84A2E] hover:bg-[#A84A2E] hover:text-white rounded-xl text-sm font-medium transition-colors"
                   >
                     <Share2 className="w-4 h-4" /> Copy share link
                   </button>
@@ -170,28 +170,28 @@ export default function AIItineraryBuilder() {
                 {result.days.map((d) => (
                   <div key={d.day} className="rounded-3xl border border-[#F5EDE3] bg-white p-6 md:p-8 shadow-sm">
                     <div className="flex items-center gap-4 border-b border-[#F5EDE3] pb-4 mb-4">
-                      <div className="bg-[#C65A3A]/10 text-[#C65A3A] px-4 py-1.5 rounded-full font-bold uppercase tracking-wider text-sm">
+                      <div className="bg-[#A84A2E]/10 text-[#A84A2E] px-4 py-1.5 rounded-full font-bold uppercase tracking-wider text-sm">
                         Day {d.day}
                       </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
                       <div>
-                        <p className="text-[#C65A3A] font-medium uppercase tracking-widest mb-2">Morning</p>
+                        <p className="text-[#A84A2E] font-medium uppercase tracking-widest mb-2">Morning</p>
                         <p className="text-[#2C211B] leading-relaxed">{d.morning}</p>
                       </div>
                       <div>
-                        <p className="text-[#C65A3A] font-medium uppercase tracking-widest mb-2">Afternoon</p>
+                        <p className="text-[#A84A2E] font-medium uppercase tracking-widest mb-2">Afternoon</p>
                         <p className="text-[#2C211B] leading-relaxed">{d.afternoon}</p>
                       </div>
                       <div>
-                        <p className="text-[#C65A3A] font-medium uppercase tracking-widest mb-2">Evening</p>
+                        <p className="text-[#A84A2E] font-medium uppercase tracking-widest mb-2">Evening</p>
                         <p className="text-[#2C211B] leading-relaxed">{d.evening}</p>
                       </div>
                     </div>
                     {d.notes?.length > 0 && (
                       <div className="mt-5 space-y-2">
                         {d.notes.map((n, i) => (
-                          <p key={i} className="text-xs leading-relaxed text-[#8A9A5B] bg-[#FAF7F2] rounded-2xl px-4 py-3">
+                          <p key={i} className="text-xs leading-relaxed text-[#657143] bg-[#FAF7F2] rounded-2xl px-4 py-3">
                             <span className="font-semibold text-[#2C211B]">Plan around this: </span>{n.text} <span className="opacity-70">(Checked {n.checked})</span>
                           </p>
                         ))}
@@ -202,7 +202,7 @@ export default function AIItineraryBuilder() {
               </div>
             </>
           ) : (
-            <div className="rounded-3xl border border-dashed border-[#8A9A5B]/30 bg-white p-12 text-center text-[#8A9A5B] flex flex-col items-center justify-center h-full min-h-[300px]">
+            <div className="rounded-3xl border border-dashed border-[#8A9A5B]/30 bg-white p-12 text-center text-[#657143] flex flex-col items-center justify-center h-full min-h-[300px]">
               <MapIcon className="w-12 h-12 mb-4 opacity-20" />
               <p className="max-w-sm mx-auto">Fill in the form to generate a customisable day-by-day itinerary with an interactive map.</p>
             </div>

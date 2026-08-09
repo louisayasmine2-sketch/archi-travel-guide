@@ -132,39 +132,39 @@ function TripBar() {
     <div className="mb-12 rounded-3xl border border-[#C65A3A]/20 bg-white p-6 shadow-sm">
       <div className="flex flex-col lg:flex-row lg:items-center gap-4">
         <div className="flex items-center gap-3 lg:w-64 shrink-0">
-          <div className="w-11 h-11 rounded-full bg-[#FAF7F2] grid place-items-center text-[#C65A3A]">
+          <div className="w-11 h-11 rounded-full bg-[#FAF7F2] grid place-items-center text-[#A84A2E]">
             <Luggage className="w-5 h-5" />
           </div>
           <div>
             <p className="font-serif text-xl text-[#2C211B] leading-tight">My Trip</p>
-            <p className="text-xs text-[#8A9A5B]">Set once — every tool starts from this.</p>
+            <p className="text-xs text-[#657143]">Set once — every tool starts from this.</p>
           </div>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 flex-1">
           <label className="block">
-            <span className="block text-xs font-medium text-[#8A9A5B] mb-1">Destination</span>
+            <span className="block text-xs font-medium text-[#657143] mb-1">Destination</span>
             <select className={TRIP_SEL + " w-full"} value={plan.destination} onChange={(e) => upd("destination", e.target.value)}>
               {TRIP_DESTINATIONS.map((d) => <option key={d} value={d}>{d}</option>)}
             </select>
           </label>
           <label className="block">
-            <span className="block text-xs font-medium text-[#8A9A5B] mb-1">Nights</span>
+            <span className="block text-xs font-medium text-[#657143] mb-1">Nights</span>
             <input type="number" min="1" max="60" className={TRIP_SEL + " w-full"} value={plan.trip_length}
               onChange={(e) => upd("trip_length", Math.min(Math.max(Number(e.target.value) || 1, 1), 60))} />
           </label>
           <label className="block">
-            <span className="block text-xs font-medium text-[#8A9A5B] mb-1">Travellers</span>
+            <span className="block text-xs font-medium text-[#657143] mb-1">Travellers</span>
             <input type="number" min="1" max="20" className={TRIP_SEL + " w-full"} value={plan.travelers}
               onChange={(e) => upd("travelers", Math.min(Math.max(Number(e.target.value) || 1, 1), 20))} />
           </label>
           <label className="block">
-            <span className="block text-xs font-medium text-[#8A9A5B] mb-1">Season</span>
+            <span className="block text-xs font-medium text-[#657143] mb-1">Season</span>
             <select className={TRIP_SEL + " w-full"} value={plan.season} onChange={(e) => upd("season", e.target.value)}>
               {TRIP_SEASONS.map((s) => <option key={s} value={s}>{s.charAt(0).toUpperCase() + s.slice(1)}</option>)}
             </select>
           </label>
           <label className="block col-span-2 sm:col-span-1">
-            <span className="block text-xs font-medium text-[#8A9A5B] mb-1">Start date (optional)</span>
+            <span className="block text-xs font-medium text-[#657143] mb-1">Start date (optional)</span>
             <input type="date" className={TRIP_SEL + " w-full"} value={plan.start_date}
               onChange={(e) => upd("start_date", e.target.value)} />
           </label>
@@ -173,12 +173,12 @@ function TripBar() {
 
       {/* Countdown + verified Palio warning */}
       {days !== null && days >= 0 && (
-        <p className="mt-4 text-sm font-medium text-[#C65A3A]">
+        <p className="mt-4 text-sm font-medium text-[#A84A2E]">
           {days === 0 ? `Departure day — enjoy ${plan.destination}!` : `${days} ${days === 1 ? "day" : "days"} until your ${plan.destination} trip.`}
         </p>
       )}
       {tripOverlapsPalio(plan) && (
-        <p className="mt-3 text-xs leading-relaxed text-[#8A9A5B] bg-[#FAF7F2] rounded-2xl px-4 py-3">
+        <p className="mt-3 text-xs leading-relaxed text-[#657143] bg-[#FAF7F2] rounded-2xl px-4 py-3">
           <span className="font-semibold text-[#2C211B]">Your dates overlap the Palio: </span>
           {PALIO_NOTE.text} <span className="opacity-70">(Checked {PALIO_NOTE.checked})</span>
         </p>
@@ -186,7 +186,7 @@ function TripBar() {
 
       {/* Planning progress */}
       <div className="mt-4 pt-4 border-t border-[#F5EDE3] flex flex-wrap items-center gap-2 text-xs">
-        <span className="text-[#8A9A5B] font-medium uppercase tracking-wider mr-1">Planning progress</span>
+        <span className="text-[#657143] font-medium uppercase tracking-wider mr-1">Planning progress</span>
         <ProgressBadge done={progress.planSet} label="Trip set" />
         <ProgressBadge done={progress.itineraryDone} label="Itinerary" />
         <ProgressBadge done={progress.budgetDone} label="Budget" />
@@ -202,7 +202,7 @@ function TripBar() {
 function ProgressBadge({ done, label }) {
   return (
     <span className={["px-3 py-1.5 rounded-full border font-medium",
-      done ? "border-[#8A9A5B] bg-[#8A9A5B]/10 text-[#8A9A5B]" : "border-[#F5EDE3] text-[#8A9A5B]/60"].join(" ")}>
+      done ? "border-[#8A9A5B] bg-[#8A9A5B]/10 text-[#657143]" : "border-[#F5EDE3] text-[#657143]"].join(" ")}>
       {done ? "✓ " : ""}{label}
     </span>
   );
@@ -225,7 +225,7 @@ export default function TravelToolsPage() {
         
         <div className="text-center mb-16 mt-8">
           <h1 className="text-5xl md:text-6xl font-serif text-[#2C211B] tracking-tight">Plan Your Dream Tuscany Trip</h1>
-          <p className="text-[#8A9A5B] mt-4 text-xl">Free interactive tools • Hyper-local Siena & Tuscany</p>
+          <p className="text-[#657143] mt-4 text-xl">Free interactive tools • Hyper-local Siena & Tuscany</p>
         </div>
 
         <TripBar />
@@ -241,14 +241,14 @@ export default function TravelToolsPage() {
                   <TuscanScene variant={i} className="w-full h-full block" />
                 </div>
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-11 h-11 rounded-full bg-[#FAF7F2] flex items-center justify-center text-[#C65A3A] shrink-0">
+                  <div className="w-11 h-11 rounded-full bg-[#FAF7F2] flex items-center justify-center text-[#A84A2E] shrink-0">
                     <tool.icon className="w-6 h-6" />
                   </div>
                   <h3 className="text-2xl font-serif text-[#2C211B]">{tool.name}</h3>
                 </div>
-                <p className="text-[#8A9A5B] mb-8 flex-grow">{tool.description}</p>
+                <p className="text-[#657143] mb-8 flex-grow">{tool.description}</p>
                 <DialogTrigger asChild>
-                  <button className="w-full py-4 rounded-2xl bg-[#C65A3A] hover:bg-[#A84A2E] text-white font-medium transition-colors">
+                  <button className="w-full py-4 rounded-2xl bg-[#A84A2E] hover:bg-[#8F3E26] text-white font-medium transition-colors">
                     Try Now
                   </button>
                 </DialogTrigger>

@@ -125,8 +125,8 @@ export default function Destinations() {
                       </div>
                     </div>
                     <div className="p-8">
-                      <p className="text-[#8A9A5B] leading-relaxed line-clamp-3">{d.blurb}</p>
-                      <div className="mt-6 flex items-center gap-2 text-[#C65A3A] font-semibold group-hover:text-[#A84A2E] transition-colors group/btn">
+                      <p className="text-[#657143] leading-relaxed line-clamp-3">{d.blurb}</p>
+                      <div className="mt-6 flex items-center gap-2 text-[#A84A2E] font-semibold group-hover:text-[#A84A2E] transition-colors group/btn">
                         Explore Guide <span className="transform transition-transform group-hover/btn:translate-x-1">&rarr;</span>
                       </div>
                     </div>

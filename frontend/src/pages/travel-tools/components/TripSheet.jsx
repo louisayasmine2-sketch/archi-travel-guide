@@ -57,12 +57,12 @@ export default function TripSheet() {
 
       <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-6">
         <div className="flex items-center gap-3 flex-1">
-          <div className="w-12 h-12 rounded-full bg-[#F5EDE3] flex items-center justify-center text-[#C65A3A] no-print">
+          <div className="w-12 h-12 rounded-full bg-[#F5EDE3] flex items-center justify-center text-[#A84A2E] no-print">
             <FileText className="w-6 h-6" />
           </div>
           <div>
             <h2 className="font-serif text-3xl md:text-4xl text-[#2C211B] leading-none">My {plan.destination} Trip Sheet</h2>
-            <p className="text-[#8A9A5B] mt-1">
+            <p className="text-[#657143] mt-1">
               {plan.trip_length} {plan.trip_length === 1 ? "night" : "nights"} · {plan.travelers} {plan.travelers === 1 ? "traveller" : "travellers"} · {plan.season}
             </p>
           </div>
@@ -70,34 +70,34 @@ export default function TripSheet() {
         <button
           type="button"
           onClick={() => window.print()}
-          className="no-print shrink-0 flex items-center gap-2 px-5 py-3 bg-[#C65A3A] hover:bg-[#A84A2E] text-white rounded-2xl font-medium transition-colors"
+          className="no-print shrink-0 flex items-center gap-2 px-5 py-3 bg-[#A84A2E] hover:bg-[#8F3E26] text-white rounded-2xl font-medium transition-colors"
         >
           <Printer className="w-4 h-4" /> Print / save as PDF
         </button>
       </div>
 
-      <p className="no-print text-xs text-[#8A9A5B] bg-[#FAF7F2] rounded-2xl px-4 py-3 mb-6">
+      <p className="no-print text-xs text-[#657143] bg-[#FAF7F2] rounded-2xl px-4 py-3 mb-6">
         Built from your "My Trip" plan on the tools page — change the plan there and reopen this sheet to refresh it.
       </p>
 
       <div className="space-y-6">
         {/* Day by day */}
         <div className={SECTION}>
-          <h3 className={SECTION_TITLE}><CalendarDays className="w-5 h-5 text-[#C65A3A]" /> Day by day</h3>
+          <h3 className={SECTION_TITLE}><CalendarDays className="w-5 h-5 text-[#A84A2E]" /> Day by day</h3>
           {itineraryCapped && (
-            <p className="text-xs text-[#8A9A5B] mb-4">
+            <p className="text-xs text-[#657143] mb-4">
               Showing the {itinerary.trip_length} days of {plan.destination} content we actually have — we never pad an itinerary past that.
             </p>
           )}
           <div className="space-y-3">
             {itinerary.days.map((d) => (
               <div key={d.day} className="border-b border-[#F5EDE3] last:border-0 pb-3 last:pb-0">
-                <p className="text-sm font-semibold text-[#C65A3A] uppercase tracking-wider mb-1">Day {d.day}</p>
+                <p className="text-sm font-semibold text-[#A84A2E] uppercase tracking-wider mb-1">Day {d.day}</p>
                 <p className="text-sm text-[#2C211B]">
-                  <span className="text-[#8A9A5B]">Morning:</span> {d.morning} · <span className="text-[#8A9A5B]">Afternoon:</span> {d.afternoon} · <span className="text-[#8A9A5B]">Evening:</span> {d.evening}
+                  <span className="text-[#657143]">Morning:</span> {d.morning} · <span className="text-[#657143]">Afternoon:</span> {d.afternoon} · <span className="text-[#657143]">Evening:</span> {d.evening}
                 </p>
                 {d.notes?.map((n, i) => (
-                  <p key={i} className="text-xs text-[#8A9A5B] mt-1.5 leading-relaxed">
+                  <p key={i} className="text-xs text-[#657143] mt-1.5 leading-relaxed">
                     <span className="font-semibold text-[#2C211B]">Plan around this:</span> {n.text} <span className="opacity-70">(Checked {n.checked})</span>
                   </p>
                 ))}
@@ -108,25 +108,25 @@ export default function TripSheet() {
 
         {/* Budget */}
         <div className={SECTION}>
-          <h3 className={SECTION_TITLE}><Wallet className="w-5 h-5 text-[#C65A3A]" /> Budget estimate</h3>
+          <h3 className={SECTION_TITLE}><Wallet className="w-5 h-5 text-[#A84A2E]" /> Budget estimate</h3>
           <p className="font-serif text-3xl text-[#2C211B]">
-            ${budget.estimated_low.toLocaleString()}–${budget.estimated_high.toLocaleString()} <span className="text-base text-[#8A9A5B] font-sans">USD total</span>
+            ${budget.estimated_low.toLocaleString()}–${budget.estimated_high.toLocaleString()} <span className="text-base text-[#657143] font-sans">USD total</span>
           </p>
-          <p className="text-sm text-[#8A9A5B] mt-2">
+          <p className="text-sm text-[#657143] mt-2">
             About ${budget.per_person_per_day} per person per day, assuming {assumptions} — your last choices in the Budget Planner; recalculate there to change them.
           </p>
         </div>
 
         {/* Best months */}
         <div className={SECTION}>
-          <h3 className={SECTION_TITLE}><Sun className="w-5 h-5 text-[#C65A3A]" /> Best months for weather</h3>
+          <h3 className={SECTION_TITLE}><Sun className="w-5 h-5 text-[#A84A2E]" /> Best months for weather</h3>
           <p className="text-lg text-[#2C211B]">{months.months}</p>
-          {months.note && <p className="text-sm text-[#8A9A5B] mt-1">{months.note}</p>}
+          {months.note && <p className="text-sm text-[#657143] mt-1">{months.note}</p>}
         </div>
 
         {/* Packing */}
         <div className={SECTION}>
-          <h3 className={SECTION_TITLE}><ListChecks className="w-5 h-5 text-[#C65A3A]" /> Packing checklist — {plan.season}</h3>
+          <h3 className={SECTION_TITLE}><ListChecks className="w-5 h-5 text-[#A84A2E]" /> Packing checklist — {plan.season}</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
             {Object.entries(packing.categories).map(([cat, items]) => (
               <div key={cat}>

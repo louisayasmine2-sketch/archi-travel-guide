@@ -95,8 +95,8 @@ export default function CurrencyConverter() {
     <div>
       <section className="container-editorial pt-4 pb-16 font-sans">
         <div className="flex items-center gap-3 mt-6">
-          <div className="w-11 h-11 rounded-full bg-[#F5EDE3] grid place-items-center text-[#C65A3A]"><Wallet className="w-5 h-5" /></div>
-          <p className="uppercase tracking-widest text-xs font-semibold text-[#8A9A5B]">Currency Converter</p>
+          <div className="w-11 h-11 rounded-full bg-[#F5EDE3] grid place-items-center text-[#A84A2E]"><Wallet className="w-5 h-5" /></div>
+          <p className="uppercase tracking-widest text-xs font-semibold text-[#657143]">Currency Converter</p>
         </div>
 
         <div className="mt-8 max-w-md mx-auto bg-white rounded-3xl shadow-xl p-8 border border-[#F5EDE3]">
@@ -104,7 +104,7 @@ export default function CurrencyConverter() {
 
           <div className="grid grid-cols-2 gap-4">
             <div>
-              <label htmlFor="amount" className="block text-sm text-[#8A9A5B] mb-2 font-medium">Amount</label>
+              <label htmlFor="amount" className="block text-sm text-[#657143] mb-2 font-medium">Amount</label>
               <input
                 id="amount"
                 type="number"
@@ -115,7 +115,7 @@ export default function CurrencyConverter() {
               />
             </div>
             <div>
-              <label htmlFor="from" className="block text-sm text-[#8A9A5B] mb-2 font-medium">From</label>
+              <label htmlFor="from" className="block text-sm text-[#657143] mb-2 font-medium">From</label>
               <select id="from" value={from} onChange={(e) => setFrom(e.target.value)} className={SEL}>
                 {CURRENCIES.map((c) => <option key={c} value={c}>{c}</option>)}
               </select>
@@ -127,14 +127,14 @@ export default function CurrencyConverter() {
               type="button"
               onClick={swap}
               aria-label="Swap currencies"
-              className="w-12 h-12 rounded-full bg-[#F5EDE3] hover:bg-[#C65A3A] text-[#C65A3A] hover:text-white grid place-items-center transition-colors"
+              className="w-12 h-12 rounded-full bg-[#F5EDE3] hover:bg-[#A84A2E] text-[#A84A2E] hover:text-white grid place-items-center transition-colors"
             >
               <ArrowDownUp className="w-5 h-5" />
             </button>
           </div>
 
           <div>
-            <label htmlFor="to" className="block text-sm text-[#8A9A5B] mb-2 font-medium">To</label>
+            <label htmlFor="to" className="block text-sm text-[#657143] mb-2 font-medium">To</label>
             <select id="to" value={to} onChange={(e) => setTo(e.target.value)} className={SEL}>
               {CURRENCIES.map((c) => <option key={c} value={c}>{c}</option>)}
             </select>
@@ -143,7 +143,7 @@ export default function CurrencyConverter() {
                 <span className="text-gray-400 text-lg font-normal">Converting…</span>
               ) : result ? (
                 <>
-                  {result.value.toFixed(2)} <span className="text-sm text-[#8A9A5B] font-normal">{to}</span>
+                  {result.value.toFixed(2)} <span className="text-sm text-[#657143] font-normal">{to}</span>
                 </>
               ) : (
                 <span className="text-gray-400">—</span>
@@ -157,7 +157,7 @@ export default function CurrencyConverter() {
                   It may have changed; reconnect for the live rate.
                 </p>
               ) : (
-                <p className="text-xs text-[#8A9A5B] mt-3 text-center">
+                <p className="text-xs text-[#657143] mt-3 text-center">
                   1 {from} = {result.rate.toFixed(4)} {to} · reference rate dated {result.date} · source: frankfurter.app
                 </p>
               )

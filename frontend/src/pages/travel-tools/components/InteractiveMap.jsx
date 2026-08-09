@@ -41,12 +41,12 @@ export default function InteractiveMap() {
   return (
     <div className="font-sans">
       <div className="flex items-center gap-3 mb-6">
-        <div className="w-12 h-12 rounded-full bg-[#F5EDE3] flex items-center justify-center text-[#C65A3A]">
+        <div className="w-12 h-12 rounded-full bg-[#F5EDE3] flex items-center justify-center text-[#A84A2E]">
           <MapPin className="w-6 h-6" />
         </div>
         <div>
           <h2 className="font-serif text-3xl md:text-4xl text-[#2C211B] leading-none">Best Area to Stay Finder</h2>
-          <p className="text-[#8A9A5B] mt-1">Explore Siena's neighborhoods to find your perfect home base.</p>
+          <p className="text-[#657143] mt-1">Explore Siena's neighborhoods to find your perfect home base.</p>
         </div>
       </div>
 
@@ -62,7 +62,7 @@ export default function InteractiveMap() {
                 <Popup className="custom-popup">
                   <div className="text-center p-1">
                     <h4 className="font-serif text-lg text-[#2C211B] mb-1">{pin.name}</h4>
-                    <p className="text-sm text-[#8A9A5B] leading-tight">{pin.description}</p>
+                    <p className="text-sm text-[#657143] leading-tight">{pin.description}</p>
                   </div>
                 </Popup>
               </Marker>
@@ -73,10 +73,10 @@ export default function InteractiveMap() {
 
       <div className="bg-[#FAF7F2] rounded-3xl p-6 border border-[#F5EDE3]">
         <h3 className="font-semibold text-lg text-[#2C211B] mb-3">Why location matters in Siena</h3>
-        <p className="text-[#8A9A5B] text-sm leading-relaxed mb-4">
+        <p className="text-[#657143] text-sm leading-relaxed mb-4">
           Siena is highly walkable but very hilly. The entire city center is a ZTL (Zona a Traffico Limitato) meaning you cannot drive inside without a special permit. Staying near the edges of the historic center gives you the best of both worlds: walkability to the sights and easier access for luggage and parking.
         </p>
-        <p className="text-[#8A9A5B] text-sm leading-relaxed">
+        <p className="text-[#657143] text-sm leading-relaxed">
           <strong>Tip:</strong> Look for accommodations just inside or right outside the city walls for the most convenient experience.
         </p>
       </div>

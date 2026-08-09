@@ -23,7 +23,7 @@ export default function MonthCue() {
     >
       <span className="font-medium">Going this month?</span>
       <span className="text-sm text-gray-300 flex-1 truncate">{guide.title}</span>
-      <span className="text-sm font-medium text-[#C65A3A] group-hover:underline shrink-0 inline-flex items-center gap-1">
+      <span className="text-sm font-medium text-[#D38066] group-hover:underline shrink-0 inline-flex items-center gap-1">
         Read the {month} guide <ArrowRight className="w-4 h-4" />
       </span>
     </Link>

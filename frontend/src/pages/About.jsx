@@ -42,7 +42,7 @@ export default function About() {
               <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "About" }]} />
             </motion.div>
             <motion.h1 variants={fadeInUp} className="text-6xl md:text-8xl font-serif mb-6 drop-shadow-xl text-white">
-              An independent <span className="text-[#C65A3A]">global</span> travel guide.
+              An independent <span className="text-[#D38066]">global</span> travel guide.
             </motion.h1>
           </motion.div>
         </div>
@@ -55,7 +55,7 @@ export default function About() {
             whileInView="visible" 
             viewport={{ once: true, margin: "-100px" }} 
             variants={staggerContainer}
-            className="prose prose-lg prose-stone max-w-none prose-headings:font-serif prose-headings:text-[#2C211B] prose-p:text-[#8A9A5B] prose-a:text-[#C65A3A] prose-strong:text-[#2C211B]"
+            className="prose prose-lg prose-stone max-w-none prose-headings:font-serif prose-headings:text-[#2C211B] prose-p:text-[#657143] prose-a:text-[#A84A2E] prose-strong:text-[#2C211B]"
           >
             <motion.div variants={fadeInUp} className="bg-white p-10 md:p-14 rounded-[3rem] shadow-xl border border-[#F5EDE3] mb-16">
               <p className="text-2xl leading-relaxed text-[#2C211B] font-medium font-serif italic mb-0">
@@ -108,9 +108,9 @@ export default function About() {
                 <AIRecommendedBadge />
               </div>
               <div className="relative z-10 max-w-2xl mx-auto text-center">
-                <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B] mb-4">Stay in touch</p>
+                <p className="text-xs font-bold uppercase tracking-widest text-[#657143] mb-4">Stay in touch</p>
                 <h3 className="font-serif text-4xl md:text-5xl mb-6 text-[#2C211B]">One thoughtful email a month.</h3>
-                <p className="text-lg text-[#8A9A5B] mb-10">New guides, seasonal tips, and a small list of things we found that month.</p>
+                <p className="text-lg text-[#657143] mb-10">New guides, seasonal tips, and a small list of things we found that month.</p>
                 <NewsletterForm source="about" />
               </div>
             </div>

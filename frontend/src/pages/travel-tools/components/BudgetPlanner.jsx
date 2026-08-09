@@ -19,7 +19,7 @@ function loadExpenses() {
 }
 
 const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors";
-const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
+const LABEL = "text-sm font-medium text-[#657143] mb-1.5 block";
 
 export default function BudgetPlanner() {
   // Destination, party size and nights come pre-filled from "My Trip";
@@ -93,12 +93,12 @@ export default function BudgetPlanner() {
   return (
     <div className="font-sans">
       <div className="flex items-center gap-3 mb-6">
-        <div className="w-12 h-12 rounded-full bg-[#F5EDE3] flex items-center justify-center text-[#C65A3A]">
+        <div className="w-12 h-12 rounded-full bg-[#F5EDE3] flex items-center justify-center text-[#A84A2E]">
           <Wallet className="w-6 h-6" />
         </div>
         <div>
           <h2 className="font-serif text-3xl md:text-4xl text-[#2C211B] leading-none">Trip Budget Calculator</h2>
-          <p className="text-[#8A9A5B] mt-1">Estimate a realistic low–high budget range.</p>
+          <p className="text-[#657143] mt-1">Estimate a realistic low–high budget range.</p>
         </div>
       </div>
 
@@ -150,7 +150,7 @@ export default function BudgetPlanner() {
               </select>
             </label>
           </div>
-          <button type="submit" className="w-full mt-4 bg-[#C65A3A] hover:bg-[#A84A2E] text-white py-3 rounded-2xl font-medium transition-colors disabled:opacity-50" disabled={loading}>
+          <button type="submit" className="w-full mt-4 bg-[#A84A2E] hover:bg-[#8F3E26] text-white py-3 rounded-2xl font-medium transition-colors disabled:opacity-50" disabled={loading}>
             {loading ? "Calculating…" : "Calculate My Budget"}
           </button>
         </form>
@@ -158,7 +158,7 @@ export default function BudgetPlanner() {
         <aside className="lg:col-span-5 space-y-6">
           {result ? (
             <div className="rounded-3xl bg-[#2C211B] text-[#F5EDE3] p-8 shadow-lg">
-              <p className="text-[#8A9A5B] font-medium uppercase tracking-wider text-sm mb-2">Estimated Total</p>
+              <p className="text-[#657143] font-medium uppercase tracking-wider text-sm mb-2">Estimated Total</p>
               <p className="font-serif text-5xl mt-2 leading-none text-white">${result.estimated_low.toLocaleString()}–${result.estimated_high.toLocaleString()}</p>
               <p className="mt-3 text-sm text-gray-400">USD, all-inclusive of accommodation, food, transport and activities.</p>
               <div className="mt-6 pt-6 border-t border-gray-700">
@@ -169,7 +169,7 @@ export default function BudgetPlanner() {
               {/* Where the money goes — same tables, so the split matches */}
               {breakdown && (
                 <div className="mt-6 pt-6 border-t border-gray-700 space-y-3">
-                  <p className="text-[#8A9A5B] font-medium uppercase tracking-wider text-xs">Where it goes</p>
+                  <p className="text-[#657143] font-medium uppercase tracking-wider text-xs">Where it goes</p>
                   {breakdown.map((b) => (
                     <div key={b.category}>
                       <div className="flex justify-between text-xs text-gray-300 mb-1">
@@ -177,7 +177,7 @@ export default function BudgetPlanner() {
                         <span>~${b.trip_total.toLocaleString()} · {Math.round(b.share * 100)}%</span>
                       </div>
                       <div className="h-2 rounded-full bg-gray-700 overflow-hidden">
-                        <div className="h-full rounded-full bg-[#C65A3A]" style={{ width: `${b.share * 100}%` }} />
+                        <div className="h-full rounded-full bg-[#A84A2E]" style={{ width: `${b.share * 100}%` }} />
                       </div>
                     </div>
                   ))}
@@ -186,14 +186,14 @@ export default function BudgetPlanner() {
               <ul className="mt-6 space-y-3 text-sm text-gray-300">
                 {result.tips.map((t, i) => (
                   <li key={i} className="flex gap-3 items-start">
-                    <span className="text-[#C65A3A] mt-0.5">•</span>
+                    <span className="text-[#A84A2E] mt-0.5">•</span>
                     <span>{t}</span>
                   </li>
                 ))}
               </ul>
             </div>
           ) : (
-            <div className="rounded-3xl border border-dashed border-[#8A9A5B]/30 bg-white p-12 text-center text-[#8A9A5B] flex flex-col items-center justify-center min-h-[300px]">
+            <div className="rounded-3xl border border-dashed border-[#8A9A5B]/30 bg-white p-12 text-center text-[#657143] flex flex-col items-center justify-center min-h-[300px]">
               <Wallet className="w-12 h-12 mb-4 opacity-20" />
               <p className="max-w-xs mx-auto">Fill in the form to see a realistic budget range and practical tips.</p>
             </div>
@@ -217,13 +217,13 @@ export default function BudgetPlanner() {
                   onChange={(e) => setExpenseAmount(e.target.value)}
                   className="w-full pl-10 pr-4 py-3 rounded-2xl border border-[#F5EDE3] focus:outline-none focus:border-[#C65A3A] text-sm"
                 />
-                <Euro className="w-4 h-4 text-[#8A9A5B] absolute left-4 top-1/2 -translate-y-1/2" />
+                <Euro className="w-4 h-4 text-[#657143] absolute left-4 top-1/2 -translate-y-1/2" />
               </div>
             </div>
             <button 
               onClick={addExpense}
               disabled={!expenseName || !expenseAmount}
-              className="w-full bg-[#C65A3A] hover:bg-[#A84A2E] text-white py-3 rounded-2xl font-medium transition-colors flex items-center justify-center gap-2 disabled:opacity-50"
+              className="w-full bg-[#A84A2E] hover:bg-[#8F3E26] text-white py-3 rounded-2xl font-medium transition-colors flex items-center justify-center gap-2 disabled:opacity-50"
             >
               <Plus className="w-4 h-4" /> Add Expense
             </button>
@@ -233,12 +233,12 @@ export default function BudgetPlanner() {
                 {expenses.map((exp) => (
                   <div key={exp.id} className="flex justify-between items-center gap-3 bg-[#FAF7F2] px-4 py-3 rounded-xl text-sm border border-[#F5EDE3]">
                     <span className="font-medium text-[#2C211B] flex-1 min-w-0 truncate">{exp.name}</span>
-                    <span className="text-[#C65A3A] font-semibold shrink-0">+{exp.amount.toFixed(2)} EUR</span>
+                    <span className="text-[#A84A2E] font-semibold shrink-0">+{exp.amount.toFixed(2)} EUR</span>
                     <button
                       type="button"
                       onClick={() => removeExpense(exp.id)}
                       aria-label={`Remove ${exp.name}`}
-                      className="shrink-0 w-7 h-7 rounded-full grid place-items-center text-[#8A9A5B] hover:bg-[#C65A3A] hover:text-white transition-colors"
+                      className="shrink-0 w-7 h-7 rounded-full grid place-items-center text-[#657143] hover:bg-[#A84A2E] hover:text-white transition-colors"
                     >
                       <X className="w-4 h-4" />
                     </button>
@@ -248,8 +248,8 @@ export default function BudgetPlanner() {
             )}
             
             <div className="mt-6 pt-4 border-t border-[#F5EDE3] flex justify-between items-end">
-              <span className="text-[#8A9A5B] text-sm uppercase tracking-wider font-semibold">Total Spent</span>
-              <span className="text-3xl font-semibold text-[#C65A3A]">{totalExpense.toFixed(2)} <span className="text-lg">EUR</span></span>
+              <span className="text-[#657143] text-sm uppercase tracking-wider font-semibold">Total Spent</span>
+              <span className="text-3xl font-semibold text-[#A84A2E]">{totalExpense.toFixed(2)} <span className="text-lg">EUR</span></span>
             </div>
           </div>
         </aside>

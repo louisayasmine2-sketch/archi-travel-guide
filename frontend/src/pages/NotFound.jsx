@@ -54,7 +54,7 @@ export default function NotFound() {
                   data-testid="notfound-suggestion"
                   className="group flex items-center gap-3 rounded-2xl border border-[hsl(var(--stone-border))] bg-white px-4 py-3 hover:border-[hsl(var(--terracotta))] transition-colors"
                 >
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-[#8A9A5B] bg-[hsl(var(--ivory-2))] rounded-full px-2 py-0.5 shrink-0">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-[#657143] bg-[hsl(var(--ivory-2))] rounded-full px-2 py-0.5 shrink-0">
                     {s.type}
                   </span>
                   <span className="flex-1 text-sm text-[hsl(var(--charcoal))] leading-snug group-hover:text-[hsl(var(--terracotta))]">

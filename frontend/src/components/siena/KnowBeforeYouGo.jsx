@@ -10,10 +10,10 @@ export default function KnowBeforeYouGo() {
     <section className="py-16 bg-white border-y border-[#F5EDE3]">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center gap-3 mb-2">
-          <div className="w-10 h-10 rounded-full bg-[#F5EDE3] grid place-items-center text-[#C65A3A]">
+          <div className="w-10 h-10 rounded-full bg-[#F5EDE3] grid place-items-center text-[#A84A2E]">
             <AlertTriangle className="w-5 h-5" />
           </div>
-          <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B]">Verified rules</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#657143]">Verified rules</p>
         </div>
         <h2 className="font-serif text-4xl md:text-5xl text-[#2C211B] mb-8">Know before you go</h2>
 
@@ -22,7 +22,7 @@ export default function KnowBeforeYouGo() {
             <div key={note.match} className="rounded-3xl border border-[#F5EDE3] bg-[#FAF7F2] p-6">
               <h3 className="font-serif text-xl text-[#2C211B] mb-3">{note.match}</h3>
               <p className="text-sm text-[#4f4842] leading-relaxed">{note.text}</p>
-              <p className="mt-4 text-xs text-[#8A9A5B]">Checked {note.checked}</p>
+              <p className="mt-4 text-xs text-[#657143]">Checked {note.checked}</p>
             </div>
           ))}
         </div>

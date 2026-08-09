@@ -4,7 +4,7 @@ import { loadTripPlan } from "@/lib/tripPlan";
 import { Sun } from "lucide-react";
 
 const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors";
-const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
+const LABEL = "text-sm font-medium text-[#657143] mb-1.5 block";
 
 // Only destinations with a real entry in the BEST_TIME table are offered, so a
 // free-text city can never fall through silently to a generic bucket.
@@ -35,12 +35,12 @@ export default function BestTimeFinder() {
   return (
     <div className="font-sans">
       <div className="flex items-center gap-3 mb-6">
-        <div className="w-12 h-12 rounded-full bg-[#F5EDE3] flex items-center justify-center text-[#C65A3A]">
+        <div className="w-12 h-12 rounded-full bg-[#F5EDE3] flex items-center justify-center text-[#A84A2E]">
           <Sun className="w-6 h-6" />
         </div>
         <div>
           <h2 className="font-serif text-3xl md:text-4xl text-[#2C211B] leading-none">Best Time to Visit</h2>
-          <p className="text-[#8A9A5B] mt-1">Pick the right month — optimised for one thing at a time.</p>
+          <p className="text-[#657143] mt-1">Pick the right month — optimised for one thing at a time.</p>
         </div>
       </div>
 
@@ -63,7 +63,7 @@ export default function BestTimeFinder() {
 
         <div className="lg:col-span-8 space-y-6">
           <div className="rounded-3xl bg-[#2C211B] text-[#F5EDE3] p-8 shadow-lg">
-            <p className="text-[#8A9A5B] font-medium uppercase tracking-wider text-sm mb-2">
+            <p className="text-[#657143] font-medium uppercase tracking-wider text-sm mb-2">
               {PREFERENCES.find((p) => p.value === preference)?.label} in {destination}
             </p>
             <p className="font-serif text-4xl md:text-5xl leading-tight mt-2 text-white">{selected.months}</p>
@@ -78,7 +78,7 @@ export default function BestTimeFinder() {
                   <button
                     type="button"
                     onClick={() => setPreference(o.value)}
-                    className="text-left text-sm font-medium text-[#C65A3A] hover:underline sm:w-36 shrink-0"
+                    className="text-left text-sm font-medium text-[#A84A2E] hover:underline sm:w-36 shrink-0"
                   >
                     {o.label}
                   </button>
