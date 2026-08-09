@@ -4,6 +4,10 @@
     <!-- Fallback brand head for the SPA shell: per-route titles, descriptions
          and schema are injected by SEO.jsx / generate-static-html.js, but the
          first-parse shell should still name the site and its domain brand. -->
+    <!-- Impact affiliate-network site verification. Their crawler reads the raw
+         homepage HTML and expects this tag VERBATIM — name + value (not
+         content), single quotes, exact UUID. Do not normalise it. -->
+    <meta name='impact-site-verification' value='58697e5a-8ce0-463d-be83-0baec0c61ff7'>
     <title>Archi Travel Guide — affittacameregliarchi.com</title>
     <meta name="description" content="Archi Travel Guide — the independent Siena and Tuscany travel guide at affittacameregliarchi.com: itineraries, transport and honest advice.">
     <script>
