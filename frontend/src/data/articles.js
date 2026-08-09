@@ -8798,6 +8798,127 @@ Swap days freely, but keep the ring-two trips on weekdays and the gentle days on
       tags: ['tuscany without a car', 'tuscany buses', 'siena base', 'public transport italy', 'car-free travel'],
     }
   ),
+
+  A(
+    'bagno-vignoni-bagni-san-filippo-hot-springs',
+    'Bagno Vignoni & Bagni San Filippo: The Val d’Orcia Hot Springs, Finally Explained',
+    'Things to do',
+    'Tuscany',
+    'Can you actually bathe at Bagno Vignoni? What does Bagni San Filippo cost? The Val d’Orcia hot springs answered honestly — rules, prices and access.',
+    '',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Half the internet says you can bathe in the Val d'Orcia's hot springs for free; the other half says you cannot. Both halves are quoting fragments of the truth, so here is the whole of it, checked and dated.
+
+**Bagno Vignoni: you cannot bathe in the famous square.** The steaming Renaissance basin that fills the village's central piazza is view-only — and has been for good reason for a long time. What you *can* do: soak your feet in the warm channels of the free **Parco dei Mulini** below the village, or pay for a proper thermal pool at one of the village's spa hotels.
+
+**Bagni San Filippo: yes, you can bathe — in the right places.** The **Fosso Bianco** woodland stream with its white calcium-carbonate cascades is free, open year-round and genuinely bathable, hottest near the source and cooler downstream. The two things you must not do: climb on the great **Balena Bianca** formation, or slip past fences into the closed Bollore area above the village. A modest entry charge has come and gone in recent seasons — carry a couple of euros and expect either outcome.
+
+**Both are weekday, wheels-favoured trips.** The bus from Siena along the Abbadia San Salvatore corridor serves both, thinly; Sundays are effectively car-only. Everything below is the detail: the history, the rules with their fines, the spa prices, the parking, and the honest state of every claim we could not fully pin down.`,
+      },
+      {
+        id: 'bagno-vignoni-square',
+        heading: 'Bagno Vignoni: the village where the piazza is a pool',
+        body: `Bagno Vignoni's centre is unlike anywhere else in Tuscany: where a village square should be, there is a great stone basin of steaming water, fed by a spring that has drawn bathers since Roman times. The basin in its present form dates to the sixteenth century, and its guest book outclasses most cities — **St Catherine of Siena** took the waters here, as did **Pope Pius II** (builder of nearby Pienza) and **Lorenzo de' Medici**, seeking relief for his ailments.
+
+The water rises hot — credible sources put the source temperature in the **49–52°C range**, among the hottest in Tuscany — and on cool mornings the whole piazza smokes like a cauldron, which is precisely the photograph everyone comes for.
+
+And that photograph is the extent of it: **bathing in the central basin is not permitted.** Guides agree on the rule even while noting the village posts little explicit signage about it — do not let the absence of a sign, or the occasional influencer photo, persuade you otherwise. The piazza pool is the village's monument, not its bath. Where the bathing actually happens comes next.`,
+      },
+      {
+        id: 'parco-dei-mulini',
+        heading: 'Where you can get in the water at Bagno Vignoni — and the fine print',
+        body: `Walk downhill from the square and the thermal overflow becomes the **Parco dei Mulini** — the free mill park where the village's water, having done its scenic duty above, runs down through carved channels (*gorelli*) toward the old mills and collects in pools on the slope, with the Val d'Orcia opening out below. Entry is free, year-round, and the setting is glorious.
+
+Two honesty notes before you pack a towel. First, **the water down here is markedly cooler** than at the source — it has travelled downhill in open channels, and by the lower pools it is warm-ish rather than hot, which disappoints visitors expecting the steam of the piazza. Second, the legal position is messier than most guides admit: **foot-soaking in the channels is the safe, accepted practice**, while full-immersion bathing in the lower pools is reportedly restricted by a years-old municipal ordinance carrying fines — enforcement is described as inconsistent, and visitor accounts of untroubled soaking are easy to find, but we will not tell you a rule does not exist because it is loosely policed. Soak your feet freely; treat anything more as at-your-own-risk in a place that has, on paper, said no.
+
+If that sounds like a lawyer wrote it, the springs two sections down offer the uncomplicated version.`,
+      },
+      {
+        id: 'paid-spas',
+        heading: 'The paid option: Bagno Vignoni’s spa hotels',
+        body: `For actual hot-water immersion in Bagno Vignoni, the answer is the village's two thermal hotels, both of which admit day visitors on their own terms.
+
+**La Posta Hotel & Thermal Spa** — the former Albergo Posta Marcucci, directly in the village — sells day access: its published Day Spa package runs to **€130 per person**, bundling the thermal pools (listed at 28–32°C and 35–38°C), sauna, hydrotherapy and a treatment. Reports of a cheaper plain entry to the outdoor thermal pool — figures around €27, less after 14:00 — circulate credibly but were not confirmable against the hotel's own pages at our check, so ask for the pool-only rate when booking rather than assuming it.
+
+**Adler Spa Resort Thermae**, the luxury resort at the village edge, admits external visitors **only via bookable day-spa packages** — thermal pool park, an extensive sauna circuit, classes and a snack buffet across a roughly 8:30–19:30 day — with no standalone pool ticket. Prices vary by season and package; book ahead through the resort.
+
+The honest framing: Bagno Vignoni's paid tier is a **spa-day destination**, priced accordingly, not a cheap swim. If what you want is simply hot water on skin without a wallet event, that is Bagni San Filippo's department.`,
+      },
+      {
+        id: 'bagni-san-filippo',
+        heading: 'Bagni San Filippo: the free one that delivers',
+        body: `Seventeen kilometres further south, in the wooded folds under Monte Amiata, **Bagni San Filippo** is the spring the free-bathing rumours are actually about. The **Fosso Bianco** — the "white ditch" — is a stream in the forest below the village where thermal water at about **48°C at source** tumbles over decades of accumulated calcium-carbonate, building dazzling white terraces and warm pools among the trees. It is free, ungated, open year-round with no fixed hours, and bathing is what it is for.
+
+The geometry is simple and worth knowing: **the pools nearest the source are the hottest**, cooling progressively downstream — so the upper pools fill first and the lower ones stay quieter and milder, a genuine choice rather than a compromise. The landmark is the **Balena Bianca**, the White Whale: a vast frozen cascade of mineral deposit that is the site's photograph and its most protected feature. **Climbing on the formation is banned** by municipal ordinance — for collapse and slip danger as much as conservation — and bathing in the pool directly beneath it is likewise off-limits, rules that press reports say visitors still test and staff still enforce.
+
+One more boundary that matters: above the village, the separate **Bollore** area — an old industrial site — is **formally closed**, fenced private land under court administration with an access-ban ordinance. The fences keep being torn down and the ban keeps being reinstated; do not be the visitor who finds out why the hard way. The Fosso Bianco below has everything you came for, legally.`,
+      },
+      {
+        id: 'ticket-question',
+        heading: 'The Bagni San Filippo ticket question, honestly',
+        body: `Does the Fosso Bianco cost money? The truthful answer is: **it has, it has not, and it may again** — and any page giving you a flat yes or no is behind the story.
+
+The sequence, as Italian press and local notices tell it: mounting summer crowds pushed the comune toward an entry ticket and a daily capacity cap, which was announced and then postponed; a **€2 entry charge with a wristband** (one euro refunded when you hand the wristband back) was subsequently in force at a checkpoint past the access bridge under the site's management; and whether that charge is being collected in the current season is genuinely unresolved across 2026 sources — some describe the wristband system as operating, others describe walking in free.
+
+The practical translation costs you nothing: **arrive with a few euro coins and no expectations either way.** The same applies to parking — the paid blue-line spaces on Via Fosso Bianco at the village entrance, five to ten minutes' walk from the water, carry hourly rates that our sources quote inconsistently; expect a few euros per hour, pay by the machine's actual tariff, and treat any specific figure you read online (including here) as a snapshot. The village's own paid spa hotel, for completeness, has been closed for renovation with its reopening date unclear — during the closure, the free stream is the village's only bathing.`,
+      },
+      {
+        id: 'getting-there',
+        heading: 'Getting there: the bus truth and the driving option',
+        body: `**By bus, this is Abbadia corridor territory.** The Val d'Orcia towns bus from Siena — [line 112, of Pienza and Montepulciano fame](/blog/tuscany-without-a-car-2026/) — gets you only as far as San Quirico d'Orcia. Bagno Vignoni's own stop (Bagno Vignoni Centro) sits on the **Siena–Abbadia San Salvatore axis**, whose weekday service is thin and whose **Sunday service is skeletal** — press coverage of the current holiday runs amounts to roughly one morning bus toward Siena and one late-afternoon return. Bagni San Filippo's stop on the same corridor sees a handful of runs a day, and its name — "Bv. Campiglia", the *bivio* or junction — is your warning to confirm on the at-bus planner whether your bus enters the village or drops you at the turn-off on the main road. The car-free verdict, honestly: **Bagno Vignoni is a feasible weekday bus trip for the determined; Bagni San Filippo is effectively a car destination**, exactly as [our car-free flagship concluded](/blog/tuscany-without-a-car-2026/).
+
+![The Val d'Orcia countryside along the Cassia road toward the thermal villages](/images/tuscany/val-dorcia-cypress-trees-landscape.jpg)
+*The Val d'Orcia along the road south — the springs hide in its folds; we have not yet photographed the pools themselves.*
+
+**By car, both are easy Cassia runs**: Bagno Vignoni sits about 50 km south of Siena off the SS2 — roughly 45 minutes to an hour — with Bagni San Filippo some 17 km further, its village two kilometres off the main road. The pairing makes a natural single day: the piazza and mill park in the morning, the Fosso Bianco's pools after lunch, [the Val d'Orcia's postcard roads](/blog/val-dorcia-day-trip-from-siena-2026/) in between — and if the day stretches, San Quirico d'Orcia sits conveniently between the two for an evening passeggiata before the drive home. [Where to collect the car](/blog/rent-a-car-in-florence-or-siena-2026/) and [the rules that come with it](/blog/renting-a-car-in-tuscany-2026/) are covered elsewhere; neither village involves ZTL anxiety, just small car parks that fill on summer weekends.`,
+      },
+      {
+        id: 'when-to-go',
+        heading: 'When to go — the counterintuitive answer',
+        body: `Hot springs invert the tourist calendar. **Winter and the shoulder seasons are the Fosso Bianco at its best**: a 48-degree source keeps bathing gloriously comfortable in cold air, the steam turns photogenic, the forest is quiet, and a weekday soak in November or February can feel private. July and August, by contrast, deliver the site's worst version — warm water in hot weather, car parks filling by mid-morning on weekends, and the crowd pressure that produced the ticket saga above.
+
+For a September or October trip — [the season the rest of the valley is at its finest](/blog/tuscany-in-october-2026/) — aim for weekdays and the edges of the day. And pack by the rules, which exist because everything here drains straight into a living stream: **no soap or shampoo in the water**, no night bathing (the site is unlit and ungated, not invigilated), dogs on leads on the paths but out of the pools, and swim shoes if you have them — travertine is beautiful and slippery in equal measure.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research: the Bagno Vignoni central-basin bathing ban, basin history and famous bathers from consistent heritage and guide sources (source temperature given as the 49–52°C range the sources span, rather than a single unqualified figure); the Parco dei Mulini's free access and cooler water from the same corpus, with the foot-soak-versus-immersion legal position presented at exactly the confidence the sourcing supports — the restricting ordinance and fines are reported, enforcement is reported inconsistent, and we say both; La Posta's €130 Day Spa from the hotel's published offer, with the cheaper pool-only figures flagged as unconfirmed against the hotel's own pages; Adler's package-only day access from the resort's published information; Bagni San Filippo's free status, 48°C source, Balena Bianca climbing ban, Bollore closure and conduct rules from municipal-ordinance reporting and press coverage; the ticket saga (announced cap, postponement, the €2 wristband, current-season uncertainty) from Italian press including La Nazione, presented as the unresolved sequence it is; and bus realities from Autolinee Toscane corridor information and press coverage of the holiday timetable. Parking rates conflicted across every source and are deliberately given only as an order of magnitude. Ordinances, charges and timetables here change more often than anywhere else we cover — re-verify against the comune notices and the at-bus planner before travelling. We have no affiliate relationship with either spa hotel or any operator named; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `The Val d'Orcia's springs suffer from being written about in halves: the famous photograph without the bathing ban, the free pools without the ordinances, the €2 ticket without the saga around it. Taken whole, the picture is better than the fragments — a Renaissance piazza that steams like a myth, a mill park where warm water and a valley view cost nothing, a forest stream that delivers the real soak the square only promises, and rules that mostly amount to respecting a fragile, beautiful accident of geology. Go on a weekday, carry coins and a towel, keep the soap in the bag, and let the hottest pool you can politely claim do the rest.`,
+      },
+    ],
+    [
+      { q: 'Can you swim in the pool at Bagno Vignoni?', a: 'No — the famous central basin in Piazza delle Sorgenti is view-only, despite sparse signage. The free Parco dei Mulini below the village is where visitors soak (feet in the warm channels is the safe, accepted practice; the water in the lower pools is much cooler than the source), and the village’s spa hotels sell proper thermal-pool day access.' },
+      { q: 'Is Bagni San Filippo free?', a: 'The Fosso Bianco is free in principle and ungated year-round, but a €2 wristband charge has operated in recent seasons and its current status is genuinely unclear across sources — carry a few euro coins and expect either outcome. Parking on Via Fosso Bianco is paid; budget a few euros per hour.' },
+      { q: 'Which is better, Bagno Vignoni or Bagni San Filippo?', a: 'For bathing, Bagni San Filippo — hot water, white travertine terraces, free access. For atmosphere and history, Bagno Vignoni — the steaming Renaissance piazza is unique in Tuscany, but immersion there means a paid spa. By car they pair perfectly into one day, seventeen kilometres apart on the Cassia.' },
+      { q: 'How hot are the Val d’Orcia hot springs?', a: 'Hot at source, milder where you bathe: Bagno Vignoni’s spring emerges in the 49–52°C range but its free lower pools are markedly cooler; Bagni San Filippo’s source runs about 48°C, with the upper pools hottest and the stream cooling as it descends — you pick your temperature by picking your pool.' },
+      { q: 'Can you get to the hot springs without a car?', a: 'Barely, and only on weekdays. Both sit on the thin Siena–Abbadia San Salvatore bus corridor — Bagno Vignoni has its own stop, Bagni San Filippo’s is at the junction outside the village — and Sunday service is close to nonexistent. A car, a tour, or a one-day rental is the honest recommendation, especially for Bagni San Filippo.' },
+      { q: 'What are the rules at Bagni San Filippo?', a: 'No climbing on the Balena Bianca formation and no bathing in the pool directly beneath it (municipal ordinance); no soap or shampoo in the water; no night access; dogs on leads on the paths but not in the pools; and the fenced Bollore area above the village is closed private land — stay out of it.' },
+      { q: 'When is the best time to visit the hot springs?', a: 'Winter and the shoulder seasons, on weekdays — hot water is at its best in cold air, the steam photographs beautifully and the sites are quiet. Summer weekends are the worst version: warm water in the heat, full car parks and the crowds that prompted the entry-charge experiments.' },
+    ],
+    '2026-08-26',
+    {
+      seoTitle: 'Bagno Vignoni & Bagni San Filippo Hot Springs: Rules & Prices 2026',
+      primaryKeyword: 'bagno vignoni hot springs',
+      secondaryKeywords: [
+        'can you swim in bagno vignoni',
+        'bagni san filippo free',
+        'bagni san filippo entry fee',
+        'fosso bianco balena bianca',
+        'val d orcia hot springs',
+        'tuscany free hot springs',
+      ],
+      imageAlt: 'The Val d’Orcia countryside that surrounds the thermal villages of Bagno Vignoni and Bagni San Filippo',
+      canonicalPath: '/blog/bagno-vignoni-bagni-san-filippo-hot-springs',
+      tags: ['hot springs tuscany', 'bagno vignoni', 'bagni san filippo', 'val d orcia', 'thermal baths'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
