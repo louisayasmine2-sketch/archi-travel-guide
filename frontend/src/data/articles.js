@@ -8657,6 +8657,147 @@ One last scheduling note: both towns keep Italian small-town rhythms, and cellar
       tags: ['montalcino', 'montepulciano', 'tuscany wine towns', 'brunello', 'vino nobile', 'day trips from siena'],
     }
   ),
+
+  A(
+    'tuscany-without-a-car-2026',
+    'Tuscany Without a Car: The Complete Siena-Based Guide',
+    'Transport',
+    'Tuscany',
+    'Tuscany without a car works — from the right base. The bus and rail system from Siena: lines, times, tickets, the Sunday rule and what truly needs wheels.',
+    '/images/siena/florence-to-siena-bus-journey.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Car-free Tuscany is not a compromise — **it is a strategy, and the strategy has a capital: Siena.** From a Siena base, one regional bus network and two rail lines put Florence, San Gimignano, Monteriggioni, Pienza, Montepulciano, Montalcino and Arezzo within honest day-trip reach, no motorway anxiety, no ZTL fines, no parking arithmetic.
+
+The system in one paragraph: every regional bus in Tuscany is run by a single operator, **Autolinee Toscane** — timetables and tickets live at at-bus.it and in the official **at bus** app. The workhorse lines from Siena: **131/131R** to Florence (the rapid takes roughly 65–80 minutes, about 18–19 weekday departures each way), **130** to San Gimignano via Poggibonsi, **112** through the Val d'Orcia towns to Montepulciano, **114** to Montalcino, **138** to Arezzo, **125** into Chianti. Rail adds the Florence line (about 1h20 direct) and the Chiusi line east through Asciano.
+
+Three rules keep it all working. **One: weekdays are the network's true self** — Sunday and holiday timetables shrink drastically, and on major holidays the Siena extraurban network can suspend almost entirely. **Two: validate every ticket** — and on extraurban services with the tip-tap system, tap **twice**, boarding and alighting. **Three: never trust an aggregator over the operator** — route apps routinely show two-hour itineraries-with-transfers for journeys the direct bus makes in half that.
+
+What genuinely needs wheels, we name honestly below — the Val d'Orcia photo loop, the Crete Senesi ridges, the remoter springs — along with the two workarounds that keep even those in a car-free trip: the one-day tour and the one-day rental.`,
+      },
+      {
+        id: 'the-system',
+        heading: 'How the system works: tickets, apps and the double tap',
+        body: `Tuscany's regional buses consolidated under one operator, which makes the learning curve mercifully short.
+
+**Buying tickets.** Paper tickets come from bus-station ticket offices, machines, and any bar, tabacchi or newsagent displaying the **AT sticker** — buy before boarding, since on-board purchase from the driver is the exception, not the plan. Digital tickets live in the official **at bus** app, and an unactivated app ticket stays valid for twelve months, so loading a few in advance costs nothing.
+
+**Validating tickets.** This is where visitors get fined. Paper tickets are stamped in the machine as you board; app tickets are activated at boarding. On extraurban services equipped with the tip-tap contactless system, the rule that surprises everyone: **tap once when you board and again when you alight**, so the system charges the correct distance fare. Skip the second tap and the fare defaults against you.
+
+**Fares.** Extraurban pricing is distance-banded under the official tariff in force since August 2023 — the Siena–Florence rapid sits in a band at **€8.40** at our check, and shorter hops cost correspondingly less. Exact fares for other routes vary by distance band; the app quotes them per journey, which beats any table we could print.
+
+**Planning.** Use the at-bus.it planner or the app for buses and Trenitalia's channels for trains, and treat third-party route aggregators as a last resort: at our check one major aggregator showed Siena–Montalcino as a two-hour multi-transfer ordeal while the direct line 114 exists, and averaged Siena–Montepulciano at three hours against a fastest real journey of 1h35. Aggregators aggregate; they do not understand.`,
+      },
+      {
+        id: 'the-spine',
+        heading: 'The spine: Siena ↔ Florence',
+        body: `Everything hangs off the Siena–Florence corridor, and it is the best-served intercity link in the region.
+
+**The bus is the default.** Line **131** runs in two flavours: the ordinaria with intermediate stops, and the **131R rapida** straight down the Firenze–Siena superstrada — roughly **65–80 minutes** end to end, with about **18–19 weekday departures each way** from around 6:15 in the morning to a last bus in the 20:15–20:45 range. Both flavours share the same ticket. The bus's decisive advantage is geography: it lands beside Siena's old town rather than below it, [as our full Florence–Siena comparison explains](/blog/florence-to-siena-by-train-or-bus/).
+
+**The train is the scenic understudy**: about **1h20 direct** on the regional line, with services every 60–90 minutes — though only roughly half run direct, the rest changing at Empoli for a 1h35–1h45 total. Rail wins when the bus schedule thins, when luggage favours level boarding, or [when a strike calendar complicates one mode](/blog/italy-transport-strikes-survival-guide-2026/) — the two systems rarely fail together.
+
+**The fallback nobody mentions**: long-distance coach operators (Flixbus, Itabus) also ply Florence–Siena at low fares — useful on Sundays when the regional timetable shrinks — with the caveat that some runs use motorway-side stops rather than the central bus stations, so check the exact stop before relying on one.`,
+      },
+      {
+        id: 'ring-one',
+        heading: 'Ring one: the easy day trips',
+        body: `These run on frequencies forgiving enough that a missed bus costs coffee, not the day.
+
+**San Gimignano — line 130.** Officially Siena–Poggibonsi–San Gimignano: through buses take about **1h05**; other runs change at Poggibonsi, where the connecting leg is 20–25 minutes and roughly hourly. You arrive at Porta San Giovanni and walk straight into the towers — [the full day plan, tickets and timing strategy are here](/blog/san-gimignano-day-trip-from-siena-2026/).
+
+**Monteriggioni — the 130 again, plus a hill.** The bus stops at **Colonna di Monteriggioni**, on the roundabout below the walls — the tourism office calls it 500 metres from the castle; travellers call it a 15–25 minute uphill walk. Either way, the walled circle at the top is one of Tuscany's most concentrated medieval hits for one of its smallest efforts, and pairs naturally with [the Via Francigena stage that walks from here back toward Siena](/blog/via-francigena-day-walk-siena/) for anyone who came for the path, not the bus.
+
+**Florence itself.** The spine above, run in reverse: museums booked ahead, the early rapid down, [the evening bus home after the golden hour](/blog/florence-or-siena-which-to-visit-2026/). A Siena base does Florence better than most Florence visitors do Siena.`,
+      },
+      {
+        id: 'ring-two',
+        heading: 'Ring two: the discipline day trips',
+        body: `Reachable, rewarding — and run on timetables that punish improvisation. The shared rule: **screenshot the return times before you leave, and treat the second-to-last connection as your last.**
+
+**Montepulciano and Pienza — line 112.** One bus, officially Siena–Buonconvento–Montepulciano, threading San Quirico d'Orcia and Pienza en route — which makes it simultaneously the Val d'Orcia towns bus. The catch is depth: roughly **four usable connections a day**, fastest about **1h35**, weekday-oriented. Plan it like a flight, and [the two-town wine question it serves is compared here](/blog/montalcino-or-montepulciano-2026/).
+
+**Montalcino — line 114, or the rail trick.** The direct 114 runs Siena–Buonconvento–Torrenieri–Montalcino. The often-smoother alternative: the Siena–Grosseto **train to Buonconvento** (31–34 minutes, around ten trains a day), then the 114's short 14-kilometre climb — about half an hour, running every two hours or so and, per long-standing traveller reporting, generally in sync with train arrivals. Confirm the pairing on the planner for your date rather than trusting habit.
+
+**Arezzo — line 138.** About **95 minutes** across the hills, but sparse — departures roughly every four hours, first around 6:25 — so this is a commit-to-the-day trip. [The city repays it](/blog/giostra-del-saracino-arezzo-2026/), and the rail workaround via Florence always exists.
+
+**Chianti — line 125 from Siena, line 365 from Florence.** From Siena, the 125 reaches Castellina and Radda in about 55 minutes on a thin, school-weekday-shaped timetable. The richer service runs from the Florence side: line **365** to Greve in 55–60 minutes (Panzano eleven minutes more), continuing to Radda and Gaiole — the reason [our wine-harvest guide sends bus travellers to Greve](/blog/tuscany-wine-harvest-vendemmia-2026/) rather than promising them the deep Chianti backroads.
+
+**East by rail.** The Siena–Chiusi line (about 80 minutes end to end, ~13 trains daily) serves **Asciano** — the Crete Senesi's main town, 26 minutes out — plus Sinalunga and, nominally, Montepulciano Stazione. Nominally, because that station sits eight kilometres from the hill town with poor onward links; the practical rail approach to Montepulciano is **Chiusi-Chianciano Terme** station with its coordinated ~30-minute bus.`,
+      },
+      {
+        id: 'what-needs-wheels',
+        heading: 'What genuinely needs wheels — and the two workarounds',
+        body: `Honesty section. Buses connect town centres; Tuscany's most photographed landscapes lie between them.
+
+**The Val d'Orcia photo loop** — the Vitaleta chapel, the cypress clumps, the farm-road S-curves between San Quirico, Pienza and Montalcino — has no useful bus stops, and the forum consensus matches our own: touring the valley's viewpoints needs a car, a bike or a tour. **The Crete Senesi ridges** are the same story: Asciano arrives by train, but the lunar-field panoramas between towns do not. **Bagni San Filippo**, the white-terraced hot spring, is effectively off the network — sources mention only a token twice-weekly local service, and every practical guide says drive. And the deep **Chianti estate roads** beyond the bus towns belong to the same list.
+
+Workaround one: **the day tour.** Small-group tours from Siena bundle exactly these unreachable middles — Val d'Orcia viewpoints, estate tastings with a designated driver built in — and listings on platforms such as [Viator](/go/viator) state the operator, group size, pickup point and cancellation terms up front, which are the four things worth comparing. For wine days in particular, the tour is not the compromise; the tour is the correct tool, since nobody should taste six wines and drive the SR222.
+
+Workaround two: **the one-day rental.** A car-free trip with a single driving day in the middle keeps every advantage of the base strategy while unlocking the loop roads — [where and whether to collect that car is its own decision guide](/blog/rent-a-car-in-florence-or-siena-2026/), and Siena's valley-floor offices make it painless. Rent for the day the landscape demands, hand the keys back, resume the bus life.`,
+      },
+      {
+        id: 'sunday-rule',
+        heading: 'The Sunday rule',
+        body: `The single biggest failure mode in car-free Tuscany is assuming Saturday's timetable describes Sunday. It does not. **Sunday and holiday service runs on the reduced festivo timetable across the network**, thinning every line in this guide — and on major public holidays Autolinee Toscane's own service notes have the Siena extraurban network suspended almost entirely, with only some 131 runs to Florence surviving alongside urban services.
+
+The planning consequences, in order: do ring-two trips (Montepulciano, Montalcino, Arezzo, Chianti) **on weekdays, full stop**. Put Florence, [a Siena rest day](/blog/siena-day-trip-or-overnight-2026/), or the walkable Monteriggioni-San Gimignano axis on the Sunday — after checking even those. Remember the long-distance coach fallback on the Florence spine. And around public holidays — [Ferragosto above all](/blog/tuscany-in-august-2026/) — verify everything, because the holiday timetable is a different country.`,
+      },
+      {
+        id: 'the-week',
+        heading: 'A seven-day car-free week that actually works',
+        body: `The skeleton, assembled from everything above and [our existing day guides](/blog/siena-day-trips-without-a-car/):
+
+**Day 1 (arrive):** land in Siena by the afternoon spine bus; evening passeggiata and the floodlit Campo — [the overnight argument in action](/blog/siena-day-trip-or-overnight-2026/).
+**Day 2 (Siena):** the Duomo complex from opening, the Campo, [the city done properly](/blog/best-things-to-do-in-siena/).
+**Day 3 (weekday — Val d'Orcia line):** the 112 to Pienza and Montepulciano, cellars and pecorino, planned like a flight.
+**Day 4 (San Gimignano):** the 130, early, [with the pass strategy](/blog/san-gimignano-day-trip-from-siena-2026/).
+**Day 5 (the unlockable middle):** small-group Val d'Orcia or Chianti tour, or the one-day rental for the photo loop.
+**Day 6 (Florence):** early rapid down, booked museums, golden-hour bus home.
+**Day 7 (Sunday-proof finish):** Monteriggioni and [the Via Francigena walk back](/blog/via-francigena-day-walk-siena/), or nothing at all with a long lunch — the itinerary's best-kept secret.
+
+Swap days freely, but keep the ring-two trips on weekdays and the gentle days on Sunday, and the week runs without a single ignition key.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research against Autolinee Toscane's official at-bus.it pages wherever search surfaced them, cross-read with traveller reports: line identities and routings (131/131R, 130, 112, 114, 138, 125, 365) from the operator's published line information; the 131R's 65–80-minute range, departure counts and first/last times, and the €8.40 distance-band fare from the official tariff documentation in force since August 2023; ticket-retailer, app-validity and double-tap validation rules from the operator's published ticketing information; rail timings (Siena–Florence, Siena–Chiusi, Buonconvento) from regional rail schedules as surfaced in search; the Monteriggioni stop distance from the official tourism office with the walk-time range from traveller accounts; Sunday and holiday service reductions from the operator's festivo service notes; and the car-required verdicts (Val d'Orcia loop, Crete ridges, Bagni San Filippo) from consistent guide and forum consensus. Frequencies quoted are weekday patterns at our check — timetables change seasonally, so verify your specific journey on the at-bus.it planner or app before travelling, and treat every figure here as planning guidance rather than a promise. Disclosure: the Viator link on this page is an affiliate link — if you book a tour through it we may earn a commission, at no extra cost to you; the advice that tours are the right tool for tasting days does not change either way. Platform links use our internal /go/ shortcuts.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `The car-free question is usually asked backwards — "can I survive Tuscany without a car?" — when the Siena-based version deserves asking forwards: what does the car-free trip get *right*? No ZTL geometry, no parking arithmetic, no designated-driver mathematics at a Brunello tasting, aperitivo without arithmetic at all, and a rhythm — bus out in the morning, walled town by ten, home for the passeggiata — that matches how these places want to be visited. Learn one operator's app, respect the Sunday rule, buy the tour or the one-day rental for the landscape in between, and Tuscany without a car stops being the fallback plan. From Siena, it might be the best plan.`,
+      },
+    ],
+    [
+      { q: 'Can you really do Tuscany without a car?', a: 'Yes — from the right base. Siena puts Florence, San Gimignano, Monteriggioni, Pienza, Montepulciano, Montalcino, Arezzo and the Chianti bus towns within day-trip reach on Autolinee Toscane buses and two rail lines. What needs wheels is the landscape between towns — the Val d’Orcia photo loop, Crete Senesi ridges — solved with one day tour or one single-day rental.' },
+      { q: 'Is Siena or Florence the better car-free base?', a: 'Siena, for southern Tuscany: the 112, 114, 130 and 138 lines radiate from it to the hill towns, while Florence serves the north (Chianti’s 365 bus, the rail trunk). Florence is the better base only if your trip is museums-first. Many travellers split the difference: a few nights in each, connected by the 131R rapid bus.' },
+      { q: 'How do you get from Siena to Florence without a car?', a: 'Bus line 131R — roughly 65–80 minutes on the superstrada, about 18–19 weekday departures each way, around €8.40 — arriving beside Siena’s old town. The regional train takes about 1h20 direct (roughly half of services; the rest change at Empoli). Long-distance coaches add a low-cost Sunday fallback.' },
+      { q: 'How do buses work in Tuscany — where do you buy tickets?', a: 'One operator, Autolinee Toscane, runs every regional bus. Buy paper tickets at ticket offices or any shop with the AT sticker, or use the official at bus app (unactivated app tickets keep for twelve months). Validate on boarding — and on extraurban tip-tap services, tap both boarding and alighting or the fare defaults against you.' },
+      { q: 'Can you visit the Val d’Orcia without a car?', a: 'The towns, yes: bus 112 from Siena threads San Quirico, Pienza and Montepulciano on weekdays, and Montalcino works via line 114 or the train to Buonconvento. The photographed landscape between them — Vitaleta chapel, the cypress groups — has no bus stops: that is the day for a small-group tour or a one-day rental.' },
+      { q: 'Do Tuscany buses run on Sundays?', a: 'On a drastically reduced festivo timetable — and on major public holidays the Siena extraurban network can suspend almost entirely, leaving only some Florence-line 131 runs. Plan hill-town trips for weekdays, keep Sundays for Florence, Siena itself or walkable Monteriggioni, and verify any Sunday journey on the at-bus.it planner first.' },
+      { q: 'Is the bus or the train better from Siena?', a: 'The bus, usually: it is faster on the Florence spine (131R) and it is the only public transport to San Gimignano, Montepulciano, Montalcino and Arezzo. The train earns its place for Buonconvento (the Montalcino rail trick), Asciano and the Chiusi line east — and as the calmer option with luggage.' },
+    ],
+    '2026-08-25',
+    {
+      seoTitle: 'Tuscany Without a Car (2026): The Complete Siena-Based Guide',
+      primaryKeyword: 'tuscany without a car',
+      secondaryKeywords: [
+        'tuscany without a car itinerary',
+        'val d orcia without a car',
+        'siena to san gimignano bus',
+        'siena to montepulciano by bus',
+        'tuscany by public transport',
+        'autolinee toscane tickets app',
+        'is siena a good base for tuscany',
+      ],
+      imageAlt: 'A regional bus journey through the Tuscan countryside between Florence and Siena',
+      canonicalPath: '/blog/tuscany-without-a-car-2026',
+      tags: ['tuscany without a car', 'tuscany buses', 'siena base', 'public transport italy', 'car-free travel'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
