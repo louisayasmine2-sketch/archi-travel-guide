@@ -11,6 +11,7 @@ import { canonical } from "@/lib/seo";
 import { trackLeadSubmit } from "@/lib/analytics";
 import { getArticle, articles } from "@/data/articles";
 import { relatedArticles } from "@/lib/relatedArticles";
+import imageDimensions from "@/data/imageDimensions.json";
 import NotFound from "./NotFound";
 import { Send, ChevronDown } from "lucide-react";
 import axios from "axios";
@@ -126,9 +127,12 @@ const renderArticleBody = (body) => {
           const imgClass = isVector
             ? "w-full h-auto rounded-2xl shadow-sm"
             : "w-full rounded-2xl object-cover aspect-[16/9] shadow-sm";
+          // Measured width/height reserve the box before the file loads —
+          // without them the lazy-loaded SVG diagrams shift the whole page.
+          const dims = imageDimensions[src.split("?")[0]];
           return (
             <div key={keyPrefix} className="my-8">
-              <img src={src} alt={alt} className={imgClass} loading="lazy" decoding="async" />
+              <img src={src} alt={alt} className={imgClass} loading="lazy" decoding="async" width={dims?.width} height={dims?.height} />
               {caption && (
                 <p className="mt-2 text-center text-sm text-[hsl(var(--charcoal-soft))] italic animate-fade-in">
                   {renderInlineMarkdown(caption, `${keyPrefix}-caption`)}
