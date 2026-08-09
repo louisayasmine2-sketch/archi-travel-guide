@@ -8,6 +8,7 @@ import cluster from "@/data/sienaContentCluster.json";
 import NotFound from "./NotFound";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 import ToolCue from "@/components/common/ToolCue";
+import SaveGuideButton from "@/components/common/SaveGuideButton";
 
 const PREVIEW_SCHEDULED_CONTENT =
   process.env.REACT_APP_SHOW_SCHEDULED_CONTENT === "true";
@@ -251,6 +252,10 @@ export default function SienaContentClusterArticle({ slug }) {
           )}
 
           <ToolCue category={article.category} />
+
+          <div className="mt-6">
+            <SaveGuideButton path={article.canonicalPath} title={article.title} />
+          </div>
         </div>
 
         <aside className="order-3 hidden lg:col-span-2 lg:block">

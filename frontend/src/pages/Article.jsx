@@ -6,6 +6,7 @@ import ArticleCard from "@/components/common/ArticleCard";
 import LazyImage from "@/components/common/LazyImage";
 import SEO from "@/components/common/SEO";
 import ToolCue from "@/components/common/ToolCue";
+import SaveGuideButton from "@/components/common/SaveGuideButton";
 import { breadcrumbSchema, articleSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import { trackLeadSubmit } from "@/lib/analytics";
@@ -429,6 +430,7 @@ export default function Article({ fixedSlug, canonicalPath }) {
 
         {/* Right rail */}
         <aside className="lg:col-span-3 order-3 space-y-6">
+          <SaveGuideButton path={path} title={article.title} />
           <AuthorCard author={article.author} updated={article.updated} readMinutes={article.readMinutes} />
           <div className="rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] p-5">
             <p className="overline">Editorial policy</p>
