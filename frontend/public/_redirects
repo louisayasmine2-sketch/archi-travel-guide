@@ -22,8 +22,12 @@
 /go/booking                                               https://www.booking.com/ 302
 /go/booking-search                                        https://www.booking.com/searchresults.html 302
 /go/getyourguide                                          https://www.getyourguide.com/ 302
-/go/viator                                                https://www.viator.com/ 302
+# Viator: live affiliate tracking (pid supplied by the site owner, Aug 2026)
+/go/viator                                                https://www.viator.com/?pid=P00313936&mcid=42383&medium=link&medium_version=selector 302
+/go/viator-siena-san-gimignano-tour                       https://www.viator.com/tours/Florence/Siena-and-San-Gimignano-Day-Trip-from-Florence/d519-24283GROUP?pid=P00313936&mcid=42383&medium=link&campaign=san-gimignano-article 302
 /go/airalo                                                https://airalo.com/ 302
+/go/discovercars                                          https://www.discovercars.com/ 302
+/go/safetywing                                            https://safetywing.com/ 302
 /blog/florence-to-siena-transport                         /florence-to-siena-by-train-or-bus/ 301
 /blog/florence-to-siena-transport/                        /florence-to-siena-by-train-or-bus/ 301
 

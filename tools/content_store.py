@@ -289,7 +289,10 @@ def load_json_stores():
         if isinstance(data, dict) and isinstance(data.get("articles"), list):
             for item in data["articles"]:
                 articles.append(_article_from_json(path.name, item.get("slug", "?"), item))
-        elif isinstance(data, dict):
+        elif isinstance(data, dict) and ({"bodyMarkdown", "introMarkdown", "sections", "title"} & data.keys()):
+            # Only dicts that carry article content. Technical asset maps in the
+            # same directory (imageDimensions.json: image path -> width/height)
+            # are not articles and must not be audited as if they were.
             articles.append(_article_from_json(path.name, data.get("slug", path.stem), data))
     return articles
 

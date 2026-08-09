@@ -20,6 +20,11 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 
+// /go/ slugs whose redirect carries live affiliate tracking. Links to these
+// must declare rel="sponsored"; all other /go/ links stay nofollow until the
+// programme behind them is approved. Keep in sync with _redirects.
+const SPONSORED_GO_SLUGS = new Set(["/go/viator", "/go/viator-siena-san-gimignano-tour"]);
+
 const renderInlineMarkdown = (text, keyPrefix) => {
   const parts = [];
   const pattern = /(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g;
@@ -38,14 +43,22 @@ const renderInlineMarkdown = (text, keyPrefix) => {
       const linkMatch = token.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
       if (linkMatch) {
         const [, label, href] = linkMatch;
-        const isInternal = href.startsWith("/");
+        // /go/ shortcuts only exist as CDN-level redirects in _redirects, not
+        // as SPA routes — a client-side <Link> navigation would land on the
+        // 404 page. They need a real browser request, like external links.
+        const isInternal = href.startsWith("/") && !href.startsWith("/go/");
         parts.push(
           isInternal ? (
             <Link key={`${keyPrefix}-link-${match.index}`} to={href}>
               {label}
             </Link>
           ) : (
-            <a key={`${keyPrefix}-link-${match.index}`} href={href} target="_blank" rel="nofollow noopener noreferrer">
+            <a
+              key={`${keyPrefix}-link-${match.index}`}
+              href={href}
+              target="_blank"
+              rel={SPONSORED_GO_SLUGS.has(href.split("?")[0]) ? "sponsored noopener noreferrer" : "nofollow noopener noreferrer"}
+            >
               {label}
             </a>
           )
