@@ -207,7 +207,7 @@
   "title": "Florence Summer Heat Survival Tips 2026: Stay Cool & Beat the Heat",
   "excerpt": "Practical ways to handle Florence’s 35°C+ summer days in 2026: timing, shade routes, water fountains and cooler alternatives.",
   "canonicalPath": "/blog/florence-summer-heat-survival-tips-2026",
-  "updated": "2026-07-17"
+  "updated": "2026-08-06"
  },
  {
   "slug": "puccini-festival-torre-del-lago-2026-independent-traveller-guide",
@@ -308,11 +308,25 @@
   "updated": "2026-08-02"
  },
  {
+  "slug": "tuscany-in-november-2026",
+  "title": "Tuscany in November 2026: Truffles, Olio Nuovo & the Duomo Floor’s Last Weeks",
+  "excerpt": "Tuscany in November 2026: the Duomo floor’s final uncovered weeks, San Miniato’s white truffle festival dates, olio nuovo and honest weather advice.",
+  "canonicalPath": "/blog/tuscany-in-november-2026",
+  "updated": "2026-08-08"
+ },
+ {
   "slug": "tuscany-in-october-2026",
   "title": "Tuscany in October 2026: The Golden Month Between Two Harvests",
   "excerpt": "Tuscany in October 2026: the late wine harvest, the first olive pressings, the uncovered Duomo floor all month, weather averages and honest advice.",
   "canonicalPath": "/blog/tuscany-in-october-2026",
   "updated": "2026-08-06"
+ },
+ {
+  "slug": "tuscany-in-december-2026",
+  "title": "Tuscany in December 2026: Siena’s Medieval Market, New Oil & Quiet Christmas",
+  "excerpt": "Tuscany in December 2026: Siena’s Mercato nel Campo, the Val d’Orcia oil festival, olio nuovo at its peak, holiday closures and honest winter advice.",
+  "canonicalPath": "/blog/tuscany-in-december-2026",
+  "updated": "2026-08-09"
  },
  {
   "slug": "florence-or-siena-which-to-visit-2026",
@@ -362,5 +376,68 @@
   "excerpt": "Florence’s real 2026 rules, verified: the outdoor-dining overhaul, the e-scooter rental ban, keybox and rental restrictions — and the recycled myths.",
   "canonicalPath": "/blog/florence-tourist-rules-2026",
   "updated": "2026-08-01"
+ },
+ {
+  "slug": "piazza-del-campo-guide",
+  "title": "Piazza del Campo Guide: What to See in Siena’s Main Square",
+  "excerpt": "Allow at least 30–45 minutes for the square itself, longer if you visit Palazzo Pubblico, the Museo Civico or Torre del Mangia . Early morning is best for quieter photographs; late afternoon is ideal for atmosphere.",
+  "canonicalPath": "/piazza-del-campo-guide",
+  "updated": "2026-07-11"
+ },
+ {
+  "slug": "siena-cathedral-guide",
+  "title": "Siena Cathedral Guide: Tickets, Hours and What to See",
+  "excerpt": "For most first-time visitors, the OPA SI Pass offers the best balance. In 2026 it costs €14 during standard periods and €16 during floor-uncovering periods, is valid for three consecutive days and includes the museums of the complex. Check the official calendar because Sundays, services and special dates alter cathedral access.",
+  "canonicalPath": "/siena-cathedral-guide",
+  "updated": "2026-07-11"
+ },
+ {
+  "slug": "torre-del-mangia-guide",
+  "title": "Torre del Mangia Guide: Tickets, Steps and Whether It Is Worth It",
+  "excerpt": "In 2026, the single Torre del Mangia ticket costs €10. Tower tickets cannot be reserved and are sold only on the day of the visit. Entry is limited, the visit lasts no more than 30 minutes and there is no lift. From 1 March to 31 October the published hours are 10:00–19:00, with last ticketing at 18:15.",
+  "canonicalPath": "/torre-del-mangia-guide",
+  "updated": "2026-07-11"
+ },
+ {
+  "slug": "siena-contrade-guide",
+  "title": "Siena Contrade Explained: A Respectful Guide to the 17 Districts",
+  "excerpt": "Siena has 17 contrade. Each has its own name, emblem, colours and territory. Ten participate in each Palio race under official rotation and drawing rules, but contrada identity is part of everyday community life, not only race day.",
+  "canonicalPath": "/siena-contrade-guide",
+  "updated": "2026-07-11"
+ },
+ {
+  "slug": "where-to-eat-in-siena",
+  "title": "Where to Eat in Siena: Best Areas, Local Dishes and Practical Tips",
+  "excerpt": "For convenience, eat near Via di Città or Via Banchi di Sopra. For a quieter atmosphere, explore streets toward Piazza del Mercato. Choose a terrace on Piazza del Campo mainly for the view. Look for pici, pecorino, Cinta Senese products, ribollita, ricciarelli and panforte.",
+  "canonicalPath": "/where-to-eat-in-siena",
+  "updated": "2026-07-11"
+ },
+ {
+  "slug": "siena-walking-tour",
+  "title": "Siena Walking Tour: A Self-Guided Route Through the Historic Centre",
+  "excerpt": "Start at Piazza del Campo , walk to the Duomo, continue through Via di Città, explore the streets toward Piazza del Mercato and Orto de’ Pecci, then loop back to the Campo. Allow three to four hours with stops, or a full day when adding the cathedral and lunch.",
+  "canonicalPath": "/siena-walking-tour",
+  "updated": "2026-07-11"
+ },
+ {
+  "slug": "santa-maria-della-scala-siena",
+  "title": "Santa Maria della Scala Siena: Tickets, Hours and What to See",
+  "excerpt": "From 15 March to 31 October 2026, Santa Maria della Scala is open daily 10:00–19:00, with last admission at 18:15. The full ticket is €9, or €8 with reservation. Allow at least 90 minutes; two to three hours is better for a deeper visit.",
+  "canonicalPath": "/santa-maria-della-scala-siena",
+  "updated": "2026-07-11"
+ },
+ {
+  "slug": "one-day-in-siena",
+  "title": "One Day in Siena Itinerary: How to Spend a Perfect Day",
+  "excerpt": "For a balanced first visit, spend the morning around Piazza del Campo and Siena Cathedral , take a proper lunch break, then use the afternoon for the contrade, historic lanes and one optional attraction. Six to eight hours in the historic centre is comfortable for most first-time visitors.",
+  "canonicalPath": "/one-day-in-siena",
+  "updated": "2026-07-11"
+ },
+ {
+  "slug": "florence-to-siena-by-train-or-bus",
+  "title": "Florence to Siena by Train or Bus: Times, Prices, Which to Pick",
+  "excerpt": "Train or bus from Florence to Siena? Times, fares and arrival points compared, every figure checked against official operators in August 2026.",
+  "canonicalPath": "/florence-to-siena-by-train-or-bus/",
+  "updated": "2026-08-05"
  }
 ]

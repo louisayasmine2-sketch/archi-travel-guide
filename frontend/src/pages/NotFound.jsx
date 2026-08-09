@@ -1,11 +1,14 @@
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import SEO from "@/components/common/SEO";
-import { Search } from "lucide-react";
+import { suggestForPath } from "@/lib/searchIndex";
+import { Search, ArrowRight } from "lucide-react";
 
 export default function NotFound() {
   const [q, setQ] = useState("");
   const navigate = useNavigate();
+  const { pathname } = useLocation();
+  const suggestions = suggestForPath(pathname);
 
   const onSearch = (e) => {
     e.preventDefault();
@@ -37,6 +40,32 @@ export default function NotFound() {
             <Search className="w-4 h-4" /> Search
           </button>
         </form>
+
+        {suggestions.length > 0 && (
+          <div className="mt-10" data-testid="notfound-suggestions">
+            <p className="text-sm font-medium text-[hsl(var(--charcoal-soft))] uppercase tracking-wider">
+              Were you looking for one of these?
+            </p>
+            <div className="mt-4 grid gap-2">
+              {suggestions.map((s) => (
+                <Link
+                  key={s.path}
+                  to={s.path}
+                  data-testid="notfound-suggestion"
+                  className="group flex items-center gap-3 rounded-2xl border border-[hsl(var(--stone-border))] bg-white px-4 py-3 hover:border-[hsl(var(--terracotta))] transition-colors"
+                >
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-[#8A9A5B] bg-[hsl(var(--ivory-2))] rounded-full px-2 py-0.5 shrink-0">
+                    {s.type}
+                  </span>
+                  <span className="flex-1 text-sm text-[hsl(var(--charcoal))] leading-snug group-hover:text-[hsl(var(--terracotta))]">
+                    {s.title}
+                  </span>
+                  <ArrowRight className="w-4 h-4 text-[hsl(var(--terracotta))] shrink-0" />
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         <p className="mt-10 text-sm font-medium text-[hsl(var(--charcoal-soft))] uppercase tracking-wider">Most useful from here</p>
         <div className="mt-4 flex flex-wrap gap-3">

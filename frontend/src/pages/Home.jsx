@@ -22,6 +22,7 @@ import { HOME } from "@/constants/testIds";
 import TiltCard from "@/components/common/TiltCard";
 import Reveal from "@/components/common/Reveal";
 import ResumeTripBand from "@/components/home/ResumeTripBand";
+import HeroSearch from "@/components/home/HeroSearch";
 import PalioCountdown from "@/components/home/PalioCountdown";
 import MonthPicker from "@/components/home/MonthPicker";
 
@@ -232,6 +233,8 @@ export default function HomePage() {
                 Try the budget calculator
               </Link>
             </div>
+
+            <HeroSearch />
 
             <nav className="home-hero-chips rise d5" aria-label="Popular guides" data-testid={HOME.heroChips}>
               <span className="home-hero-chips-label">Start here</span>

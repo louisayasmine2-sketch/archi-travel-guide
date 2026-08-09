@@ -39,3 +39,30 @@ test("a query matching nothing says so instead of showing everything", async ({ 
   await expect(page.locator("text=No guides match")).toBeVisible();
   await expect(page.locator("#root a[href*='/blog/']:has(h3)")).toHaveCount(0);
 });
+
+test("homepage hero search suggests while typing and submits to the listing", async ({ page }) => {
+  await page.goto("/");
+  const input = page.getByTestId("home-hero-search-input");
+  await input.fill("palio");
+  await expect(page.getByTestId("hero-search-suggestion").first()).toBeVisible();
+  await input.press("Enter");
+  await expect(page).toHaveURL(/\/blog\?q=palio/);
+  await expect(page.getByTestId("blog-search-summary")).toBeVisible();
+});
+
+test("a mistyped URL gets nearest-page suggestions on the 404", async ({ page }) => {
+  await page.goto("/piazza-del-campo-guid");
+  const suggestion = page.getByTestId("notfound-suggestion").first();
+  await expect(suggestion).toBeVisible();
+  await expect(suggestion).toHaveAttribute("href", "/piazza-del-campo-guide/");
+});
+
+test("the WebSite schema declares the real search action", async ({ page }) => {
+  await page.goto("/");
+  await expect(async () => {
+    const blocks = await page.locator("script[type='application/ld+json']").allTextContents();
+    const joined = blocks.join("\n");
+    expect(joined).toContain('"SearchAction"');
+    expect(joined).toContain("blog?q={search_term_string}");
+  }).toPass();
+});
