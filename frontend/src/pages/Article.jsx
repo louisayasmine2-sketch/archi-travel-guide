@@ -20,6 +20,11 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 
+// /go/ slugs whose redirect carries live affiliate tracking. Links to these
+// must declare rel="sponsored"; all other /go/ links stay nofollow until the
+// programme behind them is approved. Keep in sync with _redirects.
+const SPONSORED_GO_SLUGS = new Set(["/go/viator"]);
+
 const renderInlineMarkdown = (text, keyPrefix) => {
   const parts = [];
   const pattern = /(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g;
@@ -48,7 +53,12 @@ const renderInlineMarkdown = (text, keyPrefix) => {
               {label}
             </Link>
           ) : (
-            <a key={`${keyPrefix}-link-${match.index}`} href={href} target="_blank" rel="nofollow noopener noreferrer">
+            <a
+              key={`${keyPrefix}-link-${match.index}`}
+              href={href}
+              target="_blank"
+              rel={SPONSORED_GO_SLUGS.has(href.split("?")[0]) ? "sponsored noopener noreferrer" : "nofollow noopener noreferrer"}
+            >
               {label}
             </a>
           )

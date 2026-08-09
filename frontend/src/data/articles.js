@@ -4420,7 +4420,7 @@ Our recommendation follows from that: **from Siena, go independently; from Flore
       {
         id: 'how-we-checked',
         heading: 'How we checked these details',
-        body: `Ticket prices, parking tariffs, opening hours and transport details in this guide were checked in July 2026 against the town’s official tourist office listings and the Autolinee Toscane route information. Timetables and prices change — always confirm the current 130 timetable on the Autolinee Toscane planner and ticket prices at the official ticket offices before you travel. We currently have no affiliate relationship with any tour or ticket seller for San Gimignano; recommendations here are editorial. Platform links on this page use our internal /go/ shortcuts and currently point to the platforms’ official sites.`,
+        body: `Ticket prices, parking tariffs, opening hours and transport details in this guide were checked in July 2026 against the town’s official tourist office listings and the Autolinee Toscane route information. Timetables and prices change — always confirm the current 130 timetable on the Autolinee Toscane planner and ticket prices at the official ticket offices before you travel. Disclosure: the Viator link on this page is an affiliate link — if you book a tour through it we may earn a commission, at no extra cost to you. That relationship does not change our advice, which remains: from Siena, go independently. The GetYourGuide link currently points to the platform’s official site and earns us nothing. Platform links use our internal /go/ shortcuts.`,
       },
       {
         id: 'final-thoughts',
