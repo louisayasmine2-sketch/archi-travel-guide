@@ -64,14 +64,15 @@ Lead each recommendation with what it solves, not what it is.
 
 ## 6. Auditing
 
-Two read-only scanners live in the tools/ directory. Run them before and after any bulk edit.
+Three read-only scanners live in the tools/ directory. Run them before and after any bulk edit.
 
-Both parse this repo's actual content stores — the A() object literals in frontend/src/data/articles.js and the JSON files in frontend/src/data/ — not a directory of markdown files. Invoke them with `python`, not `python3`, which is not on PATH on this machine.
+All three parse this repo's actual content stores — the A() object literals in frontend/src/data/articles.js and the JSON files in frontend/src/data/ — not a directory of markdown files. Invoke them with `python`, not `python3`, which is not on PATH on this machine.
 
 - audit_content.py — disclosure mismatches, banned hedge phrases, meta description length, missing FAQ schema, articles with no images.
 - check_links_and_images.py — every outbound URL for verification, every image reference checked against frontend/public/, any tracking or affiliate parameters found, and /go/ redirect integrity: every /go/{slug} referenced in content or frontend/src must have an entry in frontend/public/_redirects, and no destination may carry tracking parameters. Internal links in article content are resolved against the real route map (router routes, articles, _redirects, sitemap); links to scheduled articles are informational, unknown paths are failures. Image references in frontend/src components and data files are scanned too: an external image load there is a hotlink failure (credit-page links and OSM map tiles excepted), and any /images/ path must exist on disk.
+- check_spelling.py — American spellings in prose, per §5. Section-id slugs, URLs and quoted spans are excluded: an id like hidden-costs-travelers-forget is an anchor other pages link to, and a business's own quoted words are not ours to correct. Words that are invariant in British English (size, resize, oversize, prize, seize) are never flagged.
 
-Neither script may write to content. If either reports something, fix the content — never edit the script to silence a finding.
+No script may write to content. If one reports something, fix the content — never edit the script to silence a finding.
 
 Wrap editor notes, changelogs, and anything that quotes banned phrasing for illustration in an audit:ignore HTML comment pair, so the scanner does not flag our own commentary.
 

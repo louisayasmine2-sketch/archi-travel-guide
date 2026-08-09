@@ -57,9 +57,34 @@ Two defects surfaced while doing it, both now fixed:
   reaches the reader as literal brackets and a crawler as nothing. One had
   shipped, in `siena-3-day-itinerary`. Links belong in section bodies only.
 - Two American spellings (`Prioritize`, `Travelers`) in
-  `best-things-to-do-in-siena`, against the British-English house rule. Fixed
-  in the sentences being edited; **the rest of the corpus is unaudited for
-  this** — neither scanner checks spelling.
+  `best-things-to-do-in-siena`, against the British-English house rule. That
+  gap is now closed corpus-wide — see below.
+
+### Spelling, swept 2026-08-09
+
+The house rule in `CLAUDE.md` §5 requires British spelling, and nothing
+enforced it. A sweep found **30 American forms across 14 articles**: eleven
+`Travelers`, five `Prioritize`/`prioritizing`/`prioritization`, a driving
+`License`, `colored marble`, `natural fibers`, `polarized sunglasses`,
+`recognizable`, `authorized`, `summarized`, `criticize`, `favor`,
+`pedestrianized`. All corrected.
+
+Detection was scripted; every hit was read in context before anything changed,
+and that is what stopped three classes of damage a blind sweep would have done:
+
+- **Quotations.** `best-siena-hotels-with-parking` quotes a hotel's own words —
+  "a short distance from the center of Siena". Correcting a business's quote is
+  a fabrication, not a fix.
+- **Anchors.** Section ids like `hidden-costs-travelers-forget` are URL
+  fragments other pages and every table of contents link to. The visible
+  heading beside each one is already British. Eight left alone.
+- **URLs.** `creativecommons.org/licenses/by-sa/4.0/`, and the Italian
+  `organizza-la-tua-visita` on the Museo Civico site.
+
+`tools/check_spelling.py` now encodes all of that — a third read-only scanner,
+listed in `CLAUDE.md` §6 alongside the other two. Its exclusion logic is
+covered by thirteen cases spanning real violations, slugs, quotations, URLs
+and the invariant `size`/`prize`/`seize` family.
 
 ### Deliberately not linked: scheduled articles
 
