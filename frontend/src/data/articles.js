@@ -99,6 +99,7 @@ const allArticles = [
       { id: "4-porta-camollia-la-lizza-piazza-gramsci-and-viale-tozzi", heading: "4. Porta Camollia, La Lizza, Piazza Gramsci, and Viale Tozzi", body: "### Best for bus arrivals, value, and practical access\n\nThe northern side of the historic centre is one of Siena’s most useful compromises. Porta Camollia leads into the old city, while La Lizza, Piazza Gramsci, and Viale Tozzi are close to important bus arrival and departure points.\n\nFor travellers coming from Florence by the 131R bus, this side can be much easier than crossing the city with luggage. You can often reach a hotel or guesthouse before entering the steepest central lanes, then walk to the Campo once you have checked in.\n\nThe atmosphere becomes more historic as you pass through Porta Camollia and continue along Via Camollia. Around the outer edge, buildings and roads may feel more practical than romantic, but prices can be better and vehicle access clearer.\n\nThis is often the strongest choice for:\n\n- a short car-free stay arriving by bus;\n- travellers who want to avoid carrying luggage through the Campo;\n- visitors taking early transport the next morning;\n- guests looking for a balance between price and walkability;\n- travellers using Siena as a base for regional excursions.\n\nRead [Florence to Siena by train or bus](/florence-to-siena-by-train-or-bus/) before choosing between this area and the railway-station side." },
       { id: "5-siena-train-station-and-antiporto", heading: "5. Siena train station and Antiporto", body: "### Best for rail travellers, onward connections, and some drivers\n\nSiena railway station sits outside and below the historic centre. Properties near the station can be practical for travellers making rail connections, carrying heavy luggage, or staying in larger modern accommodation.\n\nThe official city map shows the station, local bus links, taxi points, parking, and escalator routes. However, “near the station” does not mean “inside the old town.” Reaching Piazza del Campo still requires an uphill connection, local bus, taxi, or a longer walk.\n\nThe station area may offer:\n\n- easier road access;\n- larger rooms or modern facilities;\n- supermarkets and everyday services;\n- less expensive accommodation on some dates;\n- a simpler departure with luggage.\n\nIt usually does not offer the same evening atmosphere as the historic centre. Guests who imagine stepping from their hotel directly into medieval Siena may be disappointed.\n\nChoose this area when transport convenience is more important than staying among the monuments. It can also work for a family with luggage, but compare the full door-to-door route rather than judging only the room price." },
       { id: "6-outside-the-walls-and-in-the-siena-countryside", heading: "6. Outside the walls and in the Siena countryside", body: "### Best for drivers, space, parking, and a rural Tuscany experience\n\nA countryside hotel, villa, or agriturismo can provide vineyard views, gardens, pools, parking, and a quieter pace. This is the right choice for travellers who see Siena as one part of a wider road trip through Chianti, Val d’Orcia, Montalcino, or San Gimignano.\n\nIt is not automatically the best “authentic” experience. Staying outside the city can make spontaneous evening walks and dinners difficult, especially when local public transport is limited. Driving into Siena also means understanding the restricted traffic zone and using legal parking outside the central streets.\n\nBefore booking a rural property, check:\n\n- whether a car is effectively required;\n- the real driving time to a practical Siena car park;\n- restaurant opening days and dinner options;\n- whether breakfast is included;\n- pool opening dates;\n- check-in hours;\n- road conditions after dark;\n- taxi availability and likely cost.\n\nFor a three-day itinerary with one countryside day, this option can work beautifully. For a first-time visitor without a car, a central or Camollia-side stay is usually simpler.\n\n[Compare city and countryside options in our Siena 3-day itinerary](/blog/siena-3-day-itinerary/)." },
+      { id: "inside-or-outside-the-walls", heading: "Inside or outside the walls: the short answer", body: "**Inside, if the evenings matter to you — outside, if the car does.** That is the whole decision, and everything else is refinement.\n\nSleeping inside the walls buys the two hours no day visitor gets: the Campo after the coaches leave and the lamp-lit walk back through quiet streets after dinner. The costs are real but knowable — luggage hauled over cobbles and gradients, rooms that sell out earliest, and no useful parking, since the entire historic centre sits inside the camera-enforced ZTL.\n\nSleeping outside the walls — the station quarter, Antiporto, or the countryside — trades that evening magic for easy parking, easier prices and step-free logistics. With a rental car it is usually the saner choice: park free or cheap at the property, ride or walk up, and never once worry about [the ZTL fine that reaches you months later](/blog/siena-ztl-fines-how-to-avoid/).\n\nThe hybrid worth knowing: areas 4 and 5 below — Camollia and the station side — sit minutes from the walls and split the difference. The area-by-area detail follows; this section exists because most travellers are really asking this one question." },
       { id: "best-area-to-stay-in-siena-by-traveler-type", heading: "Best area to stay in Siena by traveller type", body: "### For a first visit\n\nChoose the historic centre between the Campo and Duomo. You will pay more for the location, but the ability to walk out early and return after dinner is valuable on a short trip.\n\n### For a romantic stay\n\nLook around the Duomo, Via di Città, or quieter streets on the San Domenico side. Prioritise a room with a view, terrace, or historic character only after confirming stairs, air conditioning, and noise.\n\n### For families\n\nA spacious property near Porta Camollia, La Lizza, or just outside the most crowded lanes can be easier than a tiny room beside the Campo. Check lift access, family-room configuration, breakfast, refrigerator availability, and stroller storage.\n\nRead [Siena with kids](/blog/siena-with-kids/) before choosing the exact location.\n\n### For nightlife and late dinners\n\nThe central streets around the Campo, Banchi di Sopra, Pantaneto, and San Martino provide easier access to evening restaurants and bars. “Nightlife” in Siena is generally smaller-scale than in major Italian cities, but central rooms can still hear late activity.\n\n### For budget travellers\n\nCompare Porta Camollia, the station side, guesthouses outside the most famous streets, and rooms without landmark views. A lower nightly rate is not a saving if it creates repeated taxi costs or difficult transport.\n\n[Use our Siena trip-cost guide to build a complete daily budget](/blog/how-much-siena-trip-costs/).\n\n### For travellers with a car\n\nChoose accommodation with confirmed parking or clear instructions to a legal car park. Do not assume a central property can be reached by private car; much of the historic centre is within a restricted traffic zone.\n\n### For limited mobility\n\nContact the property directly. Ask for the exact number of steps, lift-door width, bathroom access, entrance gradient, and nearest vehicle drop-off. “Accessible room” can describe the room while ignoring the medieval street outside." },
       { id: "how-many-nights-should-you-stay-in-siena", heading: "How many nights should you stay in Siena?", body: "### One night\n\nOne night allows the main attractions plus the quieter evening atmosphere. Stay central or near Camollia to minimise transfer time.\n\n### Two nights\n\nTwo nights are ideal for most first-time visitors. You can spend two full days in the city without turning museums, meals, and views into a race.\n\n### Three or more nights\n\nA longer stay makes Siena a possible base for a countryside tour or a nearby town. It also creates time for museums and neighbourhoods that day visitors miss." },
       { id: "booking-checklist-before-you-pay", heading: "Booking checklist before you pay", body: "A beautiful room photo does not answer the most important Siena questions. Verify:\n\n1. **Exact location:** Is the room in the listed building, or is check-in elsewhere?\n2. **Stairs and lift:** Which floor is the room on, and is the lift large enough for luggage or a stroller?\n3. **Arrival:** Where can a taxi or car legally stop?\n4. **Parking:** Is it on-site, reserved, public, or simply “nearby”?\n5. **Noise:** Does the room face a busy street, bar, or internal courtyard?\n6. **Climate control:** Is air conditioning available in the room and during your travel dates?\n7. **Breakfast:** Is it included, served on-site, or provided at a café?\n8. **Cancellation:** Are taxes, city charges, and cancellation terms clearly shown?\n9. **Palio dates:** Does access change around July 2 or August 16?\n10. **Recent reviews:** Do recent guests mention construction, access problems, or changed management?" },
@@ -114,7 +115,7 @@ const allArticles = [
       { q: "Is Siena noisy at night?", a: "It depends on the street and building. Rooms near restaurants, bars, or busy central routes can hear evening activity. Read recent room-specific reviews and request a quieter-facing room when possible." }
     ],
     "2026-07-11",
-    { seoTitle: "Where to Stay in Siena: 6 Best Areas Compared", primaryKeyword: "where to stay in Siena", secondaryKeywords: ["where to stay in Siena Italy", "best area to stay in Siena", "Siena accommodation", "best hotels in Siena Italy", "Siena hotels historic centre", "Siena hotels near train station", "where to stay in Siena with a car"], imageAlt: "Terracotta rooftops across Siena's historic centre and surrounding Tuscan hills" }
+    { seoTitle: "Where to Stay in Siena: 6 Best Areas Compared", primaryKeyword: "where to stay in Siena", secondaryKeywords: ["where to stay in Siena Italy", "best area to stay in Siena", "Siena accommodation", "best hotels in Siena Italy", "Siena hotels historic centre", "Siena hotels near train station", "where to stay in Siena with a car", "siena inside or outside the walls", "is it better to stay inside the walls in siena"], imageAlt: "Terracotta rooftops across Siena's historic centre and surrounding Tuscan hills" }
   ),
   A(
     "siena-2-day-itinerary",
@@ -2135,7 +2136,11 @@ None of this is designed to catch tourists out. It is simply how Italians eat, p
             "day tours from Siena",
             "Siena to San Gimignano without a car",
             "Tuscany tours from Siena",
-            "wine tours from Siena"
+            "wine tours from Siena",
+            "siena to montepulciano by bus",
+            "siena to montalcino bus",
+            "siena to monteriggioni bus",
+            "beach day trip from siena"
           ],
           "canonicalPath": "/blog/siena-day-trips-without-a-car/",
           "published": "2026-07-03",
@@ -6944,6 +6949,15 @@ The 2026 edition — the event’s twenty-first — has just passed as we write,
 Logistics are rural-Tuscan standard: Lajatico is a car destination, the concerts end late on unlit roads, and the smart versions either sleep nearby or build the evening into [a slower western-Tuscany loop](/blog/san-gimignano-day-trip-from-siena-2026) — San Gimignano and Volterra sit conveniently between Lajatico and the Siena side of the region.`,
       },
       {
+        id: 'assassins-creed-monteriggioni',
+        heading: 'Assassin’s Creed in Monteriggioni: the town Ezio called home',
+        body: `The set-jetting pilgrimage nobody writes about arrives by controller, not cinema. In **Assassin's Creed II** (2009), the walled town of Monteriggioni is Ezio Auditore's home base — his family takes refuge there in 1477 after the executions in Florence, and players spend hours rebuilding its shops and church from the **Villa Auditore** before the sequel, *Brotherhood*, opens with Cesare Borgia's army besieging the town in January 1500. For a generation of players, this tiny Sienese outpost is one of the most familiar places in Italy — visited, in a sense, before they ever board a plane.
+
+The real town rewards the pilgrimage with unusual honesty. Ubisoft — working with an architectural historian — modelled Monteriggioni faithfully: the wall circuit of about **570 metres and all fourteen towers** survives nearly intact, exactly the crown-of-towers silhouette the game renders (and that **Dante** described in the *Inferno* seven centuries before Ubisoft did). Built by Siena between **1213 and 1219** as a fist raised toward Florence, its two gates still face Florence and Rome respectively. The church Ezio restores corresponds closely to the real **Santa Maria** on the little piazza. What you will not find is the Villa Auditore itself: the game's grand house at the head of the town is an invention, and the version of Monteriggioni that bustles with hundreds of townsfolk is enlarged for play — the real borgo counts only a few dozen residents inside its walls and crosses end to end in five minutes.
+
+The visit, practically: the **wall-walk plus the small arms exhibition** ("Monteriggioni in Arme") is sold as one ticket at **€4** (reduced €3.50), covering two short walkway sections rather than the full circuit — recent seasons have sometimes opened only part of the southern stretch, and the walkways close entirely during the July medieval festival, so check with the tourist office on the day. The town leans into the connection cheerfully: the tourist office has published its own Assassin's Creed itinerary, Ubisoft once held an official fan day here, and the souvenir shops stock the expected hidden-blade merchandise. Getting there from Siena is [the 130 or 131 bus to Colonna di Monteriggioni](/blog/tuscany-without-a-car-2026/) — about twenty minutes, not every run stops, and the walk up from the stop is 500 uphill metres. Fan reviews split exactly as you would guess: "pilgrimage" from the faithful, "smaller than I expected" from everyone — and both are true at once, which is rather the charm.`,
+      },
+      {
         id: 'the-film-day',
         heading: 'The one-day film itinerary from Siena',
         body: `Every location above except Lajatico fits a single, unhurried Val d’Orcia day — the same loop [our standing guide](/blog/val-dorcia-day-trip-from-siena-2026) recommends, re-scored for cinema.
@@ -7010,6 +7024,8 @@ Drivers own this day; car-free travellers should aim the [bus-based version](/bl
         'quantum of solace siena',
         'teatro del silenzio bocelli 2027',
         'set jetting italy',
+        'monteriggioni assassins creed',
+        'assassins creed 2 real town italy',
       ],
       imageAlt: 'Cypress-lined road through the Val d’Orcia, the landscape used in Gladiator’s Elysian Fields',
       canonicalPath: '/blog/tuscany-on-screen-film-locations-2026',
@@ -8393,6 +8409,665 @@ September note, since this guide publishes into harvest season: [the 2026 vendem
       imageAlt: 'A cypress-lined road in the Val d’Orcia — the countryside driving that decides where to collect the car',
       canonicalPath: '/blog/rent-a-car-in-florence-or-siena-2026',
       tags: ['car rental tuscany', 'florence or siena', 'tuscany transport', 'driving in tuscany', 'trip planning'],
+    }
+  ),
+
+  A(
+    'siena-day-trip-or-overnight-2026',
+    'Is Siena Worth Staying Overnight? The Day-Trip Question, Answered Honestly',
+    'Where to stay',
+    'Siena',
+    'Is Siena worth staying overnight? What day-trippers miss after 16:00, what the tourism numbers say, and how to decide between a day trip and a night.',
+    '/images/siena/05-piazza-del-campo-panorama.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `**Yes — one night in Siena changes the city more than any other single upgrade you can make to a Tuscan itinerary.** But the reason is not what most articles imply, so let us be precise about it.
+
+Staying overnight does not buy you more sightseeing: every ticketed sight in Siena — the cathedral complex, the Torre del Mangia — is shut by 19:00 even in high season. What the night buys is the **other Siena**: the passeggiata filling Via di Città from late afternoon, aperitivo on the Campo as the Torre del Mangia's floodlights come on, a dinner that starts at 19:30 because that is when Sienese dinners start, and — next morning — a nearly empty Piazza del Campo before 8:30, hours before the first coach parties arrive.
+
+The day-trip counter-case is real and we make it below: Siena's headline sights genuinely fit into a well-planned day, and travel forums contain plenty of people who came for the day and left satisfied. The honest framing: **a day trip shows you Siena's monuments; a night shows you Siena.** Which one you need depends on what you came to Tuscany for — and this guide gives you the evidence for both sides, then shows you how to do whichever you choose properly.`,
+      },
+      {
+        id: 'what-day-trippers-get',
+        heading: 'What the day visitor actually gets',
+        body: `Start with the mechanics, because they decide everything. Siena's visitor day runs on a narrow spine: **most day visitors are in the city between roughly 10:00 and 16:00**. Coach tours from Florence — the standard way non-independent visitors arrive — typically depart around 8:30 and bundle Siena with San Gimignano and sometimes Pisa or a Chianti stop into an eleven-to-twelve-hour day, which gives Siena a two-to-three-hour morning or midday slot — some itineraries with free time for lunch, many moving on to a winery lunch elsewhere — in the fullest hours the city has.
+
+The opening hours conspire in the same direction. **Siena's cathedral does not open before 10:00 on any weekday** — and on Sundays and religious holidays it opens only in the early afternoon, which means a Sunday day-tripper on a morning schedule can miss the interior entirely. The **Torre del Mangia** runs 10:00–19:00 in season with last admission 18:15 (and closes at 16:00 from November to February, weather permitting — the tower shuts without notice in rain or high wind). Everything ticketed, in other words, lives inside the same 10:00-to-early-evening window the crowds do.
+
+Within that window, a disciplined independent day-tripper does genuinely well: the Campo, the cathedral complex on [the OPA SI Pass](/blog/best-things-to-do-in-siena/), the tower climb if the queue cooperates, lunch off the main streets, and the bus back. [Our Florence-to-Siena day-trip playbook](/blog/best-day-trips-from-florence-to-siena-2026/) is built around exactly that plan. The point of this article is not that the day trip fails — it is that the day trip sees precisely the slice of Siena that every other visitor sees, and none of the slice that follows.`,
+      },
+      {
+        id: 'evening-argument',
+        heading: 'The evening argument: what 16:00 takes away',
+        body: `Through the middle of the afternoon, the tide turns. The last coaches and the bus-timetable day-trippers drain away toward the escalators and car parks, and by late afternoon Siena begins its own evening — the part of the city its residents actually inhabit.
+
+The **passeggiata** starts from about 16:30: the slow, social evening walk along Via di Città and Banchi di Sopra and Banchi di Sotto, locals window-shopping and greeting each other along the stone spine of the city. It is not an event; it is a habit generations deep, and joining it with a gelato or an aperitivo is the single most Sienese thing a visitor can do.
+
+Then the light goes. The Campo's brick pavement holds the warmth of the day, the **Palazzo Pubblico and Torre del Mangia are floodlit**, café tables face the glowing square, and sitting directly on the bricks with a drink — locals do it, visitors learn to — turns the piazza into Tuscany's most beautiful living room. Travel-forum threads on this subject repeat one observation with striking consistency: Siena in the evening, after the tour groups leave, feels like a different and better city, its narrow streets returned to normal life.
+
+Dinner completes the case. **Sienese restaurants open around 19:30** and fill later; the early-evening dinner a coach schedule would require barely exists here. A day-tripper eats lunch in Siena; only an overnighter eats dinner. And in the summer weeks around the Palio — run on 2 July and 16 August, each with days of trials and ceremony around it — the contrade hold their outdoor evening dinners in their own streets, a slice of the city's real life that daytime visitors never learn is happening.`,
+      },
+      {
+        id: 'morning-argument',
+        heading: 'The morning argument: the city before 8:30',
+        body: `The overnight's second dividend arrives at dawn. **Before about 8:30 the Piazza del Campo is close to empty** — joggers, café staff setting out tables, delivery trolleys, and whoever was wise enough to sleep inside the walls. Photographers chase the 7:00–8:30 window for good reason: warm, low light raking across the brick, the fan-shaped piazza legible in a way it never is at noon, and the streets around it quiet enough to hear footsteps.
+
+The practical version of the morning bonus: you walk the city's spine before the day's heat, hold the best viewpoint positions without negotiation, and stand at the cathedral doors as they open mid-morning — 10:00 or 10:30 depending on season — having already had the two most atmospheric hours of the day, hours that do not appear in any ticket price. By the time the first coaches unload, you have seen a Siena the day's other visitors will not know existed, and you can spend the crowded midday hours in interiors, [at lunch, or already on a bus to a hill town](/blog/siena-day-trips-without-a-car/).
+
+There is also a quieter, less marketable benefit worth naming: breakfast. Taking coffee and a pastry standing at a bar counter among people on their way to work is a small thing, but it is the difference between visiting a city and briefly living in one — and it is only on the menu for those who woke up inside the walls.`,
+      },
+      {
+        id: 'counter-case',
+        heading: 'The honest counter-case for the day trip',
+        body: `Fairness requires the other side, and the forums supply it: plenty of travellers report that **one well-planned day was enough** — that they saw the Campo, the Duomo and the tower without feeling rushed, some even folding in San Gimignano, and left content. For them the evening argument bought nothing they wanted.
+
+That view is coherent when one or more of these is true: your trip is short and Florence-based, with museum reservations anchoring your evenings there; your interest in Siena is primarily its monuments rather than its atmosphere; you are [day-tripping in low season](/blog/tuscany-in-november-2026/), when evenings are cold and early-dark and the passeggiata thins; or your budget prioritises fewer, better bases over one-night stops — a legitimate philosophy we defend elsewhere ourselves.
+
+The trade-offs to accept with open eyes: your Siena will be the 10:00–16:00 city at its most crowded; a Sunday visit risks the cathedral entirely; dinner in Siena is off the menu; and the empty-Campo morning belongs to someone else. If those are acceptable losses, take the day trip without guilt — but take it [early and independently, not by coach](/blog/florence-to-siena-by-train-or-bus/), and give it the full day rather than a two-town split.`,
+      },
+      {
+        id: 'the-numbers',
+        heading: 'What the numbers say',
+        body: `The statistics, for what they can and cannot tell us. The province of Siena recorded **2.44 million arrivals and 6.37 million overnight stays in 2025** per the provincial tourism observatory — an average stay of about **2.6 days** across the whole province (2.49 excluding holiday lets). The city itself logged just over **1.08 million overnight stays in 2024**, about a fifth of the provincial total — and across the province, roughly two-thirds of overnight guests came from abroad. (The two years' figures are compiled on different bases, so we resist computing trends from them — and we found no reliable figure for day visitors, who by definition go uncounted in overnight statistics.)
+
+What the numbers support saying: overnighting in Siena is common but far from universal — the province's stays concentrate heavily outside the city, in the countryside and hill towns, and a large share of the people in the Campo at noon on any given day sleep somewhere else. Which is, of course, the overnighter's entire opportunity: it implies — though no statistic counts it directly — that **the evening city holds a fraction of its midday population**, and the difference is the experience this article is about.`,
+      },
+      {
+        id: 'doing-overnight-well',
+        heading: 'How to do the overnight well',
+        body: `**Arrive in the afternoon, not the morning.** The overnight's value is concentrated at the edges of the day — arrive by 16:00, drop the bags, and walk straight into the passeggiata. Save the ticketed sights for tomorrow's opening hours.
+
+**Sleep inside the walls if the evening is the point** — [our where-to-stay guide's inside-or-outside answer](/blog/where-to-stay-in-siena/) covers the decision in full, but the short version: inside for the lamp-lit walk home from dinner, outside (station side or countryside) if you are travelling with a car and its parking. [The hotel shortlist is here](/blog/best-hotels-in-siena/), and a like-for-like search on [Booking.com](/go/booking) for your dates settles availability quickly.
+
+**Book with the calendar in mind.** Central Siena's historic-centre hotels are small and fill first: for July and August stays, traveller guidance converges on booking roughly three to six months ahead — and for the **Palio weeks around 2 July and 16 August, six months to a year**, with rates to match. Shoulder-season overnights are dramatically easier and cheaper, [which is one more argument for September and October](/blog/siena-in-september-2026/).
+
+**Give it one night minimum, two if Siena is your base.** One night delivers the evening-morning cycle this article describes. Two turns Siena into [a base for the hill towns](/blog/siena-day-trips-without-a-car/) with the evening ritual repeating — the format [our two-day itinerary](/blog/siena-2-day-itinerary/) is built around. And if your dates brush a Palio, [read the Palio guide first](/blog/palio-di-siena-guide/): those days play by their own rules, in cost, crowds and magic alike.`,
+      },
+      {
+        id: 'bigger-trip',
+        heading: 'Where the Siena night fits in a bigger Tuscan trip',
+        body: `Zoom out, because the overnight question rarely arrives alone — it usually hides inside a larger itinerary decision, and the answer changes with the shape of the trip.
+
+**The Florence-based week.** If Florence holds your accommodation for the whole stay, the Siena overnight becomes a one-night interruption: entirely doable — pack light, leave the main luggage in Florence, ride down [by bus](/blog/florence-to-siena-by-train-or-bus/) in the afternoon and return the next midday — but it must earn its packing friction. Our view: it does, once per trip. The evening-and-morning cycle described above is precisely the thing a Florence base cannot otherwise give you, and one travel-light night costs less effort than most travellers fear.
+
+**The split base.** Two or three nights in each city, moving once, remains [our standard advice for first-time couples](/blog/florence-or-siena-which-to-visit-2026/) — and inside that format the question answers itself: Siena is not an excursion but a home, the passeggiata becomes routine rather than event, and the day trips radiate outward [by bus to the hill towns](/blog/siena-day-trips-without-a-car/) instead of inward to Siena itself.
+
+**The southern-Tuscany trip.** For itineraries centred on the Val d'Orcia, Montalcino and Montepulciano, Siena is the natural gateway night at either end — arrive, sleep, collect [the rental car on the valley floor](/blog/rent-a-car-in-florence-or-siena-2026/) next morning, and the city's evening costs your itinerary nothing at all.
+
+**The one-day-only trip.** If a single day is genuinely all Tuscany allows you beyond Florence, spend it here rather than splitting towns — and then read the day-trip section above twice, because execution is everything when there is no second chance.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research: Duomo and Torre del Mangia opening patterns against the official Opera della Metropolitana and Visit Siena information as reflected in current ticketing pages (sources conflict on whether the summer cathedral opening is 10:00 or 10:30, so we state only what all agree on — never before 10:00, Sunday openings from early afternoon, tower last admission 18:15 in season, 16:00 winter closing, weather closures possible); day-tripper window and coach-tour structures from current operator listings for the 2026 season; passeggiata, evening-atmosphere and one-day-was-enough perspectives from traveller reports across the major travel forums, presented as the consensus and counter-consensus they are rather than as facts; tourism statistics from the provincial tourism observatory's published 2024 and 2025 figures as reported by Italian press, with their differing compilation bases flagged in the text; and booking-window guidance from accommodation guides, with one widely repeated but unofficial Palio price-rise percentage deliberately omitted. Opening hours change seasonally and around the Palio — verify on the official sites for your dates. We have no affiliate relationship with any platform linked on this page; the Booking.com link points to the platform's official site through our internal /go/ shortcut and earns us nothing.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `There is a version of Siena that exists between 16:00 and 10:00, and it is the version the city's reputation was built on: the passeggiata, the floodlit tower over a warm brick square, dinner at the hour dinner is meant to happen, and a dawn piazza that belongs briefly to you. No day trip, however well run, can include it — not because day trips are done badly, but because that Siena only opens when the buses have gone. If your Tuscan itinerary can spare one night, this is where it earns the most. And if it truly cannot, come early, stay late, and promise the evening city you will be back.`,
+      },
+    ],
+    [
+      { q: 'Is Siena worth staying overnight or is a day trip enough?', a: 'A well-planned day trip covers the monuments — Campo, cathedral complex, tower climb — and many travellers report it was enough. One night adds what no day trip can: the passeggiata and aperitivo hours after the day visitors drain away through mid-afternoon, dinner at Sienese hours, the floodlit Campo, and a nearly empty piazza before 8:30. If atmosphere is why you travel, stay the night.' },
+      { q: 'What do day-trippers miss in Siena?', a: 'The evening and the morning. Ticketed sights all close by 19:00, so what is lost is not sightseeing but the city itself: the evening stroll along Via di Città and Banchi di Sopra from about 16:30, aperitivo facing the floodlit Torre del Mangia, restaurant dinners from 19:30, contrada life on summer evenings, and the near-empty Campo before the first coaches arrive.' },
+      { q: 'What time do day-trip crowds arrive and leave in Siena?', a: 'The bulk of day visitors are in the city between roughly 10:00 and 16:00. Coach tours from Florence typically depart around 8:30 and give Siena a two-to-three-hour morning or midday slot in a multi-town day, so the city is fullest in exactly the hours when the ticketed sights are open.' },
+      { q: 'Can you visit Siena Cathedral in the evening?', a: 'No — the cathedral opens no earlier than 10:00 on weekdays (early afternoon only on Sundays and religious holidays) and closes with the rest of the ticketed sights by early evening, with the tower’s last season admission at 18:15. Evenings in Siena are for the streets, the Campo and dinner, not for interiors.' },
+      { q: 'How far ahead should you book a hotel in Siena?', a: 'For July and August, roughly three to six months ahead for the small historic-centre hotels; for the Palio weeks around 2 July and 16 August, six months to a year, at premium rates. Shoulder-season nights are far easier to find and better value.' },
+      { q: 'Is one night in Siena enough?', a: 'One night captures the full cycle this decision is about — evening passeggiata, dinner, floodlit Campo, empty morning piazza, then the sights at opening time. Two nights turn Siena into a base, with hill-town day trips by bus and the evening ritual repeating. Fewer travellers regret the second night than regret having none.' },
+    ],
+    '2026-08-23',
+    {
+      seoTitle: 'Is Siena Worth Staying Overnight? Day Trip vs the Night (2026)',
+      primaryKeyword: 'is siena worth staying overnight',
+      secondaryKeywords: [
+        'siena day trip or overnight',
+        'is a day trip to siena worth it',
+        'siena at night what to do',
+        'how many nights in siena',
+        'siena after the day trippers leave',
+        'staying in siena vs florence',
+      ],
+      imageAlt: 'Piazza del Campo in Siena, the fan-shaped square that empties of day visitors by early evening',
+      canonicalPath: '/blog/siena-day-trip-or-overnight-2026',
+      tags: ['siena overnight', 'siena day trip', 'where to stay in siena', 'siena at night', 'trip planning'],
+    }
+  ),
+
+  A(
+    'montalcino-or-montepulciano-2026',
+    'Montalcino or Montepulciano? Two Wine Towns, One Honest Comparison',
+    'Day trips',
+    'Tuscany',
+    'Montalcino or Montepulciano? The wines, the towns, walk-in tastings versus appointments, and how to reach each from Siena — compared honestly.',
+    '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Ask the travel forums and you will find this question asked a dozen times and answered with shrugs. Here is the version with actual edges:
+
+**Choose Montalcino if the wine is the point.** Brunello is the bigger name, the town is smaller and quieter — especially after dark — and the single most convenient tasting experience in either town sits inside its fourteenth-century fortress. The price of admission: winery visits around Montalcino run on appointments and real money, and the town's sight list is short.
+
+**Choose Montepulciano if the town is the point.** It is roughly twice the size, architecturally richer — a Renaissance high street climbing to one of Tuscany's great squares — and its signature experience, the **underground cellar tours in the town centre, is free and needs no booking**. The wine, Vino Nobile, is the humbler label and the kinder price.
+
+**Without a car, from Siena: Montepulciano wins on logistics.** Bus line 112 runs there directly on weekdays via San Quirico and Pienza in about an hour and a half; Montalcino usually means a train-plus-bus change at Buonconvento and a wider time spread. On Sundays, treat both as effectively out of reach by bus until you have checked the timetable yourself.
+
+And the answer nobody asks for but everyone should hear: **with a car and two days, do both** — they sit forty minutes apart across the Val d'Orcia, and the comparison is the fun.`,
+      },
+      {
+        id: 'two-wines',
+        heading: 'The two wines: what the labels actually mean',
+        body: `Both towns built their fame on Sangiovese, and both wear Italy's top classification — Brunello di Montalcino and Vino Nobile di Montepulciano were in the very first group of DOCGs approved in July 1980, alongside Barolo. From there they diverge.
+
+**Brunello di Montalcino** must be **100 per cent Sangiovese** — the local clone traditionally called Brunello — and it is one of Italy's most celebrated and most expensive wines. The discipline is in the waiting: a standard Brunello may only be released from 1 January of the **fifth year** after harvest, with a minimum two years in oak and four months in bottle; the Riserva waits until the sixth. That patience is much of what you are paying for, and prices reflect it.
+
+**Vino Nobile di Montepulciano** must be at least **70 per cent Sangiovese** (known here as Prugnolo Gentile), aged a minimum of two years — three for the Riserva, including six months in bottle. It is consistently the cheaper of the two wines, even at its most lauded: the "noble" in the name refers to its aristocratic history, not its price bracket, and for many drinkers that makes it the better-value discovery of a Tuscan trip.
+
+One warning for the label-confused, because it costs real money: **Vino Nobile di Montepulciano has nothing to do with Montepulciano d'Abruzzo**, the inexpensive everyday wine from central-eastern Italy whose grape happens to be *called* Montepulciano. Same word, different grape, different region, very different bottle. The town's enotecas will forgive the question; wine lists will not warn you.`,
+      },
+      {
+        id: 'two-towns',
+        heading: 'The two towns: size, shape and evenings',
+        body: `The numbers frame the feel. Montalcino's comune counts about **5,600 residents** to Montepulciano's **13,100** — the whole-territory figures rather than the old centres, but the ratio holds in the streets: Montepulciano is the bigger, busier, more architecturally layered town; Montalcino is the compact hill village that happens to sit on a wine empire.
+
+**Montalcino** gathers around its fortress and a handful of streets with long views over the Val d'Orcia and the Crete. Traveller reports repeat the same two words — small and quiet — and mean them kindly: fewer coaches, gentler gradients within the centre, and evenings that are genuinely peaceful once the day visitors go. Its sight list is honest rather than long, which is exactly right for a day built around wine.
+
+**Montepulciano** is a proper Renaissance town poured along a ridge: palazzo-lined Corso climbing from the lower gate to **Piazza Grande** at the summit, where the Palazzo Comunale — its Florentine-style facade attributed to Michelozzo and begun in 1440 — offers a tower and terrace with views across both the Val di Chiana and the Val d'Orcia. The climb is the tax: from the bus end of town to the piazza is a long, steep haul, and anyone with mobility limits should plan around it. The reward is a town with more to look at, more places to eat, more shops — and, in high season, distinctly more people, a share of them [tracing the Twilight scenes filmed on Piazza Grande](/blog/tuscany-on-screen-film-locations-2026/).`,
+      },
+      {
+        id: 'sights-compared',
+        heading: 'The sights, compared',
+        body: `**Montalcino's anchor is the Fortezza**, the pentagonal fortress raised in 1361 at the town's highest point and later extended under the Medici. The courtyard is free to wander; walking the ramparts has in recent years carried a small charge — guest reviews cite a few euros, and also report restoration works limiting access to parts of the walls, so check what is open when you arrive rather than promising yourself the full circuit. Beyond the fortress: the town museums, the long terrace views, and the streets themselves.
+
+**Montepulciano stacks more**: Piazza Grande and its climbable Palazzo Comunale tower; the Corso's parade of Renaissance palazzi; the **underground cellars** hollowed beneath the town (next section, because they are really a tasting experience); and — below the walls — the **Tempio di San Biagio**, Antonio da Sangallo the Elder's High Renaissance masterpiece in white travertine, built 1518–1545 on a Greek-cross plan. It is ten to fifteen minutes downhill from the centre, uphill back, and worth both directions; a small entry charge has applied in recent years, so carry a few euros and check at the door.
+
+Scored purely as sightseeing, Montepulciano wins on volume and Montalcino on setting. Scored as a day, they even out: Montalcino's shorter list leaves room for the longer tastings its wine demands.`,
+      },
+      {
+        id: 'tasting-on-foot',
+        heading: 'Wine tasting on foot: the sharpest practical difference',
+        body: `Here is the contrast that should probably decide most itineraries, and that almost no comparison states plainly.
+
+**In Montalcino, serious tasting is an appointment culture.** The estates are working farms scattered across the territory, visits are booked ahead, and current guest-reported pricing typically runs **€25–45 per person** for a cellar visit with a tasting of the current range, more with vineyard walks or food, and into serious money for vertical tastings of older Brunello vintages. Without a car, the walkable option matters enormously: **Enoteca la Fortezza**, the wine shop operating inside the fortress since 1980, pours Brunello flights on the spot — guest reviews cite figures around €25 for a three-glass tasting with accompaniments — making it the one place in either town where a bus traveller can taste top-tier Brunello without transport, appointments or a driver.
+
+**In Montepulciano, the cellars come to you.** The town's historic producers open their underground vaults right on the Corso and Piazza Grande as walk-in attractions: **Ercolani's** sprawling "underground city", the **De' Ricci** cellars — the so-called wine cathedral beneath Palazzo Ricci — and **Contucci's** vaults under its palazzo on Piazza Grande, where the family has been making wine for centuries. Guest reports through 2026 describe free cellar visits and free or low-cost tastings as the norm at several of them, with the honest understanding that you are in a shop and the exit runs past the till. For casual wine tourists, families, and anyone travelling by bus, this is the friendliest wine experience in southern Tuscany.
+
+The un-hedged summary: **Montalcino rewards planning and budget; Montepulciano rewards wandering.** Neither is wrong — they are different sports.`,
+      },
+      {
+        id: 'getting-there',
+        heading: 'Getting to each from Siena (and the Sunday problem)',
+        body: `**By bus, Montepulciano is the straightforward one**: Autolinee Toscane's extraurban **line 112** runs from Siena on weekdays via San Quirico d'Orcia and Pienza, fastest journeys around **1h35**, but only about **four usable connections a day**, weekday-oriented — plan the return before committing to the day. The route itself is half the value — it threads [the Val d'Orcia's postcard country](/blog/val-dorcia-day-trip-from-siena-2026/), and Pienza sits on it as a natural stop.
+
+**Montalcino asks a little more**: the direct approach is extraurban **line 114** (Siena–Buonconvento–Torrenieri–Montalcino), or the Siena–Grosseto line train to **Buonconvento** with the 114 for the short climb up. End-to-end timings vary with the connection — allow roughly **1.5 to 2 hours** and plan around the return times before committing to the day.
+
+**The Sunday warning applies to both, doubled.** Published timetables for these extraurban lines are built around working days, and sources genuinely conflict about what, if anything, runs on Sundays and holidays. Our standing advice: treat both towns as **weekday bus trips**, verify your exact date on the at-bus.it planner, and never build a Sunday plan on an aggregator's optimism — [the same discipline every car-free day trip from Siena requires](/blog/siena-day-trips-without-a-car/).
+
+**By car**, the calculus flips to easy: Montalcino is about **41 km from Siena, around 50 minutes**; Montepulciano about **63 km, around an hour** — and the two sit roughly 40 minutes apart, which is what makes the two-town, two-day version work. [Where to collect the car is its own decision](/blog/rent-a-car-in-florence-or-siena-2026/), and both towns follow the standard hill-town rule: park in the lots outside the walls and walk in. **By rail, neither works**: Montepulciano's own station sits some 10 km from the hill town, and the mainline railhead at Chiusi is about 20 km out with a connecting bus — technically possible, practically a last resort.`,
+      },
+      {
+        id: 'who-for-whom',
+        heading: 'The verdict, traveller by traveller',
+        body: `**The serious wine pilgrim** → Montalcino. Book two estate visits ahead, budget properly for them, and let the town's quiet be the rest between tastings. The Brunello release discipline means you are tasting wines with real age — this is the day trip that behaves like a pilgrimage.
+
+**The casual taster and first-timer** → Montepulciano. Free cellars, no bookings, a magnificent town around them, and Vino Nobile prices that let you carry a case home without wincing.
+
+**The car-free traveller from Siena** → Montepulciano on a weekday, with Pienza folded into the same 112 route. Montalcino by bus is doable but demands timetable discipline; save it for a day when the connections align, and aim the tasting at the fortress enoteca.
+
+**Families** → Montepulciano: the cellars are an adventure children actually enjoy, and the town has more to absorb non-drinkers. The climb is the one caveat for pushchairs.
+
+**The evening-lover staying overnight** → Montalcino, hands down. Travellers describe it as very quiet at night in the way [that transforms Siena too](/blog/siena-day-trip-or-overnight-2026/) — a wine town returned to its residents, with the Val d'Orcia going gold outside the walls.
+
+**The photographer** → split decision: Montepulciano for architecture and the Palazzo Comunale's double-valley panorama; Montalcino for the landscape it floats on. [The wider Val d'Orcia-versus-Chianti question](/blog/val-dorcia-or-chianti-which-to-visit-2026/) covers the countryside itself.`,
+      },
+      {
+        id: 'doing-both',
+        heading: 'Doing both — and when the calendar decides for you',
+        body: `With a car, the two-day version is the honest recommendation: they are close enough that choosing feels artificial, and tasting Brunello and Vino Nobile a day apart teaches more about Sangiovese than any single visit can. Base in one — Montalcino for quiet, Montepulciano for choice — or [day-trip both from a Siena base](/blog/val-dorcia-day-trip-from-siena-2026/).
+
+The calendar adds its own weights. [Harvest season](/blog/tuscany-wine-harvest-vendemmia-2026/) — running early in 2026 — makes estate country magnetic but also busy at the cellar door: appointment-culture Montalcino handles the season more predictably than walk-in optimism. [October](/blog/tuscany-in-october-2026/) is Montalcino's most atmospheric stretch as the countryside turns. And in high summer both towns bake by afternoon; the morning bus and an early climb are the difference between loving and enduring either.
+
+One last scheduling note: both towns keep Italian small-town rhythms, and cellar doors, museums and family restaurants thin out over Monday lunchtimes and midweek afternoons off-season. Whichever town you choose, check your one must-do — a particular cellar, the tower, a booked tasting — against its own published hours before locking the day, because in towns this size a single closure can reshape the visit.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research: the wine rules (Brunello's 100% Sangiovese and fifth-year release with two years' oak; Vino Nobile's 70% minimum and two-year ageing, Riserva three; both towns' July 1980 first-cohort DOCG status) against consortium and wine-reference sources; population figures (comune-level, 2025) from statistical sources; tasting-culture pricing (Montalcino's €25–45 typical cellar-visit band, the fortress enoteca's guest-cited flight pricing, Montepulciano's free walk-in cellar norms at Ercolani and Contucci) from producer information and 2024–2026 guest reports, framed as typical and guest-cited rather than guaranteed; monument facts (Fortezza 1361, Palazzo Comunale facade begun 1440, San Biagio 1518–1545) from heritage sources; and transport (lines 112 and 114, the Buonconvento rail option, ~1h35 fastest Siena–Montepulciano, driving distances) from Autolinee Toscane's published line information and route planners. Where sources conflicted — the fortress rampart fee and current access, San Biagio's entry charge, Sunday services on both bus lines, exact bus fares and end-to-end Montalcino timings — we have hedged, given ranges, or declined to print figures, and said so in the text. Prices and timetables change: confirm tastings with the venues and buses on the at-bus.it planner for your date. We have no affiliate relationship with any winery, cellar, enoteca or operator named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Montalcino or Montepulciano is one of those Tuscan questions that improves on inspection, because the towns are not rivals so much as opposites wearing the same landscape: one small, still and built around a patient wine; the other tall, busy and generous with its cellars. Pick by temperament — planners and pilgrims south-west to Montalcino, wanderers and first-timers east to Montepulciano — pick by weekday if the bus is your ride, and if the trip allows both, take both and settle the argument at your own table.`,
+      },
+    ],
+    [
+      { q: 'Which is better, Montalcino or Montepulciano?', a: 'Montalcino for serious wine — Brunello, appointment tastings, a small quiet town; Montepulciano for the better all-round visit — a grander townscape, free walk-in underground cellars, cheaper Vino Nobile, and easier weekday bus access from Siena. With a car and two days, do both: they are about forty minutes apart.' },
+      { q: 'What is the difference between Brunello and Vino Nobile?', a: 'Brunello di Montalcino is 100% Sangiovese, released only from the fifth year after harvest (Riserva sixth) and priced among Italy’s top wines. Vino Nobile di Montepulciano is at least 70% Sangiovese, aged a minimum of two years, and consistently cheaper. Both were in Italy’s first DOCG group of 1980 — and neither has anything to do with Montepulciano d’Abruzzo.' },
+      { q: 'Can you do wine tasting in Montepulciano without booking?', a: 'Yes — that is its superpower. The historic cellars in the town centre (Ercolani, De’ Ricci, Contucci) operate as walk-in attractions, with guest reports through 2026 describing free cellar visits and free or low-cost tastings as the norm. You browse, you taste, and the exit passes the shop.' },
+      { q: 'How do you get to Montepulciano from Siena without a car?', a: 'Autolinee Toscane bus line 112, weekdays, via San Quirico d’Orcia and Pienza — fastest journeys around 1h35, but only about four usable connections a day, so plan the return first. Sunday and holiday service is unreliable-to-absent in published timetables; verify your date on the at-bus.it planner before planning any visit.' },
+      { q: 'How do you get to Montalcino from Siena without a car?', a: 'Bus line 114 (Siena–Buonconvento–Torrenieri–Montalcino), or the Siena–Grosseto train to Buonconvento connecting to the 114 for the climb. Allow roughly 1.5–2 hours end to end depending on the connection, plan the return times first, and treat it as a weekday trip.' },
+      { q: 'Is Montepulciano too steep to visit?', a: 'It is a genuine hill town: the walk from the lower (bus) end to Piazza Grande at the top is long and steep, and San Biagio adds a downhill-then-uphill leg outside the walls. Most visitors manage it at a stroll with stops; anyone with mobility limits should start at the top if arriving by taxi, or favour flatter Montalcino.' },
+      { q: 'Which is less crowded, Montalcino or Montepulciano?', a: 'Montalcino, consistently. Montepulciano absorbs more coach and day-trip traffic — its size, fame and film locations see to that — while Montalcino’s evenings in particular are described by travellers as genuinely peaceful once day visitors leave.' },
+    ],
+    '2026-08-24',
+    {
+      seoTitle: 'Montalcino or Montepulciano? Wines, Towns & Buses Compared (2026)',
+      primaryKeyword: 'montalcino or montepulciano',
+      secondaryKeywords: [
+        'montalcino vs montepulciano',
+        'brunello vs vino nobile',
+        'montepulciano underground cellars',
+        'montalcino wine tasting without a car',
+        'siena to montepulciano bus',
+        'siena to montalcino bus',
+      ],
+      imageAlt: 'The Val d’Orcia landscape that separates Montalcino and Montepulciano',
+      canonicalPath: '/blog/montalcino-or-montepulciano-2026',
+      tags: ['montalcino', 'montepulciano', 'tuscany wine towns', 'brunello', 'vino nobile', 'day trips from siena'],
+    }
+  ),
+
+  A(
+    'tuscany-without-a-car-2026',
+    'Tuscany Without a Car: The Complete Siena-Based Guide',
+    'Transport',
+    'Tuscany',
+    'Tuscany without a car works — from the right base. The bus and rail system from Siena: lines, times, tickets, the Sunday rule and what truly needs wheels.',
+    '/images/siena/florence-to-siena-bus-journey.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Car-free Tuscany is not a compromise — **it is a strategy, and the strategy has a capital: Siena.** From a Siena base, one regional bus network and two rail lines put Florence, San Gimignano, Monteriggioni, Pienza, Montepulciano, Montalcino and Arezzo within honest day-trip reach, no motorway anxiety, no ZTL fines, no parking arithmetic.
+
+The system in one paragraph: every regional bus in Tuscany is run by a single operator, **Autolinee Toscane** — timetables and tickets live at at-bus.it and in the official **at bus** app. The workhorse lines from Siena: **131/131R** to Florence (the rapid takes roughly 65–80 minutes; the two variants together offer about 18–19 weekday departures each way), **130** to San Gimignano via Poggibonsi, **112** through the Val d'Orcia towns to Montepulciano, **114** to Montalcino, **138** to Arezzo, **125** into Chianti. Rail adds the Florence line (about 1h30–1h35 direct) and the Chiusi line east through Asciano.
+
+Three rules keep it all working. **One: weekdays are the network's true self** — Sunday and holiday timetables shrink drastically, and on major holidays the Siena extraurban network can suspend almost entirely. **Two: validate every ticket** — and on extraurban services with the tip-tap system, tap **twice**, boarding and alighting. **Three: never trust an aggregator over the operator** — route apps routinely show two-hour itineraries-with-transfers for journeys the direct bus makes in half that.
+
+What genuinely needs wheels, we name honestly below — the Val d'Orcia photo loop, the Crete Senesi ridges, the remoter springs — along with the two workarounds that keep even those in a car-free trip: the one-day tour and the one-day rental.`,
+      },
+      {
+        id: 'the-system',
+        heading: 'How the system works: tickets, apps and the double tap',
+        body: `Tuscany's regional buses consolidated under one operator, which makes the learning curve mercifully short.
+
+**Buying tickets.** Paper tickets come from bus-station ticket offices, machines, and any bar, tabacchi or newsagent displaying the **AT sticker** — buy before boarding, since on-board purchase from the driver is the exception, not the plan. Digital tickets live in the official **at bus** app, and an unactivated app ticket stays valid for twelve months, so loading a few in advance costs nothing.
+
+**Validating tickets.** This is where visitors get fined. Paper tickets are stamped in the machine as you board; app tickets are activated at boarding. On extraurban services equipped with the tip-tap contactless system, the rule that surprises everyone: **tap once when you board and again when you alight**, so the system charges the correct distance fare. Skip the second tap and the fare defaults against you.
+
+**Fares.** Extraurban pricing is distance-banded under the official tariff in force since August 2023 — the Siena–Florence rapid sits in a band at **€8.40** at our check, and shorter hops cost correspondingly less. Exact fares for other routes vary by distance band; the app quotes them per journey, which beats any table we could print.
+
+**Planning.** Use the at-bus.it planner or the app for buses and Trenitalia's channels for trains, and treat third-party route aggregators as a last resort: at our check one major aggregator showed Siena–Montalcino as a two-hour multi-transfer ordeal while the direct line 114 exists, and averaged Siena–Montepulciano at three hours against a fastest real journey of 1h35. Aggregators aggregate; they do not understand.`,
+      },
+      {
+        id: 'the-spine',
+        heading: 'The spine: Siena ↔ Florence',
+        body: `Everything hangs off the Siena–Florence corridor, and it is the best-served intercity link in the region.
+
+**The bus is the default.** Line **131** runs in two flavours: the ordinaria with intermediate stops, and the **131R rapida** straight down the Firenze–Siena superstrada — roughly **65–80 minutes** end to end. Across the two variants together there are about **18–19 weekday departures each way** — the first ordinaria from around 6:10, the first rapida nearer 6:35, and a last bus in the 20:15–20:45 range; check the current 131 timetable PDF for your date. Both flavours share the same ticket. The bus's decisive advantage is geography: it lands beside Siena's old town rather than below it, [as our full Florence–Siena comparison explains](/blog/florence-to-siena-by-train-or-bus/).
+
+**The train is the scenic understudy**: about **1h30–1h35 direct** on the regional line, with services every 60–90 minutes — most run direct, the remainder changing at Empoli for a total nearer two hours. Rail wins when the bus schedule thins, when luggage favours level boarding, or [when a strike calendar complicates one mode](/blog/italy-transport-strikes-survival-guide-2026/) — the two systems rarely fail together.
+
+**The fallback nobody mentions**: long-distance coach operators (Flixbus, Itabus) also ply Florence–Siena at low fares — useful on Sundays when the regional timetable shrinks — with the caveat that some runs use motorway-side stops rather than the central bus stations, so check the exact stop before relying on one.`,
+      },
+      {
+        id: 'ring-one',
+        heading: 'Ring one: the easy day trips',
+        body: `These run on frequencies forgiving enough that a missed bus costs coffee, not the day.
+
+**San Gimignano — line 130.** Officially Siena–Poggibonsi–San Gimignano: through buses take about **1h05**; other runs change at Poggibonsi, where the connecting leg is 20–25 minutes and roughly hourly. You arrive at Porta San Giovanni and walk straight into the towers — [the full day plan, tickets and timing strategy are here](/blog/san-gimignano-day-trip-from-siena-2026/).
+
+**Monteriggioni — the 130 again, plus a hill.** The bus stops at **Colonna di Monteriggioni**, on the roundabout below the walls — the tourism office calls it 500 metres from the castle; travellers call it a 15–25 minute uphill walk. Either way, the walled circle at the top is one of Tuscany's most concentrated medieval hits for one of its smallest efforts, and pairs naturally with [the Via Francigena stage that walks from here back toward Siena](/blog/via-francigena-day-walk-siena/) for anyone who came for the path, not the bus.
+
+**Florence itself.** The spine above, run in reverse: museums booked ahead, the early rapid down, [the evening bus home after the golden hour](/blog/florence-or-siena-which-to-visit-2026/). A Siena base does Florence better than most Florence visitors do Siena.`,
+      },
+      {
+        id: 'ring-two',
+        heading: 'Ring two: the discipline day trips',
+        body: `Reachable, rewarding — and run on timetables that punish improvisation. The shared rule: **screenshot the return times before you leave, and treat the second-to-last connection as your last.**
+
+**Montepulciano and Pienza — line 112.** One bus, officially Siena–Buonconvento–Montepulciano, threading San Quirico d'Orcia and Pienza en route — which makes it simultaneously the Val d'Orcia towns bus. The catch is depth: roughly **four usable connections a day**, fastest about **1h35**, weekday-oriented — and some itineraries change at Buonconvento rather than running through, so check your specific departure on the planner. Plan it like a flight, and [the two-town wine question it serves is compared here](/blog/montalcino-or-montepulciano-2026/).
+
+**Montalcino — line 114, or the rail trick.** The direct 114 runs Siena–Buonconvento–Torrenieri–Montalcino. The often-smoother alternative: the Siena–Grosseto **train to Buonconvento** (31–34 minutes, around ten trains a day), then the 114's short 14-kilometre climb — about half an hour, running every two hours or so and, per long-standing traveller reporting, generally in sync with train arrivals. Confirm the pairing on the planner for your date rather than trusting habit.
+
+**Arezzo — line 138.** About **95 minutes** across the hills, but sparse — departures roughly every four hours, first around 6:25 — so this is a commit-to-the-day trip. [The city repays it](/blog/giostra-del-saracino-arezzo-2026/), and the rail workaround via Florence always exists.
+
+**Chianti — line 125 from Siena, line 365 from Florence.** From Siena, the 125 reaches Castellina and Radda in about 55 minutes on a thin, school-weekday-shaped timetable. The richer service runs from the Florence side: line **365** to Greve in 55–60 minutes (Panzano about ten minutes more), continuing to Radda and Gaiole — the reason [our wine-harvest guide sends bus travellers to Greve](/blog/tuscany-wine-harvest-vendemmia-2026/) rather than promising them the deep Chianti backroads.
+
+**East by rail.** The Siena–Chiusi line (about 80 minutes end to end, ~19 trains daily) serves **Asciano** — the Crete Senesi's main town, under half an hour out — plus Sinalunga and, nominally, Montepulciano Stazione. Nominally, because that station sits eight to ten kilometres from the hill town with poor onward links; the practical rail approach to Montepulciano is **Chiusi-Chianciano Terme** station with its coordinated ~30-minute bus.`,
+      },
+      {
+        id: 'what-needs-wheels',
+        heading: 'What genuinely needs wheels — and the two workarounds',
+        body: `Honesty section. Buses connect town centres; Tuscany's most photographed landscapes lie between them.
+
+**The Val d'Orcia photo loop** — the Vitaleta chapel, the cypress clumps, the farm-road S-curves between San Quirico, Pienza and Montalcino — has no useful bus stops, and the forum consensus matches our own: touring the valley's viewpoints needs a car, a bike or a tour. **The Crete Senesi ridges** are the same story: Asciano arrives by train, but the lunar-field panoramas between towns do not. **Bagni San Filippo**, the white-terraced hot spring, is effectively off the network — sources mention only a token twice-weekly local service, and every practical guide says drive. And the deep **Chianti estate roads** beyond the bus towns belong to the same list.
+
+Workaround one: **the day tour.** Small-group tours from Siena bundle exactly these unreachable middles — Val d'Orcia viewpoints, estate tastings with a designated driver built in — and listings on platforms such as [Viator](/go/viator) state the operator, group size, pickup point and cancellation terms up front, which are the four things worth comparing. For wine days in particular, the tour is not the compromise; the tour is the correct tool, since nobody should taste six wines and drive the SR222.
+
+Workaround two: **the one-day rental.** A car-free trip with a single driving day in the middle keeps every advantage of the base strategy while unlocking the loop roads — [where and whether to collect that car is its own decision guide](/blog/rent-a-car-in-florence-or-siena-2026/), and Siena's valley-floor offices make it painless. Rent for the day the landscape demands, hand the keys back, resume the bus life.`,
+      },
+      {
+        id: 'sunday-rule',
+        heading: 'The Sunday rule',
+        body: `The single biggest failure mode in car-free Tuscany is assuming Saturday's timetable describes Sunday. It does not. **Sunday and holiday service runs on the reduced festivo timetable across the network**, thinning every line in this guide — and on major public holidays Autolinee Toscane's own service notes have the Siena extraurban network suspended almost entirely, with only some 131 runs to Florence surviving alongside urban services.
+
+The planning consequences, in order: do ring-two trips (Montepulciano, Montalcino, Arezzo, Chianti) **on weekdays, full stop**. Put Florence, [a Siena rest day](/blog/siena-day-trip-or-overnight-2026/), or the walkable Monteriggioni-San Gimignano axis on the Sunday — after checking even those. Remember the long-distance coach fallback on the Florence spine. And around public holidays — [Ferragosto above all](/blog/tuscany-in-august-2026/) — verify everything, because the holiday timetable is a different country.`,
+      },
+      {
+        id: 'the-week',
+        heading: 'A seven-day car-free week that actually works',
+        body: `The skeleton, assembled from everything above and [our existing day guides](/blog/siena-day-trips-without-a-car/):
+
+**Day 1 (arrive):** land in Siena by the afternoon spine bus; evening passeggiata and the floodlit Campo — [the overnight argument in action](/blog/siena-day-trip-or-overnight-2026/).
+**Day 2 (Siena):** the Duomo complex from opening, the Campo, [the city done properly](/blog/best-things-to-do-in-siena/).
+**Day 3 (weekday — Val d'Orcia line):** the 112 to Pienza and Montepulciano, cellars and pecorino, planned like a flight.
+**Day 4 (San Gimignano):** the 130, early, [with the pass strategy](/blog/san-gimignano-day-trip-from-siena-2026/).
+**Day 5 (the unlockable middle):** small-group Val d'Orcia or Chianti tour, or the one-day rental for the photo loop.
+**Day 6 (Florence):** early rapid down, booked museums, golden-hour bus home.
+**Day 7 (Sunday-proof finish):** Monteriggioni and [the Via Francigena walk back](/blog/via-francigena-day-walk-siena/), or nothing at all with a long lunch — the itinerary's best-kept secret.
+
+Swap days freely, but keep the ring-two trips on weekdays and the gentle days on Sunday, and the week runs without a single ignition key.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research against Autolinee Toscane's official at-bus.it pages wherever search surfaced them, cross-read with traveller reports: line identities and routings (131/131R, 130, 112, 114, 138, 125, 365) from the operator's published line information; the 131R's 65–80-minute range, departure counts and first/last times, and the €8.40 distance-band fare from the official tariff documentation in force since August 2023; ticket-retailer, app-validity and double-tap validation rules from the operator's published ticketing information; rail timings (Siena–Florence, Siena–Chiusi, Buonconvento) from regional rail schedules as surfaced in search; the Monteriggioni stop distance from the official tourism office with the walk-time range from traveller accounts; Sunday and holiday service reductions from the operator's festivo service notes; and the car-required verdicts (Val d'Orcia loop, Crete ridges, Bagni San Filippo) from consistent guide and forum consensus. Frequencies quoted are weekday patterns at our check — timetables change seasonally, so verify your specific journey on the at-bus.it planner or app before travelling, and treat every figure here as planning guidance rather than a promise. Disclosure: the Viator link on this page is an affiliate link — if you book a tour through it we may earn a commission, at no extra cost to you; the advice that tours are the right tool for tasting days does not change either way. Platform links use our internal /go/ shortcuts.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `The car-free question is usually asked backwards — "can I survive Tuscany without a car?" — when the Siena-based version deserves asking forwards: what does the car-free trip get *right*? No ZTL geometry, no parking arithmetic, no designated-driver mathematics at a Brunello tasting, aperitivo without arithmetic at all, and a rhythm — bus out in the morning, walled town by ten, home for the passeggiata — that matches how these places want to be visited. Learn one operator's app, respect the Sunday rule, buy the tour or the one-day rental for the landscape in between, and Tuscany without a car stops being the fallback plan. From Siena, it might be the best plan.`,
+      },
+    ],
+    [
+      { q: 'Can you really do Tuscany without a car?', a: 'Yes — from the right base. Siena puts Florence, San Gimignano, Monteriggioni, Pienza, Montepulciano, Montalcino, Arezzo and the Chianti bus towns within day-trip reach on Autolinee Toscane buses and two rail lines. What needs wheels is the landscape between towns — the Val d’Orcia photo loop, Crete Senesi ridges — solved with one day tour or one single-day rental.' },
+      { q: 'Is Siena or Florence the better car-free base?', a: 'Siena, for southern Tuscany: the 112, 114, 130 and 138 lines radiate from it to the hill towns, while Florence serves the north (Chianti’s 365 bus, the rail trunk). Florence is the better base only if your trip is museums-first. Many travellers split the difference: a few nights in each, connected by the 131R rapid bus.' },
+      { q: 'How do you get from Siena to Florence without a car?', a: 'Bus line 131R — roughly 65–80 minutes on the superstrada, with the 131 variants together offering about 18–19 weekday departures each way, around €8.40 — arriving beside Siena’s old town. The regional train takes about 1h30–1h35 direct (most services; the rest change at Empoli for nearer two hours). Long-distance coaches add a low-cost Sunday fallback.' },
+      { q: 'How do buses work in Tuscany — where do you buy tickets?', a: 'One operator, Autolinee Toscane, runs every regional bus. Buy paper tickets at ticket offices or any shop with the AT sticker, or use the official at bus app (unactivated app tickets keep for twelve months). Validate on boarding — and on extraurban tip-tap services, tap both boarding and alighting or the fare defaults against you.' },
+      { q: 'Can you visit the Val d’Orcia without a car?', a: 'The towns, yes: bus 112 from Siena threads San Quirico, Pienza and Montepulciano on weekdays, and Montalcino works via line 114 or the train to Buonconvento. The photographed landscape between them — Vitaleta chapel, the cypress groups — has no bus stops: that is the day for a small-group tour or a one-day rental.' },
+      { q: 'Do Tuscany buses run on Sundays?', a: 'On a drastically reduced festivo timetable — and on major public holidays the Siena extraurban network can suspend almost entirely, leaving only some Florence-line 131 runs. Plan hill-town trips for weekdays, keep Sundays for Florence, Siena itself or walkable Monteriggioni, and verify any Sunday journey on the at-bus.it planner first.' },
+      { q: 'Is the bus or the train better from Siena?', a: 'The bus, usually: it is faster on the Florence spine (131R) and it is the only public transport to San Gimignano, Montepulciano, Montalcino and Arezzo. The train earns its place for Buonconvento (the Montalcino rail trick), Asciano and the Chiusi line east — and as the calmer option with luggage.' },
+    ],
+    '2026-08-25',
+    {
+      seoTitle: 'Tuscany Without a Car (2026): The Complete Siena-Based Guide',
+      primaryKeyword: 'tuscany without a car',
+      secondaryKeywords: [
+        'tuscany without a car itinerary',
+        'val d orcia without a car',
+        'siena to san gimignano bus',
+        'siena to montepulciano by bus',
+        'tuscany by public transport',
+        'autolinee toscane tickets app',
+        'is siena a good base for tuscany',
+      ],
+      imageAlt: 'A regional bus journey through the Tuscan countryside between Florence and Siena',
+      canonicalPath: '/blog/tuscany-without-a-car-2026',
+      tags: ['tuscany without a car', 'tuscany buses', 'siena base', 'public transport italy', 'car-free travel'],
+    }
+  ),
+
+  A(
+    'bagno-vignoni-bagni-san-filippo-hot-springs',
+    'Bagno Vignoni & Bagni San Filippo: The Val d’Orcia Hot Springs, Finally Explained',
+    'Things to do',
+    'Tuscany',
+    'Can you actually bathe at Bagno Vignoni? What does Bagni San Filippo cost? The Val d’Orcia hot springs answered honestly — rules, prices and access.',
+    '',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Half the internet says you can bathe in the Val d'Orcia's hot springs for free; the other half says you cannot. Both halves are quoting fragments of the truth, so here is the whole of it, checked and dated.
+
+**Bagno Vignoni: you cannot bathe in the famous square.** The steaming Renaissance basin that fills the village's central piazza is view-only — and has been for good reason for a long time. What you *can* do: soak your feet in the warm channels of the free **Parco dei Mulini** below the village, or pay for a proper thermal pool at one of the village's spa hotels.
+
+**Bagni San Filippo: yes, you can bathe — in the right places.** The **Fosso Bianco** woodland stream with its white calcium-carbonate cascades is free, open year-round and genuinely bathable, hottest near the source and cooler downstream. The two things you must not do: climb on the great **Balena Bianca** formation, or slip past fences into the closed Bollore area above the village. A modest entry charge has come and gone in recent seasons — carry a couple of euros and expect either outcome.
+
+**Both are weekday, wheels-favoured trips.** The bus from Siena along the Abbadia San Salvatore corridor serves both, thinly; Sundays are effectively car-only. Everything below is the detail: the history, the rules with their fines, the spa prices, the parking, and the honest state of every claim we could not fully pin down.`,
+      },
+      {
+        id: 'bagno-vignoni-square',
+        heading: 'Bagno Vignoni: the village where the piazza is a pool',
+        body: `Bagno Vignoni's centre is unlike anywhere else in Tuscany: where a village square should be, there is a great stone basin of steaming water, fed by a spring that has drawn bathers since Roman times. The basin in its present form dates to the sixteenth century, and its guest book outclasses most cities — **St Catherine of Siena** took the waters here, as did **Pope Pius II** (builder of nearby Pienza) and **Lorenzo de' Medici**, seeking relief for his ailments.
+
+The water rises hot — credible sources put the source temperature in the **49–52°C range**, among the hottest in Tuscany — and on cool mornings the whole piazza smokes like a cauldron, which is precisely the photograph everyone comes for.
+
+And that photograph is the extent of it: **bathing in the central basin is not permitted.** Guides agree on the rule even while noting the village posts little explicit signage about it — do not let the absence of a sign, or the occasional influencer photo, persuade you otherwise. The piazza pool is the village's monument, not its bath. Where the bathing actually happens comes next.`,
+      },
+      {
+        id: 'parco-dei-mulini',
+        heading: 'Where you can get in the water at Bagno Vignoni — and the fine print',
+        body: `Walk downhill from the square and the thermal overflow becomes the **Parco dei Mulini** — the free mill park where the village's water, having done its scenic duty above, runs down through carved channels (*gorelli*) toward the old mills and collects in pools on the slope, with the Val d'Orcia opening out below. Entry is free, year-round, and the setting is glorious.
+
+Two honesty notes before you pack a towel. First, **the water down here is markedly cooler** than at the source — it has travelled downhill in open channels, and by the lower pools it is warm-ish rather than hot, which disappoints visitors expecting the steam of the piazza. Second, the legal position is messier than most guides admit: **foot-soaking in the channels is the safe, accepted practice**, while full-immersion bathing in the lower pools is reportedly restricted by a years-old municipal ordinance carrying fines — enforcement is described as inconsistent, and visitor accounts of untroubled soaking are easy to find, but we will not tell you a rule does not exist because it is loosely policed. Soak your feet freely; treat anything more as at-your-own-risk in a place that has, on paper, said no.
+
+If that sounds like a lawyer wrote it, the springs two sections down offer the uncomplicated version.`,
+      },
+      {
+        id: 'paid-spas',
+        heading: 'The paid option: Bagno Vignoni’s spa hotels',
+        body: `For actual hot-water immersion in Bagno Vignoni, the answer is the village's two thermal hotels, both of which admit day visitors on their own terms.
+
+**La Posta Hotel & Thermal Spa** — the former Albergo Posta Marcucci, directly in the village — sells day access: its published Day Spa package runs to **€130 per person**, bundling the thermal pools (listed at 28–32°C and 35–38°C), sauna, hydrotherapy and a treatment. The plain pool-only tariff is published by the hotel itself: at our August 2026 check, **€27 weekdays / €39 weekends** for the full day, dropping to **€22 / €30 after 14:00** — a far kinder route to the hot water than the full package, though still worth confirming when booking.
+
+**Adler Spa Resort Thermae**, the luxury resort at the village edge, admits external visitors **only via bookable day-spa packages** — thermal pool park, an extensive sauna circuit, classes and a snack buffet across a roughly 8:30–19:30 day — with no standalone pool ticket. Prices vary by season and package; book ahead through the resort.
+
+The honest framing: Bagno Vignoni's paid tier is a **spa-day destination**, priced accordingly, not a cheap swim. If what you want is simply hot water on skin without a wallet event, that is Bagni San Filippo's department.`,
+      },
+      {
+        id: 'bagni-san-filippo',
+        heading: 'Bagni San Filippo: the free one that delivers',
+        body: `Seventeen kilometres further south, in the wooded folds under Monte Amiata, **Bagni San Filippo** is the spring the free-bathing rumours are actually about. The **Fosso Bianco** — the "white ditch" — is a stream in the forest below the village where thermal water at about **48°C at source** tumbles over decades of accumulated calcium-carbonate, building dazzling white terraces and warm pools among the trees. It is free, ungated, open year-round with no fixed hours, and bathing is what it is for.
+
+The geometry is simple and worth knowing: **the pools nearest the source are the hottest**, cooling progressively downstream — so the upper pools fill first and the lower ones stay quieter and milder, a genuine choice rather than a compromise. The landmark is the **Balena Bianca**, the White Whale: a vast frozen cascade of mineral deposit that is the site's photograph and its most protected feature. **Climbing on the formation is banned** by municipal ordinance — for collapse and slip danger as much as conservation — and bathing in the pool directly beneath it is likewise off-limits, rules that press reports say visitors still test and staff still enforce.
+
+One more boundary that matters: above the village, the separate **Bollore** area — an old industrial site — is **formally closed**, fenced private land under court administration with an access-ban ordinance. The closure is not bureaucratic caution: health-authority testing found carbon-dioxide and hydrogen-sulphide emissions at potentially lethal concentrations in the pools there. The fences keep being torn down and the ban keeps being reinstated; do not be the visitor who finds out why the hard way. The Fosso Bianco below has everything you came for, legally.`,
+      },
+      {
+        id: 'ticket-question',
+        heading: 'The Bagni San Filippo ticket question, honestly',
+        body: `Does the Fosso Bianco cost money? The truthful answer is: **it has, it has not, and it may again** — and any page giving you a flat yes or no is behind the story.
+
+The sequence, as Italian press and local notices tell it: mounting summer crowds pushed the comune toward an entry ticket and a daily capacity cap, which was announced and then postponed; a **€2 entry charge with a wristband** (one euro refunded when you hand the wristband back) was subsequently in force at a checkpoint past the access bridge under the site's management; and the weight of the most recent accounts describes walking in free — while the comune retains both the precedent and the machinery to reinstate the charge whenever crowds demand it.
+
+The practical translation costs you nothing: **arrive with a few euro coins and no expectations either way.** The same applies to parking — the paid blue-line spaces on Via Fosso Bianco at the village entrance, five to ten minutes' walk from the water, carried rates in the **€1.50–2.50 per hour** band across our August 2026 sources; pay by the machine's actual tariff, and treat any specific figure you read online (including here) as a snapshot. The village's own paid spa hotel, for completeness, has been closed for renovation with its reopening date unclear — during the closure, the free stream is the village's only bathing.`,
+      },
+      {
+        id: 'getting-there',
+        heading: 'Getting there: the bus truth and the driving option',
+        body: `**By bus, this is Abbadia corridor territory.** The Val d'Orcia towns bus from Siena — [line 112, of Pienza and Montepulciano fame](/blog/tuscany-without-a-car-2026/) — gets you only as far as San Quirico d'Orcia. Bagno Vignoni's own stop (Bagno Vignoni Centro) sits on the **Siena–Abbadia San Salvatore axis**, whose weekday service is thin and whose **Sunday service is minimal to nonexistent** — the timetable aggregators show weekday-and-Saturday runs only at our check, so verify any holiday plan on the at-bus planner before building a day on it. Bagni San Filippo's stop on the same corridor sees a handful of runs a day, and its name — "Bv. Campiglia", the *bivio* or junction — is your warning to confirm on the at-bus planner whether your bus enters the village or drops you at the turn-off on the main road. The car-free verdict, honestly: **Bagno Vignoni is a feasible weekday bus trip for the determined; Bagni San Filippo is effectively a car destination**, exactly as [our car-free flagship concluded](/blog/tuscany-without-a-car-2026/).
+
+![The Val d'Orcia countryside along the Cassia road toward the thermal villages](/images/tuscany/val-dorcia-cypress-trees-landscape.jpg)
+*The Val d'Orcia along the road south — the springs hide in its folds; we have not yet photographed the pools themselves.*
+
+**By car, both are easy Cassia runs**: Bagno Vignoni sits about 50 km south of Siena off the SS2 — roughly 45 minutes to an hour — with Bagni San Filippo some 17 km further, its village two kilometres off the main road. The pairing makes a natural single day: the piazza and mill park in the morning, the Fosso Bianco's pools after lunch, [the Val d'Orcia's postcard roads](/blog/val-dorcia-day-trip-from-siena-2026/) in between — and if the day stretches, San Quirico d'Orcia sits conveniently between the two for an evening passeggiata before the drive home. [Where to collect the car](/blog/rent-a-car-in-florence-or-siena-2026/) and [the rules that come with it](/blog/renting-a-car-in-tuscany-2026/) are covered elsewhere; neither village involves ZTL anxiety, just small car parks that fill on summer weekends.`,
+      },
+      {
+        id: 'when-to-go',
+        heading: 'When to go — the counterintuitive answer',
+        body: `Hot springs invert the tourist calendar. **Winter and the shoulder seasons are the Fosso Bianco at its best**: a 48-degree source keeps bathing gloriously comfortable in cold air, the steam turns photogenic, the forest is quiet, and a weekday soak in November or February can feel private. July and August, by contrast, deliver the site's worst version — warm water in hot weather, car parks filling by mid-morning on weekends, and the crowd pressure that produced the ticket saga above.
+
+For a September or October trip — [the season the rest of the valley is at its finest](/blog/tuscany-in-october-2026/) — aim for weekdays and the edges of the day. And pack by the rules, which exist because everything here drains straight into a living stream: **no soap or shampoo in the water**, no night bathing (the site is unlit and ungated, not invigilated), dogs on leads on the paths but out of the pools, and swim shoes if you have them — travertine is beautiful and slippery in equal measure.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research: the Bagno Vignoni central-basin bathing ban, basin history and famous bathers from consistent heritage and guide sources (source temperature given as the 49–52°C range the sources span, rather than a single unqualified figure); the Parco dei Mulini's free access and cooler water from the same corpus, with the foot-soak-versus-immersion legal position presented at exactly the confidence the sourcing supports — the restricting ordinance and fines are reported, enforcement is reported inconsistent, and we say both; La Posta's €130 Day Spa from the hotel's published offer, with the cheaper pool-only figures flagged as unconfirmed against the hotel's own pages; Adler's package-only day access from the resort's published information; Bagni San Filippo's free status, 48°C source, Balena Bianca climbing ban, Bollore closure and conduct rules from municipal-ordinance reporting and press coverage; the ticket saga (announced cap, postponement, the €2 wristband, current-season uncertainty) from Italian press including La Nazione, presented as the unresolved sequence it is; and bus realities from Autolinee Toscane corridor information and press coverage of the holiday timetable. Parking rates conflicted across every source and are deliberately given only as an order of magnitude. Ordinances, charges and timetables here change more often than anywhere else we cover — re-verify against the comune notices and the at-bus planner before travelling. We have no affiliate relationship with either spa hotel or any operator named; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `The Val d'Orcia's springs suffer from being written about in halves: the famous photograph without the bathing ban, the free pools without the ordinances, the €2 ticket without the saga around it. Taken whole, the picture is better than the fragments — a Renaissance piazza that steams like a myth, a mill park where warm water and a valley view cost nothing, a forest stream that delivers the real soak the square only promises, and rules that mostly amount to respecting a fragile, beautiful accident of geology. Go on a weekday, carry coins and a towel, keep the soap in the bag, and let the hottest pool you can politely claim do the rest.`,
+      },
+    ],
+    [
+      { q: 'Can you swim in the pool at Bagno Vignoni?', a: 'No — the famous central basin in Piazza delle Sorgenti is view-only, despite sparse signage. The free Parco dei Mulini below the village is where visitors soak (feet in the warm channels is the safe, accepted practice; the water in the lower pools is much cooler than the source), and the village’s spa hotels sell proper thermal-pool day access.' },
+      { q: 'Is Bagni San Filippo free?', a: 'The Fosso Bianco is free in principle and ungated year-round, and most recent accounts describe walking in free — but a €2 wristband charge has operated in past seasons and can return, so carry a few euro coins. Parking on Via Fosso Bianco is paid, in the €1.50–2.50 per hour band at our August 2026 check.' },
+      { q: 'Which is better, Bagno Vignoni or Bagni San Filippo?', a: 'For bathing, Bagni San Filippo — hot water, white travertine terraces, free access. For atmosphere and history, Bagno Vignoni — the steaming Renaissance piazza is unique in Tuscany, but immersion there means a paid spa. By car they pair perfectly into one day, seventeen kilometres apart on the Cassia.' },
+      { q: 'How hot are the Val d’Orcia hot springs?', a: 'Hot at source, milder where you bathe: Bagno Vignoni’s spring emerges in the 49–52°C range but its free lower pools are markedly cooler; Bagni San Filippo’s source runs about 48°C, with the upper pools hottest and the stream cooling as it descends — you pick your temperature by picking your pool.' },
+      { q: 'Can you get to the hot springs without a car?', a: 'Barely, and only on weekdays. Both sit on the thin Siena–Abbadia San Salvatore bus corridor — Bagno Vignoni has its own stop, Bagni San Filippo’s is at the junction outside the village — and Sunday service is close to nonexistent. A car, a tour, or a one-day rental is the honest recommendation, especially for Bagni San Filippo.' },
+      { q: 'What are the rules at Bagni San Filippo?', a: 'No climbing on the Balena Bianca formation and no bathing in the pool directly beneath it (municipal ordinance); no soap or shampoo in the water; dogs on leads on the paths but not in the pools; and the fenced Bollore area above the village is closed land with a gas hazard — stay out of it. After dark, staying away is strong advice rather than a formal gate: the site is unlit forest with no set hours.' },
+      { q: 'When is the best time to visit the hot springs?', a: 'Winter and the shoulder seasons, on weekdays — hot water is at its best in cold air, the steam photographs beautifully and the sites are quiet. Summer weekends are the worst version: warm water in the heat, full car parks and the crowds that prompted the entry-charge experiments.' },
+    ],
+    '2026-08-26',
+    {
+      seoTitle: 'Bagno Vignoni & Bagni San Filippo Hot Springs: Rules & Prices 2026',
+      primaryKeyword: 'bagno vignoni hot springs',
+      secondaryKeywords: [
+        'can you swim in bagno vignoni',
+        'bagni san filippo free',
+        'bagni san filippo entry fee',
+        'fosso bianco balena bianca',
+        'val d orcia hot springs',
+        'tuscany free hot springs',
+      ],
+      imageAlt: 'The Val d’Orcia countryside that surrounds the thermal villages of Bagno Vignoni and Bagni San Filippo',
+      canonicalPath: '/blog/bagno-vignoni-bagni-san-filippo-hot-springs',
+      tags: ['hot springs tuscany', 'bagno vignoni', 'bagni san filippo', 'val d orcia', 'thermal baths'],
+    }
+  ),
+
+  A(
+    'is-arezzo-worth-visiting-2026',
+    'Is Arezzo Worth Visiting? An Honest Answer, With the Booking Trap Included',
+    'Day trips',
+    'Tuscany',
+    'Is Arezzo worth visiting? Yes — for the right traveller. The Piero frescoes and their booking trap, the antiques fair, honest negatives and the verdict.',
+    '',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `**Yes — for the right traveller, emphatically.** Arezzo holds one of the supreme achievements of Renaissance painting, one of Tuscany's most beautiful squares, Italy's oldest major antiques fair and a twice-yearly medieval joust — with a fraction of the crowds that besiege Florence and Siena, because the coach-tour circuit simply does not come here.
+
+The right traveller, specifically: anyone who cares about art (Piero della Francesca's fresco cycle justifies the trip alone), anyone allergic to queues, film lovers tracing *Life is Beautiful*, collectors and browsers timing the first-Sunday antiques fair, and [anyone in Tuscany on 6 September 2026, when the 150th Giostra del Saracino runs](/blog/giostra-del-saracino-arezzo-2026/).
+
+The wrong traveller exists too, and honesty serves them better than salesmanship: Arezzo is a working city of around a hundred thousand people, not a postcard hill town — the station approach is ordinary, the beauty is concentrated rather than continuous, and visitors whose style is highlight-ticking sometimes find it quiet.
+
+One thing decides more Arezzo day trips than any other, so it goes here at the top: **the Piero della Francesca frescoes require a timed reservation that cannot be bought on the day.** Book before you board the train — the full trap is explained below.`,
+      },
+      {
+        id: 'the-frescoes',
+        heading: 'The frescoes: why art people cross Italy for Arezzo',
+        body: `In the Bacci Chapel of the Basilica di San Francesco, Piero della Francesca painted the **Legend of the True Cross** — a fresco cycle telling the story of the wood of the Cross from Eden to Byzantium, and one of the foundational works of the early Renaissance: geometry, light and stillness composed with a rigour painting had never seen. Art historians rank it with the Sistine ceiling and Giotto's Padua chapel; unlike either, you will share it with at most thirty people.
+
+That intimacy is engineered, and here is the trap it sets. **Entry is by compulsory timed slot** — thirty minutes, a maximum of thirty visitors — **and same-day tickets are not sold.** The official sale channel is Arezzo's Discover Arezzo ticketing service, and its published conditions of sale require payment at least three working days before the visit — counting neither the booking day nor the visit day. At our check the chapel ticket ran **€6 plus a compulsory €3 booking fee** (reduced €2 plus the fee) — outdated figures — both higher and lower — still circulate on third-party pages, so trust the official checkout. (The €3 reservation fee applies to any state-circuit ticket bought online, the museums below included; at their doors, the base price stands.) The maintenance scaffolding that offered close-up visits in early 2024 is long gone; what you see now is the restored cycle, unobstructed.
+
+The rule this produces is absolute: **book the chapel before you plan anything else about the day.** Every disappointed Arezzo review we found tells the same story — a spontaneous visit, a locked chapel, a lesson learned on the platform home.`,
+      },
+      {
+        id: 'the-rest',
+        heading: 'The rest of the centre: a compact, underrated sight list',
+        body: `Everything worth seeing sits within a fifteen-to-twenty-minute walk, stacked up the hill from Corso Italia.
+
+**Piazza Grande** is the heart: a sloping, trapezoidal square in red brick crossed by white stone lines, ringed by an almost theatrical jumble of medieval towers, Renaissance palazzi and **Vasari's arcaded Loggia** along the top side. It hosts the antiques fair, the joust, and the town's evening life; many visitors rank it above Siena's Campo for the simple reason that it is usually half-empty.
+
+**Santa Maria della Pieve**, Arezzo's oldest church, backs onto the square — a twelfth-century Romanesque wall of stacked arcades, every column individually carved, under the 1330 bell tower locals call the *tower of the hundred holes* for its double windows. Its curved apse forms one wall of Piazza Grande: church and square share a body.
+
+**The Cathedral** is free to enter and hides its own Piero — the serene **Mary Magdalene** fresco of the 1460s near the sacristy door — alongside Andrea della Robbia terracottas. **Casa Vasari** (€4, capped small groups) is the house Giorgio Vasari — Arezzo's other great son, architect of the Uffizi and inventor of art history — bought and frescoed for himself. And the **archaeological museum** (€6) occupies a monastery built into the curve of a **second-century Roman amphitheatre**, whose arena arc still shapes the streets. Its one warning: opening hours swing sharply by weekday — some days it closes at 14:00, others it runs into the evening — so check the day's pattern before building your route around it.`,
+      },
+      {
+        id: 'the-fair',
+        heading: 'The antiques fair: first Sundays, since 1968',
+        body: `On the **first Sunday of every month and the Saturday before it**, Piazza Grande and the streets around it fill with the **Fiera Antiquaria** — founded in 1968 by the antiquarian Ivan Bruschi and generally described as Italy's oldest and largest monthly antiques market. Furniture, prints, ceramics, jewellery, tools, the gloriously uncategorisable: several hundred stalls of it, spilling down the Corso.
+
+For planners it is the town's metronome. **Fair weekends are Arezzo at its liveliest** — and, first Sundays being also free-admission days at Italy's state museums, at their busiest and best value. Other weekends are notably quieter, and quiet Mondays after fair weekends can feel positively private. Match the rhythm to your taste: browsers and people-watchers should aim for the fair; fresco pilgrims who want the chapel at its calmest should avoid it.
+
+One 2026-specific collision worth knowing: **the September fair weekend (5–6 September) coincides with the 150th Giostra del Saracino**, when Piazza Grande is given over to the joust — local reporting indicates that month's fair shifts around the event rather than sharing the square, so expect a different layout that weekend and [read the Giostra guide](/blog/giostra-del-saracino-arezzo-2026/) if that is your date.
+
+![Heraldic banners strung across a Tuscan street](/images/siena/siena-contrade-street-flags.webp)
+*Quarter banners — Siena's, from our own archive; Arezzo's four quartieri dress their streets the same way around the Giostra, and we have not yet photographed Arezzo itself.*`,
+      },
+      {
+        id: 'film-and-joust',
+        heading: 'The film, the joust and the city’s two famous faces',
+        body: `Roberto Benigni filmed the first, golden half of ***Life is Beautiful*** across central Arezzo: Piazza Grande hosts the falling-key scene, the bicycle crash that lands Guido on Dora happens before the Badia's steps, and half the film's strolls trace streets you will walk between sights — [our set-jetting guide maps the locations](/blog/tuscany-on-screen-film-locations-2026/). The city wears the connection lightly: no tour-bus circus, just plaques and the occasional fan re-enacting the *"Buongiorno, Principessa!"* balcony shout. That lightness is worth savouring while it lasts — film tourism has transformed smaller Tuscan towns before, and Arezzo's version still feels like a private discovery rather than an itinerary item.
+
+A timing note that rewards the flexible: in the week before each joust, the quarters' knights train in Piazza Grande on public evenings — the spectacle at a fraction of joust-day's crowd, and free. If your dates fall in early September or mid-June, an ordinary Arezzo day trip can catch armoured riders at full gallop as a bonus, no ticket required.
+
+The other face is the **Giostra del Saracino** — the twice-yearly joust in which the city's four quarters charge an armoured effigy across Piazza Grande. The 2026 editions: a night joust on **Saturday 20 June** and the milestone **150th edition on Sunday 6 September**. [Everything about tickets, the free ceremonial week and the day itself is in the dedicated guide](/blog/giostra-del-saracino-arezzo-2026/); the point for this article is what the joust reveals — that Arezzo, like Siena, performs its rituals for itself, not for tourism, which is precisely the quality that makes it worth the detour.`,
+      },
+      {
+        id: 'honest-negatives',
+        heading: 'The honest negatives',
+        body: `A verdict is only trustworthy with the case against on the table, so here it is, assembled from the less flattering reviews and our own weighing.
+
+**Arezzo is a working city, not a hill-town postcard.** Around a hundred thousand people, industrial suburbs, and a station approach of banks and ordinary shops. The beauty starts a few blocks uphill and concentrates around the piazza and the upper town; travellers expecting wall-to-wall San Gimignano will notice the difference immediately.
+
+**The station walk is uphill** — about a kilometre, ten to fifteen minutes, gentle but real, and worth knowing in August heat or with limited mobility.
+
+**Tickets stack.** The chapel plus its booking fee, Casa Vasari, the archaeological museum, a tower or two — sight-by-sight ticketing adds up, and at least some reviewers have grumbled about the total. Free first Sundays flip that equation entirely if your dates allow.
+
+**Quietness cuts both ways.** The absence of crowds is the product of an absence of spectacle: no leaning tower, no dome climb, no single iconic photograph. Visitors who measure a day by highlights sometimes leave underwhelmed; visitors who measure it by texture rarely do. Know which you are.
+
+**And from Siena, the logistics are honestly mediocre**: no direct train (the rail routing via Chiusi takes about three hours), so it is [the sparse 138 bus at roughly an hour and a half](/blog/tuscany-without-a-car-2026/), or the train via Florence. From Florence, by contrast, Arezzo is one of the easiest day trips in Tuscany: direct regional trains in **50–75 minutes**, just under €10, multiple departures an hour.`,
+      },
+      {
+        id: 'the-day',
+        heading: 'A day in Arezzo that earns the verdict',
+        body: `**Book first** — the chapel slot, days ahead, ideally late morning. Then let the geography plan the rest.
+
+Arrive on a mid-morning train from Florence and walk up Corso Italia as the shops open. Take the **Pieve's** arcaded facade on the way, circle onto **Piazza Grande** for the first coffee — the square photographs best in morning light, before the sun flattens the brick. Make the **fresco slot** the late morning's anchor, giving the cycle the unhurried half-hour the booking bought you.
+
+Lunch where the aretini do — the streets off the Corso rather than on the square — and this is Chianina country: the beef dishes are the local statement. The afternoon takes the **Cathedral** and its Magdalene, **Casa Vasari** if Vasari's self-decorated rooms tempt you, and the **amphitheatre curve** if the museum's hours cooperate. Finish with the *passeggiata* back down the Corso — Arezzo's evening stroll is the unhyped, resident version of the ritual — and an aperitivo on the square as the towers go gold, before an easy evening train home.
+
+Fair-weekend variant: come Saturday, let the antiques swallow the morning, and push the frescoes to the afternoon slot. Giostra variant: [that is its own article](/blog/giostra-del-saracino-arezzo-2026/), and its own kind of day entirely.`,
+      },
+      {
+        id: 'verdict-by-traveller',
+        heading: 'The verdict, traveller by traveller',
+        body: `**The art pilgrim** → go, and build the day around the chapel slot. Piero's cycle is the region's least crowded world-class artwork, and the Cathedral's Magdalene plus Casa Vasari turn the day into a coherent Renaissance argument. This is the strongest single-interest case Arezzo has.
+
+**The crowd-weary** → go, especially in high summer. When [Florence in July is an endurance sport](/blog/florence-summer-heat-survival-tips-2026/) and Siena's Campo is shoulder to shoulder, Arezzo at the same hour has tables free on its great square. The town works precisely because the coach circuit skips it.
+
+**The browser and collector** → go on a fair weekend. First Sunday and the Saturday before, with the free-museum first-Sunday bonus stacked on top; hands in pockets, no plan, the best kind of day.
+
+**The film sentimentalist** → go with the locations list. An hour's gentle walking covers the Benigni sites, and the town's refusal to make a circus of them is part of the charm.
+
+**The first-time-in-Tuscany traveller on a short trip** → probably skip, honestly. With three or four days in the region, Siena, Florence and [one hill town](/blog/siena-or-san-gimignano-day-trip-2026/) earn their places first; Arezzo is a second-visit reward, not a first-visit obligation.
+
+**The Siena-based, car-free traveller** → borderline. [The 138 bus is sparse](/blog/tuscany-without-a-car-2026/) and the rail detour runs via Florence; the day works, but it costs more logistics than anything else in this verdict. If the frescoes call, answer via Florence.
+
+**Anyone in Tuscany on 6 September 2026** → the question answers itself. [The 150th Giostra](/blog/giostra-del-saracino-arezzo-2026/) is the event of the season, and this article is merely its supporting act.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research: the Bacci Chapel's compulsory timed booking, the 30-person/30-minute slot rule, the no-same-day rule, the three-working-days payment condition and the €6-plus-€3-fee structure from the official Arezzo ticketing conditions of sale as reflected in current sources (outdated figures both higher and lower still circulate on third-party pages and are ignored); the completed status of the fresco maintenance from reporting on the 2024 scaffolding programme; cathedral, Pieve, Piazza Grande and Vasari facts from heritage sources; Casa Vasari (€4) and archaeological museum (€6) admissions with the museum's sharply weekday-variable hours from museum information; the Fiera Antiquaria's first-Sunday-plus-Saturday pattern and 1968 founding from the fair's published history, with the September 2026 Giostra-weekend collision noted from local reporting; Life is Beautiful locations from film-location documentation; crowd contrasts from consistent multi-source traveller reporting (a specific Arezzo annual-visitor figure circulates from a single industry source and we decline to print it); and transport from regional rail data and Autolinee Toscane line information. Prices, hours and booking rules change — the Discover Arezzo official channels supersede everything here. We have no affiliate relationship with any venue, ticketing service or operator named; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `"Is Arezzo worth visiting" is really a question about what you think Tuscany is for. If it is for icons, Arezzo will feel like a detour. If it is for the thing the icons crowd out — a great square with room to stand in, a world-class fresco cycle seen thirty people at a time, a city performing its rituals for itself — then Arezzo is not a detour but a correction. Book the chapel, take the morning train from Florence, and decide over an aperitivo on the sloping square whether the quiet was a flaw or the entire point. Our verdict is on record: for the right traveller, this is the best-value day in eastern Tuscany.`,
+      },
+    ],
+    [
+      { q: 'Is Arezzo worth visiting?', a: 'Yes — for art lovers, crowd-avoiders, film fans and antiques browsers, emphatically. Piero della Francesca’s fresco cycle, Piazza Grande, the first-Sunday antiques fair and the Giostra give it real weight, with a fraction of Florence’s or Siena’s crowds. Highlight-tickers seeking icons may find it quiet — that quietness is the point.' },
+      { q: 'Do you need to book the Piero della Francesca frescoes in advance?', a: 'Yes, absolutely: the Bacci Chapel runs on compulsory timed 30-minute slots capped at 30 people, same-day tickets are not sold, and the official conditions of sale require payment at least three working days ahead (counting neither the booking day nor the visit day). At our check the ticket was €6 plus a compulsory €3 booking fee. Book via the official Discover Arezzo channel before planning the day.' },
+      { q: 'When is the Arezzo antiques fair?', a: 'The Fiera Antiquaria fills Piazza Grande and surrounding streets on the first Sunday of every month and the preceding Saturday — running since 1968 and generally described as Italy’s oldest and largest monthly antiques market. Note that first Sundays also bring free state-museum admission, and in September 2026 the fair weekend collides with the Giostra.' },
+      { q: 'How do you get to Arezzo from Florence or Siena?', a: 'From Florence, easily: direct regional trains in 50–75 minutes, just under €10, several times an hour, then a 10–15-minute uphill walk to the centre. From Siena, awkwardly: no direct train (about 3 hours via Chiusi), so it is the sparse 138 bus at roughly an hour and a half, or the train via Florence.' },
+      { q: 'How long do you need in Arezzo?', a: 'A fast half-day covers Piazza Grande, a church or two and the Corso; a full day is the common recommendation and the right one if the fresco slot, Casa Vasari and the amphitheatre museum are on the list. Everything sits within a 15–20-minute walk, so the day is dense rather than tiring.' },
+      { q: 'Where was Life is Beautiful filmed in Arezzo?', a: 'Across the historic centre: Piazza Grande hosts the falling-key scene, the bicycle crash lands Guido in front of the Badia’s steps, and the film’s strolls trace the streets between the main sights. The locations are walkable in an hour and mapped in our Tuscany film-locations guide.' },
+    ],
+    '2026-08-27',
+    {
+      seoTitle: 'Is Arezzo Worth Visiting? Honest Verdict + the Fresco Booking Trap',
+      primaryKeyword: 'is arezzo worth visiting',
+      secondaryKeywords: [
+        'arezzo worth it',
+        'piero della francesca frescoes arezzo booking',
+        'arezzo antiques fair dates',
+        'arezzo day trip from florence',
+        'things to do in arezzo',
+        'life is beautiful arezzo locations',
+      ],
+      imageAlt: 'Heraldic banners in a Tuscan street, the tradition Arezzo shares with Siena',
+      canonicalPath: '/blog/is-arezzo-worth-visiting-2026',
+      tags: ['arezzo', 'day trips from florence', 'piero della francesca', 'tuscany art', 'antiques fair'],
     }
   ),
 ];
