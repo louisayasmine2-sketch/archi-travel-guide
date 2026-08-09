@@ -10,6 +10,7 @@ import { breadcrumbSchema, articleSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import { trackLeadSubmit } from "@/lib/analytics";
 import { getArticle, articles } from "@/data/articles";
+import { relatedArticles } from "@/lib/relatedArticles";
 import NotFound from "./NotFound";
 import { Send, ChevronDown } from "lucide-react";
 import axios from "axios";
@@ -196,7 +197,7 @@ export default function Article({ fixedSlug, canonicalPath }) {
   const article = getArticle(slug);
   if (!article) return <NotFound />;
 
-  const related = articles.filter((a) => a.slug !== slug && (a.region === article.region || a.category === article.category)).slice(0, 3);
+  const related = relatedArticles(article, articles);
   const monetization = article.monetization || {};
   const bookingCta = monetization.booking;
   const imageCredit = article.imageCredit;
@@ -419,9 +420,9 @@ export default function Article({ fixedSlug, canonicalPath }) {
         </aside>
       </div>
 
-      {/* Related */}
+      {/* Related — relevance-scored, see lib/relatedArticles.js */}
       {related.length > 0 && (
-        <section className="section-y bg-[hsl(var(--ivory-2))] mt-20">
+        <section className="section-y bg-[hsl(var(--ivory-2))] mt-20" data-testid="related-articles">
           <div className="container-editorial">
             <h2 className="font-serif text-3xl md:text-4xl mb-8">Keep reading</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
