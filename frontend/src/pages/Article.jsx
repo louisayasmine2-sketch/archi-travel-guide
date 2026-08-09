@@ -9,10 +9,11 @@ import ToolCue from "@/components/common/ToolCue";
 import PartnerCta from "@/components/common/PartnerCta";
 import NewsletterForm, { isNewsletterEnabled } from "@/components/common/NewsletterForm";
 import { partnersForArticle } from "@/lib/monetisation";
+import { relatedArticles } from "@/lib/relatedArticles";
 import { breadcrumbSchema, articleSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import { trackLeadSubmit } from "@/lib/analytics";
-import { getArticle, articles } from "@/data/articles";
+import { getArticle } from "@/data/articles";
 import NotFound from "./NotFound";
 import { Send, ChevronDown } from "lucide-react";
 import axios from "axios";
@@ -199,7 +200,7 @@ export default function Article({ fixedSlug, canonicalPath }) {
   const article = getArticle(slug);
   if (!article) return <NotFound />;
 
-  const related = articles.filter((a) => a.slug !== slug && (a.region === article.region || a.category === article.category)).slice(0, 3);
+  const related = relatedArticles(article);
   const monetization = article.monetization || {};
   const bookingCta = monetization.booking;
   const hasPartnerCta = partnersForArticle(article).length > 0;

@@ -42,6 +42,7 @@ Slugs refer to `frontend/src/data/articles.js`.
 | # | Trigger event | Expected when | Verify against | What to change | Done |
 | --- | --- | --- | --- | --- | --- |
 | 14 | **First affiliate programme approved** | unknown (none applied for as of Aug 2026) | the partner's own dashboard | Same-day switch: tracking parameter into the `/go/` line in `frontend/public/_redirects`, `PROGRAMME_STATUS` to `"live"` in `frontend/src/lib/monetisation.js`, and every "we earn nothing" claim rewritten — `Home.jsx` ("Nobody pays to be listed"), `TravelDeals.jsx` (hero line + "How we chose these"), `Legal.jsx` editorial policy. Full procedure in `MONETIZATION_CHECKLIST.md` |  |
+| 15 | **Same event, article prose** | same day as #14 | — | **22 articles** state in their own fact-check lines that we have no affiliate relationship (grep `no affiliate relationship` in `frontend/src/data/articles.js`). Each becomes false the day tracking goes live and each is a prose edit — article by article, never a regex sweep (`CLAUDE.md` §7). Budget a session for this, not five minutes |  |
 
 ## Standing re-checks (no single trigger)
 
