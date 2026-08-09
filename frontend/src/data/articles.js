@@ -8110,6 +8110,157 @@ A workable shape for a week: base in Siena or Florence, give **Sunday 6 Septembe
       tags: ['giostra del saracino', 'arezzo', 'tuscany events', 'day trips from florence', 'september in tuscany'],
     }
   ),
+
+  A(
+    'tuscany-september-2026-festivals-events',
+    'Tuscany in September 2026: Seven Festivals Worth Planning Around, With Dates',
+    'Things to do',
+    'Tuscany',
+    'Seven Tuscany festivals with verified dates for September 2026 — Arezzo’s 150th joust, Chianti’s wine expo, Lucca’s candlelit Luminara and more.',
+    '/images/tuscany/chianti-wine-road-vineyard.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `September is when Tuscany's event calendar stops being decorative and starts being a reason to move your dates. In 2026 the month stacks up unusually well, and — rarer still — the dates are already published. The seven worth planning around, all verified against official channels or the organisers' announcements at our 9 August check:
+
+- **Sun 6 September** — the [Giostra del Saracino](/blog/giostra-del-saracino-arezzo-2026/) in Arezzo: the 150th edition of the city's mounted joust.
+- **Mon 7 September** — the **Festa della Rificolona**, Florence's paper-lantern procession.
+- **Thu 10 – Sun 13 September** — the **54th Expo Chianti Classico** in Greve in Chianti, the year's biggest Chianti wine fair.
+- **Sun 13 September** — the **Luminara di Santa Croce** in Lucca: the whole city lit by candles, procession at 20:00, fireworks at 23:30.
+- **Sat 26 September** — the **Carro Matto**, a cart stacked with 1,500 wine flasks rolling through Florence.
+- **Sun 27 September** — the **centenary Festa dell'Uva** in Impruneta, the grape festival's hundredth edition.
+- **Sat 26 September – Sun 4 October** — the **34th BIAF**, Florence's biennial antiques fair at Palazzo Corsini.
+
+Underneath all of it runs [a wine harvest arriving ten to fifteen days early this year](/blog/tuscany-wine-harvest-vendemmia-2026/) — and one administrative note: the national strike moratorium ends 5 September, so [check the strike calendar](/blog/italy-transport-strikes-survival-guide-2026/) for whichever dates you pick.`,
+      },
+      {
+        id: 'why-september',
+        heading: 'Why September earns the fuss',
+        body: `Three currents converge. The heat breaks but the days stay long; the summer crowds thin while everything remains open; and the countryside flips from scenery to work as the vendemmia rolls through the vineyards — in 2026, earlier than usual, which pushes picking scenes into the very weeks these festivals occupy.
+
+The events in this guide are not tourist products invented to fill a calendar. The Giostra is contested by Arezzo's quarters for their own honour; the Luminara is a religious procession five centuries deep in Lucca's identity; the Rificolona is Florentine families walking their children through the streets with lanterns. Visitors are welcome at all of them — but the crowd around you will be substantially local, which is exactly the measure of an event worth crossing a region for.
+
+One planning discipline before the list: **September weekends are the pressure points.** Four of the seven fall on weekends, room prices in the host towns move accordingly, and regional transport runs thinner on Sundays. Book the beds first, then the trains, then the restaurants — in that order.`,
+      },
+      {
+        id: 'giostra',
+        heading: 'Sunday 6 September — Giostra del Saracino, Arezzo',
+        body: `The headline act of the month, and of this century-and-a-half: Arezzo's mounted joust runs its **150th modern edition** at 17:00 in Piazza Grande, eight knights charging a rotating Saracen effigy for the Lancia d'Oro while the four quarters of the city hold their breath.
+
+We have published [a full planning guide to the joust](/blog/giostra-del-saracino-arezzo-2026/) — tickets (€40–100 grandstands, sales from 29 August, online from 31 August), the free-to-watch ceremonial week before it, and the train logistics from Florence and Siena. The short version for this list: Arezzo is an easy direct train from Florence, the piazza is fully ticketed on the day, and the anniversary edition will sell hard. If the joust is your anchor event, secure the seat before you book anything else.`,
+      },
+      {
+        id: 'rificolona',
+        heading: 'Monday 7 September — Festa della Rificolona, Florence',
+        body: `The evening before the Nativity of the Virgin, Florence turns its children loose with **paper lanterns on sticks** — the rificolone — in a procession that traditionally winds towards Piazza Santissima Annunziata. The custom descends from country pilgrims who walked into the city overnight for the feast and its market, lighting their way with lanterns; Florentine street kids mocked the rustics' swinging lights, and the mockery hardened into a festival, complete with the surviving tradition of pea-shooter attempts on other people's lanterns.
+
+It is free, it is gentle, and it is one of the few major Florentine traditions that peaks after dinner — which makes it the easiest event on this list to add to a trip without reorganising anything. Expect the procession and piazza to be at their fullest from dusk; expect handmade lanterns to outnumber bought ones; and if you are travelling with children, this is their event of the month. Verify the evening's timings closer to the date on the city's official channels — the pattern is stable, the precise programme is published near the day.`,
+      },
+      {
+        id: 'expo-chianti',
+        heading: 'Thursday 10 – Sunday 13 September — Expo Chianti Classico, Greve',
+        body: `The **54th Expo Chianti Classico** fills Piazza Matteotti in Greve in Chianti for four days: dozens of producers from across the denomination pouring at stands a few steps apart, plus a programme of cultural events, winemaker encounters and cellar visits around the town. For anyone who wants to understand Chianti Classico without driving between ten estates, this is the most efficient — and most convivial — four days of the year, and the official expochianticlassico.com site carries the producer list and programme.
+
+The practicalities we would want known in advance: the tasting formula historically works on a **paid glass-and-tastings basis** — confirm the current arrangement on the official site rather than assuming a figure. Greve reaches from Florence [without a car via Autolinee Toscane's route 365](/blog/tuscany-wine-harvest-vendemmia-2026/) — the one major wine town with a genuinely easy bus link — but services thin on Sunday, and the festival's final day is a Sunday. If you are basing in Siena, central Chianti is awkward by public transport; the bus via Florence or a driven day are the honest options, and if the second appeals, [the car question has its own guide](/blog/renting-a-car-in-tuscany-2026/).`,
+      },
+      {
+        id: 'luminara',
+        heading: 'Sunday 13 September — Luminara di Santa Croce, Lucca',
+        body: `On the night of 13 September, Lucca switches off and lights up: **thousands of candles line the facades, towers and streets** of the historic centre for the Luminara di Santa Croce, honouring the Volto Santo — the ancient wooden crucifix the city has venerated for a millennium. The solemn procession leaves the Basilica of San Frediano at **20:00**, retracing the legendary transfer of the crucifix to the Cathedral of San Martino; the Mottettone — the festival's choral work — sounds in the cathedral around **21:00**, and a fireworks display closes the night at **23:30**.
+
+It is the most atmospheric single evening on the Tuscan September calendar, and the logistics need respect: Lucca sits about eighty minutes from Florence by regional train, the candlelit procession route packs solid well before 20:00, and the last convenient trains back to Florence leave before the fireworks do. The comfortable version of this evening involves **sleeping in Lucca** — decide early, because the city knows what it has, and the 13th falls on a Sunday in 2026, colliding with the Expo Chianti Classico's final day for anyone trying to do both.`,
+      },
+      {
+        id: 'carro-matto',
+        heading: 'Saturday 26 September — the Carro Matto, Florence',
+        body: `On the fourth Saturday of the month, a **“crazy cart” stacked with 1,500 wine flasks** — built into a swaying pyramid, drawn by white oxen — rolls from the Rufina wine country into central Florence, escorted by the historical procession of the Florentine Republic. It commemorates the centuries when Chianti Rufina's harvest entered the city exactly this way, and it ends with the traditional blessing of the new wine.
+
+As a spectacle it is short, photogenic and free: position along the route through the centre — the cart traditionally pauses around the Duomo and Piazza della Signoria — and let it come to you. It shares its weekend with the BIAF opening and precedes Impruneta's grape festival by a day, which makes the final September weekend the densest of the month for anyone based in Florence. Timings are published by the city close to the date; the fourth-Saturday pattern and the 1,500-flask cart are the fixed points.`,
+      },
+      {
+        id: 'impruneta',
+        heading: 'Sunday 27 September — the centenary Festa dell’Uva, Impruneta',
+        body: `Impruneta's grape festival reaches its **hundredth edition** in 2026, and the town — twenty-odd minutes south of Florence, famous otherwise for its terracotta — takes it seriously: four rioni (districts) spend months building parade floats and choreographing performances on the grape-and-wine theme, competing for the year's title in front of a packed Piazza Buondelmonti on the last Sunday of September.
+
+We covered the centenary in [the vendemmia guide](/blog/tuscany-wine-harvest-vendemmia-2026/) as one of the two anchor events of harvest season, and the advice holds: it is the closest thing Tuscany has to a harvest carnival, the centenary edition will draw the biggest crowd in its history, and access from Florence is a short bus ride that will be at its fullest of the year that afternoon. Go early, expect the town to be pedestrianised, and treat the float parade as the fixed point with timings confirmed on the festival's channels near the date.`,
+      },
+      {
+        id: 'biaf',
+        heading: '26 September – 4 October — BIAF, Florence’s biennial antiques fair',
+        body: `Different register, same calendar: the **34th Biennale Internazionale dell'Antiquariato di Firenze** occupies Palazzo Corsini on the Arno for nine days from 26 September. It is one of the world's major old-master and antiques fairs — museum-grade paintings, sculpture and furniture, much of it for sale to institutions and collectors, all of it viewable by the public for the price of a ticket.
+
+For most travellers it is a half-day of world-class browsing in a Baroque palace that is otherwise rarely open; for anyone with a serious interest in Italian art, it is a destination in itself. It runs on weekdays too, which makes it the month's best **bad-weather insurance**: if rain lands on your Florence days in that window, this is where the day goes. Hours and ticketing are on the fair's official site.`,
+      },
+      {
+        id: 'sagra-culture',
+        heading: 'The undercard: sagra season',
+        body: `Around the headline events, September runs on **sagre** — the small-town food festivals where a village firehouse or football pitch becomes a kitchen dedicated to one thing: porcini, wild boar, ravioli, the last tomatoes, the first grapes. Listings aggregators count well over a dozen across Tuscany in September 2026, with the harvest-belt towns busiest.
+
+We do not list individual sagre here for a simple reason: their dates and menus are published locally, often late, and a guide that names them months ahead is guessing. The reliable method instead: once you know your dates and base, search the town-plus-“sagra” combination for the villages within half an hour of you, or watch the posters that appear on every roundabout the week before. The [food calendar](/blog/tuscan-food-calendar-seasonal-dishes/) explains what September tastes like — porcini arriving, game returning, schiacciata con l'uva in the bakeries — so you know what to hope your nearest sagra is serving.`,
+      },
+      {
+        id: 'building-a-week',
+        heading: 'Building a week around the calendar',
+        body: `The month divides into two natural clusters.
+
+**The first-half cluster (5–13 September)** is the strongest single week of events Tuscany offers all year: position in Florence or Siena, day-trip to **Arezzo on Sunday the 6th** for the joust, catch the **Rificolona on the 7th** in Florence, ride the 365 bus to Greve for a day of the **Expo Chianti Classico (10th–13th)**, and finish in **Lucca on the 13th** for the Luminara — sleeping there if the fireworks matter to you. The early-running harvest means vineyard scenes the whole way through.
+
+**The final-weekend cluster (26–27 September)** suits a Florence base: **Carro Matto Saturday**, **Impruneta's centenary Sunday**, BIAF whenever the weather turns. It is the gentler, cheaper end of the month with the vendemmia still visible in the higher zones.
+
+Both clusters obey the same three rules: book the host-town beds first; check Sunday transport before promising anyone a day trip; and glance at [the strike calendar](/blog/italy-transport-strikes-survival-guide-2026/) once when you book and once the week you travel — the moratorium ends 5 September, and the month's biggest announced action falls on 25–26 September, directly on top of the final-weekend cluster. [Siena's own September rhythm](/blog/siena-in-september-2026/) and [the month-by-month overview](/blog/best-time-to-visit-tuscany/) round out the planning set.`,
+      },
+      {
+        id: 'practicalities',
+        heading: 'Event-month practicalities',
+        body: `A few habits separate the travellers who enjoy festival Tuscany from the ones who endure it.
+
+**Dress for two seasons a day.** September evenings turn cool the moment the sun drops, and four of these seven events peak at or after dusk — the Luminara and Rificolona are entirely evening affairs. A warm layer in the bag is the difference between staying for the fireworks and leaving before them.
+
+**Eat on the event's schedule, not yours.** Festival towns compress lunch service before the spectacle and overflow after it. Book the table when you book the trip for the Luminara and the Giostra; for the sagre, arrive hungry and early, since the good dishes genuinely run out.
+
+**Carry some cash.** Sagra stands, lantern sellers and festival gabelle remain stubbornly cash-first even as the cities go card-everything.
+
+**Protect the return leg.** Every event on this list except BIAF ends in darkness or near it. Before committing to a finale, know your last train or bus — and apply the standing rule from [our day-trip playbooks](/blog/siena-day-trips-without-a-car/): treat the second-to-last connection as your last. Festival crowds move at festival speed, and stations are never as close as they looked at noon.
+
+**Let one thing go.** The 13th of September offers Greve's wine fair and Lucca's candlelit night simultaneously, eighty kilometres apart. The itinerary that tries to take both delivers neither; the month is rich enough to forgive the sacrifice.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research: the Giostra del Saracino date, time and edition from the event's official channels and Arezzo local press (full sourcing in [the dedicated guide](/blog/giostra-del-saracino-arezzo-2026/)); the Expo Chianti Classico dates (10–13 September, Piazza Matteotti, 54th edition) from the fair's official site; the Luminara di Santa Croce programme (procession 20:00 from San Frediano, Mottettone, fireworks 23:30) from Lucca's official tourism pages and festival listings; the Rificolona (7 September) and Carro Matto (fourth Saturday) from Visit Tuscany's published 2026 events overview, with precise timings left to the city's near-date announcements; the Impruneta centenary date (27 September) as verified for our vendemmia guide from the festival's announcements; and the BIAF dates (26 September–4 October, Palazzo Corsini, 34th edition) from the same regional overview. Sagra counts reflect listings aggregators and are described as a pattern, not a programme. Event programmes firm up near their dates — the organisers' official channels supersede everything here. We have no affiliate relationship with any event, venue or operator named; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Most months in Tuscany, events are the seasoning. In September 2026 they are close to the meal: a 150th-anniversary joust, a centenary grape festival, a candlelit city and the region's biggest wine fair, all inside four weeks that also happen to hold the harvest and the year's kindest weather. Pick a cluster, book the beds before the enthusiasm fades, and leave one evening unplanned — September in Tuscany is at its best when it is allowed to interrupt you.`,
+      },
+    ],
+    [
+      { q: 'What are the main events in Tuscany in September 2026?', a: 'The verified headliners: Arezzo’s 150th Giostra del Saracino (6 September), Florence’s Rificolona lantern procession (7 September), the 54th Expo Chianti Classico in Greve (10–13 September), Lucca’s Luminara di Santa Croce (13 September), Florence’s Carro Matto (26 September), Impruneta’s centenary Festa dell’Uva (27 September) and the BIAF antiques biennial (26 September–4 October).' },
+      { q: 'Which September 2026 events are free?', a: 'The Rificolona, the Luminara’s street spectacle and procession, the Carro Matto and Impruneta’s festival atmosphere are free to watch. The Giostra’s piazza is fully ticketed on joust day (its training week is free), the Expo Chianti Classico historically charges for its tasting glass, and BIAF sells entry tickets.' },
+      { q: 'Can you visit the Expo Chianti Classico without a car?', a: 'Yes — Greve in Chianti is the one major Chianti wine town with an easy bus link: Autolinee Toscane’s route 365 from Florence, roughly an hour. Note the fair’s final day (13 September) is a Sunday, when services thin — check the timetable both ways before committing.' },
+      { q: 'Is the Luminara di Santa Croce worth staying overnight in Lucca?', a: 'If the full evening matters, yes. The procession starts at 20:00, the fireworks close the night at 23:30, and convenient last trains back to Florence leave before the finale. Lucca’s hotels know the date — book early.' },
+      { q: 'How does the early 2026 wine harvest affect a September trip?', a: 'Trade press and consortium reports put the 2026 vendemmia ten to fifteen days ahead of the historical average, so picking scenes concentrate in the first half of September in the warmer, lower zones. If watching harvest work is the goal, favour early September and confirm timing with any estate you plan to visit.' },
+      { q: 'Do September strikes affect these events?', a: 'They can: the summer strike moratorium ends 5 September, and at our August check the month’s announced actions included a Rome airport security strike on 10 September and a general strike across 25–26 September — the latter directly on the Carro Matto–Impruneta weekend. Events themselves are unaffected; reaching them is the variable. Check the official strike calendar when you book and again the week you travel.' },
+    ],
+    '2026-08-21',
+    {
+      seoTitle: 'Tuscany September 2026 Events: 7 Festivals With Verified Dates',
+      primaryKeyword: 'tuscany september 2026 events',
+      secondaryKeywords: [
+        'tuscany festivals september 2026',
+        'expo chianti classico 2026',
+        'luminara di santa croce 2026',
+        'rificolona florence 2026',
+        'festa dell uva impruneta 2026',
+        'what to do in tuscany in september',
+      ],
+      imageAlt: 'A road through Chianti vineyards, the wine country that hosts September’s Expo Chianti Classico',
+      canonicalPath: '/blog/tuscany-september-2026-festivals-events',
+      tags: ['tuscany events', 'september in tuscany', 'tuscany festivals', 'wine harvest', 'florence events'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
