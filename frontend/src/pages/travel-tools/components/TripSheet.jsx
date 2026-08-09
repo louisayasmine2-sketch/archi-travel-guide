@@ -2,7 +2,10 @@ import { useState } from "react";
 import { itineraryGenerator, budgetCalculator, packingChecklist, bestTime, ITINERARY_DESTINATIONS } from "@/lib/travelTools";
 import { loadTripPlan, loadBudgetPrefs } from "@/lib/tripPlan";
 import { itineraryToIcs, downloadIcs, dayDateLabel } from "@/lib/icsExport";
-import { FileText, Printer, CalendarDays, CalendarPlus, Wallet, Sun, ListChecks } from "lucide-react";
+import { loadSavedGuides } from "@/lib/savedGuides";
+import { canonical } from "@/lib/seo";
+import { Link } from "react-router-dom";
+import { FileText, Printer, CalendarDays, CalendarPlus, Wallet, Sun, ListChecks, BookmarkCheck } from "lucide-react";
 
 // One printable page composed entirely from the "My Trip" plan and the same
 // verified tables the individual tools use — no new claims, no fetches.
@@ -34,7 +37,8 @@ function buildSheet() {
   ].join(", ");
   const months = bestTime({ destination: plan.destination, preference: "good_weather" });
   const packing = packingChecklist({ season: plan.season, trip_length: plan.trip_length });
-  return { plan, itinerary, budget, assumptions, months, packing, itineraryCapped: plan.trip_length > maxDays };
+  const savedGuides = loadSavedGuides();
+  return { plan, itinerary, budget, assumptions, months, packing, savedGuides, itineraryCapped: plan.trip_length > maxDays };
 }
 
 const SECTION = "rounded-3xl border border-[#F5EDE3] bg-white p-6 shadow-sm";
@@ -43,7 +47,7 @@ const SECTION_TITLE = "flex items-center gap-2 font-serif text-2xl text-[#2C211B
 export default function TripSheet() {
   // Built once when the modal opens — reopen to pick up My Trip changes.
   const [sheet] = useState(buildSheet);
-  const { plan, itinerary, budget, assumptions, months, packing, itineraryCapped } = sheet;
+  const { plan, itinerary, budget, assumptions, months, packing, savedGuides, itineraryCapped } = sheet;
 
   return (
     <div className="font-sans printable-area">
@@ -159,6 +163,24 @@ export default function TripSheet() {
             ))}
           </div>
         </div>
+
+        {/* Saved guides — the visitor's own reading list. The printed sheet
+            shows full URLs so the paper copy still leads somewhere. */}
+        {savedGuides.length > 0 && (
+          <div className={SECTION} data-testid="saved-guides">
+            <h3 className={SECTION_TITLE}><BookmarkCheck className="w-5 h-5 text-[#A84A2E]" /> Saved guides</h3>
+            <ul className="space-y-2">
+              {savedGuides.map((g) => (
+                <li key={g.path} className="text-sm">
+                  <Link to={g.path} className="text-[#2C211B] font-medium hover:text-[#A84A2E] underline underline-offset-4">
+                    {g.title}
+                  </Link>
+                  <span className="block text-xs text-[#657143] mt-0.5">{canonical(g.path)}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
     </div>
   );
