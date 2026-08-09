@@ -1,0 +1,374 @@
+{
+ "/images/archi-hero-poster.jpg": {
+  "width": 1280,
+  "height": 720
+ },
+ "/images/archi-travel-guide-siena-homepage-hero-1.webp": {
+  "width": 1600,
+  "height": 1000
+ },
+ "/images/archi-travel-guide-siena-homepage-hero-2.webp": {
+  "width": 1600,
+  "height": 1000
+ },
+ "/images/archi-travel-guide-siena-homepage-hero-3.webp": {
+  "width": 1600,
+  "height": 1000
+ },
+ "/images/archi-travel-guide-siena-og.webp": {
+  "width": 1200,
+  "height": 630
+ },
+ "/images/florence-airport-to-siena-route-diagram.svg": {
+  "width": 680,
+  "height": 520
+ },
+ "/images/florence-to-siena-by-train-or-bus.webp": {
+  "width": 1200,
+  "height": 630
+ },
+ "/images/florence/boboli-gardens-shaded-paths.webp": {
+  "width": 960,
+  "height": 1200
+ },
+ "/images/florence/brancacci-chapel-masaccio-fresco.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/florence/comfortable-walking-shoes-cobblestones.webp": {
+  "width": 784,
+  "height": 1168
+ },
+ "/images/florence/duomo-dome-climb-early-morning.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/florence/early-morning-duomo-golden-light.webp": {
+  "width": 1200,
+  "height": 800
+ },
+ "/images/florence/feelFlorence-app-crowd-map.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/florence/florence-fontanello-water-refill.webp": {
+  "width": 784,
+  "height": 1168
+ },
+ "/images/florence/florence-golden-hour-sunset-bardini.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/florence/florence-summer-heat-survival-hero.webp": {
+  "width": 900,
+  "height": 1200
+ },
+ "/images/florence/oltrarno-artisan-street.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/florence/san-miniato-al-monte-panoramic-view.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/florence/summer-packing-list-tuscany-florence-hero.webp": {
+  "width": 784,
+  "height": 1168
+ },
+ "/images/florence/tuscany-summer-linen-clothing.webp": {
+  "width": 784,
+  "height": 1168
+ },
+ "/images/florence/tuscany-travel-gadgets-essentials.webp": {
+  "width": 784,
+  "height": 1168
+ },
+ "/images/florence/uffizi-early-morning-july-2026.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/italy/budget-italy-itinerary-florence-rome-venice-hero.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/italy/florence-budget-travel-street-food.webp": {
+  "width": 784,
+  "height": 1168
+ },
+ "/images/italy/rome-budget-travel-pizza-al-taglio.webp": {
+  "width": 784,
+  "height": 1168
+ },
+ "/images/italy/venice-budget-travel-cicchetti-bar.webp": {
+  "width": 784,
+  "height": 1168
+ },
+ "/images/piazza-del-campo-siena.webp": {
+  "width": 1600,
+  "height": 1062
+ },
+ "/images/pici-all-aglione-siena.webp": {
+  "width": 1600,
+  "height": 1200
+ },
+ "/images/siena-cathedral-exterior.webp": {
+  "width": 1600,
+  "height": 1312
+ },
+ "/images/siena-cathedral-interior.webp": {
+  "width": 1080,
+  "height": 1400
+ },
+ "/images/siena-contrada-street.webp": {
+  "width": 931,
+  "height": 1400
+ },
+ "/images/siena-day-trip-from-florence-hero.webp": {
+  "width": 1600,
+  "height": 900
+ },
+ "/images/siena-hero.svg": {
+  "width": 1600,
+  "height": 900
+ },
+ "/images/siena-ztl-parking-diagram.svg": {
+  "width": 680,
+  "height": 600
+ },
+ "/images/siena/01-hero-palazzo-pubblico-torre-del-mangia.webp": {
+  "width": 1600,
+  "height": 900
+ },
+ "/images/siena/02-siena-cathedral-facade.webp": {
+  "width": 1400,
+  "height": 1246
+ },
+ "/images/siena/03-piccolomini-library.webp": {
+  "width": 1000,
+  "height": 1495
+ },
+ "/images/siena/04-orto-de-pecci.webp": {
+  "width": 1600,
+  "height": 1064
+ },
+ "/images/siena/05-piazza-del-campo-panorama.webp": {
+  "width": 844,
+  "height": 500
+ },
+ "/images/siena/06-siena-contrada-street.webp": {
+  "width": 1064,
+  "height": 1600
+ },
+ "/images/siena/07-pici-all-aglione.webp": {
+  "width": 1600,
+  "height": 900
+ },
+ "/images/siena/08-siena-cityscape.webp": {
+  "width": 1600,
+  "height": 900
+ },
+ "/images/siena/best-day-trip-florence-to-siena-piazza-del-campo.webp": {
+  "width": 1200,
+  "height": 800
+ },
+ "/images/siena/florence-to-siena-bus-journey.webp": {
+  "width": 900,
+  "height": 1200
+ },
+ "/images/siena/hidden-gems-siena-tuscany-hero.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/siena/hotel-room-bed-linen-generic.webp": {
+  "width": 1200,
+  "height": 675
+ },
+ "/images/siena/hotel-room-warm-lamp-generic.webp": {
+  "width": 1200,
+  "height": 675
+ },
+ "/images/siena/monteriggioni-walled-village-siena.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/siena/one-day-in-siena-hero.webp": {
+  "width": 1600,
+  "height": 1000
+ },
+ "/images/siena/one-day-in-siena-og.webp": {
+  "width": 1200,
+  "height": 630
+ },
+ "/images/siena/orto-de-pecci-garden-siena.webp": {
+  "width": 1152,
+  "height": 648
+ },
+ "/images/siena/piazza-del-campo-guide-hero.webp": {
+  "width": 1600,
+  "height": 1000
+ },
+ "/images/siena/piazza-del-campo-guide-og.webp": {
+  "width": 1200,
+  "height": 630
+ },
+ "/images/siena/pici-pasta-wild-boar-ragu-siena.webp": {
+  "width": 961,
+  "height": 1200
+ },
+ "/images/siena/santa-maria-della-scala-siena-hero.webp": {
+  "width": 1600,
+  "height": 1000
+ },
+ "/images/siena/santa-maria-della-scala-siena-og.webp": {
+  "width": 1200,
+  "height": 630
+ },
+ "/images/siena/siena-cathedral-facade-inbody.webp": {
+  "width": 1200,
+  "height": 675
+ },
+ "/images/siena/siena-cathedral-guide-hero.webp": {
+  "width": 1600,
+  "height": 1000
+ },
+ "/images/siena/siena-cathedral-guide-og.webp": {
+  "width": 1200,
+  "height": 630
+ },
+ "/images/siena/siena-contrada-street-inbody.webp": {
+  "width": 1064,
+  "height": 598
+ },
+ "/images/siena/siena-contrade-guide-hero.webp": {
+  "width": 1600,
+  "height": 1000
+ },
+ "/images/siena/siena-contrade-guide-og.webp": {
+  "width": 1200,
+  "height": 630
+ },
+ "/images/siena/siena-contrade-street-flags.webp": {
+  "width": 612,
+  "height": 408
+ },
+ "/images/siena/siena-orto-de-pecci-inbody.webp": {
+  "width": 1000,
+  "height": 562
+ },
+ "/images/siena/siena-palazzo-pubblico-inbody.webp": {
+  "width": 1200,
+  "height": 675
+ },
+ "/images/siena/siena-piazza-del-campo-day-trip.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/siena/siena-rooftops-inbody.webp": {
+  "width": 1200,
+  "height": 675
+ },
+ "/images/siena/siena-skyline-view-from-duomo.webp": {
+  "width": 1200,
+  "height": 649
+ },
+ "/images/siena/siena-tuscany-wine-tasting-experience.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/siena/siena-walking-tour-hero.webp": {
+  "width": 1600,
+  "height": 1000
+ },
+ "/images/siena/siena-walking-tour-og.webp": {
+  "width": 1200,
+  "height": 630
+ },
+ "/images/siena/torre-del-mangia-guide-hero.webp": {
+  "width": 1600,
+  "height": 1000
+ },
+ "/images/siena/torre-del-mangia-guide-og.webp": {
+  "width": 1200,
+  "height": 630
+ },
+ "/images/siena/torre-del-mangia-piazza-del-campo.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/siena/where-to-eat-in-siena-hero.webp": {
+  "width": 1600,
+  "height": 1000
+ },
+ "/images/siena/where-to-eat-in-siena-og.webp": {
+  "width": 1200,
+  "height": 630
+ },
+ "/images/tuscany/07-pici-all-aglione.webp": {
+  "width": 1600,
+  "height": 900
+ },
+ "/images/tuscany/08-siena-cityscape.webp": {
+  "width": 1600,
+  "height": 900
+ },
+ "/images/tuscany/7-day-tuscany-itinerary-hero.jpg": {
+  "width": 1200,
+  "height": 800
+ },
+ "/images/tuscany/chianti-wine-road-vineyard.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/tuscany/florence-piazzale-michelangelo-sunset.jpg": {
+  "width": 1200,
+  "height": 800
+ },
+ "/images/tuscany/florence-uffizi-gallery-art.jpg": {
+  "width": 900,
+  "height": 1200
+ },
+ "/images/tuscany/puccini-festival-torre-del-lago-hero.webp": {
+  "width": 1280,
+  "height": 720
+ },
+ "/images/tuscany/san-gimignano-medieval-towers.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/tuscany/tuscany-hidden-gems-monteriggioni.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/tuscany/val-dorcia-cypress-trees-landscape.jpg": {
+  "width": 736,
+  "height": 1104
+ },
+ "/images/venice/burano-free-island-alternative.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/venice/calendar-july-2026-access-fee.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/venice/early-morning-piazza-san-marco.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/venice/hero-venice-tuscany-day-trip.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/venice/map-tuscany-to-venice.webp": {
+  "width": 784,
+  "height": 1168
+ },
+ "/images/venice/overnight-hotel-balcony-exemption.webp": {
+  "width": 1168,
+  "height": 784
+ },
+ "/images/venice/qr-code-check-scene.webp": {
+  "width": 784,
+  "height": 1168
+ }
+}

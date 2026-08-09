@@ -29,6 +29,11 @@ const SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE = JSON.parse(
 const SIENA_CONTENT_CLUSTER = JSON.parse(
   fs.readFileSync(path.join(ROOT, 'src/data/sienaContentCluster.json'), 'utf-8')
 );
+// Measured pixel sizes for every /images/ file, written by
+// scripts/generate-image-dimensions.js earlier in the build chain.
+const IMAGE_DIMENSIONS = readJsonIfExists(
+  path.join(ROOT, 'src/data/imageDimensions.json')
+) || {};
 const SITE_URL = (
   process.env.REACT_APP_SITE_URL ||
   process.env.VITE_SITE_URL ||
@@ -680,7 +685,11 @@ function markdownToHtml(markdown = '') {
         const imgClass = /\.svg(\?|$)/i.test(src)
           ? "w-full h-auto rounded-2xl shadow-sm"
           : "w-full rounded-2xl object-cover aspect-[16/9] shadow-sm";
-        html.push(`<div class="my-8"><img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" class="${imgClass}" loading="lazy" decoding="async" />${captionHtml}</div>`);
+        // Measured width/height (imageDimensions.json) reserve the box before
+        // the file loads — mirrors the same fix in Article.jsx's renderer.
+        const dims = IMAGE_DIMENSIONS[src.split('?')[0]];
+        const dimAttrs = dims ? ` width="${dims.width}" height="${dims.height}"` : '';
+        html.push(`<div class="my-8"><img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" class="${imgClass}" loading="lazy" decoding="async"${dimAttrs} />${captionHtml}</div>`);
         i += 1;
         continue;
       }
