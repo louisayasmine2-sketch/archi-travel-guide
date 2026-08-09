@@ -108,9 +108,22 @@ export default function Tuscany() {
                 Tuscany rewards a slow itinerary. Two hilltowns per day is plenty. Distances look short on a map,
                 but the roads curve, the light is worth stopping for, and lunch takes as long as it needs to.
               </p>
-              <p className="text-xl text-[#657143] leading-relaxed mb-12">
+              <p className="text-xl text-[#657143] leading-relaxed mb-6">
                 Our region coverage starts with Siena and expands out to the Val d’Orcia, Chianti,
                 San Gimignano, Monteriggioni and the Etruscan coast.
+              </p>
+              <p className="text-sm text-[#657143] leading-relaxed mb-12">
+                Driving the countryside routes?{" "}
+                <a
+                  href="/go/discovercars-italy"
+                  target="_blank"
+                  rel="sponsored noopener noreferrer"
+                  className="font-semibold text-[#A84A2E] underline underline-offset-2"
+                >
+                  Compare car rental prices for Italy
+                </a>{" "}
+                before you book, and leave the car outside every walled centre. Affiliate link:
+                booking through it may earn us a commission, at no extra cost to you.
               </p>
             </motion.div>
 

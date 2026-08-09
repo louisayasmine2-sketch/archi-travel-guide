@@ -132,6 +132,16 @@ const STATIC_ROUTES = [
       'Every price and rule shows the date it was last checked.',
     ]),
     exactTitle: true,
+    // The DiscoverCars anchor is a direct affiliate URL by deliberate exception
+    // to the /go/ convention: the programme's homepage-link requirement is
+    // verified against the live page's HTML, where an internal /go/ href would
+    // not read as their link. Documented in docs/AFFILIATE_APPLICATION_WORKLIST.md.
+    // Home.jsx carries the same link for the hydrated page — keep the two in sync.
+    bodyHtml: [
+      '<ul><li>Parking, ZTL permits, tickets and transport for Siena and Tuscany, traced to official sources.</li>',
+      '<li>Every price and rule shows the date it was last checked.</li></ul>',
+      '<p>Driving in? <a href="https://www.discovercars.com/?a_aid=affittacameregliarchi" target="_blank" rel="sponsored noopener noreferrer">Compare car rental prices in Italy</a> before you book — and read our renting-in-Tuscany guide for the licence, ZTL and toll rules first. Affiliate link: booking through it may earn us a commission, at no extra cost to you.</p>',
+    ].join(''),
   },
   // noindex: thin page. Kept out of sitemap.xml and the nav; the route still serves.
   {
@@ -624,6 +634,17 @@ function splitTableLine(line) {
     .map((cell) => cell.trim());
 }
 
+// /go/ slugs whose redirect carries live affiliate tracking; their links must
+// declare rel="sponsored", every other /go/ link stays nofollow until its
+// programme is approved. Mirrors SPONSORED_GO_SLUGS in src/pages/Article.jsx —
+// this script cannot import from src/, keep the two in sync by hand.
+const SPONSORED_GO_SLUGS = new Set([
+  '/go/viator',
+  '/go/viator-siena-san-gimignano-tour',
+  '/go/discovercars',
+  '/go/discovercars-italy',
+]);
+
 function inlineMarkdownToHtml(text = '') {
   const parts = [];
   const re = /\[([^\]]+)\]\(([^)]+)\)|(https?:\/\/[^\s]+)/g;
@@ -641,6 +662,13 @@ function inlineMarkdownToHtml(text = '') {
     const safeLabel = escapeHtml(label);
     if (/^https?:\/\//i.test(href)) {
       parts.push(`<a href="${safeHref}" target="_blank" rel="noopener noreferrer">${safeLabel}</a>`);
+    } else if (href.startsWith('/go/')) {
+      // The static fallback is exactly what crawlers read, so the rel that
+      // matters for link-scheme compliance is this one, not only Article.jsx's.
+      const rel = SPONSORED_GO_SLUGS.has(href.split('?')[0])
+        ? 'sponsored noopener noreferrer'
+        : 'nofollow noopener noreferrer';
+      parts.push(`<a href="${safeHref}" target="_blank" rel="${rel}">${safeLabel}</a>`);
     } else {
       parts.push(`<a href="${safeHref}">${safeLabel}</a>`);
     }

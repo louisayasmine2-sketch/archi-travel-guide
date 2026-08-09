@@ -339,10 +339,29 @@ export default function HomePage() {
                   </h3>
                 </div>
                 <p className="mt-3 text-sm leading-relaxed">
-                  There are no affiliate relationships or paid placements.
+                  No paid placements. The few affiliate links we carry are
+                  marked where they appear and never decide what we recommend.
                 </p>
               </div>
             </div>
+            {/* Direct affiliate URL by deliberate exception to the /go/
+                convention: the programme's homepage-link requirement is checked
+                against the live page's HTML. Mirrored in the static fallback in
+                scripts/generate-static-html.js — keep the two in sync. */}
+            <p className="mt-10 text-sm leading-relaxed text-[#2C211B]">
+              Driving in?{" "}
+              <a
+                href="https://www.discovercars.com/?a_aid=affittacameregliarchi"
+                target="_blank"
+                rel="sponsored noopener noreferrer"
+                className="font-semibold text-[#A84A2E] underline underline-offset-2"
+              >
+                Compare car rental prices in Italy
+              </a>{" "}
+              before you book — and read our licence, ZTL and toll rules first.
+              Affiliate link: booking through it may earn us a commission, at no
+              extra cost to you.
+            </p>
           </div>
         </section>
 

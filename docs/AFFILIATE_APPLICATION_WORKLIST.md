@@ -213,7 +213,7 @@ The repo-side work is then one small PR per programme, same day:
 | --- | --- | --- | --- | --- |
 | 1 | Viator | ✓ Aug 2026 | Approved — pid P00313936 | ✓ 9 Aug 2026 (homepage link; deep links can be added per article via the dashboard's link builder) |
 | 2 | Civitatis |  |  |  |
-| 3 | DiscoverCars |  |  |  |
+| 3 | DiscoverCars | ✓ Aug 2026 | Approved — a_aid=affittacameregliarchi | ✓ 9 Aug 2026 (`/go/discovercars` general + `/go/discovercars-italy` deep link; homepage carries a DIRECT affiliate URL by deliberate exception to the /go/ rule — the 70%→80% special offer requires the text link to be verifiable on the live homepage HTML by 16 Aug 2026) |
 | 4 | Airalo (Impact) |  |  |  |
 | 5 | SafetyWing |  |  |  |
 | 6 | Trainline (Partnerize) |  |  |  |

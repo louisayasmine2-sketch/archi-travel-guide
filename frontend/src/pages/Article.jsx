@@ -23,7 +23,12 @@ import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 // /go/ slugs whose redirect carries live affiliate tracking. Links to these
 // must declare rel="sponsored"; all other /go/ links stay nofollow until the
 // programme behind them is approved. Keep in sync with _redirects.
-const SPONSORED_GO_SLUGS = new Set(["/go/viator", "/go/viator-siena-san-gimignano-tour"]);
+const SPONSORED_GO_SLUGS = new Set([
+  "/go/viator",
+  "/go/viator-siena-san-gimignano-tour",
+  "/go/discovercars",
+  "/go/discovercars-italy",
+]);
 
 const renderInlineMarkdown = (text, keyPrefix) => {
   const parts = [];
