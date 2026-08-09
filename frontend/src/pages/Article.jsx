@@ -38,7 +38,10 @@ const renderInlineMarkdown = (text, keyPrefix) => {
       const linkMatch = token.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
       if (linkMatch) {
         const [, label, href] = linkMatch;
-        const isInternal = href.startsWith("/");
+        // /go/ shortcuts only exist as CDN-level redirects in _redirects, not
+        // as SPA routes — a client-side <Link> navigation would land on the
+        // 404 page. They need a real browser request, like external links.
+        const isInternal = href.startsWith("/") && !href.startsWith("/go/");
         parts.push(
           isInternal ? (
             <Link key={`${keyPrefix}-link-${match.index}`} to={href}>
