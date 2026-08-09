@@ -37,6 +37,12 @@ Slugs refer to `frontend/src/data/articles.js`.
 | 12 | Winter (settembre) timetable change, bus 130/131R | ~Sep 2026 | at-bus.it | `san-gimignano-day-trip-from-siena-2026`, `rome-to-siena-train-bus-2026`, `siena-from-florence-airport-transfer` | Re-check journey times/fares; the fare-refresh PRs (e.g. #37) may already cover parts — check git log first |  |
 | 13 | OPA SI Pass / San Gimignano Pass 2027 prices | ~winter 2026–27 | operaduomo.siena.it / sangimignanomusei | all articles citing €16 / €15 | Site-wide price re-check (grep for "€16" / "€15" in articles.js) |  |
 
+## Commercial triggers
+
+| # | Trigger event | Expected when | Verify against | What to change | Done |
+| --- | --- | --- | --- | --- | --- |
+| 14 | **First affiliate programme approved** | unknown (none applied for as of Aug 2026) | the partner's own dashboard | Same-day switch: tracking parameter into the `/go/` line in `frontend/public/_redirects`, `PROGRAMME_STATUS` to `"live"` in `frontend/src/lib/monetisation.js`, and every "we earn nothing" claim rewritten — `Home.jsx` ("Nobody pays to be listed"), `TravelDeals.jsx` (hero line + "How we chose these"), `Legal.jsx` editorial policy. Full procedure in `MONETIZATION_CHECKLIST.md` |  |
+
 ## Standing re-checks (no single trigger)
 
 - **EES queue reports** (`italy-entry-requirements…`, `rome-to-siena…`): the

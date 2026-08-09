@@ -4,7 +4,13 @@ import { toast } from "sonner";
 import { HOME_SECTION } from "@/constants/testIds";
 import { Mail } from "lucide-react";
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+// Without a backend URL the form would POST to "undefined/api" and hand every
+// reader an error toast. Callers check this before rendering the surrounding
+// section, so an unconfigured deploy shows no sign-up rather than a broken one.
+const BACKEND = process.env.REACT_APP_BACKEND_URL;
+const API = BACKEND ? `${BACKEND}/api` : null;
+
+export const isNewsletterEnabled = Boolean(API);
 
 export default function NewsletterForm({ source = "homepage", compact = false }) {
   const [email, setEmail] = useState("");

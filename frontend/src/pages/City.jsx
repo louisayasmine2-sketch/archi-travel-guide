@@ -3,7 +3,7 @@ import Breadcrumbs from "@/components/common/Breadcrumbs";
 import LazyImage from "@/components/common/LazyImage";
 import FAQAccordion from "@/components/common/FAQAccordion";
 import ArticleCard from "@/components/common/ArticleCard";
-import HotelWidget from "@/components/shared/HotelWidget";
+import PartnerCta from "@/components/common/PartnerCta";
 import SEO from "@/components/common/SEO";
 import { getCity } from "@/data/cities";
 import { getArticle } from "@/data/articles";
@@ -221,6 +221,11 @@ export default function City({ slug: slugProp }) {
                  <FAQAccordion items={city.faqs} />
               </div>
             </section>
+
+            <PartnerCta
+              article={{ slug: city.slug }}
+              partnerIds={["booking", "getyourguide"]}
+            />
           </div>
 
           <aside className="lg:col-span-4 space-y-10">

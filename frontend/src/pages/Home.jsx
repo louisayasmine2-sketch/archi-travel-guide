@@ -18,7 +18,8 @@ import articlesIndex from "@/data/articlesIndex.json";
 
 const articles = articlesIndex;
 const getArticle = (slug) => articlesIndex.find((a) => a.slug === slug);
-import { HOME } from "@/constants/testIds";
+import { HOME, HOME_SECTION } from "@/constants/testIds";
+import NewsletterForm, { isNewsletterEnabled } from "@/components/common/NewsletterForm";
 import TiltCard from "@/components/common/TiltCard";
 import Reveal from "@/components/common/Reveal";
 import ResumeTripBand from "@/components/home/ResumeTripBand";
@@ -382,6 +383,28 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        {/* Newsletter — the only audience this site owns outright */}
+        {isNewsletterEnabled && (
+        <section
+          data-testid={HOME_SECTION.newsletterSection}
+          className="border-t border-[#e8dfd4] bg-white/50 px-4 py-16 sm:px-6 sm:py-20"
+        >
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 className="font-serif text-2xl font-medium text-[#2C211B] sm:text-3xl">
+              Know when a guide changes
+            </h2>
+            <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed">
+              Fares, opening hours and festival dates across Tuscany shift every season, and a guide
+              you read in spring may be wrong by autumn. We will email you when something we have
+              published stops being true. No more than one message a month, and nothing sold on.
+            </p>
+            <div className="mx-auto mt-8 max-w-xl text-left">
+              <NewsletterForm source="homepage" />
+            </div>
+          </div>
+        </section>
+        )}
       </div>
     </>
   );

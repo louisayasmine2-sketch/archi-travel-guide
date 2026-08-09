@@ -54,22 +54,32 @@ source of truth, add outbound delivery once the mailbox is live.
 
 ---
 
-## 2. Google AdSense
+## 2. Monetisation
 
 Full playbook in [`MONETIZATION_CHECKLIST.md`](MONETIZATION_CHECKLIST.md).
 Summary:
 
-- Do not add the AdSense publisher script until approved for the domain.
-- `AdPlaceholder` already labels every slot "Advertisement".
-- Extend `AdPlaceholder` when wiring — do not remove the label.
+- Affiliate plumbing is built and switched off. `PROGRAMME_STATUS` in
+  `src/lib/monetisation.js` is the single switch; `/go/` destinations live in
+  `public/_redirects`. No programme has been applied for and no partner ID
+  exists.
+- Display advertising is deferred until traffic justifies it. There is no
+  `AdPlaceholder` component and no ad script — earlier versions of this file
+  said otherwise.
+- Never insert a tracking or affiliate ID that was not supplied explicitly in
+  that session.
 
 ---
 
-## 3. Analytics (not started)
+## 3. Analytics
 
-No analytics is wired in v1. If you add Plausible / Fathom / GA4 later:
+GA4, Microsoft Clarity and Amplitude are wired behind env vars and load only in
+production after cookie consent (see `src/lib/analytics.js` and the variable
+table in `README.md`). Conversion events: `contact_submit`, `lead_submit`,
+`partner_click`.
 
-- Add the script to `public/index.html`.
+If you add another provider:
+
 - Update `Cookie Policy` and cookie banner copy (see
   `src/components/layout/CookieConsent.jsx` and `src/pages/Legal.jsx > cookie`).
 - Respect the "Decline non-essential" state stored in `localStorage`

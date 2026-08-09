@@ -1,126 +1,119 @@
-# Monetization Checklist
+# Monetisation
 
-Archi Travel Guide is designed for two revenue streams: **display advertising
-(Google AdSense)** and **affiliate travel bookings**. Both are prepared but
-**neither is wired to a real provider in v1** — the UI is in place, the
-placement rules are in place, the compliance safeguards are in place.
+State of play, and the exact procedure for switching commercial links on.
 
-## AdSense — placeholder state
+<!-- audit:ignore -->
+**Verified against the repo on 2026-08-09.** Earlier versions of this file
+described `AdPlaceholder.jsx` and `AffiliateCard.jsx`; neither component exists
+any more, and no ad slot renders anywhere on the site. If you are reading this
+after further changes, re-check the file list before trusting it.
+<!-- /audit:ignore -->
 
-- Component: `src/components/common/AdPlaceholder.jsx`.
-- Every slot renders a dashed frame with the label **"Advertisement"** above it.
-- Slots are placed at low density: hero-adjacent, mid-article, before related
-  articles, and in city/tool sidebars.
-- **No real `<script async src="…adsbygoogle.js">` is loaded.** Do not add it
-  until an AdSense publisher account is approved for `affittacameregliarchi.com`.
+## Where the money is meant to come from
 
-### Compliance rules (already enforced)
+Two streams, in priority order:
 
-- Every ad slot is labeled "Advertisement".
-- Ads never appear in the header, mobile menu, or footer navigation.
-- Ads never look like buttons, download links, or navigation.
-- Density: at most one ad per fold; one on the sidebar; ~2–3 within a long article.
-- No prompts to click ads. No urgency or misleading copy near ad slots.
+1. **Affiliate travel bookings** — accommodation, tours and tickets, transport,
+   eSIM. Fits the content: the Siena and Tuscany guides attract readers who are
+   about to book something.
+2. **Display advertising** — deferred, see below. Not worth the page-weight and
+   quality cost at current traffic.
 
-### To turn AdSense on later
+Neither earns anything today. **No affiliate programme has been applied for, no
+partner ID exists, and no ad script is loaded.** Everything below is the
+plumbing waiting for those two facts to change.
 
-1. Get AdSense approved at https://adsense.google.com.
-2. Add the publisher script to `public/index.html` (inside `<head>`):
-   ```html
-   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXX" crossorigin="anonymous"></script>
-   ```
-3. Extend `AdPlaceholder` to accept a `data-ad-slot` prop and render:
-   ```jsx
-   <ins className="adsbygoogle" style={{display:'block'}}
-        data-ad-client="ca-pub-XXXXX"
-        data-ad-slot={slot}
-        data-ad-format="auto"
-        data-full-width-responsive="true" />
-   ```
-   and call `window.adsbygoogle.push({})` in a `useEffect`.
-4. **Do not remove the "Advertisement" label** — AdSense policy requires clear labeling.
-5. Update the cookie consent copy if you enable personalised advertising (already prepared in `Cookie Policy`).
+## How the plumbing works
 
-## Affiliate travel — ready to wire
+Article prose never contains a commercial link. Partners are resolved from an
+article's category and slug at render time, so a programme change touches two
+files, not 72 article bodies.
 
-- Component: `src/components/common/AffiliateCard.jsx`.
-- Cards render on `/travel-deals` and can be dropped into any editorial page.
-- Each card carries provider, description, an optional tag, and an
-  `href` that opens in a new tab with `rel="sponsored noopener noreferrer"`.
-- Cards display "Affiliate link — Archi may earn a commission at no extra cost
-  to you" underneath the CTA. The page also carries a global disclosure block.
-- Editorial policy (`/editorial-policy`) declares that partnerships never
-  dictate coverage.
+| Piece | File | Job |
+| --- | --- | --- |
+| Programme switch | `frontend/src/lib/monetisation.js` | `PROGRAMME_STATUS` — `"pending"` or `"live"`. Drives the `rel` attribute and whether the block shows an independence note or a disclosure. |
+| Partner registry | `frontend/src/lib/monetisation.js` | The six partners, each with its `/go/` slug, what it solves, and its caveat. No prices — none have been verified. |
+| Intent routing | `frontend/src/lib/monetisation.js` | `partnersForArticle()`. Six intent groups, capped at two partners per article. Returns nothing for food, budget and seasonal explainers — those readers are not at a booking decision. |
+| Rendered block | `frontend/src/components/common/PartnerCta.jsx` | The end-of-article hand-off, plus the note that tracks reality. |
+| Redirect layer | `frontend/public/_redirects` | `/go/{slug}` → destination. The only place a destination URL is written. |
+| Click measurement | `frontend/src/lib/analytics.js` | `trackPartnerClick()` — fires `partner_click` with partner, article slug and programme status. |
 
-### To turn affiliate links on later
+Rendered on: every `/blog/*` article (`Article.jsx`), every Siena cluster guide
+(`SienaContentClusterArticle.jsx`), and `/travel-deals` (its own platform list).
 
-1. Sign up with your partners (booking meta-search, tours, eSIM, insurance,
-   rail, gear).
-2. Add real `href` values (full HTTPS links with your partner parameters) to the resource objects in `src/pages/TravelDeals.jsx` and each Siena article's `monetization.affiliates` list. Until then, `AffiliateCard` shows a non-clickable “Partner link coming soon” state instead of a placeholder link.
-3. Optionally add per-card `Product` JSON-LD once you have real pricing.
+## Turning affiliate links on
+
+Do all four steps on the same day. A half-switch either hides a commercial
+relationship or claims one we do not have — both are trust failures under
+`CLAUDE.md` §2.
+
+1. Get approved by the partner, and get the real tracking parameter.
+2. Add it to the destination in `frontend/public/_redirects`, on the `/go/`
+   line for that partner only. Nowhere else.
+3. Flip `PROGRAMME_STATUS` to `"live"` in `frontend/src/lib/monetisation.js`.
+   `rel` becomes `sponsored` and the independence note becomes a disclosure
+   automatically.
+4. Fix every page that currently states we have no commercial relationship —
+   the list is in the next section. Each one becomes false the moment step 2
+   lands.
+
+Then run both scanners in `tools/`. `check_links_and_images.py` reports any
+tracking parameter it finds on a `/go/` destination; after go-live that report
+is the record of which programmes are live, so read it rather than assuming.
+
+### Claims that must change on go-live day
+
+These say, in the site's own voice, that nothing here is monetised:
+
+- `frontend/src/pages/Home.jsx` — "Nobody pays to be listed / There are no
+  affiliate relationships or paid placements."
+- `frontend/src/pages/TravelDeals.jsx` — the hero line and the "How we chose
+  these" block, both of which state we earn nothing.
+- `frontend/src/components/common/PartnerCta.jsx` — handled by the switch, no
+  manual edit needed.
+- `frontend/src/pages/Legal.jsx` — the editorial policy page.
+
+This list is also registered in `docs/UPDATE_TRIGGERS.md` so it does not rot.
+
+## Display advertising — deferred, and why
+
+Traffic is under 1,000 sessions a month. At that volume AdSense returns a
+rounding error while costing page weight, layout stability and the clean
+reading experience the guides depend on. It also competes for the same click
+the booking hand-off wants.
+
+Revisit when organic traffic is consistently above roughly 10,000 sessions a
+month, and check the current entry requirements of the ad networks at that
+point rather than trusting a number written here. If ads do go in later:
+
+- Every slot must be labelled "Advertisement".
+- Never in the header, mobile menu, or footer navigation.
+- Never styled as a button, download link, or navigation element.
+- At most one above the fold; two to three inside a long article.
+- Update the cookie banner and cookie policy copy for personalised advertising.
 
 ## What must never happen
 
-- ❌ Ads inside the main navigation, mobile menu, or footer.
-- ❌ Ad slots that mimic download buttons or CTAs.
-- ❌ "Click here" / "Sponsored offer just for you" copy next to ad slots.
-- ❌ Removing the "Advertisement" label — it is a legal + policy requirement.
-- ❌ Placing more than one ad above-the-fold.
-- ❌ Affiliate links without a visible disclosure.
+- Inserting an affiliate, tracking or partner ID that was not supplied
+  explicitly in that session. An ID copied from documentation sends commission
+  to a stranger.
+- A disclosure on a page with no live affiliate link, or a live affiliate link
+  with no disclosure. Reality in both directions.
+- A commercial link written into article prose instead of through `/go/`.
+- Stating a price, a discount or an availability claim for a partner. None have
+  been verified, and they change constantly.
+- Paying for or accepting payment for a recommendation. See `/editorial-policy`.
 
-## Revenue quality signals to protect
+## What actually moves revenue right now
 
-- **Editorial independence** — see `/editorial-policy`. Never accept payment
-  for a destination recommendation or itinerary inclusion.
-- **Update dates** — every article and city page shows an "Updated" date.
-  Bump it when facts change; do not fake it for SEO.
-- **Low ad density** — the site quality score matters more than a few extra
-  impressions per session.
+Not the plumbing — the plumbing is done. The gap is demand:
 
-## Behavior analytics — Microsoft Clarity + Amplitude
-
-- Clarity is optional and controlled by `REACT_APP_CLARITY_PROJECT_ID`.
-- Amplitude is optional and controlled by `REACT_APP_AMPLITUDE_API_KEY`.
-- Both load only in production after the cookie banner is accepted.
-- Use it to review heatmaps, scroll depth, dead clicks, rage clicks and session
-  recordings before changing CTA placement.
-- Custom events are sent for `contact_submit` and `lead_submit` so lead pages
-  can be reviewed inside Clarity and Amplitude.
-- Keep behavior analytics findings directional: use them to improve UX and CTA
-  clarity, not to add aggressive popups or misleading ad placements.
-
-## Growth sprint (Monetization + Traffic): Siena fast lane
-
-Siena is your best short-term source for low-to-medium intent traffic.
-
-1. **Confirm article delivery**
-   - Keep `monetization` metadata on each Siena article (`booking`, `leadSubjectHint`, `affiliates`).
-   - Keep one CTA + one fast lead form + 1–3 affiliate cards per Siena guide.
-2. **Sitemap + publish workflow**
-   - Set `REACT_APP_SITE_URL` to your production domain.
-   - Run `npm run sitemap` inside `frontend/`.
-   - Verify `frontend/public/sitemap.xml` includes the 10 new Siena URLs.
-   - Commit all content + sitemap changes together, push to `main`.
-3. **Cloudflare Pages checks**
-   - Confirm deployment is green and canonical URLs are correct.
-   - Open 2–3 sample Siena articles; validate form section and affiliate rendering.
-   - Keep the working checklist in `GSC_INDEXATION_TRACKER.md`.
-4. **Indexation sprint (daily for first 7 days)**
-   - Open Google Search Console → Coverage → Pages → ensure sitemap is submitted.
-   - URL Inspection for each new Siena article and click **Request indexing**.
-   - Track status (Indexed / Excluded / Error) in a simple tracker.
-
-## GSC and indexation tracker template
-
-Use this 5-column sheet (notion, sheets, or Excel):
-
-- URL
-- Last published
-- Date inspected
-- GSC Coverage status
-- CTR + avg position trend (weekly)
-
-### Note about domain age
-
-Domain age alone is not a major failure reason for indexing.
-Freshness, crawl quality, internal links, and user-intent match are usually the stronger factors.
+1. **Indexation.** Both tables in `GSC_INDEXATION_TRACKER.md` are still empty.
+   Nothing about monetisation can be judged without knowing which of the 72
+   articles Google has indexed and what they rank for.
+2. **The newsletter.** Now on the homepage, every article and every cluster
+   guide, posting to `/api/newsletter/subscribe`. It is the only audience the
+   site owns outright and the only one an algorithm change cannot remove.
+3. **Applying to the programmes.** Nothing in this file earns a cent until a
+   partner approves the domain. Accommodation and tours fit the existing
+   content best; transport and eSIM are secondary.

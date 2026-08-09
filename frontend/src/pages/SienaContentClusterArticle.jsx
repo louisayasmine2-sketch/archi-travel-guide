@@ -8,6 +8,8 @@ import cluster from "@/data/sienaContentCluster.json";
 import NotFound from "./NotFound";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 import ToolCue from "@/components/common/ToolCue";
+import PartnerCta from "@/components/common/PartnerCta";
+import NewsletterForm, { isNewsletterEnabled } from "@/components/common/NewsletterForm";
 
 const PREVIEW_SCHEDULED_CONTENT =
   process.env.REACT_APP_SHOW_SCHEDULED_CONTENT === "true";
@@ -248,6 +250,25 @@ export default function SienaContentClusterArticle({ slug }) {
                 ))}
               </div>
             </section>
+          )}
+
+          <PartnerCta article={article} />
+
+          {isNewsletterEnabled && (
+          <section className="mt-14 rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] p-6">
+            <p className="overline">Before you go</p>
+            <h2 className="font-serif mt-2 text-2xl leading-snug">
+              We re-check these guides when the facts change
+            </h2>
+            <p className="mt-3 text-[15px] text-[hsl(var(--charcoal-soft))] leading-relaxed">
+              Ticket prices, opening hours and festival dates in Siena move every season. Leave your
+              email and we will tell you when something in a guide you might be relying on has
+              changed. No more than one message a month, and nothing sold on.
+            </p>
+            <div className="mt-5">
+              <NewsletterForm source={`cluster:${article.route}`} />
+            </div>
+          </section>
           )}
 
           <ToolCue category={article.category} />

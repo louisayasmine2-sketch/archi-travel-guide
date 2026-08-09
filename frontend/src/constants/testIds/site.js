@@ -30,6 +30,7 @@ export const HOME_SECTION = {
 	destinationGrid: 'home-destination-grid',
 	featuredGuides: 'home-featured-guides',
 	toolsPreview: 'home-tools-preview',
+	newsletterSection: 'home-newsletter-section',
 	newsletterForm: 'home-newsletter-form',
 	newsletterEmail: 'home-newsletter-email',
 	newsletterSubmit: 'home-newsletter-submit',
@@ -92,4 +93,10 @@ export const COOKIE = {
 	banner: 'cookie-banner',
 	accept: 'cookie-accept',
 	decline: 'cookie-decline',
+};
+
+export const PARTNER_CTA = {
+	block: 'partner-cta',
+	link: 'partner-cta-link',
+	note: 'partner-cta-note',
 };

@@ -240,6 +240,16 @@ export const trackLeadSubmit = (params = {}) => {
   });
 };
 
+// Outbound clicks on the /go/ layer. Until a partner dashboard exists this is
+// the only measure of whether readers reach a booking at all — without it the
+// monetisation work cannot be judged, only assumed.
+export const trackPartnerClick = (params = {}) => {
+  trackConversionEvent("partner_click", {
+    event_category: "monetisation",
+    ...params,
+  });
+};
+
 export const isGaTrackingEnabled = SHOULD_TRACK;
 export const isClarityTrackingEnabled = SHOULD_LOAD_CLARITY;
 export const isAmplitudeTrackingEnabled = SHOULD_LOAD_AMPLITUDE;

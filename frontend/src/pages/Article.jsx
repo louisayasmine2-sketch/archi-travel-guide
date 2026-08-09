@@ -6,6 +6,9 @@ import ArticleCard from "@/components/common/ArticleCard";
 import LazyImage from "@/components/common/LazyImage";
 import SEO from "@/components/common/SEO";
 import ToolCue from "@/components/common/ToolCue";
+import PartnerCta from "@/components/common/PartnerCta";
+import NewsletterForm, { isNewsletterEnabled } from "@/components/common/NewsletterForm";
+import { partnersForArticle } from "@/lib/monetisation";
 import { breadcrumbSchema, articleSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import { trackLeadSubmit } from "@/lib/analytics";
@@ -199,6 +202,7 @@ export default function Article({ fixedSlug, canonicalPath }) {
   const related = articles.filter((a) => a.slug !== slug && (a.region === article.region || a.category === article.category)).slice(0, 3);
   const monetization = article.monetization || {};
   const bookingCta = monetization.booking;
+  const hasPartnerCta = partnersForArticle(article).length > 0;
   const imageCredit = article.imageCredit;
 
   const path = canonicalPath || article.canonicalPath || `/blog/${article.slug}`;
@@ -323,6 +327,9 @@ export default function Article({ fixedSlug, canonicalPath }) {
               {article.faqs.length > 0 && (
                 <li><a href="#faq" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))]">FAQ</a></li>
               )}
+              {hasPartnerCta && (
+                <li><a href="#booking-next-step" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))]">When you are ready to book</a></li>
+              )}
               {bookingCta && <li><a href="#booking-cta" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))]">Booking help</a></li>}
             </ol>
           </div>
@@ -348,6 +355,9 @@ export default function Article({ fixedSlug, canonicalPath }) {
                 ))}
                 {article.faqs.length > 0 && (
                   <li><a href="#faq" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))] block">FAQ</a></li>
+                )}
+                {hasPartnerCta && (
+                  <li><a href="#booking-next-step" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))] block">When you are ready to book</a></li>
                 )}
                 {bookingCta && <li><a href="#booking-cta" className="text-[hsl(var(--charcoal-soft))] hover:text-[hsl(var(--terracotta))] block">Booking help</a></li>}
               </ol>
@@ -377,6 +387,8 @@ export default function Article({ fixedSlug, canonicalPath }) {
             </section>
           )}
 
+          <PartnerCta article={article} />
+
           {bookingCta && (
             <section id="booking-cta" className="mt-14 scroll-mt-28">
               <div className="rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] p-6">
@@ -400,6 +412,25 @@ export default function Article({ fixedSlug, canonicalPath }) {
                 />
               </div>
             </section>
+          )}
+
+          {/* The one audience we own outright. A reader who finishes a Siena
+              guide is the most qualified subscriber this site will ever get. */}
+          {isNewsletterEnabled && (
+          <section className="mt-14 rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] p-6">
+            <p className="overline">Before you go</p>
+            <h2 className="font-serif mt-2 text-2xl leading-snug">
+              We re-check these guides when the facts change
+            </h2>
+            <p className="mt-3 text-[15px] text-[hsl(var(--charcoal-soft))] leading-relaxed">
+              Fares, opening hours and festival dates in Tuscany move every season. Leave your email
+              and we will tell you when something in a guide you might be relying on has changed.
+              No more than one message a month, and nothing sold on.
+            </p>
+            <div className="mt-5">
+              <NewsletterForm source={`article:${article.slug}`} />
+            </div>
+          </section>
           )}
 
         </div>
