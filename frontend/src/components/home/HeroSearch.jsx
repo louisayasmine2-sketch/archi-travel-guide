@@ -40,7 +40,7 @@ export default function HeroSearch() {
   return (
     <form onSubmit={onSubmit} className="relative mt-6 max-w-xl rise d4">
       <div className="flex items-center gap-2 rounded-full bg-white/95 backdrop-blur border border-white/40 shadow-lg pl-5 pr-2 py-2">
-        <Search className="w-4 h-4 text-[#8A9A5B] shrink-0" />
+        <Search className="w-4 h-4 text-[#657143] shrink-0" />
         <input
           data-testid={HERO.searchInput}
           value={q}
@@ -52,13 +52,13 @@ export default function HeroSearch() {
           aria-expanded={results.length > 0}
           aria-controls="hero-search-listbox"
           aria-autocomplete="list"
-          className="flex-1 bg-transparent text-sm text-[#2C211B] placeholder:text-[#8A9A5B]/80 focus:outline-none min-w-0"
+          className="flex-1 bg-transparent text-sm text-[#2C211B] placeholder:text-[#657143]/80 focus:outline-none min-w-0"
         />
         <button
           type="submit"
           data-testid={HERO.searchSubmit}
           aria-label="Submit search"
-          className="shrink-0 px-5 py-2 rounded-full bg-[#C65A3A] hover:bg-[#A84A2E] text-white text-sm font-medium transition-colors"
+          className="shrink-0 px-5 py-2 rounded-full bg-[#A84A2E] hover:bg-[#8F3E26] text-white text-sm font-medium transition-colors"
         >
           Search
         </button>
@@ -81,7 +81,7 @@ export default function HeroSearch() {
                   i === activeIdx ? "bg-[#FAF7F2]" : "hover:bg-[#FAF7F2]",
                 ].join(" ")}
               >
-                <span className="mt-0.5 text-[10px] font-bold uppercase tracking-wider text-[#8A9A5B] bg-[#F5EDE3] rounded-full px-2 py-0.5 shrink-0">
+                <span className="mt-0.5 text-[10px] font-bold uppercase tracking-wider text-[#657143] bg-[#F5EDE3] rounded-full px-2 py-0.5 shrink-0">
                   {r.type}
                 </span>
                 <span className="text-sm text-[#2C211B] leading-snug line-clamp-2">{r.title}</span>

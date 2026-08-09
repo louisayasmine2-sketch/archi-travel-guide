@@ -31,13 +31,13 @@ class ErrorBoundary extends React.Component {
         <div className="min-h-screen flex items-center justify-center bg-[#FAF7F2] p-6 text-center">
           <div className="max-w-md">
             <h1 className="font-serif text-3xl text-[#2C211B] mb-4">Something went wrong</h1>
-            <p className="text-[#8A9A5B] mb-6">
+            <p className="text-[#657143] mb-6">
               We encountered an unexpected issue while loading this page. This usually happens when the app has been updated in the background.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <button
                 onClick={() => window.location.reload()}
-                className="px-6 py-3 bg-[#C65A3A] text-white rounded-full font-semibold hover:bg-[#A84A2E] transition-colors w-full sm:w-auto"
+                className="px-6 py-3 bg-[#A84A2E] text-white rounded-full font-semibold hover:bg-[#8F3E26] transition-colors w-full sm:w-auto"
               >
                 Refresh Page
               </button>

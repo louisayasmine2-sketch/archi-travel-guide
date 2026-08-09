@@ -33,7 +33,7 @@ export default function TripChip() {
     <Link
       to="/travel-tools?tool=trip-sheet"
       aria-label={`My Trip: ${label} — open trip sheet`}
-      className="flex items-center gap-2 px-3.5 py-2 rounded-full bg-[#C65A3A]/10 border border-[#C65A3A]/30 text-[#C65A3A] text-sm font-medium hover:bg-[#C65A3A] hover:text-white transition-colors whitespace-nowrap"
+      className="flex items-center gap-2 px-3.5 py-2 rounded-full bg-[#A84A2E]/10 border border-[#C65A3A]/30 text-[#A84A2E] text-sm font-medium hover:bg-[#A84A2E] hover:text-white transition-colors whitespace-nowrap"
     >
       <Luggage className="w-4 h-4 shrink-0" />
       {label}

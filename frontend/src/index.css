@@ -10,8 +10,11 @@
     --stone-border: 36 15% 87%;   /* #E2DFD8 */
     --charcoal: 60 3% 17%;        /* #2C2C2A */
     --charcoal-soft: 60 2% 34%;   /* #575754 */
-    --terracotta: 12 51% 55%;     /* #C86B53 */
-    --terracotta-2: 12 45% 45%;   /* #A85540 */
+    /* Text-safe shades: >=4.5:1 on white, ivory and #F5EDE3 (WCAG AA).
+       Components rendering terracotta text on DARK bands use the literal
+       light shade #CE7155 instead — never these vars. */
+    --terracotta: 14 57% 42%;     /* #A84A2E */
+    --terracotta-2: 14 58% 35%;   /* #8F3E26 */
     --olive: 74 12% 40%;          /* #6B705C */
     --sand: 33 51% 64%;           /* #D4A373 */
 
@@ -118,7 +121,9 @@
     @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-[hsl(var(--charcoal))] text-[hsl(var(--charcoal))] font-medium text-sm transition-colors hover:bg-[hsl(var(--charcoal))] hover:text-[hsl(var(--ivory))];
   }
   .link-terra {
-    @apply text-[hsl(var(--terracotta))] hover:text-[hsl(var(--terracotta-2))] underline-offset-4 hover:underline;
+    /* Always underlined: in running text a link must not rely on colour
+       alone to be recognisable (WCAG 1.4.1 / axe link-in-text-block). */
+    @apply text-[hsl(var(--terracotta))] hover:text-[hsl(var(--terracotta-2))] underline underline-offset-4;
   }
   .ad-label {
     @apply text-[10px] uppercase tracking-[0.2em] text-[hsl(var(--charcoal-soft))] border-b border-[hsl(var(--stone-border))] pb-1 mb-3 block;
@@ -132,7 +137,8 @@
   .prose-editorial h4 { @apply text-xl mt-8 mb-2; }
   .prose-editorial ul { @apply list-disc pl-6 my-5 space-y-2 text-[17px]; }
   .prose-editorial ol { @apply list-decimal pl-6 my-5 space-y-2 text-[17px]; }
-  .prose-editorial a { @apply link-terra; }
+  /* Links inside running text must not rely on colour alone (WCAG 1.4.1). */
+  .prose-editorial a { @apply link-terra underline; }
   .prose-editorial blockquote {
     @apply border-l-2 border-[hsl(var(--terracotta))] pl-5 my-7 italic font-serif text-2xl text-[hsl(var(--charcoal))]/85;
   }
@@ -233,6 +239,8 @@
   .siena-cluster-hero figcaption {
     @apply px-4 py-3 text-xs leading-relaxed text-[hsl(var(--charcoal-soft))];
   }
+  /* In-paragraph links need a non-colour cue (WCAG 1.4.1). */
+  .siena-cluster-article a { @apply underline underline-offset-4; }
   .siena-cluster-article .quick-answer {
     @apply my-8 rounded-2xl border border-[hsl(var(--terracotta))]/30 bg-[hsl(var(--terracotta))]/[0.07] p-6;
   }

@@ -286,10 +286,10 @@ export default function Article({ fixedSlug, canonicalPath }) {
 
       {article.image && imageCredit && (
           <div className="max-w-5xl mx-auto px-6 mt-4">
-            <p className="text-xs leading-relaxed text-[#8A9A5B] text-right">
+            <p className="text-xs leading-relaxed text-[#657143] text-right">
               Photo:{" "}
               {imageCredit.source ? (
-                <a href={imageCredit.source} target="_blank" rel="nofollow noopener noreferrer" className="text-[#C65A3A] hover:underline">
+                <a href={imageCredit.source} target="_blank" rel="nofollow noopener noreferrer" className="text-[#A84A2E] hover:underline">
                 {imageCredit.author}
               </a>
             ) : (

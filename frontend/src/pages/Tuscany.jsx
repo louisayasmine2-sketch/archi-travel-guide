@@ -102,13 +102,13 @@ export default function Tuscany() {
           
           <div className="lg:col-span-8">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp}>
-              <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B] mb-2">Overview</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-[#657143] mb-2">Overview</p>
               <h2 className="font-serif text-5xl mb-6 text-[#2C211B]">Slow region, careful planning</h2>
-              <p className="text-xl text-[#8A9A5B] leading-relaxed mb-6">
+              <p className="text-xl text-[#657143] leading-relaxed mb-6">
                 Tuscany rewards a slow itinerary. Two hilltowns per day is plenty. Distances look short on a map,
                 but the roads curve, the light is worth stopping for, and lunch takes as long as it needs to.
               </p>
-              <p className="text-xl text-[#8A9A5B] leading-relaxed mb-12">
+              <p className="text-xl text-[#657143] leading-relaxed mb-12">
                 Our region coverage starts with Siena and expands out to the Val d’Orcia, Chianti,
                 San Gimignano, Monteriggioni and the Etruscan coast.
               </p>
@@ -118,10 +118,10 @@ export default function Tuscany() {
               {sections.map((s, i) => (
                 <motion.div key={s.title} variants={fadeInUp} className="group relative block h-full">
                   <Link to={s.to} className="block h-full bg-white rounded-[2rem] p-8 shadow-lg hover:shadow-[0_30px_60px_rgba(0,0,0,0.15)] transition-all duration-700 hover:-translate-y-4 border border-[#F5EDE3]/50">
-                    <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B] mb-3">Section</p>
-                    <h3 className="font-serif text-3xl text-[#2C211B] mb-4 group-hover:text-[#C65A3A] transition-colors">{s.title}</h3>
-                    <p className="text-sm text-[#8A9A5B] leading-relaxed mb-6">{s.body}</p>
-                    <div className="inline-flex items-center gap-2 text-[#C65A3A] font-semibold group-hover:text-[#A84A2E] transition-colors">
+                    <p className="text-xs font-bold uppercase tracking-widest text-[#657143] mb-3">Section</p>
+                    <h3 className="font-serif text-3xl text-[#2C211B] mb-4 group-hover:text-[#A84A2E] transition-colors">{s.title}</h3>
+                    <p className="text-sm text-[#657143] leading-relaxed mb-6">{s.body}</p>
+                    <div className="inline-flex items-center gap-2 text-[#A84A2E] font-semibold group-hover:text-[#A84A2E] transition-colors">
                       Open <span className="transform transition-transform group-hover:translate-x-1">&rarr;</span>
                     </div>
                   </Link>
@@ -137,9 +137,9 @@ export default function Tuscany() {
                 <div className="absolute top-4 right-4 z-10"><AIRecommendedBadge /></div>
               </div>
               <div className="p-8">
-                <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B] mb-2">Editor’s pick</p>
+                <p className="text-xs font-bold uppercase tracking-widest text-[#657143] mb-2">Editor’s pick</p>
                 <h4 className="font-serif text-2xl text-[#2C211B] mb-3 leading-snug">A slow half-day in Val d’Orcia</h4>
-                <p className="text-sm text-[#8A9A5B] leading-relaxed">Pienza for cheese, Montalcino for Brunello, and a long lunch in between.</p>
+                <p className="text-sm text-[#657143] leading-relaxed">Pienza for cheese, Montalcino for Brunello, and a long lunch in between.</p>
               </div>
             </motion.div>
             

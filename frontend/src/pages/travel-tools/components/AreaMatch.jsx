@@ -3,7 +3,7 @@ import { areaFinder } from "@/lib/travelTools";
 import { Hotel } from "lucide-react";
 
 const SEL = "w-full rounded-2xl border border-[#F5EDE3] bg-white px-4 py-3 text-sm focus:border-[#C65A3A] focus:outline-none transition-colors";
-const LABEL = "text-sm font-medium text-[#8A9A5B] mb-1.5 block";
+const LABEL = "text-sm font-medium text-[#657143] mb-1.5 block";
 
 // Only cities with a real entry in the AREA_MAP table are offered, so a
 // free-text city can never fall through silently to generic advice.
@@ -25,12 +25,12 @@ export default function AreaMatch() {
   return (
     <div className="font-sans">
       <div className="flex items-center gap-3 mb-6">
-        <div className="w-12 h-12 rounded-full bg-[#F5EDE3] flex items-center justify-center text-[#C65A3A]">
+        <div className="w-12 h-12 rounded-full bg-[#F5EDE3] flex items-center justify-center text-[#A84A2E]">
           <Hotel className="w-6 h-6" />
         </div>
         <div>
           <h2 className="font-serif text-3xl md:text-4xl text-[#2C211B] leading-none">Area Match</h2>
-          <p className="text-[#8A9A5B] mt-1">Answer four questions, get the neighbourhood that fits.</p>
+          <p className="text-[#657143] mt-1">Answer four questions, get the neighbourhood that fits.</p>
         </div>
       </div>
 
@@ -78,18 +78,18 @@ export default function AreaMatch() {
 
         <div className="lg:col-span-7">
           <div className="rounded-3xl bg-[#2C211B] text-[#F5EDE3] p-8 shadow-lg h-fit">
-            <p className="text-[#8A9A5B] font-medium uppercase tracking-wider text-sm mb-2">
+            <p className="text-[#657143] font-medium uppercase tracking-wider text-sm mb-2">
               Your match in {result.destination}
             </p>
             <p className="font-serif text-4xl md:text-5xl leading-tight mt-2 text-white">{result.recommended_area}</p>
             <p className="mt-5 text-gray-300 leading-relaxed text-sm">{result.why}</p>
             {result.budget_note && (
               <p className="mt-4 pt-4 border-t border-gray-700 text-sm text-gray-300">
-                <span className="text-[#C65A3A] font-medium">For your budget: </span>{result.budget_note}
+                <span className="text-[#A84A2E] font-medium">For your budget: </span>{result.budget_note}
               </p>
             )}
           </div>
-          <p className="mt-4 text-xs text-[#8A9A5B]">
+          <p className="mt-4 text-xs text-[#657143]">
             Editorial picks by our team — pair this with the Best Area to Stay map for Siena's geography.
           </p>
         </div>

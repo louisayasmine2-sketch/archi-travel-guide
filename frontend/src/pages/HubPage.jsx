@@ -255,7 +255,7 @@ export default function HubPage({ pageKey, routePath }) {
               <Breadcrumbs items={breadcrumbs} />
             </div>
             <p className="mt-6 inline-flex items-center justify-center gap-2 text-sm text-[#F5EDE3]">
-              <Icon className="w-4 h-4 text-[#C65A3A]" />
+              <Icon className="w-4 h-4 text-[#D38066]" />
               <span className="uppercase tracking-[0.2em] font-bold">Travel hub</span>
             </p>
             <h1 className="mt-4 font-serif text-5xl md:text-7xl leading-none tracking-tight drop-shadow-xl">
@@ -277,10 +277,10 @@ export default function HubPage({ pageKey, routePath }) {
                   <h2 className="font-serif text-4xl text-[#2C211B]">About this hub</h2>
                   <AIRecommendedBadge />
                </div>
-               <ul className="space-y-4 text-[#8A9A5B] text-lg">
+               <ul className="space-y-4 text-[#657143] text-lg">
                 {page.bullets.map((b) => (
                   <li key={b} className="flex gap-4">
-                    <span className="text-[#C65A3A] text-2xl font-bold mt-1">•</span>
+                    <span className="text-[#A84A2E] text-2xl font-bold mt-1">•</span>
                     <span className="leading-relaxed">{b}</span>
                   </li>
                 ))}
@@ -297,9 +297,9 @@ export default function HubPage({ pageKey, routePath }) {
             {page.cta.items.map((item, index) => (
               <motion.div key={item.to} initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: index * 0.15 }} className="group">
                 <Link to={item.to} className="block h-full bg-white rounded-[2rem] p-8 shadow-xl hover:shadow-[0_30px_60px_rgba(0,0,0,0.15)] transition-all duration-700 hover:-translate-y-4 border border-[#F5EDE3]/50">
-                  <h3 className="font-serif text-3xl text-[#2C211B] mb-4 group-hover:text-[#C65A3A] transition-colors">{item.label}</h3>
-                  <p className="text-sm text-[#8A9A5B] leading-relaxed mb-6">{item.desc}</p>
-                  <div className="inline-flex items-center gap-2 text-[#C65A3A] font-semibold group-hover:text-[#A84A2E] transition-colors">
+                  <h3 className="font-serif text-3xl text-[#2C211B] mb-4 group-hover:text-[#A84A2E] transition-colors">{item.label}</h3>
+                  <p className="text-sm text-[#657143] leading-relaxed mb-6">{item.desc}</p>
+                  <div className="inline-flex items-center gap-2 text-[#A84A2E] font-semibold group-hover:text-[#A84A2E] transition-colors">
                     Open <span className="transform transition-transform group-hover:translate-x-1">&rarr;</span>
                   </div>
                 </Link>
@@ -311,9 +311,9 @@ export default function HubPage({ pageKey, routePath }) {
 
       <section className="py-24 bg-white relative z-30">
         <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="max-w-4xl mx-auto px-6">
-          <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B] mb-2 text-center">Quick FAQ</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#657143] mb-2 text-center">Quick FAQ</p>
           <h2 className="font-serif text-4xl md:text-5xl mb-6 text-center text-[#2C211B]">Questions travelers ask first</h2>
-          <p className="text-xl text-[#8A9A5B] text-center mb-12">
+          <p className="text-xl text-[#657143] text-center mb-12">
             We keep answers short and practical so planning can move forward quickly.
           </p>
           
@@ -321,7 +321,7 @@ export default function HubPage({ pageKey, routePath }) {
             {page.faqs.map((faq) => (
               <div key={faq.q} className="rounded-2xl border border-[#F5EDE3] bg-[#FAF7F2] p-6 shadow-sm hover:shadow-md transition-shadow">
                 <h4 className="font-serif text-2xl text-[#2C211B] mb-3">{faq.q}</h4>
-                <p className="text-[#8A9A5B] leading-relaxed">{faq.a}</p>
+                <p className="text-[#657143] leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>

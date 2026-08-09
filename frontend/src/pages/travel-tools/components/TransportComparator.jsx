@@ -69,12 +69,12 @@ export default function TransportComparator() {
   return (
     <div className="font-sans">
       <div className="flex items-center gap-3 mb-6">
-        <div className="w-12 h-12 rounded-full bg-[#F5EDE3] flex items-center justify-center text-[#C65A3A]">
+        <div className="w-12 h-12 rounded-full bg-[#F5EDE3] flex items-center justify-center text-[#A84A2E]">
           <Compass className="w-6 h-6" />
         </div>
         <div>
           <h2 className="font-serif text-3xl md:text-4xl text-[#2C211B] leading-none">Transport Comparator</h2>
-          <p className="text-[#8A9A5B] mt-1">Florence → Siena: pick what matters most and compare.</p>
+          <p className="text-[#657143] mt-1">Florence → Siena: pick what matters most and compare.</p>
         </div>
       </div>
 
@@ -90,7 +90,7 @@ export default function TransportComparator() {
               className={["rounded-2xl border px-4 py-3 text-sm text-left transition-all",
                 priority === p.value
                   ? "border-[#C65A3A] bg-white text-[#2C211B] shadow-sm"
-                  : "border-[#F5EDE3] bg-white/60 text-[#8A9A5B] hover:border-[#C65A3A]/50"].join(" ")}
+                  : "border-[#F5EDE3] bg-white/60 text-[#657143] hover:border-[#C65A3A]/50"].join(" ")}
             >
               {p.label}
             </button>
@@ -111,30 +111,30 @@ export default function TransportComparator() {
             >
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-3">
-                  <div className="w-11 h-11 rounded-full bg-[#FAF7F2] grid place-items-center text-[#C65A3A]"><Icon className="w-5 h-5" /></div>
+                  <div className="w-11 h-11 rounded-full bg-[#FAF7F2] grid place-items-center text-[#A84A2E]"><Icon className="w-5 h-5" /></div>
                   <h3 className="font-serif text-2xl text-[#2C211B]">{o.name}</h3>
                 </div>
                 {recommended && (
-                  <span className="flex items-center gap-1.5 bg-[#C65A3A] text-white text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-full">
+                  <span className="flex items-center gap-1.5 bg-[#A84A2E] text-white text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-full">
                     <Check className="w-3.5 h-3.5" /> Best match
                   </span>
                 )}
               </div>
               <dl className="space-y-3 text-sm">
                 <div>
-                  <dt className="text-[#8A9A5B] font-medium uppercase tracking-wider text-xs mb-0.5">Typical planning time</dt>
+                  <dt className="text-[#657143] font-medium uppercase tracking-wider text-xs mb-0.5">Typical planning time</dt>
                   <dd className="text-[#2C211B]">{o.time}</dd>
                 </div>
                 <div>
-                  <dt className="text-[#8A9A5B] font-medium uppercase tracking-wider text-xs mb-0.5">Arrival in Siena</dt>
+                  <dt className="text-[#657143] font-medium uppercase tracking-wider text-xs mb-0.5">Arrival in Siena</dt>
                   <dd className="text-[#2C211B]">{o.arrival}</dd>
                 </div>
                 <div>
-                  <dt className="text-[#8A9A5B] font-medium uppercase tracking-wider text-xs mb-0.5">Best for</dt>
+                  <dt className="text-[#657143] font-medium uppercase tracking-wider text-xs mb-0.5">Best for</dt>
                   <dd className="text-[#2C211B]">{o.bestFor}</dd>
                 </div>
                 <div>
-                  <dt className="text-[#8A9A5B] font-medium uppercase tracking-wider text-xs mb-0.5">Main drawback</dt>
+                  <dt className="text-[#657143] font-medium uppercase tracking-wider text-xs mb-0.5">Main drawback</dt>
                   <dd className="text-[#2C211B]">{o.drawback}</dd>
                 </div>
               </dl>
@@ -143,11 +143,11 @@ export default function TransportComparator() {
         })}
       </div>
 
-      <div className="mt-6 rounded-2xl bg-[#FAF7F2] border border-[#F5EDE3] p-5 text-sm text-[#8A9A5B] leading-relaxed">
+      <div className="mt-6 rounded-2xl bg-[#FAF7F2] border border-[#F5EDE3] p-5 text-sm text-[#657143] leading-relaxed">
         These are planning ranges, not schedules — regional services, engineering works, strikes, Sundays, holidays,
         traffic and temporary stop changes can alter the trip. Fact-checked {guide.factChecked}; always confirm your
         exact date with the official operator.{" "}
-        <Link to="/florence-to-siena-by-train-or-bus" className="text-[#C65A3A] font-medium hover:underline">
+        <Link to="/florence-to-siena-by-train-or-bus" className="text-[#A84A2E] font-medium hover:underline">
           Read the full Florence → Siena guide →
         </Link>
       </div>
@@ -159,9 +159,9 @@ export default function TransportComparator() {
           const Icon = g.icon;
           return (
             <div key={g.title} className="rounded-3xl border border-[#F5EDE3] bg-white p-6 shadow-sm">
-              <div className="w-11 h-11 rounded-full bg-[#FAF7F2] grid place-items-center text-[#C65A3A] mb-4"><Icon className="w-5 h-5" /></div>
+              <div className="w-11 h-11 rounded-full bg-[#FAF7F2] grid place-items-center text-[#A84A2E] mb-4"><Icon className="w-5 h-5" /></div>
               <h4 className="font-serif text-xl text-[#2C211B]">{g.title}</h4>
-              <p className="text-sm text-[#8A9A5B] mt-2 leading-relaxed">{g.body}</p>
+              <p className="text-sm text-[#657143] mt-2 leading-relaxed">{g.body}</p>
             </div>
           );
         })}

@@ -101,9 +101,9 @@ export default function Header() {
             className="flex items-center gap-3 shrink-0 group"
             aria-label="Archi Travel Guide — home"
           >
-            <span className="w-10 h-10 rounded-full bg-[#C65A3A] text-white grid place-items-center font-serif text-2xl leading-none group-hover:scale-105 transition-transform duration-300 shadow-md">A</span>
-            <span className="font-serif text-xl lg:text-2xl leading-none tracking-tight group-hover:text-[#C65A3A] transition-colors duration-300">
-              Archi <span className="text-[#8A9A5B]">Travel Guide</span>
+            <span className="w-10 h-10 rounded-full bg-[#A84A2E] text-white grid place-items-center font-serif text-2xl leading-none group-hover:scale-105 transition-transform duration-300 shadow-md">A</span>
+            <span className="font-serif text-xl lg:text-2xl leading-none tracking-tight group-hover:text-[#A84A2E] transition-colors duration-300">
+              Archi <span className="text-[#657143]">Travel Guide</span>
             </span>
           </Link>
 
@@ -117,13 +117,13 @@ export default function Header() {
                   [
                     "text-sm font-medium tracking-wide transition-colors duration-300 relative group",
                     isActive
-                      ? "text-[#C65A3A]"
-                      : "text-[#2C211B] hover:text-[#C65A3A]",
+                      ? "text-[#A84A2E]"
+                      : "text-[#2C211B] hover:text-[#A84A2E]",
                   ].join(" ")
                 }
               >
                 {l.label}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#C65A3A] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#A84A2E] transition-all duration-300 group-hover:w-full"></span>
               </NavLink>
             ))}
           </nav>
@@ -156,7 +156,7 @@ export default function Header() {
                   type="submit"
                   data-testid={NAV.searchSubmit}
                   aria-label="Submit search"
-                  className="w-10 h-10 rounded-full bg-[#C65A3A] text-white flex items-center justify-center hover:bg-[#A84A2E] transition-all shadow-sm shrink-0"
+                  className="w-10 h-10 rounded-full bg-[#A84A2E] text-white flex items-center justify-center hover:bg-[#8F3E26] transition-all shadow-sm shrink-0"
                 >
                   <Search className="w-4 h-4" />
                 </button>
@@ -178,7 +178,7 @@ export default function Header() {
                             i === activeIdx ? "bg-[#FAF7F2]" : "hover:bg-[#FAF7F2]",
                           ].join(" ")}
                         >
-                          <span className="mt-0.5 text-[10px] font-bold uppercase tracking-wider text-[#8A9A5B] bg-[#F5EDE3] rounded-full px-2 py-0.5 shrink-0">
+                          <span className="mt-0.5 text-[10px] font-bold uppercase tracking-wider text-[#657143] bg-[#F5EDE3] rounded-full px-2 py-0.5 shrink-0">
                             {r.type}
                           </span>
                           <span className="text-sm text-[#2C211B] leading-snug line-clamp-2">{r.title}</span>
@@ -190,7 +190,7 @@ export default function Header() {
                         type="button"
                         data-testid="nav-search-see-all"
                         onMouseDown={(e) => { e.preventDefault(); goTo(`/blog?q=${encodeURIComponent(q.trim())}`); }}
-                        className="w-full text-left px-4 py-2.5 text-xs text-[#8A9A5B] hover:bg-[#FAF7F2]"
+                        className="w-full text-left px-4 py-2.5 text-xs text-[#657143] hover:bg-[#FAF7F2]"
                       >
                         See all results for “{q.trim()}” →
                       </button>
@@ -204,7 +204,7 @@ export default function Header() {
                 onClick={() => setSearchOpen(true)}
                 aria-label="Search the site"
                 aria-expanded={searchOpen}
-                className="w-10 h-10 rounded-full border border-[#F5EDE3] flex items-center justify-center hover:border-[#C65A3A] hover:text-[#C65A3A] hover:bg-white transition-all shadow-sm"
+                className="w-10 h-10 rounded-full border border-[#F5EDE3] flex items-center justify-center hover:border-[#C65A3A] hover:text-[#A84A2E] hover:bg-white transition-all shadow-sm"
               >
                 <Search className="w-4 h-4" />
               </button>
@@ -214,7 +214,7 @@ export default function Header() {
             {mounted && (
               <button
                 onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-                className="w-10 h-10 rounded-full border border-[#F5EDE3] flex items-center justify-center hover:border-[#C65A3A] hover:text-[#C65A3A] hover:bg-white transition-all shadow-sm"
+                className="w-10 h-10 rounded-full border border-[#F5EDE3] flex items-center justify-center hover:border-[#C65A3A] hover:text-[#A84A2E] hover:bg-white transition-all shadow-sm"
                 aria-label="Toggle theme"
               >
                 {theme === 'dark' ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}

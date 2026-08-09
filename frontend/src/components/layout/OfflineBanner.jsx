@@ -27,7 +27,7 @@ export default function OfflineBanner() {
       role="status"
       className="bg-[#2C211B] text-[#F5EDE3] text-xs sm:text-sm text-center py-2 px-4 flex items-center justify-center gap-2"
     >
-      <WifiOff className="w-3.5 h-3.5 text-[#C65A3A] shrink-0" />
+      <WifiOff className="w-3.5 h-3.5 text-[#D38066] shrink-0" />
       You're offline — pages and tools you've already used are still available. Live rates and maps will return when you reconnect.
     </div>
   );

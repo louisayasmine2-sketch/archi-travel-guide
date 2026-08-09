@@ -32,7 +32,7 @@ export default function PlanStrip({ destination }) {
         <div className="rounded-3xl border border-[#C65A3A]/25 bg-white px-6 py-5 shadow-sm">
           <div className="flex flex-col sm:flex-row sm:items-center gap-4">
             <div className="flex items-center gap-3 flex-1 min-w-0">
-              <div className="w-10 h-10 rounded-full bg-[#C65A3A]/10 grid place-items-center text-[#C65A3A] shrink-0">
+              <div className="w-10 h-10 rounded-full bg-[#A84A2E]/10 grid place-items-center text-[#A84A2E] shrink-0">
                 <Luggage className="w-5 h-5" />
               </div>
               <p className="font-serif text-lg text-[#2C211B] leading-tight">
@@ -47,13 +47,13 @@ export default function PlanStrip({ destination }) {
             </div>
             <Link
               to={match ? "/travel-tools?tool=trip-sheet" : "/travel-tools"}
-              className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 rounded-2xl bg-[#C65A3A] hover:bg-[#A84A2E] text-white text-sm font-medium transition-colors"
+              className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 rounded-2xl bg-[#A84A2E] hover:bg-[#8F3E26] text-white text-sm font-medium transition-colors"
             >
               {match ? "Open your Trip Sheet" : `Plan your ${destination} trip`} <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
           {match && tripOverlapsPalio(match) && (
-            <p className="mt-4 text-xs leading-relaxed text-[#8A9A5B] bg-[#FAF7F2] rounded-2xl px-4 py-3">
+            <p className="mt-4 text-xs leading-relaxed text-[#657143] bg-[#FAF7F2] rounded-2xl px-4 py-3">
               <span className="font-semibold text-[#2C211B]">Your dates overlap the Palio: </span>
               {PALIO_NOTE.text} <span className="opacity-70">(Checked {PALIO_NOTE.checked})</span>
             </p>

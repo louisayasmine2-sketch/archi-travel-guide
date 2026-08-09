@@ -106,11 +106,11 @@ export default function Siena() {
           <div className="lg:col-span-8">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp}>
               <div className="flex items-center gap-3 mb-2">
-                <p className="text-xs font-bold uppercase tracking-widest text-[#8A9A5B]">Chapters</p>
+                <p className="text-xs font-bold uppercase tracking-widest text-[#657143]">Chapters</p>
                 <AIRecommendedBadge />
               </div>
               <h2 className="font-serif text-5xl mb-6 text-[#2C211B]">The Siena canon</h2>
-              <p className="text-xl text-[#8A9A5B] leading-relaxed mb-12">
+              <p className="text-xl text-[#657143] leading-relaxed mb-12">
                 Everything you need to plan a first trip — and a second one. We prioritise clarity over completeness: our guides tell you what to skip, not just what to see.
               </p>
             </motion.div>
@@ -119,9 +119,9 @@ export default function Siena() {
               {chapters.map((c) => (
                 <motion.div key={c.title} variants={fadeInUp} className="group relative block h-full">
                   <Link to={c.to} className="block h-full bg-white rounded-[2rem] p-8 shadow-lg hover:shadow-[0_30px_60px_rgba(0,0,0,0.15)] transition-all duration-700 hover:-translate-y-4 border border-[#F5EDE3]/50">
-                    <h3 className="font-serif text-3xl text-[#2C211B] mb-4 group-hover:text-[#C65A3A] transition-colors">{c.title}</h3>
-                    <p className="text-sm text-[#8A9A5B] leading-relaxed mb-6">{c.blurb}</p>
-                    <div className="inline-flex items-center gap-2 text-[#C65A3A] font-semibold group-hover:text-[#A84A2E] transition-colors">
+                    <h3 className="font-serif text-3xl text-[#2C211B] mb-4 group-hover:text-[#A84A2E] transition-colors">{c.title}</h3>
+                    <p className="text-sm text-[#657143] leading-relaxed mb-6">{c.blurb}</p>
+                    <div className="inline-flex items-center gap-2 text-[#A84A2E] font-semibold group-hover:text-[#A84A2E] transition-colors">
                       Read <span className="transform transition-transform group-hover:translate-x-1">&rarr;</span>
                     </div>
                   </Link>
@@ -141,7 +141,7 @@ export default function Siena() {
                 </div>
               </div>
               <div className="p-8">
-                <p className="text-sm text-[#8A9A5B] leading-relaxed">
+                <p className="text-sm text-[#657143] leading-relaxed">
                   We will add an embedded walk-through only after a verified Siena video is available.
                 </p>
               </div>
