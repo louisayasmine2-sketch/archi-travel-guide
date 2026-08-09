@@ -52,6 +52,7 @@ const ORGANIZATION_JSONLD = {
   "@type": "Organization",
   "@id": `${SITE_URL}/#organization`,
   name: SITE_NAME,
+  legalName: "PT Archi Travel Guide",
   alternateName: BRAND_ALTERNATE_NAMES,
   url: SITE_URL,
   brand: {

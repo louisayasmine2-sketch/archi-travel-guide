@@ -8,6 +8,7 @@ const DOCS = {
     title: "Privacy Policy",
     intro: "We collect only what we need to run this website and improve our editorial guides. This policy explains what that means in practice.",
     sections: [
+      { h: "Who we are", b: "This website is operated by PT Archi Travel Guide, a company registered in Indonesia (business registration no. 0908260024539), based in Tulungagung. For anything in this policy, contact contact@affittacameregliarchi.com." },
       { h: "What we collect", b: "Newsletter signups (email + source page), contact form submissions (name, email, subject, message), and analytics data such as pages viewed, referrer, approximate country, clicks, scroll depth and session behavior. We do not sell personal data. Ever." },
       { h: "Cookies", b: "We use a small set of first-party cookies for functionality and, where you consent, analytics cookies. See our Cookie Policy for the full list." },
       { h: "Legal bases", b: "We rely on your consent for analytics cookies. You can withdraw it at any time via the cookie banner." },
@@ -28,14 +29,15 @@ const DOCS = {
     title: "Terms of Use",
     intro: "By using Archi Travel Guide you agree to these terms.",
     sections: [
+      { h: "Operator", b: "This website is operated by PT Archi Travel Guide, a company registered in Indonesia (business registration no. 0908260024539), based in Tulungagung." },
       { h: "Editorial nature", b: "The content on this site is editorial and provided for planning purposes. We check facts diligently, but travel details change — always double-check with official sources before booking." },
-      { h: "Intellectual property", b: "All original text is © Archi Travel Guide. Images used are either licensed or under an appropriate open license." },
+      { h: "Intellectual property", b: "All original text is © PT Archi Travel Guide. Images used are either licensed or under an appropriate open license." },
       { h: "Liability", b: "We provide guides in good faith. We are not liable for booking issues, weather changes, transport delays, or other trip disruptions." },
     ],
   },
   editorial: {
     title: "Editorial Policy",
-    intro: "The rules we hold ourselves to when writing and updating guides.",
+    intro: "The rules we hold ourselves to when writing and updating guides. This website is operated by PT Archi Travel Guide, a company registered in Indonesia (business registration no. 0908260024539), based in Tulungagung.",
     sections: [
       { h: "Human-written", b: "All articles are written by our editorial team, not by AI. We may use AI as a research assistant, but every published sentence is authored by a human." },
       { h: "Fact-checking", b: "Prices, opening hours, transport frequencies and event dates are checked at least twice a year — and on every major update." },

@@ -171,6 +171,7 @@ const STATIC_ROUTES = [
   },
   page('/about', 'About Archi Travel Guide', 'Learn how Archi Travel Guide writes independent destination guides, travel tools and monetized recommendations.', 'About Archi Travel Guide', [
     'Archi Travel Guide is an independent editorial travel planning platform.',
+    'This website is operated by PT Archi Travel Guide, a company registered in Indonesia (business registration no. 0908260024539), based in Tulungagung.',
     'We do not claim to represent any previous business associated with this domain.',
     'Commercial relationships are disclosed and do not decide editorial coverage.',
   ]),
@@ -543,6 +544,7 @@ function organizationJsonLd() {
     '@type': 'Organization',
     '@id': `${SITE_URL}/#organization`,
     name: SITE_NAME,
+    legalName: 'PT Archi Travel Guide',
     alternateName: BRAND_ALTERNATE_NAMES,
     url: SITE_URL,
     brand: { '@type': 'Brand', name: SITE_NAME },

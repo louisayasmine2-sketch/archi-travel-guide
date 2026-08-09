@@ -111,7 +111,7 @@ export default function Footer() {
             <li><Link to="/terms-of-service" className="hover:text-[#D38066] transition-colors duration-300">Terms of Service</Link></li>
           </ul>
           <p className="text-xs text-[#F5EDE3]/60 mt-8 leading-relaxed">
-            © 2026 Archi Travel Guide<br/>Independent Editorial
+            © 2026 PT Archi Travel Guide<br/>Independent Editorial
           </p>
         </div>
       </div>
