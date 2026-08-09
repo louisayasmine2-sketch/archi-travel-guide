@@ -6949,6 +6949,15 @@ The 2026 edition — the event’s twenty-first — has just passed as we write,
 Logistics are rural-Tuscan standard: Lajatico is a car destination, the concerts end late on unlit roads, and the smart versions either sleep nearby or build the evening into [a slower western-Tuscany loop](/blog/san-gimignano-day-trip-from-siena-2026) — San Gimignano and Volterra sit conveniently between Lajatico and the Siena side of the region.`,
       },
       {
+        id: 'assassins-creed-monteriggioni',
+        heading: 'Assassin’s Creed in Monteriggioni: the town Ezio called home',
+        body: `The set-jetting pilgrimage nobody writes about arrives by controller, not cinema. In **Assassin's Creed II** (2009), the walled town of Monteriggioni is Ezio Auditore's home base — his family takes refuge there in 1477 after the executions in Florence, and players spend hours rebuilding its shops and church from the **Villa Auditore** before the sequel, *Brotherhood*, opens with Cesare Borgia's army besieging the town in January 1500. For a generation of players, this tiny Sienese outpost is one of the most familiar places in Italy — visited, in a sense, before they ever board a plane.
+
+The real town rewards the pilgrimage with unusual honesty. Ubisoft — working with an architectural historian — modelled Monteriggioni faithfully: the wall circuit of about **570 metres and all fourteen towers** survives nearly intact, exactly the crown-of-towers silhouette the game renders (and that **Dante** described in the *Inferno* seven centuries before Ubisoft did). Built by Siena between **1213 and 1219** as a fist raised toward Florence, its two gates still face Florence and Rome respectively. The church Ezio restores corresponds closely to the real **Santa Maria** on the little piazza. What you will not find is the Villa Auditore itself: the game's grand house at the head of the town is an invention, and the version of Monteriggioni that bustles with hundreds of townsfolk is enlarged for play — the real borgo counts only a few dozen residents inside its walls and crosses end to end in five minutes.
+
+The visit, practically: the **wall-walk plus the small arms exhibition** ("Monteriggioni in Arme") is sold as one ticket at **€4** (reduced €3.50), covering two short walkway sections rather than the full circuit — recent seasons have sometimes opened only part of the southern stretch, and the walkways close entirely during the July medieval festival, so check with the tourist office on the day. The town leans into the connection cheerfully: the tourist office has published its own Assassin's Creed itinerary, Ubisoft once held an official fan day here, and the souvenir shops stock the expected hidden-blade merchandise. Getting there from Siena is [the 130 or 131 bus to Colonna di Monteriggioni](/blog/tuscany-without-a-car-2026/) — about twenty minutes, not every run stops, and the walk up from the stop is 500 uphill metres. Fan reviews split exactly as you would guess: "pilgrimage" from the faithful, "smaller than I expected" from everyone — and both are true at once, which is rather the charm.`,
+      },
+      {
         id: 'the-film-day',
         heading: 'The one-day film itinerary from Siena',
         body: `Every location above except Lajatico fits a single, unhurried Val d’Orcia day — the same loop [our standing guide](/blog/val-dorcia-day-trip-from-siena-2026) recommends, re-scored for cinema.
@@ -7015,6 +7024,8 @@ Drivers own this day; car-free travellers should aim the [bus-based version](/bl
         'quantum of solace siena',
         'teatro del silenzio bocelli 2027',
         'set jetting italy',
+        'monteriggioni assassins creed',
+        'assassins creed 2 real town italy',
       ],
       imageAlt: 'Cypress-lined road through the Val d’Orcia, the landscape used in Gladiator’s Elysian Fields',
       canonicalPath: '/blog/tuscany-on-screen-film-locations-2026',
