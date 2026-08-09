@@ -1,5 +1,15 @@
 const SITE_URL = "https://affittacameregliarchi.com";
 const SITE_NAME = "Archi Travel Guide";
+// Brand aliases for the site-name/brand queries this domain inherits: the
+// legacy guesthouse name and the bare domain token people actually type.
+// Fed to schema.org alternateName on both WebSite and Organization so Google
+// can match "affittacameregliarchi" searches to this site without changing
+// the displayed site name.
+const BRAND_ALTERNATE_NAMES = [
+  "Affittacamere Gli Archi",
+  "affittacameregliarchi",
+  "affittacameregliarchi.com",
+];
 const SITE_TAGLINE = "Siena travel planning, guides, and practical itineraries";
 const DEFAULT_DESCRIPTION =
   "Discover practical travel guidance for Siena and Tuscany: where to stay, what to do, how to plan transport, and budget-friendly trip planning.";
@@ -42,6 +52,7 @@ const ORGANIZATION_JSONLD = {
   "@type": "Organization",
   "@id": `${SITE_URL}/#organization`,
   name: SITE_NAME,
+  alternateName: BRAND_ALTERNATE_NAMES,
   url: SITE_URL,
   brand: {
     "@type": "Brand",
@@ -55,6 +66,7 @@ const websiteSchema = () => ({
   "@id": `${SITE_URL}/#website`,
   url: SITE_URL,
   name: SITE_NAME,
+  alternateName: BRAND_ALTERNATE_NAMES,
   description: DEFAULT_DESCRIPTION,
   // /blog?q= is the real, filtering search results page — see Blog.jsx.
   potentialAction: {

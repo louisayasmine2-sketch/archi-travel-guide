@@ -493,6 +493,15 @@ function destinationJsonLd(route, url) {
 // @ids mirror websiteSchema() / ORGANIZATION_JSONLD in src/lib/seo.js (this
 // script is dependency-free and cannot import them): identical @ids let the
 // static and client-rendered copies dedupe into one entity.
+// Keep identical to BRAND_ALTERNATE_NAMES in src/lib/seo.js — the brand
+// aliases this domain inherits (legacy guesthouse name + the bare domain
+// token) so brand-query searches match the site without renaming it.
+const BRAND_ALTERNATE_NAMES = [
+  'Affittacamere Gli Archi',
+  'affittacameregliarchi',
+  'affittacameregliarchi.com',
+];
+
 function websiteJsonLd() {
   return {
     '@context': 'https://schema.org',
@@ -500,6 +509,7 @@ function websiteJsonLd() {
     '@id': `${SITE_URL}/#website`,
     url: SITE_URL,
     name: SITE_NAME,
+    alternateName: BRAND_ALTERNATE_NAMES,
     description: SITE_DESCRIPTION,
     potentialAction: {
       '@type': 'SearchAction',
@@ -518,6 +528,7 @@ function organizationJsonLd() {
     '@type': 'Organization',
     '@id': `${SITE_URL}/#organization`,
     name: SITE_NAME,
+    alternateName: BRAND_ALTERNATE_NAMES,
     url: SITE_URL,
     brand: { '@type': 'Brand', name: SITE_NAME },
   };

@@ -233,7 +233,7 @@ const allArticles = [
       {
         "id": "tuscany-month-by-month",
         "heading": "Tuscany month by month",
-        "body": "### Tuscany in January\n\nJanuary is quiet, cool, and well suited to museums, churches, food, and unhurried city walks. Rural landscapes can look stark rather than postcard-green, but the absence of summer crowds reveals a more everyday side of Tuscany.\n\nBase yourself in a city with year-round services. Bring a warm layer, rain protection, and shoes that handle wet stone. Our dedicated [Tuscany in January guide](/blog/tuscany-in-january-2027/) covers the winter sales, the thermal springs, and the low-season playbook in depth.\n\n### Tuscany in February\n\nFebruary remains low season, with Carnival events bringing colour to parts of the region. Viareggio is the best-known Carnival destination, but dates vary each year.\n\nThis month can work for a short city break or food-focused weekend. Do not expect every agriturismo or countryside experience to be operating. For the Viareggio parade calendar, the Carnival sweets and the month’s full case, see [Tuscany in February](/blog/tuscany-in-february-2027/).\n\n### Tuscany in March\n\nMarch is transitional. Sunny afternoons can feel like spring, but cold rain and sharp evenings remain possible. It is a good month for travellers who value lower prices and do not mind flexible plans.\n\nPack layers rather than one heavy outfit. Keep at least one indoor option for each day.\n\n### Tuscany in April\n\nApril offers blossoms, fresh landscapes, Easter traditions, and increasingly active tourism. It is also one of the months most likely to punish overconfident packing: warm sunshine can turn into rain or a cool evening quickly.\n\nEaster dates shift annually and can affect crowds, opening hours, transport, and accommodation. Check the calendar before choosing a “quiet” April weekend.\n\n### Tuscany in May\n\nMay is one of the strongest all-round choices. Days are longer, the countryside is green, and walking is generally more comfortable than in midsummer.\n\nDemand is also strong. Reserve desirable hotels, farm stays, rental cars, winery visits, and major museum tickets before arrival.\n\n### Tuscany in June\n\nJune offers long daylight, warm evenings, and reliable conditions for road trips, terraces, outdoor dining, and pool stays. It is a particularly good month for couples and travellers combining cities with the countryside.\n\nHeat can build late in the month. Schedule major outdoor sights in the morning and allow a slower midday rhythm.\n\n### Tuscany in July\n\nJuly is hot, bright, and busy. Siena’s July Palio creates a unique atmosphere but also brings crowd controls and schedule changes. Florence’s major attractions require careful timing, while rural stays are more pleasant when they include shade or a pool.\n\nPlan less per day than you would in spring. Carry water and sun protection, and avoid designing an itinerary that depends on walking through exposed squares at midday.\n\n### Tuscany in August\n\nAugust is peak holiday season for the coast and many countryside properties. Siena’s August Palio is traditionally held on August 16. Cities may feel quieter in some residential areas around Ferragosto, but major sights remain busy with visitors.\n\nBook accommodation early and verify every transport connection. Air conditioning should be treated as a specific property filter, not an assumption. The honest month-long playbook — Ferragosto, the Palio and the quieter late-August turn — is in [Tuscany in August](/blog/tuscany-in-august-2026/).\n\n### Tuscany in September\n\nSeptember remains warm, especially early in the month, but the light and pace begin to change. Harvest activity adds interest to wine areas, while city sightseeing becomes easier later in the month.\n\nThis is still a popular travel period. Reserve key experiences and build flexibility around harvest work, which can change producers’ availability. See [Siena in September](/blog/siena-in-september-2026/) for the month’s full case, including the uncovered Duomo floor.\n\n### Tuscany in October\n\nOctober combines food, wine, softer landscapes, and cooler walking temperatures. Search demand for “Tuscany in October” is strong because travellers want autumn atmosphere without winter closures.\n\nExpect shorter days and variable rain. Finish countryside drives before dark and choose accommodation with a comfortable indoor space. Our [Tuscany in October guide](/blog/tuscany-in-october-2026/) covers the two-harvest handover month in depth.\n\n### Tuscany in November\n\nNovember is quiet and food-oriented. Olive oil, seasonal dishes, and indoor cultural visits can define the trip, but rain and early darkness reduce the appeal of an overambitious road itinerary.\n\nStay in fewer bases and prioritise places with year-round restaurants. Check opening days carefully. The full month — the white-truffle weekends, olio nuovo and the honest caveats — is in [Tuscany in November](/blog/tuscany-in-november-2026/).\n\n### Tuscany in December\n\nDecember brings Christmas lights, markets, religious traditions, and a more intimate mood in historic centres. The period around Christmas and New Year is not necessarily inexpensive, even though the rest of winter is low season.\n\nA city-based itinerary works best. Rural stays are quieter at this time of year, but confirm heating, restaurant access, and transport before booking. See [Tuscany in December](/blog/tuscany-in-december-2026/) for the Mercato nel Campo, the Val d’Orcia oil festival and the holiday calendar."
+        "body": "### Tuscany in January\n\nJanuary is quiet, cool, and well suited to museums, churches, food, and unhurried city walks. Rural landscapes can look stark rather than postcard-green, but the absence of summer crowds reveals a more everyday side of Tuscany.\n\nBase yourself in a city with year-round services. Bring a warm layer, rain protection, and shoes that handle wet stone. Our dedicated [Tuscany in January guide](/blog/tuscany-in-january-2027/) covers the winter sales, the thermal springs, and the low-season playbook in depth.\n\n### Tuscany in February\n\nFebruary remains low season, with Carnival events bringing colour to parts of the region. Viareggio is the best-known Carnival destination, but dates vary each year.\n\nThis month can work for a short city break or food-focused weekend. Do not expect every agriturismo or countryside experience to be operating. For the Viareggio parade calendar, the Carnival sweets and the month’s full case, see [Tuscany in February](/blog/tuscany-in-february-2027/).\n\n### Tuscany in March\n\nMarch is transitional. Sunny afternoons can feel like spring, but cold rain and sharp evenings remain possible. It is a good month for travellers who value lower prices and do not mind flexible plans.\n\nPack layers rather than one heavy outfit. Keep at least one indoor option for each day. In 2027 Easter falls on 28 March, pulling Holy Week and Florence’s Scoppio del Carro into the month — [Tuscany in March](/blog/tuscany-in-march-2027/) covers the early-Easter year in depth.\n\n### Tuscany in April\n\nApril offers blossoms, fresh landscapes, Easter traditions, and increasingly active tourism. It is also one of the months most likely to punish overconfident packing: warm sunshine can turn into rain or a cool evening quickly.\n\nEaster dates shift annually and can affect crowds, opening hours, transport, and accommodation. Check the calendar before choosing a “quiet” April weekend.\n\n### Tuscany in May\n\nMay is one of the strongest all-round choices. Days are longer, the countryside is green, and walking is generally more comfortable than in midsummer.\n\nDemand is also strong. Reserve desirable hotels, farm stays, rental cars, winery visits, and major museum tickets before arrival.\n\n### Tuscany in June\n\nJune offers long daylight, warm evenings, and reliable conditions for road trips, terraces, outdoor dining, and pool stays. It is a particularly good month for couples and travellers combining cities with the countryside.\n\nHeat can build late in the month. Schedule major outdoor sights in the morning and allow a slower midday rhythm.\n\n### Tuscany in July\n\nJuly is hot, bright, and busy. Siena’s July Palio creates a unique atmosphere but also brings crowd controls and schedule changes. Florence’s major attractions require careful timing, while rural stays are more pleasant when they include shade or a pool.\n\nPlan less per day than you would in spring. Carry water and sun protection, and avoid designing an itinerary that depends on walking through exposed squares at midday.\n\n### Tuscany in August\n\nAugust is peak holiday season for the coast and many countryside properties. Siena’s August Palio is traditionally held on August 16. Cities may feel quieter in some residential areas around Ferragosto, but major sights remain busy with visitors.\n\nBook accommodation early and verify every transport connection. Air conditioning should be treated as a specific property filter, not an assumption. The honest month-long playbook — Ferragosto, the Palio and the quieter late-August turn — is in [Tuscany in August](/blog/tuscany-in-august-2026/).\n\n### Tuscany in September\n\nSeptember remains warm, especially early in the month, but the light and pace begin to change. Harvest activity adds interest to wine areas, while city sightseeing becomes easier later in the month.\n\nThis is still a popular travel period. Reserve key experiences and build flexibility around harvest work, which can change producers’ availability. See [Siena in September](/blog/siena-in-september-2026/) for the month’s full case, including the uncovered Duomo floor.\n\n### Tuscany in October\n\nOctober combines food, wine, softer landscapes, and cooler walking temperatures. Search demand for “Tuscany in October” is strong because travellers want autumn atmosphere without winter closures.\n\nExpect shorter days and variable rain. Finish countryside drives before dark and choose accommodation with a comfortable indoor space. Our [Tuscany in October guide](/blog/tuscany-in-october-2026/) covers the two-harvest handover month in depth.\n\n### Tuscany in November\n\nNovember is quiet and food-oriented. Olive oil, seasonal dishes, and indoor cultural visits can define the trip, but rain and early darkness reduce the appeal of an overambitious road itinerary.\n\nStay in fewer bases and prioritise places with year-round restaurants. Check opening days carefully. The full month — the white-truffle weekends, olio nuovo and the honest caveats — is in [Tuscany in November](/blog/tuscany-in-november-2026/).\n\n### Tuscany in December\n\nDecember brings Christmas lights, markets, religious traditions, and a more intimate mood in historic centres. The period around Christmas and New Year is not necessarily inexpensive, even though the rest of winter is low season.\n\nA city-based itinerary works best. Rural stays are quieter at this time of year, but confirm heating, restaurant access, and transport before booking. See [Tuscany in December](/blog/tuscany-in-december-2026/) for the Mercato nel Campo, the Val d’Orcia oil festival and the holiday calendar."
       },
       {
         "id": "how-tuscany-s-regions-change-the-answer",
@@ -7614,6 +7614,317 @@ Either way, you will have joined a select statistic: of the millions who visit t
       imageAlt: 'The walled village of Monteriggioni, built to guard the Via Francigena',
       canonicalPath: '/blog/via-francigena-day-walk-siena',
       tags: ['via francigena', 'walking in tuscany', 'monteriggioni', 'pilgrimage routes', 'slow travel'],
+    }
+  ),
+  A(
+    'renting-a-car-in-tuscany-2026',
+    'Renting a Car in Tuscany: The Honest Guide (2026)',
+    'Transport',
+    'Tuscany',
+    'Renting a car in Tuscany, honestly: the IDP law most guides get wrong, insurance excess maths, toll-lane survival, fuel false friends and ZTL discipline.',
+    '/images/tuscany/chianti-wine-road-vineyard.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Guide after guide on this site says some version of “drivers own this day” — here, finally, is how to become one without the expensive surprises. The compressed version, verified August 2026: **US, Canadian and Australian licence holders need an International Driving Permit** (or a sworn Italian translation) by law — obtained *before* leaving home — while **UK photocard holders are the exception**; **CDW and theft cover come bundled into every Italian rental rate**, but the excess underneath runs **€1,000–3,000** unless you buy it down; **manuals are the default** and automatics sell out; at the tolls, **never enter a yellow Telepass lane**; at the pump, **gasolio means diesel, not gasoline**; and the [ZTL](/blog/siena-ztl-fines-how-to-avoid/) remains the single most efficient fine-generating machine in Italian tourism. Everything above has a section below, with the nuance the summaries skip.`,
+      },
+      {
+        id: 'do-you-need-one',
+        heading: 'First: do you actually need a car?',
+        body: `The honest gate before the rental counter. **For the cities, no** — Florence and Siena punish cars with restricted zones, scarce parking and walkable centres, and [the bus and rail spine](/florence-to-siena-by-train-or-bus/) covers the city-to-city moves, [Rome arrivals included](/blog/rome-to-siena-train-bus-2026/). **For the countryside, increasingly yes**: [the Val d’Orcia loop](/blog/val-dorcia-day-trip-from-siena-2026/), [harvest-season farm and mill visits](/blog/tuscany-olive-harvest-olio-nuovo-2026/), [the thermal springs](/blog/tuscany-in-january-2027/), scattered [beach coves](/blog/italy-beach-rules-2026/) and the deeper [winter months](/blog/tuscany-in-november-2026/) all reward wheels, and some are barely reachable without them.
+
+The pattern that works for most trips this site plans: **car-free in the cities, car for the countryside days** — either a short rental mid-trip (two or three days bracketed by city stays) or a countryside-based week with the car living at an agriturismo. What rarely works is the full-trip rental that spends five of its seven days paid, parked and generating [ZTL anxiety](/blog/siena-ztl-fines-how-to-avoid/) outside a city wall.
+
+Decide the shape first; every choice below gets easier once the car has a defined job.`,
+      },
+      {
+        id: 'licence-and-idp',
+        heading: 'The licence question: the law most guides get wrong',
+        body: `Here is the part the internet reliably muddles, verified against the legal texts and consular guidance in August 2026. **Italian law (Article 135 of the Codice della Strada) requires non-EU/EEA licence holders to carry their home licence PLUS either an International Driving Permit or an official sworn Italian translation.** Driving without one is an offence fined at **€408–€1,634**. That covers **US, Canadian and Australian** visitors squarely — and their governments’ own advice (US Embassy, Canada’s travel.gc.ca, Australia’s Smartraveller) says the same thing.
+
+The practical mechanics: IDPs are issued **only in your home country, before travel** — AAA in the US, CAA in Canada, the state motoring clubs in Australia — cheaply and quickly, but not retroactively from Italy. Forgot? The **sworn-translation alternative** (traduzione giurata): commercial services advertise turnaround of about two days working from a scan of your licence — confirm how the physical document will reach you in Italy before relying on it. Either document only works *alongside* your licence, never instead of it.
+
+**The UK is the exception**: gov.uk’s position is that a full UK **photocard** licence suffices for visitors, with no IDP needed. (The 2023 UK–Italy licence agreement people cite in this context actually governs *residents* exchanging licences, not tourists — the visitor position rests on gov.uk’s guidance itself, and Article 135’s own text carries no explicit UK carve-out: the reassurance is the UK government’s, not the Italian statute’s.) Old paper licences are another matter, and cautious UK drivers still carry an IDP for zero-friction counters.
+
+Now the nuance that explains the internet’s confusion: **rental counters are inconsistent** — many never ask, some branches refuse without it. The trap is concluding the law is optional. The counter is not the risk; **the roadside document check is** — routine in Italy, no violation required — and so is an insurer looking for reasons after a crash. Get the permit. It is the cheapest insurance in this entire article.`,
+      },
+      {
+        id: 'insurance',
+        heading: 'Insurance: what Italy bundles, and the excess underneath',
+        body: `Italy runs rental insurance differently from most of Europe, and knowing the structure saves both money and counter-fright. **Every Italian rental rate includes CDW (collision damage waiver) and theft protection as standard, and suppliers do not let you decline them** — treat the bundling as fixed. (The cover Italian statute itself mandates is third-party liability; the universal CDW bundling is how the Italian market prices, which is why the classic credit-card-CDW strategy works differently here: card cover operates as *supplemental* protection for the excess, not as a replacement for primary cover.)
+
+The catch is that the mandate covers the cover’s *existence*, not its depth: **the standard excess (deductible) beneath the bundled CDW typically runs €1,000–€3,000** depending on vehicle class. Your three ways to handle it: **accept it** (and drive accordingly); **buy it to zero at the desk** — super-CDW products at roughly **€25–45 per day** at the major desks, some priced higher, usually excluding tyres and glass; or **carry third-party excess insurance** bought before travel, from around a quarter of the desk price — the option the desk will not volunteer. Check any credit-card cover’s Italy terms specifically; card policies differ and some are genuinely ambiguous about Italy.
+
+Related counter mechanics: expect a **deposit hold** on a credit card — commonly €300–600, sometimes pegged to the excess — released by the company within a day or two of clean return but taking **5–10 business days** for your bank to actually free. Bring a credit (not debit) card with headroom, in the main driver’s name, or the pickup can fail at the last step.`,
+      },
+      {
+        id: 'booking',
+        heading: 'Booking: transmission, age and the small print that matters',
+        body: `**Transmission first, everything else second.** Manual gearboxes remain the Italian default; automatics exist at every major supplier but cost more and **sell out fast** — in high season, weeks ahead. If you cannot drive a manual on hills (Tuscany will examine you on this), book the automatic early and confirm it is a *guaranteed* automatic, not a request.
+
+**Age rules**: the legal minimum to drive is 18; suppliers set their own rental minimums above that — 21 is the common floor — and **under-25s pay a young-driver surcharge** set per supplier and surfaced at booking: treat the checkout quote as the real number. At the other end there is **no statutory maximum age** — upper limits, where they exist, are company policies typically starting around 75–80, sometimes with senior surcharges; older drivers should confirm before booking rather than at the counter.
+
+**Size doctrine, from every Tuscan car park we have ever written about**: book the smallest car your luggage tolerates. Medieval towns were not designed around SUVs, [San Gimignano’s lots](/blog/san-gimignano-day-trip-from-siena-2026/) fill by mid-morning, and the €10 saved daily on a compact is repaid hourly in manoeuvring sanity. Extra drivers cost extra; one-way fees between cities can be substantial — price the round trip before assuming the open jaw.`,
+      },
+      {
+        id: 'pickup',
+        heading: 'Pickup: where, and the photo ritual that wins disputes',
+        body: `**Where to collect** shapes your first hour. For a countryside trip starting from Florence, the repeated wisdom holds: **collect at Florence Airport if you are leaving the city the same day** — road access is simple and day-one ZTL exposure drops toward zero, with the T2 tram linking the airport and Santa Maria Novella in about twenty minutes for small change. City-centre offices cluster minutes south of SMN, with one-way routing that ushers departing drivers away from the restricted zone — the right choice when you finish Florence on foot first. **Pisa Airport** keeps a dedicated car-rental terminal minutes from arrivals and makes a calm western starting point.
+
+**Then, before you drive a metre, perform the ritual** — the one European consumer-protection bodies formally recommend: **timestamped photos and video of the entire car**, all four corners, wheels and tyres, windscreen, roof, interior — and the under-bumper “belly” nobody photographs and everybody disputes. Every existing scratch goes **itemised on the contract’s damage diagram** before you sign; a generic “damage accepted” tick-box is not the same thing. At return, repeat the set and add one photo of the dashboard showing fuel level and mileage — and do the full ritual doubly for out-of-hours drop-offs where no staff member inspects.
+
+Five minutes of photography at each end converts every future damage conversation from your word against theirs into paperwork you win.`,
+      },
+      {
+        id: 'ztl-and-parking',
+        heading: 'The ZTL: the fine machine, and how to stay out of it',
+        body: `We wrote [a whole guide to Siena’s restricted traffic zone](/blog/siena-ztl-fines-how-to-avoid/) because it is the most reliable way tourists turn a €40 rental day into a €120 one — and the system generalises: **every historic centre you will want to visit (Florence, Siena, San Gimignano, Montepulciano, the lot) closes its core to non-resident traffic**, enforced by cameras that neither warn nor negotiate, with fines that follow your rental company home — plus the company’s own **administration fee** for forwarding each one.
+
+The discipline is simple and total: **park outside the walls, always** — in the signed lots every town provides ([San Gimignano’s P1–P4 with their posted tariffs](/blog/san-gimignano-day-trip-from-siena-2026/), Siena’s ring of car parks, the Val d’Orcia villages’ edge lots) — and walk in. Never follow a navigation app’s “fastest route” through a stone gateway; never assume a quiet street is a permitted street; and treat your accommodation’s “you can drive in to unload” as true only after they have registered your plate with the comune, in writing.
+
+One more camera to respect: many Italian urban roads carry **bus-lane and limited-access cameras** beyond the ZTL proper. The generalised rule that keeps the record clean: in any Italian town, if you are not certain a street is open to you, it isn’t.
+
+![Diagram of Siena's ZTL boundary and the legal parking ring outside it](/images/siena-ztl-parking-diagram.svg)
+*The pattern every Tuscan town repeats: a camera-enforced core, a ring of legal parking, and a short walk that costs nothing.*`,
+      },
+      {
+        id: 'tolls',
+        heading: 'Tolls: the lane-colour rule that saves your afternoon',
+        body: `The autostrada toll plaza is a solved problem — if you know the colours. **Yellow lanes marked “T” or “Telepass” are transponder-only**: the barrier reads a device you do not have and will not lift. Visitors take a **ticket at entry**, then exit through a **white lane** (staffed/cash, marked with a hand or banknotes) or a **blue “Carte” lane** (cards). [Rome-to-Siena’s A1 stretch](/blog/rome-to-siena-train-bus-2026/) runs around €18–20 in tolls; Tuscany’s internal superstrade — the Florence–Siena raccordo, the Siena–Bettolle road — are **free**.
+
+**If you do slide into a Telepass lane: do not reverse.** Reversing at a toll plaza is the genuinely dangerous (and separately fined) move. Push the assistance button or proceed as directed, collect the **missed-payment report (Rapporto di Mancato Pagamento)**, and pay within **15 days** — online through the operator’s pay-per-plate service or the Telepass app, which works for non-customers. Unpaid, the demand chases the registered owner (your rental company, plus its admin fee) and the Highway Code sanction — **€87–€344 under Article 176**, per current operator and motoring-body documentation, with heavier penalties where non-payment is treated as deliberate evasion — attaches. One wrinkle worth knowing: a Telepass-lane mistake at an *entrance* leaves you ticketless, and the exit toll defaults to the farthest possible entry point unless you flag it with staff — one more reason the assistance button beats improvisation.
+
+None of this is hard. It is simply never explained on the rental contract, which is why it fills forums every August.`,
+      },
+      {
+        id: 'fuel',
+        heading: 'Fuel: false friends, two prices and one expensive mistake',
+        body: `Three fuel facts prevent the classic disasters. **First, the vocabulary trap: “gasolio” is diesel, not gasoline** — petrol is “benzina” (senza piombo for unleaded). English-speaking brains autocomplete gasolio wrongly under time pressure, and **many Italian rentals, including small cars, are diesel** — so confirm your car’s fuel *before leaving the lot*, then trust the sticker inside the fuel flap and the EU labels (E5/E10 in a circle for petrol, B7 in a square for diesel), not the pump handle’s colour. Misfuelling means a tow and a drained tank at your cost — a bill that can easily top €500.
+
+**Second, the two-price system**: most stations run self-service (“fai da te”) and attended (“servito”) pumps on the same forecourt, and the big roadside price sign is almost always the *self-service* price — the attendant lane adds roughly €0.10–0.30 per litre. Neither is a scam; just know which hose you picked up.
+
+**Third, the ballpark with a date on it**: national self-service averages reported in late July 2026 sat around **€1.98/litre for petrol and €2.18 for diesel**, with autostrada stations markedly higher — and Italian fuel pricing was volatile and politically contested this summer, so treat those figures as a snapshot, not a promise. Fill in towns rather than on the motorway, and return the car full yourself: rental refuelling charges are priced to punish.`,
+      },
+      {
+        id: 'seasons',
+        heading: 'Seasonal clauses: winter law, summer ovens',
+        body: `Two calendar rules round out the legal picture. **From 15 November to 15 April**, Italy’s winter-equipment regime applies: on roads covered by ordinances — signposted, and common across the Apennine and hill routes a Tuscan winter itinerary touches — vehicles must have **winter tyres fitted or compatible snow chains on board**. It works through local ordinances rather than as a literal blanket rule, and mountain regions run longer windows, but the renter’s version is simple: for a [November-to-April trip](/blog/tuscany-in-november-2026/), confirm at booking that the car comes winter-equipped, and keep the chains in the boot where fitted. Fine amounts vary by source and roadway — we decline to print a number our research could not pin — but the roadside inconvenience alone justifies the phone call.
+
+**Summer’s clause is thermal**: [the August guide’s warning](/blog/tuscany-in-august-2026/) stands — a car parked in full Tuscan sun becomes an oven, so shaded or underground parking is worth paying for, nothing living or meltable stays inside, and steering wheels have genuinely burned hands. Park nose-out in the shade you can find, and the car remains an asset rather than a hazard.
+
+Both seasons share [the strike-calendar footnote](/blog/italy-transport-strikes-survival-guide-2026/): fuel-sector and transport actions occasionally touch motorway services — the three-minute calendar check covers it.`,
+      },
+      {
+        id: 'five-mistakes',
+        heading: 'The five mistakes that cost renters real money',
+        body: `**1. Skipping the IDP because the counter didn’t ask.** The counter is not the enforcement mechanism; the checkpoint and the insurer are. €408 minimum, versus a permit that costs about the price of lunch.
+
+**2. Declining nothing, understanding nothing.** Signing the desk’s zero-excess product unpriced, or declining it unaware of the €1,000–3,000 exposure underneath — both are decisions; make whichever one you *meant*.
+
+**3. The unphotographed pickup.** Every damage dispute this article can imagine is settled in five minutes of timestamped photos that either exist or do not.
+
+**4. Following the sat-nav through a stone arch.** The ZTL camera does not know you were confused. Park outside, walk in, [as every town guide on this site repeats](/blog/siena-ztl-fines-how-to-avoid/).
+
+**5. The wrong hose and the wrong lane.** Gasolio into a petrol car, or a confident swing into the yellow Telepass lane — both recoverable, both expensive, both prevented by thirty seconds of reading this paragraph in advance.
+
+Avoid these five and the Tuscan rental reverts to what it should be: the cheapest key ever sold to [the best countryside in Europe](/blog/val-dorcia-day-trip-from-siena-2026/).`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked in August 2026 through parallel research verified against legal texts, consular guidance and operator documentation: the Article 135 Codice della Strada IDP-or-sworn-translation requirement and its €408–€1,634 sanction (legal-text sources including ACI, corroborated by US Embassy, Canadian and Australian government advice); the UK photocard visitor exception per gov.uk guidance — noting honestly that the 2023 UK–Italy agreement covers resident licence exchange rather than tourists, that Article 135’s text carries no explicit UK carve-out, and that cautious UK drivers may still carry an IDP; the universal CDW/theft bundling — a market-wide practice per major suppliers’ and brokers’ published Italy insurance terms, not a statutory mandate, which we state as such — with typical €1,000–3,000 excess bands and desk versus third-party excess-cover pricing; toll-lane rules, the 15-day missed-payment procedure and the €87–€344 Article 176 sanction (operator and motoring-body documentation), with the A1 toll band cross-referenced from our July 2026 Rome-to-Siena checks; fuel vocabulary, label standards and the late-July 2026 national price averages, flagged as volatile; the 15 November–15 April winter-equipment regime and its ordinance-based application; and the consumer-body pickup photo guidance (ECC-Net). Where our research found genuine conflicts — certain fine amounts, one credit-card network’s Italy coverage, an Australian duration figure — we have either flagged the uncertainty or declined to print a number. Laws, prices and policies change: verify against your government’s travel advice and your rental agreement before relying on any figure here. We have no affiliate relationship with any rental company, insurer or booking platform; no supplier is recommended, and pricing examples are illustrative market observations, not endorsements.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Every scary thing in this article is a rule, and rules have the great virtue of being learnable in advance. The renter who lands with a permit in their pocket, an excess decision already made, a photo ritual planned and three Italian words memorised — benzina, gasolio, Telepass — has pre-empted essentially the entire catalogue of Tuscan rental grief, and what remains is the part the fifteen other guides promised: an open superstrada, a ridge road turning gold, [a harvest morning at the end of a white gravel track](/blog/tuscany-olive-harvest-olio-nuovo-2026/), and the specific freedom of a region whose best corners were never on any timetable. The car is not the risk. The unread paragraph was — and you have now read them all.`,
+      },
+    ],
+    [
+      { q: 'Do I need an International Driving Permit to rent a car in Italy?', a: 'If your licence is from the US, Canada, Australia or most other non-EU/EEA countries — yes, by law (Article 135 of the Italian Highway Code): your licence plus an IDP or a sworn Italian translation, with fines of €408–€1,634 for driving without one. UK photocard holders are the exception under current gov.uk guidance. Obtain the IDP in your home country before travelling.' },
+      { q: 'What if I forgot to get an IDP before my trip?', a: 'The legal alternative is a sworn Italian translation of your licence (traduzione giurata) — commercial services advertise around two-day turnaround from a scan, but confirm how the physical document reaches you in Italy. IDPs themselves cannot be issued once you are abroad — AAA, CAA and the Australian clubs only issue at home.' },
+      { q: 'Is rental car insurance mandatory in Italy?', a: 'Every Italian rental rate comes with CDW and theft protection bundled in as standard market practice, and suppliers do not let you decline them — but they leave an excess typically between €1,000 and €3,000. Buy it down at the desk (~€25–45/day at major suppliers), cover it with third-party excess insurance bought beforehand for far less, or accept it knowingly.' },
+      { q: 'Can I rent an automatic car in Tuscany?', a: 'Yes, but manuals are the default and automatics carry a premium and sell out early — in high season, book weeks ahead and confirm the automatic is guaranteed, not requested. Tuscany’s hill towns are not the place to relearn a clutch.' },
+      { q: 'Which toll lane do I use on the autostrada?', a: 'Take a ticket at entry, then exit via a white lane (staffed, hand/banknote icon) or blue “Carte” lane (cards). Never the yellow “T”/Telepass lanes — transponder-only. If you enter one by mistake, don’t reverse: get the missed-payment report and pay online within 15 days.' },
+      { q: 'What does gasolio mean at Italian petrol stations?', a: 'Diesel — not gasoline. Petrol is benzina. Many Italian rentals are diesel, so confirm your fuel type before leaving the lot and trust the fuel-flap sticker and EU labels (E5/E10 circle = petrol, B7 square = diesel). Misfuelling means a tow and a drained tank at your cost.' },
+      { q: 'How do I avoid ZTL fines with a rental car?', a: 'Park outside the walls in every historic town, always, and walk in — the camera-enforced restricted zones neither warn nor forgive, and fines reach you via the rental company with an admin fee added. Never drive through a stone gateway on a navigation app’s say-so.' },
+      { q: 'Do rental cars in Italy need winter tyres?', a: 'From 15 November to 15 April, roads under winter ordinances require winter tyres or chains on board, with longer windows in mountain areas. Booking a winter rental? Confirm the car comes winter-equipped — the obligation travels with the vehicle you are driving.' },
+      { q: 'How big a deposit do rental companies hold?', a: 'Commonly €300–600 blocked (not charged) on a credit card in the main driver’s name, sometimes matched to the excess. Companies release it within a day or two of a clean return, but banks can take 5–10 business days to free the funds.' },
+      { q: 'Is it worth renting a car for the whole Tuscany trip?', a: 'Usually not. Cities punish cars and public transport covers the city-to-city spine, while the countryside rewards them — so the pattern that works is a short rental for the rural days, bracketed by car-free city stays, or a countryside base where the car earns its keep daily.' },
+    ],
+    '2026-08-18',
+    {
+      seoTitle: 'Renting a Car in Tuscany 2026: IDP Law, Insurance & Toll Survival',
+      primaryKeyword: 'renting a car in tuscany',
+      secondaryKeywords: [
+        'renting a car in italy requirements',
+        'international driving permit italy',
+        'italy rental car insurance excess',
+        'telepass lane mistake',
+        'italy toll roads rental car',
+        'driving in tuscany tips',
+        'ztl rental car fine',
+      ],
+      imageAlt: 'A rental-car road winding through Chianti vineyards between Florence and Siena',
+      canonicalPath: '/blog/renting-a-car-in-tuscany-2026',
+      tags: ['renting a car in tuscany', 'driving in italy', 'idp italy', 'ztl', 'tuscany road trip'],
+    }
+  ),
+  A(
+    'tuscany-in-march-2027',
+    'Tuscany in March 2027: Easter Fire, the First Blossom and the Turning Month',
+    'Best time to visit',
+    'Tuscany',
+    'Tuscany in March 2027, when Easter lands early: Florence’s exploding cart, Pitigliano’s fire festival, the season’s reopenings and honest spring advice.',
+    '/images/florence/boboli-gardens-shaded-paths.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `March 2027 is the rare March with fireworks — literally. **Easter falls early, on 28 March 2027**, pulling Holy Week and Florence’s extraordinary **Scoppio del Carro** — the exploding cart of Easter morning — inside the month, alongside **Pitigliano’s Torciata di San Giuseppe** fire festival on the 19th and Florence’s own old New Year, the **Capodanno Fiorentino, on 25 March**. Around the spectacle, March remains what it always is: the turning month — daytime highs climbing from about 13°C toward 17°C, the first blossom, artichokes and agretti in the markets, the season’s attractions reopening one by one, and low-season prices holding almost to the month’s end. Pack layers, keep one indoor option per day, and know that in 2027 **the clocks spring forward on Easter Sunday morning itself** — the month literally ends by handing you an extra hour of evening light. The details, honestly flagged where 2027 programmes are not yet published, below.`,
+      },
+      {
+        id: 'the-turning-month',
+        heading: 'The case for March: the turning month',
+        body: `March is Tuscany changing gear in real time. The month opens as [late winter](/blog/tuscany-in-february-2027/) — bare vines, quiet squares, museum-first days — and closes as unmistakable spring: blossom in the sheltered corners, café tables recolonising the pavements, the first outdoor lunches that need no justification. Travellers who can only compare “winter Tuscany” and “summer Tuscany” are missing the month where you can watch one become the other.
+
+The practical appeal stacks up: **low-season prices persist for most of the month** (Easter week 2027 being the loud exception — more below); the great museums remain at gentle density; the [thermal springs](/blog/tuscany-in-january-2027/) still steam in the cool air; and the countryside, while not yet the postcard, begins rehearsing — green wheat, first leaf, working farms waking up.
+
+The honest counterweight is volatility. March weather swings — a spring afternoon can hand over to a cold, wet evening without notice, the tramontana wind still delivers the occasional frost-edged morning, and rain days remain frequent. This is the month for the flexible itinerary: every outdoor plan with an indoor understudy, [exactly the pattern our winter guides drill](/blog/tuscany-in-november-2026/).`,
+      },
+      {
+        id: 'march-weather',
+        heading: 'The weather, honestly',
+        body: `Long-term climate averages, as checked in August 2026: **Florence climbs from daytime highs around 13°C in early March to about 17°C by the month’s end**, with overnight lows of 4–5°C and rain on **up to a dozen or so days, totals varying by dataset**; **Siena runs a degree or so cooler** — highs near 13–14°C, nights around 4°C — and keeps an outside chance of a flurry, March being the last month with any realistic snow possibility. (Siena’s March rainfall figure genuinely varies between climate sources, so we decline to print one; assume Florence-like frequency and pack accordingly.)
+
+The within-month gradient matters more than the averages: **early March is late winter, late March is early spring**, and the difference is felt in every category — terrace viability, daylight, countryside colour. Day length crosses twelve hours at the **equinox around 20 March**, and in 2027 **summer time begins on Sunday 28 March** — Easter morning, under the EU’s standing last-Sunday-of-March rule — pushing sunset an hour later exactly as the holiday crowds arrive to use it.
+
+Packing is the [layered shoulder-season kit](/blog/tuscany-packing-checklist/): a real waterproof, warm mid-layers for evenings that still touch single digits, and shoes for wet cobbles. The month rewards the traveller who dresses for two seasons a day, because that is what March delivers.`,
+      },
+      {
+        id: 'easter-and-holy-week',
+        heading: 'Easter 2027: the early one',
+        body: `Easter is the month’s calendar event in 2027 — **Easter Sunday falls on 28 March, near the earliest end of its range**, with **Easter Monday (Pasquetta) on the 29th, a full Italian public holiday**. The practical consequences arrive in both directions.
+
+**The costs**: Holy Week concentrates the month’s demand into its final days — accommodation in Florence and Siena prices up and books out, and the Easter weekend brings holiday transport timetables, fuller museums and the year’s first genuinely crowded piazzas. Pasquetta itself runs on the classic Italian holiday pattern: offices shut, families decamp for the traditional countryside picnic, and Sunday-style schedules apply — [the same holiday mechanics our other guides map](/blog/tuscany-in-december-2026/).
+
+**The rewards**: Holy Week in Tuscany is genuinely moving — processions, packed vigils, churches at their liturgical peak — and it culminates in the single most theatrical fifteen minutes of the Tuscan spring, which gets its own section below.
+
+The booking translation: for late-March 2027 travel, **reserve rooms early and treat the 26–29 March block like high season**; for the low-season version of March, aim at the first three weeks, which remain quiet, cheap and blissfully unbooked.`,
+      },
+      {
+        id: 'scoppio-del-carro',
+        heading: 'The Scoppio del Carro: Florence’s exploding Easter cart',
+        body: `On Easter Sunday morning, Florence stages a ritual that sounds invented and has run in essentially this form for centuries. The **Scoppio del Carro** — the Explosion of the Cart — sends an antique tower-cart nicknamed the **Brindellone**, hauled by flower-garlanded white oxen and escorted by a costumed historical procession some 150 strong, from the Porta al Prato district to the space between the **Duomo and the Baptistery**. There, at the singing of the Gloria in the Easter Mass — around 11:00, with the procession under way from about 10:00 — the Archbishop lights the **colombina**, a dove-shaped rocket that flies down a wire from the cathedral’s high altar, out through the doors, and into the cart, detonating it into a tower of fireworks in front of the façade.
+
+Tradition ties the rite to the First Crusade — the legend of Pazzino de’ Pazzi returning from Jerusalem with flints from the Holy Sepulchre — and reads a smooth flight of the dove and a full, roaring burn as the good omen for the year’s harvest, a verdict Florentine farmers were said to await as anxiously as any forecast.
+
+Practicalities, stated with our usual honesty: the event is **free and unticketed**, the crowd is enormous, and the travel wisdom is to be in position **by around 9:00** for a sightline between Duomo and Baptistery. And the 2027 flag: as of our August 2026 check, **no 2027-specific programme has been published** — the 28 March date follows from the Easter calendar, but confirm timings on Florence’s official channels closer to the day, [as we advise for every pattern-based event](/blog/tuscany-in-december-2026/).
+
+![Florence’s Duomo in early morning light](/images/florence/duomo-dome-climb-early-morning.webp)
+*Piazza del Duomo: the Scoppio’s stage — claimed early on Easter morning.*`,
+      },
+      {
+        id: 'torciata',
+        heading: 'The Torciata di San Giuseppe: fire in Pitigliano',
+        body: `Nine days before Easter, the month’s other fire ritual burns at the opposite end of Tuscany. On **19 March — a Friday in 2027** — the tufa-cliff town of **Pitigliano** in the deep Maremma marks St Joseph’s feast with the **Torciata di San Giuseppe**: torch-bearers in rough brown robes process through the medieval centre carrying burning bundles of reeds, and the night climaxes with the burning of the **invernacciu** — a reed effigy of winter, built storeys high — in Piazza Garibaldi, spring declared by incineration. Local tradition traces the rite toward pre-Christian equinox fires, possibly Etruscan; the folklore is presented as folklore, and the spectacle needs no certificate of origin.
+
+Recent editions have run the main procession and bonfire in the evening, with family events earlier — but programme times are year-specific, and **the 2027 programme was unpublished at our August 2026 check**: verify locally before building the evening around an hour.
+
+The honest logistics: Pitigliano is a far-southern outpost — rewarding, spectacular on its cliff, and a genuine expedition from a Siena or Florence base, [firmly in rental-car territory](/blog/renting-a-car-in-tuscany-2026/). Treat the Torciata as the anchor of a Maremma overnight rather than a day-trip dash, and the far south — Pitigliano, Sovana, the springs at Saturnia — becomes March’s best two-day detour.`,
+      },
+      {
+        id: 'capodanno-fiorentino',
+        heading: 'The 25th of March: Florence’s other New Year',
+        body: `March 2027 carries a third, quieter tradition that most visitors walk past without knowing. Until the Grand Duchy adopted the modern calendar in the mid-eighteenth century, **Florence began its year on 25 March** — the feast of the Annunciation — and the city still celebrates the **Capodanno Fiorentino** each year: a costumed historic procession through the centre to **Piazza Santissima Annunziata**, flag-throwers, and a cluster of civic and cultural events around the date. Recent editions have run the parade in the late afternoon, with the 2026 edition folding into a week-plus of citywide events; **2027’s programme, as with everything this far out, awaits publication**.
+
+For a traveller it is the best kind of festival: real, local, uncrowded by international tourism, and landing — in 2027 — on a Thursday three days before Easter, which turns the month’s final week into a genuine festive sequence: **old New Year on the 25th, Holy Week rising, the Scoppio on the 28th, Pasquetta on the 29th**, with the clocks changing and the evenings stretching as it all unfolds.
+
+If your March trip has to choose one week, that is the week — booked early, [with the Florence-or-Siena decision](/blog/florence-or-siena-which-to-visit-2026/) tilting toward Florence for once, since the month’s three headline events all stage there or need it as a base.`,
+      },
+      {
+        id: 'reopenings',
+        heading: 'The reopening month: what wakes up (and what doesn’t yet)',
+        body: `March is when seasonal Tuscany switches back on — unevenly, and knowing the pattern saves wasted drives.
+
+**Waking in March**: Siena’s **Santa Maria della Scala** has historically moved to its longer summer schedule from mid-March (daily opening with evening hours — confirm current times on official channels, as [our museum guides always advise](/blog/best-things-to-do-in-siena/)); the great villa gardens begin stirring, with **Villa Reale di Marlia’s** grounds near Lucca among the early-March reopeners in recent seasons; and countryside accommodation, restaurants and cellars reopen in waves through the month as [the rural winter shutdown](/blog/tuscany-in-january-2027/) unwinds.
+
+**Still asleep until April**: some of the region’s most famous gardens hold to a 1 April season start — recent seasons at both **La Foce** in the Val d’Orcia and the **Tarot Garden** at Capalbio began then — so a late-March itinerary built around them meets locked gates. Season dates are year-specific and 2027’s were unpublished at our check: verify before driving.
+
+The meta-rule for March: **check opening days for anything rural or seasonal, every time** — the month’s calendar is a patchwork, and the difference between a triumph and a wasted afternoon is one look at an official page.`,
+      },
+      {
+        id: 'march-table',
+        heading: 'The March table: artichokes, agretti and the last of winter',
+        body: `March eating is the year’s hinge, and [the food calendar’s logic](/blog/tuscan-food-calendar-seasonal-dishes/) applies at full strength. The arrivals: **artichokes** — including Tuscany’s violet-tinged varieties — worked into everything from fried wedges to risotto; **agretti**, the grassy, briefly-available spring green that locals pounce on precisely because it vanishes; and, as the month turns, the vanguard of peas, favas and asparagus that will define April. Lucca’s **garmugia**, the old spring soup built to celebrate exactly this moment, is the season in a bowl where you find it.
+
+Still on the table from winter: ribollita and the bread soups earning their last ovations, wild-boar pappardelle, bistecca with no seasonal apology, and [the citrus and black-truffle tail](/blog/tuscany-in-february-2027/) of the cold months. Easter week adds its own layer — lamb on menus, traditional Easter breads and eggs in the pasticcerie — before [April’s full spring](/blog/best-time-to-visit-tuscany/) takes over.
+
+March restaurant craft is winter’s, still: kitchens cooking for locals, walk-ins plausible outside Easter week, and the blackboard outperforming the printed menu — enjoy it before the season’s crowds return the favour.`,
+      },
+      {
+        id: 'where-to-base',
+        heading: 'Where to base yourself in March',
+        body: `The winter basing rules soften but do not yet invert. **Cities still win for the first three weeks**: reliable opening hours, indoor depth for the wet days, and the evening life that rural March cannot yet offer. **Florence takes the month’s crown in 2027** — the Scoppio, the Capodanno and Holy Week’s peak all stage there — extending the winter run of Florence-first advice, [against our usual Siena verdict](/blog/florence-or-siena-which-to-visit-2026/), into a third month; Siena remains the calmer, cheaper base and a fine Easter alternative if Florence’s prices spike beyond reason.
+
+**The countryside becomes arguable in late March**: reopening agriturismi at pre-season rates, blossom beginning, and [the Val d’Orcia](/blog/val-dorcia-day-trip-from-siena-2026/) green and empty — but confirm heating, restaurant days and what is actually open before committing, and keep [the car](/blog/renting-a-car-in-tuscany-2026/) if you go rural, because March’s thin bus timetables have not yet thickened for summer.
+
+And one March-specific booking note: **the 26–29 March 2027 block is the month’s high season** — Easter weekend rooms in Florence will not wait for deciders. Book the holiday weekend first, then build the quiet weeks around it.`,
+      },
+      {
+        id: 'a-march-plan',
+        heading: 'A late-March 2027 week that catches everything',
+        body: `**Monday 22 – Tuesday 23 — Siena, quietly.** The low-season city’s last quiet days: museums, [the winter table](/blog/tuscan-food-calendar-seasonal-dishes/), an afternoon at the springs if the weather argues for steam.
+
+**Wednesday 24 — the Val d’Orcia, waking.** Green wheat, first blossom, reopened cellars — [the loop](/blog/val-dorcia-day-trip-from-siena-2026/) at its emptiest and strangest, with everything ahead of it.
+
+**Thursday 25 — Florence for the Capodanno Fiorentino.** Arrive, watch the old New Year’s procession reach Santissima Annunziata, and settle in for the festive sequence.
+
+**Friday 26 – Saturday 27 — Holy Week Florence.** The museums between liturgies, the pasticcerie in Easter dress, the city filling with purpose.
+
+**Sunday 28 — the Scoppio del Carro.** In position by 9:00, the oxen and the procession, the dove’s flight at the Gloria, the cart in glorious detonation — and that evening, an extra hour of light, courtesy of the clocks.
+
+**Monday 29 — Pasquetta.** Do as the Italians do: an unambitious, outdoor, picnic-shaped day — [the Cascine park](/blog/best-things-to-do-in-florence/), a riverside walk, or the first countryside lunch of the year — before the journey home. (Skip the Boboli for this one: its Monday-closure pattern would normally shut it on the month’s last Monday, and a Pasquetta exception was unconfirmed at our check.)
+
+One week, three festivals, two seasons, and the year’s pivot witnessed from the front row — with one covering rule: **every timed event in this plan follows the annual pattern, since 2027 programmes were unpublished at our check — confirm each on official channels before travelling.**`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked in August 2026 through parallel research with per-fact confidence grading: the Easter 2027 dates (Sunday 28 March, Pasquetta 29 March — multiple independent calendar sources) and Pasquetta’s public-holiday status; the Scoppio del Carro’s form, procession and timing pattern (regional and city tourism sources) with its Pazzino legend presented as tradition; the Torciata di San Giuseppe’s 19 March date, invernacciu bonfire and programme pattern; the Capodanno Fiorentino’s 25 March tradition and parade pattern — with the calendar-reform year, which sources split on, deliberately phrased as “mid-eighteenth century”; March climate temperature averages for Florence and Siena; the DST start on 28 March 2027 (last Sunday of March, assuming the EU’s standing clock-change rules remain in force); March rainfall figures for both cities vary by dataset, so Florence is given as a range-shaped claim and Siena’s number declined; and the reopening calendar (Santa Maria della Scala’s mid-March pattern, Villa Reale di Marlia’s early-March season, La Foce’s and the Tarot Garden’s 1 April starts), all from recent-season documentation. **No 2027-specific programmes, times or season dates had been published for any event at our check** — every timing here is the established annual pattern, and readers should confirm on official channels near their dates. Conflicting research findings (the cart’s height, a dove-speed figure, one rainfall number) were excluded per our standards. We have no affiliate relationship with any venue, festival or property named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Every month guide in this series ends by telling you what its month is for, and March 2027 makes it easy: it is for the turn — the one week a year when Tuscany burns winter in a piazza, celebrates a new year three months late, detonates a cart of fireworks for the harvest’s sake, and moves its clocks so the evening can watch. Come in the quiet first half for the last of the winter prices, or aim everything at that extraordinary final week — but come knowing that March is the month the region stops being a museum of its seasons and starts performing them, live, with fire.`,
+      },
+    ],
+    [
+      { q: 'Is March a good time to visit Tuscany?', a: 'Yes, with layered expectations: low-season prices and quiet museums for most of the month, volatile early-spring weather throughout, and — in 2027 — an exceptional final week, since Easter falls on 28 March and pulls Holy Week, the Scoppio del Carro and the Capodanno Fiorentino inside the month.' },
+      { q: 'When is Easter 2027 in Italy?', a: 'Easter Sunday is 28 March 2027 — an early Easter — with Easter Monday (Pasquetta), a full public holiday, on 29 March. The clocks also spring forward on the 28th, so Easter Sunday evening arrives with an extra hour of light.' },
+      { q: 'What is the Scoppio del Carro?', a: 'Florence’s Easter-morning ritual: an antique fireworks cart, hauled by white oxen with a 150-strong costumed procession to the Duomo, is detonated at the Gloria of Easter Mass by the colombina — a dove-shaped rocket flying down a wire from the high altar. Free, unticketed, hugely crowded — travel sources consistently advise being in position by about 9:00.' },
+      { q: 'What is the weather like in Tuscany in March?', a: 'Turning: Florence climbs from about 13°C daytime highs early in the month to about 17°C by its end, with nights of 4–5°C and frequent rain days; Siena runs a degree cooler with an outside chance of a flurry. Pack for two seasons a day.' },
+      { q: 'What is the Torciata di San Giuseppe?', a: 'Pitigliano’s fire festival on 19 March: torch-bearers process through the tufa-cliff town and burn the invernacciu, a giant reed effigy of winter, in Piazza Garibaldi. It is a far-southern Maremma expedition — best as the anchor of a two-day trip by car.' },
+      { q: 'What is the Capodanno Fiorentino?', a: 'Florence’s old New Year on 25 March, the Annunciation — the city’s calendar began the year then until the mid-eighteenth century — still marked with a costumed procession to Piazza Santissima Annunziata and surrounding events. Local, real and pleasantly uncrowded.' },
+      { q: 'Are Tuscany’s gardens and villas open in March?', a: 'Partially: the reopening wave runs through the month — Villa Reale di Marlia’s grounds have opened from early March in recent seasons — but famous gardens including La Foce and the Tarot Garden have held to 1 April starts. Verify each season’s dates before driving.' },
+      { q: 'Is Easter week expensive in Tuscany?', a: 'Yes — treat 26–29 March 2027 as high season: Florence and Siena rooms price up and sell out, transport runs holiday timetables, and the piazzas fill. The first three weeks of March remain genuinely low season; book the Easter block first and early.' },
+    ],
+    '2026-08-19',
+    {
+      seoTitle: 'Tuscany in March 2027: Early Easter, the Scoppio del Carro & Spring',
+      primaryKeyword: 'tuscany in march',
+      secondaryKeywords: [
+        'tuscany march 2027',
+        'easter 2027 italy florence',
+        'scoppio del carro 2027',
+        'tuscany weather march',
+        'torciata di san giuseppe pitigliano',
+        'capodanno fiorentino',
+      ],
+      imageAlt: 'Shaded garden paths in Florence’s Boboli Gardens in early spring',
+      canonicalPath: '/blog/tuscany-in-march-2027',
+      tags: ['tuscany in march', 'easter in tuscany', 'scoppio del carro', 'tuscany spring', 'florence traditions'],
     }
   ),
 ];
