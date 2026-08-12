@@ -9070,6 +9070,134 @@ Fair-weekend variant: come Saturday, let the antiques swallow the morning, and p
       tags: ['arezzo', 'day trips from florence', 'piero della francesca', 'tuscany art', 'antiques fair'],
     }
   ),
+
+  A(
+    'pienza-pecorino-fiera-del-cacio-2026',
+    'Pienza, Tuscany’s Cheese Capital: Pecorino Tasting and the Fiera del Cacio 2026',
+    'Food & drink',
+    'Tuscany',
+    'Pienza is Tuscany’s pecorino capital — and 1–7 September 2026 brings the Fiera del Cacio, when the town rolls cheese at a spindle. The full guide.',
+    '/images/siena/pici-pasta-wild-boar-ragu-siena.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Pienza is two superlatives stacked on one small hill: the Renaissance's first planned "ideal city", and **Tuscany's cheese capital** — the home of pecorino di Pienza, the sheep's-milk cheese whose name opens doors on menus across Italy. Any month of the year, its single main street is a runway of cheese shops offering tastings a few steps apart.
+
+And for one week a year the cheese takes over completely. The **Fiera del Cacio** runs **1–7 September 2026** per the event listings we checked, filling the town with market stalls, contrada dinners and tastings, and climaxing with the **Gioco del Cacio al Fuso**: the six districts of the town kneeling in Piazza Pio II to roll whole wheels of pecorino at a spindle, for points, for the palio banner, and for a year of bragging rights. It is the most cheerfully absurd spectacle on the Tuscan festival calendar, and almost nobody outside Italy has heard of it.
+
+The practicalities in one breath: Pienza sits on **bus line 112 from Siena** (weekdays, plan the return first), the festival's final weekend collides with [Arezzo's 150th Giostra on 6 September](/blog/giostra-del-saracino-arezzo-2026/) so pick your Sunday deliberately, and the three tasting shops below are open all year — the fair is the crescendo, not the only performance.`,
+      },
+      {
+        id: 'why-pienza',
+        heading: 'Why the cheese capital is here',
+        body: `The short answer is grass. Pienza sits on the edge of the **Crete Senesi and Val d'Orcia pastures** — clay hills whose aromatic grasses and herbs feed the sheep whose milk becomes the cheese, and shepherding here runs back centuries, reinforced historically by Sardinian shepherd families who settled the valley with their flocks. The result is a pecorino with a name: **pecorino di Pienza**, prized across Italy, sold from the town's own shops at every age from fresh to defiantly hard.
+
+The long answer adds the stage set. In the fifteenth century, Pope **Pius II** rebuilt his home village into the Renaissance's first ideal city — the trapezoidal Piazza Pio II, the Duomo, the palazzi, all composed like a painting and now UNESCO-listed as a landmark of urban design. Which means the world's most storied sheep's cheese is sold along a street designed by a pope's architects, with the Val d'Orcia falling away golden below the southern walls. Few food pilgrimages come with better scenery, [as our Val d'Orcia day-trip guide argues from the landscape side](/blog/val-dorcia-day-trip-from-siena-2026/).`,
+      },
+      {
+        id: 'the-cheese',
+        heading: 'The cheese itself: how to taste pecorino like you mean it',
+        body: `Pecorino di Pienza is not one cheese but a spectrum, and the tasting counters arrange it left to right:
+
+**Fresco / dolce** — young, pale, milky and gentle, closer to a table cheese than to the pecorino of Roman-pasta fame. **Semi-stagionato** — weeks-to-months aged, the local sweet spot: firm, nutty, still supple. **Stagionato** — matured until it crumbles, salt and sheep asserting themselves, the version that stands up to honey and pears. Around and beyond that spine, Pienza's affineurs play: rinds rubbed with tomato or ash in the local tradition, wheels matured under hay or in barrels, versions laced with truffle or pepper — each shop with its own house experiments.
+
+Tasting etiquette that makes shopkeepers love you: taste young to old, not the reverse; take the offered honey or jam pairings seriously (stagionato with pear preserves is the town's standard argument-settler); ask what the shop's own farm makes versus what it buys in; and buy something — the tastings are hospitality, not a buffet. Vacuum-sealing for travel is routine on request, and a semi-stagionato wheel survives a suitcase home better than most souvenirs — [it made our what-to-buy list for exactly that reason](/blog/what-to-buy-in-tuscany-souvenirs).`,
+      },
+      {
+        id: 'shop-by-shop',
+        heading: 'The tasting shops, named',
+        body: `Three long-standing counters anchor a tasting walk, all within ten minutes of each other:
+
+**Marusco e Maria** — Corso il Rossellino 21. Selling pecorino at every age **since 1974**, alongside dried pici, salumi, beans, honey and oil; sit-down tastings can be booked ahead through the shop. The fullest single introduction to the spectrum in town.
+
+**La Bottega del Naturista** — Corso il Rossellino 16. The town shop of **Caseificio De Mario**, a small family dairy nearby — which makes this the counter where the question "what do *you* make?" has the shortest, best answer.
+
+**Il Cacio di Ernesto** — Via Enzo Mangiavacchi 37, just outside the walls. A tiny farm shop selling its own pecorino with bread, organic oil and local wine — the least polished and, for some tastes, the most honest stop of the three.
+
+Beyond the named three, the Corso holds more counters than any visitor needs; let your nose arbitrate. Two honesty notes: shop hours in a town this size flex with the season and the lunch hour — mid-morning is the reliable window — and prices vary by age and maker, so taste before you commit to a whole stagionato wheel. We have no affiliate relationship with any shop named here; recommendations are editorial, and the tastings we describe are the shops' standard public offer.`,
+      },
+      {
+        id: 'the-fiera',
+        heading: 'The Fiera del Cacio, 1–7 September 2026',
+        body: `Every early September the town throws its cheese a festival. The 2026 edition is listed for **1–7 September** across the event calendars we checked, following the fair's long-standing first-week-of-September pattern: market stalls of pecorino and Val d'Orcia produce along the Corso and piazza, tastings and producer stands, contrada dinners at long tables in the streets, flag-throwers and drummers, children's cheese games — and the spindle waiting in the square for the finale.
+
+The honest caveat, per our standard: the **day-by-day programme is published close to the date** by the town's organisers, and third-party listings recycle past years' schedules — so treat any hour-by-hour plan you read online (including fragments in our own sources) as last year's rehearsal, and check the official programme or the fair's own channels the week before. The fixture that does not move: the **Cacio al Fuso game**, the fair's climax, played on the final weekend in Piazza Pio II.
+
+One 2026 collision to plan around: that final weekend puts the game up against [the 150th Giostra del Saracino in Arezzo on Sunday 6 September](/blog/giostra-del-saracino-arezzo-2026/) — two of the season's best spectacles, ninety kilometres apart. Choose by temperament: armoured cavalry or rolling cheese. [The full September calendar](/blog/tuscany-september-2026-festivals-events/) shows everything else competing for the week.`,
+      },
+      {
+        id: 'cacio-al-fuso',
+        heading: 'The Cacio al Fuso: how cheese-rolling works in Pienza',
+        body: `The game is exactly what it sounds like and better than it sounds. A **fuso** — a wooden spindle — is set upright at the centre of a target ring in the piazza's pavement. Players from the town's **six contrade** — San Piero, Il Prato, La Mura, Gozzante, Case Nuove and Casello — kneel and bowl whole wheels of pecorino across the stones, aiming to stop the cheese as close to the spindle as possible.
+
+The scoring, as local accounts describe it: the innermost zone around the spindle is worth **five points**, the ring band four, and chalk circles working outward count three, two and one — with the delicious rules that the wheel must **finish upright** to score at all, and that a cheese which curls around the spindle or comes to rest leaning against it earns a bonus. Local tradition traces the rolling of cheeses in Pienza's square back to the **sixteenth century**; the organised contrada competition for a palio banner is the modern form of a very old after-market amusement.
+
+As a spectator sport it is superb: real skill (watch the spin the good players impart), real partisanship (the contrade take it seriously the way [Siena takes its Palio](/blog/palio-di-siena-guide/) seriously, scaled to a town of two thousand), and a venue — the pope's perfect piazza — that no sporting event on earth can match for incongruity. Arrive early for a sightline; the square is small and the whole town shows up.`,
+      },
+      {
+        id: 'planning',
+        heading: 'Planning the visit: buses, bases and the day that works',
+        body: `**Car-free from Siena**: Pienza sits on **bus line 112** — the Val d'Orcia towns run through Buonconvento and San Quirico — with roughly four usable weekday connections and a fastest journey around 1h15–1h30 to Pienza's stop; [the full car-free playbook applies](/blog/tuscany-without-a-car-2026/), above all its two commandments: weekdays only, and screenshot the return times before you leave. The same bus continues to Montepulciano, which makes the classic pairing trivially easy: [cheese in Pienza, cellars in Montepulciano](/blog/montalcino-or-montepulciano-2026/), one line, one day.
+
+**By car**, Pienza is the Val d'Orcia's natural hub — under an hour from Siena, minutes from San Quirico and the postcard roads, with parking outside the walls and a short walk in. During the fair, expect the lots to fill by mid-morning and the approach roads to move at festival pace.
+
+**Time needed**: the town itself is two to three unhurried hours — piazza, Duomo, the panoramic walk along the southern walls, and the tasting crawl. Add lunch (pici with pecorino sauces is the local statement, [as the food calendar explains](/blog/tuscan-food-calendar-seasonal-dishes)) and Pienza fills half a day perfectly, leaving the other half for [the valley around it](/blog/val-dorcia-day-trip-from-siena-2026/). During the Fiera, invert the advice: come for the day, stay into the evening — the contrada dinners and the lit piazza are the point.
+
+**Base logic**: staying in Pienza itself suits the fair week and the sunrise photographers; for everyone else, [Siena remains the better hub](/blog/siena-day-trip-or-overnight-2026/), with Pienza as the jewel of its Val d'Orcia day. Either way, September rooms across the valley move fast once the harvest and festival calendars land — the booking advice from every guide in this cluster applies doubled here.`,
+      },
+      {
+        id: 'at-the-table',
+        heading: 'Pecorino at the table: what to order',
+        body: `The shops are half the story; the trattorie finish it. Pienza's kitchens cook with their cheese the way Montalcino cooks with its wine — as the local axiom rather than an ingredient.
+
+The signature plate is **pici with pecorino**: the fat hand-rolled pasta of these hills under sauces built on the cheese, from the simple *cacio e pepe* treatment to versions folding in the sweeter young pecorino with pear or the aged crumble with pepper and oil. Order it once plain and once elaborated and you will understand the spectrum from the tasting counters all over again, hot. Antipasti boards pair the ages of pecorino against honey, jams and the season's fruit — the same pairings the shops pour, now with a table and a view. And in early autumn the menus lean into [the harvest table the food calendar maps](/blog/tuscan-food-calendar-seasonal-dishes): porcini, new oil not far behind, and grapes on everything.
+
+The practical notes: kitchens here keep small-town hours, so lunch runs earlier and shorter than city visitors expect; fair week packs every table, and booking dinner during 1–7 September is not optional; and the correct dessert, the town would like you to know, is more cheese.`,
+      },
+      {
+        id: 'beyond-cheese',
+        heading: 'Beyond the cheese: the ideal city in an hour',
+        body: `Between tastings, the town that hosts them repays a slow loop. **Piazza Pio II** is the set piece — cathedral, papal palace and town hall composed as a single Renaissance argument about what a city should be, small enough to take in from one café table. The **Duomo** behind its travertine facade holds its altarpieces in unusually good light, by papal design. The lanes running south hit the **panoramic walk along the walls** within a minute, with the Val d'Orcia arranged below like the backdrop it has played [in half a dozen films](/blog/tuscany-on-screen-film-locations-2026/) — the Gladiator cypress road waits just outside town for those continuing the pilgrimage.
+
+Give the loop an unhurried hour, two with the palace and a long look off the walls. Then, correctly, return to the cheese — Pienza is one of the few great sights in Tuscany designed to be a backdrop to lunch rather than an obstacle to it, which may be the most Renaissance thing about it.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research: the Fiera del Cacio's 1–7 September 2026 dates from multiple independent event listings, consistent with the fair's long-standing early-September pattern, with the day-by-day programme explicitly deferred to the organisers' near-date publication (third-party schedules recycle previous years, and we say so rather than reprint them); the Cacio al Fuso's six contrade, kneeling-roll format, spindle target, five-to-one scoring zones, upright rule and spindle bonus from consistent local and event accounts, with the sixteenth-century origin presented as local tradition rather than documented fact; the three tasting shops (Marusco e Maria at Corso il Rossellino 21 since 1974, La Bottega del Naturista at number 16 as Caseificio De Mario's shop, Il Cacio di Ernesto at Via Mangiavacchi 37) from the shops' own information and consistent food-guide coverage; Pienza's Pius II history and UNESCO status from heritage sources; and the bus-112 access facts from this site's own operator-checked transport research. Shop hours, festival programmes and tasting arrangements change — confirm with the shops and the fair's channels near your date. We have no affiliate relationship with any shop, producer or event named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Every region of Italy has a famous cheese; very few have a cheese *town* — a single walkable street where the whole spectrum sits on counters between a pope's palace and a valley view, tended by families who made what you are tasting. That is Pienza's everyday miracle, and the first week of September gilds it: a fair that ends with grown adults bowling pecorino at a spindle in one of the most beautiful squares ever built, while their neighbourhoods roar. Come any day for the cheese. Come 1–7 September 2026 for the cheese with a crowd, a banner and a game worth crossing Tuscany to watch — just decide early whether your Sunday belongs to the spindle or [to Arezzo's lances](/blog/giostra-del-saracino-arezzo-2026/).`,
+      },
+    ],
+    [
+      { q: 'When is the Fiera del Cacio in Pienza in 2026?', a: 'Event listings give 1–7 September 2026, following the fair’s long-standing first-week-of-September pattern, with the Cacio al Fuso cheese-rolling game as the final-weekend climax in Piazza Pio II. The day-by-day programme is published by the organisers close to the date — check their channels the week before rather than trusting recycled online schedules.' },
+      { q: 'What is the Cacio al Fuso game?', a: 'Pienza’s six contrade — San Piero, Il Prato, La Mura, Gozzante, Case Nuove and Casello — kneel and roll whole pecorino wheels across Piazza Pio II at an upright spindle. Scoring runs five points nearest the spindle down to one in the outer chalk circles; the wheel must finish upright, and curling around or leaning on the spindle earns a bonus. Local tradition traces the game to the sixteenth century.' },
+      { q: 'Where can you taste pecorino in Pienza?', a: 'All along Corso il Rossellino, any day of the year. Three named anchors: Marusco e Maria at number 21 (tastings bookable, trading since 1974), La Bottega del Naturista at number 16 (the shop of family dairy Caseificio De Mario), and Il Cacio di Ernesto just outside the walls at Via Mangiavacchi 37, selling its own farm’s cheese.' },
+      { q: 'What is special about pecorino di Pienza?', a: 'It is sheep’s-milk cheese from the Crete Senesi and Val d’Orcia pastures around the town, whose aromatic grasses flavour the milk. It spans fresh and mild (dolce) through semi-stagionato to crumbly aged stagionato, plus local variations — tomato- or ash-rubbed rinds, hay- and barrel-matured wheels — that make a tasting walk genuinely varied.' },
+      { q: 'How do you get to Pienza without a car?', a: 'Bus line 112 from Siena, the Val d’Orcia towns run via Buonconvento and San Quirico — roughly four usable weekday connections, so plan the return before you commit to the day, and treat Sundays as effectively out of reach. The same bus continues to Montepulciano, making a two-town cheese-and-cellars day easy on one line.' },
+      { q: 'Is Pienza worth visiting outside the festival?', a: 'Absolutely — the cheese shops trade all year, the Renaissance piazza and the wall-top Val d’Orcia panorama are permanent, and two to three hours covers the town unhurried. The Fiera adds crowds, stalls and the game; ordinary weekdays add quiet. Different visits, both worth it.' },
+    ],
+    '2026-08-28',
+    {
+      seoTitle: 'Pienza Pecorino Guide + Fiera del Cacio 2026: Dates & Tastings',
+      primaryKeyword: 'fiera del cacio pienza 2026',
+      secondaryKeywords: [
+        'pienza cheese festival september 2026',
+        'cacio al fuso pienza',
+        'pecorino di pienza tasting',
+        'pecorino tasting pienza shops',
+        'pienza what to do',
+        'val d orcia food towns',
+      ],
+      imageAlt: 'Pici pasta — the Val d’Orcia table that pecorino di Pienza belongs to',
+      canonicalPath: '/blog/pienza-pecorino-fiera-del-cacio-2026',
+      tags: ['pienza', 'pecorino', 'fiera del cacio', 'tuscany food', 'val d orcia', 'tuscany festivals'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
