@@ -9614,6 +9614,148 @@ Start with three hours from Gambassi Terme to San Gimignano, or twenty kilometre
       tags: ['via francigena', 'walking in tuscany', 'pilgrim routes', 'hiking italy', 'slow travel'],
     }
   ),
+
+  A(
+    'uffizi-tickets-sold-out-what-to-do',
+    'Uffizi Tickets Sold Out? What Actually Works, and What Wastes Your Money',
+    'Practical tips',
+    'Florence',
+    'Uffizi sold out for your dates? The honest options — the same-day afternoon ticket, the phone line, real Plan B museums — and the traps to avoid.',
+    '/images/florence/uffizi-early-morning-july-2026.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `The official site shows nothing for your dates and every blog says "book in advance", which is useless advice to someone standing in Florence tomorrow. Here is what actually works, in order.
+
+**First, check you are on the right site.** The Uffizi changed ticketing concessionaire on **13 October 2025** — CoopCulture took over, and the official booking address is now **tickets.uffizi.it**. Older guides still point at the previous platform. (Confusingly, the Accademia and San Marco remained on the old one, so a mismatch is not proof you are being scammed — but for the Uffizi, use uffizi.it and tickets.uffizi.it and nothing else.)
+
+**Second, the counterintuitive fact that solves most cases: at the Uffizi, buying on the day is cheaper than booking ahead.** The official fare structure prices advance purchase *higher*. The standard adult ticket is **€25 at the ticket office on the day** in high season, and — the single most useful number in this article — an **"Afternoon" ticket for entry from 16:00 costs €16 on the day against €20 in advance**, introduced on 1 January 2026. If the online calendar is empty, **the same-day queue is not the desperate option; it is the cheap one**.
+
+**Third, phone them.** The call centre (800 615615 in Italy, +39 055 0354135 from abroad, 08:00–19:00 daily) sometimes places what the website will not show you.
+
+**And the thing to stop hoping for**: Uffizi tickets are **non-refundable and non-changeable**, so almost nothing returns to inventory. Refreshing for cancellations is a poor use of a holiday.
+
+The rest of this guide covers the walk-up reality, the legitimate paid routes in, the resale trap, and the Plan B museums that are genuinely open when the Uffizi is not.`,
+      },
+      {
+        id: 'why-sold-out',
+        heading: 'Why it sells out — and why waiting for cancellations fails',
+        body: `Two structural facts explain the wall you have hit, and neither is bad luck.
+
+**Tickets are nominative.** Every Uffizi Galleries entrance ticket is personalised: you supply identification details at purchase, and **if the name on the ticket does not match your ID, entry is refused**. That kills the informal resale market that softens sell-outs at other attractions — you cannot buy a stranger's spare.
+
+**Tickets are non-refundable and cannot be changed once purchased.** Combine those two and the consequence is stark: a buyer whose plans change has **no incentive to release the slot**, because releasing it returns nothing. This is why the common advice to "keep refreshing for cancellations" underperforms at the Uffizi specifically. Some inventory does move, but the pool is far smaller than at museums with flexible tickets, and a holiday spent refreshing is a holiday spent refreshing.
+
+For completeness on the release cycle: tickets are reported to open roughly **two months ahead on a rolling basis** — one account cites bookings for April–December 2026 opening on 2 February 2026 — but that comes from a single unconfirmed source, so treat it as a pattern to test rather than a rule to plan on. Purchase limits are firmer: **a maximum of 10 tickets per account per day**, and five for the Vasari Corridor.`,
+      },
+      {
+        id: 'same-day',
+        heading: 'The same-day route, properly explained',
+        body: `The Uffizi is open **Tuesday to Sunday, 08:15–18:30**, closed every **Monday**, plus 1 January and 25 December. The ticket office closes at **17:30**, and at 18:30 visitors are moved toward the exit.
+
+**Walk-up same-day entry normally exists.** That is the fact most "sold out" panic overlooks: the online allocation and the door are not the same inventory. Two caveats before you build a morning around it. First, it is **not guaranteed** — the museum can suspend walk-ups at short notice, and it did exactly that in a notice dated 24 June 2026, restricting entry to pre-booked visitors only during an exceptional heatwave. Check the official site's notices the night before. Second, you are queueing, and the queue is worst in the middle of the day.
+
+**Play the pricing.** Because same-day is cheaper than advance at this museum, the same-day plan is not a compromise:
+
+- **Standard, on the day at the ticket office: €25.** (The commonly quoted €25 + €4 online booking fee = €29 did not appear on the official fares page we checked, so treat the €29 figure as unconfirmed and let the checkout tell you.)
+- **Afternoon ticket, entry from 16:00: €16 on the day** — against €20 booked ahead. Introduced 1 January 2026, and comfortably the cheapest legitimate way in.
+
+**Time it deliberately.** Availability and crowding are reported to be lowest **November to March**, on **Wednesdays and Thursdays**, in the **first ninety minutes after the 08:15 opening**, and again from **16:00 to last entry at 17:30** — with **Tuesday unusually busy** because it absorbs the Monday-closure spillover. The 16:00-onward window is doubly attractive: it is both the quietest stretch and the cheap ticket. Two and a half hours is enough for the Botticellis, the Leonardos, the Caravaggios and the corridor views if you walk with intent.
+
+**Free first Sundays** are the exception that helps least: admission is free on the first Sunday of the month under the national #Domenicalmuseo scheme, and on those days **general visitors cannot book** — the free ticket is issued at the entrance on arrival. Free means crowded; go early or treat that Sunday as a Plan B day.`,
+      },
+      {
+        id: 'legit-routes',
+        heading: 'The paid routes that actually get you in',
+        body: `When the calendar is empty and you need certainty rather than a queue, three routes are legitimate.
+
+**The call centre.** Reservations can be made by phone on **800 615615** (freephone within Italy) or **+39 055 0354135** from abroad, **08:00–19:00 daily**. This is the most underused option in Florence: phone inventory and web inventory are not always identical, and a two-minute call has rescued more visits than any refresh loop.
+
+**A guided tour.** Tour operators hold **ticket allocations that never enter the public online inventory**, which is precisely why a tour can show availability on a date the official site cannot. That is not a trick; it is how museum allotments work. The corollary is worth knowing too: when an operator's own allotment sells out, they are as stuck as you are. You will pay for the guide on top of admission — the honest trade is money and a fixed group pace in exchange for a guaranteed entry on a date that otherwise has none.
+
+**A combined or multi-site ticket.** The **Uffizi + Pitti Palace + Boboli Gardens** ticket is valid **5 consecutive days with one priority admission to each**, at **€40** (€58 with the Vasari Corridor supplement). Its value here is the flexibility: five days is a wide net when a single date is impossible. The **Firenze Card** (€85, 72 hours, 72 museums, booking costs included, under-18s free within the cardholder's family) is worth the arithmetic only if you are museum-intensive across three days — for a single Uffizi rescue it is expensive.
+
+**And the Vasari Corridor**, reopened on **21 December 2024** after eight years and a refurbishment reported at around €11 million, is a genuine alternative experience above the Ponte Vecchio: **€43 with Uffizi entry bought on the day, €47 in advance**, or a **€20 supplement** for existing Uffizi ticket or Passepartout holders. Arrive **five minutes before your slot or forfeit entry**; tickets are personalised and capped at five per purchase. Note for anyone reading this in the publication window: an **evening opening runs 3 July to 20 November 2026, 19:00–23:00 with last admission 21:50** — a live availability window worth checking when the daytime museum is full.`,
+      },
+      {
+        id: 'the-trap',
+        heading: 'The trap: lookalike resellers',
+        body: `Search "Uffizi tickets" under time pressure and the first results will include official-sounding domains that are not the museum. Travellers report paying **close to double** after booking through them, and the sites are engineered to look institutional.
+
+**The rule is simple: the only official addresses are uffizi.it for information and tickets.uffizi.it for booking.** Anything else is either a licensed tour operator selling a genuine product with a service fee — legitimate, if you know that is what you are buying — or a markup for nothing.
+
+Two clarifications that keep honest people out of trouble. **A booking fee is not automatically a scam**: official online purchases carry service fees, and tour operators legitimately price their allocation plus guiding. What you are checking for is proportion and transparency — a site that hides the face value or charges a multiple of it. And **a third-party platform showing availability when the official site shows none is not proof of fraud** either; that is the allotment mechanism described above. Judge by price and disclosure, not by the mere existence of stock.
+
+One more mismatch that panics people unnecessarily: as noted at the top, the **Accademia and San Marco still sit on the previous ticketing platform** while the Uffizi moved to CoopCulture in October 2025. Encountering two different official-looking systems for two Florentine museums is expected, not evidence of a fake.`,
+      },
+      {
+        id: 'plan-b',
+        heading: 'Plan B: the museums that are genuinely open',
+        body: `If the Uffizi truly cannot happen on your dates, Florence is not short of alternatives — but the quality of the alternatives varies enormously, and the usual listicle ranks them wrongly.
+
+**The Bargello is the strongest same-day Plan B.** Sculpture rather than painting — Donatello, Michelangelo, the Ghiberti competition panels — in a magnificent medieval palace, on the unified **Tuesday–Sunday 08:15–18:50** schedule. Since **15 March 2026** the Accademia and the Bargello museums operate as a single institution across seven sites, with combined tickets at **€26 valid 48 hours** (Accademia plus Bargello) and **€38 valid 72 hours** for the wider circuit. The Bargello rarely sells out in the way the headline museums do.
+
+**Pitti Palace + Boboli Gardens is the most reliable large-scale substitute**: a combined one-day ticket at **€22 on the day, €25 in advance**, covering the Pitti museums, Boboli and the Bardini Garden. It is a half-day minimum and a full day if the gardens catch you — and, like the Uffizi, it is cheaper bought on the day.
+
+**The Accademia is a weak rescue**, despite being everyone's first suggestion. It sells out on the same pattern as the Uffizi, and its full price rose from €16 to **€20 on 1 February 2026** plus a €4 reservation fee. If David is the goal, treat it as a second booking problem, not a solution to the first.
+
+**The Duomo complex** is a different kind of day entirely, sold on passes: **Brunelleschi Pass €30 full / €12 reduced** (timed Dome climb, Baptistery, Campanile, Santa Reparata crypt and the Opera del Duomo Museum, valid 3 days) or **Giotto Pass €20 / €7** for everything except the Dome. Note that **since 1 March 2025 an identity document must be presented with the ticket for the Dome climb**.
+
+**Palazzo Vecchio** covers the civic-power half of Florence's story; the official civic-museums channel gives **€17.50 full with €15 reduced for 18–25s**, though a third-party listing says €18 — confirm at the door. **San Marco**, for Fra Angelico's cells, is reported at €8 (€2 for EU 18–25s) from a single secondary source, and had refurbishment closures in early 2026 — check before crossing town for it.
+
+**And the free option nobody suggests**: [Florence's churches](/blog/florence-tourist-rules-2026/) hold a museum's worth of art at no charge or a few euro — Santa Maria Novella, Santa Croce, the Brancacci Chapel's frescoes. A sold-out Uffizi is a good day to discover that the Renaissance did not confine itself to one building.`,
+      },
+      {
+        id: 'plan-the-trip',
+        heading: 'Planning so this never happens again',
+        body: `Three habits prevent the sold-out morning entirely.
+
+**Book at the release, not at the trip.** The rolling window is reported at roughly two months ahead; the practical rule is to secure the Uffizi the moment your dates are fixed, and — because same-day is cheaper here — to decide consciously whether you are paying the advance premium for certainty or backing yourself to walk up.
+
+**Aim at the quiet seams.** November to March, midweek, first thing or after 16:00. A Florence trip built around those windows barely encounters the problem this article solves.
+
+**Or move the base.** The travellers who suffer worst from Florence's ticketing are those who gave the city a single, immovable day. Staying in Siena and [treating Florence as a day trip on the 131R](/blog/tuscany-without-a-car-2026/) sounds like it would make booking harder; in practice it makes the calendar flexible, because [a Siena base has other days to spend](/blog/siena-day-trip-or-overnight-2026/) if the museum says no. It is the same logic behind [choosing Florence or Siena as your base at all](/blog/florence-or-siena-which-to-visit-2026/) — and it is the reason a sold-out Uffizi ruins a Florence-only itinerary and merely reshuffles a Tuscan one.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research (direct page fetches are blocked in our environment, so all of this rests on search-surfaced material rather than pages we opened). Verified from official and official-adjacent sources: the Uffizi's Tuesday–Sunday 08:15–18:30 opening with Monday and holiday closures and the 17:30 ticket-office cut-off; the **13 October 2025 transfer of ticketing to CoopCulture and the move to tickets.uffizi.it**, with the Accademia and San Marco remaining on the previous platform; the €25 same-day standard admission and the official high-season definition; the **advance-costs-more structure**, evidenced by the €43-same-day versus €47-advance Vasari Corridor pricing and the €16/€20 Afternoon ticket introduced 1 January 2026; the nominative-ticket and ID-match rules; the non-refundable, non-changeable terms and the 10-per-account daily cap; QR delivery by email since 6 May 2024; the call-centre numbers and hours; the #Domenicalmuseo free-first-Sunday arrangement and its no-booking rule; the 24 June 2026 heatwave notice suspending walk-ups; the Vasari Corridor's December 2024 reopening, pricing, five-minute rule and the 3 July–20 November 2026 evening opening; the €40 Uffizi–Pitti–Boboli five-day ticket and €22/€25 Pitti+Boboli; the Accademia's 1 February 2026 rise to €20 and its 15 March 2026 unification with the Bargello on €26/€38 combined tickets; the Duomo passes and the 1 March 2025 ID requirement for the Dome climb; and the €85 Firenze Card terms. Explicitly flagged as unconfirmed rather than printed as fact: the widely quoted €29 online total for a standard adult ticket, the two-month rolling release pattern, Palazzo Vecchio's price (official €17.50 against a third-party €18), San Marco's price and its early-2026 refurbishment closures, and current Passepartout pricing. Museum prices and policies in Florence changed repeatedly across 2025–2026 — verify on the official channels for your dates before relying on any figure here. We have no affiliate relationship with any museum, ticketing platform or tour operator named; no booking on this page pays us, and no reseller is recommended.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `"Sold out" at the Uffizi means the online allocation for one date is gone. It does not mean the museum is closed to you, and it certainly does not mean you should pay a lookalike site double to fix a problem that a phone call, an afternoon ticket or a Wednesday would have solved for less than the original price.
+
+Try the official channels in this order — tickets.uffizi.it, the phone line, the same-day afternoon window — and if none of them yields, spend the day in the Bargello or at Pitti and come back at 16:00 tomorrow for sixteen euro. Florence has been overwhelming visitors for six centuries; it has never had only one room worth entering.`,
+      },
+    ],
+    [
+      { q: 'What do you do if Uffizi tickets are sold out?', a: 'Work the official channels in order: check tickets.uffizi.it (the official booking site since CoopCulture took over in October 2025), phone the call centre on 800 615615 in Italy or +39 055 0354135 from abroad (08:00–19:00 daily), and consider walking up — same-day tickets are normally available and are cheaper than advance, with the 16:00 afternoon ticket at €16.' },
+      { q: 'Can you buy Uffizi tickets on the day?', a: 'Normally yes — walk-up same-day entry exists and the door is not the same inventory as the website. It is not guaranteed, though: the museum can suspend walk-ups at short notice, as it did in a June 2026 heatwave notice. Check the official site’s notices the night before, and go at opening or after 16:00 to avoid the worst queue.' },
+      { q: 'Is it cheaper to book Uffizi tickets in advance?', a: 'No — and this surprises almost everyone. The official structure prices advance purchase higher: the Vasari Corridor combination is €43 on the day against €47 booked ahead, and the Afternoon ticket for entry from 16:00 is €16 on the day against €20 in advance. Advance booking buys certainty, not savings.' },
+      { q: 'Do Uffizi tickets get released again if someone cancels?', a: 'Rarely. Tickets are nominative and non-refundable and cannot be changed, so a buyer whose plans change gains nothing by releasing the slot — which means very little inventory returns. Refreshing for cancellations underperforms at the Uffizi specifically; the phone line and the same-day door are better uses of your time.' },
+      { q: 'Are third-party Uffizi ticket sites legitimate?', a: 'Some are; many mark up heavily. The only official addresses are uffizi.it and tickets.uffizi.it. Licensed tour operators genuinely hold allocations outside the public inventory — which is why they show availability when the official site does not — so availability elsewhere is not proof of fraud. Judge by price transparency: travellers report paying close to double on lookalike domains.' },
+      { q: 'What is the best alternative if the Uffizi is full?', a: 'The Bargello — Donatello, Michelangelo and the Ghiberti panels in a medieval palace, on €26 (48h) or €38 (72h) combined tickets since its March 2026 unification with the Accademia, and it rarely sells out. Pitti Palace plus Boboli (€22 same day) is the most reliable large substitute. The Accademia is a weak rescue: it sells out on the same pattern and rose to €20 in February 2026.' },
+      { q: 'When is the Uffizi least crowded?', a: 'November to March, on Wednesdays and Thursdays, in the first ninety minutes after the 08:15 opening or from 16:00 to the 17:30 last entry. Tuesday is unusually busy because it absorbs the Monday-closure spillover. The late-afternoon window is both the quietest and, at €16 on the day, the cheapest.' },
+    ],
+    '2026-09-01',
+    {
+      seoTitle: 'Uffizi Tickets Sold Out? The Real Options (2026 Prices & Rules)',
+      primaryKeyword: 'uffizi tickets sold out what to do',
+      secondaryKeywords: [
+        'uffizi sold out alternatives',
+        'uffizi same day tickets',
+        'uffizi afternoon ticket price',
+        'uffizi official ticket site',
+        'best alternative to uffizi florence',
+        'uffizi least crowded time',
+      ],
+      imageAlt: 'The Uffizi Gallery in early morning light before the day’s crowds arrive',
+      canonicalPath: '/blog/uffizi-tickets-sold-out-what-to-do',
+      tags: ['uffizi', 'florence museums', 'florence tickets', 'florence planning', 'practical tips'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
