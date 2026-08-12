@@ -102,3 +102,50 @@ Catatan batch 2:
   link tambahan: tiga hub komparasi (florence-or-siena, siena-or-san-gimignano,
   val-dorcia-or-chianti) — semuanya sudah menaut ke artikel musiman.
 
+---
+
+# Catatan GSC — 2026-08-12: drilldown "Blocked by robots.txt"
+
+Link drilldown yang dibagikan (`item_key=CAMYCyAC`) mengarah ke kategori
+**"Blocked by robots.txt"** di bagian *Why pages aren't indexed* untuk properti
+`sc-domain:affittacameregliarchi.com`. Identifikasi dari luar akun: item_key
+adalah protobuf base64 (reason enum 11, bucket 3 = not indexed), cocok dengan
+link drilldown publik ber-item_key sama yang beredar di forum SEO untuk laporan
+"pagina bloccata da robots.txt". Konfirmasi final tetap lewat checklist di bawah.
+
+## Kenapa baru muncul sekarang
+
+`robots.txt` dengan `Disallow: /go/` pertama kali live 2026-07-31. Sejak itu
+Google berhenti meng-crawl endpoint redirect afiliasi `/go/*` (11 slug di
+`_redirects`, plus varian query seperti `/go/booking-search?ss=...`) dan
+laporan GSC memindahkannya ke bucket ini — sebelum ada robots.txt, URL yang
+sama akan tampil sebagai "Page with redirect". Naiknya angka di baris laporan
+ini adalah efek yang memang diinginkan, bukan regresi.
+
+## Status: intentional — tidak ada yang perlu difix
+
+- `/go/*` memang tidak boleh di-crawl/di-index: itu endpoint redirect afiliasi.
+- Tidak ada URL `/go/` di sitemap (dicek 2026-08-12: 0 dari 105 URL).
+- Link `/go/` di halaman sudah menyandang `rel="sponsored"` (Viator,
+  DiscoverCars — tracking live) atau `rel="nofollow"` (programme yang masih
+  pending), jadi sinyal "paid link" tidak bergantung pada crawl redirect-nya.
+- Jangan klik "Validate fix" untuk baris ini, dan jangan longgarkan robots.txt.
+
+## Checklist verifikasi (buka drilldown-nya, butuh login GSC)
+
+Satu-satunya rule Disallow kita adalah `/go/`, jadi **semua** contoh URL di
+daftar drilldown harus berawalan `/go/`. Jumlah wajar: ±11 plus varian query.
+Kalau ada URL non-`/go/` di daftar itu, berarti production menyajikan
+robots.txt yang berbeda dari repo (mis. di subdomain) — investigasi dulu
+sebelum menyimpulkan apa pun.
+
+## Temuan sampingan saat audit (difix di branch ini, 2026-08-12)
+
+Dua artikel batch Rank-1 (2026-08-10) menaut guide Florence–Siena di path salah
+`/blog/florence-to-siena-by-train-or-bus/` — path itu tidak punya route sehingga
+merender halaman 404 (HTTP 200 + noindex). Tiga link konten dibetulkan ke
+`/florence-to-siena-by-train-or-bus/` dan ditambah 301 safety net di
+`_redirects` untuk varian yang mungkin sudah ter-crawl. Kalau URL salahnya
+sempat muncul di GSC (soft 404 / excluded by noindex), akan bergeser ke "Page
+with redirect" lalu hilang setelah recrawl.
+
