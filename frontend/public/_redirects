@@ -33,6 +33,12 @@
 /blog/florence-to-siena-transport                         /florence-to-siena-by-train-or-bus/ 301
 /blog/florence-to-siena-transport/                        /florence-to-siena-by-train-or-bus/ 301
 
+# Two articles in the Rank-1 batch (published 2026-08-10) linked this guide at a
+# mis-prefixed /blog/ path, which rendered the 404 page. The article links are
+# fixed; this catches any copy of the wrong URL Google already discovered.
+/blog/florence-to-siena-by-train-or-bus                   /florence-to-siena-by-train-or-bus/ 301
+/blog/florence-to-siena-by-train-or-bus/                  /florence-to-siena-by-train-or-bus/ 301
+
 # Served the same article as /things-to-do-in-siena/ with its own self-canonical,
 # so the two competed as duplicates. /things-to-do-in-siena/ is the canonical route.
 /blog/best-things-to-do-in-siena                          /things-to-do-in-siena/ 301
