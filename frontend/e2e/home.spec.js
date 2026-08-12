@@ -12,10 +12,24 @@ test("month picker shows a guide for covered months and an honest fallback other
   await expect(readLink).toBeVisible();
   await expect(readLink).toHaveAttribute("href", /tuscany-in-august/);
 
-  // February has no guide — no dead link, just the verified best-time context.
-  await page.locator("button:has-text('February')").click();
-  await expect(page.locator("text=No dedicated February guide yet")).toBeVisible();
-  await expect(page.locator("text=May, June, September")).toBeVisible();
+  // Every month must resolve to EITHER a real guide link or the honest
+  // fallback — never a dead link. Which months are covered changes as guides
+  // ship (a hardcoded "February has no guide" assertion went stale), so walk
+  // all twelve and assert the invariant on each.
+  const MONTHS = ["January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"];
+  for (const m of MONTHS) {
+    await page.locator(`button:has-text('${m}')`).click();
+    const link = page.locator(`a:has-text('Read the ${m} guide')`);
+    const fallback = page.locator(`text=No dedicated ${m} guide yet`);
+    if (await link.count()) {
+      await expect(link).toHaveAttribute("href", new RegExp(`-in-${m.toLowerCase()}-2\\d{3}`));
+    } else {
+      await expect(fallback).toBeVisible();
+      // The fallback still gives verified best-time context instead of nothing.
+      await expect(page.locator("text=May, June, September")).toBeVisible();
+    }
+  }
 
   // The panel carries its seasonal illustration in both states.
   await expect(page.locator(".tuscan-scene")).toHaveCount(1);

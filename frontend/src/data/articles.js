@@ -99,7 +99,7 @@ const allArticles = [
       { id: "4-porta-camollia-la-lizza-piazza-gramsci-and-viale-tozzi", heading: "4. Porta Camollia, La Lizza, Piazza Gramsci, and Viale Tozzi", body: "### Best for bus arrivals, value, and practical access\n\nThe northern side of the historic centre is one of Siena’s most useful compromises. Porta Camollia leads into the old city, while La Lizza, Piazza Gramsci, and Viale Tozzi are close to important bus arrival and departure points.\n\nFor travellers coming from Florence by the 131R bus, this side can be much easier than crossing the city with luggage. You can often reach a hotel or guesthouse before entering the steepest central lanes, then walk to the Campo once you have checked in.\n\nThe atmosphere becomes more historic as you pass through Porta Camollia and continue along Via Camollia. Around the outer edge, buildings and roads may feel more practical than romantic, but prices can be better and vehicle access clearer.\n\nThis is often the strongest choice for:\n\n- a short car-free stay arriving by bus;\n- travellers who want to avoid carrying luggage through the Campo;\n- visitors taking early transport the next morning;\n- guests looking for a balance between price and walkability;\n- travellers using Siena as a base for regional excursions.\n\nRead [Florence to Siena by train or bus](/florence-to-siena-by-train-or-bus/) before choosing between this area and the railway-station side." },
       { id: "5-siena-train-station-and-antiporto", heading: "5. Siena train station and Antiporto", body: "### Best for rail travellers, onward connections, and some drivers\n\nSiena railway station sits outside and below the historic centre. Properties near the station can be practical for travellers making rail connections, carrying heavy luggage, or staying in larger modern accommodation.\n\nThe official city map shows the station, local bus links, taxi points, parking, and escalator routes. However, “near the station” does not mean “inside the old town.” Reaching Piazza del Campo still requires an uphill connection, local bus, taxi, or a longer walk.\n\nThe station area may offer:\n\n- easier road access;\n- larger rooms or modern facilities;\n- supermarkets and everyday services;\n- less expensive accommodation on some dates;\n- a simpler departure with luggage.\n\nIt usually does not offer the same evening atmosphere as the historic centre. Guests who imagine stepping from their hotel directly into medieval Siena may be disappointed.\n\nChoose this area when transport convenience is more important than staying among the monuments. It can also work for a family with luggage, but compare the full door-to-door route rather than judging only the room price." },
       { id: "6-outside-the-walls-and-in-the-siena-countryside", heading: "6. Outside the walls and in the Siena countryside", body: "### Best for drivers, space, parking, and a rural Tuscany experience\n\nA countryside hotel, villa, or agriturismo can provide vineyard views, gardens, pools, parking, and a quieter pace. This is the right choice for travellers who see Siena as one part of a wider road trip through Chianti, Val d’Orcia, Montalcino, or San Gimignano.\n\nIt is not automatically the best “authentic” experience. Staying outside the city can make spontaneous evening walks and dinners difficult, especially when local public transport is limited. Driving into Siena also means understanding the restricted traffic zone and using legal parking outside the central streets.\n\nBefore booking a rural property, check:\n\n- whether a car is effectively required;\n- the real driving time to a practical Siena car park;\n- restaurant opening days and dinner options;\n- whether breakfast is included;\n- pool opening dates;\n- check-in hours;\n- road conditions after dark;\n- taxi availability and likely cost.\n\nFor a three-day itinerary with one countryside day, this option can work beautifully. For a first-time visitor without a car, a central or Camollia-side stay is usually simpler.\n\n[Compare city and countryside options in our Siena 3-day itinerary](/blog/siena-3-day-itinerary/)." },
-      { id: "inside-or-outside-the-walls", heading: "Inside or outside the walls: the short answer", body: "**Inside, if the evenings matter to you — outside, if the car does.** That is the whole decision, and everything else is refinement.\n\nSleeping inside the walls buys the two hours no day visitor gets: the Campo after the coaches leave and the lamp-lit walk back through quiet streets after dinner. The costs are real but knowable — luggage hauled over cobbles and gradients, rooms that sell out earliest, and no useful parking, since the entire historic centre sits inside the camera-enforced ZTL.\n\nSleeping outside the walls — the station quarter, Antiporto, or the countryside — trades that evening magic for easy parking, easier prices and step-free logistics. With a rental car it is usually the saner choice: park free or cheap at the property, ride or walk up, and never once worry about [the ZTL fine that reaches you months later](/blog/siena-ztl-fines-how-to-avoid/).\n\nThe hybrid worth knowing: areas 4 and 5 below — Camollia and the station side — sit minutes from the walls and split the difference. The area-by-area detail follows; this section exists because most travellers are really asking this one question." },
+      { id: "inside-or-outside-the-walls", heading: "Inside or outside the walls: the short answer", body: "**Inside, if the evenings matter to you — outside, if the car does.** That is the whole decision, and everything else is refinement.\n\nSleeping inside the walls buys the two hours no day visitor gets: the Campo after the coaches leave and the lamp-lit walk back through quiet streets after dinner. The costs are real but knowable — luggage hauled over cobbles and gradients, rooms that sell out earliest, and no useful parking, since the entire historic centre sits inside the camera-enforced ZTL.\n\nSleeping outside the walls — the station quarter, Antiporto, or the countryside — trades that evening magic for easy parking, easier prices and step-free logistics. With a rental car it is usually the saner choice: park free or cheap at the property, ride or walk up, and never once worry about [the ZTL fine that reaches you months later](/blog/siena-ztl-fines-how-to-avoid/).\n\nThe hybrid worth knowing: areas 4 and 5 below — Camollia and the station side — sit minutes from the walls and split the difference. The area-by-area detail follows; this section exists because most travellers are really asking this one question — and if the question underneath it is whether to stay the night at all, [that decision has its own guide](/blog/siena-day-trip-or-overnight-2026/)." },
       { id: "best-area-to-stay-in-siena-by-traveler-type", heading: "Best area to stay in Siena by traveller type", body: "### For a first visit\n\nChoose the historic centre between the Campo and Duomo. You will pay more for the location, but the ability to walk out early and return after dinner is valuable on a short trip.\n\n### For a romantic stay\n\nLook around the Duomo, Via di Città, or quieter streets on the San Domenico side. Prioritise a room with a view, terrace, or historic character only after confirming stairs, air conditioning, and noise.\n\n### For families\n\nA spacious property near Porta Camollia, La Lizza, or just outside the most crowded lanes can be easier than a tiny room beside the Campo. Check lift access, family-room configuration, breakfast, refrigerator availability, and stroller storage.\n\nRead [Siena with kids](/blog/siena-with-kids/) before choosing the exact location.\n\n### For nightlife and late dinners\n\nThe central streets around the Campo, Banchi di Sopra, Pantaneto, and San Martino provide easier access to evening restaurants and bars. “Nightlife” in Siena is generally smaller-scale than in major Italian cities, but central rooms can still hear late activity.\n\n### For budget travellers\n\nCompare Porta Camollia, the station side, guesthouses outside the most famous streets, and rooms without landmark views. A lower nightly rate is not a saving if it creates repeated taxi costs or difficult transport.\n\n[Use our Siena trip-cost guide to build a complete daily budget](/blog/how-much-siena-trip-costs/).\n\n### For travellers with a car\n\nChoose accommodation with confirmed parking or clear instructions to a legal car park. Do not assume a central property can be reached by private car; much of the historic centre is within a restricted traffic zone.\n\n### For limited mobility\n\nContact the property directly. Ask for the exact number of steps, lift-door width, bathroom access, entrance gradient, and nearest vehicle drop-off. “Accessible room” can describe the room while ignoring the medieval street outside." },
       { id: "how-many-nights-should-you-stay-in-siena", heading: "How many nights should you stay in Siena?", body: "### One night\n\nOne night allows the main attractions plus the quieter evening atmosphere. Stay central or near Camollia to minimise transfer time.\n\n### Two nights\n\nTwo nights are ideal for most first-time visitors. You can spend two full days in the city without turning museums, meals, and views into a race.\n\n### Three or more nights\n\nA longer stay makes Siena a possible base for a countryside tour or a nearby town. It also creates time for museums and neighbourhoods that day visitors miss." },
       { id: "booking-checklist-before-you-pay", heading: "Booking checklist before you pay", body: "A beautiful room photo does not answer the most important Siena questions. Verify:\n\n1. **Exact location:** Is the room in the listed building, or is check-in elsewhere?\n2. **Stairs and lift:** Which floor is the room on, and is the lift large enough for luggage or a stroller?\n3. **Arrival:** Where can a taxi or car legally stop?\n4. **Parking:** Is it on-site, reserved, public, or simply “nearby”?\n5. **Noise:** Does the room face a busy street, bar, or internal courtyard?\n6. **Climate control:** Is air conditioning available in the room and during your travel dates?\n7. **Breakfast:** Is it included, served on-site, or provided at a café?\n8. **Cancellation:** Are taxes, city charges, and cancellation terms clearly shown?\n9. **Palio dates:** Does access change around July 2 or August 16?\n10. **Recent reviews:** Do recent guests mention construction, access problems, or changed management?" },
@@ -219,7 +219,7 @@ const allArticles = [
       {
         "id": "introduction",
         "heading": "Introduction",
-        "body": "The **best time to visit Tuscany** depends on the trip you want. May, June, late September, and early October usually give first-time visitors the most useful balance of comfortable sightseeing weather, long enough days, open attractions, and manageable crowds. July and August suit festivals, pool time, and the coast, while winter rewards travellers who prefer museums, food, and quieter historic towns.\n\nTuscany is not one uniform destination. Florence can feel intensely busy while a rural village is calm; the coast may be breezy while Siena is hot; the Apennines can be cold when the lowlands are mild. A good decision therefore starts with your priorities, not a single “perfect” month.\n\n> **Quick answer:** Choose **May or late September** for an all-round first trip, **June** for long days and countryside stays, **October** for food and harvest atmosphere, **July or August** for festivals and swimming, and **November through February** for low-crowd city breaks. Always check event dates, accommodation closures, and transport schedules before booking."
+        "body": "The **best time to visit Tuscany** depends on the trip you want. May, June, late September, and early October usually give first-time visitors the most useful balance of comfortable sightseeing weather, long enough days, open attractions, and manageable crowds. July and August suit festivals, pool time, and the coast, while winter rewards travellers who prefer museums, food, and quieter historic towns.\n\nTuscany is not one uniform destination. Florence can feel intensely busy while a rural village is calm; the coast may be breezy while Siena is hot; the Apennines can be cold when the lowlands are mild. A good decision therefore starts with your priorities, not a single “perfect” month.\n\n> **Quick answer:** Choose **May or late September** for an all-round first trip, **June** for long days and countryside stays, **October** for food and harvest atmosphere, **July or August** for festivals and swimming, and **November through February** for low-crowd city breaks. Always check event dates, accommodation closures, and transport schedules before booking — and if you are travelling without a car, [the complete Siena-based bus and rail system is mapped here](/blog/tuscany-without-a-car-2026/)."
       },
       {
         "id": "tuscany-seasons-at-a-glance",
@@ -3406,7 +3406,7 @@ Safe travels!`,
         heading: 'Top 8 Hidden Villages & Viewpoints Near Siena',
         body: `All eight spots sit within an hour of Siena and offer postcard Tuscany minus the crowds:
 
-1.  **Monteriggioni** — A perfectly preserved 13th-century walled village with 14 towers and intact ramparts. Walk the full circle of the walls for sweeping views over the countryside. About 20 minutes north of Siena by bus; entry to the walls is free and allow 45–60 minutes for the loop.
+1.  **Monteriggioni** — A perfectly preserved 13th-century walled village with 14 towers and intact ramparts. Wander the village freely and take the wall-walk for sweeping views over the countryside — the walkway-plus-exhibition ticket runs €4 (reduced €3.50), covers two short sections rather than the full circuit, and closes during the July medieval festival. About 20 minutes north of Siena by bus, then a 500m walk up; allow 45–60 minutes. Gamers know this skyline already: [Monteriggioni is Ezio's home town in Assassin's Creed II](/blog/tuscany-on-screen-film-locations-2026/).
 2.  **Biancane di Leonina & Crete Senesi** — Otherworldly clay hills and lunar-like badlands near Asciano create dramatic, photogenic landscapes. Visit early morning or late afternoon for solitude and golden light; wear sturdy shoes as the paths can be slippery after rain.
 3.  **Buonconvento** — A charming walled town on the ancient Via Cassia with narrow streets, a small sacred-art museum, and excellent local trattorias. Locals head here for ribollita and wild-boar pasta; tour buses usually skip it. Allow 1–2 hours.
 4.  **Castelnuovo Berardenga** — A quiet Chianti village with a medieval core and nearby wineries that produce outstanding Chianti Classico without the crowds of Radda or Greve. Perfect for a relaxed stroll and tasting.
@@ -5349,7 +5349,7 @@ The plan’s only fixed points are the two festival calendars — everything els
       {
         id: 'quick-answer',
         heading: 'Quick answer',
-        body: `**Visit Florence for the art, base yourself in Siena for the region, and see both if you have four days or more.** Florence is one of the world’s great art cities — the Uffizi, Michelangelo’s David, Brunelleschi’s dome — and it earns two full days from anyone who cares about the Renaissance. Siena is the better *experience* of a Tuscan city: smaller, more intact, more local after dark, and far better placed for the Chianti, Val d’Orcia and San Gimignano. They sit just over an hour apart by the 131R bus, so this is not a hard either/or — it is a question of where your nights go. The rest of this guide answers it persona by persona.`,
+        body: `**Visit Florence for the art, base yourself in Siena for the region, and see both if you have four days or more.** Florence is one of the world’s great art cities — the Uffizi, Michelangelo’s David, Brunelleschi’s dome — and it earns two full days from anyone who cares about the Renaissance. Siena is the better *experience* of a Tuscan city: smaller, more intact, more local after dark — [the overnight case is its own argument](/blog/siena-day-trip-or-overnight-2026/) — and far better placed for the Chianti, Val d’Orcia and San Gimignano. They sit just over an hour apart by the 131R bus, so this is not a hard either/or — it is a question of where your nights go. The rest of this guide answers it persona by persona.`,
       },
       {
         id: 'how-far-apart',
@@ -5398,7 +5398,7 @@ The evening is where the cities genuinely separate. Florence after dark remains 
         heading: 'Which is cheaper?',
         body: `**Siena, moderately and fairly consistently.** Like-for-like accommodation generally costs less than Florence’s equivalent in season, restaurant prices away from the Campo undercut Florence’s centre, and Siena’s headline sights bundle into passes — the cathedral’s OPA SI Pass and the civic museums — that cost less than Florence’s top-tier ticket stack, where the Uffizi and Accademia alone consume a meaningful budget line in high season.
 
-The fastest way to test the accommodation half for your own dates is a like-for-like search on [Booking.com](/go/booking) — same star band, same cancellation terms, both cities, ten minutes. (That link goes to Booking.com’s own site and earns us nothing; if that ever changes, this page will say so.)
+The fastest way to test the accommodation half for your own dates is a like-for-like search on [Booking.com](/go/booking) — same star band, same cancellation terms, both cities, ten minutes.
 
 The honest qualifiers: Florence’s hostel and apartment supply gives true budget travellers more floor to stand on; Palio week (around 2 July and 16 August) inverts everything, making Siena briefly the most expensive room in Tuscany; and transport economics favour whichever city you fly through. For full numbers rather than adjectives, [our Siena trip-cost guide](/blog/how-much-siena-trip-costs/) and [Florence budget guide](/blog/florence-travel-budget-guide/) break both cities down line by line — the comparison there is date-stamped and worth ten minutes before you commit nights.`,
       },
@@ -5587,7 +5587,7 @@ A day-trip technicality that decides some visits: Siena’s dinner hour is reach
 
 **By combined coach tour: yes, with open eyes.** The Florence day tours that bundle Siena, San Gimignano and a Chianti lunch solve every logistical problem at once, and for travellers with one day and no appetite for timetables they are a defensible product. The cost is depth: expect roughly 60–90 minutes in San Gimignano and two or three hours in Siena — the squares, the photograph, and in Siena usually the cathedral’s exterior rather than its interior. Our standing advice from [the Florence-or-Siena comparison](/blog/florence-or-siena-which-to-visit-2026/) applies: prefer small-group departures that state their dwell times before you pay. [This Siena and San Gimignano day trip from Florence](/go/viator-siena-san-gimignano-tour) is one example of the format on Viator — read its stated dwell times, group size and cancellation terms with exactly the scepticism this paragraph prescribes, and compare it against rival listings before booking.
 
-**The better answer, if your trip allows it:** one night in Siena. It converts the impossible single day into two easy ones — Siena with its evening, San Gimignano by the direct bus — and [where to stay in Siena](/blog/where-to-stay-in-siena/) shows what that one night buys.`,
+**The better answer, if your trip allows it:** one night in Siena. It converts the impossible single day into two easy ones — Siena with its evening, San Gimignano by the direct bus — [the full case for that Siena night is here](/blog/siena-day-trip-or-overnight-2026/), and [where to stay in Siena](/blog/where-to-stay-in-siena/) shows what it buys.`,
       },
       {
         id: 'model-days',
@@ -5688,7 +5688,7 @@ The decision rule: one available night goes to Siena, almost always. A second ni
         heading: 'Getting to each: the logistics decide more than taste does',
         body: `**Chianti is the accessible one.** From Florence, Autolinee Toscane’s **route 365** reaches Greve in Chianti in roughly an hour, with departures through the day from the Fortezza side of the centre — buy tickets before boarding and screenshot the return timetable. That single bus line makes Greve the only major Tuscan wine town with a genuinely easy car-free connection from a big city, [as our wine harvest guide details](/blog/tuscany-wine-harvest-vendemmia-2026/). From Siena, central Chianti is awkward by public transport — the practical route runs via Florence — but easy by car up the SR222.
 
-**The Val d’Orcia demands more.** From Siena by car it is a relaxed 40-minute run to the valley’s edge and a classic 130–150km loop through the towns. By bus it is doable with discipline — Montalcino and Montepulciano have connections, Pienza sits on the Montepulciano line — but Sunday service is thin and a realistic car-free day means one town done slowly, not three. [The full Val d’Orcia playbook is here](/blog/val-dorcia-day-trip-from-siena-2026/), and [the car-free menu here](/blog/siena-day-trips-without-a-car/).
+**The Val d’Orcia demands more.** From Siena by car it is a relaxed 40-minute run to the valley’s edge and a classic 130–150km loop through the towns. By bus it is doable with discipline — Montalcino and Montepulciano have connections, Pienza sits on the Montepulciano line — but Sunday service is thin and a realistic car-free day means one town done slowly, not three. [The full Val d’Orcia playbook is here](/blog/val-dorcia-day-trip-from-siena-2026/), [the wine-town choice is argued here](/blog/montalcino-or-montepulciano-2026/), and [the car-free menu here](/blog/siena-day-trips-without-a-car/).
 
 The blunt version: **no car + Florence base = Chianti; car + either base = your choice; Siena base = both are on the table.** If the car is the deciding factor and you have not booked one yet, [compare rental prices for Italy on DiscoverCars](/go/discovercars-italy) — then read [our renting-in-Tuscany guide](/blog/renting-a-car-in-tuscany-2026/) for the licence, insurance and ZTL rules before driving either route.`,
       },
@@ -7128,7 +7128,7 @@ Arrival stress meaning, of course, **the ZTL**: Siena’s restricted zone [fines
 
 **Regional trains** (both Chiusi legs, and the Florence–Siena regional) are fixed-price and flexible within the day — but paper tickets **must be validated** in the green machines before boarding, and the app’s digital tickets self-activate; the fine for an unvalidated ticket is charged onboard and argues with nobody. This is the single most common transport fine Italian visitors collect, [as our airport-transfer guide explains at length](/blog/siena-from-florence-airport-transfer/).
 
-**High-speed trains** work like flights: seat-assigned, price rising toward departure, cheapest weeks ahead, refund rules by fare class. An aggregator such as [Omio](/go/omio) or [Trainline](/go/trainline) earns its place at one moment only — when you are still choosing a route and want trains and coaches across operators in a single search. (Both links point to the aggregators’ own sites and earn us nothing.) Once you know your service, buy through the operators’ own apps and sites; the schedule data is identical everywhere, the mark-ups are not.
+**High-speed trains** work like flights: seat-assigned, price rising toward departure, cheapest weeks ahead, refund rules by fare class. An aggregator such as [Omio](/go/omio) or [Trainline](/go/trainline) earns its place at one moment only — when you are still choosing a route and want trains and coaches across operators in a single search. Once you know your service, buy through the operators’ own apps and sites; the schedule data is identical everywhere, the mark-ups are not.
 
 And one cross-system rule from [the strikes guide](/blog/italy-transport-strikes-survival-guide-2026): check the national strike calendar when you book and again the week you travel — though within the **27 July–5 September franchigia**, the peak-summer weeks are strike-protected by law.`,
       },
@@ -7504,14 +7504,14 @@ The pattern holds everywhere: the town’s *thing*, bought in the town, from its
       {
         id: 'quick-answer',
         heading: 'Quick answer',
-        body: `Threading right through this site’s home territory runs one of Europe’s great journeys: the **Via Francigena**, the medieval pilgrim road from Canterbury to Rome, whose official Tuscan route passes San Gimignano, Monteriggioni, Siena and San Quirico d’Orcia in turn. You do not need weeks, boots-hardened feet or religion to taste it — **one day does it**. The stage to walk is **Monteriggioni to Siena: around fifteen kilometres** of cypress-lined hills, country churches and farm tracks, ending with the one arrival no bus can sell you — walking into Siena the way every traveller arrived for a thousand years. Ambitious walkers can take the full **San Gimignano–Monteriggioni stage (just under thirty kilometres)** instead. The route is officially waymarked, the season matters, and the details — logistics, credentials, and what a day on the road actually feels like — are below.`,
+        body: `Threading right through this site’s home territory runs one of Europe’s great journeys: the **Via Francigena**, the medieval pilgrim road from Canterbury to Rome, whose official Tuscan route passes San Gimignano, Monteriggioni, Siena and San Quirico d’Orcia in turn. You do not need weeks, boots-hardened feet or religion to taste it — **one day does it**. The stage to walk is **Monteriggioni to Siena: 18 kilometres officially, closer to 20 on walkers' GPS traces** of cypress-lined hills, country churches and farm tracks, ending with the one arrival no bus can sell you — walking into Siena the way every traveller arrived for a thousand years. Ambitious walkers can take the full **San Gimignano–Monteriggioni stage (31 kilometres, about seven hours)** instead. The route is officially waymarked, the season matters, and the details — logistics, credentials, and what a day on the road actually feels like — are below.`,
       },
       {
         id: 'what-is-the-francigena',
         heading: 'What the Via Francigena actually is',
         body: `In the year 990, Sigeric, Archbishop of Canterbury, walked home from Rome and noted his seventy-nine overnight stops — and that itinerary, recorded by a tired Anglo-Saxon cleric, became the spine of the **Via Francigena**, “the road from Francia”: the great medieval corridor along which pilgrims, merchants, armies and ideas moved between northern Europe and Rome for centuries.
 
-Today it is a revived, officially waymarked **Council of Europe Cultural Route** running some two thousand kilometres from Canterbury to Rome — the Camino de Santiago’s quieter, arguably more beautiful sibling — and its Tuscan section is the showpiece: roughly four hundred kilometres entering at the Cisa Pass and running south in stages of fifteen to thirty kilometres, straight through the towns this site spends its life writing about. [San Gimignano’s towers](/blog/san-gimignano-day-trip-from-siena-2026) grew rich feeding and fleecing Francigena pilgrims; **Monteriggioni’s walls** were built to watch the road; Siena itself boomed as the route’s great city; and [San Quirico d’Orcia](/blog/tuscany-in-december-2026) still keeps its pilgrim hospital church.
+Today it is a revived, officially waymarked **Council of Europe Cultural Route** running some two thousand kilometres from Canterbury to Rome — the Camino de Santiago’s quieter, arguably more beautiful sibling — and its Tuscan section is the showpiece: 380 kilometres entering at the Cisa Pass and running south in stages of fifteen to thirty kilometres, straight through the towns this site spends its life writing about. [San Gimignano’s towers](/blog/san-gimignano-day-trip-from-siena-2026) grew rich feeding and fleecing Francigena pilgrims; **Monteriggioni’s walls** were built to watch the road; Siena itself boomed as the route’s great city; and [San Quirico d’Orcia](/blog/tuscany-in-december-2026) still keeps its pilgrim hospital church.
 
 Which means something quietly wonderful for a visitor based in Siena: **the region’s most famous day-trip towns are not a scatter of attractions — they are stops on one road**, and you can walk it.`,
       },
@@ -7527,7 +7527,7 @@ And it solves a problem this site hears constantly: travellers who love the *ide
       {
         id: 'the-stage',
         heading: 'The stage to walk: Monteriggioni to Siena',
-        body: `The day-walk of choice is the route’s final approach to Siena: **Monteriggioni to Siena, around fifteen kilometres**, a half-day’s unhurried walking through exactly the country the postcards promise — cypress-lined farm roads, olive groves, country pievi (parish churches), and long views that assemble themselves toward Siena’s towers as you close in.
+        body: `The day-walk of choice is the route’s final approach to Siena: **Monteriggioni to Siena — 18 kilometres by the official stage data, 20 to 21 on walkers' GPS traces**, five to six hours’ unhurried walking through exactly the country the postcards promise — cypress-lined farm roads, olive groves, country pievi (parish churches), and long views that assemble themselves toward Siena’s towers as you close in.
 
 It starts perfectly: **Monteriggioni**, the tiny ring-walled outpost [our hidden-gems guide loves](/blog/hidden-gems-around-siena-tuscany-2026), was built by Siena in the thirteenth century precisely to guard this road — Dante name-checked its crown of towers — and leaving through its gate *on foot, southbound* is as close to time travel as Tuscany offers. The middle hours are farm country: gravel strade bianche, oak shade, the official waymarks doing the navigation. The finale is the point of the whole exercise: entering Siena through its northern gate at walking pace, [Camollia-side](/blog/where-to-stay-in-siena), the way the city was designed to be entered — with the Campo, an aperitivo and your own accommodation waiting as the medieval pilgrim’s reward, upgraded.
 
@@ -7542,7 +7542,7 @@ Carry the day-walker’s kit: **two litres of water per person** (refill at vill
 
 Navigation is the easy part: the route carries the **official Via Francigena waymarking** — the pilgrim signs and stickers that appear at every junction that matters — and the official association publishes maps and GPS tracks for anyone who wants a screen backup. Our standing advice: download the official resources rather than improvising from a general map app, which does not know a strada bianca from a driveway.
 
-Walkers wanting the *harder* day take the previous stage instead — **San Gimignano to Monteriggioni, just under thirty kilometres** — a genuine full stage for genuinely fit walkers, reached by [the morning 130 bus](/blog/san-gimignano-day-trip-from-siena-2026) and finishing with the Monteriggioni bus home.`,
+Walkers wanting the *harder* day take the previous stage instead — **San Gimignano to Monteriggioni, 31 kilometres and about seven hours** — a genuine full stage for genuinely fit walkers, reached by [the morning 130 bus](/blog/san-gimignano-day-trip-from-siena-2026) and finishing with the Monteriggioni bus home.`,
       },
       {
         id: 'five-scenes',
@@ -7605,7 +7605,7 @@ Either way, you will have joined a select statistic: of the millions who visit t
       {
         id: 'how-we-checked',
         heading: 'How we checked these details',
-        body: `Checked in August 2026 against the route’s official and regional tourism documentation: the Via Francigena’s Canterbury–Rome course on Archbishop Sigeric’s recorded 990 itinerary and its status as an officially waymarked Council of Europe Cultural Route; the Tuscan section’s roughly four-hundred-kilometre course in stages of fifteen to thirty kilometres; the Monteriggioni–Siena stage at around fifteen kilometres and the San Gimignano–Monteriggioni stage at just under thirty; and the Testimonium’s requirement of walking at least the final hundred kilometres into Rome. Bus connections follow the Autolinee Toscane network — verify current timetables on the official planner before walking, and use the route association’s official maps and GPS resources for navigation rather than this article, which is a planning guide, not a trail guide. We have no affiliate relationship with any operator, association or accommodation; recommendations are editorial.`,
+        body: `Checked in August 2026 against the route’s official and regional tourism documentation: the Via Francigena’s Canterbury–Rome course on Archbishop Sigeric’s recorded 990 itinerary and its status as an officially waymarked Council of Europe Cultural Route; the Tuscan section’s roughly four-hundred-kilometre course in stages of fifteen to thirty kilometres; the Monteriggioni–Siena stage at 18 kilometres officially against 20–21 on walkers' traces, and the San Gimignano–Monteriggioni stage at 31; and the Testimonium’s requirement of walking at least the final hundred kilometres into Rome. Bus connections follow the Autolinee Toscane network — verify current timetables on the official planner before walking, and use the route association’s official maps and GPS resources for navigation rather than this article, which is a planning guide, not a trail guide. We have no affiliate relationship with any operator, association or accommodation; recommendations are editorial.`,
       },
       {
         id: 'final-thoughts',
@@ -7615,13 +7615,13 @@ Either way, you will have joined a select statistic: of the millions who visit t
     ],
     [
       { q: 'What is the Via Francigena?', a: 'The medieval pilgrim road from Canterbury to Rome, based on the itinerary Archbishop Sigeric recorded in 990, revived today as an officially waymarked Council of Europe Cultural Route. Its Tuscan section passes San Gimignano, Monteriggioni, Siena and the Val d’Orcia.' },
-      { q: 'Can you walk the Via Francigena in one day?', a: 'One stage, yes — and it is the honest way to taste the route. The classic day is Monteriggioni to Siena, around fifteen kilometres of waymarked farm roads and cypress hills, ending with the medieval arrival into Siena on foot.' },
+      { q: 'Can you walk the Via Francigena in one day?', a: 'One stage, yes — and it is the honest way to taste the route. The classic day is Monteriggioni to Siena, 18 kilometres officially and nearer 20 in practice, of waymarked farm roads and cypress hills, ending with the medieval arrival into Siena on foot.' },
       { q: 'How hard is the Monteriggioni to Siena walk?', a: 'Moderate: rolling countryside walking of four to six hours plus stops, on gravel roads and tracks. Worn-in shoes, two litres of water and sun protection cover the requirements; it is a walk, not a trek.' },
       { q: 'How do you get to the start without a car?', a: 'A short morning regional bus from Siena reaches Monteriggioni on the Poggibonsi corridor — check current times on the Autolinee Toscane planner. The walk then ends at your Siena base, so there is no return transport to arrange.' },
       { q: 'Do you get a certificate for walking one stage?', a: 'No — the Testimonium, the official pilgrim certificate issued in Rome, requires walking at least the final hundred kilometres into the city. A day stage earns stamps in the pilgrim credential instead, the route’s own souvenir.' },
       { q: 'When is the best time to walk the Via Francigena in Tuscany?', a: 'Late September through October for harvest country and walking temperatures, with May and early June close behind. In July and August walk at dawn and finish by early afternoon; in winter, start early and expect mud and solitude.' },
       { q: 'Is the route signposted?', a: 'Yes — official Via Francigena waymarks carry the navigation at every meaningful junction, and the route association publishes maps and GPS tracks as backup. Follow the signs rather than improvised shortcuts.' },
-      { q: 'What is the harder one-day option?', a: 'The full San Gimignano to Monteriggioni stage: just under thirty kilometres, a genuine pilgrim stage for fit walkers, reached by the morning 130 bus from Siena and finished with the short bus home from Monteriggioni.' },
+      { q: 'What is the harder one-day option?', a: 'The full San Gimignano to Monteriggioni stage: 31 kilometres and about seven hours, a genuine pilgrim stage for fit walkers, reached by the morning 130 bus from Siena and finished with the short bus home from Monteriggioni.' },
     ],
     '2026-08-17',
     {
@@ -7656,7 +7656,7 @@ Either way, you will have joined a select statistic: of the millions who visit t
       {
         id: 'do-you-need-one',
         heading: 'First: do you actually need a car?',
-        body: `The honest gate before the rental counter. **For the cities, no** — Florence and Siena punish cars with restricted zones, scarce parking and walkable centres, and [the bus and rail spine](/florence-to-siena-by-train-or-bus/) covers the city-to-city moves, [Rome arrivals included](/blog/rome-to-siena-train-bus-2026/). **For the countryside, increasingly yes**: [the Val d’Orcia loop](/blog/val-dorcia-day-trip-from-siena-2026/), [harvest-season farm and mill visits](/blog/tuscany-olive-harvest-olio-nuovo-2026/), [the thermal springs](/blog/tuscany-in-january-2027/), scattered [beach coves](/blog/italy-beach-rules-2026/) and the deeper [winter months](/blog/tuscany-in-november-2026/) all reward wheels, and some are barely reachable without them.
+        body: `The honest gate before the rental counter. **For the cities, no** — Florence and Siena punish cars with restricted zones, scarce parking and walkable centres, and [the bus and rail spine](/florence-to-siena-by-train-or-bus/) covers the city-to-city moves, [Rome arrivals included](/blog/rome-to-siena-train-bus-2026/) — [the complete car-free system, line by line, is mapped here](/blog/tuscany-without-a-car-2026/). **For the countryside, increasingly yes**: [the Val d’Orcia loop](/blog/val-dorcia-day-trip-from-siena-2026/), [harvest-season farm and mill visits](/blog/tuscany-olive-harvest-olio-nuovo-2026/), [the thermal springs](/blog/tuscany-in-january-2027/), scattered [beach coves](/blog/italy-beach-rules-2026/) and the deeper [winter months](/blog/tuscany-in-november-2026/) all reward wheels, and some are barely reachable without them.
 
 The pattern that works for most trips this site plans: **car-free in the cities, car for the countryside days** — either a short rental mid-trip (two or three days bracketed by city stays) or a countryside-based week with the car living at an agriturismo. What rarely works is the full-trip rental that spends five of its seven days paid, parked and generating [ZTL anxiety](/blog/siena-ztl-fines-how-to-avoid/) outside a city wall.
 
@@ -8362,7 +8362,7 @@ If those two paragraphs read as "Florence requires one minute of care and Siena 
 
 **Split stay.** Collect the car the morning you change cities; drop it in the second city or its airport; price the one-way against the round trip before committing. If the fee offends, invert the itinerary or keep the car only for the middle countryside days and connect the cities [by bus or rail](/blog/rome-to-siena-train-bus-2026/) instead.
 
-**No countryside plans at all.** Then the answer to "Florence or Siena?" is *neither* — [both cities punish cars and reward buses](/blog/florence-or-siena-which-to-visit-2026/), and the money belongs in better rooms and longer lunches.
+**No countryside plans at all.** Then the answer to "Florence or Siena?" is *neither* — [both cities punish cars and reward buses](/blog/florence-or-siena-which-to-visit-2026/), and the money belongs in better rooms and longer lunches — [the entire car-free system is mapped here](/blog/tuscany-without-a-car-2026/).
 
 Whichever branch is yours, the comparison step is the same: a broker such as [DiscoverCars](/go/discovercars-italy) shows both cities' offices, fleets and drop-fee totals side by side for your actual dates — which turns most of this article's "it depends" into a number — and booking direct with a supplier you trust works equally well. Read the excess, deposit and fuel terms attached to the specific offer before paying; [our rental guide walks through every clause](/blog/renting-a-car-in-tuscany-2026/).`,
       },
@@ -8479,7 +8479,7 @@ What the numbers support saying: overnighting in Siena is common but far from un
         heading: 'How to do the overnight well',
         body: `**Arrive in the afternoon, not the morning.** The overnight's value is concentrated at the edges of the day — arrive by 16:00, drop the bags, and walk straight into the passeggiata. Save the ticketed sights for tomorrow's opening hours.
 
-**Sleep inside the walls if the evening is the point** — [our where-to-stay guide's inside-or-outside answer](/blog/where-to-stay-in-siena/) covers the decision in full, but the short version: inside for the lamp-lit walk home from dinner, outside (station side or countryside) if you are travelling with a car and its parking. [The hotel shortlist is here](/blog/best-hotels-in-siena/), and a like-for-like search on [Booking.com](/go/booking) for your dates settles availability quickly. (The Booking.com link goes to their public site and earns us nothing; if that ever changes, this page will say so.)
+**Sleep inside the walls if the evening is the point** — [our where-to-stay guide's inside-or-outside answer](/blog/where-to-stay-in-siena/) covers the decision in full, but the short version: inside for the lamp-lit walk home from dinner, outside (station side or countryside) if you are travelling with a car and its parking. [The hotel shortlist is here](/blog/best-hotels-in-siena/), and a like-for-like search on [Booking.com](/go/booking) for your dates settles availability quickly.
 
 **Book with the calendar in mind.** Central Siena's historic-centre hotels are small and fill first: for July and August stays, traveller guidance converges on booking roughly three to six months ahead — and for the **Palio weeks around 2 July and 16 August, six months to a year**, with rates to match. Shoulder-season overnights are dramatically easier and cheaper, [which is one more argument for September and October](/blog/siena-in-september-2026/).
 
@@ -9068,6 +9068,695 @@ Fair-weekend variant: come Saturday, let the antiques swallow the morning, and p
       imageAlt: 'Heraldic banners in a Tuscan street, the tradition Arezzo shares with Siena',
       canonicalPath: '/blog/is-arezzo-worth-visiting-2026',
       tags: ['arezzo', 'day trips from florence', 'piero della francesca', 'tuscany art', 'antiques fair'],
+    }
+  ),
+
+  A(
+    'pienza-pecorino-fiera-del-cacio-2026',
+    'Pienza, Tuscany’s Cheese Capital: Pecorino Tasting and the Fiera del Cacio 2026',
+    'Food & drink',
+    'Tuscany',
+    'Pienza is Tuscany’s pecorino capital — and 1–7 September 2026 brings the Fiera del Cacio, when the town rolls cheese at a spindle. The full guide.',
+    '/images/siena/pici-pasta-wild-boar-ragu-siena.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Pienza is two superlatives stacked on one small hill: the Renaissance's first planned "ideal city", and **Tuscany's cheese capital** — the home of pecorino di Pienza, the sheep's-milk cheese whose name opens doors on menus across Italy. Any month of the year, its single main street is a runway of cheese shops offering tastings a few steps apart.
+
+And for one week a year the cheese takes over completely. The **Fiera del Cacio** runs **1–7 September 2026** per the event listings we checked, filling the town with market stalls, contrada dinners and tastings, and climaxing with the **Gioco del Cacio al Fuso**: the six districts of the town kneeling in Piazza Pio II to roll whole wheels of pecorino at a spindle, for points, for the palio banner, and for a year of bragging rights. It is the most cheerfully absurd spectacle on the Tuscan festival calendar, and almost nobody outside Italy has heard of it.
+
+The practicalities in one breath: Pienza sits on **bus line 112 from Siena** (weekdays, plan the return first), the festival's final weekend collides with [Arezzo's 150th Giostra on 6 September](/blog/giostra-del-saracino-arezzo-2026/) so pick your Sunday deliberately, and the three tasting shops below are open all year — the fair is the crescendo, not the only performance.`,
+      },
+      {
+        id: 'why-pienza',
+        heading: 'Why the cheese capital is here',
+        body: `The short answer is grass. Pienza sits on the edge of the **Crete Senesi and Val d'Orcia pastures** — clay hills whose aromatic grasses and herbs feed the sheep whose milk becomes the cheese, and shepherding here runs back centuries, reinforced historically by Sardinian shepherd families who settled the valley with their flocks. The result is a pecorino with a name: **pecorino di Pienza**, prized across Italy, sold from the town's own shops at every age from fresh to defiantly hard.
+
+The long answer adds the stage set. In the fifteenth century, Pope **Pius II** rebuilt his home village into the Renaissance's first ideal city — the trapezoidal Piazza Pio II, the Duomo, the palazzi, all composed like a painting and now UNESCO-listed as a landmark of urban design. Which means the world's most storied sheep's cheese is sold along a street designed by a pope's architects, with the Val d'Orcia falling away golden below the southern walls. Few food pilgrimages come with better scenery, [as our Val d'Orcia day-trip guide argues from the landscape side](/blog/val-dorcia-day-trip-from-siena-2026/).`,
+      },
+      {
+        id: 'the-cheese',
+        heading: 'The cheese itself: how to taste pecorino like you mean it',
+        body: `Pecorino di Pienza is not one cheese but a spectrum, and the tasting counters arrange it left to right:
+
+**Fresco / dolce** — young, pale, milky and gentle, closer to a table cheese than to the pecorino of Roman-pasta fame. **Semi-stagionato** — weeks-to-months aged, the local sweet spot: firm, nutty, still supple. **Stagionato** — matured until it crumbles, salt and sheep asserting themselves, the version that stands up to honey and pears. Around and beyond that spine, Pienza's affineurs play: rinds rubbed with tomato or ash in the local tradition, wheels matured under hay or in barrels, versions laced with truffle or pepper — each shop with its own house experiments.
+
+Tasting etiquette that makes shopkeepers love you: taste young to old, not the reverse; take the offered honey or jam pairings seriously (stagionato with pear preserves is the town's standard argument-settler); ask what the shop's own farm makes versus what it buys in; and buy something — the tastings are hospitality, not a buffet. Vacuum-sealing for travel is routine on request, and a semi-stagionato wheel survives a suitcase home better than most souvenirs — [it made our what-to-buy list for exactly that reason](/blog/what-to-buy-in-tuscany-souvenirs).`,
+      },
+      {
+        id: 'shop-by-shop',
+        heading: 'The tasting shops, named',
+        body: `Three long-standing counters anchor a tasting walk, all within ten minutes of each other:
+
+**Marusco e Maria** — Corso il Rossellino 21. Selling pecorino at every age **since 1974**, alongside dried pici, salumi, beans, honey and oil; sit-down tastings can be booked ahead through the shop. The fullest single introduction to the spectrum in town.
+
+**La Bottega del Naturista** — Corso il Rossellino 16. The town shop of **Caseificio De Mario**, a small family dairy nearby — which makes this the counter where the question "what do *you* make?" has the shortest, best answer.
+
+**Il Cacio di Ernesto** — Via Enzo Mangiavacchi 37, just outside the walls. A tiny farm shop selling its own pecorino with bread, organic oil and local wine — the least polished and, for some tastes, the most honest stop of the three.
+
+Beyond the named three, the Corso holds more counters than any visitor needs; let your nose arbitrate. Two honesty notes: shop hours in a town this size flex with the season and the lunch hour — mid-morning is the reliable window — and prices vary by age and maker, so taste before you commit to a whole stagionato wheel. We have no affiliate relationship with any shop named here; recommendations are editorial, and the tastings we describe are the shops' standard public offer.`,
+      },
+      {
+        id: 'the-fiera',
+        heading: 'The Fiera del Cacio, 1–7 September 2026',
+        body: `Every early September the town throws its cheese a festival. The 2026 edition is listed for **1–7 September** across the event calendars we checked, following the fair's long-standing first-week-of-September pattern: market stalls of pecorino and Val d'Orcia produce along the Corso and piazza, tastings and producer stands, contrada dinners at long tables in the streets, flag-throwers and drummers, children's cheese games — and the spindle waiting in the square for the finale.
+
+The honest caveat, per our standard: the **day-by-day programme is published close to the date** by the town's organisers, and third-party listings recycle past years' schedules — so treat any hour-by-hour plan you read online (including fragments in our own sources) as last year's rehearsal, and check the official programme or the fair's own channels the week before. The fixture that does not move: the **Cacio al Fuso game**, the fair's climax, played on the final weekend in Piazza Pio II.
+
+One 2026 collision to plan around: that final weekend puts the game up against [the 150th Giostra del Saracino in Arezzo on Sunday 6 September](/blog/giostra-del-saracino-arezzo-2026/) — two of the season's best spectacles, ninety kilometres apart. Choose by temperament: armoured cavalry or rolling cheese. [The full September calendar](/blog/tuscany-september-2026-festivals-events/) shows everything else competing for the week.`,
+      },
+      {
+        id: 'cacio-al-fuso',
+        heading: 'The Cacio al Fuso: how cheese-rolling works in Pienza',
+        body: `The game is exactly what it sounds like and better than it sounds. A **fuso** — a wooden spindle — is set upright at the centre of a target ring in the piazza's pavement. Players from the town's **six contrade** — San Piero, Il Prato, La Mura, Gozzante, Case Nuove and Casello — kneel and bowl whole wheels of pecorino across the stones, aiming to stop the cheese as close to the spindle as possible.
+
+The scoring, as local accounts describe it: the innermost zone around the spindle is worth **five points**, the ring band four, and chalk circles working outward count three, two and one — with the delicious rules that the wheel must **finish upright** to score at all, and that a cheese which curls around the spindle or comes to rest leaning against it earns a bonus. Local tradition traces the rolling of cheeses in Pienza's square back to the **sixteenth century**; the organised contrada competition for a palio banner is the modern form of a very old after-market amusement.
+
+As a spectator sport it is superb: real skill (watch the spin the good players impart), real partisanship (the contrade take it seriously the way [Siena takes its Palio](/blog/palio-di-siena-guide/) seriously, scaled to a town of two thousand), and a venue — the pope's perfect piazza — that no sporting event on earth can match for incongruity. Arrive early for a sightline; the square is small and the whole town shows up.`,
+      },
+      {
+        id: 'planning',
+        heading: 'Planning the visit: buses, bases and the day that works',
+        body: `**Car-free from Siena**: Pienza sits on **bus line 112** — the Val d'Orcia towns run through Buonconvento and San Quirico — with roughly four usable weekday connections and a fastest journey around 1h15–1h30 to Pienza's stop; [the full car-free playbook applies](/blog/tuscany-without-a-car-2026/), above all its two commandments: weekdays only, and screenshot the return times before you leave. The same bus continues to Montepulciano, which makes the classic pairing trivially easy: [cheese in Pienza, cellars in Montepulciano](/blog/montalcino-or-montepulciano-2026/), one line, one day.
+
+**By car**, Pienza is the Val d'Orcia's natural hub — under an hour from Siena, minutes from San Quirico and the postcard roads, with parking outside the walls and a short walk in. During the fair, expect the lots to fill by mid-morning and the approach roads to move at festival pace.
+
+**Time needed**: the town itself is two to three unhurried hours — piazza, Duomo, the panoramic walk along the southern walls, and the tasting crawl. Add lunch (pici with pecorino sauces is the local statement, [as the food calendar explains](/blog/tuscan-food-calendar-seasonal-dishes)) and Pienza fills half a day perfectly, leaving the other half for [the valley around it](/blog/val-dorcia-day-trip-from-siena-2026/). During the Fiera, invert the advice: come for the day, stay into the evening — the contrada dinners and the lit piazza are the point.
+
+**Base logic**: staying in Pienza itself suits the fair week and the sunrise photographers; for everyone else, [Siena remains the better hub](/blog/siena-day-trip-or-overnight-2026/), with Pienza as the jewel of its Val d'Orcia day. Either way, September rooms across the valley move fast once the harvest and festival calendars land — the booking advice from every guide in this cluster applies doubled here.`,
+      },
+      {
+        id: 'at-the-table',
+        heading: 'Pecorino at the table: what to order',
+        body: `The shops are half the story; the trattorie finish it. Pienza's kitchens cook with their cheese the way Montalcino cooks with its wine — as the local axiom rather than an ingredient.
+
+The signature plate is **pici with pecorino**: the fat hand-rolled pasta of these hills under sauces built on the cheese, from the simple *cacio e pepe* treatment to versions folding in the sweeter young pecorino with pear or the aged crumble with pepper and oil. Order it once plain and once elaborated and you will understand the spectrum from the tasting counters all over again, hot. Antipasti boards pair the ages of pecorino against honey, jams and the season's fruit — the same pairings the shops pour, now with a table and a view. And in early autumn the menus lean into [the harvest table the food calendar maps](/blog/tuscan-food-calendar-seasonal-dishes): porcini, new oil not far behind, and grapes on everything.
+
+The practical notes: kitchens here keep small-town hours, so lunch runs earlier and shorter than city visitors expect; fair week packs every table, and booking dinner during 1–7 September is not optional; and the correct dessert, the town would like you to know, is more cheese.`,
+      },
+      {
+        id: 'beyond-cheese',
+        heading: 'Beyond the cheese: the ideal city in an hour',
+        body: `Between tastings, the town that hosts them repays a slow loop. **Piazza Pio II** is the set piece — cathedral, papal palace and town hall composed as a single Renaissance argument about what a city should be, small enough to take in from one café table. The **Duomo** behind its travertine facade holds its altarpieces in unusually good light, by papal design. The lanes running south hit the **panoramic walk along the walls** within a minute, with the Val d'Orcia arranged below like the backdrop it has played [in half a dozen films](/blog/tuscany-on-screen-film-locations-2026/) — the Gladiator cypress road waits just outside town for those continuing the pilgrimage.
+
+Give the loop an unhurried hour, two with the palace and a long look off the walls. Then, correctly, return to the cheese — Pienza is one of the few great sights in Tuscany designed to be a backdrop to lunch rather than an obstacle to it, which may be the most Renaissance thing about it.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research: the Fiera del Cacio's 1–7 September 2026 dates from multiple independent event listings, consistent with the fair's long-standing early-September pattern, with the day-by-day programme explicitly deferred to the organisers' near-date publication (third-party schedules recycle previous years, and we say so rather than reprint them); the Cacio al Fuso's six contrade, kneeling-roll format, spindle target, five-to-one scoring zones, upright rule and spindle bonus from consistent local and event accounts, with the sixteenth-century origin presented as local tradition rather than documented fact; the three tasting shops (Marusco e Maria at Corso il Rossellino 21 since 1974, La Bottega del Naturista at number 16 as Caseificio De Mario's shop, Il Cacio di Ernesto at Via Mangiavacchi 37) from the shops' own information and consistent food-guide coverage; Pienza's Pius II history and UNESCO status from heritage sources; and the bus-112 access facts from this site's own operator-checked transport research. Shop hours, festival programmes and tasting arrangements change — confirm with the shops and the fair's channels near your date. We have no affiliate relationship with any shop, producer or event named here; recommendations are editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Every region of Italy has a famous cheese; very few have a cheese *town* — a single walkable street where the whole spectrum sits on counters between a pope's palace and a valley view, tended by families who made what you are tasting. That is Pienza's everyday miracle, and the first week of September gilds it: a fair that ends with grown adults bowling pecorino at a spindle in one of the most beautiful squares ever built, while their neighbourhoods roar. Come any day for the cheese. Come 1–7 September 2026 for the cheese with a crowd, a banner and a game worth crossing Tuscany to watch — just decide early whether your Sunday belongs to the spindle or [to Arezzo's lances](/blog/giostra-del-saracino-arezzo-2026/).`,
+      },
+    ],
+    [
+      { q: 'When is the Fiera del Cacio in Pienza in 2026?', a: 'Event listings give 1–7 September 2026, following the fair’s long-standing first-week-of-September pattern, with the Cacio al Fuso cheese-rolling game as the final-weekend climax in Piazza Pio II. The day-by-day programme is published by the organisers close to the date — check their channels the week before rather than trusting recycled online schedules.' },
+      { q: 'What is the Cacio al Fuso game?', a: 'Pienza’s six contrade — San Piero, Il Prato, La Mura, Gozzante, Case Nuove and Casello — kneel and roll whole pecorino wheels across Piazza Pio II at an upright spindle. Scoring runs five points nearest the spindle down to one in the outer chalk circles; the wheel must finish upright, and curling around or leaning on the spindle earns a bonus. Local tradition traces the game to the sixteenth century.' },
+      { q: 'Where can you taste pecorino in Pienza?', a: 'All along Corso il Rossellino, any day of the year. Three named anchors: Marusco e Maria at number 21 (tastings bookable, trading since 1974), La Bottega del Naturista at number 16 (the shop of family dairy Caseificio De Mario), and Il Cacio di Ernesto just outside the walls at Via Mangiavacchi 37, selling its own farm’s cheese.' },
+      { q: 'What is special about pecorino di Pienza?', a: 'It is sheep’s-milk cheese from the Crete Senesi and Val d’Orcia pastures around the town, whose aromatic grasses flavour the milk. It spans fresh and mild (dolce) through semi-stagionato to crumbly aged stagionato, plus local variations — tomato- or ash-rubbed rinds, hay- and barrel-matured wheels — that make a tasting walk genuinely varied.' },
+      { q: 'How do you get to Pienza without a car?', a: 'Bus line 112 from Siena, the Val d’Orcia towns run via Buonconvento and San Quirico — roughly four usable weekday connections, so plan the return before you commit to the day, and treat Sundays as effectively out of reach. The same bus continues to Montepulciano, making a two-town cheese-and-cellars day easy on one line.' },
+      { q: 'Is Pienza worth visiting outside the festival?', a: 'Absolutely — the cheese shops trade all year, the Renaissance piazza and the wall-top Val d’Orcia panorama are permanent, and two to three hours covers the town unhurried. The Fiera adds crowds, stalls and the game; ordinary weekdays add quiet. Different visits, both worth it.' },
+    ],
+    '2026-08-28',
+    {
+      seoTitle: 'Pienza Pecorino Guide + Fiera del Cacio 2026: Dates & Tastings',
+      primaryKeyword: 'fiera del cacio pienza 2026',
+      secondaryKeywords: [
+        'pienza cheese festival september 2026',
+        'cacio al fuso pienza',
+        'pecorino di pienza tasting',
+        'pecorino tasting pienza shops',
+        'pienza what to do',
+        'val d orcia food towns',
+      ],
+      imageAlt: 'Pici pasta — the Val d’Orcia table that pecorino di Pienza belongs to',
+      canonicalPath: '/blog/pienza-pecorino-fiera-del-cacio-2026',
+      tags: ['pienza', 'pecorino', 'fiera del cacio', 'tuscany food', 'val d orcia', 'tuscany festivals'],
+    }
+  ),
+
+  A(
+    'what-to-wear-in-tuscany-in-september',
+    'What to Wear in Tuscany in September: The Two-Season Month, Solved',
+    'Packing',
+    'Tuscany',
+    'What to wear in Tuscany in September — the month that starts in summer and ends in autumn. The layering system, by activity and by half-month.',
+    '/images/florence/tuscany-summer-linen-clothing.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `September in Tuscany is **two seasons wearing one name**: the first half still runs summer afternoons around 27–28°C, while the final week can open with 15°C mornings and a jacket mood. Pack for both and the month cannot touch you.
+
+The capsule that works, in one paragraph: **light summer clothes as the base layer** — breathable shirts, one or two dresses or linen trousers — plus **one real mid-layer** (a light knit or overshirt) and **one packable rain layer or umbrella**, because September averages nine or so rain days in Florence with totals that vary by dataset. Add **the two non-negotiables**: genuinely comfortable walking shoes for cobbles and gradients, and a modest-coverage option (shoulders and knees) for every church you did not plan to enter but will. Swimmers: bring the suit — the sea holds low-twenties temperatures into the month, [beach rules and booking caps permitting](/blog/italy-beach-rules-2026/).
+
+The one-line version by half-month: **before the 15th, dress for summer and carry the layer; after the 15th, dress in layers and carry the summer.** Everything below is that sentence, expanded with the numbers and the activity-by-activity detail.`,
+      },
+      {
+        id: 'weather-reality',
+        heading: 'The weather you are actually dressing for',
+        body: `The dataset picture, checked against multiple climate sources in August 2026 and honestly hedged where they diverge:
+
+**Temperatures.** Florence's September averages sit around a **25°C daytime maximum and 14°C night**; Siena runs a near-identical 26/15. But averages hide the month's real character, which is the slide: early September typically delivers **28°C afternoons from 16°C mornings** — high summer with better manners — while the closing week settles toward daytime averages in the low twenties and evenings that genuinely require sleeves. A twelve-degree daily swing is normal all month, which is why this article is really about layers, not garments.
+
+**Rain.** Around **nine rain days** is the standard Florence figure, with monthly totals quoted anywhere from about 60mm to the mid-70s depending on the dataset — September is when the first proper autumn fronts arrive, usually as short, decisive showers rather than washed-out days. The pattern favours those who carry protection and ignore forecasts more than four days out.
+
+**Sun.** Still strong, especially in the first half: midday UV on an open piazza or a vineyard track remains a summer-grade consideration, and [the heat-survival playbook](/blog/florence-summer-heat-survival-tips-2026/) stays relevant through the first fortnight in the cities' stone canyons.
+
+**Microclimates.** One more wrinkle worth a sentence each: the hill towns sit higher and cool faster after sunset than the valley cities — a Siena or Montepulciano evening runs a degree or three below Florence's — while the coast holds its warmth longest, and the deep countryside adds morning mists to late-September dawns that burn off by ten. None of it changes the packing list; all of it explains why the mid-layer belongs in the bag even on a day that starts hot.
+
+The takeaway for your suitcase: no single outfit spans a 16°C morning market run, a 28°C piazza afternoon and a 17°C dinner outdoors. Three thin things beat one thick thing, every day of the month.`,
+      },
+      {
+        id: 'layering-system',
+        heading: 'The layering system: three thin things',
+        body: `Build every day from the same three tiers and the month's swings become a wardrobe feature rather than a problem.
+
+**Tier one — the summer base.** Breathable shirts and tops (linen and light cotton still earn their keep), one or two dresses or lightweight trousers, shorts if they are your habit — knowing they exile you from churches without a wrap. This tier does all the work before mid-afternoon in the first half of the month.
+
+**Tier two — the pivot layer.** One light merino or cotton knit, an overshirt or a casual blazer: something that dresses up a dinner and warms a 7am departure equally well. This is the layer September actually tests; make it the best-looking thing in the bag, because it will be in half your photographs from the 15th onward.
+
+**Tier three — the shell.** A packable rain jacket or a compact umbrella — one of them, always in the daypack, from day one. September's showers are brief but committed, and the traveller sheltering in a doorway bought the wrong kind of light.
+
+Colour and fabric notes from the region's own habits: Tuscans in September wear muted, layered, put-together casual — you will never regret erring slightly smarter than beach-resort defaults, and technical hiking gear reads as costume anywhere that is not actually [a trail](/blog/via-francigena-day-walk-siena/). Linen transitions out as the month does; the second half favours cotton, light knits and denim.`,
+      },
+      {
+        id: 'by-activity',
+        heading: 'Dressing by activity: cities, cellars, coast and evenings',
+        body: `**Cities and hill towns.** The decisive garment is on your feet: Siena, [San Gimignano](/blog/san-gimignano-day-trip-from-siena-2026/) and Montepulciano are cobbles on gradients, and every guide we publish repeats the same law — **broken-in, cushioned, flat-soled shoes**, with elegance a distant second to grip. A daypack with the rain shell and a water bottle completes the city uniform; fontanelle refills keep it light.
+
+**Wine country and harvest visits.** September is [vendemmia season — running early in 2026](/blog/tuscany-wine-harvest-vendemmia-2026/) — and estate visits impose their own dress code: **closed shoes** for cellars and vineyard walks (gravel, machinery, spilled must), layers for the cellar-to-courtyard temperature drop, since ageing rooms hold cool cellar temperatures year-round, and nothing white you love on days that involve red wine and enthusiasm. A sunhat still earns its place on vineyard tracks in the first half of the month.
+
+**The coast.** The sea stays swimmable — water temperatures hold in the low twenties through the month per the climate datasets — and September beaches are the summer's civilised encore. Pack the suit and a light cover-up; note that [beach infrastructure thins as the month ages](/blog/italy-beach-rules-2026/), with stabilimenti winding down toward the end of September, so late-month swimmers should expect free-beach conditions and pack their own towel logistics.
+
+**Evening events.** September's calendar is [unusually dense](/blog/tuscany-september-2026-festivals-events/), and its best moments happen after dark: Lucca's candlelit Luminara, festival dinners, [the passeggiata that rewards an overnight stay](/blog/siena-day-trip-or-overnight-2026/). Evenings in stone towns drop fast once the sun goes — the tier-two layer is the difference between staying for the fireworks and retreating before them, exactly as [the September events guide warns](/blog/tuscany-september-2026-festivals-events/).`,
+      },
+      {
+        id: 'by-half-month',
+        heading: 'The month in halves',
+        body: `**1–15 September: summer, softened.** Dress as for August with the edges filed off: base-layer days, the knit riding in the daypack for evenings, sun protection still a working item — hat, sunglasses, and the shade-seeking habits of high summer in the early-afternoon piazzas. Swimming is unambiguous; harvest scenes are [at their peak in the warm zones this early-running year](/blog/tuscany-wine-harvest-vendemmia-2026/); and the first big festivals (the Giostra on the 6th, the wine fairs) run warm into the night.
+
+**16–30 September: autumn, arriving.** The knit moves from the bag to the body; mornings ask for it, evenings insist. Rain frequency ticks up, the umbrella earns its space, and closed shoes take over from sandals as the default. This is the fortnight when the two-season packing pays out: travellers who brought only summer are buying overpriced jackets near the Duomo, while you rotate three thin layers and look local. The reward for the cooler air: the month's best walking weather, [its emptiest trails](/blog/via-francigena-day-walk-siena/), and golden light that flatters every photograph.
+
+If your trip straddles the 15th, congratulations — you need exactly the capsule this article describes, used in both directions.`,
+      },
+      {
+        id: 'churches-and-codes',
+        heading: 'The dress codes that actually get enforced',
+        body: `Tuscany's only strict wardrobe rule is ecclesiastical, and September's warmth makes it the month's most common stumble: **shoulders and knees covered** to enter working churches — Siena's Duomo and Florence's cathedral complex among them — enforced with varying zeal but never worth gambling a timed ticket on. The fix costs nothing: a light scarf or wrap in the daypack converts any summer outfit to admissible in five seconds, and long shorts or a midi dress dodge the question entirely.
+
+Beyond the churches, codes are social rather than posted: smart-casual carries every restaurant in the region (Tuscans dress for dinner in the low-key way — the tier-two layer again), swimwear belongs only on the sand, and nothing anywhere requires formality beyond a collared shirt. The unspoken rule that matters more than any of these: **comfortable shoes are invisible; limping is not.**`,
+      },
+      {
+        id: 'the-list',
+        heading: 'The September capsule, itemised',
+        body: `For a seven-to-ten-day trip, laundry assumed once:
+
+- 4–5 breathable tops / shirts
+- 1–2 dresses or 2 pairs of light trousers (plus shorts, first half of the month)
+- **1 quality mid-layer** — light knit, overshirt or unstructured blazer
+- **1 packable rain shell or compact umbrella**
+- **Broken-in walking shoes** (the non-negotiable) + one smarter evening pair if you like
+- Light scarf or wrap (church admissibility + evening warmth, one item)
+- Swimsuit and cover-up (any coastal or [hot-springs](/blog/bagno-vignoni-bagni-san-filippo-hot-springs) ambitions — swim shoes help on travertine)
+- Sunhat and sunglasses (working items through mid-month)
+- Daypack that fits shell, water bottle, scarf and a wedge of pecorino
+- Closed shoes if wine-estate visits are planned (can be the walking pair)
+
+What to leave home: heavy coats (nothing in the forecast justifies one), more than one "just in case" formal outfit (nowhere asks), technical hiking gear unless you are genuinely [walking the Francigena](/blog/via-francigena-day-walk-siena/), and the second pair of ambitious shoes — cobbles will veto them by day two. [The full packing checklist](/blog/tuscany-packing-checklist/) covers the non-clothing kit; this list is the September wardrobe answer.`,
+      },
+      {
+        id: 'by-traveller',
+        heading: 'The capsule, adjusted by traveller',
+        body: `The three-tier system is universal; the proportions shift with the trip.
+
+**The city-breaker (Florence–Siena, 4–6 days).** Skew the base layer smarter: the trip is piazzas, museums and dinners, so the linen-and-knit end of the wardrobe works harder than the technical end. One pair of shoes can genuinely do everything if chosen well. The scarf is your most-used item — churches by day, [evening passeggiata](/blog/siena-day-trip-or-overnight-2026/) by night.
+
+**The wine-country traveller.** Closed shoes move from optional to core, the dark-colours rule becomes policy, and the mid-layer earns double duty in cellars that hold cool ageing temperatures on the warmest afternoon. Add nothing formal: estates are working farms, and [the harvest weeks](/blog/tuscany-wine-harvest-vendemmia-2026/) are the muddiest, most wonderful version of them.
+
+**The walker.** The one traveller for whom technical gear stops being costume: proper trail shoes, a genuinely waterproof shell and a sun system for exposed ridgelines — [the Via Francigena stages](/blog/via-francigena-day-walk-siena/) offer little shade and no water, and late-September rain arrives faster in open country than piazza forecasting suggests.
+
+**The family.** Duplicate the layer logic per child and add one full spare outfit each per two days — gelato and fountain physics are undefeated — plus swim gear even inland, since [the thermal springs](/blog/bagno-vignoni-bagni-san-filippo-hot-springs) redeem any itinerary argument.
+
+**The festival-goer.** September's evening events are the wardrobe's stress test: [the calendar guide's advice](/blog/tuscany-september-2026-festivals-events/) — dress for two seasons a day — is this entire article in miniature. Pockets or a small crossbody beat any bag in a procession crowd, and the shoes rule triples in a packed, sloping piazza.`,
+      },
+      {
+        id: 'packing-light',
+        heading: 'Packing light: the laundry maths',
+        body: `The capsule above assumes one laundry stop, and September is the easiest month of the year to keep that promise. Base layers dry overnight in the month's warm, dry first half — a sink wash and a balcony do the work of a second suitcase — and most Tuscan towns keep a self-service lavanderia within a ten-minute walk of the centre, typically a single unhurried hour of your trip.
+
+The deeper reason to pack light is logistical, not virtuous. September itineraries move: [buses to hill towns](/blog/tuscany-without-a-car-2026/), a night in Siena, cobbles between the bus stop and every hotel — and each of those multiplies the cost of the bag you almost did not bring. The travellers who glide through this month carry a cabin-size case and a daypack; the ones who suffer brought options they never wore. September's forgiving weather is precisely what makes the small bag safe: nothing in the forecast requires bulk, only cleverness.
+
+One deliberate exception to minimalism: **leave buying room**. This is the month of [wine fairs, new-vintage bottles and pecorino wheels](/blog/pienza-pecorino-fiera-del-cacio-2026/), and [the souvenir guide's advice](/blog/what-to-buy-in-tuscany-souvenirs) works best with empty kilos to spend. The lightest thing you can pack for September is space.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research: September temperature averages for Florence and Siena (daytime maxima around 25–26°C, nights around 14–15°C), the early-month 28°C-afternoon versus late-month low-twenties split, and the roughly-nine-rain-days figure from multiple climate datasets — whose monthly rainfall totals disagree (quoted from about 60mm into the mid-70s), which is why we give the range and lean on the rain-days pattern instead; sea temperatures in the low twenties from the same climate sources; and the activity-specific advice (cellar temperatures, church coverage rules, stabilimenti season wind-down) from this site's own verified seasonal and events research, cross-linked above. Climate figures are long-run averages, not forecasts — any given September week can beat or break them, which is precisely why the advice is a layering system rather than a wardrobe. We have no affiliate relationship with any clothing brand, retailer or operator; no products are recommended, only categories.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `September is Tuscany's finest month partly *because* it refuses to be one thing: summer light with autumn air, harvest in the vineyards and swimmers in the sea, festival evenings that start warm and end in sleeves. Dress for the refusal. Three thin layers, serious shoes, a scarf that opens church doors, a shell that laughs at the month's brief rains — and every version of September Tuscany, from a 28-degree piazza to a candlelit procession under a cooling sky, finds you already dressed for it. Pack the small bag, keep the buying room, and let the month do what it does best: change its mind beautifully, twice a day, while you stay comfortable through all of it.`,
+      },
+    ],
+    [
+      { q: 'What should I wear in Tuscany in September?', a: 'Layers: summer base clothes (breathable tops, light trousers or dresses), one quality mid-layer for mornings and evenings, and a packable rain shell or umbrella — plus broken-in walking shoes for cobbled hill towns and a scarf for church shoulder-and-knee rules. Early September leans summer; the final third leans autumn.' },
+      { q: 'Is September still hot in Tuscany?', a: 'The first half, yes — afternoons around 27–28°C are normal, with summer-grade sun at midday. By the final week, daytime averages slip to the low twenties and evenings drop toward 14–15°C. The month averages about 25°C daytime in Florence and Siena, but the slide within it is the real story.' },
+      { q: 'Does it rain in Tuscany in September?', a: 'Some — around nine rain days in Florence is the standard figure, with monthly totals varying by dataset (roughly 60mm to the mid-70s). Showers tend to be short and decisive rather than day-long, so a packable shell or compact umbrella in the daypack solves the month.' },
+      { q: 'Can you still swim in Tuscany in September?', a: 'Yes — the sea holds low-twenties temperatures through the month, and September beaches are summer’s calmer encore. Note that paid beach clubs wind down as the month ages, so late-September swimmers should expect free-beach conditions and bring their own towels and shade.' },
+      { q: 'What shoes do you need for Tuscany?', a: 'Broken-in, cushioned, flat-soled walking shoes — the hill towns are cobbles on gradients and they veto ambitious footwear by day two. Add closed shoes for wine-estate cellars and vineyard walks (the walking pair usually serves), and one smarter evening pair only if you want it.' },
+      { q: 'What is the dress code for churches in Tuscany?', a: 'Shoulders and knees covered to enter working churches, including Siena’s and Florence’s cathedrals — enforced unevenly but never worth risking a timed ticket on. A light scarf or wrap in the daypack converts any summer outfit in seconds.' },
+    ],
+    '2026-08-29',
+    {
+      seoTitle: 'What to Wear in Tuscany in September (2026): Layers, Shoes & Rain',
+      primaryKeyword: 'what to wear in tuscany in september',
+      secondaryKeywords: [
+        'tuscany september packing list',
+        'tuscany weather september what to pack',
+        'italy september outfits',
+        'is september hot in tuscany',
+        'tuscany church dress code',
+        'shoes for tuscany cobblestones',
+      ],
+      imageAlt: 'Light linen clothing laid out for a Tuscan summer-into-autumn trip',
+      canonicalPath: '/blog/what-to-wear-in-tuscany-in-september',
+      tags: ['tuscany packing', 'september in tuscany', 'what to wear italy', 'travel wardrobe', 'tuscany weather'],
+    }
+  ),
+
+  A(
+    'panzano-in-chianti-cecchini-vino-al-vino',
+    'Panzano in Chianti: Is Dario Cecchini Worth It, and the Vino al Vino Weekend',
+    'Food & drink',
+    'Tuscany',
+    'Is Dario Cecchini worth it? The honest answer, plus Panzano’s Vino al Vino wine weekend, the Conca d’Oro and how to reach the village without a car.',
+    '/images/tuscany/chianti-wine-road-vineyard.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Panzano is a village of a thousand-odd people on the Chianti ridge road that punches so far above its weight it has two separate international reputations: **the world's most famous butcher**, and **a producers' union whose wine festival is run by the winemakers themselves**.
+
+**Is Dario Cecchini worth it?** Yes — if you understand what you are buying. His communal restaurants are a fixed-price, fixed-menu, elbow-to-elbow **performance** of Tuscan meat cookery, not a gastronomic tasting menu, and the diners who leave disappointed are almost always the ones who expected the second thing. Two facts every guide should tell you before you book and most do not: the **Officina della Bistecca costs €50 per person** including water and table wine, with your own bottle welcome at no corkage — and **the beef is not Chianina**. It comes from a family of butchers in Catalonia who have raised it to Cecchini's specification for over thirty years. He is entirely open about this; it is only a betrayal if nobody told you.
+
+**Vino al Vino** is the other reason to come: Panzano's own producers pouring in Piazza Bucciarelli, reported for **18–20 September 2026** — a date we flag as secondary-sourced, because we found no first-party announcement at our check. In 2025 the format was a **€30 tasting glass** that served as the pass to every stand.
+
+And underneath both sits the village itself: the **Conca d'Oro**, the golden south-facing amphitheatre of vineyards that made Panzano one of the eleven named subzones of Chianti Classico, farmed roughly **90 per cent organically**. Bus 365 from Florence, about an hour — with one large caveat about the evening return, below.`,
+      },
+      {
+        id: 'who-is-cecchini',
+        heading: 'Who Dario Cecchini actually is',
+        body: `Strip away the television and there is a real story here. Cecchini, born 1955, is the **eighth generation** of his family behind the counter of the **Antica Macelleria Cecchini** on Via XX Luglio — a shop whose trading history is given as reaching back to **1780**. He left veterinary studies at Pisa in 1976 to take the business over from his dying father, which is to say: he did not choose the butcher's life as a brand, he inherited it as a duty.
+
+Three things built the legend beyond Chianti. The first is **Dante** — he recites the Commedia while working, a habit long documented and not a later invention for visitors. The second is **the funeral**. In 2001, on the eve of the **EU's** mad-cow-related ban on bone-in beef from cattle over twelve months — a Brussels measure, not a Roman one, which took effect on 1 April 2001 and ran until December 2005 — Cecchini staged a public funeral for the *bistecca alla fiorentina* in Panzano. Contemporary April 2001 reporting confirms the funeral procession, the marching band, the coffined T-bone and the hundreds of mourners; the open-casket and raw-slab flourishes come from later retellings. The point of the protest was that Brussels had killed a Tuscan dish. The third is the writing and the screen: Bill Buford spent months apprenticed to him for **Heat** (2006), whose subtitle names him as "a Dante-Quoting Butcher in Tuscany", and Netflix's **Chef's Table** devoted an episode to him — **Volume 6, Episode 2, released 22 February 2019** (some sources misfile it under Season 2; the sixth is correct).
+
+What this means for a visitor is worth stating plainly: you are not going to a restaurant that happens to have a famous chef. You are going to a **butcher's shop with dining rooms attached**, run by a man whose whole argument is that the animal deserves to be used completely and eaten in company.`,
+      },
+      {
+        id: 'the-three-formats',
+        heading: 'The three ways to eat there — and what they cost',
+        body: `Cecchini runs four eating operations in the same village, plus the shop counter, and choosing between them is most of the planning.
+
+**Officina della Bistecca** — the flagship. **€50 per person**, fixed, covering the whole meal, with a dedicated children's menu at a reduced price: a progression of beef courses that typically runs beef tartare (the "sushi del Chianti"), rump, the Panzanese steak and finally the bistecca alla fiorentina, alongside Tuscan bread, his seasoned salt, raw vegetables with oil, Tuscan beans, roast potatoes and whipped lardo. **Water and red wine are on the table within the price**, and you may bring your own bottle with **no corkage**. There is no à la carte: each room eats one menu at one sitting, at long communal tables, and a **vegetarian menu is offered at the same price** (reviewers describe it as noticeably plainer than the meat service). Seating mechanics per the official site: aperitivo at 12:00 or 19:00, seated half an hour later, service beginning at 13:00 or 20:00.
+
+**Solociccia** — lunch only, single seating, and the *nose-to-tail* argument in practice: braised, boiled and lesser-known cuts rather than the big steak. It carries a **Michelin Plate** listing (a listing, not a star). **It now costs €50 per person — the same as Officina** — per the official site, which lists a single daily 12:00 seating with a meat or vegetarian menu. That matters, because the long-standing advice that Solociccia is "the cheaper option" **no longer holds**. Aggregator and Michelin-adjacent listings still showing €40, and older material showing €30, are out of date; confirm at booking.
+
+**Dario DOC** — the casual daytime option, roughly 11:30/12:00 to 15:00, built around a half-pound burger with garlic-and-sage roast potatoes, raw vegetables and bread. The official site describes it as street food **open daily 11:30–15:00 with no booking required** — the flexible, no-plan option. We found a €10 burger figure circulating but not on a first-party page, so we do not print prices here.
+
+**The Panini Truck** is the fourth and cheapest: a permanent van parked at the Panzano belvedere with the grill lit, serving his meat in Tuscan bread — no reservation, no ceremony. If the communal rooms are full or the budget is tight, this is how to eat Cecchini's cooking on the day you decide to.
+
+**The butcher shop itself** is the free-est option: every source describes complimentary tastings at the counter during opening hours — crostini with lardo and rillettes, fennel salame, a glass of Chianti — with no purchase required. None of those sources is the business stating a policy, so read it as **customary hospitality that may vary with the day and the crowd**, not an entitlement. Buy something anyway; it is a shop.`,
+      },
+      {
+        id: 'booking',
+        heading: 'Booking, and the two unknowns to resolve before you travel',
+        body: `Booking for the communal restaurants runs by **email or telephone**, taken any day between 09:00 and 16:00, with a request form on the official site; allergies must be declared at the time of booking. We found **no published deposit or cancellation policy** for any of the three — which is not the same as there being none, so ask when you confirm.
+
+Two unknowns deserve resolving before you build a day around them, and we would rather flag them than paper over them:
+
+**One: which days Officina actually runs.** The official site presents it as operating **every day at 12:00 and 19:00**. Multiple current secondary listings instead say **dinner only on Tuesday, Friday and Saturday, plus Sunday lunch**. The official site is the stronger source and the aggregator listings the weaker, but the conflict is real and current on both sides. This is the single most consequential unknown for a visitor: **confirm your date directly with the business before booking travel around it.**
+
+**Two: the last bus home.** Panzano is served by Autolinee Toscane's **line 365** group from Florence — the stop is **Panzano P.za Campana**, journey time about an hour and often a little over, departures from beside Florence's Montelungo/Santa Maria Novella bus terminus. But we could not confirm the **last evening departure back to Florence**, and the arithmetic matters enormously: an Officina dinner beginning service at 20:00 almost certainly cannot be done by bus in a day trip. Lunch by bus is comfortable; **dinner by bus is a plan that needs the actual timetable, or a car, taxi or bed in the village**. Autolinee Toscane's fare page prices extra-urban journeys by distance zone without publishing this pair, so we print no fare either — buy at a bar, tobacconist or newsagent, or tap on and off, [as the car-free guide explains](/blog/tuscany-without-a-car-2026/).
+
+If Panzano proves impossible, there is now a legitimate fallback: Cecchini opened **Cecchini in Città** in Florence, at the 25hours Hotel Piazza San Paolino, on 19 September 2024.`,
+      },
+      {
+        id: 'is-it-worth-it',
+        heading: 'The honest verdict: who should book, and who should not',
+        body: `**The case for.** Fifty euro for a multi-course beef feast with wine included is, by the standards of anywhere else charging for a famous name, remarkable value. The communal table does what communal tables do — you leave having talked to strangers from four countries. The cooking is genuinely good and genuinely committed to a philosophy: nose-to-tail, no waste, no fuss. And Cecchini himself is usually present, cleaver in hand, performing the Dante and the salt and the welcome. For anyone who enjoys eating as an event, this is one of the best-value theatrical dinners in Italy.
+
+**The case against**, assembled honestly from the criticism rather than dismissed: you eat **elbow to elbow** at long shared tables, in noise; there is **no choice of dish**; and a recurring complaint calls it "a show for tourists and definitely not a place for gourmets". Vegetarians are catered for but at a plainer standard. If your ideal dinner is quiet, chosen and paced by you, this is structurally the wrong restaurant, and no amount of fame changes that.
+
+**And the fact to know before you go**, because discovering it at the table sours people who would otherwise have loved the meal: **the beef is not Chianina and is not Tuscan.** For more than thirty years Cecchini has sourced it from the Viñals family, butchers in Mataró in Catalonia for over a century, who supply him from free-range herds raised in the Catalan Pyrenees — Cerdanya, Girona, Lleida — to his specification rather than to any single breed — he argues openly that it delivers better marbling and tenderness than the Chianina available to him. That is a defensible position from a butcher who has spent fifty years judging meat. It is also simply not what most visitors assume they are buying in the heart of Chianti, and you deserve to decide with the information rather than after it.
+
+**Our verdict**: book Officina if you want the full performance and the steak; consider Solociccia if you care more about the nose-to-tail philosophy than the showpiece cut (and confirm its price); use Dario DOC or the shop counter if you just want to taste the man's cooking without ceremony. Skip all of it if crowds and fixed menus are your idea of a bad evening — [Panzano's wine is reason enough to come anyway](/blog/montalcino-or-montepulciano-2026/).`,
+      },
+      {
+        id: 'vino-al-vino',
+        heading: 'Vino al Vino: the festival the growers run themselves',
+        body: `The second reason to know Panzano's name fills **Piazza Bucciarelli** each September, and its distinguishing feature is who stands behind the tables: **the winemakers themselves**, pouring their own bottles.
+
+**The organisation matters.** The **Unione Viticoltori di Panzano** was founded in 1995 for the first Vino al Vino and is described as the first association of winemakers formed within the Chianti Classico territory; it counts **23 member estates** as of 2026. Its membership rule is stricter than the denomination's own: **grapes, winemaking and bottling must all happen in Panzano.** The result at the festival is a tasting of **over 80 labels** that are, in a genuinely unusual sense, all from one hillside.
+
+**Dates, with an honest flag.** The 2026 edition is reported as **Friday 18 to Sunday 20 September**, matching 2025's confirmed 19–21 September running. The union describes the event as the third weekend of September, but that is a guide rather than a rule — the 2024 edition ran 13–15 September, the second weekend. But **we found no first-party announcement** from the growers' union for September 2026 at our check, and the sources disagree at the edges — one outlier lists a seven-day span, and the union's own historic description mentions a four-day format (the third weekend plus the preceding days) against 2025's three days. **Treat 18–20 September as likely, not settled, and confirm on the union's channels before booking travel.**
+
+**How entry works** — and this is the part visitors get wrong. There is no conventional ticket: you buy a **tasting glass**, supplied with a shoulder-strap holder, and the glass is your pass to every stand. In 2025 it cost **€30**, with a 10 per cent discount for buying ahead through the union's online shop. Do not confuse the September festival with **Vino al Vino in Cantina**, the union's spring edition, when member estates open their own cellars instead — 2–3 May in 2026, tastings 11:00–19:00. 2025 opening hours ran **Friday 11:00–19:30, Saturday 11:00–20:00, Sunday 11:00–19:00**; the 2026 hours are not published anywhere we could find. Past programmes have added extras — in 2025, Cecchini's own panini truck on the Saturday evening and the Panzano Orchestra on Sunday morning — but those were 2025-specific and no 2026 programme exists yet.
+
+**How it differs from the bigger fair up the road.** [Expo Chianti Classico in Greve](/blog/tuscany-september-2026-festivals-events/) runs **10–13 September 2026**, a week *earlier*, and is a different animal: organised by the comune, drawing producers from **every** municipality of the Chianti Classico zone, and using a **token system** — a €20 glass including seven tasting tickets, with Riserva and Gran Selezione costing two. Vino al Vino is smaller, single-village, grower-run and open-pour. Serious Chianti drinkers with September dates should consider doing **both**: the zone-wide survey first, the deep dive into one hillside a week later.`,
+      },
+      {
+        id: 'the-village',
+        heading: 'The village, the Conca d’Oro and the organic hillside',
+        body: `Panzano itself is a *frazione* of Greve in Chianti, perched at about 500 metres on the **SR222 Chiantigiana** — the wine road that runs the 69-odd kilometres between Florence and Siena, and one of the great drives in Italy [when the car is the right tool](/blog/rent-a-car-in-florence-or-siena-2026/).
+
+Its geographic signature is the **Conca d'Oro**, the "golden basin": a south-facing natural amphitheatre of hillside dropping toward the Pesa valley, whose name comes from the old practice of growing grain between the vine rows, turning the whole bowl gold before harvest. The bowl is also the reason Panzano's wine has a reputation of its own — it is one of the **eleven official Unità Geografiche Aggiuntive** of Chianti Classico (alongside Castellina, Radda, Gaiole, Lamole, Montefioralle and the rest), a subzone whose name may now appear on Gran Selezione labels under rules published in 2023. The Panzano UGA covers roughly **2,840 hectares**, of which about **595 are vineyard** — some 6.7 per cent of all Chianti Classico plantings.
+
+And it is unusually green: the growers' union puts organic farming at around **90 per cent of Panzano's vineyards**, while the Chianti Classico consortium's own subzone profile says **95 per cent certified** — either way, effectively the whole hillside — a process the growers date from 2012, when a bio-district covering Greve and Panzano was formally established that July. You will see the claim "the first organic wine district in Italy" repeated widely; it is plausible and locally asserted, and we flag it as a claim rather than a verified first.
+
+**What to see between glasses.** The **Pieve di San Leolino**, about a kilometre from the village, is documented as far back as **982** with the present Romanesque church rebuilt in the first half of the 1100s, with a thirteenth-century cloister alongside — but note that it opens **by request rather than to fixed hours**, so arrange access rather than turning up hopeful. The upper village keeps a surviving stretch of the **castle wall** — documented in the eleventh century, its standing fabric dated to the twelfth, held by the Firidolfi and Ricasoli families through the Florence–Siena wars — and the best free viewpoints over the Conca d'Oro. And the **Sunday morning market** fills Piazza Bucciarelli from about 08:30 to 13:00, enlarging on the first Sunday of the month into the artisan *aprilante*.
+
+Half a day covers the village comfortably; a full day covers it with a Cecchini lunch and a vineyard visit. Free parking sits outside the historic centre, with footpaths climbing to the square — the standard [hill-town parking discipline](/blog/siena-ztl-fines-how-to-avoid/) applies here as everywhere.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research (direct page fetches are blocked in our environment, so every fact rests on search-surfaced material rather than pages we opened ourselves — the confidence language above reflects that ceiling). Verified: Cecchini's biography, the shop's 1780 trading history and Via XX Luglio address, the 2001 bistecca funeral against contemporaneous April 2001 news coverage — which supports the procession, band, coffined T-bone and crowd, but not the open-casket and raw-slab details of later retellings — the EU (not Italian) origin of the ban that provoked it, the Buford subtitle, and the Chef's Table attribution to Volume 6 Episode 2 (22 February 2019) against three independent listings — correcting a widely repeated Season 2 error; Officina's €50 price, wine-and-water inclusion, no-corkage BYO policy, single-seating communal format and stated seating times from the official site; Solociccia's lunch-only nose-to-tail format and Michelin Plate listing; the Catalonia sourcing, which Cecchini states publicly. Solociccia's €50 price, its single daily seating and Dario DOC's no-booking street-food format come from the official site, which outranks the stale aggregator listings that still show €40. Explicitly unresolved and printed as such: **Officina's operating days** (official site's daily schedule versus secondary listings' Tue/Fri/Sat-plus-Sunday-lunch), any deposit or cancellation terms (none found), Dario DOC's prices and reservation policy, the Florence–Panzano bus fare, and the **last evening 365 departure** — the one that decides whether a bus-based dinner is possible at all. For Vino al Vino: the 2025 edition's confirmed 19–21 September dates, the €30 glass and 2025 opening hours, the union's 1995 founding, 23 members, 80-plus labels and its grapes-winemaking-and-bottling-in-Panzano rule; the 2026 dates rest on secondary sources with **no first-party confirmation found**, and the duration conflicts between sources, so we flag rather than assert. Village facts (UGA status and hectares, the 2012 bio-district, the ~90% organic figure, San Leolino's 982 documentation, twelfth-century Romanesque rebuild and by-request access, the Sunday market) come from producer-union, heritage and municipal-adjacent sources. The organic share is given as the 90–95% span its two primary-tier sources publish rather than averaged. Prices, dates and opening arrangements change: confirm with the businesses and the growers' union before travelling. We have no affiliate relationship with any restaurant, winery, producers' union or event named here; no booking on this page pays us anything, and the verdict above is editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Panzano is a lesson in what a thousand people can do with one hillside. They made a wine subzone the denomination had to recognise, farmed nine-tenths of it organically, built their own growers' union before anyone else in Chianti thought of it, and threw a festival where the person pouring your glass is the person who grew it. And in the middle of all that stands a butcher who buried a steak in 2001 to make a point and has been quoting Dante over the counter ever since.
+
+Come for a lunch, stay for a hillside. Book Cecchini knowing exactly what it is — fixed, communal, theatrical, Catalan-sourced and, for the right diner, wonderful — and time the trip for the third weekend of September if you want the growers' own wine in your hand while you decide. Just confirm the dates, the days and the last bus first: Panzano rewards the traveller who checks.`,
+      },
+    ],
+    [
+      { q: 'Is Dario Cecchini worth it?', a: 'Yes, if you want a fixed-price communal beef feast as an event — €50 at Officina della Bistecca covers a multi-course meal with water and table wine, and you may bring your own bottle with no corkage. No, if you want quiet, choice or gourmet pacing: you eat elbow to elbow from one menu, and a recurring criticism calls it theatre over gastronomy. Know too that the beef is Catalan, not Chianina.' },
+      { q: 'How much does Dario Cecchini cost?', a: 'Officina della Bistecca is €50 per person, fixed, including water and table wine. Solociccia is also €50 per person per the official site, so it is no longer the cheaper option, whatever older €40 listings say. Dario DOC is the casual daytime choice; we found no reliably dated prices for it, so confirm on arrival.' },
+      { q: 'Do you need to book Dario Cecchini in advance?', a: 'Yes for the communal restaurants — booking runs by email or phone, taken daily between 09:00 and 16:00, with allergies declared at booking. No deposit or cancellation policy was published at our check, so ask. Crucially, sources conflict on which days Officina runs, so confirm your date directly before booking travel around it.' },
+      { q: 'Is Dario Cecchini’s beef Chianina?', a: 'No. For more than thirty years the beef has come from the Viñals family, butchers in Mataró in Catalonia, from free-range herds raised in the Catalan Pyrenees to Cecchini’s specification; he states openly that it offers better marbling and tenderness than the Chianina available to him. It is a deliberate choice by a career butcher — but not what most visitors assume they are ordering in Chianti.' },
+      { q: 'When is Vino al Vino in Panzano in 2026?', a: 'Reported as 18–20 September 2026, matching 2025’s confirmed 19–21 September edition (though the union’s ‘third weekend’ rule of thumb bent in 2024, when it ran 13–15 September) — but we found no first-party announcement from the Unione Viticoltori di Panzano at our check, and sources disagree on the duration. Treat the dates as likely and confirm with the growers’ union before booking.' },
+      { q: 'How does Vino al Vino work — is there a ticket?', a: 'You buy a tasting glass with a shoulder holder rather than a ticket, and the glass admits you to every producer’s stand. In 2025 it cost €30, with a 10% discount for pre-purchase through the union’s online shop. 2025 hours ran Friday 11:00–19:30, Saturday 11:00–20:00 and Sunday 11:00–19:00; 2026 hours were not published at our check.' },
+      { q: 'How do you get to Panzano in Chianti without a car?', a: 'Autolinee Toscane line 365 from Florence, about an hour, stopping at Panzano P.za Campana. Lunch works comfortably by bus; dinner probably does not — we could not confirm the last evening departure back to Florence, and Officina’s dinner service starts at 20:00. Check the timetable, or plan a car, taxi or overnight stay.' },
+      { q: 'What is the Conca d’Oro in Panzano?', a: 'The south-facing natural amphitheatre of vineyard hillside below the village, dropping toward the Pesa valley — named for the grain once grown between the vine rows, which turned the basin gold. It underpins Panzano’s status as one of Chianti Classico’s eleven named subzones, with 90–95% of its vineyards farmed organically depending on whether you take the growers’ union’s figure or the Chianti Classico consortium’s.' },
+    ],
+    '2026-08-30',
+    {
+      seoTitle: 'Is Dario Cecchini Worth It? Panzano, Prices & Vino al Vino 2026',
+      primaryKeyword: 'dario cecchini panzano worth it',
+      secondaryKeywords: [
+        'dario cecchini prices booking',
+        'officina della bistecca price',
+        'vino al vino panzano 2026',
+        'panzano in chianti what to do',
+        'solociccia panzano',
+        'panzano chianti classico conca d oro',
+      ],
+      imageAlt: 'The Chianti wine road through vineyards near Panzano in Chianti',
+      canonicalPath: '/blog/panzano-in-chianti-cecchini-vino-al-vino',
+      tags: ['panzano in chianti', 'dario cecchini', 'vino al vino', 'chianti classico', 'tuscany food', 'wine festivals'],
+    }
+  ),
+
+  A(
+    'via-francigena-which-section-to-walk',
+    'Which Section of the Via Francigena Should You Walk? Tuscany, Stage by Stage',
+    'Things to do',
+    'Tuscany',
+    'Which Via Francigena section to walk in Tuscany — every stage compared by distance, difficulty and water, plus the new 2026 section certificates.',
+    '/images/tuscany/tuscany-hidden-gems-monteriggioni.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Search "best section of the Via Francigena" and you will find tour operators selling packages, not answers. Here is the answer, free.
+
+**If you have a week: walk Lucca to Siena.** It is **133 kilometres over six official stages**, it threads Lucca, San Miniato, Gambassi Terme, San Gimignano, Monteriggioni and Siena, and — this is new — operators have sold it as a "7 nights, 133 km" package for years — and since **May 2026 it is also an officially recognised section with its own certificate**. Either way, they are all selling the same six stages you can walk independently.
+
+**If you have one day: Monteriggioni to Siena**, the classic finish, which [has its own guide on this site](/blog/via-francigena-day-walk-siena/). **If you have one day and want the prettiest three hours**: Gambassi Terme to San Gimignano, 13.4 km, easy, arriving at the towers on foot.
+
+**If you want the Rome certificate**, none of the Tuscan stages will earn it: the Testimonium in Rome still requires **the last 100 km on foot**, which means starting at Viterbo in Lazio.
+
+**And the honest warnings, in one place**: the Monteriggioni–Siena stage is short and easy but has **almost no water or food en route**; the San Gimignano–Monteriggioni stage is **31 km** and defeats people who read "one day"; the hardest Tuscan stage is San Quirico d'Orcia to Radicofani, which ends with roughly **12 km of sustained exposed climb**; and Tuscan clay after rain is its own hazard. Walk **April–May or September–October**, never July or August.`,
+      },
+      {
+        id: 'the-2026-change',
+        heading: 'The 2026 change that reshapes how you plan',
+        body: `For most of its modern life the Via Francigena had one reward at the end: the **Testimonium** collected in Rome, earned by walking the final 100 kilometres. That structure served the through-hiker and nobody else — which is to say, it served almost none of us.
+
+In **May 2026 the European Association of the Via Francigena Ways (AEVF) restructured the Italian route into seven sections**, each walkable in roughly **five to eight days**, and each with **its own issuing point for the *Testimonium laico* — the lay pilgrim certificate, now awarded per section as well as in Rome**: Ivrea, Pavia, Fidenza, **Lucca**, **Siena**, Viterbo and Rome. (Coverage of the announcement disagreed on whether that meant six new points or seven — the likeliest reading is six new cities plus Rome, which already issued the original certificate.)
+
+Three details make this genuinely useful rather than administrative. The section Testimonium is **free**, can be walked **in either direction**, and does **not have to be completed within a single calendar year** — so stages accumulated across several holidays still count. Completion is verified through stamps on the **official AEVF credential**; other credentials are not accepted. For a traveller with a week rather than a season, the Francigena just became a route you can finish something on.
+
+The seven sections and their official lengths, as published: Gran San Bernardo–Ivrea (7 stages, 110 km); Ivrea–Pavia (7, 141); Pavia–Fidenza (5, 119); Fidenza–Lucca (8, 211); **Lucca–Siena (6, 133)**; Siena–Viterbo (7, 161); and Viterbo–Rome (5, 108). The two that matter for a Tuscan trip are the fifth and sixth — and the fifth is the one to walk first.`,
+      },
+      {
+        id: 'tuscany-overview',
+        heading: 'The Tuscan route in one picture',
+        body: `Tuscany carries the longest and best-waymarked stretch of the Italian Francigena: officially **380 kilometres across 39 municipalities in 15 stages**, from the **Passo della Cisa** in the northern Apennines down to **Radicofani** on the Lazio border, opened by the region as a "Grande Itinerario Culturale". (The Regione Toscana framing is 380 km, 39 municipalities and 15 stages ending at Radicofani; counts that run on to Acquapendente reach 16 stages and 38 municipalities, and one 2014 report gave 385 km. The differences are about where the regional boundary is drawn, not about the road itself.) In the AEVF's national numbering these are **legs 22 to 36**.
+
+The shape of it, north to south: the **Lunigiana** mountains and Pontremoli; the coastal plain past Massa and Camaiore; **Lucca**, the first great pilgrim city; the flatter Valdinievole and Altopascio; **San Miniato** on its ridge; then the classic Tuscan sequence — **Gambassi Terme, San Gimignano, Monteriggioni, Siena** — before the road turns south through the **Val d'Arbia** and **Val d'Orcia** to San Quirico and the climb to Radicofani.
+
+Almost everything sold commercially, and almost everything worth walking on a first visit, sits in the middle third of that list. The stages below are the ones you will actually choose between.`,
+      },
+      {
+        id: 'stage-by-stage',
+        heading: 'The stages that matter, compared',
+        body: `**Gambassi Terme → San Gimignano (Leg 31) — the prettiest short day.** **13.4 km, about 3 hours, rated easy**, with 344 m of altitude change and a surface breakdown of roughly 40% paved road, 54% dirt road and track, 6% rougher path. It rolls through vineyards and past country churches, and it ends with the towers of San Gimignano rising ahead of you for the last hour — the single best arrival-on-foot in Tuscany after Siena itself. Trailhead access without a car is the catch: the nearest stations are **Certaldo and Castelfiorentino**, each about 10 km away on the Florence–Siena line, with local bus links into Gambassi.
+
+**San Gimignano → Monteriggioni (Leg 32) — the marquee stage, and a trap.** **31 km, about 7 hours**, one of the longest legs on the entire Canterbury–Rome route, and described by the regional tourism board as one of its most beautiful. Walkers' GPS traces broadly agree at just over 30 km. Do not attempt it as a casual day out: it is a full walking day with a heat problem in summer and a mud problem in spring. There is an official **Colle Val d'Elsa variant** that splits it sensibly into two days, with **Abbadia a Isola** — the old abbey on the plain below Monteriggioni — as the classic final approach.
+
+**Monteriggioni → Siena (Leg 33) — the famous finish.** Officially **18 km and about 6 hours**; walkers' GPS traces run **20.5–21 km**, and the honest planning figure is "around twenty kilometres, five to six hours". It runs on the **strade bianche of the Montagnola Senese** past the abandoned medieval village of **Cerbaia** and the castles of **Chiocciola** and **Villa**, drops to **Pian del Lago**, and enters Siena through the Renai woods. **Its defining problem is supplies, not difficulty**: the stage is easy underfoot but has an almost total absence of water and refreshment points — the **La Villa** rest point is one of very few — so carry everything. [Our dedicated day-walk guide covers this stage in full](/blog/via-francigena-day-walk-siena/), including the bus out and the arrival into the city.
+
+**Siena → Ponte d'Arbia (Leg 34) — the quiet one.** **26 km** on the unpaved roads of the **Val d'Arbia**, big-sky farmland walking with fewer walkers and fewer distractions. The stage where the route stops being a sightseeing corridor and starts being a pilgrimage.
+
+**Ponte d'Arbia → San Quirico d'Orcia (Leg 35) — the Val d'Orcia entrance.** **26.25 km, about 6 hours**, delivering you into the postcard valley on foot, which is a very different experience from [driving its viewpoints](/blog/val-dorcia-day-trip-from-siena-2026/).
+
+**San Quirico d'Orcia → Radicofani (Leg 36) — the hardest stage in this comparison.** **33 km and roughly 7¼ hours**, officially rated *impegnativa* with around 900 m of ascent, finishing with a long, exposed gravel climb from the abandoned hospice of **Le Briccole** up to Radicofani at 790 m. Reserve it for fit walkers in good conditions, and never in high summer. (Beyond it, Leg 37 to Acquapendente opens with an 8 km ridge descent and leaves Tuscany at Ponte a Rigo.)`,
+      },
+      {
+        id: 'choose-by-time',
+        heading: 'Choosing by how much time you have',
+        body: `**One day, easy** → **Gambassi Terme to San Gimignano**. Three hours, gentle, and it ends in one of Tuscany's great townscapes. Best half-day introduction to the route there is.
+
+**One day, classic** → **Monteriggioni to Siena**. Around twenty kilometres, out by bus on the morning [130 or 131](/blog/tuscany-without-a-car-2026/) to the Colonna di Monteriggioni stop, then walk home into the city. Carry water; there is next to none. [Full guide here](/blog/via-francigena-day-walk-siena/).
+
+**A long weekend (2–3 days)** → **San Gimignano → Colle Val d'Elsa → Monteriggioni → Siena.** Splitting Leg 32 at Colle makes this humane, and it strings together three of Tuscany's most photogenic arrivals in a row. This is the single best short-break itinerary on the Tuscan Francigena.
+
+**A week (6 days walking)** → **the full Lucca–Siena section, 133 km.** Lucca's walls to Siena's Campo, ending with a section certificate under the new 2026 scheme. Every operator's flagship product; entirely walkable independently with the official app and booked accommodation.
+
+**Two weeks** → Lucca to **Radicofani**, adding the Val d'Arbia and Val d'Orcia stages and finishing on the route's hardest climb — or continuing into Lazio.
+
+**Chasing the Rome Testimonium** → none of the above qualifies. The Rome certificate requires **the last 100 km on foot** (200 km by bicycle), verified by credential stamps, which conventionally means starting at **Viterbo** — 108 km out on AEVF's own section data, and sold by operators as a 112 km walked itinerary. Walk Tuscany for Tuscany; walk Lazio for the certificate — or now, walk Tuscany for the **section** certificate at Lucca or Siena.`,
+      },
+      {
+        id: 'credentials',
+        heading: 'Credentials, stamps and certificates',
+        body: `**The credenziale** — the pilgrim passport you collect stamps in — has a recommended price of about **€8**, sold through the official viefrancigene.org store (with shipping added) or picked up at distribution points along the way. In **Siena** it is issued at the **Santa Maria della Scala bookshop** (Palazzo Squarcialupi entrance, Piazza Duomo 1, daily 10:30–18:30), with a second outlet at the **Libreria Catechistica**, Via dei Fusari 46 — fittingly, since the complex was medieval Europe's largest pilgrim hospital and the traditional end of the Tuscan road.
+
+Beyond sentiment, the credential carries published transport concessions — 10% off regional tickets with Trenitalia and Trenord, and 10% across FlixBus's European network — alongside access to pilgrim hospitality and discounts with affiliated businesses, which vary by provider.
+
+**The certificates**, restated clearly because the change is recent: the **Testimonium** in Rome requires the final 100 km on foot and is collected at a pilgrims' reception point at St Peter's. The **section certificates** introduced in May 2026 are earned by completing one of the seven Italian sections — for Tuscan walkers, **Lucca–Siena** (issued in Siena) or the Fidenza–Lucca section before it — reported as free, walkable in either direction, and accumulable across more than one year.
+
+For navigation, the **official Via Francigena app** published by AEVF is free, covers the whole Canterbury–Rome route with downloadable offline maps and geolocated stage data, and is the standard planning tool — better, for route-finding, than any operator's printed pack. On the ground, the waymark is a **white pilgrim on a red ground**, appearing as signposts, small concrete milestones and stickers alongside red-and-white CAI-style flashes; a white arrow with a yellow pilgrim marks a variant rather than the main line.`,
+      },
+      {
+        id: 'when-and-how',
+        heading: 'When to walk, and the two hazards nobody sells you',
+        body: `**Walk April–May or September–October.** Daytime temperatures in the mid-teens to low twenties, long enough days, and the countryside at its best in both directions — the spring green or [the harvest gold](/blog/tuscany-wine-harvest-vendemmia-2026/). **July and August are widely advised against**, and the reason is not comfort but water: several Tuscan stages have almost no refreshment points, and the [Tuscan summer](/blog/tuscany-in-august-2026/) is not a place to discover that at kilometre fifteen. Winter brings mud and short days.
+
+**Hazard one: the clay.** Tuscan soil after rain is a specific, named problem — a heavy clay that accumulates underfoot until every step carries kilos, and turns descents genuinely slippery. Spring rain in the northern stages is the classic trigger. Poles help; so does checking the forecast and swapping a muddy stage for a rest day.
+
+**Hazard two: the return leg.** Public transport parallel to the route thins dramatically as you go south. The Monteriggioni–Siena day walk is easy to reverse by bus; **San Quirico back to Siena is roughly an hour by bus but on a thin timetable**, and the further south you go the more a walking plan becomes a bus-timetable plan — [the standing rule from our car-free guide](/blog/tuscany-without-a-car-2026/) applies with force here. Check returns before you choose a stage, not after.
+
+Two more practicalities worth stating: book accommodation ahead in the small towns during the shoulder seasons, when both pilgrims and ordinary tourists compete for the same handful of beds; and [dress for a month that changes twice a day](/blog/what-to-wear-in-tuscany-in-september) if you are walking in September, with a genuine waterproof rather than a fashion layer.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research (direct page fetches are blocked in our environment, so everything below rests on search-surfaced material rather than pages we opened ourselves). Verified against regional and AEVF-sourced material: the Tuscan route's 380 km / 39 municipalities / 15 stages framing from Passo della Cisa to Radicofani, with the competing 16-stage and 385 km figures noted as boundary differences rather than resolved; the AEVF national leg numbering 22–36; the May 2026 restructuring into seven Italian Testimonium laico sections issuing at Ivrea, Pavia, Fidenza, Lucca, Siena, Viterbo and Rome, including the published free, either-direction, multi-year and AEVF-credential terms — with the six-versus-seven-new-points discrepancy in the coverage flagged rather than smoothed; the seven sections' stage counts and distances, including Lucca–Siena at 6 stages / 133 km; the Rome Testimonium's 100 km on foot (200 km cycling) rule and the Viterbo convention; the credenziale's ~€8 recommended price, its two Siena outlets and the published Trenitalia, Trenord and FlixBus concessions. Stage data: Leg 31's 13.4 km / 3 hours / surface split; Leg 32's 31 km / 7 hours with the Colle Val d'Elsa variant; **Leg 33's genuine distance conflict — 18 km officially against 20.5–21 km on walkers' GPS traces — which we print as a range rather than choosing a side**; Legs 34–36's distances and times, including Radicofani's final sustained climb. Seasonal advice, clay-mud reports and waymarking descriptions come from consistent walker accounts and route documentation. Transport frequencies south of Siena are described as thin on the strength of secondary reports and should be confirmed on the at-bus.it planner for your date. Stage distances are measured differently by different sources; treat every figure here as planning guidance and navigate with the official app. We have no affiliate relationship with any tour operator, accommodation or transport provider named here; no package is recommended and nothing on this page pays us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `The Via Francigena's problem in English has never been information — it has been that the information belongs to people selling seven-night packages. The road itself is free, waymarked with a white pilgrim on red, mapped in a free official app, and open to anyone with a pair of broken-in shoes and a plan for water.
+
+Start with three hours from Gambassi Terme to San Gimignano, or twenty kilometres from Monteriggioni into Siena, and see whether the arrival-on-foot does to you what it has done to travellers for a thousand years. If it does, the six stages from Lucca to Siena are waiting — and, since May 2026, so is a certificate at the end of them that you no longer have to walk to Rome to earn.`,
+      },
+    ],
+    [
+      { q: 'Which section of the Via Francigena is best to walk?', a: 'For a week, Lucca to Siena — 133 km over six official stages through San Miniato, Gambassi Terme, San Gimignano and Monteriggioni, and since May 2026 a formally recognised section with its own certificate. For a single day, Monteriggioni to Siena (the classic finish) or Gambassi Terme to San Gimignano (13.4 km, easy, the prettiest short stage).' },
+      { q: 'How long is the Via Francigena in Tuscany?', a: 'Officially about 380 km across 39 municipalities in 15 stages, running from the Passo della Cisa in the northern Apennines to Radicofani near the Lazio border. Counts that continue to Acquapendente give 16 stages — the difference is where the regional boundary is drawn, not a dispute about the route.' },
+      { q: 'Can you get a Via Francigena certificate without walking to Rome?', a: 'Yes, since May 2026. AEVF divided the Italian route into seven sections of roughly five to eight days, each issuing the Testimonium laico — Lucca and Siena among them. It is free, earnable in either direction, and need not be completed within one calendar year, with completion verified by stamps on the official AEVF credential. The Rome Testimonium still requires the final 100 km on foot.' },
+      { q: 'How hard is the Monteriggioni to Siena walk?', a: 'Easy underfoot but poorly supplied. Official data says 18 km and about 6 hours; walkers’ GPS traces run 20.5–21 km, so plan for roughly twenty kilometres in five to six hours. The real difficulty is the near-total absence of water and food en route — carry everything you will need.' },
+      { q: 'When is the best time to walk the Via Francigena in Tuscany?', a: 'April–May or September–October, with daytime temperatures typically in the mid-teens to low twenties. July and August are widely advised against — several stages have almost no water points and Tuscan summer heat is unforgiving. Winter brings short days and heavy clay mud, which is a real hazard on descents after rain.' },
+      { q: 'Do you need a pilgrim credential for the Via Francigena?', a: 'You need it to collect stamps and claim any certificate, and it opens pilgrim hospitality and some discounts. The recommended price is about €8 through the official viefrancigene.org store or at distribution points; in Siena it is issued at the Santa Maria della Scala bookshop on Piazza Duomo — the medieval pilgrim hospital itself.' },
+      { q: 'How do you get back after walking a Via Francigena stage?', a: 'Plan it before you choose the stage. Monteriggioni–Siena reverses easily by bus on the 130 or 131 lines to the Colonna di Monteriggioni stop. Further south the network thins sharply — San Quirico d’Orcia back to Siena runs roughly an hour on a sparse timetable — so check the at-bus.it planner for your date rather than assuming a return exists.' },
+    ],
+    '2026-08-31',
+    {
+      seoTitle: 'Which Via Francigena Section to Walk? Tuscany Stages Compared 2026',
+      primaryKeyword: 'via francigena best section',
+      secondaryKeywords: [
+        'via francigena lucca to siena',
+        'via francigena which stage to walk',
+        'san gimignano to monteriggioni via francigena',
+        'via francigena testimonium requirements',
+        'via francigena tuscany stages distance',
+        'via francigena section certificate 2026',
+      ],
+      imageAlt: 'The walled village of Monteriggioni, a landmark stage-end on the Tuscan Via Francigena',
+      canonicalPath: '/blog/via-francigena-which-section-to-walk',
+      tags: ['via francigena', 'walking in tuscany', 'pilgrim routes', 'hiking italy', 'slow travel'],
+    }
+  ),
+
+  A(
+    'uffizi-tickets-sold-out-what-to-do',
+    'Uffizi Tickets Sold Out? What Actually Works, and What Wastes Your Money',
+    'Practical tips',
+    'Florence',
+    'Uffizi sold out for your dates? The honest options — the same-day afternoon ticket, the phone line, real Plan B museums — and the traps to avoid.',
+    '/images/florence/uffizi-early-morning-july-2026.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `The official site shows nothing for your dates and every blog says "book in advance", which is useless advice to someone standing in Florence tomorrow. Here is what actually works, in order.
+
+**First, check you are on the right site.** The Uffizi changed ticketing concessionaire on **13 October 2025** — CoopCulture took over, and the official booking address is now **tickets.uffizi.it**. Older guides still point at the previous platform. (Confusingly, the Accademia and San Marco remained on the old one, so a mismatch is not proof you are being scammed — but for the Uffizi, use uffizi.it and tickets.uffizi.it and nothing else.)
+
+**Second, the counterintuitive fact that solves most cases: at the Uffizi, buying on the day is cheaper than booking ahead.** The official fare structure prices advance purchase *higher*. The standard adult ticket is **€25 at the ticket office on the day** in high season, and — the single most useful number in this article — an **"Afternoon" ticket for entry from 16:00 costs €16 on the day against €20 in advance**, introduced on 1 January 2026. If the online calendar is empty, **the same-day fare is not a queueing penalty — it is simply the cheap fare, and same-day tickets can be bought online at tickets.uffizi.it as well as at the window**, so you may not need the queue at all.
+
+**Third, phone them.** The call centre (800 615615 in Italy, +39 055 0354135 from abroad, 08:00–19:00 daily) sometimes places what the website will not show you.
+
+**And the thing to stop hoping for**: Uffizi tickets are **non-refundable and non-changeable**, so almost nothing returns to inventory. Refreshing for cancellations is a poor use of a holiday.
+
+The rest of this guide covers the walk-up reality, the legitimate paid routes in, the resale trap, and the Plan B museums that are genuinely open when the Uffizi is not.`,
+      },
+      {
+        id: 'why-sold-out',
+        heading: 'Why it sells out — and why waiting for cancellations fails',
+        body: `Two structural facts explain the wall you have hit, and neither is bad luck.
+
+**Tickets are nominative.** Every Uffizi Galleries entrance ticket is personalised: you supply identification details at purchase, and **if the name on the ticket does not match your ID, entry is refused**. That kills the informal resale market that softens sell-outs at other attractions — you cannot buy a stranger's spare.
+
+**Tickets are non-refundable and cannot be changed once purchased.** Combine those two and the consequence is stark: a buyer whose plans change has **no incentive to release the slot**, because releasing it returns nothing. This is why the common advice to "keep refreshing for cancellations" underperforms at the Uffizi specifically. Some inventory does move, but the pool is far smaller than at museums with flexible tickets, and a holiday spent refreshing is a holiday spent refreshing.
+
+For completeness on the release cycle: tickets are reported to open roughly **two months ahead on a rolling basis** — one account cites bookings for April–December 2026 opening on 2 February 2026 — and multiple sources now carry both the rolling pattern and that date, so treat it as the museum's deliberate distribution policy — the 2027 release calendar was not published at our check. Purchase limits are firmer: **a maximum of 10 tickets per account per day**, and five for the Vasari Corridor.`,
+      },
+      {
+        id: 'same-day',
+        heading: 'The same-day route, properly explained',
+        body: `The Uffizi is open **Tuesday to Sunday, 08:15–18:30**, closed every **Monday**, plus 1 January, 1 May and 25 December — though Monday closure has occasional announced holiday exceptions, so a Monday date is worth checking rather than assuming. The ticket office closes at **17:30**, and at 18:30 visitors are moved toward the exit.
+
+**Walk-up same-day entry normally exists.** That is the fact most "sold out" panic overlooks: the online allocation and the door are not the same inventory. Two caveats before you build a morning around it. First, it is **not guaranteed** — the museum can suspend walk-ups at short notice, and it did exactly that from **24 to 28 June 2026**, when an air-conditioning failure during the heatwave pushed gallery temperatures toward 28°C, forced capacity to 50% and suspended new ticket sales; normal sales resumed on 30 June. Check the official site's notices the night before. Second, you are queueing, and the queue is worst in the middle of the day.
+
+**Play the pricing.** Because same-day is cheaper than advance at this museum, the same-day plan is not a compromise:
+
+- **Standard, same-day: €25.** Booked in advance the same ticket is **€29** — the €4 is a per-ticket booking fee, the same €4 that separates the €16 and €20 afternoon fares.
+- **Afternoon ticket, entry from 16:00: €16 on the day** — against €20 booked ahead. Introduced 1 January 2026, and the cheapest legitimate way in during high season.
+- **Low season is cheaper still**: Italian regional reporting puts the Uffizi and Pitti at **€12 from 1 November to 28 February** — a full day for less than the afternoon ticket. Sources differ on the exact seasonal boundaries, so check the fares page for your date.
+
+**Time it deliberately.** Availability and crowding are reported to be lowest **November to March**, on **Wednesdays and Thursdays**, in the **first ninety minutes after the 08:15 opening**, and again from **16:00 to last entry at 17:30** — with **Tuesday unusually busy** because it absorbs the Monday-closure spillover. The 16:00-onward window is doubly attractive: it is both the quietest stretch and the cheap ticket. Two and a half hours is enough for the Botticellis, the Leonardos, the Caravaggios and the corridor views if you walk with intent.
+
+**Free first Sundays** are the exception that helps least: admission is free on the first Sunday of the month under the national #Domenicalmuseo scheme, and on those days **general visitors cannot book** — the free ticket is issued at the entrance on arrival. Free means crowded; go early or treat that Sunday as a Plan B day.`,
+      },
+      {
+        id: 'legit-routes',
+        heading: 'The paid routes that actually get you in',
+        body: `When the calendar is empty and you need certainty rather than a queue, three routes are legitimate.
+
+**The call centre.** Reservations can be made by phone on **800 615615** (freephone within Italy) or **+39 055 0354135** from abroad, **08:00–19:00 daily**. This is the most underused option in Florence: phone inventory and web inventory are not always identical, and a two-minute call has rescued more visits than any refresh loop.
+
+**A guided tour.** Tour operators hold **ticket allocations that never enter the public online inventory**, which is precisely why a tour can show availability on a date the official site cannot. That is not a trick; it is how museum allotments work. The corollary is worth knowing too: when an operator's own allotment sells out, they are as stuck as you are. You will pay for the guide on top of admission — the honest trade is money and a fixed group pace in exchange for a guaranteed entry on a date that otherwise has none.
+
+**A combined or multi-site ticket.** The **Uffizi + Pitti Palace + Boboli Gardens** ticket is valid **5 consecutive days with one priority admission to each**, at **€40** (€58 with the Vasari Corridor supplement). Its value here is the flexibility: five days is a wide net when a single date is impossible. The **Firenze Card** (€85, 72 hours, 60-plus museums, booking costs included, under-18s free within the cardholder's family) is worth the arithmetic only if you are museum-intensive across three days — for a single Uffizi rescue it is expensive.
+
+**And the Vasari Corridor**, reopened on **21 December 2024** after eight years and a refurbishment reported at around €11 million, is a genuine alternative experience above the Ponte Vecchio: **€43 with Uffizi entry bought on the day, €47 in advance**, or a **€20 supplement** for existing Uffizi ticket or Passepartout holders. Arrive **five minutes before your slot or forfeit entry**; tickets are personalised and capped at five per purchase. Note for anyone reading this in the publication window: an evening opening runs **every Friday from 3 July to 20 November 2026, 19:00–23:00 with last admission 21:50**, on a separate *Vasari Corridor – Special Openings* ticket at **€20 on the day / €24 in advance**, booking compulsory and groups capped at 25 — a live availability window worth checking when the daytime museum is full.`,
+      },
+      {
+        id: 'the-trap',
+        heading: 'The trap: lookalike resellers',
+        body: `Search "Uffizi tickets" under time pressure and the first results will include official-sounding domains that are not the museum. Travellers report paying **close to double** after booking through them, and the sites are engineered to look institutional.
+
+**The rule is simple: the official addresses are uffizi.it for information, tickets.uffizi.it for booking, and coopculture.it — the concessionaire's own site, which sells the same tickets at the same fares.** Anything else is either a licensed tour operator selling a genuine product with a service fee — legitimate, if you know that is what you are buying — or a markup for nothing.
+
+Two clarifications that keep honest people out of trouble. **A booking fee is not automatically a scam**: official online purchases carry service fees, and tour operators legitimately price their allocation plus guiding. What you are checking for is proportion and transparency — a site that hides the face value or charges a multiple of it. And **a third-party platform showing availability when the official site shows none is not proof of fraud** either; that is the allotment mechanism described above. Judge by price and disclosure, not by the mere existence of stock.
+
+One more mismatch that panics people unnecessarily: as noted at the top, the **Accademia and San Marco still sit on the previous ticketing platform** while the Uffizi moved to CoopCulture in October 2025. Encountering two different official-looking systems for two Florentine museums is expected, not evidence of a fake.`,
+      },
+      {
+        id: 'plan-b',
+        heading: 'Plan B: the museums that are genuinely open',
+        body: `If the Uffizi truly cannot happen on your dates, Florence is not short of alternatives — but the quality of the alternatives varies enormously, and the usual listicle ranks them wrongly.
+
+**The Bargello is the strongest same-day Plan B.** Sculpture rather than painting — Donatello, Michelangelo, the Ghiberti competition panels — in a magnificent medieval palace, on the unified **Tuesday–Sunday 08:15–18:50** schedule — and through November 2026 both run a programme of special and evening openings, some on normally closed days, so check their calendar before writing off a date. Since **15 March 2026** the Accademia and the Bargello museums operate as a single institution across seven sites, with combined tickets at **€26 valid 48 hours** (Accademia plus Bargello) and **€38 valid 72 hours** for the wider circuit, each plus the €4 booking fee. **The Bargello alone is €12** since 1 February 2026 — the cheaper move if David is not on your list. The Bargello rarely sells out in the way the headline museums do.
+
+**Pitti Palace + Boboli Gardens is the most reliable large-scale substitute**: a combined one-day ticket at **€22 on the day, €25 in advance**, covering the Pitti museums, Boboli and the Bardini Garden. It is a half-day minimum and a full day if the gardens catch you — and, like the Uffizi, it is cheaper bought on the day.
+
+**The Accademia is a weak rescue**, despite being everyone's first suggestion. It sells out on the same pattern as the Uffizi, and its full price rose from €16 to **€20 on 1 February 2026** plus a €4 reservation fee. If David is the goal, treat it as a second booking problem, not a solution to the first.
+
+**The Duomo complex** is a different kind of day entirely, sold on passes: **Brunelleschi Pass €30 full / €12 reduced** (timed Dome climb, Baptistery, Campanile, Santa Reparata crypt and the Opera del Duomo Museum, valid 3 days) or **Giotto Pass €20 / €7** for everything except the Dome. Note that **since 1 March 2025 an identity document must be presented with the ticket for the Dome climb**.
+
+**Palazzo Vecchio** covers the civic-power half of Florence's story; the Comune di Firenze's tariff revision took it to **€18 full (€12 reduced for 18–25s) on 1 February 2026**. **San Marco**, for Fra Angelico's cells, is **€11 full (€2 for EU 18–25s) since 26 September 2025**, per the regional museums directorate — and has had refurbishment closures, so check before crossing town for it.
+
+**And the option nobody suggests**: [Florence's churches](/blog/florence-tourist-rules-2026/) hold a museum's worth of art for less than a gallery ticket — though most are not free. **Santa Croce is €10** and the **Brancacci Chapel €15** (€10 for 18–25s), while Santa Maria Novella and the cathedral's own nave cost less or nothing. A sold-out Uffizi is a good day to discover that the Renaissance did not confine itself to one building.`,
+      },
+      {
+        id: 'plan-the-trip',
+        heading: 'Planning so this never happens again',
+        body: `Three habits prevent the sold-out morning entirely.
+
+**Book at the release, not at the trip.** The rolling window is reported at roughly two months ahead; the practical rule is to secure the Uffizi the moment your dates are fixed, and — because same-day is cheaper here — to decide consciously whether you are paying the advance premium for certainty or backing yourself to walk up.
+
+**Aim at the quiet seams.** November to March, midweek, first thing or after 16:00. A Florence trip built around those windows barely encounters the problem this article solves.
+
+**Or move the base.** The travellers who suffer worst from Florence's ticketing are those who gave the city a single, immovable day. Staying in Siena and [treating Florence as a day trip on the 131R](/blog/tuscany-without-a-car-2026/) sounds like it would make booking harder; in practice it makes the calendar flexible, because [a Siena base has other days to spend](/blog/siena-day-trip-or-overnight-2026/) if the museum says no. It is the same logic behind [choosing Florence or Siena as your base at all](/blog/florence-or-siena-which-to-visit-2026/) — and it is the reason a sold-out Uffizi ruins a Florence-only itinerary and merely reshuffles a Tuscan one.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research (direct page fetches are blocked in our environment, so all of this rests on search-surfaced material rather than pages we opened). Verified from official and official-adjacent sources: the Uffizi's Tuesday–Sunday 08:15–18:30 opening with Monday and holiday closures and the 17:30 ticket-office cut-off; the **13 October 2025 transfer of ticketing to CoopCulture and the move to tickets.uffizi.it**, with the Accademia and San Marco remaining on the previous platform; the €25 same-day standard admission and the official high-season definition; the **advance-costs-more structure**, evidenced by the €43-same-day versus €47-advance Vasari Corridor pricing and the €16/€20 Afternoon ticket introduced 1 January 2026; the nominative-ticket and ID-match rules; the non-refundable, non-changeable terms and the 10-per-account daily cap; QR delivery by email since 6 May 2024; the call-centre numbers and hours; the #Domenicalmuseo free-first-Sunday arrangement and its no-booking rule; the 24 June 2026 heatwave notice suspending walk-ups; the Vasari Corridor's December 2024 reopening, pricing, five-minute rule and the Friday-only 3 July–20 November 2026 evening opening on its separate €20/€24 ticket; the €40 Uffizi–Pitti–Boboli five-day ticket and €22/€25 Pitti+Boboli; the Accademia's 1 February 2026 rise to €20 and its 15 March 2026 unification with the Bargello on €26/€38 combined tickets; the Duomo passes and the 1 March 2025 ID requirement for the Dome climb; and the €85 Firenze Card terms. Corrected against primary sources after an adversarial check: Palazzo Vecchio's €18 full / €12 reduced from 1 February 2026 per the Comune di Firenze tariff revision; San Marco's €11 since 26 September 2025 per the regional museums directorate; the €29 advance total and the two-month rolling release, both of which multiple sources carry; and the paid status of Santa Croce (€10) and the Brancacci Chapel (€15). Still flagged as unconfirmed: current Passepartout pricing, and the reported €12 low-season fare, whose seasonal boundaries sources describe differently. Museum prices and policies in Florence changed repeatedly across 2025–2026 — verify on the official channels for your dates before relying on any figure here. We have no affiliate relationship with any museum, ticketing platform or tour operator named; no booking on this page pays us, and no reseller is recommended.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `"Sold out" at the Uffizi means the online allocation for one date is gone. It does not mean the museum is closed to you, and it certainly does not mean you should pay a lookalike site double to fix a problem that a phone call, an afternoon ticket or a Wednesday would have solved for less than the original price.
+
+Try the official channels in this order — tickets.uffizi.it, the phone line, the same-day afternoon window — and if none of them yields, spend the day in the Bargello or at Pitti and come back at 16:00 tomorrow for sixteen euro. Florence has been overwhelming visitors for six centuries; it has never had only one room worth entering.`,
+      },
+    ],
+    [
+      { q: 'What do you do if Uffizi tickets are sold out?', a: 'Work the official channels in order: check tickets.uffizi.it (the official booking site since CoopCulture took over in October 2025, alongside the concessionaire’s own coopculture.it), phone the call centre on 800 615615 in Italy or +39 055 0354135 from abroad (08:00–19:00 daily), and consider walking up — same-day tickets are normally available and are cheaper than advance, with the 16:00 afternoon ticket at €16.' },
+      { q: 'Can you buy Uffizi tickets on the day?', a: 'Normally yes — walk-up same-day entry exists and the door is not the same inventory as the website. It is not guaranteed, though: the museum can suspend walk-ups at short notice, as it did in a June 2026 heatwave notice. Check the official site’s notices the night before, and go at opening or after 16:00 to avoid the worst queue.' },
+      { q: 'Is it cheaper to book Uffizi tickets in advance?', a: 'No — and this surprises almost everyone. The official structure prices advance purchase higher: the Vasari Corridor combination is €43 on the day against €47 booked ahead, and the Afternoon ticket for entry from 16:00 is €16 on the day against €20 in advance. Advance booking buys certainty, not savings.' },
+      { q: 'Do Uffizi tickets get released again if someone cancels?', a: 'Rarely. Tickets are nominative and non-refundable and cannot be changed, so a buyer whose plans change gains nothing by releasing the slot — which means very little inventory returns. Refreshing for cancellations underperforms at the Uffizi specifically; the phone line and the same-day door are better uses of your time.' },
+      { q: 'Are third-party Uffizi ticket sites legitimate?', a: 'Some are; many mark up heavily. The official addresses are uffizi.it, tickets.uffizi.it and coopculture.it, the concessionaire’s own site. Licensed tour operators genuinely hold allocations outside the public inventory — which is why they show availability when the official site does not — so availability elsewhere is not proof of fraud. Judge by price transparency: travellers report paying close to double on lookalike domains.' },
+      { q: 'What is the best alternative if the Uffizi is full?', a: 'The Bargello — Donatello, Michelangelo and the Ghiberti panels in a medieval palace, €12 alone or on €26 (48h) and €38 (72h) combined tickets since its March 2026 unification with the Accademia, and it rarely sells out. Pitti Palace plus Boboli (€22 same day) is the most reliable large substitute. The Accademia is a weak rescue: it sells out on the same pattern and rose to €20 in February 2026.' },
+      { q: 'When is the Uffizi least crowded?', a: 'November to March, on Wednesdays and Thursdays, in the first ninety minutes after the 08:15 opening or from 16:00 to the 17:30 last entry. Tuesday is unusually busy because it absorbs the Monday-closure spillover. The late-afternoon window is both the quietest and, at €16 on the day, the cheapest.' },
+    ],
+    '2026-09-01',
+    {
+      seoTitle: 'Uffizi Tickets Sold Out? The Real Options (2026 Prices & Rules)',
+      primaryKeyword: 'uffizi tickets sold out what to do',
+      secondaryKeywords: [
+        'uffizi sold out alternatives',
+        'uffizi same day tickets',
+        'uffizi afternoon ticket price',
+        'uffizi official ticket site',
+        'best alternative to uffizi florence',
+        'uffizi least crowded time',
+      ],
+      imageAlt: 'The Uffizi Gallery in early morning light before the day’s crowds arrive',
+      canonicalPath: '/blog/uffizi-tickets-sold-out-what-to-do',
+      tags: ['uffizi', 'florence museums', 'florence tickets', 'florence planning', 'practical tips'],
     }
   ),
 ];

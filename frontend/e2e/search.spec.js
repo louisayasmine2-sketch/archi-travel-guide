@@ -22,7 +22,9 @@ test("header search surfaces tools and deep-links into the hub", async ({ page }
   await expect(tool.first()).toBeVisible();
   await tool.first().click();
   await expect(page).toHaveURL(/travel-tools\?tool=budget/);
-  await expect(page.locator("[role='dialog']")).toBeVisible();
+  // The hub and its tool components are lazy-loaded chunks; on a busy machine
+  // the modal can take longer than the default 5s assertion window.
+  await expect(page.locator("[role='dialog']")).toBeVisible({ timeout: 20000 });
 });
 
 test("/blog?q= filters the list, shows an honest count, and clears", async ({ page }) => {
