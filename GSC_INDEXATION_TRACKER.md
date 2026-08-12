@@ -149,3 +149,13 @@ merender halaman 404 (HTTP 200 + noindex). Tiga link konten dibetulkan ke
 sempat muncul di GSC (soft 404 / excluded by noindex), akan bergeser ke "Page
 with redirect" lalu hilang setelah recrawl.
 
+Follow-up 2026-08-12: tiga artikel dengan link programme yang masih pending
+(florence-or-siena-which-to-visit-2026, rome-to-siena-train-bus-2026,
+siena-day-trip-or-overnight-2026) belum punya independence note yang diwajibkan
+standar editorial §2. Note ditambahkan di samping tiap link ("…earns us
+nothing; if that ever changes, this page will say so"). Flag
+`links_without_disclosure` di audit_content.py untuk tiga halaman ini sengaja
+dibiarkan menyala — itu worklist untuk memasang disclosure begitu programme
+Booking/Omio/Trainline approved, sesuai CLAUDE.md §6. Jangan ditutup dengan
+disclosure palsu.
+
