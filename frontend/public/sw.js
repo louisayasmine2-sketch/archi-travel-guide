@@ -12,7 +12,7 @@
  * Bump VERSION to invalidate old caches on deploy of a new SW.
  */
 
-const VERSION = "v2";
+const VERSION = "v3";
 const SHELL_CACHE = `archi-shell-${VERSION}`;
 const RUNTIME_CACHE = `archi-runtime-${VERSION}`;
 const SHELL_URLS = ["/", "/travel-tools"];
@@ -30,8 +30,11 @@ self.addEventListener("install", (event) => {
         const res = await fetch("/asset-manifest.json");
         if (res.ok) {
           const manifest = await res.json();
+          // Sourcemaps are ~70% of the manifest by bytes and are only ever
+          // opened by devtools — precaching them wasted ~6MB of every
+          // visitor's first-install quota.
           const files = Object.values(manifest.files || {}).filter(
-            (f) => typeof f === "string" && f.startsWith("/")
+            (f) => typeof f === "string" && f.startsWith("/") && !f.endsWith(".map")
           );
           const runtime = await caches.open(RUNTIME_CACHE);
           await Promise.all(files.map((f) => runtime.add(f).catch(() => undefined)));
@@ -56,6 +59,30 @@ self.addEventListener("activate", (event) => {
         )
       )
       .then(() => self.clients.claim())
+  );
+});
+
+// On-demand caching: the page posts {type: "CACHE_URLS", urls: [...]} (e.g.
+// when a guide is saved to My Trip) and every same-origin URL is stored in
+// the runtime cache so the guide's images work offline even if the reader
+// never scrolled them into view. Replies "done" on the provided port.
+self.addEventListener("message", (event) => {
+  const data = event.data;
+  if (!data || data.type !== "CACHE_URLS" || !Array.isArray(data.urls)) return;
+  event.waitUntil(
+    (async () => {
+      const runtime = await caches.open(RUNTIME_CACHE);
+      await Promise.all(
+        data.urls
+          .filter((u) => typeof u === "string")
+          .map((u) => {
+            const abs = new URL(u, self.location.origin);
+            if (abs.origin !== self.location.origin) return undefined;
+            return runtime.add(abs.href).catch(() => undefined);
+          })
+      );
+      if (event.ports && event.ports[0]) event.ports[0].postMessage("done");
+    })()
   );
 });
 

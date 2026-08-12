@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Bookmark, BookmarkCheck } from "lucide-react";
-import { isGuideSaved, toggleSavedGuide } from "@/lib/savedGuides";
+import { isGuideSaved, toggleSavedGuide, cacheGuideOffline } from "@/lib/savedGuides";
 import { TRIP_CHANGE_EVENT } from "@/lib/tripPlan";
 
 // "Save to My Trip" toggle shown on guide pages. Saved guides appear as a
@@ -24,7 +24,13 @@ export default function SaveGuideButton({ path, title }) {
       type="button"
       data-testid="save-guide"
       aria-pressed={saved}
-      onClick={() => setSaved(toggleSavedGuide({ path, title }))}
+      onClick={() => {
+        const nowSaved = toggleSavedGuide({ path, title });
+        setSaved(nowSaved);
+        // A saved guide should survive a dead signal in the hills: cache the
+        // page and its images while we're online (best-effort, SW only).
+        if (nowSaved) cacheGuideOffline();
+      }}
       className={[
         "inline-flex items-center gap-2 px-4 py-2 rounded-full border text-sm font-medium transition-colors",
         saved
