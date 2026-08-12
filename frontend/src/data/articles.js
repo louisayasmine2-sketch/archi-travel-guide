@@ -9349,6 +9349,138 @@ One deliberate exception to minimalism: **leave buying room**. This is the month
       tags: ['tuscany packing', 'september in tuscany', 'what to wear italy', 'travel wardrobe', 'tuscany weather'],
     }
   ),
+
+  A(
+    'panzano-in-chianti-cecchini-vino-al-vino',
+    'Panzano in Chianti: Is Dario Cecchini Worth It, and the Vino al Vino Weekend',
+    'Food & drink',
+    'Tuscany',
+    'Is Dario Cecchini worth it? The honest answer, plus Panzano’s Vino al Vino wine weekend, the Conca d’Oro and how to reach the village without a car.',
+    '/images/tuscany/chianti-wine-road-vineyard.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Panzano is a village of a thousand-odd people on the Chianti ridge road that punches so far above its weight it has two separate international reputations: **the world's most famous butcher**, and **a producers' union whose wine festival is run by the winemakers themselves**.
+
+**Is Dario Cecchini worth it?** Yes — if you understand what you are buying. His communal restaurants are a fixed-price, fixed-menu, elbow-to-elbow **performance** of Tuscan meat cookery, not a gastronomic tasting menu, and the diners who leave disappointed are almost always the ones who expected the second thing. Two facts every guide should tell you before you book and most do not: the **Officina della Bistecca costs €50 per person** including water and table wine, with your own bottle welcome at no corkage — and **the beef is not Chianina**. It comes from a family of butchers in Catalonia who have raised it to Cecchini's specification for over thirty years. He is entirely open about this; it is only a betrayal if nobody told you.
+
+**Vino al Vino** is the other reason to come: Panzano's own producers pouring in Piazza Bucciarelli, reported for **18–20 September 2026** — a date we flag as secondary-sourced, because we found no first-party announcement at our check. In 2025 the format was a **€30 tasting glass** that served as the pass to every stand.
+
+And underneath both sits the village itself: the **Conca d'Oro**, the golden south-facing amphitheatre of vineyards that made Panzano one of the eleven named subzones of Chianti Classico, farmed roughly **90 per cent organically**. Bus 365 from Florence, about an hour — with one large caveat about the evening return, below.`,
+      },
+      {
+        id: 'who-is-cecchini',
+        heading: 'Who Dario Cecchini actually is',
+        body: `Strip away the television and there is a real story here. Cecchini, born 1955, is the **eighth generation** of his family behind the counter of the **Antica Macelleria Cecchini** on Via XX Luglio — a shop whose trading history is given as reaching back to **1780**. He left veterinary studies at Pisa in 1976 to take the business over from his dying father, which is to say: he did not choose the butcher's life as a brand, he inherited it as a duty.
+
+Three things built the legend beyond Chianti. The first is **Dante** — he recites the Commedia while working, a habit long documented and not a later invention for visitors. The second is **the funeral**. In 2001, on the eve of the Italian health ministry's mad-cow-related ban on bone-in T-bone beef taking effect, Cecchini staged an open-casket public funeral for the *bistecca alla fiorentina* in Panzano: a slab of raw beef carried through a village packed with mourners. Contemporary news coverage from April 2001 confirms it happened exactly as the legend tells it. The third is the writing and the screen: Bill Buford spent months apprenticed to him for **Heat** (2006), whose subtitle names him as "a Dante-Quoting Butcher in Tuscany", and Netflix's **Chef's Table** devoted an episode to him — **Volume 6, Episode 2, released 22 February 2019** (some sources misfile it under Season 2; the sixth is correct).
+
+What this means for a visitor is worth stating plainly: you are not going to a restaurant that happens to have a famous chef. You are going to a **butcher's shop with dining rooms attached**, run by a man whose whole argument is that the animal deserves to be used completely and eaten in company.`,
+      },
+      {
+        id: 'the-three-formats',
+        heading: 'The three ways to eat there — and what they cost',
+        body: `Cecchini runs three distinct operations in the same village, and choosing between them is most of the planning.
+
+**Officina della Bistecca** — the flagship. **€50 per person**, fixed, covering the whole meal: a progression of beef courses that typically runs beef tartare (the "sushi del Chianti"), rump, the Panzanese steak and finally the bistecca alla fiorentina, alongside Tuscan bread, his seasoned salt, raw vegetables with oil, Tuscan beans, roast potatoes and whipped lardo. **Water and red wine are on the table within the price**, and you may bring your own bottle with **no corkage**. There is no à la carte: each room eats one menu at one sitting, at long communal tables, and a **vegetarian menu is offered at the same price** (reviewers describe it as noticeably plainer than the meat service). Seating mechanics per the official site: aperitivo at 12:00 or 19:00, seated half an hour later, service beginning at 13:00 or 20:00.
+
+**Solociccia** — lunch only, single seating, and the *nose-to-tail* argument in practice: braised, boiled and lesser-known cuts rather than the big steak. It carries a **Michelin Plate** listing (a listing, not a star). **Its current price is the one figure we cannot pin down**: sources derived from the official site say **€50**, Michelin-adjacent and aggregator listings say **€40**, older material says €30. That is a genuine three-way conflict, not rounding — and it matters, because if Solociccia now costs the same as Officina, the long-standing advice that it is "the cheaper option" no longer holds. **Ask the price when you book.**
+
+**Dario DOC** — the casual daytime option, roughly 11:30/12:00 to 15:00, built around a half-pound burger with garlic-and-sage roast potatoes, raw vegetables and bread. We found menu tiers quoted online but traced them only to an undated review, so **we decline to print prices**; sources also disagree on whether it takes reservations or runs walk-in only. Treat it as the flexible, cheap, no-plan option and confirm on arrival.
+
+**The butcher shop itself** is the fourth, free-est option: every source describes complimentary tastings at the counter during opening hours — crostini with lardo and rillettes, fennel salame, a glass of Chianti — with no purchase required. None of those sources is the business stating a policy, so read it as **customary hospitality that may vary with the day and the crowd**, not an entitlement. Buy something anyway; it is a shop.`,
+      },
+      {
+        id: 'booking',
+        heading: 'Booking, and the two unknowns to resolve before you travel',
+        body: `Booking for the communal restaurants runs by **email or telephone**, taken any day between 09:00 and 16:00, with a request form on the official site; allergies must be declared at the time of booking. We found **no published deposit or cancellation policy** for any of the three — which is not the same as there being none, so ask when you confirm.
+
+Two unknowns deserve resolving before you build a day around them, and we would rather flag them than paper over them:
+
+**One: which days Officina actually runs.** The official site presents it as operating **every day at 12:00 and 19:00**. Multiple current secondary listings instead say **dinner only on Tuesday, Friday and Saturday, plus Sunday lunch**. Both appear in current-dated material and we could not reconcile them from research alone. This is the single most consequential unknown for a visitor: **confirm your date directly with the business before booking travel around it.**
+
+**Two: the last bus home.** Panzano is served by Autolinee Toscane's **line 365** group from Florence — the stop is **Panzano P.za Campana**, journey time about an hour, departures from beside Florence's Montelungo/Santa Maria Novella bus terminus. But we could not confirm the **last evening departure back to Florence**, and the arithmetic matters enormously: an Officina dinner beginning service at 20:00 almost certainly cannot be done by bus in a day trip. Lunch by bus is comfortable; **dinner by bus is a plan that needs the actual timetable, or a car, taxi or bed in the village**. Autolinee Toscane's fare page prices extra-urban journeys by distance zone without publishing this pair, so we print no fare either — buy at a bar, tobacconist or newsagent, or tap on and off, [as the car-free guide explains](/blog/tuscany-without-a-car-2026/).
+
+If Panzano proves impossible, there is now a legitimate fallback: Cecchini opened **Cecchini in Città** in Florence, at the 25hours Hotel Piazza San Paolino, on 19 September 2024.`,
+      },
+      {
+        id: 'is-it-worth-it',
+        heading: 'The honest verdict: who should book, and who should not',
+        body: `**The case for.** Fifty euro for a multi-course beef feast with wine included is, by the standards of anywhere else charging for a famous name, remarkable value. The communal table does what communal tables do — you leave having talked to strangers from four countries. The cooking is genuinely good and genuinely committed to a philosophy: nose-to-tail, no waste, no fuss. And Cecchini himself is usually present, cleaver in hand, performing the Dante and the salt and the welcome. For anyone who enjoys eating as an event, this is one of the best-value theatrical dinners in Italy.
+
+**The case against**, assembled honestly from the criticism rather than dismissed: you eat **elbow to elbow** at long shared tables, in noise; there is **no choice of dish**; and a recurring complaint calls it "a show for tourists and definitely not a place for gourmets". Vegetarians are catered for but at a plainer standard. If your ideal dinner is quiet, chosen and paced by you, this is structurally the wrong restaurant, and no amount of fame changes that.
+
+**And the fact to know before you go**, because discovering it at the table sours people who would otherwise have loved the meal: **the beef is not Chianina and is not Tuscan.** For more than thirty years Cecchini has sourced it from the Viñals family, butchers in Mataró, Catalonia, raised to his specification — he argues openly that it delivers better marbling and tenderness than the Chianina available to him. That is a defensible position from a butcher who has spent fifty years judging meat. It is also simply not what most visitors assume they are buying in the heart of Chianti, and you deserve to decide with the information rather than after it.
+
+**Our verdict**: book Officina if you want the full performance and the steak; consider Solociccia if you care more about the nose-to-tail philosophy than the showpiece cut (and confirm its price); use Dario DOC or the shop counter if you just want to taste the man's cooking without ceremony. Skip all of it if crowds and fixed menus are your idea of a bad evening — [Panzano's wine is reason enough to come anyway](/blog/montalcino-or-montepulciano-2026/).`,
+      },
+      {
+        id: 'vino-al-vino',
+        heading: 'Vino al Vino: the festival the growers run themselves',
+        body: `The second reason to know Panzano's name fills **Piazza Bucciarelli** each September, and its distinguishing feature is who stands behind the tables: **the winemakers themselves**, pouring their own bottles.
+
+**The organisation matters.** The **Unione Viticoltori di Panzano** was founded in 1995 for the first Vino al Vino and is described as the first association of winemakers formed within the Chianti Classico territory; it counts **23 member estates** as of 2026. Its membership rule is stricter than the denomination's own: **grapes, winemaking and bottling must all happen in Panzano.** The result at the festival is a tasting of **over 80 labels** that are, in a genuinely unusual sense, all from one hillside.
+
+**Dates, with an honest flag.** The 2026 edition is reported as **Friday 18 to Sunday 20 September**, consistent with the festival's third-weekend-of-September pattern and with 2025's confirmed 19–21 September running. But **we found no first-party announcement** from the growers' union for September 2026 at our check, and the sources disagree at the edges — one outlier lists a seven-day span, and the union's own historic description mentions a four-day format (the third weekend plus the preceding days) against 2025's three days. **Treat 18–20 September as likely, not settled, and confirm on the union's channels before booking travel.**
+
+**How entry works** — and this is the part visitors get wrong. There is no conventional ticket: you buy a **tasting glass**, supplied with a shoulder-strap holder, and the glass is your pass to every stand. In 2025 it cost **€30**, with a 10 per cent discount for buying ahead through the union's online shop. 2025 opening hours ran **Friday 11:00–19:30, Saturday 11:00–20:00, Sunday 11:00–19:00**; the 2026 hours are not published anywhere we could find. Past programmes have added extras — in 2025, Cecchini's own panini truck on the Saturday evening and the Panzano Orchestra on Sunday morning — but those were 2025-specific and no 2026 programme exists yet.
+
+**How it differs from the bigger fair up the road.** [Expo Chianti Classico in Greve](/blog/tuscany-september-2026-festivals-events/) runs **10–13 September 2026**, a week *earlier*, and is a different animal: organised by the comune, drawing producers from **every** municipality of the Chianti Classico zone, and using a **token system** — a €20 glass including seven tasting tickets, with Riserva and Gran Selezione costing two. Vino al Vino is smaller, single-village, grower-run and open-pour. Serious Chianti drinkers with September dates should consider doing **both**: the zone-wide survey first, the deep dive into one hillside a week later.`,
+      },
+      {
+        id: 'the-village',
+        heading: 'The village, the Conca d’Oro and the organic hillside',
+        body: `Panzano itself is a *frazione* of Greve in Chianti, perched at about 500 metres on the **SR222 Chiantigiana** — the wine road that runs the 69-odd kilometres between Florence and Siena, and one of the great drives in Italy [when the car is the right tool](/blog/rent-a-car-in-florence-or-siena-2026/).
+
+Its geographic signature is the **Conca d'Oro**, the "golden basin": a south-facing natural amphitheatre of hillside dropping toward the Pesa valley, whose name comes from the old practice of growing grain between the vine rows, turning the whole bowl gold before harvest. The bowl is also the reason Panzano's wine has a reputation of its own — it is one of the **eleven official Unità Geografiche Aggiuntive** of Chianti Classico (alongside Castellina, Radda, Gaiole, Lamole, Montefioralle and the rest), a subzone whose name may now appear on Gran Selezione labels under rules published in 2023. The Panzano UGA covers roughly **2,840 hectares**, of which about **595 are vineyard** — some 6.7 per cent of all Chianti Classico plantings.
+
+And it is unusually green: around **90 per cent of Panzano's vineyards are farmed to organic criteria**, a process the growers date from 2012, when a bio-district covering Greve and Panzano was formally established that July. You will see the claim "the first organic wine district in Italy" repeated widely; it is plausible and locally asserted, and we flag it as a claim rather than a verified first.
+
+**What to see between glasses.** The **Pieve di San Leolino**, about a kilometre from the village, is documented as far back as **982** with the present Romanesque church rebuilt in the first half of the 1200s — but note that it opens **by request rather than to fixed hours**, so arrange access rather than turning up hopeful. The upper village keeps a surviving stretch of the **castle wall** — documented in the eleventh century, its standing fabric dated to the twelfth, held by the Firidolfi and Ricasoli families through the Florence–Siena wars — and the best free viewpoints over the Conca d'Oro. And the **Sunday morning market** fills Piazza Bucciarelli from about 08:30 to 13:00, enlarging on the first Sunday of the month into the artisan *aprilante*.
+
+Half a day covers the village comfortably; a full day covers it with a Cecchini lunch and a vineyard visit. Free parking sits outside the historic centre, with footpaths climbing to the square — the standard [hill-town parking discipline](/blog/siena-ztl-fines-how-to-avoid/) applies here as everywhere.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research (direct page fetches are blocked in our environment, so every fact rests on search-surfaced material rather than pages we opened ourselves — the confidence language above reflects that ceiling). Verified: Cecchini's biography, the shop's 1780 trading history and Via XX Luglio address, the 2001 bistecca funeral against contemporaneous April 2001 news coverage, the Buford subtitle, and the Chef's Table attribution to Volume 6 Episode 2 (22 February 2019) against three independent listings — correcting a widely repeated Season 2 error; Officina's €50 price, wine-and-water inclusion, no-corkage BYO policy, single-seating communal format and stated seating times from the official site; Solociccia's lunch-only nose-to-tail format and Michelin Plate listing; the Catalonia sourcing, which Cecchini states publicly. Explicitly unresolved and printed as such: **Solociccia's current price** (€40 vs €50 across current sources), **Officina's operating days** (official site's daily schedule versus secondary listings' Tue/Fri/Sat-plus-Sunday-lunch), any deposit or cancellation terms (none found), Dario DOC's prices and reservation policy, the Florence–Panzano bus fare, and the **last evening 365 departure** — the one that decides whether a bus-based dinner is possible at all. For Vino al Vino: the 2025 edition's confirmed 19–21 September dates, the €30 glass and 2025 opening hours, the union's 1995 founding, 23 members, 80-plus labels and its grapes-winemaking-and-bottling-in-Panzano rule; the 2026 dates rest on secondary sources with **no first-party confirmation found**, and the duration conflicts between sources, so we flag rather than assert. Village facts (UGA status and hectares, the 2012 bio-district, the ~90% organic figure, San Leolino's 982 documentation and by-request access, the Sunday market) come from producer-union, heritage and municipal-adjacent sources. Prices, dates and opening arrangements change: confirm with the businesses and the growers' union before travelling. We have no affiliate relationship with any restaurant, winery, producers' union or event named here; no booking on this page pays us anything, and the verdict above is editorial.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Panzano is a lesson in what a thousand people can do with one hillside. They made a wine subzone the denomination had to recognise, farmed nine-tenths of it organically, built their own growers' union before anyone else in Chianti thought of it, and threw a festival where the person pouring your glass is the person who grew it. And in the middle of all that stands a butcher who buried a steak in 2001 to make a point and has been quoting Dante over the counter ever since.
+
+Come for a lunch, stay for a hillside. Book Cecchini knowing exactly what it is — fixed, communal, theatrical, Catalan-sourced and, for the right diner, wonderful — and time the trip for the third weekend of September if you want the growers' own wine in your hand while you decide. Just confirm the dates, the days and the last bus first: Panzano rewards the traveller who checks.`,
+      },
+    ],
+    [
+      { q: 'Is Dario Cecchini worth it?', a: 'Yes, if you want a fixed-price communal beef feast as an event — €50 at Officina della Bistecca covers a multi-course meal with water and table wine, and you may bring your own bottle with no corkage. No, if you want quiet, choice or gourmet pacing: you eat elbow to elbow from one menu, and a recurring criticism calls it theatre over gastronomy. Know too that the beef is Catalan, not Chianina.' },
+      { q: 'How much does Dario Cecchini cost?', a: 'Officina della Bistecca is €50 per person, fixed, including water and table wine. Solociccia’s current price is genuinely unclear — sources give €40 and €50 — so ask when booking, as it may no longer be the cheaper option. Dario DOC is the casual daytime choice; we found no reliably dated prices for it, so confirm on arrival.' },
+      { q: 'Do you need to book Dario Cecchini in advance?', a: 'Yes for the communal restaurants — booking runs by email or phone, taken daily between 09:00 and 16:00, with allergies declared at booking. No deposit or cancellation policy was published at our check, so ask. Crucially, sources conflict on which days Officina runs, so confirm your date directly before booking travel around it.' },
+      { q: 'Is Dario Cecchini’s beef Chianina?', a: 'No. For more than thirty years the beef has come from the Viñals family, butchers in Mataró in Catalonia, raised to Cecchini’s specification; he states openly that it offers better marbling and tenderness than the Chianina available to him. It is a deliberate choice by a career butcher — but not what most visitors assume they are ordering in Chianti.' },
+      { q: 'When is Vino al Vino in Panzano in 2026?', a: 'Reported as 18–20 September 2026, matching the festival’s third-weekend pattern and 2025’s confirmed 19–21 September edition — but we found no first-party announcement from the Unione Viticoltori di Panzano at our check, and sources disagree on the duration. Treat the dates as likely and confirm with the growers’ union before booking.' },
+      { q: 'How does Vino al Vino work — is there a ticket?', a: 'You buy a tasting glass with a shoulder holder rather than a ticket, and the glass admits you to every producer’s stand. In 2025 it cost €30, with a 10% discount for pre-purchase through the union’s online shop. 2025 hours ran Friday 11:00–19:30, Saturday 11:00–20:00 and Sunday 11:00–19:00; 2026 hours were not published at our check.' },
+      { q: 'How do you get to Panzano in Chianti without a car?', a: 'Autolinee Toscane line 365 from Florence, about an hour, stopping at Panzano P.za Campana. Lunch works comfortably by bus; dinner probably does not — we could not confirm the last evening departure back to Florence, and Officina’s dinner service starts at 20:00. Check the timetable, or plan a car, taxi or overnight stay.' },
+      { q: 'What is the Conca d’Oro in Panzano?', a: 'The south-facing natural amphitheatre of vineyard hillside below the village, dropping toward the Pesa valley — named for the grain once grown between the vine rows, which turned the basin gold. It underpins Panzano’s status as one of Chianti Classico’s eleven named subzones, with around 90% of its vineyards farmed organically.' },
+    ],
+    '2026-08-30',
+    {
+      seoTitle: 'Is Dario Cecchini Worth It? Panzano, Prices & Vino al Vino 2026',
+      primaryKeyword: 'dario cecchini panzano worth it',
+      secondaryKeywords: [
+        'dario cecchini prices booking',
+        'officina della bistecca price',
+        'vino al vino panzano 2026',
+        'panzano in chianti what to do',
+        'solociccia panzano',
+        'panzano chianti classico conca d oro',
+      ],
+      imageAlt: 'The Chianti wine road through vineyards near Panzano in Chianti',
+      canonicalPath: '/blog/panzano-in-chianti-cecchini-vino-al-vino',
+      tags: ['panzano in chianti', 'dario cecchini', 'vino al vino', 'chianti classico', 'tuscany food', 'wine festivals'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
