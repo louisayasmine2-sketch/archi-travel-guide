@@ -102,3 +102,37 @@ Catatan batch 2:
   link tambahan: tiga hub komparasi (florence-or-siena, siena-or-san-gimignano,
   val-dorcia-or-chianti) — semuanya sudah menaut ke artikel musiman.
 
+
+## Daily track log — Batch 3 (drip 12–29 Agustus)
+
+Prioritas request-indexing: mulai dari baris teratas pada hari tayang masing-masing.
+Dua baris pertama sudah live saat batch ini dibuat (12–13 Agu); sisanya menyusul harian.
+
+| URL | Published | Day 0 | Day 1 | Day 3 | Day 7 | CTR trend |
+| --- | --- | --- | --- | --- | --- | --- |
+| /blog/italy-beach-rules-2026 | 2026-08-12 |  |  |  |  |  |
+| /blog/tuscany-on-screen-film-locations-2026 | 2026-08-13 |  |  |  |  |  |
+| /blog/rome-to-siena-train-bus-2026 | 2026-08-14 |  |  |  |  |  |
+| /blog/tuscan-food-calendar-seasonal-dishes | 2026-08-15 |  |  |  |  |  |
+| /blog/what-to-buy-in-tuscany-souvenirs | 2026-08-16 |  |  |  |  |  |
+| /blog/via-francigena-day-walk-siena | 2026-08-17 |  |  |  |  |  |
+| /blog/renting-a-car-in-tuscany-2026 | 2026-08-18 |  |  |  |  |  |
+| /blog/tuscany-in-march-2027 | 2026-08-19 |  |  |  |  |  |
+| /blog/giostra-del-saracino-arezzo-2026 | 2026-08-20 |  |  |  |  |  |
+| /blog/tuscany-september-2026-festivals-events | 2026-08-21 |  |  |  |  |  |
+| /blog/rent-a-car-in-florence-or-siena-2026 | 2026-08-22 |  |  |  |  |  |
+| /blog/siena-day-trip-or-overnight-2026 | 2026-08-23 |  |  |  |  |  |
+| /blog/montalcino-or-montepulciano-2026 | 2026-08-24 |  |  |  |  |  |
+| /blog/tuscany-without-a-car-2026 | 2026-08-25 |  |  |  |  |  |
+| /blog/bagno-vignoni-bagni-san-filippo-hot-springs | 2026-08-26 |  |  |  |  |  |
+| /blog/is-arezzo-worth-visiting-2026 | 2026-08-27 |  |  |  |  |  |
+| /blog/pienza-pecorino-fiera-del-cacio-2026 | 2026-08-28 |  |  |  |  |  |
+| /blog/what-to-wear-in-tuscany-in-september | 2026-08-29 |  |  |  |  |  |
+
+Catatan batch 3:
+- Halaman live yang berubah signifikan dan layak re-request saat deploy: homepage
+  (link DiscoverCars + schema brand), /about (identitas PT), siena-day-trips-without-a-car,
+  where-to-stay-in-siena, tuscany-on-screen (section Assassin's Creed), vendemmia,
+  strikes guide, artikel ETIAS.
+- Flagship klaster: /blog/tuscany-without-a-car-2026 menerima link dari 10+ halaman —
+  prioritaskan indexing-nya begitu tayang 25 Agu.
