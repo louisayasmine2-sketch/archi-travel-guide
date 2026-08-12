@@ -9481,6 +9481,139 @@ Come for a lunch, stay for a hillside. Book Cecchini knowing exactly what it is 
       tags: ['panzano in chianti', 'dario cecchini', 'vino al vino', 'chianti classico', 'tuscany food', 'wine festivals'],
     }
   ),
+
+  A(
+    'via-francigena-which-section-to-walk',
+    'Which Section of the Via Francigena Should You Walk? Tuscany, Stage by Stage',
+    'Things to do',
+    'Tuscany',
+    'Which Via Francigena section to walk in Tuscany — every stage compared by distance, difficulty and water, plus the new 2026 section certificates.',
+    '/images/tuscany/tuscany-hidden-gems-monteriggioni.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Search "best section of the Via Francigena" and you will find tour operators selling packages, not answers. Here is the answer, free.
+
+**If you have a week: walk Lucca to Siena.** It is **133 kilometres over six official stages**, it threads Lucca, San Miniato, Gambassi Terme, San Gimignano, Monteriggioni and Siena, and — this is new — as of **May 2026 it is a formally recognised section with its own pilgrim certificate**. That is why every operator sells a "7 nights, 133 km" Tuscan package: they are all selling the same six stages you can walk independently.
+
+**If you have one day: Monteriggioni to Siena**, the classic finish, which [has its own guide on this site](/blog/via-francigena-day-walk-siena/). **If you have one day and want the prettiest three hours**: Gambassi Terme to San Gimignano, 13.4 km, easy, arriving at the towers on foot.
+
+**If you want the Rome certificate**, none of the Tuscan stages will earn it: the Testimonium in Rome still requires **the last 100 km on foot**, which means starting at Viterbo in Lazio.
+
+**And the honest warnings, in one place**: the Monteriggioni–Siena stage is short and easy but has **almost no water or food en route**; the San Gimignano–Monteriggioni stage is **31 km** and defeats people who read "one day"; the hardest Tuscan stage is San Quirico d'Orcia to Radicofani, which ends with roughly **12 km of sustained exposed climb**; and Tuscan clay after rain is its own hazard. Walk **April–May or September–October**, never July or August.`,
+      },
+      {
+        id: 'the-2026-change',
+        heading: 'The 2026 change that reshapes how you plan',
+        body: `For most of its modern life the Via Francigena had one reward at the end: the **Testimonium** collected in Rome, earned by walking the final 100 kilometres. That structure served the through-hiker and nobody else — which is to say, it served almost none of us.
+
+In **May 2026 the European Association of the Via Francigena Ways (AEVF) restructured the Italian route into seven sections**, each walkable in roughly **five to eight days**, and each with **its own issuing point for a section certificate**: Ivrea, Pavia, Fidenza, **Lucca**, **Siena**, Viterbo and Rome. (Coverage of the announcement disagreed on whether that meant six new points or seven — the likeliest reading is six new cities plus Rome, which already issued the original certificate.)
+
+Three details make this genuinely useful rather than administrative. The section certificate is reported to be **free**; it can be earned walking the section **in either direction**; and it does **not have to be completed within a single calendar year** — so stages accumulated across several holidays still count. For a traveller with a week rather than a season, the Francigena just became a route you can finish something on.
+
+The seven sections and their official lengths, as published: Gran San Bernardo–Ivrea (7 stages, 110 km); Ivrea–Pavia (7, 141); Pavia–Fidenza (5, 119); Fidenza–Lucca (8, 211); **Lucca–Siena (6, 133)**; Siena–Viterbo (7, 161); and Viterbo–Rome. The two that matter for a Tuscan trip are the fifth and sixth — and the fifth is the one to walk first.`,
+      },
+      {
+        id: 'tuscany-overview',
+        heading: 'The Tuscan route in one picture',
+        body: `Tuscany carries the longest and best-waymarked stretch of the Italian Francigena: officially **380 kilometres across 39 municipalities in 15 stages**, from the **Passo della Cisa** in the northern Apennines down to **Radicofani** on the Lazio border, opened by the region as a "Grande Itinerario Culturale". (Source figures vary at the edges — some give 16 stages and 38 municipalities running on to Acquapendente, one older report 385 km — the differences are about where you draw the regional boundary, not about the road itself.) In the AEVF's national numbering these are **legs 22 to 36**.
+
+The shape of it, north to south: the **Lunigiana** mountains and Pontremoli; the coastal plain past Massa and Camaiore; **Lucca**, the first great pilgrim city; the flatter Valdinievole and Altopascio; **San Miniato** on its ridge; then the classic Tuscan sequence — **Gambassi Terme, San Gimignano, Monteriggioni, Siena** — before the road turns south through the **Val d'Arbia** and **Val d'Orcia** to San Quirico and the climb to Radicofani.
+
+Almost everything sold commercially, and almost everything worth walking on a first visit, sits in the middle third of that list. The stages below are the ones you will actually choose between.`,
+      },
+      {
+        id: 'stage-by-stage',
+        heading: 'The stages that matter, compared',
+        body: `**Gambassi Terme → San Gimignano (Leg 31) — the prettiest short day.** **13.4 km, about 3 hours, rated easy**, with 344 m of altitude change and a surface breakdown of roughly 40% paved road, 54% dirt road and track, 6% rougher path. It rolls through vineyards and past country churches, and it ends with the towers of San Gimignano rising ahead of you for the last hour — the single best arrival-on-foot in Tuscany after Siena itself. Trailhead access without a car is the catch: the nearest stations are **Certaldo and Castelfiorentino**, each about 10 km away on the Florence–Siena line, with local bus links into Gambassi.
+
+**San Gimignano → Monteriggioni (Leg 32) — the marquee stage, and a trap.** **31 km, about 7 hours**, one of the longest legs on the entire Canterbury–Rome route, and described by the regional tourism board as one of its most beautiful. Walkers' GPS traces broadly agree at just over 30 km. Do not attempt it as a casual day out: it is a full walking day with a heat problem in summer and a mud problem in spring. There is an official **Colle Val d'Elsa variant** that splits it sensibly into two days, with **Abbadia a Isola** — the old abbey on the plain below Monteriggioni — as the classic final approach.
+
+**Monteriggioni → Siena (Leg 33) — the famous finish.** Officially **18 km and about 6 hours**; walkers' GPS traces consistently record **20.3–20.5 km**, and the honest planning figure is "around twenty kilometres, five to six hours". It runs on the **strade bianche of the Montagnola Senese** past the abandoned medieval village of **Cerbaia** and the castles of **Chiocciola** and **Villa**, drops to **Pian del Lago**, and enters Siena through the Renai woods. **Its defining problem is supplies, not difficulty**: the stage is easy underfoot but has an almost total absence of water and refreshment points — the **La Villa** rest point is one of very few — so carry everything. [Our dedicated day-walk guide covers this stage in full](/blog/via-francigena-day-walk-siena/), including the bus out and the arrival into the city.
+
+**Siena → Ponte d'Arbia (Leg 34) — the quiet one.** **26 km** on the unpaved roads of the **Val d'Arbia**, big-sky farmland walking with fewer walkers and fewer distractions. The stage where the route stops being a sightseeing corridor and starts being a pilgrimage.
+
+**Ponte d'Arbia → San Quirico d'Orcia (Leg 35) — the Val d'Orcia entrance.** **26.25 km, about 6 hours**, delivering you into the postcard valley on foot, which is a very different experience from [driving its viewpoints](/blog/val-dorcia-day-trip-from-siena-2026/).
+
+**San Quirico d'Orcia → Radicofani (Leg 36) — the hardest in Tuscany.** **33 km and roughly 7¼ hours**, of which the last **12 km or so is a sustained climb on exposed gravel track** to the fortress town on its volcanic cone. Reserve it for fit walkers in good conditions, and never in high summer. (Beyond it, Leg 37 to Acquapendente opens with an 8 km ridge descent and leaves Tuscany at Ponte a Rigo.)`,
+      },
+      {
+        id: 'choose-by-time',
+        heading: 'Choosing by how much time you have',
+        body: `**One day, easy** → **Gambassi Terme to San Gimignano**. Three hours, gentle, and it ends in one of Tuscany's great townscapes. Best half-day introduction to the route there is.
+
+**One day, classic** → **Monteriggioni to Siena**. Around twenty kilometres, out by bus on the morning [130 or 131](/blog/tuscany-without-a-car-2026/) to the Colonna di Monteriggioni stop, then walk home into the city. Carry water; there is next to none. [Full guide here](/blog/via-francigena-day-walk-siena/).
+
+**A long weekend (2–3 days)** → **San Gimignano → Colle Val d'Elsa → Monteriggioni → Siena.** Splitting Leg 32 at Colle makes this humane, and it strings together three of Tuscany's most photogenic arrivals in a row. This is the single best short-break itinerary on the Tuscan Francigena.
+
+**A week (6 days walking)** → **the full Lucca–Siena section, 133 km.** Lucca's walls to Siena's Campo, ending with a section certificate under the new 2026 scheme. Every operator's flagship product; entirely walkable independently with the official app and booked accommodation.
+
+**Two weeks** → Lucca to **Radicofani**, adding the Val d'Arbia and Val d'Orcia stages and finishing on the route's hardest climb — or continuing into Lazio.
+
+**Chasing the Rome Testimonium** → none of the above qualifies. The Rome certificate requires **the last 100 km on foot** (200 km by bicycle), verified by credential stamps, which conventionally means starting at **Viterbo**, about 112 km out. Walk Tuscany for Tuscany; walk Lazio for the certificate — or now, walk Tuscany for the **section** certificate at Lucca or Siena.`,
+      },
+      {
+        id: 'credentials',
+        heading: 'Credentials, stamps and certificates',
+        body: `**The credenziale** — the pilgrim passport you collect stamps in — has a recommended price of about **€8**, sold through the official viefrancigene.org store (with shipping added) or picked up at distribution points along the way. In **Siena** it is issued at the **Santa Maria della Scala bookshop**, at the Palazzo Squarcialupi entrance on Piazza Duomo — fittingly, since the complex was medieval Europe's largest pilgrim hospital and the traditional end of the Tuscan road.
+
+Beyond sentiment, the credential is reported to carry practical benefits: access to pilgrim hospitality and preferential rates, discounts with affiliated businesses, and modest transport concessions. Treat those as varying by provider rather than guaranteed.
+
+**The certificates**, restated clearly because the change is recent: the **Testimonium** in Rome requires the final 100 km on foot and is collected at a pilgrims' reception point at St Peter's. The **section certificates** introduced in May 2026 are earned by completing one of the seven Italian sections — for Tuscan walkers, **Lucca–Siena** (issued in Siena) or the Fidenza–Lucca section before it — reported as free, walkable in either direction, and accumulable across more than one year.
+
+For navigation, the **official Via Francigena app** published by AEVF is free, covers the whole Canterbury–Rome route with downloadable offline maps and geolocated stage data, and is the standard planning tool — better, for route-finding, than any operator's printed pack. On the ground, the waymark is a **white pilgrim on a red ground**, appearing as signposts, small concrete milestones and stickers alongside red-and-white CAI-style flashes; a white arrow with a yellow pilgrim marks a variant rather than the main line.`,
+      },
+      {
+        id: 'when-and-how',
+        heading: 'When to walk, and the two hazards nobody sells you',
+        body: `**Walk April–May or September–October.** Daytime temperatures in the mid-teens to low twenties, long enough days, and the countryside at its best in both directions — the spring green or [the harvest gold](/blog/tuscany-wine-harvest-vendemmia-2026/). **July and August are widely advised against**, and the reason is not comfort but water: several Tuscan stages have almost no refreshment points, and the [Tuscan summer](/blog/tuscany-in-august-2026/) is not a place to discover that at kilometre fifteen. Winter brings mud and short days.
+
+**Hazard one: the clay.** Tuscan soil after rain is a specific, named problem — a heavy clay that accumulates underfoot until every step carries kilos, and turns descents genuinely slippery. Spring rain in the northern stages is the classic trigger. Poles help; so does checking the forecast and swapping a muddy stage for a rest day.
+
+**Hazard two: the return leg.** Public transport parallel to the route thins dramatically as you go south. The Monteriggioni–Siena day walk is easy to reverse by bus; **San Quirico back to Siena is roughly an hour by bus but on a thin timetable**, and the further south you go the more a walking plan becomes a bus-timetable plan — [the standing rule from our car-free guide](/blog/tuscany-without-a-car-2026/) applies with force here. Check returns before you choose a stage, not after.
+
+Two more practicalities worth stating: book accommodation ahead in the small towns during the shoulder seasons, when both pilgrims and ordinary tourists compete for the same handful of beds; and [dress for a month that changes twice a day](/blog/what-to-wear-in-tuscany-in-september) if you are walking in September, with a genuine waterproof rather than a fashion layer.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked 9 August 2026, via web research (direct page fetches are blocked in our environment, so everything below rests on search-surfaced material rather than pages we opened ourselves). Verified against regional and AEVF-sourced material: the Tuscan route's 380 km / 39 municipalities / 15 stages framing from Passo della Cisa to Radicofani, with the competing 16-stage and 385 km figures noted as boundary differences rather than resolved; the AEVF national leg numbering 22–36; the May 2026 restructuring into seven Italian sections with their own issuing points at Ivrea, Pavia, Fidenza, Lucca, Siena, Viterbo and Rome, including the reported free, either-direction and multi-year terms — with the six-versus-seven-new-points discrepancy in the coverage flagged rather than smoothed; the seven sections' stage counts and distances, including Lucca–Siena at 6 stages / 133 km; the Rome Testimonium's 100 km on foot (200 km cycling) rule and the Viterbo convention; the credenziale's ~€8 recommended price and its Siena issuing point at Santa Maria della Scala. Stage data: Leg 31's 13.4 km / 3 hours / surface split; Leg 32's 31 km / 7 hours with the Colle Val d'Elsa variant; **Leg 33's genuine distance conflict — 18 km officially against 20.3–20.5 km on walkers' GPS traces — which we print as a range rather than choosing a side**; Legs 34–36's distances and times, including Radicofani's final sustained climb. Seasonal advice, clay-mud reports and waymarking descriptions come from consistent walker accounts and route documentation. Transport frequencies south of Siena are described as thin on the strength of secondary reports and should be confirmed on the at-bus.it planner for your date. Stage distances are measured differently by different sources; treat every figure here as planning guidance and navigate with the official app. We have no affiliate relationship with any tour operator, accommodation or transport provider named here; no package is recommended and nothing on this page pays us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `The Via Francigena's problem in English has never been information — it has been that the information belongs to people selling seven-night packages. The road itself is free, waymarked with a white pilgrim on red, mapped in a free official app, and open to anyone with a pair of broken-in shoes and a plan for water.
+
+Start with three hours from Gambassi Terme to San Gimignano, or twenty kilometres from Monteriggioni into Siena, and see whether the arrival-on-foot does to you what it has done to travellers for a thousand years. If it does, the six stages from Lucca to Siena are waiting — and, since May 2026, so is a certificate at the end of them that you no longer have to walk to Rome to earn.`,
+      },
+    ],
+    [
+      { q: 'Which section of the Via Francigena is best to walk?', a: 'For a week, Lucca to Siena — 133 km over six official stages through San Miniato, Gambassi Terme, San Gimignano and Monteriggioni, and since May 2026 a formally recognised section with its own certificate. For a single day, Monteriggioni to Siena (the classic finish) or Gambassi Terme to San Gimignano (13.4 km, easy, the prettiest short stage).' },
+      { q: 'How long is the Via Francigena in Tuscany?', a: 'Officially about 380 km across 39 municipalities in 15 stages, running from the Passo della Cisa in the northern Apennines to Radicofani near the Lazio border. Some sources give 16 stages continuing to Acquapendente — the difference is where the regional boundary is drawn, not a dispute about the route.' },
+      { q: 'Can you get a Via Francigena certificate without walking to Rome?', a: 'Yes, since May 2026. AEVF divided the Italian route into seven sections of roughly five to eight days, each with its own issuing point — including Lucca and Siena. The section certificate is reported to be free, earnable in either direction, and does not have to be completed within one calendar year. The Rome Testimonium still requires the final 100 km on foot.' },
+      { q: 'How hard is the Monteriggioni to Siena walk?', a: 'Easy underfoot but poorly supplied. Official data says 18 km and about 6 hours; walkers’ GPS traces record 20.3–20.5 km, so plan for roughly twenty kilometres in five to six hours. The real difficulty is the near-total absence of water and food en route — carry everything you will need.' },
+      { q: 'When is the best time to walk the Via Francigena in Tuscany?', a: 'April–May or September–October, with daytime temperatures typically in the mid-teens to low twenties. July and August are widely advised against — several stages have almost no water points and Tuscan summer heat is unforgiving. Winter brings short days and heavy clay mud, which is a real hazard on descents after rain.' },
+      { q: 'Do you need a pilgrim credential for the Via Francigena?', a: 'You need it to collect stamps and claim any certificate, and it opens pilgrim hospitality and some discounts. The recommended price is about €8 through the official viefrancigene.org store or at distribution points; in Siena it is issued at the Santa Maria della Scala bookshop on Piazza Duomo — the medieval pilgrim hospital itself.' },
+      { q: 'How do you get back after walking a Via Francigena stage?', a: 'Plan it before you choose the stage. Monteriggioni–Siena reverses easily by bus on the 130 or 131 lines to the Colonna di Monteriggioni stop. Further south the network thins sharply — San Quirico d’Orcia back to Siena runs roughly an hour on a sparse timetable — so check the at-bus.it planner for your date rather than assuming a return exists.' },
+    ],
+    '2026-08-31',
+    {
+      seoTitle: 'Which Via Francigena Section to Walk? Tuscany Stages Compared 2026',
+      primaryKeyword: 'via francigena best section',
+      secondaryKeywords: [
+        'via francigena lucca to siena',
+        'via francigena which stage to walk',
+        'san gimignano to monteriggioni via francigena',
+        'via francigena testimonium requirements',
+        'via francigena tuscany stages distance',
+        'via francigena section certificate 2026',
+      ],
+      imageAlt: 'The walled village of Monteriggioni, a landmark stage-end on the Tuscan Via Francigena',
+      canonicalPath: '/blog/via-francigena-which-section-to-walk',
+      tags: ['via francigena', 'walking in tuscany', 'pilgrim routes', 'hiking italy', 'slow travel'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
