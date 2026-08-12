@@ -68,14 +68,14 @@ Two read-only scanners live in the tools/ directory. Run them before and after a
 
 Both parse this repo's actual content stores — the A() object literals in frontend/src/data/articles.js and the JSON files in frontend/src/data/ — not a directory of markdown files. Invoke them with `python`, not `python3`, which is not on PATH on this machine.
 
-- audit_content.py — disclosure mismatches, banned hedge phrases, meta description length, missing FAQ schema, articles with no images.
+- audit_content.py — disclosure mismatches, banned hedge phrases, meta description length, missing FAQ schema, articles with no images. Which programmes are live is read from `frontend/public/_redirects` (a destination carrying tracking parameters earns commission), never hardcoded: a page linking to a live programme without a disclosure fails, a disclosure on a page with no live link fails, and a page linking only to pending programmes without an independence note is reported as informational. The same live set is checked against the `SPONSORED_GO_SLUGS` list each renderer hardcodes (`Article.jsx` and `generate-static-html.js`), so approval landing in `_redirects` alone — which would ship paid links as `nofollow` — is caught.
 - check_links_and_images.py — every outbound URL for verification, every image reference checked against frontend/public/, any tracking or affiliate parameters found, and /go/ redirect integrity: every /go/{slug} referenced in content or frontend/src must have an entry in frontend/public/_redirects, and no destination may carry tracking parameters. Internal links in article content are resolved against the real route map (router routes, articles, _redirects, sitemap); links to scheduled articles are informational, unknown paths are failures. Image references in frontend/src components and data files are scanned too: an external image load there is a hotlink failure (credit-page links and OSM map tiles excepted), and any /images/ path must exist on disk.
 
 Neither script may write to content. If either reports something, fix the content — never edit the script to silence a finding.
 
 Wrap editor notes, changelogs, and anything that quotes banned phrasing for illustration in an audit:ignore HTML comment pair, so the scanner does not flag our own commentary.
 
-Expect links_without_disclosure to fire on every monetised page until affiliate programmes are approved. That is correct. When approval lands, that flag becomes the worklist of pages needing a disclosure added.
+links_without_disclosure now fires only on pages carrying a programme that is actually live in `_redirects`, so it is always a real violation — fix it the day it appears. Pages linking to still-pending programmes are reported under pending_without_independence_note instead, which is advisory and does not fail the run.
 
 ## 7. Working on this repo
 
