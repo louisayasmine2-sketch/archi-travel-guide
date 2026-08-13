@@ -219,7 +219,7 @@ const allArticles = [
       {
         "id": "introduction",
         "heading": "Introduction",
-        "body": "The **best time to visit Tuscany** depends on the trip you want. May, June, late September, and early October usually give first-time visitors the most useful balance of comfortable sightseeing weather, long enough days, open attractions, and manageable crowds. July and August suit festivals, pool time, and the coast, while winter rewards travellers who prefer museums, food, and quieter historic towns.\n\nTuscany is not one uniform destination. Florence can feel intensely busy while a rural village is calm; the coast may be breezy while Siena is hot; the Apennines can be cold when the lowlands are mild. A good decision therefore starts with your priorities, not a single “perfect” month.\n\n> **Quick answer:** Choose **May or late September** for an all-round first trip, **June** for long days and countryside stays, **October** for food and harvest atmosphere, **July or August** for festivals and swimming, and **November through February** for low-crowd city breaks. Always check event dates, accommodation closures, and transport schedules before booking — and if you are travelling without a car, [the complete Siena-based bus and rail system is mapped here](/blog/tuscany-without-a-car-2026/)."
+        "body": "The **best time to visit Tuscany** depends on the trip you want. May, June, late September, and early October usually give first-time visitors the most useful balance of comfortable sightseeing weather, long enough days, open attractions, and manageable crowds. July and August suit festivals, pool time, and the coast, while winter rewards travellers who prefer museums, food, and quieter historic towns.\n\nTuscany is not one uniform destination. Florence can feel intensely busy while a rural village is calm; the coast may be breezy while Siena is hot; the Apennines can be cold when the lowlands are mild. A good decision therefore starts with your priorities, not a single “perfect” month.\n\n> **Quick answer:** Choose **May or late September** for an all-round first trip, **June** for long days and countryside stays, **October** for food and harvest atmosphere, **July or August** for festivals and swimming — including [the Puccini Festival on the lake at Torre del Lago](/blog/puccini-festival-torre-del-lago-2026-independent-traveller-guide/) — and **November through February** for low-crowd city breaks. Always check event dates, accommodation closures, and transport schedules before booking — and if you are travelling without a car, [the complete Siena-based bus and rail system is mapped here](/blog/tuscany-without-a-car-2026/)."
       },
       {
         "id": "tuscany-seasons-at-a-glance",
@@ -2624,7 +2624,7 @@ Additional gems include the Officina Profumo-Farmaceutica di Santa Maria Novella
         body: `![FeelFlorence app crowd detection Florence](/images/florence/feelFlorence-app-crowd-map.webp)
 *Real-time crowd alerts with the official FeelFlorence app — a must-have tool for July.*
 
-Pre-booking proves essential. Secure timed-entry tickets for the Uffizi, Accademia, Duomo climbs, and Pitti Palace/Boboli Gardens 3–6 weeks ahead via official sites or trusted platforms to bypass ticket-office queues entirely. Early-morning and late-afternoon slots sell fastest but deliver the best experience.
+Pre-booking proves essential — and if the Uffizi calendar is already empty for your dates, [there are still real ways in](/blog/uffizi-tickets-sold-out-what-to-do/). Secure timed-entry tickets for the Uffizi, Accademia, Duomo climbs, and Pitti Palace/Boboli Gardens 3–6 weeks ahead via official sites or trusted platforms to bypass ticket-office queues entirely. Early-morning and late-afternoon slots sell fastest but deliver the best experience.
 
 Download the official FirenzeCard app or FeelFlorence for real-time updates, queue estimates, and interactive maps. Pro travellers stay in quieter neighbourhoods such as San Frediano or San Marco, start each day before 8 AM, carry a reusable water bottle (Florence's public fountains are excellent), and schedule midday breaks indoors during the hottest hours.
 
@@ -3955,10 +3955,10 @@ If you only have time for two: pair **Pienza + Montalcino** and keep Montepulcia
 1.  Leave Siena on the Via Cassia (SR2) heading south past Buonconvento.
 2.  Detour up to **Montalcino** for the morning and an early tasting.
 3.  Continue to **San Quirico d’Orcia** — a good, quick lunch stop that most tour buses skip.
-4.  Follow the ridge road to **Pienza** for the afternoon: cheese shops, cathedral, and the panoramic walkway behind the town.
+4.  Follow the ridge road to **Pienza** for the afternoon — [the pecorino capital, with its own cheese festival in early September](/blog/pienza-pecorino-fiera-del-cacio-2026/): cheese shops, cathedral, and the panoramic walkway behind the town.
 5.  If energy allows, end in **Montepulciano**, then return to Siena via the SS146 and SR2 in time for dinner.
 
-Two practical warnings. First, every one of these towns has a ZTL (restricted traffic zone) — park in the signed lots outside the walls and walk in. The ZTL in Siena works the same way and is enforced around the clock, so the same discipline applies on the drive home — see [how to avoid a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/). Second, the most photographed spots (the cypress circle near San Quirico, the Vitaleta chapel viewpoint) have small pull-offs that fill quickly in summer; go early or late for photographs.`,
+Two practical warnings. First, every one of these towns has a ZTL (restricted traffic zone) — park in the signed lots outside the walls and walk in. The ZTL in Siena works the same way and is enforced around the clock, so the same discipline applies on the drive home — see [how to avoid a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/). Second, the most photographed spots (the cypress circle near San Quirico, the Vitaleta chapel viewpoint) have small pull-offs that fill quickly in summer; go early or late for photographs. And if the day has room for one more stop, [the valley's thermal springs at Bagno Vignoni and Bagni San Filippo](/blog/bagno-vignoni-bagni-san-filippo-hot-springs) sit just off the same road south.`,
       },
       {
         id: 'getting-there-by-bus',
@@ -7596,7 +7596,7 @@ Treat the paperwork as the garnish, not the meal. The stage itself — the road,
       {
         id: 'beyond-the-day',
         heading: 'If the day hooks you',
-        body: `It tends to. The natural escalations, in order: the **San Gimignano–Monteriggioni stage** for the full-length experience; a **two-day mini-pilgrimage** — San Gimignano to Siena with the Monteriggioni night between, luggage light, [rooms booked ahead](/blog/where-to-stay-in-siena); the **southern continuation** through the Val d’Orcia, where the route threads [San Quirico and the postcard country](/blog/val-dorcia-day-trip-from-siena-2026); and eventually — the one they all lead to — **the final hundred kilometres into Rome**, Testimonium and all, for which your Sienese stage will turn out to have been the audition.
+        body: `It tends to. [Which section to walk next has its own guide](/blog/via-francigena-which-section-to-walk/), covering every Tuscan stage and the section certificates introduced in 2026. The natural escalations, in order: the **San Gimignano–Monteriggioni stage** for the full-length experience; a **two-day mini-pilgrimage** — San Gimignano to Siena with the Monteriggioni night between, luggage light, [rooms booked ahead](/blog/where-to-stay-in-siena); the **southern continuation** through the Val d’Orcia, where the route threads [San Quirico and the postcard country](/blog/val-dorcia-day-trip-from-siena-2026); and eventually — the one they all lead to — **the final hundred kilometres into Rome**, Testimonium and all, for which your Sienese stage will turn out to have been the audition.
 
 For any multi-day version, graduate from this article to the official association’s resources — stage guides, GPS tracks, accommodation lists for pilgrims — which are the proper tools for the proper undertaking. Our lane is the day that starts and ends with [a Siena base](/blog/where-to-stay-in-siena); theirs is the road to Rome.
 
@@ -8074,7 +8074,7 @@ One more September-specific check before any of it: the summer strike moratorium
       {
         id: 'day-plan',
         heading: 'A realistic joust-day plan from Florence',
-        body: `**Morning.** Take a mid-morning train and drop into Arezzo before midday — early enough for the city's other headline act: Piero della Francesca's **Legend of the True Cross** fresco cycle in the Basilica di San Francesco, one of the great fresco achievements of the fifteenth century, with timed entry that is far easier to get before the joust crowds concentrate. The Duomo and Santa Maria della Pieve — whose apse forms one wall of Piazza Grande itself — round out a compact art morning, everything within ten minutes' walk.
+        body: `**Morning.** Take a mid-morning train and drop into Arezzo before midday — early enough for the city's other headline act — and [the case for Arezzo beyond the joust is argued in full here](/blog/is-arezzo-worth-visiting-2026/): Piero della Francesca's **Legend of the True Cross** fresco cycle in the Basilica di San Francesco, one of the great fresco achievements of the fifteenth century, with timed entry that is far easier to get before the joust crowds concentrate. The Duomo and Santa Maria della Pieve — whose apse forms one wall of Piazza Grande itself — round out a compact art morning, everything within ten minutes' walk.
 
 **Lunch.** Eat early and unhurried; kitchens fill with quarter partisans as the afternoon builds. This is Chianina beef country, and September menus begin leaning towards the harvest table [we map in the vendemmia guide](/blog/tuscany-wine-harvest-vendemmia-2026/).
 
@@ -8192,7 +8192,7 @@ It is the most atmospheric single evening on the Tuscan September calendar, and 
         heading: 'Saturday 26 September — the Carro Matto, Florence',
         body: `On the fourth Saturday of the month, a **“crazy cart” stacked with 1,500 wine flasks** — built into a swaying pyramid, drawn by white oxen — rolls from the Rufina wine country into central Florence, escorted by the historical procession of the Florentine Republic. It commemorates the centuries when Chianti Rufina's harvest entered the city exactly this way, and it ends with the traditional blessing of the new wine.
 
-As a spectacle it is short, photogenic and free: position along the route through the centre — the cart traditionally pauses around the Duomo and Piazza della Signoria — and let it come to you. It shares its weekend with the BIAF opening and precedes Impruneta's grape festival by a day, which makes the final September weekend the densest of the month for anyone based in Florence. Timings are published by the city close to the date; the fourth-Saturday pattern and the 1,500-flask cart are the fixed points.`,
+As a spectacle it is short, photogenic and free: position along the route through the centre — the cart traditionally pauses around the Duomo and Piazza della Signoria — and let it come to you. It shares its weekend with the BIAF opening and precedes Impruneta's grape festival by a day (and if the joust weekend draws you east, [Arezzo repays a visit in its own right](/blog/is-arezzo-worth-visiting-2026/)), which makes the final September weekend the densest of the month for anyone based in Florence. Timings are published by the city close to the date; the fourth-Saturday pattern and the 1,500-flask cart are the fixed points.`,
       },
       {
         id: 'impruneta',
@@ -8231,7 +8231,7 @@ Both clusters obey the same three rules: book the host-town beds first; check Su
         heading: 'Event-month practicalities',
         body: `A few habits separate the travellers who enjoy festival Tuscany from the ones who endure it.
 
-**Dress for two seasons a day.** September evenings turn cool the moment the sun drops, and four of these seven events peak at or after dusk — the Luminara and Rificolona are entirely evening affairs. A warm layer in the bag is the difference between staying for the fireworks and leaving before them.
+**Dress for two seasons a day.** September evenings turn cool the moment the sun drops, and four of these seven events peak at or after dusk — the Luminara and Rificolona are entirely evening affairs. [The full September layering system is here](/blog/what-to-wear-in-tuscany-in-september). A warm layer in the bag is the difference between staying for the fireworks and leaving before them.
 
 **Eat on the event's schedule, not yours.** Festival towns compress lunch service before the spectacle and overflow after it. Book the table when you book the trip for the Luminara and the Giostra; for the sagre, arrive hungry and early, since the good dishes genuinely run out.
 
@@ -8447,7 +8447,7 @@ The **passeggiata** starts from about 16:30: the slow, social evening walk along
 
 Then the light goes. The Campo's brick pavement holds the warmth of the day, the **Palazzo Pubblico and Torre del Mangia are floodlit**, café tables face the glowing square, and sitting directly on the bricks with a drink — locals do it, visitors learn to — turns the piazza into Tuscany's most beautiful living room. Travel-forum threads on this subject repeat one observation with striking consistency: Siena in the evening, after the tour groups leave, feels like a different and better city, its narrow streets returned to normal life.
 
-Dinner completes the case. **Sienese restaurants open around 19:30** and fill later; the early-evening dinner a coach schedule would require barely exists here. A day-tripper eats lunch in Siena; only an overnighter eats dinner. And in the summer weeks around the Palio — run on 2 July and 16 August, each with days of trials and ceremony around it — the contrade hold their outdoor evening dinners in their own streets, a slice of the city's real life that daytime visitors never learn is happening.`,
+Dinner completes the case. **Sienese restaurants open around 19:30** and fill later; the early-evening dinner a coach schedule would require barely exists here — and [the rules that govern a Sienese bill](/blog/best-restaurants-siena-italy/), from coperto to the counter-versus-table price, are worth reading before your first one. A day-tripper eats lunch in Siena; only an overnighter eats dinner. And in the summer weeks around the Palio — run on 2 July and 16 August, each with days of trials and ceremony around it — the contrade hold their outdoor evening dinners in their own streets, a slice of the city's real life that daytime visitors never learn is happening.`,
       },
       {
         id: 'morning-argument',
@@ -8732,7 +8732,7 @@ What genuinely needs wheels, we name honestly below — the Val d'Orcia photo lo
 
 **Montalcino — line 114, or the rail trick.** The direct 114 runs Siena–Buonconvento–Torrenieri–Montalcino. The often-smoother alternative: the Siena–Grosseto **train to Buonconvento** (31–34 minutes, around ten trains a day), then the 114's short 14-kilometre climb — about half an hour, running every two hours or so and, per long-standing traveller reporting, generally in sync with train arrivals. Confirm the pairing on the planner for your date rather than trusting habit.
 
-**Arezzo — line 138.** About **95 minutes** across the hills, but sparse — departures roughly every four hours, first around 6:25 — so this is a commit-to-the-day trip. [The city repays it](/blog/giostra-del-saracino-arezzo-2026/), and the rail workaround via Florence always exists.
+**Arezzo — line 138.** About **95 minutes** across the hills, but sparse — departures roughly every four hours, first around 6:25 — so this is a commit-to-the-day trip. Walkers should note the same lesson applies to [choosing a Via Francigena stage](/blog/via-francigena-which-section-to-walk/): south of Siena, the return bus decides the plan. [The city repays it](/blog/giostra-del-saracino-arezzo-2026/), and the rail workaround via Florence always exists.
 
 **Chianti — line 125 from Siena, line 365 from Florence.** From Siena, the 125 reaches Castellina and Radda in about 55 minutes on a thin, school-weekday-shaped timetable. The richer service runs from the Florence side: line **365** to Greve in 55–60 minutes (Panzano about ten minutes more), continuing to Radda and Gaiole — the reason [our wine-harvest guide sends bus travellers to Greve](/blog/tuscany-wine-harvest-vendemmia-2026/) rather than promising them the deep Chianti backroads.
 
