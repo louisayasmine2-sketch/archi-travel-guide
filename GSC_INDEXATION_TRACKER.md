@@ -190,8 +190,14 @@ siena-day-trip-or-overnight-2026) karena dikira belum punya. Ternyata ketiganya
 sudah membawa note house-style di akhir section `how-we-checked` ("We have no
 affiliate relationship…") — grep awal memakai pola yang salah sehingga tidak
 menemukannya. Note inline itu sudah dihapus lagi; tidak ada perubahan bersih
-pada ketiga artikel. Flag `links_without_disclosure` di audit_content.py untuk
-tiga halaman ini memang tetap menyala: itu worklist untuk memasang disclosure
-begitu programme Booking/Omio/Trainline approved, sesuai CLAUDE.md §6. Jangan
-ditutup dengan disclosure palsu.
+pada ketiga artikel.
+
+Update setelah merge #74 (scanner disclosure baru): `audit_content.py` sekarang
+menilai disclosure terhadap programme yang benar-benar live di `_redirects`,
+bukan sekadar ada-tidaknya link. Hasilnya **No findings** untuk seluruh korpus —
+tiga artikel di atas tidak lagi menyala karena hanya menaut programme yang masih
+pending (Booking/Omio/Trainline) dan sudah membawa independence note. Ini
+sekaligus memastikan koreksi di atas: ketiganya memang sudah patuh sejak awal.
+Mulai sekarang `links_without_disclosure` selalu pelanggaran nyata — perbaiki
+di hari ia muncul, jangan ditutup dengan disclosure palsu.
 
