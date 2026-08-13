@@ -49,7 +49,7 @@ const allArticles = [
     "best-things-to-do-in-siena",
     "15 Best Things to Do in Siena, Italy: First-Timer Guide",
     "Things to do", "Siena",
-    "Discover the best things to do in Siena, Italy, from Piazza del Campo and the Duomo to contrade streets, local food, tickets, and practical tips.",
+    "The fifteen things worth your time in Siena, with 2026 ticket prices, the opening hours that catch visitors out, and what to skip.",
     "/images/siena/01-hero-palazzo-pubblico-torre-del-mangia.webp",
     [
       { id: "siena-attractions-at-a-glance", heading: "Siena attractions at a glance", body: "| Attraction | Best for | Suggested time | Booking advice | First-visit priority |\n|---|---|---:|---|---|\n| Piazza del Campo | Every visitor | 30–60 minutes | No ticket needed | Essential |\n| Palazzo Pubblico and Museo Civico | Art and civic history | 60–90 minutes | Booking can help | High |\n| Torre del Mangia | Panoramic views | 45–75 minutes | Same-day ticket only | High if physically suitable |\n| Siena Cathedral complex | Art and architecture | 2–3 hours | Book ahead in busy periods | Essential |\n| Santa Maria della Scala | History and rainy-day sightseeing | 90–120 minutes | Optional advance booking | High with extra time |\n| Contrade neighbourhoods | Atmosphere and local identity | Open-ended | No booking | Essential |\n| Orto de’ Pecci | Families and a green break | 30–60 minutes | No booking | Optional |\n| Basilica di San Domenico | Religious history | 30–45 minutes | Check service times | Optional |\n| Pinacoteca Nazionale | Sienese painting | 60–90 minutes | Check current hours | Specialist |\n| Sienese food experience | Local culture | 60–120 minutes | Reserve popular tables | Essential |" },
@@ -89,7 +89,7 @@ const allArticles = [
     "where-to-stay-in-siena",
     "Where to Stay in Siena: Best Areas for Every Trip",
     "Where to stay", "Siena",
-    "Compare the best areas to stay in Siena for first-time visits, families, nightlife, train travel, driving, value, and Tuscan countryside views.",
+    "Six Siena areas compared — starting with the question most travellers actually mean: sleep inside the walls, or outside them?",
     "/images/siena/08-siena-cityscape.webp",
     [
       { id: "best-siena-areas-at-a-glance", heading: "Best Siena areas at a glance", body: "| Area | Best for | Main advantage | Main trade-off |\n|---|---|---|---|\n| Piazza del Campo and central historic centre | First-time visitors and short stays | Walk to major sights | Higher prices, possible noise, difficult luggage access |\n| Duomo and Terzo di Città | Couples, architecture, quieter atmosphere | Characterful streets near the cathedral | Hills, steps, fewer easy vehicle drop-offs |\n| San Domenico, Fontebranda, and western centre | Views and a quieter local feel | Near Saint Catherine sites and panoramic routes | Steep changes in elevation |\n| Porta Camollia, La Lizza, and Viale Tozzi | Bus travellers, value, easier arrival | Practical connection to the centre | Less postcard-like than the Campo |\n| Train station and Antiporto | Rail travellers and some drivers | Transport convenience and larger properties | Outside the old-town atmosphere; uphill connection |\n| Countryside and agriturismi | Drivers, longer stays, rural calm | Tuscan scenery, parking, space | Usually unsuitable for car-free evening access |" },
@@ -149,7 +149,7 @@ const allArticles = [
     "siena-3-day-itinerary",
     "Siena 3-Day Itinerary: City Highlights and a Tuscany Day Trip",
     "Itineraries", "Siena",
-    "Plan three days in Siena with two relaxed city days and an optional Chianti, San Gimignano, Val d’Orcia, or Montalcino day trip.",
+    "Three days in Siena at a Tuscan pace: two unhurried city days, one countryside day, and the trade-offs behind each choice.",
     "/images/siena/02-siena-cathedral-facade.webp",
     [
       { id: "three-days-in-siena-at-a-glance", heading: "Three days in Siena at a glance", body: "| Day | Main focus | Best moments |\n|---|---|---|\n| Day 1 | Siena essentials | Campo, Palazzo Pubblico, tower or museum, Duomo complex, evening walk |\n| Day 2 | Deeper Siena | Santa Maria della Scala, Saint Catherine sites, contrade, local food, green space |\n| Day 3 | Choose your Tuscany | Chianti wine tour, San Gimignano and Monteriggioni, Val d’Orcia and Montalcino, or slow Siena |\n\nCompare duration, group size, free time, meeting point, and cancellation conditions before booking." },
@@ -179,7 +179,7 @@ const allArticles = [
     "how-much-siena-trip-costs",
     "How Much Does a Trip to Siena Cost? 2026 Budget Guide",
     "Budget", "Siena",
-    "Plan a realistic Siena budget for transport, hotels, food, attractions, tours, and family travel, with 2026 planning ranges and saving tips.",
+    "What a Siena trip really costs in 2026 — beds, meals, passes and buses in real numbers, plus where the bill quietly grows.",
     "/images/siena/07-pici-all-aglione.webp",
     [
       { id: "siena-budget-at-a-glance", heading: "Siena budget at a glance", body: "| Travel style | Planning range | Assumptions |\n|---|---:|---|\n| Day trip from Florence | €45–€120 per person | Return transport, food, one or more attractions, no hotel |\n| Budget overnight | €90–€160 per person/day | Shared basic room, casual meals, selective sights |\n| Comfortable mid-range | €170–€300 per person/day | Shared central room, sit-down meals, main attractions, some extras |\n| Upscale | €320+ per person/day | Premium room, higher-end dining, private or small-group experiences |\n| Family trip | Highly variable | Larger room, age-based ticket reductions, snacks, possible taxis |\n\nThese are budgeting bands, not minimum prices. A traveller using free sights and a packed lunch can spend less; a Palio-date room or private wine tour can cost far more.\n\nPrices and availability are controlled by the provider, so compare the final total and cancellation terms before paying." },
@@ -329,7 +329,7 @@ const allArticles = [
     "tuscany-packing-checklist",
     "Tuscany Packing List: What to Wear and Bring in Every Season",
     "Packing", "Tuscany",
-    "A practical Tuscany packing list for spring, summer, autumn and winter: clothes, shoes, church attire, driving essentials and carry-on tips.",
+    "What to pack for Tuscany season by season: the shoes the cobbles demand, the church cover-up rule, and what to leave at home.",
     "/images/siena/06-siena-contrada-street.webp",
     [
       {
@@ -494,9 +494,9 @@ const allArticles = [
   ),
   A(
     "siena-with-kids",
-    "Siena with Kids: A Practical Family Travel Guide",
+    "Siena with Kids: The Hills, the Stroller Problem and What Works",
     "Family travel", "Siena",
-    "Plan Siena with kids using realistic stroller advice, family-friendly sights, museums, parks, food stops, age-based ideas, and a gentle one-day route.",
+    "Siena with children, honestly: where strollers struggle, which sights hold young attention, and a gentle one-day route that works.",
     "/images/siena/04-orto-de-pecci.webp",
     [
       { id: "is-siena-family-friendly", heading: "Is Siena family-friendly?", body: "Siena works best for families who enjoy walking and are comfortable adapting the day. Many central streets have limited vehicle traffic, and major sights sit relatively close together. However, “close” on a map can still mean an uphill route, steps, uneven paving, and no easy place to push a stroller.\n\nFamilies often enjoy Siena because it offers:\n\n- a dramatic main square where children can observe the city without entering a museum;\n- animal emblems and flags connected with the 17 contrade;\n- striped cathedral architecture and colourful frescoes;\n- open areas at Orto de’ Pecci and the fortress;\n- familiar foods such as pasta, bread, pastries, and gelato;\n- a historic centre small enough to understand after one day.\n\nThe main challenges are:\n\n- steep streets and cobbles;\n- midday heat in summer;\n- limited changing facilities in small cafés;\n- historic buildings with stairs and small lifts;\n- crowd pressure during weekends and Palio periods;\n- long adult-focused tours;\n- difficult car access inside the restricted traffic zone." },
@@ -526,9 +526,9 @@ const allArticles = [
   ),
     A(
     "best-day-trips-from-siena",
-    "10 Best Day Trips from Siena: By Car, Bus or Tour",
+    "10 Day Trips from Siena: Choosing One Instead of Racing Three",
     "Day trips", "Tuscany",
-    "Compare the best day trips from Siena, including San Gimignano, Chianti, Val d’Orcia, Montalcino and Florence, with car, bus and tour advice.",
+    "Ten day trips from Siena — which reward a car, which work by bus, and how to pick one good day instead of racing through three.",
     "/images/tuscany/08-siena-cityscape.webp",
     [
       {
@@ -674,9 +674,9 @@ const allArticles = [
   ),
     A(
     "tuscany-food-guide",
-    "Tuscan Food Guide: 25 Dishes and Drinks to Try",
+    "Tuscan Food Guide: 25 Dishes Worth Ordering, and Why",
     "Food & drink", "Tuscany",
-    "Discover traditional Tuscan food, from ribollita, pici and bistecca to pecorino, cacciucco, panforte and regional wines, plus practical dining tips.",
+    "Twenty-five Tuscan dishes and drinks worth ordering, what makes each one local, and the dining habits that shape a Tuscan menu.",
     "/images/tuscany/07-pici-all-aglione.webp",
     [
       {
@@ -971,7 +971,7 @@ const allArticles = [
     "siena-hotel-vs-apartment-guide",
     "Siena Hotel vs Apartment: Which Is Better for Your Trip?",
     "Where to stay", "Siena",
-    "Compare a Siena hotel vs apartment on price, location, breakfast, kitchens, families, luggage and parking to choose the right base.",
+    "Hotel or apartment in Siena? The honest split: breakfast and service against kitchens and space, with luggage and parking factored in.",
     "/images/siena/06-siena-contrada-street.webp",
     [
       {
@@ -1987,7 +1987,7 @@ None of this is designed to catch tourists out. It is simply how Italians eat, p
     "siena-day-trips-without-a-car",
     "Siena Day Trips Without a Car: Train, Bus and Tours",
     "Day trips", "Siena",
-    "Plan Siena day trips without a car, including Florence, San Gimignano, Arezzo, Chianti and Val d’Orcia by train, bus or guided tour.",
+    "Every Siena day trip that works on public transport: the bus lines, the realistic journey times, and the Sunday rule that ruins plans.",
     "/images/siena/08-siena-cityscape.webp",
     [
           {
@@ -2177,7 +2177,7 @@ None of this is designed to catch tourists out. It is simply how Italians eat, p
     "siena-tours-and-classes-to-book-first",
     "Siena Tours and Classes: What to Book First",
     "Things to do", "Siena",
-    "Compare Siena walking tours, Duomo visits, food tours, cooking classes, wine trips and private guides, with advice on what to book first.",
+    "Which Siena tours to book ahead and which can wait until the day — walking tours, Duomo visits, cooking classes and wine trips compared.",
     "/images/siena/03-piccolomini-library.webp",
     [
           {
@@ -2484,9 +2484,9 @@ Florence from Siena is a good day out and an easy journey. The visitors who come
 
   A(
     'florence-travel-budget-guide',
-    'How Much Does Florence Really Cost? A Practical Budget Guide',
+    'How Much Does Florence Really Cost? The 2026 Numbers',
     'Budget', 'Italy',
-    'A realistic breakdown of what Florence costs today — from budget hostels to luxury hotels, plus money-saving tips.',
+    'What Florence costs in 2026, from hostel beds to a stack of museum tickets — including the admissions that rose this year.',
     '/images/italy/florence-budget-travel-street-food.webp',
     [
       { id: 'intro', heading: 'Florence is smaller than you think', body: 'You can walk from one end of the historic centre to the other in about twenty minutes, which means you will spend less on transport and more on the things that actually matter — the food, the art, and the leather jacket you swore you would not buy but absolutely will.\n\nThe good news is that Florence is significantly cheaper than Rome or Venice for accommodation and dining. Here is what Florence actually costs, broken down by budget level.' },
@@ -3017,10 +3017,10 @@ For more ideas on combining opera with vineyards, hilltop villages, and Tuscan t
   ),
   A(
     'best-day-trips-from-florence-to-siena-2026',
-    'Best Day Trips from Florence to Siena: Complete 2026 Guide',
+    'Florence to Siena Day Trip 2026: The Plan That Beats the Coaches',
     'Day trips',
     'Siena',
-    'Plan the best Florence to Siena day trip for 2026: train or bus choice, a realistic one-day itinerary and tips for avoiding the crowds.',
+    'Florence to Siena in 2026: bus or train, a one-day plan that dodges the coach crowds, and why the last bus decides your afternoon.',
     '/images/siena/best-day-trip-florence-to-siena-piazza-del-campo.webp',
     [
       {
@@ -3128,7 +3128,7 @@ Turn your Florence stay into a full Tuscany adventure. Explore deeper with our d
     ],
     '2026-07-17',
     {
-      seoTitle: 'Best Day Trips from Florence to Siena: Complete 2026 Guide',
+      seoTitle: 'Florence to Siena Day Trip 2026: The Plan That Beats the Coaches',
       primaryKeyword: 'best day trips from florence to siena 2026',
       secondaryKeywords: [
         'day trip from florence to siena',
@@ -3152,7 +3152,7 @@ Turn your Florence stay into a full Tuscany adventure. Explore deeper with our d
     '7-Day Tuscany Itinerary for Independent Travellers 2026: Florence Base + Self-Drive (Siena, Chianti, Val d’Orcia)',
     'Itineraries',
     'Tuscany',
-    'A realistic 7-day Tuscany itinerary from a Florence base: Siena by train, Chianti wine roads by car and Val d’Orcia without hotel changes.',
+    'Seven days in Tuscany from one Florence base: Siena by train, Chianti by car, Val d’Orcia in a day â and not one hotel change.',
     '/images/tuscany/7-day-tuscany-itinerary-hero.jpg',
     [
       {
@@ -3388,7 +3388,7 @@ Safe travels!`,
     'Hidden Gems Around Siena, Tuscany: Escape the Crowds in 2026',
     'Things to do',
     'Tuscany',
-    'Discover the quiet side of Tuscany near Siena: Monteriggioni, San Quirico d’Orcia and local vineyards away from the tour-bus crowds.',
+    'Eight quiet places within an hour of Siena: walled Monteriggioni, the Crete Senesi ridges and vineyards the tour buses never reach.',
     '/images/siena/hidden-gems-siena-tuscany-hero.webp',
     [
       {
@@ -3918,7 +3918,7 @@ The two room photographs are by cottonbro and Markus Spiske, under the [Pexels L
     'Val d’Orcia Day Trip from Siena: Pienza, Montalcino & Montepulciano (2026 Guide)',
     'Day trips',
     'Tuscany',
-    'Plan a Val d’Orcia day trip from Siena: realistic routes to Pienza, Montalcino and Montepulciano by bus, car or tour, with timing tips.',
+    'The Val d’Orcia from Siena: a realistic route through Pienza, Montalcino and Montepulciano, by car or on the thin weekday bus.',
     '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
     [
       {
@@ -4290,7 +4290,7 @@ Orto de' Pecci, in the valley below the walls. On a week when the centre is full
     'San Gimignano Day Trip from Siena: Bus, Tickets & One-Day Plan (2026)',
     'Day trips',
     'Tuscany',
-    'Plan a San Gimignano day trip from Siena or Florence: bus 130 via Poggibonsi, 2026 ticket and parking prices, and a realistic one-day plan.',
+    'San Gimignano on bus 130 from Siena: 2026 ticket and parking prices, and a one-day plan built around the hours the coaches are gone.',
     '/images/tuscany/san-gimignano-medieval-towers.webp',
     [
       {
