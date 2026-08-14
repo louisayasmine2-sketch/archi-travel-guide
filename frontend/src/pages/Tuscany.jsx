@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import LazyImage from "@/components/common/LazyImage";
-import { articlesByRegion } from "@/data/articles";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema, placeSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
@@ -21,7 +20,6 @@ const sections = [
 ];
 
 export default function Tuscany() {
-  const tuscanyArticles = articlesByRegion("Tuscany").concat(articlesByRegion("Siena")).slice(0, 6);
   const breadcrumbs = [{ label: 'Home', to: '/' }, { label: 'Tuscany' }];
   const schema = [
     breadcrumbSchema(breadcrumbs),

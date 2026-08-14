@@ -6,7 +6,9 @@ import ArticleCard from "@/components/common/ArticleCard";
 import HotelWidget from "@/components/shared/HotelWidget";
 import SEO from "@/components/common/SEO";
 import { getCity } from "@/data/cities";
-import { getArticle } from "@/data/articles";
+// Card metadata only — the related-guides grid needs titles and images, not
+// article bodies (@/data/articles is 1.2MB of them).
+import articlesIndex from "@/data/articlesIndex.json";
 import { breadcrumbSchema, faqSchema, placeSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import NotFound from "./NotFound";
@@ -22,7 +24,9 @@ export default function City({ slug: slugProp }) {
   const city = getCity(slug);
   if (!city) return <NotFound />;
 
-  const relatedArticles = (city.related || []).map(getArticle).filter(Boolean);
+  const relatedArticles = (city.related || [])
+    .map((slug) => articlesIndex.find((a) => a.slug === slug))
+    .filter(Boolean);
   const path = `/${city.slug}`;
   const url = canonical(path);
 
