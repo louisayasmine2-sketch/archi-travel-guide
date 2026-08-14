@@ -2,10 +2,18 @@ import { useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { ArrowRight, X } from "lucide-react";
 import SEO from "@/components/common/SEO";
-import { articles } from "@/data/articles";
+// Card metadata only. Importing @/data/articles here would pull every
+// article BODY (1.2MB and growing) into this route's chunk to render a list
+// of titles — the index is generated from that same store on every build.
+import articlesIndex from "@/data/articlesIndex.json";
 
-// Everything on this page is derived from articles.js. No card, date, image or
-// category is hardcoded — the previous version was a mockup wired to nothing.
+// This listing has always covered the articles.js store; the index also
+// carries the cluster and long-form guides, which have their own hub pages.
+const articles = articlesIndex.filter((a) => a.store === "articles");
+
+// Everything on this page is derived from the article store. No card, date,
+// image or category is hardcoded — the previous version was a mockup wired to
+// nothing.
 const MONTHS = [
   "January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December",

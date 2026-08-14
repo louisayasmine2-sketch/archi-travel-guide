@@ -2,119 +2,77 @@
 /*
  * scripts/generate-articles-index.js
  *
- * Writes src/data/articlesIndex.json: the lightweight metadata (slug, title,
- * excerpt, canonicalPath, updated) of every PUBLISHED article — the A() calls
- * in src/data/articles.js (parsed with the same dependency-free parser the
- * sitemap and llms.txt generators use), the Siena cluster pages in
+ * Writes src/data/articlesIndex.json: the card-level metadata (slug, title,
+ * category, region, excerpt, image, readMinutes, canonicalPath, updated) of
+ * every PUBLISHED article — src/data/articles.js, the Siena cluster pages in
  * sienaContentCluster.json, and the standalone Florence→Siena guide. Search
- * (lib/searchIndex.js) and the month cue read this index, so a page missing
- * here is invisible to both.
+ * (lib/searchIndex.js), the month cue and every listing surface read this
+ * index, so a page missing here is invisible to all of them.
  *
- * Why: articles.js carries every article's full body (~830KB of the main
- * bundle before this existed). Listing surfaces — the homepage pillars,
- * recently-updated cards and the month picker — only need metadata, so they
- * import this index instead and the bodies stay in the lazily-loaded article
- * routes. Regenerated on every build and on npm start; committed like
- * sitemap.xml so fresh clones work without a build step.
+ * Why: articles.js carries every article's full body — 1.2MB of JavaScript at
+ * 59 published articles, and growing with every one added. Listing surfaces
+ * (the blog index, destination pages, homepage cards, city related-guides)
+ * only need the fields above, so they import this index and the bodies stay
+ * in the lazily-loaded article route.
+ *
+ * articles.js is EVALUATED rather than pattern-matched: the earlier regex
+ * parser silently drifted from the store (wrong readMinutes on 8 articles,
+ * wrong updated on 10, because options can override constructor arguments).
+ * Reading the store's own `articles` export also inherits its publish rule
+ * verbatim, so scheduled posts cannot leak into the index. The JSON stores
+ * keep their own publish timestamps.
+ *
+ * Regenerated on every build and on npm start; committed like sitemap.xml so
+ * fresh clones work without a build step.
  */
 
 const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-const DEFAULT_UPDATED = '2025-11-10'; // A() helper's default `updated`
 
-function splitTopLevelArgs(callText) {
-  const args = [];
-  let depth = 0;
-  let current = '';
-  let inString = false;
-  let quote = '';
-  let escaped = false;
-  for (const ch of callText) {
-    if (inString) {
-      if (escaped) escaped = false;
-      else if (ch === '\\') escaped = true;
-      else if (ch === quote) { inString = false; quote = ''; }
-      current += ch;
-      continue;
-    }
-    if (ch === '"' || ch === "'" || ch === '`') { inString = true; quote = ch; current += ch; continue; }
-    if (ch === '(' || ch === '[' || ch === '{') depth += 1;
-    if (ch === ')' || ch === ']' || ch === '}') depth -= 1;
-    if (ch === ',' && depth === 0) { args.push(current.trim()); current = ''; continue; }
-    current += ch;
+// The JSON stores keep their bodies as one string rather than the section
+// array A() uses, so their reading time is estimated the same way A() does:
+// characters over 1200, floored at 4.
+function readMinutesFromText(text = '') {
+  return Math.max(4, Math.round(String(text).length / 1200));
+}
+
+// Load src/data/articles.js in Node. It is plain data (ESM syntax + two JSON
+// imports), so a light shim is enough — no bundler, no dependencies, matching
+// the rule that these scripts stay dependency-free.
+function loadArticleStore() {
+  const dataDir = path.join(ROOT, 'src/data');
+  const src = fs
+    .readFileSync(path.join(dataDir, 'articles.js'), 'utf-8')
+    .replace(/^import (\w+) from "\.\/([^"]+)";$/gm,
+      (_, name, file) => `const ${name} = require(${JSON.stringify(path.join(dataDir, file))});`)
+    .replace(/^export const /gm, 'const ')
+    .replace(/^export /gm, '');
+  const mod = { exports: {} };
+  // eslint-disable-next-line no-new-func
+  new Function('module', 'require', `${src}\nmodule.exports = { articles };`)(mod, require);
+  if (!Array.isArray(mod.exports.articles)) {
+    throw new Error('articles.js did not export an articles array');
   }
-  if (current.trim()) args.push(current.trim());
-  return args;
+  return mod.exports.articles;
 }
 
-function stringArg(arg = '') {
-  const trimmed = arg.trim();
-  if (!trimmed) return '';
-  const q = trimmed[0];
-  if (q !== '"' && q !== "'" && q !== '`') return '';
-  let out = '';
-  let escaped = false;
-  for (let i = 1; i < trimmed.length; i += 1) {
-    const ch = trimmed[i];
-    if (escaped) { out += ch; escaped = false; continue; }
-    if (ch === '\\') { escaped = true; continue; }
-    if (ch === q) return out;
-    out += ch;
-  }
-  return '';
-}
-
-function canonicalPathArg(arg = '') {
-  const m = arg.match(/canonicalPath:\s*['"]([^'"]+)['"]/);
-  return m ? m[1] : null;
-}
-
+// The store's own `articles` export already applies the publish rule, so this
+// is a pure projection: pick the card fields, drop the bodies.
 function extractArticles() {
-  const src = fs.readFileSync(path.join(ROOT, 'src/data/articles.js'), 'utf-8');
-  const results = [];
-  const seen = new Set();
-  let i = 0;
-  while (i < src.length) {
-    const idx = src.indexOf('A(', i);
-    if (idx === -1) break;
-    const before = src[idx - 1];
-    if (before && /[A-Za-z0-9_$.]/.test(before)) { i = idx + 2; continue; }
-    let j = idx + 2;
-    let depth = 1;
-    let inString = false;
-    let quote = '';
-    let escaped = false;
-    while (j < src.length && depth > 0) {
-      const ch = src[j];
-      if (inString) {
-        if (escaped) escaped = false;
-        else if (ch === '\\') escaped = true;
-        else if (ch === quote) { inString = false; quote = ''; }
-      } else if (ch === '"' || ch === "'" || ch === '`') {
-        inString = true; quote = ch;
-      } else if (ch === '(') depth += 1;
-      else if (ch === ')') depth -= 1;
-      j += 1;
-    }
-    if (depth !== 0) break;
-    const args = splitTopLevelArgs(src.slice(idx + 2, j - 1));
-    const slug = stringArg(args[0]);
-    if (slug && !seen.has(slug)) {
-      seen.add(slug);
-      const explicitUpdated = args.map(stringArg).find((a) => /^\d{4}-\d{2}-\d{2}/.test(a));
-      results.push({
-        slug,
-        title: stringArg(args[1]),
-        excerpt: stringArg(args[4]),
-        canonicalPath: canonicalPathArg(args[9] || ''),
-        updated: explicitUpdated ? explicitUpdated.slice(0, 10) : DEFAULT_UPDATED,
-      });
-    }
-    i = j;
-  }
-  return results;
+  return loadArticleStore().map((a) => ({
+    slug: a.slug,
+    title: a.title,
+    category: a.category,
+    region: a.region,
+    excerpt: a.excerpt,
+    image: a.image,
+    readMinutes: a.readMinutes,
+    canonicalPath: a.canonicalPath || null,
+    updated: a.updated,
+    store: 'articles',
+  }));
 }
 
 // The Siena cluster and the standalone Florence→Siena guide live in JSON data
@@ -131,9 +89,14 @@ function extractJsonArticles(now) {
     results.push({
       slug: a.slug,
       title: a.title,
+      category: a.category,
+      region: a.region,
       excerpt: a.excerpt,
+      image: a.hero?.src || '',
+      readMinutes: readMinutesFromText(a.bodyHtml),
       canonicalPath: a.canonicalPath,
       updated: String(a.dateModified).slice(0, 10),
+      store: 'cluster',
     });
   }
 
@@ -144,9 +107,14 @@ function extractJsonArticles(now) {
     results.push({
       slug: f2s.slug,
       title: f2s.title,
+      category: f2s.category || 'Transport',
+      region: 'Tuscany',
       excerpt: f2s.metaDescription,
+      image: f2s.hero?.src || '',
+      readMinutes: readMinutesFromText(f2s.bodyMarkdown),
       canonicalPath: f2s.canonicalPath,
       updated: String(f2s.dateModified).slice(0, 10),
+      store: 'guide',
     });
   }
 
@@ -154,12 +122,12 @@ function extractJsonArticles(now) {
 }
 
 function main() {
-  // Same publish rule (and +07:00 site timezone) as articles.js's own
-  // `articles` export: future-dated entries are not listed.
+  // extractArticles() already returns the store's published set (its own
+  // `articles` export applies the +07:00 publish rule), so no second filter
+  // here — one would have to re-parse `updated`, which is exactly the kind of
+  // drift this rewrite removes.
   const now = new Date();
-  const published = extractArticles().filter(
-    (a) => new Date(`${a.updated}T00:00:00+07:00`) <= now
-  );
+  const published = extractArticles();
   const seen = new Set(published.map((a) => a.slug));
   for (const extra of extractJsonArticles(now)) {
     if (!seen.has(extra.slug)) {
