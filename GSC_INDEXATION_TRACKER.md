@@ -178,15 +178,22 @@ Kalau ada URL non-`/go/` di daftar itu, berarti production menyajikan
 robots.txt yang berbeda dari repo (mis. di subdomain) — investigasi dulu
 sebelum menyimpulkan apa pun.
 
-## Temuan sampingan saat audit (difix di branch ini, 2026-08-12)
+## Temuan sampingan saat audit (2026-08-12)
 
 Dua artikel batch Rank-1 (2026-08-10) menaut guide Florence–Siena di path salah
 `/blog/florence-to-siena-by-train-or-bus/` — path itu tidak punya route sehingga
-merender halaman 404 (HTTP 200 + noindex). Tiga link konten dibetulkan ke
-`/florence-to-siena-by-train-or-bus/` dan ditambah 301 safety net di
-`_redirects` untuk varian yang mungkin sudah ter-crawl. Kalau URL salahnya
-sempat muncul di GSC (soft 404 / excluded by noindex), akan bergeser ke "Page
-with redirect" lalu hilang setelah recrawl.
+merender halaman 404 (HTTP 200 + noindex).
+
+Ketiga link konten itu **sudah dibetulkan lewat #78** (2026-08-14), dikerjakan
+paralel dan lebih dulu sampai di `main`; branch ini tidak lagi menyumbang
+perbaikan link tersebut. Yang tetap disumbang di sini adalah **301 safety net di
+`_redirects`** untuk URL salah yang mungkin terlanjur ter-crawl selama URL itu
+hidup — perbaikan konten saja tidak menangani URL yang sudah masuk index Google.
+Aturan barunya diuji dengan `wrangler pages dev`: kedua varian 301 ke
+`/florence-to-siena-by-train-or-bus/`, path kanonik tetap 200 (tidak ada loop),
+dan seluruh rule lama tidak berubah. Kalau URL salahnya sempat muncul di GSC
+(soft 404 / excluded by noindex), akan bergeser ke "Page with redirect" lalu
+hilang setelah recrawl.
 
 Koreksi 2026-08-12: sempat ditambahkan independence note inline di tiga artikel
 (florence-or-siena-which-to-visit-2026, rome-to-siena-train-bus-2026,
