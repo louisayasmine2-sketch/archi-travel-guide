@@ -128,6 +128,10 @@ Dua baris pertama sudah live saat batch ini dibuat (12–13 Agu); sisanya menyus
 | /blog/is-arezzo-worth-visiting-2026 | 2026-08-27 |  |  |  |  |  |
 | /blog/pienza-pecorino-fiera-del-cacio-2026 | 2026-08-28 |  |  |  |  |  |
 | /blog/what-to-wear-in-tuscany-in-september | 2026-08-29 |  |  |  |  |  |
+| /blog/panzano-in-chianti-cecchini-vino-al-vino | 2026-08-30 |  |  |  |  |  |
+| /blog/via-francigena-which-section-to-walk | 2026-08-31 |  |  |  |  |  |
+| /blog/uffizi-tickets-sold-out-what-to-do | 2026-09-01 |  |  |  |  |  |
+| /blog/leroica-gaiole-in-chianti-2026 | 2026-09-02 |  |  |  |  |  |
 
 Catatan batch 3:
 - Halaman live yang berubah signifikan dan layak re-request saat deploy: homepage
