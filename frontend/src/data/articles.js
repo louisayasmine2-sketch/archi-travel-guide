@@ -49,7 +49,7 @@ const allArticles = [
     "best-things-to-do-in-siena",
     "15 Best Things to Do in Siena, Italy: First-Timer Guide",
     "Things to do", "Siena",
-    "Discover the best things to do in Siena, Italy, from Piazza del Campo and the Duomo to contrade streets, local food, tickets, and practical tips.",
+    "The fifteen things worth your time in Siena, with 2026 ticket prices, the opening hours that catch visitors out, and what to skip.",
     "/images/siena/01-hero-palazzo-pubblico-torre-del-mangia.webp",
     [
       { id: "siena-attractions-at-a-glance", heading: "Siena attractions at a glance", body: "| Attraction | Best for | Suggested time | Booking advice | First-visit priority |\n|---|---|---:|---|---|\n| Piazza del Campo | Every visitor | 30–60 minutes | No ticket needed | Essential |\n| Palazzo Pubblico and Museo Civico | Art and civic history | 60–90 minutes | Booking can help | High |\n| Torre del Mangia | Panoramic views | 45–75 minutes | Same-day ticket only | High if physically suitable |\n| Siena Cathedral complex | Art and architecture | 2–3 hours | Book ahead in busy periods | Essential |\n| Santa Maria della Scala | History and rainy-day sightseeing | 90–120 minutes | Optional advance booking | High with extra time |\n| Contrade neighbourhoods | Atmosphere and local identity | Open-ended | No booking | Essential |\n| Orto de’ Pecci | Families and a green break | 30–60 minutes | No booking | Optional |\n| Basilica di San Domenico | Religious history | 30–45 minutes | Check service times | Optional |\n| Pinacoteca Nazionale | Sienese painting | 60–90 minutes | Check current hours | Specialist |\n| Sienese food experience | Local culture | 60–120 minutes | Reserve popular tables | Essential |" },
@@ -89,7 +89,7 @@ const allArticles = [
     "where-to-stay-in-siena",
     "Where to Stay in Siena: Best Areas for Every Trip",
     "Where to stay", "Siena",
-    "Compare the best areas to stay in Siena for first-time visits, families, nightlife, train travel, driving, value, and Tuscan countryside views.",
+    "Six Siena areas compared — starting with the question most travellers actually mean: sleep inside the walls, or outside them?",
     "/images/siena/08-siena-cityscape.webp",
     [
       { id: "best-siena-areas-at-a-glance", heading: "Best Siena areas at a glance", body: "| Area | Best for | Main advantage | Main trade-off |\n|---|---|---|---|\n| Piazza del Campo and central historic centre | First-time visitors and short stays | Walk to major sights | Higher prices, possible noise, difficult luggage access |\n| Duomo and Terzo di Città | Couples, architecture, quieter atmosphere | Characterful streets near the cathedral | Hills, steps, fewer easy vehicle drop-offs |\n| San Domenico, Fontebranda, and western centre | Views and a quieter local feel | Near Saint Catherine sites and panoramic routes | Steep changes in elevation |\n| Porta Camollia, La Lizza, and Viale Tozzi | Bus travellers, value, easier arrival | Practical connection to the centre | Less postcard-like than the Campo |\n| Train station and Antiporto | Rail travellers and some drivers | Transport convenience and larger properties | Outside the old-town atmosphere; uphill connection |\n| Countryside and agriturismi | Drivers, longer stays, rural calm | Tuscan scenery, parking, space | Usually unsuitable for car-free evening access |" },
@@ -149,7 +149,7 @@ const allArticles = [
     "siena-3-day-itinerary",
     "Siena 3-Day Itinerary: City Highlights and a Tuscany Day Trip",
     "Itineraries", "Siena",
-    "Plan three days in Siena with two relaxed city days and an optional Chianti, San Gimignano, Val d’Orcia, or Montalcino day trip.",
+    "Three days in Siena at a Tuscan pace: two unhurried city days, one countryside day, and the trade-offs behind each choice.",
     "/images/siena/02-siena-cathedral-facade.webp",
     [
       { id: "three-days-in-siena-at-a-glance", heading: "Three days in Siena at a glance", body: "| Day | Main focus | Best moments |\n|---|---|---|\n| Day 1 | Siena essentials | Campo, Palazzo Pubblico, tower or museum, Duomo complex, evening walk |\n| Day 2 | Deeper Siena | Santa Maria della Scala, Saint Catherine sites, contrade, local food, green space |\n| Day 3 | Choose your Tuscany | Chianti wine tour, San Gimignano and Monteriggioni, Val d’Orcia and Montalcino, or slow Siena |\n\nCompare duration, group size, free time, meeting point, and cancellation conditions before booking." },
@@ -179,7 +179,7 @@ const allArticles = [
     "how-much-siena-trip-costs",
     "How Much Does a Trip to Siena Cost? 2026 Budget Guide",
     "Budget", "Siena",
-    "Plan a realistic Siena budget for transport, hotels, food, attractions, tours, and family travel, with 2026 planning ranges and saving tips.",
+    "What a Siena trip really costs in 2026 — beds, meals, passes and buses in real numbers, plus where the bill quietly grows.",
     "/images/siena/07-pici-all-aglione.webp",
     [
       { id: "siena-budget-at-a-glance", heading: "Siena budget at a glance", body: "| Travel style | Planning range | Assumptions |\n|---|---:|---|\n| Day trip from Florence | €45–€120 per person | Return transport, food, one or more attractions, no hotel |\n| Budget overnight | €90–€160 per person/day | Shared basic room, casual meals, selective sights |\n| Comfortable mid-range | €170–€300 per person/day | Shared central room, sit-down meals, main attractions, some extras |\n| Upscale | €320+ per person/day | Premium room, higher-end dining, private or small-group experiences |\n| Family trip | Highly variable | Larger room, age-based ticket reductions, snacks, possible taxis |\n\nThese are budgeting bands, not minimum prices. A traveller using free sights and a packed lunch can spend less; a Palio-date room or private wine tour can cost far more.\n\nPrices and availability are controlled by the provider, so compare the final total and cancellation terms before paying." },
@@ -329,7 +329,7 @@ const allArticles = [
     "tuscany-packing-checklist",
     "Tuscany Packing List: What to Wear and Bring in Every Season",
     "Packing", "Tuscany",
-    "A practical Tuscany packing list for spring, summer, autumn and winter: clothes, shoes, church attire, driving essentials and carry-on tips.",
+    "What to pack for Tuscany season by season: the shoes the cobbles demand, the church cover-up rule, and what to leave at home.",
     "/images/siena/06-siena-contrada-street.webp",
     [
       {
@@ -494,9 +494,9 @@ const allArticles = [
   ),
   A(
     "siena-with-kids",
-    "Siena with Kids: A Practical Family Travel Guide",
+    "Siena with Kids: The Hills, the Stroller Problem and What Works",
     "Family travel", "Siena",
-    "Plan Siena with kids using realistic stroller advice, family-friendly sights, museums, parks, food stops, age-based ideas, and a gentle one-day route.",
+    "Siena with children, honestly: where strollers struggle, which sights hold young attention, and a gentle one-day route that works.",
     "/images/siena/04-orto-de-pecci.webp",
     [
       { id: "is-siena-family-friendly", heading: "Is Siena family-friendly?", body: "Siena works best for families who enjoy walking and are comfortable adapting the day. Many central streets have limited vehicle traffic, and major sights sit relatively close together. However, “close” on a map can still mean an uphill route, steps, uneven paving, and no easy place to push a stroller.\n\nFamilies often enjoy Siena because it offers:\n\n- a dramatic main square where children can observe the city without entering a museum;\n- animal emblems and flags connected with the 17 contrade;\n- striped cathedral architecture and colourful frescoes;\n- open areas at Orto de’ Pecci and the fortress;\n- familiar foods such as pasta, bread, pastries, and gelato;\n- a historic centre small enough to understand after one day.\n\nThe main challenges are:\n\n- steep streets and cobbles;\n- midday heat in summer;\n- limited changing facilities in small cafés;\n- historic buildings with stairs and small lifts;\n- crowd pressure during weekends and Palio periods;\n- long adult-focused tours;\n- difficult car access inside the restricted traffic zone." },
@@ -526,9 +526,9 @@ const allArticles = [
   ),
     A(
     "best-day-trips-from-siena",
-    "10 Best Day Trips from Siena: By Car, Bus or Tour",
+    "10 Day Trips from Siena: Choosing One Instead of Racing Three",
     "Day trips", "Tuscany",
-    "Compare the best day trips from Siena, including San Gimignano, Chianti, Val d’Orcia, Montalcino and Florence, with car, bus and tour advice.",
+    "Ten day trips from Siena — which reward a car, which work by bus, and how to pick one good day instead of racing through three.",
     "/images/tuscany/08-siena-cityscape.webp",
     [
       {
@@ -674,9 +674,9 @@ const allArticles = [
   ),
     A(
     "tuscany-food-guide",
-    "Tuscan Food Guide: 25 Dishes and Drinks to Try",
+    "Tuscan Food Guide: 25 Dishes Worth Ordering, and Why",
     "Food & drink", "Tuscany",
-    "Discover traditional Tuscan food, from ribollita, pici and bistecca to pecorino, cacciucco, panforte and regional wines, plus practical dining tips.",
+    "Twenty-five Tuscan dishes and drinks worth ordering, what makes each one local, and the dining habits that shape a Tuscan menu.",
     "/images/tuscany/07-pici-all-aglione.webp",
     [
       {
@@ -971,7 +971,7 @@ const allArticles = [
     "siena-hotel-vs-apartment-guide",
     "Siena Hotel vs Apartment: Which Is Better for Your Trip?",
     "Where to stay", "Siena",
-    "Compare a Siena hotel vs apartment on price, location, breakfast, kitchens, families, luggage and parking to choose the right base.",
+    "Hotel or apartment in Siena? The honest split: breakfast and service against kitchens and space, with luggage and parking factored in.",
     "/images/siena/06-siena-contrada-street.webp",
     [
       {
@@ -1987,7 +1987,7 @@ None of this is designed to catch tourists out. It is simply how Italians eat, p
     "siena-day-trips-without-a-car",
     "Siena Day Trips Without a Car: Train, Bus and Tours",
     "Day trips", "Siena",
-    "Plan Siena day trips without a car, including Florence, San Gimignano, Arezzo, Chianti and Val d’Orcia by train, bus or guided tour.",
+    "Every Siena day trip that works on public transport: the bus lines, the realistic journey times, and the Sunday rule that ruins plans.",
     "/images/siena/08-siena-cityscape.webp",
     [
           {
@@ -2177,7 +2177,7 @@ None of this is designed to catch tourists out. It is simply how Italians eat, p
     "siena-tours-and-classes-to-book-first",
     "Siena Tours and Classes: What to Book First",
     "Things to do", "Siena",
-    "Compare Siena walking tours, Duomo visits, food tours, cooking classes, wine trips and private guides, with advice on what to book first.",
+    "Which Siena tours to book ahead and which can wait until the day — walking tours, Duomo visits, cooking classes and wine trips compared.",
     "/images/siena/03-piccolomini-library.webp",
     [
           {
@@ -2484,9 +2484,9 @@ Florence from Siena is a good day out and an easy journey. The visitors who come
 
   A(
     'florence-travel-budget-guide',
-    'How Much Does Florence Really Cost? A Practical Budget Guide',
+    'How Much Does Florence Really Cost? The 2026 Numbers',
     'Budget', 'Italy',
-    'A realistic breakdown of what Florence costs today — from budget hostels to luxury hotels, plus money-saving tips.',
+    'What Florence costs in 2026, from hostel beds to a stack of museum tickets — including the admissions that rose this year.',
     '/images/italy/florence-budget-travel-street-food.webp',
     [
       { id: 'intro', heading: 'Florence is smaller than you think', body: 'You can walk from one end of the historic centre to the other in about twenty minutes, which means you will spend less on transport and more on the things that actually matter — the food, the art, and the leather jacket you swore you would not buy but absolutely will.\n\nThe good news is that Florence is significantly cheaper than Rome or Venice for accommodation and dining. Here is what Florence actually costs, broken down by budget level.' },
@@ -3017,10 +3017,10 @@ For more ideas on combining opera with vineyards, hilltop villages, and Tuscan t
   ),
   A(
     'best-day-trips-from-florence-to-siena-2026',
-    'Best Day Trips from Florence to Siena: Complete 2026 Guide',
+    'Florence to Siena Day Trip 2026: The Plan That Beats the Coaches',
     'Day trips',
     'Siena',
-    'Plan the best Florence to Siena day trip for 2026: train or bus choice, a realistic one-day itinerary and tips for avoiding the crowds.',
+    'Florence to Siena in 2026: bus or train, a one-day plan that dodges the coach crowds, and why the last bus decides your afternoon.',
     '/images/siena/best-day-trip-florence-to-siena-piazza-del-campo.webp',
     [
       {
@@ -3128,7 +3128,7 @@ Turn your Florence stay into a full Tuscany adventure. Explore deeper with our d
     ],
     '2026-07-17',
     {
-      seoTitle: 'Best Day Trips from Florence to Siena: Complete 2026 Guide',
+      seoTitle: 'Florence to Siena Day Trip 2026: The Plan That Beats the Coaches',
       primaryKeyword: 'best day trips from florence to siena 2026',
       secondaryKeywords: [
         'day trip from florence to siena',
@@ -3152,7 +3152,7 @@ Turn your Florence stay into a full Tuscany adventure. Explore deeper with our d
     '7-Day Tuscany Itinerary for Independent Travellers 2026: Florence Base + Self-Drive (Siena, Chianti, Val d’Orcia)',
     'Itineraries',
     'Tuscany',
-    'A realistic 7-day Tuscany itinerary from a Florence base: Siena by train, Chianti wine roads by car and Val d’Orcia without hotel changes.',
+    'Seven days in Tuscany from one Florence base: Siena by train, Chianti by car, Val d’Orcia in a day â and not one hotel change.',
     '/images/tuscany/7-day-tuscany-itinerary-hero.jpg',
     [
       {
@@ -3388,7 +3388,7 @@ Safe travels!`,
     'Hidden Gems Around Siena, Tuscany: Escape the Crowds in 2026',
     'Things to do',
     'Tuscany',
-    'Discover the quiet side of Tuscany near Siena: Monteriggioni, San Quirico d’Orcia and local vineyards away from the tour-bus crowds.',
+    'Eight quiet places within an hour of Siena: walled Monteriggioni, the Crete Senesi ridges and vineyards the tour buses never reach.',
     '/images/siena/hidden-gems-siena-tuscany-hero.webp',
     [
       {
@@ -3918,7 +3918,7 @@ The two room photographs are by cottonbro and Markus Spiske, under the [Pexels L
     'Val d’Orcia Day Trip from Siena: Pienza, Montalcino & Montepulciano (2026 Guide)',
     'Day trips',
     'Tuscany',
-    'Plan a Val d’Orcia day trip from Siena: realistic routes to Pienza, Montalcino and Montepulciano by bus, car or tour, with timing tips.',
+    'The Val d’Orcia from Siena: a realistic route through Pienza, Montalcino and Montepulciano, by car or on the thin weekday bus.',
     '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
     [
       {
@@ -4290,7 +4290,7 @@ Orto de' Pecci, in the valley below the walls. On a week when the centre is full
     'San Gimignano Day Trip from Siena: Bus, Tickets & One-Day Plan (2026)',
     'Day trips',
     'Tuscany',
-    'Plan a San Gimignano day trip from Siena or Florence: bus 130 via Poggibonsi, 2026 ticket and parking prices, and a realistic one-day plan.',
+    'San Gimignano on bus 130 from Siena: 2026 ticket and parking prices, and a one-day plan built around the hours the coaches are gone.',
     '/images/tuscany/san-gimignano-medieval-towers.webp',
     [
       {
@@ -5070,6 +5070,8 @@ Swap days freely around the weather; the plan’s only fixed points are the book
 
 For a visitor this overlap is the itinerary-shaping fact of the month. Time an October trip to its middle two weeks and you can plausibly see both harvests working — a cellar still fermenting the new vintage one day, a frantoio pressing the first oil the next. No other month offers that double bill so reliably; [our wine harvest guide](/blog/tuscany-wine-harvest-vendemmia-2026/) and [olive harvest guide](/blog/tuscany-olive-harvest-olio-nuovo-2026/) cover each side of the seam in depth.
 
+**One date to fix before the rest of the month:** on **3–4 October 2026**, L’Eroica takes over Gaiole in Chianti and a wide arc of countryside south of it — thousands of riders on pre-1987 steel bicycles, on roads that stay open to normal traffic throughout. Come for it deliberately or route around it deliberately, but do not meet it by accident on a gravel back road; [our L’Eroica guide](/blog/leroica-gaiole-in-chianti-2026/) covers both.
+
 ![Cypress trees and rolling hills south of Siena](/images/tuscany/val-dorcia-cypress-trees-landscape.jpg)
 *October in the Sienese hills: the landscape’s one costume change of the year.*`,
       },
@@ -5728,7 +5730,7 @@ If towns are the point and wine is the excuse, the Val d’Orcia is your valley.
 
 **September belongs to Chianti** in 2026: its Sangiovese harvest runs from mid-month, the Expo fills Greve’s square on 10–13 September, and the wooded hills are at their liveliest. [The September guide](/blog/siena-in-september-2026/) and vendemmia article map the month.
 
-**October belongs to the Val d’Orcia**: Montalcino’s Sangiovese Grosso keeps picking into late October — the last reliable harvest-watching in Tuscany — while the valley’s open landscape does its green-to-amber turn and the fog mornings begin. [October’s guide](/blog/tuscany-in-october-2026/) calls it the seam month for exactly this reason.
+**October belongs to the Val d’Orcia**: Montalcino’s Sangiovese Grosso keeps picking into late October — the last reliable harvest-watching in Tuscany — while the valley’s open landscape does its green-to-amber turn and the fog mornings begin. [October’s guide](/blog/tuscany-in-october-2026/) calls it the seam month for exactly this reason. The one October exception runs the other way: on **3–4 October 2026** [L’Eroica](/blog/leroica-gaiole-in-chianti-2026/) puts eight thousand vintage cyclists on Chianti’s white roads, which is either the best reason to be there that weekend or the best reason not to be.
 
 **High summer** flattens the difference: both regions run hot and hazy, tastings need booking, and the Val d’Orcia’s exposed ridges punish midday ambition. **Winter** narrows it the other way — Chianti’s tasting rooms and Montalcino’s enotecas stay warm and open year-round, but rural infrastructure contracts, [as the November](/blog/tuscany-in-november-2026/) and December guides detail. Flexible dates? Choose the region first, then let its best month set the calendar.`,
       },
@@ -9428,7 +9430,7 @@ If Panzano proves impossible, there is now a legitimate fallback: Cecchini opene
 
 **How entry works** — and this is the part visitors get wrong. There is no conventional ticket: you buy a **tasting glass**, supplied with a shoulder-strap holder, and the glass is your pass to every stand. In 2025 it cost **€30**, with a 10 per cent discount for buying ahead through the union's online shop. Do not confuse the September festival with **Vino al Vino in Cantina**, the union's spring edition, when member estates open their own cellars instead — 2–3 May in 2026, tastings 11:00–19:00. 2025 opening hours ran **Friday 11:00–19:30, Saturday 11:00–20:00, Sunday 11:00–19:00**; the 2026 hours are not published anywhere we could find. Past programmes have added extras — in 2025, Cecchini's own panini truck on the Saturday evening and the Panzano Orchestra on Sunday morning — but those were 2025-specific and no 2026 programme exists yet.
 
-**How it differs from the bigger fair up the road.** [Expo Chianti Classico in Greve](/blog/tuscany-september-2026-festivals-events/) runs **10–13 September 2026**, a week *earlier*, and is a different animal: organised by the comune, drawing producers from **every** municipality of the Chianti Classico zone, and using a **token system** — a €20 glass including seven tasting tickets, with Riserva and Gran Selezione costing two. Vino al Vino is smaller, single-village, grower-run and open-pour. Serious Chianti drinkers with September dates should consider doing **both**: the zone-wide survey first, the deep dive into one hillside a week later.`,
+**How it differs from the bigger fair up the road.** [Expo Chianti Classico in Greve](/blog/tuscany-september-2026-festivals-events/) runs **10–13 September 2026**, a week *earlier*, and is a different animal: organised by the comune, drawing producers from **every** municipality of the Chianti Classico zone, and using a **token system** — a €20 glass including seven tasting tickets, with Riserva and Gran Selezione costing two. Vino al Vino is smaller, single-village, grower-run and open-pour. Serious Chianti drinkers with September dates should consider doing **both**: the zone-wide survey first, the deep dive into one hillside a week later. If your dates run into October instead, the region’s other set-piece is [L’Eroica at Gaiole on 3–4 October 2026](/blog/leroica-gaiole-in-chianti-2026/) — a different crowd entirely, and one that fills Chianti’s beds the same way.`,
       },
       {
         id: 'the-village',
@@ -9757,6 +9759,230 @@ Try the official channels in this order — tickets.uffizi.it, the phone line, t
       imageAlt: 'The Uffizi Gallery in early morning light before the day’s crowds arrive',
       canonicalPath: '/blog/uffizi-tickets-sold-out-what-to-do',
       tags: ['uffizi', 'florence museums', 'florence tickets', 'florence planning', 'practical tips'],
+    }
+  ),
+  A(
+    'leroica-gaiole-in-chianti-2026',
+    'L’Eroica Gaiole 2026: Sold Out to Ride, Wide Open to Watch',
+    'Things to do',
+    'Tuscany',
+    'L’Eroica returns to Gaiole in Chianti on 3–4 October 2026. Entries are gone — but the weekend never needed a race number. How to be there properly.',
+    '/images/tuscany/chianti-wine-road-vineyard.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `L’Eroica rides out of **Gaiole in Chianti on Saturday 3 and Sunday 4 October 2026**. If your plan was to ride it, the honest headline is that you are late. Entries opened on **10 December 2025** and the categories closed one by one: the Ciclo Club Eroica places at €60, the Privilege and sports-team allocations, the 2,500-number **Standard at €100**, the 2,000-number **Standard Late at €125** released on 2 April 2026, the **Combined “Double Eroica”** Saturday-plus-Sunday ticket at €130, the **Combined “B”** pairing with Nova Eroica at €140. Every one of them showed **sold out** when we checked the official registration page on 14 August 2026. The single category still listed as available was the **children’s entry — €40, ages 13 to 17**.
+
+Most articles stop there, which is a waste, because the number is the least interesting part of the weekend.
+
+**You do not need an entry to be at L’Eroica.** Gaiole spends the weekend as an open-air museum of bicycles that people still ride: a market of vintage frames and parts filling the village, wool jerseys and shellac-taped bars everywhere you look, riders rolling back in through the afternoon covered in white dust and visibly delighted with themselves. Nothing about that is ticketed. You walk in.
+
+Three practical things to take from this article before the detail starts:
+
+- **The roads are not closed.** L’Eroica runs on open public roads for its entire duration, and every rider is bound by the Italian Highway Code. If you are driving anywhere in southern Chianti or the Crete Senesi that weekend and did not know the event was on, you will find out at the first blind gravel bend.
+- **Beds went months ago.** Gaiole is a village. Radda, Castellina and Siena absorb the overflow, and even they tighten. If you are reading this in September for this October, plan on Siena and a car or a very early start.
+- **The route exists all year.** The 209 km course is a permanently signposted public route. You can ride it, or any part of it, on any bike, on a Tuesday in March, with nobody watching.`,
+      },
+      {
+        id: 'what-it-is',
+        heading: 'What L’Eroica actually is, and why it exists',
+        body: `L’Eroica was not conceived as a bike race. It was conceived as a protest about road surfacing.
+
+In the mid-1990s the *strade bianche* — the pale, unsealed gravel roads that thread the hills between Chianti and the Val d’Orcia — were being asphalted, stretch by stretch, as a routine municipal improvement. **Giancarlo Brocci**, from Gaiole, thought this was a loss disguised as progress: the white roads were the landscape’s working memory, the surface on which Italian cycling’s hard century had actually happened. Arguing for them on heritage grounds alone was not going to beat a paving budget. Arguing that they had economic value might.
+
+So in **1997 he put on a ride** for what the event’s own account calls **92 “hunters of feelings and emotions”**: old steel bicycles, old clothing, the unpaved roads, and a deliberate refusal of everything that had made cycling faster and duller. It worked, in the specific way that only a very stubborn idea works. The gravel stayed. The event grew into a foundation for protecting what remained of it, and then into a network of Eroica events on four continents. The professional **Strade Bianche** one-day race that now anchors the early-season calendar is a direct descendant: its first edition, in October 2007, was called **Monte Paschi Eroica** and ran from Gaiole in Chianti to Siena, spun off from the amateur event and using the roads it had defended. It moved to March the following year and became a modern classic.
+
+The scale in 2025 makes the point better than any adjective: **8,328 riders from 51 countries**, more than four in ten of them from outside Italy, with **Germany at 17 per cent**, Switzerland at 4.6 and the United Kingdom at 3 — and a women’s field of **1,200 registered riders**. That was the twenty-eighth running.
+
+What has not grown is the tone. The regulations describe a **leisure ride**, not a race, and the event’s own vocabulary is about fatigue and conviviality rather than performance. Riders consistently report the refreshment stops — long tables of Chianti wine, pecorino and whatever the village has cooked — as the point rather than the interruption. It is a nine-hour lunch with hills in it.`,
+      },
+      {
+        id: 'the-routes',
+        heading: 'The five routes, and which day each one runs',
+        body: `The distances are split across the two days, with the punishing ones going out first.
+
+**Saturday 3 October 2026**
+
+- **Lungo L’Eroico — 209 km.** The full course, Gaiole to the Val d’Orcia by way of the Val d’Arbia and the Crete Senesi, and back. Around **3,800 metres of climbing** on a bicycle with two chainrings and a five- or six-speed block. Riders leave in the dark.
+- **Medio Crete Senesi — 135 km.** The technical middle distance, reaching the clay ridges south of Siena.
+
+**Sunday 4 October 2026**
+
+- **Cento Val d’Arbia — 106 km.**
+- **Medio Gallo Nero — 81 km.** The classic first Eroica, named for the black rooster of Chianti Classico.
+- **Corto Valle del Chianti — 46 km.** The short route, and the one that makes the day possible for riders who are not training for it.
+
+Sunday is the busier, louder, more sociable day by a distance — three routes starting from one village square inside a few hours. If you are choosing which day to *watch*, Sunday morning in Gaiole is the one.
+
+**Start windows** follow the same shape every year: the 209 km field rolls out well before dawn (in 2024 the pre-1930 machines went first, from 04:30, with the main long-route start through to 06:00), the 135 km follows from 06:00, and Sunday’s routes leave from 07:00 for the 106 and from 08:00 for the 81 and the 46. Race-pack collection on Sunday morning runs **06:00–09:30**. Confirm the exact 2026 windows on the event’s own programme before setting an alarm around them — the pattern is stable, the minutes are not.
+
+**How much of it is gravel?** On the long route, roughly **112 of the 209 kilometres** are unsealed. That proportion is the whole design. It is also why the ride is harder than the elevation profile suggests, and why a dry week beforehand changes the day completely.`,
+      },
+      {
+        id: 'the-bike-rules',
+        heading: 'The bicycle rules, which are enforced',
+        body: `This is where L’Eroica differs from every other mass ride, and where people who turn up hopeful get turned away.
+
+An eligible bicycle — the regulations call it a **heroic bike** — is a road-racing machine with dropped handlebars **built up to and including 1987**, with or without gears. The specifics:
+
+- **Frame:** steel. Aluminium is admitted only in the rare screwed-and-glued construction — ALAN-type frames — and never welded. Mountain bikes are excluded outright.
+- **Gear levers on the down tube.** Bar-end shifters are permitted only in the pre-1980 non-indexed form.
+- **Pedals with toe clips and straps.** Clipless pedals are not allowed, at any distance.
+- **Brake cables running outside and over the handlebars**, in the pre-aero-lever manner.
+- **Wheels with at least 32 spokes**, laced to a low-profile rim of **20 mm depth or less**.
+
+The rules are not styling guidance. They are the reason the event looks the way it does, and they are checked.
+
+**If you do not own such a bicycle**, the event’s own travel information points to vintage-bike hire with collection in Gaiole in the days before the ride — worth arranging in the same breath as an entry rather than after it, since the rental pool is finite and shares a village with several thousand visitors.
+
+**And the requirement nobody mentions until it blocks them: the medical certificate.** Italian mass-participation cycling requires proof of medical fitness, and L’Eroica is no exception. Riders resident abroad need a certificate of fitness for cycling issued **by a physician in their own country**, uploaded to the **MyEroica** platform under *My documents*, where validation is stated to take **up to 15 days**. **Foreign riders aged 70 or over must supply the competitive-fitness certificate** under the Italian standard (DM 18/02/82), which is a more involved examination than a general fitness note. Leaving this to the week before is the most common way a paid entry becomes a spectator ticket.`,
+      },
+      {
+        id: 'entries',
+        heading: 'Entries: what happened in 2026, and how to get 2027',
+        body: `The 2026 sequence, as published, is the template for planning next year:
+
+| Category | Price | Status at our check |
+| --- | --- | --- |
+| Ciclo Club Eroica members | €60 | Sold out |
+| Privilege / Friend Sport Team (1,000 numbers) | — | Sold out |
+| Standard (2,500 numbers) | €100 | Sold out |
+| Standard Late (2,000 numbers, released 2 April 2026) | €125 | Sold out |
+| Combined “Double Eroica” (Sat + Sun) | €130 | Sold out |
+| Combined “B” (L’Eroica + Nova Eroica) | €140 | Sold out |
+| Children, ages 13–17 | €40 | Listed as available |
+
+Registration opened at **09:00 CET on 10 December 2025**. Read that table as a clock rather than a price list: the numbers went out in tranches — **1,000**, then **2,500**, then **2,000** — with the price climbing from €100 to €125 as each one emptied, and the last of them gone before high summer. The 2025 field was 8,328 riders, so those named tranches are not the whole start list; they are simply the part a member of the public can buy.
+
+**Three things follow for 2027.**
+
+**Join the Ciclo Club Eroica first, not the waiting list later.** The members’ category opens ahead of the public one and at the lowest price. It is the only category that reliably converts intention into a number.
+
+**Diarise the December opening, not the October event.** Entries for an early-October ride are decided in the previous December. A traveller who starts planning in the summer is planning the wrong year.
+
+**Get the medical certificate before you have a place.** It costs a GP appointment and it removes the only administrative step that cannot be hurried.
+
+If the 2026 answer is simply no, the family of Eroica rides gives you other doors: **Nova Eroica** opens the white roads to modern gravel bikes with no vintage requirement, and **Eroica Montalcino** takes the Brunello hills in late spring, when the days are long and the light is different. Their 2027 dates were not published at our check, so treat them as a reason to watch the calendar rather than book flights.`,
+      },
+      {
+        id: 'spectator',
+        heading: 'The weekend without a number — which is the better weekend anyway',
+        body: `Here is the part the cycling press never writes, because the cycling press comes to ride.
+
+**Gaiole is the event.** The village — normally a quiet, unshowy place that visitors drive through on the way to a castle — spends the weekend as a working museum. The **Mercato Eroico**, the vintage market, fills the streets with frames, wheels, cranksets, jerseys, cycling caps and the specific smell of old tubular glue; in 2025 it was published as running **09:00–20:00 on Saturday** and **09:00–19:00 on Sunday**, alongside the sponsor village. Music, food stands and grills run through both days, and the festival programme builds from midweek.
+
+**Time your Sunday morning properly.** Get into Gaiole before **08:00** and you see the thing that photographs badly and lands hard in person: several thousand people on sixty-year-old bicycles, in wool, rolling out of a medieval village in the half-light. By ten the square has emptied of riders and filled with everyone else. From early afternoon they start coming back — dusty, sunburnt, some of them pushing — and the arrival is more moving than the start, because by then you can see what the day cost them.
+
+**Watch from the gravel, not the village.** The white roads climbing out of the Gaiole and Radda basins put riders in front of you slowly, at conversational speed, on a surface that makes the effort visible. Any signposted *strada bianca* within a few kilometres of the route will do; you need no ticket, no pass and no plan beyond walking uphill for twenty minutes and finding a wall to sit on.
+
+**Bring cash and patience.** A village of a few thousand people is hosting a crowd many times its own size — more than eight thousand riders in 2025, before anyone who came to watch. Queues at bars are long, card networks strain, and the lavatories are the ones the village already had.
+
+**And bring layers.** Early October in these hills gives daytime highs around **20°C** and nights near **10°C**, and October is one of the wetter months — long-run averages put it near **113 mm across roughly twelve rain days**. Standing still on a ridge at seven in the morning in October is a different proposition from walking around Siena at noon; our [guide to what to wear in Tuscany in September](/blog/what-to-wear-in-tuscany-in-september/) covers the layering that still applies in the first week of October.`,
+      },
+      {
+        id: 'if-youre-driving',
+        heading: 'If you are driving in Chianti that weekend',
+        body: `This section is for the far larger group of readers who are not coming for L’Eroica at all, and who will be in Tuscany anyway on 3–4 October 2026.
+
+**The roads stay open.** L’Eroica is explicit about this: the entire route remains open to normal traffic for the whole event, and participants ride under the Highway Code like anyone else. There is no rolling closure, no marshalled corridor, and no reason for a driver to expect one.
+
+What that means in practice, across a broad arc of countryside from Gaiole and Radda down through the Val d’Arbia to the Crete Senesi and toward Montalcino:
+
+- **Thousands of cyclists on narrow, unsealed, blind-cornered roads**, from before dawn on Saturday and from first light on Sunday.
+- **Riders on machines with 1970s braking** — single-pivot calipers on steel rims, in gravel, sometimes wet. Assume stopping distances longer than you would from a modern bike.
+- **The white roads are where this concentrates.** If your route was going to include a scenic gravel section, that weekend is the one to take the asphalt instead.
+- **Villages along the course will be busy and parked-out** well beyond Gaiole itself.
+
+None of this is a reason to stay away. It is a reason to add an hour, take the SR222 or the main provincial roads rather than the pretty shortcut, and not to plan a tight airport run through Chianti on the Sunday morning. If you are hiring a car for that week, our [guide to renting a car in Tuscany](/blog/renting-a-car-in-tuscany-2026/) covers the insurance and ZTL issues that matter more than the daily rate — and the [Chianti-versus-Val d’Orcia comparison](/blog/val-dorcia-or-chianti-which-to-visit-2026/) will help you decide whether to be in this landscape at all that weekend.`,
+      },
+      {
+        id: 'getting-there',
+        heading: 'Getting to Gaiole, and where to sleep',
+        body: `**By car** is the straightforward answer, with the caveat that Gaiole’s parking is a village’s worth and the event is not. Arrive early, expect to walk in from the outskirts, and treat any published parking arrangement as the thing to check on the day.
+
+**By bus, it is harder than the map suggests.** Autolinee Toscane runs line **127, Siena–Pianella–Gaiole** — the line exists and the operator publishes it. What we could not verify for October 2026 is the part that decides your day: journey planners put it near 40 minutes with only a handful of departures and no Sunday service, and we have not been able to confirm that against the operator’s own timetable. From the Florence side, line **365** runs to Greve and continues through Radda toward Gaiole, on the same principle: real, and sparse. **The trap is Sunday**, which is the main event day and the day rural Tuscan lines run least or not at all. Check your date on the at-bus.it planner before assuming a return exists; this is the same problem our [car-free Tuscany guide](/blog/tuscany-without-a-car-2026/) works through in detail for the whole region.
+
+**Where to stay.** Gaiole has few beds and they go first. The realistic bases, in widening circles:
+
+- **Radda and Castellina in Chianti** — closest, small, and subject to the same pressure.
+- **Panzano and Greve** — the Florence side of Chianti, well connected by the 365, and worth a day in their own right if you are there for the food; see our [Panzano guide](/blog/panzano-in-chianti-cecchini-vino-al-vino/).
+- **Siena** — the practical fallback. Enough rooms to absorb a bad booking decision, a proper evening, and a 40-minute drive to Gaiole. Our [Siena hotel guide](/blog/best-hotels-in-siena/) covers the neighbourhoods; if you are driving, the [parking-specific list](/blog/best-siena-hotels-with-parking/) matters more than the star rating.
+
+Booking guidance for an event of this size is unglamorous: **for the following year, book accommodation when you book the entry, in December.** For this year, in September, take Siena and stop optimising.`,
+      },
+      {
+        id: 'around-gaiole',
+        heading: 'What else is within ten minutes of the start line',
+        body: `A non-riding companion — or anyone who has come for the atmosphere and wants a second day — has an unusually good corner of Chianti to work with. Gaiole is one of the **eleven official Unità Geografiche Aggiuntive of Chianti Classico**, and the castles around it are the reason the wine has the history it does.
+
+**Castello di Brolio** is the serious one. The Ricasoli family have held it **since 1141**, and it was **Bettino Ricasoli** — nineteenth-century prime minister, obsessive agronomist — who set down the grape formula that became Chianti Classico. At our check the gardens were open **10:00–18:00**, with **garden entry €5** and **gardens plus museum €8**, each including a tasting, and a two-hour guided *classic tour* at **€28**. Seasonal hours change; confirm for your date.
+
+**Badia a Coltibuono**, a Benedictine abbey founded around the year 1000 and turned into a villa-farm after the suppressions of 1810, is the quieter and, for some visitors, the better one — the Romanesque church of San Lorenzo and the cloister, plus the estate’s own wines. Published guided-tour times run **14:30–17:30 in late March, April and from October to early November**, extending to **18:30 from May to September**; **€7** for the tour, **€10** with a tasting.
+
+**Castello di Meleto**, also of around the year 1000, opens its interiors and cellars on daily tours. **Vertine**, a walled hamlet a mile west of Gaiole, appears in Coltibuono’s records in the early eleventh century and takes about forty minutes to walk around, which is exactly right.
+
+Put together, that is a full second day without a bicycle in it — and if you are here in the first fortnight of October, you are also in the window where the [olive harvest and the first pressings](/blog/tuscany-olive-harvest-olio-nuovo-2026/) begin, and just past the [Chianti grape harvest](/blog/tuscany-wine-harvest-vendemmia-2026/), which finishes earlier here than in Montalcino. Our [month guide to October in Tuscany](/blog/tuscany-in-october-2026/) sets the whole month in order.`,
+      },
+      {
+        id: 'permanent-route',
+        heading: 'The route is there every other week of the year',
+        body: `The most useful fact in this article, for most readers, has nothing to do with the first weekend in October.
+
+**L’Eroica’s long course is a permanent, signposted public route.** The roughly **205–209 km** loop from Gaiole through the Val d’Arbia, the Crete Senesi and the Montalcino hills is waymarked and rideable **year-round, on any bicycle, by anyone**, in one day or across three to five. You can join it at any point rather than starting from Gaiole, and nothing about it requires an entry, a wool jersey or a 1980s frame.
+
+That changes the planning question entirely. If what appeals to you about L’Eroica is the *roads* — white gravel, cypress ridgelines, no traffic, the Crete Senesi opening out south of Siena — then the first weekend in October is the single worst time to experience them, because that is the weekend they have eight thousand people on them. **May, late September and mid-October give you the same surfaces in near-solitude.**
+
+Go in October and you also get what the event weekend hides: the ordinary version of these villages, where the bar in Gaiole has a free table and the strada bianca out toward Coltibuono has nobody on it at all.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **14 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened, and we have not published outbound links we could not confirm.
+
+Verified from the event’s own published material: the **3–4 October 2026** dates and the split of the five routes across the two days (209 and 135 km on Saturday; 106, 81 and 46 km on Sunday); the **10 December 2025, 09:00 CET** registration opening; the category structure and prices — Ciclo Club Eroica €60, Standard €100 with 2,500 numbers, Standard Late €125 with 2,000 numbers released 2 April 2026, Combined “Double Eroica” €130, Combined “B” €140, children 13–17 €40 — and the **sold-out status of every adult category at our check**; the **06:00–09:30** Sunday race-pack window; the bicycle regulations (built up to and including 1987, steel or screwed-and-glued aluminium, down-tube shifters with the pre-1980 non-indexed bar-end exception, toe clips and straps, brake cables over the bars, minimum 32 spokes on rims of 20 mm depth or less, no mountain bikes); the **medical-certificate requirement**, the MyEroica upload, the stated 15-day validation and the competitive-fitness certificate required of foreign riders aged 70 and over; the statement that **the route stays open to traffic throughout** and that the Highway Code binds participants; vintage-bike hire collectable in Gaiole before the event; and the permanent signposted route of roughly 205–209 km, around 112 km of it unsealed.
+
+Verified from event reporting and regional sources: the **1997 founding by Giancarlo Brocci with 92 riders** and the strade-bianche preservation motive; the descent of the professional **Strade Bianche** from it, whose first edition ran in October 2007 as Monte Paschi Eroica from Gaiole in Chianti to Siena before moving to March in 2008; the **2025 turnout of 8,328 riders from 51 countries**, over 40 per cent from abroad, Germany 17 per cent, Switzerland 4.6, the United Kingdom 3, with a women’s field of 1,200, described as the twenty-eighth edition; the 2025 **Mercato Eroico** hours of 09:00–20:00 Saturday and 09:00–19:00 Sunday; **Castello di Brolio** (Ricasoli since 1141; gardens 10:00–18:00; €5 gardens, €8 gardens and museum, both with a tasting; €28 two-hour classic tour), **Badia a Coltibuono** (founded around the year 1000, villa-farm after 1810; tours 14:30–17:30 late March, April and October to early November, 14:30–18:30 May to September; €7, €10 with tasting) and **Castello di Meleto**; Autolinee Toscane’s existence of line **127 Siena–Pianella–Gaiole**; and early-October climate averages for Gaiole of roughly 20°C by day, 10°C at night, and about 113 mm of rain across twelve days in the month.
+
+**Flagged as unconfirmed and deliberately not stated as fact:** the exact 2026 start windows for each route (we describe the 2024 pattern and tell you to confirm); the frequency, journey time and Sunday operation of bus lines 127 and 365, where the figures in circulation come from journey planners rather than the operator’s own timetable and must be checked on at-bus.it for your date; the 2026 edition number; the 2027 dates for L’Eroica, Nova Eroica and Eroica Montalcino, and the 2027 registration calendar; and event parking arrangements. Prices and opening hours at Brolio, Coltibuono and Meleto are seasonal and were correct at our check only.
+
+We have no commercial relationship with L’Eroica, with any of the properties named, or with any bike-hire or tour operator mentioned. No booking made from this page pays us anything.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Brocci’s argument in 1997 was that a gravel road has a value you cannot see on a highways department spreadsheet. Nearly thirty years later, eight thousand people fly to a Tuscan village to ride bicycles that are worse than the ones they own, on surfaces that make them slower, in wool that makes them hotter — and the roads he was defending are still there.
+
+That is the thing to go and look at, and it does not require an entry. Stand on a white road above Gaiole at half past seven on the first Sunday in October and watch a man in his seventies come past on a Bianchi older than his children, and the appeal of the whole enterprise stops needing explanation.
+
+If you want to ride it, join the Ciclo Club, get the medical certificate signed in the autumn, and be at your computer in December. If you want to *be* there, just turn up — and if what you actually want is those roads, come back in May and have them to yourself.`,
+      },
+    ],
+    [
+      { q: 'When is L’Eroica 2026?', a: 'Saturday 3 and Sunday 4 October 2026, starting from Gaiole in Chianti. Saturday carries the long routes — 209 km and 135 km — and Sunday the 106, 81 and 46 km routes, which makes Sunday morning the busiest and best day to watch.' },
+      { q: 'Can you still enter L’Eroica 2026?', a: 'Not in the adult categories. Registration opened on 10 December 2025 and every adult category — including the Standard Late release of 2,000 numbers at €125 on 2 April 2026 — showed sold out when we checked the official registration page on 14 August 2026. The children’s entry for ages 13 to 17 at €40 was the only category still listed as available.' },
+      { q: 'What kind of bike do you need for L’Eroica?', a: 'A road bike with dropped handlebars built up to and including 1987: a steel frame (or screwed-and-glued aluminium of the ALAN type, never welded), gear levers on the down tube, pedals with toe clips and straps rather than clipless, brake cables running outside and over the handlebars, and wheels with at least 32 spokes on rims no deeper than 20 mm. Mountain bikes are excluded. Vintage-bike hire with collection in Gaiole is available for riders travelling without their own.' },
+      { q: 'Do you need a medical certificate to ride L’Eroica?', a: 'Yes. Riders resident outside Italy need a certificate of fitness for cycling issued by a physician in their own country, uploaded to the MyEroica platform under My documents, where validation is stated to take up to 15 days. Foreign riders aged 70 or over must supply the competitive-fitness certificate under the Italian standard (DM 18/02/82). Arrange it well before the event.' },
+      { q: 'Can you watch L’Eroica without taking part?', a: 'Yes, and it costs nothing. Gaiole hosts the Mercato Eroico vintage market and a sponsor village across the weekend — published in 2025 as 09:00–20:00 on Saturday and 09:00–19:00 on Sunday — plus food stands and music. Be in the village before 08:00 on Sunday for the mass start, or walk twenty minutes up any white road near the route and watch riders pass at conversational speed.' },
+      { q: 'Are the roads closed during L’Eroica?', a: 'No. The entire route stays open to normal traffic for the duration of the event and participants ride under the Italian Highway Code. If you are driving in southern Chianti, the Val d’Arbia or the Crete Senesi on 3–4 October 2026, expect thousands of cyclists on narrow gravel roads, allow extra time, and take the main provincial roads rather than scenic unsealed shortcuts.' },
+      { q: 'Can you ride the L’Eroica route outside the event?', a: 'Yes. The long course — roughly 205 to 209 km from Gaiole through the Val d’Arbia, the Crete Senesi and the Montalcino hills, about 112 km of it unsealed — is permanently signposted and open to anyone, on any bicycle, at any time of year. You can join it at any point and ride it over one to five days. May and mid-October give you the same roads without the eight thousand people.' },
+      { q: 'Where should you stay for L’Eroica?', a: 'Gaiole itself has few beds and they go months ahead. Radda and Castellina in Chianti are closest but small; Panzano and Greve sit on the Florence side of Chianti; Siena is the practical fallback, with enough rooms to absorb a late decision and a 40-minute drive to the start. For the following year, book accommodation when you book the entry, in December.' },
+    ],
+    '2026-09-02',
+    {
+      seoTitle: 'L’Eroica Gaiole 2026: Dates, Routes and How to Be There, 3–4 Oct',
+      primaryKeyword: 'leroica gaiole 2026',
+      secondaryKeywords: [
+        'eroica gaiole in chianti 2026 dates',
+        'l eroica bike rules 1987',
+        'eroica 2026 registration sold out',
+        'watch l eroica without riding',
+        'eroica permanent route strade bianche',
+        'vintage cycling event tuscany october',
+      ],
+      imageAlt: 'A Chianti wine road running between vineyards in the hills around Gaiole',
+      canonicalPath: '/blog/leroica-gaiole-in-chianti-2026',
+      tags: ['l’eroica', 'gaiole in chianti', 'chianti', 'cycling in tuscany', 'october in tuscany', 'festivals'],
     }
   ),
 ];

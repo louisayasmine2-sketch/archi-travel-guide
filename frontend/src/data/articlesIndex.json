@@ -2,463 +2,817 @@
  {
   "slug": "siena-day-trip-from-florence",
   "title": "Siena Day Trip from Florence: Complete Travel Guide",
+  "category": "Day trips",
+  "region": "Tuscany",
   "excerpt": "Plan a Siena day trip from Florence by bus, train, or guided tour with realistic timing, arrival points, and a practical one-day itinerary.",
+  "image": "/images/siena-day-trip-from-florence-hero.webp",
+  "readMinutes": 4,
   "canonicalPath": "/siena-day-trip-from-florence",
-  "updated": "2025-11-10"
+  "updated": "2026-07-11T19:00:00+07:00",
+  "store": "articles"
  },
  {
   "slug": "best-things-to-do-in-siena",
   "title": "15 Best Things to Do in Siena, Italy: First-Timer Guide",
-  "excerpt": "Discover the best things to do in Siena, Italy, from Piazza del Campo and the Duomo to contrade streets, local food, tickets, and practical tips.",
+  "category": "Things to do",
+  "region": "Siena",
+  "excerpt": "The fifteen things worth your time in Siena, with 2026 ticket prices, the opening hours that catch visitors out, and what to skip.",
+  "image": "/images/siena/01-hero-palazzo-pubblico-torre-del-mangia.webp",
+  "readMinutes": 12,
   "canonicalPath": null,
-  "updated": "2026-07-11"
+  "updated": "2026-07-11",
+  "store": "articles"
  },
  {
   "slug": "where-to-stay-in-siena",
   "title": "Where to Stay in Siena: Best Areas for Every Trip",
-  "excerpt": "Compare the best areas to stay in Siena for first-time visits, families, nightlife, train travel, driving, value, and Tuscan countryside views.",
+  "category": "Where to stay",
+  "region": "Siena",
+  "excerpt": "Six Siena areas compared — starting with the question most travellers actually mean: sleep inside the walls, or outside them?",
+  "image": "/images/siena/08-siena-cityscape.webp",
+  "readMinutes": 11,
   "canonicalPath": null,
-  "updated": "2026-07-11"
+  "updated": "2026-07-11",
+  "store": "articles"
  },
  {
   "slug": "siena-2-day-itinerary",
   "title": "Siena 2-Day Itinerary: A Relaxed Weekend in the City",
+  "category": "Itineraries",
+  "region": "Siena",
   "excerpt": "Follow a realistic Siena 2-day itinerary covering Piazza del Campo, the Duomo, museums, contrade, local food, views, and practical planning tips.",
+  "image": "/images/siena/03-piccolomini-library.webp",
+  "readMinutes": 10,
   "canonicalPath": null,
-  "updated": "2026-07-11"
+  "updated": "2026-07-11",
+  "store": "articles"
  },
  {
   "slug": "siena-3-day-itinerary",
   "title": "Siena 3-Day Itinerary: City Highlights and a Tuscany Day Trip",
-  "excerpt": "Plan three days in Siena with two relaxed city days and an optional Chianti, San Gimignano, Val d’Orcia, or Montalcino day trip.",
+  "category": "Itineraries",
+  "region": "Siena",
+  "excerpt": "Three days in Siena at a Tuscan pace: two unhurried city days, one countryside day, and the trade-offs behind each choice.",
+  "image": "/images/siena/02-siena-cathedral-facade.webp",
+  "readMinutes": 10,
   "canonicalPath": null,
-  "updated": "2026-07-11"
+  "updated": "2026-07-11",
+  "store": "articles"
  },
  {
   "slug": "how-much-siena-trip-costs",
   "title": "How Much Does a Trip to Siena Cost? 2026 Budget Guide",
-  "excerpt": "Plan a realistic Siena budget for transport, hotels, food, attractions, tours, and family travel, with 2026 planning ranges and saving tips.",
+  "category": "Budget",
+  "region": "Siena",
+  "excerpt": "What a Siena trip really costs in 2026 — beds, meals, passes and buses in real numbers, plus where the bill quietly grows.",
+  "image": "/images/siena/07-pici-all-aglione.webp",
+  "readMinutes": 13,
   "canonicalPath": null,
-  "updated": "2026-07-11"
+  "updated": "2026-07-11",
+  "store": "articles"
  },
  {
   "slug": "best-time-to-visit-tuscany",
   "title": "Best Time to Visit Tuscany: Weather, Crowds and Seasons",
+  "category": "Best time to visit",
+  "region": "Tuscany",
   "excerpt": "Find the best time to visit Tuscany for weather, lower crowds, wine harvests, beaches, city breaks and road trips, with a practical month-by-month guide.",
-  "canonicalPath": null,
-  "updated": "2026-08-06"
+  "image": "/images/tuscany/08-siena-cityscape.webp",
+  "readMinutes": 12,
+  "canonicalPath": "/blog/best-time-to-visit-tuscany/",
+  "updated": "2026-08-06",
+  "store": "articles"
  },
  {
   "slug": "florence-to-siena-transport",
   "title": "Florence to Siena by Train or Bus: Complete Travel Guide",
+  "category": "Transport",
+  "region": "Tuscany",
   "excerpt": "Compare train, bus, and guided tour options from Florence to Siena, including travel times, ticket rules, arrival points, and practical tips.",
+  "image": "/images/siena-hero.svg",
+  "readMinutes": 4,
   "canonicalPath": "/florence-to-siena-by-train-or-bus",
-  "updated": "2025-11-10"
+  "updated": "2026-08-05T12:00:00+07:00",
+  "store": "articles"
  },
  {
   "slug": "tuscany-packing-checklist",
   "title": "Tuscany Packing List: What to Wear and Bring in Every Season",
-  "excerpt": "A practical Tuscany packing list for spring, summer, autumn and winter: clothes, shoes, church attire, driving essentials and carry-on tips.",
-  "canonicalPath": null,
-  "updated": "2026-07-12"
+  "category": "Packing",
+  "region": "Tuscany",
+  "excerpt": "What to pack for Tuscany season by season: the shoes the cobbles demand, the church cover-up rule, and what to leave at home.",
+  "image": "/images/siena/06-siena-contrada-street.webp",
+  "readMinutes": 10,
+  "canonicalPath": "/blog/tuscany-packing-checklist/",
+  "updated": "2026-07-12",
+  "store": "articles"
  },
  {
   "slug": "siena-with-kids",
-  "title": "Siena with Kids: A Practical Family Travel Guide",
-  "excerpt": "Plan Siena with kids using realistic stroller advice, family-friendly sights, museums, parks, food stops, age-based ideas, and a gentle one-day route.",
+  "title": "Siena with Kids: The Hills, the Stroller Problem and What Works",
+  "category": "Family travel",
+  "region": "Siena",
+  "excerpt": "Siena with children, honestly: where strollers struggle, which sights hold young attention, and a gentle one-day route that works.",
+  "image": "/images/siena/04-orto-de-pecci.webp",
+  "readMinutes": 12,
   "canonicalPath": null,
-  "updated": "2026-07-11"
+  "updated": "2026-07-11",
+  "store": "articles"
  },
  {
   "slug": "best-day-trips-from-siena",
-  "title": "10 Best Day Trips from Siena: By Car, Bus or Tour",
-  "excerpt": "Compare the best day trips from Siena, including San Gimignano, Chianti, Val d’Orcia, Montalcino and Florence, with car, bus and tour advice.",
-  "canonicalPath": null,
-  "updated": "2026-07-12"
+  "title": "10 Day Trips from Siena: Choosing One Instead of Racing Three",
+  "category": "Day trips",
+  "region": "Tuscany",
+  "excerpt": "Ten day trips from Siena — which reward a car, which work by bus, and how to pick one good day instead of racing through three.",
+  "image": "/images/tuscany/08-siena-cityscape.webp",
+  "readMinutes": 9,
+  "canonicalPath": "/blog/best-day-trips-from-siena/",
+  "updated": "2026-07-12",
+  "store": "articles"
  },
  {
   "slug": "tuscany-food-guide",
-  "title": "Tuscan Food Guide: 25 Dishes and Drinks to Try",
-  "excerpt": "Discover traditional Tuscan food, from ribollita, pici and bistecca to pecorino, cacciucco, panforte and regional wines, plus practical dining tips.",
-  "canonicalPath": null,
-  "updated": "2026-07-12"
+  "title": "Tuscan Food Guide: 25 Dishes Worth Ordering, and Why",
+  "category": "Food & drink",
+  "region": "Tuscany",
+  "excerpt": "Twenty-five Tuscan dishes and drinks worth ordering, what makes each one local, and the dining habits that shape a Tuscan menu.",
+  "image": "/images/tuscany/07-pici-all-aglione.webp",
+  "readMinutes": 11,
+  "canonicalPath": "/blog/tuscany-food-guide/",
+  "updated": "2026-07-12",
+  "store": "articles"
  },
  {
   "slug": "common-mistakes-siena",
   "title": "15 Siena Travel Mistakes to Avoid on Your First Trip",
+  "category": "Practical tips",
+  "region": "Siena",
   "excerpt": "Avoid common Siena travel mistakes, from ZTL fines and steep walks to rushed itineraries, Palio crowds and poor arrival planning.",
-  "canonicalPath": null,
-  "updated": "2026-07-12"
+  "image": "/images/siena/05-piazza-del-campo-panorama.webp",
+  "readMinutes": 7,
+  "canonicalPath": "/blog/common-mistakes-siena/",
+  "updated": "2026-07-12",
+  "store": "articles"
  },
  {
   "slug": "siena-hotel-vs-apartment-guide",
   "title": "Siena Hotel vs Apartment: Which Is Better for Your Trip?",
-  "excerpt": "Compare a Siena hotel vs apartment on price, location, breakfast, kitchens, families, luggage and parking to choose the right base.",
-  "canonicalPath": null,
-  "updated": "2026-07-12"
+  "category": "Where to stay",
+  "region": "Siena",
+  "excerpt": "Hotel or apartment in Siena? The honest split: breakfast and service against kitchens and space, with luggage and parking factored in.",
+  "image": "/images/siena/06-siena-contrada-street.webp",
+  "readMinutes": 9,
+  "canonicalPath": "/blog/siena-hotel-vs-apartment-guide/",
+  "updated": "2026-07-12",
+  "store": "articles"
  },
  {
   "slug": "siena-parking-and-transfer-guide",
   "title": "Where to Park in Siena: Car Parks, Real Rates and the ZTL",
+  "category": "Transport",
+  "region": "Siena",
   "excerpt": "Every Siena car park with official 2026 rates, which ones have escalators, the €25 hotel rate, and the Wednesday closure that catches drivers out.",
+  "image": "/images/siena/01-hero-palazzo-pubblico-torre-del-mangia.webp",
+  "readMinutes": 11,
   "canonicalPath": "/blog/siena-parking-and-transfer-guide/",
-  "updated": "2026-07-23"
+  "updated": "2026-07-23T12:00:00+07:00",
+  "store": "articles"
  },
  {
   "slug": "siena-with-kids-in-one-day",
   "title": "Siena with Kids in One Day: Easy Family Itinerary",
+  "category": "Family travel",
+  "region": "Siena",
   "excerpt": "Follow a realistic one-day Siena itinerary with kids, including Piazza del Campo, the Duomo, lunch, Orto de’ Pecci, stroller advice and rain backups.",
-  "canonicalPath": null,
-  "updated": "2026-07-12"
+  "image": "/images/siena/04-orto-de-pecci.webp",
+  "readMinutes": 8,
+  "canonicalPath": "/blog/siena-with-kids-in-one-day/",
+  "updated": "2026-07-12",
+  "store": "articles"
  },
  {
   "slug": "siena-from-florence-airport-transfer",
   "title": "Florence Airport to Siena: Every Option, With Real 2026 Fares",
+  "category": "Transport",
+  "region": "Tuscany",
   "excerpt": "How to get from Florence Airport to Siena in 2026 — the two-stage bus route, real official fares, the ticket trap that gets travellers fined, and timings.",
+  "image": "/images/siena/08-siena-cityscape.webp",
+  "readMinutes": 13,
   "canonicalPath": "/blog/siena-from-florence-airport-transfer/",
-  "updated": "2026-08-03"
+  "updated": "2026-08-03T12:00:00+07:00",
+  "store": "articles"
  },
  {
   "slug": "siena-ztl-fines-how-to-avoid",
   "title": "How to Avoid a ZTL Fine in Siena: A Driver's Guide for 2026",
+  "category": "Transport",
+  "region": "Siena",
   "excerpt": "Siena's ZTL cameras run 24/7 and fine you automatically — often months later through your car rental. Here's how the zone works and how to avoid it.",
+  "image": "",
+  "readMinutes": 13,
   "canonicalPath": "/blog/siena-ztl-fines-how-to-avoid/",
-  "updated": "2026-07-22"
+  "updated": "2026-07-22T09:00:00+07:00",
+  "store": "articles"
  },
  {
   "slug": "siena-weekend-itinerary-for-couples",
   "title": "Romantic Weekend in Siena: 2-Night Couples Itinerary",
+  "category": "Itineraries",
+  "region": "Siena",
   "excerpt": "Plan a romantic weekend in Siena with a two-night couples itinerary covering sunset views, the Duomo, Piazza del Campo, local food and a slow Sunday.",
-  "canonicalPath": null,
-  "updated": "2026-07-12"
+  "image": "/images/siena/05-piazza-del-campo-panorama.webp",
+  "readMinutes": 9,
+  "canonicalPath": "/blog/siena-weekend-itinerary-for-couples/",
+  "updated": "2026-07-12",
+  "store": "articles"
  },
  {
   "slug": "siena-travel-cost-2026",
   "title": "Siena Day Trip or Overnight: What It Actually Costs, and What Changes",
+  "category": "Budget",
+  "region": "Siena",
   "excerpt": "A night in Siena adds tourist tax and a room, but saves €10 a day on parking and unlocks tickets day-trippers often can't get. The real trade-offs, costed.",
+  "image": "/images/siena/05-piazza-del-campo-panorama.webp",
+  "readMinutes": 10,
   "canonicalPath": null,
-  "updated": "2026-08-03"
+  "updated": "2026-08-03T12:00:00+07:00",
+  "store": "articles"
  },
  {
   "slug": "best-restaurants-siena-italy",
   "title": "How Eating Out Works in Siena: The Rules Nobody Explains",
+  "category": "Food & drink",
+  "region": "Siena",
   "excerpt": "Why your Siena bill is higher than the menu prices, when the kitchen is actually open, and the counter-vs-table rule that quietly changes what you pay.",
+  "image": "/images/siena/07-pici-all-aglione.webp",
+  "readMinutes": 9,
   "canonicalPath": null,
-  "updated": "2026-07-25"
+  "updated": "2026-07-25T12:00:00+07:00",
+  "store": "articles"
  },
  {
   "slug": "siena-day-trips-without-a-car",
   "title": "Siena Day Trips Without a Car: Train, Bus and Tours",
-  "excerpt": "Plan Siena day trips without a car, including Florence, San Gimignano, Arezzo, Chianti and Val d’Orcia by train, bus or guided tour.",
-  "canonicalPath": null,
-  "updated": "2026-07-12"
+  "category": "Day trips",
+  "region": "Siena",
+  "excerpt": "Every Siena day trip that works on public transport: the bus lines, the realistic journey times, and the Sunday rule that ruins plans.",
+  "image": "/images/siena/08-siena-cityscape.webp",
+  "readMinutes": 10,
+  "canonicalPath": "/blog/siena-day-trips-without-a-car/",
+  "updated": "2026-07-12",
+  "store": "articles"
  },
  {
   "slug": "siena-weather-and-what-to-pack",
   "title": "Siena Weather by Season: What to Pack and Why",
+  "category": "Packing",
+  "region": "Siena",
   "excerpt": "A practical season guide for Siena weather in 2026 planning windows, with clear packing logic for each season.",
+  "image": "/images/siena/08-siena-cityscape.webp",
+  "readMinutes": 4,
   "canonicalPath": null,
-  "updated": "2026-07-03"
+  "updated": "2026-07-03",
+  "store": "articles"
  },
  {
   "slug": "siena-tours-and-classes-to-book-first",
   "title": "Siena Tours and Classes: What to Book First",
-  "excerpt": "Compare Siena walking tours, Duomo visits, food tours, cooking classes, wine trips and private guides, with advice on what to book first.",
-  "canonicalPath": null,
-  "updated": "2026-07-12"
+  "category": "Things to do",
+  "region": "Siena",
+  "excerpt": "Which Siena tours to book ahead and which can wait until the day — walking tours, Duomo visits, cooking classes and wine trips compared.",
+  "image": "/images/siena/03-piccolomini-library.webp",
+  "readMinutes": 10,
+  "canonicalPath": "/blog/siena-tours-and-classes-to-book-first/",
+  "updated": "2026-07-12",
+  "store": "articles"
  },
  {
   "slug": "best-things-to-do-in-florence",
   "title": "Florence from Siena: What to See, and What You Must Book First",
+  "category": "Things to do",
+  "region": "Florence",
   "excerpt": "Visiting Florence from Siena? Two weekdays make it harder, three sights need booking weeks ahead, and the last bus back leaves early.",
+  "image": "/images/florence/duomo-dome-climb-early-morning.webp",
+  "readMinutes": 10,
   "canonicalPath": "/blog/best-things-to-do-in-florence",
-  "updated": "2026-08-03"
+  "updated": "2026-08-03T12:00:00+07:00",
+  "store": "articles"
  },
  {
   "slug": "florence-travel-budget-guide",
-  "title": "How Much Does Florence Really Cost? A Practical Budget Guide",
-  "excerpt": "A realistic breakdown of what Florence costs today — from budget hostels to luxury hotels, plus money-saving tips.",
+  "title": "How Much Does Florence Really Cost? The 2026 Numbers",
+  "category": "Budget",
+  "region": "Italy",
+  "excerpt": "What Florence costs in 2026, from hostel beds to a stack of museum tickets — including the admissions that rose this year.",
+  "image": "/images/italy/florence-budget-travel-street-food.webp",
+  "readMinutes": 4,
   "canonicalPath": null,
-  "updated": "2026-07-04"
+  "updated": "2026-07-04",
+  "store": "articles"
  },
  {
   "slug": "italy-hotels-no-ac-2026",
   "title": "Italy Hotels Without AC in 2026: The Honest Guide to Staying Cool in Tuscany & Siena",
+  "category": "Practical tips",
+  "region": "Italy",
   "excerpt": "Shocked by Italy hotels without AC in Tuscany and Siena? Learn why many rooms hit 38°C, how to book real cooling, and 10 survival tips for summer heat.",
+  "image": "/images/tuscany/san-gimignano-medieval-towers.webp",
+  "readMinutes": 9,
   "canonicalPath": null,
-  "updated": "2026-07-26"
+  "updated": "2026-07-26",
+  "store": "articles"
  },
  {
   "slug": "avoid-crowds-in-florence-july-2026",
   "title": "Avoid Crowds in Florence July 2026: Smart Strategies for Independent Travellers",
+  "category": "Practical tips",
+  "region": "Florence",
   "excerpt": "Proven ways to dodge Florence’s July 2026 crowds: skip the Uffizi and Duomo queues, explore quieter Oltrarno, and time your day right.",
+  "image": "/images/florence/uffizi-early-morning-july-2026.webp",
+  "readMinutes": 6,
   "canonicalPath": "/blog/avoid-crowds-in-florence-july-2026",
-  "updated": "2026-07-17"
+  "updated": "2026-07-17",
+  "store": "articles"
  },
  {
   "slug": "venice-day-trip-from-tuscany-2026-access-fee",
   "title": "Venice Day Trip from Tuscany 2026: Complete Guide to the Access Fee + How to Save Money",
+  "category": "Day trips",
+  "region": "Venice",
   "excerpt": "How the Venice access fee works on 17–19 July 2026, how to pay or legally avoid it, and the best trains from Florence for a day trip.",
+  "image": "/images/venice/hero-venice-tuscany-day-trip.webp",
+  "readMinutes": 4,
   "canonicalPath": "/blog/venice-day-trip-from-tuscany-2026-access-fee",
-  "updated": "2026-07-17"
+  "updated": "2026-07-17",
+  "store": "articles"
  },
  {
   "slug": "florence-summer-heat-survival-tips-2026",
   "title": "Florence Summer Heat Survival Tips 2026: Stay Cool & Beat the Heat",
+  "category": "Practical tips",
+  "region": "Florence",
   "excerpt": "Practical ways to handle Florence’s 35°C+ summer days in 2026: timing, shade routes, water fountains and cooler alternatives.",
+  "image": "/images/florence/florence-summer-heat-survival-hero.webp",
+  "readMinutes": 5,
   "canonicalPath": "/blog/florence-summer-heat-survival-tips-2026",
-  "updated": "2026-08-06"
+  "updated": "2026-08-06",
+  "store": "articles"
  },
  {
   "slug": "puccini-festival-torre-del-lago-2026-independent-traveller-guide",
   "title": "Puccini Festival Torre del Lago 2026: Independent Traveller Guide",
+  "category": "Practical tips",
+  "region": "Tuscany",
   "excerpt": "Attend the Puccini Festival Torre del Lago 2026 independently: tickets, transport from Florence or Siena, seating advice and a Lucca day trip.",
+  "image": "/images/tuscany/puccini-festival-torre-del-lago-hero.webp",
+  "readMinutes": 4,
   "canonicalPath": null,
-  "updated": "2026-07-17"
+  "updated": "2026-07-17",
+  "store": "articles"
  },
  {
   "slug": "best-day-trips-from-florence-to-siena-2026",
-  "title": "Best Day Trips from Florence to Siena: Complete 2026 Guide",
-  "excerpt": "Plan the best Florence to Siena day trip for 2026: train or bus choice, a realistic one-day itinerary and tips for avoiding the crowds.",
+  "title": "Florence to Siena Day Trip 2026: The Plan That Beats the Coaches",
+  "category": "Day trips",
+  "region": "Siena",
+  "excerpt": "Florence to Siena in 2026: bus or train, a one-day plan that dodges the coach crowds, and why the last bus decides your afternoon.",
+  "image": "/images/siena/best-day-trip-florence-to-siena-piazza-del-campo.webp",
+  "readMinutes": 7,
   "canonicalPath": "/blog/best-day-trips-from-florence-to-siena-2026",
-  "updated": "2026-07-17"
+  "updated": "2026-07-17",
+  "store": "articles"
  },
  {
   "slug": "7-day-tuscany-itinerary-independent-travellers-2026-florence-base",
   "title": "7-Day Tuscany Itinerary for Independent Travellers 2026: Florence Base + Self-Drive (Siena, Chianti, Val d’Orcia)",
-  "excerpt": "A realistic 7-day Tuscany itinerary from a Florence base: Siena by train, Chianti wine roads by car and Val d’Orcia without hotel changes.",
+  "category": "Itineraries",
+  "region": "Tuscany",
+  "excerpt": "Seven days in Tuscany from one Florence base: Siena by train, Chianti by car, Val d’Orcia in a day â and not one hotel change.",
+  "image": "/images/tuscany/7-day-tuscany-itinerary-hero.jpg",
+  "readMinutes": 7,
   "canonicalPath": null,
-  "updated": "2026-07-17"
+  "updated": "2026-07-17",
+  "store": "articles"
  },
  {
   "slug": "summer-packing-list-for-tuscany-and-florence-2026",
   "title": "Summer Packing List for Tuscany & Florence 2026: Travel Light & Stay Cool",
+  "category": "Packing",
+  "region": "Tuscany",
   "excerpt": "A summer packing list for Tuscany and Florence 2026: breathable linen, supportive shoes for cobblestones and heat-beating essentials.",
+  "image": "/images/florence/summer-packing-list-tuscany-florence-hero.webp",
+  "readMinutes": 4,
   "canonicalPath": "/blog/summer-packing-list-for-tuscany-and-florence-2026",
-  "updated": "2026-07-17"
+  "updated": "2026-07-17",
+  "store": "articles"
  },
  {
   "slug": "hidden-gems-around-siena-tuscany-2026",
   "title": "Hidden Gems Around Siena, Tuscany: Escape the Crowds in 2026",
-  "excerpt": "Discover the quiet side of Tuscany near Siena: Monteriggioni, San Quirico d’Orcia and local vineyards away from the tour-bus crowds.",
+  "category": "Things to do",
+  "region": "Tuscany",
+  "excerpt": "Eight quiet places within an hour of Siena: walled Monteriggioni, the Crete Senesi ridges and vineyards the tour buses never reach.",
+  "image": "/images/siena/hidden-gems-siena-tuscany-hero.webp",
+  "readMinutes": 4,
   "canonicalPath": "/blog/hidden-gems-around-siena-tuscany-2026",
-  "updated": "2026-07-17"
+  "updated": "2026-07-17",
+  "store": "articles"
  },
  {
   "slug": "best-siena-hotels-with-parking",
   "title": "Best Siena Hotels with Parking for Drivers and Tuscany Day Trips",
+  "category": "Where to stay",
+  "region": "Tuscany",
   "excerpt": "Honest picks of Siena hotels with reliable parking, ideal for Chianti and Val d’Orcia day trips, with pros, caveats and price bands.",
+  "image": "/images/siena/08-siena-cityscape.webp",
+  "readMinutes": 11,
   "canonicalPath": "/blog/best-siena-hotels-with-parking",
-  "updated": "2026-07-26"
+  "updated": "2026-07-26",
+  "store": "articles"
  },
  {
   "slug": "best-hotels-in-siena",
   "title": "Best Hotels in Siena: Five Central Stays for Travellers on Foot",
+  "category": "Where to stay",
+  "region": "Siena",
   "excerpt": "Five central Siena hotels compared for travellers on foot, with verified addresses and what each hotel does and does not publish.",
+  "image": "/images/siena/05-piazza-del-campo-panorama.webp",
+  "readMinutes": 17,
   "canonicalPath": "/blog/best-hotels-in-siena/",
-  "updated": "2026-07-28"
+  "updated": "2026-07-28",
+  "store": "articles"
  },
  {
   "slug": "val-dorcia-day-trip-from-siena-2026",
   "title": "Val d’Orcia Day Trip from Siena: Pienza, Montalcino & Montepulciano (2026 Guide)",
-  "excerpt": "Plan a Val d’Orcia day trip from Siena: realistic routes to Pienza, Montalcino and Montepulciano by bus, car or tour, with timing tips.",
+  "category": "Day trips",
+  "region": "Tuscany",
+  "excerpt": "The Val d’Orcia from Siena: a realistic route through Pienza, Montalcino and Montepulciano, by car or on the thin weekday bus.",
+  "image": "/images/tuscany/val-dorcia-cypress-trees-landscape.jpg",
+  "readMinutes": 6,
   "canonicalPath": "/blog/val-dorcia-day-trip-from-siena-2026",
-  "updated": "2026-07-18"
+  "updated": "2026-07-18",
+  "store": "articles"
  },
  {
   "slug": "palio-di-siena-guide",
   "title": "Palio di Siena: What Actually Happens, and Whether to Go",
+  "category": "Things to do",
+  "region": "Siena",
   "excerpt": "What happens across the Palio’s four days, how to watch from inside the Campo for free, and the honest case for choosing a different week.",
+  "image": "/images/siena/05-piazza-del-campo-panorama.webp",
+  "readMinutes": 7,
   "canonicalPath": null,
-  "updated": "2026-07-28"
+  "updated": "2026-07-28",
+  "store": "articles"
  },
  {
   "slug": "siena-ferragosto-and-palio-week",
   "title": "Siena in Palio Week: Ferragosto, Closures and What Still Opens",
+  "category": "Practical tips",
+  "region": "Siena",
   "excerpt": "In 2026 Ferragosto falls inside Palio week. Verified museum hours for 15 and 16 August, and the gaps the operators do not publish.",
+  "image": "/images/siena/06-siena-contrada-street.webp",
+  "readMinutes": 6,
   "canonicalPath": null,
-  "updated": "2026-07-28"
+  "updated": "2026-07-28",
+  "store": "articles"
  },
  {
   "slug": "san-gimignano-day-trip-from-siena-2026",
   "title": "San Gimignano Day Trip from Siena: Bus, Tickets & One-Day Plan (2026)",
-  "excerpt": "Plan a San Gimignano day trip from Siena or Florence: bus 130 via Poggibonsi, 2026 ticket and parking prices, and a realistic one-day plan.",
+  "category": "Day trips",
+  "region": "Tuscany",
+  "excerpt": "San Gimignano on bus 130 from Siena: 2026 ticket and parking prices, and a one-day plan built around the hours the coaches are gone.",
+  "image": "/images/tuscany/san-gimignano-medieval-towers.webp",
+  "readMinutes": 13,
   "canonicalPath": "/blog/san-gimignano-day-trip-from-siena-2026",
-  "updated": "2026-07-31"
+  "updated": "2026-07-31",
+  "store": "articles"
  },
  {
   "slug": "tuscany-wine-harvest-vendemmia-2026",
   "title": "Tuscany Wine Harvest 2026: Vendemmia Season, Festivals & How to Join In",
+  "category": "Food & drink",
+  "region": "Tuscany",
   "excerpt": "Tuscany’s 2026 wine harvest explained: when the vendemmia happens, the Chianti Classico Expo and centenary grape festival dates, and how to join in.",
+  "image": "/images/tuscany/chianti-wine-road-vineyard.webp",
+  "readMinutes": 13,
   "canonicalPath": "/blog/tuscany-wine-harvest-vendemmia-2026",
-  "updated": "2026-08-09"
+  "updated": "2026-08-09",
+  "store": "articles"
  },
  {
   "slug": "tuscany-olive-harvest-olio-nuovo-2026",
   "title": "Tuscany Olive Harvest 2026: Olio Nuovo Season & How to Join In",
+  "category": "Food & drink",
+  "region": "Tuscany",
   "excerpt": "Tuscany’s 2026 olive harvest guide: when olio nuovo arrives, how to visit a working frantoio, and why this is the harvest visitors can join.",
+  "image": "/images/tuscany/val-dorcia-cypress-trees-landscape.jpg",
+  "readMinutes": 11,
   "canonicalPath": "/blog/tuscany-olive-harvest-olio-nuovo-2026",
-  "updated": "2026-08-04"
+  "updated": "2026-08-04",
+  "store": "articles"
  },
  {
   "slug": "siena-in-september-2026",
   "title": "Siena in September 2026: Uncovered Duomo Floor, Harvest & Fewer Crowds",
+  "category": "Best time to visit",
+  "region": "Siena",
   "excerpt": "Siena in September 2026: the Duomo’s marble floor uncovered all month, post-Palio calm, wine harvest day trips, weather averages and a practical plan.",
+  "image": "/images/siena/siena-skyline-view-from-duomo.webp",
+  "readMinutes": 12,
   "canonicalPath": "/blog/siena-in-september-2026",
-  "updated": "2026-08-02"
+  "updated": "2026-08-02",
+  "store": "articles"
  },
  {
   "slug": "tuscany-in-november-2026",
   "title": "Tuscany in November 2026: Truffles, Olio Nuovo & the Duomo Floor’s Last Weeks",
+  "category": "Best time to visit",
+  "region": "Tuscany",
   "excerpt": "Tuscany in November 2026: the Duomo floor’s final uncovered weeks, San Miniato’s white truffle festival dates, olio nuovo and honest weather advice.",
+  "image": "/images/tuscany/florence-piazzale-michelangelo-sunset.jpg",
+  "readMinutes": 11,
   "canonicalPath": "/blog/tuscany-in-november-2026",
-  "updated": "2026-08-08"
+  "updated": "2026-08-08",
+  "store": "articles"
  },
  {
   "slug": "tuscany-in-october-2026",
   "title": "Tuscany in October 2026: The Golden Month Between Two Harvests",
+  "category": "Best time to visit",
+  "region": "Tuscany",
   "excerpt": "Tuscany in October 2026: the late wine harvest, the first olive pressings, the uncovered Duomo floor all month, weather averages and honest advice.",
+  "image": "/images/tuscany/tuscany-hidden-gems-monteriggioni.webp",
+  "readMinutes": 12,
   "canonicalPath": "/blog/tuscany-in-october-2026",
-  "updated": "2026-08-06"
+  "updated": "2026-08-06",
+  "store": "articles"
  },
  {
   "slug": "tuscany-in-december-2026",
   "title": "Tuscany in December 2026: Siena’s Medieval Market, New Oil & Quiet Christmas",
+  "category": "Best time to visit",
+  "region": "Tuscany",
   "excerpt": "Tuscany in December 2026: Siena’s Mercato nel Campo, the Val d’Orcia oil festival, olio nuovo at its peak, holiday closures and honest winter advice.",
+  "image": "/images/siena/05-piazza-del-campo-panorama.webp",
+  "readMinutes": 12,
   "canonicalPath": "/blog/tuscany-in-december-2026",
-  "updated": "2026-08-09"
+  "updated": "2026-08-09",
+  "store": "articles"
  },
  {
   "slug": "florence-or-siena-which-to-visit-2026",
   "title": "Florence or Siena: Which Should You Visit in 2026? An Honest Comparison",
+  "category": "Practical tips",
+  "region": "Tuscany",
   "excerpt": "Florence or Siena in 2026? An honest comparison: first trips, bases, art, food, budgets, seasons — and how to combine both in one itinerary.",
+  "image": "/images/tuscany/florence-uffizi-gallery-art.jpg",
+  "readMinutes": 12,
   "canonicalPath": "/blog/florence-or-siena-which-to-visit-2026",
-  "updated": "2026-08-03"
+  "updated": "2026-08-03",
+  "store": "articles"
  },
  {
   "slug": "siena-or-san-gimignano-day-trip-2026",
   "title": "Siena or San Gimignano: Which Day Trip Should You Choose in 2026?",
+  "category": "Day trips",
+  "region": "Tuscany",
   "excerpt": "Siena or San Gimignano for your spare Tuscan day? An honest comparison of the two classic day trips — and whether combining both actually works.",
+  "image": "/images/siena/siena-piazza-del-campo-day-trip.webp",
+  "readMinutes": 12,
   "canonicalPath": "/blog/siena-or-san-gimignano-day-trip-2026",
-  "updated": "2026-08-05"
+  "updated": "2026-08-05",
+  "store": "articles"
  },
  {
   "slug": "val-dorcia-or-chianti-which-to-visit-2026",
   "title": "Val d’Orcia or Chianti: Which Tuscan Wine Country Should You Visit in 2026?",
+  "category": "Day trips",
+  "region": "Tuscany",
   "excerpt": "Val d’Orcia or Chianti for your Tuscan wine-country day? An honest comparison of landscapes, wines, towns, seasons and car-free logistics for 2026.",
+  "image": "/images/tuscany/chianti-wine-road-vineyard.webp",
+  "readMinutes": 13,
   "canonicalPath": "/blog/val-dorcia-or-chianti-which-to-visit-2026",
-  "updated": "2026-08-07"
+  "updated": "2026-08-07",
+  "store": "articles"
  },
  {
   "slug": "tuscany-in-august-2026",
   "title": "Tuscany in August 2026: The Honest Guide to the Hardest Month",
+  "category": "Best time to visit",
+  "region": "Tuscany",
   "excerpt": "Tuscany in August 2026, honestly: Palio and Ferragosto dates, the Duomo floor’s 18 August reopening, heat tactics and where the month still works.",
+  "image": "/images/florence/early-morning-duomo-golden-light.webp",
+  "readMinutes": 12,
   "canonicalPath": "/blog/tuscany-in-august-2026",
-  "updated": "2026-07-31"
+  "updated": "2026-07-31",
+  "store": "articles"
  },
  {
   "slug": "tuscany-in-january-2027",
   "title": "Tuscany in January 2027: The Quietest Month, and Who It’s Secretly For",
+  "category": "Best time to visit",
+  "region": "Tuscany",
   "excerpt": "Tuscany in January 2027: the year’s emptiest month — winter sales, thermal springs, Viareggio Carnival’s 30 January opening and honest cold-season advice.",
+  "image": "/images/florence/san-miniato-al-monte-panoramic-view.webp",
+  "readMinutes": 12,
   "canonicalPath": "/blog/tuscany-in-january-2027",
-  "updated": "2026-08-10"
+  "updated": "2026-08-10",
+  "store": "articles"
  },
  {
   "slug": "tuscany-in-february-2027",
   "title": "Tuscany in February 2027: Carnival Month, Honestly Reviewed",
+  "category": "Best time to visit",
+  "region": "Tuscany",
   "excerpt": "Tuscany in February 2027: Viareggio Carnival’s parade dates, Carnival sweets, a Valentine’s Sunday, the sales’ tail end and honest winter advice.",
+  "image": "/images/florence/florence-golden-hour-sunset-bardini.webp",
+  "readMinutes": 12,
   "canonicalPath": "/blog/tuscany-in-february-2027",
-  "updated": "2026-08-11"
+  "updated": "2026-08-11",
+  "store": "articles"
  },
  {
   "slug": "italy-entry-requirements-ees-etias-2026",
   "title": "Italy Entry Requirements 2026: EES Is Live, ETIAS Is Delayed — What You Actually Need",
+  "category": "Practical tips",
+  "region": "Italy",
   "excerpt": "Italy entry requirements in 2026, straight: the EES biometric border is live, ETIAS is delayed with no confirmed date, and the 90/180 rule now has teeth.",
+  "image": "/images/italy/budget-italy-itinerary-florence-rome-venice-hero.webp",
+  "readMinutes": 12,
   "canonicalPath": "/blog/italy-entry-requirements-ees-etias-2026",
-  "updated": "2026-08-09"
+  "updated": "2026-08-09",
+  "store": "articles"
  },
  {
   "slug": "italy-transport-strikes-survival-guide-2026",
   "title": "Italy Transport Strikes: The Calm Traveller’s Guide (2026)",
+  "category": "Transport",
+  "region": "Italy",
   "excerpt": "How Italy’s transport strikes really work: the summer strike ban, guaranteed service windows, your compensation rights and where real dates live.",
+  "image": "/images/siena/florence-to-siena-bus-journey.webp",
+  "readMinutes": 13,
   "canonicalPath": "/blog/italy-transport-strikes-survival-guide-2026",
-  "updated": "2026-08-09"
+  "updated": "2026-08-09",
+  "store": "articles"
  },
  {
   "slug": "florence-tourist-rules-2026",
   "title": "Florence’s New Tourist Rules 2026: What Actually Changed (and What’s Recycled News)",
+  "category": "Practical tips",
+  "region": "Tuscany",
   "excerpt": "Florence’s real 2026 rules, verified: the outdoor-dining overhaul, the e-scooter rental ban, keybox and rental restrictions — and the recycled myths.",
+  "image": "/images/florence/oltrarno-artisan-street.webp",
+  "readMinutes": 11,
   "canonicalPath": "/blog/florence-tourist-rules-2026",
-  "updated": "2026-08-01"
+  "updated": "2026-08-01",
+  "store": "articles"
  },
  {
   "slug": "italy-beach-rules-2026",
   "title": "Italy’s Beach Rules 2026: Booked Beaches, Real Fines & How the System Works",
+  "category": "Practical tips",
+  "region": "Italy",
   "excerpt": "Italy’s 2026 beach rules, verified: which beaches now require booking, the fines that are real (mats, smoking, the 5-metre strip) and how it all works.",
+  "image": "/images/venice/burano-free-island-alternative.webp",
+  "readMinutes": 12,
   "canonicalPath": "/blog/italy-beach-rules-2026",
-  "updated": "2026-08-12"
+  "updated": "2026-08-12",
+  "store": "articles"
+ },
+ {
+  "slug": "tuscany-on-screen-film-locations-2026",
+  "title": "Tuscany on Screen: Film Locations You Can Actually Visit (2026)",
+  "category": "Things to do",
+  "region": "Tuscany",
+  "excerpt": "Tuscany’s real film locations, verified: You, Me & Tuscany’s Val d’Orcia villages, Twilight’s Montepulciano, Bond’s Siena and Gladiator’s cypress road.",
+  "image": "/images/tuscany/val-dorcia-cypress-trees-landscape.jpg",
+  "readMinutes": 14,
+  "canonicalPath": "/blog/tuscany-on-screen-film-locations-2026",
+  "updated": "2026-08-13",
+  "store": "articles"
+ },
+ {
+  "slug": "rome-to-siena-train-bus-2026",
+  "title": "Rome to Siena: Train, Bus & the Route That’s Actually Fastest (2026)",
+  "category": "Transport",
+  "region": "Siena",
+  "excerpt": "Rome to Siena in 2026: why the direct bus beats the train, the Chiusi and Florence rail routes compared, FCO airport options and honest advice.",
+  "image": "/images/piazza-del-campo-siena.webp",
+  "readMinutes": 12,
+  "canonicalPath": "/blog/rome-to-siena-train-bus-2026",
+  "updated": "2026-08-14",
+  "store": "articles"
  },
  {
   "slug": "piazza-del-campo-guide",
   "title": "Piazza del Campo Guide: What to See in Siena’s Main Square",
+  "category": "Siena Travel Guide",
+  "region": "Siena, Tuscany",
   "excerpt": "Allow at least 30–45 minutes for the square itself, longer if you visit Palazzo Pubblico, the Museo Civico or Torre del Mangia . Early morning is best for quieter photographs; late afternoon is ideal for atmosphere.",
+  "image": "/images/siena/piazza-del-campo-guide-hero.webp",
+  "readMinutes": 5,
   "canonicalPath": "/piazza-del-campo-guide",
-  "updated": "2026-07-11"
+  "updated": "2026-07-11",
+  "store": "cluster"
  },
  {
   "slug": "siena-cathedral-guide",
   "title": "Siena Cathedral Guide: Tickets, Hours and What to See",
+  "category": "Siena Travel Guide",
+  "region": "Siena, Tuscany",
   "excerpt": "For most first-time visitors, the OPA SI Pass offers the best balance. In 2026 it costs €14 during standard periods and €16 during floor-uncovering periods, is valid for three consecutive days and includes the museums of the complex. Check the official calendar because Sundays, services and special dates alter cathedral access.",
+  "image": "/images/siena/siena-cathedral-guide-hero.webp",
+  "readMinutes": 6,
   "canonicalPath": "/siena-cathedral-guide",
-  "updated": "2026-07-11"
+  "updated": "2026-07-11",
+  "store": "cluster"
  },
  {
   "slug": "torre-del-mangia-guide",
   "title": "Torre del Mangia Guide: Tickets, Steps and Whether It Is Worth It",
+  "category": "Siena Travel Guide",
+  "region": "Siena, Tuscany",
   "excerpt": "In 2026, the single Torre del Mangia ticket costs €10. Tower tickets cannot be reserved and are sold only on the day of the visit. Entry is limited, the visit lasts no more than 30 minutes and there is no lift. From 1 March to 31 October the published hours are 10:00–19:00, with last ticketing at 18:15.",
+  "image": "/images/siena/torre-del-mangia-guide-hero.webp",
+  "readMinutes": 5,
   "canonicalPath": "/torre-del-mangia-guide",
-  "updated": "2026-07-11"
+  "updated": "2026-07-11",
+  "store": "cluster"
  },
  {
   "slug": "siena-contrade-guide",
   "title": "Siena Contrade Explained: A Respectful Guide to the 17 Districts",
+  "category": "Siena Travel Guide",
+  "region": "Siena, Tuscany",
   "excerpt": "Siena has 17 contrade. Each has its own name, emblem, colours and territory. Ten participate in each Palio race under official rotation and drawing rules, but contrada identity is part of everyday community life, not only race day.",
+  "image": "/images/siena/siena-contrade-guide-hero.webp",
+  "readMinutes": 4,
   "canonicalPath": "/siena-contrade-guide",
-  "updated": "2026-07-11"
+  "updated": "2026-07-11",
+  "store": "cluster"
  },
  {
   "slug": "where-to-eat-in-siena",
   "title": "Where to Eat in Siena: Best Areas, Local Dishes and Practical Tips",
+  "category": "Siena Travel Guide",
+  "region": "Siena, Tuscany",
   "excerpt": "For convenience, eat near Via di Città or Via Banchi di Sopra. For a quieter atmosphere, explore streets toward Piazza del Mercato. Choose a terrace on Piazza del Campo mainly for the view. Look for pici, pecorino, Cinta Senese products, ribollita, ricciarelli and panforte.",
+  "image": "/images/siena/where-to-eat-in-siena-hero.webp",
+  "readMinutes": 5,
   "canonicalPath": "/where-to-eat-in-siena",
-  "updated": "2026-07-11"
+  "updated": "2026-07-11",
+  "store": "cluster"
  },
  {
   "slug": "siena-walking-tour",
   "title": "Siena Walking Tour: A Self-Guided Route Through the Historic Centre",
+  "category": "Siena Travel Guide",
+  "region": "Siena, Tuscany",
   "excerpt": "Start at Piazza del Campo , walk to the Duomo, continue through Via di Città, explore the streets toward Piazza del Mercato and Orto de’ Pecci, then loop back to the Campo. Allow three to four hours with stops, or a full day when adding the cathedral and lunch.",
+  "image": "/images/siena/siena-walking-tour-hero.webp",
+  "readMinutes": 5,
   "canonicalPath": "/siena-walking-tour",
-  "updated": "2026-07-11"
+  "updated": "2026-07-11",
+  "store": "cluster"
  },
  {
   "slug": "santa-maria-della-scala-siena",
   "title": "Santa Maria della Scala Siena: Tickets, Hours and What to See",
+  "category": "Siena Travel Guide",
+  "region": "Siena, Tuscany",
   "excerpt": "From 15 March to 31 October 2026, Santa Maria della Scala is open daily 10:00–19:00, with last admission at 18:15. The full ticket is €9, or €8 with reservation. Allow at least 90 minutes; two to three hours is better for a deeper visit.",
+  "image": "/images/siena/santa-maria-della-scala-siena-hero.webp",
+  "readMinutes": 5,
   "canonicalPath": "/santa-maria-della-scala-siena",
-  "updated": "2026-07-11"
+  "updated": "2026-07-11",
+  "store": "cluster"
  },
  {
   "slug": "one-day-in-siena",
   "title": "One Day in Siena Itinerary: How to Spend a Perfect Day",
+  "category": "Siena Travel Guide",
+  "region": "Siena, Tuscany",
   "excerpt": "For a balanced first visit, spend the morning around Piazza del Campo and Siena Cathedral , take a proper lunch break, then use the afternoon for the contrade, historic lanes and one optional attraction. Six to eight hours in the historic centre is comfortable for most first-time visitors.",
+  "image": "/images/siena/one-day-in-siena-hero.webp",
+  "readMinutes": 10,
   "canonicalPath": "/one-day-in-siena",
-  "updated": "2026-07-11"
+  "updated": "2026-07-11",
+  "store": "cluster"
  },
  {
   "slug": "florence-to-siena-by-train-or-bus",
   "title": "Florence to Siena by Train or Bus: Times, Prices, Which to Pick",
+  "category": "Tuscany Transport",
+  "region": "Tuscany",
   "excerpt": "Train or bus from Florence to Siena? Times, fares and arrival points compared, every figure checked against official operators in August 2026.",
+  "image": "/images/siena/05-piazza-del-campo-panorama.webp",
+  "readMinutes": 21,
   "canonicalPath": "/florence-to-siena-by-train-or-bus/",
-  "updated": "2026-08-05"
+  "updated": "2026-08-05",
+  "store": "guide"
  }
 ]

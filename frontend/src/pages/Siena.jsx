@@ -4,7 +4,6 @@ import Breadcrumbs from "@/components/common/Breadcrumbs";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema, placeSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
-import { articlesByRegion } from "@/data/articles";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 import PlanStrip from "@/components/common/PlanStrip";
 import KnowBeforeYouGo from "@/components/siena/KnowBeforeYouGo";
