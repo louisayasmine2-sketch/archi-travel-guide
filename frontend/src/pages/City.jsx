@@ -8,7 +8,7 @@ import SEO from "@/components/common/SEO";
 import { getCity } from "@/data/cities";
 // Card metadata only — the related-guides grid needs titles and images, not
 // article bodies (@/data/articles is 1.2MB of them).
-import articlesIndex from "@/data/articlesIndex.json";
+import { findPublishedArticle } from "@/lib/publishedArticles";
 import { breadcrumbSchema, faqSchema, placeSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import NotFound from "./NotFound";
@@ -25,7 +25,7 @@ export default function City({ slug: slugProp }) {
   if (!city) return <NotFound />;
 
   const relatedArticles = (city.related || [])
-    .map((slug) => articlesIndex.find((a) => a.slug === slug))
+    .map((slug) => findPublishedArticle(slug))
     .filter(Boolean);
   const path = `/${city.slug}`;
   const url = canonical(path);

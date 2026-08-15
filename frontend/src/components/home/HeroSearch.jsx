@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Search } from "lucide-react";
 import { HERO } from "@/constants/testIds";
-import { searchSite, GUIDE_COUNT } from "@/lib/searchIndex";
+import { searchSite, guideCount } from "@/lib/searchIndex";
 
 // Homepage hero search — same published-content index as the header search,
 // so a suggestion can never dead-link. Enter submits the filtered /blog?q=
@@ -46,7 +46,7 @@ export default function HeroSearch() {
           value={q}
           onChange={(e) => { setQ(e.target.value); setActiveIdx(-1); }}
           onKeyDown={onKey}
-          placeholder={`Search ${GUIDE_COUNT} guides — parking, Palio, packing…`}
+          placeholder={`Search ${guideCount()} guides — parking, Palio, packing…`}
           aria-label="Search guides"
           role="combobox"
           aria-expanded={results.length > 0}
