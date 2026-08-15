@@ -579,7 +579,7 @@
   "region": "Tuscany",
   "excerpt": "Tuscany in November 2026: the Duomo floor’s final uncovered weeks, San Miniato’s white truffle festival dates, olio nuovo and honest weather advice.",
   "image": "/images/tuscany/florence-piazzale-michelangelo-sunset.jpg",
-  "readMinutes": 11,
+  "readMinutes": 12,
   "canonicalPath": "/blog/tuscany-in-november-2026",
   "updated": "2026-08-08",
   "store": "articles"
@@ -631,7 +631,7 @@
   "region": "Tuscany",
   "excerpt": "Siena or San Gimignano for your spare Tuscan day? An honest comparison of the two classic day trips — and whether combining both actually works.",
   "image": "/images/siena/siena-piazza-del-campo-day-trip.webp",
-  "readMinutes": 12,
+  "readMinutes": 13,
   "canonicalPath": "/blog/siena-or-san-gimignano-day-trip-2026",
   "updated": "2026-08-05",
   "store": "articles"
@@ -1042,14 +1042,14 @@
  {
   "publishedAt": "2026-07-12T10:45:00+07:00",
   "slug": "siena-cathedral-guide",
-  "title": "Siena Cathedral Guide: Tickets, Hours and What to See",
+  "title": "Siena Cathedral Tickets 2026: Three Routes, and the Free Winter Window",
   "category": "Siena Travel Guide",
   "region": "Siena, Tuscany",
-  "excerpt": "For most first-time visitors, the OPA SI Pass offers the best balance. In 2026 it costs €14 during standard periods and €16 during floor-uncovering periods, is valid for three consecutive days and includes the museums of the complex. Check the official calendar because Sundays, services and special dates alter cathedral access.",
+  "excerpt": "Siena Cathedral stopped being one ticket in March 2026. There are now three routes at three prices, all of them keyed to whether the marble floor is uncovered — and a free winter window that almost no guide mentions. This guide sets out what each route contains, what it costs in both states of the floor, and which one is worth your money.",
   "image": "/images/siena/siena-cathedral-guide-hero.webp",
-  "readMinutes": 6,
+  "readMinutes": 14,
   "canonicalPath": "/siena-cathedral-guide",
-  "updated": "2026-07-11",
+  "updated": "2026-08-14",
   "store": "cluster"
  },
  {
@@ -1125,7 +1125,7 @@
   "region": "Siena, Tuscany",
   "excerpt": "For a balanced first visit, spend the morning around Piazza del Campo and Siena Cathedral , take a proper lunch break, then use the afternoon for the contrade, historic lanes and one optional attraction. Six to eight hours in the historic centre is comfortable for most first-time visitors.",
   "image": "/images/siena/one-day-in-siena-hero.webp",
-  "readMinutes": 10,
+  "readMinutes": 11,
   "canonicalPath": "/one-day-in-siena",
   "updated": "2026-07-11",
   "store": "cluster"
