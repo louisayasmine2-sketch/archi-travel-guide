@@ -2,12 +2,17 @@
 /*
  * scripts/generate-articles-index.js
  *
- * Writes src/data/articlesIndex.json: the card-level metadata (slug, title,
- * category, region, excerpt, image, readMinutes, canonicalPath, updated) of
- * every PUBLISHED article — src/data/articles.js, the Siena cluster pages in
- * sienaContentCluster.json, and the standalone Florence→Siena guide. Search
- * (lib/searchIndex.js), the month cue and every listing surface read this
- * index, so a page missing here is invisible to all of them.
+ * Writes src/data/articlesIndex.json: the card-level metadata (publishedAt,
+ * slug, title, category, region, excerpt, image, readMinutes, canonicalPath,
+ * updated) of every article — src/data/articles.js, the Siena cluster pages
+ * in sienaContentCluster.json, and the standalone Florence→Siena guide.
+ *
+ * SCHEDULED entries are included, each carrying the moment it goes live.
+ * This file is a build-time snapshot, so filtering here would tie publication
+ * to deploys: an article dated today would be live on its own URL (the store
+ * filters in the browser) while every listing pretended it did not exist.
+ * Consumers therefore read lib/publishedArticles.js, which filters at
+ * runtime — never this JSON directly.
  *
  * Why: articles.js carries every article's full body — 1.2MB of JavaScript at
  * 59 published articles, and growing with every one added. Listing surfaces
@@ -18,9 +23,8 @@
  * articles.js is EVALUATED rather than pattern-matched: the earlier regex
  * parser silently drifted from the store (wrong readMinutes on 8 articles,
  * wrong updated on 10, because options can override constructor arguments).
- * Reading the store's own `articles` export also inherits its publish rule
- * verbatim, so scheduled posts cannot leak into the index. The JSON stores
- * keep their own publish timestamps.
+ * The publish rule (+07:00 site timezone) is read from the store itself, so
+ * the runtime filter and the article route agree to the minute.
  *
  * Regenerated on every build and on npm start; committed like sitemap.xml so
  * fresh clones work without a build step.
@@ -51,17 +55,25 @@ function loadArticleStore() {
     .replace(/^export /gm, '');
   const mod = { exports: {} };
   // eslint-disable-next-line no-new-func
-  new Function('module', 'require', `${src}\nmodule.exports = { articles };`)(mod, require);
-  if (!Array.isArray(mod.exports.articles)) {
-    throw new Error('articles.js did not export an articles array');
+  new Function('module', 'require',
+    `${src}\nmodule.exports = { allArticles, SITE_TZ };`)(mod, require);
+  if (!Array.isArray(mod.exports.allArticles)) {
+    throw new Error('articles.js did not expose an allArticles array');
   }
-  return mod.exports.articles;
+  return mod.exports;
 }
 
-// The store's own `articles` export already applies the publish rule, so this
-// is a pure projection: pick the card fields, drop the bodies.
+// Scheduled entries are INCLUDED, each stamped with the moment it goes live.
+// The index is a build-time snapshot, so filtering here would freeze the site
+// until the next deploy: an article dated today would sit live on its own URL
+// (articles.js filters in the browser) while every listing pretended it did
+// not exist. Consumers filter at runtime through lib/publishedArticles.js.
 function extractArticles() {
-  return loadArticleStore().map((a) => ({
+  const { allArticles, SITE_TZ } = loadArticleStore();
+  const publishedAt = (updated) =>
+    (/^\d{4}-\d{2}-\d{2}$/.test(updated) ? `${updated}T00:00:00${SITE_TZ}` : String(updated));
+  return allArticles.map((a) => ({
+    publishedAt: publishedAt(a.updated),
     slug: a.slug,
     title: a.title,
     category: a.category,
@@ -77,16 +89,18 @@ function extractArticles() {
 
 // The Siena cluster and the standalone Florence→Siena guide live in JSON data
 // files with their own publish timestamps; without them the index (and so
-// site search and 404 suggestions) cannot see those routes.
-function extractJsonArticles(now) {
+// site search and 404 suggestions) cannot see those routes. Like the articles
+// store, their scheduled entries are carried with a publishedAt stamp rather
+// than dropped at build time.
+function extractJsonArticles() {
   const results = [];
 
   const cluster = JSON.parse(
     fs.readFileSync(path.join(ROOT, 'src/data/sienaContentCluster.json'), 'utf-8')
   );
   for (const a of cluster.articles) {
-    if (new Date(a.publishAtWib) > now) continue;
     results.push({
+      publishedAt: String(a.publishAtWib),
       slug: a.slug,
       title: a.title,
       category: a.category,
@@ -103,8 +117,9 @@ function extractJsonArticles(now) {
   const f2s = JSON.parse(
     fs.readFileSync(path.join(ROOT, 'src/data/florenceToSienaGuide.json'), 'utf-8')
   );
-  if (new Date(f2s.datePublished) <= now) {
+  {
     results.push({
+      publishedAt: String(f2s.datePublished),
       slug: f2s.slug,
       title: f2s.title,
       category: f2s.category || 'Transport',
@@ -122,22 +137,20 @@ function extractJsonArticles(now) {
 }
 
 function main() {
-  // extractArticles() already returns the store's published set (its own
-  // `articles` export applies the +07:00 publish rule), so no second filter
-  // here — one would have to re-parse `updated`, which is exactly the kind of
-  // drift this rewrite removes.
-  const now = new Date();
-  const published = extractArticles();
-  const seen = new Set(published.map((a) => a.slug));
-  for (const extra of extractJsonArticles(now)) {
+  const entries = extractArticles();
+  const seen = new Set(entries.map((a) => a.slug));
+  for (const extra of extractJsonArticles()) {
     if (!seen.has(extra.slug)) {
       seen.add(extra.slug);
-      published.push(extra);
+      entries.push(extra);
     }
   }
   const out = path.join(ROOT, 'src/data/articlesIndex.json');
-  fs.writeFileSync(out, `${JSON.stringify(published, null, 1)}\n`);
-  console.log(`articlesIndex.json written: ${published.length} published articles`);
+  fs.writeFileSync(out, `${JSON.stringify(entries, null, 1)}\n`);
+  const now = new Date();
+  const live = entries.filter((a) => new Date(a.publishedAt) <= now).length;
+  console.log(`articlesIndex.json written: ${entries.length} entries `
+    + `(${live} live now, ${entries.length - live} scheduled)`);
 }
 
 main();
