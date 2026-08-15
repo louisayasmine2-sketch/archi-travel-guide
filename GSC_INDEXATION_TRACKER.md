@@ -132,6 +132,7 @@ Dua baris pertama sudah live saat batch ini dibuat (12–13 Agu); sisanya menyus
 | /blog/via-francigena-which-section-to-walk | 2026-08-31 |  |  |  |  |  |
 | /blog/uffizi-tickets-sold-out-what-to-do | 2026-09-01 |  |  |  |  |  |
 | /blog/leroica-gaiole-in-chianti-2026 | 2026-09-02 |  |  |  |  |  |
+| /blog/accademia-tickets-sold-out-florence | 2026-09-03 |  |  |  |  |  |
 
 Catatan batch 3:
 - Halaman live yang berubah signifikan dan layak re-request saat deploy: homepage

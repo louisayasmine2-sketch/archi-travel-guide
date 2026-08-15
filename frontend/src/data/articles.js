@@ -2397,6 +2397,8 @@ The Uffizi, the Accademia, the Bargello, the Pitti Palace, the Medici Chapels an
 
 Monday is not a wasted day — see the alternatives below — but it is the wrong day for a first visit built around the two headline galleries.
 
+One exception is worth checking before you write a Monday off: the Accademia and Bargello group runs a programme of extraordinary openings on normally closed days, and in 2026 that put the **Bargello, Orsanmichele and Palazzo Davanzati open on Mondays 5, 12 and 19 October**, with a group-wide evening opening on **Monday 30 November** that includes the Accademia itself. The [Accademia guide](/blog/accademia-tickets-sold-out-florence/) has the dates.
+
 ### Sunday: shorter dome hours, thinner buses
 
 The Duomo complex stays open, but the dome climb runs on reduced Sunday hours, opening only in the early afternoon and closing well before it would on a weekday. Combined with the reduced Sunday bus timetable, a Sunday day trip gives you a narrower window at both ends of the day.
@@ -2410,7 +2412,7 @@ Everything is open, the dome runs full hours, and the bus timetable is at its fu
 
 ### The Accademia — book earliest
 
-Home to Michelangelo's David, and the tightest ticket in Florence. Experienced Florence guides commonly advise booking around two months ahead for a choice of times in peak season. Open Tuesday to Sunday, closed Mondays.
+Home to Michelangelo's David, and the tightest ticket in Florence. Experienced Florence guides commonly advise booking around two months ahead for a choice of times in peak season. Open Tuesday to Sunday, closed Mondays. If the calendar is already empty for your dates, do not give up on it — [the box office sells on the day](/blog/accademia-tickets-sold-out-florence/), and the phone line is worth trying first.
 
 ### The Uffizi — book weeks ahead
 
@@ -2491,7 +2493,7 @@ Florence from Siena is a good day out and an easy journey. The visitors who come
     [
       { id: 'intro', heading: 'Florence is smaller than you think', body: 'You can walk from one end of the historic centre to the other in about twenty minutes, which means you will spend less on transport and more on the things that actually matter — the food, the art, and the leather jacket you swore you would not buy but absolutely will.\n\nThe good news is that Florence is significantly cheaper than Rome or Venice for accommodation and dining. Here is what Florence actually costs, broken down by budget level.' },
       { id: 'budget', heading: 'Budget Traveller — €65 to €90 per day', body: 'A bed in a well-reviewed hostel runs €25 to €40 per night. Private rooms in basic guesthouses start around €50 to €70.\n\nFor food, eat where the students eat. The area around San Lorenzo and Sant\'Ambrogio is filled with trattorias serving three-course lunch menus for €10 to €13.\n\nFor breakfast, do what locals do: stand at a bar counter, order a cornetto and a caffè, pay €2.50, and leave. Sitting down often doubles the price.' },
-      { id: 'mid-range', heading: 'Mid-Range Traveller — €130 to €180 per day', body: 'A double room in a three-star hotel in the Oltrarno district costs €90 to €140 per night.\n\nLunch at a proper trattoria costs €20 to €30 per person. Dinner at one of the city\'s beloved neighbourhood restaurants runs €30 to €45, including wine.\n\nThe mid-range traveller should budget for two or three paid museums. As of the 2026 tariffs: the Uffizi €25 same-day (€29 booked ahead — advance costs more here), the Accademia €20 plus a €4 reservation fee since 1 February 2026, and Pitti Palace with the Boboli Gardens €22 on the day or €25 in advance. Book the Uffizi and Accademia ahead for certainty rather than savings, and see [what to do if the Uffizi is sold out](/blog/uffizi-tickets-sold-out-what-to-do/).' },
+      { id: 'mid-range', heading: 'Mid-Range Traveller — €130 to €180 per day', body: 'A double room in a three-star hotel in the Oltrarno district costs €90 to €140 per night.\n\nLunch at a proper trattoria costs €20 to €30 per person. Dinner at one of the city\'s beloved neighbourhood restaurants runs €30 to €45, including wine.\n\nThe mid-range traveller should budget for two or three paid museums. As of the 2026 tariffs: the Uffizi €25 same-day (€29 booked ahead — advance costs more here), the Accademia €20 plus a €4 reservation fee since 1 February 2026, and Pitti Palace with the Boboli Gardens €22 on the day or €25 in advance. Book the Uffizi and Accademia ahead for certainty rather than savings, and see what to do if [the Uffizi](/blog/uffizi-tickets-sold-out-what-to-do/) or [the Accademia](/blog/accademia-tickets-sold-out-florence/) is sold out.' },
       { id: 'luxury', heading: 'Luxury Traveller — €350 and above per day', body: 'Florence has some of the most beautiful boutique hotels in Europe. A luxury room starts around €400 per night.\n\nDining at this level is an event. The best meal you will eat might be a €60 bistecca alla fiorentina (Florentine T-bone steak) at a traditional steakhouse.\n\nFor a unique luxury experience, book a private after-hours tour of the Vasari Corridor.' },
       { id: 'tips', heading: 'Money-Saving Tips for All Budgets', body: '• Water is free. Ask for "acqua del rubinetto" (tap water) at restaurants.\n• Aperitivo culture is your secret weapon. Many bars offer a free buffet of pasta and snacks when you order a drink between 6 and 9 p.m.\n• Avoid restaurants with photos on the menu. Photos mean tourist prices and tourist quality.' }
     ],
@@ -9703,7 +9705,7 @@ One more mismatch that panics people unnecessarily: as noted at the top, the **A
 
 **Pitti Palace + Boboli Gardens is the most reliable large-scale substitute**: a combined one-day ticket at **€22 on the day, €25 in advance**, covering the Pitti museums, Boboli and the Bardini Garden. It is a half-day minimum and a full day if the gardens catch you — and, like the Uffizi, it is cheaper bought on the day.
 
-**The Accademia is a weak rescue**, despite being everyone's first suggestion. It sells out on the same pattern as the Uffizi, and its full price rose from €16 to **€20 on 1 February 2026** plus a €4 reservation fee. If David is the goal, treat it as a second booking problem, not a solution to the first.
+**The Accademia is a weak rescue**, despite being everyone's first suggestion. It sells out on the same pattern as the Uffizi, and its full price rose from €16 to **€20 on 1 February 2026** plus a €4 reservation fee. If David is the goal, treat it as a second booking problem, not a solution to the first — and one with a different answer: unlike the Uffizi, [the Accademia's box office sells on the day even when the website shows nothing](/blog/accademia-tickets-sold-out-florence/), which is worth knowing before you queue for either.
 
 **The Duomo complex** is a different kind of day entirely, sold on passes: **Brunelleschi Pass €30 full / €12 reduced** (timed Dome climb, Baptistery, Campanile, Santa Reparata crypt and the Opera del Duomo Museum, valid 3 days) or **Giotto Pass €20 / €7** for everything except the Dome. Note that **since 1 March 2025 an identity document must be presented with the ticket for the Dome climb**.
 
@@ -9983,6 +9985,193 @@ If you want to ride it, join the Ciclo Club, get the medical certificate signed 
       imageAlt: 'A Chianti wine road running between vineyards in the hills around Gaiole',
       canonicalPath: '/blog/leroica-gaiole-in-chianti-2026',
       tags: ['l’eroica', 'gaiole in chianti', 'chianti', 'cycling in tuscany', 'october in tuscany', 'festivals'],
+    }
+  ),
+  A(
+    'accademia-tickets-sold-out-florence',
+    'Accademia Sold Out? The Box Office Still Sells Tickets on the Day',
+    'Practical tips',
+    'Florence',
+    'Accademia calendar empty for your dates? The gallery itself says the box office still sells on the day. The queue, the price, the free days, the Plan B.',
+    '/images/florence/early-morning-duomo-golden-light.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `The booking calendar shows nothing for your dates, every guide says “book months ahead”, and you are already in Florence. Here is the sentence that solves most of these cases, and it comes from the gallery’s own ticketing information:
+
+**Even when online availability is sold out, tickets can be bought at the museum’s box office on the day of your visit.** The waiting time can be long. But the door is not the website, and “sold out” online does not mean the building is full.
+
+The numbers you need before deciding whether to queue:
+
+- **Full ticket €20**, reduced €2, plus a **€4 booking fee** when you reserve online or by phone. Buying at the door on the day means you are not paying the €4 — you are paying with time instead.
+- **Open Tuesday to Sunday, 08:15–18:50.** Closed every **Monday**, 1 January and 25 December. The gallery’s own pages and the group’s announcement describe the last-admission cut-off differently — one says 30 minutes before closing, the other 50 — so **be in the queue by 17:50** and the discrepancy cannot hurt you.
+- **The official booking channels are b-ticket.com and the Firenze Musei call centre on +39 055 294883.** Nothing else is the museum.
+
+And the two facts that change plans most often: **admission is free on the first Sunday of every month** (with three further free dates in 2026), and there is a **programme of extraordinary openings running to the end of November**, including evening access on days the museum is normally shut.
+
+The rest of this guide covers the queue in detail, the booking routes that are not the website, the free and extraordinary dates, what you are actually missing if you never get in, and where else in Florence Michelangelo is standing.`,
+      },
+      {
+        id: 'why-sold-out',
+        heading: 'Why the calendar empties, and why this museum is different',
+        body: `The Accademia is a small museum carrying one of the largest single demands in European tourism. Almost everyone who books is booking for one object, and that object is not going on tour.
+
+**Entry is by timed slot.** The gallery releases a finite number of places per interval and the online allocation for a popular date disappears well before the date arrives. That is the mechanism behind the empty calendar — not a building at capacity all day, but an online allocation for each slot that has been claimed.
+
+**The door holds a separate allocation.** This is the structural difference between the Accademia and the museum most people compare it to. If you have read our guide to [the Uffizi when it is sold out](/blog/uffizi-tickets-sold-out-what-to-do/), you will know that there the interesting fact is a pricing one — same-day tickets are *cheaper* than advance. At the Accademia the interesting fact is simpler and, on a bad morning, more valuable: **the box office sells on the day, and the museum says so itself.**
+
+**Waiting for cancellations is still a poor plan.** Refreshing a booking site for released slots is a way of spending a holiday rather than a way of seeing a statue. Every hour spent on it is an hour you could have spent in the queue actually moving toward the door, or in the Bargello, or on a booking call.
+
+**And there is a specific trap for Firenze Card holders.** The card includes the Accademia and covers the reservation fee — but **reservation is mandatory**, with dedicated time slots. A card in your pocket is not an entry. If you bought the card assuming it worked as a walk-in pass here, book a slot the moment you read this.`,
+      },
+      {
+        id: 'the-door',
+        heading: 'The same-day queue, honestly described',
+        body: `The box office route works. It also costs you, and you should know the price before you commit a morning to it.
+
+**What you are queueing for.** Two separate things, and travellers routinely conflate them. The first is the **ticket-purchase queue** outside the entrance, which is the one that empties or fills depending on the season and the hour. The second is **security screening**, which everybody passes through — booked, unbooked, card-holder, tour group. A priority ticket removes the first queue and not the second.
+
+**How long.** Reported waits for same-day purchase run to **one to two hours across the mid-morning to early-afternoon peak in the busy months, roughly April to October**, when reservation-holders and walk-ups arrive at the same time. In the low season — **November to March, excluding the Christmas and New Year fortnight** — the same queue is reported at **twenty to forty minutes even at midday**. These figures come from ticketing and visitor-information sites rather than the museum, so treat them as the shape of the problem rather than a promise.
+
+**When to join it.** Two windows are worth building a day around:
+
+- **At opening.** Be outside before **08:15**. The people ahead of you are mostly holding reservations, which means the purchase queue is at its shortest of the day, and the first hour inside is the quietest hour the Tribuna gets.
+- **Late afternoon.** From around **17:00** the reservation slots thin out and the day-trip coaches have gone. You get less time — and you must be in the queue well before the cut-off, so treat **17:50** as your hard deadline — but ninety minutes is genuinely enough for this museum.
+
+**The middle of the day is the one to avoid**, which is exactly when most people who have just discovered the calendar is empty decide to walk over.
+
+**Bring the €20 in a form that works.** A small box office under pressure is not the place to discover a card problem.`,
+      },
+      {
+        id: 'booking-routes',
+        heading: 'The booking routes that are not the website',
+        body: `Before you accept the queue, exhaust the three channels that most visitors never try. All of them are official.
+
+**The Firenze Musei call centre, +39 055 294883.** Published hours are **08:30–18:30 Monday to Friday, 08:30–18:00 on Saturday, and 09:00–18:00 on Sundays and holidays (CET)**. Phone inventory and web inventory are not always the same pool, and a call takes two minutes. This is the single most underused option in Florence, and it is the same lesson as the Uffizi: the website is a shop window, not the whole warehouse.
+
+**The booking offices in the city.** You can reserve an Accademia entry **in person, in Florence, without standing at the museum**. Two are published: the **Orsanmichele ticket office**, and the **“My Accademia” office at Via Ricasoli 105/rosso** — a few doors from the gallery itself. This appears in the Firenze Card booking instructions, so confirm at the counter that your case is covered, but it costs a five-minute walk to ask and it is a genuinely different queue from the box office one.
+
+**Email, for anything unusual.** Firenze Musei customer service is reachable at **firenzemusei@operalaboratori.com**.
+
+**And if you are a group of more than eight, or a school group, you must book by phone** on the same number. Do not send nine people to the box office and hope.
+
+**A note on third-party sellers.** Tour operators hold allocations that never enter the public online inventory, which is why a guided tour can show availability on a date the official site cannot. That is how museum allotments work, not a trick — but you are paying for the guide as well as the admission, and at this museum, on this particular problem, the phone call and the door are usually cheaper answers than a tour you did not want.`,
+      },
+      {
+        id: 'free-and-extra',
+        heading: 'The free days and the extraordinary openings',
+        body: `Two official calendars change the arithmetic, and neither is well publicised in English.
+
+**Free admission.** Entry costs nothing on the **first Sunday of every month** throughout 2026 under the national #Domenicalmuseo scheme, plus three further dates: **25 April, 2 June and 4 November 2026**. The trade is the obvious one — free means crowded, and on those days you are firmly in walk-up territory. Go at opening or not at all.
+
+**The extraordinary openings are the better-kept secret.** Funded through the Ministry of Culture’s 2026 valorisation plan, the group has run a calendar of evening and out-of-hours access from July to November, including on days the museums are normally closed:
+
+- **October 2026: Mondays the 5th, 12th and 19th**, when the **Museo Nazionale del Bargello, the Complesso di Orsanmichele and the Museo di Palazzo Davanzati** open on their normal closing day. If your Florence Monday was going to be a museum write-off, it is not.
+- **Monday 30 November 2026**, for the **Festa della Toscana**: the **Galleria dell’Accademia**, the Museo delle Cappelle Medicee, the Bargello, Orsanmichele and Palazzo Davanzati all open **17:15–21:00**. That is an extra Accademia session on a day the gallery is normally shut — the single most useful line in this article for anyone whose dates land near it.
+- The summer pattern, for reference when the 2027 calendar appears: in 2026 the Accademia ran **Tuesday evenings until 23:00 with last entry at 22:15**, on 21 and 28 July and 4 August.
+
+These programmes are announced on the gallery’s own news pages and change year to year. Check them before you conclude that a date is impossible.`,
+      },
+      {
+        id: 'combined-tickets',
+        heading: 'What the March 2026 merger changed',
+        body: `Since **15 March 2026** the Galleria dell’Accademia and the Bargello museums have operated as a single institution, with unified hours and shared tickets. For a visitor facing a sold-out Accademia this matters in a practical way, because the combined ticket buys a wider net of dates and places.
+
+- **€26, valid 48 hours** — the Galleria dell’Accademia and the Museo Nazionale del Bargello.
+- **€38, valid 72 hours** — the whole circuit: the Accademia, the Bargello, the **Museo delle Cappelle Medicee**, the **Complesso di Orsanmichele** and the **Museo di Palazzo Davanzati**, spread across three consecutive days.
+- Both carry the **€4 booking fee**, and both sit on the same **08:15–18:50, Tuesday to Sunday** schedule that now covers every museum in the group.
+- **Two sites in the group are shut for restoration** — **Casa Martelli** and **San Procolo** — so the €38 ticket buys five museums, not seven.
+
+The €38 ticket is the one worth doing arithmetic on. Three days is a wide net when a single date is impossible, and — the point almost nobody makes — **it puts Michelangelo’s Medici Chapels on the same ticket as the David**. If the Accademia slot lands on day three and the Cappelle Medicee fills day one, the trip still contains the sculpture you came for.`,
+      },
+      {
+        id: 'whats-actually-inside',
+        heading: 'What you are missing, and whether it justifies the queue',
+        body: `An honest answer requires separating the David from the museum around it, because most visitors are buying one and receiving both.
+
+**The David is not a statue you have seen photographs of.** Carved between **1501 and 1504** from a single block of Carrara marble and standing **5.17 metres**, it has been in the Accademia since **1873**, when it was moved indoors from Piazza della Signoria to protect it from the weather. What photographs cannot carry is the scale relative to a human standing at its base, and the finish — the surface is worked to a degree that changes as you walk around it. It rewards twenty minutes, not two.
+
+**The rest of the collection is stronger than its reputation.** The gallery holds more Michelangelo than the famous one: the **unfinished Prisoners**, figures still half-buried in their blocks, which many visitors end up preferring, plus **Saint Matthew** and the **Palestrina Pietà**. Beyond that, a substantial run of Florentine painting from the thirteenth to the nineteenth century — **Giotto**, the Master of the Magdalene, **Bernardo Daddi**, **Lorenzo Monaco**, **Botticelli**, **Fra Bartolomeo**, **Filippino Lippi** — a deep run of gold-ground panels, a musical instruments collection, and the **Gipsoteca** in the Salone dell’Ottocento, where Lorenzo Bartolini’s plaster models stand in rows like a nineteenth-century studio frozen mid-work.
+
+**Who should queue anyway:** first-time visitors to Florence; anyone travelling with someone who has wanted to see the David for years; and anyone interested in sculpture as a process, for whom the Prisoners alone are worth the morning.
+
+**Who should let it go:** travellers on a single tight Florence day with a Uffizi booking already in hand; families with small children, for whom two hours of queue buys about fifteen minutes of attention; and anyone whose real interest is Renaissance painting, who will get more from a calm afternoon elsewhere than from a contested slot here. Our [Florence budget guide](/blog/florence-travel-budget-guide/) sets the €20 against the rest of a day’s spending, and the [crowd-avoidance guide](/blog/avoid-crowds-in-florence-july-2026/) covers the wider timing problem.`,
+      },
+      {
+        id: 'david-without-a-ticket',
+        heading: 'Seeing a David without a ticket — and what that actually gets you',
+        body: `Florence has two full-size Davids standing in the open air, free, at any hour.
+
+**Piazza della Signoria** holds a **marble copy carved by Luigi Arrighetti and installed in 1910**, standing where the original stood from 1504 until 1873, outside the Palazzo Vecchio. It is in the correct place, at the correct scale, in the correct light, and it is free.
+
+**Piazzale Michelangelo** holds a **bronze cast**, at the centre of the terrace above the city — the one in most Florence sunset photographs, alongside the view our [crowd-avoidance guide](/blog/avoid-crowds-in-florence-july-2026/) recommends walking up for.
+
+**Now the honest part, because a copy is not the thing.** What the copies give you is the scale, the pose and the setting — genuinely more of the David than a photograph, and in the Signoria’s case, more of the *intended* David, since Michelangelo carved it to stand in public as a civic symbol rather than under a dome at the end of a corridor. What they cannot give you is the surface: the differences in finish across the marble, the veins, the way the light behaves on stone Michelangelo actually touched. If you have a spare morning and the queue is forty minutes, queue. If your alternative is losing half a day in August, walk to the Signoria without guilt — you are seeing something real, in the place it was made for.`,
+      },
+      {
+        id: 'plan-b',
+        heading: 'The Michelangelo Plan B that is better than most people think',
+        body: `If the Accademia genuinely cannot happen, Florence does not run out of Michelangelo.
+
+**The Museo delle Cappelle Medicee** is the strongest substitute, and it is now on the same €38 combined ticket. The **New Sacristy** is Michelangelo’s — architecture and sculpture designed as one thing, which the Accademia by its nature cannot show you. Anyone who came to Florence for the sculptor rather than for the single most famous sculpture should arguably be going here regardless.
+
+**The Bargello** is the other serious answer, and it is unusually easy to get into: Donatello, Michelangelo, the Ghiberti competition panels, in a medieval palace, on the same **08:15–18:50 Tuesday–Sunday** hours and, in October 2026, on three normally closed Mondays as well. It rarely sells out in the way the headline museums do — and it is **€12 on its own** since the February 2026 tariff revision.
+
+**The Museo dell’Opera del Duomo** holds the cathedral’s own sculpture, including Michelangelo’s **Bandini Pietà** — carved around 1547–1555, late, unfinished, and abandoned by the sculptor himself — and sits on the Duomo passes rather than the Accademia circuit.
+
+**And the general rule that outlasts this article**: a sold-out headline museum is not a ruined day in Florence, it is a redirected one. The same logic runs through our [Uffizi guide](/blog/uffizi-tickets-sold-out-what-to-do/) — and the deeper fix, for anyone still planning rather than already standing in the street, is to stop giving Florence one immovable day. A Siena base with Florence as a [day trip on the 131R](/blog/tuscany-without-a-car-2026/) turns a booking failure into a reshuffle instead of a loss.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **14 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened, and we have not published outbound links we could not confirm.
+
+Verified from the gallery’s own and the museum group’s published material: the **Tuesday–Sunday 08:15–18:50 opening** with Monday, 1 January and 25 December closures; the **unification of the Galleria dell’Accademia with the Musei del Bargello on 15 March 2026**, the unified hours across the group and the combined tickets at **€26 for 48 hours** (Accademia and Bargello) and **€38 for 72 hours** (adding the Cappelle Medicee, Orsanmichele and Palazzo Davanzati), with **Casa Martelli and San Procolo closed for restoration**; the **€20 full ticket, €2 reduced and €4 booking fee**; the statement that **tickets can be bought at the museum box office on the day even when online availability is sold out, with a possibly long wait**; **b-ticket.com** as the official booking site and **+39 055 294883** as the Firenze Musei booking line, with call-centre hours of 08:30–18:30 weekdays, 08:30–18:00 Saturday and 09:00–18:00 Sundays and holidays; the customer-service address firenzemusei@operalaboratori.com; the requirement that **groups of more than eight and school groups book by phone**; the **mandatory reservation for Firenze Card holders** on dedicated time slots with the booking fee included; the in-person booking offices at **Orsanmichele** and **“My Accademia”, Via Ricasoli 105/rosso**; free admission on the **first Sunday of each month** plus **25 April, 2 June and 4 November 2026**; and the Ministry of Culture valorisation-plan openings — **Bargello, Orsanmichele and Palazzo Davanzati on Mondays 5, 12 and 19 October 2026**, the **Festa della Toscana opening of 17:15–21:00 on Monday 30 November 2026** including the Accademia, and the summer Tuesday evenings to 23:00 with last entry 22:15 on 21 and 28 July and 4 August 2026.
+
+Verified from collection and reference sources: the David’s **1501–1504** carving, **5.17-metre** height and single Carrara block; its **1873** move indoors; the **1910 marble copy by Luigi Arrighetti** in Piazza della Signoria and the bronze cast at Piazzale Michelangelo; the gallery’s holdings of the unfinished Prisoners, Saint Matthew, the Palestrina Pietà, the Gipsoteca of Lorenzo Bartolini, the musical instruments collection and the painting collection from Giotto through Botticelli, Fra Bartolomeo and Filippino Lippi; and Michelangelo’s **Bandini Pietà**, carved around 1547–1555 and held by the Museo dell’Opera del Duomo since 1981. Every weekday claim above — the October Mondays, the 30 November Monday, the July and August Tuesdays — was checked against the calendar rather than taken from the announcement’s wording.
+
+**One conflict we could not resolve, stated plainly rather than smoothed over.** The gallery’s own page gives **last admission 30 minutes before closing**; the group’s March 2026 announcement gives **50 minutes**. We have not been able to establish which now governs, so the article tells you to be in the queue by **17:50**, which is safe under either. Separately, and it matters here: the gallery’s **English-language** ticket and information pages give the full ticket as **€16**, while the **Italian-language** ticket page and the 1 February 2026 tariff revision both give **€20**. Budget €20 plus the €4 booking fee. We flag this pointedly because the box-office sentence this article leans on sits on the same English page as the stale fare — the two are not equally likely to be out of date (a price rise is a dated, separately corroborated event; the sales channel is standing policy), but you should know that the page carrying our key source also carries an outdated number.
+
+**Also flagged as unconfirmed:** the same-day queue durations, which come from ticketing and visitor-information sites rather than the museum; whether the Orsanmichele and My Accademia booking offices serve general visitors as well as Firenze Card holders; and the 2027 opening, free-admission and extraordinary-opening calendars, none of which were published at our check. Florence museum tariffs and policies changed repeatedly across 2025 and 2026 — verify on the official channels for your dates before relying on any figure here.
+
+We have no commercial relationship with the Galleria dell’Accademia, Firenze Musei, any ticketing platform or any tour operator named. No booking made from this page pays us anything, and no reseller is recommended.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `“Sold out” at the Accademia means the online allocation for one date has gone. It does not mean the museum is closed to you, and it is a poor reason to pay a lookalike site double or to book a guided tour you never wanted.
+
+Work the channels in order: the phone line, the booking offices in the city, the box office at opening, the late-afternoon queue. If none of them yields, take the €38 combined ticket and give the Medici Chapels the morning instead — or walk to Piazza della Signoria, stand where the David stood for three hundred and sixty-nine years, and accept that Florence has never been a city with only one thing worth looking at.
+
+And if you are reading this while still planning rather than already in the street: book the moment your dates are fixed, and check the free-Sunday and extraordinary-opening calendars before you conclude your date is impossible.`,
+      },
+    ],
+    [
+      { q: 'What do you do if Accademia tickets are sold out?', a: 'Buy at the door. The gallery’s own ticketing information states that even when online availability is sold out, tickets can be purchased at the museum box office on the day, though the wait can be long. Before you queue, try the Firenze Musei call centre on +39 055 294883 — phone and web inventory are not always the same pool — and the in-person booking offices at Orsanmichele and Via Ricasoli 105/rosso.' },
+      { q: 'How much are Accademia tickets in 2026?', a: 'The full ticket is €20 and the reduced ticket €2, plus a €4 booking fee when you reserve online or by phone. Buying at the box office on the day avoids the booking fee but costs you the queue. Combined tickets with the Bargello museums are €26 for 48 hours and €38 for 72 hours, each plus the €4 fee. A €16 figure is still circulating on English-language pages; budget €20.' },
+      { q: 'How long is the queue at the Accademia without a reservation?', a: 'Ticketing and visitor-information sites report one to two hours across the mid-morning to early-afternoon peak from April to October, and twenty to forty minutes even at midday from November to March outside the Christmas fortnight. Those are not museum figures. Join it before the 08:15 opening or from about 17:00, and note that security screening is a separate queue everybody passes through.' },
+      { q: 'Is the Accademia free on any day?', a: 'Yes. Admission is free on the first Sunday of every month throughout 2026 under the #Domenicalmuseo scheme, plus 25 April, 2 June and 4 November 2026. Free days are busy days, so arrive at opening. There is also a programme of extraordinary openings — including the Accademia from 17:15 to 21:00 on Monday 30 November 2026 for the Festa della Toscana, a day the gallery is normally closed.' },
+      { q: 'What are the Accademia’s opening hours?', a: 'Tuesday to Sunday, 08:15 to 18:50, closed every Monday plus 1 January and 25 December — the unified schedule across the Accademia and Bargello group since 15 March 2026. The gallery’s own page and the group announcement state the last-admission cut-off differently, 30 versus 50 minutes before closing, so be in the queue by 17:50 to be safe under either.' },
+      { q: 'Does the Firenze Card get you into the Accademia without booking?', a: 'No. Reservation is mandatory for Firenze Card holders, on dedicated time slots, for every card holder including minors. The card covers the reservation fee, but the card alone is not an entry. Book by phone on +39 055 294883 or in person at the Orsanmichele or My Accademia booking offices, then use the priority-access door.' },
+      { q: 'Can you see Michelangelo’s David without going to the Accademia?', a: 'You can see two full-size copies, free and outdoors: the marble copy carved by Luigi Arrighetti in 1910 in Piazza della Signoria, standing where the original stood from 1504 until 1873, and a bronze cast at Piazzale Michelangelo. They give you the scale, pose and setting but not the worked marble surface. If the queue is short, queue; if it would cost you half an August day, the Signoria copy is a real thing in the place the statue was made for.' },
+      { q: 'What is the best alternative to the Accademia in Florence?', a: 'The Museo delle Cappelle Medicee, whose New Sacristy is Michelangelo’s architecture and sculpture designed as one thing — and it sits on the same €38 combined ticket. The Bargello is the other strong answer at €12 alone, rarely sells out, and opens on three normally closed Mondays in October 2026. For the cathedral’s own sculpture, including Michelangelo’s late Bandini Pietà, the Museo dell’Opera del Duomo sits on the Duomo passes instead.' },
+    ],
+    '2026-09-03',
+    {
+      seoTitle: 'Accademia Tickets Sold Out? What Works in Florence (2026 Prices)',
+      primaryKeyword: 'accademia tickets sold out',
+      secondaryKeywords: [
+        'accademia gallery same day tickets',
+        'accademia florence ticket price 2026',
+        'accademia gallery queue without reservation',
+        'accademia free first sunday florence',
+        'see david without ticket florence',
+        'accademia bargello combined ticket',
+      ],
+      imageAlt: 'Florence in early morning light, before the day’s museum queues form',
+      canonicalPath: '/blog/accademia-tickets-sold-out-florence',
+      tags: ['accademia', 'michelangelo david', 'florence museums', 'florence tickets', 'practical tips'],
     }
   ),
 ];
