@@ -8,6 +8,7 @@ import { breadcrumbSchema, articleSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import guide from "@/data/florenceToSienaGuide.json";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
+import ToolCue from "@/components/common/ToolCue";
 
 const breadcrumbs = [
   { label: "Home", to: "/" },
@@ -407,6 +408,10 @@ export default function FlorenceToSienaGuide() {
             </p>
           </section>
         </div>
+
+        {/* Funnel exit. This is the most-linked page on the site and had none:
+            readers finished the transport decision with nowhere to go next. */}
+        <ToolCue category={guide.category} />
 
         <aside className="longform-related">
           <p className="overline">Related planning</p>
