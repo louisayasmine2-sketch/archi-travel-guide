@@ -3101,7 +3101,7 @@ After the Duomo, wander the atmospheric contrade (historic districts). Explore V
 ![Peaceful green space at Orto de' Pecci](/images/siena/orto-de-pecci-garden-siena.webp)
 *Orto de' Pecci offers a serene, green escape just steps away from the bustling Piazza del Campo.*
 
-*   **Contrada museums** (small, free or low-cost) — each of Siena’s 17 districts displays Palio banners and artifacts that reveal the city’s passionate community spirit.
+*   **Contrada museums** — each of Siena’s 17 districts keeps the Palio banners it has won, alongside costumes and banners. Admission is generally free or by donation, but they open **by prior arrangement with the individual contrada**: there is no drop-in and no combined ticket, so [arrange it before you travel](/siena-contrade-guide).
 *   **Via di Camollia** (northern gate area) — residential lanes with neighbourhood cafés where locals linger.
 
 For food, follow the 100-metre rule: walk away from Piazza del Campo to avoid tourist traps. Seek out pici, Cinta Senese pork (the prized local breed), ribollita soup in winter, and panforte (dense spiced fruitcake). Pair meals with affordable house Chianti or Brunello for a splurge. Many authentic osterias offer excellent value at €35–50 per person for a full dinner, including wine.`,
