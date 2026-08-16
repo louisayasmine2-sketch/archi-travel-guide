@@ -4124,6 +4124,28 @@ Read that as a planning instruction rather than a piece of trivia. Anyone who ha
 The race is run in the open on packed earth. If the weather makes that unsafe it moves, and it moves at short notice. If the Palio is genuinely the reason for the trip, **build a spare night into the plan** and treat the extra hotel cost as part of the ticket price.`,
       },
       {
+        id: 'the-horses',
+        heading: 'The horses: what changed, and what has not',
+        body: `Most English-speaking readers arrive at the Palio with one question, and it is not about the flags. This section answers it with what the Comune and the campaigners each actually publish, because both sides tend to state only their own half.
+
+**What Siena has changed, from its own published record.** Horse protection is a standing section of the Comune's Palio material rather than a press response, and the measures are dated and specific:
+
+- **A retirement home since 1991.** Under an agreement between the Comune and the Corpo Forestale, *il Pensionario* at Radicondoli takes Palio horses that can no longer race through injury or age. The question "what happens to them afterwards" has a published answer.
+- **Blood testing since May 1999**, to enforce the prohibition on stimulants, depressants and local anaesthetics.
+- **English thoroughbreds banned since 2000.** They are faster but more fragile, and were involved in most of the serious accidents. The field is now dominated by Anglo-Arab half-breeds — a lower centre of gravity, more robust joints and a shorter stride, which puts less stress on the limbs over a surface with two brutal corners.
+- **A training track outside the city built with the same curves and gradients as the Campo**, so horses meet the shape before they meet the crowd.
+- **An annually re-signed *Protocollo Equino***, current for 2026, which regulates training, requires horses to be registered against their ministerial passports, and puts a **Veterinary Commission** and a **Technical Commission** in charge of judging whether each animal is suited to the Piazza. **At the end of each season both commissions write an individual report on every horse** determining whether it may run the following year.
+- **Padded protections at the corners, a veterinary ambulance, veterinary facilities and a farrier on site** during the race.
+
+**What has not changed: horses still die.** Animal-welfare organisations count **more than fifty deaths since 1970**, and around **eight since 2000** — figures that circulate consistently in campaign material. We could not find an equivalent official tally, so treat both numbers as the campaigners' count rather than an audited statistic. Note, though, what the two figures imply when set side by side: the rate after the reforms is markedly lower than the rate before them, and it is not zero. Deaths since 2000 include the fall of Raol in 2018, which drew a prosecutor's inquiry.
+
+**The campaign is live and mainstream.** ENPA and OIPA run standing protest campaigns against the race, and the Ministry of Health has pressed on the use of thoroughbreds in Italian palii generally. This is not a fringe objection that Siena has seen off; it is an unresolved argument, and the city knows it.
+
+**Our honest position.** We are not going to tell you the Palio is a charming tradition with the difficult part edited out, and we are not going to tell you it is indefensible. What we can say is that the safety regime is real, dated and publicly documented rather than cosmetic; that it has plainly reduced harm without eliminating it; and that whether a horse race with an accepted residual risk of death is something you want to attend is a judgement, not a fact. Make it with the numbers in front of you.
+
+**Checked 16 August 2026** against the Comune di Siena's *Tutela del Cavallo* pages and its *Protocollo Equino* for 2026, and against Italian animal-welfare organisations and press reporting for the fatality counts and the 2018 inquiry. Not established: an official fatality tally, the current age and breed eligibility rules in their exact published form — sources give both "at least five years" and "not under four nor over seven" — and the number of horses currently at the Pensionario.`,
+      },
+      {
         id: 'should-you-go',
         heading: 'Should you go?',
         body: `Go if the event is the point. The build-up across four days, the contrade walking their horse through the streets, a square that belongs to the people who live there — that is not a show staged for visitors, and it is why the Palio is worth the discomfort for some people.
@@ -4139,6 +4161,7 @@ Palazzo Pubblico and the Torre del Mangia. The race finishes in front of this bu
       },
     ],
     [
+      { q: 'Is the Palio di Siena cruel to horses?', a: 'It is a contested question and both sides publish only their own half, so here are both. Siena’s documented measures include a retirement home for ex-Palio horses at Radicondoli since 1991, blood testing for stimulants and anaesthetics since May 1999, a ban on English thoroughbreds since 2000 in favour of sturdier Anglo-Arab half-breeds, a training track built with the Campo’s own curves and gradients, padded corners and a veterinary ambulance, and an annually re-signed Protocollo Equino under which veterinary and technical commissions write an individual report on every horse at the end of each season. Against that, horses still die: animal-welfare organisations count more than fifty since 1970 and around eight since 2000, and ENPA and OIPA campaign actively against the race. We found no official fatality tally. The reforms have plainly reduced harm without eliminating it; whether that is acceptable is a judgement rather than a fact.' },
       { q: 'When is the Palio di Siena in 2026?', a: 'There are two races: 2 July, the Palio di Provenzano, and 16 August, the Palio dell’Assunta. In 2026 the August four-day programme runs Thursday 13 to Sunday 16 August, with the race on the Sunday. Ferragosto, the national holiday, falls on the Saturday in between.' },
       { q: 'What time does the August 2026 Palio start?', a: 'The Comune di Siena had not published the hour-by-hour programme for 16 August 2026 when we checked on 28 July. The August times circulating online come from the Comune’s page for the 2024 race. For the 2 July 2026 race the Comune published the schedule on 25 June, about a week ahead, so expect the August programme in the first half of the month and check it then rather than relying on a previous year’s time.' },
       { q: 'Does Ferragosto affect the Palio week?', a: 'In 2026 it does, more than usual. Ferragosto falls on Saturday 15 August and the race on Sunday 16 August, so a national holiday and a Sunday run back to back. Friday 14 August is the last ordinary shopping day, and bus timetables change across both days.' },
