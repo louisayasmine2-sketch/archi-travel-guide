@@ -2153,25 +2153,154 @@ None of this is designed to catch tourists out. It is simply how Italians eat, p
             "changes": "Cropped to 16:9, resized, and converted to WebP."
           }
         }
-  ),
-  A(
+  ),  A(
     'siena-weather-and-what-to-pack',
-    'Siena Weather by Season: What to Pack and Why',
+    'Siena Weather: Why 320 Metres Changes What You Pack',
     'Packing', 'Siena',
-    'A practical season guide for Siena weather in 2026 planning windows, with clear packing logic for each season.',
+    'Siena sits 320m up on a ridge, so it is cooler than Florence in summer and colder in winter. The year in real numbers, and what that means for your bag.',
     '/images/siena/08-siena-cityscape.webp',
     [
-      { id: 'spring', heading: 'Spring (March–May)', body: 'Mild days, occasional rain, and uneven walk surfaces. Bring layered layers, a rain shell, and fast-dry shoes.' },
-      { id: 'summer', heading: 'Summer (June–August)', body: 'Heat can be high midday. Prioritise hydration, shade windows, and a light cap strategy for museum exits.' },
-      { id: 'autumn', heading: 'Autumn (September–November)', body: 'Balanced weather, often best value, still walkable. Add a warmer shell for evening streets and churches.' },
-      { id: 'winter', heading: 'Winter (November–February)', body: 'Shorter daylight, colder mornings, and occasional rain/sleet. Keep electronics dry and carry indoor backup plans.' },
-      { id: 'siena-checklist', heading: 'Quick Siena packing checklist', body: 'Walking shoes, compact umbrella, reusable bottle, power bank, printed itinerary, and local transport fallback card.' },
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `**Siena is not Florence, and the difference is 320 metres.** The city sits on a ridge at that altitude, well inland, which makes its summers a few degrees cooler than Florence's and its winters a little colder than the Tuscan coast's. Packing for "Tuscany" and arriving in Siena is how people end up cold at dinner in June.
+
+The year in one line: **January averages 6.4°C and August averages 24.4°C**, with daytime maxima running from about **10°C in January to 31°C in August**. Rain totals about **903 mm a year** — dry in July, wettest in November.
+
+**The three things that actually matter here**, ahead of any seasonal list:
+
+- **Shoes.** Siena is cobbled, steep and unforgiving. This is not a city for new sandals.
+- **A layer for the evening, in every season including August.** The hilltop position that keeps the afternoon bearable also drops the temperature after sunset.
+- **Covered shoulders and knees** if the cathedral is on your list. It is enforced at the door.`,
+      },
+      {
+        id: 'why-siena-differs',
+        heading: 'Why Siena reads differently from the rest of Tuscany',
+        body: `Most packing advice for this region is written for Florence, which sits in a river basin at about fifty metres and behaves like a heat trap in summer. Siena is a different proposition.
+
+**The altitude.** The city stands at **320 metres (roughly 1,050 feet)**, on a ridge in open hill country — the Montagnola Senese to the west, the Crete Senesi to the south-east, Chianti to the north. It has no river valley to hold heat and no sea to moderate the cold.
+
+**What that does in summer.** Siena's climate is described as transitional Mediterranean: hot, sunny summers, but with **summer temperatures generally a few degrees lower than Florence's**, air that is not overly humid, and **noticeably cooler evenings**. Visitors who have suffered a Florentine August often find Siena the relief — but the same exposure means **short late-afternoon thunderstorms** can build over the hills with little warning.
+
+**What it does in winter.** The altitude and the distance from the coast make winter **colder than on the Tuscan seaboard**. Add the fact that the city's streets run along exposed ridgelines, funnelling wind down into the Campo, and a January afternoon in Siena is a colder experience than the numbers alone suggest.
+
+**The practical translation:** in summer, pack slightly warmer than you would for Florence. In winter, pack noticeably warmer than you would for the coast. In both cases, the mistake is treating "Tuscany" as one climate.`,
+      },
+      {
+        id: 'the-year-in-numbers',
+        heading: 'The year in numbers',
+        body: `These are the anchor points we could verify rather than a full twelve-row table, because we would rather give you five figures we checked than twelve we did not.
+
+| Anchor | Figure |
+|---|---|
+| Coldest month average (January) | **6.4°C** |
+| Warmest month average (August) | **24.4°C** |
+| Daytime maximum range | **10°C (Jan) to 31°C (Aug)** |
+| Annual rainfall | **about 903 mm** |
+| Driest month (July) | **about 33 mm across ~6 rainy days** |
+| August rainfall | **about 41 mm across ~8 rainy days** |
+| October rainfall | **about 110 mm** |
+| Wettest month (November) | **about 121 mm across ~14 rainy days** |
+
+**The shape those numbers describe:** a dry, hot, high-summer peak in July and August; a long, comfortable shoulder either side; and a genuinely wet late autumn. **April, May, June, September and October** sit in the pleasant band, with averages running roughly **18°C to 27°C**.
+
+Note the November figure in particular. It is not a slightly damper October — it is nearly four times July's rainfall across more than twice the rainy days, and it is the month most likely to change what your trip can do.`,
+      },
+      {
+        id: 'season-by-season',
+        heading: 'Season by season, with the packing logic',
+        body: `**Spring, March to May.** The band opens. Days become reliably pleasant from April, but March can still be raw and the evenings stay cold well into May. **Pack:** layers you can shed by noon and want back at seven, a compact rain shell, and closed shoes — spring rain plus worn cobbles is the most slippery combination Siena offers.
+
+**Summer, June to August.** Hot and dry, and better here than in the valley cities, but the Campo is a brick bowl with almost no shade and the gradients do not care that it is 31°C. **Pack:** genuinely breathable fabrics rather than technical synthetics that hold smell, a refillable bottle, sun protection including a hat, and — the one people leave out — **a light layer for the evening**. Our [summer packing list for Tuscany](/blog/summer-packing-list-for-tuscany-and-florence-2026/) covers the wider region; the Siena-specific addition is that jumper.
+
+**Autumn, September to November.** The best walking weather of the year in September and October, and then a sharp turn. Early autumn is warm days and cool nights; by November you are into the wettest month of the year with shortening light. **Pack:** the full layered kit, waterproof footwear from late October, and an umbrella that survives wind. Our guide to [what to wear in Tuscany in September](/blog/what-to-wear-in-tuscany-in-september/) goes deeper on the transitional month.
+
+**Winter, December to February.** Cold mornings, short days, and wind along the ridges. It is also the cheapest, emptiest and — for some people — the best version of the city, with the cathedral free of its summer queues. **Pack:** a proper coat rather than a jacket, gloves, and something for wind rather than just for cold. Interiors are the plan: the museums, the cathedral complex and Santa Maria della Scala are all indoor days.`,
+      },
+      {
+        id: 'siena-specific',
+        heading: 'The packing problems specific to this city',
+        body: `Generic Italy lists miss these, and they are the ones that actually cost you comfort.
+
+**The gradients.** Siena is built on three ridges and almost nothing is flat. You will arrive at the cathedral warmer than you left the Campo, in any season. This is the real argument for layers — not the weather, the walking.
+
+**The cobbles.** Uneven, worn smooth in places, and steep. **Broken-in shoes with grip**, not new ones, and not smooth soles. This is the single most common comfort failure among visitors here.
+
+**The Campo has no shade.** It is a brick dish that holds heat into the evening in summer and funnels wind in winter. Whatever the season, the square is the most exposed twenty minutes of your day.
+
+**Church dress codes are enforced.** Shoulders and knees covered for everyone at the cathedral. In July that means carrying a thin scarf or a light overshirt rather than going back to change. Our [cathedral guide](/siena-cathedral-guide) covers the rest of the entry rules.
+
+**Water is free and everywhere.** Public fountains run drinkable water. A refillable bottle removes a recurring cost and a recurring errand.
+
+**What to leave at home:** an umbrella large enough to be a liability in ridge wind, heels of any kind, and a separate outfit for evenings — Siena dines well but it does not dress up much.`,
+      },
+      {
+        id: 'daylight',
+        heading: 'Daylight, and the hour that catches people out',
+        body: `Temperature decides what you wear. **Daylight decides what you can do**, and in Siena it decides it more sharply than in a flat city, because the things worth seeing at the end of the day are views.
+
+**The long evenings of May to August** are the reason those months feel generous: the Facciatone and the Torre del Mangia are still open in usable light, and the Campo's best hour comes late enough that dinner follows it rather than replacing it.
+
+**From late October the day collapses.** Clocks go back on **Sunday 25 October 2026**, and after that dusk arrives noticeably earlier — which matters because Siena's ticketed sights already close early in winter. The Museo Civico's counter shuts at **15:15** in the winter season, so a slow lunch does not cost you a queue, it costs you the museum. Our [Torre del Mangia guide](/torre-del-mangia-guide) has the full seasonal cut-offs.
+
+**The practical rule for a winter visit:** do the ticketed things in the morning and the walking in the afternoon. That is the reverse of the summer order, and getting it backwards is how a December day in Siena ends up being three hours long.`,
+      },
+      {
+        id: 'best-months',
+        heading: 'The best months, honestly',
+        body: `**For walking the city: late April to early June, and mid-September to late October.** Warm days, cool nights, low rainfall, long light, and the crowds either not yet arrived or gone.
+
+**For the cheapest good trip: November, if you accept the rain.** It is the wettest month by a distance, but it is also the emptiest, and the indoor half of Siena is substantial enough to carry a wet day. Our [November guide](/blog/tuscany-in-november-2026/) makes the case in detail, including the Duomo floor still being uncovered until the 15th.
+
+**To avoid, unless the event is the point: the two Palio weeks.** Early July and mid-August put the city at its hottest and its fullest simultaneously.
+
+**And the counterintuitive one: August is not the disaster it is in Florence.** It is hot, but a few degrees cooler than the valley, drier than you would expect at about 41 mm, and the evenings genuinely cool down. Our [August guide](/blog/tuscany-in-august-2026/) sets out what is open and what is closed.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **16 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
+
+**Verified:** Siena's altitude of 320 metres and its position in open hill country between the Montagnola Senese, the Crete Senesi and Chianti; the description of its climate as transitional Mediterranean with mild winters and hot, sunny summers; that its summer temperatures run a few degrees below Florence's and its evenings are cooler because of the hilltop position, with short late-afternoon thunderstorms possible; that its winters are colder than the Tuscan coast's owing to altitude and distance from the sea; the January average of 6.4°C and August average of 24.4°C; daytime maxima of about 10°C in January and 31°C in August; annual rainfall of about 903 mm; July as the driest month at about 33 mm over roughly 6 rainy days; August at about 41 mm over roughly 8; October at about 110 mm; and November as the wettest at about 121 mm over roughly 14 rainy days. The October figure matches the one our own October guide has carried since July 2026.
+
+**Flagged as unconfirmed:** the full month-by-month table. We have published only the anchor figures we could check, and deliberately not filled the gaps between them — a plausible-looking twelve-row climate table assembled from inference is exactly the kind of thing this site does not publish. Sources also differ slightly on the driest and wettest month totals (33 versus 30 mm, 121 versus 125 mm), which is why those figures are given as approximations. All of it is long-term climate averaging, not a forecast: check an actual forecast for your dates.
+
+We have no commercial relationship with any retailer, brand or booking platform, and no product is recommended. No booking made from this page pays us anything.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `The whole of this page reduces to one sentence: **pack for a hill town, not for Tuscany.**
+
+Three hundred and twenty metres is enough to make Siena's August bearable when Florence's is not, and enough to make its January genuinely cold when the coast is merely grey. Bring shoes that can handle a steep wet cobble, a layer you can put on at seven in the evening in any month of the year, and something that covers your shoulders if you intend to see the inside of the cathedral.
+
+Everything else is ordinary travel packing, and no list needs to tell you about it.`,
+      },
     ],
     [
-      { q: 'Do I need warm layers in summer?', a: 'For daytime maybe not, but evenings and high walls are usually cooler. A light jumper helps.' },
-      { q: 'Is rain common?', a: 'Less than in coastal Italy, but showers are common in shoulders. A compact rain layer is worth the space.' },
+      { q: 'What is the weather like in Siena?', a: 'Transitional Mediterranean: mild winters, hot sunny summers. January averages 6.4°C and August 24.4°C, with daytime maxima from about 10°C in January to 31°C in August. Annual rainfall is around 903 mm — driest in July at about 33 mm, wettest in November at about 121 mm across roughly 14 rainy days.' },
+      { q: 'Is Siena cooler than Florence?', a: 'Yes, in summer. Siena sits at 320 metres on a ridge with no river valley to trap heat, so its summer temperatures run a few degrees below Florence’s and its evenings cool down noticeably. The trade is winter: altitude and distance from the sea make Siena colder than the Tuscan coast, and the exposed ridgelines funnel wind into the Campo.' },
+      { q: 'What should you pack for Siena?', a: 'Broken-in shoes with grip above everything — the city is cobbled, steep and worn smooth in places. Then a layer for the evening in every season including August, and covered shoulders and knees if the cathedral is on your list, since the dress code is enforced at the door. A refillable bottle is worth carrying: public fountains run drinkable water.' },
+      { q: 'When is the best time to visit Siena for weather?', a: 'Late April to early June, and mid-September to late October — warm days, cool nights, low rainfall and long light. November is the cheapest good option if you accept that it is the wettest month by a distance, and Siena has enough indoors to carry a wet day.' },
+      { q: 'Is August a bad time to visit Siena?', a: 'Less bad than in Florence. It is hot, but a few degrees cooler than the valley cities, drier than most people expect at around 41 mm across roughly eight rainy days, and the hilltop position means the evenings genuinely cool. The real August problem is the 16 August Palio, which puts the city at its fullest at the same time as its hottest.' },
+      { q: 'Does it rain much in Siena?', a: 'About 903 mm a year, unevenly distributed. July is genuinely dry at roughly 33 mm over about six rainy days. November is the opposite: around 121 mm over about fourteen. A compact rain layer is worth the space from October through spring; in high summer it usually is not, though short late-afternoon thunderstorms can build over the hills.' },
+      { q: 'Do you need warm clothes in Siena in summer?', a: 'A light layer, yes — and it is the item visitors most often leave out. The same hilltop exposure that keeps Siena a few degrees below Florence in the afternoon also drops the temperature after sunset, and the Campo funnels air. A jumper you never wear costs you nothing; a cold evening in a sleeveless top costs you the evening.' },
     ],
-    '2026-07-03'
+    '2026-07-03',
+    {
+      seoTitle: 'Siena Weather: Why 320 Metres Changes What You Pack',
+      primaryKeyword: 'siena weather',
+      secondaryKeywords: [
+        'what to pack for siena',
+        'siena weather by month',
+        'is siena cooler than florence',
+        'siena rainfall november',
+        'best time to visit siena weather',
+      ],
+      imageAlt: 'The Siena skyline seen across the rooftops from a high viewpoint',
+      canonicalPath: '/blog/siena-weather-and-what-to-pack',
+      tags: ['siena weather', 'packing', 'when to visit', 'siena planning'],
+    }
   ),
     A(
     "siena-tours-and-classes-to-book-first",
