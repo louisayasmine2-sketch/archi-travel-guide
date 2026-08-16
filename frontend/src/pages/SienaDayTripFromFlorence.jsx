@@ -6,6 +6,7 @@ import { articleSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import guide from "@/data/sienaDayTripFromFlorenceGuide.json";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
+import ToolCue from "@/components/common/ToolCue";
 
 const breadcrumbs = [
   { label: "Home", to: "/" },
@@ -349,6 +350,9 @@ export default function SienaDayTripFromFlorence() {
           <div className="prose-editorial">
             {bodyBlocks.map((block, index) => renderBlock(block, index))}
           </div>
+
+          {/* Funnel exit — this page had none. */}
+          <ToolCue category={guide.category} />
 
           <section className="mt-12 rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] p-6">
             <p className="overline">Photo credits</p>

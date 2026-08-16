@@ -2033,17 +2033,17 @@ None of this is designed to catch tourists out. It is simply how Italians eat, p
           {
             "id": "6-monteriggioni-by-bus",
             "heading": "6. Monteriggioni by bus",
-            "body": "Monteriggioni is a compact walled village north of Siena. Bus access may be possible, but limited frequency can turn a short visit into a long waiting day.\n\nUse it when the timetable provides a comfortable outbound and return. Otherwise, combine it with a guided trip or choose San Gimignano.\n\nDo not allocate an artificial full day to the village. Its strength is a concise medieval stop.\n\n**Best for:** A short outing, families, and travellers who prefer a small destination."
+            "body": "Monteriggioni is a compact walled village north of Siena. Bus access may be possible, but limited frequency can turn a short visit into a long waiting day.\n\nUse it when the timetable provides a comfortable outbound and return. Otherwise, combine it with a guided trip or choose San Gimignano.\n\nDo not allocate an artificial full day to the village. Its strength is a concise medieval stop.\n\n![The walled village of Monteriggioni in the hills north of Siena](/images/siena/monteriggioni-walled-village-siena.webp)\n*Monteriggioni is a two-hour village, not a full day — plan the return bus before you go.*\n\n**Best for:** A short outing, families, and travellers who prefer a small destination."
           },
           {
             "id": "7-chianti-by-guided-tour",
             "heading": "7. Chianti by guided tour",
-            "body": "Chianti is a region, not one station. Its appeal comes from roads, vineyards, villages, producers, and landscape between stops.\n\nPublic buses serve local communities, but using them to create a winery loop is usually inefficient. A guided tour solves:\n\n- Transport.\n- Designated driver.\n- Producer reservations.\n- Rural navigation.\n- Multiple stops.\n- Return to Siena.\n\nCompare group size, winery count, tasting quantity, meal, village time, and whether the guide remains with the group.\n\n\n\n**Best for:** Wine, couples, small groups, and travellers who do not want to drive."
+            "body": "Chianti is a region, not one station. Its appeal comes from roads, vineyards, villages, producers, and landscape between stops.\n\nPublic buses serve local communities, but using them to create a winery loop is usually inefficient. A guided tour solves:\n\n- Transport.\n- Designated driver.\n- Producer reservations.\n- Rural navigation.\n- Multiple stops.\n- Return to Siena.\n\nCompare group size, winery count, tasting quantity, meal, village time, and whether the guide remains with the group.\n\nWhich wine country to give the day to is its own decision, and not an obvious one: [we compare Chianti and the Val d’Orcia side by side](/blog/val-dorcia-or-chianti-which-to-visit-2026/) on landscape, wine culture, towns and car-free logistics.\n\n![A vineyard along the Chianti wine road between Florence and Siena](/images/tuscany/chianti-wine-road-vineyard.webp)\n*Chianti’s appeal is the road between the stops, which is exactly what a bus timetable cannot give you.*\n\n**Best for:** Wine, couples, small groups, and travellers who do not want to drive."
           },
           {
             "id": "8-val-d-orcia-by-guided-tour",
             "heading": "8. Val d’Orcia by guided tour",
-            "body": "Pienza, Montalcino, Montepulciano, Bagno Vignoni, and the landscape between them are difficult to combine by public transport in one day.\n\nA guided Val d’Orcia tour is not only a transport substitute. It is a way to see multiple places that would otherwise require a car.\n\nChoose carefully. A tour listing five towns may provide very little time in each. A better itinerary often includes two main towns, a scenic route, and one food or wine experience.\n\n\n\n**Best for:** Classic Tuscany landscapes, photography, couples, and first-time visitors."
+            "body": "Pienza, Montalcino, Montepulciano, Bagno Vignoni, and the landscape between them are difficult to combine by public transport in one day.\n\nA guided Val d’Orcia tour is not only a transport substitute. It is a way to see multiple places that would otherwise require a car.\n\nChoose carefully. A tour listing five towns may provide very little time in each. A better itinerary often includes two main towns, a scenic route, and one food or wine experience.\n\nTour listings on [Viator](/go/viator) state the operator, group size, pickup point and cancellation window on the product page. Those four fields — not the photographs — are what separate a Val d’Orcia day from a coach circuit, so read them before comparing prices.\n\n**Best for:** Classic Tuscany landscapes, photography, couples, and first-time visitors."
           },
           {
             "id": "9-montalcino-and-brunello-without-driving",
@@ -2068,7 +2068,7 @@ None of this is designed to catch tourists out. It is simply how Italians eat, p
           {
             "id": "booking-no-car-transport",
             "heading": "Booking no-car transport",
-            "body": "Use Trenitalia and Autolinee Toscane for official schedules, ticket rules, validation, stops, and disruption.\n\nCommercial platforms can help compare bookable services, but not every regional bus is listed.\n\n\n\nFor tours, use marketplaces to compare products, then read the detailed itinerary rather than relying on the title."
+            "body": "Use Trenitalia and Autolinee Toscane for official schedules, ticket rules, validation, stops, and disruption.\n\nCommercial platforms can help compare bookable services, but not every regional bus is listed.\n\nFor tours, use marketplaces to compare products, then read the detailed itinerary rather than relying on the title."
           },
           {
             "id": "sunday-and-holiday-warning",
@@ -2093,7 +2093,7 @@ None of this is designed to catch tourists out. It is simply how Italians eat, p
           {
             "id": "final-recommendation",
             "heading": "Final recommendation",
-            "body": "A no-car Tuscany trip works when you stop asking public transport to imitate a road trip. Use trains and buses for the destinations they serve well, then choose one guided countryside day for the vineyards and villages between the stations.\n\nFrom Siena, that can mean a morning train to an art city, a bus toward medieval towers, and one day when someone else handles the rural road—leaving you free to watch Tuscany unfold beyond the window.\n\n*Editorial fact-check: July 12, 2026. Train, bus, stop, strike, tour, and winery information changes. Verify official schedules and final return options before travel.*"
+            "body": "A no-car Tuscany trip works when you stop asking public transport to imitate a road trip. Use trains and buses for the destinations they serve well, then choose one guided countryside day for the vineyards and villages between the stations.\n\nFrom Siena, that can mean a morning train to an art city, a bus toward medieval towers, and one day when someone else handles the rural road—leaving you free to watch Tuscany unfold beyond the window.\n\n*Editorial fact-check: July 12, 2026. Train, bus, stop, strike, tour, and winery information changes. Verify official schedules and final return options before travel. Disclosure: the Viator link on this page is an affiliate link — if you book a tour through it we may earn a commission, at no extra cost to you. Which destinations suit public transport and which need a guided day are editorial judgements it does not touch. Platform links use our internal /go/ shortcuts.*"
           }
         ],
     [
@@ -3935,6 +3935,8 @@ The two room photographs are by cottonbro and Markus Spiske, under the [Pexels L
 
 Unlike Chianti, which is threaded with woodland, Val d’Orcia is open and sweeping. Views change every few kilometres, and the towns are compact enough that even a short stop feels complete. Basing yourself in Siena puts you closer to the valley than Florence-based travellers, which is a genuine advantage: you can leave after breakfast and still catch the best late-afternoon light on the way back.
 
+If you have only one countryside day and are still weighing the two landscapes against each other, [we argue that choice out in full](/blog/val-dorcia-or-chianti-which-to-visit-2026/) — the short version being that your base city usually casts the deciding vote.
+
 ![Cypress trees and rolling hills in Val d'Orcia](/images/tuscany/val-dorcia-cypress-trees-landscape.jpg)
 *The open ridgelines of Val d’Orcia, less than an hour south of Siena.*`,
       },
@@ -3960,7 +3962,9 @@ If you only have time for two: pair **Pienza + Montalcino** and keep Montepulcia
 4.  Follow the ridge road to **Pienza** for the afternoon — [the pecorino capital, with its own cheese festival in early September](/blog/pienza-pecorino-fiera-del-cacio-2026/): cheese shops, cathedral, and the panoramic walkway behind the town.
 5.  If energy allows, end in **Montepulciano**, then return to Siena via the SS146 and SR2 in time for dinner.
 
-Two practical warnings. First, every one of these towns has a ZTL (restricted traffic zone) — park in the signed lots outside the walls and walk in. The ZTL in Siena works the same way and is enforced around the clock, so the same discipline applies on the drive home — see [how to avoid a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/). Second, the most photographed spots (the cypress circle near San Quirico, the Vitaleta chapel viewpoint) have small pull-offs that fill quickly in summer; go early or late for photographs. And if the day has room for one more stop, [the valley's thermal springs at Bagno Vignoni and Bagni San Filippo](/blog/bagno-vignoni-bagni-san-filippo-hot-springs) sit just off the same road south.`,
+Two practical warnings. First, every one of these towns has a ZTL (restricted traffic zone) — park in the signed lots outside the walls and walk in. The ZTL in Siena works the same way and is enforced around the clock, so the same discipline applies on the drive home — see [how to avoid a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/). Second, the most photographed spots (the cypress circle near San Quirico, the Vitaleta chapel viewpoint) have small pull-offs that fill quickly in summer; go early or late for photographs. And if the day has room for one more stop, [the valley's thermal springs at Bagno Vignoni and Bagni San Filippo](/blog/bagno-vignoni-bagni-san-filippo-hot-springs) sit just off the same road south.
+
+Not booked a car yet? [Compare rental prices for Italy on DiscoverCars](/go/discovercars-italy) — and compare on the insurance excess, not only the daily rate. The excess is the figure that decides what a scrape actually costs you, it is set per booking rather than per company, and Tuscan hill roads with blind bends, narrow town gates and farm traffic are exactly where it stops being theoretical. Read it on the checkout screen before you pay.`,
       },
       {
         id: 'getting-there-by-bus',
@@ -4008,7 +4012,9 @@ Whatever the month, the valley is at its best in the first and last two hours of
       {
         id: 'final-thoughts',
         heading: 'Final thoughts',
-        body: `Val d’Orcia is not a checklist destination, and it punishes rushed plans gently: you simply spend your day parking and driving instead of tasting and looking. Choose fewer towns than you think you want, book one tasting, keep the camera ready between stops, and let the landscape do the rest. Done this way, it is the day most travellers name afterwards as the best of their Tuscan trip.`,
+        body: `Val d’Orcia is not a checklist destination, and it punishes rushed plans gently: you simply spend your day parking and driving instead of tasting and looking. Choose fewer towns than you think you want, book one tasting, keep the camera ready between stops, and let the landscape do the rest. Done this way, it is the day most travellers name afterwards as the best of their Tuscan trip.
+
+*Bus timetables, cellar opening hours and tasting-reservation policies change through the season — confirm your specific journey on the Autolinee Toscane planner and the cellar’s own booking page before you set out. Disclosure: the DiscoverCars link on this page is an affiliate link — if you book through it we may earn a commission, at no extra cost to you; whether to drive at all, and which towns deserve your day, are editorial judgements it does not touch. Platform links use our internal /go/ shortcuts.*`,
       },
     ],
     [
