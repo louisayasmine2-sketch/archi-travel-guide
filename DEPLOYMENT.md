@@ -180,7 +180,9 @@ Run these once, in this order:
 ## 10. Deferred integrations
 
 - **Resend** (contact form email) — see `HANDOFF.md`.
-- **Google AdSense** — see `MONETIZATION_CHECKLIST.md`.
+- **Display advertising** — not implemented, and nothing is half-wired for it.
+  Commercial links go through `/go/` redirects instead; see
+  `docs/MONETISATION.md`.
 - **Analytics** — GA4 is wired in via `REACT_APP_GA_MEASUREMENT_ID` when set in
   production. Microsoft Clarity is wired in via `REACT_APP_CLARITY_PROJECT_ID`
   and Amplitude is wired in via `REACT_APP_AMPLITUDE_API_KEY` when set in
