@@ -54,14 +54,17 @@ source of truth, add outbound delivery once the mailbox is live.
 
 ---
 
-## 2. Google AdSense
+## 2. Commercial links
 
-Full playbook in [`MONETIZATION_CHECKLIST.md`](MONETIZATION_CHECKLIST.md).
-Summary:
+Display advertising is **not implemented** — there is no ad script, no ad slot
+and no placeholder component in the repository. The `AdPlaceholder` component
+this section once described has been deleted.
 
-- Do not add the AdSense publisher script until approved for the domain.
-- `AdPlaceholder` already labels every slot "Advertisement".
-- Extend `AdPlaceholder` when wiring — do not remove the label.
+What exists instead: commercial links go through internal `/go/{slug}`
+redirects, with tracking parameters held only in `frontend/public/_redirects`,
+never in article content. See [`docs/MONETISATION.md`](docs/MONETISATION.md)
+for the mechanism and [`docs/AFFILIATE_APPLICATION_WORKLIST.md`](docs/AFFILIATE_APPLICATION_WORKLIST.md)
+for which programmes are still to apply for.
 
 ---
 
@@ -134,8 +137,9 @@ with validation + idempotency checks.
 3. If content changes were made, run `yarn sitemap` (or `yarn build` which
    chains it).
 4. When ready, wire Resend using section 1 above. Add a smoke-test.
-5. When AdSense is approved, follow section "To turn AdSense on later" in
-   `MONETIZATION_CHECKLIST.md`.
+5. When an affiliate programme is approved, follow "When an approval lands" in
+   `docs/MONETISATION.md` — the tracking parameter goes in `_redirects` and the
+   slug into `SPONSORED_GO_SLUGS` on the same day, never into article content.
 6. Prioritise editorial expansion (France, Japan) over new tooling.
 
 ---

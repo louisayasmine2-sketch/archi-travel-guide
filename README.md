@@ -20,7 +20,7 @@ itineraries, budget & packing tools. First editorial pillar: Italy, Tuscany, Sie
 │   ├── src/
 │   │   ├── App.js            React Router routes
 │   │   ├── components/
-│   │   │   ├── common/       SEO, AdPlaceholder, cards, forms, LazyImage…
+│   │   │   ├── common/       SEO, cards, forms, LazyImage, ToolCue…
 │   │   │   ├── layout/       Header, Footer, Layout, MobileMenu, CookieConsent
 │   │   │   └── ui/           shadcn primitives
 │   │   ├── data/             Editorial content (articles, destinations, cities)
@@ -39,7 +39,6 @@ itineraries, budget & packing tools. First editorial pillar: Italy, Tuscany, Sie
 ├── memory/                   Product docs (PRD, credentials, handoff)
 ├── DEPLOYMENT.md
 ├── SEO_CHECKLIST.md
-├── MONETIZATION_CHECKLIST.md
 └── HANDOFF.md
 ```
 
@@ -114,7 +113,7 @@ Automated end-to-end pass covers all 28 routes + 8 API endpoints
 
 - `DEPLOYMENT.md` — moving to the production domain
 - `SEO_CHECKLIST.md` — what to verify before / after launch
-- `MONETIZATION_CHECKLIST.md` — AdSense + affiliate readiness
-- `HANDOFF.md` — deferred integrations (Resend, AdSense) and next-agent context
+- `docs/MONETISATION.md` — how `/go/` redirects, disclosures and `rel="sponsored"` work
+- `HANDOFF.md` — deferred integrations (Resend) and next-agent context
 - `memory/PRD.md` — feature-by-feature changelog and backlog
 - `memory/test_credentials.md` — test accounts (currently empty; no auth in v1)
