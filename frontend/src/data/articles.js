@@ -732,7 +732,7 @@ const allArticles = [
       {
         "id": "what-to-order-in-siena",
         "heading": "What to order in Siena",
-        "body": "A focused Siena meal might include crostini neri, pici all’aglione or pici with breadcrumbs, a local meat dish or pecorino, and ricciarelli or panforte.\n\nDo not force every speciality into one sitting. A better strategy is one substantial lunch, one lighter aperitivo, and several bakery stops across the stay.\n\nUse [our Siena 2-day itinerary](/blog/siena-2-day-itinerary/) to place meals without sacrificing the city’s major sights."
+        "body": "A focused Siena meal might include crostini neri, pici all’aglione or pici with breadcrumbs, a local meat dish or pecorino, and ricciarelli or panforte.\n\nWhat is worth ordering also shifts across the year — our [Tuscan food calendar](/blog/tuscan-food-calendar-seasonal-dishes/) maps the dishes to the months, and [where to eat in Siena](/where-to-eat-in-siena) maps them to the streets.\n\nDo not force every speciality into one sitting. A better strategy is one substantial lunch, one lighter aperitivo, and several bakery stops across the stay.\n\nUse [our Siena 2-day itinerary](/blog/siena-2-day-itinerary/) to place meals without sacrificing the city’s major sights."
       },
       {
         "id": "how-to-read-an-italian-menu",
@@ -2626,9 +2626,70 @@ Florence from Siena is a good day out and an easy journey. The visitors who come
       { id: 'budget', heading: 'Budget Traveller — €65 to €90 per day', body: 'A bed in a well-reviewed hostel runs €25 to €40 per night. Private rooms in basic guesthouses start around €50 to €70.\n\nFor food, eat where the students eat. The area around San Lorenzo and Sant\'Ambrogio is filled with trattorias serving three-course lunch menus for €10 to €13.\n\nFor breakfast, do what locals do: stand at a bar counter, order a cornetto and a caffè, pay €2.50, and leave. Sitting down often doubles the price.' },
       { id: 'mid-range', heading: 'Mid-Range Traveller — €130 to €180 per day', body: 'A double room in a three-star hotel in the Oltrarno district costs €90 to €140 per night.\n\nLunch at a proper trattoria costs €20 to €30 per person. Dinner at one of the city\'s beloved neighbourhood restaurants runs €30 to €45, including wine.\n\nThe mid-range traveller should budget for two or three paid museums. As of the 2026 tariffs: the Uffizi €25 same-day (€29 booked ahead — advance costs more here), the Accademia €20 plus a €4 reservation fee since 1 February 2026, and Pitti Palace with the Boboli Gardens €22 on the day or €25 in advance. Book the Uffizi and Accademia ahead for certainty rather than savings, and see what to do if [the Uffizi](/blog/uffizi-tickets-sold-out-what-to-do/) or [the Accademia](/blog/accademia-tickets-sold-out-florence/) is sold out.' },
       { id: 'luxury', heading: 'Luxury Traveller — €350 and above per day', body: 'Florence has some of the most beautiful boutique hotels in Europe. A luxury room starts around €400 per night.\n\nDining at this level is an event. The best meal you will eat might be a €60 bistecca alla fiorentina (Florentine T-bone steak) at a traditional steakhouse.\n\nFor a unique luxury experience, book a private after-hours tour of the Vasari Corridor.' },
-      { id: 'tips', heading: 'Money-Saving Tips for All Budgets', body: '• Water is free. Ask for "acqua del rubinetto" (tap water) at restaurants.\n• Aperitivo culture is your secret weapon. Many bars offer a free buffet of pasta and snacks when you order a drink between 6 and 9 p.m.\n• Avoid restaurants with photos on the menu. Photos mean tourist prices and tourist quality.' }
+      { id: 'tourist-tax', heading: 'The tourist tax nobody budgets for', body: `Florence charges an **imposta di soggiorno** on every overnight stay, collected by your accommodation and usually **not included in the price you booked**. It is the most commonly missed line in a Florence budget.
+
+The published rates, per person per night:
+
+| Accommodation | Per person, per night |
+|---|---:|
+| 1-star hotel or campsite | €3.50 |
+| 2-star hotel | €4.50 |
+| 3-star hotel | €6.00 |
+| 4-star hotel | €7.00 |
+| 5-star hotel | €8.00 |
+| Tourist rental (locazione turistica) | €5.50 |
+
+It applies for a **maximum of seven consecutive nights**. Exemptions include **children under 12**, University of Florence students, day-hospital patients and up to two companions of a hospitalised patient, on-duty police, fire and civil-protection personnel, and people with severe disabilities.
+
+**Do the arithmetic before it surprises you.** Two adults, three nights, four-star: **€42**. A family of four in an apartment for four nights, with two children over 12: **€88**. That is a restaurant meal you did not know you had bought.` },
+      { id: 'museum-stack', heading: 'The museum stack, at 2026 prices', body: `Museums are where a Florence budget actually breaks, because the headline attractions are individually priced and there are more of them than in most Italian cities. These are the 2026 tariffs after a cluster of increases:
+
+| Attraction | Price |
+|---|---:|
+| Uffizi | **€25 same-day**, €29 booked ahead |
+| Uffizi afternoon ticket (from 16:00) | **€16 same-day**, €20 ahead |
+| Accademia (David) | **€20** + €4 booking fee |
+| Bargello | **€12** |
+| Accademia + Bargello combined, 48h | **€26** + €4 |
+| Wider Bargello-group circuit, 72h | **€38** + €4 |
+| Pitti Palace + Boboli | **€22 same-day**, €25 ahead |
+| Palazzo Vecchio | **€18** (€12 reduced, 18–25) |
+| San Marco | **€11** |
+| Duomo Brunelleschi Pass | **€30** (€12 reduced) |
+| Duomo Giotto Pass | **€20** (€7 reduced) |
+| Firenze Card, 72h | **€85** |
+
+**Two things in that table save real money.** At the Uffizi, **buying on the day is cheaper than booking ahead** — the advance premium is a booking fee, not a discount, and the €16 afternoon ticket is the cheapest legitimate way in during high season. And the Bargello at €12 is the best value in the city for anyone who cares about sculpture.
+
+Both are explained properly in our guides to [the Uffizi when it is sold out](/blog/uffizi-tickets-sold-out-what-to-do/) and [the Accademia when it is sold out](/blog/accademia-tickets-sold-out-florence/) — which also cover the same-day routes that avoid paying the premium at all.
+
+**The Firenze Card only pays off** if you are doing three museum-intensive days. For two or three attractions, buy them individually.` },
+      { id: 'the-siena-alternative', heading: 'The lever nobody pulls: sleep somewhere else', body: `The single largest variable in a Florence budget is the bed, and Florence charges Florence prices for it — plus the tourist tax above.
+
+**Basing in Siena and treating Florence as a day trip inverts the arithmetic.** Accommodation costs less, the tourist tax is lower, and the 131R bus runs into central Florence in about 75 minutes for €9.90 bought ahead. You lose the Florentine evening; you gain a Tuscan one, which many travellers prefer anyway.
+
+It is not the right answer for everyone — a first visit built around the Uffizi, the Accademia and the Duomo complex wants to be in Florence. But for a trip of four nights or more, or one where the countryside matters as much as the galleries, the saving is substantial and it compounds every night.
+
+Our [Florence or Siena comparison](/blog/florence-or-siena-which-to-visit-2026/) works through the choice properly, and [what a day in Siena costs](/blog/siena-travel-cost-2026/) gives the other side's numbers.` },
+      { id: 'tips', heading: 'Money-Saving Tips for All Budgets', body: '• Water is free. Ask for "acqua del rubinetto" (tap water) at restaurants.\n• Aperitivo culture is your secret weapon. Many bars offer a free buffet of pasta and snacks when you order a drink between 6 and 9 p.m.\n• Avoid restaurants with photos on the menu. Photos mean tourist prices and tourist quality.' },
+      { id: 'how-we-checked', heading: 'How we checked these details', body: `Checked **16 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
+
+**Verified against official sources:** the Comune di Firenze's tourist-tax rates of €3.50 to €8.00 per person per night by hotel category and €5.50 for tourist rentals, the seven-consecutive-night maximum, and the exemption categories including under-12s, University of Florence students, hospital companions and on-duty emergency personnel. And the 2026 museum tariffs — the Uffizi's €25 same-day against €29 in advance and its €16/€20 afternoon ticket, the Accademia's €20 plus a €4 booking fee, the Bargello at €12 and the €26/€38 combined tickets following the March 2026 unification, Pitti with Boboli at €22/€25, Palazzo Vecchio at €18 (€12 reduced) since February 2026, San Marco at €11, the €30 and €20 Duomo passes, and the €85 Firenze Card.
+
+**Not verified, and presented as indicative bands rather than checked figures:** the accommodation, meal and daily-total ranges in the three traveller tiers. Those describe a typical spread rather than a surveyed average, and hotel rates in particular move with season and demand in a way no fixed number survives. Treat them as a planning shape and price your own dates.
+
+Florence's museum tariffs changed repeatedly across 2025 and 2026, and the tourist-tax table has been revised more than once — verify both on the official channels before relying on any figure here.
+
+We have no commercial relationship with any hotel, restaurant, museum or ticketing platform named. No booking made from this page pays us anything.` }
     ],
-    [],
+    [
+      { q: 'How much does a day in Florence cost in 2026?', a: 'Roughly €65 to €90 a day travelling on a budget, €130 to €180 mid-range, and €350 upward at the luxury end — before museums and before the tourist tax. Museums are what actually break a Florence budget: the Uffizi alone is €25 on the day, the Accademia €20 plus a €4 booking fee.' },
+      { q: 'How much is the tourist tax in Florence?', a: 'Per person per night: €3.50 in a 1-star hotel or campsite, €4.50 in a 2-star, €6.00 in a 3-star, €7.00 in a 4-star, €8.00 in a 5-star, and €5.50 in a tourist rental. It is charged for a maximum of seven consecutive nights and is usually not included in your booking price. Children under 12 are exempt, along with University of Florence students, hospital companions and on-duty emergency personnel.' },
+      { q: 'Is it cheaper to book Florence museum tickets in advance?', a: 'Not at the Uffizi, and this surprises almost everyone. The official structure prices advance purchase higher: €25 on the day against €29 booked ahead, and the afternoon ticket from 16:00 is €16 on the day against €20 in advance. Advance booking buys certainty, not savings.' },
+      { q: 'Is the Firenze Card worth it?', a: 'Only for three museum-intensive days. At €85 for 72 hours it needs several major admissions plus their booking fees to break even. For two or three attractions, buying individually is cheaper — and at the Uffizi, buying on the day is cheaper still.' },
+      { q: 'How can you cut a Florence budget without ruining the trip?', a: 'Three levers, largest first. Sleep outside Florence — basing in Siena and day-tripping in on the 131R, about 75 minutes for €9.90 booked ahead, cuts both the room rate and the tourist tax. Buy the Uffizi on the day rather than in advance, and take the €16 afternoon ticket. And eat one substantial sit-down meal a day rather than two, using bar counters and aperitivo for the rest.' },
+      { q: 'What is the biggest cost people forget in Florence?', a: 'The tourist tax, because accommodation platforms usually exclude it from the price you book and it is collected on arrival. Two adults for three nights in a four-star is €42; a family of four in an apartment for four nights, with two children over 12, is €88. After that, the museum stack — which is easy to underestimate when each attraction is priced separately.' },
+    ],
     '2026-07-04'
   ),
   A(
