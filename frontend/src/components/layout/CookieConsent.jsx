@@ -27,11 +27,15 @@ export default function CookieConsent() {
 
   if (!visible) return null;
 
+  // role="region", not "dialog": this notice is non-modal, traps no focus, and
+  // the page stays usable behind it. Calling it a dialog told screen-reader
+  // users they had entered a dialog boundary that does not exist, and made it
+  // collide with every real dialog under a [role='dialog'] selector.
   return (
     <div
       data-testid={COOKIE.banner}
       className="fixed bottom-4 left-4 right-4 md:left-6 md:right-auto md:bottom-6 md:max-w-md z-50 rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory))] shadow-[0_20px_60px_-20px_rgba(44,44,42,0.35)] p-5 fade-up"
-      role="dialog"
+      role="region"
       aria-label="Cookie consent"
     >
       <p className="text-sm leading-relaxed">
