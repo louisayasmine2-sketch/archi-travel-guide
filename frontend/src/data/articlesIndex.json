@@ -1094,14 +1094,14 @@
  {
   "publishedAt": "2026-07-12T11:40:00+07:00",
   "slug": "siena-walking-tour",
-  "title": "Siena Walking Tour: A Self-Guided Route Through the Historic Centre",
+  "title": "Siena Walking Tour: The Y-Shaped City, Walked in the Right Order",
   "category": "Siena Travel Guide",
   "region": "Siena, Tuscany",
-  "excerpt": "Start at Piazza del Campo , walk to the Duomo, continue through Via di Città, explore the streets toward Piazza del Mercato and Orto de’ Pecci, then loop back to the Campo. Allow three to four hours with stops, or a full day when adding the cathedral and lunch.",
+  "excerpt": "Most Siena walking routes list stops in map order, which makes you climb the same hill three times and reach the one ticket you cannot book after it has gone. This route is built around two facts instead: Siena is a Y of three ridge streets meeting at the Croce del Travaglio, and tower tickets are sold only at a counter that closes before the museum does.",
   "image": "/images/siena/siena-walking-tour-hero.webp",
-  "readMinutes": 5,
+  "readMinutes": 15,
   "canonicalPath": "/siena-walking-tour",
-  "updated": "2026-07-11",
+  "updated": "2026-08-16",
   "store": "cluster"
  },
  {
