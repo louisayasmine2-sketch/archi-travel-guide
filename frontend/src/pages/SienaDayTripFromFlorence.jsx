@@ -203,7 +203,9 @@ function renderBlock(block, index) {
 
   if (block.type === "table") {
     return (
-      <div key={index} className="not-prose my-8 overflow-x-auto rounded-2xl border border-[hsl(var(--stone-border))]">
+      // tabIndex={0} so keyboard users can scroll the overflow-x container.
+      // The table has a 620px min-width and scrolls on narrow viewports.
+      <div key={index} tabIndex={0} className="not-prose my-8 overflow-x-auto rounded-2xl border border-[hsl(var(--stone-border))]">
         <table className="w-full min-w-[620px] border-collapse bg-[hsl(var(--ivory))] text-sm">
           <thead>
             <tr>
