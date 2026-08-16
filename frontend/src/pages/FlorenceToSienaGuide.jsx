@@ -183,8 +183,11 @@ function MarkdownBlocks({ markdown, className = "", skipHeading = "" }) {
         }
 
         if (block.type === "table") {
+          // tabIndex={0} so keyboard users can scroll the overflow-x container.
+          // Tables here have a 760px min-width and scroll on narrow viewports;
+          // without it the content is unreachable without a pointer (WCAG 2.1.1).
           return (
-            <div key={`table-${index}`} className="longform-table-wrap">
+            <div key={`table-${index}`} className="longform-table-wrap" tabIndex={0}>
               <table>
                 <thead>
                   <tr>

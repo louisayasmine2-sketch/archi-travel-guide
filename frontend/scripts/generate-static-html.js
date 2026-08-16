@@ -747,7 +747,10 @@ function markdownToHtml(markdown = '') {
         .filter((rowLine) => !splitTableLine(rowLine).every((cell) => /^:?-{3,}:?$/.test(cell)))
         .map((rowLine) => `<tr>${splitTableLine(rowLine).map((cell) => `<td>${inlineMarkdownToHtml(cell)}</td>`).join('')}</tr>`)
         .join('');
-      html.push(`<div class="longform-table-wrap"><table><thead><tr>${headers}</tr></thead><tbody>${rows}</tbody></table></div>`);
+      // tabindex="0" so keyboard users can scroll the overflow-x container.
+      // Tables here have a 760px min-width and scroll on narrow viewports;
+      // without it the content is unreachable without a pointer (WCAG 2.1.1).
+      html.push(`<div class="longform-table-wrap" tabindex="0"><table><thead><tr>${headers}</tr></thead><tbody>${rows}</tbody></table></div>`);
       continue;
     }
 
