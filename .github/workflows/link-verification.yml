@@ -1,0 +1,103 @@
+name: Link Verification
+
+# The network half of tools/check_links_and_images.py: every outbound URL
+# opened and verified, weekly, from a runner with real network access. This
+# is the check CLAUDE.md §1 calls "URLs are factual claims" — it cannot run
+# in the authoring sandbox (egress is blocked there), so it lives here.
+#
+# On failures the run files one tracking issue and keeps commenting on it
+# with fresh reports rather than opening duplicates; a clean run closes it.
+# If a URL is genuinely dead: fix the content, never the scanner.
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Mondays 05:17 UTC (12:17 WIB). Off the top of the hour per GitHub's
+    # guidance, so the run is not queued behind the :00 spike.
+    - cron: "17 5 * * 1"
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: link-verification
+  cancel-in-progress: false
+
+env:
+  ISSUE_TITLE: "Weekly link verification found failures"
+
+jobs:
+  verify:
+    name: Verify every outbound URL
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run the full scanner, live URL checks included
+        id: scan
+        shell: bash
+        run: |
+          set -o pipefail
+          if python tools/check_links_and_images.py | tee scan-report.txt; then
+            echo "failed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "failed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Upload the report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-verification-report
+          path: scan-report.txt
+          retention-days: 90
+
+      - name: File or update the tracking issue
+        if: steps.scan.outputs.failed == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "Automated weekly run on $(date -u +%Y-%m-%d) found failures."
+            echo
+            echo "House rule (CLAUDE.md §6): fix the content, never the scanner."
+            echo "A dead outbound link is removed or replaced with a confirmed one;"
+            echo "a missing image is restored or the reference cut."
+            echo
+            echo '```'
+            cat scan-report.txt
+            echo '```'
+            echo
+            echo "_Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}_"
+          } > issue-body.md
+
+          number=$(gh issue list --state open --search "\"$ISSUE_TITLE\" in:title" \
+            --json number --jq '.[0].number // empty')
+          if [ -n "$number" ]; then
+            gh issue comment "$number" --body-file issue-body.md
+          else
+            gh issue create --title "$ISSUE_TITLE" --body-file issue-body.md
+          fi
+
+      - name: Close the tracking issue after a clean run
+        if: steps.scan.outputs.failed == 'false'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          number=$(gh issue list --state open --search "\"$ISSUE_TITLE\" in:title" \
+            --json number --jq '.[0].number // empty')
+          if [ -n "$number" ]; then
+            gh issue close "$number" \
+              --comment "Clean run on $(date -u +%Y-%m-%d) — every outbound URL verified. Closing."
+          fi
