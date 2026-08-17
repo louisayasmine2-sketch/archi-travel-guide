@@ -249,7 +249,7 @@
  {
   "publishedAt": "2026-08-03T12:00:00+07:00",
   "slug": "siena-travel-cost-2026",
-  "title": "Siena Day Trip or Overnight: What It Actually Costs, and What Changes",
+  "title": "What a Day in Siena Costs, and What a Night Adds",
   "category": "Budget",
   "region": "Siena",
   "excerpt": "A night in Siena adds tourist tax and a room, but saves €10 a day on parking and unlocks tickets day-trippers often can't get. The real trade-offs, costed.",
@@ -288,13 +288,13 @@
  {
   "publishedAt": "2026-07-03T00:00:00+07:00",
   "slug": "siena-weather-and-what-to-pack",
-  "title": "Siena Weather by Season: What to Pack and Why",
+  "title": "Siena Weather: Why 320 Metres Changes What You Pack",
   "category": "Packing",
   "region": "Siena",
-  "excerpt": "A practical season guide for Siena weather in 2026 planning windows, with clear packing logic for each season.",
+  "excerpt": "Siena sits 320m up on a ridge, so it is cooler than Florence in summer and colder in winter. The year in real numbers, and what that means for your bag.",
   "image": "/images/siena/08-siena-cityscape.webp",
-  "readMinutes": 4,
-  "canonicalPath": null,
+  "readMinutes": 9,
+  "canonicalPath": "/blog/siena-weather-and-what-to-pack",
   "updated": "2026-07-03",
   "store": "articles"
  },
@@ -332,7 +332,7 @@
   "region": "Italy",
   "excerpt": "What Florence costs in 2026, from hostel beds to a stack of museum tickets — including the admissions that rose this year.",
   "image": "/images/italy/florence-budget-travel-street-food.webp",
-  "readMinutes": 4,
+  "readMinutes": 6,
   "canonicalPath": null,
   "updated": "2026-07-04",
   "store": "articles"
@@ -1081,14 +1081,14 @@
  {
   "publishedAt": "2026-07-12T11:30:00+07:00",
   "slug": "where-to-eat-in-siena",
-  "title": "Where to Eat in Siena: Best Areas, Local Dishes and Practical Tips",
+  "title": "Where to Eat in Siena: The Map, Not the List",
   "category": "Siena Travel Guide",
   "region": "Siena, Tuscany",
-  "excerpt": "For convenience, eat near Via di Città or Via Banchi di Sopra. For a quieter atmosphere, explore streets toward Piazza del Mercato. Choose a terrace on Piazza del Campo mainly for the view. Look for pici, pecorino, Cinta Senese products, ribollita, ricciarelli and panforte.",
+  "excerpt": "Individual restaurants change hands, chef and quality faster than any guide can track. The geography does not. This page maps Siena's eating by street — the three arms running off the Croce del Travaglio, what the Campo terraces actually buy you, and how far you have to walk before prices and crowds break.",
   "image": "/images/siena/where-to-eat-in-siena-hero.webp",
-  "readMinutes": 5,
+  "readMinutes": 14,
   "canonicalPath": "/where-to-eat-in-siena",
-  "updated": "2026-07-11",
+  "updated": "2026-08-16",
   "store": "cluster"
  },
  {

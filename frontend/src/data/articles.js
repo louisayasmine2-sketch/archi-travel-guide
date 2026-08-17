@@ -194,7 +194,7 @@ const allArticles = [
       { id: "family-budget-in-siena", heading: "Family budget in Siena", body: "Children receive free or reduced admission at several official attractions, but families often spend more on accommodation, snacks, flexible transport, and comfort.\n\n### Published family savings checked in July 2026\n\n- OPA SI Pass and Gate of Heaven: child rates were restructured with the rest of the complex in March 2026 and we could not confirm the current figures on our 16 August 2026 re-check — ask at the ticket office rather than budgeting from an older number.\n- Museo Civico: children under 11 listed free; family ticket available for defined older-minor conditions.\n- Santa Maria della Scala: children under 11 listed free; family ticket €20 or €18 with reservation under the published definition.\n\nAlways check the exact age proof and family-ticket composition.\n\nA family room can cost more than a double, and two rooms may be required for older children. Search by the actual number and ages of guests so booking platforms return valid occupancy.\n\nRead [Siena with kids](/blog/siena-with-kids/) before deciding where convenience is worth paying for." },
       { id: "free-things-to-do-in-siena", heading: "Free things to do in Siena", body: "A low-budget Siena day can still be memorable.\n\nFree options include:\n\n- walking through Piazza del Campo;\n- exploring contrada streets and looking for emblems;\n- viewing the Duomo exterior;\n- walking around the Fortezza Medicea;\n- visiting outdoor viewpoints;\n- following parts of the Via Francigena route through the city;\n- browsing local food shops and bakeries;\n- enjoying Siena’s evening atmosphere;\n- entering churches when free public access is allowed outside services.\n\nDo not enter a church only to avoid paying elsewhere. Respect worship, dress rules, photography restrictions, and temporary closures." },
       { id: "hidden-costs-travelers-forget", heading: "Hidden costs travellers forget", body: "### City or tourist taxes\n\nAccommodation may collect a local tax separately from the displayed room price. The amount and exemptions can change. Check the final booking breakdown and ask the property.\n\n### Luggage storage\n\nA day visitor between check-out and departure may pay for hotel or station-area storage.\n\n### Parking and restricted-zone mistakes\n\nDrivers need legal parking outside the historic centre. A wrong turn past a ZTL camera is a cost in its own right: the fine arrives months later with an administrative fee from the rental company on top, as set out in [how to avoid a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/). An accommodation listing that says “parking nearby” may refer to paid public parking rather than an included private space.\n\n### Reservation fees\n\nSome official attractions charge a small advance-booking fee. Compare the total, not only the base admission.\n\n### Taxis\n\nA taxi can be a good-value solution for luggage, limited mobility, or a late arrival. It becomes a budget problem only when used repeatedly because accommodation or transport was chosen without considering elevation.\n\n### Mobile data and transaction fees\n\nInternational card fees, dynamic currency conversion, roaming, and ATM charges can quietly increase the trip total. Pay in euros when your card offers a fair exchange rate and avoid accepting unfavorable conversion without reviewing it." },
-      { id: "how-to-save-money-without-damaging-the-trip", heading: "How to save money without damaging the trip", body: "1. Stay two streets away from the most famous view.\n2. Compare the bus’s central arrival with the train’s last-mile cost.\n3. Use one suitable pass rather than buying every attraction separately.\n4. Spend on the experience you care about and use free walking for the rest.\n5. Book accommodation with a flexible policy before high-demand inventory disappears.\n6. Eat one memorable sit-down meal and keep another meal simple.\n7. Carry water and a small snack.\n8. Avoid multi-stop tours that charge for transport while giving little time at each place.\n9. Stay overnight when the cost creates a genuinely better experience, not simply because the itinerary says so.\n10. Recheck official prices close to travel instead of budgeting from an old article." },
+      { id: "how-to-save-money-without-damaging-the-trip", heading: "How to save money without damaging the trip", body: "1. Stay two streets away from the most famous view.\n2. Compare the bus’s central arrival with the train’s last-mile cost.\n3. Use one suitable pass rather than buying every attraction separately.\n4. Spend on the experience you care about and use free walking for the rest.\n5. Book accommodation with a flexible policy before high-demand inventory disappears.\n6. Eat one memorable sit-down meal and keep another meal simple.\n7. Carry water and a small snack.\n8. Avoid multi-stop tours that charge for transport while giving little time at each place.\n9. Stay overnight when the cost creates a genuinely better experience, not simply because the itinerary says so.\n10. Recheck official prices close to travel instead of budgeting from an old article.\n\nTwo companion pages if your question is narrower than a whole budget: [what a day in Siena costs and what a night adds](/blog/siena-travel-cost-2026/) prices the day-trip-versus-overnight choice on its own, and [is Siena worth staying overnight](/blog/siena-day-trip-or-overnight-2026/) argues the same choice on experience rather than euros." },
       { id: "final-thoughts", heading: "Final thoughts", body: "The most useful Siena budget is not the smallest number—it is the amount that protects the parts of the trip you came for. Save on a room view when you will spend all day outside, but pay for central access when steep transfers would drain the family. Skip a generic tour, but invest in a wine day when that is the reason you are in Tuscany.\n\nSiena can be experienced through free streets and one bowl of pici, or through a historic room and a private countryside journey. Both can feel special. Build the budget around time, energy, and the memories you want to take home; then leave enough flexibility for the moment the Tuscan light, a bakery window, or one more evening in the Campo changes your plan." }
     ],
     [
@@ -732,7 +732,7 @@ const allArticles = [
       {
         "id": "what-to-order-in-siena",
         "heading": "What to order in Siena",
-        "body": "A focused Siena meal might include crostini neri, pici all’aglione or pici with breadcrumbs, a local meat dish or pecorino, and ricciarelli or panforte.\n\nDo not force every speciality into one sitting. A better strategy is one substantial lunch, one lighter aperitivo, and several bakery stops across the stay.\n\nUse [our Siena 2-day itinerary](/blog/siena-2-day-itinerary/) to place meals without sacrificing the city’s major sights."
+        "body": "A focused Siena meal might include crostini neri, pici all’aglione or pici with breadcrumbs, a local meat dish or pecorino, and ricciarelli or panforte.\n\nWhat is worth ordering also shifts across the year — our [Tuscan food calendar](/blog/tuscan-food-calendar-seasonal-dishes/) maps the dishes to the months, and [where to eat in Siena](/where-to-eat-in-siena) maps them to the streets.\n\nDo not force every speciality into one sitting. A better strategy is one substantial lunch, one lighter aperitivo, and several bakery stops across the stay.\n\nUse [our Siena 2-day itinerary](/blog/siena-2-day-itinerary/) to place meals without sacrificing the city’s major sights."
       },
       {
         "id": "how-to-read-an-italian-menu",
@@ -1695,7 +1695,7 @@ Parking in Siena is straightforward once you accept the basic rule: the car stay
   ),
   A(
     "siena-travel-cost-2026",
-    "Siena Day Trip or Overnight: What It Actually Costs, and What Changes",
+    "What a Day in Siena Costs, and What a Night Adds",
     "Budget", "Siena",
     "A night in Siena adds tourist tax and a room, but saves €10 a day on parking and unlocks tickets day-trippers often can't get. The real trade-offs, costed.",
     "/images/siena/05-piazza-del-campo-panorama.webp",
@@ -1838,7 +1838,9 @@ The difference between them is the room, plus €4, minus €10 of parking. Whet
 - **Never drive into the historic centre.** The ZTL runs 24 hours a day.
 
 Siena works as a day trip and rewards an overnight. What it does not reward is arriving without knowing which you have chosen — because the bus deadline, the parking rate and the tower tickets all quietly depend on that decision.` },
-      { id: 'next-steps', heading: 'Next steps', body: `If you are driving, read our guide to [avoiding a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/) before you go anywhere near the walls, then our [Siena parking guide](/blog/siena-parking-and-transfer-guide/) for the car parks and rates. Arriving by air? Our guide to [reaching Siena from Florence Airport](/blog/siena-from-florence-airport-transfer/) covers the two-stage bus route and the real fares.` }
+      { id: 'next-steps', heading: 'Next steps', body: `**Two companion pages, so you land on the right one.** This page answers the money question for one specific choice: day trip or overnight. For the full cost of a Siena trip of any length — beds, meals, passes, buses, family budgets — see [how much a trip to Siena costs](/blog/how-much-siena-trip-costs/). For the same day-or-night choice argued on experience rather than euros, see [is Siena worth staying overnight](/blog/siena-day-trip-or-overnight-2026/).
+
+If you are driving, read our guide to [avoiding a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/) before you go anywhere near the walls, then our [Siena parking guide](/blog/siena-parking-and-transfer-guide/) for the car parks and rates. Arriving by air? Our guide to [reaching Siena from Florence Airport](/blog/siena-from-florence-airport-transfer/) covers the two-stage bus route and the real fares.` }
     ],
     [
       { q: "How much is the tourist tax in Siena?", a: "€2.00 per person per night for B&Bs, apartments and short lets, fixed all year, and €1.00 for hostels and campsites. Hotels pay by star category — check the current rates on the Comune di Siena's page, since the figures we could find for hotels sit on a page the city marks as superseded. The tax is capped at six nights per calendar month in the same property." },
@@ -2153,25 +2155,154 @@ None of this is designed to catch tourists out. It is simply how Italians eat, p
             "changes": "Cropped to 16:9, resized, and converted to WebP."
           }
         }
-  ),
-  A(
+  ),  A(
     'siena-weather-and-what-to-pack',
-    'Siena Weather by Season: What to Pack and Why',
+    'Siena Weather: Why 320 Metres Changes What You Pack',
     'Packing', 'Siena',
-    'A practical season guide for Siena weather in 2026 planning windows, with clear packing logic for each season.',
+    'Siena sits 320m up on a ridge, so it is cooler than Florence in summer and colder in winter. The year in real numbers, and what that means for your bag.',
     '/images/siena/08-siena-cityscape.webp',
     [
-      { id: 'spring', heading: 'Spring (March–May)', body: 'Mild days, occasional rain, and uneven walk surfaces. Bring layered layers, a rain shell, and fast-dry shoes.' },
-      { id: 'summer', heading: 'Summer (June–August)', body: 'Heat can be high midday. Prioritise hydration, shade windows, and a light cap strategy for museum exits.' },
-      { id: 'autumn', heading: 'Autumn (September–November)', body: 'Balanced weather, often best value, still walkable. Add a warmer shell for evening streets and churches.' },
-      { id: 'winter', heading: 'Winter (November–February)', body: 'Shorter daylight, colder mornings, and occasional rain/sleet. Keep electronics dry and carry indoor backup plans.' },
-      { id: 'siena-checklist', heading: 'Quick Siena packing checklist', body: 'Walking shoes, compact umbrella, reusable bottle, power bank, printed itinerary, and local transport fallback card.' },
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `**Siena is not Florence, and the difference is 320 metres.** The city sits on a ridge at that altitude, well inland, which makes its summers a few degrees cooler than Florence's and its winters a little colder than the Tuscan coast's. Packing for "Tuscany" and arriving in Siena is how people end up cold at dinner in June.
+
+The year in one line: **January averages 6.4°C and August averages 24.4°C**, with daytime maxima running from about **10°C in January to 31°C in August**. Rain totals about **903 mm a year** — dry in July, wettest in November.
+
+**The three things that actually matter here**, ahead of any seasonal list:
+
+- **Shoes.** Siena is cobbled, steep and unforgiving. This is not a city for new sandals.
+- **A layer for the evening, in every season including August.** The hilltop position that keeps the afternoon bearable also drops the temperature after sunset.
+- **Covered shoulders and knees** if the cathedral is on your list. It is enforced at the door.`,
+      },
+      {
+        id: 'why-siena-differs',
+        heading: 'Why Siena reads differently from the rest of Tuscany',
+        body: `Most packing advice for this region is written for Florence, which sits in a river basin at about fifty metres and behaves like a heat trap in summer. Siena is a different proposition.
+
+**The altitude.** The city stands at **320 metres (roughly 1,050 feet)**, on a ridge in open hill country — the Montagnola Senese to the west, the Crete Senesi to the south-east, Chianti to the north. It has no river valley to hold heat and no sea to moderate the cold.
+
+**What that does in summer.** Siena's climate is described as transitional Mediterranean: hot, sunny summers, but with **summer temperatures generally a few degrees lower than Florence's**, air that is not overly humid, and **noticeably cooler evenings**. Visitors who have suffered a Florentine August often find Siena the relief — but the same exposure means **short late-afternoon thunderstorms** can build over the hills with little warning.
+
+**What it does in winter.** The altitude and the distance from the coast make winter **colder than on the Tuscan seaboard**. Add the fact that the city's streets run along exposed ridgelines, funnelling wind down into the Campo, and a January afternoon in Siena is a colder experience than the numbers alone suggest.
+
+**The practical translation:** in summer, pack slightly warmer than you would for Florence. In winter, pack noticeably warmer than you would for the coast. In both cases, the mistake is treating "Tuscany" as one climate.`,
+      },
+      {
+        id: 'the-year-in-numbers',
+        heading: 'The year in numbers',
+        body: `These are the anchor points we could verify rather than a full twelve-row table, because we would rather give you five figures we checked than twelve we did not.
+
+| Anchor | Figure |
+|---|---|
+| Coldest month average (January) | **6.4°C** |
+| Warmest month average (August) | **24.4°C** |
+| Daytime maximum range | **10°C (Jan) to 31°C (Aug)** |
+| Annual rainfall | **about 903 mm** |
+| Driest month (July) | **about 33 mm across ~6 rainy days** |
+| August rainfall | **about 41 mm across ~8 rainy days** |
+| October rainfall | **about 110 mm** |
+| Wettest month (November) | **about 121 mm across ~14 rainy days** |
+
+**The shape those numbers describe:** a dry, hot, high-summer peak in July and August; a long, comfortable shoulder either side; and a genuinely wet late autumn. **April, May, June, September and October** sit in the pleasant band, with averages running roughly **18°C to 27°C**.
+
+Note the November figure in particular. It is not a slightly damper October — it is nearly four times July's rainfall across more than twice the rainy days, and it is the month most likely to change what your trip can do.`,
+      },
+      {
+        id: 'season-by-season',
+        heading: 'Season by season, with the packing logic',
+        body: `**Spring, March to May.** The band opens. Days become reliably pleasant from April, but March can still be raw and the evenings stay cold well into May. **Pack:** layers you can shed by noon and want back at seven, a compact rain shell, and closed shoes — spring rain plus worn cobbles is the most slippery combination Siena offers.
+
+**Summer, June to August.** Hot and dry, and better here than in the valley cities, but the Campo is a brick bowl with almost no shade and the gradients do not care that it is 31°C. **Pack:** genuinely breathable fabrics rather than technical synthetics that hold smell, a refillable bottle, sun protection including a hat, and — the one people leave out — **a light layer for the evening**. Our [summer packing list for Tuscany](/blog/summer-packing-list-for-tuscany-and-florence-2026/) covers the wider region; the Siena-specific addition is that jumper.
+
+**Autumn, September to November.** The best walking weather of the year in September and October, and then a sharp turn. Early autumn is warm days and cool nights; by November you are into the wettest month of the year with shortening light. **Pack:** the full layered kit, waterproof footwear from late October, and an umbrella that survives wind. Our guide to [what to wear in Tuscany in September](/blog/what-to-wear-in-tuscany-in-september/) goes deeper on the transitional month.
+
+**Winter, December to February.** Cold mornings, short days, and wind along the ridges. It is also the cheapest, emptiest and — for some people — the best version of the city, with the cathedral free of its summer queues. **Pack:** a proper coat rather than a jacket, gloves, and something for wind rather than just for cold. Interiors are the plan: the museums, the cathedral complex and Santa Maria della Scala are all indoor days.`,
+      },
+      {
+        id: 'siena-specific',
+        heading: 'The packing problems specific to this city',
+        body: `Generic Italy lists miss these, and they are the ones that actually cost you comfort.
+
+**The gradients.** Siena is built on three ridges and almost nothing is flat. You will arrive at the cathedral warmer than you left the Campo, in any season. This is the real argument for layers — not the weather, the walking.
+
+**The cobbles.** Uneven, worn smooth in places, and steep. **Broken-in shoes with grip**, not new ones, and not smooth soles. This is the single most common comfort failure among visitors here.
+
+**The Campo has no shade.** It is a brick dish that holds heat into the evening in summer and funnels wind in winter. Whatever the season, the square is the most exposed twenty minutes of your day.
+
+**Church dress codes are enforced.** Shoulders and knees covered for everyone at the cathedral. In July that means carrying a thin scarf or a light overshirt rather than going back to change. Our [cathedral guide](/siena-cathedral-guide) covers the rest of the entry rules.
+
+**Water is free and everywhere.** Public fountains run drinkable water. A refillable bottle removes a recurring cost and a recurring errand.
+
+**What to leave at home:** an umbrella large enough to be a liability in ridge wind, heels of any kind, and a separate outfit for evenings — Siena dines well but it does not dress up much.`,
+      },
+      {
+        id: 'daylight',
+        heading: 'Daylight, and the hour that catches people out',
+        body: `Temperature decides what you wear. **Daylight decides what you can do**, and in Siena it decides it more sharply than in a flat city, because the things worth seeing at the end of the day are views.
+
+**The long evenings of May to August** are the reason those months feel generous: the Facciatone and the Torre del Mangia are still open in usable light, and the Campo's best hour comes late enough that dinner follows it rather than replacing it.
+
+**From late October the day collapses.** Clocks go back on **Sunday 25 October 2026**, and after that dusk arrives noticeably earlier — which matters because Siena's ticketed sights already close early in winter. The Museo Civico's counter shuts at **15:15** in the winter season, so a slow lunch does not cost you a queue, it costs you the museum. Our [Torre del Mangia guide](/torre-del-mangia-guide) has the full seasonal cut-offs.
+
+**The practical rule for a winter visit:** do the ticketed things in the morning and the walking in the afternoon. That is the reverse of the summer order, and getting it backwards is how a December day in Siena ends up being three hours long.`,
+      },
+      {
+        id: 'best-months',
+        heading: 'The best months, honestly',
+        body: `**For walking the city: late April to early June, and mid-September to late October.** Warm days, cool nights, low rainfall, long light, and the crowds either not yet arrived or gone.
+
+**For the cheapest good trip: November, if you accept the rain.** It is the wettest month by a distance, but it is also the emptiest, and the indoor half of Siena is substantial enough to carry a wet day. Our [November guide](/blog/tuscany-in-november-2026/) makes the case in detail, including the Duomo floor still being uncovered until the 15th.
+
+**To avoid, unless the event is the point: the two Palio weeks.** Early July and mid-August put the city at its hottest and its fullest simultaneously.
+
+**And the counterintuitive one: August is not the disaster it is in Florence.** It is hot, but a few degrees cooler than the valley, drier than you would expect at about 41 mm, and the evenings genuinely cool down. Our [August guide](/blog/tuscany-in-august-2026/) sets out what is open and what is closed.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **16 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
+
+**Verified:** Siena's altitude of 320 metres and its position in open hill country between the Montagnola Senese, the Crete Senesi and Chianti; the description of its climate as transitional Mediterranean with mild winters and hot, sunny summers; that its summer temperatures run a few degrees below Florence's and its evenings are cooler because of the hilltop position, with short late-afternoon thunderstorms possible; that its winters are colder than the Tuscan coast's owing to altitude and distance from the sea; the January average of 6.4°C and August average of 24.4°C; daytime maxima of about 10°C in January and 31°C in August; annual rainfall of about 903 mm; July as the driest month at about 33 mm over roughly 6 rainy days; August at about 41 mm over roughly 8; October at about 110 mm; and November as the wettest at about 121 mm over roughly 14 rainy days. The October figure matches the one our own October guide has carried since July 2026.
+
+**Flagged as unconfirmed:** the full month-by-month table. We have published only the anchor figures we could check, and deliberately not filled the gaps between them — a plausible-looking twelve-row climate table assembled from inference is exactly the kind of thing this site does not publish. Sources also differ slightly on the driest and wettest month totals (33 versus 30 mm, 121 versus 125 mm), which is why those figures are given as approximations. All of it is long-term climate averaging, not a forecast: check an actual forecast for your dates.
+
+We have no commercial relationship with any retailer, brand or booking platform, and no product is recommended. No booking made from this page pays us anything.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `The whole of this page reduces to one sentence: **pack for a hill town, not for Tuscany.**
+
+Three hundred and twenty metres is enough to make Siena's August bearable when Florence's is not, and enough to make its January genuinely cold when the coast is merely grey. Bring shoes that can handle a steep wet cobble, a layer you can put on at seven in the evening in any month of the year, and something that covers your shoulders if you intend to see the inside of the cathedral.
+
+Everything else is ordinary travel packing, and no list needs to tell you about it.`,
+      },
     ],
     [
-      { q: 'Do I need warm layers in summer?', a: 'For daytime maybe not, but evenings and high walls are usually cooler. A light jumper helps.' },
-      { q: 'Is rain common?', a: 'Less than in coastal Italy, but showers are common in shoulders. A compact rain layer is worth the space.' },
+      { q: 'What is the weather like in Siena?', a: 'Transitional Mediterranean: mild winters, hot sunny summers. January averages 6.4°C and August 24.4°C, with daytime maxima from about 10°C in January to 31°C in August. Annual rainfall is around 903 mm — driest in July at about 33 mm, wettest in November at about 121 mm across roughly 14 rainy days.' },
+      { q: 'Is Siena cooler than Florence?', a: 'Yes, in summer. Siena sits at 320 metres on a ridge with no river valley to trap heat, so its summer temperatures run a few degrees below Florence’s and its evenings cool down noticeably. The trade is winter: altitude and distance from the sea make Siena colder than the Tuscan coast, and the exposed ridgelines funnel wind into the Campo.' },
+      { q: 'What should you pack for Siena?', a: 'Broken-in shoes with grip above everything — the city is cobbled, steep and worn smooth in places. Then a layer for the evening in every season including August, and covered shoulders and knees if the cathedral is on your list, since the dress code is enforced at the door. A refillable bottle is worth carrying: public fountains run drinkable water.' },
+      { q: 'When is the best time to visit Siena for weather?', a: 'Late April to early June, and mid-September to late October — warm days, cool nights, low rainfall and long light. November is the cheapest good option if you accept that it is the wettest month by a distance, and Siena has enough indoors to carry a wet day.' },
+      { q: 'Is August a bad time to visit Siena?', a: 'Less bad than in Florence. It is hot, but a few degrees cooler than the valley cities, drier than most people expect at around 41 mm across roughly eight rainy days, and the hilltop position means the evenings genuinely cool. The real August problem is the 16 August Palio, which puts the city at its fullest at the same time as its hottest.' },
+      { q: 'Does it rain much in Siena?', a: 'About 903 mm a year, unevenly distributed. July is genuinely dry at roughly 33 mm over about six rainy days. November is the opposite: around 121 mm over about fourteen. A compact rain layer is worth the space from October through spring; in high summer it usually is not, though short late-afternoon thunderstorms can build over the hills.' },
+      { q: 'Do you need warm clothes in Siena in summer?', a: 'A light layer, yes — and it is the item visitors most often leave out. The same hilltop exposure that keeps Siena a few degrees below Florence in the afternoon also drops the temperature after sunset, and the Campo funnels air. A jumper you never wear costs you nothing; a cold evening in a sleeveless top costs you the evening.' },
     ],
-    '2026-07-03'
+    '2026-07-03',
+    {
+      seoTitle: 'Siena Weather: Why 320 Metres Changes What You Pack',
+      primaryKeyword: 'siena weather',
+      secondaryKeywords: [
+        'what to pack for siena',
+        'siena weather by month',
+        'is siena cooler than florence',
+        'siena rainfall november',
+        'best time to visit siena weather',
+      ],
+      imageAlt: 'The Siena skyline seen across the rooftops from a high viewpoint',
+      canonicalPath: '/blog/siena-weather-and-what-to-pack',
+      tags: ['siena weather', 'packing', 'when to visit', 'siena planning'],
+    }
   ),
     A(
     "siena-tours-and-classes-to-book-first",
@@ -2495,9 +2626,70 @@ Florence from Siena is a good day out and an easy journey. The visitors who come
       { id: 'budget', heading: 'Budget Traveller — €65 to €90 per day', body: 'A bed in a well-reviewed hostel runs €25 to €40 per night. Private rooms in basic guesthouses start around €50 to €70.\n\nFor food, eat where the students eat. The area around San Lorenzo and Sant\'Ambrogio is filled with trattorias serving three-course lunch menus for €10 to €13.\n\nFor breakfast, do what locals do: stand at a bar counter, order a cornetto and a caffè, pay €2.50, and leave. Sitting down often doubles the price.' },
       { id: 'mid-range', heading: 'Mid-Range Traveller — €130 to €180 per day', body: 'A double room in a three-star hotel in the Oltrarno district costs €90 to €140 per night.\n\nLunch at a proper trattoria costs €20 to €30 per person. Dinner at one of the city\'s beloved neighbourhood restaurants runs €30 to €45, including wine.\n\nThe mid-range traveller should budget for two or three paid museums. As of the 2026 tariffs: the Uffizi €25 same-day (€29 booked ahead — advance costs more here), the Accademia €20 plus a €4 reservation fee since 1 February 2026, and Pitti Palace with the Boboli Gardens €22 on the day or €25 in advance. Book the Uffizi and Accademia ahead for certainty rather than savings, and see what to do if [the Uffizi](/blog/uffizi-tickets-sold-out-what-to-do/) or [the Accademia](/blog/accademia-tickets-sold-out-florence/) is sold out.' },
       { id: 'luxury', heading: 'Luxury Traveller — €350 and above per day', body: 'Florence has some of the most beautiful boutique hotels in Europe. A luxury room starts around €400 per night.\n\nDining at this level is an event. The best meal you will eat might be a €60 bistecca alla fiorentina (Florentine T-bone steak) at a traditional steakhouse.\n\nFor a unique luxury experience, book a private after-hours tour of the Vasari Corridor.' },
-      { id: 'tips', heading: 'Money-Saving Tips for All Budgets', body: '• Water is free. Ask for "acqua del rubinetto" (tap water) at restaurants.\n• Aperitivo culture is your secret weapon. Many bars offer a free buffet of pasta and snacks when you order a drink between 6 and 9 p.m.\n• Avoid restaurants with photos on the menu. Photos mean tourist prices and tourist quality.' }
+      { id: 'tourist-tax', heading: 'The tourist tax nobody budgets for', body: `Florence charges an **imposta di soggiorno** on every overnight stay, collected by your accommodation and usually **not included in the price you booked**. It is the most commonly missed line in a Florence budget.
+
+The published rates, per person per night:
+
+| Accommodation | Per person, per night |
+|---|---:|
+| 1-star hotel or campsite | €3.50 |
+| 2-star hotel | €4.50 |
+| 3-star hotel | €6.00 |
+| 4-star hotel | €7.00 |
+| 5-star hotel | €8.00 |
+| Tourist rental (locazione turistica) | €5.50 |
+
+It applies for a **maximum of seven consecutive nights**. Exemptions include **children under 12**, University of Florence students, day-hospital patients and up to two companions of a hospitalised patient, on-duty police, fire and civil-protection personnel, and people with severe disabilities.
+
+**Do the arithmetic before it surprises you.** Two adults, three nights, four-star: **€42**. A family of four in an apartment for four nights, with two children over 12: **€88**. That is a restaurant meal you did not know you had bought.` },
+      { id: 'museum-stack', heading: 'The museum stack, at 2026 prices', body: `Museums are where a Florence budget actually breaks, because the headline attractions are individually priced and there are more of them than in most Italian cities. These are the 2026 tariffs after a cluster of increases:
+
+| Attraction | Price |
+|---|---:|
+| Uffizi | **€25 same-day**, €29 booked ahead |
+| Uffizi afternoon ticket (from 16:00) | **€16 same-day**, €20 ahead |
+| Accademia (David) | **€20** + €4 booking fee |
+| Bargello | **€12** |
+| Accademia + Bargello combined, 48h | **€26** + €4 |
+| Wider Bargello-group circuit, 72h | **€38** + €4 |
+| Pitti Palace + Boboli | **€22 same-day**, €25 ahead |
+| Palazzo Vecchio | **€18** (€12 reduced, 18–25) |
+| San Marco | **€11** |
+| Duomo Brunelleschi Pass | **€30** (€12 reduced) |
+| Duomo Giotto Pass | **€20** (€7 reduced) |
+| Firenze Card, 72h | **€85** |
+
+**Two things in that table save real money.** At the Uffizi, **buying on the day is cheaper than booking ahead** — the advance premium is a booking fee, not a discount, and the €16 afternoon ticket is the cheapest legitimate way in during high season. And the Bargello at €12 is the best value in the city for anyone who cares about sculpture.
+
+Both are explained properly in our guides to [the Uffizi when it is sold out](/blog/uffizi-tickets-sold-out-what-to-do/) and [the Accademia when it is sold out](/blog/accademia-tickets-sold-out-florence/) — which also cover the same-day routes that avoid paying the premium at all.
+
+**The Firenze Card only pays off** if you are doing three museum-intensive days. For two or three attractions, buy them individually.` },
+      { id: 'the-siena-alternative', heading: 'The lever nobody pulls: sleep somewhere else', body: `The single largest variable in a Florence budget is the bed, and Florence charges Florence prices for it — plus the tourist tax above.
+
+**Basing in Siena and treating Florence as a day trip inverts the arithmetic.** Accommodation costs less, the tourist tax is lower, and the 131R bus runs into central Florence in about 75 minutes for €9.90 bought ahead. You lose the Florentine evening; you gain a Tuscan one, which many travellers prefer anyway.
+
+It is not the right answer for everyone — a first visit built around the Uffizi, the Accademia and the Duomo complex wants to be in Florence. But for a trip of four nights or more, or one where the countryside matters as much as the galleries, the saving is substantial and it compounds every night.
+
+Our [Florence or Siena comparison](/blog/florence-or-siena-which-to-visit-2026/) works through the choice properly, and [what a day in Siena costs](/blog/siena-travel-cost-2026/) gives the other side's numbers.` },
+      { id: 'tips', heading: 'Money-Saving Tips for All Budgets', body: '• Water is free. Ask for "acqua del rubinetto" (tap water) at restaurants.\n• Aperitivo culture is your secret weapon. Many bars offer a free buffet of pasta and snacks when you order a drink between 6 and 9 p.m.\n• Avoid restaurants with photos on the menu. Photos mean tourist prices and tourist quality.' },
+      { id: 'how-we-checked', heading: 'How we checked these details', body: `Checked **16 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
+
+**Verified against official sources:** the Comune di Firenze's tourist-tax rates of €3.50 to €8.00 per person per night by hotel category and €5.50 for tourist rentals, the seven-consecutive-night maximum, and the exemption categories including under-12s, University of Florence students, hospital companions and on-duty emergency personnel. And the 2026 museum tariffs — the Uffizi's €25 same-day against €29 in advance and its €16/€20 afternoon ticket, the Accademia's €20 plus a €4 booking fee, the Bargello at €12 and the €26/€38 combined tickets following the March 2026 unification, Pitti with Boboli at €22/€25, Palazzo Vecchio at €18 (€12 reduced) since February 2026, San Marco at €11, the €30 and €20 Duomo passes, and the €85 Firenze Card.
+
+**Not verified, and presented as indicative bands rather than checked figures:** the accommodation, meal and daily-total ranges in the three traveller tiers. Those describe a typical spread rather than a surveyed average, and hotel rates in particular move with season and demand in a way no fixed number survives. Treat them as a planning shape and price your own dates.
+
+Florence's museum tariffs changed repeatedly across 2025 and 2026, and the tourist-tax table has been revised more than once — verify both on the official channels before relying on any figure here.
+
+We have no commercial relationship with any hotel, restaurant, museum or ticketing platform named. No booking made from this page pays us anything.` }
     ],
-    [],
+    [
+      { q: 'How much does a day in Florence cost in 2026?', a: 'Roughly €65 to €90 a day travelling on a budget, €130 to €180 mid-range, and €350 upward at the luxury end — before museums and before the tourist tax. Museums are what actually break a Florence budget: the Uffizi alone is €25 on the day, the Accademia €20 plus a €4 booking fee.' },
+      { q: 'How much is the tourist tax in Florence?', a: 'Per person per night: €3.50 in a 1-star hotel or campsite, €4.50 in a 2-star, €6.00 in a 3-star, €7.00 in a 4-star, €8.00 in a 5-star, and €5.50 in a tourist rental. It is charged for a maximum of seven consecutive nights and is usually not included in your booking price. Children under 12 are exempt, along with University of Florence students, hospital companions and on-duty emergency personnel.' },
+      { q: 'Is it cheaper to book Florence museum tickets in advance?', a: 'Not at the Uffizi, and this surprises almost everyone. The official structure prices advance purchase higher: €25 on the day against €29 booked ahead, and the afternoon ticket from 16:00 is €16 on the day against €20 in advance. Advance booking buys certainty, not savings.' },
+      { q: 'Is the Firenze Card worth it?', a: 'Only for three museum-intensive days. At €85 for 72 hours it needs several major admissions plus their booking fees to break even. For two or three attractions, buying individually is cheaper — and at the Uffizi, buying on the day is cheaper still.' },
+      { q: 'How can you cut a Florence budget without ruining the trip?', a: 'Three levers, largest first. Sleep outside Florence — basing in Siena and day-tripping in on the 131R, about 75 minutes for €9.90 booked ahead, cuts both the room rate and the tourist tax. Buy the Uffizi on the day rather than in advance, and take the €16 afternoon ticket. And eat one substantial sit-down meal a day rather than two, using bar counters and aperitivo for the rest.' },
+      { q: 'What is the biggest cost people forget in Florence?', a: 'The tourist tax, because accommodation platforms usually exclude it from the price you book and it is collected on arrival. Two adults for three nights in a four-star is €42; a family of four in an apartment for four nights, with two children over 12, is €88. After that, the museum stack — which is easy to underestimate when each attraction is priced separately.' },
+    ],
     '2026-07-04'
   ),
   A(
@@ -8539,7 +8731,9 @@ What the numbers support saying: overnighting in Siena is common but far from un
       {
         id: 'final-thoughts',
         heading: 'Final thoughts',
-        body: `There is a version of Siena that exists between 16:00 and 10:00, and it is the version the city's reputation was built on: the passeggiata, the floodlit tower over a warm brick square, dinner at the hour dinner is meant to happen, and a dawn piazza that belongs briefly to you. No day trip, however well run, can include it — not because day trips are done badly, but because that Siena only opens when the buses have gone. If your Tuscan itinerary can spare one night, this is where it earns the most. And if it truly cannot, come early, stay late, and promise the evening city you will be back.`,
+        body: `There is a version of Siena that exists between 16:00 and 10:00, and it is the version the city's reputation was built on: the passeggiata, the floodlit tower over a warm brick square, dinner at the hour dinner is meant to happen, and a dawn piazza that belongs briefly to you. No day trip, however well run, can include it — not because day trips are done badly, but because that Siena only opens when the buses have gone. If your Tuscan itinerary can spare one night, this is where it earns the most. And if it truly cannot, come early, stay late, and promise the evening city you will be back.
+
+**If the decision is really about money rather than time**, this page is the wrong half of the argument: [what a day in Siena costs and what a night adds](/blog/siena-travel-cost-2026/) puts the same choice in euros, and [how much a trip to Siena costs](/blog/how-much-siena-trip-costs/) covers the whole budget.`,
       },
     ],
     [
