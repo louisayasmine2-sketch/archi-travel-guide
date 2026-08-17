@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import articles from "@/data/articlesIndex.json";
+import { publishedArticles } from "@/lib/publishedArticles";
 import { bestTime } from "@/lib/travelTools";
 import TuscanScene from "@/components/common/TuscanScene";
 import { CalendarDays, ArrowRight } from "lucide-react";
@@ -16,7 +16,7 @@ const MONTHS = [
 // and siena-in-september-2026.
 function monthGuide(month) {
   const needle = `-in-${month.toLowerCase()}-2`;
-  return articles.find((a) => a.slug.includes(needle)) || null;
+  return publishedArticles().find((a) => a.slug.includes(needle)) || null;
 }
 
 // Northern-hemisphere season for the illustration's light.

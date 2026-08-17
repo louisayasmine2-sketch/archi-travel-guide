@@ -14,10 +14,8 @@ import SEO from "@/components/common/SEO";
 // Metadata-only index (slug/title/excerpt/canonicalPath/updated), generated
 // by scripts/generate-articles-index.js — the homepage must never pull the
 // full article bodies (~830KB) into its bundle.
-import articlesIndex from "@/data/articlesIndex.json";
+import { publishedArticles, findPublishedArticle } from "@/lib/publishedArticles";
 
-const articles = articlesIndex;
-const getArticle = (slug) => articlesIndex.find((a) => a.slug === slug);
 import { HOME } from "@/constants/testIds";
 import TiltCard from "@/components/common/TiltCard";
 import Reveal from "@/components/common/Reveal";
@@ -150,12 +148,12 @@ export default function HomePage() {
   }, []);
 
   const pillars = PILLARS
-    .map((pillar) => ({ ...pillar, article: getArticle(pillar.slug) }))
+    .map((pillar) => ({ ...pillar, article: findPublishedArticle(pillar.slug) }))
     .filter((pillar) => pillar.article);
 
-  const recentlyUpdated = [...articles]
+  // publishedArticles() is newest-first and excludes anything not yet live.
+  const recentlyUpdated = publishedArticles()
     .filter((article) => !PILLAR_SLUGS.has(article.slug))
-    .sort((a, b) => new Date(b.updated) - new Date(a.updated))
     .slice(0, 3);
 
   return (

@@ -22,9 +22,11 @@ test("header search surfaces tools and deep-links into the hub", async ({ page }
   await expect(tool.first()).toBeVisible();
   await tool.first().click();
   await expect(page).toHaveURL(/travel-tools\?tool=budget/);
-  // The hub and its tool components are lazy-loaded chunks; on a busy machine
-  // the modal can take longer than the default 5s assertion window.
-  await expect(page.locator("[role='dialog']")).toBeVisible({ timeout: 20000 });
+  // Name the dialog rather than matching any [role='dialog'] — a bare role
+  // selector once collided with the cookie banner and failed strict mode
+  // whenever the banner had faded in first. The hub and its tool components
+  // are lazy-loaded chunks, hence the widened assertion window.
+  await expect(page.getByRole("dialog", { name: "Tuscany Budget Planner" })).toBeVisible({ timeout: 20000 });
 });
 
 test("/blog?q= filters the list, shows an honest count, and clears", async ({ page }) => {

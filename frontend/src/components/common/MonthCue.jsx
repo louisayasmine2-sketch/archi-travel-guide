@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import articlesIndex from "@/data/articlesIndex.json";
+import { publishedArticles } from "@/lib/publishedArticles";
 import { ArrowRight } from "lucide-react";
 
 const MONTHS = [
@@ -13,7 +13,7 @@ const MONTHS = [
 export default function MonthCue() {
   const month = MONTHS[new Date().getMonth()];
   const needle = `-in-${month.toLowerCase()}-2`;
-  const guide = articlesIndex.find((a) => a.slug.includes(needle));
+  const guide = publishedArticles().find((a) => a.slug.includes(needle));
   if (!guide) return null;
 
   return (

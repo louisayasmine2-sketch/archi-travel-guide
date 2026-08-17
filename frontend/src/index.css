@@ -900,6 +900,11 @@
   }
   [role="dialog"] {
     position: static !important;
+    /* The dialog carries duration-200, so neutralising transform would
+       otherwise animate over 200ms — and print can snapshot mid-flight,
+       laying the sheet out against a half-applied offset. Kill the
+       transition so the print geometry is settled the instant it applies. */
+    transition: none !important;
     transform: none !important;
     max-height: none !important;
     max-width: none !important;

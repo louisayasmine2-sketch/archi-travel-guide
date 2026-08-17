@@ -6,6 +6,7 @@ import { articleSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import guide from "@/data/sienaDayTripFromFlorenceGuide.json";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
+import ToolCue from "@/components/common/ToolCue";
 
 const breadcrumbs = [
   { label: "Home", to: "/" },
@@ -203,7 +204,9 @@ function renderBlock(block, index) {
 
   if (block.type === "table") {
     return (
-      <div key={index} className="not-prose my-8 overflow-x-auto rounded-2xl border border-[hsl(var(--stone-border))]">
+      // tabIndex={0} so keyboard users can scroll the overflow-x container.
+      // The table has a 620px min-width and scrolls on narrow viewports.
+      <div key={index} tabIndex={0} className="not-prose my-8 overflow-x-auto rounded-2xl border border-[hsl(var(--stone-border))]">
         <table className="w-full min-w-[620px] border-collapse bg-[hsl(var(--ivory))] text-sm">
           <thead>
             <tr>
@@ -347,6 +350,9 @@ export default function SienaDayTripFromFlorence() {
           <div className="prose-editorial">
             {bodyBlocks.map((block, index) => renderBlock(block, index))}
           </div>
+
+          {/* Funnel exit — this page had none. */}
+          <ToolCue category={guide.category} />
 
           <section className="mt-12 rounded-2xl border border-[hsl(var(--stone-border))] bg-[hsl(var(--ivory-2))] p-6">
             <p className="overline">Photo credits</p>

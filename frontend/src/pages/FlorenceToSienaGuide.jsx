@@ -8,6 +8,7 @@ import { breadcrumbSchema, articleSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import guide from "@/data/florenceToSienaGuide.json";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
+import ToolCue from "@/components/common/ToolCue";
 
 const breadcrumbs = [
   { label: "Home", to: "/" },
@@ -183,8 +184,11 @@ function MarkdownBlocks({ markdown, className = "", skipHeading = "" }) {
         }
 
         if (block.type === "table") {
+          // tabIndex={0} so keyboard users can scroll the overflow-x container.
+          // Tables here have a 760px min-width and scroll on narrow viewports;
+          // without it the content is unreachable without a pointer (WCAG 2.1.1).
           return (
-            <div key={`table-${index}`} className="longform-table-wrap">
+            <div key={`table-${index}`} className="longform-table-wrap" tabIndex={0}>
               <table>
                 <thead>
                   <tr>
@@ -404,6 +408,10 @@ export default function FlorenceToSienaGuide() {
             </p>
           </section>
         </div>
+
+        {/* Funnel exit. This is the most-linked page on the site and had none:
+            readers finished the transport decision with nowhere to go next. */}
+        <ToolCue category={guide.category} />
 
         <aside className="longform-related">
           <p className="overline">Related planning</p>

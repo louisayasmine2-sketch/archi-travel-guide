@@ -5,11 +5,8 @@ import SEO from "@/components/common/SEO";
 // Card metadata only. Importing @/data/articles here would pull every
 // article BODY (1.2MB and growing) into this route's chunk to render a list
 // of titles — the index is generated from that same store on every build.
-import articlesIndex from "@/data/articlesIndex.json";
+import { publishedBlogArticles } from "@/lib/publishedArticles";
 
-// This listing has always covered the articles.js store; the index also
-// carries the cluster and long-form guides, which have their own hub pages.
-const articles = articlesIndex.filter((a) => a.store === "articles");
 
 // Everything on this page is derived from the article store. No card, date,
 // image or category is hardcoded — the previous version was a mockup wired to
@@ -34,14 +31,10 @@ function articlePath(article) {
   return path.endsWith("/") ? path : `${path}/`;
 }
 
-// Category buttons come from the data's distinct category values — so a button
-// can never point at a category no article has, and a new category shows up on
-// its own. Cleaning the vocabulary in articles.js changes this list; the page
-// never hardcodes it.
-const CATEGORIES = ["All", ...[...new Set(articles.map((a) => a.category))].sort((a, b) => a.localeCompare(b))];
-
-// Most-recently-updated first, computed once.
-const BY_RECENT = [...articles].sort((a, b) => new Date(b.updated) - new Date(a.updated));
+// This listing covers the articles.js store; the index also carries the
+// cluster and long-form guides, which have their own hub pages. Resolved on
+// render, not at module load, so an article whose publish moment passes shows
+// up without a redeploy.
 
 const PAGE_SIZE = 9;
 
@@ -53,6 +46,12 @@ export default function Blog() {
   const query = (searchParams.get("q") || "").trim();
   const region = (searchParams.get("region") || "").trim();
   const catParam = (searchParams.get("cat") || "").trim().toLowerCase();
+
+  const articles = publishedBlogArticles();
+  // Category buttons come from the data's distinct values — a button can never
+  // point at a category no article has, and a new one appears on its own.
+  const CATEGORIES = ["All", ...[...new Set(articles.map((a) => a.category))].sort((a, b) => a.localeCompare(b))];
+  const BY_RECENT = articles; // publishedArticles() is already newest-first
 
   const [activeCategory, setActiveCategory] = useState(
     () => CATEGORIES.find((c) => c.toLowerCase() === catParam) || "All"

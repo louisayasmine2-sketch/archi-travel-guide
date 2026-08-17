@@ -98,7 +98,9 @@ const renderMarkdownTable = (lines, keyPrefix) => {
   const bodyRows = rows.slice(1).filter((row) => !row.every((cell) => /^:?-{3,}:?$/.test(cell)));
 
   return (
-    <div key={keyPrefix} className="my-6 overflow-x-auto rounded-2xl border border-[hsl(var(--stone-border))]">
+    // tabIndex={0} so keyboard users can scroll the overflow-x container
+    // when the table is wider than the viewport (WCAG 2.1.1).
+    <div key={keyPrefix} tabIndex={0} className="my-6 overflow-x-auto rounded-2xl border border-[hsl(var(--stone-border))]">
       <table className="min-w-full text-sm">
         <thead className="bg-[hsl(var(--ivory-2))]">
           <tr>

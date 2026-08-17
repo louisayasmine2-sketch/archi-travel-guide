@@ -4,6 +4,10 @@
 // index.css's @media print block frees it; these tests pin that behaviour.
 const { test, expect } = require("@playwright/test");
 
+// Every assertion below resolves the dialog by the sheet it contains, never
+// by a bare [role='dialog'] query — that returns whatever comes first in the
+// DOM, which for a long time was the cookie banner, so these tests measured
+// the banner and passed for the wrong reason.
 async function saveTrip(page) {
   await page.goto("/travel-tools");
   await page.locator(".mb-12 select").first().selectOption("Siena");
@@ -16,9 +20,9 @@ test("trip sheet escapes the dialog trap in print media", async ({ page }) => {
   await page.waitForSelector(".printable-area");
   await page.emulateMedia({ media: "print" });
   const state = await page.evaluate(() => {
-    const dialog = document.querySelector("[role='dialog']");
-    const cs = getComputedStyle(dialog);
     const sheet = document.querySelector(".printable-area");
+    const dialog = sheet.closest("[role='dialog']");
+    const cs = getComputedStyle(dialog);
     return {
       position: cs.position,
       transform: cs.transform,
@@ -43,14 +47,14 @@ test("packing list print shows the checklist, not a blank page", async ({ page }
   await saveTrip(page);
   await page.goto("/travel-tools?tool=packing");
   await page.waitForSelector(".printable-area");
-  await page.locator("[role='dialog'] button:has-text('Generate Checklist')").click();
+  await page.locator("[role='dialog']:has(.printable-area) button:has-text('Generate Checklist')").click();
   await page.emulateMedia({ media: "print" });
   const visible = await page.evaluate(() => {
     const sheet = document.querySelector(".printable-area");
     return {
       visibility: getComputedStyle(sheet).visibility,
       hasChecklist: sheet.innerText.includes("Clothing"),
-      dialogPosition: getComputedStyle(document.querySelector("[role='dialog']")).position,
+      dialogPosition: getComputedStyle(sheet.closest("[role='dialog']")).position,
     };
   });
   expect(visible.visibility).toBe("visible");
