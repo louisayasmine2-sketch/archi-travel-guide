@@ -1,13 +1,20 @@
 # Research brief — James Bond in Siena (Quantum of Solace) deep-dive
 
 <!-- audit:ignore -->
-Status: **open, unwritten**. Prepared 2026-08-16 in a network-restricted
-session: outbound fetches are blocked here, so **nothing in this brief has been
-verified against a source**. Every factual line below is written as a QUESTION
-to answer, never as a claim to copy. Whoever writes the article (a person, or a
-Claude session with open network) must open each source, record what it says
-and the date checked, and drop any point that cannot be confirmed. Do not lift
-sentences from this file into the article — it is a plan, not a draft.
+Status: **executed, 2026-08-17** — the article shipped as
+`/blog/quantum-of-solace-siena-filming-locations` (PR #96), with the §5 pillar
+link-down and the keyword move both in place. The §4 worklist was answered by
+web search with multi-source corroboration in a session where direct page
+fetches remained blocked; the two consequences (no outbound links, no volatile
+figures — both delegated to the cluster guides) are stated on the page itself
+in "How we checked this". This file stays as the record of the plan. If the
+article is ever revised in a session with full network access, the remaining
+upgrades are: open each named source directly, and consider adding confirmed
+outbound links where the URL rule can finally be satisfied.
+
+Original status, for the record: prepared 2026-08-16, network-restricted,
+nothing verified at that point — every factual line below was written as a
+question to answer, never as a claim to copy.
 <!-- /audit:ignore -->
 
 ---
