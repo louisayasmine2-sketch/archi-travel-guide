@@ -10397,6 +10397,161 @@ And if you are reading this while still planning rather than already in the stre
       tags: ['accademia', 'michelangelo david', 'florence museums', 'florence tickets', 'practical tips'],
     }
   ),
+  A(
+    'siena-1348-the-year-the-city-stopped',
+    'Siena, 1348: The Year the City Stopped',
+    'Things to do',
+    'Siena',
+    'Siena looks medieval because in 1348 it stopped mid-sentence. The plague, the abandoned cathedral and the fallen government — and where to see each today.',
+    '/images/siena/02-siena-cathedral-facade.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Every visitor notices it within an hour: Siena looks medieval in a way even Florence does not. The usual explanation is that the city "preserved its heritage". The truer one is harsher, and it makes every stone more interesting.
+
+**Siena is not preserved. It is interrupted.** In the spring of 1348 the plague arrived in one of the richest, most ambitious cities in Europe — a city mid-way through doubling its cathedral and only months from finishing its great tower — and killed, by modern estimates, **between a third and a half of its people**. The building sites stopped. The government that had commissioned everything fell within seven years. And the city never again had the money, the confidence or the reason to build over its own Middle Ages.
+
+That is why the walls of an abandoned cathedral still stand in the middle of town, why an open-air chapel leans against the town hall, and why the fabric around you is fourteenth-century: **not because Siena kept its past, but because its future was cancelled.**
+
+This article tells that story properly — through the chronicle of a shoemaker who buried his own children — and then walks you to the five places in today's city where 1348 is still standing. All of them are covered by tickets and passes our other guides already explain; this is the page that explains what you are looking at.`,
+      },
+      {
+        id: 'the-city-before',
+        heading: 'The city before: richer than you are imagining',
+        body: `To feel the weight of 1348 you need the size of what it hit, because the Siena of the 1340s was not a charming hill town. It was a banking and trading power at the height of a building programme that still defines the city.
+
+**The government was the Nine** — the *Governo dei Nove*, the merchant oligarchy that had run Siena since the 1280s and given it the most stable half-century in its history. Their name is literally under your feet: the [Campo's paving](/piazza-del-campo-guide), laid from **1327**, is divided by ten travertine lines into **nine segments** converging on their seat, the Palazzo Pubblico.
+
+**The skyline was going up.** The [Torre del Mangia](/torre-del-mangia-guide) had been rising since **1338**, built deliberately to match the height of the cathedral's bell tower — civic power and church power at the same altitude. Inside the Palazzo Pubblico, Ambrogio Lorenzetti had just finished the *Allegory of Good and Bad Government* (1338–1339), a fresco cycle whose entire subject is confidence in the future.
+
+**And the cathedral was being doubled.** On **23 August 1339** the city decided to enlarge its Duomo on a scale that reads today as pure hubris: the existing cathedral — itself among the great Gothic buildings of Italy — would become merely the **transept** of a vastly larger church built perpendicular to it, a *Duomo Nuovo* that its builders intended to be the largest in Christendom. Responsibility went in December 1339 to **Lando di Pietro**, goldsmith and engineer; when he died in August 1340, the sculptor **Giovanni d'Agostino** drove the work speedily on.
+
+Hold that picture: a tower nearly finished, a fresco about good government barely dry, and the walls of a doubled cathedral climbing. That is the sentence Siena was half-way through saying.`,
+      },
+      {
+        id: 'may-1348',
+        heading: 'May 1348: a shoemaker writes it down',
+        body: `The plague reached Siena in **May 1348**. We know what happened next in unusual, terrible detail, because a Sienese shoemaker and tax collector named **Agnolo di Tura**, called *del Grasso* — "the Fat" — kept a chronicle, and did not stop keeping it when the subject became his own family.
+
+His account is one of the most quoted documents of the medieval world, and it earns it:
+
+> "Father abandoned child, wife husband, one brother another; for this illness seemed to strike through the breath and the sight. And so they died. And none could be found to bury the dead for money or friendship… And I, Agnolo di Tura, called the Fat, buried my five children with my own hands. And there were also those who were so sparsely covered with earth that the dogs dragged them forth and devoured many bodies throughout the city."
+
+His wife Nicoluccia died too. He recorded great pits dug and filled with the dead, the abandonment of the mines in Sienese territory, and a belief he states flatly: that so many died "that all believed it was the end of the world".
+
+**On the numbers, honesty is required, because the chronicle's are not statistics.** Agnolo claims 80,000 dead in the city and its suburbs, and that of "more than 30,000 men" fewer than 10,000 remained. Medieval chroniclers counted grief, not heads, and those figures exceed any plausible population. What modern historians defend is bad enough: **something between a third and a half of Siena's people died in a few months of 1348**. Whichever end of that range is true, it means that by autumn, every surviving Sienese was living in a city where every third face they knew was gone.`,
+      },
+      {
+        id: 'the-cathedral-stops',
+        heading: 'The cathedral that stopped mid-sentence',
+        body: `Giovanni d'Agostino, the sculptor driving the Duomo Nuovo, **died in 1348, probably of the plague**. The workforce died or scattered with him, and the site fell silent.
+
+The city tried again — there were attempts to restart in the early 1350s — but the two things a cathedral needs, masons and money, had both been buried. The economic collapse that followed the epidemic finished what the epidemic began, and the project was abandoned. In **1357** the city's new governors ordered the **demolition of the parts judged structurally unsound**: the great arches had been raised too fast, on the ambition of the 1340s rather than the engineering of them, and some of what the plague had spared was pulled down on purpose.
+
+What survived is what you can climb today. The **Facciatone** — the "big façade" — is the front wall of the cathedral that never happened, and the aisle walls that would have flanked its nave still frame the space beside the Duomo, with the springing of arches that never carried a roof. The Opera del Duomo now runs a panorama walk along the top of it, included in the [OPA SI Pass](/siena-cathedral-guide).
+
+Stand up there and orient yourself, because this is the single most legible piece of 1348 in Europe: **the floor plan of the abandoned nave is the piazza below you**. The space where the congregation of the largest church in Christendom was meant to stand has spent almost seven centuries as a car-free square, walled by the church that never enclosed it. Nowhere else can you stand *on* an ambition at the exact height it reached when the world ended.`,
+      },
+      {
+        id: 'tower-and-chapel',
+        heading: 'Four metres apart: the tower and the vow',
+        body: `At the foot of the [Torre del Mangia](/torre-del-mangia-guide), leaning against the Palazzo Pubblico, stands an open marble chapel that most visitors photograph by accident. The two structures were finished — one, and begun, the other — in the same year, for opposite reasons, and together they are the shortest history lesson in Italy.
+
+**The tower was completed in 1348.** It had been rising for ten years as a statement of civic confidence: as tall as the cathedral's campanile, because in Siena the commune bowed to no bishop.
+
+**The chapel was promised in 1348.** The *Cappella di Piazza* was vowed by the survivors of the plague — an open-air altar on the civic square, built in fulfilment of that vow from 1352 onward, its pillars rising over the following decades and its Renaissance crown added a century later by Antonio Federighi. The [full architectural story is in our Campo guide](/piazza-del-campo-guide); what belongs here is the meaning.
+
+**Confidence and terror, four metres apart, with the same date on them.** The city finished its proudest secular monument and founded its most desperate sacred one in the same twelve months. When you stand between them you are standing in the exact seam of the fourteenth century.`,
+      },
+      {
+        id: 'the-nine-fall',
+        heading: 'The government falls: 1355, and the Twelve',
+        body: `The Nine survived the plague itself. They did not survive its aftermath.
+
+A regime built on prosperity, stability and the loyalty of a merchant class now had none of the three: the economy had collapsed, the survivors were traumatised and taxed, and the noble families the Nine had barred from office for seventy years saw their moment. It came in **1355**, when the Emperor **Charles IV of Luxembourg** passed through Siena. Under the cover of the imperial visit, the excluded nobility and a risen populace overthrew the Nine and expelled the families of their party.
+
+The new regime — the **Dodici**, the Twelve — ruled until 1369, the first of a churn of short-lived governments that replaced the Nine's half-century of continuity. And it is the Twelve who connect the political story back to the stones: **it was the Twelve who, in 1357, ordered the unsound parts of the abandoned Duomo Nuovo demolished.** The new government's first great building decision was to un-build the old government's dream. Few regimes have ever announced themselves more clearly.
+
+The frescoes of the Nine's council room — Lorenzetti's *Good and Bad Government*, still in the [Museo Civico](/piazza-del-campo-guide) — thus became something their painter never intended: a portrait of a political order that had eight years left, watched over today by visitors who mostly do not know they are looking at a eulogy. Lorenzetti himself is generally believed to have died in the plague of 1348.`,
+      },
+      {
+        id: 'the-long-afterwards',
+        heading: 'The long afterwards: why the city stayed medieval',
+        body: `The plague returned in waves for decades, and Siena's politics churned for two centuries — but the city remained independent, and its final act was as dramatic as its fourteenth century.
+
+In **January 1554** a Medici-Imperial army besieged Siena, which had risen against a Spanish garrison and placed itself under French protection. The siege was fifteen months of methodical strangulation: the relief army was destroyed at **Marciano in August 1554**, and by **February 1555** the city was expelling thousands of *bocche inutili* — "useless mouths", the civilians it could no longer feed — from inside its walls. In **April 1555**, starving, Siena surrendered. A remnant of the government withdrew to Montalcino and kept a Republic-in-exile alive until **1559**, when the peace settlement delivered Siena permanently to **Cosimo de' Medici's Tuscany**.
+
+And here is the paradox this whole article has been walking toward. **Florence's conquest is the second reason Siena looks the way it does.** As a subordinate city in the Medici state, Siena never again commanded the wealth that rebuilds skylines. There was no Sienese Renaissance boom to replace Gothic with something newer, no nineteenth-century industrial expansion to flatten the walls. The catastrophe of 1348 stopped the city's growth; the defeat of 1555 made sure it never restarted.
+
+Every unspoiled medieval streetscape in Europe has a version of this story — **preservation is usually the residue of misfortune** — but nowhere is the chain of cause and effect as visible as here, because Siena's misfortunes left their receipts standing: an unfinished cathedral, a plague-vow chapel, a fortress the Medici built to hold the city they had starved.`,
+      },
+      {
+        id: 'walking-1348',
+        heading: 'Walking 1348: five stops in today’s city',
+        body: `Everything above is standing within ten minutes' walk. Take them in this order and the story tells itself; every ticket involved is covered in detail by the guides linked.
+
+**1. The Campo's nine segments.** Start standing on the government that built the city the plague hit. Nine panels of brick, [laid 1327–1349](/piazza-del-campo-guide) — note that finishing date: the paving was completed the year after the catastrophe, the one project too civic to abandon.
+
+**2. The Torre del Mangia and the Cappella di Piazza.** The 1348 pair — confidence finished, terror founded, four metres apart. Climb the tower if [its no-booking rules](/torre-del-mangia-guide) suit your day.
+
+**3. Lorenzetti's Good and Bad Government, Museo Civico.** The Nine's self-portrait, painted 1338–1339 in the room where they governed — nine years before the plague, sixteen before their fall. Look at the *Effects of Good Government in the City*: the Siena of the frescoes is the Siena that died in 1348.
+
+**4. The Facciatone and the Duomo Nuovo walls.** The panorama walk on the [OPA SI Pass](/siena-cathedral-guide) puts you on top of the abandoned façade, with the phantom nave laid out below. This is the centrepiece, and it is best late in the day when the light comes low across the unfinished arches.
+
+**5. Santa Maria della Scala.** Finish opposite the cathedral in [the hospital](/santa-maria-della-scala-siena) that stood through it all — the institution that received the sick and the orphaned of every Sienese catastrophe for a thousand years, and kept functioning as an infirmary until 1975. Its 1440s frescoes show the hospital at work a century after the plague: the institution's answer to everything this article describes.
+
+A visitor with the €13–15 OPA SI Pass and the €15 Museo Civico + Torre combination has every paid stop on this walk covered; [our cathedral](/siena-cathedral-guide) and [Torre](/torre-del-mangia-guide) guides carry the current prices and rules.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **16 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
+
+**Verified:** the plague's arrival in Siena in **May 1348**; Agnolo di Tura's identity as a Sienese chronicler, shoemaker and tax collector, the deaths of his wife Nicoluccia and his five children, and the passages quoted, including the burial of his children by his own hands and the dogs dragging bodies from shallow graves, from published translations of his chronicle; his chronicle's own casualty claims (80,000 in city and suburbs, fewer than 10,000 of more than 30,000 men remaining), presented here explicitly as the chronicle's numbers rather than statistics, against the modern historical range of **a third to a half of the population dead**; the **23 August 1339** decision to build the Duomo Nuovo with the existing cathedral as its transept, the December 1339 appointment of **Lando di Pietro** and his death in August 1340, the succession of **Giovanni d'Agostino** and his death in 1348, probably of plague; the failed restart attempts of the early 1350s and the **1357 demolition order against the structurally unsound parts**, issued under the Twelve; the fall of the **Governo dei Nove in 1355** during the passage of Charles IV of Luxembourg, through a rising of the excluded nobility and populace, and the rule of the **Dodici to 1369**; the Torre del Mangia's construction from 1338 to 1348 and the Campo paving of 1327–1349, both as carried in our own verified guides; the Cappella di Piazza's origin as a plague vow of 1348, built from 1352, as verified for our Campo guide; the **January 1554 – April 1555 siege**, the battle of **Marciano (August 1554)**, the **February 1555 expulsion of thousands of civilians**, the surrender by starvation, the Republic-in-exile at **Montalcino until 1559**, and Siena's passage to Medici Tuscany; and the attribution of Lorenzetti's *Allegory* to 1338–1339.
+
+**Stated as interpretation rather than fact:** that the Duomo Nuovo was intended to be the largest church in Christendom, which is its builders' ambition as tradition records it rather than a measured comparison; that Ambrogio Lorenzetti died in the 1348 plague, which is the general scholarly belief rather than a documented death; and the closing argument that the 1348 interruption plus the post-1555 stagnation are why the medieval fabric survived — a widely held historical judgement we find persuasive, not a checkable single fact.
+
+**Not established:** Siena's precise pre-plague population, on which scholarship genuinely varies and which this article therefore never states.
+
+We have no commercial relationship with any museum, pass or site named. No booking made from this page pays us anything.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Tourism flattens catastrophe into charm. "Perfectly preserved medieval city" is a phrase that hides its own explanation — nobody preserves a city on purpose for six hundred years; they simply fail to replace it, and the failing has causes.
+
+Siena's causes have names and dates: a spring month in 1348, a shoemaker with a shovel, a sculptor who died with a cathedral half-built, an emperor's visit that ended a government, and a fifteen-month siege that ended everything else. Walk the five stops with that in mind and the prettiness sharpens into something better than pretty.
+
+And when you are on the Facciatone at the end of the afternoon, look down once more at the square that was meant to be a nave. Every city plans a future bigger than the one it gets. Siena is the only place you can stand on the exact line where the plans stopped — and then turn around, and see how much of what was already built is still, seven centuries later, magnificently in use.`,
+      },
+    ],
+    [
+      { q: 'Why does Siena look so medieval?', a: 'Because its growth was interrupted, not because it was curated. The plague of 1348 killed between a third and a half of the population of one of Europe’s richest cities mid-building-programme, and the 1554–55 siege that ended its independence left it a subordinate town in Medici Tuscany with no wealth to rebuild. The medieval fabric survived because nothing ever replaced it.' },
+      { q: 'What happened in Siena in 1348?', a: 'The plague arrived in May 1348 and, by modern estimates, killed a third to a half of the city’s people within months. The chronicler Agnolo di Tura, who buried his own five children, recorded mass graves and social collapse. The Duomo Nuovo building site stopped when its architect died, and within seven years the Governo dei Nove — the regime of Siena’s golden half-century — had fallen.' },
+      { q: 'Why is Siena’s cathedral unfinished?', a: 'In 1339 Siena began doubling its cathedral, with the existing Duomo as a mere transept of a vastly larger church. Work drove forward until 1348, when the plague killed the architect Giovanni d’Agostino and much of the workforce, and the economic collapse that followed defeated every restart. In 1357 the structurally unsound parts were deliberately demolished; the Facciatone and the nave’s aisle walls still stand.' },
+      { q: 'What is the Facciatone in Siena?', a: 'The completed front wall of the abandoned Duomo Nuovo — the cathedral Siena began in 1339 and lost to the plague. A panorama walk along its top is included in the OPA SI Pass, and from it you look down on the piazza that was meant to be the church’s nave. It is the most legible piece of 1348 standing anywhere in Europe.' },
+      { q: 'Who was Agnolo di Tura?', a: 'A Sienese shoemaker and tax collector whose chronicle of 1300–1351 contains the most famous eyewitness account of the Black Death in Italy. His wife and five children died in 1348; his line "I buried my five children with my own hands" is quoted in nearly every history of the plague. His casualty figures are a grieving contemporary’s, not statistics — modern historians put Siena’s losses at a third to a half of its people.' },
+      { q: 'When did the Republic of Siena fall?', a: 'In April 1555, after a fifteen-month Medici-Imperial siege that ended in starvation — the city had expelled thousands of civilians it could not feed that February. A Republic-in-exile held out in Montalcino until 1559, when the peace settlement delivered Siena permanently to Cosimo de’ Medici’s Tuscany.' },
+      { q: 'Where can you see traces of the 1348 plague in Siena today?', a: 'Five stops within ten minutes’ walk: the Campo’s nine segments, completed 1349; the Torre del Mangia, finished in 1348, and the Cappella di Piazza, vowed in the same year by the plague’s survivors; Lorenzetti’s Good and Bad Government frescoes, the fallen regime’s self-portrait; the Facciatone and the abandoned nave’s walls at the cathedral; and Santa Maria della Scala, the hospital that stood through all of it.' },
+    ],
+    '2026-09-04',
+    {
+      seoTitle: 'Siena in 1348: Why the City Still Looks Medieval',
+      primaryKeyword: 'siena black death 1348',
+      secondaryKeywords: [
+        'why does siena look medieval',
+        'siena unfinished cathedral duomo nuovo',
+        'agnolo di tura chronicle',
+        'facciatone siena history',
+        'fall of the republic of siena',
+        'siena history for visitors',
+      ],
+      imageAlt: 'The façade of Siena Cathedral, beside which the walls of the abandoned Duomo Nuovo still stand',
+      canonicalPath: '/blog/siena-1348-the-year-the-city-stopped',
+      tags: ['siena history', 'black death', 'duomo nuovo', 'medieval italy', 'things to do'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
