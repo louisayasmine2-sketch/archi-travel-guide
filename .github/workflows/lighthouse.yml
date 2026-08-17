@@ -113,12 +113,12 @@ jobs:
             echo "_Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}_"
           } > issue-body.md
 
-          number=$(gh issue list --state open --search "\"$ISSUE_TITLE\" in:title" \
+          number=$(gh issue list -R "$GITHUB_REPOSITORY" --state open --search "\"$ISSUE_TITLE\" in:title" \
             --json number --jq '.[0].number // empty')
           if [ -n "$number" ]; then
-            gh issue comment "$number" --body-file issue-body.md
+            gh issue comment "$number" -R "$GITHUB_REPOSITORY" --body-file issue-body.md
           else
-            gh issue create --title "$ISSUE_TITLE" --body-file issue-body.md
+            gh issue create -R "$GITHUB_REPOSITORY" --title "$ISSUE_TITLE" --body-file issue-body.md
           fi
 
       - name: Close the tracking issue after a clean run
@@ -127,9 +127,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          number=$(gh issue list --state open --search "\"$ISSUE_TITLE\" in:title" \
+          number=$(gh issue list -R "$GITHUB_REPOSITORY" --state open --search "\"$ISSUE_TITLE\" in:title" \
             --json number --jq '.[0].number // empty')
           if [ -n "$number" ]; then
-            gh issue close "$number" \
+            gh issue close "$number" -R "$GITHUB_REPOSITORY" \
               --comment "Clean run on $(date -u +%Y-%m-%d) — every audited page is at or above its floors. Closing."
           fi
