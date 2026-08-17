@@ -1027,7 +1027,7 @@
   "store": "articles"
  },
  {
-  "publishedAt": "2026-09-04T00:00:00+07:00",
+  "publishedAt": "2026-09-05T00:00:00+07:00",
   "slug": "siena-1348-the-year-the-city-stopped",
   "title": "Siena, 1348: The Year the City Stopped",
   "category": "Things to do",
@@ -1036,6 +1036,19 @@
   "image": "/images/siena/02-siena-cathedral-facade.webp",
   "readMinutes": 14,
   "canonicalPath": "/blog/siena-1348-the-year-the-city-stopped",
+  "updated": "2026-09-05",
+  "store": "articles"
+ },
+ {
+  "publishedAt": "2026-09-04T00:00:00+07:00",
+  "slug": "battle-of-montaperti-1260-siena",
+  "title": "Montaperti, 1260: The Battle That Made Siena the City of the Virgin",
+  "category": "Day trips",
+  "region": "Siena",
+  "excerpt": "On 4 September 1260 Siena destroyed a Florentine army twice its size. The battle explains the Palio, the rivalry, and a pyramid you can walk to today.",
+  "image": "/images/siena-cathedral-interior.webp",
+  "readMinutes": 12,
+  "canonicalPath": "/blog/battle-of-montaperti-1260-siena",
   "updated": "2026-09-04",
   "store": "articles"
  },

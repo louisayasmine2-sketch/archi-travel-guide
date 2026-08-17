@@ -133,7 +133,8 @@ Dua baris pertama sudah live saat batch ini dibuat (12–13 Agu); sisanya menyus
 | /blog/uffizi-tickets-sold-out-what-to-do | 2026-09-01 |  |  |  |  |  |
 | /blog/leroica-gaiole-in-chianti-2026 | 2026-09-02 |  |  |  |  |  |
 | /blog/accademia-tickets-sold-out-florence | 2026-09-03 |  |  |  |  |  |
-| /blog/siena-1348-the-year-the-city-stopped | 2026-09-04 |  |  |  |  |  |
+| /blog/battle-of-montaperti-1260-siena | 2026-09-04 |  |  |  |  |  |
+| /blog/siena-1348-the-year-the-city-stopped | 2026-09-05 |  |  |  |  |  |
 
 Catatan batch 3:
 - Halaman live yang berubah signifikan dan layak re-request saat deploy: homepage
