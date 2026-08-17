@@ -587,16 +587,15 @@ function homeHeroHeadLinks(route) {
 }
 
 function injectHead(html, route) {
-  // The template carries a brand fallback <title> and meta description for the
-  // raw SPA shell. Browsers and crawlers take the FIRST title in the document,
-  // so leaving them in place made every pre-rendered page surface the generic
-  // brand title instead of its own — the injected data-rh pair below must be
-  // the only one in the emitted file. (This also kept the deploy smoke check
-  // red on every page-specific title since 9 August.)
+  // The template ships a fallback brand <title> and <meta name="description">
+  // for the raw SPA shell. In these per-route files they came FIRST in the
+  // head, and everything that reads raw HTML — crawlers, the deploy smoke
+  // check — takes the first occurrence, so every page presented the generic
+  // brand title instead of its own. Remove the fallbacks here; the per-route
+  // tags injected below are the only ones a static file should carry.
   html = html
-    .replace(/[ \t]*<title(?![^>]*\bdata-rh\b)[^>]*>[\s\S]*?<\/title>\s*/i, '')
-    .replace(/[ \t]*<meta(?![^>]*\bdata-rh\b)[^>]*\bname=["']description["'][^>]*>\s*/i, '');
-
+    .replace(/<title(?![^>]*data-rh)[^>]*>[\s\S]*?<\/title>\s*/i, '')
+    .replace(/<meta name="description"(?![^>]*data-rh)[^>]*>\s*/i, '');
   const fullTitle = route.exactTitle || route.title.includes(SITE_NAME) ? route.title : `${route.title} · ${SITE_NAME}`;
   const url = `${SITE_URL}${withTrailingSlash(route.canonicalPath)}`;
   const isArticle = routeIsArticle(route);

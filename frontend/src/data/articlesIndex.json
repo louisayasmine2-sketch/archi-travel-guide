@@ -249,7 +249,7 @@
  {
   "publishedAt": "2026-08-03T12:00:00+07:00",
   "slug": "siena-travel-cost-2026",
-  "title": "Siena Day Trip or Overnight: What It Actually Costs, and What Changes",
+  "title": "What a Day in Siena Costs, and What a Night Adds",
   "category": "Budget",
   "region": "Siena",
   "excerpt": "A night in Siena adds tourist tax and a room, but saves €10 a day on parking and unlocks tickets day-trippers often can't get. The real trade-offs, costed.",
@@ -288,13 +288,13 @@
  {
   "publishedAt": "2026-07-03T00:00:00+07:00",
   "slug": "siena-weather-and-what-to-pack",
-  "title": "Siena Weather by Season: What to Pack and Why",
+  "title": "Siena Weather: Why 320 Metres Changes What You Pack",
   "category": "Packing",
   "region": "Siena",
-  "excerpt": "A practical season guide for Siena weather in 2026 planning windows, with clear packing logic for each season.",
+  "excerpt": "Siena sits 320m up on a ridge, so it is cooler than Florence in summer and colder in winter. The year in real numbers, and what that means for your bag.",
   "image": "/images/siena/08-siena-cityscape.webp",
-  "readMinutes": 4,
-  "canonicalPath": null,
+  "readMinutes": 9,
+  "canonicalPath": "/blog/siena-weather-and-what-to-pack",
   "updated": "2026-07-03",
   "store": "articles"
  },
@@ -332,7 +332,7 @@
   "region": "Italy",
   "excerpt": "What Florence costs in 2026, from hostel beds to a stack of museum tickets — including the admissions that rose this year.",
   "image": "/images/italy/florence-budget-travel-street-food.webp",
-  "readMinutes": 4,
+  "readMinutes": 6,
   "canonicalPath": null,
   "updated": "2026-07-04",
   "store": "articles"
@@ -754,6 +754,19 @@
   "store": "articles"
  },
  {
+  "publishedAt": "2026-08-17T00:00:00+07:00",
+  "slug": "quantum-of-solace-siena-filming-locations",
+  "title": "Quantum of Solace in Siena: The Filming Locations, Scene by Scene",
+  "category": "Things to do",
+  "region": "Siena",
+  "excerpt": "Where Quantum of Solace was really filmed in Siena: the real 2007 Palio footage, the rooftop chase, what was a studio set and a 90-minute route.",
+  "image": "/images/siena/05-piazza-del-campo-panorama.webp",
+  "readMinutes": 11,
+  "canonicalPath": "/blog/quantum-of-solace-siena-filming-locations",
+  "updated": "2026-08-17",
+  "store": "articles"
+ },
+ {
   "publishedAt": "2026-08-14T00:00:00+07:00",
   "slug": "rome-to-siena-train-bus-2026",
   "title": "Rome to Siena: Train, Bus & the Route That’s Actually Fastest (2026)",
@@ -1027,6 +1040,71 @@
   "store": "articles"
  },
  {
+  "publishedAt": "2026-09-05T00:00:00+07:00",
+  "slug": "siena-1348-the-year-the-city-stopped",
+  "title": "Siena, 1348: The Year the City Stopped",
+  "category": "Things to do",
+  "region": "Siena",
+  "excerpt": "Siena looks medieval because in 1348 it stopped mid-sentence. The plague, the abandoned cathedral and the fallen government — and where to see each today.",
+  "image": "/images/siena/02-siena-cathedral-facade.webp",
+  "readMinutes": 14,
+  "canonicalPath": "/blog/siena-1348-the-year-the-city-stopped",
+  "updated": "2026-09-05",
+  "store": "articles"
+ },
+ {
+  "publishedAt": "2026-09-04T00:00:00+07:00",
+  "slug": "battle-of-montaperti-1260-siena",
+  "title": "Montaperti, 1260: The Battle That Made Siena the City of the Virgin",
+  "category": "Day trips",
+  "region": "Siena",
+  "excerpt": "On 4 September 1260 Siena destroyed a Florentine army twice its size. The battle explains the Palio, the rivalry, and a pyramid you can walk to today.",
+  "image": "/images/siena-cathedral-interior.webp",
+  "readMinutes": 12,
+  "canonicalPath": "/blog/battle-of-montaperti-1260-siena",
+  "updated": "2026-09-04",
+  "store": "articles"
+ },
+ {
+  "publishedAt": "2026-09-06T00:00:00+07:00",
+  "slug": "saint-catherine-of-siena-places",
+  "title": "Catherine of Siena: The Dyer’s Daughter Who Moved the Papacy",
+  "category": "Things to do",
+  "region": "Siena",
+  "excerpt": "A dyer’s daughter from Siena talked the papacy into leaving Avignon. Her house, her church and her head are all still here — and all free to visit.",
+  "image": "/images/siena/06-siena-contrada-street.webp",
+  "readMinutes": 10,
+  "canonicalPath": "/blog/saint-catherine-of-siena-places",
+  "updated": "2026-09-06",
+  "store": "articles"
+ },
+ {
+  "publishedAt": "2026-09-07T00:00:00+07:00",
+  "slug": "monte-dei-paschi-oldest-bank-siena",
+  "title": "The Oldest Bank in the World Is a Sienese Charity That Refused to Die",
+  "category": "Things to do",
+  "region": "Siena",
+  "excerpt": "Siena invented big banking, lost it in Europe’s first crash, then founded a 1472 charity that became the world’s oldest bank. It is still on its square.",
+  "image": "/images/siena/08-siena-cityscape.webp",
+  "readMinutes": 10,
+  "canonicalPath": "/blog/monte-dei-paschi-oldest-bank-siena",
+  "updated": "2026-09-07",
+  "store": "articles"
+ },
+ {
+  "publishedAt": "2026-09-08T00:00:00+07:00",
+  "slug": "sienese-school-painting-where-to-see",
+  "title": "Sienese Painting: Why It Looks Like That, and Where to See It",
+  "category": "Things to do",
+  "region": "Siena",
+  "excerpt": "Florence invented depth; Siena kept heaven. What the gold-ground Sienese school was, why it ended in 1348, and the three-museum route that shows it best.",
+  "image": "/images/siena/03-piccolomini-library.webp",
+  "readMinutes": 10,
+  "canonicalPath": "/blog/sienese-school-painting-where-to-see",
+  "updated": "2026-09-08",
+  "store": "articles"
+ },
+ {
   "publishedAt": "2026-07-12T10:30:00+07:00",
   "slug": "piazza-del-campo-guide",
   "title": "Piazza del Campo: What to Look For, and the Rules That Changed",
@@ -1047,7 +1125,7 @@
   "region": "Siena, Tuscany",
   "excerpt": "Siena Cathedral stopped being one ticket in March 2026. There are now three routes at three prices, all of them keyed to whether the marble floor is uncovered — and a free winter window that almost no guide mentions. This guide sets out what each route contains, what it costs in both states of the floor, and which one is worth your money.",
   "image": "/images/siena/siena-cathedral-guide-hero.webp",
-  "readMinutes": 14,
+  "readMinutes": 15,
   "canonicalPath": "/siena-cathedral-guide",
   "updated": "2026-08-16",
   "store": "cluster"
@@ -1081,14 +1159,14 @@
  {
   "publishedAt": "2026-07-12T11:30:00+07:00",
   "slug": "where-to-eat-in-siena",
-  "title": "Where to Eat in Siena: Best Areas, Local Dishes and Practical Tips",
+  "title": "Where to Eat in Siena: The Map, Not the List",
   "category": "Siena Travel Guide",
   "region": "Siena, Tuscany",
-  "excerpt": "For convenience, eat near Via di Città or Via Banchi di Sopra. For a quieter atmosphere, explore streets toward Piazza del Mercato. Choose a terrace on Piazza del Campo mainly for the view. Look for pici, pecorino, Cinta Senese products, ribollita, ricciarelli and panforte.",
+  "excerpt": "Individual restaurants change hands, chef and quality faster than any guide can track. The geography does not. This page maps Siena's eating by street — the three arms running off the Croce del Travaglio, what the Campo terraces actually buy you, and how far you have to walk before prices and crowds break.",
   "image": "/images/siena/where-to-eat-in-siena-hero.webp",
-  "readMinutes": 5,
+  "readMinutes": 14,
   "canonicalPath": "/where-to-eat-in-siena",
-  "updated": "2026-07-11",
+  "updated": "2026-08-16",
   "store": "cluster"
  },
  {

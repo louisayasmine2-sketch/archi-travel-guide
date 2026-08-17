@@ -20,7 +20,9 @@
 /go/trainline                                             https://www.thetrainline.com/ 302
 /go/omio                                                  https://www.omio.com/ 302
 /go/booking                                               https://www.booking.com/ 302
-/go/booking-search                                        https://www.booking.com/searchresults.html 302
+# searchresults.html 404s without a query; the default ss keeps the bare
+# destination loadable while the widget's own ?ss=city still reaches it.
+/go/booking-search                                        https://www.booking.com/searchresults.html?ss=Siena 302
 /go/getyourguide                                          https://www.getyourguide.com/ 302
 # Viator: live affiliate tracking (pid supplied by the site owner, Aug 2026)
 /go/viator                                                https://www.viator.com/?pid=P00313936&mcid=42383&medium=link&medium_version=selector 302

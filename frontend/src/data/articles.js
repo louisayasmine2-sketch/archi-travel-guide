@@ -194,7 +194,7 @@ const allArticles = [
       { id: "family-budget-in-siena", heading: "Family budget in Siena", body: "Children receive free or reduced admission at several official attractions, but families often spend more on accommodation, snacks, flexible transport, and comfort.\n\n### Published family savings checked in July 2026\n\n- OPA SI Pass and Gate of Heaven: child rates were restructured with the rest of the complex in March 2026 and we could not confirm the current figures on our 16 August 2026 re-check — ask at the ticket office rather than budgeting from an older number.\n- Museo Civico: children under 11 listed free; family ticket available for defined older-minor conditions.\n- Santa Maria della Scala: children under 11 listed free; family ticket €20 or €18 with reservation under the published definition.\n\nAlways check the exact age proof and family-ticket composition.\n\nA family room can cost more than a double, and two rooms may be required for older children. Search by the actual number and ages of guests so booking platforms return valid occupancy.\n\nRead [Siena with kids](/blog/siena-with-kids/) before deciding where convenience is worth paying for." },
       { id: "free-things-to-do-in-siena", heading: "Free things to do in Siena", body: "A low-budget Siena day can still be memorable.\n\nFree options include:\n\n- walking through Piazza del Campo;\n- exploring contrada streets and looking for emblems;\n- viewing the Duomo exterior;\n- walking around the Fortezza Medicea;\n- visiting outdoor viewpoints;\n- following parts of the Via Francigena route through the city;\n- browsing local food shops and bakeries;\n- enjoying Siena’s evening atmosphere;\n- entering churches when free public access is allowed outside services.\n\nDo not enter a church only to avoid paying elsewhere. Respect worship, dress rules, photography restrictions, and temporary closures." },
       { id: "hidden-costs-travelers-forget", heading: "Hidden costs travellers forget", body: "### City or tourist taxes\n\nAccommodation may collect a local tax separately from the displayed room price. The amount and exemptions can change. Check the final booking breakdown and ask the property.\n\n### Luggage storage\n\nA day visitor between check-out and departure may pay for hotel or station-area storage.\n\n### Parking and restricted-zone mistakes\n\nDrivers need legal parking outside the historic centre. A wrong turn past a ZTL camera is a cost in its own right: the fine arrives months later with an administrative fee from the rental company on top, as set out in [how to avoid a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/). An accommodation listing that says “parking nearby” may refer to paid public parking rather than an included private space.\n\n### Reservation fees\n\nSome official attractions charge a small advance-booking fee. Compare the total, not only the base admission.\n\n### Taxis\n\nA taxi can be a good-value solution for luggage, limited mobility, or a late arrival. It becomes a budget problem only when used repeatedly because accommodation or transport was chosen without considering elevation.\n\n### Mobile data and transaction fees\n\nInternational card fees, dynamic currency conversion, roaming, and ATM charges can quietly increase the trip total. Pay in euros when your card offers a fair exchange rate and avoid accepting unfavorable conversion without reviewing it." },
-      { id: "how-to-save-money-without-damaging-the-trip", heading: "How to save money without damaging the trip", body: "1. Stay two streets away from the most famous view.\n2. Compare the bus’s central arrival with the train’s last-mile cost.\n3. Use one suitable pass rather than buying every attraction separately.\n4. Spend on the experience you care about and use free walking for the rest.\n5. Book accommodation with a flexible policy before high-demand inventory disappears.\n6. Eat one memorable sit-down meal and keep another meal simple.\n7. Carry water and a small snack.\n8. Avoid multi-stop tours that charge for transport while giving little time at each place.\n9. Stay overnight when the cost creates a genuinely better experience, not simply because the itinerary says so.\n10. Recheck official prices close to travel instead of budgeting from an old article." },
+      { id: "how-to-save-money-without-damaging-the-trip", heading: "How to save money without damaging the trip", body: "1. Stay two streets away from the most famous view.\n2. Compare the bus’s central arrival with the train’s last-mile cost.\n3. Use one suitable pass rather than buying every attraction separately.\n4. Spend on the experience you care about and use free walking for the rest.\n5. Book accommodation with a flexible policy before high-demand inventory disappears.\n6. Eat one memorable sit-down meal and keep another meal simple.\n7. Carry water and a small snack.\n8. Avoid multi-stop tours that charge for transport while giving little time at each place.\n9. Stay overnight when the cost creates a genuinely better experience, not simply because the itinerary says so.\n10. Recheck official prices close to travel instead of budgeting from an old article.\n\nTwo companion pages if your question is narrower than a whole budget: [what a day in Siena costs and what a night adds](/blog/siena-travel-cost-2026/) prices the day-trip-versus-overnight choice on its own, and [is Siena worth staying overnight](/blog/siena-day-trip-or-overnight-2026/) argues the same choice on experience rather than euros." },
       { id: "final-thoughts", heading: "Final thoughts", body: "The most useful Siena budget is not the smallest number—it is the amount that protects the parts of the trip you came for. Save on a room view when you will spend all day outside, but pay for central access when steep transfers would drain the family. Skip a generic tour, but invest in a wine day when that is the reason you are in Tuscany.\n\nSiena can be experienced through free streets and one bowl of pici, or through a historic room and a private countryside journey. Both can feel special. Build the budget around time, energy, and the memories you want to take home; then leave enough flexibility for the moment the Tuscan light, a bakery window, or one more evening in the Campo changes your plan." }
     ],
     [
@@ -732,7 +732,7 @@ const allArticles = [
       {
         "id": "what-to-order-in-siena",
         "heading": "What to order in Siena",
-        "body": "A focused Siena meal might include crostini neri, pici all’aglione or pici with breadcrumbs, a local meat dish or pecorino, and ricciarelli or panforte.\n\nDo not force every speciality into one sitting. A better strategy is one substantial lunch, one lighter aperitivo, and several bakery stops across the stay.\n\nUse [our Siena 2-day itinerary](/blog/siena-2-day-itinerary/) to place meals without sacrificing the city’s major sights."
+        "body": "A focused Siena meal might include crostini neri, pici all’aglione or pici with breadcrumbs, a local meat dish or pecorino, and ricciarelli or panforte.\n\nWhat is worth ordering also shifts across the year — our [Tuscan food calendar](/blog/tuscan-food-calendar-seasonal-dishes/) maps the dishes to the months, and [where to eat in Siena](/where-to-eat-in-siena) maps them to the streets.\n\nDo not force every speciality into one sitting. A better strategy is one substantial lunch, one lighter aperitivo, and several bakery stops across the stay.\n\nUse [our Siena 2-day itinerary](/blog/siena-2-day-itinerary/) to place meals without sacrificing the city’s major sights."
       },
       {
         "id": "how-to-read-an-italian-menu",
@@ -1695,7 +1695,7 @@ Parking in Siena is straightforward once you accept the basic rule: the car stay
   ),
   A(
     "siena-travel-cost-2026",
-    "Siena Day Trip or Overnight: What It Actually Costs, and What Changes",
+    "What a Day in Siena Costs, and What a Night Adds",
     "Budget", "Siena",
     "A night in Siena adds tourist tax and a room, but saves €10 a day on parking and unlocks tickets day-trippers often can't get. The real trade-offs, costed.",
     "/images/siena/05-piazza-del-campo-panorama.webp",
@@ -1838,7 +1838,9 @@ The difference between them is the room, plus €4, minus €10 of parking. Whet
 - **Never drive into the historic centre.** The ZTL runs 24 hours a day.
 
 Siena works as a day trip and rewards an overnight. What it does not reward is arriving without knowing which you have chosen — because the bus deadline, the parking rate and the tower tickets all quietly depend on that decision.` },
-      { id: 'next-steps', heading: 'Next steps', body: `If you are driving, read our guide to [avoiding a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/) before you go anywhere near the walls, then our [Siena parking guide](/blog/siena-parking-and-transfer-guide/) for the car parks and rates. Arriving by air? Our guide to [reaching Siena from Florence Airport](/blog/siena-from-florence-airport-transfer/) covers the two-stage bus route and the real fares.` }
+      { id: 'next-steps', heading: 'Next steps', body: `**Two companion pages, so you land on the right one.** This page answers the money question for one specific choice: day trip or overnight. For the full cost of a Siena trip of any length — beds, meals, passes, buses, family budgets — see [how much a trip to Siena costs](/blog/how-much-siena-trip-costs/). For the same day-or-night choice argued on experience rather than euros, see [is Siena worth staying overnight](/blog/siena-day-trip-or-overnight-2026/).
+
+If you are driving, read our guide to [avoiding a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/) before you go anywhere near the walls, then our [Siena parking guide](/blog/siena-parking-and-transfer-guide/) for the car parks and rates. Arriving by air? Our guide to [reaching Siena from Florence Airport](/blog/siena-from-florence-airport-transfer/) covers the two-stage bus route and the real fares.` }
     ],
     [
       { q: "How much is the tourist tax in Siena?", a: "€2.00 per person per night for B&Bs, apartments and short lets, fixed all year, and €1.00 for hostels and campsites. Hotels pay by star category — check the current rates on the Comune di Siena's page, since the figures we could find for hotels sit on a page the city marks as superseded. The tax is capped at six nights per calendar month in the same property." },
@@ -2153,25 +2155,154 @@ None of this is designed to catch tourists out. It is simply how Italians eat, p
             "changes": "Cropped to 16:9, resized, and converted to WebP."
           }
         }
-  ),
-  A(
+  ),  A(
     'siena-weather-and-what-to-pack',
-    'Siena Weather by Season: What to Pack and Why',
+    'Siena Weather: Why 320 Metres Changes What You Pack',
     'Packing', 'Siena',
-    'A practical season guide for Siena weather in 2026 planning windows, with clear packing logic for each season.',
+    'Siena sits 320m up on a ridge, so it is cooler than Florence in summer and colder in winter. The year in real numbers, and what that means for your bag.',
     '/images/siena/08-siena-cityscape.webp',
     [
-      { id: 'spring', heading: 'Spring (March–May)', body: 'Mild days, occasional rain, and uneven walk surfaces. Bring layered layers, a rain shell, and fast-dry shoes.' },
-      { id: 'summer', heading: 'Summer (June–August)', body: 'Heat can be high midday. Prioritise hydration, shade windows, and a light cap strategy for museum exits.' },
-      { id: 'autumn', heading: 'Autumn (September–November)', body: 'Balanced weather, often best value, still walkable. Add a warmer shell for evening streets and churches.' },
-      { id: 'winter', heading: 'Winter (November–February)', body: 'Shorter daylight, colder mornings, and occasional rain/sleet. Keep electronics dry and carry indoor backup plans.' },
-      { id: 'siena-checklist', heading: 'Quick Siena packing checklist', body: 'Walking shoes, compact umbrella, reusable bottle, power bank, printed itinerary, and local transport fallback card.' },
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `**Siena is not Florence, and the difference is 320 metres.** The city sits on a ridge at that altitude, well inland, which makes its summers a few degrees cooler than Florence's and its winters a little colder than the Tuscan coast's. Packing for "Tuscany" and arriving in Siena is how people end up cold at dinner in June.
+
+The year in one line: **January averages 6.4°C and August averages 24.4°C**, with daytime maxima running from about **10°C in January to 31°C in August**. Rain totals about **903 mm a year** — dry in July, wettest in November.
+
+**The three things that actually matter here**, ahead of any seasonal list:
+
+- **Shoes.** Siena is cobbled, steep and unforgiving. This is not a city for new sandals.
+- **A layer for the evening, in every season including August.** The hilltop position that keeps the afternoon bearable also drops the temperature after sunset.
+- **Covered shoulders and knees** if the cathedral is on your list. It is enforced at the door.`,
+      },
+      {
+        id: 'why-siena-differs',
+        heading: 'Why Siena reads differently from the rest of Tuscany',
+        body: `Most packing advice for this region is written for Florence, which sits in a river basin at about fifty metres and behaves like a heat trap in summer. Siena is a different proposition.
+
+**The altitude.** The city stands at **320 metres (roughly 1,050 feet)**, on a ridge in open hill country — the Montagnola Senese to the west, the Crete Senesi to the south-east, Chianti to the north. It has no river valley to hold heat and no sea to moderate the cold.
+
+**What that does in summer.** Siena's climate is described as transitional Mediterranean: hot, sunny summers, but with **summer temperatures generally a few degrees lower than Florence's**, air that is not overly humid, and **noticeably cooler evenings**. Visitors who have suffered a Florentine August often find Siena the relief — but the same exposure means **short late-afternoon thunderstorms** can build over the hills with little warning.
+
+**What it does in winter.** The altitude and the distance from the coast make winter **colder than on the Tuscan seaboard**. Add the fact that the city's streets run along exposed ridgelines, funnelling wind down into the Campo, and a January afternoon in Siena is a colder experience than the numbers alone suggest.
+
+**The practical translation:** in summer, pack slightly warmer than you would for Florence. In winter, pack noticeably warmer than you would for the coast. In both cases, the mistake is treating "Tuscany" as one climate.`,
+      },
+      {
+        id: 'the-year-in-numbers',
+        heading: 'The year in numbers',
+        body: `These are the anchor points we could verify rather than a full twelve-row table, because we would rather give you five figures we checked than twelve we did not.
+
+| Anchor | Figure |
+|---|---|
+| Coldest month average (January) | **6.4°C** |
+| Warmest month average (August) | **24.4°C** |
+| Daytime maximum range | **10°C (Jan) to 31°C (Aug)** |
+| Annual rainfall | **about 903 mm** |
+| Driest month (July) | **about 33 mm across ~6 rainy days** |
+| August rainfall | **about 41 mm across ~8 rainy days** |
+| October rainfall | **about 110 mm** |
+| Wettest month (November) | **about 121 mm across ~14 rainy days** |
+
+**The shape those numbers describe:** a dry, hot, high-summer peak in July and August; a long, comfortable shoulder either side; and a genuinely wet late autumn. **April, May, June, September and October** sit in the pleasant band, with averages running roughly **18°C to 27°C**.
+
+Note the November figure in particular. It is not a slightly damper October — it is nearly four times July's rainfall across more than twice the rainy days, and it is the month most likely to change what your trip can do.`,
+      },
+      {
+        id: 'season-by-season',
+        heading: 'Season by season, with the packing logic',
+        body: `**Spring, March to May.** The band opens. Days become reliably pleasant from April, but March can still be raw and the evenings stay cold well into May. **Pack:** layers you can shed by noon and want back at seven, a compact rain shell, and closed shoes — spring rain plus worn cobbles is the most slippery combination Siena offers.
+
+**Summer, June to August.** Hot and dry, and better here than in the valley cities, but the Campo is a brick bowl with almost no shade and the gradients do not care that it is 31°C. **Pack:** genuinely breathable fabrics rather than technical synthetics that hold smell, a refillable bottle, sun protection including a hat, and — the one people leave out — **a light layer for the evening**. Our [summer packing list for Tuscany](/blog/summer-packing-list-for-tuscany-and-florence-2026/) covers the wider region; the Siena-specific addition is that jumper.
+
+**Autumn, September to November.** The best walking weather of the year in September and October, and then a sharp turn. Early autumn is warm days and cool nights; by November you are into the wettest month of the year with shortening light. **Pack:** the full layered kit, waterproof footwear from late October, and an umbrella that survives wind. Our guide to [what to wear in Tuscany in September](/blog/what-to-wear-in-tuscany-in-september/) goes deeper on the transitional month.
+
+**Winter, December to February.** Cold mornings, short days, and wind along the ridges. It is also the cheapest, emptiest and — for some people — the best version of the city, with the cathedral free of its summer queues. **Pack:** a proper coat rather than a jacket, gloves, and something for wind rather than just for cold. Interiors are the plan: the museums, the cathedral complex and Santa Maria della Scala are all indoor days.`,
+      },
+      {
+        id: 'siena-specific',
+        heading: 'The packing problems specific to this city',
+        body: `Generic Italy lists miss these, and they are the ones that actually cost you comfort.
+
+**The gradients.** Siena is built on three ridges and almost nothing is flat. You will arrive at the cathedral warmer than you left the Campo, in any season. This is the real argument for layers — not the weather, the walking.
+
+**The cobbles.** Uneven, worn smooth in places, and steep. **Broken-in shoes with grip**, not new ones, and not smooth soles. This is the single most common comfort failure among visitors here.
+
+**The Campo has no shade.** It is a brick dish that holds heat into the evening in summer and funnels wind in winter. Whatever the season, the square is the most exposed twenty minutes of your day.
+
+**Church dress codes are enforced.** Shoulders and knees covered for everyone at the cathedral. In July that means carrying a thin scarf or a light overshirt rather than going back to change. Our [cathedral guide](/siena-cathedral-guide) covers the rest of the entry rules.
+
+**Water is free and everywhere.** Public fountains run drinkable water. A refillable bottle removes a recurring cost and a recurring errand.
+
+**What to leave at home:** an umbrella large enough to be a liability in ridge wind, heels of any kind, and a separate outfit for evenings — Siena dines well but it does not dress up much.`,
+      },
+      {
+        id: 'daylight',
+        heading: 'Daylight, and the hour that catches people out',
+        body: `Temperature decides what you wear. **Daylight decides what you can do**, and in Siena it decides it more sharply than in a flat city, because the things worth seeing at the end of the day are views.
+
+**The long evenings of May to August** are the reason those months feel generous: the Facciatone and the Torre del Mangia are still open in usable light, and the Campo's best hour comes late enough that dinner follows it rather than replacing it.
+
+**From late October the day collapses.** Clocks go back on **Sunday 25 October 2026**, and after that dusk arrives noticeably earlier — which matters because Siena's ticketed sights already close early in winter. The Museo Civico's counter shuts at **15:15** in the winter season, so a slow lunch does not cost you a queue, it costs you the museum. Our [Torre del Mangia guide](/torre-del-mangia-guide) has the full seasonal cut-offs.
+
+**The practical rule for a winter visit:** do the ticketed things in the morning and the walking in the afternoon. That is the reverse of the summer order, and getting it backwards is how a December day in Siena ends up being three hours long.`,
+      },
+      {
+        id: 'best-months',
+        heading: 'The best months, honestly',
+        body: `**For walking the city: late April to early June, and mid-September to late October.** Warm days, cool nights, low rainfall, long light, and the crowds either not yet arrived or gone.
+
+**For the cheapest good trip: November, if you accept the rain.** It is the wettest month by a distance, but it is also the emptiest, and the indoor half of Siena is substantial enough to carry a wet day. Our [November guide](/blog/tuscany-in-november-2026/) makes the case in detail, including the Duomo floor still being uncovered until the 15th.
+
+**To avoid, unless the event is the point: the two Palio weeks.** Early July and mid-August put the city at its hottest and its fullest simultaneously.
+
+**And the counterintuitive one: August is not the disaster it is in Florence.** It is hot, but a few degrees cooler than the valley, drier than you would expect at about 41 mm, and the evenings genuinely cool down. Our [August guide](/blog/tuscany-in-august-2026/) sets out what is open and what is closed.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **16 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
+
+**Verified:** Siena's altitude of 320 metres and its position in open hill country between the Montagnola Senese, the Crete Senesi and Chianti; the description of its climate as transitional Mediterranean with mild winters and hot, sunny summers; that its summer temperatures run a few degrees below Florence's and its evenings are cooler because of the hilltop position, with short late-afternoon thunderstorms possible; that its winters are colder than the Tuscan coast's owing to altitude and distance from the sea; the January average of 6.4°C and August average of 24.4°C; daytime maxima of about 10°C in January and 31°C in August; annual rainfall of about 903 mm; July as the driest month at about 33 mm over roughly 6 rainy days; August at about 41 mm over roughly 8; October at about 110 mm; and November as the wettest at about 121 mm over roughly 14 rainy days. The October figure matches the one our own October guide has carried since July 2026.
+
+**Flagged as unconfirmed:** the full month-by-month table. We have published only the anchor figures we could check, and deliberately not filled the gaps between them — a plausible-looking twelve-row climate table assembled from inference is exactly the kind of thing this site does not publish. Sources also differ slightly on the driest and wettest month totals (33 versus 30 mm, 121 versus 125 mm), which is why those figures are given as approximations. All of it is long-term climate averaging, not a forecast: check an actual forecast for your dates.
+
+We have no commercial relationship with any retailer, brand or booking platform, and no product is recommended. No booking made from this page pays us anything.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `The whole of this page reduces to one sentence: **pack for a hill town, not for Tuscany.**
+
+Three hundred and twenty metres is enough to make Siena's August bearable when Florence's is not, and enough to make its January genuinely cold when the coast is merely grey. Bring shoes that can handle a steep wet cobble, a layer you can put on at seven in the evening in any month of the year, and something that covers your shoulders if you intend to see the inside of the cathedral.
+
+Everything else is ordinary travel packing, and no list needs to tell you about it.`,
+      },
     ],
     [
-      { q: 'Do I need warm layers in summer?', a: 'For daytime maybe not, but evenings and high walls are usually cooler. A light jumper helps.' },
-      { q: 'Is rain common?', a: 'Less than in coastal Italy, but showers are common in shoulders. A compact rain layer is worth the space.' },
+      { q: 'What is the weather like in Siena?', a: 'Transitional Mediterranean: mild winters, hot sunny summers. January averages 6.4°C and August 24.4°C, with daytime maxima from about 10°C in January to 31°C in August. Annual rainfall is around 903 mm — driest in July at about 33 mm, wettest in November at about 121 mm across roughly 14 rainy days.' },
+      { q: 'Is Siena cooler than Florence?', a: 'Yes, in summer. Siena sits at 320 metres on a ridge with no river valley to trap heat, so its summer temperatures run a few degrees below Florence’s and its evenings cool down noticeably. The trade is winter: altitude and distance from the sea make Siena colder than the Tuscan coast, and the exposed ridgelines funnel wind into the Campo.' },
+      { q: 'What should you pack for Siena?', a: 'Broken-in shoes with grip above everything — the city is cobbled, steep and worn smooth in places. Then a layer for the evening in every season including August, and covered shoulders and knees if the cathedral is on your list, since the dress code is enforced at the door. A refillable bottle is worth carrying: public fountains run drinkable water.' },
+      { q: 'When is the best time to visit Siena for weather?', a: 'Late April to early June, and mid-September to late October — warm days, cool nights, low rainfall and long light. November is the cheapest good option if you accept that it is the wettest month by a distance, and Siena has enough indoors to carry a wet day.' },
+      { q: 'Is August a bad time to visit Siena?', a: 'Less bad than in Florence. It is hot, but a few degrees cooler than the valley cities, drier than most people expect at around 41 mm across roughly eight rainy days, and the hilltop position means the evenings genuinely cool. The real August problem is the 16 August Palio, which puts the city at its fullest at the same time as its hottest.' },
+      { q: 'Does it rain much in Siena?', a: 'About 903 mm a year, unevenly distributed. July is genuinely dry at roughly 33 mm over about six rainy days. November is the opposite: around 121 mm over about fourteen. A compact rain layer is worth the space from October through spring; in high summer it usually is not, though short late-afternoon thunderstorms can build over the hills.' },
+      { q: 'Do you need warm clothes in Siena in summer?', a: 'A light layer, yes — and it is the item visitors most often leave out. The same hilltop exposure that keeps Siena a few degrees below Florence in the afternoon also drops the temperature after sunset, and the Campo funnels air. A jumper you never wear costs you nothing; a cold evening in a sleeveless top costs you the evening.' },
     ],
-    '2026-07-03'
+    '2026-07-03',
+    {
+      seoTitle: 'Siena Weather: Why 320 Metres Changes What You Pack',
+      primaryKeyword: 'siena weather',
+      secondaryKeywords: [
+        'what to pack for siena',
+        'siena weather by month',
+        'is siena cooler than florence',
+        'siena rainfall november',
+        'best time to visit siena weather',
+      ],
+      imageAlt: 'The Siena skyline seen across the rooftops from a high viewpoint',
+      canonicalPath: '/blog/siena-weather-and-what-to-pack',
+      tags: ['siena weather', 'packing', 'when to visit', 'siena planning'],
+    }
   ),
     A(
     "siena-tours-and-classes-to-book-first",
@@ -2495,9 +2626,70 @@ Florence from Siena is a good day out and an easy journey. The visitors who come
       { id: 'budget', heading: 'Budget Traveller — €65 to €90 per day', body: 'A bed in a well-reviewed hostel runs €25 to €40 per night. Private rooms in basic guesthouses start around €50 to €70.\n\nFor food, eat where the students eat. The area around San Lorenzo and Sant\'Ambrogio is filled with trattorias serving three-course lunch menus for €10 to €13.\n\nFor breakfast, do what locals do: stand at a bar counter, order a cornetto and a caffè, pay €2.50, and leave. Sitting down often doubles the price.' },
       { id: 'mid-range', heading: 'Mid-Range Traveller — €130 to €180 per day', body: 'A double room in a three-star hotel in the Oltrarno district costs €90 to €140 per night.\n\nLunch at a proper trattoria costs €20 to €30 per person. Dinner at one of the city\'s beloved neighbourhood restaurants runs €30 to €45, including wine.\n\nThe mid-range traveller should budget for two or three paid museums. As of the 2026 tariffs: the Uffizi €25 same-day (€29 booked ahead — advance costs more here), the Accademia €20 plus a €4 reservation fee since 1 February 2026, and Pitti Palace with the Boboli Gardens €22 on the day or €25 in advance. Book the Uffizi and Accademia ahead for certainty rather than savings, and see what to do if [the Uffizi](/blog/uffizi-tickets-sold-out-what-to-do/) or [the Accademia](/blog/accademia-tickets-sold-out-florence/) is sold out.' },
       { id: 'luxury', heading: 'Luxury Traveller — €350 and above per day', body: 'Florence has some of the most beautiful boutique hotels in Europe. A luxury room starts around €400 per night.\n\nDining at this level is an event. The best meal you will eat might be a €60 bistecca alla fiorentina (Florentine T-bone steak) at a traditional steakhouse.\n\nFor a unique luxury experience, book a private after-hours tour of the Vasari Corridor.' },
-      { id: 'tips', heading: 'Money-Saving Tips for All Budgets', body: '• Water is free. Ask for "acqua del rubinetto" (tap water) at restaurants.\n• Aperitivo culture is your secret weapon. Many bars offer a free buffet of pasta and snacks when you order a drink between 6 and 9 p.m.\n• Avoid restaurants with photos on the menu. Photos mean tourist prices and tourist quality.' }
+      { id: 'tourist-tax', heading: 'The tourist tax nobody budgets for', body: `Florence charges an **imposta di soggiorno** on every overnight stay, collected by your accommodation and usually **not included in the price you booked**. It is the most commonly missed line in a Florence budget.
+
+The published rates, per person per night:
+
+| Accommodation | Per person, per night |
+|---|---:|
+| 1-star hotel or campsite | €3.50 |
+| 2-star hotel | €4.50 |
+| 3-star hotel | €6.00 |
+| 4-star hotel | €7.00 |
+| 5-star hotel | €8.00 |
+| Tourist rental (locazione turistica) | €5.50 |
+
+It applies for a **maximum of seven consecutive nights**. Exemptions include **children under 12**, University of Florence students, day-hospital patients and up to two companions of a hospitalised patient, on-duty police, fire and civil-protection personnel, and people with severe disabilities.
+
+**Do the arithmetic before it surprises you.** Two adults, three nights, four-star: **€42**. A family of four in an apartment for four nights, with two children over 12: **€88**. That is a restaurant meal you did not know you had bought.` },
+      { id: 'museum-stack', heading: 'The museum stack, at 2026 prices', body: `Museums are where a Florence budget actually breaks, because the headline attractions are individually priced and there are more of them than in most Italian cities. These are the 2026 tariffs after a cluster of increases:
+
+| Attraction | Price |
+|---|---:|
+| Uffizi | **€25 same-day**, €29 booked ahead |
+| Uffizi afternoon ticket (from 16:00) | **€16 same-day**, €20 ahead |
+| Accademia (David) | **€20** + €4 booking fee |
+| Bargello | **€12** |
+| Accademia + Bargello combined, 48h | **€26** + €4 |
+| Wider Bargello-group circuit, 72h | **€38** + €4 |
+| Pitti Palace + Boboli | **€22 same-day**, €25 ahead |
+| Palazzo Vecchio | **€18** (€12 reduced, 18–25) |
+| San Marco | **€11** |
+| Duomo Brunelleschi Pass | **€30** (€12 reduced) |
+| Duomo Giotto Pass | **€20** (€7 reduced) |
+| Firenze Card, 72h | **€85** |
+
+**Two things in that table save real money.** At the Uffizi, **buying on the day is cheaper than booking ahead** — the advance premium is a booking fee, not a discount, and the €16 afternoon ticket is the cheapest legitimate way in during high season. And the Bargello at €12 is the best value in the city for anyone who cares about sculpture.
+
+Both are explained properly in our guides to [the Uffizi when it is sold out](/blog/uffizi-tickets-sold-out-what-to-do/) and [the Accademia when it is sold out](/blog/accademia-tickets-sold-out-florence/) — which also cover the same-day routes that avoid paying the premium at all.
+
+**The Firenze Card only pays off** if you are doing three museum-intensive days. For two or three attractions, buy them individually.` },
+      { id: 'the-siena-alternative', heading: 'The lever nobody pulls: sleep somewhere else', body: `The single largest variable in a Florence budget is the bed, and Florence charges Florence prices for it — plus the tourist tax above.
+
+**Basing in Siena and treating Florence as a day trip inverts the arithmetic.** Accommodation costs less, the tourist tax is lower, and the 131R bus runs into central Florence in about 75 minutes for €9.90 bought ahead. You lose the Florentine evening; you gain a Tuscan one, which many travellers prefer anyway.
+
+It is not the right answer for everyone — a first visit built around the Uffizi, the Accademia and the Duomo complex wants to be in Florence. But for a trip of four nights or more, or one where the countryside matters as much as the galleries, the saving is substantial and it compounds every night.
+
+Our [Florence or Siena comparison](/blog/florence-or-siena-which-to-visit-2026/) works through the choice properly, and [what a day in Siena costs](/blog/siena-travel-cost-2026/) gives the other side's numbers.` },
+      { id: 'tips', heading: 'Money-Saving Tips for All Budgets', body: '• Water is free. Ask for "acqua del rubinetto" (tap water) at restaurants.\n• Aperitivo culture is your secret weapon. Many bars offer a free buffet of pasta and snacks when you order a drink between 6 and 9 p.m.\n• Avoid restaurants with photos on the menu. Photos mean tourist prices and tourist quality.' },
+      { id: 'how-we-checked', heading: 'How we checked these details', body: `Checked **16 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
+
+**Verified against official sources:** the Comune di Firenze's tourist-tax rates of €3.50 to €8.00 per person per night by hotel category and €5.50 for tourist rentals, the seven-consecutive-night maximum, and the exemption categories including under-12s, University of Florence students, hospital companions and on-duty emergency personnel. And the 2026 museum tariffs — the Uffizi's €25 same-day against €29 in advance and its €16/€20 afternoon ticket, the Accademia's €20 plus a €4 booking fee, the Bargello at €12 and the €26/€38 combined tickets following the March 2026 unification, Pitti with Boboli at €22/€25, Palazzo Vecchio at €18 (€12 reduced) since February 2026, San Marco at €11, the €30 and €20 Duomo passes, and the €85 Firenze Card.
+
+**Not verified, and presented as indicative bands rather than checked figures:** the accommodation, meal and daily-total ranges in the three traveller tiers. Those describe a typical spread rather than a surveyed average, and hotel rates in particular move with season and demand in a way no fixed number survives. Treat them as a planning shape and price your own dates.
+
+Florence's museum tariffs changed repeatedly across 2025 and 2026, and the tourist-tax table has been revised more than once — verify both on the official channels before relying on any figure here.
+
+We have no commercial relationship with any hotel, restaurant, museum or ticketing platform named. No booking made from this page pays us anything.` }
     ],
-    [],
+    [
+      { q: 'How much does a day in Florence cost in 2026?', a: 'Roughly €65 to €90 a day travelling on a budget, €130 to €180 mid-range, and €350 upward at the luxury end — before museums and before the tourist tax. Museums are what actually break a Florence budget: the Uffizi alone is €25 on the day, the Accademia €20 plus a €4 booking fee.' },
+      { q: 'How much is the tourist tax in Florence?', a: 'Per person per night: €3.50 in a 1-star hotel or campsite, €4.50 in a 2-star, €6.00 in a 3-star, €7.00 in a 4-star, €8.00 in a 5-star, and €5.50 in a tourist rental. It is charged for a maximum of seven consecutive nights and is usually not included in your booking price. Children under 12 are exempt, along with University of Florence students, hospital companions and on-duty emergency personnel.' },
+      { q: 'Is it cheaper to book Florence museum tickets in advance?', a: 'Not at the Uffizi, and this surprises almost everyone. The official structure prices advance purchase higher: €25 on the day against €29 booked ahead, and the afternoon ticket from 16:00 is €16 on the day against €20 in advance. Advance booking buys certainty, not savings.' },
+      { q: 'Is the Firenze Card worth it?', a: 'Only for three museum-intensive days. At €85 for 72 hours it needs several major admissions plus their booking fees to break even. For two or three attractions, buying individually is cheaper — and at the Uffizi, buying on the day is cheaper still.' },
+      { q: 'How can you cut a Florence budget without ruining the trip?', a: 'Three levers, largest first. Sleep outside Florence — basing in Siena and day-tripping in on the 131R, about 75 minutes for €9.90 booked ahead, cuts both the room rate and the tourist tax. Buy the Uffizi on the day rather than in advance, and take the €16 afternoon ticket. And eat one substantial sit-down meal a day rather than two, using bar counters and aperitivo for the rest.' },
+      { q: 'What is the biggest cost people forget in Florence?', a: 'The tourist tax, because accommodation platforms usually exclude it from the price you book and it is collected on arrival. Two adults for three nights in a four-star is €42; a family of four in an apartment for four nights, with two children over 12, is €88. After that, the museum stack — which is easy to underestimate when each attraction is priced separately.' },
+    ],
     '2026-07-04'
   ),
   A(
@@ -6951,7 +7143,7 @@ And spare a thought for the real **Volterra** — alabaster town, Etruscan museu
 
 For a visitor this is the easiest film location in Tuscany, because it is simply **Siena** — the Campo you will stand in anyway, the contrade lanes [our guides already walk](/blog/best-things-to-do-in-siena), and, if you time it for early July or mid-August, the very race the film captured, with [everything the Palio demands and delivers](/blog/palio-di-siena-guide) covered separately.
 
-The Bond layer rewards one specific habit: looking *up*. The chase lives on Siena’s rooftops and ledges, and the city’s skyline — terracotta, towers, impossible angles — reads differently once you have seen it used as a stunt course. The film compressed the geography, as films do; the city it compressed is all still there.`,
+The Bond layer rewards one specific habit: looking *up*. The chase lives on Siena’s rooftops and ledges, and the city’s skyline — terracotta, towers, impossible angles — reads differently once you have seen it used as a stunt course. The film compressed the geography, as films do; the city it compressed is all still there — and [our scene-by-scene guide to the Quantum of Solace locations](/blog/quantum-of-solace-siena-filming-locations/) walks every beat of it, including which parts were sets and the honest answer on the rooftops.`,
       },
       {
         id: 'gladiator-terrapille',
@@ -7054,7 +7246,6 @@ Drivers own this day; car-free travellers should aim the [bus-based version](/bl
         'twilight new moon montepulciano',
         'gladiator filming location tuscany',
         'english patient monastery tuscany',
-        'quantum of solace siena',
         'teatro del silenzio bocelli 2027',
         'set jetting italy',
         'monteriggioni assassins creed',
@@ -7063,6 +7254,125 @@ Drivers own this day; car-free travellers should aim the [bus-based version](/bl
       imageAlt: 'Cypress-lined road through the Val d’Orcia, the landscape used in Gladiator’s Elysian Fields',
       canonicalPath: '/blog/tuscany-on-screen-film-locations-2026',
       tags: ['tuscany film locations', 'set jetting', 'you me and tuscany', 'twilight montepulciano', 'val d’orcia'],
+    }
+  ),
+  A(
+    'quantum-of-solace-siena-filming-locations',
+    'Quantum of Solace in Siena: The Filming Locations, Scene by Scene',
+    'Things to do',
+    'Siena',
+    'Where Quantum of Solace was really filmed in Siena: the real 2007 Palio footage, the rooftop chase, what was a studio set and a 90-minute route.',
+    '/images/siena/05-piazza-del-campo-panorama.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Yes — the Palio in **Quantum of Solace** (2008) is the real race. A second unit filmed the Palio dell’Assunta on **16 August 2007** with fourteen cameras placed around Piazza del Campo, and the film cut that footage into a chase staged nine months later. The streets Bond arrives through, the Campo he crosses and the doorway he ducks into are real, walkable Siena, free at any hour. The rooftops are real too, but private — the production rigged them with two kilometres of cable slung from four cranes, which is not a facility the city offers visitors. And the two ends of the chase, the underground tunnels and the bell chamber, were sets built in the studio. This page walks the sequence beat by beat — what is on screen, where it sits on the ground, and whether you can stand in it — then answers the Palio question properly and lays out a self-guided route of about 90 minutes. The broader map of screen-Tuscany lives in [our film-locations guide](/blog/tuscany-on-screen-film-locations-2026/); this page is the Siena deep-dive it points to.`,
+      },
+      {
+        id: 'scene-by-scene',
+        heading: 'The sequence, scene by scene',
+        body: `**The arrival.** After the opening car chase, Bond swings the battered Aston Martin DBS into Siena and stops — Mr White still in the boot — in front of the little church of **San Giuseppe**, where Via di Fontanella, Via Giovanni Duprè and Via Sant’Agata meet in the lanes below the southern rim of the Campo. He walks up the slope of Via di Fontanella and under the arch on Via Giovanni Duprè, heading for the square. *Visitable: completely.* These are open public streets a few minutes’ climb below the Campo, at their emptiest early in the morning. Whose territory you are walking through is a question with a real answer in Siena — [the contrade guide](/siena-contrade-guide) maps it.
+
+**The safe house and the tunnels.** The interrogation of Mr White happens in an MI6 safe house reached through an underground passage; the passage entrance was filmed at **Piazzetta della Paglietta, off Via Salicotto**, a few minutes east of the Campo. The tunnel interiors themselves — and everything that happens inside them — were built in the studio. Siena does have a real tunnel network under its streets: the **bottini**, the medieval aqueduct galleries that still feed the city’s fountains, roughly 25 kilometres of them. They are not an attraction you can walk into: visits run in small groups, by appointment through the Comune, led by volunteers of the Associazione La Diana, and the passages are narrow, wet and unsuitable for anyone uneasy in confined spaces. *Visitable: the doorway, from a public lane, any time; the real tunnels, only by arrangement and some patience.*
+
+**The Palio.** What thunders around the Campo while Bond works is the actual Palio dell’Assunta of 16 August 2007, captured by a fourteen-camera second unit a year before the film’s release. The following May, the first unit came back and rebuilt the crowd — around **300 extras, chosen from some 1,500 candidates** — so that Daniel Craig and the chase could be threaded through it at close range. On screen the two are cut together so tightly that the join is invisible; that edit is the scene. *Visitable: the Campo, free, every day of the year — the race itself only on its two fixed dates, which is the subject of its own section below.*
+
+![A narrow contrada lane in Siena](/images/siena/06-siena-contrada-street.webp)
+*Real lanes, stitched by editing: the chase runs through streets like these, in an order the map does not recognise.*
+
+**The rooftops.** The chase’s most famous stretch — Bond and Mitchell across the terracotta above the crowds — was shot on the real rooftops around the Campo, not a backlot. The rig was industrial: about two kilometres of safety and camera cable suspended from the arms of four cranes. At street level, the beats are on **Via Pantaneto** (the bus moment) and around the **junction of Via Pantaneto and Via Magalotti**. *Visitable: the streets, yes; the rooftop line, no — it is private property end to end, and there is no public route onto it. The legal version of the view is the [Torre del Mangia climb](/torre-del-mangia-guide), or simply the habit the chase teaches: walk Siena looking up.*
+
+![Siena rooftops and the Tuscan countryside beyond](/images/siena/08-siena-cityscape.webp)
+*The stunt course: real rooftops, rigged with two kilometres of cable slung from four cranes.*
+
+**The bell chamber.** The chase ends with Bond and Mitchell falling into a bell tower’s interior and fighting on ropes and scaffolding. That interior was a set, built in the studio along with the tunnels — the production filmed Siena’s exteriors on location and constructed the chase’s two enclosed spaces elsewhere. *Visitable: no, because it does not exist. The real tower above the Campo is the Torre del Mangia, and [climbing it](/torre-del-mangia-guide) is its own reward — but the room in the film is not up there.*`,
+      },
+      {
+        id: 'what-the-film-compressed',
+        heading: 'What the film compressed',
+        body: `Films cut geography together, and this one is honest about it nowhere on screen — so here is the map, plainly. The arrival junction sits in the lanes **below the south side of the Campo**; the safe-house doorway is **east of the square off Via Salicotto**; the Pantaneto–Magalotti beats are further east again. On foot these are three short, separate walks radiating off the same square, not one continuous run — and the sprint between them happens through tunnels and a bell chamber that were never in Siena at all. The studio sections are precisely the joins.
+
+Two practical consequences. First, do not try to reconstruct a single unbroken chase line — it does not exist, and hunting for it wastes a morning. Second, the compression is good news for a visitor: everything real in the sequence sits within a few hundred metres of the Campo, which is why the whole thing walks comfortably in about 90 minutes.`,
+      },
+      {
+        id: 'palio-film-vs-reality',
+        heading: 'The Palio in the film versus the Palio in real life',
+        body: `The film uses the race as ninety seconds of backdrop. The real event is a **four-day cycle run twice each summer, on fixed dates that never move**: the Palio di Provenzano on **2 July** and the Palio dell’Assunta on **16 August** — the latter being the running the second unit filmed in 2007. Around each race day sit trial runs, contrada dinners and processions; [our Palio guide](/blog/palio-di-siena-guide/) covers what actually happens, where to stand and what it costs in comfort, and this page will not re-explain it.
+
+What matters here is the collision between the two experiences: **you cannot retrace the chase during the race**. On the two Palio days the Campo holds tens of thousands of people, the surrounding lanes are barriered and rerouted, and the city has better things to do than indulge a film pilgrimage. If the Palio is your reason for coming, come for the Palio — [the mid-August week has its own guide](/blog/siena-ferragosto-and-palio-week/), because Ferragosto reshapes the city around it. If the film is your reason, come literally any other day: the square is open, the lanes are quiet before ten, and the geometry the film used is all still there.`,
+      },
+      {
+        id: 'the-self-guided-bond-route',
+        heading: 'The self-guided Bond route (about 90 minutes)',
+        body: `No tour is needed — every outdoor beat is a free public street. Walk it in the film’s direction, which conveniently puts the climb first.
+
+1. **Start at the church of San Giuseppe** — the Via di Fontanella / Via Giovanni Duprè / Via Sant’Agata junction. The arrival shot, minus the Aston Martin. Ten minutes is enough.
+2. **Climb Via di Fontanella and pass under the Via Duprè arch** toward the Campo, as Bond does. A short, steep pull on cobbles — the honest warning for this route is simply that the start sits well below the square.
+3. **The Campo** — give it half an hour. Stand at the top of the bowl and read the circuit the horses run; find the Torre del Mangia, the film finale’s exterior; watch how the square funnels every lane toward itself, which is exactly what the chase exploits. The square now carries real rules — [the Piazza del Campo guide](/piazza-del-campo-guide) has the current ones, including the eating ban you will want to know about before you unwrap lunch.
+4. **Out east along Via Salicotto to Piazzetta della Paglietta** — the safe-house doorway beat. Ten minutes there, a look, and back.
+5. **Loop through Via Pantaneto to the Via Magalotti junction** — the street-level chase beats — and return to the square.
+6. **Optional finale: climb the [Torre del Mangia](/torre-del-mangia-guide)** for the rooftop-chase view the city can legally offer. The climb is not included in the 90 minutes, and the tower has rules and rhythms of its own — the guide covers them.
+
+Timings are deliberately loose — this is a saunter with stops, not a march. If you want a fuller city walk with the same geography done properly, [the measured Siena walking tour](/siena-walking-tour) is the route this one borrows its pacing from.`,
+      },
+      {
+        id: 'before-you-go',
+        heading: 'Before you go: access, tickets, closures',
+        body: `This page deliberately prints **no opening hours and no prices**. Those figures move, and a film-locations page that copied them would rot silently. Every one the route touches lives in a dedicated guide that carries its own checked date:
+
+- **The Campo’s rules and the Museo Civico** — [the Piazza del Campo guide](/piazza-del-campo-guide).
+- **The Torre del Mangia climb**, and the booking rule nobody publishes — [the tower guide](/torre-del-mangia-guide).
+- **The race days themselves** — [the Palio guide](/blog/palio-di-siena-guide/), and [the Ferragosto week around the August running](/blog/siena-ferragosto-and-palio-week/).
+- **Arriving by car** — Siena’s ZTL cameras do not care that you are here for Bond: [the parking and transfer guide](/blog/siena-parking-and-transfer-guide/) first.
+- **Arriving from Florence** — [the train-versus-bus comparison](/florence-to-siena-by-train-or-bus/), the route most visitors actually use.
+
+If you would rather have the city’s history told over the film’s geography by a guide, [Siena walking tours on Viator](/go/viator) list the operator, group size, meeting point and cancellation window on each product page — the same four fields we tell every reader to check before comparing prices.`,
+      },
+      {
+        id: 'the-rest-of-the-films-italy',
+        heading: 'The rest of the film’s Italy (short)',
+        body: `The pre-Siena car chase is its own geography, and none of it is walkable from the city.
+
+**The lake tunnels** — the opening galleries, cut into cliffs above the water, are the shore roads of **Lake Garda**, filmed in April 2008. Not Tuscany; they belong to a lakes trip, not this one.
+
+**The mountain roads and the marble quarry** — the chase’s second half was shot in May 2008 on the Apuan Alps roads between **Passo del Vestito and Altagnana** above Massa, ending in the **Carrara marble basins of Fantiscritti and Canalgrande** — the white, unearthly amphitheatres where the convoy weaves between marble blocks. The production ran the sequence with seven Aston Martins and nine Alfa Romeos. This *is* Tuscany, its far north-western corner, and it pairs naturally with a Lucca or coastal leg — but the quarries are working industrial sites, not a drive-in attraction: if you want to stand in them, it is organised-visit territory, arranged locally in Carrara, and the mountain roads deserve respect in any season.
+
+**Mathis’s villa** — Bond collects Mathis from a seafront tower at **Talamone**, on the Maremma coast in southern Tuscany: the **Torre di Talamonaccio**, a restored medieval watchtower that is privately let today. A detour only if you are already heading down the coast; from Siena it is a half-day round trip for one exterior.
+
+These three sit hundreds of kilometres apart — a driving itinerary, not a bus day. If you are building one, [compare rental prices for Italy on DiscoverCars](/go/discovercars-italy), and weigh the insurance excess as seriously as the daily rate before you commit to mountain roads.`,
+      },
+      {
+        id: 'how-we-checked-this',
+        heading: 'How we checked this',
+        body: `Checked on 17 August 2026, by web research from an environment whose direct page fetches are blocked: claims were kept only where multiple independent sources agreed, and anything single-sourced was cut. The second-unit date and camera count, the May 2008 crowd rebuild and extras numbers, the cable-and-crane rigging, the street and square identifications, the studio construction of the tunnel and bell-chamber interiors, and the Garda–Apuan–Carrara chase geography come from contemporaneous production reporting cross-read against the established Bond location references and Siena’s own official tourism pages; the bottini’s scale and appointment-only access from the Comune’s tourism information; the Palio’s fixed dates against the race’s standard references, consistent with the site’s separately verified Palio guide. Because no page could be opened directly, no outbound links ship on this page — a link we cannot open is a link we do not print. For the same reason it states no opening hour or ticket price: those live in the linked guides above, each carrying its own checked date. Disclosure: the Viator and DiscoverCars links are affiliate links — if you book through one we may earn a commission, at no extra cost to you; which streets the film used, and whether the rooftops are walkable, are facts no commission can touch. Platform links use our internal /go/ shortcuts.`,
+      },
+    ],
+    [
+      { q: 'Is the Palio in Quantum of Solace real?', a: 'Yes. A second unit filmed the actual Palio dell’Assunta on 16 August 2007 with fourteen cameras around Piazza del Campo. The close-range crowd shots with Daniel Craig were staged the following May with around 300 extras, and the film cuts the two together.' },
+      { q: 'Where does Bond arrive in Siena?', a: 'At the church of San Giuseppe, where Via di Fontanella, Via Giovanni Duprè and Via Sant’Agata meet, a few minutes below the south side of the Campo. He walks up Via di Fontanella and under the Via Duprè arch toward the square. The junction is an ordinary public street.' },
+      { q: 'Can you walk the rooftop chase route?', a: 'No. The rooftops are real — the production rigged about two kilometres of cable from four cranes to film on them — but they are private property with no public access. The Torre del Mangia climb is the legal version of the elevated view.' },
+      { q: 'Were the tunnels in the film Siena’s real bottini?', a: 'The doorway was real — filmed at Piazzetta della Paglietta off Via Salicotto — but the tunnel interiors were studio sets. Siena’s real bottini aqueducts exist and can be visited only in small groups by appointment through the Comune, led by Associazione La Diana volunteers.' },
+      { q: 'Can you retrace the chase during the Palio itself?', a: 'Realistically, no. On the two race days — 2 July and 16 August — the Campo is packed with tens of thousands of people and the surrounding lanes are barriered. Any other day of the year, the whole route is open and quiet before mid-morning.' },
+      { q: 'Do you need a tour to see the locations?', a: 'No. Every outdoor location is a free public street or square, and the self-guided route in this guide covers them in about 90 minutes. A guided city walk adds historical context, not access.' },
+    ],
+    '2026-08-17',
+    {
+      seoTitle: 'Quantum of Solace Siena Filming Locations: The Real Map (2026)',
+      primaryKeyword: 'quantum of solace filming locations',
+      secondaryKeywords: [
+        'quantum of solace siena',
+        'james bond palio scene',
+        'james bond siena walking route',
+        'quantum of solace opening chase location',
+        'is the palio in james bond real',
+        'quantum of solace lake garda tunnel',
+        'carrara quarry james bond',
+        'torre di talamonaccio bond',
+      ],
+      imageAlt: 'Piazza del Campo in Siena seen from above, the square Quantum of Solace’s chase circles',
+      canonicalPath: '/blog/quantum-of-solace-siena-filming-locations',
+      tags: ['quantum of solace filming locations', 'james bond siena', 'palio di siena film', 'set jetting italy', 'siena walking route'],
     }
   ),
   A(
@@ -8539,7 +8849,9 @@ What the numbers support saying: overnighting in Siena is common but far from un
       {
         id: 'final-thoughts',
         heading: 'Final thoughts',
-        body: `There is a version of Siena that exists between 16:00 and 10:00, and it is the version the city's reputation was built on: the passeggiata, the floodlit tower over a warm brick square, dinner at the hour dinner is meant to happen, and a dawn piazza that belongs briefly to you. No day trip, however well run, can include it — not because day trips are done badly, but because that Siena only opens when the buses have gone. If your Tuscan itinerary can spare one night, this is where it earns the most. And if it truly cannot, come early, stay late, and promise the evening city you will be back.`,
+        body: `There is a version of Siena that exists between 16:00 and 10:00, and it is the version the city's reputation was built on: the passeggiata, the floodlit tower over a warm brick square, dinner at the hour dinner is meant to happen, and a dawn piazza that belongs briefly to you. No day trip, however well run, can include it — not because day trips are done badly, but because that Siena only opens when the buses have gone. If your Tuscan itinerary can spare one night, this is where it earns the most. And if it truly cannot, come early, stay late, and promise the evening city you will be back.
+
+**If the decision is really about money rather than time**, this page is the wrong half of the argument: [what a day in Siena costs and what a night adds](/blog/siena-travel-cost-2026/) puts the same choice in euros, and [how much a trip to Siena costs](/blog/how-much-siena-trip-costs/) covers the whole budget.`,
       },
     ],
     [
@@ -10201,6 +10513,679 @@ And if you are reading this while still planning rather than already in the stre
       imageAlt: 'Florence in early morning light, before the day’s museum queues form',
       canonicalPath: '/blog/accademia-tickets-sold-out-florence',
       tags: ['accademia', 'michelangelo david', 'florence museums', 'florence tickets', 'practical tips'],
+    }
+  ),
+  A(
+    'siena-1348-the-year-the-city-stopped',
+    'Siena, 1348: The Year the City Stopped',
+    'Things to do',
+    'Siena',
+    'Siena looks medieval because in 1348 it stopped mid-sentence. The plague, the abandoned cathedral and the fallen government — and where to see each today.',
+    '/images/siena/02-siena-cathedral-facade.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Every visitor notices it within an hour: Siena looks medieval in a way even Florence does not. The usual explanation is that the city "preserved its heritage". The truer one is harsher, and it makes every stone more interesting.
+
+**Siena is not preserved. It is interrupted.** In the spring of 1348 the plague arrived in one of the richest, most ambitious cities in Europe — a city mid-way through doubling its cathedral and only months from finishing its great tower — and killed, by modern estimates, **between a third and a half of its people**. The building sites stopped. The government that had commissioned everything fell within seven years. The [painters of the city's golden school died with everyone else](/blog/sienese-school-painting-where-to-see/), and [the bank that eventually replaced its ruined first one](/blog/monte-dei-paschi-oldest-bank-siena/) would not be founded for another century. And the city never again had the money, the confidence or the reason to build over its own Middle Ages.
+
+That is why the walls of an abandoned cathedral still stand in the middle of town, why an open-air chapel leans against the town hall, and why the fabric around you is fourteenth-century: **not because Siena kept its past, but because its future was cancelled.**
+
+This article tells that story properly — through the chronicle of a shoemaker who buried his own children — and then walks you to the five places in today's city where 1348 is still standing. All of them are covered by tickets and passes our other guides already explain; this is the page that explains what you are looking at.`,
+      },
+      {
+        id: 'the-city-before',
+        heading: 'The city before: richer than you are imagining',
+        body: `To feel the weight of 1348 you need the size of what it hit, because the Siena of the 1340s was not a charming hill town. It was a banking and trading power at the height of a building programme that still defines the city.
+
+**The government was the Nine** — the *Governo dei Nove*, the merchant oligarchy that had run Siena since the 1280s and given it the most stable half-century in its history. Behind their confidence stood a memory then still within living reach: [Montaperti, 1260](/blog/battle-of-montaperti-1260-siena/), the day Siena destroyed a Florentine army twice its size and gave itself to the Virgin. Their name is literally under your feet: the [Campo's paving](/piazza-del-campo-guide), laid from **1327**, is divided by ten travertine lines into **nine segments** converging on their seat, the Palazzo Pubblico.
+
+**The skyline was going up.** The [Torre del Mangia](/torre-del-mangia-guide) had been rising since **1338**, built deliberately to match the height of the cathedral's bell tower — civic power and church power at the same altitude. Inside the Palazzo Pubblico, Ambrogio Lorenzetti had just finished the *Allegory of Good and Bad Government* (1338–1339), a fresco cycle whose entire subject is confidence in the future.
+
+**And the cathedral was being doubled.** On **23 August 1339** the city decided to enlarge its Duomo on a scale that reads today as pure hubris: the existing cathedral — itself among the great Gothic buildings of Italy — would become merely the **transept** of a vastly larger church built perpendicular to it, a *Duomo Nuovo* that its builders intended to be the largest in Christendom. Responsibility went in December 1339 to **Lando di Pietro**, goldsmith and engineer; when he died in August 1340, the sculptor **Giovanni d'Agostino** drove the work speedily on.
+
+Hold that picture: a tower nearly finished, a fresco about good government barely dry, and the walls of a doubled cathedral climbing. That is the sentence Siena was half-way through saying.`,
+      },
+      {
+        id: 'may-1348',
+        heading: 'May 1348: a shoemaker writes it down',
+        body: `The plague reached Siena in **May 1348**. We know what happened next in unusual, terrible detail, because a Sienese shoemaker and tax collector named **Agnolo di Tura**, called *del Grasso* — "the Fat" — kept a chronicle, and did not stop keeping it when the subject became his own family.
+
+His account is one of the most quoted documents of the medieval world, and it earns it:
+
+> "Father abandoned child, wife husband, one brother another; for this illness seemed to strike through the breath and the sight. And so they died. And none could be found to bury the dead for money or friendship… And I, Agnolo di Tura, called the Fat, buried my five children with my own hands. And there were also those who were so sparsely covered with earth that the dogs dragged them forth and devoured many bodies throughout the city."
+
+His wife Nicoluccia died too. He recorded great pits dug and filled with the dead, the abandonment of the mines in Sienese territory, and a belief he states flatly: that so many died "that all believed it was the end of the world".
+
+**On the numbers, honesty is required, because the chronicle's are not statistics.** Agnolo claims 80,000 dead in the city and its suburbs, and that of "more than 30,000 men" fewer than 10,000 remained. Medieval chroniclers counted grief, not heads, and those figures exceed any plausible population. What modern historians defend is bad enough: **something between a third and a half of Siena's people died in a few months of 1348**. Whichever end of that range is true, it means that by autumn, every surviving Sienese was living in a city where every third face they knew was gone. Among the infants who lived through it was a dyer's daughter from Fontebranda, ten months old that May — [Catherine, who would grow up to move the papacy](/blog/saint-catherine-of-siena-places/).`,
+      },
+      {
+        id: 'the-cathedral-stops',
+        heading: 'The cathedral that stopped mid-sentence',
+        body: `Giovanni d'Agostino, the sculptor driving the Duomo Nuovo, **died in 1348, probably of the plague**. The workforce died or scattered with him, and the site fell silent.
+
+The city tried again — there were attempts to restart in the early 1350s — but the two things a cathedral needs, masons and money, had both been buried. The economic collapse that followed the epidemic finished what the epidemic began, and the project was abandoned. In **1357** the city's new governors ordered the **demolition of the parts judged structurally unsound**: the great arches had been raised too fast, on the ambition of the 1340s rather than the engineering of them, and some of what the plague had spared was pulled down on purpose.
+
+What survived is what you can climb today. The **Facciatone** — the "big façade" — is the front wall of the cathedral that never happened, and the aisle walls that would have flanked its nave still frame the space beside the Duomo, with the springing of arches that never carried a roof. The Opera del Duomo now runs a panorama walk along the top of it, included in the [OPA SI Pass](/siena-cathedral-guide).
+
+Stand up there and orient yourself, because this is the single most legible piece of 1348 in Europe: **the floor plan of the abandoned nave is the piazza below you**. The space where the congregation of the largest church in Christendom was meant to stand has spent almost seven centuries as a car-free square, walled by the church that never enclosed it. Nowhere else can you stand *on* an ambition at the exact height it reached when the world ended.`,
+      },
+      {
+        id: 'tower-and-chapel',
+        heading: 'Four metres apart: the tower and the vow',
+        body: `At the foot of the [Torre del Mangia](/torre-del-mangia-guide), leaning against the Palazzo Pubblico, stands an open marble chapel that most visitors photograph by accident. The two structures were finished — one, and begun, the other — in the same year, for opposite reasons, and together they are the shortest history lesson in Italy.
+
+**The tower was completed in 1348.** It had been rising for ten years as a statement of civic confidence: as tall as the cathedral's campanile, because in Siena the commune bowed to no bishop.
+
+**The chapel was promised in 1348.** The *Cappella di Piazza* was vowed by the survivors of the plague — an open-air altar on the civic square, built in fulfilment of that vow from 1352 onward, its pillars rising over the following decades and its Renaissance crown added a century later by Antonio Federighi. The [full architectural story is in our Campo guide](/piazza-del-campo-guide); what belongs here is the meaning.
+
+**Confidence and terror, four metres apart, with the same date on them.** The city finished its proudest secular monument and founded its most desperate sacred one in the same twelve months. When you stand between them you are standing in the exact seam of the fourteenth century.`,
+      },
+      {
+        id: 'the-nine-fall',
+        heading: 'The government falls: 1355, and the Twelve',
+        body: `The Nine survived the plague itself. They did not survive its aftermath.
+
+A regime built on prosperity, stability and the loyalty of a merchant class now had none of the three: the economy had collapsed, the survivors were traumatised and taxed, and the noble families the Nine had barred from office for seventy years saw their moment. It came in **1355**, when the Emperor **Charles IV of Luxembourg** passed through Siena. Under the cover of the imperial visit, the excluded nobility and a risen populace overthrew the Nine and expelled the families of their party.
+
+The new regime — the **Dodici**, the Twelve — ruled until 1369, the first of a churn of short-lived governments that replaced the Nine's half-century of continuity. And it is the Twelve who connect the political story back to the stones: **it was the Twelve who, in 1357, ordered the unsound parts of the abandoned Duomo Nuovo demolished.** The new government's first great building decision was to un-build the old government's dream. Few regimes have ever announced themselves more clearly.
+
+The frescoes of the Nine's council room — Lorenzetti's *Good and Bad Government*, still in the [Museo Civico](/piazza-del-campo-guide) — thus became something their painter never intended: a portrait of a political order that had eight years left, watched over today by visitors who mostly do not know they are looking at a eulogy. Lorenzetti himself is generally believed to have died in the plague of 1348.`,
+      },
+      {
+        id: 'the-long-afterwards',
+        heading: 'The long afterwards: why the city stayed medieval',
+        body: `The plague returned in waves for decades, and Siena's politics churned for two centuries — but the city remained independent, and its final act was as dramatic as its fourteenth century.
+
+In **January 1554** a Medici-Imperial army besieged Siena, which had risen against a Spanish garrison and placed itself under French protection. The siege was fifteen months of methodical strangulation: the relief army was destroyed at **Marciano in August 1554**, and by **February 1555** the city was expelling thousands of *bocche inutili* — "useless mouths", the civilians it could no longer feed — from inside its walls. In **April 1555**, starving, Siena surrendered. A remnant of the government withdrew to Montalcino and kept a Republic-in-exile alive until **1559**, when the peace settlement delivered Siena permanently to **Cosimo de' Medici's Tuscany**.
+
+And here is the paradox this whole article has been walking toward. **Florence's conquest is the second reason Siena looks the way it does.** As a subordinate city in the Medici state, Siena never again commanded the wealth that rebuilds skylines. There was no Sienese Renaissance boom to replace Gothic with something newer, no nineteenth-century industrial expansion to flatten the walls. The catastrophe of 1348 stopped the city's growth; the defeat of 1555 made sure it never restarted.
+
+Every unspoiled medieval streetscape in Europe has a version of this story — **preservation is usually the residue of misfortune** — but nowhere is the chain of cause and effect as visible as here, because Siena's misfortunes left their receipts standing: an unfinished cathedral, a plague-vow chapel, a fortress the Medici built to hold the city they had starved.`,
+      },
+      {
+        id: 'walking-1348',
+        heading: 'Walking 1348: five stops in today’s city',
+        body: `Everything above is standing within ten minutes' walk. Take them in this order and the story tells itself; every ticket involved is covered in detail by the guides linked.
+
+**1. The Campo's nine segments.** Start standing on the government that built the city the plague hit. Nine panels of brick, [laid 1327–1349](/piazza-del-campo-guide) — note that finishing date: the paving was completed the year after the catastrophe, the one project too civic to abandon.
+
+**2. The Torre del Mangia and the Cappella di Piazza.** The 1348 pair — confidence finished, terror founded, four metres apart. Climb the tower if [its no-booking rules](/torre-del-mangia-guide) suit your day.
+
+**3. Lorenzetti's Good and Bad Government, Museo Civico.** The Nine's self-portrait, painted 1338–1339 in the room where they governed — nine years before the plague, sixteen before their fall. Look at the *Effects of Good Government in the City*: the Siena of the frescoes is the Siena that died in 1348.
+
+**4. The Facciatone and the Duomo Nuovo walls.** The panorama walk on the [OPA SI Pass](/siena-cathedral-guide) puts you on top of the abandoned façade, with the phantom nave laid out below. This is the centrepiece, and it is best late in the day when the light comes low across the unfinished arches.
+
+**5. Santa Maria della Scala.** Finish opposite the cathedral in [the hospital](/santa-maria-della-scala-siena) that stood through it all — the institution that received the sick and the orphaned of every Sienese catastrophe for a thousand years, and kept functioning as an infirmary until 1975. Its 1440s frescoes show the hospital at work a century after the plague: the institution's answer to everything this article describes.
+
+A visitor with the €13–15 OPA SI Pass and the €15 Museo Civico + Torre combination has every paid stop on this walk covered; [our cathedral](/siena-cathedral-guide) and [Torre](/torre-del-mangia-guide) guides carry the current prices and rules.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **16 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
+
+**Verified:** the plague's arrival in Siena in **May 1348**; Agnolo di Tura's identity as a Sienese chronicler, shoemaker and tax collector, the deaths of his wife Nicoluccia and his five children, and the passages quoted, including the burial of his children by his own hands and the dogs dragging bodies from shallow graves, from published translations of his chronicle; his chronicle's own casualty claims (80,000 in city and suburbs, fewer than 10,000 of more than 30,000 men remaining), presented here explicitly as the chronicle's numbers rather than statistics, against the modern historical range of **a third to a half of the population dead**; the **23 August 1339** decision to build the Duomo Nuovo with the existing cathedral as its transept, the December 1339 appointment of **Lando di Pietro** and his death in August 1340, the succession of **Giovanni d'Agostino** and his death in 1348, probably of plague; the failed restart attempts of the early 1350s and the **1357 demolition order against the structurally unsound parts**, issued under the Twelve; the fall of the **Governo dei Nove in 1355** during the passage of Charles IV of Luxembourg, through a rising of the excluded nobility and populace, and the rule of the **Dodici to 1369**; the Torre del Mangia's construction from 1338 to 1348 and the Campo paving of 1327–1349, both as carried in our own verified guides; the Cappella di Piazza's origin as a plague vow of 1348, built from 1352, as verified for our Campo guide; the **January 1554 – April 1555 siege**, the battle of **Marciano (August 1554)**, the **February 1555 expulsion of thousands of civilians**, the surrender by starvation, the Republic-in-exile at **Montalcino until 1559**, and Siena's passage to Medici Tuscany; and the attribution of Lorenzetti's *Allegory* to 1338–1339.
+
+**Stated as interpretation rather than fact:** that the Duomo Nuovo was intended to be the largest church in Christendom, which is its builders' ambition as tradition records it rather than a measured comparison; that Ambrogio Lorenzetti died in the 1348 plague, which is the general scholarly belief rather than a documented death; and the closing argument that the 1348 interruption plus the post-1555 stagnation are why the medieval fabric survived — a widely held historical judgement we find persuasive, not a checkable single fact.
+
+**Not established:** Siena's precise pre-plague population, on which scholarship genuinely varies and which this article therefore never states.
+
+We have no commercial relationship with any museum, pass or site named. No booking made from this page pays us anything.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Tourism flattens catastrophe into charm. "Perfectly preserved medieval city" is a phrase that hides its own explanation — nobody preserves a city on purpose for six hundred years; they simply fail to replace it, and the failing has causes.
+
+Siena's causes have names and dates: a spring month in 1348, a shoemaker with a shovel, a sculptor who died with a cathedral half-built, an emperor's visit that ended a government, and a fifteen-month siege that ended everything else. Walk the five stops with that in mind and the prettiness sharpens into something better than pretty.
+
+And when you are on the Facciatone at the end of the afternoon, look down once more at the square that was meant to be a nave. Every city plans a future bigger than the one it gets. Siena is the only place you can stand on the exact line where the plans stopped — and then turn around, and see how much of what was already built is still, seven centuries later, magnificently in use.`,
+      },
+    ],
+    [
+      { q: 'Why does Siena look so medieval?', a: 'Because its growth was interrupted, not because it was curated. The plague of 1348 killed between a third and a half of the population of one of Europe’s richest cities mid-building-programme, and the 1554–55 siege that ended its independence left it a subordinate town in Medici Tuscany with no wealth to rebuild. The medieval fabric survived because nothing ever replaced it.' },
+      { q: 'What happened in Siena in 1348?', a: 'The plague arrived in May 1348 and, by modern estimates, killed a third to a half of the city’s people within months. The chronicler Agnolo di Tura, who buried his own five children, recorded mass graves and social collapse. The Duomo Nuovo building site stopped when its architect died, and within seven years the Governo dei Nove — the regime of Siena’s golden half-century — had fallen.' },
+      { q: 'Why is Siena’s cathedral unfinished?', a: 'In 1339 Siena began doubling its cathedral, with the existing Duomo as a mere transept of a vastly larger church. Work drove forward until 1348, when the plague killed the architect Giovanni d’Agostino and much of the workforce, and the economic collapse that followed defeated every restart. In 1357 the structurally unsound parts were deliberately demolished; the Facciatone and the nave’s aisle walls still stand.' },
+      { q: 'What is the Facciatone in Siena?', a: 'The completed front wall of the abandoned Duomo Nuovo — the cathedral Siena began in 1339 and lost to the plague. A panorama walk along its top is included in the OPA SI Pass, and from it you look down on the piazza that was meant to be the church’s nave. It is the most legible piece of 1348 standing anywhere in Europe.' },
+      { q: 'Who was Agnolo di Tura?', a: 'A Sienese shoemaker and tax collector whose chronicle of 1300–1351 contains the most famous eyewitness account of the Black Death in Italy. His wife and five children died in 1348; his line "I buried my five children with my own hands" is quoted in nearly every history of the plague. His casualty figures are a grieving contemporary’s, not statistics — modern historians put Siena’s losses at a third to a half of its people.' },
+      { q: 'When did the Republic of Siena fall?', a: 'In April 1555, after a fifteen-month Medici-Imperial siege that ended in starvation — the city had expelled thousands of civilians it could not feed that February. A Republic-in-exile held out in Montalcino until 1559, when the peace settlement delivered Siena permanently to Cosimo de’ Medici’s Tuscany.' },
+      { q: 'Where can you see traces of the 1348 plague in Siena today?', a: 'Five stops within ten minutes’ walk: the Campo’s nine segments, completed 1349; the Torre del Mangia, finished in 1348, and the Cappella di Piazza, vowed in the same year by the plague’s survivors; Lorenzetti’s Good and Bad Government frescoes, the fallen regime’s self-portrait; the Facciatone and the abandoned nave’s walls at the cathedral; and Santa Maria della Scala, the hospital that stood through all of it.' },
+    ],
+    '2026-09-05',
+    {
+      seoTitle: 'Siena in 1348: Why the City Still Looks Medieval',
+      primaryKeyword: 'siena black death 1348',
+      secondaryKeywords: [
+        'why does siena look medieval',
+        'siena unfinished cathedral duomo nuovo',
+        'agnolo di tura chronicle',
+        'facciatone siena history',
+        'fall of the republic of siena',
+        'siena history for visitors',
+      ],
+      imageAlt: 'The façade of Siena Cathedral, beside which the walls of the abandoned Duomo Nuovo still stand',
+      canonicalPath: '/blog/siena-1348-the-year-the-city-stopped',
+      tags: ['siena history', 'black death', 'duomo nuovo', 'medieval italy', 'things to do'],
+    }
+  ),
+  A(
+    'battle-of-montaperti-1260-siena',
+    'Montaperti, 1260: The Battle That Made Siena the City of the Virgin',
+    'Day trips',
+    'Siena',
+    'On 4 September 1260 Siena destroyed a Florentine army twice its size. The battle explains the Palio, the rivalry, and a pyramid you can walk to today.',
+    '/images/siena-cathedral-interior.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Twelve kilometres south-east of Siena, on a low hill above the river Arbia, stands a **stone pyramid ringed by cypresses**. Most visitors never hear of it. Every Sienese knows exactly what it is.
+
+On **4 September 1260** the armies of Guelph Florence and Ghibelline Siena met below that hill, and by evening Siena — outnumbered roughly two to one — had inflicted on Florence what is traditionally counted as **the bloodiest day of the Italian Middle Ages**. The night before, the Sienese had carried the keys of their city into the cathedral and given Siena to the Virgin Mary. She has, in the city's own account of itself, ruled it ever since.
+
+Understand Montaperti and half of Siena decodes at once: why the city calls itself the *Civitas Virginis*, why a contrada carries a noble title earned on that field, why Dante — a Florentine — put two of the battle's actors in Hell and Purgatory, and why [the Florence–Siena rivalry](/blog/florence-or-siena-which-to-visit-2026/) that structures every Tuscan itinerary is not a marketing invention but a seven-century-old wound.
+
+**And you can go.** The battlefield monument is a free, open site near Castelnuovo Berardenga — parking at the foot of the hill, a short walk up — and **on 4 September each year a torchlight procession climbs to the pyramid**. This article tells the story properly, then gets you there.`,
+      },
+      {
+        id: 'tuscany-1260',
+        heading: 'Tuscany in 1260: two parties, one grudge',
+        body: `The war that produced Montaperti ran on the great fault line of medieval Italy: **Guelphs**, aligned with the Papacy, against **Ghibellines**, aligned with the Holy Roman Empire. By 1260 Florence was the leading Guelph power in Tuscany and Siena the leading Ghibelline one — which turned an ordinary commercial rivalry between two banking cities thirty miles apart into a proxy war between pope and emperor.
+
+The parties were not abstractions; they were exile machines. When one faction took a city, the other's families were banished, their towers pulled down, their property seized. Florence's Ghibellines — among them **Farinata degli Uberti**, head of one of the city's greatest houses — were living in Siena as exiles, agitating for the war that might carry them home. Remember Farinata: he wins this battle, and then he does something stranger.
+
+Siena, for its part, had insurance: **King Manfred of Sicily**, the emperor's heir in Italy, had sent a contingent of **German mercenary heavy cavalry**. They were few, but in a war of citizen militias, professional heavy horse was a different order of weapon.
+
+In the summer of 1260 Florence assembled a coalition army from Guelph Tuscany and marched on Siena. The chroniclers' figures — medieval, and to be read as such — put the Florentine host at around **33,000** against fewer than **20,000** for Siena. Whatever the true numbers, no one disputes the shape: Florence came expecting to dictate terms under Siena's walls.`,
+      },
+      {
+        id: 'the-eve',
+        heading: 'The eve: a city hands itself to the Virgin',
+        body: `What Siena did on the night of 3 September 1260 is the founding act of its identity, and it happened in the building every visitor now queues for.
+
+As the tradition tells it, the syndic of the commune carried **the keys of the city into the cathedral** and laid them on the altar, formally donating Siena to the **Virgin Mary** — a feudal act, the city becoming her vassal — while the population processed and prayed through the night. Victory came the next day; the donation was never revoked. Siena has titled itself the **Civitas Virginis**, the City of the Virgin, ever since.
+
+**One honest caveat belongs here, because this is a history article and not a legend page.** The chronicles that describe the donation of the keys in full were written down in the **late fourteenth and fifteenth centuries** — generations after the battle. That a great act of Marian devotion preceded Montaperti is not in doubt; the cinematic detail of the ceremony is memory shaped by retelling. We give you both the story and its date of composition, and note that the Sienese themselves have never much cared about the distinction: the dedication has been renewed at the city's great crises for centuries.
+
+The consequences are all around you in the modern city. The Virgin of the vow is why Duccio's **Maestà** — the Virgin enthroned as sovereign — became the cathedral's high altarpiece and the greatest object [in the Museo dell'Opera today](/siena-cathedral-guide). It is why the [Campo's nine paving segments](/piazza-del-campo-guide) are read equally as the folds of her cloak. And it is why both Palios are run for her: the July race for the Madonna di Provenzano, the August race for the Assumption. **The Palio is not decorated with the Virgin; it is owed to her**, and the debt was contracted on 3 September 1260.`,
+      },
+      {
+        id: 'the-battle',
+        heading: '4 September 1260: the Arbia runs red',
+        body: `The battle was fought through the day on the slopes by the river Arbia, below the hill where the pyramid now stands. Its turning points, as the chronicles hand them down:
+
+**The Sienese attacked.** Rather than wait behind walls, Siena's army — citizens, exiled Florentine Ghibellines, and Manfred's German cavalry — came out and struck the larger host.
+
+**And then the betrayal.** Inside the Florentine ranks rode Ghibelline sympathisers who had concealed their allegiance. At the height of the fighting, as the story is told, one of them — **Bocca degli Abati** — drew close to the standard-bearer of the Florentine cavalry and **cut off the hand that held the standard**. In a medieval army, the standard was command, cohesion and courage in one object; when it fell, the Florentine cavalry broke, and the breaking spread. The rout that followed became a massacre.
+
+The traditional count — again, a chronicle figure — is **more than ten thousand dead**, with thousands more taken prisoner: the worst single day of slaughter in the medieval history of Italy. Dante, born five years later into Guelph Florence, needed only one line for it, and it is still the battle's epitaph: *lo strazio e 'l grande scempio che fece l'Arbia colorata in rosso* — "the torment and the great havoc that stained the Arbia red".
+
+Florence's field army had effectively ceased to exist. Nothing stood between Siena and its rival's walls.`,
+      },
+      {
+        id: 'empoli',
+        heading: 'Empoli: the enemy who saved Florence',
+        body: `What happened next is the strangest turn in the story, and Dante — who hated the man — made it immortal.
+
+The victorious Ghibelline league met at **Empoli** to decide what to do with defeated Florence, and the assembly's mood was for erasure: raze the city, salt the memory, end the Guelph capital for good. One man stood against it — **Farinata degli Uberti**, the exiled Florentine who had done as much as anyone to win Montaperti. As Dante has him tell it in the *Inferno*, he alone, with open face, defended Florence before them all. The city was spared.
+
+Dante's encounter with Farinata in **Canto X of the Inferno** is one of the summits of the poem precisely because of this doubleness: a damned heretic, an enemy of Dante's party, rising from his burning tomb *as if he held all Hell in great disdain* — and also the single reason Dante's Florence existed to exile Dante at all. **Bocca degli Abati got no such ambivalence.** Dante finds him in **Canto XXXII**, frozen to the neck in the ice reserved for traitors to their homeland, and treats him with a viciousness he shows almost no one else in Hell — kicking his head in passing, tearing his hair to make him confess his name.
+
+There is a lesson about history-writing in the pairing, and it is worth carrying around Tuscany: **Montaperti's memory was written by the losers.** Florence produced Dante, and Dante fixed forever which victor was noble and which was damned. Siena won the battle; Florence, as usual, won the archive.`,
+      },
+      {
+        id: 'what-it-made',
+        heading: 'What Montaperti made — and how long it lasted',
+        body: `**For Siena's identity, everything.** The Civitas Virginis, the Maestà, the dedication renewed across the centuries, [the Nicchio's noble title](/siena-contrade-guide) — the contrada is *Nobile* for its part at Montaperti in 1260 — and a civic self-belief that survived every later defeat. When Sienese crowds at the Palio sing of Montaperti, they are singing about the one day their city was unarguably first in Tuscany.
+
+**For the balance of power, almost nothing.** Ghibelline supremacy lasted nine years: at **Colle di Val d'Elsa in 1269** a Guelph army returned the favour, and Florence's side re-took the initiative in Tuscany. The rivalry then ran another three centuries — commercial, political, occasionally military — until the [siege of 1554–55](/blog/siena-1348-the-year-the-city-stopped/) ended Sienese independence altogether and folded the city into Medici Tuscany.
+
+Which gives Montaperti its peculiar afterlife: **a total victory that changed nothing, remembered more fiercely than most victories that changed everything.** Florence got the future; Siena kept the day. Seven and a half centuries on, the day is still being kept — by a procession, by torchlight, every fourth of September.`,
+      },
+      {
+        id: 'visiting',
+        heading: 'Visiting the battlefield today',
+        body: `The site is free, open and quietly moving — one of the least commercialised historical places in Tuscany.
+
+**What is there.** The **Cippo di Montaperti**: a stone pyramid raised on the hilltop where an eleventh-century castle of the Berardenghi family once stood, ringed by old cypresses, looking over the Arbia valley where the armies met. There is no visitor centre, no ticket, no queue — a marker, the trees, and the view.
+
+**Where it is.** The hamlet of **Monteaperti**, in the comune of **Castelnuovo Berardenga** — about **12 km south-east of Siena** and 8 km from Castelnuovo itself; the monument is signed at **Località Santa Maria a Dofana**. There is **parking at the foot of the hill**, and the walk up to the pyramid is short and easy. Realistically this is a **car trip**: our [Tuscany car-rental guide](/blog/renting-a-car-in-tuscany-2026/) covers the practicalities, and the site pairs naturally with a drive on into the Crete Senesi, whose clay ridges begin immediately south.
+
+**The date that matters.** On **4 September each year**, the anniversary is marked with a **torchlight procession to the pyramid**, and in early September the nearby hamlet of Casetta hosts **"Montaperti — past and present"**, a festival of re-enactments and commemorations. If your trip falls in the first week of September, check the Comune di Castelnuovo Berardenga's announcements for the current year's programme — this article publishes on the anniversary itself, and we have deliberately not stated this year's event times, which the comune publishes close to the date.
+
+**Pair it with the city.** The battlefield makes most sense taken *with* Siena, same trip: the cathedral where the keys were laid, the [Museo dell'Opera's Maestà](/siena-cathedral-guide) that the vow made inevitable, and the [contrade](/siena-contrade-guide) whose titles still cite the day. Half a day for the site and the drive; the story is the luggage you bring to it.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **16 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
+
+**Verified:** the battle's date of **4 September 1260** and its place in the Guelph–Ghibelline conflict, with Guelph Florence against Ghibelline Siena; its traditional standing as the bloodiest battle of the Italian Middle Ages, with the traditional count of **more than 10,000 dead**; the chroniclers' army figures of about 33,000 Florentines against fewer than 20,000 for Siena, presented as medieval numbers rather than statistics; **King Manfred's** provision of German mercenary heavy cavalry; **Farinata degli Uberti's** role as exiled Florentine Ghibelline leader on the Sienese side and his later defence of Florence against destruction at the council of **Empoli**, as recorded in Dante's account and the chronicle tradition; the treachery of **Bocca degli Abati** — the severing of the Florentine standard-bearer's hand — as the chronicles tell it, and Dante's placement of Bocca among the traitors in **Inferno XXXII** and his encounter with Farinata in **Inferno X**, including the line on the Arbia coloured red; the tradition of the **donation of the city's keys to the Virgin in the cathedral on the eve of the battle**, with the scholarly caveat — stated in the article — that the chronicles describing the donation in full date to the late fourteenth and fifteenth centuries; the **Nicchio contrada's Nobile title** deriving from Montaperti, as carried in our contrade guide's verification; the reversal at **Colle di Val d'Elsa in 1269**; and the site itself — the stone pyramid ringed by cypresses on the hill of an eleventh-century Berardenghi castle at **Località Santa Maria a Dofana, Castelnuovo Berardenga**, about 12 km from Siena, with parking at the foot of the hill and a short walk up, the **annual 4 September torchlight procession**, and the "Montaperti — past and present" commemorations at Casetta in early September.
+
+**Stated as tradition rather than verified fact:** the full ceremony of the keys, whose surviving descriptions post-date the battle by over a century; the precise mechanics of Bocca's betrayal, which rest on chronicle and on Dante; and all casualty and army figures, which are medieval counts. **Not established:** the 2026 programme and times of the anniversary events, which the Comune di Castelnuovo Berardenga publishes close to the date — check its channels for this year before planning an evening around the procession.
+
+We have no commercial relationship with any site, comune or operator named. No booking made from this page pays us anything.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Seven hundred and sixty-six years ago today — if you are reading this on publication day — two cities that now share a tourist itinerary tried to annihilate each other in a river valley you can reach in twenty minutes from the Campo.
+
+Go, if you have a car and an afternoon. Not because the pyramid is spectacular — it is a marker under cypresses — but because standing there closes a circuit that runs through everything else you will see: the cathedral where a city made itself the Virgin's vassal, the Maestà painted as her portrait in majesty, the nine folds of her cloak in the Campo's brick, the contrada that is noble because of this field, and the Florentine poet who made sure that even Siena's greatest day would be remembered in Florence's words.
+
+Tuscany sells itself as a landscape of beauty. It is also a landscape of memory, and this hill is where the region's longest memory lives.`,
+      },
+    ],
+    [
+      { q: 'What was the Battle of Montaperti?', a: 'The battle fought on 4 September 1260 between Guelph Florence and Ghibelline Siena, below a hill by the river Arbia about 12 km south-east of Siena. Outnumbered roughly two to one, Siena — with exiled Florentine Ghibellines and German cavalry sent by King Manfred — destroyed the Florentine army, in what is traditionally counted as the bloodiest day of the Italian Middle Ages, with more than 10,000 dead by the chroniclers’ figures.' },
+      { q: 'Why is Siena called the City of the Virgin?', a: 'Because of Montaperti. On the eve of the battle, as the tradition tells it, the city’s keys were carried into the cathedral and Siena was formally donated to the Virgin Mary; victory followed the next day and the dedication was never revoked. The vow is why Duccio’s Maestà became the cathedral’s altarpiece, why the Campo’s nine segments are also read as the folds of the Virgin’s cloak, and why both Palios are run in her honour. The full chronicle accounts of the ceremony were written more than a century later — the article states that plainly.' },
+      { q: 'What did Dante write about Montaperti?', a: 'Two of the poem’s most famous episodes. In Inferno X he meets Farinata degli Uberti, the exiled Ghibelline who won the battle and then alone defended Florence from destruction at Empoli — and coins the battle’s epitaph, the Arbia coloured red. In Inferno XXXII he finds Bocca degli Abati, the traitor said to have cut off the Florentine standard-bearer’s hand mid-battle, frozen in the ice reserved for traitors to their homeland.' },
+      { q: 'Who was Farinata degli Uberti?', a: 'Head of a great Florentine Ghibelline house, exiled to Siena, and a leader of the victorious side at Montaperti. At the council of Empoli afterwards, when the Ghibelline league debated razing Florence, he alone stood against it and the city was spared. Dante, of the opposing party, gave him one of the Inferno’s most magnificent portraits — a damned enemy who happens to be the reason Florence survived.' },
+      { q: 'Can you visit the Montaperti battlefield?', a: 'Yes, freely. The Cippo di Montaperti — a stone pyramid ringed by cypresses on the hilltop of a former Berardenghi castle — stands at Località Santa Maria a Dofana in the comune of Castelnuovo Berardenga, about 12 km south-east of Siena. There is parking at the foot of the hill and a short walk up. No ticket, no visitor centre; realistically you need a car.' },
+      { q: 'What happens at Montaperti on 4 September?', a: 'The anniversary is marked each year with a torchlight procession up to the pyramid, and in early September the nearby hamlet of Casetta hosts "Montaperti — past and present", with re-enactments and commemorations. The Comune di Castelnuovo Berardenga publishes each year’s programme close to the date, so check its announcements before planning an evening around it.' },
+      { q: 'Did Montaperti change the Florence–Siena rivalry?', a: 'It created its founding memory but not its outcome. Ghibelline supremacy lasted nine years, until the Guelph victory at Colle di Val d’Elsa in 1269, and Florence recovered the initiative in Tuscany. The rivalry ran another three centuries until the siege of 1554–55 ended Sienese independence. Montaperti remains the one day Siena was unarguably first — a total victory that changed nothing, remembered more fiercely than most victories that changed everything.' },
+    ],
+    '2026-09-04',
+    {
+      seoTitle: 'Battle of Montaperti, 1260: Siena’s Greatest Day, and the Site Today',
+      primaryKeyword: 'battle of montaperti',
+      secondaryKeywords: [
+        'montaperti 1260',
+        'why is siena the city of the virgin',
+        'farinata degli uberti dante',
+        'montaperti pyramid visit',
+        'florence siena rivalry history',
+        'guelphs and ghibellines tuscany',
+      ],
+      imageAlt: 'The interior of Siena Cathedral, where the city’s keys were laid before the Virgin on the eve of Montaperti',
+      canonicalPath: '/blog/battle-of-montaperti-1260-siena',
+      tags: ['siena history', 'montaperti', 'dante', 'day trips', 'medieval italy'],
+    }
+  ),
+  A(
+    'saint-catherine-of-siena-places',
+    'Catherine of Siena: The Dyer’s Daughter Who Moved the Papacy',
+    'Things to do',
+    'Siena',
+    'A dyer’s daughter from Siena talked the papacy into leaving Avignon. Her house, her church and her head are all still here — and all free to visit.',
+    '/images/siena/06-siena-contrada-street.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Of everyone Siena has produced in a thousand years, the most consequential was not a banker, a general or a pope. She was a **dyer's daughter born in 1347** who never held an office, never commanded anything, and by the time she died at thirty-three had corresponded with princes as an equal and helped talk the papacy into returning to Rome after nearly seventy years in Avignon.
+
+**Catherine of Siena** is also the rare great historical figure whose places survive almost intact, in walking distance of each other, **all free**:
+
+- **The Santuario-Casa di Santa Caterina** — her family home on the slope above Fontebranda, a sanctuary since the fifteenth century, with the church holding the crucifix before which, as tradition holds, she received the stigmata. **Free entry.**
+- **The Basilica di San Domenico** — the great brick church on the western ridge where she prayed as a Dominican tertiary, and where **her head is enshrined** in its own chapel. **Free entry.**
+- The lanes between them — the steep, workaday quarter of dyers and tanners she came from, which remains one of the least touristed corners of the centre.
+
+This article tells her story straight — it is stranger than the holy-card version — and then walks you to the places. If you visit only churches with tickets, you will miss the most remarkable biography in the city.`,
+      },
+      {
+        id: 'the-dyers-daughter',
+        heading: '1347: a dyer’s daughter below San Domenico',
+        body: `Caterina Benincasa was born on **25 March 1347**, one of the many children of **Giacomo di Benincasa, a wool dyer**, and his wife **Lapa**, a poet's daughter. The family house stood — stands — on the slope above the **Fontebranda** fountain, in the valley quarter where Siena's dyers and tanners worked, directly below the Dominican basilica on the ridge.
+
+Mark the date against the city around her: she was born **ten months before the plague reached Siena** in May 1348. The city of her childhood was the broken, grieving, half-empty Siena of [the year everything stopped](/blog/siena-1348-the-year-the-city-stopped/) — a place of mass graves, abandoned building sites and collapsing government. Whatever formed her, it was not a golden age. It was the aftermath of one.
+
+Her path was improbable at every step. She refused marriage, cut off her hair to end the argument, and joined the **Mantellate** — lay Dominican tertiary women, mostly widows, attached to San Domenico — while continuing to live at home. She taught herself to read; her letters she mostly **dictated**, in vigorous Sienese vernacular, to a circle of followers who included nobles and scholars content to serve as secretaries to an artisan's daughter. Those letters — to queens, mercenary captains, cardinals and two popes — are among the monuments of early Italian literature, and they are not polite. She addressed the pope as *babbo* — "daddy" — and told him to be a man.`,
+      },
+      {
+        id: 'avignon',
+        heading: 'Avignon: the errand that moved the papacy',
+        body: `To feel the scale of what she attempted, remember what the papacy was in her lifetime: **absent**. Since 1309 the popes had resided at **Avignon**, in the orbit of the French crown, while Rome decayed and Italy's wars ran unrefereed. Bringing the papacy home was the great political-religious cause of the age, argued by poets and princes for decades — without result.
+
+In **June 1376** Catherine travelled to Avignon as an **ambassador for Florence**, then at war with the papacy, to negotiate peace. As diplomacy for Florence the mission failed — the republic's shifting government undercut her — but she stayed, and pressed on **Gregory XI** in person the case she had long made by letter: return to Rome.
+
+In **January 1377 Gregory XI entered Rome**, ending nearly seven decades of Avignon papacy. History rarely hands one person sole credit for anything, and Gregory had his own reasons — but contemporaries and the tradition alike counted the return, in the Catholic Encyclopedia's phrase, as **"the merit of St Catherine of Siena"**. However the credit is divided, the fact stands unadjusted: the most intractable political problem in fourteenth-century Europe ended after a thirty-year-old uneducated laywoman from Fontebranda went to Avignon and argued for it face to face.
+
+She spent her last years in Rome labouring against the Great Schism that followed Gregory's death, wore herself out, and **died there on 29 April 1380**, aged thirty-three.`,
+      },
+      {
+        id: 'the-head',
+        heading: '1383: Siena brings her home — most of her',
+        body: `Catherine died in Rome, and Rome kept her: her body lies under the high altar of **Santa Maria sopra Minerva**, beside the Pantheon. Siena wanted its saint back, and the solution was medieval in every sense.
+
+**In 1383 her head was brought to Siena in a reliquary** and carried through the city in solemn procession to the Dominican church — attended, the record notes, by **her mother Lapa, then eighty-nine years old**, walking behind the relic of her own child. Whatever one feels about relic culture, that image survives seven centuries undimmed.
+
+The head remains in the **Basilica di San Domenico** today, enshrined in its own chapel. Her canonisation came in **1461**, and the pope who performed it completes a very Sienese circle: **Pius II — Enea Silvio Piccolomini**, the Sienese pope whose life fills the frescoed [Piccolomini Library in the cathedral](/siena-cathedral-guide). The city's greatest saint was raised to the altars by the city's greatest pope.
+
+The honours kept coming, centuries on: **patron saint of Italy in 1939** under Pius XII, **co-patron of Europe in 1999** under John Paul II, and a **Doctor of the Church** — one of the first two women ever so named.`,
+      },
+      {
+        id: 'visiting-sanctuary',
+        heading: 'Visiting the Santuario-Casa di Santa Caterina',
+        body: `Her family home became a sanctuary in the fifteenth century — the complex dates its transformation to **1464**, three years after the canonisation — and it is one of the most affecting free visits in Tuscany, precisely because it is a *house*: loggias and oratories built over the rooms of a working family.
+
+**What you will see.** From the entrance loggia the complex opens into a series of oratories built over the family's spaces, and the **Chiesa del Crocifisso**, which preserves the **crucifix before which, as tradition holds, Catherine received the stigmata** in Pisa in 1375. Her cell — the small room of her years of seclusion — is the emotional centre of the visit.
+
+**Practicalities.** **Admission is free.** Third-party listings give the church as open roughly 9:30–12:30 and 15:00–19:00, with the house complex open through the day — but these are guidebook hours, not the sanctuary's own published schedule, so treat them as indicative and expect closures around services. It is a place of active devotion: dress and volume as for a working church.
+
+**Where it is.** On the **Costa di Sant'Antonio**, the slope between the centre and the Fontebranda valley, a few minutes below San Domenico. The descent is steep — this is the [three-ridges Siena](/siena-walking-tour) at its most vertical — and pairing the sanctuary with the basilica above makes one natural visit.`,
+      },
+      {
+        id: 'visiting-san-domenico',
+        heading: 'San Domenico: the basilica and the relic',
+        body: `The **Basilica di San Domenico** anchors the western ridge — a vast, austere brick barn of a church, begun in the thirteenth century, whose restraint is the point: the Dominicans built for preaching, not spectacle. It reads from across the valley as one of the defining masses of the Siena skyline, and the classic photograph of it is taken from near Fontebranda, with the basilica looming over the quarter Catherine came from.
+
+Inside, the **Cappella di Santa Caterina** holds the head reliquary. Around the church are works connected to her cult, including portraiture traditionally taken from the life. **Entry is free**; hours are a working church's, with closures around services.
+
+Two honest notes. First, the interior can feel bare after the cathedral — go for the presence, not the decoration. Second, the relic is exactly what it is: a preserved human head, venerated for six centuries. Some visitors find it profoundly moving, others difficult. Both reactions are reasonable; what it is not is a curiosity — for the Sienese, and for the pilgrims you will share the chapel with, this is the city's patron at home.
+
+From the basilica's terrace side, the view over Fontebranda to the cathedral opposite is among the best free prospects in the city — and it is the whole story in one frame: **the dyers' valley she came from, the ridge church that formed her, and the cathedral of the city that now claims her**.`,
+      },
+      {
+        id: 'fitting-her-in',
+        heading: 'Fitting Catherine into a Siena day',
+        body: `Because both sites are free and neither takes bookings, the Catherine walk is the most flexible half-day in Siena — which makes it the natural counterweight to the ticketed half.
+
+**The pairing that works best:** a morning on the [cathedral complex](/siena-cathedral-guide) or the [Campo's museums](/piazza-del-campo-guide) — the halves of Siena that need slots, counters and passes — then the Catherine walk from mid-afternoon, when the sanctuary's oratories begin to empty. Start at the sanctuary, descend toward Fontebranda, climb to San Domenico, and end on the basilica's terrace side with the view back across the valley as the light goes.
+
+**In bad weather** the pairing inverts usefully: both of her sites are interiors, both are free, and together with [Santa Maria della Scala](/santa-maria-della-scala-siena) they make a wet day in Siena that costs nine euro in total.
+
+**For the walking**, be honest with your knees: the Costa di Sant'Antonio is one of the steepest regularly walked slopes in the centre, and the sanctuary-to-basilica leg is a genuine descent-and-climb. [Our walking route](/siena-walking-tour) covers the wider geography; this quarter is the city's three-ridge structure at its most emphatic.
+
+**And read something before you go.** Her *Dialogue* and the surviving letters fill volumes in modern editions, and even ten minutes with the letters — the scolding of popes, the tenderness to prisoners, the *babbo mio* — turns the small rooms of the sanctuary from a shrine into a portrait. She is the rare saint whose own voice survives, and it is not a quiet one.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **16 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
+
+**Verified:** her birth on 25 March 1347 to the dyer Giacomo di Benincasa and Lapa, a poet's daughter; her death in Rome on 29 April 1380; the June 1376 journey to Avignon as ambassador for Florence and the mission's diplomatic failure; Gregory XI's return to Rome in 1377, with the tradition — quoted from the Catholic Encyclopedia — counting it as her merit; her body's resting place in Santa Maria sopra Minerva in Rome; the transfer of her head to Siena in 1383 and its procession through the city attended by her mother Lapa, then aged eighty-nine; the head's presence in the Basilica di San Domenico today; her canonisation by Pius II in 1461; the sanctuary's establishment in her family home, dated to 1464, with the Chiesa del Crocifisso preserving the crucifix of the stigmata tradition; **free admission** to both the sanctuary and San Domenico; and her titles as patron of Italy (1939, Pius XII) and co-patron of Europe (1999, John Paul II).
+
+**Stated as tradition or flagged:** the stigmata itself, which is a devotional tradition attached to the Pisa crucifix and described here as such; the sanctuary's opening hours, which come from third-party listings rather than the sanctuary's own published schedule and should be treated as indicative; her status as one of a very large family, which the biographical tradition records with varying counts we have therefore omitted; and the year of her naming as Doctor of the Church, which is standardly given as 1970 under Paul VI but which we did not independently confirm this session — the title itself is verified.
+
+We have no commercial relationship with the sanctuary, the basilica or any religious body. Both visits are free; no booking made from this page pays us anything.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Siena's other monuments are the works of governments, banks and building committees. These two are the trace of a single person — and of the strangest fact in the city's history, which is that its most powerful citizen was a woman with no power at all.
+
+Go late in the day if you can. The tour groups thin, the sanctuary's oratories go quiet, and the walk between the house and the basilica — down one slope, up the other, past the fountain where her father's trade drew its water — takes fifteen minutes and seven centuries. It costs nothing. In a city this good at charging for its past, that is its own kind of tribute: the places of the dyer's daughter are the ones Siena never learned to sell.`,
+      },
+    ],
+    [
+      { q: 'Who was Saint Catherine of Siena?', a: 'A dyer’s daughter, born in Siena on 25 March 1347, who as a lay Dominican became one of the most influential figures of fourteenth-century Europe — dictating letters to princes and popes, travelling to Avignon in 1376 as ambassador for Florence, and pressing Gregory XI to return the papacy to Rome, which he did in 1377. She died in Rome in 1380 aged thirty-three, was canonised in 1461 by the Sienese pope Pius II, and is patron saint of Italy and co-patron of Europe.' },
+      { q: 'Where is Saint Catherine buried?', a: 'Her body lies under the high altar of Santa Maria sopra Minerva in Rome, where she died in 1380. Her head was brought to Siena in 1383, carried through the city in procession attended by her mother, and is enshrined in its own chapel in the Basilica di San Domenico, where it remains.' },
+      { q: 'Can you visit Saint Catherine’s house in Siena?', a: 'Yes, free. The Santuario-Casa di Santa Caterina, on the Costa di Sant’Antonio above the Fontebranda valley, has been a sanctuary since 1464 — oratories built over the family home, her cell, and the Chiesa del Crocifisso with the crucifix of the stigmata tradition. Third-party listings give the church as roughly 9:30–12:30 and 15:00–19:00, but treat hours as indicative and expect closures around services.' },
+      { q: 'Is San Domenico in Siena free to enter?', a: 'Yes. The basilica is a working church with free entry, and the Cappella di Santa Caterina inside holds the head reliquary. Hours follow church use, with closures around services. The terrace side gives one of the best free views in Siena — across Fontebranda to the cathedral.' },
+      { q: 'Did Catherine of Siena really bring the papacy back to Rome?', a: 'She was one decisive voice among several pressures, and honest history divides the credit — Gregory XI had his own reasons. But she argued the case to him face to face in Avignon in 1376 after years of letters, he entered Rome in January 1377, and contemporaries and the tradition counted the return as her merit. No fuller single-person explanation of the event has ever displaced her.' },
+      { q: 'What is the connection between Catherine and the Piccolomini Library?', a: 'The pope who canonised her in 1461, Pius II, was Enea Silvio Piccolomini — Siena’s great Renaissance pope, whose life is the subject of Pinturicchio’s frescoes in the Piccolomini Library at the cathedral. The city’s greatest saint was raised to the altars by the city’s greatest pope, and both stories are told within a few hundred metres of each other.' },
+      { q: 'How long does the Catherine walk take?', a: 'An unhurried ninety minutes covers both sites and the quarter between them: the sanctuary on the Costa di Sant’Antonio, the steep descent toward the Fontebranda valley, and the climb to San Domenico on its ridge. Both sites are free, so this pairs naturally with a ticketed morning at the cathedral or the Campo museums.' },
+    ],
+    '2026-09-06',
+    {
+      seoTitle: 'St Catherine of Siena: Her House, Her Church and Her Story',
+      primaryKeyword: 'saint catherine of siena',
+      secondaryKeywords: [
+        'santuario casa di santa caterina siena',
+        'san domenico siena catherine head',
+        'catherine of siena avignon pope',
+        'where is saint catherine of siena buried',
+        'free things to see in siena',
+        'siena pilgrimage sites',
+      ],
+      imageAlt: 'A steep lane in Siena’s old quarters, like those between Catherine’s house and San Domenico',
+      canonicalPath: '/blog/saint-catherine-of-siena-places',
+      tags: ['siena history', 'saint catherine', 'churches', 'free things to do', 'pilgrimage'],
+    }
+  ),
+  A(
+    'monte-dei-paschi-oldest-bank-siena',
+    'The Oldest Bank in the World Is a Sienese Charity That Refused to Die',
+    'Things to do',
+    'Siena',
+    'Siena invented big banking, lost it in Europe’s first crash, then founded a 1472 charity that became the world’s oldest bank. It is still on its square.',
+    '/images/siena/08-siena-cityscape.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Walk north from the Campo along Banchi di Sopra and within three minutes you reach a Gothic palace on its own quiet square. There is no queue, no ticket office and no plaque a visitor would notice. It is **Palazzo Salimbeni**, working headquarters of **Banca Monte dei Paschi di Siena — founded in 1472, the oldest bank in the world still operating** — and it is the third pillar of the city, standing with the Campo and the Duomo.
+
+The story is better than the superlative. Siena had already invented big banking once: in the thirteenth century its **Gran Tavola** was the most powerful bank in Europe, banker to the popes — and its collapse in **1298** ruined the city in Europe's first great financial crash. The institution Siena built afterwards, a **charity lending to the poor at minimal interest**, is the one that lasted five and a half centuries.
+
+**As a visit** this is fifteen minutes, free, and best taken as part of a walk: the palace and piazza are the point, because the bank's art collection is mostly not open to the public. But as a *story* it reframes half the city — because money, not just faith, built the Siena you are photographing, and this square is where the money lived. This article gives you the story, then the walk.`,
+      },
+      {
+        id: 'gran-tavola',
+        heading: 'The first age: bankers to the popes',
+        body: `Before Florence was Europe's banker, Siena was.
+
+In **1255** the Sienese merchant **Orlando Bonsignori** formed a consortium called the **Gran Tavola** — the "Great Table" — which grew into what historians have called the greatest bank of the thirteenth century and the most powerful in Europe. Its decisive asset was a relationship: the Bonsignori became **the papacy's bankers**, holding the deposits of the Papal States and channelling the ecclesiastical tithes raised for the Holy Land. In an age when the Church was Europe's largest financial network, Siena sat at the till.
+
+This is the money behind the marble. The century of the Gran Tavola is the century of the [cathedral's expansion, the Campo's paving and the rise of the Nine](/blog/siena-1348-the-year-the-city-stopped/) — the great building age that still defines the city was funded by a town of bankers at the height of their reach.
+
+**Then it ended, fast.** The firm declined after Orlando's death in 1273, and two external blows finished it: **Philip IV of France confiscated the assets of Sienese merchants** in his kingdom, and **Pope Boniface VIII moved the papal business to Florentine banks**. In **1298 the Gran Tavola went bankrupt**, dragging other Sienese banks down with it and opening a period of sustained economic ruin. Europe's first great banking collapse happened here — and the papal account, once lost to Florence, never came back. If you want a one-line financial history of Tuscany: **Siena built the table, Florence took the chairs.**`,
+      },
+      {
+        id: 'monte-1472',
+        heading: '1472: the charity that outlived everything',
+        body: `What Siena founded next could hardly have been more different from the Gran Tavola, and the difference is why it survived.
+
+On **27 February 1472**, by resolution of the General Council of the Republic, the city established a **Monte di Pietà** — a civic pawn bank created expressly, in the founding language, to lend to **"poor or miserable or needy persons" at minimal interest**. This was not a merchant venture chasing papal deposits; it was an anti-usury institution of civic Catholicism, born of the same religious-civic culture that had [given the city to the Virgin](/blog/battle-of-montaperti-1260-siena/) and canonised [its dyer's daughter](/blog/saint-catherine-of-siena-places/) eleven years earlier.
+
+Consider what 1472 means. The bank is **older than the discovery of the Americas, older than the Medici grand duchy, older than every nation-state in Europe in its current form**. It was founded by a Republic that had eighty-three years left to live — and when [the siege of 1554–55](/blog/siena-1348-the-year-the-city-stopped/) ended Sienese independence, the Republic's bank simply carried on under new management, and has now outlived its founder by nearly five centuries.
+
+**The name came in 1624**, with a reform under which the bank's depositors were guaranteed against the income of the state-owned grazing lands — the ***paschi*** — of the Sienese countryside. A bank named after pastures: even at its most financial, Siena secured money against grass.`,
+      },
+      {
+        id: 'third-pillar',
+        heading: 'The third pillar of the city',
+        body: `For generations of Sienese, "il Monte" has been less a company than a fact of civic life — employer, patron and purse, standing in the city's self-image alongside the commune and the cathedral. Its patronage of Sienese institutions and events is part of the city's modern fabric, widely reported and locally taken for granted; we state it generally here because the particulars shift year to year.
+
+**Its twenty-first century has been the hardest since 1298.** The world's oldest bank spent the 2010s in crisis — scandal, losses and rescue made global financial news, and for a while its survival was genuinely in question. It survived; the details belong to the business pages rather than a travel article, but a visitor should know that the quiet palace on the square has recently lived through its second near-death in seven hundred years. Sienese feeling about the bank runs correspondingly deep, in both directions — pride and grievance together. It is a good subject to ask about and a poor one to joke about, roughly like [the contrade](/siena-contrade-guide).`,
+      },
+      {
+        id: 'visiting',
+        heading: 'Visiting: the square, the palace, the walk',
+        body: `Be honest about what this visit is: **an exterior, a square and a story.** Palazzo Salimbeni is a working bank headquarters, and its accumulated art collection — five centuries of Sienese painting and documents — is **mostly not open to the public**. There is no ticket to buy, which is either a disappointment or a relief depending on how your museum budget is doing.
+
+What you get, free:
+
+- **Piazza Salimbeni** itself, one of the most composed small squares in the city — the Gothic palace at its head, flanked by Renaissance neighbours, usually near-empty because nothing on it is ticketed.
+- **The setting on Banchi di Sopra**, the [Via Francigena's course through the city](/siena-walking-tour) and Siena's smart street then and now. The bank sits on the pilgrim-and-money road it grew from: the same street carried both kinds of traffic, which is the whole medieval banking story in one line of paving.
+- **The walk north**, continuing along Banchi di Sopra toward Camollia — the direction [our walking route](/siena-walking-tour) flags as the city at its least performed.
+
+**Time it for the passeggiata if you can.** Banchi di Sopra is the spine of Siena's evening walk, and in the hour before dinner the street fills with the city doing its slowest, most sociable lap — which puts the bank's palace in its proper context better than any morning visit: not a monument on a route, but the fixed backdrop of Sienese daily life, seven centuries running.
+
+**And note what it combines with.** Salimbeni sits naturally between the Campo and [the Catherine walk](/blog/saint-catherine-of-siena-places/) — her sanctuary and San Domenico lie just west of this street — which means the bank, the saint's house and the basilica chain into a half-day of the city's best free things, in a town where the ticketed half [prices itself confidently](/siena-cathedral-guide).
+
+**Give it fifteen unhurried minutes** on the way to somewhere else, and spend them on the one thought the square is built for: everything else you have seen today — [the Duomo](/siena-cathedral-guide), [the Campo](/piazza-del-campo-guide), the palazzi — was paid for, and this unticketed square is where the paying was arranged, across seven and a half centuries, twice nearly to death and twice back.`,
+      },
+      {
+        id: 'institutional-longevity',
+        heading: 'The Sienese talent nobody names: keeping things alive',
+        body: `Put the bank beside the city's other survivors and a pattern appears that no other European city quite matches.
+
+**The [contrade](/siena-contrade-guide)** have held their present boundaries since a 1730 edict and their identities for far longer. **The Palio** has been run for the Virgin across centuries under rules that change glacially and by consensus. **The [university](/blog/siena-1348-the-year-the-city-stopped/)'s city** kept a plague-vow chapel in continuous meaning for six hundred years. And **il Monte** has kept a charity's charter working since 1472 — through the fall of the Republic it was founded by, the Medici, Napoleon, unification, two world wars and its own twenty-first-century near-death.
+
+The pattern is not conservatism, exactly. It is that Siena treats institutions the way other cities treat monuments: as things you maintain rather than replace. Florence, thirty miles away, has rebuilt itself intellectually every century — that is its genius. Siena's genius is duration, and it is a genuinely strange talent: easy to mistake for stagnation, until you notice that everyone else's fifteenth-century banks, brotherhoods and boundary systems are museum labels now, and Siena's still answer the phone, run the race and fly the flags.
+
+**Which is the real reason to stand in Piazza Salimbeni for a quarter of an hour.** The palace is handsome; the institution is astonishing. You are looking at the world's longest continuously running answer to the question every civilisation faces — how do you make something last? — and the Sienese answer, on the evidence, is: found it as a duty rather than a venture, bind it to the city's identity, and never, ever wind it up merely because the world has changed.
+
+One street-level footnote as you walk on. The street is **Banchi di Sopra** — the "upper benches" — and the received etymology runs through the *banchi*, the merchants' and money-changers' counters that lined it; the same bench, *banco*, that gave European languages the word **bank** itself. Whether or not the derivation is airtight, the street sign says what the city was.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **16 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
+
+**Verified:** the founding of the Monte di Pietà on **27 February 1472** by resolution of the General Council of the Republic of Siena, for charitable lending to "poor or miserable or needy persons" at minimal interest; its standing as **the oldest bank in the world in continuous operation**; the **1624 reform** under which depositors were guaranteed against the income of the state-owned pastures — the *paschi* — giving the bank its name; the headquarters' continuous presence in **Palazzo Salimbeni**; the art collection's existence and the fact that it is **mostly not publicly accessible**; the **Gran Tavola** — formed by **Orlando Bonsignori in 1255**, the most powerful bank of thirteenth-century Europe and banker to the papacy, holding Papal State deposits and Holy Land tithes; its decline after Orlando's death in 1273 and its **bankruptcy in 1298** under the twin blows of Philip IV's confiscations and Boniface VIII's transfer of papal business to Florentine banks, followed by sustained economic ruin in Siena.
+
+**Stated generally rather than in particulars, and flagged as such:** the bank's and its foundation's patronage of Sienese civic life, which is widely reported but whose specifics change year to year; and the twenty-first-century crisis and rescue, which made global news across the 2010s and which we deliberately summarise without figures — the corporate history is still moving, and a travel article is the wrong place to freeze it. **Not established:** whether the *paschi* of the 1624 guarantee were specifically the Maremma pastures, as often stated — our source says state-owned pastures without naming the district; and any current arrangements for public access to the art collection beyond "mostly not accessible" — if occasional openings exist, the bank announces them, not us.
+
+We have no commercial relationship with Banca Monte dei Paschi di Siena or any entity named. Nothing on this page can be booked at all.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Every city tells you what it values by what it puts on its best squares. Siena put government on the Campo, God on the hilltop, and money on Banchi di Sopra — and of the three, the money has the strangest story: a European superpower that died in 1298, reborn in 1472 as a charity for the poor, still doing business in the same palace while empires, republics and its own near-bankruptcies came and went.
+
+Stand in Piazza Salimbeni for a quarter of an hour on your way north. It costs nothing, which — for an institution founded to lend to those who had nothing — is somehow the correct price of admission.`,
+      },
+    ],
+    [
+      { q: 'What is the oldest bank in the world?', a: 'Banca Monte dei Paschi di Siena, founded on 27 February 1472 by resolution of the General Council of the Republic of Siena as a Monte di Pietà — a civic charity lending to the poor at minimal interest. It has operated continuously ever since, from the same headquarters, Palazzo Salimbeni in Siena, and took its present name in 1624 from the state-owned pastures — the paschi — pledged as guarantee to its depositors.' },
+      { q: 'Can you visit Monte dei Paschi in Siena?', a: 'The exterior and Piazza Salimbeni, freely — the palace is a working bank headquarters and its five-century art collection is mostly not open to the public. It is a fifteen-minute stop on Banchi di Sopra, three minutes north of the Campo, and worth taking for the square and the story rather than for an interior.' },
+      { q: 'What was the Gran Tavola?', a: 'The great Sienese bank formed by Orlando Bonsignori in 1255 — the most powerful in thirteenth-century Europe and banker to the papacy, holding the deposits of the Papal States. It declined after Orlando’s death in 1273 and went bankrupt in 1298, ruined by Philip IV of France’s confiscations and Pope Boniface VIII’s transfer of papal business to Florence. Its collapse ruined Siena’s first financial age — and the papal account never came back.' },
+      { q: 'Why is the bank called Monte dei Paschi?', a: 'From a 1624 reform under which the bank’s depositors were guaranteed against the income of state-owned grazing lands — the paschi. The "Monte" is the older part of the name: the Monte di Pietà, the charitable fund founded in 1472. Between them the name records both identities — a charity, secured against pastures.' },
+      { q: 'Did Siena or Florence invent banking?', a: 'Siena got there first at scale: the Gran Tavola was Europe’s dominant bank and the papacy’s banker through the mid-thirteenth century, while Florence’s great houses rose afterwards — helped decisively when Boniface VIII moved the papal business to Florentine banks in the 1290s and the Gran Tavola collapsed in 1298. A fair one-line version: Siena built the table, Florence took the chairs.' },
+      { q: 'Can you go inside Palazzo Salimbeni?', a: 'Not in the ordinary run of things. It is the working headquarters of an operating bank, and the art and archives accumulated across five centuries are mostly not open to the public. If occasional openings happen, the bank announces them — treat any visit to the interior as a bonus, not a plan, and take the square, the façade and the story, which are free and always available.' },
+      { q: 'Is Monte dei Paschi still in trouble?', a: 'Its twenty-first century has been turbulent — crisis, scandal and rescue made global headlines through the 2010s, the hardest passage since 1298 — and the corporate story is still moving, which is why this article summarises it without figures. What a visitor needs to know is simpler: the bank survived, it still operates from Palazzo Salimbeni, and Sienese feeling about it runs deep in both directions.' },
+    ],
+    '2026-09-07',
+    {
+      seoTitle: 'Monte dei Paschi 1472: Visiting the World’s Oldest Bank in Siena',
+      primaryKeyword: 'oldest bank in the world siena',
+      secondaryKeywords: [
+        'monte dei paschi di siena history',
+        'palazzo salimbeni siena',
+        'gran tavola bonsignori',
+        'monte di pieta 1472',
+        'siena banking history',
+        'free things to see in siena',
+      ],
+      imageAlt: 'The rooftops of Siena, the city whose banks financed its medieval building age',
+      canonicalPath: '/blog/monte-dei-paschi-oldest-bank-siena',
+      tags: ['siena history', 'monte dei paschi', 'banking history', 'free things to do'],
+    }
+  ),
+  A(
+    'sienese-school-painting-where-to-see',
+    'Sienese Painting: Why It Looks Like That, and Where to See It',
+    'Things to do',
+    'Siena',
+    'Florence invented depth; Siena kept heaven. What the gold-ground Sienese school was, why it ended in 1348, and the three-museum route that shows it best.',
+    '/images/siena/03-piccolomini-library.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Most visitors meet Sienese painting by accident — a room of gold backgrounds and almond-eyed Madonnas passed through on the way to something with perspective — and file it as "before art got good". That reading is almost exactly backwards, and correcting it is the cheapest upgrade available to a Tuscan trip.
+
+**The Sienese school was not failed Florentine painting. It was a different project.** Florence, from Giotto on, painted the world as a solid place — weight, depth, anatomy, the room you could walk into. Siena painted **heaven as a presence** — line, gold, tenderness and pattern, refined to an intensity no one else in Europe matched. One tradition led to the Renaissance and eventually to photography; the other led inward. You do not have to prefer it. You do have to see it in the city that made it, where it stayed.
+
+**The three-stop route, in story order:**
+
+1. **Museo dell'Opera** (on the [OPA SI Pass](/siena-cathedral-guide)) — Duccio's **Maestà**, the altarpiece carried through the streets in 1311, the school's founding masterpiece.
+2. **Museo Civico** ([Palazzo Pubblico](/piazza-del-campo-guide)) — the Lorenzetti *Good and Bad Government*, the school going secular and political.
+3. **Pinacoteca Nazionale** — the deep bench: rooms of Duccio, Simone Martini and the Lorenzetti, in a city-palace museum that almost nobody queues for.
+
+Half a day covers all three. This article gives you the eyes first.`,
+      },
+      {
+        id: 'what-it-is',
+        heading: 'What Sienese painting is, in one museum room',
+        body: `Stand in front of any fourteenth-century Sienese panel and four things are doing the work:
+
+**Gold ground.** The background is not a place; it is **eternity**, rendered in actual gold leaf that moved with candlelight. A Florentine background tells you where the scene happens. A Sienese background tells you it happens outside time. Calling it "primitive" is like calling an icon a failed photograph — the flatness is the theology.
+
+**Line.** Sienese painting draws where Florentine painting models. Contours curve with a calligraphic, almost musical elegance — the school's inheritance from Byzantine icon painting, refined rather than rejected. Follow the outline of a Madonna's veil in a Duccio and you are watching a line think.
+
+**Tenderness.** The stock subject is the Virgin and Child, and Siena's innovation was emotional: mothers who look at their children, children who grip a mother's veil. This is the [City of the Virgin](/blog/battle-of-montaperti-1260-siena/) painting its sovereign — the Maestà is not a devotional picture that happens to be civic, it is the state portrait of Siena's queen.
+
+**Colour as luxury.** Rose, ultramarine at smuggler's prices, and that gold — the palette of a banking city spending on its saints what it made on [its tables](/blog/monte-dei-paschi-oldest-bank-siena/).
+
+**And one more thing, which photographs never carry: the scale.** Much of the school's finest work is small — panels made for side altars, bedchambers and processional carrying, meant to be looked at from the distance of prayer rather than across a gallery. Stand close. These are objects built for one viewer at a time, and a museum room full of them is really a room full of private conversations; the gold only starts working at arm's length, where it was designed to catch a candle rather than a flash.
+
+Once you can see those five, the "old-fashioned" room becomes the most distinctive thing in Tuscan art: **the last, highest moment of medieval painting, made by a city rich enough to perfect it just before the world changed.**`,
+      },
+      {
+        id: 'duccio',
+        heading: 'Duccio, and the day a painting closed the city',
+        body: `The school's founding event has a date and eyewitnesses. In **1311**, Duccio di Buoninsegna completed the **Maestà** — the Virgin in majesty, enthroned among saints, painted on both faces of a great altarpiece for the cathedral's high altar — and Siena **shut down to walk it there**. The panel was carried in procession from the painter's workshop to the Duomo, with clergy, officials and the population accompanying it through the streets.
+
+Hold that scene: a city closing for a *painting*. Not for a relic, a king or a victory — for the delivery of an artwork, sixty years before anywhere else in Europe would have understood the gesture. It is the clearest statement in the historical record of what images meant here.
+
+The Maestà lives today in the **Museo dell'Opera del Duomo**, dismantled and partly dispersed, its two faces separated — the enthroned Virgin on one side of the room, the narrative panels of Christ's Passion facing her. It is [included in the OPA SI Pass](/siena-cathedral-guide), and it is, by some distance, **the single greatest object in Siena**. Give it twenty minutes, not two: the Passion panels reward reading like a graphic novel, scene by scene, and almost everyone walks past them to photograph the gold.`,
+      },
+      {
+        id: 'martini-lorenzetti',
+        heading: 'Simone Martini and the Lorenzetti: grace and government',
+        body: `Duccio's heirs split his inheritance between them, and the split is the school's story.
+
+**Simone Martini took the grace.** His line is the school's at its most refined — courtly, sinuous, French-inflected Gothic elegance that made him famous far beyond Tuscany; he ended his career at the papal court in Avignon. In the **Pinacoteca Nazionale** his *Blessed Agostino Novello* altarpiece shows the register he owned: miracles rendered with an almost domestic gentleness, children falling from balconies and being caught mid-air by a saint who arrives like a thought.
+
+**The Lorenzetti brothers took the world.** Pietro and Ambrogio pushed Sienese painting toward weight, space and observed life — without surrendering the line. Ambrogio's ***Allegory and Effects of Good and Bad Government*** (1338–1339), painted for the [council room of the Nine](/piazza-del-campo-guide), is the school's great secular achievement and arguably medieval Europe's: a frescoed argument about politics, with the earliest great painted landscape in the tradition — the Sienese countryside rolling away under the effects of good rule, recognisably [the Crete and the hills you can still drive](/blog/val-dorcia-or-chianti-which-to-visit-2026/).
+
+**Then 1348.** The plague that [stopped the city](/blog/siena-1348-the-year-the-city-stopped/) is generally believed to have killed both Lorenzetti brothers, and the school's golden age died with them. Sienese painting continued for two centuries — conservative, beautiful, increasingly out of step — but the trajectory that might have rivalled Florence's ended in the plague pits. When people say Siena's art is "frozen in time", this is the freezer: the school did not fall behind, it was **cut off mid-stride**.`,
+      },
+      {
+        id: 'pinacoteca',
+        heading: 'The Pinacoteca: the best queue-free museum in Tuscany',
+        body: `The **Pinacoteca Nazionale**, on Via San Pietro a few minutes south of the Campo, holds **the world's most significant collection of Sienese school painting** — room after room of gold-ground panels tracing the tradition from its origins through the fifteenth century — and it is reliably, almost eerily, uncrowded. In a region where the headline galleries need [sold-out survival guides](/blog/uffizi-tickets-sold-out-what-to-do/), Siena's principal art museum can be walked into on a summer afternoon.
+
+**Practicalities, from third-party listings rather than the museum's own page — check before you build a day on them:** hours around **10:00–18:00**, admission around **€8**. The setting is part of the point: the collection hangs in **Palazzo Buonsignori**, a Gothic city palace — whose name, at the least, echoes the Bonsignori of the [Gran Tavola](/blog/monte-dei-paschi-oldest-bank-siena/); painting bought with banking money now hangs under a banker's name either way.
+
+**How to visit it without drowning:** gold-ground rooms defeat completists. Pick three works and give them ten minutes each — the *Blessed Agostino Novello* for Martini's line, a Duccio Madonna for the school's tenderness, and any Lorenzetti for the world creeping in. Twenty panels at thirty seconds each teaches nothing; three at ten minutes recalibrates your eyes for the rest of the trip — which is the actual return on this museum, and why it belongs **before** the Uffizi in an itinerary, not after it.`,
+      },
+      {
+        id: 'half-day-plan',
+        heading: 'The half-day plan, priced',
+        body: `The three museums sit within a twenty-minute walk of one another, and the order matters more than the pace.
+
+**Morning, from opening:** start at the **Museo dell'Opera** on the [OPA SI Pass](/siena-cathedral-guide) — €13, or €15 while the cathedral floor is uncovered — and give the Maestà the first, freshest twenty minutes of your attention. The pass is **valid three consecutive days**, so the rest of the cathedral complex does not have to happen today; that flexibility is the whole trick of this plan.
+
+**Late morning:** down to the Palazzo Pubblico for the **Museo Civico** at €10 (€15 combined with the Torre, [with its no-booking rules](/torre-del-mangia-guide)) and the Lorenzetti frescoes — best before the midday tour-group pulse reaches the Campo.
+
+**After lunch:** the **Pinacoteca** on Via San Pietro, around €8 by third-party listings, in the emptiest early-afternoon hours when the headline sights are at their fullest. Three works, ten minutes each, then stop.
+
+**The arithmetic:** roughly **€31–33 total** for the greatest concentration of Sienese painting on earth — about the price of a single Uffizi advance ticket and a coffee. And the crowd arithmetic is better still: of the three, only the Museo Civico ever feels busy.
+
+**If you have only an hour**, spend all of it with the Maestà and walk past everything else without guilt. One masterpiece properly seen outweighs three museums skimmed — and the Maestà is the one object in Siena that repays a visit all by itself.
+
+**When it rains**, this plan is the city's best day rather than its consolation: all three museums are interiors, and together with [Santa Maria della Scala](/santa-maria-della-scala-siena) across from the cathedral they make a full wet-weather circuit — the same rescue our [walking route](/siena-walking-tour) reaches for when the weather closes the tower.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **16 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
+
+**Verified:** the Pinacoteca Nazionale's standing as the world's most significant collection of Sienese school painting, its location in Palazzo Buonsignori on Via San Pietro, and the presence of works by Duccio, Simone Martini and Ambrogio Lorenzetti, including Duccio's *Madonna dei Francescani* and Martini's *Blessed Agostino Novello*; the completion of Duccio's **Maestà in 1311** and its procession through the city to the cathedral, as carried in our cathedral guide's verification; the Maestà's present home in the Museo dell'Opera and its inclusion in the OPA SI Pass; Ambrogio Lorenzetti's *Allegory and Effects of Good and Bad Government* of **1338–1339** in the Palazzo Pubblico's Sala dei Nove, as verified for our Campo guide; and Simone Martini's later career at the papal court in Avignon, as standard biography.
+
+**Stated as third-party figures rather than official:** the Pinacoteca's hours (around 10:00–18:00) and admission (around €8), which come from visitor listings rather than the museum's own published page — treat both as indicative. **Stated as scholarly belief rather than documented fact:** the deaths of both Lorenzetti brothers in the 1348 plague, which is the general presumption. **Deliberately avoided:** attribution controversies, including the Guidoriccio fresco question, which deserve more space than a visitor guide can give them; and a claimed genealogical identity between the Palazzo Buonsignori and the Bonsignori banking family, which we could not confirm and therefore describe only as an echo of names.
+
+We have no commercial relationship with any museum named. No booking made from this page pays us anything.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Art history, as usually taught, is a road that runs through Florence, and Sienese painting appears in it as the scenic turn-off the main road bypassed. Spend half a day with the school in its own city and the metaphor reverses: this was not a road to somewhere else. It was a destination that stopped being built.
+
+The gold grounds were never naïve. They were a choice, made by the richest and most confident city of its age, renewed right up until the year the [painters died with everyone else](/blog/siena-1348-the-year-the-city-stopped/). Florence teaches you how painting learned to show the world. Siena shows you what painting was for before that seemed like the point — and it does so in three museums you can walk between in twenty minutes, one of which you will have nearly to yourself.`,
+      },
+    ],
+    [
+      { q: 'What is the Sienese school of painting?', a: 'The painting tradition of medieval Siena — Duccio, Simone Martini, Pietro and Ambrogio Lorenzetti and their successors — defined by gold grounds, calligraphic line, jewel colour and emotional tenderness. Where Florence from Giotto onward pursued depth and solidity, Siena refined the Byzantine inheritance into the last, highest moment of medieval painting. Its golden age ended abruptly in 1348, when the plague is generally believed to have killed both Lorenzetti brothers.' },
+      { q: 'What is Duccio’s Maestà and where is it?', a: 'The Virgin in majesty, painted on both faces of a great altarpiece for Siena Cathedral’s high altar and completed in 1311 — when the city shut down and carried it in procession from the workshop to the Duomo. It hangs today, dismantled, in the Museo dell’Opera del Duomo, covered by the OPA SI Pass, with the enthroned Virgin facing the narrative panels of the Passion. It is the single greatest object in Siena.' },
+      { q: 'Is the Pinacoteca Nazionale in Siena worth visiting?', a: 'For anyone with a flicker of interest in painting, yes — it holds the world’s most significant collection of the Sienese school, in a Gothic palace a few minutes from the Campo, and it is reliably uncrowded in a region of sold-out galleries. Third-party listings give hours around 10:00–18:00 and admission around €8; check before building a day on either figure.' },
+      { q: 'Why do Sienese paintings have gold backgrounds?', a: 'Because the background is not a place but eternity: gold leaf, moving with candlelight, locates the scene outside time — the theology is in the flatness. Reading it as a failure of perspective mistakes the project; Siena was not trying to paint the room you could walk into, but the presence you could pray to.' },
+      { q: 'How is Sienese painting different from Florentine painting?', a: 'Florence painted the world as a solid place — weight, anatomy, the depth that led to the Renaissance. Siena painted heaven as a presence — line, gold, pattern and tenderness, refined from the Byzantine inheritance rather than overthrown. They are parallel projects, not stages of one progress; seeing the Sienese school in its own city is the quickest cure for the "before art got good" misreading.' },
+      { q: 'Should you see Siena’s painting before or after the Uffizi?', a: 'Before, if your trip allows it. The Sienese school teaches you to read line, gold and tenderness on their own terms; arrive with Florentine expectations and the gold grounds read as a warm-up act, which is the standard tourist misreading. Do Siena’s three museums first and the Uffizi’s early rooms become a conversation between two projects rather than a staircase of progress — and the Uffizi is the gallery that needs a sold-out survival plan, not these.' },
+      { q: 'Where should you see Sienese painting in Siena?', a: 'Three stops in story order, walkable in twenty minutes: the Museo dell’Opera for Duccio’s Maestà (OPA SI Pass), the Museo Civico for Ambrogio Lorenzetti’s Good and Bad Government of 1338–39, and the Pinacoteca Nazionale for the deep collection. Half a day covers all three — and doing them before Florence’s galleries recalibrates your eyes for the whole trip.' },
+    ],
+    '2026-09-08',
+    {
+      seoTitle: 'Sienese School of Painting: A Visitor’s Guide to Duccio & Lorenzetti',
+      primaryKeyword: 'sienese school of painting',
+      secondaryKeywords: [
+        'duccio maesta siena',
+        'pinacoteca nazionale siena worth it',
+        'ambrogio lorenzetti good government',
+        'simone martini siena',
+        'sienese vs florentine painting',
+        'siena art museums',
+      ],
+      imageAlt: 'Frescoed vaults in Siena — the colour and line the Sienese school made its signature',
+      canonicalPath: '/blog/sienese-school-painting-where-to-see',
+      tags: ['siena history', 'sienese school', 'art', 'museums', 'duccio'],
     }
   ),
 ];

@@ -133,6 +133,11 @@ Dua baris pertama sudah live saat batch ini dibuat (12–13 Agu); sisanya menyus
 | /blog/uffizi-tickets-sold-out-what-to-do | 2026-09-01 |  |  |  |  |  |
 | /blog/leroica-gaiole-in-chianti-2026 | 2026-09-02 |  |  |  |  |  |
 | /blog/accademia-tickets-sold-out-florence | 2026-09-03 |  |  |  |  |  |
+| /blog/battle-of-montaperti-1260-siena | 2026-09-04 |  |  |  |  |  |
+| /blog/siena-1348-the-year-the-city-stopped | 2026-09-05 |  |  |  |  |  |
+| /blog/saint-catherine-of-siena-places | 2026-09-06 |  |  |  |  |  |
+| /blog/monte-dei-paschi-oldest-bank-siena | 2026-09-07 |  |  |  |  |  |
+| /blog/sienese-school-painting-where-to-see | 2026-09-08 |  |  |  |  |  |
 
 Catatan batch 3:
 - Halaman live yang berubah signifikan dan layak re-request saat deploy: homepage
@@ -230,13 +235,14 @@ repo (produksi tidak bisa diakses dari sandbox):
   description (bawaan template shell + suntikan generator), dan tag pertama
   selalu judul brand generik. Crawler yang membaca HTML mentah juga melihat
   judul generik itu lebih dulu.
-- Fix di branch ini (2026-08-17): `generate-static-html.js` kini membuang
-  title/description polos milik template sebelum menyuntik pasangan data-rh,
-  diverifikasi lokal — 114 halaman kini membawa tepat satu title + satu
-  description, tag verifikasi Impact tetap utuh verbatim. Ekspektasi judul
-  homepage di `smoke-deploy.mjs` diperbarui ke judul hasil rewrite #76
-  ("Tuscany Trip Planning…"), yang selama ini lolos hanya karena kebetulan
-  membaca judul dobel. Sembilan cek smoke disimulasikan lokal: semua PASS.
+- Fix-nya **mendarat lewat #107** (2026-08-17): `generate-static-html.js`
+  membuang title/description polos milik template sebelum menyuntik pasangan
+  data-rh, dan ekspektasi judul homepage di `smoke-deploy.mjs` diperbarui ke
+  judul hasil rewrite #76 — plus `extractTitle` kini mendekode entity HTML.
+  Branch PR #70 sempat membawa fix yang sama (dikerjakan paralel, diverifikasi
+  lokal: 114 halaman tepat satu title + satu description, tag Impact utuh,
+  sembilan cek smoke PASS dalam simulasi), lalu mengadopsi versi #107 saat
+  merge supaya main tetap satu-satunya sumber implementasi.
 
 Langkah 5xx yang tersisa (butuh akses GSC/Cloudflare, manual):
 1. Buka indexing report → baris "Server error (5xx)" → catat contoh URL dan

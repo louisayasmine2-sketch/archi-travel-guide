@@ -27,7 +27,13 @@ Checks:
                              --offline). url_broken is a confirmed HTTP
                              failure; url_error means the URL could not be
                              verified from this machine (DNS, TLS, proxy) and
-                             must be re-checked, not assumed fine.
+                             must be re-checked, not assumed fine. 401/403/429
+                             responses are reported informationally as
+                             url_unverifiable instead: the host refused an
+                             automated request (Unsplash, Viator and the like
+                             bot-wall scripts while serving browsers), which
+                             is not evidence the link a reader clicks is dead
+                             — spot-check those in a browser.
   component_hotlinked_image — an external image URL in a page component,
                              shared component, or data file under
                              frontend/src (the content stores only cover
@@ -369,18 +375,31 @@ def main():
 
     component_report = scan_component_images()
 
+    # 401/403/429 mean the host refused an automated request, not that the
+    # link a reader clicks is dead — Unsplash, Viator and GetYourGuide all
+    # bot-wall exactly this way while serving browsers fine. Reporting those
+    # as broken would keep the weekly verification permanently red on links
+    # that work, so they are surfaced as informational instead of failing.
+    # 404/410, 5xx and connection errors remain hard failures.
+    _BOT_WALL_CODES = ("HTTP 401", "HTTP 403", "HTTP 429")
     url_results = []
+    url_unverifiable = []
     if not args.offline:
         ctx = _ssl_context()
         for url in sorted(all_urls):
             ok, detail = check_url(url, ctx)
             if not ok:
-                url_results.append({
+                entry = {
                     "check": "url_broken" if detail.startswith("HTTP") else "url_error",
                     "url": url,
                     "detail": detail,
                     "used_by": sorted(set(all_urls[url])),
-                })
+                }
+                if detail in _BOT_WALL_CODES:
+                    entry["check"] = "url_unverifiable"
+                    url_unverifiable.append(entry)
+                else:
+                    url_results.append(entry)
             print(f"  {'ok' if ok else 'FAIL':<4} {detail:<24} {url}", file=sys.stderr)
 
     if args.json:
@@ -394,6 +413,7 @@ def main():
             "component_findings": component_report,
             "internal_scheduled": {k: sorted(set(v)) for k, v in scheduled_internal.items()},
             "url_failures": url_results,
+            "url_unverifiable": url_unverifiable,
         }, indent=2))
     else:
         print(f"\nScanned {len(articles)} articles; {sum(len(collect_internal_links(a)) for a in articles)} internal links "
@@ -422,6 +442,10 @@ def main():
         for link, users in sorted(scheduled_internal.items()):
             print(f"info — internal link to a SCHEDULED article (resolves at publish): {link} "
                   f"(from {', '.join(sorted(set(users)))})")
+        for r in url_unverifiable:
+            print(f"info — unverifiable by automated request, host bot-walls scripts — spot-check in a browser: {r['url']} ({r['detail']})")
+            for user in r["used_by"]:
+                print(f"    used by {user}")
         for r in url_results:
             print(f"{r['check']}: {r['url']} ({r['detail']})")
             for user in r["used_by"]:

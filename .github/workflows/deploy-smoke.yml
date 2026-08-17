@@ -1,11 +1,29 @@
 name: Deploy Smoke Check
 
+# Validates the LIVE production site after a deploy: redirect chains,
+# canonicals and titles on the domain-sterilisation routes. This check sat
+# red for four days (13-17 Aug 2026) with nobody noticing — the title
+# rewrite changed the homepage title and these expectations were never
+# updated, and no failure reached a human. Hence the tracking-issue steps:
+# a failure files or updates one issue, recovery closes it, same pattern as
+# link-verification and lighthouse.
+#
+# A failure here can also mean the Cloudflare deploy is stale or failed —
+# the smoke tests what is actually served, not what the repo builds.
+
 on:
   workflow_call:
   workflow_dispatch:
   push:
     branches:
       - main
+
+permissions:
+  contents: read
+  issues: write
+
+env:
+  ISSUE_TITLE: "Deploy smoke check is failing on production"
 
 jobs:
   smoke:
@@ -33,4 +51,57 @@ jobs:
         run: sleep 180
 
       - name: Run deploy smoke checks
-        run: npm run deploy-smoke
+        id: smoke
+        shell: bash
+        run: |
+          set -o pipefail
+          if npm run deploy-smoke | tee smoke-report.txt; then
+            echo "failed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "failed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: File or update the tracking issue
+        if: steps.smoke.outputs.failed == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "Smoke validation against the live site failed on $(date -u +%Y-%m-%d)."
+            echo
+            echo "Two common causes: the served titles/canonicals no longer match"
+            echo "the expectations in \`frontend/scripts/smoke-deploy.mjs\` (update"
+            echo "them alongside deliberate title changes), or the Cloudflare"
+            echo "deploy is stale/failed and production is serving an old build —"
+            echo "check the Pages dashboard."
+            echo
+            echo '```'
+            tail -80 smoke-report.txt
+            echo '```'
+            echo
+            echo "_Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}_"
+          } > issue-body.md
+
+          number=$(gh issue list -R "$GITHUB_REPOSITORY" --state open --search "\"$ISSUE_TITLE\" in:title" \
+            --json number --jq '.[0].number // empty')
+          if [ -n "$number" ]; then
+            gh issue comment "$number" -R "$GITHUB_REPOSITORY" --body-file issue-body.md
+          else
+            gh issue create -R "$GITHUB_REPOSITORY" --title "$ISSUE_TITLE" --body-file issue-body.md
+          fi
+          # The job still fails so the red state stays visible on the commit.
+          exit 1
+
+      - name: Close the tracking issue after a clean run
+        if: steps.smoke.outputs.failed == 'false'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          number=$(gh issue list -R "$GITHUB_REPOSITORY" --state open --search "\"$ISSUE_TITLE\" in:title" \
+            --json number --jq '.[0].number // empty')
+          if [ -n "$number" ]; then
+            gh issue close "$number" -R "$GITHUB_REPOSITORY" \
+              --comment "Clean run on $(date -u +%Y-%m-%d) — production serves the expected titles, canonicals and redirect chains. Closing."
+          fi

@@ -1,0 +1,135 @@
+name: Production Lighthouse
+
+# Weekly Lighthouse audit of key production pages, replacing the standing
+# "re-run PageSpeed after deploys" reminder. Mobile emulation (Lighthouse
+# default), scores extracted per category, one tracking issue on threshold
+# breaches — same create-or-comment-then-close pattern as link verification.
+#
+# Thresholds are floors, not targets: performance 80, accessibility 95,
+# best practices 90, SEO 95.
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Mondays 05:47 UTC (12:47 WIB), after the link-verification run.
+    - cron: "47 5 * * 1"
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: production-lighthouse
+  cancel-in-progress: false
+
+env:
+  ISSUE_TITLE: "Weekly Lighthouse scores fell below the floor"
+  SITE: "https://affittacameregliarchi.com"
+
+jobs:
+  lighthouse:
+    name: Audit key production pages
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Lighthouse
+        run: npm install -g lighthouse@12
+
+      - name: Audit pages and score against the floors
+        id: audit
+        shell: bash
+        run: |
+          set -uo pipefail
+          mkdir -p reports
+          fail=0
+
+          # The pages that carry the site's traffic and revenue paths:
+          # home, the most-linked page, the tools hub, a converting
+          # day-trip page and the newest content pillar child.
+          PAGES="/ /florence-to-siena-by-train-or-bus/ /travel-tools /blog/siena-day-trips-without-a-car/ /blog/quantum-of-solace-siena-filming-locations/"
+
+          {
+            echo "| Page | Performance | Accessibility | Best practices | SEO |"
+            echo "|---|---:|---:|---:|---:|"
+          } > summary.md
+
+          for path in $PAGES; do
+            slug=$(echo "$path" | sed 's#[^a-z-]#_#g')
+            slug=${slug#_}; slug=${slug:-home}
+            if ! lighthouse "$SITE$path" \
+                --output=json --output-path="reports/$slug.json" \
+                --chrome-flags="--headless=new --no-sandbox" --quiet; then
+              echo "| $path | run failed | — | — | — |" >> summary.md
+              fail=1
+              continue
+            fi
+            scores=$(node -e "
+              const r = require('./reports/$slug.json');
+              const c = r.categories;
+              console.log(['performance','accessibility','best-practices','seo']
+                .map((k) => Math.round(c[k].score * 100)).join(' '));
+            ")
+            read -r perf a11y best seo <<< "$scores"
+            echo "| $path | $perf | $a11y | $best | $seo |" >> summary.md
+            if [ "$perf" -lt 80 ] || [ "$a11y" -lt 95 ] || [ "$best" -lt 90 ] || [ "$seo" -lt 95 ]; then
+              fail=1
+            fi
+          done
+
+          echo >> summary.md
+          echo "Floors: performance 80 · accessibility 95 · best practices 90 · SEO 95. Mobile emulation." >> summary.md
+          cat summary.md
+          echo "failed=$([ "$fail" -eq 1 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+
+      - name: Upload the full reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-reports
+          path: |
+            reports/
+            summary.md
+          retention-days: 90
+
+      - name: File or update the tracking issue
+        if: steps.audit.outputs.failed == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "Automated weekly run on $(date -u +%Y-%m-%d): at least one page is under a floor."
+            echo
+            cat summary.md
+            echo
+            echo "Full JSON reports are attached to the run as artifacts."
+            echo
+            echo "_Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}_"
+          } > issue-body.md
+
+          number=$(gh issue list -R "$GITHUB_REPOSITORY" --state open --search "\"$ISSUE_TITLE\" in:title" \
+            --json number --jq '.[0].number // empty')
+          if [ -n "$number" ]; then
+            gh issue comment "$number" -R "$GITHUB_REPOSITORY" --body-file issue-body.md
+          else
+            gh issue create -R "$GITHUB_REPOSITORY" --title "$ISSUE_TITLE" --body-file issue-body.md
+          fi
+
+      - name: Close the tracking issue after a clean run
+        if: steps.audit.outputs.failed == 'false'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          number=$(gh issue list -R "$GITHUB_REPOSITORY" --state open --search "\"$ISSUE_TITLE\" in:title" \
+            --json number --jq '.[0].number // empty')
+          if [ -n "$number" ]; then
+            gh issue close "$number" -R "$GITHUB_REPOSITORY" \
+              --comment "Clean run on $(date -u +%Y-%m-%d) — every audited page is at or above its floors. Closing."
+          fi

@@ -11,18 +11,14 @@ const USER_AGENT =
 const checks = [
   {
     url: `https://${PRIMARY_HOST}/`,
-    // The homepage title is the keyword-forward one from the #76 title
-    // rewrite, not the brand string — and extractTitle does not decode
-    // entities, so the expectation must avoid the "&". Applies to every
-    // check that lands on the homepage.
-    expectTitle: "Tuscany Trip Planning",
+    expectTitle: "Siena & Tuscany Trip Planning",
     expectedCanonical: PRIMARY_ORIGIN,
   },
   {
     // Domain sterilisation: www must never serve content — the zone-level
     // Redirect Rule 301s it to the apex, so the chain has to open with a 3xx.
     url: `https://${WWW_HOST}/`,
-    expectTitle: "Tuscany Trip Planning",
+    expectTitle: "Siena & Tuscany Trip Planning",
     expectedCanonical: PRIMARY_ORIGIN,
     expectRedirect: true,
   },
@@ -51,19 +47,19 @@ const checks = [
     // Legacy paths without a granular mapping land on the homepage:
     // /en/* and /it/* catch-alls plus the root-level /*.html rule.
     url: `https://${PRIMARY_HOST}/en/any-legacy-path`,
-    expectTitle: "Tuscany Trip Planning",
+    expectTitle: "Siena & Tuscany Trip Planning",
     expectedCanonical: PRIMARY_ORIGIN,
     expectRedirect: true,
   },
   {
     url: `https://${PRIMARY_HOST}/index-en.html`,
-    expectTitle: "Tuscany Trip Planning",
+    expectTitle: "Siena & Tuscany Trip Planning",
     expectedCanonical: PRIMARY_ORIGIN,
     expectRedirect: true,
   },
   {
     url: `https://${PRIMARY_HOST}/any-legacy-page.html`,
-    expectTitle: "Tuscany Trip Planning",
+    expectTitle: "Siena & Tuscany Trip Planning",
     expectedCanonical: PRIMARY_ORIGIN,
     expectRedirect: true,
   },
@@ -156,7 +152,13 @@ async function fetchWithRedirects(startUrl, maxHops = 12) {
 
 function extractTitle(html) {
   const match = html.match(/<title[^>]*>(.*?)<\/title>/i);
-  return match ? match[1].replace(/<[^>]*>/g, "").trim() : "";
+  if (!match) return "";
+  return match[1]
+    .replace(/<[^>]*>/g, "")
+    .replace(/&amp;/g, "&")
+    .replace(/&#x27;|&#39;/g, "'")
+    .replace(/&quot;/g, '"')
+    .trim();
 }
 
 function extractCanonical(html) {
