@@ -7143,7 +7143,7 @@ And spare a thought for the real **Volterra** — alabaster town, Etruscan museu
 
 For a visitor this is the easiest film location in Tuscany, because it is simply **Siena** — the Campo you will stand in anyway, the contrade lanes [our guides already walk](/blog/best-things-to-do-in-siena), and, if you time it for early July or mid-August, the very race the film captured, with [everything the Palio demands and delivers](/blog/palio-di-siena-guide) covered separately.
 
-The Bond layer rewards one specific habit: looking *up*. The chase lives on Siena’s rooftops and ledges, and the city’s skyline — terracotta, towers, impossible angles — reads differently once you have seen it used as a stunt course. The film compressed the geography, as films do; the city it compressed is all still there.`,
+The Bond layer rewards one specific habit: looking *up*. The chase lives on Siena’s rooftops and ledges, and the city’s skyline — terracotta, towers, impossible angles — reads differently once you have seen it used as a stunt course. The film compressed the geography, as films do; the city it compressed is all still there — and [our scene-by-scene guide to the Quantum of Solace locations](/blog/quantum-of-solace-siena-filming-locations/) walks every beat of it, including which parts were sets and the honest answer on the rooftops.`,
       },
       {
         id: 'gladiator-terrapille',
@@ -7246,7 +7246,6 @@ Drivers own this day; car-free travellers should aim the [bus-based version](/bl
         'twilight new moon montepulciano',
         'gladiator filming location tuscany',
         'english patient monastery tuscany',
-        'quantum of solace siena',
         'teatro del silenzio bocelli 2027',
         'set jetting italy',
         'monteriggioni assassins creed',
@@ -7255,6 +7254,125 @@ Drivers own this day; car-free travellers should aim the [bus-based version](/bl
       imageAlt: 'Cypress-lined road through the Val d’Orcia, the landscape used in Gladiator’s Elysian Fields',
       canonicalPath: '/blog/tuscany-on-screen-film-locations-2026',
       tags: ['tuscany film locations', 'set jetting', 'you me and tuscany', 'twilight montepulciano', 'val d’orcia'],
+    }
+  ),
+  A(
+    'quantum-of-solace-siena-filming-locations',
+    'Quantum of Solace in Siena: The Filming Locations, Scene by Scene',
+    'Things to do',
+    'Siena',
+    'Where Quantum of Solace was really filmed in Siena: the real 2007 Palio footage, the rooftop chase, what was a studio set and a 90-minute route.',
+    '/images/siena/05-piazza-del-campo-panorama.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Yes — the Palio in **Quantum of Solace** (2008) is the real race. A second unit filmed the Palio dell’Assunta on **16 August 2007** with fourteen cameras placed around Piazza del Campo, and the film cut that footage into a chase staged nine months later. The streets Bond arrives through, the Campo he crosses and the doorway he ducks into are real, walkable Siena, free at any hour. The rooftops are real too, but private — the production rigged them with two kilometres of cable slung from four cranes, which is not a facility the city offers visitors. And the two ends of the chase, the underground tunnels and the bell chamber, were sets built in the studio. This page walks the sequence beat by beat — what is on screen, where it sits on the ground, and whether you can stand in it — then answers the Palio question properly and lays out a self-guided route of about 90 minutes. The broader map of screen-Tuscany lives in [our film-locations guide](/blog/tuscany-on-screen-film-locations-2026/); this page is the Siena deep-dive it points to.`,
+      },
+      {
+        id: 'scene-by-scene',
+        heading: 'The sequence, scene by scene',
+        body: `**The arrival.** After the opening car chase, Bond swings the battered Aston Martin DBS into Siena and stops — Mr White still in the boot — in front of the little church of **San Giuseppe**, where Via di Fontanella, Via Giovanni Duprè and Via Sant’Agata meet in the lanes below the southern rim of the Campo. He walks up the slope of Via di Fontanella and under the arch on Via Giovanni Duprè, heading for the square. *Visitable: completely.* These are open public streets a few minutes’ climb below the Campo, at their emptiest early in the morning. Whose territory you are walking through is a question with a real answer in Siena — [the contrade guide](/siena-contrade-guide) maps it.
+
+**The safe house and the tunnels.** The interrogation of Mr White happens in an MI6 safe house reached through an underground passage; the passage entrance was filmed at **Piazzetta della Paglietta, off Via Salicotto**, a few minutes east of the Campo. The tunnel interiors themselves — and everything that happens inside them — were built in the studio. Siena does have a real tunnel network under its streets: the **bottini**, the medieval aqueduct galleries that still feed the city’s fountains, roughly 25 kilometres of them. They are not an attraction you can walk into: visits run in small groups, by appointment through the Comune, led by volunteers of the Associazione La Diana, and the passages are narrow, wet and unsuitable for anyone uneasy in confined spaces. *Visitable: the doorway, from a public lane, any time; the real tunnels, only by arrangement and some patience.*
+
+**The Palio.** What thunders around the Campo while Bond works is the actual Palio dell’Assunta of 16 August 2007, captured by a fourteen-camera second unit a year before the film’s release. The following May, the first unit came back and rebuilt the crowd — around **300 extras, chosen from some 1,500 candidates** — so that Daniel Craig and the chase could be threaded through it at close range. On screen the two are cut together so tightly that the join is invisible; that edit is the scene. *Visitable: the Campo, free, every day of the year — the race itself only on its two fixed dates, which is the subject of its own section below.*
+
+![A narrow contrada lane in Siena](/images/siena/06-siena-contrada-street.webp)
+*Real lanes, stitched by editing: the chase runs through streets like these, in an order the map does not recognise.*
+
+**The rooftops.** The chase’s most famous stretch — Bond and Mitchell across the terracotta above the crowds — was shot on the real rooftops around the Campo, not a backlot. The rig was industrial: about two kilometres of safety and camera cable suspended from the arms of four cranes. At street level, the beats are on **Via Pantaneto** (the bus moment) and around the **junction of Via Pantaneto and Via Magalotti**. *Visitable: the streets, yes; the rooftop line, no — it is private property end to end, and there is no public route onto it. The legal version of the view is the [Torre del Mangia climb](/torre-del-mangia-guide), or simply the habit the chase teaches: walk Siena looking up.*
+
+![Siena rooftops and the Tuscan countryside beyond](/images/siena/08-siena-cityscape.webp)
+*The stunt course: real rooftops, rigged with two kilometres of cable slung from four cranes.*
+
+**The bell chamber.** The chase ends with Bond and Mitchell falling into a bell tower’s interior and fighting on ropes and scaffolding. That interior was a set, built in the studio along with the tunnels — the production filmed Siena’s exteriors on location and constructed the chase’s two enclosed spaces elsewhere. *Visitable: no, because it does not exist. The real tower above the Campo is the Torre del Mangia, and [climbing it](/torre-del-mangia-guide) is its own reward — but the room in the film is not up there.*`,
+      },
+      {
+        id: 'what-the-film-compressed',
+        heading: 'What the film compressed',
+        body: `Films cut geography together, and this one is honest about it nowhere on screen — so here is the map, plainly. The arrival junction sits in the lanes **below the south side of the Campo**; the safe-house doorway is **east of the square off Via Salicotto**; the Pantaneto–Magalotti beats are further east again. On foot these are three short, separate walks radiating off the same square, not one continuous run — and the sprint between them happens through tunnels and a bell chamber that were never in Siena at all. The studio sections are precisely the joins.
+
+Two practical consequences. First, do not try to reconstruct a single unbroken chase line — it does not exist, and hunting for it wastes a morning. Second, the compression is good news for a visitor: everything real in the sequence sits within a few hundred metres of the Campo, which is why the whole thing walks comfortably in about 90 minutes.`,
+      },
+      {
+        id: 'palio-film-vs-reality',
+        heading: 'The Palio in the film versus the Palio in real life',
+        body: `The film uses the race as ninety seconds of backdrop. The real event is a **four-day cycle run twice each summer, on fixed dates that never move**: the Palio di Provenzano on **2 July** and the Palio dell’Assunta on **16 August** — the latter being the running the second unit filmed in 2007. Around each race day sit trial runs, contrada dinners and processions; [our Palio guide](/blog/palio-di-siena-guide/) covers what actually happens, where to stand and what it costs in comfort, and this page will not re-explain it.
+
+What matters here is the collision between the two experiences: **you cannot retrace the chase during the race**. On the two Palio days the Campo holds tens of thousands of people, the surrounding lanes are barriered and rerouted, and the city has better things to do than indulge a film pilgrimage. If the Palio is your reason for coming, come for the Palio — [the mid-August week has its own guide](/blog/siena-ferragosto-and-palio-week/), because Ferragosto reshapes the city around it. If the film is your reason, come literally any other day: the square is open, the lanes are quiet before ten, and the geometry the film used is all still there.`,
+      },
+      {
+        id: 'the-self-guided-bond-route',
+        heading: 'The self-guided Bond route (about 90 minutes)',
+        body: `No tour is needed — every outdoor beat is a free public street. Walk it in the film’s direction, which conveniently puts the climb first.
+
+1. **Start at the church of San Giuseppe** — the Via di Fontanella / Via Giovanni Duprè / Via Sant’Agata junction. The arrival shot, minus the Aston Martin. Ten minutes is enough.
+2. **Climb Via di Fontanella and pass under the Via Duprè arch** toward the Campo, as Bond does. A short, steep pull on cobbles — the honest warning for this route is simply that the start sits well below the square.
+3. **The Campo** — give it half an hour. Stand at the top of the bowl and read the circuit the horses run; find the Torre del Mangia, the film finale’s exterior; watch how the square funnels every lane toward itself, which is exactly what the chase exploits. The square now carries real rules — [the Piazza del Campo guide](/piazza-del-campo-guide) has the current ones, including the eating ban you will want to know about before you unwrap lunch.
+4. **Out east along Via Salicotto to Piazzetta della Paglietta** — the safe-house doorway beat. Ten minutes there, a look, and back.
+5. **Loop through Via Pantaneto to the Via Magalotti junction** — the street-level chase beats — and return to the square.
+6. **Optional finale: climb the [Torre del Mangia](/torre-del-mangia-guide)** for the rooftop-chase view the city can legally offer. The climb is not included in the 90 minutes, and the tower has rules and rhythms of its own — the guide covers them.
+
+Timings are deliberately loose — this is a saunter with stops, not a march. If you want a fuller city walk with the same geography done properly, [the measured Siena walking tour](/siena-walking-tour) is the route this one borrows its pacing from.`,
+      },
+      {
+        id: 'before-you-go',
+        heading: 'Before you go: access, tickets, closures',
+        body: `This page deliberately prints **no opening hours and no prices**. Those figures move, and a film-locations page that copied them would rot silently. Every one the route touches lives in a dedicated guide that carries its own checked date:
+
+- **The Campo’s rules and the Museo Civico** — [the Piazza del Campo guide](/piazza-del-campo-guide).
+- **The Torre del Mangia climb**, and the booking rule nobody publishes — [the tower guide](/torre-del-mangia-guide).
+- **The race days themselves** — [the Palio guide](/blog/palio-di-siena-guide/), and [the Ferragosto week around the August running](/blog/siena-ferragosto-and-palio-week/).
+- **Arriving by car** — Siena’s ZTL cameras do not care that you are here for Bond: [the parking and transfer guide](/blog/siena-parking-and-transfer-guide/) first.
+- **Arriving from Florence** — [the train-versus-bus comparison](/florence-to-siena-by-train-or-bus/), the route most visitors actually use.
+
+If you would rather have the city’s history told over the film’s geography by a guide, [Siena walking tours on Viator](/go/viator) list the operator, group size, meeting point and cancellation window on each product page — the same four fields we tell every reader to check before comparing prices.`,
+      },
+      {
+        id: 'the-rest-of-the-films-italy',
+        heading: 'The rest of the film’s Italy (short)',
+        body: `The pre-Siena car chase is its own geography, and none of it is walkable from the city.
+
+**The lake tunnels** — the opening galleries, cut into cliffs above the water, are the shore roads of **Lake Garda**, filmed in April 2008. Not Tuscany; they belong to a lakes trip, not this one.
+
+**The mountain roads and the marble quarry** — the chase’s second half was shot in May 2008 on the Apuan Alps roads between **Passo del Vestito and Altagnana** above Massa, ending in the **Carrara marble basins of Fantiscritti and Canalgrande** — the white, unearthly amphitheatres where the convoy weaves between marble blocks. The production ran the sequence with seven Aston Martins and nine Alfa Romeos. This *is* Tuscany, its far north-western corner, and it pairs naturally with a Lucca or coastal leg — but the quarries are working industrial sites, not a drive-in attraction: if you want to stand in them, it is organised-visit territory, arranged locally in Carrara, and the mountain roads deserve respect in any season.
+
+**Mathis’s villa** — Bond collects Mathis from a seafront tower at **Talamone**, on the Maremma coast in southern Tuscany: the **Torre di Talamonaccio**, a restored medieval watchtower that is privately let today. A detour only if you are already heading down the coast; from Siena it is a half-day round trip for one exterior.
+
+These three sit hundreds of kilometres apart — a driving itinerary, not a bus day. If you are building one, [compare rental prices for Italy on DiscoverCars](/go/discovercars-italy), and weigh the insurance excess as seriously as the daily rate before you commit to mountain roads.`,
+      },
+      {
+        id: 'how-we-checked-this',
+        heading: 'How we checked this',
+        body: `Checked on 17 August 2026, by web research from an environment whose direct page fetches are blocked: claims were kept only where multiple independent sources agreed, and anything single-sourced was cut. The second-unit date and camera count, the May 2008 crowd rebuild and extras numbers, the cable-and-crane rigging, the street and square identifications, the studio construction of the tunnel and bell-chamber interiors, and the Garda–Apuan–Carrara chase geography come from contemporaneous production reporting cross-read against the established Bond location references and Siena’s own official tourism pages; the bottini’s scale and appointment-only access from the Comune’s tourism information; the Palio’s fixed dates against the race’s standard references, consistent with the site’s separately verified Palio guide. Because no page could be opened directly, no outbound links ship on this page — a link we cannot open is a link we do not print. For the same reason it states no opening hour or ticket price: those live in the linked guides above, each carrying its own checked date. Disclosure: the Viator and DiscoverCars links are affiliate links — if you book through one we may earn a commission, at no extra cost to you; which streets the film used, and whether the rooftops are walkable, are facts no commission can touch. Platform links use our internal /go/ shortcuts.`,
+      },
+    ],
+    [
+      { q: 'Is the Palio in Quantum of Solace real?', a: 'Yes. A second unit filmed the actual Palio dell’Assunta on 16 August 2007 with fourteen cameras around Piazza del Campo. The close-range crowd shots with Daniel Craig were staged the following May with around 300 extras, and the film cuts the two together.' },
+      { q: 'Where does Bond arrive in Siena?', a: 'At the church of San Giuseppe, where Via di Fontanella, Via Giovanni Duprè and Via Sant’Agata meet, a few minutes below the south side of the Campo. He walks up Via di Fontanella and under the Via Duprè arch toward the square. The junction is an ordinary public street.' },
+      { q: 'Can you walk the rooftop chase route?', a: 'No. The rooftops are real — the production rigged about two kilometres of cable from four cranes to film on them — but they are private property with no public access. The Torre del Mangia climb is the legal version of the elevated view.' },
+      { q: 'Were the tunnels in the film Siena’s real bottini?', a: 'The doorway was real — filmed at Piazzetta della Paglietta off Via Salicotto — but the tunnel interiors were studio sets. Siena’s real bottini aqueducts exist and can be visited only in small groups by appointment through the Comune, led by Associazione La Diana volunteers.' },
+      { q: 'Can you retrace the chase during the Palio itself?', a: 'Realistically, no. On the two race days — 2 July and 16 August — the Campo is packed with tens of thousands of people and the surrounding lanes are barriered. Any other day of the year, the whole route is open and quiet before mid-morning.' },
+      { q: 'Do you need a tour to see the locations?', a: 'No. Every outdoor location is a free public street or square, and the self-guided route in this guide covers them in about 90 minutes. A guided city walk adds historical context, not access.' },
+    ],
+    '2026-08-17',
+    {
+      seoTitle: 'Quantum of Solace Siena Filming Locations: The Real Map (2026)',
+      primaryKeyword: 'quantum of solace filming locations',
+      secondaryKeywords: [
+        'quantum of solace siena',
+        'james bond palio scene',
+        'james bond siena walking route',
+        'quantum of solace opening chase location',
+        'is the palio in james bond real',
+        'quantum of solace lake garda tunnel',
+        'carrara quarry james bond',
+        'torre di talamonaccio bond',
+      ],
+      imageAlt: 'Piazza del Campo in Siena seen from above, the square Quantum of Solace’s chase circles',
+      canonicalPath: '/blog/quantum-of-solace-siena-filming-locations',
+      tags: ['quantum of solace filming locations', 'james bond siena', 'palio di siena film', 'set jetting italy', 'siena walking route'],
     }
   ),
   A(
