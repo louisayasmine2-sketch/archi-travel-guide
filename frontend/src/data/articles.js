@@ -10539,7 +10539,7 @@ This article tells that story properly — through the chronicle of a shoemaker 
         heading: 'The city before: richer than you are imagining',
         body: `To feel the weight of 1348 you need the size of what it hit, because the Siena of the 1340s was not a charming hill town. It was a banking and trading power at the height of a building programme that still defines the city.
 
-**The government was the Nine** — the *Governo dei Nove*, the merchant oligarchy that had run Siena since the 1280s and given it the most stable half-century in its history. Their name is literally under your feet: the [Campo's paving](/piazza-del-campo-guide), laid from **1327**, is divided by ten travertine lines into **nine segments** converging on their seat, the Palazzo Pubblico.
+**The government was the Nine** — the *Governo dei Nove*, the merchant oligarchy that had run Siena since the 1280s and given it the most stable half-century in its history. Behind their confidence stood a memory then still within living reach: [Montaperti, 1260](/blog/battle-of-montaperti-1260-siena/), the day Siena destroyed a Florentine army twice its size and gave itself to the Virgin. Their name is literally under your feet: the [Campo's paving](/piazza-del-campo-guide), laid from **1327**, is divided by ten travertine lines into **nine segments** converging on their seat, the Palazzo Pubblico.
 
 **The skyline was going up.** The [Torre del Mangia](/torre-del-mangia-guide) had been rising since **1338**, built deliberately to match the height of the cathedral's bell tower — civic power and church power at the same altitude. Inside the Palazzo Pubblico, Ambrogio Lorenzetti had just finished the *Allegory of Good and Bad Government* (1338–1339), a fresco cycle whose entire subject is confidence in the future.
 
@@ -10653,7 +10653,7 @@ And when you are on the Facciatone at the end of the afternoon, look down once m
       { q: 'When did the Republic of Siena fall?', a: 'In April 1555, after a fifteen-month Medici-Imperial siege that ended in starvation — the city had expelled thousands of civilians it could not feed that February. A Republic-in-exile held out in Montalcino until 1559, when the peace settlement delivered Siena permanently to Cosimo de’ Medici’s Tuscany.' },
       { q: 'Where can you see traces of the 1348 plague in Siena today?', a: 'Five stops within ten minutes’ walk: the Campo’s nine segments, completed 1349; the Torre del Mangia, finished in 1348, and the Cappella di Piazza, vowed in the same year by the plague’s survivors; Lorenzetti’s Good and Bad Government frescoes, the fallen regime’s self-portrait; the Facciatone and the abandoned nave’s walls at the cathedral; and Santa Maria della Scala, the hospital that stood through all of it.' },
     ],
-    '2026-09-04',
+    '2026-09-05',
     {
       seoTitle: 'Siena in 1348: Why the City Still Looks Medieval',
       primaryKeyword: 'siena black death 1348',
@@ -10668,6 +10668,140 @@ And when you are on the Facciatone at the end of the afternoon, look down once m
       imageAlt: 'The façade of Siena Cathedral, beside which the walls of the abandoned Duomo Nuovo still stand',
       canonicalPath: '/blog/siena-1348-the-year-the-city-stopped',
       tags: ['siena history', 'black death', 'duomo nuovo', 'medieval italy', 'things to do'],
+    }
+  ),
+  A(
+    'battle-of-montaperti-1260-siena',
+    'Montaperti, 1260: The Battle That Made Siena the City of the Virgin',
+    'Day trips',
+    'Siena',
+    'On 4 September 1260 Siena destroyed a Florentine army twice its size. The battle explains the Palio, the rivalry, and a pyramid you can walk to today.',
+    '/images/siena-cathedral-interior.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Twelve kilometres south-east of Siena, on a low hill above the river Arbia, stands a **stone pyramid ringed by cypresses**. Most visitors never hear of it. Every Sienese knows exactly what it is.
+
+On **4 September 1260** the armies of Guelph Florence and Ghibelline Siena met below that hill, and by evening Siena — outnumbered roughly two to one — had inflicted on Florence what is traditionally counted as **the bloodiest day of the Italian Middle Ages**. The night before, the Sienese had carried the keys of their city into the cathedral and given Siena to the Virgin Mary. She has, in the city's own account of itself, ruled it ever since.
+
+Understand Montaperti and half of Siena decodes at once: why the city calls itself the *Civitas Virginis*, why a contrada carries a noble title earned on that field, why Dante — a Florentine — put two of the battle's actors in Hell and Purgatory, and why [the Florence–Siena rivalry](/blog/florence-or-siena-which-to-visit-2026/) that structures every Tuscan itinerary is not a marketing invention but a seven-century-old wound.
+
+**And you can go.** The battlefield monument is a free, open site near Castelnuovo Berardenga — parking at the foot of the hill, a short walk up — and **on 4 September each year a torchlight procession climbs to the pyramid**. This article tells the story properly, then gets you there.`,
+      },
+      {
+        id: 'tuscany-1260',
+        heading: 'Tuscany in 1260: two parties, one grudge',
+        body: `The war that produced Montaperti ran on the great fault line of medieval Italy: **Guelphs**, aligned with the Papacy, against **Ghibellines**, aligned with the Holy Roman Empire. By 1260 Florence was the leading Guelph power in Tuscany and Siena the leading Ghibelline one — which turned an ordinary commercial rivalry between two banking cities thirty miles apart into a proxy war between pope and emperor.
+
+The parties were not abstractions; they were exile machines. When one faction took a city, the other's families were banished, their towers pulled down, their property seized. Florence's Ghibellines — among them **Farinata degli Uberti**, head of one of the city's greatest houses — were living in Siena as exiles, agitating for the war that might carry them home. Remember Farinata: he wins this battle, and then he does something stranger.
+
+Siena, for its part, had insurance: **King Manfred of Sicily**, the emperor's heir in Italy, had sent a contingent of **German mercenary heavy cavalry**. They were few, but in a war of citizen militias, professional heavy horse was a different order of weapon.
+
+In the summer of 1260 Florence assembled a coalition army from Guelph Tuscany and marched on Siena. The chroniclers' figures — medieval, and to be read as such — put the Florentine host at around **33,000** against fewer than **20,000** for Siena. Whatever the true numbers, no one disputes the shape: Florence came expecting to dictate terms under Siena's walls.`,
+      },
+      {
+        id: 'the-eve',
+        heading: 'The eve: a city hands itself to the Virgin',
+        body: `What Siena did on the night of 3 September 1260 is the founding act of its identity, and it happened in the building every visitor now queues for.
+
+As the tradition tells it, the syndic of the commune carried **the keys of the city into the cathedral** and laid them on the altar, formally donating Siena to the **Virgin Mary** — a feudal act, the city becoming her vassal — while the population processed and prayed through the night. Victory came the next day; the donation was never revoked. Siena has titled itself the **Civitas Virginis**, the City of the Virgin, ever since.
+
+**One honest caveat belongs here, because this is a history article and not a legend page.** The chronicles that describe the donation of the keys in full were written down in the **late fourteenth and fifteenth centuries** — generations after the battle. That a great act of Marian devotion preceded Montaperti is not in doubt; the cinematic detail of the ceremony is memory shaped by retelling. We give you both the story and its date of composition, and note that the Sienese themselves have never much cared about the distinction: the dedication has been renewed at the city's great crises for centuries.
+
+The consequences are all around you in the modern city. The Virgin of the vow is why Duccio's **Maestà** — the Virgin enthroned as sovereign — became the cathedral's high altarpiece and the greatest object [in the Museo dell'Opera today](/siena-cathedral-guide). It is why the [Campo's nine paving segments](/piazza-del-campo-guide) are read equally as the folds of her cloak. And it is why both Palios are run for her: the July race for the Madonna di Provenzano, the August race for the Assumption. **The Palio is not decorated with the Virgin; it is owed to her**, and the debt was contracted on 3 September 1260.`,
+      },
+      {
+        id: 'the-battle',
+        heading: '4 September 1260: the Arbia runs red',
+        body: `The battle was fought through the day on the slopes by the river Arbia, below the hill where the pyramid now stands. Its turning points, as the chronicles hand them down:
+
+**The Sienese attacked.** Rather than wait behind walls, Siena's army — citizens, exiled Florentine Ghibellines, and Manfred's German cavalry — came out and struck the larger host.
+
+**And then the betrayal.** Inside the Florentine ranks rode Ghibelline sympathisers who had concealed their allegiance. At the height of the fighting, as the story is told, one of them — **Bocca degli Abati** — drew close to the standard-bearer of the Florentine cavalry and **cut off the hand that held the standard**. In a medieval army, the standard was command, cohesion and courage in one object; when it fell, the Florentine cavalry broke, and the breaking spread. The rout that followed became a massacre.
+
+The traditional count — again, a chronicle figure — is **more than ten thousand dead**, with thousands more taken prisoner: the worst single day of slaughter in the medieval history of Italy. Dante, born five years later into Guelph Florence, needed only one line for it, and it is still the battle's epitaph: *lo strazio e 'l grande scempio che fece l'Arbia colorata in rosso* — "the torment and the great havoc that stained the Arbia red".
+
+Florence's field army had effectively ceased to exist. Nothing stood between Siena and its rival's walls.`,
+      },
+      {
+        id: 'empoli',
+        heading: 'Empoli: the enemy who saved Florence',
+        body: `What happened next is the strangest turn in the story, and Dante — who hated the man — made it immortal.
+
+The victorious Ghibelline league met at **Empoli** to decide what to do with defeated Florence, and the assembly's mood was for erasure: raze the city, salt the memory, end the Guelph capital for good. One man stood against it — **Farinata degli Uberti**, the exiled Florentine who had done as much as anyone to win Montaperti. As Dante has him tell it in the *Inferno*, he alone, with open face, defended Florence before them all. The city was spared.
+
+Dante's encounter with Farinata in **Canto X of the Inferno** is one of the summits of the poem precisely because of this doubleness: a damned heretic, an enemy of Dante's party, rising from his burning tomb *as if he held all Hell in great disdain* — and also the single reason Dante's Florence existed to exile Dante at all. **Bocca degli Abati got no such ambivalence.** Dante finds him in **Canto XXXII**, frozen to the neck in the ice reserved for traitors to their homeland, and treats him with a viciousness he shows almost no one else in Hell — kicking his head in passing, tearing his hair to make him confess his name.
+
+There is a lesson about history-writing in the pairing, and it is worth carrying around Tuscany: **Montaperti's memory was written by the losers.** Florence produced Dante, and Dante fixed forever which victor was noble and which was damned. Siena won the battle; Florence, as usual, won the archive.`,
+      },
+      {
+        id: 'what-it-made',
+        heading: 'What Montaperti made — and how long it lasted',
+        body: `**For Siena's identity, everything.** The Civitas Virginis, the Maestà, the dedication renewed across the centuries, [the Nicchio's noble title](/siena-contrade-guide) — the contrada is *Nobile* for its part at Montaperti in 1260 — and a civic self-belief that survived every later defeat. When Sienese crowds at the Palio sing of Montaperti, they are singing about the one day their city was unarguably first in Tuscany.
+
+**For the balance of power, almost nothing.** Ghibelline supremacy lasted nine years: at **Colle di Val d'Elsa in 1269** a Guelph army returned the favour, and Florence's side re-took the initiative in Tuscany. The rivalry then ran another three centuries — commercial, political, occasionally military — until the [siege of 1554–55](/blog/siena-1348-the-year-the-city-stopped/) ended Sienese independence altogether and folded the city into Medici Tuscany.
+
+Which gives Montaperti its peculiar afterlife: **a total victory that changed nothing, remembered more fiercely than most victories that changed everything.** Florence got the future; Siena kept the day. Seven and a half centuries on, the day is still being kept — by a procession, by torchlight, every fourth of September.`,
+      },
+      {
+        id: 'visiting',
+        heading: 'Visiting the battlefield today',
+        body: `The site is free, open and quietly moving — one of the least commercialised historical places in Tuscany.
+
+**What is there.** The **Cippo di Montaperti**: a stone pyramid raised on the hilltop where an eleventh-century castle of the Berardenghi family once stood, ringed by old cypresses, looking over the Arbia valley where the armies met. There is no visitor centre, no ticket, no queue — a marker, the trees, and the view.
+
+**Where it is.** The hamlet of **Monteaperti**, in the comune of **Castelnuovo Berardenga** — about **12 km south-east of Siena** and 8 km from Castelnuovo itself; the monument is signed at **Località Santa Maria a Dofana**. There is **parking at the foot of the hill**, and the walk up to the pyramid is short and easy. Realistically this is a **car trip**: our [Tuscany car-rental guide](/blog/renting-a-car-in-tuscany-2026/) covers the practicalities, and the site pairs naturally with a drive on into the Crete Senesi, whose clay ridges begin immediately south.
+
+**The date that matters.** On **4 September each year**, the anniversary is marked with a **torchlight procession to the pyramid**, and in early September the nearby hamlet of Casetta hosts **"Montaperti — past and present"**, a festival of re-enactments and commemorations. If your trip falls in the first week of September, check the Comune di Castelnuovo Berardenga's announcements for the current year's programme — this article publishes on the anniversary itself, and we have deliberately not stated this year's event times, which the comune publishes close to the date.
+
+**Pair it with the city.** The battlefield makes most sense taken *with* Siena, same trip: the cathedral where the keys were laid, the [Museo dell'Opera's Maestà](/siena-cathedral-guide) that the vow made inevitable, and the [contrade](/siena-contrade-guide) whose titles still cite the day. Half a day for the site and the drive; the story is the luggage you bring to it.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **16 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
+
+**Verified:** the battle's date of **4 September 1260** and its place in the Guelph–Ghibelline conflict, with Guelph Florence against Ghibelline Siena; its traditional standing as the bloodiest battle of the Italian Middle Ages, with the traditional count of **more than 10,000 dead**; the chroniclers' army figures of about 33,000 Florentines against fewer than 20,000 for Siena, presented as medieval numbers rather than statistics; **King Manfred's** provision of German mercenary heavy cavalry; **Farinata degli Uberti's** role as exiled Florentine Ghibelline leader on the Sienese side and his later defence of Florence against destruction at the council of **Empoli**, as recorded in Dante's account and the chronicle tradition; the treachery of **Bocca degli Abati** — the severing of the Florentine standard-bearer's hand — as the chronicles tell it, and Dante's placement of Bocca among the traitors in **Inferno XXXII** and his encounter with Farinata in **Inferno X**, including the line on the Arbia coloured red; the tradition of the **donation of the city's keys to the Virgin in the cathedral on the eve of the battle**, with the scholarly caveat — stated in the article — that the chronicles describing the donation in full date to the late fourteenth and fifteenth centuries; the **Nicchio contrada's Nobile title** deriving from Montaperti, as carried in our contrade guide's verification; the reversal at **Colle di Val d'Elsa in 1269**; and the site itself — the stone pyramid ringed by cypresses on the hill of an eleventh-century Berardenghi castle at **Località Santa Maria a Dofana, Castelnuovo Berardenga**, about 12 km from Siena, with parking at the foot of the hill and a short walk up, the **annual 4 September torchlight procession**, and the "Montaperti — past and present" commemorations at Casetta in early September.
+
+**Stated as tradition rather than verified fact:** the full ceremony of the keys, whose surviving descriptions post-date the battle by over a century; the precise mechanics of Bocca's betrayal, which rest on chronicle and on Dante; and all casualty and army figures, which are medieval counts. **Not established:** the 2026 programme and times of the anniversary events, which the Comune di Castelnuovo Berardenga publishes close to the date — check its channels for this year before planning an evening around the procession.
+
+We have no commercial relationship with any site, comune or operator named. No booking made from this page pays us anything.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Seven hundred and sixty-six years ago today — if you are reading this on publication day — two cities that now share a tourist itinerary tried to annihilate each other in a river valley you can reach in twenty minutes from the Campo.
+
+Go, if you have a car and an afternoon. Not because the pyramid is spectacular — it is a marker under cypresses — but because standing there closes a circuit that runs through everything else you will see: the cathedral where a city made itself the Virgin's vassal, the Maestà painted as her portrait in majesty, the nine folds of her cloak in the Campo's brick, the contrada that is noble because of this field, and the Florentine poet who made sure that even Siena's greatest day would be remembered in Florence's words.
+
+Tuscany sells itself as a landscape of beauty. It is also a landscape of memory, and this hill is where the region's longest memory lives.`,
+      },
+    ],
+    [
+      { q: 'What was the Battle of Montaperti?', a: 'The battle fought on 4 September 1260 between Guelph Florence and Ghibelline Siena, below a hill by the river Arbia about 12 km south-east of Siena. Outnumbered roughly two to one, Siena — with exiled Florentine Ghibellines and German cavalry sent by King Manfred — destroyed the Florentine army, in what is traditionally counted as the bloodiest day of the Italian Middle Ages, with more than 10,000 dead by the chroniclers’ figures.' },
+      { q: 'Why is Siena called the City of the Virgin?', a: 'Because of Montaperti. On the eve of the battle, as the tradition tells it, the city’s keys were carried into the cathedral and Siena was formally donated to the Virgin Mary; victory followed the next day and the dedication was never revoked. The vow is why Duccio’s Maestà became the cathedral’s altarpiece, why the Campo’s nine segments are also read as the folds of the Virgin’s cloak, and why both Palios are run in her honour. The full chronicle accounts of the ceremony were written more than a century later — the article states that plainly.' },
+      { q: 'What did Dante write about Montaperti?', a: 'Two of the poem’s most famous episodes. In Inferno X he meets Farinata degli Uberti, the exiled Ghibelline who won the battle and then alone defended Florence from destruction at Empoli — and coins the battle’s epitaph, the Arbia coloured red. In Inferno XXXII he finds Bocca degli Abati, the traitor said to have cut off the Florentine standard-bearer’s hand mid-battle, frozen in the ice reserved for traitors to their homeland.' },
+      { q: 'Who was Farinata degli Uberti?', a: 'Head of a great Florentine Ghibelline house, exiled to Siena, and a leader of the victorious side at Montaperti. At the council of Empoli afterwards, when the Ghibelline league debated razing Florence, he alone stood against it and the city was spared. Dante, of the opposing party, gave him one of the Inferno’s most magnificent portraits — a damned enemy who happens to be the reason Florence survived.' },
+      { q: 'Can you visit the Montaperti battlefield?', a: 'Yes, freely. The Cippo di Montaperti — a stone pyramid ringed by cypresses on the hilltop of a former Berardenghi castle — stands at Località Santa Maria a Dofana in the comune of Castelnuovo Berardenga, about 12 km south-east of Siena. There is parking at the foot of the hill and a short walk up. No ticket, no visitor centre; realistically you need a car.' },
+      { q: 'What happens at Montaperti on 4 September?', a: 'The anniversary is marked each year with a torchlight procession up to the pyramid, and in early September the nearby hamlet of Casetta hosts "Montaperti — past and present", with re-enactments and commemorations. The Comune di Castelnuovo Berardenga publishes each year’s programme close to the date, so check its announcements before planning an evening around it.' },
+      { q: 'Did Montaperti change the Florence–Siena rivalry?', a: 'It created its founding memory but not its outcome. Ghibelline supremacy lasted nine years, until the Guelph victory at Colle di Val d’Elsa in 1269, and Florence recovered the initiative in Tuscany. The rivalry ran another three centuries until the siege of 1554–55 ended Sienese independence. Montaperti remains the one day Siena was unarguably first — a total victory that changed nothing, remembered more fiercely than most victories that changed everything.' },
+    ],
+    '2026-09-04',
+    {
+      seoTitle: 'Battle of Montaperti, 1260: Siena’s Greatest Day, and the Site Today',
+      primaryKeyword: 'battle of montaperti',
+      secondaryKeywords: [
+        'montaperti 1260',
+        'why is siena the city of the virgin',
+        'farinata degli uberti dante',
+        'montaperti pyramid visit',
+        'florence siena rivalry history',
+        'guelphs and ghibellines tuscany',
+      ],
+      imageAlt: 'The interior of Siena Cathedral, where the city’s keys were laid before the Virgin on the eve of Montaperti',
+      canonicalPath: '/blog/battle-of-montaperti-1260-siena',
+      tags: ['siena history', 'montaperti', 'dante', 'day trips', 'medieval italy'],
     }
   ),
 ];
