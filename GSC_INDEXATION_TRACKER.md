@@ -213,3 +213,36 @@ sekaligus memastikan koreksi di atas: ketiganya memang sudah patuh sejak awal.
 Mulai sekarang `links_without_disclosure` selalu pelanggaran nyata — perbaiki
 di hari ia muncul, jangan ditutup dengan disclosure palsu.
 
+
+---
+
+# Catatan GSC — 2026-08-17: email "Server error (5xx)" + fix judul dobel
+
+Email GSC melaporkan reason baru "Server error (5xx)". Hasil investigasi dari
+repo (produksi tidak bisa diakses dari sandbox):
+
+- Repo ini murni static di Cloudflare Pages — tidak ada Pages Functions atau
+  `_worker.js` — jadi 5xx bukan berasal dari kode aplikasi. Sumbernya pasti di
+  lapisan Cloudflare (transien saat deploy, WAF/rate-limit, atau DNS).
+- Workflow `Deploy Smoke Check` ternyata GAGAL di semua 30 run sejak 9 Agu,
+  tapi bukan karena 5xx — semua URL menjawab 200. Penyebabnya "title
+  mismatch": setiap halaman pre-render menyajikan DUA tag `<title>` + dua meta
+  description (bawaan template shell + suntikan generator), dan tag pertama
+  selalu judul brand generik. Crawler yang membaca HTML mentah juga melihat
+  judul generik itu lebih dulu.
+- Fix di branch ini (2026-08-17): `generate-static-html.js` kini membuang
+  title/description polos milik template sebelum menyuntik pasangan data-rh,
+  diverifikasi lokal — 114 halaman kini membawa tepat satu title + satu
+  description, tag verifikasi Impact tetap utuh verbatim. Ekspektasi judul
+  homepage di `smoke-deploy.mjs` diperbarui ke judul hasil rewrite #76
+  ("Tuscany Trip Planning…"), yang selama ini lolos hanya karena kebetulan
+  membaca judul dobel. Sembilan cek smoke disimulasikan lokal: semua PASS.
+
+Langkah 5xx yang tersisa (butuh akses GSC/Cloudflare, manual):
+1. Buka indexing report → baris "Server error (5xx)" → catat contoh URL dan
+   tanggal last crawled.
+2. Kalau tanggalnya bertepatan dengan deploy dan URL-nya acak → transien;
+   klik Validate Fix dan pantau.
+3. Kalau berpola atau berlanjut → cek Cloudflare (Security → Events, dan
+   Analytics → status 5xx) untuk user-agent Googlebot; ini konfigurasi zone,
+   bukan repo.

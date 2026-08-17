@@ -587,6 +587,16 @@ function homeHeroHeadLinks(route) {
 }
 
 function injectHead(html, route) {
+  // The template carries a brand fallback <title> and meta description for the
+  // raw SPA shell. Browsers and crawlers take the FIRST title in the document,
+  // so leaving them in place made every pre-rendered page surface the generic
+  // brand title instead of its own — the injected data-rh pair below must be
+  // the only one in the emitted file. (This also kept the deploy smoke check
+  // red on every page-specific title since 9 August.)
+  html = html
+    .replace(/[ \t]*<title(?![^>]*\bdata-rh\b)[^>]*>[\s\S]*?<\/title>\s*/i, '')
+    .replace(/[ \t]*<meta(?![^>]*\bdata-rh\b)[^>]*\bname=["']description["'][^>]*>\s*/i, '');
+
   const fullTitle = route.exactTitle || route.title.includes(SITE_NAME) ? route.title : `${route.title} · ${SITE_NAME}`;
   const url = `${SITE_URL}${withTrailingSlash(route.canonicalPath)}`;
   const isArticle = routeIsArticle(route);
