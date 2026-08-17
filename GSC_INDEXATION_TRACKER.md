@@ -136,6 +136,8 @@ Dua baris pertama sudah live saat batch ini dibuat (12–13 Agu); sisanya menyus
 | /blog/battle-of-montaperti-1260-siena | 2026-09-04 |  |  |  |  |  |
 | /blog/siena-1348-the-year-the-city-stopped | 2026-09-05 |  |  |  |  |  |
 | /blog/saint-catherine-of-siena-places | 2026-09-06 |  |  |  |  |  |
+| /blog/monte-dei-paschi-oldest-bank-siena | 2026-09-07 |  |  |  |  |  |
+| /blog/sienese-school-painting-where-to-see | 2026-09-08 |  |  |  |  |  |
 
 Catatan batch 3:
 - Halaman live yang berubah signifikan dan layak re-request saat deploy: homepage
