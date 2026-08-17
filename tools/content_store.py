@@ -41,7 +41,11 @@ _AUDIT_IGNORE = re.compile(
     re.DOTALL | re.IGNORECASE,
 )
 
-_URL = re.compile(r"https?://[^\s\"'<>()\\\]]+")
+# Parentheses are legal in URLs (Wikimedia file pages use them constantly);
+# excluding them truncated real links at the first "(" and the scanner then
+# 404-tested its own truncation. Allow them and let _clean_url balance-trim
+# the trailing ")" that belongs to markdown or prose.
+_URL = re.compile(r"https?://[^\s\"'<>\\\]]+")
 _IMAGE_PATH = re.compile(r"/images/[A-Za-z0-9._/%-]+")
 
 
@@ -71,7 +75,12 @@ def _host(url):
 
 
 def _clean_url(url):
-    return url.rstrip(".,;:!?*_")
+    url = url.rstrip(".,;:!?*_")
+    # A trailing ")" with no matching "(" inside the URL is the closing
+    # delimiter of a markdown link or a prose parenthesis, not part of it.
+    while url.endswith(")") and url.count("(") < url.count(")"):
+        url = url[:-1].rstrip(".,;:!?*_")
+    return url
 
 
 def _collect_urls(text):
