@@ -1,0 +1,45 @@
+name: Content Checks
+
+# The editorial scanners from CLAUDE.md §6, run as a gate on every PR and on
+# main. The offline flag skips live URL verification here — that check is
+# network-dependent and belongs to the weekly link-verification workflow,
+# where a transient failure files an issue instead of blocking a merge.
+# Everything else the scanners know (disclosure in both directions, banned
+# phrasing, meta lengths, FAQ schema, /go/ integrity, images on disk,
+# internal links against the route map, SPONSORED_GO_SLUGS drift) is
+# deterministic and gates here.
+#
+# If a check fails: fix the content, never the scanner (CLAUDE.md §6).
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: content-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  scan:
+    name: Editorial scanners
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Content audit (disclosures, phrasing, meta, FAQ schema)
+        run: python tools/audit_content.py
+
+      - name: Links and images, offline checks
+        run: python tools/check_links_and_images.py --offline

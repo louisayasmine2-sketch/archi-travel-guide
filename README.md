@@ -109,6 +109,29 @@ tail -f /var/log/supervisor/backend.err.log
 Automated end-to-end pass covers all 28 routes + 8 API endpoints
 (see `/app/test_reports/iteration_*.json`).
 
+## Automated checks
+
+Four GitHub Actions workflows keep the editorial standard enforced without a
+local machine:
+
+- **e2e** (`e2e.yml`) — the full Playwright suite on every PR and push to main.
+- **Content Checks** (`content-checks.yml`) — both CLAUDE.md §6 scanners on
+  every PR: disclosures in both directions, banned phrasing, meta lengths, FAQ
+  schema, `/go/` integrity, images on disk, internal links. Offline mode; URL
+  verification is the weekly job below.
+- **Link Verification** (`link-verification.yml`) — weekly (Mon 05:17 UTC) and
+  on demand: every outbound URL opened from a runner with real network access.
+  Failures file one tracking issue and keep updating it; a clean run closes it.
+- **Production Lighthouse** (`lighthouse.yml`) — weekly (Mon 05:47 UTC) and on
+  demand: mobile Lighthouse on the traffic- and revenue-carrying pages, with
+  score floors (perf 80 / a11y 95 / best practices 90 / SEO 95) and the same
+  tracking-issue pattern.
+
+If a scanner or verification check fails, fix the content — never the scanner.
+What still needs a human: affiliate programme applications
+(`docs/AFFILIATE_APPLICATION_WORKLIST.md`) and acting on the issues the weekly
+jobs file.
+
 ## Documentation index
 
 - `DEPLOYMENT.md` — moving to the production domain
