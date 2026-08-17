@@ -10528,7 +10528,7 @@ And if you are reading this while still planning rather than already in the stre
         heading: 'Quick answer',
         body: `Every visitor notices it within an hour: Siena looks medieval in a way even Florence does not. The usual explanation is that the city "preserved its heritage". The truer one is harsher, and it makes every stone more interesting.
 
-**Siena is not preserved. It is interrupted.** In the spring of 1348 the plague arrived in one of the richest, most ambitious cities in Europe — a city mid-way through doubling its cathedral and only months from finishing its great tower — and killed, by modern estimates, **between a third and a half of its people**. The building sites stopped. The government that had commissioned everything fell within seven years. And the city never again had the money, the confidence or the reason to build over its own Middle Ages.
+**Siena is not preserved. It is interrupted.** In the spring of 1348 the plague arrived in one of the richest, most ambitious cities in Europe — a city mid-way through doubling its cathedral and only months from finishing its great tower — and killed, by modern estimates, **between a third and a half of its people**. The building sites stopped. The government that had commissioned everything fell within seven years. The [painters of the city's golden school died with everyone else](/blog/sienese-school-painting-where-to-see/), and [the bank that eventually replaced its ruined first one](/blog/monte-dei-paschi-oldest-bank-siena/) would not be founded for another century. And the city never again had the money, the confidence or the reason to build over its own Middle Ages.
 
 That is why the walls of an abandoned cathedral still stand in the middle of town, why an open-air chapel leans against the town hall, and why the fabric around you is fourteenth-century: **not because Siena kept its past, but because its future was cancelled.**
 
@@ -10934,6 +10934,258 @@ Go late in the day if you can. The tour groups thin, the sanctuary's oratories g
       imageAlt: 'A steep lane in Siena’s old quarters, like those between Catherine’s house and San Domenico',
       canonicalPath: '/blog/saint-catherine-of-siena-places',
       tags: ['siena history', 'saint catherine', 'churches', 'free things to do', 'pilgrimage'],
+    }
+  ),
+  A(
+    'monte-dei-paschi-oldest-bank-siena',
+    'The Oldest Bank in the World Is a Sienese Charity That Refused to Die',
+    'Things to do',
+    'Siena',
+    'Siena invented big banking, lost it in Europe’s first crash, then founded a 1472 charity that became the world’s oldest bank. It is still on its square.',
+    '/images/siena/08-siena-cityscape.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Walk north from the Campo along Banchi di Sopra and within three minutes you reach a Gothic palace on its own quiet square. There is no queue, no ticket office and no plaque a visitor would notice. It is **Palazzo Salimbeni**, working headquarters of **Banca Monte dei Paschi di Siena — founded in 1472, the oldest bank in the world still operating** — and it is the third pillar of the city, standing with the Campo and the Duomo.
+
+The story is better than the superlative. Siena had already invented big banking once: in the thirteenth century its **Gran Tavola** was the most powerful bank in Europe, banker to the popes — and its collapse in **1298** ruined the city in Europe's first great financial crash. The institution Siena built afterwards, a **charity lending to the poor at minimal interest**, is the one that lasted five and a half centuries.
+
+**As a visit** this is fifteen minutes, free, and best taken as part of a walk: the palace and piazza are the point, because the bank's art collection is mostly not open to the public. But as a *story* it reframes half the city — because money, not just faith, built the Siena you are photographing, and this square is where the money lived. This article gives you the story, then the walk.`,
+      },
+      {
+        id: 'gran-tavola',
+        heading: 'The first age: bankers to the popes',
+        body: `Before Florence was Europe's banker, Siena was.
+
+In **1255** the Sienese merchant **Orlando Bonsignori** formed a consortium called the **Gran Tavola** — the "Great Table" — which grew into what historians have called the greatest bank of the thirteenth century and the most powerful in Europe. Its decisive asset was a relationship: the Bonsignori became **the papacy's bankers**, holding the deposits of the Papal States and channelling the ecclesiastical tithes raised for the Holy Land. In an age when the Church was Europe's largest financial network, Siena sat at the till.
+
+This is the money behind the marble. The century of the Gran Tavola is the century of the [cathedral's expansion, the Campo's paving and the rise of the Nine](/blog/siena-1348-the-year-the-city-stopped/) — the great building age that still defines the city was funded by a town of bankers at the height of their reach.
+
+**Then it ended, fast.** The firm declined after Orlando's death in 1273, and two external blows finished it: **Philip IV of France confiscated the assets of Sienese merchants** in his kingdom, and **Pope Boniface VIII moved the papal business to Florentine banks**. In **1298 the Gran Tavola went bankrupt**, dragging other Sienese banks down with it and opening a period of sustained economic ruin. Europe's first great banking collapse happened here — and the papal account, once lost to Florence, never came back. If you want a one-line financial history of Tuscany: **Siena built the table, Florence took the chairs.**`,
+      },
+      {
+        id: 'monte-1472',
+        heading: '1472: the charity that outlived everything',
+        body: `What Siena founded next could hardly have been more different from the Gran Tavola, and the difference is why it survived.
+
+On **27 February 1472**, by resolution of the General Council of the Republic, the city established a **Monte di Pietà** — a civic pawn bank created expressly, in the founding language, to lend to **"poor or miserable or needy persons" at minimal interest**. This was not a merchant venture chasing papal deposits; it was an anti-usury institution of civic Catholicism, born of the same religious-civic culture that had [given the city to the Virgin](/blog/battle-of-montaperti-1260-siena/) and canonised [its dyer's daughter](/blog/saint-catherine-of-siena-places/) eleven years earlier.
+
+Consider what 1472 means. The bank is **older than the discovery of the Americas, older than the Medici grand duchy, older than every nation-state in Europe in its current form**. It was founded by a Republic that had eighty-three years left to live — and when [the siege of 1554–55](/blog/siena-1348-the-year-the-city-stopped/) ended Sienese independence, the Republic's bank simply carried on under new management, and has now outlived its founder by nearly five centuries.
+
+**The name came in 1624**, with a reform under which the bank's depositors were guaranteed against the income of the state-owned grazing lands — the ***paschi*** — of the Sienese countryside. A bank named after pastures: even at its most financial, Siena secured money against grass.`,
+      },
+      {
+        id: 'third-pillar',
+        heading: 'The third pillar of the city',
+        body: `For generations of Sienese, "il Monte" has been less a company than a fact of civic life — employer, patron and purse, standing in the city's self-image alongside the commune and the cathedral. Its patronage of Sienese institutions and events is part of the city's modern fabric, widely reported and locally taken for granted; we state it generally here because the particulars shift year to year.
+
+**Its twenty-first century has been the hardest since 1298.** The world's oldest bank spent the 2010s in crisis — scandal, losses and rescue made global financial news, and for a while its survival was genuinely in question. It survived; the details belong to the business pages rather than a travel article, but a visitor should know that the quiet palace on the square has recently lived through its second near-death in seven hundred years. Sienese feeling about the bank runs correspondingly deep, in both directions — pride and grievance together. It is a good subject to ask about and a poor one to joke about, roughly like [the contrade](/siena-contrade-guide).`,
+      },
+      {
+        id: 'visiting',
+        heading: 'Visiting: the square, the palace, the walk',
+        body: `Be honest about what this visit is: **an exterior, a square and a story.** Palazzo Salimbeni is a working bank headquarters, and its accumulated art collection — five centuries of Sienese painting and documents — is **mostly not open to the public**. There is no ticket to buy, which is either a disappointment or a relief depending on how your museum budget is doing.
+
+What you get, free:
+
+- **Piazza Salimbeni** itself, one of the most composed small squares in the city — the Gothic palace at its head, flanked by Renaissance neighbours, usually near-empty because nothing on it is ticketed.
+- **The setting on Banchi di Sopra**, the [Via Francigena's course through the city](/siena-walking-tour) and Siena's smart street then and now. The bank sits on the pilgrim-and-money road it grew from: the same street carried both kinds of traffic, which is the whole medieval banking story in one line of paving.
+- **The walk north**, continuing along Banchi di Sopra toward Camollia — the direction [our walking route](/siena-walking-tour) flags as the city at its least performed.
+
+**Time it for the passeggiata if you can.** Banchi di Sopra is the spine of Siena's evening walk, and in the hour before dinner the street fills with the city doing its slowest, most sociable lap — which puts the bank's palace in its proper context better than any morning visit: not a monument on a route, but the fixed backdrop of Sienese daily life, seven centuries running.
+
+**And note what it combines with.** Salimbeni sits naturally between the Campo and [the Catherine walk](/blog/saint-catherine-of-siena-places/) — her sanctuary and San Domenico lie just west of this street — which means the bank, the saint's house and the basilica chain into a half-day of the city's best free things, in a town where the ticketed half [prices itself confidently](/siena-cathedral-guide).
+
+**Give it fifteen unhurried minutes** on the way to somewhere else, and spend them on the one thought the square is built for: everything else you have seen today — [the Duomo](/siena-cathedral-guide), [the Campo](/piazza-del-campo-guide), the palazzi — was paid for, and this unticketed square is where the paying was arranged, across seven and a half centuries, twice nearly to death and twice back.`,
+      },
+      {
+        id: 'institutional-longevity',
+        heading: 'The Sienese talent nobody names: keeping things alive',
+        body: `Put the bank beside the city's other survivors and a pattern appears that no other European city quite matches.
+
+**The [contrade](/siena-contrade-guide)** have held their present boundaries since a 1730 edict and their identities for far longer. **The Palio** has been run for the Virgin across centuries under rules that change glacially and by consensus. **The [university](/blog/siena-1348-the-year-the-city-stopped/)'s city** kept a plague-vow chapel in continuous meaning for six hundred years. And **il Monte** has kept a charity's charter working since 1472 — through the fall of the Republic it was founded by, the Medici, Napoleon, unification, two world wars and its own twenty-first-century near-death.
+
+The pattern is not conservatism, exactly. It is that Siena treats institutions the way other cities treat monuments: as things you maintain rather than replace. Florence, thirty miles away, has rebuilt itself intellectually every century — that is its genius. Siena's genius is duration, and it is a genuinely strange talent: easy to mistake for stagnation, until you notice that everyone else's fifteenth-century banks, brotherhoods and boundary systems are museum labels now, and Siena's still answer the phone, run the race and fly the flags.
+
+**Which is the real reason to stand in Piazza Salimbeni for a quarter of an hour.** The palace is handsome; the institution is astonishing. You are looking at the world's longest continuously running answer to the question every civilisation faces — how do you make something last? — and the Sienese answer, on the evidence, is: found it as a duty rather than a venture, bind it to the city's identity, and never, ever wind it up merely because the world has changed.
+
+One street-level footnote as you walk on. The street is **Banchi di Sopra** — the "upper benches" — and the received etymology runs through the *banchi*, the merchants' and money-changers' counters that lined it; the same bench, *banco*, that gave European languages the word **bank** itself. Whether or not the derivation is airtight, the street sign says what the city was.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **16 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
+
+**Verified:** the founding of the Monte di Pietà on **27 February 1472** by resolution of the General Council of the Republic of Siena, for charitable lending to "poor or miserable or needy persons" at minimal interest; its standing as **the oldest bank in the world in continuous operation**; the **1624 reform** under which depositors were guaranteed against the income of the state-owned pastures — the *paschi* — giving the bank its name; the headquarters' continuous presence in **Palazzo Salimbeni**; the art collection's existence and the fact that it is **mostly not publicly accessible**; the **Gran Tavola** — formed by **Orlando Bonsignori in 1255**, the most powerful bank of thirteenth-century Europe and banker to the papacy, holding Papal State deposits and Holy Land tithes; its decline after Orlando's death in 1273 and its **bankruptcy in 1298** under the twin blows of Philip IV's confiscations and Boniface VIII's transfer of papal business to Florentine banks, followed by sustained economic ruin in Siena.
+
+**Stated generally rather than in particulars, and flagged as such:** the bank's and its foundation's patronage of Sienese civic life, which is widely reported but whose specifics change year to year; and the twenty-first-century crisis and rescue, which made global news across the 2010s and which we deliberately summarise without figures — the corporate history is still moving, and a travel article is the wrong place to freeze it. **Not established:** whether the *paschi* of the 1624 guarantee were specifically the Maremma pastures, as often stated — our source says state-owned pastures without naming the district; and any current arrangements for public access to the art collection beyond "mostly not accessible" — if occasional openings exist, the bank announces them, not us.
+
+We have no commercial relationship with Banca Monte dei Paschi di Siena or any entity named. Nothing on this page can be booked at all.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Every city tells you what it values by what it puts on its best squares. Siena put government on the Campo, God on the hilltop, and money on Banchi di Sopra — and of the three, the money has the strangest story: a European superpower that died in 1298, reborn in 1472 as a charity for the poor, still doing business in the same palace while empires, republics and its own near-bankruptcies came and went.
+
+Stand in Piazza Salimbeni for a quarter of an hour on your way north. It costs nothing, which — for an institution founded to lend to those who had nothing — is somehow the correct price of admission.`,
+      },
+    ],
+    [
+      { q: 'What is the oldest bank in the world?', a: 'Banca Monte dei Paschi di Siena, founded on 27 February 1472 by resolution of the General Council of the Republic of Siena as a Monte di Pietà — a civic charity lending to the poor at minimal interest. It has operated continuously ever since, from the same headquarters, Palazzo Salimbeni in Siena, and took its present name in 1624 from the state-owned pastures — the paschi — pledged as guarantee to its depositors.' },
+      { q: 'Can you visit Monte dei Paschi in Siena?', a: 'The exterior and Piazza Salimbeni, freely — the palace is a working bank headquarters and its five-century art collection is mostly not open to the public. It is a fifteen-minute stop on Banchi di Sopra, three minutes north of the Campo, and worth taking for the square and the story rather than for an interior.' },
+      { q: 'What was the Gran Tavola?', a: 'The great Sienese bank formed by Orlando Bonsignori in 1255 — the most powerful in thirteenth-century Europe and banker to the papacy, holding the deposits of the Papal States. It declined after Orlando’s death in 1273 and went bankrupt in 1298, ruined by Philip IV of France’s confiscations and Pope Boniface VIII’s transfer of papal business to Florence. Its collapse ruined Siena’s first financial age — and the papal account never came back.' },
+      { q: 'Why is the bank called Monte dei Paschi?', a: 'From a 1624 reform under which the bank’s depositors were guaranteed against the income of state-owned grazing lands — the paschi. The "Monte" is the older part of the name: the Monte di Pietà, the charitable fund founded in 1472. Between them the name records both identities — a charity, secured against pastures.' },
+      { q: 'Did Siena or Florence invent banking?', a: 'Siena got there first at scale: the Gran Tavola was Europe’s dominant bank and the papacy’s banker through the mid-thirteenth century, while Florence’s great houses rose afterwards — helped decisively when Boniface VIII moved the papal business to Florentine banks in the 1290s and the Gran Tavola collapsed in 1298. A fair one-line version: Siena built the table, Florence took the chairs.' },
+      { q: 'Can you go inside Palazzo Salimbeni?', a: 'Not in the ordinary run of things. It is the working headquarters of an operating bank, and the art and archives accumulated across five centuries are mostly not open to the public. If occasional openings happen, the bank announces them — treat any visit to the interior as a bonus, not a plan, and take the square, the façade and the story, which are free and always available.' },
+      { q: 'Is Monte dei Paschi still in trouble?', a: 'Its twenty-first century has been turbulent — crisis, scandal and rescue made global headlines through the 2010s, the hardest passage since 1298 — and the corporate story is still moving, which is why this article summarises it without figures. What a visitor needs to know is simpler: the bank survived, it still operates from Palazzo Salimbeni, and Sienese feeling about it runs deep in both directions.' },
+    ],
+    '2026-09-07',
+    {
+      seoTitle: 'Monte dei Paschi 1472: Visiting the World’s Oldest Bank in Siena',
+      primaryKeyword: 'oldest bank in the world siena',
+      secondaryKeywords: [
+        'monte dei paschi di siena history',
+        'palazzo salimbeni siena',
+        'gran tavola bonsignori',
+        'monte di pieta 1472',
+        'siena banking history',
+        'free things to see in siena',
+      ],
+      imageAlt: 'The rooftops of Siena, the city whose banks financed its medieval building age',
+      canonicalPath: '/blog/monte-dei-paschi-oldest-bank-siena',
+      tags: ['siena history', 'monte dei paschi', 'banking history', 'free things to do'],
+    }
+  ),
+  A(
+    'sienese-school-painting-where-to-see',
+    'Sienese Painting: Why It Looks Like That, and Where to See It',
+    'Things to do',
+    'Siena',
+    'Florence invented depth; Siena kept heaven. What the gold-ground Sienese school was, why it ended in 1348, and the three-museum route that shows it best.',
+    '/images/siena/03-piccolomini-library.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Most visitors meet Sienese painting by accident — a room of gold backgrounds and almond-eyed Madonnas passed through on the way to something with perspective — and file it as "before art got good". That reading is almost exactly backwards, and correcting it is the cheapest upgrade available to a Tuscan trip.
+
+**The Sienese school was not failed Florentine painting. It was a different project.** Florence, from Giotto on, painted the world as a solid place — weight, depth, anatomy, the room you could walk into. Siena painted **heaven as a presence** — line, gold, tenderness and pattern, refined to an intensity no one else in Europe matched. One tradition led to the Renaissance and eventually to photography; the other led inward. You do not have to prefer it. You do have to see it in the city that made it, where it stayed.
+
+**The three-stop route, in story order:**
+
+1. **Museo dell'Opera** (on the [OPA SI Pass](/siena-cathedral-guide)) — Duccio's **Maestà**, the altarpiece carried through the streets in 1311, the school's founding masterpiece.
+2. **Museo Civico** ([Palazzo Pubblico](/piazza-del-campo-guide)) — the Lorenzetti *Good and Bad Government*, the school going secular and political.
+3. **Pinacoteca Nazionale** — the deep bench: rooms of Duccio, Simone Martini and the Lorenzetti, in a city-palace museum that almost nobody queues for.
+
+Half a day covers all three. This article gives you the eyes first.`,
+      },
+      {
+        id: 'what-it-is',
+        heading: 'What Sienese painting is, in one museum room',
+        body: `Stand in front of any fourteenth-century Sienese panel and four things are doing the work:
+
+**Gold ground.** The background is not a place; it is **eternity**, rendered in actual gold leaf that moved with candlelight. A Florentine background tells you where the scene happens. A Sienese background tells you it happens outside time. Calling it "primitive" is like calling an icon a failed photograph — the flatness is the theology.
+
+**Line.** Sienese painting draws where Florentine painting models. Contours curve with a calligraphic, almost musical elegance — the school's inheritance from Byzantine icon painting, refined rather than rejected. Follow the outline of a Madonna's veil in a Duccio and you are watching a line think.
+
+**Tenderness.** The stock subject is the Virgin and Child, and Siena's innovation was emotional: mothers who look at their children, children who grip a mother's veil. This is the [City of the Virgin](/blog/battle-of-montaperti-1260-siena/) painting its sovereign — the Maestà is not a devotional picture that happens to be civic, it is the state portrait of Siena's queen.
+
+**Colour as luxury.** Rose, ultramarine at smuggler's prices, and that gold — the palette of a banking city spending on its saints what it made on [its tables](/blog/monte-dei-paschi-oldest-bank-siena/).
+
+**And one more thing, which photographs never carry: the scale.** Much of the school's finest work is small — panels made for side altars, bedchambers and processional carrying, meant to be looked at from the distance of prayer rather than across a gallery. Stand close. These are objects built for one viewer at a time, and a museum room full of them is really a room full of private conversations; the gold only starts working at arm's length, where it was designed to catch a candle rather than a flash.
+
+Once you can see those five, the "old-fashioned" room becomes the most distinctive thing in Tuscan art: **the last, highest moment of medieval painting, made by a city rich enough to perfect it just before the world changed.**`,
+      },
+      {
+        id: 'duccio',
+        heading: 'Duccio, and the day a painting closed the city',
+        body: `The school's founding event has a date and eyewitnesses. In **1311**, Duccio di Buoninsegna completed the **Maestà** — the Virgin in majesty, enthroned among saints, painted on both faces of a great altarpiece for the cathedral's high altar — and Siena **shut down to walk it there**. The panel was carried in procession from the painter's workshop to the Duomo, with clergy, officials and the population accompanying it through the streets.
+
+Hold that scene: a city closing for a *painting*. Not for a relic, a king or a victory — for the delivery of an artwork, sixty years before anywhere else in Europe would have understood the gesture. It is the clearest statement in the historical record of what images meant here.
+
+The Maestà lives today in the **Museo dell'Opera del Duomo**, dismantled and partly dispersed, its two faces separated — the enthroned Virgin on one side of the room, the narrative panels of Christ's Passion facing her. It is [included in the OPA SI Pass](/siena-cathedral-guide), and it is, by some distance, **the single greatest object in Siena**. Give it twenty minutes, not two: the Passion panels reward reading like a graphic novel, scene by scene, and almost everyone walks past them to photograph the gold.`,
+      },
+      {
+        id: 'martini-lorenzetti',
+        heading: 'Simone Martini and the Lorenzetti: grace and government',
+        body: `Duccio's heirs split his inheritance between them, and the split is the school's story.
+
+**Simone Martini took the grace.** His line is the school's at its most refined — courtly, sinuous, French-inflected Gothic elegance that made him famous far beyond Tuscany; he ended his career at the papal court in Avignon. In the **Pinacoteca Nazionale** his *Blessed Agostino Novello* altarpiece shows the register he owned: miracles rendered with an almost domestic gentleness, children falling from balconies and being caught mid-air by a saint who arrives like a thought.
+
+**The Lorenzetti brothers took the world.** Pietro and Ambrogio pushed Sienese painting toward weight, space and observed life — without surrendering the line. Ambrogio's ***Allegory and Effects of Good and Bad Government*** (1338–1339), painted for the [council room of the Nine](/piazza-del-campo-guide), is the school's great secular achievement and arguably medieval Europe's: a frescoed argument about politics, with the earliest great painted landscape in the tradition — the Sienese countryside rolling away under the effects of good rule, recognisably [the Crete and the hills you can still drive](/blog/val-dorcia-or-chianti-which-to-visit-2026/).
+
+**Then 1348.** The plague that [stopped the city](/blog/siena-1348-the-year-the-city-stopped/) is generally believed to have killed both Lorenzetti brothers, and the school's golden age died with them. Sienese painting continued for two centuries — conservative, beautiful, increasingly out of step — but the trajectory that might have rivalled Florence's ended in the plague pits. When people say Siena's art is "frozen in time", this is the freezer: the school did not fall behind, it was **cut off mid-stride**.`,
+      },
+      {
+        id: 'pinacoteca',
+        heading: 'The Pinacoteca: the best queue-free museum in Tuscany',
+        body: `The **Pinacoteca Nazionale**, on Via San Pietro a few minutes south of the Campo, holds **the world's most significant collection of Sienese school painting** — room after room of gold-ground panels tracing the tradition from its origins through the fifteenth century — and it is reliably, almost eerily, uncrowded. In a region where the headline galleries need [sold-out survival guides](/blog/uffizi-tickets-sold-out-what-to-do/), Siena's principal art museum can be walked into on a summer afternoon.
+
+**Practicalities, from third-party listings rather than the museum's own page — check before you build a day on them:** hours around **10:00–18:00**, admission around **€8**. The setting is part of the point: the collection hangs in **Palazzo Buonsignori**, a Gothic city palace — whose name, at the least, echoes the Bonsignori of the [Gran Tavola](/blog/monte-dei-paschi-oldest-bank-siena/); painting bought with banking money now hangs under a banker's name either way.
+
+**How to visit it without drowning:** gold-ground rooms defeat completists. Pick three works and give them ten minutes each — the *Blessed Agostino Novello* for Martini's line, a Duccio Madonna for the school's tenderness, and any Lorenzetti for the world creeping in. Twenty panels at thirty seconds each teaches nothing; three at ten minutes recalibrates your eyes for the rest of the trip — which is the actual return on this museum, and why it belongs **before** the Uffizi in an itinerary, not after it.`,
+      },
+      {
+        id: 'half-day-plan',
+        heading: 'The half-day plan, priced',
+        body: `The three museums sit within a twenty-minute walk of one another, and the order matters more than the pace.
+
+**Morning, from opening:** start at the **Museo dell'Opera** on the [OPA SI Pass](/siena-cathedral-guide) — €13, or €15 while the cathedral floor is uncovered — and give the Maestà the first, freshest twenty minutes of your attention. The pass is **valid three consecutive days**, so the rest of the cathedral complex does not have to happen today; that flexibility is the whole trick of this plan.
+
+**Late morning:** down to the Palazzo Pubblico for the **Museo Civico** at €10 (€15 combined with the Torre, [with its no-booking rules](/torre-del-mangia-guide)) and the Lorenzetti frescoes — best before the midday tour-group pulse reaches the Campo.
+
+**After lunch:** the **Pinacoteca** on Via San Pietro, around €8 by third-party listings, in the emptiest early-afternoon hours when the headline sights are at their fullest. Three works, ten minutes each, then stop.
+
+**The arithmetic:** roughly **€31–33 total** for the greatest concentration of Sienese painting on earth — about the price of a single Uffizi advance ticket and a coffee. And the crowd arithmetic is better still: of the three, only the Museo Civico ever feels busy.
+
+**If you have only an hour**, spend all of it with the Maestà and walk past everything else without guilt. One masterpiece properly seen outweighs three museums skimmed — and the Maestà is the one object in Siena that repays a visit all by itself.
+
+**When it rains**, this plan is the city's best day rather than its consolation: all three museums are interiors, and together with [Santa Maria della Scala](/santa-maria-della-scala-siena) across from the cathedral they make a full wet-weather circuit — the same rescue our [walking route](/siena-walking-tour) reaches for when the weather closes the tower.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **16 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
+
+**Verified:** the Pinacoteca Nazionale's standing as the world's most significant collection of Sienese school painting, its location in Palazzo Buonsignori on Via San Pietro, and the presence of works by Duccio, Simone Martini and Ambrogio Lorenzetti, including Duccio's *Madonna dei Francescani* and Martini's *Blessed Agostino Novello*; the completion of Duccio's **Maestà in 1311** and its procession through the city to the cathedral, as carried in our cathedral guide's verification; the Maestà's present home in the Museo dell'Opera and its inclusion in the OPA SI Pass; Ambrogio Lorenzetti's *Allegory and Effects of Good and Bad Government* of **1338–1339** in the Palazzo Pubblico's Sala dei Nove, as verified for our Campo guide; and Simone Martini's later career at the papal court in Avignon, as standard biography.
+
+**Stated as third-party figures rather than official:** the Pinacoteca's hours (around 10:00–18:00) and admission (around €8), which come from visitor listings rather than the museum's own published page — treat both as indicative. **Stated as scholarly belief rather than documented fact:** the deaths of both Lorenzetti brothers in the 1348 plague, which is the general presumption. **Deliberately avoided:** attribution controversies, including the Guidoriccio fresco question, which deserve more space than a visitor guide can give them; and a claimed genealogical identity between the Palazzo Buonsignori and the Bonsignori banking family, which we could not confirm and therefore describe only as an echo of names.
+
+We have no commercial relationship with any museum named. No booking made from this page pays us anything.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Art history, as usually taught, is a road that runs through Florence, and Sienese painting appears in it as the scenic turn-off the main road bypassed. Spend half a day with the school in its own city and the metaphor reverses: this was not a road to somewhere else. It was a destination that stopped being built.
+
+The gold grounds were never naïve. They were a choice, made by the richest and most confident city of its age, renewed right up until the year the [painters died with everyone else](/blog/siena-1348-the-year-the-city-stopped/). Florence teaches you how painting learned to show the world. Siena shows you what painting was for before that seemed like the point — and it does so in three museums you can walk between in twenty minutes, one of which you will have nearly to yourself.`,
+      },
+    ],
+    [
+      { q: 'What is the Sienese school of painting?', a: 'The painting tradition of medieval Siena — Duccio, Simone Martini, Pietro and Ambrogio Lorenzetti and their successors — defined by gold grounds, calligraphic line, jewel colour and emotional tenderness. Where Florence from Giotto onward pursued depth and solidity, Siena refined the Byzantine inheritance into the last, highest moment of medieval painting. Its golden age ended abruptly in 1348, when the plague is generally believed to have killed both Lorenzetti brothers.' },
+      { q: 'What is Duccio’s Maestà and where is it?', a: 'The Virgin in majesty, painted on both faces of a great altarpiece for Siena Cathedral’s high altar and completed in 1311 — when the city shut down and carried it in procession from the workshop to the Duomo. It hangs today, dismantled, in the Museo dell’Opera del Duomo, covered by the OPA SI Pass, with the enthroned Virgin facing the narrative panels of the Passion. It is the single greatest object in Siena.' },
+      { q: 'Is the Pinacoteca Nazionale in Siena worth visiting?', a: 'For anyone with a flicker of interest in painting, yes — it holds the world’s most significant collection of the Sienese school, in a Gothic palace a few minutes from the Campo, and it is reliably uncrowded in a region of sold-out galleries. Third-party listings give hours around 10:00–18:00 and admission around €8; check before building a day on either figure.' },
+      { q: 'Why do Sienese paintings have gold backgrounds?', a: 'Because the background is not a place but eternity: gold leaf, moving with candlelight, locates the scene outside time — the theology is in the flatness. Reading it as a failure of perspective mistakes the project; Siena was not trying to paint the room you could walk into, but the presence you could pray to.' },
+      { q: 'How is Sienese painting different from Florentine painting?', a: 'Florence painted the world as a solid place — weight, anatomy, the depth that led to the Renaissance. Siena painted heaven as a presence — line, gold, pattern and tenderness, refined from the Byzantine inheritance rather than overthrown. They are parallel projects, not stages of one progress; seeing the Sienese school in its own city is the quickest cure for the "before art got good" misreading.' },
+      { q: 'Should you see Siena’s painting before or after the Uffizi?', a: 'Before, if your trip allows it. The Sienese school teaches you to read line, gold and tenderness on their own terms; arrive with Florentine expectations and the gold grounds read as a warm-up act, which is the standard tourist misreading. Do Siena’s three museums first and the Uffizi’s early rooms become a conversation between two projects rather than a staircase of progress — and the Uffizi is the gallery that needs a sold-out survival plan, not these.' },
+      { q: 'Where should you see Sienese painting in Siena?', a: 'Three stops in story order, walkable in twenty minutes: the Museo dell’Opera for Duccio’s Maestà (OPA SI Pass), the Museo Civico for Ambrogio Lorenzetti’s Good and Bad Government of 1338–39, and the Pinacoteca Nazionale for the deep collection. Half a day covers all three — and doing them before Florence’s galleries recalibrates your eyes for the whole trip.' },
+    ],
+    '2026-09-08',
+    {
+      seoTitle: 'Sienese School of Painting: A Visitor’s Guide to Duccio & Lorenzetti',
+      primaryKeyword: 'sienese school of painting',
+      secondaryKeywords: [
+        'duccio maesta siena',
+        'pinacoteca nazionale siena worth it',
+        'ambrogio lorenzetti good government',
+        'simone martini siena',
+        'sienese vs florentine painting',
+        'siena art museums',
+      ],
+      imageAlt: 'Frescoed vaults in Siena — the colour and line the Sienese school made its signature',
+      canonicalPath: '/blog/sienese-school-painting-where-to-see',
+      tags: ['siena history', 'sienese school', 'art', 'museums', 'duccio'],
     }
   ),
 ];
