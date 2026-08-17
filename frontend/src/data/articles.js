@@ -10558,7 +10558,7 @@ His account is one of the most quoted documents of the medieval world, and it ea
 
 His wife Nicoluccia died too. He recorded great pits dug and filled with the dead, the abandonment of the mines in Sienese territory, and a belief he states flatly: that so many died "that all believed it was the end of the world".
 
-**On the numbers, honesty is required, because the chronicle's are not statistics.** Agnolo claims 80,000 dead in the city and its suburbs, and that of "more than 30,000 men" fewer than 10,000 remained. Medieval chroniclers counted grief, not heads, and those figures exceed any plausible population. What modern historians defend is bad enough: **something between a third and a half of Siena's people died in a few months of 1348**. Whichever end of that range is true, it means that by autumn, every surviving Sienese was living in a city where every third face they knew was gone.`,
+**On the numbers, honesty is required, because the chronicle's are not statistics.** Agnolo claims 80,000 dead in the city and its suburbs, and that of "more than 30,000 men" fewer than 10,000 remained. Medieval chroniclers counted grief, not heads, and those figures exceed any plausible population. What modern historians defend is bad enough: **something between a third and a half of Siena's people died in a few months of 1348**. Whichever end of that range is true, it means that by autumn, every surviving Sienese was living in a city where every third face they knew was gone. Among the infants who lived through it was a dyer's daughter from Fontebranda, ten months old that May — [Catherine, who would grow up to move the papacy](/blog/saint-catherine-of-siena-places/).`,
       },
       {
         id: 'the-cathedral-stops',
@@ -10802,6 +10802,138 @@ Tuscany sells itself as a landscape of beauty. It is also a landscape of memory,
       imageAlt: 'The interior of Siena Cathedral, where the city’s keys were laid before the Virgin on the eve of Montaperti',
       canonicalPath: '/blog/battle-of-montaperti-1260-siena',
       tags: ['siena history', 'montaperti', 'dante', 'day trips', 'medieval italy'],
+    }
+  ),
+  A(
+    'saint-catherine-of-siena-places',
+    'Catherine of Siena: The Dyer’s Daughter Who Moved the Papacy',
+    'Things to do',
+    'Siena',
+    'A dyer’s daughter from Siena talked the papacy into leaving Avignon. Her house, her church and her head are all still here — and all free to visit.',
+    '/images/siena/06-siena-contrada-street.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Of everyone Siena has produced in a thousand years, the most consequential was not a banker, a general or a pope. She was a **dyer's daughter born in 1347** who never held an office, never commanded anything, and by the time she died at thirty-three had corresponded with princes as an equal and helped talk the papacy into returning to Rome after nearly seventy years in Avignon.
+
+**Catherine of Siena** is also the rare great historical figure whose places survive almost intact, in walking distance of each other, **all free**:
+
+- **The Santuario-Casa di Santa Caterina** — her family home on the slope above Fontebranda, a sanctuary since the fifteenth century, with the church holding the crucifix before which, as tradition holds, she received the stigmata. **Free entry.**
+- **The Basilica di San Domenico** — the great brick church on the western ridge where she prayed as a Dominican tertiary, and where **her head is enshrined** in its own chapel. **Free entry.**
+- The lanes between them — the steep, workaday quarter of dyers and tanners she came from, which remains one of the least touristed corners of the centre.
+
+This article tells her story straight — it is stranger than the holy-card version — and then walks you to the places. If you visit only churches with tickets, you will miss the most remarkable biography in the city.`,
+      },
+      {
+        id: 'the-dyers-daughter',
+        heading: '1347: a dyer’s daughter below San Domenico',
+        body: `Caterina Benincasa was born on **25 March 1347**, one of the many children of **Giacomo di Benincasa, a wool dyer**, and his wife **Lapa**, a poet's daughter. The family house stood — stands — on the slope above the **Fontebranda** fountain, in the valley quarter where Siena's dyers and tanners worked, directly below the Dominican basilica on the ridge.
+
+Mark the date against the city around her: she was born **ten months before the plague reached Siena** in May 1348. The city of her childhood was the broken, grieving, half-empty Siena of [the year everything stopped](/blog/siena-1348-the-year-the-city-stopped/) — a place of mass graves, abandoned building sites and collapsing government. Whatever formed her, it was not a golden age. It was the aftermath of one.
+
+Her path was improbable at every step. She refused marriage, cut off her hair to end the argument, and joined the **Mantellate** — lay Dominican tertiary women, mostly widows, attached to San Domenico — while continuing to live at home. She taught herself to read; her letters she mostly **dictated**, in vigorous Sienese vernacular, to a circle of followers who included nobles and scholars content to serve as secretaries to an artisan's daughter. Those letters — to queens, mercenary captains, cardinals and two popes — are among the monuments of early Italian literature, and they are not polite. She addressed the pope as *babbo* — "daddy" — and told him to be a man.`,
+      },
+      {
+        id: 'avignon',
+        heading: 'Avignon: the errand that moved the papacy',
+        body: `To feel the scale of what she attempted, remember what the papacy was in her lifetime: **absent**. Since 1309 the popes had resided at **Avignon**, in the orbit of the French crown, while Rome decayed and Italy's wars ran unrefereed. Bringing the papacy home was the great political-religious cause of the age, argued by poets and princes for decades — without result.
+
+In **June 1376** Catherine travelled to Avignon as an **ambassador for Florence**, then at war with the papacy, to negotiate peace. As diplomacy for Florence the mission failed — the republic's shifting government undercut her — but she stayed, and pressed on **Gregory XI** in person the case she had long made by letter: return to Rome.
+
+In **January 1377 Gregory XI entered Rome**, ending nearly seven decades of Avignon papacy. History rarely hands one person sole credit for anything, and Gregory had his own reasons — but contemporaries and the tradition alike counted the return, in the Catholic Encyclopedia's phrase, as **"the merit of St Catherine of Siena"**. However the credit is divided, the fact stands unadjusted: the most intractable political problem in fourteenth-century Europe ended after a thirty-year-old uneducated laywoman from Fontebranda went to Avignon and argued for it face to face.
+
+She spent her last years in Rome labouring against the Great Schism that followed Gregory's death, wore herself out, and **died there on 29 April 1380**, aged thirty-three.`,
+      },
+      {
+        id: 'the-head',
+        heading: '1383: Siena brings her home — most of her',
+        body: `Catherine died in Rome, and Rome kept her: her body lies under the high altar of **Santa Maria sopra Minerva**, beside the Pantheon. Siena wanted its saint back, and the solution was medieval in every sense.
+
+**In 1383 her head was brought to Siena in a reliquary** and carried through the city in solemn procession to the Dominican church — attended, the record notes, by **her mother Lapa, then eighty-nine years old**, walking behind the relic of her own child. Whatever one feels about relic culture, that image survives seven centuries undimmed.
+
+The head remains in the **Basilica di San Domenico** today, enshrined in its own chapel. Her canonisation came in **1461**, and the pope who performed it completes a very Sienese circle: **Pius II — Enea Silvio Piccolomini**, the Sienese pope whose life fills the frescoed [Piccolomini Library in the cathedral](/siena-cathedral-guide). The city's greatest saint was raised to the altars by the city's greatest pope.
+
+The honours kept coming, centuries on: **patron saint of Italy in 1939** under Pius XII, **co-patron of Europe in 1999** under John Paul II, and a **Doctor of the Church** — one of the first two women ever so named.`,
+      },
+      {
+        id: 'visiting-sanctuary',
+        heading: 'Visiting the Santuario-Casa di Santa Caterina',
+        body: `Her family home became a sanctuary in the fifteenth century — the complex dates its transformation to **1464**, three years after the canonisation — and it is one of the most affecting free visits in Tuscany, precisely because it is a *house*: loggias and oratories built over the rooms of a working family.
+
+**What you will see.** From the entrance loggia the complex opens into a series of oratories built over the family's spaces, and the **Chiesa del Crocifisso**, which preserves the **crucifix before which, as tradition holds, Catherine received the stigmata** in Pisa in 1375. Her cell — the small room of her years of seclusion — is the emotional centre of the visit.
+
+**Practicalities.** **Admission is free.** Third-party listings give the church as open roughly 9:30–12:30 and 15:00–19:00, with the house complex open through the day — but these are guidebook hours, not the sanctuary's own published schedule, so treat them as indicative and expect closures around services. It is a place of active devotion: dress and volume as for a working church.
+
+**Where it is.** On the **Costa di Sant'Antonio**, the slope between the centre and the Fontebranda valley, a few minutes below San Domenico. The descent is steep — this is the [three-ridges Siena](/siena-walking-tour) at its most vertical — and pairing the sanctuary with the basilica above makes one natural visit.`,
+      },
+      {
+        id: 'visiting-san-domenico',
+        heading: 'San Domenico: the basilica and the relic',
+        body: `The **Basilica di San Domenico** anchors the western ridge — a vast, austere brick barn of a church, begun in the thirteenth century, whose restraint is the point: the Dominicans built for preaching, not spectacle. It reads from across the valley as one of the defining masses of the Siena skyline, and the classic photograph of it is taken from near Fontebranda, with the basilica looming over the quarter Catherine came from.
+
+Inside, the **Cappella di Santa Caterina** holds the head reliquary. Around the church are works connected to her cult, including portraiture traditionally taken from the life. **Entry is free**; hours are a working church's, with closures around services.
+
+Two honest notes. First, the interior can feel bare after the cathedral — go for the presence, not the decoration. Second, the relic is exactly what it is: a preserved human head, venerated for six centuries. Some visitors find it profoundly moving, others difficult. Both reactions are reasonable; what it is not is a curiosity — for the Sienese, and for the pilgrims you will share the chapel with, this is the city's patron at home.
+
+From the basilica's terrace side, the view over Fontebranda to the cathedral opposite is among the best free prospects in the city — and it is the whole story in one frame: **the dyers' valley she came from, the ridge church that formed her, and the cathedral of the city that now claims her**.`,
+      },
+      {
+        id: 'fitting-her-in',
+        heading: 'Fitting Catherine into a Siena day',
+        body: `Because both sites are free and neither takes bookings, the Catherine walk is the most flexible half-day in Siena — which makes it the natural counterweight to the ticketed half.
+
+**The pairing that works best:** a morning on the [cathedral complex](/siena-cathedral-guide) or the [Campo's museums](/piazza-del-campo-guide) — the halves of Siena that need slots, counters and passes — then the Catherine walk from mid-afternoon, when the sanctuary's oratories begin to empty. Start at the sanctuary, descend toward Fontebranda, climb to San Domenico, and end on the basilica's terrace side with the view back across the valley as the light goes.
+
+**In bad weather** the pairing inverts usefully: both of her sites are interiors, both are free, and together with [Santa Maria della Scala](/santa-maria-della-scala-siena) they make a wet day in Siena that costs nine euro in total.
+
+**For the walking**, be honest with your knees: the Costa di Sant'Antonio is one of the steepest regularly walked slopes in the centre, and the sanctuary-to-basilica leg is a genuine descent-and-climb. [Our walking route](/siena-walking-tour) covers the wider geography; this quarter is the city's three-ridge structure at its most emphatic.
+
+**And read something before you go.** Her *Dialogue* and the surviving letters fill volumes in modern editions, and even ten minutes with the letters — the scolding of popes, the tenderness to prisoners, the *babbo mio* — turns the small rooms of the sanctuary from a shrine into a portrait. She is the rare saint whose own voice survives, and it is not a quiet one.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **16 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
+
+**Verified:** her birth on 25 March 1347 to the dyer Giacomo di Benincasa and Lapa, a poet's daughter; her death in Rome on 29 April 1380; the June 1376 journey to Avignon as ambassador for Florence and the mission's diplomatic failure; Gregory XI's return to Rome in 1377, with the tradition — quoted from the Catholic Encyclopedia — counting it as her merit; her body's resting place in Santa Maria sopra Minerva in Rome; the transfer of her head to Siena in 1383 and its procession through the city attended by her mother Lapa, then aged eighty-nine; the head's presence in the Basilica di San Domenico today; her canonisation by Pius II in 1461; the sanctuary's establishment in her family home, dated to 1464, with the Chiesa del Crocifisso preserving the crucifix of the stigmata tradition; **free admission** to both the sanctuary and San Domenico; and her titles as patron of Italy (1939, Pius XII) and co-patron of Europe (1999, John Paul II).
+
+**Stated as tradition or flagged:** the stigmata itself, which is a devotional tradition attached to the Pisa crucifix and described here as such; the sanctuary's opening hours, which come from third-party listings rather than the sanctuary's own published schedule and should be treated as indicative; her status as one of a very large family, which the biographical tradition records with varying counts we have therefore omitted; and the year of her naming as Doctor of the Church, which is standardly given as 1970 under Paul VI but which we did not independently confirm this session — the title itself is verified.
+
+We have no commercial relationship with the sanctuary, the basilica or any religious body. Both visits are free; no booking made from this page pays us anything.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Siena's other monuments are the works of governments, banks and building committees. These two are the trace of a single person — and of the strangest fact in the city's history, which is that its most powerful citizen was a woman with no power at all.
+
+Go late in the day if you can. The tour groups thin, the sanctuary's oratories go quiet, and the walk between the house and the basilica — down one slope, up the other, past the fountain where her father's trade drew its water — takes fifteen minutes and seven centuries. It costs nothing. In a city this good at charging for its past, that is its own kind of tribute: the places of the dyer's daughter are the ones Siena never learned to sell.`,
+      },
+    ],
+    [
+      { q: 'Who was Saint Catherine of Siena?', a: 'A dyer’s daughter, born in Siena on 25 March 1347, who as a lay Dominican became one of the most influential figures of fourteenth-century Europe — dictating letters to princes and popes, travelling to Avignon in 1376 as ambassador for Florence, and pressing Gregory XI to return the papacy to Rome, which he did in 1377. She died in Rome in 1380 aged thirty-three, was canonised in 1461 by the Sienese pope Pius II, and is patron saint of Italy and co-patron of Europe.' },
+      { q: 'Where is Saint Catherine buried?', a: 'Her body lies under the high altar of Santa Maria sopra Minerva in Rome, where she died in 1380. Her head was brought to Siena in 1383, carried through the city in procession attended by her mother, and is enshrined in its own chapel in the Basilica di San Domenico, where it remains.' },
+      { q: 'Can you visit Saint Catherine’s house in Siena?', a: 'Yes, free. The Santuario-Casa di Santa Caterina, on the Costa di Sant’Antonio above the Fontebranda valley, has been a sanctuary since 1464 — oratories built over the family home, her cell, and the Chiesa del Crocifisso with the crucifix of the stigmata tradition. Third-party listings give the church as roughly 9:30–12:30 and 15:00–19:00, but treat hours as indicative and expect closures around services.' },
+      { q: 'Is San Domenico in Siena free to enter?', a: 'Yes. The basilica is a working church with free entry, and the Cappella di Santa Caterina inside holds the head reliquary. Hours follow church use, with closures around services. The terrace side gives one of the best free views in Siena — across Fontebranda to the cathedral.' },
+      { q: 'Did Catherine of Siena really bring the papacy back to Rome?', a: 'She was one decisive voice among several pressures, and honest history divides the credit — Gregory XI had his own reasons. But she argued the case to him face to face in Avignon in 1376 after years of letters, he entered Rome in January 1377, and contemporaries and the tradition counted the return as her merit. No fuller single-person explanation of the event has ever displaced her.' },
+      { q: 'What is the connection between Catherine and the Piccolomini Library?', a: 'The pope who canonised her in 1461, Pius II, was Enea Silvio Piccolomini — Siena’s great Renaissance pope, whose life is the subject of Pinturicchio’s frescoes in the Piccolomini Library at the cathedral. The city’s greatest saint was raised to the altars by the city’s greatest pope, and both stories are told within a few hundred metres of each other.' },
+      { q: 'How long does the Catherine walk take?', a: 'An unhurried ninety minutes covers both sites and the quarter between them: the sanctuary on the Costa di Sant’Antonio, the steep descent toward the Fontebranda valley, and the climb to San Domenico on its ridge. Both sites are free, so this pairs naturally with a ticketed morning at the cathedral or the Campo museums.' },
+    ],
+    '2026-09-06',
+    {
+      seoTitle: 'St Catherine of Siena: Her House, Her Church and Her Story',
+      primaryKeyword: 'saint catherine of siena',
+      secondaryKeywords: [
+        'santuario casa di santa caterina siena',
+        'san domenico siena catherine head',
+        'catherine of siena avignon pope',
+        'where is saint catherine of siena buried',
+        'free things to see in siena',
+        'siena pilgrimage sites',
+      ],
+      imageAlt: 'A steep lane in Siena’s old quarters, like those between Catherine’s house and San Domenico',
+      canonicalPath: '/blog/saint-catherine-of-siena-places',
+      tags: ['siena history', 'saint catherine', 'churches', 'free things to do', 'pilgrimage'],
     }
   ),
 ];
