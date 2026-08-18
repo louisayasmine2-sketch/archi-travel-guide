@@ -3600,7 +3600,7 @@ Safe travels!`,
         heading: 'Top 8 Hidden Villages & Viewpoints Near Siena',
         body: `All eight spots sit within an hour of Siena and offer postcard Tuscany minus the crowds:
 
-1.  **Monteriggioni** — A perfectly preserved 13th-century walled village with 14 towers and intact ramparts. Wander the village freely and take the wall-walk for sweeping views over the countryside — the walkway-plus-exhibition ticket runs €4 (reduced €3.50), covers two short sections rather than the full circuit, and closes during the July medieval festival. About 20 minutes north of Siena by bus, then a 500m walk up; allow 45–60 minutes. Gamers know this skyline already: [Monteriggioni is Ezio's home town in Assassin's Creed II](/blog/tuscany-on-screen-film-locations-2026/).
+1.  **[Monteriggioni](/blog/monteriggioni-guide/)** — A perfectly preserved 13th-century walled village with 14 towers and intact ramparts. Wander the village freely and take the wall-walk for sweeping views over the countryside — the walkway-plus-exhibition ticket runs €4 (reduced €3.50), covers two short sections rather than the full circuit, and closes during the July medieval festival. About 20 minutes north of Siena by bus, then a 500m walk up; allow 45–60 minutes. Gamers know this skyline already: [Monteriggioni is Ezio's home town in Assassin's Creed II](/blog/tuscany-on-screen-film-locations-2026/).
 2.  **Biancane di Leonina & Crete Senesi** — Otherworldly clay hills and lunar-like badlands near Asciano create dramatic, photogenic landscapes. Visit early morning or late afternoon for solitude and golden light; wear sturdy shoes as the paths can be slippery after rain.
 3.  **Buonconvento** — A charming walled town on the ancient Via Cassia with narrow streets, a small sacred-art museum, and excellent local trattorias. Locals head here for ribollita and wild-boar pasta; tour buses usually skip it. Allow 1–2 hours.
 4.  **Castelnuovo Berardenga** — A quiet Chianti village with a medieval core and nearby wineries that produce outstanding Chianti Classico without the crowds of Radda or Greve. Perfect for a relaxed stroll and tasting.
@@ -7180,7 +7180,7 @@ Logistics are rural-Tuscan standard: Lajatico is a car destination, the concerts
 
 The real town rewards the pilgrimage with unusual honesty. Ubisoft — working with an architectural historian — modelled Monteriggioni faithfully: the wall circuit of about **570 metres and all fourteen towers** survives nearly intact, exactly the crown-of-towers silhouette the game renders (and that **Dante** described in the *Inferno* seven centuries before Ubisoft did). Built by Siena between **1213 and 1219** as a fist raised toward Florence, its two gates still face Florence and Rome respectively. The church Ezio restores corresponds closely to the real **Santa Maria** on the little piazza. What you will not find is the Villa Auditore itself: the game's grand house at the head of the town is an invention, and the version of Monteriggioni that bustles with hundreds of townsfolk is enlarged for play — the real borgo counts only a few dozen residents inside its walls and crosses end to end in five minutes.
 
-The visit, practically: the **wall-walk plus the small arms exhibition** ("Monteriggioni in Arme") is sold as one ticket at **€4** (reduced €3.50), covering two short walkway sections rather than the full circuit — recent seasons have sometimes opened only part of the southern stretch, and the walkways close entirely during the July medieval festival, so check with the tourist office on the day. The town leans into the connection cheerfully: the tourist office has published its own Assassin's Creed itinerary, Ubisoft once held an official fan day here, and the souvenir shops stock the expected hidden-blade merchandise. Getting there from Siena is [the 130 or 131 bus to Colonna di Monteriggioni](/blog/tuscany-without-a-car-2026/) — about twenty minutes, not every run stops, and the walk up from the stop is 500 uphill metres. Fan reviews split exactly as you would guess: "pilgrimage" from the faithful, "smaller than I expected" from everyone — and both are true at once, which is rather the charm.`,
+The visit, practically: the **wall-walk plus the small arms exhibition** ("Monteriggioni in Arme") is sold as one ticket at **€4** (reduced €3.50), covering two short walkway sections rather than the full circuit — recent seasons have sometimes opened only part of the southern stretch, and the walkways close entirely during the July medieval festival, so check with the tourist office on the day. The town leans into the connection cheerfully: the tourist office has published its own Assassin's Creed itinerary, Ubisoft once held an official fan day here, and the souvenir shops stock the expected hidden-blade merchandise. Getting there from Siena is [the 130 or 131 bus to Colonna di Monteriggioni](/blog/tuscany-without-a-car-2026/) — about twenty minutes, not every run stops, and the walk up from the stop is 500 uphill metres. Fan reviews split exactly as you would guess: "pilgrimage" from the faithful, "smaller than I expected" from everyone — and both are true at once, which is rather the charm. For the rest of the real village — Dante, the 1554 betrayal, the wall-walk and the abbey below — see [our dedicated Monteriggioni guide](/blog/monteriggioni-guide/).`,
       },
       {
         id: 'the-film-day',
@@ -7854,7 +7854,7 @@ The pattern holds everywhere: the town’s *thing*, bought in the town, from its
         heading: 'What the Via Francigena actually is',
         body: `In the year 990, Sigeric, Archbishop of Canterbury, walked home from Rome and noted his seventy-nine overnight stops — and that itinerary, recorded by a tired Anglo-Saxon cleric, became the spine of the **Via Francigena**, “the road from Francia”: the great medieval corridor along which pilgrims, merchants, armies and ideas moved between northern Europe and Rome for centuries.
 
-Today it is a revived, officially waymarked **Council of Europe Cultural Route** running some two thousand kilometres from Canterbury to Rome — the Camino de Santiago’s quieter, arguably more beautiful sibling — and its Tuscan section is the showpiece: 380 kilometres entering at the Cisa Pass and running south in stages of fifteen to thirty kilometres, straight through the towns this site spends its life writing about. [San Gimignano’s towers](/blog/san-gimignano-day-trip-from-siena-2026) grew rich feeding and fleecing Francigena pilgrims; **Monteriggioni’s walls** were built to watch the road; Siena itself boomed as the route’s great city; and [San Quirico d’Orcia](/blog/tuscany-in-december-2026) still keeps its pilgrim hospital church.
+Today it is a revived, officially waymarked **Council of Europe Cultural Route** running some two thousand kilometres from Canterbury to Rome — the Camino de Santiago’s quieter, arguably more beautiful sibling — and its Tuscan section is the showpiece: 380 kilometres entering at the Cisa Pass and running south in stages of fifteen to thirty kilometres, straight through the towns this site spends its life writing about. [San Gimignano’s towers](/blog/san-gimignano-day-trip-from-siena-2026) grew rich feeding and fleecing Francigena pilgrims; [**Monteriggioni’s walls**](/blog/monteriggioni-guide/) were built to watch the road; Siena itself boomed as the route’s great city; and [San Quirico d’Orcia](/blog/tuscany-in-december-2026) still keeps its pilgrim hospital church.
 
 Which means something quietly wonderful for a visitor based in Siena: **the region’s most famous day-trip towns are not a scatter of attractions — they are stops on one road**, and you can walk it.`,
       },
@@ -9064,7 +9064,7 @@ What genuinely needs wheels, we name honestly below — the Val d'Orcia photo lo
 
 **San Gimignano — line 130.** Officially Siena–Poggibonsi–San Gimignano: through buses take about **1h05**; other runs change at Poggibonsi, where the connecting leg is 20–25 minutes and roughly hourly. You arrive at Porta San Giovanni and walk straight into the towers — [the full day plan, tickets and timing strategy are here](/blog/san-gimignano-day-trip-from-siena-2026/).
 
-**Monteriggioni — the 130 again, plus a hill.** The bus stops at **Colonna di Monteriggioni**, on the roundabout below the walls — the tourism office calls it 500 metres from the castle; travellers call it a 15–25 minute uphill walk. Either way, the walled circle at the top is one of Tuscany's most concentrated medieval hits for one of its smallest efforts, and pairs naturally with [the Via Francigena stage that walks from here back toward Siena](/blog/via-francigena-day-walk-siena/) for anyone who came for the path, not the bus.
+**[Monteriggioni](/blog/monteriggioni-guide/) — the 130 again, plus a hill.** The bus stops at **Colonna di Monteriggioni**, on the roundabout below the walls — the tourism office calls it 500 metres from the castle; travellers call it a 15–25 minute uphill walk. Either way, the walled circle at the top is one of Tuscany's most concentrated medieval hits for one of its smallest efforts, and pairs naturally with [the Via Francigena stage that walks from here back toward Siena](/blog/via-francigena-day-walk-siena/) for anyone who came for the path, not the bus.
 
 **Florence itself.** The spine above, run in reverse: museums booked ahead, the early rapid down, [the evening bus home after the golden hour](/blog/florence-or-siena-which-to-visit-2026/). A Siena base does Florence better than most Florence visitors do Siena.`,
       },
@@ -9875,7 +9875,7 @@ Almost everything sold commercially, and almost everything worth walking on a fi
         heading: 'The stages that matter, compared',
         body: `**Gambassi Terme → San Gimignano (Leg 31) — the prettiest short day.** **13.4 km, about 3 hours, rated easy**, with 344 m of altitude change and a surface breakdown of roughly 40% paved road, 54% dirt road and track, 6% rougher path. It rolls through vineyards and past country churches, and it ends with the towers of San Gimignano rising ahead of you for the last hour — the single best arrival-on-foot in Tuscany after Siena itself. Trailhead access without a car is the catch: the nearest stations are **Certaldo and Castelfiorentino**, each about 10 km away on the Florence–Siena line, with local bus links into Gambassi.
 
-**San Gimignano → Monteriggioni (Leg 32) — the marquee stage, and a trap.** **31 km, about 7 hours**, one of the longest legs on the entire Canterbury–Rome route, and described by the regional tourism board as one of its most beautiful. Walkers' GPS traces broadly agree at just over 30 km. Do not attempt it as a casual day out: it is a full walking day with a heat problem in summer and a mud problem in spring. There is an official **Colle Val d'Elsa variant** that splits it sensibly into two days, with **Abbadia a Isola** — the old abbey on the plain below Monteriggioni — as the classic final approach.
+**San Gimignano → Monteriggioni (Leg 32) — the marquee stage, and a trap.** **31 km, about 7 hours**, one of the longest legs on the entire Canterbury–Rome route, and described by the regional tourism board as one of its most beautiful. Walkers' GPS traces broadly agree at just over 30 km. Do not attempt it as a casual day out: it is a full walking day with a heat problem in summer and a mud problem in spring. There is an official **Colle Val d'Elsa variant** that splits it sensibly into two days, with **Abbadia a Isola** — the old abbey on the plain below [Monteriggioni](/blog/monteriggioni-guide/) — as the classic final approach.
 
 **Monteriggioni → Siena (Leg 33) — the famous finish.** Officially **18 km and about 6 hours**; walkers' GPS traces run **20.5–21 km**, and the honest planning figure is "around twenty kilometres, five to six hours". It runs on the **strade bianche of the Montagnola Senese** past the abandoned medieval village of **Cerbaia** and the castles of **Chiocciola** and **Villa**, drops to **Pian del Lago**, and enters Siena through the Renai woods. **Its defining problem is supplies, not difficulty**: the stage is easy underfoot but has an almost total absence of water and refreshment points — the **La Villa** rest point is one of very few — so carry everything. [Our dedicated day-walk guide covers this stage in full](/blog/via-francigena-day-walk-siena/), including the bus out and the arrival into the city.
 
@@ -11333,6 +11333,148 @@ Go in the shoulder months, drive it at the edges of the day, eat wherever the tr
       tags: ['crete senesi', 'day trips', 'siena countryside', 'monte oliveto', 'landscapes'],
     }
   ),
+
+  A(
+    'monteriggioni-guide',
+    'Monteriggioni: Dante Put These Fourteen Towers in Hell, and You Can Walk Them in an Hour',
+    'Day trips',
+    'Tuscany',
+    'Siena built Monteriggioni in 1213 to watch the Florence road, and Dante turned its towers into giants. What the walled village is honestly like to visit.',
+    '/images/siena/monteriggioni-walled-village-siena.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Monteriggioni is the walled village you have already seen, whether you know it or not: a ring of medieval towers on a low hill beside the Siena–Florence road, photographed from the valley for every second Tuscany calendar and rebuilt pixel by pixel as the home base of *Assassin's Creed II*. It is **twenty minutes from Siena**, it is **genuinely intact** — the full 570-metre wall circuit and all fourteen towers, built by the Republic of Siena between **1213 and 1219** as a border castle against Florence — and it is **small**. One street, one square, one church. An unhurried visit, wall-walk included, is **one to two hours**.
+
+That size is the thing to get right in advance, because it sets both the correct expectation and the correct plan. As a destination in itself Monteriggioni can disappoint; as **the best ninety-minute stop in the province** — paired with [a Siena day](/siena-travel-guide), a [San Gimignano run](/blog/siena-or-san-gimignano-day-trip-2026/) or a [Via Francigena walk](/blog/via-francigena-day-walk-siena/) — it is close to perfect. Dante thought the towers looked like giants standing waist-deep in a pit, and put the image into the *Inferno*. From the fields below, on the walk up from Abbadia a Isola, they still do.
+
+This guide covers the history that makes the stones worth more than a photograph, the wall-walk and what it costs, the abbey below that most visitors skip, and the practical ways in from Siena — by bus, by car, and on foot along the pilgrim road the castle was built to watch.`,
+      },
+      {
+        id: 'what-you-are-looking-at',
+        heading: 'What you are looking at: a border post that never grew up',
+        body: `Monteriggioni was never a town that acquired walls. It was **walls that acquired a town** — and that distinction explains everything you will see.
+
+In the early thirteenth century the Republic of Siena and the Republic of Florence were two expanding city-states with a soft frontier between them, crossed by the most important road in Europe: the **Via Francigena**, the pilgrim and trade route from Canterbury to Rome. Between **1213 and 1219** Siena fortified the low hill of Monteriggioni to watch that road and hold that frontier — a purpose-built military installation, garrisoned and provisioned by the city, placed where it could see trouble coming from the north.
+
+The result is the fortification you see today: a roughly **circular circuit of about 570 metres**, following the contour of the hilltop, studded with **fourteen rectangular towers** that rise from the outer face of the wall. Two gates pierce the ring, and their names are the whole geopolitical situation in miniature: **Porta Franca or Romea**, facing Siena and Rome — named for the Francigena itself — and **Porta Fiorentina or San Giovanni**, facing the Elsa valley and Florence. One road runs between them, through the single square, **Piazza Roma** (now signed as Piazza Dante Alighieri), where the plain church of **Santa Maria Assunta**, built in the same campaign as the walls, has stood since the beginning.
+
+Here is why it survived. Successful towns rebuild themselves: they prosper, expand, demolish their old defences, spill into suburbs. Monteriggioni never prospered enough to do any of that. It stayed what it was built to be — a garrison village inside a military perimeter — and when the wars ended, it simply stopped mattering. Centuries of irrelevance are the best conservation policy ever devised. That is why all fourteen towers still stand at close to their original height, a completeness essentially unmatched among Tuscan fortifications, and why the view from the valley floor today is, tower for tower, the view a Florentine scout had in 1220.`,
+      },
+      {
+        id: 'dante',
+        heading: 'The giants: what Dante saw here',
+        body: `Monteriggioni has one line of poetry to its name, and it is a good one — arguably the most vivid thing ever written about a wall.
+
+In **Canto XXXI of the *Inferno***, written in the years after 1308, Dante and Virgil approach the ninth and final circle of Hell. Through the murk Dante sees what he takes for a ring of towers around the central pit, and asks what city he is looking at. They are not towers. They are **giants**, standing in the pit with their upper bodies rising above its rim — and to explain the sight, Dante reaches for a real place his readers knew from the road:
+
+> *…come su la cerchia tonda / Montereggion di torri si corona…*
+
+"As Monteriggioni crowns itself with towers upon its round enclosure" — so, Dante writes, the giants towered with half their bodies above the bank that rings the pit. A traveller on the Francigena in 1300 crested the rise near Abbadia a Isola, saw fourteen towers standing shoulder to shoulder above a circular wall on the skyline, and — if that traveller was Dante Alighieri — filed the image away for the bottom of Hell.
+
+Two things make the simile land when you visit. First, **it only works from below**: from inside the village the towers are stubby and domestic, but from the fields on the north and west — the pilgrim's approach — they genuinely read as figures standing in a ring, half-emerged. See it from there if you can. Second, it tells you the castle was **famous within a century of being built**: Dante could use it as a unit of measurement because everyone travelling between Florence and Rome had seen it. The village returns the compliment — the square is now signed Piazza Dante Alighieri, and the annual festival takes its name, *Monteriggioni di torri si corona*, straight from the line.`,
+      },
+      {
+        id: 'the-betrayal',
+        heading: 'Three centuries of holding — and one April morning of not',
+        body: `For over three hundred years Monteriggioni did its job. Florentine armies came at it repeatedly across the fourteenth and fifteenth centuries; the circuit held through siege and assault, which is precisely why the towers were worth Dante's simile — they were not decoration, they were the working armour of the Sienese frontier, and they kept working.
+
+The end, when it came, involved no breach. In the final war between Siena and the Florentine-Imperial forces, the garrison was commanded by **Giovannino Zeti**, a Florentine exile to whom Siena had entrusted the castle. On **28 April 1554**, with the Medici commander **Gian Giacomo Medici, Marquis of Marignano**, operating against the Sienese state, Zeti opened the gates and handed Monteriggioni over without a fight — in exchange, the accounts agree, for the restoration of his position in Florence. The fortress that three centuries of armies could not take was surrendered by the man holding its keys.
+
+The rest of the story followed within the year: the Sienese field army was destroyed at the **Battle of Marciano** later that year, Siena itself capitulated in **April 1555** after a starvation siege, and [the Republic ceased to exist](/blog/siena-1348-the-year-the-city-stopped/) — its territory, Monteriggioni included, folded into the Medici state. The border the castle watched had been abolished, and with it every reason for the castle to be anything at all. Which, as the previous section argued, is exactly why it is still here.
+
+In Siena's long memory Zeti sits in roughly the drawer where Dante kept his giants — the ninth circle was for traitors — and the fall of Monteriggioni is remembered as the beginning of the end. Walk the two gate-names again with that in mind: the castle faced Florence for 340 years and was never taken from that direction. It was opened from inside.`,
+      },
+      {
+        id: 'assassins-creed',
+        heading: 'The Assassin’s Creed question, briefly',
+        body: `A measurable share of Monteriggioni's visitors come because of a video game, and the village knows it. ***Assassin's Creed II*** (2009) rebuilt Monteriggioni as the Auditore family seat — walls, towers, gates and square recognisably surveyed from the real place — and for a generation of players, walking through Porta Franca is walking into their own muscle memory.
+
+The honest expectations, in one paragraph: the wall circuit, the towers, the single street and the square are **real and immediately recognisable**; the **Villa Auditore is not** — the game invented a mansion the real village never had, and first-time visitors genuinely do look for it. The town takes the connection in good humour: the tourist office has published its own game-themed itinerary, and the souvenir shops will sell you the hidden-blade merchandise you expect.
+
+We cover the game-versus-reality comparison properly — what was surveyed, what was invented, and how the fan pilgrimage actually goes — in [our Tuscany set-jetting guide](/blog/tuscany-on-screen-film-locations-2026/), which treats Monteriggioni alongside the *Gladiator* and *English Patient* locations elsewhere in the province.`,
+      },
+      {
+        id: 'visiting',
+        heading: 'The visit: walls, square, and forty-five honest minutes',
+        body: `Inside the walls, Monteriggioni is one street, one square, the church of Santa Maria Assunta, a handful of restaurants and shops, and the gardens that fill the rest of the ring — the open space that once quartered a garrison. You can walk gate to gate in five minutes. What turns the stop from a photograph into a visit is going **up**.
+
+**The wall-walk.** A stretch of the parapet — currently the **southern section**; the circuit has never been fully walkable in recent years — is open as a raised walkway, reached from inside the village, with the *Monteriggioni in Arme* display of reproduction medieval arms and armour attached as a small educational exhibition. From the parapet you get the two views that justify the climb: down the ring of towers along the wall's outer face, and out over the Montagnola and the Elsa valley — the exact sightlines the wall was built to provide, toward the road from Florence.
+
+**Tickets and hours, with a caveat.** Entry to the village itself is free and unticketed at all hours; the wall-walk and exhibition are sold together as one inexpensive combined ticket, which per the commune's tourism office also covers the **MAM archaeological museum at Abbadia a Isola** below the hill. Published opening runs daily through the main season, morning and afternoon (roughly 9:30–13:30 and 14:00–19:30, closing earlier in low season), with scheduled guided-tour slots on top. We could not pin the current tariff to the euro from here — third-party guides list a few euros, and figures have shifted as sections opened and closed — so treat it as pocket-change and confirm at the ticket office on Piazza Roma when you arrive. Note also that the walkways **close entirely during the July festival**.
+
+**The festival.** For one long weekend each July the village stages ***Monteriggioni di torri si corona***, a medieval festival named from Dante's line — costumed camps, falconry, musicians and craft demonstrations, with euros exchanged at the gate for the *Grosso*, the festival's medieval currency. The 2026 edition, the thirty-third, ran 9–12 July, opening with a banquet. If your dates are near mid-July, check the programme before you plan: the festival transforms the village, charges admission, and suspends the ordinary quiet that is otherwise its main commodity.
+
+**Timing the ordinary visit.** Tour buses deliver their peak between late morning and mid-afternoon, and a village this size has no capacity to absorb them invisibly. Before about 10:00 or after 17:00 you get the place approximately to yourself, the parapet light is better, and dinner in the square — if you are staying for it — comes with empty battlements above you.`,
+      },
+      {
+        id: 'abbadia-a-isola',
+        heading: 'Abbadia a Isola: the older, quieter half of the story',
+        body: `Four kilometres from the castle, on the flat where the marshes used to be, sits a huddle of stone buildings around a Romanesque church — and it out-ranks Monteriggioni historically by two centuries. This is **Abbadia a Isola**, the abbey of **Santi Salvatore e Cirino**, founded in **1001** by the countess **Ava dei Lambardi** on a spot chosen for exactly the reason Monteriggioni's hill was chosen later: it controlled the Via Francigena.
+
+The site was a named stop on the pilgrim road even before the abbey existed. When **Sigeric, Archbishop of Canterbury**, recorded the seventy-nine stages of his journey home from Rome in 990 — the itinerary that effectively defined the Francigena — he noted a halt here under the name ***Borgonuovo***. For centuries afterwards, one of the abbey's principal functions was hospitality: lodging, care and a safe night for Rome-bound travellers crossing what was then an insecure, malarial plain. The "Isola" — island — in the name is literal; the abbey stood above the wet ground like one.
+
+The relationship between the two sites is the lesson of the place: **the abbey served the road, the castle watched it** — the same road, two centuries and two institutions apart, church and state each building their answer to the Francigena within sight of each other. Today the abbey complex holds the small **MAM archaeological museum** (on the combined ticket mentioned above), and the hamlet is the trailhead for the best arrival Monteriggioni has:
+
+**Walk up the way the pilgrims came.** The final stretch of the Francigena's San Gimignano–Monteriggioni stage runs from Abbadia a Isola up to the castle on farm tracks, and it is the single best thing you can do here that most visitors do not: the towers rise slowly over the fields ahead of you, assembling themselves into Dante's ring of giants exactly as they did for seven centuries of foot travellers. [Our Via Francigena section-by-section guide](/blog/via-francigena-which-section-to-walk/) places this stretch in the full stage; as a there-and-back walk from the abbey it is four kilometres each way on mostly gentle farm tracks, with the climb saved for the end — a half-day with the visit included.`,
+      },
+      {
+        id: 'getting-there',
+        heading: 'Getting there from Siena (and fitting it into a day)',
+        body: `**By bus.** From Siena, the **130 and 131 buses** serve the **Colonna di Monteriggioni** stop on the main road below the village — around **twenty minutes**, though not every run on the route stops there, so confirm the departure serves Colonna before boarding. From the stop it is **500 uphill metres** to Porta Franca, a fifteen-to-twenty-five-minute walk depending on your legs. [Our car-free Tuscany guide](/blog/tuscany-without-a-car-2026/) covers the ticketing and the general art of Sienese buses.
+
+**By car.** Monteriggioni sits just off the Siena–Florence *raccordo*, which makes it the easiest detour in the province — this is why every driving itinerary between the two cities includes it. Parking sits just outside the walls, inexpensive and seasonally priced, with the last stretch on foot. If you are [driving Tuscany anyway](/blog/renting-a-car-in-tuscany-2026/), the natural pattern is Monteriggioni as the first or last hour of a day built around something bigger.
+
+**On foot.** The full Francigena stage from Monteriggioni into Siena — **officially 18 km, nearer 20 by GPS, five to six hours** — is the classic way to *leave*: sleep in or near the village, walk out of Porta Franca at dawn and arrive in Siena the way twelve centuries of pilgrims did. [Our dedicated day-walk guide](/blog/via-francigena-day-walk-siena/) covers that stage in full, including its one real problem (almost no water or refreshment on the route — carry everything).
+
+**Fitting it in.** The honest pairings, in order of how well they work: **Siena + Monteriggioni** (the bus makes this car-free-feasible; the castle is Sienese history's opening chapter and the city is its centre); **San Gimignano + Monteriggioni** by car, the two great tower-scapes of the province in one day, [compared properly here](/blog/siena-or-san-gimignano-day-trip-2026/); and Monteriggioni as the stop that finally makes the [Florence–Siena drive](/florence-to-siena-by-train-or-bus/) worth taking by road instead of rail. What it is not, for most people, is a full day on its own — and planning it as one is the only way this place disappoints anyone.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **18 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material, led by the commune's own tourism office (Monteriggioni Porta del Medioevo) and the regional tourism board, rather than pages we opened.
+
+**Verified:** construction of the circuit by the Republic of Siena in **1213–1219** as a defensive outpost against Florence on the Via Francigena; the **~570-metre** circular circuit with **fourteen rectangular towers** surviving at near-original height; the two gates (**Porta Franca/Romea** toward Siena and Rome, **Porta Fiorentina/San Giovanni** toward the Elsa valley) and the church of **Santa Maria Assunta** on the main square, built with the castle; the Dante passage (*Inferno* XXXI, the giants compared to Monteriggioni's towers, composed after 1308); centuries of successful resistance to Florentine attack; the surrender of **28 April 1554** by the garrison commander **Giovannino Zeti**, a Florentine exile, to **Gian Giacomo Medici, Marquis of Marignano**, in exchange for his rehabilitation in Florence, followed by Marciano, the siege of Siena and the Republic's end in 1555; the founding of the abbey of **Santi Salvatore e Cirino at Abbadia a Isola in 1001 by Ava dei Lambardi**; **Sigeric's** 990 itinerary recording the site as *Borgonuovo*; the abbey's hospitality function on the Francigena; the wall-walk's current **south-section** opening with the *Monteriggioni in Arme* exhibition on a combined ticket that also covers the **MAM museum at Abbadia a Isola**, with daily two-session seasonal hours and festival-period closure; the festival ***Monteriggioni di torri si corona***, 33rd edition, **9–12 July 2026**, with the *Grosso* as festival currency; the **130/131 bus** to Colonna di Monteriggioni with the 500-metre uphill walk; parking just outside the walls at inexpensive, seasonally varying rates; and the **~4 km** Abbadia a Isola–Monteriggioni distance on the Francigena. Francigena stage figures (San Gimignano leg 31 km; Monteriggioni–Siena 18 km official, ~20 km by GPS) follow the verification in our Francigena guides.
+
+**Stated with deliberate imprecision:** the wall-walk tariff — third-party guides list it at a few euros, but we could not confirm the commune's current figure in this session, and it has shifted with section openings; confirm at the ticket office (Piazza Roma, +39 0577 304834) or on the commune's tourism site. Exact seasonal hours likewise: the two-session pattern is published, but verify the day's times on arrival, especially outside high season.
+
+We have no commercial relationship with the commune of Monteriggioni, the festival, or any business named. Nothing on this page is bookable through us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Monteriggioni is a supporting character that photographs like a lead. Treat it as the lead and you will be back at the car park in ninety minutes wondering what the fuss was; treat it as the best supporting character in Tuscany and it is faultless — the frontier post that explains [why Siena and Florence hate each other](/blog/battle-of-montaperti-1260-siena/), the wall that Dante hung his giants on, the gates that held for 340 years and were opened from inside in a morning.
+
+If you take one piece of advice from this page, make it the approach: get yourself below the walls — from Abbadia a Isola on foot if you possibly can — and let the fourteen towers come up over the fields the way they did for every pilgrim, merchant and Florentine scout who ever walked this road. Half their bodies above the rim, exactly as described. Then go up, walk the parapet, have lunch on the square, and be somewhere bigger by mid-afternoon. That is not faint praise. It is the correct dose of a perfect small thing.`,
+      },
+    ],
+    [
+      { q: 'Is Monteriggioni worth visiting?', a: 'Yes — as a one-to-two-hour stop, not as a destination day. The 1213–1219 wall circuit is genuinely intact, all fourteen towers stand at near-original height, and the wall-walk views justify the climb. But it is one street, one square and one church: pair it with Siena, San Gimignano or a Via Francigena walk, and it is close to perfect. Planned as a full day on its own, it disappoints.' },
+      { q: 'What did Dante say about Monteriggioni?', a: 'In Inferno XXXI he compares the giants standing waist-deep around the pit of Hell to Monteriggioni’s wall: “come su la cerchia tonda / Montereggion di torri si corona” — as Monteriggioni crowns itself with towers on its round enclosure. The simile works best from the fields below the village, on the old pilgrim approach from Abbadia a Isola, where the fourteen towers really do read as figures standing in a ring.' },
+      { q: 'Can you walk on the walls of Monteriggioni?', a: 'Partly. A raised walkway is open on the southern section of the circuit — the full ring has not been walkable in recent years — reached from inside the village and sold with the small Monteriggioni in Arme arms exhibition on one inexpensive combined ticket, which also covers the MAM archaeological museum at Abbadia a Isola. It opens daily in two sessions through the main season and closes entirely during the July festival. Confirm the current price and times at the ticket office on the square.' },
+      { q: 'Is Monteriggioni the town from Assassin’s Creed?', a: 'Yes — Assassin’s Creed II rebuilt it as the Auditore home base, and the walls, towers, gates and square are recognisably surveyed from the real village. The Villa Auditore, however, was invented for the game; there is no mansion to find. The tourist office leans into the connection with its own game-themed itinerary, and our Tuscany set-jetting guide covers the game-versus-reality comparison in full.' },
+      { q: 'How do you get to Monteriggioni from Siena without a car?', a: 'Take the 130 or 131 bus to the Colonna di Monteriggioni stop on the main road below the village — about twenty minutes, though not every departure on the route stops there, so check before boarding. From the stop it is 500 uphill metres to the gate, a walk of fifteen to twenty-five minutes. The bus makes Monteriggioni one of the most car-free-feasible day trips from Siena.' },
+      { q: 'What happened to Monteriggioni in 1554?', a: 'It was betrayed, not taken. On 28 April 1554 the garrison commander Giovannino Zeti — a Florentine exile whom Siena had trusted with the castle — opened the gates to Gian Giacomo Medici, Marquis of Marignano, in exchange for his rehabilitation in Florence. The fortress had resisted Florentine attack for over three centuries; within a year Siena’s army was destroyed at Marciano, and the Republic itself fell in April 1555.' },
+    ],
+    '2026-09-10',
+    {
+      seoTitle: 'Monteriggioni Guide 2026: Dante’s Towers, the Wall-Walk & How to Visit',
+      primaryKeyword: 'monteriggioni italy visit',
+      secondaryKeywords: [
+        'monteriggioni walls walk',
+        'monteriggioni dante inferno towers',
+        'monteriggioni assassins creed real town',
+        'monteriggioni from siena bus',
+        'abbadia a isola via francigena',
+        'monteriggioni medieval festival',
+      ],
+      imageAlt: 'The walled village of Monteriggioni on its hill, with its ring of medieval towers',
+      canonicalPath: '/blog/monteriggioni-guide',
+      tags: ['day trips', 'tuscany villages', 'via francigena', 'medieval history'],
+    }
+  ),
+
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
