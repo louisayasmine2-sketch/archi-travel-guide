@@ -600,8 +600,15 @@ function injectHead(html, route) {
   const url = `${SITE_URL}${withTrailingSlash(route.canonicalPath)}`;
   const isArticle = routeIsArticle(route);
   const image = route.image || DEFAULT_IMAGE;
+  // Preload the hero so it downloads in parallel with the JS chain instead
+  // of after hydration. Relative href: it must match the URL the fallback
+  // and the hydrated app request, on production and preview domains alike.
+  const heroPreload = route.image && route.path !== '/'
+    ? `<link rel="preload" as="image" href="${escapeHtml(route.image.replace(SITE_URL, ''))}" fetchpriority="high">`
+    : '';
   const head = [
     homeHeroHeadLinks(route),
+    heroPreload,
     `<title data-rh="true">${escapeHtml(fullTitle)}</title>`,
     `<meta data-rh="true" name="description" content="${escapeHtml(route.description)}">`,
     `<meta data-rh="true" name="robots" content="${route.noindex ? 'noindex,nofollow' : 'index,follow,max-image-preview:large'}">`,
@@ -623,7 +630,7 @@ function injectHead(html, route) {
     // script hid it instantly for every JS browser, which meant first paint
     // waited for the whole main bundle — 4-5s FCP on mobile. Progressive
     // enhancement instead: content paints as soon as HTML+CSS arrive.
-    `<style data-static-fallback>.static-fallback{font-family:Arial,sans-serif;max-width:76ch;margin:0 auto;padding:2rem;color:#1f1f1f;line-height:1.65}.static-fallback a{color:#b95741}.static-fallback .overline{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#9a6a55}.static-fallback h1{font-family:Georgia,serif;font-size:clamp(2rem,5vw,3.5rem);line-height:1.05;margin:.5rem 0 1rem}.static-fallback ul{padding-left:1.2rem}.static-fallback li{margin:.45rem 0}</style>`,
+    `<style data-static-fallback>.static-fallback{font-family:Arial,sans-serif;max-width:76ch;margin:0 auto;padding:2rem;color:#1f1f1f;line-height:1.65}.static-fallback a{color:#b95741}.static-fallback .overline{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#9a6a55}.static-fallback h1{font-family:Georgia,serif;font-size:clamp(2rem,5vw,3.5rem);line-height:1.05;margin:.5rem 0 1rem}.static-fallback ul{padding-left:1.2rem}.static-fallback li{margin:.45rem 0}.static-fallback .static-hero{width:100vw;margin:1rem 0 1rem calc(50% - 50vw)}.static-fallback .static-hero img{display:block;width:100vw;height:82vh;min-height:620px;object-fit:cover}.static-fallback .static-hero figcaption{max-width:76ch;margin:.5rem auto 0;padding:0 2rem;font-size:.85rem;color:#6b6b6b}</style>`,
   ].join('');
 
   return html.replace('</head>', `${head}</head>`);
@@ -841,7 +848,7 @@ function florenceToSienaFallbackMarkup() {
     `<h1>${escapeHtml(guide.title)}</h1>`,
     markdownToHtml(guide.introMarkdown),
     `<p><strong>Author:</strong> <a href="${guide.author.url}">${escapeHtml(guide.author.name)}</a> · <strong>Published:</strong> July 14, 2026 · <strong>Updated:</strong> July 14, 2026 · <strong>Fact-checked:</strong> ${escapeHtml(guide.factChecked)}</p>`,
-    `<figure class="article-image"><img src="${guide.hero.src}" alt="${escapeHtml(guide.hero.alt)}" width="${guide.hero.width}" height="${guide.hero.height}" loading="eager" fetchpriority="high">${guide.hero.credit ? `<figcaption>${escapeHtml(guide.hero.credit)}</figcaption>` : ""}</figure>`,
+    `<figure class="article-image static-hero"><img src="${guide.hero.src}" alt="${escapeHtml(guide.hero.alt)}" width="${guide.hero.width}" height="${guide.hero.height}" loading="eager" fetchpriority="high">${guide.hero.credit ? `<figcaption>${escapeHtml(guide.hero.credit)}</figcaption>` : ""}</figure>`,
     `<section class="longform-callout">${markdownToHtml(guide.quickAnswerMarkdown)}</section>`,
     `<aside class="longform-disclosure">${markdownToHtml(guide.disclosureMarkdown)}</aside>`,
     markdownToHtml(guide.bodyMarkdown),
@@ -882,7 +889,7 @@ function sienaDayTripFallbackMarkup() {
     `<p>${escapeHtml(guide.excerpt)}</p>`,
     markdownToHtml(internalReferencesToLinks(guide.introMarkdown, guide.linkMap)),
     `<p><strong>Author:</strong> <a href="${guide.author.url}">${escapeHtml(guide.author.name)}</a> · <strong>Published:</strong> ${published} · <strong>Fact-checked:</strong> ${escapeHtml(guide.factChecked)}</p>`,
-    `<figure class="article-image"><img src="${guide.hero.src}" alt="${escapeHtml(guide.hero.alt)}" width="${guide.hero.width}" height="${guide.hero.height}" loading="eager" fetchpriority="high"><figcaption>${escapeHtml(guide.hero.caption)} Photo: <a href="${escapeHtml(guide.hero.source)}" target="_blank" rel="nofollow noopener">${escapeHtml(guide.hero.photographer)}</a>, <a href="${escapeHtml(guide.hero.licenseUrl)}" target="_blank" rel="license noopener">${escapeHtml(guide.hero.licenseName)}</a>. ${escapeHtml(guide.hero.adaptation)}</figcaption></figure>`,
+    `<figure class="article-image static-hero"><img src="${guide.hero.src}" alt="${escapeHtml(guide.hero.alt)}" width="${guide.hero.width}" height="${guide.hero.height}" loading="eager" fetchpriority="high"><figcaption>${escapeHtml(guide.hero.caption)} Photo: <a href="${escapeHtml(guide.hero.source)}" target="_blank" rel="nofollow noopener">${escapeHtml(guide.hero.photographer)}</a>, <a href="${escapeHtml(guide.hero.licenseUrl)}" target="_blank" rel="license noopener">${escapeHtml(guide.hero.licenseName)}</a>. ${escapeHtml(guide.hero.adaptation)}</figcaption></figure>`,
     markdownToHtml(internalReferencesToLinks(guide.bodyMarkdown, guide.linkMap)),
     `<section id="photo-credits"><h2>Photo credits</h2><ul>${credits}</ul></section>`,
     `<section><h2>${escapeHtml(guide.author.name)}</h2><p>${escapeHtml(guide.author.bio)}</p><p><a href="/editorial-policy">Editorial policy</a></p></section>`,
@@ -919,7 +926,7 @@ function sienaClusterFallbackMarkup(route) {
     `<p class="overline">Siena Travel Guide</p>`,
     `<h1>${escapeHtml(article.title)}</h1>`,
     `<p>${escapeHtml(article.excerpt)}</p>`,
-    `<figure><img src="${article.hero.src}" alt="${escapeHtml(article.hero.alt)}" width="1600" height="1000" loading="eager" decoding="async"><figcaption>${escapeHtml(article.hero.credit)} License: <a href="${article.hero.licenseUrl}" rel="license noopener">${escapeHtml(article.hero.license)}</a>. Cropped, resized, and compressed for web.</figcaption></figure>`,
+    `<figure class="static-hero"><img src="${article.hero.src}" alt="${escapeHtml(article.hero.alt)}" width="1600" height="1000" loading="eager" decoding="async"><figcaption>${escapeHtml(article.hero.credit)} License: <a href="${article.hero.licenseUrl}" rel="license noopener">${escapeHtml(article.hero.license)}</a>. Cropped, resized, and compressed for web.</figcaption></figure>`,
     hideFutureClusterLinks(article.bodyHtml),
     related ? `<section><h2>Related Siena guides</h2><ul>${related}</ul></section>` : '',
     `<p>${links}</p>`,
@@ -941,8 +948,15 @@ function fallbackMarkup(route) {
   }
 
   const bullets = (route.bullets || []).map((item) => `<li>${escapeHtml(item)}</li>`).join('');
+  // static-hero: full-bleed, sized to match the hydrated hero (100vw × 80vh,
+  // min 600px). The fallback hero paints at FCP; if it were smaller than the
+  // hydrated one, the post-hydration repaint would become the page's largest
+  // paint and drag LCP out to hydration time — measured at 14s on throttled
+  // mobile with the article store chunk on the critical path. Equal-sized,
+  // the early paint keeps the LCP record.
+  const heroSrc = route.image ? route.image.replace(SITE_URL, '') : '';
   const image = route.image
-    ? `<figure><img src="${escapeHtml(route.image)}" alt="${escapeHtml(route.imageAlt || route.h1 || route.title)}" width="1600" height="900" loading="eager" decoding="async">${imageCreditHtml(route.imageCredit)}</figure>`
+    ? `<figure class="static-hero"><img src="${escapeHtml(heroSrc)}" alt="${escapeHtml(route.imageAlt || route.h1 || route.title)}" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async">${imageCreditHtml(route.imageCredit)}</figure>`
     : '';
   const body = route.bodyHtml || (bullets ? `<ul>${bullets}</ul>` : '');
   const links = STATIC_FOOTER_LINKS
