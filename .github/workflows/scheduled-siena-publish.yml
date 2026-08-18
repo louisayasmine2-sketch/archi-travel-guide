@@ -1,10 +1,25 @@
-name: Scheduled Siena Cluster Publish
+name: Daily Publish Trigger
+
+# The article drip is date-gated in two layers: the SPA filters the article
+# index at runtime (an article appears in listings the minute its WIB date
+# arrives), but the prerendered static HTML, the sitemap and the per-route
+# titles are baked at build time. Without a daily rebuild, a day with no
+# merge is a day where crawlers and no-JS readers never see the new article,
+# and — if the runtime-filter bundle has not shipped yet — neither does
+# anyone else. This workflow guarantees one production rebuild per day,
+# just after WIB midnight, whether or not a human merged anything.
+#
+# History: this file began as a one-shot trigger for the Siena cluster
+# launch (12 July 2026, cron "5 5 12 7 *" with a date guard). The drip then
+# ran for a month on the side effect of daily merges; when merges paused on
+# 17–18 August, publishing silently stopped with them. Generalised to a
+# daily cron on 18 August 2026.
 
 on:
   workflow_dispatch:
   schedule:
-    # 12 July 2026, 12:05 WIB. GitHub cron uses UTC.
-    - cron: "5 5 12 7 *"
+    # 00:05 WIB (UTC+7) daily. GitHub cron uses UTC.
+    - cron: "5 17 * * *"
 
 permissions:
   contents: write
@@ -17,39 +32,22 @@ jobs:
   trigger-redeploy:
     name: Trigger production redeploy
     runs-on: ubuntu-latest
-    outputs:
-      should_smoke: ${{ steps.guard.outputs.should_smoke }}
 
     steps:
-      - name: Guard scheduled run date
-        id: guard
-        shell: bash
-        run: |
-          if [[ "${{ github.event_name }}" == "schedule" && "$(date -u +%Y-%m-%d)" != "2026-07-12" ]]; then
-            echo "Scheduled publish window has passed; skipping annual cron repeat."
-            echo "should_smoke=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-
-          echo "should_smoke=true" >> "$GITHUB_OUTPUT"
-
       - name: Checkout repository
-        if: steps.guard.outputs.should_smoke == 'true'
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Create redeploy trigger commit
-        if: steps.guard.outputs.should_smoke == 'true'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit --allow-empty -m "chore: trigger scheduled Siena cluster publish"
+          git commit --allow-empty -m "chore: daily publish rebuild ($(date -u +%Y-%m-%d) drip)"
           git push
 
       - name: Trigger Cloudflare Pages deploy hook if configured
-        if: steps.guard.outputs.should_smoke == 'true'
         shell: bash
         env:
           DEPLOY_HOOK_URL: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_HOOK_URL }}
@@ -61,8 +59,11 @@ jobs:
 
           curl -fsS -X POST "$DEPLOY_HOOK_URL"
 
+  # A push made with GITHUB_TOKEN does not fire on:push workflows (GitHub's
+  # recursion guard), so the smoke check must be invoked explicitly here.
+  # Cloudflare's GitHub integration is a webhook, not a workflow, and still
+  # sees the push.
   smoke:
     name: Confirm live production output
     needs: trigger-redeploy
-    if: needs.trigger-redeploy.outputs.should_smoke == 'true'
     uses: ./.github/workflows/deploy-smoke.yml
