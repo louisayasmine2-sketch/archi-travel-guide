@@ -28,10 +28,12 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: Build
-        # CRA treats lint warnings as errors when CI=true; the e2e suite is
-        # the gate here, not warnings-as-errors.
-        env:
-          CI: "false"
+        # CI=true on purpose, matching Cloudflare Pages exactly: CRA treats
+        # lint warnings as errors there too. This workflow once set CI=false
+        # "because the e2e suite is the gate" — and that masking let a single
+        # eslint warning break every production deploy for three days
+        # (13-17 Aug 2026, issue #108) while GitHub stayed green. A build
+        # that cannot deploy must fail here first.
         run: npm run build
 
       - name: Run e2e tests
