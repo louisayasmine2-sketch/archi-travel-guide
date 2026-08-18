@@ -5355,7 +5355,7 @@ Drink the transition too — the new vintage is fermenting behind every cellar d
       {
         id: 'october-light',
         heading: 'Fog, gold and low sun: October for photographers',
-        body: `October is the month Tuscany’s postcard industry was built on, and the reasons are technical as much as romantic. The sun sits low enough all day to model the hills rather than flatten them; the first cold, still mornings send valley fog through the Crete Senesi and the Val d’Orcia, leaving hilltop farmhouses and cypress lines floating on white; and the colour change moves through the month — vineyards first, turning yellow and rust as the vine leaves finish their year, then the broader countryside toward every shade of amber.
+        body: `October is the month Tuscany’s postcard industry was built on, and the reasons are technical as much as romantic. The sun sits low enough all day to model the hills rather than flatten them; the first cold, still mornings send valley fog through [the Crete Senesi](/blog/crete-senesi-guide/) and the Val d’Orcia, leaving hilltop farmhouses and cypress lines floating on white; and the colour change moves through the month — vineyards first, turning yellow and rust as the vine leaves finish their year, then the broader countryside toward every shade of amber.
 
 The practical playbook: for fog, be in position before dawn on a clear, cold morning after a still night — the classic viewpoints south of Siena reward the alarm clock — and expect it burned off by mid-morning. For colour, the second half of the month is the safer bet, when the vine rows are fully turned. For towns, shoot the first and last open hours; wet cobbles after an afternoon shower double the value of evening light.
 
@@ -10751,7 +10751,7 @@ Which gives Montaperti its peculiar afterlife: **a total victory that changed no
 
 **What is there.** The **Cippo di Montaperti**: a stone pyramid raised on the hilltop where an eleventh-century castle of the Berardenghi family once stood, ringed by old cypresses, looking over the Arbia valley where the armies met. There is no visitor centre, no ticket, no queue — a marker, the trees, and the view.
 
-**Where it is.** The hamlet of **Monteaperti**, in the comune of **Castelnuovo Berardenga** — about **12 km south-east of Siena** and 8 km from Castelnuovo itself; the monument is signed at **Località Santa Maria a Dofana**. There is **parking at the foot of the hill**, and the walk up to the pyramid is short and easy. Realistically this is a **car trip**: our [Tuscany car-rental guide](/blog/renting-a-car-in-tuscany-2026/) covers the practicalities, and the site pairs naturally with a drive on into the Crete Senesi, whose clay ridges begin immediately south.
+**Where it is.** The hamlet of **Monteaperti**, in the comune of **Castelnuovo Berardenga** — about **12 km south-east of Siena** and 8 km from Castelnuovo itself; the monument is signed at **Località Santa Maria a Dofana**. There is **parking at the foot of the hill**, and the walk up to the pyramid is short and easy. Realistically this is a **car trip**: our [Tuscany car-rental guide](/blog/renting-a-car-in-tuscany-2026/) covers the practicalities, and the site pairs naturally with [a drive on into the Crete Senesi](/blog/crete-senesi-guide/), whose clay ridges begin immediately south.
 
 **The date that matters.** On **4 September each year**, the anniversary is marked with a **torchlight procession to the pyramid**, and in early September the nearby hamlet of Casetta hosts **"Montaperti — past and present"**, a festival of re-enactments and commemorations. If your trip falls in the first week of September, check the Comune di Castelnuovo Berardenga's announcements for the current year's programme — this article publishes on the anniversary itself, and we have deliberately not stated this year's event times, which the comune publishes close to the date.
 
@@ -11186,6 +11186,151 @@ The gold grounds were never naïve. They were a choice, made by the richest and 
       imageAlt: 'Frescoed vaults in Siena — the colour and line the Sienese school made its signature',
       canonicalPath: '/blog/sienese-school-painting-where-to-see',
       tags: ['siena history', 'sienese school', 'art', 'museums', 'duccio'],
+    }
+  ),
+  A(
+    'crete-senesi-guide',
+    'The Crete Senesi: Tuscany’s Clay Moonscape, and How to Do It Right',
+    'Day trips',
+    'Tuscany',
+    'South-east of Siena the postcards stop and a clay moonscape begins. What the Crete Senesi are, the loop to drive, and the frescoed abbey at its heart.',
+    '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Twenty minutes south-east of Siena, Tuscany stops looking like Tuscany. The vines and stone farmhouses give way to bare, rolling clay — grey-green in spring, scorched white-gold in summer, dissolving into fog in autumn — with single farmhouses and cypress lines stranded on the ridgetops like ships. These are the **Crete Senesi**, the "Sienese clays", and they are the most distinctive landscape in the province and the least understood by visitors.
+
+**What you need to know before going:**
+
+- **It is a landscape, not a sight.** The pleasure is the driving and the stopping, on ridge roads between Asciano, Monteroni d'Arbia, Buonconvento and Rapolano Terme. Budget half a day minimum for the loop.
+- **There is one great indoor destination at its heart**: the abbey of **Monte Oliveto Maggiore**, whose Great Cloister carries a 35-fresco cycle of the life of St Benedict begun by **Luca Signorelli in 1497** and continued by **Il Sodoma** — one of the major Renaissance fresco cycles in Tuscany, in the middle of a clay desert.
+- **You realistically need a car.** The honest alternatives are thin, with one glorious seasonal exception — the **Treno Natura**, a heritage railway that has run excursions through the crete since 1996, sometimes behind steam.
+- **This is not the Val d'Orcia.** The two get blurred together online, and they are neighbours — but the Val d'Orcia is the lush postcard, and the crete are its stark, stranger sibling. If your [Chianti-versus-Val-d'Orcia decision](/blog/val-dorcia-or-chianti-which-to-visit-2026/) left you wanting something less photographed, this is the answer.`,
+      },
+      {
+        id: 'what-they-are',
+        heading: 'What the crete actually are',
+        body: `The short version: **you are driving on a sea floor.**
+
+More than two million years ago this basin lay under water, and the sediment it left behind — a clay the locals call ***mattaione***, mixed with rock salt and chalk — is what the hills are made of. It drains badly, erodes dramatically and grows little without effort, which is why the landscape looks the way it does: sparse, sculpted and strangely lunar in a region famous for abundance.
+
+The erosion has its own vocabulary, worth having before you stand in front of it:
+
+- ***Biancane*** — pale domes of exposed clay, named from *bianco*, white, for the light colour of the soil and the saline bloom on its surface. They cluster like a pod of surfacing whales.
+- ***Calanchi*** — steep gully systems fanning down the hillsides, like half-open vertical fans.
+- **The Deserto di Accona** — the "Accona Desert", the semi-arid heart of the crete near Asciano where these formations concentrate and the nickname stops feeling like exaggeration.
+
+Two things follow from the geology. First, **the landscape changes utterly with the seasons** — this is one of the few places in Tuscany where the month you visit changes not just the light but the apparent *planet*. And second, **what little grows here is precious**: the region's white truffles, its pecorino pastures and its wheat all come out of the same difficult clay, which is why the eating in these unglamorous villages is better than it has any right to be.`,
+      },
+      {
+        id: 'not-val-dorcia',
+        heading: 'Not the Val d’Orcia — and why the difference matters',
+        body: `Search for the crete online and half the photographs are actually the Val d'Orcia, which borders it to the south. The confusion costs travellers real disappointment in both directions, so here is the distinction plainly.
+
+**The Val d'Orcia** is the composed postcard: green in the right months, punctuated by famous towns — Pienza, Montalcino, San Quirico — with an itinerary of named sights and [a guide of ours to match](/blog/val-dorcia-day-trip-from-siena-2026/). **The crete are emptier, starker and closer to Siena**, with almost no headline sights beyond the abbey — and that emptiness is the product. You go to the Val d'Orcia to see things; you go to the crete to be somewhere.
+
+There is also an art-historical reason this landscape should look familiar. In the Palazzo Pubblico, Ambrogio Lorenzetti's *Effects of Good Government* (1338–1339) rolls its frescoed countryside away behind the well-run city — and the bare, ridged hills he painted are recognisably these, the working land south-east of Siena as the Nine knew it. Drive the crete after [seeing the fresco](/piazza-del-campo-guide) and you are moving through the oldest great painted landscape in the tradition, seven centuries on and barely reset. The battle that made that regime possible was fought on the crete's north-western edge — [Montaperti, 1260](/blog/battle-of-montaperti-1260-siena/), whose memorial hill makes a natural first stop on the loop below.`,
+      },
+      {
+        id: 'the-loop',
+        heading: 'The loop: half a day by car',
+        body: `The classic circuit runs anticlockwise from Siena and can fill a half day or a whole one depending on how often you stop — and this is a route where stopping is the point.
+
+**Siena → Montaperti (15 min).** Leave the city south-east and, if the [battle](/blog/battle-of-montaperti-1260-siena/) means anything to you after Siena's museums, take the short detour to the cypress-ringed pyramid before the clay country opens.
+
+**→ Asciano, by the Lauretana.** The road to aim for is the **SP438 "Lauretana"** toward Asciano — the ridge road whose bends produce the classic crete views: lone farmhouses, cypress avenues, and the biancane of the **Accona** country. Every pull-out is a photograph; the discipline is choosing three.
+
+**→ Monte Oliveto Maggiore (20 min beyond Asciano).** The abbey in its cypress woods is the loop's set piece and gets its own section below.
+
+**→ San Giovanni d'Asso (15 min).** The truffle village — small castle, and in its cellars **Italy's first museum dedicated to the truffle**, 250 square metres under the vaults. If your dates land on the **second or third weekend of November**, the village's white-truffle festival is the crete at their most alive, and the [autumn food calendar](/blog/tuscan-food-calendar-seasonal-dishes/) puts it in context.
+
+**→ Buonconvento.** A walled brick market town on the old [Via Francigena](/blog/via-francigena-which-section-to-walk/) corridor, flat and walkable, good for the late lunch the hill villages struggle to provide. From here the fast road runs straight back to Siena — or on south into the Val d'Orcia if you are combining the two.
+
+**Rapolano Terme**, on the loop's eastern edge, adds the option most itineraries miss: working **thermal baths** in a landscape that has been geologically busy for two million years. If the [hot-springs afternoon](/blog/bagno-vignoni-bagni-san-filippo-hot-springs/) appeals but Bagno Vignoni feels far, this is the near version.
+
+**Driving notes:** the ridge roads are narrow, the gravel turnoffs are where the best views hide, and on the first weekend of October the [L'Eroica ride](/blog/leroica-gaiole-in-chianti-2026/) puts thousands of vintage cyclists across exactly this country on open roads — plan around it, in either direction. Our [Tuscany car-rental guide](/blog/renting-a-car-in-tuscany-2026/) covers the practicalities.`,
+      },
+      {
+        id: 'monte-oliveto',
+        heading: 'Monte Oliveto Maggiore: a Renaissance gallery in a clay desert',
+        body: `The abbey announces itself from kilometres away — a red-brick monastic city in a stand of cypress, founded by Sienese Olivetan monks and still a working monastery. It is the one place on this loop where you stop being a landscape-watcher and become a museum visitor, and the museum is extraordinary.
+
+**The Great Cloister carries thirty-five frescoes of the life of St Benedict**, wrapped around all four walls. **Luca Signorelli began the cycle in 1497–1498**; **Antonio Bazzi — Il Sodoma — continued it after 1505**, and between them they produced one of the signature fresco cycles of the Italian Renaissance: crowded, worldly, frequently funny scenes — Sodoma painted himself in, with his pet badgers — in a place built for silence. If the name Sodoma rings a bell from Siena, it should: his ruined fresco from the [Cappella di Piazza](/piazza-del-campo-guide) is in the Museo Civico, and here you meet him at full strength.
+
+**Practicalities, honestly stated.** Published visiting hours run roughly **9:00–12:00 and 15:00–18:00 in summer**, closing earlier (12:00 and 17:00, opening 9:15 and 15:15) **in winter**, with Sunday mornings extending to 12:30 — figures from visitor guides rather than a page of the abbey's we could open, so treat them as the pattern and check before building a day on them; the midday closure is real and catches people who arrive at 12:30 expecting lunch-hour sightseeing. **We could not confirm the admission arrangements** — whether entry is free, by donation or ticketed — so carry cash and expect any of the three. This is a working monastery: dress and volume as for a church, and services take precedence.
+
+Give it ninety minutes: the cloister slowly, the church, and the walk back up through the woods.`,
+      },
+      {
+        id: 'treno-natura',
+        heading: 'The Treno Natura: the crete by heritage railway',
+        body: `The one genuinely great car-free way into this landscape is also one of Tuscany's best slow-travel experiences, and it is oddly little known outside Italy.
+
+The **Treno Natura** has run since **1996** on the otherwise-disused line from **Asciano to Monte Antico** — about **51 kilometres** through the crete and on into the Val d'Orcia toward the Ombrone basin — on excursion dates from roughly **late March to late October**, some of them behind a **steam locomotive**. The excursions are themed around what the country is doing that day: harvest events, village festivals, and in November the truffle weekends at San Giovanni d'Asso, when the train itself becomes the way to arrive at the festival.
+
+Treat it as an event to book, not a service to catch: dates are a published calendar, not a timetable, and they sell to Italian families as much as to visitors. If your trip overlaps a running date, it is the best half-day this region offers without a steering wheel.
+
+**Beyond the Treno Natura, the honest car-free picture is thin.** Regular trains and buses do reach the edge towns — but we could not verify current timetables to a standard worth printing, and services in country this empty run on school-and-work logic, not visitor logic. Check Trenitalia and at-bus.it for your date; and if the answer disappoints, the [car-free Tuscany guide](/blog/tuscany-without-a-car-2026/) is frank about which landscapes are worth the fight and which want a car. This one wants a car.`,
+      },
+      {
+        id: 'when-to-go',
+        heading: 'When to go: the four planets of the crete',
+        body: `No landscape in Tuscany changes more across the year, so the honest advice is seasonal.
+
+**Late spring (April–June)** is the green planet: young wheat over the clay, the fields at their softest, and the strongest contradiction of the "desert" nickname. The classic rolling-green photographs are taken now.
+
+**High summer** is the scorched planet: the clay bakes pale, the wheat goes, shade is nearly absent and the middle of the day is genuinely punishing. Beautiful in a severe way — go early or at sunset, and treat it like the exposed country it is.
+
+**Autumn (late September–November)** is the atmospheric planet, and our pick. Ploughing turns the hills to bare grey corduroy, the **fog pools in the valleys at dawn** and leaves the ridgetop farms floating — the single most photographed effect the crete produce, and the reason [our October guide](/blog/tuscany-in-october-2026/) sends photographers this way — and the season ends with truffles in San Giovanni d'Asso.
+
+**Winter** is the empty planet: frost on the biancane, long light, nobody at all. For a certain kind of traveller, the best version.
+
+Whenever you come, **the hours matter more than the month**: this is a landscape of raking light, flat and lifeless at noon, extraordinary in the first and last two hours of the day. Build the loop around a dawn or a sunset and put the abbey in the middle.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **18 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
+
+**Verified:** the character and extent of the Crete Senesi across the comuni of Asciano, Buonconvento, Monteroni d'Arbia and Rapolano Terme; the *mattaione* clay as marine sediment of a sea of more than two million years ago, mixed with rock salt and chalk; the *biancane* (pale clay domes, named from the white soil and saline efflorescence) and *calanchi* (fan-like gully systems), concentrating in the **Deserto di Accona** near Asciano; the abbey of **Monte Oliveto Maggiore** and its Great Cloister cycle of **thirty-five frescoes of the life of St Benedict**, begun by **Luca Signorelli in 1497–1498** and continued by **Il Sodoma after 1505**; the abbey's published seasonal visiting pattern (roughly 9:00–12:00 and 15:00–18:00 in summer, shorter in winter, Sunday mornings to 12:30), from visitor guides; the **Treno Natura** heritage railway running since **1996** on the roughly **51 km Asciano–Monte Antico** line, with excursions from late March to late October, some steam-hauled, including truffle-festival services; the **Truffle Museum of San Giovanni d'Asso** as Italy's first museum dedicated to the truffle, in about 250 square metres of the castle cellars; and the village's **white-truffle festival across the second and third weekends of November**.
+
+**Flagged as unconfirmed:** the abbey's admission arrangements, which none of our sources stated plainly — carry cash and expect free, donation or ticket; the abbey's exact current hours, which come from visitor guides rather than the abbey's own page; regular rail and bus timetables to Asciano and Buonconvento, which we deliberately do not print — check Trenitalia and at-bus.it for your date; current Treno Natura dates and fares, which are a yearly calendar to look up rather than a fact to store; and the Rapolano Terme baths' prices and hours, which we describe only as existing. The SP438 Lauretana's status as the classic viewpoint road is a widely repeated judgement we share, not a measured fact.
+
+We have no commercial relationship with the abbey, the railway, any baths, museum or festival named. No booking made from this page pays us anything.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Tuscany's problem, for the returning visitor, is that its beauty has been so completely photographed that the real thing can feel like a re-enactment. The crete are the cure. Nobody's screensaver looks like a biancana; no influencer queue forms on the Lauretana at dawn; and the abbey at the centre of it holds a Renaissance masterpiece you can usually stand in front of alone.
+
+Go in the shoulder months, drive it at the edges of the day, eat wherever the truffle village feeds you, and let the emptiness do its work. Siena's painters knew this country seven hundred years ago; it is still the best supporting argument for the city's whole view of the world — that the land, worked patiently, is the painting.`,
+      },
+    ],
+    [
+      { q: 'What are the Crete Senesi?', a: 'The clay hill country south-east of Siena, across the comuni of Asciano, Buonconvento, Monteroni d’Arbia and Rapolano Terme — a bare, rolling landscape formed from mattaione, the salt-and-chalk-laced marine clay of a sea that covered the basin more than two million years ago. Its signature erosion forms are the biancane, pale clay domes, and calanchi, fan-shaped gully systems, concentrating in the so-called Accona Desert near Asciano.' },
+      { q: 'Are the Crete Senesi the same as the Val d’Orcia?', a: 'No, though photographs of the two are constantly mislabelled. They are neighbours: the Val d’Orcia is the lush, composed postcard with famous towns — Pienza, Montalcino, San Quirico — while the crete are emptier, starker and closer to Siena, with almost no headline sights beyond the abbey of Monte Oliveto Maggiore. You go to the Val d’Orcia to see things and to the crete to be somewhere.' },
+      { q: 'What is there to see at Monte Oliveto Maggiore?', a: 'The Great Cloister’s cycle of thirty-five frescoes of the life of St Benedict, begun by Luca Signorelli in 1497–1498 and continued by Il Sodoma after 1505 — one of the signature fresco cycles of the Italian Renaissance, in a working red-brick monastery amid cypress woods. Published hours run roughly 9:00–12:00 and 15:00–18:00 in summer with a real midday closure, shorter in winter; we could not confirm the admission arrangements, so carry cash and expect free, donation or ticketed.' },
+      { q: 'Can you visit the Crete Senesi without a car?', a: 'Honestly, with difficulty — this landscape wants a car. The glorious exception is the Treno Natura, the heritage railway running since 1996 on the 51 km Asciano–Monte Antico line, with excursion dates from late March to late October, some steam-hauled. Treat it as an event to book from its yearly calendar, not a service to catch. Regular trains and buses reach the edge towns, but check Trenitalia and at-bus.it for your date rather than trusting any printed timetable.' },
+      { q: 'When is the best time to visit the Crete Senesi?', a: 'Each season is a different planet: late spring for the green wheat over the clay, autumn — our pick — for ploughed grey hills, dawn fog pooling under the ridgetop farms and November truffles, winter for frost and emptiness, high summer only at the edges of the day, when the scorched clay is severe and shadeless. Whenever you come, the hours matter more than the month: the crete are flat at noon and extraordinary in raking light.' },
+      { q: 'What is the San Giovanni d’Asso truffle festival?', a: 'The Crete Senesi’s white-truffle celebration, held across the second and third weekends of November in the small village of San Giovanni d’Asso, whose castle cellars hold Italy’s first museum dedicated to the truffle, across about 250 square metres under the vaults. In festival season the Treno Natura has run services that make the train itself the way to arrive.' },
+      { q: 'How long does a Crete Senesi loop take from Siena?', a: 'Half a day minimum, a full day comfortably: Siena to Asciano by the SP438 Lauretana ridge road, Monte Oliveto Maggiore (give the abbey ninety minutes), San Giovanni d’Asso, and back via walled Buonconvento — with Montaperti’s memorial pyramid as a first stop and Rapolano Terme’s thermal baths as the option most itineraries miss. On the first weekend of October, plan around L’Eroica, which puts thousands of vintage cyclists across exactly these roads.' },
+    ],
+    '2026-09-09',
+    {
+      seoTitle: 'Crete Senesi Guide: Tuscany’s Clay Desert, the Abbey and the Loop',
+      primaryKeyword: 'crete senesi',
+      secondaryKeywords: [
+        'crete senesi vs val d’orcia',
+        'monte oliveto maggiore frescoes',
+        'accona desert tuscany',
+        'treno natura tuscany',
+        'san giovanni d’asso truffle',
+        'crete senesi driving route',
+      ],
+      imageAlt: 'Cypress trees over bare rolling hills in the country south of Siena, at the edge of the Crete Senesi',
+      canonicalPath: '/blog/crete-senesi-guide',
+      tags: ['crete senesi', 'day trips', 'siena countryside', 'monte oliveto', 'landscapes'],
     }
   ),
 ];
