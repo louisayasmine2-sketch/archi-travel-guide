@@ -10,14 +10,14 @@ import SaveGuideButton from "@/components/common/SaveGuideButton";
 import { breadcrumbSchema, articleSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import { trackLeadSubmit } from "@/lib/analytics";
-import { getArticle, articles } from "@/data/articles";
+import { findPublishedArticle } from "@/lib/publishedArticles";
 import { relatedArticles } from "@/lib/relatedArticles";
 import imageDimensions from "@/data/imageDimensions.json";
 import NotFound from "./NotFound";
 import { Send, ChevronDown } from "lucide-react";
 import axios from "axios";
 import { toast } from "sonner";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import AIRecommendedBadge from "@/components/common/AIRecommendedBadge";
 
@@ -219,37 +219,56 @@ const renderArticleBody = (body) => {
 export default function Article({ fixedSlug, canonicalPath }) {
   const { slug: routeSlug } = useParams();
   const slug = fixedSlug || routeSlug;
-  const article = getArticle(slug);
-  if (!article) return <NotFound />;
+  // Two-phase load. The 1.4MB article store used to sit on this page's
+  // critical path, holding the hero back until the whole chunk arrived —
+  // 14s LCP on throttled mobile. The shell (hero, title, excerpt, SEO)
+  // renders from the 56KB published index immediately; the store loads as
+  // its own async chunk and fills in the body, byline and related reads.
+  const indexEntry = findPublishedArticle(slug);
+  const [store, setStore] = useState(null);
+  useEffect(() => {
+    let live = true;
+    import("@/data/articles").then((m) => { if (live) setStore(m); });
+    return () => { live = false; };
+  }, []);
+  if (!indexEntry) return <NotFound />;
+  const article = store ? store.getArticle(slug) : null;
+  if (store && !article) return <NotFound />;
+  const shell = article || indexEntry;
 
-  const related = relatedArticles(article, articles);
-  const monetization = article.monetization || {};
+  const related = article ? relatedArticles(article, store.articles) : [];
+  const monetization = article?.monetization || {};
   const bookingCta = monetization.booking;
-  const imageCredit = article.imageCredit;
+  const imageCredit = article?.imageCredit;
 
-  const path = canonicalPath || article.canonicalPath || `/blog/${article.slug}`;
+  const path = canonicalPath || shell.canonicalPath || `/blog/${shell.slug}`;
   const url = canonical(path);
-    const regionTo = article.region === 'Siena' ? '/siena' : article.region === 'Tuscany' ? '/tuscany-travel-guide' : article.region === 'Italy' ? '/tuscany-travel-guide/' : '/blog';
+    const regionTo = shell.region === 'Siena' ? '/siena' : shell.region === 'Tuscany' ? '/tuscany-travel-guide' : shell.region === 'Italy' ? '/tuscany-travel-guide/' : '/blog';
   const crumbs = [
     { label: "Home", to: "/" },
     { label: "Blog", to: "/blog" },
-    { label: article.region, to: regionTo },
-    { label: article.title },
+    { label: shell.region, to: regionTo },
+    { label: shell.title },
   ];
-  const schemas = [
-    breadcrumbSchema(crumbs),
-    articleSchema({
-      title: article.title,
-      description: article.excerpt,
-      image: article.image,
-      url,
-      published: article.published || article.updated,
-      modified: article.updated,
-      author: article.author,
-      category: article.category,
-    }),
-    ...(article.faqs?.length ? [faqSchema(article.faqs)] : []),
-  ];
+  // Article/FAQ schema needs full store fields; the static HTML already
+  // serves complete schema to crawlers, so emitting it a beat after
+  // hydration costs nothing.
+  const schemas = article
+    ? [
+        breadcrumbSchema(crumbs),
+        articleSchema({
+          title: article.title,
+          description: article.excerpt,
+          image: article.image,
+          url,
+          published: article.published || article.updated,
+          modified: article.updated,
+          author: article.author,
+          category: article.category,
+        }),
+        ...(article.faqs?.length ? [faqSchema(article.faqs)] : []),
+      ]
+    : [breadcrumbSchema(crumbs)];
 
   const fadeInUp = {
     hidden: { opacity: 0, y: 40 },
@@ -259,25 +278,25 @@ export default function Article({ fixedSlug, canonicalPath }) {
   return (
     <article className="bg-[#FAF7F2] font-sans min-h-screen">
       <SEO
-        title={article.seoTitle || article.title}
-        description={article.excerpt}
+        title={article?.seoTitle || shell.title}
+        description={shell.excerpt}
         path={path}
-        image={article.image || undefined}
+        image={shell.image || undefined}
         type="article"
-        articleMeta={{ published: article.published || article.updated, modified: article.updated, section: article.category, tags: [article.region, article.category] }}
+        articleMeta={{ published: article?.published || shell.updated, modified: shell.updated, section: shell.category, tags: [shell.region, shell.category] }}
         schema={schemas}
       />
       
       {/* 4D Cinematic Hero */}
       <section className="relative h-[80vh] min-h-[600px] overflow-hidden bg-[#2C211B] text-white">
-        {article.image && (
+        {shell.image && (
           <motion.div 
             initial={{ scale: 1 }}
             animate={{ scale: 1.05 }}
             transition={{ duration: 25, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
             className="absolute inset-0 w-full h-full"
           >
-            <img src={article.image} alt={article.imageAlt || article.title} loading="eager" className="w-full h-full object-cover opacity-60" />
+            <img src={shell.image} alt={article?.imageAlt || shell.title} loading="eager" className="w-full h-full object-cover opacity-60" />
           </motion.div>
         )}
         
@@ -291,21 +310,21 @@ export default function Article({ fixedSlug, canonicalPath }) {
             </motion.div>
             <motion.div variants={fadeInUp} className="mb-4 flex justify-center items-center gap-3">
                <span className="text-xs uppercase tracking-[0.2em] font-bold text-[#8A9A5B] bg-white/10 px-4 py-1.5 rounded-full backdrop-blur-md border border-white/20">
-                 {article.category}
+                 {shell.category}
                </span>
                <AIRecommendedBadge />
             </motion.div>
             <motion.h1 variants={fadeInUp} className="text-5xl md:text-7xl font-serif leading-[1.05] tracking-tight mb-8 drop-shadow-[0_20px_20px_rgba(0,0,0,0.8)]">
-              {article.title}
+              {shell.title}
             </motion.h1>
             <motion.p variants={fadeInUp} className="text-xl md:text-2xl text-[#F5EDE3] drop-shadow-md font-light leading-relaxed max-w-3xl mx-auto">
-              {article.excerpt}
+              {shell.excerpt}
             </motion.p>
           </motion.div>
         </div>
       </section>
 
-      {article.image && imageCredit && (
+      {shell.image && imageCredit && (
           <div className="max-w-5xl mx-auto px-6 mt-4">
             <p className="text-xs leading-relaxed text-[#657143] text-right">
               Photo:{" "}
@@ -333,6 +352,15 @@ export default function Article({ fixedSlug, canonicalPath }) {
       </div>
       )}
 
+      {/* Body, byline and related reads arrive with the async store chunk.
+          The static fallback already served the full text pre-hydration, so
+          this gap is a beat on fast connections, not a blank page. */}
+      {!article && (
+        <div className="container-editorial mt-12 pb-24" aria-busy="true">
+          <p className="text-[hsl(var(--charcoal-soft))]">Loading the full guide…</p>
+        </div>
+      )}
+      {article && (<>
       <div className="container-editorial mt-12 grid grid-cols-1 lg:grid-cols-12 gap-12">
         {/* TOC */}
         <aside className="lg:col-span-3 order-2 lg:order-1">
@@ -457,6 +485,7 @@ export default function Article({ fixedSlug, canonicalPath }) {
           </div>
         </section>
       )}
+      </>)}
     </article>
   );
 }
