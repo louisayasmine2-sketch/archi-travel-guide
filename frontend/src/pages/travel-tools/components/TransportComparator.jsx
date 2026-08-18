@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import guide from "@/data/florenceToSienaGuide.json";
+import AffiliateHandoff from "@/components/common/AffiliateHandoff";
 import { Bus, Plane, Train, Compass, Car, Users, Check } from "lucide-react";
 
 // Florence → Siena comparison. Every figure below is copied verbatim from the
@@ -138,6 +139,11 @@ export default function TransportComparator() {
                   <dd className="text-[#2C211B]">{o.drawback}</dd>
                 </div>
               </dl>
+              {/* The handoff renders only on the card the tool itself just
+                  recommended, and only for the two options a live programme
+                  can actually book. On any other card it would be an ad. */}
+              {recommended && o.id === "tour" && <AffiliateHandoff variant="tour" />}
+              {recommended && o.id === "car" && <AffiliateHandoff variant="car" />}
             </div>
           );
         })}
