@@ -47,7 +47,10 @@ export default function Blog() {
   const region = (searchParams.get("region") || "").trim();
   const catParam = (searchParams.get("cat") || "").trim().toLowerCase();
 
-  const articles = publishedBlogArticles();
+  // Evaluated once per mount: the runtime publish filter re-runs on every
+  // visit to the page, while within a mounted page the list keeps a stable
+  // identity — which the filter memo below depends on.
+  const articles = useMemo(() => publishedBlogArticles(), []);
   // Category buttons come from the data's distinct values — a button can never
   // point at a category no article has, and a new one appears on its own.
   const CATEGORIES = ["All", ...[...new Set(articles.map((a) => a.category))].sort((a, b) => a.localeCompare(b))];
@@ -71,7 +74,7 @@ export default function Blog() {
       });
     }
     return list;
-  }, [activeCategory, query, region]);
+  }, [BY_RECENT, activeCategory, query, region]);
   const shown = filtered.slice(0, visible);
   const recent = BY_RECENT.slice(0, 4);
 

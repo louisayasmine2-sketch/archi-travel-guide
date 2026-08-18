@@ -16,7 +16,17 @@ const MIME = {
 http
   .createServer((req, res) => {
     let file = path.join(BUILD, decodeURIComponent(req.url.split("?")[0]));
-    if (!file.startsWith(BUILD) || !fs.existsSync(file) || fs.statSync(file).isDirectory()) {
+    if (!file.startsWith(BUILD)) {
+      file = path.join(BUILD, "index.html");
+    }
+    // Cloudflare Pages serves <dir>/index.html for a directory URL; without
+    // this, every pretty route fell through to the ROOT index.html, so the
+    // per-route static HTML (fallback content, titles, preloads) was never
+    // exercised locally or by the e2e suite.
+    if (fs.existsSync(file) && fs.statSync(file).isDirectory()) {
+      file = path.join(file, "index.html");
+    }
+    if (!fs.existsSync(file)) {
       file = path.join(BUILD, "index.html");
     }
     res.setHeader("Content-Type", MIME[path.extname(file)] || "application/octet-stream");
