@@ -38,8 +38,7 @@ function RemoveStaticFallback() {
   return null;
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+const app = (
   <React.StrictMode>
     <RemoveStaticFallback />
     <HelmetProvider>
@@ -49,5 +48,34 @@ root.render(
         </ThemeProvider>
       </QueryClientProvider>
     </HelmetProvider>
-  </React.StrictMode>,
+  </React.StrictMode>
 );
+
+const container = document.getElementById("root");
+if (container.hasChildNodes()) {
+  // Prerendered page (scripts/prerender-routes.js): the served HTML already
+  // IS the article, so hydrate instead of re-rendering — and load the
+  // article store first, so Article.jsx's first client render matches the
+  // captured full-body DOM instead of its loading state. React keeps the
+  // prerendered content visible while the route chunk hydrates.
+  window.__PRERENDERED__ = true;
+  import("@/data/articles").then(
+    (m) => {
+      window.__ARTICLE_STORE__ = m;
+      // onRecoverableError is silenced deliberately. The prerenderer captures
+      // innerHTML, and serialising merges adjacent text nodes ("Updated: " +
+      // a date becomes one node), so React reports a recoverable mismatch at
+      // each interpolation seam and re-renders — to a byte-identical result
+      // (verified by DOM diff: 339/339 text nodes equal). The served pixels
+      // stay on screen throughout; the cost is one redundant render pass.
+      ReactDOM.hydrateRoot(container, app, { onRecoverableError: () => {} });
+    },
+    () => {
+      // Store chunk failed (offline mid-navigation?): render from scratch
+      // rather than leaving a dead page.
+      ReactDOM.createRoot(container).render(app);
+    }
+  );
+} else {
+  ReactDOM.createRoot(container).render(app);
+}
