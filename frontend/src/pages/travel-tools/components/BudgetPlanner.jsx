@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import AffiliateHandoff from "@/components/common/AffiliateHandoff";
 import { budgetCalculator, budgetBreakdown } from "@/lib/travelTools";
 import { loadTripPlan, loadBudgetPrefs, saveBudgetPrefs, markToolDone } from "@/lib/tripPlan";
 import { toast } from "sonner";
@@ -191,6 +192,9 @@ export default function BudgetPlanner() {
                   </li>
                 ))}
               </ul>
+              {/* Only when the traveller priced a private-car trip: the one
+                  budget line a live programme can actually book. */}
+              {form.transport_type === "private" && <AffiliateHandoff variant="car" />}
             </div>
           ) : (
             <div className="rounded-3xl border border-dashed border-[#8A9A5B]/30 bg-white p-12 text-center text-[#657143] flex flex-col items-center justify-center min-h-[300px]">
