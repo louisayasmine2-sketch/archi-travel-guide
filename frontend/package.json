@@ -70,7 +70,7 @@
   "scripts": {
     "start": "craco start",
     "prestart": "node scripts/generate-articles-index.js && node scripts/generate-image-dimensions.js",
-    "build": "npm run sitemap && npm run llms && node scripts/generate-articles-index.js && node scripts/generate-image-dimensions.js && craco build && node scripts/generate-static-html.js && node scripts/inject-google-analytics.js",
+    "build": "npm run sitemap && npm run llms && node scripts/generate-articles-index.js && node scripts/generate-image-dimensions.js && craco build && node scripts/generate-static-html.js && node scripts/inject-google-analytics.js && node scripts/prerender-routes.js",
     "llms": "node scripts/generate-llms-txt.js",
     "deploy-smoke": "node scripts/smoke-deploy.mjs",
     "test": "craco test",

@@ -225,12 +225,15 @@ export default function Article({ fixedSlug, canonicalPath }) {
   // renders from the 56KB published index immediately; the store loads as
   // its own async chunk and fills in the body, byline and related reads.
   const indexEntry = findPublishedArticle(slug);
-  const [store, setStore] = useState(null);
+  // On prerendered pages index.js loads the store BEFORE hydrating, so the
+  // first client render carries the full body and matches the served DOM.
+  const [store, setStore] = useState(() => (typeof window !== "undefined" && window.__ARTICLE_STORE__) || null);
   useEffect(() => {
+    if (store) return undefined;
     let live = true;
     import("@/data/articles").then((m) => { if (live) setStore(m); });
     return () => { live = false; };
-  }, []);
+  }, [store]);
   if (!indexEntry) return <NotFound />;
   const article = store ? store.getArticle(slug) : null;
   if (store && !article) return <NotFound />;
@@ -274,6 +277,10 @@ export default function Article({ fixedSlug, canonicalPath }) {
     hidden: { opacity: 0, y: 40 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
   };
+  // false disables framer's entrance pass entirely: prerendered HTML is
+  // already at the final state, and animating from hidden would blank the
+  // hero the moment JS arrives.
+  const entrance = typeof window !== "undefined" && window.__PRERENDERED__ ? false : "hidden";
 
   return (
     <article className="bg-[#FAF7F2] font-sans min-h-screen">
@@ -304,7 +311,7 @@ export default function Article({ fixedSlug, canonicalPath }) {
         <div className="absolute inset-0 bg-radial-gradient from-transparent via-transparent to-black/60 z-10 pointer-events-none"></div>
         
         <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-6 mt-16 max-w-5xl mx-auto">
-          <motion.div initial="hidden" animate="visible" variants={{ hidden: { opacity: 0 }, visible: { opacity: 1, transition: { staggerChildren: 0.15 } } }} className="w-full">
+          <motion.div initial={entrance} animate="visible" variants={{ hidden: { opacity: 0 }, visible: { opacity: 1, transition: { staggerChildren: 0.15 } } }} className="w-full">
             <motion.div variants={fadeInUp} className="mb-6 flex justify-center">
               <Breadcrumbs items={crumbs} />
             </motion.div>
