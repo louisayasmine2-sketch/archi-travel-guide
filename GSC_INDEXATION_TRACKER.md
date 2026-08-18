@@ -146,3 +146,109 @@ Catatan batch 3:
   strikes guide, artikel ETIAS.
 - Flagship klaster: /blog/tuscany-without-a-car-2026 menerima link dari 10+ halaman —
   prioritaskan indexing-nya begitu tayang 25 Agu.
+
+---
+
+# Catatan GSC — 2026-08-12: drilldown "Blocked by robots.txt"
+
+Link drilldown yang dibagikan (`item_key=CAMYCyAC`) mengarah ke kategori
+**"Blocked by robots.txt"** di bagian *Why pages aren't indexed* untuk properti
+`sc-domain:affittacameregliarchi.com`. Identifikasi dari luar akun: item_key
+adalah protobuf base64 (reason enum 11, bucket 3 = not indexed), cocok dengan
+link drilldown publik ber-item_key sama yang beredar di forum SEO untuk laporan
+"pagina bloccata da robots.txt". Konfirmasi final tetap lewat checklist di bawah.
+
+## Kenapa baru muncul sekarang
+
+`robots.txt` dengan `Disallow: /go/` pertama kali live 2026-07-31. Sejak itu
+Google berhenti meng-crawl endpoint redirect afiliasi `/go/*` (11 slug di
+`_redirects`, plus varian query seperti `/go/booking-search?ss=...`) dan
+laporan GSC memindahkannya ke bucket ini — sebelum ada robots.txt, URL yang
+sama akan tampil sebagai "Page with redirect". Naiknya angka di baris laporan
+ini adalah efek yang memang diinginkan, bukan regresi.
+
+## Status: intentional — tidak ada yang perlu difix
+
+- `/go/*` memang tidak boleh di-crawl/di-index: itu endpoint redirect afiliasi.
+- Tidak ada URL `/go/` di sitemap (dicek 2026-08-12: 0 dari 105 URL).
+- Link `/go/` di halaman sudah menyandang `rel="sponsored"` (Viator,
+  DiscoverCars — tracking live) atau `rel="nofollow"` (programme yang masih
+  pending), jadi sinyal "paid link" tidak bergantung pada crawl redirect-nya.
+- Jangan klik "Validate fix" untuk baris ini, dan jangan longgarkan robots.txt.
+
+## Checklist verifikasi (buka drilldown-nya, butuh login GSC)
+
+Satu-satunya rule Disallow kita adalah `/go/`, jadi **semua** contoh URL di
+daftar drilldown harus berawalan `/go/`. Jumlah wajar: ±11 plus varian query.
+Kalau ada URL non-`/go/` di daftar itu, berarti production menyajikan
+robots.txt yang berbeda dari repo (mis. di subdomain) — investigasi dulu
+sebelum menyimpulkan apa pun.
+
+## Temuan sampingan saat audit (2026-08-12)
+
+Dua artikel batch Rank-1 (2026-08-10) menaut guide Florence–Siena di path salah
+`/blog/florence-to-siena-by-train-or-bus/` — path itu tidak punya route sehingga
+merender halaman 404 (HTTP 200 + noindex).
+
+Ketiga link konten itu **sudah dibetulkan lewat #78** (2026-08-14), dikerjakan
+paralel dan lebih dulu sampai di `main`; branch ini tidak lagi menyumbang
+perbaikan link tersebut. Yang tetap disumbang di sini adalah **301 safety net di
+`_redirects`** untuk URL salah yang mungkin terlanjur ter-crawl selama URL itu
+hidup — perbaikan konten saja tidak menangani URL yang sudah masuk index Google.
+Aturan barunya diuji dengan `wrangler pages dev`: kedua varian 301 ke
+`/florence-to-siena-by-train-or-bus/`, path kanonik tetap 200 (tidak ada loop),
+dan seluruh rule lama tidak berubah. Kalau URL salahnya sempat muncul di GSC
+(soft 404 / excluded by noindex), akan bergeser ke "Page with redirect" lalu
+hilang setelah recrawl.
+
+Koreksi 2026-08-12: sempat ditambahkan independence note inline di tiga artikel
+(florence-or-siena-which-to-visit-2026, rome-to-siena-train-bus-2026,
+siena-day-trip-or-overnight-2026) karena dikira belum punya. Ternyata ketiganya
+sudah membawa note house-style di akhir section `how-we-checked` ("We have no
+affiliate relationship…") — grep awal memakai pola yang salah sehingga tidak
+menemukannya. Note inline itu sudah dihapus lagi; tidak ada perubahan bersih
+pada ketiga artikel.
+
+Update setelah merge #74 (scanner disclosure baru): `audit_content.py` sekarang
+menilai disclosure terhadap programme yang benar-benar live di `_redirects`,
+bukan sekadar ada-tidaknya link. Hasilnya **No findings** untuk seluruh korpus —
+tiga artikel di atas tidak lagi menyala karena hanya menaut programme yang masih
+pending (Booking/Omio/Trainline) dan sudah membawa independence note. Ini
+sekaligus memastikan koreksi di atas: ketiganya memang sudah patuh sejak awal.
+Mulai sekarang `links_without_disclosure` selalu pelanggaran nyata — perbaiki
+di hari ia muncul, jangan ditutup dengan disclosure palsu.
+
+
+---
+
+# Catatan GSC — 2026-08-17: email "Server error (5xx)" + fix judul dobel
+
+Email GSC melaporkan reason baru "Server error (5xx)". Hasil investigasi dari
+repo (produksi tidak bisa diakses dari sandbox):
+
+- Repo ini murni static di Cloudflare Pages — tidak ada Pages Functions atau
+  `_worker.js` — jadi 5xx bukan berasal dari kode aplikasi. Sumbernya pasti di
+  lapisan Cloudflare (transien saat deploy, WAF/rate-limit, atau DNS).
+- Workflow `Deploy Smoke Check` ternyata GAGAL di semua 30 run sejak 9 Agu,
+  tapi bukan karena 5xx — semua URL menjawab 200. Penyebabnya "title
+  mismatch": setiap halaman pre-render menyajikan DUA tag `<title>` + dua meta
+  description (bawaan template shell + suntikan generator), dan tag pertama
+  selalu judul brand generik. Crawler yang membaca HTML mentah juga melihat
+  judul generik itu lebih dulu.
+- Fix-nya **mendarat lewat #107** (2026-08-17): `generate-static-html.js`
+  membuang title/description polos milik template sebelum menyuntik pasangan
+  data-rh, dan ekspektasi judul homepage di `smoke-deploy.mjs` diperbarui ke
+  judul hasil rewrite #76 — plus `extractTitle` kini mendekode entity HTML.
+  Branch PR #70 sempat membawa fix yang sama (dikerjakan paralel, diverifikasi
+  lokal: 114 halaman tepat satu title + satu description, tag Impact utuh,
+  sembilan cek smoke PASS dalam simulasi), lalu mengadopsi versi #107 saat
+  merge supaya main tetap satu-satunya sumber implementasi.
+
+Langkah 5xx yang tersisa (butuh akses GSC/Cloudflare, manual):
+1. Buka indexing report → baris "Server error (5xx)" → catat contoh URL dan
+   tanggal last crawled.
+2. Kalau tanggalnya bertepatan dengan deploy dan URL-nya acak → transien;
+   klik Validate Fix dan pantau.
+3. Kalau berpola atau berlanjut → cek Cloudflare (Security → Events, dan
+   Analytics → status 5xx) untuk user-agent Googlebot; ini konfigurasi zone,
+   bukan repo.
