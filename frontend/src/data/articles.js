@@ -7257,6 +7257,103 @@ Drivers own this day; car-free travellers should aim the [bus-based version](/bl
     }
   ),
   A(
+    'bottini-di-siena-underground-aqueduct',
+    'The Bottini: Siena’s Underground Aqueduct and the River That Never Was',
+    'Things to do',
+    'Siena',
+    'Siena’s bottini: the 25km medieval aqueduct under the city — what it is, the phantom river it replaced, and how visits actually work.',
+    '/images/siena/piazza-del-campo-guide-hero.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Beneath Siena runs a **25-kilometre network of medieval aqueduct tunnels** — the *bottini* — dug from the 13th century onwards and still, seven centuries later, feeding the city’s fountains. You can go down into them, but not on a whim: **visits run only by appointment**, in small groups led by volunteers, through passages roughly 1.8 metres high and less than a metre wide. There is no ticket desk, no walk-in slot, and no version of this that suits anyone uneasy in tight, wet, dark spaces. What everyone else gets — free, at street level, every day — are the fountains the tunnels were built to serve, and one of the strangest stories in Tuscany: a city that spent decades digging for a legendary river, never found it, and built something better instead.`,
+      },
+      {
+        id: 'what-the-bottini-actually-are',
+        heading: 'What the bottini actually are',
+        body: `Siena has a problem no visitor notices until it is pointed out: the city sits on a ridge, and there is **no river**. Florence has the Arno, Pisa the same; Siena, at the height of its medieval wealth and ambition, had rain and springs. Its answer was to go underground.
+
+The tunnels are first documented by their Latin name — *buctinus* — in **1226**, and brick-lined galleries appear in the records with the expansion of the Fontebranda spring works in **1246**. The Italian name comes from *botte*, a barrel: the tunnels’ vaulted ceilings, largely faced in terracotta, curve like the inside of one. Generation by generation, miners extended the galleries along the water-bearing layers of the hills, letting gravity do all the work — no pumps, no machinery, just a patient gradient carrying water for kilometres under the city.
+
+Two master channels carry most of it. The **Bottino maestro di Fontebranda**, the deep one, brings water in from Fontebecci to the great Fontebranda fountain. The **Bottino maestro di Fonte Gaia**, built around **1300**, feeds the fountain in Piazza del Campo — [the square’s famous centrepiece](/piazza-del-campo-guide) — and passes its overflow down to lesser fountains below. That is the detail worth standing on: the water splashing in the Campo today made a kilometres-long journey through the dark to get there, along tunnels a Sienese miner would still recognise.`,
+      },
+      {
+        id: 'the-river-that-never-was',
+        heading: 'The Diana: the river that never was',
+        body: `The bottini have a shadow story, and it is the best part. Medieval Siena convinced itself that a great river — the **Diana** — flowed somewhere beneath the city. People swore they could hear it at night. Through the 13th and 14th centuries the commune spent serious public money sinking shafts to find it.
+
+They never did, and the failure was famous enough to reach Dante. In the *Purgatorio* (canto XIII), the Sienese noblewoman Sapìa mocks her own city’s vanities — the fortune wasted hunting the Diana underground, and the fortune wasted on the harbour at **Talamone**. Sharp-eyed readers of this site will recognise that name: Talamone is the same stretch of Tuscan coast where, seven centuries later, [a Bond film would park Mathis’s villa](/blog/quantum-of-solace-siena-filming-locations/). Siena’s follies have a long afterlife.
+
+The irony is the point. The mythical river was never found — but in digging, channelling and vaulting for generations, the Sienese *built* their hidden river: a real one, made of brick and patience. And the name survived. The volunteer association that leads visitors through the tunnels today is called **La Diana**, after the river that never existed.`,
+      },
+      {
+        id: 'how-visits-actually-work',
+        heading: 'How visits actually work',
+        body: `Here is the honest picture, because most write-ups blur it.
+
+**There is no walk-in visit.** The bottini are a working water system under a living city, not a museum with a turnstile. Access runs in **small groups, by appointment, arranged through the Comune di Siena**, with the tours led by volunteers of the **Associazione La Diana**. The sections opened to visitors are limited — parts of the Fonte Gaia master branch and the Fonte Nuova branch are the ones the city has made visitable.
+
+**It is physically real down there.** Expect passages around 1.8 metres high and under a metre wide, wet floors, and darkness beyond your lamp. The standing guidance excludes young children and anyone with heart or respiratory conditions or any unease in confined spaces — and that guidance deserves respect rather than optimism. Waterproof footwear and a head-torch are the standard kit.
+
+**Plan it before your trip, not during.** Requests go through the Comune’s tourist channels, availability is limited, and dates fill. We deliberately print no schedule, group size or fee here: those details are set by the Comune and change — ask through the official Siena tourism contacts when you book, and treat anything a third-party site quotes as needing confirmation.
+
+If the appointment does not come together, you have lost nothing: the section below is the version of the bottini that needs no booking at all.`,
+      },
+      {
+        id: 'the-free-version-above-ground',
+        heading: 'The free version: reading the system above ground',
+        body: `The tunnels have ends, and the ends are public fountains — some of the finest medieval waterworks in Italy, all free, all open, all walkable in an afternoon.
+
+**Fonte Gaia**, Piazza del Campo. The system’s showpiece terminus since around 1400 — the “joyful fountain”, named for the celebration when the water first arrived. [The Campo guide](/piazza-del-campo-guide) covers the square’s rules and rhythms; stand at the fountain and remember the kilometres of tunnel behind each spout.
+
+**Fontebranda**. The oldest and mightiest of them, a brick basilica of a fountain below the west slope, documented before 1100 and rebuilt into its present crenellated form in the 13th century. It sits in the Oca district — [the contrade guide](/siena-contrade-guide) maps whose territory you are in — and it watered wool workshops, animals and households in strict sequence, medieval water management written in stone.
+
+**Fonti di Pescaia**, where the city has installed its **Museo dell’Acqua**, the water museum — the above-ground way to understand the underground.
+
+**Fonte Nuova d’Ovile**, the “new fountain” of 1298, Gothic arches over a quiet pool on the north side — the least visited and the most peaceful of the set.
+
+String them together and you have walked the machine without entering it. [The measured Siena walking tour](/siena-walking-tour) threads several of these into its route, and the whole circuit reads the city the way its builders did: as a hilltop that learned to drink.`,
+      },
+      {
+        id: 'why-it-matters',
+        heading: 'Why this is worth your attention',
+        body: `Plenty of cities have underground curiosities. Siena’s is different in kind: the bottini are not catacombs, not cellars, not a defensive relic — they are **infrastructure that still works**, delivering water by gravity along medieval brickwork while the city above queues for gelato. Seven hundred years of continuous function is rarer than any fresco.
+
+And the story has a moral shape you can feel standing at Fonte Gaia: a city chased a myth, failed publicly enough to be teased in the greatest poem of the age, and answered by building the thing the myth had promised. The river under Siena exists. They dug it themselves.`,
+      },
+      {
+        id: 'how-we-checked-this',
+        heading: 'How we checked this',
+        body: `Checked on 18 August 2026 by web research from an environment whose direct page fetches are blocked: claims were kept only where multiple independent sources agreed — the 1226 *buctinus* record, the 1246 Fontebranda works, the 25-kilometre extent, the two master branches and their functions, the *botte* etymology, the Diana legend and its appearance in *Purgatorio* XIII, and the appointment-only visiting arrangement through the Comune with Associazione La Diana volunteers were each corroborated across reference, institutional and local sources. Because no page could be opened directly, no outbound links ship here, and no schedule, fee or group size is printed: visiting arrangements are set by the Comune di Siena and change — confirm through Siena’s official tourism contacts when you book. This page carries no commercial links.`,
+      },
+    ],
+    [
+      { q: 'Can you visit the bottini without booking?', a: 'No. There is no walk-in access and no ticket desk. Visits run in small groups by appointment, arranged through the Comune di Siena and led by volunteers of the Associazione La Diana, in limited sections of the network.' },
+      { q: 'Is visiting the bottini claustrophobic?', a: 'Genuinely. The passages run about 1.8 metres high and under a metre wide, with wet floors and darkness beyond your lamp. The standing guidance excludes young children and anyone with heart or respiratory conditions or discomfort in confined spaces.' },
+      { q: 'Was the river Diana ever real?', a: 'No trace of it has ever been found. Medieval Siena spent decades and serious public money digging for it — famously enough that Dante mocked the search in Purgatorio XIII. The volunteer association that guides bottini visits today is named after the phantom river.' },
+      { q: 'Do the bottini still work?', a: 'Yes. The gravity-fed network still carries water to Siena’s historic fountains, including Fonte Gaia in Piazza del Campo, roughly seven centuries after the main channels were dug.' },
+      { q: 'What can I see without going underground?', a: 'The fountains the tunnels feed, all free: Fonte Gaia on the Campo, the monumental Fontebranda, Fonte Nuova d’Ovile, and the Fonti di Pescaia, home of the Museo dell’Acqua water museum.' },
+    ],
+    '2026-08-18',
+    {
+      seoTitle: 'Bottini di Siena: The Underground Aqueduct You Can Visit (2026)',
+      primaryKeyword: 'bottini di siena',
+      secondaryKeywords: [
+        'siena underground aqueduct',
+        'siena underground tours',
+        'how to visit the bottini',
+        'river diana siena',
+        'fonte gaia water source',
+        'fontebranda fountain siena',
+        'museo dell acqua siena',
+      ],
+      imageAlt: 'Piazza del Campo in Siena, where the bottini aqueduct delivers water to Fonte Gaia',
+      canonicalPath: '/blog/bottini-di-siena-underground-aqueduct',
+      tags: ['bottini di siena', 'siena underground', 'medieval aqueduct', 'fonte gaia', 'siena history'],
+    }
+  ),
+  A(
     'quantum-of-solace-siena-filming-locations',
     'Quantum of Solace in Siena: The Filming Locations, Scene by Scene',
     'Things to do',
@@ -7274,7 +7371,7 @@ Drivers own this day; car-free travellers should aim the [bus-based version](/bl
         heading: 'The sequence, scene by scene',
         body: `**The arrival.** After the opening car chase, Bond swings the battered Aston Martin DBS into Siena and stops — Mr White still in the boot — in front of the little church of **San Giuseppe**, where Via di Fontanella, Via Giovanni Duprè and Via Sant’Agata meet in the lanes below the southern rim of the Campo. He walks up the slope of Via di Fontanella and under the arch on Via Giovanni Duprè, heading for the square. *Visitable: completely.* These are open public streets a few minutes’ climb below the Campo, at their emptiest early in the morning. Whose territory you are walking through is a question with a real answer in Siena — [the contrade guide](/siena-contrade-guide) maps it.
 
-**The safe house and the tunnels.** The interrogation of Mr White happens in an MI6 safe house reached through an underground passage; the passage entrance was filmed at **Piazzetta della Paglietta, off Via Salicotto**, a few minutes east of the Campo. The tunnel interiors themselves — and everything that happens inside them — were built in the studio. Siena does have a real tunnel network under its streets: the **bottini**, the medieval aqueduct galleries that still feed the city’s fountains, roughly 25 kilometres of them. They are not an attraction you can walk into: visits run in small groups, by appointment through the Comune, led by volunteers of the Associazione La Diana, and the passages are narrow, wet and unsuitable for anyone uneasy in confined spaces. *Visitable: the doorway, from a public lane, any time; the real tunnels, only by arrangement and some patience.*
+**The safe house and the tunnels.** The interrogation of Mr White happens in an MI6 safe house reached through an underground passage; the passage entrance was filmed at **Piazzetta della Paglietta, off Via Salicotto**, a few minutes east of the Campo. The tunnel interiors themselves — and everything that happens inside them — were built in the studio. Siena does have a real tunnel network under its streets: the **bottini**, the medieval aqueduct galleries that still feed the city’s fountains, roughly 25 kilometres of them. They are not an attraction you can walk into: visits run in small groups, by appointment through the Comune, led by volunteers of the Associazione La Diana, and the passages are narrow, wet and unsuitable for anyone uneasy in confined spaces. [The full story of the bottini — and the phantom river Siena dug for and never found — is its own page.](/blog/bottini-di-siena-underground-aqueduct/) *Visitable: the doorway, from a public lane, any time; the real tunnels, only by arrangement and some patience.*
 
 **The Palio.** What thunders around the Campo while Bond works is the actual Palio dell’Assunta of 16 August 2007, captured by a fourteen-camera second unit a year before the film’s release. The following May, the first unit came back and rebuilt the crowd — around **300 extras, chosen from some 1,500 candidates** — so that Daniel Craig and the chase could be threaded through it at close range. On screen the two are cut together so tightly that the join is invisible; that edit is the scene. *Visitable: the Campo, free, every day of the year — the race itself only on its two fixed dates, which is the subject of its own section below.*
 
