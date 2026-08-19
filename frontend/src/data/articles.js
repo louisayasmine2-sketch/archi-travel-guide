@@ -3602,7 +3602,7 @@ Safe travels!`,
 
 1.  **[Monteriggioni](/blog/monteriggioni-guide/)** — A perfectly preserved 13th-century walled village with 14 towers and intact ramparts. Wander the village freely and take the wall-walk for sweeping views over the countryside — the walkway-plus-exhibition ticket runs €4 (reduced €3.50), covers two short sections rather than the full circuit, and closes during the July medieval festival. About 20 minutes north of Siena by bus, then a 500m walk up; allow 45–60 minutes. Gamers know this skyline already: [Monteriggioni is Ezio's home town in Assassin's Creed II](/blog/tuscany-on-screen-film-locations-2026/).
 2.  **Biancane di Leonina & Crete Senesi** — Otherworldly clay hills and lunar-like badlands near Asciano create dramatic, photogenic landscapes. Visit early morning or late afternoon for solitude and golden light; wear sturdy shoes as the paths can be slippery after rain.
-3.  **Buonconvento** — A charming walled town on the ancient Via Cassia with narrow streets, a small sacred-art museum, and excellent local trattorias. Locals head here for ribollita and wild-boar pasta; tour buses usually skip it. Allow 1–2 hours.
+3.  **[Buonconvento](/blog/buonconvento-guide/)** — A charming walled town on the ancient Via Cassia with narrow streets, a small sacred-art museum, and excellent local trattorias. Locals head here for ribollita and wild-boar pasta; tour buses usually skip it. Allow 1–2 hours.
 4.  **Castelnuovo Berardenga** — A quiet Chianti village with a medieval core and nearby wineries that produce outstanding Chianti Classico without the crowds of Radda or Greve. Perfect for a relaxed stroll and tasting.
 5.  **San Quirico d’Orcia** — The elegant gateway to Val d’Orcia’s iconic cypress-lined hills and rolling fields. Stroll the Horti Leonini Renaissance gardens and enjoy panoramic viewpoints at golden hour. About 50–55 minutes south of Siena by bus.
 6.  **Eremo di Montesiepi & San Galgano Abbey** — A hilltop hermitage with the legendary “sword in the stone” and the roofless Gothic abbey below. The peaceful setting feels like stepping back centuries; pair it with a visit to Montalcino for a full half-day.
@@ -4148,7 +4148,7 @@ If you only have time for two: pair **Pienza + Montalcino** and keep Montepulcia
         heading: 'By car: the classic loop',
         body: `A rental car turns Val d’Orcia into a flexible loop of roughly 130–150 km round-trip from Siena. A proven route:
 
-1.  Leave Siena on the Via Cassia (SR2) heading south past Buonconvento.
+1.  Leave Siena on the Via Cassia (SR2) heading south past [Buonconvento](/blog/buonconvento-guide/) — worth the lunch stop on the way back.
 2.  Detour up to **Montalcino** for the morning and an early tasting.
 3.  Continue to **San Quirico d’Orcia** — a good, quick lunch stop that most tour buses skip.
 4.  Follow the ridge road to **Pienza** for the afternoon — [the pecorino capital, with its own cheese festival in early September](/blog/pienza-pecorino-fiera-del-cacio-2026/): cheese shops, cathedral, and the panoramic walkway behind the town.
@@ -9043,7 +9043,7 @@ The un-hedged summary: **Montalcino rewards planning and budget; Montepulciano r
         heading: 'Getting to each from Siena (and the Sunday problem)',
         body: `**By bus, Montepulciano is the straightforward one**: Autolinee Toscane's extraurban **line 112** runs from Siena on weekdays via San Quirico d'Orcia and Pienza, fastest journeys around **1h35**, but only about **four usable connections a day**, weekday-oriented — plan the return before committing to the day. The route itself is half the value — it threads [the Val d'Orcia's postcard country](/blog/val-dorcia-day-trip-from-siena-2026/), and Pienza sits on it as a natural stop.
 
-**Montalcino asks a little more**: the direct approach is extraurban **line 114** (Siena–Buonconvento–Torrenieri–Montalcino), or the Siena–Grosseto line train to **Buonconvento** with the 114 for the short climb up. End-to-end timings vary with the connection — allow roughly **1.5 to 2 hours** and plan around the return times before committing to the day.
+**Montalcino asks a little more**: the direct approach is extraurban **line 114** (Siena–Buonconvento–Torrenieri–Montalcino), or the Siena–Grosseto line train to [**Buonconvento**](/blog/buonconvento-guide/) with the 114 for the short climb up. End-to-end timings vary with the connection — allow roughly **1.5 to 2 hours** and plan around the return times before committing to the day.
 
 **The Sunday warning applies to both, doubled.** Published timetables for these extraurban lines are built around working days, and sources genuinely conflict about what, if anything, runs on Sundays and holidays. Our standing advice: treat both towns as **weekday bus trips**, verify your exact date on the at-bus.it planner, and never build a Sunday plan on an aggregator's optimism — [the same discipline every car-free day trip from Siena requires](/blog/siena-day-trips-without-a-car/).
 
@@ -9172,7 +9172,7 @@ What genuinely needs wheels, we name honestly below — the Val d'Orcia photo lo
 
 **Montepulciano and Pienza — line 112.** One bus, officially Siena–Buonconvento–Montepulciano, threading San Quirico d'Orcia and Pienza en route — which makes it simultaneously the Val d'Orcia towns bus. The catch is depth: roughly **four usable connections a day**, fastest about **1h35**, weekday-oriented — and some itineraries change at Buonconvento rather than running through, so check your specific departure on the planner. Plan it like a flight, and [the two-town wine question it serves is compared here](/blog/montalcino-or-montepulciano-2026/).
 
-**Montalcino — line 114, or the rail trick.** The direct 114 runs Siena–Buonconvento–Torrenieri–Montalcino. The often-smoother alternative: the Siena–Grosseto **train to Buonconvento** (31–34 minutes, around ten trains a day), then the 114's short 14-kilometre climb — about half an hour, running every two hours or so and, per long-standing traveller reporting, generally in sync with train arrivals. Confirm the pairing on the planner for your date rather than trusting habit.
+**Montalcino — line 114, or the rail trick.** The direct 114 runs Siena–Buonconvento–Torrenieri–Montalcino. The often-smoother alternative: the Siena–Grosseto **train to [Buonconvento](/blog/buonconvento-guide/)** (31–34 minutes, around ten trains a day), then the 114's short 14-kilometre climb — about half an hour, running every two hours or so and, per long-standing traveller reporting, generally in sync with train arrivals. Confirm the pairing on the planner for your date rather than trusting habit.
 
 **Arezzo — line 138.** About **95 minutes** across the hills, but sparse — departures roughly every four hours, first around 6:25 — so this is a commit-to-the-day trip. Walkers should note the same lesson applies to [choosing a Via Francigena stage](/blog/via-francigena-which-section-to-walk/): south of Siena, the return bus decides the plan. [The city repays it](/blog/giostra-del-saracino-arezzo-2026/), and the rail workaround via Florence always exists.
 
@@ -11342,7 +11342,7 @@ There is also an art-historical reason this landscape should look familiar. In t
 
 **→ San Giovanni d'Asso (15 min).** The truffle village — small castle, and in its cellars **Italy's first museum dedicated to the truffle**, 250 square metres under the vaults. If your dates land on the **second or third weekend of November**, the village's white-truffle festival is the crete at their most alive, and the [autumn food calendar](/blog/tuscan-food-calendar-seasonal-dishes/) puts it in context.
 
-**→ Buonconvento.** A walled brick market town on the old [Via Francigena](/blog/via-francigena-which-section-to-walk/) corridor, flat and walkable, good for the late lunch the hill villages struggle to provide. From here the fast road runs straight back to Siena — or on south into the Val d'Orcia if you are combining the two.
+**→ [Buonconvento](/blog/buonconvento-guide/).** A walled brick market town on the old [Via Francigena](/blog/via-francigena-which-section-to-walk/) corridor, flat and walkable, good for the late lunch the hill villages struggle to provide. From here the fast road runs straight back to Siena — or on south into the Val d'Orcia if you are combining the two.
 
 **Rapolano Terme**, on the loop's eastern edge, adds the option most itineraries miss: working **thermal baths** in a landscape that has been geologically busy for two million years. If the [hot-springs afternoon](/blog/bagno-vignoni-bagni-san-filippo-hot-springs/) appeals but Bagno Vignoni feels far, this is the near version.
 
@@ -11569,6 +11569,133 @@ If you take one piece of advice from this page, make it the approach: get yourse
       imageAlt: 'The walled village of Monteriggioni on its hill, with its ring of medieval towers',
       canonicalPath: '/blog/monteriggioni-guide',
       tags: ['day trips', 'tuscany villages', 'via francigena', 'medieval history'],
+    }
+  ),
+
+
+  A(
+    'buonconvento-guide',
+    'Buonconvento: An Emperor Died in This Brick Town, and the Tour Buses Still Drive Past It',
+    'Day trips',
+    'Tuscany',
+    'A Holy Roman Emperor died here in 1313 and Siena walled the town in brick. Buonconvento is the flat, train-reachable Val d’Arbia stop most tours skip.',
+    '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Buonconvento solves a problem every Siena-based itinerary eventually hits: you want one more small town, but you are tired of hills, tired of crowds, and tied to public transport. Buonconvento is **flat**, it is **on the railway** — 31 to 34 minutes from Siena, around ten trains a day — it is a member of the *Borghi più Belli d'Italia* club of Italy's most beautiful villages, and almost nobody goes. It is a walled market town of the **Val d'Arbia**, built in brick rather than hill-town stone, and it earns its visit in three ways: as **the best late-lunch town south of Siena**, as **the transport gateway to Montalcino** (the rail-plus-bus trick our car-free guide leans on), and as the scene of one of the strangest afternoons in Italian history.
+
+Because this modest town, in **August 1313**, is where the story of the Holy Roman Empire in Italy effectively ended. The emperor **Henry VII** — the *alto Arrigo* for whom Dante reserved a throne in Paradise — died here, of malaria, on his way to war. Siena's response, later that century, was to wrap the town in the handsome rectangular brick walls you still walk through.
+
+Give it **one to two hours**, or a half day with lunch at its centre. This guide covers the emperor, the walls, the one street that matters, the small museum with Sienese gold-ground painting in it, and the practical role Buonconvento can play in a Siena-based week — which is larger than its size suggests.`,
+      },
+      {
+        id: 'name-and-road',
+        heading: 'The name is the sales pitch: a good place to stop',
+        body: `Buonconvento's name comes from the Latin ***bonus conventus*** — a good gathering, a fortunate community. People settled here for the reasons the name celebrates: fertile riverside land near where the **Arbia** meets the Ombrone, and a crossing point on the most important road in medieval Europe — the **Via Francigena**, the pilgrim route from Canterbury to Rome, which forded the river here.
+
+That road made the town. Buonconvento enters the written record in **1191**, when **Philip Augustus, King of France**, passed through and rested here — and for centuries afterwards it did for ordinary travellers what it did for the king: fed them, lodged them, and sent them on toward Rome. Everything Buonconvento has ever been — market town, staging post, garrison, lunch stop — is a variation on that original function. It has always been the place on the road where you stop.
+
+It is worth saying plainly how different this makes it from the Tuscan towns you have already seen. [San Gimignano](/blog/san-gimignano-day-trip-from-siena-2026/), [Montalcino](/blog/montalcino-or-montepulciano-2026/), [Monteriggioni](/blog/monteriggioni-guide/) — these are hilltop places, built up and away from the road for defence, reached by a climb. Buonconvento sits **flat on the valley floor, astride the road itself**, because its business was the road. For the visitor the consequence is delightfully practical: no ascent, no shuttle, no cardio. You step off a train onto the valley floor, a short level walk from the walls.`,
+      },
+      {
+        id: 'the-emperor',
+        heading: '24 August 1313: the day the Empire died here',
+        body: `In 1313 the most powerful man in Europe was moving south through Tuscany with an army, and the future of Italy appeared to hang on him.
+
+**Henry VII of Luxembourg**, Holy Roman Emperor, had come into Italy to do what no emperor had seriously attempted in generations: actually rule it — to stand above the feuding cities, pacify the Guelph–Ghibelline wars, and restore the Empire as a working power in the peninsula. For Italians exhausted by two generations of factional bloodshed — [Montaperti and its aftermath](/blog/battle-of-montaperti-1260-siena/) among them — he was either a deliverer or a catastrophe, depending on your party. **Dante believed in him totally**: the poet saw in Henry the God-sent restorer of order, and wrote him into the *Paradiso* — in **Canto XXX**, among the highest passages of the entire *Commedia*, Beatrice shows Dante a great throne already reserved in Heaven for "**l'alto Arrigo**", the lofty Henry, who would come to set Italy straight before she was ready for him.
+
+By August 1313 Henry was marching from Pisa against the Kingdom of Naples, the Guelphs' great southern anchor — and he was sick. Malaria, contracted on campaign, was burning through him. He left Siena on 22 August, made it as far as this small town on the Francigena, and here, on **24 August 1313**, he died.
+
+With him died the project. No Holy Roman Emperor after Henry would make a comparably serious attempt to govern Italy; historians have called his expedition the Empire's last sincere try. The cities went back to their wars, Dante's hope became one of the great elegies of the *Commedia* — a throne in the Empyrean for a king who never got to reign — and an anonymous market town on the Arbia acquired, in one afternoon, a permanent place in European history. There is no queue for this history and no monument dominating a square — standing on Via Soccini with a shopping trolley or two rattling past, knowing what ended here, is exactly the kind of history-where-you-least-expect-it moment this corner of Tuscany specialises in.`,
+      },
+      {
+        id: 'the-walls',
+        heading: 'The brick walls Siena built afterwards',
+        body: `The town you walk into today is, structurally, Siena's reaction to that century. Between **1371 and 1385** the Republic of Siena — for whom Buonconvento guarded the southern approach along the Francigena — enclosed the town in a new circuit of walls: **rectangular in plan, built in terracotta brick**, in the same warm Sienese brickwork as [the Campo's palaces](/piazza-del-campo-guide). Of the nine original watchtowers, **seven still stand**, and the circuit survives largely intact — not as a romantic ruin but as the working edge of the town, with the streets inside still following the medieval grid.
+
+Brick is the thing to notice, because it tells you who built this and what it was for. Hill towns rise in grey and honey-coloured stone; Buonconvento is **red-brown brick from wall to wall** — the material of the Sienese plain, of a republic that built fast, flat and practical where the land allowed. If Monteriggioni is Siena's frontier architecture at its most theatrical, Buonconvento is the same state's infrastructure: a fortified service station on the empire of the road.
+
+The walk that shows it best takes fifteen minutes: enter through the town gate, follow **Via Soccini** — the single main street, running the length of the town — to the far end, then loop back outside the walls along the circuit to see the brickwork and the towers from the fields. That outer loop, flat and unfenced, is the town's best photograph and its emptiest path.`,
+      },
+      {
+        id: 'inside',
+        heading: 'Inside the walls: one street, done properly',
+        body: `Everything in Buonconvento hangs off **Via Soccini**, and the street itself carries the town's second-strangest story: it is named for the local **Soccini (Sozzini) family**, which in the sixteenth century produced a pair of Europe's most notorious religious dissidents — theologians whose contested doctrines scandalised Catholic and Protestant authorities alike. An emperor-killing, heretic-raising market town you can cross on foot in ten minutes: Buonconvento's history-per-square-metre ratio is genuinely absurd.
+
+Along or just off the street, the sights, honestly sized:
+
+- **Palazzo Podestarile** — the medieval seat of Siena's governors, with its fourteenth-century civic tower and a façade studded with **twenty-five stone coats of arms** of the podestàs who ruled here. The best single façade in town; a five-minute look.
+- **Museo d'Arte Sacra della Val d'Arbia** — the reason to allow the second hour. Housed in the nineteenth-century Palazzo Ricci-Socini on Via Soccini, it gathers altarpieces and painted panels from the churches of the surrounding valley, with works from the orbit of **Duccio di Buoninsegna** and the [Sienese gold-ground tradition](/blog/sienese-school-painting-where-to-see/) — the same school you crossed Siena to see, here in a museum you will likely have to yourself. We could not verify its current opening days and tariff from here, and small-town museums keep civic hours: **check the day's opening before building the trip around it**, and treat a closed door as a real possibility on Mondays and off-season weekdays.
+- **The parish church and the streetscape itself** — Gothic arches, brick façades, and the pleasantly workaday shops of a town that still primarily serves its own valley. Buonconvento is not curated for visitors, which is precisely its charm: this is what a Sienese market town looks like when nobody is performing.
+
+And then there is lunch, which deserves its own section.`,
+      },
+      {
+        id: 'lunch',
+        heading: 'The late-lunch capital of the Sienese south',
+        body: `Our [Crete Senesi guide](/blog/crete-senesi-guide/) calls Buonconvento "good for the late lunch the hill villages struggle to provide", and it is worth unpacking why that is true, because it is the most useful practical fact about the town.
+
+The hill towns of the Sienese south are small, steep and seasonal: kitchens close sharply after the lunch service, tables in the famous villages go to whoever booked, and arriving at 14:30 in Pienza or Montalcino with an appetite is a known way to end up eating a sad panino standing up. Buonconvento — flat, local, on the road home — is the region's pressure valve. Its trattorias serve the **Val d'Arbia's own repertoire**: hand-rolled pici, wild-boar ragù, ribollita in the cold months, the unglamorous, excellent cooking of a grain-and-livestock valley — [the seasonal logic of it is here](/blog/tuscan-food-calendar-seasonal-dishes/). Prices run local rather than touristic, because the clientele is local.
+
+So the pattern that works: do your morning in the hills — [Montalcino](/blog/montalcino-or-montepulciano-2026/), the [Crete Senesi loop](/blog/crete-senesi-guide/), or the abbey of Monte Oliveto Maggiore — and drop down to Buonconvento for the long lunch on the way back to Siena. The town's fifteen-minute sights fit neatly around the meal, the drive or train home afterwards is short, and you will have spent the crowded hours of the day somewhere the crowds are not. We name no individual restaurants because we could not verify their current details from here — in a town this size, walk Via Soccini and pick the room with locals in it; the method outperforms any list.`,
+      },
+      {
+        id: 'getting-there',
+        heading: 'Getting there — and the Montalcino trick',
+        body: `**By train (the headline).** Buonconvento has what almost no small town in southern Tuscany has: a working railway station on the Siena–Grosseto line, **31 to 34 minutes from Siena with around ten trains a day**, and the station sits on the flat, a short level walk from the walls. No hill, no shuttle, no timetable roulette. Among Sienese day trips only Florence and Arezzo are this simple, [as our car-free guide lays out](/blog/tuscany-without-a-car-2026/).
+
+**The Montalcino trick.** That same station is the smoother half of the best car-free route to Montalcino: train to Buonconvento, then **bus line 114** for the short fourteen-kilometre climb — about half an hour, running every two hours or so. Which means Buonconvento can anchor a genuinely good car-free double: **morning train out, the 114 up to Montalcino for the morning and a tasting, back down on the 114, long lunch in Buonconvento, train home**. Plan the 114's return times before committing — the interval is two-hourly, not metro-like — and treat Sundays as a different, thinner timetable to verify separately.
+
+**By bus.** Direct Autolinee Toscane services from Siena's Piazza Gramsci reach Buonconvento in **30–35 minutes** — useful when the train times don't fit.
+
+**By car.** The town sits directly on the **Via Cassia (SR2)** south of Siena — the modern descendant of the very road that created it — which is why every [Val d'Orcia driving loop](/blog/val-dorcia-day-trip-from-siena-2026/) passes its gates. It is the natural first or last stop of a southern driving day, with none of the parking anxiety of the hill towns.
+
+**On the calendar.** Two seasonal notes from our own guides: the heritage **Treno Natura** steam and vintage trains run through this line's landscape on a yearly calendar of dates ([see the Crete Senesi guide](/blog/crete-senesi-guide/) — look the current dates up rather than assuming), and on the first weekend of October, [**L'Eroica**](/blog/leroica-gaiole-in-chianti-2026/) puts thousands of vintage cyclists across the region's white roads — a spectacle, but also a reason to book that weekend's beds early.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **19 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material — led by the Borghi più Belli d'Italia association's own entry, the Terre di Siena tourism board and heritage sources — rather than pages we opened.
+
+**Verified:** the derivation of the name from the Latin *bonus conventus* and the town's position at a Via Francigena crossing of the Arbia valley near the river's meeting with the Ombrone; the first record in **1191** with the passage of **Philip Augustus of France**; the death of **Emperor Henry VII of Luxembourg** at Buonconvento on **24 August 1313**, of malaria, after leaving Siena on 22 August en route against Naples, and the standing of his expedition as the Empire's last serious attempt to rule Italy; Dante's throne reserved for "l'alto Arrigo" in *Paradiso* XXX; the Sienese brick walls of **1371–1385**, rectangular in plan, with **seven of nine watchtowers** surviving and the circuit largely intact; **Via Soccini** and its name's link to the Soccini/Sozzini family and their sixteenth-century religious dissidence; the **Palazzo Podestarile** with its fourteenth-century tower and twenty-five podestà coats of arms; the **Museo d'Arte Sacra della Val d'Arbia** in Palazzo Ricci-Socini with works from the circle of Duccio; and membership of *I Borghi più Belli d'Italia*. Transport figures — the 31–34-minute Siena–Buonconvento train with roughly ten daily services, the 30–35-minute bus from Piazza Gramsci, and the line 114 Montalcino connection (14 km, about half an hour, roughly two-hourly) — follow the verification in [our car-free Tuscany guide](/blog/tuscany-without-a-car-2026/).
+
+**Not established, and flagged in the text:** the sacred-art museum's current opening days and ticket price — check before you travel, and expect civic hours; current restaurant particulars, which we deliberately do not list; and current Treno Natura dates, which are a yearly calendar to look up. Timetables shift — verify the day's trains and the 114's returns on Trenitalia and at-bus.it before committing, especially on Sundays.
+
+We have no commercial relationship with any business, museum or body named. Nothing on this page is bookable through us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Tuscany trains you to expect its history vertically: towers, hilltops, climbs rewarded with views. Buonconvento is the horizontal correction — a flat brick town that never needed a hill because it owned something better, the road itself, and that collected more history at street level than most citadels managed from their crags. An emperor's deathbed, a heretic dynasty's home street, Siena's handsomest utilitarian walls, and the best-value long lunch in the province, all within five hundred metres of a working railway station.
+
+It will never be anyone's headline day. It is the connective tissue of a good Sienese week — the lunch between hills, the station under Montalcino, the walled town you can actually reach when [the timetable is against you](/blog/tuscany-without-a-car-2026/) — and it repays the modest hour it asks for better than places that demand your whole day. The name has been making the same promise since the twelfth century: a good place to stop. It still is.`,
+      },
+    ],
+    [
+      { q: 'Is Buonconvento worth visiting?', a: 'As a one-to-two-hour stop or a long-lunch base, yes — it is a flat, intact, brick-walled market town of the Val d’Arbia, a member of the Borghi più Belli d’Italia, with a genuinely startling history and almost no tourists. It pairs best with a Montalcino or Crete Senesi morning rather than standing as a full day on its own.' },
+      { q: 'What happened in Buonconvento in 1313?', a: 'Emperor Henry VII of Luxembourg — Dante’s "alto Arrigo", for whom Paradiso XXX reserves a throne in Heaven — died here of malaria on 24 August 1313, while marching from Pisa against Naples. His death ended the last serious attempt by a Holy Roman Emperor to rule Italy, and Dante’s imperial hopes with it.' },
+      { q: 'How do you get to Buonconvento from Siena?', a: 'Easily, even without a car: the Siena–Grosseto train takes 31–34 minutes with around ten services a day, and the station sits on the flat, a short level walk from the walls. Direct buses from Siena’s Piazza Gramsci take 30–35 minutes. Drivers find it directly on the Via Cassia (SR2), with none of the hill-town parking problem.' },
+      { q: 'Can you reach Montalcino via Buonconvento?', a: 'Yes — it is the classic car-free route: train from Siena to Buonconvento, then bus line 114 for the 14 km climb to Montalcino, about half an hour, running roughly every two hours. Check the 114’s return times before committing to the day, and verify Sunday service separately — the timetable thins sharply.' },
+      { q: 'What is there to see in Buonconvento?', a: 'The 1371–1385 Sienese brick walls with seven of their nine towers, best seen from the flat loop outside the circuit; Via Soccini, the single main street, named for the town’s sixteenth-century heretic family; the Palazzo Podestarile with twenty-five podestà coats of arms; and the Museo d’Arte Sacra della Val d’Arbia, with Sienese gold-ground painting from the circle of Duccio — confirm its opening days before travelling.' },
+      { q: 'Why is Buonconvento called that?', a: 'From the Latin bonus conventus — a good, fortunate gathering. The town grew at a Via Francigena crossing of the fertile Arbia valley, feeding and lodging travellers on the road to Rome; it enters the record in 1191, when King Philip Augustus of France rested here. The name has described the town’s function — a good place to stop — for over eight centuries.' },
+    ],
+    '2026-09-11',
+    {
+      seoTitle: 'Buonconvento Guide 2026: Where an Emperor Died on the Via Francigena',
+      primaryKeyword: 'buonconvento tuscany visit',
+      secondaryKeywords: [
+        'buonconvento what to see',
+        'henry vii died buonconvento 1313',
+        'siena to buonconvento train',
+        'buonconvento montalcino bus 114',
+        'val d arbia towns',
+        'borghi piu belli tuscany siena',
+      ],
+      imageAlt: 'Cypress-lined farmland of the Sienese valleys around the Via Cassia south of Siena',
+      canonicalPath: '/blog/buonconvento-guide',
+      tags: ['day trips', 'tuscany villages', 'via francigena', 'val d arbia'],
     }
   ),
 
