@@ -139,6 +139,7 @@ Dua baris pertama sudah live saat batch ini dibuat (12–13 Agu); sisanya menyus
 | /blog/monte-dei-paschi-oldest-bank-siena | 2026-09-07 |  |  |  |  |  |
 | /blog/sienese-school-painting-where-to-see | 2026-09-08 |  |  |  |  |  |
 | /blog/crete-senesi-guide | 2026-09-09 |  |  |  |  |  |
+| /blog/monteriggioni-guide | 2026-09-10 |  |  |  |  |  |
 
 Catatan batch 3:
 - Halaman live yang berubah signifikan dan layak re-request saat deploy: homepage
