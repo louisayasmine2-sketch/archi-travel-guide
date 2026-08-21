@@ -21,8 +21,15 @@ on:
     # 00:05 WIB (UTC+7) daily. GitHub cron uses UTC.
     - cron: "5 17 * * *"
 
+# issues: write is not used by this workflow's own steps — it exists because
+# the called deploy-smoke.yml requests it (for its failure-tracking issue),
+# and a reusable workflow may not request more than its caller holds. Without
+# it every run dies at startup before any job begins, which is exactly how
+# runs #2-#6 failed (startup_failure, 17-20 Aug 2026) while the drip
+# silently rode on daily merges again.
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: scheduled-siena-cluster-publish
