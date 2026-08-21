@@ -117,6 +117,7 @@ Dua baris pertama sudah live saat batch ini dibuat (12–13 Agu); sisanya menyus
 | /blog/what-to-buy-in-tuscany-souvenirs | 2026-08-16 |  |  |  |  |  |
 | /blog/via-francigena-day-walk-siena | 2026-08-17 |  |  |  |  |  |
 | /blog/renting-a-car-in-tuscany-2026 | 2026-08-18 |  |  |  |  |  |
+| /blog/bottini-di-siena-underground-aqueduct | 2026-08-18 |  |  |  |  |  |
 | /blog/tuscany-in-march-2027 | 2026-08-19 |  |  |  |  |  |
 | /blog/giostra-del-saracino-arezzo-2026 | 2026-08-20 |  |  |  |  |  |
 | /blog/tuscany-september-2026-festivals-events | 2026-08-21 |  |  |  |  |  |
@@ -140,6 +141,7 @@ Dua baris pertama sudah live saat batch ini dibuat (12–13 Agu); sisanya menyus
 | /blog/sienese-school-painting-where-to-see | 2026-09-08 |  |  |  |  |  |
 | /blog/crete-senesi-guide | 2026-09-09 |  |  |  |  |  |
 | /blog/monteriggioni-guide | 2026-09-10 |  |  |  |  |  |
+| /blog/buonconvento-guide | 2026-09-11 |  |  |  |  |  |
 
 Catatan batch 3:
 - Halaman live yang berubah signifikan dan layak re-request saat deploy: homepage
