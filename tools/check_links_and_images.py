@@ -41,6 +41,9 @@ Checks:
                              components before this check existed)
   component_image_missing  — a /images/... reference in frontend/src with no
                              file under frontend/public/
+  image_overweight         — an image file under frontend/public/images/ over
+                             the 200KB budget (CLAUDE.md section 3); every
+                             shipped image must fit, hero or in-body alike
 
 /go/ entries defined but referenced nowhere are listed informationally — a
 dead entry is not broken, but it is worth knowing about. Internal links whose
@@ -281,6 +284,33 @@ def scan_component_images():
     return findings
 
 
+IMAGE_WEIGHT_LIMIT = 200 * 1024  # CLAUDE.md section 3: each image under 200KB
+
+
+def scan_image_weights():
+    """Every image file under frontend/public/images/ must fit the 200KB
+    budget — checked on disk, so an oversize file fails even before anything
+    references it."""
+    findings = []
+    images_dir = PUBLIC_DIR / "images"
+    if not images_dir.is_dir():
+        return findings
+    for root, _dirs, names in os.walk(images_dir):
+        for name in sorted(names):
+            if not name.lower().endswith(IMAGE_EXTS):
+                continue
+            path = os.path.join(root, name)
+            size = os.path.getsize(path)
+            if size > IMAGE_WEIGHT_LIMIT:
+                rel = "/" + os.path.relpath(path, PUBLIC_DIR)
+                findings.append({
+                    "check": "image_overweight",
+                    "detail": f"{rel} is {size // 1024}KB (limit 200KB)",
+                    "used_by": [],
+                })
+    return findings
+
+
 def tracking_params_in(url):
     query = urllib.parse.urlsplit(url).query
     params = [k for k, _ in urllib.parse.parse_qsl(query, keep_blank_values=True)]
@@ -374,6 +404,7 @@ def main():
     ]
 
     component_report = scan_component_images()
+    weight_report = scan_image_weights()
 
     # 401/403/429 mean the host refused an automated request, not that the
     # link a reader clicks is dead — Unsplash, Viator and GetYourGuide all
@@ -411,6 +442,7 @@ def main():
             "go_unused": go_unused,
             "internal_findings": internal_report,
             "component_findings": component_report,
+            "weight_findings": weight_report,
             "internal_scheduled": {k: sorted(set(v)) for k, v in scheduled_internal.items()},
             "url_failures": url_results,
             "url_unverifiable": url_unverifiable,
@@ -437,6 +469,8 @@ def main():
             print(f"{f['check']}: {f['detail']}")
             for user in f["used_by"]:
                 print(f"    used by {user}")
+        for f in weight_report:
+            print(f"{f['check']}: {f['detail']}")
         if go_unused:
             print("info — /go/ entries defined but referenced nowhere: " + ", ".join(go_unused))
         for link, users in sorted(scheduled_internal.items()):
@@ -450,10 +484,10 @@ def main():
             print(f"{r['check']}: {r['url']} ({r['detail']})")
             for user in r["used_by"]:
                 print(f"    used by {user}")
-        if not report and not go_report and not internal_report and not component_report and not url_results:
+        if not report and not go_report and not internal_report and not component_report and not weight_report and not url_results:
             print("No findings.")
 
-    sys.exit(1 if (report or go_report or internal_report or component_report or url_results) else 0)
+    sys.exit(1 if (report or go_report or internal_report or component_report or weight_report or url_results) else 0)
 
 
 if __name__ == "__main__":

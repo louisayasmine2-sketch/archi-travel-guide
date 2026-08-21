@@ -603,8 +603,11 @@ function injectHead(html, route) {
   // Preload the hero so it downloads in parallel with the JS chain instead
   // of after hydration. Relative href: it must match the URL the fallback
   // and the hydrated app request, on production and preview domains alike.
+  // The fetchpriority="high" hint lives on the hero <img> itself (Article.jsx
+  // and the fallback below), not here: one hint on the LCP element, per
+  // Chrome's LCP guidance, rather than the same resource hinted twice.
   const heroPreload = route.image && route.path !== '/'
-    ? `<link rel="preload" as="image" href="${escapeHtml(route.image.replace(SITE_URL, ''))}" fetchpriority="high">`
+    ? `<link rel="preload" as="image" href="${escapeHtml(route.image.replace(SITE_URL, ''))}">`
     : '';
   const head = [
     homeHeroHeadLinks(route),
@@ -926,7 +929,7 @@ function sienaClusterFallbackMarkup(route) {
     `<p class="overline">Siena Travel Guide</p>`,
     `<h1>${escapeHtml(article.title)}</h1>`,
     `<p>${escapeHtml(article.excerpt)}</p>`,
-    `<figure class="static-hero"><img src="${article.hero.src}" alt="${escapeHtml(article.hero.alt)}" width="1600" height="1000" loading="eager" decoding="async"><figcaption>${escapeHtml(article.hero.credit)} License: <a href="${article.hero.licenseUrl}" rel="license noopener">${escapeHtml(article.hero.license)}</a>. Cropped, resized, and compressed for web.</figcaption></figure>`,
+    `<figure class="static-hero"><img src="${article.hero.src}" alt="${escapeHtml(article.hero.alt)}" width="1600" height="1000" loading="eager" fetchpriority="high" decoding="async"><figcaption>${escapeHtml(article.hero.credit)} License: <a href="${article.hero.licenseUrl}" rel="license noopener">${escapeHtml(article.hero.license)}</a>. Cropped, resized, and compressed for web.</figcaption></figure>`,
     hideFutureClusterLinks(article.bodyHtml),
     related ? `<section><h2>Related Siena guides</h2><ul>${related}</ul></section>` : '',
     `<p>${links}</p>`,

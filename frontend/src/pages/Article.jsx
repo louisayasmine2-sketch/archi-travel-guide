@@ -303,7 +303,10 @@ export default function Article({ fixedSlug, canonicalPath }) {
             transition={{ duration: 25, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
             className="absolute inset-0 w-full h-full"
           >
-            <img src={shell.image} alt={article?.imageAlt || shell.title} loading="eager" className="w-full h-full object-cover opacity-60" />
+            {/* lowercase fetchpriority: React 18 only forwards the lowercase
+                form to the DOM. The head preload (generate-static-html.js)
+                stays unhinted so the LCP hero carries a single high hint. */}
+            <img src={shell.image} alt={article?.imageAlt || shell.title} loading="eager" fetchpriority="high" className="w-full h-full object-cover opacity-60" />
           </motion.div>
         )}
         
