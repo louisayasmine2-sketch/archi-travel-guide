@@ -142,6 +142,7 @@ Dua baris pertama sudah live saat batch ini dibuat (12–13 Agu); sisanya menyus
 | /blog/crete-senesi-guide | 2026-09-09 |  |  |  |  |  |
 | /blog/monteriggioni-guide | 2026-09-10 |  |  |  |  |  |
 | /blog/buonconvento-guide | 2026-09-11 |  |  |  |  |  |
+| /blog/san-quirico-dorcia-guide | 2026-09-12 |  |  |  |  |  |
 
 Catatan batch 3:
 - Halaman live yang berubah signifikan dan layak re-request saat deploy: homepage

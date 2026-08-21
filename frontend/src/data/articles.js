@@ -3604,7 +3604,7 @@ Safe travels!`,
 2.  **Biancane di Leonina & Crete Senesi** — Otherworldly clay hills and lunar-like badlands near Asciano create dramatic, photogenic landscapes. Visit early morning or late afternoon for solitude and golden light; wear sturdy shoes as the paths can be slippery after rain.
 3.  **[Buonconvento](/blog/buonconvento-guide/)** — A charming walled town on the ancient Via Cassia with narrow streets, a small sacred-art museum, and excellent local trattorias. Locals head here for ribollita and wild-boar pasta; tour buses usually skip it. Allow 1–2 hours.
 4.  **Castelnuovo Berardenga** — A quiet Chianti village with a medieval core and nearby wineries that produce outstanding Chianti Classico without the crowds of Radda or Greve. Perfect for a relaxed stroll and tasting.
-5.  **San Quirico d’Orcia** — The elegant gateway to Val d’Orcia’s iconic cypress-lined hills and rolling fields. Stroll the Horti Leonini Renaissance gardens and enjoy panoramic viewpoints at golden hour. About 50–55 minutes south of Siena by bus.
+5.  **[San Quirico d’Orcia](/blog/san-quirico-dorcia-guide/)** — The elegant gateway to Val d’Orcia’s iconic cypress-lined hills and rolling fields. Stroll the Horti Leonini Renaissance gardens and enjoy panoramic viewpoints at golden hour. About 50–55 minutes south of Siena by bus.
 6.  **Eremo di Montesiepi & San Galgano Abbey** — A hilltop hermitage with the legendary “sword in the stone” and the roofless Gothic abbey below. The peaceful setting feels like stepping back centuries; pair it with a visit to Montalcino for a full half-day.
 7.  **Colle di Val d’Elsa (Alta)** — The upper medieval quarter of this crystal-glass town offers quiet alleys and sweeping views over the Elsa Valley. Far fewer tourists than nearby San Gimignano; ideal for a peaceful morning walk.
 8.  **Orto de’ Pecci & Fortezza Medicea viewpoints (Siena outskirts)** — Hidden gardens and the Medici fortress ramparts provide stunning city-and-hills panoramas, especially at sunset, without the main-square crowds.
@@ -4150,7 +4150,7 @@ If you only have time for two: pair **Pienza + Montalcino** and keep Montepulcia
 
 1.  Leave Siena on the Via Cassia (SR2) heading south past [Buonconvento](/blog/buonconvento-guide/) — worth the lunch stop on the way back.
 2.  Detour up to **Montalcino** for the morning and an early tasting.
-3.  Continue to **San Quirico d’Orcia** — a good, quick lunch stop that most tour buses skip.
+3.  Continue to **[San Quirico d’Orcia](/blog/san-quirico-dorcia-guide/)** — a good, quick lunch stop that most tour buses skip.
 4.  Follow the ridge road to **Pienza** for the afternoon — [the pecorino capital, with its own cheese festival in early September](/blog/pienza-pecorino-fiera-del-cacio-2026/): cheese shops, cathedral, and the panoramic walkway behind the town.
 5.  If energy allows, end in **Montepulciano**, then return to Siena via the SS146 and SR2 in time for dinner.
 
@@ -5940,7 +5940,7 @@ The styles of day differ accordingly: Chianti suits the grazing generalist, the 
       {
         id: 'towns-compared',
         heading: 'Which has the better towns?',
-        body: `**The Val d’Orcia, comfortably.** Pienza is a perfect Renaissance miniature with a cheese habit; Montalcino is a fortress town whose every doorway pours Brunello; Montepulciano climbs theatrically to its Piazza Grande above underground cellars; San Quirico d’Orcia — host of [December’s oil festival](/blog/tuscany-in-december-2026/) — is the quiet connoisseur’s stop the coaches skip. Any one of them anchors a day; together they are the best town-hopping circuit in Tuscany.
+        body: `**The Val d’Orcia, comfortably.** Pienza is a perfect Renaissance miniature with a cheese habit; Montalcino is a fortress town whose every doorway pours Brunello; Montepulciano climbs theatrically to its Piazza Grande above underground cellars; [San Quirico d’Orcia](/blog/san-quirico-dorcia-guide/) — host of [December’s oil festival](/blog/tuscany-in-december-2026/) — is the quiet connoisseur’s stop the coaches skip. Any one of them anchors a day; together they are the best town-hopping circuit in Tuscany.
 
 Chianti’s towns are pleasant rather than headline: Greve’s arcaded market square (at its absolute best during the Expo), Radda’s walled core, Castellina’s underground vault-street. They serve the wine country rather than starring in it — with one borderline exception worth knowing: **Monteriggioni**, the tiny, perfectly walled outpost on Chianti’s southern edge, twenty minutes from Siena and worth an hour of anyone’s day, [as our hidden-gems guide covers](/blog/hidden-gems-around-siena-tuscany-2026/).
 
@@ -7951,7 +7951,7 @@ The pattern holds everywhere: the town’s *thing*, bought in the town, from its
         heading: 'What the Via Francigena actually is',
         body: `In the year 990, Sigeric, Archbishop of Canterbury, walked home from Rome and noted his seventy-nine overnight stops — and that itinerary, recorded by a tired Anglo-Saxon cleric, became the spine of the **Via Francigena**, “the road from Francia”: the great medieval corridor along which pilgrims, merchants, armies and ideas moved between northern Europe and Rome for centuries.
 
-Today it is a revived, officially waymarked **Council of Europe Cultural Route** running some two thousand kilometres from Canterbury to Rome — the Camino de Santiago’s quieter, arguably more beautiful sibling — and its Tuscan section is the showpiece: 380 kilometres entering at the Cisa Pass and running south in stages of fifteen to thirty kilometres, straight through the towns this site spends its life writing about. [San Gimignano’s towers](/blog/san-gimignano-day-trip-from-siena-2026) grew rich feeding and fleecing Francigena pilgrims; [**Monteriggioni’s walls**](/blog/monteriggioni-guide/) were built to watch the road; Siena itself boomed as the route’s great city; and [San Quirico d’Orcia](/blog/tuscany-in-december-2026) still keeps its pilgrim hospital church.
+Today it is a revived, officially waymarked **Council of Europe Cultural Route** running some two thousand kilometres from Canterbury to Rome — the Camino de Santiago’s quieter, arguably more beautiful sibling — and its Tuscan section is the showpiece: 380 kilometres entering at the Cisa Pass and running south in stages of fifteen to thirty kilometres, straight through the towns this site spends its life writing about. [San Gimignano’s towers](/blog/san-gimignano-day-trip-from-siena-2026) grew rich feeding and fleecing Francigena pilgrims; [**Monteriggioni’s walls**](/blog/monteriggioni-guide/) were built to watch the road; Siena itself boomed as the route’s great city; and [San Quirico d’Orcia](/blog/san-quirico-dorcia-guide/) still keeps its pilgrim hospital church.
 
 Which means something quietly wonderful for a visitor based in Siena: **the region’s most famous day-trip towns are not a scatter of attractions — they are stops on one road**, and you can walk it.`,
       },
@@ -9041,7 +9041,7 @@ The un-hedged summary: **Montalcino rewards planning and budget; Montepulciano r
       {
         id: 'getting-there',
         heading: 'Getting to each from Siena (and the Sunday problem)',
-        body: `**By bus, Montepulciano is the straightforward one**: Autolinee Toscane's extraurban **line 112** runs from Siena on weekdays via San Quirico d'Orcia and Pienza, fastest journeys around **1h35**, but only about **four usable connections a day**, weekday-oriented — plan the return before committing to the day. The route itself is half the value — it threads [the Val d'Orcia's postcard country](/blog/val-dorcia-day-trip-from-siena-2026/), and Pienza sits on it as a natural stop.
+        body: `**By bus, Montepulciano is the straightforward one**: Autolinee Toscane's extraurban **line 112** runs from Siena on weekdays via [San Quirico d'Orcia](/blog/san-quirico-dorcia-guide/) and Pienza, fastest journeys around **1h35**, but only about **four usable connections a day**, weekday-oriented — plan the return before committing to the day. The route itself is half the value — it threads [the Val d'Orcia's postcard country](/blog/val-dorcia-day-trip-from-siena-2026/), and Pienza sits on it as a natural stop.
 
 **Montalcino asks a little more**: the direct approach is extraurban **line 114** (Siena–Buonconvento–Torrenieri–Montalcino), or the Siena–Grosseto line train to [**Buonconvento**](/blog/buonconvento-guide/) with the 114 for the short climb up. End-to-end timings vary with the connection — allow roughly **1.5 to 2 hours** and plan around the return times before committing to the day.
 
@@ -11696,6 +11696,131 @@ It will never be anyone's headline day. It is the connective tissue of a good Si
       imageAlt: 'Cypress-lined farmland of the Sienese valleys around the Via Cassia south of Siena',
       canonicalPath: '/blog/buonconvento-guide',
       tags: ['day trips', 'tuscany villages', 'via francigena', 'val d arbia'],
+    }
+  ),
+
+
+  A(
+    'san-quirico-dorcia-guide',
+    'San Quirico d’Orcia: The Town Everyone Drives Through, and Almost Everyone Gets Wrong',
+    'Day trips',
+    'Tuscany',
+    'The elegant Via Francigena town at the centre of the UNESCO Val d’Orcia: Sigeric’s Collegiata, a free Renaissance garden and the lunch the coaches skip.',
+    '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Every Val d'Orcia itinerary passes through San Quirico d'Orcia, and almost none of them stop properly. The tour coaches aim for Pienza and Montalcino; the road threads San Quirico's edge; and the town itself — the **administrative and geographic heart of the valley UNESCO inscribed in 2004** — is left to the people who know. What they know is this: San Quirico has the valley's best Romanesque church, a **free Renaissance garden built for the public four centuries before public parks existed**, the region's most usable lunch stop, and the only genuinely walkable historic centre on the [112 bus line](/blog/tuscany-without-a-car-2026/) between Siena and Montepulciano.
+
+The town's whole identity comes from one fact: it is a **Via Francigena town** — a stop on the Canterbury–Rome pilgrim road, recorded by **Archbishop Sigeric in 990**, with the pilgrim infrastructure still standing on the main street: the Collegiata that grew from the church Sigeric knew, and the Ospedale della Scala that fed and sheltered the road's travellers. Where [Montalcino](/blog/montalcino-or-montepulciano-2026/) performs from its fortress and Pienza performs from its balcony, San Quirico simply carries on being what it always was: the town that looks after people passing through.
+
+**Give it two hours, or give it lunch** — or make it the base for the whole valley. This guide covers the church and its carved portals, the garden, the two festivals, the postcard viewpoints outside town, and the practical case for stopping in the place everyone else drives through.`,
+      },
+      {
+        id: 'sigerics-town',
+        heading: 'Sigeric’s town: the Collegiata and the pilgrim street',
+        body: `In 990, when the Archbishop of Canterbury walked home from Rome noting his seventy-nine overnight stops — the diary that effectively drew the Via Francigena — he recorded a halt at San Quirico. The church he saw, dedicated to the child-martyr **Saint Quiricus**, already had two centuries of records behind it: the first mentions of the building date to the **eighth century**.
+
+What stands on the spot now is the town's masterpiece: the **Collegiata dei Santi Quirico e Giulitta**, rebuilt in the twelfth century and refined for five hundred years after. Its glory is its **three carved portals**, each from a different age — Romanesque, Gothic and Baroque — so that the church's front pages read like a history of Tuscan sculpture:
+
+- **The main portal** is the one on the postcards: Lombard-style, a round-arched porch on paired sandstone columns **knotted together at their centres** and resting on carved lions — one of the finest Romanesque doorways in the province.
+- **The side portal of 1288** is attributed to **Giovanni Pisano**, then at work on [Siena's cathedral](/siena-cathedral-guide) — meaning this small pilgrim town plausibly got a doorway from the leading sculptor of his generation.
+
+Across from the church of **Santa Maria Assunta**, further along the main street, stands the entrance to the **Ospedale della Scala** — the pilgrim hospital run under Siena's great [Santa Maria della Scala](/santa-maria-della-scala-siena), whose rural estates reached deep into the Val d'Orcia. This is the detail that makes San Quirico legible: the same institution that received pilgrims at the end of the road's Sienese stage also ran the way-station here, one day's walk south. Church, hospital, street — the complete medieval service infrastructure, still in place, still walkable in twenty minutes.
+
+If the [Via Francigena's Tuscan route](/blog/via-francigena-which-section-to-walk/) interests you at all, this is its southern showcase: the official route passes through town, and walkers still come up the main street exactly as their predecessors did for a thousand years.`,
+      },
+      {
+        id: 'horti-leonini',
+        heading: 'Horti Leonini: a public garden four centuries early',
+        body: `In the heart of the town sits the thing that most surprises first-time visitors: a full **Renaissance Italian garden, free to enter**, and conceived that way from the start.
+
+The **Horti Leonini** were laid out in **1581 by Diomede Leoni**, on land granted by **Francesco I de' Medici**, and their founding idea was genuinely radical: not a private garden for a court, but a green space open to the "**comfort of wayfarers and pilgrims**" — a public amenity on the pilgrim road, four centuries before the public park became a European normality. The Francigena logic again: even the town's Renaissance showpiece exists to look after people passing through.
+
+The design is textbook Italian formal garden, and all the better for being walkable in half an hour: a lower parterre in a **rhombus of triangular box-hedged beds**, enclosed by walls and clipped holm oaks, with an upper level that hosts the town's events. The garden regularly doubles as an open-air gallery — **Forme nel Verde**, a contemporary sculpture exhibition held here — and its upper ground stages the archery contests of the town's June festival; check what is on when you visit.
+
+Two practical notes. First, the garden is the town's best picnic and decompression stop — free, shaded, and never crowded in the way the valley's viewpoints are. Second, it is the single best argument for getting out of the car here: Pienza's fame comes with Pienza's crowds, while San Quirico's showpiece costs nothing, asks nothing, and is rarely shared with more than a handful of people.`,
+      },
+      {
+        id: 'festivals',
+        heading: 'Two festivals: an emperor in June, oil in December',
+        body: `San Quirico's calendar has two fixed points, at opposite ends of the year, and both are the town explaining its own history.
+
+**June: the Festa del Barbarossa.** In **1155** the Holy Roman Emperor **Frederick I — Barbarossa** — camped in these lands on his way to meet envoys of Pope Adrian IV: empire and papacy negotiating on the pilgrim road, with San Quirico as the meeting ground. The town has re-enacted the moment every June since the mid-twentieth century — a costumed re-enactment with processions and the **festival's archery contests** fought on the upper ground of the Horti Leonini. The **2026 edition ran 17–21 June**; if your dates land in mid-June, check the programme before planning, because the town transforms — and if you [visited Buonconvento](/blog/buonconvento-guide/), note the symmetry the two towns' festivals commemorate: one emperor negotiating on this road in 1155, another dying on it in 1313.
+
+**December: the Festa dell'Olio.** The Val d'Orcia's new-oil festival, [held here every early December since 1993](/blog/tuscany-in-december-2026/) — guided tastings, producers selling direct, and the year's *olio nuovo* at its sharp green best. Our [olive harvest guide](/blog/tuscany-olive-harvest-olio-nuovo-2026/) explains why early December is exactly when you want to be tasting it.
+
+Between the two, the town keeps the valley's ordinary rhythm — which, in the [vendemmia weeks of September](/blog/tuscany-wine-harvest-vendemmia-2026/) and the golden October that follows, is itself the show.`,
+      },
+      {
+        id: 'postcards',
+        heading: 'The postcard problem: the famous views are outside town',
+        body: `Here is the useful, slightly deflating truth about the Val d'Orcia's most photographed spots: several of the best-known — the **Cappella di Vitaleta**, the lone chapel on its cypress ridge, and the **cypress circle** — stand in the countryside around San Quirico, not in any town at all. San Quirico is the postcard country's service town: the photographs are shot from **small roadside pull-offs within a few minutes' drive**, and [our Val d'Orcia loop guide](/blog/val-dorcia-day-trip-from-siena-2026/) routes them properly.
+
+Three rules make the difference between the photograph and the disappointment:
+
+- **Go at the edges of the day.** The pull-offs are small and fill quickly from mid-morning through afternoon in season; golden hour is both the emptiest and the best light. This is [the same advice our driving guides give](/blog/renting-a-car-in-tuscany-2026/), and it matters most here.
+- **Respect the land.** The fields around the icons are working farms. Photograph from the road and the marked paths; do not walk crops for a better angle.
+- **Remember why it looks like this.** The valley was inscribed by **UNESCO in 2004 as a cultural landscape** — across the five comuni of San Quirico, Pienza, Montalcino, Castiglione d'Orcia and Radicofani — precisely because this is farmland shaped by centuries of deliberate human design, celebrated for its influence on Renaissance painters. The view is not scenery that happens to contain farms; it is farming that became scenery.
+
+And when the light goes flat in the middle of the day — the hours when the viewpoints give least — that is exactly when the town itself, the church and the garden and the long lunch, gives most. Structure the day that way and San Quirico stops being a drive-through.`,
+      },
+      {
+        id: 'practical',
+        heading: 'Eating, getting there, and using the town properly',
+        body: `**Lunch is the town's superpower.** Our [Val d'Orcia](/blog/val-dorcia-day-trip-from-siena-2026/) and [food](/blog/tuscan-food-calendar-seasonal-dishes/) guides both make the same point: San Quirico feeds you better value than the famous towns' main squares, because its trattorias still price for the valley rather than for the coaches. The local orders: **pici with wild-boar or aglione sauce**, Cinta Senese pork, pecorino from neighbouring Pienza without Pienza's queue. We name no individual restaurants — we could not verify their current details from here — but the town rewards the standard method: walk the main street, pick the room with locals in it.
+
+**By bus.** San Quirico sits on Autolinee Toscane's **line 112** from Siena (the Val d'Orcia towns bus, continuing to Pienza and Montepulciano): about **50–55 minutes**, weekdays, with only around **four usable connections a day** — so plan the return before committing, and [treat Sundays as a different problem entirely](/blog/tuscany-without-a-car-2026/). Among the valley's towns it is the most rewarding one to reach this way, because everything worth seeing is inside a compact, mostly level centre.
+
+**By car.** The town sits just off the **Via Cassia (SR2)** — the Francigena's modern descendant — a drive of well under an hour south from Siena, and works either as the anchoring stop of [the classic valley loop](/blog/val-dorcia-day-trip-from-siena-2026/) or as the first coffee of a driving day, before the pull-offs fill.
+
+**As a base.** Quiet after the day visitors leave, central to everything — Pienza and Montalcino each a short drive, [Bagno Vignoni's thermal square](/blog/bagno-vignoni-bagni-san-filippo-hot-springs/) just to the south — and a calmer place to sleep than its famous neighbours. For a two-day valley visit built around light, staying in San Quirico puts both of the day's golden hours on your doorstep.
+
+**One honest caveat**: the town is elegant rather than dramatic. It has no fortress to climb, no famous balcony, no single wow. Its pleasures are a doorway, a garden, a street and a table — cumulative, not instant. Travellers chasing the spectacular should day-trip through; travellers who have already done the spectacular tend to end up here, and to say afterwards it was the stop they liked best.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **21 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material — led by the regional tourism board, the comune's visitor site and the garden's heritage listings — rather than pages we opened.
+
+**Verified:** Sigeric's recorded halt at San Quirico on his 990 itinerary; the **eighth-century** first records of the church and the twelfth-century rebuilding as the **Collegiata dei Santi Quirico e Giulitta**; the three portals of different eras, the Lombard main portal with knotted columns on lions, and the **1288 side portal attributed to Giovanni Pisano**; the **Ospedale della Scala** pilgrim hospital with its entrance on the main street opposite the church of Santa Maria Assunta, and the Sienese hospital's landholdings in the valley; the **Horti Leonini** — laid out in **1581 by Diomede Leoni** on land granted by Francesco I de' Medici, conceived as a garden open for the comfort of wayfarers and pilgrims, free to enter, with its rhombus parterre of box-hedged triangular beds, the **Forme nel Verde** sculpture exhibitions and the festival archery on its upper ground; the **Festa del Barbarossa** commemorating Frederick Barbarossa's 1155 encampment to meet Pope Adrian IV's envoys, with the **2026 edition on 17–21 June**; the **Festa dell'Olio** held each early December since 1993; and the **2004 UNESCO inscription** of the Val d'Orcia as a cultural landscape across the five comuni of San Quirico d'Orcia, Pienza, Montalcino, Castiglione d'Orcia and Radicofani, cited for its conserved agricultural landscape and its influence on Renaissance painting. Transport figures — the line 112 bus (50–55 minutes, roughly four usable weekday connections, continuing to Pienza and Montepulciano) and the driving approach on the Cassia — follow the verification in [our car-free guide](/blog/tuscany-without-a-car-2026/) and [Val d'Orcia loop guide](/blog/val-dorcia-day-trip-from-siena-2026/).
+
+**Not established, and flagged in the text:** current opening arrangements and any seasonal hours for the Collegiata's interior and the Horti Leonini's upper level (the garden is free, but hours can vary with events); the Barbarossa festival's 2027 dates; current restaurant particulars, which we deliberately do not list; and the Festa dell'Olio's 2026 dates, unpublished at our check — confirm all on the comune's official channels for your travel dates.
+
+We have no commercial relationship with any business, event or body named. Nothing on this page is bookable through us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `The Val d'Orcia teaches a strange lesson: the most famous views belong to no town, and the best town has no famous view. San Quirico is what remains when you subtract the spectacle — a thousand-year-old service town for people in motion, with the finest carved doorway on the pilgrim road, a garden built free for strangers in 1581, and a main street that still does what Sigeric's diary recorded it doing in 990.
+
+Stop properly once and the valley reorganises itself around this town: the icons become a ten-minute drive, the crowds become someone else's problem two hills away, and lunch stops being the thing you fit between towns and becomes the reason one of them exists. Everyone drives through San Quirico. Be the one who doesn't.`,
+      },
+    ],
+    [
+      { q: 'Is San Quirico d’Orcia worth visiting?', a: 'Yes — as the Val d’Orcia’s best-value stop: the Collegiata’s carved Romanesque portals, the free Horti Leonini Renaissance garden, and the valley’s most usable lunch town, all in a compact walkable centre. It is elegant rather than spectacular — no fortress, no famous balcony — which is exactly why it stays pleasant when Pienza and Montalcino are heaving.' },
+      { q: 'What is San Quirico d’Orcia famous for?', a: 'Being the heart of the UNESCO-listed Val d’Orcia (inscribed 2004) and a recorded stop on the Via Francigena — Archbishop Sigeric noted the town on his 990 itinerary. Its landmarks are the Collegiata dei Santi Quirico e Giulitta with its Lombard portal and a 1288 doorway attributed to Giovanni Pisano, the Horti Leonini garden of 1581, and the pilgrim hospital of the Ospedale della Scala on the main street.' },
+      { q: 'Is the Vitaleta chapel in San Quirico?', a: 'The famous lone chapel stands in the countryside near San Quirico, not in the town — it is photographed from small roadside pull-offs a few minutes’ drive away, which fill quickly in season. Go at golden hour, photograph from the road and marked paths, and remember the fields are working farms. The town is the natural coffee-and-lunch base for the viewpoint circuit.' },
+      { q: 'How do you get to San Quirico d’Orcia from Siena?', a: 'By car, about 40 minutes south on the Via Cassia (SR2). By bus, Autolinee Toscane line 112 — the Val d’Orcia towns bus, continuing to Pienza and Montepulciano — takes 50–55 minutes, weekdays, with only around four usable connections a day: plan the return before committing, and verify Sundays separately.' },
+      { q: 'What is the Festa del Barbarossa?', a: 'San Quirico’s June festival re-enacting 1155, when Emperor Frederick Barbarossa camped in these lands to meet envoys of Pope Adrian IV — processions, drummers, flag-throwers and an archery contest between the town’s quarters in the Horti Leonini. The 2026 edition ran 17–21 June; check the comune’s channels for future dates before planning a mid-June visit.' },
+      { q: 'Are the Horti Leonini free?', a: 'Yes — the Renaissance garden laid out by Diomede Leoni in 1581 was conceived from the start as a public space for the comfort of wayfarers and pilgrims, and entry remains free. Expect formal box-hedge geometry on the lower level, woodland above, and the Forme nel Verde contemporary sculpture exhibition through the summer season; hours can vary with events, so check locally.' },
+    ],
+    '2026-09-12',
+    {
+      seoTitle: 'San Quirico d’Orcia Guide 2026: Collegiata, Horti Leonini & Val d’Orcia Views',
+      primaryKeyword: 'san quirico d orcia what to see',
+      secondaryKeywords: [
+        'san quirico d orcia worth visiting',
+        'horti leonini garden free',
+        'collegiata san quirico portals',
+        'vitaleta chapel viewpoint san quirico',
+        'siena to san quirico bus 112',
+        'val d orcia unesco towns',
+      ],
+      imageAlt: 'Cypress-lined ridges of the UNESCO Val d’Orcia countryside around San Quirico',
+      canonicalPath: '/blog/san-quirico-dorcia-guide',
+      tags: ['day trips', 'val d orcia', 'via francigena', 'tuscany villages'],
     }
   ),
 
