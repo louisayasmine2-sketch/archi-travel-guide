@@ -136,6 +136,28 @@ cost-of-living pages are precisely what an orientation page needs.
   scene-by-scene page and the bottini explainer are roundup material;
   routine guides are not.
 
+### H. Vintage and gravel cycling (counts toward the blogger-outreach 30)
+
+The L'Eroica guide publishes 2 September 2026; the event runs 3–4 October.
+That five-week window is the pitch window — a cycling editor cares about
+Gaiole in September, not in November. Our angle is the one the niche
+doesn't cover: entries are sold out, and ours is the spectator's and
+non-rider's page (which day each route runs, driving Chianti that weekend,
+where to sleep, and the permanent route the other 51 weeks). Pool
+(searched 25 August 2026):
+
+- road.cc — has run two L'Eroica features (a ride report and a
+  retro-versus-modern comparison on the Britannia route)
+- BikeTips — "Ultimate Guide to L'Eroica" evergreen page
+- Out Of The Box Florence — "Gravel Biking in Tuscany: Strade Bianche
+  2026" guide, locally run
+- AQTO Cycling and Goldensteelcycles — rider-blog L'Eroica reports
+- Backroads blog — two L'Eroica pieces including a women-of-L'Eroica angle
+
+Tour operators selling Strade Bianche packages are not outreach targets —
+a commercial operator linking a rival region guide is a paid-placement
+conversation we do not open.
+
 ## 3. Tracker
 
 One row per approach. Keep it in this file (append; a merged row is a
@@ -149,6 +171,9 @@ tick it against the monthly Search Console pull.
 | 2 | bondlocations.com (QoS Siena post; alt: HuntingBond) | C film | QoS scene-by-scene | researched | r:2026-08-25 | — |
 | 3 | CET Siena (programme coordinator) | D institutional | ZTL + airport transfer | researched | r:2026-08-25 | — |
 | 4 | Atlas Obscura (bottini place entry) | E directory | bottini article + own photos | researched — blocked on 3 photos | r:2026-08-25 | — |
+| 5 | road.cc (L'Eroica features) | H cycling | L'Eroica guide | researched — send 2 Sept–1 Oct only | r:2026-08-25 | — |
+| 6 | BikeTips (L'Eroica ultimate guide) | H cycling | L'Eroica guide | researched — send 2 Sept–1 Oct only | r:2026-08-25 | — |
+| 7 | Out Of The Box Florence (Strade Bianche guide) | H cycling | L'Eroica guide | researched — send 2 Sept–1 Oct only | r:2026-08-25 | — |
 
 (Drafts for rows 1–4 are ready in `docs/PITCH_DRAFTS.md`. Numbering is
 permanent so progress is countable: `linked` rows ÷ 100 is the score.)
