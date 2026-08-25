@@ -142,6 +142,34 @@ links to the contributor profile; whether the description itself may cite
 our bottini page is an editorial call — write the entry to stand alone,
 and let the citation be natural or absent.
 
+## 5. Cycling press — L'Eroica spectator angle (rows 5–7)
+
+**Timing is the pitch.** Our L'Eroica guide publishes 2 September 2026;
+the event runs 3–4 October. Send in the first September week — after the
+page is live, while editors still care about Gaiole. Do not send before
+publish (the URL would 404) or after the event (dead peg for a year).
+
+Targets (search-derived, verify first): road.cc (two prior L'Eroica
+features), BikeTips ("Ultimate Guide to L'Eroica"), Out Of The Box
+Florence (Strade Bianche 2026 gravel guide). Same draft, personalised to
+the specific page of theirs.
+
+> **Subject:** L'Eroica for everyone who didn't get an entry
+>
+> Hi — I run Archi Travel Guide, an independent Siena and Chianti guide
+> written from here. Your [their L'Eroica / Strade Bianche piece] covers
+> the ride itself; ours covers the question most readers have this year:
+> entries sold out, so what does the weekend look like without a number?
+> Which day each of the five routes runs, where to stand, what driving
+> Chianti means that weekend, where to sleep — and the permanent route
+> that's there the other 51 weeks of the year, signposted and free.
+>
+> If it's a useful companion to your page for the sold-out year, use it —
+> and if anything contradicts what you saw on the ground, tell me and
+> we'll check it again.
+>
+> [your name], Siena
+
 ## After sending
 
 Log each send in the tracker the day it goes out (`pitched`, date), and
