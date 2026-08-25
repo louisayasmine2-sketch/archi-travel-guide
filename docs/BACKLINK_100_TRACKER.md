@@ -145,10 +145,13 @@ tick it against the monthly Search Console pull.
 
 | # | Site / person | Channel | Our asset | Status | Dates | Result URL |
 |---|---|---|---|---|---|---|
-| 1 | — | — | — | — | — | — |
+| 1 | The Tuscan Mom (Siena-with-kids post) | B blogger | kids one-day + ZTL guide | researched | r:2026-08-25 | — |
+| 2 | bondlocations.com (QoS Siena post; alt: HuntingBond) | C film | QoS scene-by-scene | researched | r:2026-08-25 | — |
+| 3 | CET Siena (programme coordinator) | D institutional | ZTL + airport transfer | researched | r:2026-08-25 | — |
+| 4 | Atlas Obscura (bottini place entry) | E directory | bottini article + own photos | researched — blocked on 3 photos | r:2026-08-25 | — |
 
-(The first real row replaces this placeholder. Numbering is permanent so
-progress is countable: `linked` rows ÷ 100 is the score.)
+(Drafts for rows 1–4 are ready in `docs/PITCH_DRAFTS.md`. Numbering is
+permanent so progress is countable: `linked` rows ÷ 100 is the score.)
 
 **Legacy baseline:** the domains already linking to us from the B&B era
 (Search Console, August 2026) count toward the 100 — record them as rows
