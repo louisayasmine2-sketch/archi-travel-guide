@@ -110,7 +110,9 @@ or reciprocal links.
 
 ## 4. Tracking
 
-Keep a simple sheet (site, page pitched, asset offered, date, outcome).
+The programme now has a numeric target and its own tracker:
+`docs/BACKLINK_100_TRACKER.md` — 100 referring domains, channel-by-channel
+arithmetic, the full prospect roster, and one append-only row per approach.
 Watch results in Search Console → Links → Top linking sites; it lags weeks.
 Expect single digits per month — earned links are slow, and the compounding
 is the point.
