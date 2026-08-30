@@ -20,6 +20,44 @@ test("raw HTML carries the full article, not a fallback", async ({ request }) =>
   expect(html).not.toContain('id="static-fallback"');
 });
 
+test("pillar pages served by dedicated components are prerendered too", async ({ request }) => {
+  // Cluster and guide pages have their data statically imported, so their
+  // prerendered HTML carries the full page and announces no article JSON.
+  for (const route of ["/siena-cathedral-guide/", "/florence-to-siena-by-train-or-bus/"]) {
+    const res = await request.get(route);
+    const html = await res.text();
+    const root = html.slice(html.indexOf('<div id="root">'));
+    expect(root, route).toContain("<h1");
+    expect(html, route).not.toContain('id="static-fallback"');
+    expect(html, route).not.toContain("__ARTICLE_JSON__");
+  }
+});
+
+test("a pillar route served by Article announces its article JSON", async ({ request }) => {
+  const res = await request.get("/things-to-do-in-siena/");
+  const html = await res.text();
+  const root = html.slice(html.indexOf('<div id="root">'));
+  expect(root).toContain("<h1");
+  expect(html).not.toContain('id="static-fallback"');
+  expect(html).toContain('__ARTICLE_JSON__="/article-data/best-things-to-do-in-siena.json');
+});
+
+test("pillar hydration adopts the prerendered DOM without console errors", async ({ page }) => {
+  const errors = [];
+  page.on("console", (msg) => {
+    if (msg.type() === "error") errors.push(msg.text());
+  });
+  page.on("pageerror", (err) => errors.push(String(err)));
+
+  await page.goto("/siena-cathedral-guide/");
+  await expect(page.locator("#root h1").first()).toContainText("Siena Cathedral");
+
+  const realErrors = errors.filter(
+    (e) => !/error #418|error #423|net::ERR_/.test(e)
+  );
+  expect(realErrors, `console errors: ${errors.join(" | ")}`).toEqual([]);
+});
+
 test("hydration adopts the prerendered DOM without console errors", async ({ page }) => {
   const errors = [];
   page.on("console", (msg) => {
