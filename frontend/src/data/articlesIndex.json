@@ -449,7 +449,7 @@
   "region": "Tuscany",
   "excerpt": "Eight quiet places within an hour of Siena: walled Monteriggioni, the Crete Senesi ridges and vineyards the tour buses never reach.",
   "image": "/images/siena/hidden-gems-siena-tuscany-hero.webp",
-  "readMinutes": 4,
+  "readMinutes": 5,
   "canonicalPath": "/blog/hidden-gems-around-siena-tuscany-2026",
   "updated": "2026-07-17",
   "store": "articles"
@@ -1167,6 +1167,19 @@
   "readMinutes": 12,
   "canonicalPath": "/blog/san-quirico-dorcia-guide",
   "updated": "2026-09-12",
+  "store": "articles"
+ },
+ {
+  "publishedAt": "2026-09-13T00:00:00+07:00",
+  "slug": "asciano-guide",
+  "title": "Asciano: The Crete Senesi Town With a Train Station and a Lorenzetti Masterpiece",
+  "category": "Day trips",
+  "region": "Tuscany",
+  "excerpt": "The Crete Senesi’s main town is under half an hour from Siena by train, and its quiet museum holds an Ambrogio Lorenzetti masterpiece. How to do it right.",
+  "image": "/images/siena/hidden-gems-siena-tuscany-hero.webp",
+  "readMinutes": 12,
+  "canonicalPath": "/blog/asciano-guide",
+  "updated": "2026-09-13",
   "store": "articles"
  },
  {
