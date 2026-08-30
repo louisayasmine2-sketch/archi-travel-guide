@@ -3601,7 +3601,7 @@ Safe travels!`,
         body: `All eight spots sit within an hour of Siena and offer postcard Tuscany minus the crowds:
 
 1.  **[Monteriggioni](/blog/monteriggioni-guide/)** — A perfectly preserved 13th-century walled village with 14 towers and intact ramparts. Wander the village freely and take the wall-walk for sweeping views over the countryside — the walkway-plus-exhibition ticket runs €4 (reduced €3.50), covers two short sections rather than the full circuit, and closes during the July medieval festival. About 20 minutes north of Siena by bus, then a 500m walk up; allow 45–60 minutes. Gamers know this skyline already: [Monteriggioni is Ezio's home town in Assassin's Creed II](/blog/tuscany-on-screen-film-locations-2026/).
-2.  **Biancane di Leonina & Crete Senesi** — Otherworldly clay hills and lunar-like badlands near Asciano create dramatic, photogenic landscapes. Visit early morning or late afternoon for solitude and golden light; wear sturdy shoes as the paths can be slippery after rain.
+2.  **Biancane di Leonina & Crete Senesi** — Otherworldly clay hills and lunar-like badlands near [Asciano](/blog/asciano-guide/) create dramatic, photogenic landscapes. Visit early morning or late afternoon for solitude and golden light; wear sturdy shoes as the paths can be slippery after rain.
 3.  **[Buonconvento](/blog/buonconvento-guide/)** — A charming walled town on the ancient Via Cassia with narrow streets, a small sacred-art museum, and excellent local trattorias. Locals head here for ribollita and wild-boar pasta; tour buses usually skip it. Allow 1–2 hours.
 4.  **Castelnuovo Berardenga** — A quiet Chianti village with a medieval core and nearby wineries that produce outstanding Chianti Classico without the crowds of Radda or Greve. Perfect for a relaxed stroll and tasting.
 5.  **[San Quirico d’Orcia](/blog/san-quirico-dorcia-guide/)** — The elegant gateway to Val d’Orcia’s iconic cypress-lined hills and rolling fields. Stroll the Horti Leonini Renaissance gardens and enjoy panoramic viewpoints at golden hour. About 50–55 minutes south of Siena by bus.
@@ -9178,7 +9178,7 @@ What genuinely needs wheels, we name honestly below — the Val d'Orcia photo lo
 
 **Chianti — line 125 from Siena, line 365 from Florence.** From Siena, the 125 reaches Castellina and Radda in about 55 minutes on a thin, school-weekday-shaped timetable. The richer service runs from the Florence side: line **365** to Greve in 55–60 minutes (Panzano about ten minutes more), continuing to Radda and Gaiole — the reason [our wine-harvest guide sends bus travellers to Greve](/blog/tuscany-wine-harvest-vendemmia-2026/) rather than promising them the deep Chianti backroads.
 
-**East by rail.** The Siena–Chiusi line (about 80 minutes end to end, ~19 trains daily) serves **Asciano** — the Crete Senesi's main town, under half an hour out — plus Sinalunga and, nominally, Montepulciano Stazione. Nominally, because that station sits eight to ten kilometres from the hill town with poor onward links; the practical rail approach to Montepulciano is **Chiusi-Chianciano Terme** station with its coordinated ~30-minute bus.`,
+**East by rail.** The Siena–Chiusi line (about 80 minutes end to end, ~19 trains daily) serves **[Asciano](/blog/asciano-guide/)** — the Crete Senesi's main town, under half an hour out — plus Sinalunga and, nominally, Montepulciano Stazione. Nominally, because that station sits eight to ten kilometres from the hill town with poor onward links; the practical rail approach to Montepulciano is **Chiusi-Chianciano Terme** station with its coordinated ~30-minute bus.`,
       },
       {
         id: 'what-needs-wheels',
@@ -11336,7 +11336,7 @@ There is also an art-historical reason this landscape should look familiar. In t
 
 **Siena → Montaperti (15 min).** Leave the city south-east and, if the [battle](/blog/battle-of-montaperti-1260-siena/) means anything to you after Siena's museums, take the short detour to the cypress-ringed pyramid before the clay country opens.
 
-**→ Asciano, by the Lauretana.** The road to aim for is the **SP438 "Lauretana"** toward Asciano — the ridge road whose bends produce the classic crete views: lone farmhouses, cypress avenues, and the biancane of the **Accona** country. Every pull-out is a photograph; the discipline is choosing three.
+**→ [Asciano](/blog/asciano-guide/), by the Lauretana.** The road to aim for is the **SP438 "Lauretana"** toward Asciano — the ridge road whose bends produce the classic crete views: lone farmhouses, cypress avenues, and the biancane of the **Accona** country. Every pull-out is a photograph; the discipline is choosing three.
 
 **→ Monte Oliveto Maggiore (20 min beyond Asciano).** The abbey in its cypress woods is the loop's set piece and gets its own section below.
 
@@ -11821,6 +11821,126 @@ Stop properly once and the valley reorganises itself around this town: the icons
       imageAlt: 'Cypress-lined ridges of the UNESCO Val d’Orcia countryside around San Quirico',
       canonicalPath: '/blog/san-quirico-dorcia-guide',
       tags: ['day trips', 'val d orcia', 'via francigena', 'tuscany villages'],
+    }
+  ),
+
+
+  A(
+    'asciano-guide',
+    'Asciano: The Crete Senesi Town With a Train Station and a Lorenzetti Masterpiece',
+    'Day trips',
+    'Tuscany',
+    'The Crete Senesi’s main town is under half an hour from Siena by train, and its quiet museum holds an Ambrogio Lorenzetti masterpiece. How to do it right.',
+    '/images/siena/hidden-gems-siena-tuscany-hero.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `[Our Crete Senesi guide](/blog/crete-senesi-guide/) is honest about the clay country's one big problem: **the landscape wants a car**. This article is about the exception. **Asciano** — the crete's main town — sits on the Siena–Chiusi railway, **under half an hour from Siena** on the fastest services, at a station whose full name announces the whole day out: **Asciano-Monte Oliveto Maggiore**. No other town in the clay country offers that.
+
+And Asciano is not merely the accessible option. It is a walled Sienese market town with **three thousand years of history in about three streets**: an Etruscan necropolis territory, a Romanesque collegiate church, and — the reason art lovers should come even if they never look at a biancana — the **Museo di Palazzo Corboli**, where **Ambrogio Lorenzetti's great St Michael polyptych** hangs in a frescoed medieval palace that you will very likely have to yourself. One of the supreme painters of [the Sienese school](/blog/sienese-school-painting-where-to-see/), in a museum without queues, half an hour from a city where his work draws crowds: that is the quiet bargain Asciano offers.
+
+**Give the town two to three hours** — museum, church, a slow street — and let it anchor a crete day however you travel: by train alone, by train plus the abbey, or as the first stop of [the driving loop](/blog/crete-senesi-guide/). This guide covers the history, the museum room by room where it matters, the second museum almost nobody enters, and the practical mechanics of the region's only honest car-free base.`,
+      },
+      {
+        id: 'history',
+        heading: 'Three thousand years in three streets',
+        body: `Asciano's setting explains its depth. The town sits where fertile valley ground meets the clay hills, on land that has been worth holding since deep antiquity — and each holder left a layer.
+
+**The Etruscans first.** This territory belonged to important Etruscan families — the **Hepni** and the **Marcni** — whose burial grounds survive a few kilometres from town: the **necropolis of Poggio Pinci** and the **Tumulo del Molinello**, with material reaching back to the fifth century BC. The finds feed the archaeological floor of the town museum, and remains of **Roman baths** carry the story forward — this was settled, productive country when Siena was nothing much.
+
+**Then the medieval tug-of-war.** Through the thirteenth century Asciano was contested between **Siena and Florence** — this is [Montaperti](/blog/battle-of-montaperti-1260-siena/) country; the 1260 battlefield lies on the road in from Siena — until the town passed definitively to Siena in **1285**. The Republic secured its prize the way it secured everything: with brick and stone, walling the town in **1351**. Stretches of the circuit still frame the centre, and the town's long main street — **Corso Matteotti** — still runs through it with the unhurried, unperformed character of a place that works for its own valley first, [much like Buonconvento](/blog/buonconvento-guide/) one valley west.
+
+The through-line is worth noticing: Etruscan tombs, Roman baths, a Sienese wall — three civilisations, all drawn by the same thing, the improbably rich farmland hiding inside the moon-country. [The clay that looks barren made this town](/blog/crete-senesi-guide/); Asciano is where the crete's paradox — desert views, granary wealth — has its market square.`,
+      },
+      {
+        id: 'palazzo-corboli',
+        heading: 'Palazzo Corboli: a Lorenzetti with no queue',
+        body: `On Corso Matteotti stands a genuine rarity: a thirteenth-century **medieval palatium**, built by the Sienese **Bandinelli** family, with its fourteenth-century painted rooms still intact. This is the **Museo Civico Archeologico e d'Arte Sacra di Palazzo Corboli**, and it is the single strongest reason to stop in Asciano.
+
+**The building first.** Two of its rooms carry allegorical fresco cycles from the 1300s attributed to **Cristoforo di Bindoccio and Meo di Pero**: the **Sala di Aristotele** and the **Sala delle Stagioni** — Aristotle and the Seasons, secular medieval painting in a private palace, which is far rarer than church frescoes and gives the museum an atmosphere no purpose-built gallery can fake.
+
+**Then the altarpiece.** The collection's summit is **Ambrogio Lorenzetti's polyptych from Badia a Rofeno** (c. 1330–1335), with its extraordinary central panel of **St Michael the Archangel killing the dragon** — the archangel's sword arm raised, the dragon coiling under him, painted by the same hand that made the *Good and Bad Government* frescoes in [Siena's Palazzo Pubblico](/piazza-del-campo-guide). In Siena you see Lorenzetti across a crowded hall. Here, most days, it is you and the archangel.
+
+**Around them**: sacred art gathered from the churches of the crete — **Taddeo di Bartolo, Matteo di Giovanni, Bernardino Mei, Francesco Nasini**, sculpture by **Giovanni Pisano and Francesco di Valdambrino** — and, downstairs, the Etruscan material from Poggio Pinci and the Molinello tumulus. A provincial museum with a metropolitan spine.
+
+**The practical caveat, stated plainly**: this is a civic museum with **short, seasonal hours** — recent winters have seen it open weekends only, other seasons on a limited weekly pattern — and printed schedules go stale fast. The **combined ticket with the Museo Cassioli runs €7 (reduced €5)** at our check. **Verify the current days and hours on the Crete Senesi tourism site or with the Asciano tourist office before building a trip around it**; arriving to a locked door is the one way this town disappoints.`,
+      },
+      {
+        id: 'santagata-cassioli',
+        heading: 'Sant’Agata, and the museum almost nobody enters',
+        body: `Two more stops complete the town, both minutes from the palazzo.
+
+**The Collegiata di Sant'Agata** is Asciano's mother church and its finest building: Romanesque, its dating genuinely debated — one tradition roots it in the eleventh century as successor to the area's ancient pieve, which held the role of Asciano's main church from **1029**; another reads the fabric as built around **1168**, in the years of Siena's tightening grip. Either way you are standing in the town's thousand-year constant: dynasties and republics changed, the church on this spot did not.
+
+**The Museo Cassioli** is the stop for travellers who think they have seen every kind of Tuscan museum. **Amos Cassioli (1832–1891)**, painter of grand historical canvases and portraits, was born in Asciano; a family bequest in **1991** turned his work into the province of Siena's **only collection devoted entirely to nineteenth-century Sienese painting**. After days of gold-ground Madonnas, walking into a room of Risorgimento battle scenes is a genuinely refreshing whiplash — the Sienese tradition still going, five centuries after [its famous chapter](/blog/sienese-school-painting-where-to-see/) closed. It stands on Via Fiume; tickets are handled at Palazzo Corboli on the combined entry, and its hours are civic like the palazzo's — same rule: check first.
+
+Between the three sights, give the town itself its due: Corso Matteotti end to end, a coffee among people speaking only Italian, the wall fragments, and the crete beginning immediately beyond the rooftops. The pleasures are Buonconvento-shaped — cumulative, local, unperformed — with the art collection neither Buonconvento nor most towns five times Asciano's size can match.`,
+      },
+      {
+        id: 'gateway',
+        heading: 'The gateway: trains, the abbey, and the white roads',
+        body: `Asciano's second job is logistical: it is the crete's **only workable car-free base**, and the natural first stop of every driving loop.
+
+**By train.** The Siena–Chiusi line serves Asciano with a healthy weekday service — [our car-free guide](/blog/tuscany-without-a-car-2026/) counts roughly nineteen trains a day on the line — and the fastest runs make it in **around 27 minutes** from Siena. The station's full name, **Asciano-Monte Oliveto Maggiore**, signals the pairing the timetable was built for. The honest caveat from that same guide still applies: the train delivers you to the town, not to the lunar panoramas between towns — for those you still need [wheels, a bike or the seasonal heritage railway](/blog/crete-senesi-guide/).
+
+**The abbey.** **Monte Oliveto Maggiore** — the red-brick monastic city whose Great Cloister carries the thirty-five-fresco Benedict cycle by Signorelli and Sodoma — lies south of town, and [our Crete Senesi guide covers the visit in full](/blog/crete-senesi-guide/). Drivers pair town and abbey effortlessly. Without a car, ask at the Asciano tourist office about the day's options rather than assuming a connection; the distance is short but the public links are thin, and we could not verify a current timetable worth printing.
+
+**By road.** Drivers arrive on the **SP438 Lauretana** from Siena — the ridge road whose bends produce the classic crete photographs — making Asciano the coffee-and-museum stop that [the driving loop](/blog/crete-senesi-guide/) hinges on before the Accona country opens.
+
+**On the calendar.** The **Treno Natura** heritage railway runs its excursion dates through Asciano's own station — the yearly calendar is the thing to check — and on the **first weekend of October** the strade bianche around the crete fill with [L'Eroica's vintage cyclists](/blog/leroica-gaiole-in-chianti-2026/): a spectacle worth planning toward, and a reason to book beds early that weekend. In [the vendemmia weeks](/blog/tuscany-wine-harvest-vendemmia-2026/) either side of it, the clay country is at its photogenic best.`,
+      },
+      {
+        id: 'shaping-the-day',
+        heading: 'Three ways to shape the day',
+        body: `**The train-only art day (no car, no compromise).** Morning train from Siena — the fastest runs take around 27 minutes — then the town at walking pace: Palazzo Corboli first and slowly, Sant'Agata, the Cassioli if the combined ticket tempts you, and a long local lunch on or near the Corso. An afternoon train returns you to Siena with the whole evening intact. This is the rare Tuscan day trip that involves no timetable anxiety at all — misjudge it and the next train is simply later, not tomorrow. Confirm the museum's open days first; on a closed day the town alone is a pleasant hour, not a day.
+
+**The classic driving loop.** [Our Crete Senesi guide](/blog/crete-senesi-guide/) builds it in full: out of Siena on the **SP438 Lauretana** with the Montaperti memorial as a first stop, coffee and the museum in Asciano, **Monte Oliveto Maggiore** given its ninety minutes, San Giovanni d'Asso and the truffle country beyond, and the return [through walled Buonconvento](/blog/buonconvento-guide/). Asciano's role in that day is the anchor at the top of the loop — the one stop with art, food and streets rather than views alone.
+
+**The event day.** Twice a year the calendar does the planning for you: a **Treno Natura** excursion date, when the heritage railway makes the journey itself the destination — check the current calendar rather than assuming — and [**L'Eroica** weekend](/blog/leroica-gaiole-in-chianti-2026/) at the start of October, when the white roads of the crete carry their vintage-cycling pageant and every town in the clay country, Asciano included, fills with wool jerseys and steel bicycles. Book beds well ahead for that one, and treat it as a spectacle to join rather than a quiet visit.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **30 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material — led by the Fondazione Musei Senesi, the Crete Senesi tourism office and the regional tourism board — rather than pages we opened.
+
+**Verified:** the Etruscan **Hepni and Marcni** families and their sites — the **necropolis of Poggio Pinci** and the **Tumulo del Molinello**, with material from the fifth century BC — plus remains of Roman baths; the thirteenth-century contest between Siena and Florence, Asciano's definitive passage to Siena in **1285**, and the town walls of **1351**; **Palazzo Corboli** as a thirteenth-century palatium of the Bandinelli family, its trecento **Sala di Aristotele** and **Sala delle Stagioni** fresco cycles attributed to Cristoforo di Bindoccio and Meo di Pero; **Ambrogio Lorenzetti's Badia a Rofeno polyptych (c. 1330–1335)** with the St Michael central panel, and the museum's holdings of Taddeo di Bartolo, Matteo di Giovanni, Bernardino Mei, Francesco Nasini, Giovanni Pisano and Francesco di Valdambrino; the **combined Corboli+Cassioli ticket at €7 full / €5 reduced**; the **Collegiata di Sant'Agata's** debated Romanesque dating (an eleventh-century origin succeeding the pieve that was Asciano's main church from 1029, against a reading of c. 1168); **Amos Cassioli** (born Asciano 1832, died 1891), the **1991** family bequest, and the Cassioli museum's standing as the province's only collection devoted to nineteenth-century Sienese painting; and the rail connection — the Siena–Chiusi line with the fastest Siena–Asciano runs around **27 minutes**, serving the station named **Asciano-Monte Oliveto Maggiore**. Line frequency (~19 trains daily) and the Lauretana, abbey, Treno Natura and L'Eroica framing follow the verification in [our car-free](/blog/tuscany-without-a-car-2026/) and [Crete Senesi](/blog/crete-senesi-guide/) guides.
+
+**Not established, and flagged in the text:** the museums' current seasonal days and hours — the published patterns are short, civic and changeable (recent winters weekend-only), so confirm on the Crete Senesi tourism channels before travelling; any current public transport between the town and Monte Oliveto Maggiore, which we deliberately do not print; current Treno Natura dates; and restaurant particulars, which we do not list. Train times shift — verify the day's services on Trenitalia before committing.
+
+We have no commercial relationship with any museum, railway or body named. Nothing on this page is bookable through us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Every region keeps one town that does the quiet administrative work of being its capital without ever being its postcard. The crete's is Asciano — and it happens to be the only place in the clay country where the practicalities line up for everyone: a real railway from Siena, a real street to eat on, and a museum that would anchor a town ten times the size.
+
+The Lorenzetti is the point to hold onto. Siena will show you the Sienese school behind glass and shoulders; Asciano hands you one of its masterpieces in a frescoed room with the sound of the Corso drifting up from below. Half an hour on a train, a few euros at the door, three thousand years in three streets — and the moon-country starting at the edge of town, [ready whenever you are](/blog/crete-senesi-guide/).`,
+      },
+    ],
+    [
+      { q: 'Is Asciano worth visiting?', a: 'Yes — it is the Crete Senesi’s main town and its only honest car-free stop: under half an hour from Siena by train, with the Museo di Palazzo Corboli’s Ambrogio Lorenzetti polyptych, the Romanesque Collegiata di Sant’Agata and the province’s only nineteenth-century Sienese painting collection. Give it two to three hours, or make it the anchor of a full crete day.' },
+      { q: 'What is in the Museo di Palazzo Corboli?', a: 'Ambrogio Lorenzetti’s Badia a Rofeno polyptych of c. 1330–1335 — the great St Michael and the dragon — plus works by Taddeo di Bartolo, Matteo di Giovanni and others, sculpture by Giovanni Pisano and Francesco di Valdambrino, trecento allegorical frescoes in the Sala di Aristotele and Sala delle Stagioni, and Etruscan finds from Poggio Pinci. The combined ticket with the Museo Cassioli was €7 (€5 reduced) at our check; hours are short and seasonal, so verify before travelling.' },
+      { q: 'Can you get to Asciano without a car?', a: 'Yes — it is the one crete town where that genuinely works: the Siena–Chiusi railway serves the Asciano-Monte Oliveto Maggiore station, with the fastest trains from Siena taking around 27 minutes. The caveat: the train reaches the town, not the lunar viewpoints between towns — for the landscape itself you still need a car, a bike, a tour or the seasonal Treno Natura heritage railway.' },
+      { q: 'How do you visit Monte Oliveto Maggiore from Asciano?', a: 'By car it is a short drive south, and pairing town and abbey is the classic crete day — the station’s full name, Asciano-Monte Oliveto Maggiore, records the pairing. Without a car the public links are thin: ask at the Asciano tourist office about current options rather than assuming a bus, or treat the abbey as part of a driving or tour day as our Crete Senesi guide describes.' },
+      { q: 'What is Asciano’s history?', a: 'Layered and old: Etruscan families held this land from at least the fifth century BC — their necropolis at Poggio Pinci and the Molinello tumulus survive — followed by Roman baths, then a medieval tug-of-war between Siena and Florence settled in Siena’s favour in 1285, after which the Republic walled the town in 1351. The Romanesque Collegiata di Sant’Agata has anchored it for roughly a thousand years.' },
+      { q: 'Who was Amos Cassioli?', a: 'A painter of historical canvases and portraits, born in Asciano in 1832 and died in 1891. A family bequest in 1991 created the Museo Cassioli on Via Fiume — the only collection in the province of Siena devoted entirely to nineteenth-century Sienese painting. Entry is on the combined ticket handled at Palazzo Corboli, and its civic hours follow the same check-before-you-go rule.' },
+    ],
+    '2026-09-13',
+    {
+      seoTitle: 'Asciano Guide 2026: Palazzo Corboli, Lorenzetti & the Crete Senesi by Train',
+      primaryKeyword: 'asciano tuscany what to see',
+      secondaryKeywords: [
+        'asciano crete senesi train',
+        'palazzo corboli museum lorenzetti',
+        'badia a rofeno polyptych st michael',
+        'siena to asciano train',
+        'collegiata sant agata asciano',
+        'museo cassioli asciano',
+      ],
+      imageAlt: 'The bare clay hill country of the Crete Senesi around Asciano',
+      canonicalPath: '/blog/asciano-guide',
+      tags: ['day trips', 'crete senesi', 'sienese school', 'tuscany villages'],
     }
   ),
 
