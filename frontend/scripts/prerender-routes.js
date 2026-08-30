@@ -39,7 +39,7 @@ function publishedBlogRoutes() {
   const now = Date.now();
   return index
     .filter((a) => a.store === 'articles' && new Date(a.publishedAt).getTime() <= now)
-    .map((a) => `/blog/${a.slug}/`);
+    .map((a) => ({ route: `/blog/${a.slug}/`, slug: a.slug, updated: a.updated }));
 }
 
 function waitForServer(port, tries = 40) {
@@ -111,7 +111,8 @@ async function launchBrowser() {
   }
 }
 
-async function prerenderRoute(context, route) {
+async function prerenderRoute(context, entry) {
+  const { route, slug, updated } = entry;
   const filePath = path.join(BUILD_DIR, route.replace(/^\//, '').replace(/\/$/, ''), 'index.html');
   if (!fs.existsSync(filePath)) return { route, skipped: 'no static file' };
 
@@ -148,6 +149,12 @@ async function prerenderRoute(context, route) {
     if (!html.includes(emptyRoot)) return { route, skipped: 'root not empty (already prerendered?)' };
     html = html.replace(emptyRoot, `<div id="root">${rendered}</div>`);
     html = html.replace(/<main id="static-fallback"[\s\S]*?<\/main>/i, '');
+    // Announce this article's data URL so index.js fetches it before
+    // hydrating — Article.jsx's first client render must carry the full
+    // body to match this captured DOM. Same ?v= the client route uses, so
+    // the preload and any later fetch share one HTTP cache entry.
+    const dataUrl = `/article-data/${slug}.json?v=${encodeURIComponent(updated)}`;
+    html = html.replace('</head>', `<script>window.__ARTICLE_JSON__=${JSON.stringify(dataUrl)}</script></head>`);
     fs.writeFileSync(filePath, html, 'utf-8');
     return { route, ok: true };
   } catch (err) {
@@ -196,16 +203,17 @@ async function main() {
     for (let i = 0; i < routes.length; i += CONCURRENCY) {
       const batch = routes.slice(i, i + CONCURRENCY);
       const results = await Promise.all(batch.map((r) => prerenderRoute(context, r)));
-      for (const r of results) {
+      for (let j = 0; j < results.length; j += 1) {
+        const r = results[j];
         if (r.ok) ok += 1;
         else if (r.skipped === 'no static file' || /root not empty/.test(r.skipped)) skipped.push(`${r.route} (${r.skipped})`);
-        else retryable.push(r.route);
+        else retryable.push(batch[j]);
       }
     }
     // One retry sweep for transient failures (a slow first paint, a timeout
     // under build-machine load). Anything still failing keeps its fallback.
-    for (const route of retryable) {
-      const r = await prerenderRoute(context, route);
+    for (const entry of retryable) {
+      const r = await prerenderRoute(context, entry);
       if (r.ok) ok += 1;
       else skipped.push(`${r.route} (${r.skipped}, after retry)`);
     }

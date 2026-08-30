@@ -32,6 +32,10 @@ export function cacheGuideOffline() {
   // The page's real pathname (canonicalPath formatting varies per article,
   // and offline lookups match the URL the browser actually navigates to).
   const urls = [window.location.pathname];
+  // The article body is a separate per-article JSON since the store split;
+  // without it an offline revisit would hydrate back to the loading shell.
+  // Prerendered pages announce their data URL (scripts/prerender-routes.js).
+  if (window.__ARTICLE_JSON__) urls.push(window.__ARTICLE_JSON__);
   for (const img of document.querySelectorAll("img[src^='/images/']")) {
     urls.push(img.getAttribute("src"));
   }

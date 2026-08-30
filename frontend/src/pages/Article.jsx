@@ -10,7 +10,7 @@ import SaveGuideButton from "@/components/common/SaveGuideButton";
 import { breadcrumbSchema, articleSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import { trackLeadSubmit } from "@/lib/analytics";
-import { findPublishedArticle } from "@/lib/publishedArticles";
+import { findPublishedArticle, publishedBlogArticles } from "@/lib/publishedArticles";
 import { relatedArticles } from "@/lib/relatedArticles";
 import imageDimensions from "@/data/imageDimensions.json";
 import NotFound from "./NotFound";
@@ -219,27 +219,52 @@ const renderArticleBody = (body) => {
 export default function Article({ fixedSlug, canonicalPath }) {
   const { slug: routeSlug } = useParams();
   const slug = fixedSlug || routeSlug;
-  // Two-phase load. The 1.4MB article store used to sit on this page's
-  // critical path, holding the hero back until the whole chunk arrived —
-  // 14s LCP on throttled mobile. The shell (hero, title, excerpt, SEO)
-  // renders from the 56KB published index immediately; the store loads as
-  // its own async chunk and fills in the body, byline and related reads.
+  // Two-phase load. The shell (hero, title, excerpt, SEO) renders from the
+  // published index immediately; the body arrives as this one article's
+  // JSON and fills in sections, byline and FAQ.
   const indexEntry = findPublishedArticle(slug);
-  // On prerendered pages index.js loads the store BEFORE hydrating, so the
-  // first client render carries the full body and matches the served DOM.
-  const [store, setStore] = useState(() => (typeof window !== "undefined" && window.__ARTICLE_STORE__) || null);
+  // On prerendered pages index.js fetches this article's JSON BEFORE
+  // hydrating (window.__ARTICLE_DATA__), so the first client render carries
+  // the full body and matches the served DOM. Everywhere else the body
+  // arrives as a ~20KB per-article fetch — the whole-store import this
+  // replaced had grown to a 1.5MB chunk parsed on every article page.
+  const [loadedArticle, setLoadedArticle] = useState(
+    () => (typeof window !== "undefined" && window.__ARTICLE_DATA__?.slug) ? window.__ARTICLE_DATA__ : null
+  );
+  const [missingSlug, setMissingSlug] = useState(null);
+  const article = loadedArticle?.slug === slug ? loadedArticle : null;
+  const updated = indexEntry?.updated;
   useEffect(() => {
-    if (store) return undefined;
+    if (article || !updated) return undefined;
     let live = true;
-    import("@/data/articles").then((m) => { if (live) setStore(m); });
+    // ?v= keys the HTTP cache to the content: same URL while the article is
+    // unchanged, a fresh URL the day it is edited.
+    fetch(`/article-data/${slug}.json?v=${encodeURIComponent(updated)}`)
+      .then((res) => {
+        if (!live) return null;
+        if (res.status === 404) {
+          // The index knows the slug but no body file exists: a slug from a
+          // store this route does not render (cluster and long-form guides
+          // have their own pages). Same outcome as the old store miss.
+          setMissingSlug(slug);
+          return null;
+        }
+        return res.ok ? res.json() : null;
+      })
+      .then((data) => { if (live && data) setLoadedArticle(data); })
+      .catch(() => {
+        // Offline or interrupted: the shell (hero, title, excerpt) stays up
+        // with its loading state rather than a dead error page.
+      });
     return () => { live = false; };
-  }, [store]);
+  }, [slug, updated, article]);
   if (!indexEntry) return <NotFound />;
-  const article = store ? store.getArticle(slug) : null;
-  if (store && !article) return <NotFound />;
+  if (missingSlug === slug) return <NotFound />;
   const shell = article || indexEntry;
 
-  const related = article ? relatedArticles(article, store.articles) : [];
+  // Related picks need only card metadata, so they come from the published
+  // index (same pool the old store.articles provided: the main store).
+  const related = relatedArticles(shell, publishedBlogArticles());
   const monetization = article?.monetization || {};
   const bookingCta = monetization.booking;
   const imageCredit = article?.imageCredit;
@@ -362,8 +387,8 @@ export default function Article({ fixedSlug, canonicalPath }) {
       </div>
       )}
 
-      {/* Body, byline and related reads arrive with the async store chunk.
-          The static fallback already served the full text pre-hydration, so
+      {/* Body and byline arrive with the per-article JSON fetch. The
+          prerendered page already served the full text pre-hydration, so
           this gap is a beat on fast connections, not a blank page. */}
       {!article && (
         <div className="container-editorial mt-12 pb-24" aria-busy="true">
