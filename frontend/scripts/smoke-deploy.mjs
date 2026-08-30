@@ -28,6 +28,16 @@ const checks = [
     expectedCanonical: `${PRIMARY_ORIGIN}/siena-travel-guide`,
   },
   {
+    // A prerendered article route. reportPrerender is informational only:
+    // the prerenderer is fail-open by design (scripts/prerender-routes.js),
+    // so a fallback build must not fail the smoke — but the log line is how
+    // we know whether production is serving prerendered HTML at all.
+    url: `https://${PRIMARY_HOST}/blog/siena-day-trips-without-a-car/`,
+    expectTitle: "Siena Day Trips Without a Car",
+    expectedCanonical: `${PRIMARY_ORIGIN}/blog/siena-day-trips-without-a-car/`,
+    reportPrerender: true,
+  },
+  {
     url: `https://${PRIMARY_HOST}/where-to-stay-in-siena`,
     expectTitle: "Where to Stay in Siena",
     expectedCanonical: `${PRIMARY_ORIGIN}/where-to-stay-in-siena`,
@@ -241,6 +251,18 @@ for (const check of checks) {
     );
     console.log(`  title-ok: ${titleOk}`);
     console.log(`  bad-pattern: ${bad}`);
+
+    if (check.reportPrerender) {
+      // Prerendered pages ship the article inside #root; fallback builds ship
+      // an empty root plus the static-fallback shell. Informational: the
+      // prerenderer is fail-open, so "no" is a report, not a failure.
+      const emptyRoot = /<div id="root"><\/div>/.test(body);
+      const hasFallbackShell = /id="static-fallback"/.test(body);
+      const prerendered = !emptyRoot && !hasFallbackShell;
+      console.log(
+        `  prerendered: ${prerendered ? "yes" : `no (${emptyRoot ? "empty #root" : "static fallback present"})`}`
+      );
+    }
 
     if (!ok) {
       failed = true;
