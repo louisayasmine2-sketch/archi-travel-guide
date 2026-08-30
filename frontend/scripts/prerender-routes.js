@@ -59,23 +59,55 @@ function waitForServer(port, tries = 40) {
 }
 
 async function launchBrowser() {
-  // Playwright is already a devDependency (the e2e suite). The sandbox and
-  // CI provide a browser via PW_CHROMIUM_PATH; elsewhere Playwright's own
-  // installed browser is used if present. On build machines with neither
-  // (Cloudflare Pages), one guarded install attempt runs before giving up.
+  // Playwright is already a devDependency (the e2e suite). The fallback chain,
+  // in order, logging which source won so build logs answer "which browser?":
+  //   1. PW_CHROMIUM_PATH        — sandbox and CI provide one explicitly
+  //   2. Playwright's own browser — present wherever `playwright install` ran
+  //   3. puppeteer's Chrome       — puppeteer is a dependency and downloads
+  //      Chrome during npm install, so on build machines that block nothing
+  //      at install time but where playwright's browser is absent
+  //      (Cloudflare Pages), this is the browser that already exists on disk
+  //   4. one guarded install      — headless-shell first (small), then full
   // Anything failing here means "skip prerendering", not "fail the build".
   const { chromium } = require('@playwright/test');
-  const opts = process.env.PW_CHROMIUM_PATH
-    ? { executablePath: process.env.PW_CHROMIUM_PATH }
-    : {};
+  if (process.env.PW_CHROMIUM_PATH) {
+    // Explicit path: if it is wrong, installing would not fix it — throw.
+    const browser = await chromium.launch({ executablePath: process.env.PW_CHROMIUM_PATH });
+    log('browser: PW_CHROMIUM_PATH');
+    return browser;
+  }
   try {
-    return await chromium.launch(opts);
-  } catch (first) {
-    if (process.env.PW_CHROMIUM_PATH) throw first; // explicit path was wrong; installing won't fix it
-    log('no browser found; attempting a one-time chromium install…');
+    const browser = await chromium.launch();
+    log('browser: playwright default');
+    return browser;
+  } catch (playwrightMiss) {
+    try {
+      const puppeteer = require('puppeteer');
+      // await: executablePath() returns a string in older puppeteer versions
+      // and a Promise in newer ones; await handles both.
+      const chromePath = await puppeteer.executablePath();
+      if (fs.existsSync(chromePath)) {
+        const browser = await chromium.launch({ executablePath: chromePath });
+        log(`browser: puppeteer chrome at ${chromePath}`);
+        return browser;
+      }
+      log(`puppeteer chrome not on disk (${chromePath})`);
+    } catch (puppeteerMiss) {
+      log(`puppeteer fallback unavailable (${puppeteerMiss.message.split('\n')[0]})`);
+    }
+    log('no browser found; attempting a one-time install…');
     const { execSync } = require('child_process');
-    execSync('npx playwright install chromium', { cwd: ROOT, stdio: 'inherit', timeout: 300_000 });
-    return chromium.launch(opts);
+    try {
+      execSync('npx playwright install chromium-headless-shell', { cwd: ROOT, stdio: 'inherit', timeout: 300_000 });
+      const browser = await chromium.launch();
+      log('browser: freshly installed chromium-headless-shell');
+      return browser;
+    } catch (shellMiss) {
+      execSync('npx playwright install chromium', { cwd: ROOT, stdio: 'inherit', timeout: 300_000 });
+      const browser = await chromium.launch();
+      log('browser: freshly installed chromium');
+      return browser;
+    }
   }
 }
 
