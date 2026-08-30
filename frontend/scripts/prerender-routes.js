@@ -32,14 +32,44 @@ function log(msg) {
   console.log(`[prerender] ${msg}`);
 }
 
-function publishedBlogRoutes() {
+function publishedContentRoutes() {
   const index = JSON.parse(
     fs.readFileSync(path.join(ROOT, 'src/data/articlesIndex.json'), 'utf-8')
   );
   const now = Date.now();
-  return index
-    .filter((a) => a.store === 'articles' && new Date(a.publishedAt).getTime() <= now)
-    .map((a) => ({ route: `/blog/${a.slug}/`, slug: a.slug, updated: a.updated }));
+  const published = index.filter((a) => new Date(a.publishedAt).getTime() <= now);
+  const withSlash = (p) => (p.endsWith('/') ? p : `${p}/`);
+  // Keyed by route so overlapping sources (an articles-store entry whose
+  // canonical is also a guide page) collapse to one plan.
+  const routes = new Map();
+
+  for (const a of published) {
+    if (a.store === 'articles') {
+      const cp = a.canonicalPath || `/blog/${a.slug}/`;
+      if (cp.startsWith('/blog/')) {
+        // Article.jsx routes: announce the article JSON so index.js can
+        // preload it before hydrating.
+        routes.set(withSlash(cp), { slug: a.slug, updated: a.updated });
+      } else {
+        // Non-blog canonical: served by a dedicated component with its data
+        // statically imported — prerender it, but announce no JSON.
+        routes.set(withSlash(cp), {});
+      }
+    } else if (a.canonicalPath) {
+      // Cluster and long-form guide pages: dedicated components, static data.
+      routes.set(withSlash(a.canonicalPath), {});
+    }
+  }
+
+  // Pillar routes App.js serves through <Article fixedSlug=...> at a path the
+  // index does not list as that article's canonical. Keep in sync with App.js.
+  const ARTICLE_PILLAR_ROUTES = { '/things-to-do-in-siena/': 'best-things-to-do-in-siena' };
+  for (const [route, slug] of Object.entries(ARTICLE_PILLAR_ROUTES)) {
+    const a = published.find((x) => x.slug === slug);
+    if (a) routes.set(route, { slug: a.slug, updated: a.updated });
+  }
+
+  return [...routes.entries()].map(([route, rest]) => ({ route, ...rest }));
 }
 
 function waitForServer(port, tries = 40) {
@@ -152,9 +182,13 @@ async function prerenderRoute(context, entry) {
     // Announce this article's data URL so index.js fetches it before
     // hydrating — Article.jsx's first client render must carry the full
     // body to match this captured DOM. Same ?v= the client route uses, so
-    // the preload and any later fetch share one HTTP cache entry.
-    const dataUrl = `/article-data/${slug}.json?v=${encodeURIComponent(updated)}`;
-    html = html.replace('</head>', `<script>window.__ARTICLE_JSON__=${JSON.stringify(dataUrl)}</script></head>`);
+    // the preload and any later fetch share one HTTP cache entry. Routes
+    // served by dedicated components (cluster and guide pages, whose data is
+    // statically imported) carry no slug and get no announcement.
+    if (slug) {
+      const dataUrl = `/article-data/${slug}.json?v=${encodeURIComponent(updated)}`;
+      html = html.replace('</head>', `<script>window.__ARTICLE_JSON__=${JSON.stringify(dataUrl)}</script></head>`);
+    }
     fs.writeFileSync(filePath, html, 'utf-8');
     return { route, ok: true };
   } catch (err) {
@@ -165,8 +199,8 @@ async function prerenderRoute(context, entry) {
 }
 
 async function main() {
-  const routes = publishedBlogRoutes();
-  log(`${routes.length} published blog routes to prerender`);
+  const routes = publishedContentRoutes();
+  log(`${routes.length} published content routes to prerender`);
 
   let browser;
   try {

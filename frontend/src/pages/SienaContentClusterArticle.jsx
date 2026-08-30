@@ -170,7 +170,10 @@ export default function SienaContentClusterArticle({ slug }) {
         <div className="absolute inset-0 bg-radial-gradient from-transparent via-transparent to-black/60 z-10 pointer-events-none"></div>
         
         <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-6 mt-16 max-w-5xl mx-auto">
-          <motion.div initial="hidden" animate="visible" variants={{ hidden: { opacity: 0 }, visible: { opacity: 1, transition: { staggerChildren: 0.15 } } }} className="w-full">
+          {/* On prerendered pages the entrance pass is disabled (initial={false}):
+              the served HTML is already the resting state, and fading it back
+              in from opacity 0 after hydration would blink the whole hero. */}
+          <motion.div initial={typeof window !== "undefined" && window.__PRERENDERED__ ? false : "hidden"} animate="visible" variants={{ hidden: { opacity: 0 }, visible: { opacity: 1, transition: { staggerChildren: 0.15 } } }} className="w-full">
             <motion.div variants={fadeInUp} className="mb-6 flex justify-center">
               <Breadcrumbs items={breadcrumbs} />
             </motion.div>
