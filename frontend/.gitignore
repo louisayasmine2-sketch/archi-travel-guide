@@ -25,3 +25,7 @@ yarn-error.log*
 # Playwright e2e artifacts
 /test-results/
 /playwright-report/
+
+# Generated per-article JSON (scripts/generate-article-chunks.js); prestart
+# regenerates it, so fresh clones need no build step.
+/public/article-data/
