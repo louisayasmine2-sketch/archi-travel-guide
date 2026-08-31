@@ -144,6 +144,7 @@ Dua baris pertama sudah live saat batch ini dibuat (12–13 Agu); sisanya menyus
 | /blog/buonconvento-guide | 2026-09-11 |  |  |  |  |  |
 | /blog/san-quirico-dorcia-guide | 2026-09-12 |  |  |  |  |  |
 | /blog/asciano-guide | 2026-09-13 |  |  |  |  |  |
+| /blog/where-to-eat-siena-day-trips | 2026-09-14 |  |  |  |  |  |
 
 Catatan batch 3:
 - Halaman live yang berubah signifikan dan layak re-request saat deploy: homepage
