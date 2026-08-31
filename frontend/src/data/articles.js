@@ -11503,7 +11503,7 @@ We cover the game-versus-reality comparison properly — what was surveyed, what
 
 **The festival.** For one long weekend each July the village stages ***Monteriggioni di torri si corona***, a medieval festival named from Dante's line — costumed camps, falconry, musicians and craft demonstrations, with euros exchanged at the gate for the *Grosso*, the festival's medieval currency. The 2026 edition, the thirty-third, ran 9–12 July, opening with a banquet. If your dates are near mid-July, check the programme before you plan: the festival transforms the village, charges admission, and suspends the ordinary quiet that is otherwise its main commodity.
 
-**Timing the ordinary visit.** Tour buses deliver their peak between late morning and mid-afternoon, and a village this size has no capacity to absorb them invisibly. Before about 10:00 or after 17:00 you get the place approximately to yourself, the parapet light is better, and dinner in the square — if you are staying for it — comes with empty battlements above you.`,
+**Timing the ordinary visit.** Tour buses deliver their peak between late morning and mid-afternoon, and a village this size has no capacity to absorb them invisibly. Before about 10:00 or after 17:00 you get the place approximately to yourself, the parapet light is better, and dinner in the square — if you are staying for it — comes with empty battlements above you ([our day-trip restaurants guide](/blog/where-to-eat-siena-day-trips/) names the square's long-standing table).`,
       },
       {
         id: 'abbadia-a-isola',
@@ -11639,7 +11639,7 @@ And then there is lunch, which deserves its own section.`,
 
 The hill towns of the Sienese south are small, steep and seasonal: kitchens close sharply after the lunch service, tables in the famous villages go to whoever booked, and arriving at 14:30 in Pienza or Montalcino with an appetite is a known way to end up eating a sad panino standing up. Buonconvento — flat, local, on the road home — is the region's pressure valve. Its trattorias serve the **Val d'Arbia's own repertoire**: hand-rolled pici, wild-boar ragù, ribollita in the cold months, the unglamorous, excellent cooking of a grain-and-livestock valley — [the seasonal logic of it is here](/blog/tuscan-food-calendar-seasonal-dishes/). Prices run local rather than touristic, because the clientele is local.
 
-So the pattern that works: do your morning in the hills — [Montalcino](/blog/montalcino-or-montepulciano-2026/), the [Crete Senesi loop](/blog/crete-senesi-guide/), or the abbey of Monte Oliveto Maggiore — and drop down to Buonconvento for the long lunch on the way back to Siena. The town's fifteen-minute sights fit neatly around the meal, the drive or train home afterwards is short, and you will have spent the crowded hours of the day somewhere the crowds are not. We name no individual restaurants because we could not verify their current details from here — in a town this size, walk Via Soccini and pick the room with locals in it; the method outperforms any list.`,
+So the pattern that works: do your morning in the hills — [Montalcino](/blog/montalcino-or-montepulciano-2026/), the [Crete Senesi loop](/blog/crete-senesi-guide/), or the abbey of Monte Oliveto Maggiore — and drop down to Buonconvento for the long lunch on the way back to Siena. The town's fifteen-minute sights fit neatly around the meal, the drive or train home afterwards is short, and you will have spent the crowded hours of the day somewhere the crowds are not. For a named recommendation, [our day-trip restaurants guide](/blog/where-to-eat-siena-day-trips/) covers Buonconvento's classic table — and in a town this size the method still applies: walk Via Soccini and pick the room with locals in it.`,
       },
       {
         id: 'getting-there',
@@ -11769,7 +11769,7 @@ And when the light goes flat in the middle of the day — the hours when the vie
       {
         id: 'practical',
         heading: 'Eating, getting there, and using the town properly',
-        body: `**Lunch is the town's superpower.** Our [Val d'Orcia](/blog/val-dorcia-day-trip-from-siena-2026/) and [food](/blog/tuscan-food-calendar-seasonal-dishes/) guides both make the same point: San Quirico feeds you better value than the famous towns' main squares, because its trattorias still price for the valley rather than for the coaches. The local orders: **pici with wild-boar or aglione sauce**, Cinta Senese pork, pecorino from neighbouring Pienza without Pienza's queue. We name no individual restaurants — we could not verify their current details from here — but the town rewards the standard method: walk the main street, pick the room with locals in it.
+        body: `**Lunch is the town's superpower.** Our [Val d'Orcia](/blog/val-dorcia-day-trip-from-siena-2026/) and [food](/blog/tuscan-food-calendar-seasonal-dishes/) guides both make the same point: San Quirico feeds you better value than the famous towns' main squares, because its trattorias still price for the valley rather than for the coaches. The local orders: **pici with wild-boar or aglione sauce**, Cinta Senese pork, pecorino from neighbouring Pienza without Pienza's queue. For named picks, [our day-trip restaurants guide](/blog/where-to-eat-siena-day-trips/) covers San Quirico's best-known table — and the town also rewards the standard method: walk the main street, pick the room with locals in it.
 
 **By bus.** San Quirico sits on Autolinee Toscane's **line 112** from Siena (the Val d'Orcia towns bus, continuing to Pienza and Montepulciano): about **50–55 minutes**, weekdays, with only around **four usable connections a day** — so plan the return before committing, and [treat Sundays as a different problem entirely](/blog/tuscany-without-a-car-2026/). Among the valley's towns it is the most rewarding one to reach this way, because everything worth seeing is inside a compact, mostly level centre.
 
@@ -11893,7 +11893,7 @@ Between the three sights, give the town itself its due: Corso Matteotti end to e
       {
         id: 'shaping-the-day',
         heading: 'Three ways to shape the day',
-        body: `**The train-only art day (no car, no compromise).** Morning train from Siena — the fastest runs take around 27 minutes — then the town at walking pace: Palazzo Corboli first and slowly, Sant'Agata, the Cassioli if the combined ticket tempts you, and a long local lunch on or near the Corso. An afternoon train returns you to Siena with the whole evening intact. This is the rare Tuscan day trip that involves no timetable anxiety at all — misjudge it and the next train is simply later, not tomorrow. Confirm the museum's open days first; on a closed day the town alone is a pleasant hour, not a day.
+        body: `**The train-only art day (no car, no compromise).** Morning train from Siena — the fastest runs take around 27 minutes — then the town at walking pace: Palazzo Corboli first and slowly, Sant'Agata, the Cassioli if the combined ticket tempts you, and a long local lunch on or near the Corso ([named pick here](/blog/where-to-eat-siena-day-trips/)). An afternoon train returns you to Siena with the whole evening intact. This is the rare Tuscan day trip that involves no timetable anxiety at all — misjudge it and the next train is simply later, not tomorrow. Confirm the museum's open days first; on a closed day the town alone is a pleasant hour, not a day.
 
 **The classic driving loop.** [Our Crete Senesi guide](/blog/crete-senesi-guide/) builds it in full: out of Siena on the **SP438 Lauretana** with the Montaperti memorial as a first stop, coffee and the museum in Asciano, **Monte Oliveto Maggiore** given its ninety minutes, San Giovanni d'Asso and the truffle country beyond, and the return [through walled Buonconvento](/blog/buonconvento-guide/). Asciano's role in that day is the anchor at the top of the loop — the one stop with art, food and streets rather than views alone.
 
@@ -11941,6 +11941,129 @@ The Lorenzetti is the point to hold onto. Siena will show you the Sienese school
       imageAlt: 'The bare clay hill country of the Crete Senesi around Asciano',
       canonicalPath: '/blog/asciano-guide',
       tags: ['day trips', 'crete senesi', 'sienese school', 'tuscany villages'],
+    }
+  ),
+
+
+  A(
+    'where-to-eat-siena-day-trips',
+    'Where to Eat on a Siena Day Trip: The Restaurants Worth Planning a Town Around',
+    'Food & drink',
+    'Tuscany',
+    'Named, researched picks for the day-trip towns — Pienza, Montalcino, Montepulciano, San Quirico and beyond — with the booking rules that make them work.',
+    '/images/siena/pici-pasta-wild-boar-ragu-siena.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Our town guides keep repeating one honest refrain: *pick the room with locals in it*. That method works — but on holiday you also want names, because the best table in a Tuscan hill town is often the one you booked before you left. This guide gives you both: **one or two researched, named recommendations for each of the main day-trip towns** around Siena, plus the timing and booking rules that decide whether lunch is the best hour of your day or a queue in the sun.
+
+The shortlist, for readers in a hurry: **Trattoria Osenna** in [San Quirico](/blog/san-quirico-dorcia-guide/), **Sette di Vino** and **Latte di Luna** in Pienza, **Osteria del Leone** in [Bagno Vignoni](/blog/bagno-vignoni-bagni-san-filippo-hot-springs/), **Osticcio** in [Montalcino](/blog/montalcino-or-montepulciano-2026/), **Acquacheta** in Montepulciano (book this one well ahead), **Da Mario** in [Buonconvento](/blog/buonconvento-guide/), **L'Angolo dello Sfizio** in [Asciano](/blog/asciano-guide/), and **Il Pozzo** on [Monteriggioni's](/blog/monteriggioni-guide/) square. For Siena itself, [our dedicated eating guide](/where-to-eat-in-siena) covers the city; for Panzano and the most famous butcher in Italy, [the Cecchini article](/blog/panzano-in-chianti-cecchini-vino-al-vino/) is the complete treatment.
+
+One promise about how this list was made: every name here was researched afresh for this article — what each place is, where it stands, what it is known for. What we deliberately do not print are opening days, current prices and menus, because those change faster than any article should pretend to know: **treat every entry as "confirm and book directly before you travel"**, and the list will serve you well.`,
+      },
+      {
+        id: 'the-rules',
+        heading: 'The three rules that beat any list',
+        body: `Before the names, the system — because the right habits rescue you in any town, including the ones this list skips.
+
+**Rule one: respect the kitchen's clock.** Tuscan lunch service runs roughly 12:30 to 14:00–14:30, and in small towns it ends *sharply* — [our Buonconvento guide](/blog/buonconvento-guide/) exists partly because arriving hungry in a hill town at 14:30 is a known way to eat a sad panino standing up. Sit down by 13:00 and the whole day reorganises around you: crowded sights empty at lunchtime, and the table is where the region actually shows itself.
+
+**Rule two: book the destination meals, walk into the rest.** A handful of places on this list — Acquacheta above all — fill days or weeks ahead in season. For those, book the moment your dates firm up. Everywhere else, the walk-in rules apply: **two streets away from the main square** the quality rises and the prices fall, and **the room with locals in it** outperforms the room with photographs of the food outside.
+
+**Rule three: order the town, not the menu's safest line.** Every town here has a dish that is *its* dish — [the full seasonal logic is in our food calendar](/blog/tuscan-food-calendar-seasonal-dishes/) — and the kitchen is always best at it: hand-rolled **pici** with wild-boar or aglione sauce across the whole Sienese south, **pecorino in every form** in Pienza, **bistecca** where the grill is the point, roast meats in the farm towns. When in doubt, ask what the house has cooked longest.`,
+      },
+      {
+        id: 'val-dorcia',
+        heading: 'The Val d’Orcia: San Quirico, Pienza, Bagno Vignoni',
+        body: `**San Quirico d'Orcia — Trattoria Osenna.** The town's best-known table, and a fit for [San Quirico's whole character](/blog/san-quirico-dorcia-guide/): unshowy and generous. Its reputation rests on the **meat secondi**, and in warm months on the **courtyard under a huge wisteria** — one of the nicest outdoor rooms in the valley. This is the natural anchor for the long Val d'Orcia lunch our town guide recommends.
+
+**Pienza — Sette di Vino.** A tiny, homey osteria that has become the town's cult address by doing the pecorino town's food straight: **grilled pecorino, sliced lardo, ribollita, panzanella**, simple plates and cheerful wine. The catch is the flip side of the charm: it takes **no lunch reservations**, so queues form in season — arrive at opening or embrace the wait.
+
+**Pienza — Latte di Luna.** The family-run alternative when you want a full trattoria meal rather than an osteria graze, and the address for one dish above all: the **maialino da latte arrosto** — roast suckling pig — that reviewers cross the valley for, alongside proper pici. It gets busy; **reserve ahead** in season.
+
+**Bagno Vignoni — Osteria del Leone.** In the thermal square's tiny borgo, a genuinely elegant room — classical cooking with a refined touch, **four dining rooms and a summer garden**, and a **wine list of around 250 labels** deep in Montalcino and Montepulciano. The right call when the [hot-springs day](/blog/bagno-vignoni-bagni-san-filippo-hot-springs/) deserves a proper finish rather than a snack.`,
+      },
+      {
+        id: 'wine-towns',
+        heading: 'The wine towns: Montalcino and Montepulciano',
+        body: `**Montalcino — Osticcio.** Half enoteca, half restaurant, and the smart way to solve Montalcino's central problem — wanting to taste serious **Brunello** without committing to a cellar visit. The list runs deep and pours **by the glass, bottle or flight**, the kitchen is proper Tuscan rather than wine-bar filler, and the back room ends in a **great window over the valley** that turns a tasting into a view. Pairs naturally with [the fortress-town morning](/blog/montalcino-or-montepulciano-2026/).
+
+**Montepulciano — Osteria Acquacheta.** The most famous table on this list and the one that demands planning. Acquacheta is a Tuscan institution built around one thing: **bistecca alla fiorentina, sold by weight and grilled over the fire**, served in a packed, rowdy, shared-table room with wine in carafes and zero ceremony. The rules of engagement, as consistently reported: **reserve well ahead — days at minimum, weeks in high season — around its two evening seatings**, expect to share, and check its closing days before building plans (recent seasons have run with a mid-week closure). At our check the steak was reported around **€30–35 per kilo**, which for meat of this reputation explains the queue — but verify directly, because prices and days are exactly the kind of facts that move. If you get a table, it is the single most memorable meal-as-theatre in the region south of Siena.
+
+One honest framing for both towns: their main squares are lined with adequate, view-taxed restaurants. The two names above are where the food, not the location, is the point — which is the entire trick to eating well in famous towns.`,
+      },
+      {
+        id: 'road-home',
+        heading: 'The road home: Buonconvento, Asciano, Monteriggioni',
+        body: `**Buonconvento — Da Mario.** On Via Soccini in the walled centre, **family-run since 1971**, and exactly what [our Buonconvento guide](/blog/buonconvento-guide/) promises the town is for: a classic, no-frills trattoria cooking Tuscan standards from **local, kilometre-zero valley produce**, in portions sized for people who worked all morning. Nothing here is performed for visitors, which is the recommendation.
+
+**Asciano — L'Angolo dello Sfizio.** On the old town's main street, typical Tuscan cooking with a **broad Tuscan wine list** — Chianti, Brunello, Nobile — making it the natural lunch of [the train-only art day](/blog/asciano-guide/): museum, Sant'Agata, this table, afternoon train home. The crete around town are farm country — pici, game and pecorino territory — and the kitchens follow.
+
+**Monteriggioni — Il Pozzo.** On **Piazza Roma itself**, welcoming visitors for **more than forty years**, with generous antipasti, homemade pasta — the meat ravioli baked *al cartoccio* with truffle is the signature reviewers name — and grilled and roasted meats. Eating on the tiny square inside [the walls Dante compared to giants](/blog/monteriggioni-guide/) is the rare case where the most obvious location in town is also the right one; go at the day's quiet edges, when the tour flow ebbs, and the square above your table is empty battlements and sky.`,
+      },
+      {
+        id: 'elsewhere',
+        heading: 'San Gimignano, Chianti and Siena itself',
+        body: `**San Gimignano** is the hardest town on the circuit to eat well in — maximum visitor pressure on a tiny centre — and the place where the two-streets-away rule earns its keep most. The long-standing budget standby is **Trattoria Chiribiri**, a tiny room by Porta San Giovanni with homemade pasta and desserts at prices that barely acknowledge the town outside; recent reviews are genuinely mixed — best-value raves alongside middling ratings — which is roughly what a cheap, honest kitchen in a besieged town produces. Treat it as the budget option it is, or apply the rules from [our San Gimignano guide](/blog/san-gimignano-day-trip-from-siena-2026/) and hunt deeper.
+
+**Panzano in Chianti** is a food pilgrimage of its own — **Dario Cecchini's** butcher-theatre and the town around it — and it has [its own complete article](/blog/panzano-in-chianti-cecchini-vino-al-vino/), bookings, caveats and all.
+
+**Siena itself** is a different, richer problem — neighbourhood osterie, the two-streets rule at city scale, and the dishes worth ordering — covered town-by-dish in [our dedicated Siena eating guide](/where-to-eat-in-siena), with [the budget version here](/blog/siena-food-that-fits-a-budget).
+
+And everywhere on this page, the fallback remains the method: locals in the room, two streets off the postcard, the house dish. A list gets you a great meal; the method makes sure you never have a bad one.`,
+      },
+      {
+        id: 'menu-decoder',
+        heading: 'The menu decoder: what you are actually ordering',
+        body: `A one-paragraph course in the words that will follow you around every menu on this page — [the food calendar](/blog/tuscan-food-calendar-seasonal-dishes/) has the full seasonal version.
+
+**Pici** are the region's fat, hand-rolled spaghetti, and the two sauces to know are **al ragù di cinghiale** (wild boar, slow-cooked) and **all'aglione** (tomato and a mild giant garlic that tastes far gentler than it sounds). **Ribollita** is the twice-cooked bread-and-bean soup — cold-weather food, at its best from autumn. **Panzanella** is its summer opposite: bread salad with tomatoes and basil. **Lardo** is cured back fat sliced translucent over warm bread — order it once before deciding it is not for you, because it converts people. **Pecorino** in Pienza comes by age: *fresco* (soft, mild), *semi-stagionato*, and *stagionato* (hard, sharp, the one for honey pairings); *alla griglia*, it arrives as a grilled slab. **Maialino da latte** is roast suckling pig; **Cinta Senese** is the region's prized native pig breed, worth ordering wherever it appears. And **bistecca alla fiorentina** comes thick, by weight, and **rare by convention** — kitchens that take it seriously will not cook it through, so if well-done meat is non-negotiable, order something else and save the bistecca budget for a return trip in a different mood.
+
+House wine in a carafe is a legitimate order almost everywhere on this page — this is production country, and the *sfuso* is usually somebody local's. The upgrade path when the list justifies it: Osticcio's Brunello flights and Osteria del Leone's cellar are the two places here where the wine deserves the evening.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **30 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material — restaurant pages, town dining guides and large bodies of recent diner reporting — rather than pages we opened.
+
+**Verified per entry, at that check:** Trattoria Osenna's standing as San Quirico's best-known restaurant, its meat-led secondi and wisteria courtyard; Sette di Vino's osteria format, pecorino-and-lardo repertoire and no-reservation lunch queues; Latte di Luna's family-run status, Via San Carlo location and signature roast maialino; Osteria del Leone's four rooms, summer garden and ~250-label list in Bagno Vignoni; Osticcio's enoteca-restaurant format, Brunello by glass/bottle/flight and valley-window back room; Acquacheta's bistecca-by-weight institution status, shared-table two-seating format, book-well-ahead pattern, recent mid-week closing days and reported ~€30–35/kg steak pricing; Da Mario's Via Soccini address, family run since 1971, and kilometre-zero Tuscan cooking; L'Angolo dello Sfizio's main-street location and broad Tuscan wine list in Asciano; Il Pozzo's Piazza Roma address, forty-plus years of service, truffle ravioli al cartoccio and grilled meats in Monteriggioni; and Chiribiri's location by Porta San Giovanni, homemade pasta and budget pricing, alongside its genuinely mixed recent reviews, which we report rather than smooth over.
+
+**Deliberately not printed:** current opening days and hours, full price lists, and menus — these change seasonally and faster than an article should pretend to track. Confirm and book **directly with each restaurant** before travelling, especially for Acquacheta and any summer weekend. Where a price appears (Acquacheta's per-kilo steak) it is the figure reported at our check, flagged as movable.
+
+**Our independence:** we have **no commercial relationship with any restaurant named** — no commissions, no hosted meals, no placements. Nothing on this page can be booked through us; every recommendation is here on reputation and research alone.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `The best meals of a Tuscan holiday almost never happen in the famous squares at 13:30 with a queue behind the maître d'. They happen a valley over, at the family trattoria that has cooked the same six things since 1971, or at the shared table where the steak arrives by the kilo and nobody has changed the formula in decades — places a day-tripper only finds with either a local's knowledge or a list built in advance.
+
+This page is the list. Book the two or three that match your route — Acquacheta first if Montepulciano is on it — hold the method in reserve for everywhere else, and give lunch the same planning respect you give museums. In this corner of Italy the table *is* one of the sights; it just happens to be the only one that never needs a skip-the-line ticket.`,
+      },
+    ],
+    [
+      { q: 'What is the best restaurant in the Val d’Orcia?', a: 'For a destination meal, Osteria Acquacheta in Montepulciano — the shared-table bistecca institution, booked days or weeks ahead — and Osticcio in Montalcino for Brunello with a serious kitchen and a valley view. For the classic long lunch, Trattoria Osenna in San Quirico d’Orcia under its wisteria courtyard, and in Pienza either Sette di Vino’s pecorino plates or Latte di Luna’s roast maialino. Confirm days and book directly before travelling.' },
+      { q: 'Do you need to book restaurants in Tuscany?', a: 'For the famous ones, yes — Acquacheta in Montepulciano fills its two evening seatings days to weeks ahead in season, and family rooms like Latte di Luna in Pienza run out of tables at peak times. Most other trattorias take walk-ins, especially at opening time. The reliable pattern: book the two or three destination meals when your dates firm up, and walk into everywhere else early in the service.' },
+      { q: 'Where should you eat bistecca alla fiorentina near Siena?', a: 'The institution is Osteria Acquacheta in Montepulciano: steak sold by weight (reported around €30–35 per kilo at our check), grilled over the fire, served at shared tables across two evening seatings with wine in carafes. Reserve well ahead and verify current days and prices directly. In Chianti, Panzano’s Cecchini operation is the other pilgrimage — covered in our dedicated article.' },
+      { q: 'What food is each town near Siena known for?', a: 'Pienza is pecorino in every form; Montalcino and Montepulciano are wine towns first, with kitchens to match; the whole Sienese south rolls pici by hand and sauces it with wild boar or aglione; the crete and Val d’Arbia farm towns — Asciano, Buonconvento — do roasts, game and kilometre-zero trattoria cooking; and Bagno Vignoni’s little borgo holds a genuinely refined table in Osteria del Leone. Our Tuscan food calendar covers what is in season when.' },
+      { q: 'How do you avoid tourist-trap restaurants in Tuscan hill towns?', a: 'Three habits: walk two streets away from the main square before choosing; pick the room with locals in it over the room with food photographs outside; and sit down by 13:00, because small-town kitchens end lunch service sharply and the good rooms fill first. A short pre-booked list for the famous stops plus those habits everywhere else covers essentially every meal.' },
+      { q: 'Are these restaurant recommendations sponsored?', a: 'No. We have no commercial relationship with any restaurant named — no commissions, hosted meals or placements — and nothing can be booked through us. Every entry was researched afresh for this article; we print what each place is known for, flag what we could not verify, and leave current hours, menus and prices for you to confirm directly, because those change faster than any article should pretend to know.' },
+    ],
+    '2026-09-14',
+    {
+      seoTitle: 'Where to Eat Near Siena 2026: Day-Trip Town Restaurants Worth Booking',
+      primaryKeyword: 'best restaurants val d orcia day trip',
+      secondaryKeywords: [
+        'where to eat pienza sette di vino',
+        'osteria acquacheta montepulciano booking',
+        'osticcio montalcino brunello tasting',
+        'trattoria osenna san quirico',
+        'il pozzo monteriggioni restaurant',
+        'best lunch tuscan hill towns',
+      ],
+      imageAlt: 'Hand-rolled pici pasta with wild-boar ragù, the signature dish of the Sienese hills',
+      canonicalPath: '/blog/where-to-eat-siena-day-trips',
+      tags: ['food & drink', 'val d orcia', 'day trips', 'restaurants'],
     }
   ),
 
