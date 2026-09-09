@@ -5434,7 +5434,7 @@ Rearrange freely around rain — every outdoor day here has an indoor understudy
       {
         id: 'quick-answer',
         heading: 'Quick answer',
-        body: `December is Tuscany for people who want the region to themselves — and who understand the deal. Days are short and cold, some rural Tuscany is closed for winter, and the Duomo’s famous floor is back under its protective boards. In exchange: Siena’s **Mercato nel Campo** turns the Campo into a medieval market on its traditional first-weekend-of-December dates, the Val d’Orcia celebrates the year’s **new oil** at San Quirico’s early-December festival, the season’s olio nuovo and white truffles are both on the table, and the towns spend the month lit, garlanded and almost entirely local. Build the trip around food, museums and the festive calendar, and December pays for itself in atmosphere.`,
+        body: `December is Tuscany for people who want the region to themselves — and who understand the deal. Days are short and cold, some rural Tuscany is closed for winter, and the Duomo’s famous floor is back under its protective boards. In exchange: Siena’s **Mercato nel Campo** turns the Campo into a medieval market — in 2026 expanded to **five days, 4–8 December**, spanning the Immacolata holiday —, the Val d’Orcia celebrates the year’s **new oil** at San Quirico’s early-December festival, the season’s olio nuovo and white truffles are both on the table, and the towns spend the month lit, garlanded and almost entirely local. Build the trip around food, museums and the festive calendar, and December pays for itself in atmosphere.`,
       },
       {
         id: 'the-case-for-december',
@@ -5528,7 +5528,7 @@ The plan’s only fixed points are the two festival calendars — everything els
       {
         id: 'how-we-checked',
         heading: 'How we checked these details',
-        body: `Weather figures were checked in July 2026 against long-term climate averages; the Mercato nel Campo’s first-weekend-of-December tradition, scale and format against Siena’s official tourism information and recent editions; and the San Quirico d’Orcia Festa dell’Olio’s history (annual since 1993) and recent early-December dates (5–8 December in 2025) against the event’s published materials. **Neither event’s 2026 dates had been published at our check** — confirm both on official channels once winter programmes are announced. Public-holiday dates follow the fixed Italian calendar. The Duomo floor’s 2026 uncovering ended 15 November, per the Opera del Duomo’s published calendar. We have no affiliate relationship with any venue, event or festival named here; recommendations are editorial.`,
+        body: `Weather figures were checked in July 2026 against long-term climate averages; the Mercato nel Campo’s scale and format against Siena’s official tourism information and recent editions, and — re-checked **9 September 2026** against the Confcommercio Siena announcement and local press — its **2026 dates of 4–8 December (XIX edition), five days instead of the traditional three**, with published hours of 11:00–20:00 on Friday 4 and Monday 7 December and 08:00–20:00 on Saturday 5, Sunday 6 and Tuesday 8; and the San Quirico d’Orcia Festa dell’Olio’s history (annual since 1993) and recent early-December dates (5–8 December in 2025) against the event’s published materials. **The Festa dell’Olio’s 2026 dates had not been published at our check** — confirm on the town’s official channels once the winter programme is announced. Public-holiday dates follow the fixed Italian calendar. The Duomo floor’s 2026 uncovering ended 15 November, per the Opera del Duomo’s published calendar. We have no affiliate relationship with any venue, event or festival named here; recommendations are editorial.`,
       },
       {
         id: 'final-thoughts',
@@ -5539,7 +5539,7 @@ The plan’s only fixed points are the two festival calendars — everything els
     [
       { q: 'Is December a good time to visit Tuscany?', a: 'For food, atmosphere and empty cities, yes — it is the most local month of the year, with Siena’s Mercato nel Campo and the Val d’Orcia’s oil festival as anchors. For landscapes and terrace weather it is the wrong month: days are short, cold and sometimes wet.' },
       { q: 'What is the weather like in Tuscany in December?', a: 'Long-term averages show Siena around 9–10°C by day and 3°C at night with roughly eleven rain days; Florence runs slightly milder by day and near freezing overnight. Daylight is about nine hours, with sunset around 16:40. Snow is rare but possible.' },
-      { q: 'When is the Mercato nel Campo in Siena?', a: 'Traditionally the first weekend of December, when over 150 wooden stalls recreate the medieval Mercato Grande on Piazza del Campo. The 2026 dates had not been published at our July 2026 check — confirm on Siena’s official tourism channels.' },
+      { q: 'When is the Mercato nel Campo in Siena?', a: 'In 2026, from Friday 4 to Tuesday 8 December — five days instead of the traditional first-weekend three, spanning the Immacolata holiday — when over 150 wooden stalls recreate the medieval Mercato Grande on Piazza del Campo. Published hours: 11:00–20:00 on the Friday and Monday, 08:00–20:00 on Saturday, Sunday and Tuesday. Confirm on Siena’s official channels close to the date.' },
       { q: 'What is the Festa dell’Olio in San Quirico d’Orcia?', a: 'The Val d’Orcia’s celebration of the year’s new olive oil, held annually in early December since 1993, with guided tastings and producers selling direct; the 2025 edition ran 5–8 December. Confirm the 2026 dates on the town’s official channels.' },
       { q: 'Is the Siena Duomo floor visible in December 2026?', a: 'No — the 2026 uncovering window ended on 15 November and the protective boards are back. The cathedral complex remains open on winter hours and is at its quietest, but the floor itself waits for the next uncovering period.' },
       { q: 'What is closed in Tuscany in December?', a: 'Much of rural Tuscany runs winter rules: many agriturismi and countryside restaurants close or reduce to weekends, museums keep shorter winter hours, and 8, 25 and 26 December are public holidays with Sunday-style transport. City sights stay open — verify each venue’s current schedule.' },
@@ -6690,7 +6690,7 @@ The practical read for visitors: an August itinerary needs no strike contingency
 
 Two honest footnotes. The ban covers industrial action, not everything else that can disrupt travel — engineering works, weather and ordinary delays operate year-round, as the Florence rail-hub works of late July 2026 demonstrated to anyone routed around them. And local-transport sectors outside air and rail have their own calendars, so the ban is a strong shield rather than a total one. But as a planning fact it stands: **strike risk in Italy is seasonal, and late summer is its floor.**
 
-**And the floor has an end date: 5 September 2026.** The autumn calendar is already filling — as of our 9 August check, Italian strike-calendar reporting listed a 24-hour Trenitalia regional stoppage in Piedmont across 7–8 September (a reminder that regional strikes are regional: that one does not touch Tuscany), a 24-hour strike by security staff at Rome's Fiumicino and Ciampino airports on **10 September** — directly relevant if your Tuscany trip starts with [a Rome arrival](/blog/rome-to-siena-train-bus-2026/) — and, the month's headline, a **general strike across 25–26 September** with local public transport out from 8:00 to 21:00 on the 26th. New proclamations are added weekly, so treat that list as the early shape of the month, not the final one: the official calendar remains the only source that matters for your specific date. Travelling in September? Run the three-minute workflow this guide teaches, and expect to actually use it.`,
+**And the floor has an end date: 5 September 2026.** The autumn calendar filled fast — at our **9 September re-check**, Italian strike-calendar reporting showed the month opening with a **24-hour national rail strike across 7–8 September** (train crews at Trenitalia, Trenitalia Tper and Mercitalia, 21:18 on the 7th to 21:17 on the 8th — now past), and ahead: **13 September** strikes by airport staff at Rome's Fiumicino and Ciampino and at **Toscana Aeroporti — Florence and Pisa** — directly relevant to [a Rome arrival](/blog/rome-to-siena-train-bus-2026/) or a Tuscan one, with Tuscan airport staff also declining overtime **from 13 September to 12 October**; the month's headline, a **24-hour general strike on 26 September** called across all sectors from schools and health to transport and fuel stations; and an **air-transport strike on 30 September**. New proclamations are added weekly, so treat that list as the shape of the month, not the final word: the official calendar remains the only source that matters for your specific date. Travelling in September? Run the three-minute workflow this guide teaches, and expect to actually use it.`,
       },
       {
         id: 'fasce-di-garanzia',
@@ -6773,7 +6773,7 @@ In both cases the practical moves are identical: let the airline rebook you rath
       {
         id: 'how-we-checked',
         heading: 'How we checked these details',
-        body: `Checked at the end of July 2026: the summer strike ban’s 27 July–5 September span for the air and rail sectors, the guaranteed-window structure for regional and local transport (roughly 06:00–09:00 and 18:00–21:00, Monday–Saturday) and the existence of published guaranteed national train lists, against Italy’s essential-services framework as described by the strike-oversight and transport-ministry sources and the operators’ own strike pages; and the EU passenger-rights distinction — airline-staff strikes not qualifying as extraordinary circumstances, external strikes qualifying but preserving the duty of care — against the European courts’ established interpretation of the air passenger rights regulation. Individual strikes set their own hours and service levels: **always verify your specific date on the official calendar and your operator’s strike page.** The September 2026 proclamations cited (Piedmont rail 7–8, Rome airport security 10, the 25–26 general strike) reflect Italian strike-calendar reporting at our 9 August 2026 re-check; the autumn list will grow, and the official MIT calendar supersedes anything written here. We have no affiliate relationship with any operator, airline or claims service; recommendations are editorial.`,
+        body: `Checked at the end of July 2026: the summer strike ban’s 27 July–5 September span for the air and rail sectors, the guaranteed-window structure for regional and local transport (roughly 06:00–09:00 and 18:00–21:00, Monday–Saturday) and the existence of published guaranteed national train lists, against Italy’s essential-services framework as described by the strike-oversight and transport-ministry sources and the operators’ own strike pages; and the EU passenger-rights distinction — airline-staff strikes not qualifying as extraordinary circumstances, external strikes qualifying but preserving the duty of care — against the European courts’ established interpretation of the air passenger rights regulation. Individual strikes set their own hours and service levels: **always verify your specific date on the official calendar and your operator’s strike page.** The September 2026 proclamations cited (national rail 7–8, Rome and Tuscan airports 13 with the Tuscan overtime ban to 12 October, the general strike of 26 September, air transport on 30 September) reflect Italian strike-calendar reporting at our 9 September 2026 re-check, which superseded the 9 August list; the autumn list will grow, and the official MIT calendar supersedes anything written here. We have no affiliate relationship with any operator, airline or claims service; recommendations are editorial.`,
       },
       {
         id: 'final-thoughts',
@@ -12064,6 +12064,139 @@ This page is the list. Book the two or three that match your route — Acquachet
       imageAlt: 'Hand-rolled pici pasta with wild-boar ragù, the signature dish of the Sienese hills',
       canonicalPath: '/blog/where-to-eat-siena-day-trips',
       tags: ['food & drink', 'val d orcia', 'day trips', 'restaurants'],
+    }
+  ),
+
+
+  A(
+    'lucca-comics-and-games-2026-tuscany-guide',
+    'Lucca Comics & Games 2026: Lucca Is Already Full — Here Is How to Go Anyway',
+    'Things to do',
+    'Tuscany',
+    'Lucca Comics & Games 2026 runs 28 Oct–1 Nov, the 60th edition. Tickets, the 99%-booked centre, and the Pisa, Viareggio and Florence bases that still work.',
+    '/images/tuscany/puccini-festival-torre-del-lago-hero.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `**Lucca Comics & Games 2026 runs Wednesday 28 October to Sunday 1 November** — five days, the festival's **60th-anniversary "Legacy" edition**, and by every measure Europe's biggest comics, games and pop-culture gathering. If you are reading this in September, two facts govern everything else. **Tickets are on general sale now** (since 1 September, via TicketOne; the early-bird phase has closed): day tickets run **€26.50–€34.50** depending on the day, the **five-day pass is €95**. And **Lucca itself is essentially gone**: at the end of July, local reporting put the historic centre at **99% booked for the night of 31 October–1 November**, with single nights listed at close to **€2,000**.
+
+That is not a reason to skip it. It is a reason to do what the regulars do: **sleep somewhere else and ride the train in.** Pisa, Viareggio, Torre del Lago, Altopascio and Montecatini Terme all sit **20–30 minutes from Lucca station**, the railway runs extra "Comics Special" services for the festival, and even the busiest of those towns still had rooms at ordinary prices when Lucca had none. This guide is the Tuscany-side plan: how tickets work, which base to choose, how the trains and car parks behave, and how to fold the festival into an autumn trip that also includes [the golden month](/blog/tuscany-in-october-2026/) around it.
+
+One honest framing before the detail: we are a Siena- and Tuscany-focused travel site, not a comics site. We will not tell you which panels to queue for. We will tell you how to get a bed, a ticket and a train — which, for this event, is the harder half.`,
+      },
+      {
+        id: 'what-it-is',
+        heading: 'What you are signing up for',
+        body: `Lucca Comics & Games is not a convention hall with a city attached; it is **a walled Renaissance city taken over entirely** — pavilions in the squares, exhibitions in the palaces, cosplay on the ramparts, and a crowd that outnumbers the town's residents many times over. For four or five days the entire historic centre inside the walls becomes the venue, which is why it is unlike any comparable event elsewhere: you are not in a convention centre, you are in a sixteenth-century fortification full of people dressed as their favourite characters.
+
+The **2026 edition is the sixtieth**, branded "Legacy", and the anniversary framing is real: the organisers have built the programme around the festival's own history, and demand has been correspondingly high — the ticket phases and the accommodation figures below are both signs of a peak year.
+
+Two calendar collisions make 2026 sharper still. The festival's final day, **1 November, is a Sunday and Italy's All Saints holiday** (Ognissanti), so domestic travel is at holiday pitch across the whole weekend — trains fuller, roads busier, hotels pricier well beyond Lucca. And 1 November is also **the first Sunday of the month**, when Italy's state museums open free — a fact worth noting only because it means Florence and Pisa, your likely bases, will be busy with their own Sunday crowds while you are busy with yours.`,
+      },
+      {
+        id: 'tickets',
+        heading: 'Tickets: how they work in 2026',
+        body: `**Where and when.** General sale opened on **1 September 2026** on TicketOne, after an early-bird phase that has now closed. As at our check there was no sold-out announcement, but the pattern of past peak years is that the big days — the Saturday and the Sunday, and in 2026 the holiday Sunday above all — go first. If your dates are fixed, buy now rather than later.
+
+**What it costs.** Published prices at our check: **day tickets from €26.50 to €34.50** depending on the day, and a **five-day pass at €95** for the full festival. Multi-day options sit between. Prices are the organisers' figures as reported at sale opening — confirm the current tariff on TicketOne when you buy.
+
+**Ticket to wristband.** Entry is by wristband, and there are two routes to it. With the standard **print@home** ticket (downloaded from your TicketOne account or emailed), you **collect the wristband at a welcome desk in Lucca** — which means queuing on arrival, and on the busy days that queue is real. The alternative sold at purchase, **"skip the welcome desk"**, has the ticket and wristband **posted to your home** in advance. If you are travelling from abroad, weigh the postal timing against the queue: for a Saturday arrival the mailed wristband is worth a great deal.
+
+**One rule from the practical side:** buy the day you will actually be in Lucca, and match it to your base's train timetable before you commit — the two decisions belong together, and the section on bases explains why.`,
+      },
+      {
+        id: 'where-to-stay',
+        heading: 'Where to stay when Lucca is full',
+        body: `The accommodation picture, as reported by the regional press on **25 July 2026** for the peak night of 31 October–1 November, is the single most useful set of numbers in this article:
+
+| Base | Occupancy (peak night) | Price range reported | From Lucca station |
+|---|---|---|---|
+| **Lucca, historic centre** | **99%** | up to ~€2,000/night | — |
+| **Viareggio** | 89% | €100–€1,323 | 20–30 min by train |
+| **Pisa** | 77% | €86–€798 | 20–30 min by train |
+| **Montecatini Terme** | 72% | €87–€1,338 | 20–30 min by train |
+
+Those were July figures; by the time you read this, every number is worse. But the shape holds, and it tells you how to think.
+
+**Pisa is the sensible default.** The lowest occupancy of the three big alternatives, the lowest floor price, an airport, and **direct trains to Lucca**. It also has its own things to do for a non-festival travelling companion, and it connects onward to Florence and the coast. For most international visitors, Pisa is the answer.
+
+**Viareggio and Torre del Lago for the coast.** Viareggio is the beach-resort base — close, well served, but the first to fill after Lucca because it is the traditional overflow. **Torre del Lago**, Puccini's lakeside village between the two, is the quieter option on the same line — [our Puccini Festival guide](/blog/puccini-festival-torre-del-lago-2026-independent-traveller-guide/) covers the village out of season, and its railway logic applies here.
+
+**Montecatini Terme for value.** The spa town's hotel stock keeps rooms at ordinary prices when the coast is gone, and it sits on the Florence–Lucca railway.
+
+**Altopascio** is the wildcard — a small town on the same line, rarely full; if you find a room there, take it.
+
+**Florence works, with a caveat.** Direct trains from Santa Maria Novella reach Lucca, and Florence has the region's deepest bed stock — but it is a longer daily commute than the bases above, and on the Ognissanti weekend Florence is busy on its own account, with [the tourist tax and hotel arithmetic](/blog/florence-travel-budget-guide) to match. It is the right base for someone combining the festival with a Florence trip, not for a five-day festival regular.
+
+**And Siena?** Honestly, no: there is no direct rail link, and the journey involves changes that make the festival a single long day trip rather than a base. Do Lucca from the north and come south to [Siena](/siena-travel-guide) afterwards, when the festival crowds are gone and the [Duomo floor is still uncovered](/siena-cathedral-guide) until 15 November.`,
+      },
+      {
+        id: 'getting-in',
+        heading: 'Getting in and out: trains, buses, cars',
+        body: `**Train is the answer.** Direct regional trains run to **Lucca station** from both **Pisa Centrale** and **Florence Santa Maria Novella**, on cheap regional fares, and for the festival Trenitalia runs **extra "Comics Special" services** on top of the timetable. The station is close to the walls, an easy walk to the gates. The habits that matter: **buy and validate your regional ticket** (the rules in [our car-free guide](/blog/tuscany-without-a-car-2026/) apply across Tuscany), travel early on the big days because the morning trains toward Lucca fill, and **check the last train back to your base before you commit to the evening**, since the crowd leaving Lucca at closing time is the day's one real bottleneck. Note that timetables published for autumn may change with the seasonal revision; verify your specific day on Trenitalia close to the date.
+
+**Coaches from across Italy.** An organised coach network — *Eventi in Bus* — sells day return trips to the festival from well over a hundred Italian towns, either bus-only or **combined with a skip-the-line entry**. If you are coming from a city the trains serve poorly, this is the route the Italian regulars use.
+
+**Car, if you must.** The historic centre is walled and pedestrianised; you do not drive into Lucca during the festival. The organisers run **dedicated festival car parks on the edge of town — Polo Fiere is the main one — pre-booked online, with a free shuttle to the centre.** Book the parking slot when you book the tickets; on peak days the car parks are as finite as the beds. Everything [our Tuscany driving guide](/blog/renting-a-car-in-tuscany-2026/) says about ZTL cameras applies with extra force here.
+
+**Strike awareness.** Autumn is Italy's strike season, and [our strike guide](/blog/italy-transport-strikes-survival-guide-2026/) explains the mechanics. At our check the published autumn calendar had no rail strike on the festival dates, but proclamations are added weekly; check the official calendar in the week before you travel.`,
+      },
+      {
+        id: 'the-plan',
+        heading: 'A plan that works: the festival inside an autumn trip',
+        body: `The regulars' pattern, adapted for a visitor who wants Tuscany as well as the festival:
+
+**Choose your days by crowd, not by programme.** The weekdays are the festival's quieter days, and for a first-timer they are the ones where you actually see the city under the costumes; the weekend is the spectacle at full pitch, with the queues to match; the holiday Sunday is the peak. Two weekdays plus one weekend day is a good first visit; the five-day pass is for people who already know they are that person.
+
+**Base in Pisa, arrive Tuesday.** Settle in before the festival, ride the early train in each morning, and give one evening to Pisa itself — it is a real city with a real riverside, not just a tower.
+
+**Dress for October, not for the pictures.** Lucca's late-October days are mild and its nights are cold; rain is genuinely possible. [The autumn packing logic](/blog/what-to-wear-in-tuscany-in-september) shifts a layer warmer by the end of the month, and cosplayers in particular need a plan for evening temperatures on the walls.
+
+**Then go south.** When the festival ends on the Sunday, Tuscany's best week begins: the olive harvest under way, the wine harvest just finished, the crowds dropping daily, and the [Siena Duomo floor still uncovered](/siena-cathedral-guide) for two more weeks. [Tuscany in November](/blog/tuscany-in-november-2026/) is the plan for the days after the festival — truffles, new oil, and cities handed back to their residents. Comics and pop culture for five days, then the most local fortnight of the Tuscan year: as autumn itineraries go, it is hard to beat.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **9 September 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material — the festival's official site and ticket pages, TicketOne, the regional press and specialist reporting on the ticket launch — rather than pages we opened.
+
+**Verified:** the 2026 dates (**28 October–1 November**) and the 60th-anniversary "Legacy" edition; general ticket sale from **1 September 2026** on TicketOne after a closed early-bird phase; published prices of **€26.50–€34.50** for day tickets and **€95** for the five-day pass; the print@home ticket with wristband collection at a Lucca welcome desk, and the "skip the welcome desk" option with the wristband posted home; the accommodation figures reported by the regional press on **25 July 2026** — Lucca's historic centre at 99% occupancy for the night of 31 October–1 November with nights listed near €2,000, Viareggio 89% (€100–€1,323), Pisa 77% (€86–€798), Montecatini Terme 72% (€87–€1,338), and Pisa, Viareggio, Torre del Lago, Altopascio and Montecatini as bases 20–30 minutes from Lucca station; direct trains from Pisa Centrale and Florence SMN with Trenitalia's extra "Comics Special" services; the *Eventi in Bus* coach network with bus-only and bus-plus-entry combinations; and the pre-booked festival car parks (Polo Fiere) with free shuttle. That 1 November 2026 is a Sunday and the Ognissanti public holiday follows the fixed calendar.
+
+**Not established, and flagged in the text:** whether any day has sold out since sale opening; current accommodation availability, which has certainly tightened since the July figures; exact train frequencies and the Comics Special timetable, which we deliberately do not print — check Trenitalia close to your date; parking tariffs; and the festival programme itself, which is outside our remit.
+
+We have no commercial relationship with the festival, TicketOne, any transport operator or any accommodation named. Nothing on this page is bookable through us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Every year the same story runs in the Tuscan press: Lucca is full, the prices are absurd, and tens of thousands of people come anyway and have the time of their lives — because they worked out, years ago, that the festival is in Lucca but the bed does not have to be. The 2026 edition is the biggest version of that story yet: a sixtieth anniversary, a holiday-weekend finale, and a historic centre booked to the last room before the summer was out.
+
+So do the regulars' thing. Buy the ticket now, take the room in Pisa or Montecatini, learn the train, arrive on the quiet Wednesday, and let the walled city do what it does for five days a year. Then, when the costumes go home, stay: the Tuscany that begins on 2 November is the one the rest of this site is about.`,
+      },
+    ],
+    [
+      { q: 'When is Lucca Comics & Games 2026?', a: 'Wednesday 28 October to Sunday 1 November 2026 — five days, and the festival’s 60th-anniversary “Legacy” edition. The final day falls on Italy’s All Saints public holiday, a Sunday, which makes the closing weekend the year’s peak for crowds, trains and hotel prices across the whole region.' },
+      { q: 'How much are Lucca Comics 2026 tickets?', a: 'At sale opening on 1 September 2026, day tickets were published at €26.50–€34.50 depending on the day, with the five-day pass at €95, sold through TicketOne; the early-bird phase has closed. Choose print@home (collect your wristband at a Lucca welcome desk) or the “skip the welcome desk” option, which posts the wristband to your home. Confirm current prices and availability on TicketOne — busy days sell first.' },
+      { q: 'Where should I stay for Lucca Comics if Lucca is sold out?', a: 'Pisa is the sensible default — lowest occupancy and floor prices of the main alternatives in July’s reporting (77%, from €86), an airport, and direct trains to Lucca in 20–30 minutes. Viareggio and Torre del Lago serve the coast, Montecatini Terme offers spa-town hotel stock at ordinary prices, and Altopascio is the small-town wildcard closest of all. Florence works for those combining the festival with a city trip; Siena has no direct rail link and is not a practical base.' },
+      { q: 'How do you get to Lucca Comics by train?', a: 'Direct regional trains run to Lucca station from Pisa Centrale and Florence Santa Maria Novella, and Trenitalia adds extra “Comics Special” services for the festival. The station is an easy walk from the walls. Travel early on peak days, validate regional tickets, and check the last train back to your base before committing to the evening — the exodus at closing time is the day’s real bottleneck.' },
+      { q: 'Can you drive to Lucca Comics?', a: 'To the edge of town, not into it: the walled centre is pedestrianised for the festival. The organisers run dedicated pre-booked car parks — Polo Fiere is the main one — with a free shuttle to the centre. Book the parking slot when you buy tickets; on peak days the car parks fill like the hotels. Trains from Pisa, Florence or the coastal towns are simpler for almost everyone.' },
+      { q: 'Is Lucca Comics worth it for a non-fan travelling companion?', a: 'Yes, if you base somewhere with its own appeal — Pisa or Florence — and split days: the festival for the fan, the base city for the companion, and a shared evening in Lucca for the spectacle of a walled Renaissance city in full costume. Then head south together on 2 November for Tuscany’s quietest, most food-rich fortnight, with the Siena Duomo floor still uncovered until 15 November.' },
+    ],
+    '2026-09-15',
+    {
+      seoTitle: 'Lucca Comics & Games 2026: Tickets, Where to Stay When Lucca Is Full & Trains',
+      primaryKeyword: 'lucca comics 2026 where to stay',
+      secondaryKeywords: [
+        'lucca comics and games 2026 dates',
+        'lucca comics 2026 tickets price',
+        'lucca comics accommodation sold out pisa',
+        'lucca comics train from pisa florence',
+        'lucca comics 60th anniversary legacy',
+        'lucca comics parking polo fiere shuttle',
+      ],
+      imageAlt: 'The lakeside theatre at Torre del Lago, one of the overflow bases 20–30 minutes from Lucca by train',
+      canonicalPath: '/blog/lucca-comics-and-games-2026-tuscany-guide',
+      tags: ['lucca', 'events', 'autumn in tuscany', 'where to stay'],
     }
   ),
 
