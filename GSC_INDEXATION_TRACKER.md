@@ -146,6 +146,8 @@ Dua baris pertama sudah live saat batch ini dibuat (12–13 Agu); sisanya menyus
 | /blog/asciano-guide | 2026-09-13 |  |  |  |  |  |
 | /blog/where-to-eat-siena-day-trips | 2026-09-14 |  |  |  |  |  |
 | /blog/lucca-comics-and-games-2026-tuscany-guide | 2026-09-15 |  |  |  |  |  |
+| /blog/tuscany-white-truffle-season-2026 | 2026-09-16 |  |  |  |  |  |
+| /blog/radicofani-guide | 2026-09-17 |  |  |  |  |  |
 
 Catatan batch 3:
 - Halaman live yang berubah signifikan dan layak re-request saat deploy: homepage
@@ -261,6 +263,12 @@ Langkah 5xx yang tersisa (butuh akses GSC/Cloudflare, manual):
    Analytics → status 5xx) untuk user-agent Googlebot; ini konfigurasi zone,
    bukan repo.
 
+**Penutup (2026-09-09): baris "Server error (5xx)" terkonfirmasi HILANG dari
+GSC** — dicek langsung oleh pemilik di indexing report. Konsisten dengan
+sisi teknis: smoke produksi hijau tanpa putus sejak fix #110 (18 Agu), dan
+safety net 301 dari PR #70 live di produksi per 9 Sep dengan deploy yang
+tervalidasi smoke. Episode 5xx ditutup; tidak ada tindakan tersisa. Kalau
+baris itu muncul lagi dengan deteksi baru, mulai dari langkah 1 di atas.
 ---
 
 # Catatan GSC — 2026-09-09: ekspor Coverage (indeksasi) — temuan dan perbaikan
