@@ -261,3 +261,10 @@ Langkah 5xx yang tersisa (butuh akses GSC/Cloudflare, manual):
 3. Kalau berpola atau berlanjut → cek Cloudflare (Security → Events, dan
    Analytics → status 5xx) untuk user-agent Googlebot; ini konfigurasi zone,
    bukan repo.
+
+**Penutup (2026-09-09): baris "Server error (5xx)" terkonfirmasi HILANG dari
+GSC** — dicek langsung oleh pemilik di indexing report. Konsisten dengan
+sisi teknis: smoke produksi hijau tanpa putus sejak fix #110 (18 Agu), dan
+safety net 301 dari PR #70 live di produksi per 9 Sep dengan deploy yang
+tervalidasi smoke. Episode 5xx ditutup; tidak ada tindakan tersisa. Kalau
+baris itu muncul lagi dengan deteksi baru, mulai dari langkah 1 di atas.
