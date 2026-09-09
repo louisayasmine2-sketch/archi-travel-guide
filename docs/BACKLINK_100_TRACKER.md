@@ -160,6 +160,9 @@ conversation we do not open.
 
 ## 3. Tracker
 
+Tiers T1–T4 are defined in `docs/BACKLINK_PHASE2_TRAFFIC.md`, which
+reorders this programme by traffic value from 9 September 2026 onward.
+
 One row per approach. Keep it in this file (append; a merged row is a
 record, not a draft). Statuses: `researched → pitched → replied → linked`
 or `dead`. Date every transition. Add the linking URL when it lands, and
@@ -174,6 +177,16 @@ tick it against the monthly Search Console pull.
 | 5 | road.cc (L'Eroica features) | H cycling | L'Eroica guide | researched — send 2 Sept–1 Oct only | r:2026-08-25 | — |
 | 6 | BikeTips (L'Eroica ultimate guide) | H cycling | L'Eroica guide | researched — send 2 Sept–1 Oct only | r:2026-08-25 | — |
 | 7 | Out Of The Box Florence (Strade Bianche guide) | H cycling | L'Eroica guide | researched — send 2 Sept–1 Oct only | r:2026-08-25 | — |
+| 8 | Along Dusty Roads (Florence–Siena day-trip page) | T1 ranking page | Florence–Siena guide | researched — best sent October (timetable refresh) | r:2026-09-09 | — |
+| 9 | Rome Toolkit (Siena from Florence page) | T1 ranking page | Florence–Siena guide | researched | r:2026-09-09 | — |
+| 10 | Unseen Italy (Siena by bus guide) | T1 ranking page | Florence–Siena guide | researched | r:2026-09-09 | — |
+| 11 | Invitation to Tuscany (how to get to Siena) | T1 ranking page | Florence–Siena + airport transfer | researched | r:2026-09-09 | — |
+| 12 | GastroTravelogue (things to do in Siena) | T1 ranking page | things-to-do + cathedral guide | researched | r:2026-09-09 | — |
+| 13 | Savoring Italy (Siena complete guide) | T1 ranking page | Campo + cathedral guides | researched | r:2026-09-09 | — |
+| 14 | Guide to Italy (Palio 2026 guide) | T1 ranking page | contrade guide, Palio dates | researched — send May 2027 | r:2026-09-09 | — |
+| 15 | Elizabeth Minchilli's newsletter | T2 audience | next original (bottini / Bond) | researched — pitch on publish only | r:2026-09-09 | — |
+| 16 | Love to Visit Italy (Substack) | T2 audience | L'Eroica spectator guide (live now) | researched | r:2026-09-09 | — |
+| 17 | Feedspot Italy travel blogs list (free submission) | T3 listing | site | researched — free tier only | r:2026-09-09 | — |
 
 (Drafts for rows 1–4 are ready in `docs/PITCH_DRAFTS.md`. Numbering is
 permanent so progress is countable: `linked` rows ÷ 100 is the score.)
