@@ -147,6 +147,7 @@ Dua baris pertama sudah live saat batch ini dibuat (12–13 Agu); sisanya menyus
 | /blog/where-to-eat-siena-day-trips | 2026-09-14 |  |  |  |  |  |
 | /blog/lucca-comics-and-games-2026-tuscany-guide | 2026-09-15 |  |  |  |  |  |
 | /blog/tuscany-white-truffle-season-2026 | 2026-09-16 |  |  |  |  |  |
+| /blog/radicofani-guide | 2026-09-17 |  |  |  |  |  |
 
 Catatan batch 3:
 - Halaman live yang berubah signifikan dan layak re-request saat deploy: homepage

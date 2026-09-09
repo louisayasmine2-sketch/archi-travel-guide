@@ -9303,7 +9303,7 @@ The honest framing: Bagno Vignoni's paid tier is a **spa-day destination**, pric
       {
         id: 'bagni-san-filippo',
         heading: 'Bagni San Filippo: the free one that delivers',
-        body: `Seventeen kilometres further south, in the wooded folds under Monte Amiata, **Bagni San Filippo** is the spring the free-bathing rumours are actually about. The **Fosso Bianco** — the "white ditch" — is a stream in the forest below the village where thermal water at about **48°C at source** tumbles over decades of accumulated calcium-carbonate, building dazzling white terraces and warm pools among the trees. It is free, ungated, open year-round with no fixed hours, and bathing is what it is for.
+        body: `Seventeen kilometres further south, in the wooded folds under Monte Amiata, **Bagni San Filippo** is the spring the free-bathing rumours are actually about. (From here the Cassia runs on south to [Radicofani's fortress crag](/blog/radicofani-guide/), the valley's far end.) The **Fosso Bianco** — the "white ditch" — is a stream in the forest below the village where thermal water at about **48°C at source** tumbles over decades of accumulated calcium-carbonate, building dazzling white terraces and warm pools among the trees. It is free, ungated, open year-round with no fixed hours, and bathing is what it is for.
 
 The geometry is simple and worth knowing: **the pools nearest the source are the hottest**, cooling progressively downstream — so the upper pools fill first and the lower ones stay quieter and milder, a genuine choice rather than a compromise. The landmark is the **Balena Bianca**, the White Whale: a vast frozen cascade of mineral deposit that is the site's photograph and its most protected feature. **Climbing on the formation is banned** by municipal ordinance — for collapse and slip danger as much as conservation — and bathing in the pool directly beneath it is likewise off-limits, rules that press reports say visitors still test and staff still enforce.
 
@@ -9980,7 +9980,7 @@ Almost everything sold commercially, and almost everything worth walking on a fi
 
 **Ponte d'Arbia → San Quirico d'Orcia (Leg 35) — the Val d'Orcia entrance.** **26.25 km, about 6 hours**, delivering you into the postcard valley on foot, which is a very different experience from [driving its viewpoints](/blog/val-dorcia-day-trip-from-siena-2026/).
 
-**San Quirico d'Orcia → Radicofani (Leg 36) — the hardest stage in this comparison.** **33 km and roughly 7¼ hours**, officially rated *impegnativa* with around 900 m of ascent, finishing with a long, exposed gravel climb from the abandoned hospice of **Le Briccole** up to Radicofani at 790 m. Reserve it for fit walkers in good conditions, and never in high summer. (Beyond it, Leg 37 to Acquapendente opens with an 8 km ridge descent and leaves Tuscany at Ponte a Rigo.)`,
+**San Quirico d'Orcia → Radicofani (Leg 36) — the hardest stage in this comparison.** **33 km and roughly 7¼ hours**, officially rated *impegnativa* with around 900 m of ascent, finishing with a long, exposed gravel climb from the abandoned hospice of **Le Briccole** up to [Radicofani](/blog/radicofani-guide/) at 790 m. Reserve it for fit walkers in good conditions, and never in high summer. (Beyond it, Leg 37 to Acquapendente opens with an 8 km ridge descent and leaves Tuscany at Ponte a Rigo.)`,
       },
       {
         id: 'choose-by-time',
@@ -11762,7 +11762,7 @@ Three rules make the difference between the photograph and the disappointment:
 
 - **Go at the edges of the day.** The pull-offs are small and fill quickly from mid-morning through afternoon in season; golden hour is both the emptiest and the best light. This is [the same advice our driving guides give](/blog/renting-a-car-in-tuscany-2026/), and it matters most here.
 - **Respect the land.** The fields around the icons are working farms. Photograph from the road and the marked paths; do not walk crops for a better angle.
-- **Remember why it looks like this.** The valley was inscribed by **UNESCO in 2004 as a cultural landscape** — across the five comuni of San Quirico, Pienza, Montalcino, Castiglione d'Orcia and Radicofani — precisely because this is farmland shaped by centuries of deliberate human design, celebrated for its influence on Renaissance painters. The view is not scenery that happens to contain farms; it is farming that became scenery.
+- **Remember why it looks like this.** The valley was inscribed by **UNESCO in 2004 as a cultural landscape** — across the five comuni of San Quirico, Pienza, Montalcino, Castiglione d'Orcia and [Radicofani](/blog/radicofani-guide/) — precisely because this is farmland shaped by centuries of deliberate human design, celebrated for its influence on Renaissance painters. The view is not scenery that happens to contain farms; it is farming that became scenery.
 
 And when the light goes flat in the middle of the day — the hours when the viewpoints give least — that is exactly when the town itself, the church and the garden and the long lunch, gives most. Structure the day that way and San Quirico stops being a drive-through.`,
       },
@@ -12351,6 +12351,126 @@ So plan it like a season. Put a fair weekend in the diary — 14–15 November i
       imageAlt: 'The clay hills of the Crete Senesi, white truffle country around San Giovanni d’Asso',
       canonicalPath: '/blog/tuscany-white-truffle-season-2026',
       tags: ['white truffle', 'food & drink', 'november in tuscany', 'san miniato', 'crete senesi'],
+    }
+  ),
+
+
+  A(
+    'radicofani-guide',
+    'Radicofani: The Brigand’s Fortress at the End of Tuscany',
+    'Day trips',
+    'Tuscany',
+    'The fifth UNESCO Val d’Orcia town nobody visits: Ghino di Tacco’s fortress on its volcanic crag, the Medici post-house, and the Francigena’s hardest climb.',
+    '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `The Val d'Orcia was inscribed by UNESCO in 2004 across five municipalities. Four of them — [San Quirico](/blog/san-quirico-dorcia-guide/), Pienza, [Montalcino](/blog/montalcino-or-montepulciano-2026/), Castiglione — are on every itinerary. The fifth is **Radicofani**, and almost nobody goes, because it sits at the far southern end of the valley, some 800 metres up, on the last ridge before Tuscany becomes Lazio. That remoteness is the entire point. Radicofani is the **border fortress** of the Tuscan story: the crag from which a medieval brigand robbed the pilgrim road so memorably that **Dante and Boccaccio both wrote him down**, the post-house where **popes, Stendhal, the Marquis de Sade and Charles Dickens** all slept on the road to Rome, and the summit of the **Via Francigena's hardest Tuscan stage**.
+
+Practically: the fortress (**€5**, weekend openings, and a spring 2026 report of access trouble that means you confirm before driving up) gives you the Cassero museum, the underground passages, the ramparts and the tower with the widest view in the valley; the village below gives you the Medici post-house, a 1920s literary hotel and a romantic garden behind it; and the whole visit is **two hours**, best folded into a southern Val d'Orcia day with [the hot springs of Bagni San Filippo](/blog/bagno-vignoni-bagni-san-filippo-hot-springs/) under the same mountain. There is no direct bus from Siena. **You come by car, or you come on foot** — and the second option, as this guide explains, is how the place was designed to be reached.`,
+      },
+      {
+        id: 'ghino',
+        heading: 'The brigand two poets could not leave alone',
+        body: `Every fortress has a lord; Radicofani has a legend. In **1297 Ghino di Tacco**, a Sienese nobleman exiled from the city, seized the fortress and turned it into the base for a career of highway robbery along the Via Francigena below — the road every pilgrim, merchant, bishop and tax-farmer in Christendom used to reach Rome. He robbed with such style, and with such a sense of grievance, that he became the Robin Hood of the Val d'Orcia while still alive, and literature caught him twice.
+
+**Dante, first, and unforgivingly.** In *Purgatorio* VI, among the souls who died by violence, Dante meets **Benincasa da Laterina**, the Aretine judge who had sentenced Ghino's father and uncle to death in Siena — and who was later **beheaded in Rome by Ghino** in revenge. Dante gives the murder one line and Ghino no sympathy; for the poet of the *Commedia*, the brigand of Radicofani is the violence that keeps Italy from peace.
+
+**Boccaccio, a generation later, and completely charmed.** In the *Decameron*'s tenth day, second story, the fabulously rich **Abbot of Cluny**, his stomach ruined by Roman living, sets out for the baths of Siena and is waylaid by Ghino on the road below Radicofani. Ghino locks him in the fortress tower and, posing as a servant, feeds him nothing but **bread, dried beans and Vernaccia** for days — until the abbot's digestion, and his temper, are cured. Only then does Ghino reveal himself, explain that exile and poverty drove a nobleman to the road, and ask for a gift rather than take one. Boccaccio's Ghino is the "good brigand": the cure is real, the courtesy is real, and the reader finishes the story on the robber's side.
+
+Two of the greatest writers in the Italian language, two opposite verdicts, one crag. When you climb to the tower, you are standing in the room Boccaccio chose for the abbot's diet — and looking down at the road Dante's judge was riding when Ghino found him.`,
+      },
+      {
+        id: 'the-fortress',
+        heading: 'The fortress: a basalt crag with a museum inside',
+        body: `Radicofani's rock is not the soft clay of the valley below but **basalt — the plug of an ancient volcano**, rising black and steep from the ridge to a summit close to 900 metres. Nature built the fortress; people only improved it.
+
+The stronghold is **first documented in 973** and took shape around the year 1000 as a border stronghold on the pilgrim road — later a frontier post facing the Papal States, and therefore the most fought-over crag in the valley. What stands today is the fortification as rebuilt and restored over those centuries, and it is visited in three parts:
+
+- **The Cassero museum**, inside the keep, with archaeological finds from the Etruscan period to the sixteenth century displayed across the tower's floors.
+- **The underground passages and the ramparts**, with walkways along the walls that put the medieval military logic of the place under your feet.
+- **The tower top**, the reason to make the climb: the widest view in the Val d'Orcia, the whole UNESCO landscape laid out to the north, Monte Amiata filling the west, and Lazio beginning at the horizon.
+
+**The practical facts, stated with their caveat.** At our check the entry fee was **€5**, covering the courtyard and the climb to the top of the tower, with **weekend openings from 10:00** the published pattern. But a visitor report from **late May 2026 described access problems**, and a remote civic monument's hours are exactly the kind of fact that changes without notice. **Confirm the day's opening with the Radicofani tourist office before you drive up**; if the interior is closed, the walk up to the outer walls and the view from the crag are still worth the detour — but you should know that before committing the hour.`,
+      },
+      {
+        id: 'the-road-town',
+        heading: 'The road town: a Medici post-house and a literary hotel',
+        body: `Below the crag, Radicofani is a village of one long main street with the pilgrim road's two great institutions on it — one from the Grand Dukes, one from the 1920s.
+
+**The Posta Medicea.** A little outside the historic centre, on the Francigena's line, stands the **Osteria Grossa** — the great post-house begun in **1584** on the orders of Grand Duke **Ferdinando I de' Medici** and designed by the ducal architect **Bernardo Buontalenti**. It was the last Tuscan stop on the road to Rome, and its guest list is the history of European travel: **Popes Pius VI and Pius VII**, Grand Dukes Ferdinando I, Cosimo II and Leopold II, the poet **Thomas Gray**, the **Marquis de Sade**, **Stendhal**, **Chateaubriand** and **Charles Dickens** all slept here on their way south or north. Stand in front of it and count the centuries of complaint about Tuscan roads that were written at its tables.
+
+**Palazzo Luchini and the Bosco Isabella.** On the main street, the Luchini family's palazzo was partly converted in **1922** into an exclusive pension, and for a decade or two the remotest village in the Val d'Orcia hosted the Italian avant-garde: **Giorgio de Chirico, Curzio Malaparte, Ottone Rosai, Romano Bilenchi, Gabriele D'Annunzio**. Behind it, **Matilde Luchini and her father Odoardo** laid out the **Bosco Isabella**, a romantic, exotic garden across about **2.5 hectares** — a wooded, half-wild parkland with its own geometry hidden in it, and the best place in the village to spend the half-hour after the fortress in shade. It is the kind of thing you would never guess existed from the road, which is Radicofani in one sentence.
+
+Between the two, the street itself: stone houses, a couple of bars, the fountains the village is locally known for, and a silence that the four famous Val d'Orcia towns lost decades ago.`,
+      },
+      {
+        id: 'francigena',
+        heading: 'The Francigena’s hardest stage ends here',
+        body: `Radicofani was built to watch a road, and the road still comes — on foot, at the end of the day that every Via Francigena guide flags in red.
+
+**Leg 36, San Quirico d'Orcia to Radicofani**, is officially rated *impegnativa*: around **33 kilometres** with roughly **900 metres of ascent**, taking seven to eight and a half hours depending on whose data you trust, and finishing with a **long, exposed climb of about twelve kilometres** from the abandoned hospice of **Le Briccole** — Sigeric's *Abricula*, where the Archbishop of Canterbury slept in 990 — up to the village at about 800 metres. Walkers reach Radicofani in the state Boccaccio's abbot was in, and the village's hospitality tradition has never really stopped. [Our stage-by-stage Francigena guide](/blog/via-francigena-which-section-to-walk/) covers the leg in context, and its honest verdict stands: reserve it for a fit day in spring or autumn, never for July.
+
+**Leg 37, Radicofani to Acquapendente**, is the reward: one of the most scenic legs of the whole route, descending off the ridge into Lazio — **about 24 kilometres via Centeno** in roughly seven hours, or a longer variant via Proceno of almost 32. Tuscany's official Francigena, the 380-kilometre, fifteen-stage "Grande Itinerario Culturale", **ends at Radicofani**; take one more step downhill and you are walking out of the region.
+
+For non-walkers, the road gives the same lesson in miniature: the **Via Cassia** climbs through the empty upper valley toward the crag with the fortress visible for kilometres before you reach it — the exact sight that told medieval travellers Tuscany was ending. Arriving under that silhouette, by whatever means, is the visit's real first act.`,
+      },
+      {
+        id: 'practical',
+        heading: 'Getting there, sizing it honestly, pairing it well',
+        body: `**By car — the realistic way.** Radicofani sits above the **Via Cassia (SR2)** at the valley's far southern end, on the same road south from Siena that threads [San Quirico](/blog/san-quirico-dorcia-guide/) and Bagno Vignoni before climbing to the crag; from the motorway, the **A1 exits at Chiusi-Chianciano or Fabro** serve it. The historic centre is walked, not driven; follow the village's parking signs at the edge of town. [Our Tuscany driving guide](/blog/renting-a-car-in-tuscany-2026/) covers the rest.
+
+**By public transport — possible, not practical.** There is **no direct bus from Siena**. The published route is train or bus to **Chiusi station**, then the **FT9** (Chiusi–Sarteano–Radicofani) or **B24** (Abbadia San Salvatore–Radicofani–Sarteano) bus to the village stop on Via Luchini, a few minutes from the centre — a journey the planners put at **around three hours and twenty minutes** end to end with changes. Frequencies on lines this rural follow school-and-work logic; [verify your date on at-bus.it before relying on any of it](/blog/tuscany-without-a-car-2026/). For a car-free traveller, Radicofani is a Francigena arrival, not a day trip.
+
+**Sizing it.** Two hours covers fortress, street, post-house and garden at an unhurried pace; the climb to the crag and the view are the physical effort. It is not a destination day — it is the far end of one.
+
+**The pairing that works.** Radicofani is the natural southern anchor of a **southern Val d'Orcia day**: the fortress in the morning light, then back north to [**Bagni San Filippo**](/blog/bagno-vignoni-bagni-san-filippo-hot-springs/) — the free white-terraced hot spring in the woods under Monte Amiata — for the soak, [**San Quirico**](/blog/san-quirico-dorcia-guide/) for the long lunch, and [the postcard pull-offs](/blog/val-dorcia-day-trip-from-siena-2026/) at golden hour on the way home. In [the truffle weeks of November](/blog/tuscany-white-truffle-season-2026/) that day gains a fair; in [October](/blog/tuscany-in-october-2026/) it gains the light.
+
+**When.** Spring and autumn for the walk and the clarity; winter for the emptiest fortress in Tuscany and, on a clear day after rain, the sharpest view; high summer only early, before the basalt bakes.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **9 September 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material — the regional tourism board, the Val d'Orcia park and tourism offices, the fortress's own site, the Francigena's official leg pages and reference works on Dante and Boccaccio — rather than pages we opened.
+
+**Verified:** the fortress's first documentation in **973** and its origins around the year 1000 on a basalt crag near 900 metres; **Ghino di Tacco's seizure of the fortress in 1297**; Dante's placement of **Benincasa da Laterina** — the judge who condemned Ghino's father and uncle, later beheaded in Rome by Ghino — among the violently dead in *Purgatorio* VI; the *Decameron* tenth day, second story: the Abbot of Cluny, the tower, the diet of bread, dried beans and Vernaccia, the cure and the courtesy; the **Cassero museum** with finds from the Etruscan period to the sixteenth century, the underground passages, the rampart walkways and the tower climb; the **€5** entry covering courtyard and tower and the published weekend-from-10:00 pattern, alongside the **late-May 2026 report of access problems**; the **Posta Medicea** begun in **1584** for Ferdinando I to Buontalenti's design and its recorded guests (Pius VI, Pius VII, Ferdinando I, Cosimo II, Leopold II, Gray, de Sade, Stendhal, Chateaubriand, Dickens); **Palazzo Luchini's** 1922 pension and its guests (de Chirico, Malaparte, Rosai, Bilenchi, D'Annunzio); the **Bosco Isabella** of about 2.5 hectares laid out by Matilde and Odoardo Luchini; **Leg 36's** roughly 33 km, ~900 m ascent, *impegnativa* rating, Le Briccole (*Abricula*) finish and the seven-to-eight-and-a-half-hour range across sources; **Leg 37's** ~24 km via Centeno and ~32 km via Proceno; the Tuscan route's 380 km / 15 stages ending at Radicofani (from our Francigena guide's verification); the A1 exits at Chiusi-Chianciano and Fabro; the absence of a direct Siena bus, the **FT9 and B24** lines from Chiusi and Abbadia San Salvatore, the Via Luchini stop and the ~3h20 planner estimate; and the 2004 UNESCO inscription across the five comuni.
+
+**Stated with deliberate care:** the village's altitude, which route data and reference pages put between 790 and 814 metres — we say "about 800"; the fortress's current opening days and any 2026 access restrictions, which must be confirmed with the tourist office; bus frequencies, which we do not print; and the fortress's earliest origins, which are dated variously around the year 1000 by heritage sources.
+
+We have no commercial relationship with the fortress, the tourist office, any hotel or any transport operator named. Nothing on this page is bookable through us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `The Val d'Orcia sells itself as a painting, and the four famous towns are the painting's foreground. Radicofani is its frame — the black crag at the edge where the picture stops and the road goes on to Rome. Nobody photographs a frame. But stand on the tower and you understand the composition for the first time: the whole valley arranged below you exactly as the medieval traveller saw it, the mountain to the west, the border at your back, and a road that a robber once ruled so thoroughly that two poets argued about him for seven hundred years.
+
+Come by car for the view, or come on foot for the truth of it. Either way, confirm the fortress is open, bring the appetite Boccaccio's abbot had by the time he got here, and give the far end of the valley the two hours it has been waiting for since the pilgrims stopped coming.`,
+      },
+    ],
+    [
+      { q: 'Is Radicofani worth visiting?', a: 'Yes, as the two-hour far end of a southern Val d’Orcia day: the fortress on its volcanic crag has the widest view in the valley, a museum, underground passages and ramparts (€5 at our check, weekend openings — confirm before driving up), and the village below keeps the 1584 Medici post-house, a 1920s literary hotel and the Bosco Isabella garden. It is remote and quiet, which is the whole appeal; it is not a destination day on its own.' },
+      { q: 'Who was Ghino di Tacco?', a: 'A Sienese nobleman exiled from the city who seized Radicofani’s fortress in 1297 and robbed the Via Francigena below it — the Robin Hood of the Val d’Orcia. Dante puts his victim, the judge Benincasa da Laterina whom Ghino beheaded in Rome, among the violently dead in Purgatorio VI; Boccaccio, in the Decameron’s tenth day, makes him the gentleman-brigand who cures the Abbot of Cluny’s stomach with bread, beans and Vernaccia in the fortress tower.' },
+      { q: 'How do you get to Radicofani?', a: 'Realistically by car: it sits above the Via Cassia (SR2) at the valley’s far southern end, beyond San Quirico and Bagno Vignoni on the road south from Siena, or from the A1 via the Chiusi-Chianciano or Fabro exits. There is no direct bus from Siena — the route is via Chiusi station and the FT9 or B24 bus to the Via Luchini stop, around three hours twenty with changes, on rural frequencies you must verify on at-bus.it. On foot, it is the end of the Via Francigena’s hardest Tuscan stage.' },
+      { q: 'How hard is the Via Francigena stage to Radicofani?', a: 'The hardest in Tuscany: Leg 36 from San Quirico d’Orcia runs about 33 km with roughly 900 m of ascent, rated impegnativa, taking seven to eight and a half hours depending on the source, and ending with a long exposed climb of about twelve kilometres from the abandoned hospice of Le Briccole — Sigeric’s Abricula of 990 — up to the village at about 800 m. Walk it in spring or autumn, never in high summer.' },
+      { q: 'What is the Posta Medicea in Radicofani?', a: 'The great post-house — the Osteria Grossa — begun in 1584 on Grand Duke Ferdinando I’s orders to a design by Bernardo Buontalenti, the last Tuscan stop on the road to Rome. Its guests included Popes Pius VI and Pius VII, three Grand Dukes, Thomas Gray, the Marquis de Sade, Stendhal, Chateaubriand and Charles Dickens. It stands a short way outside the historic centre on the Francigena’s line.' },
+      { q: 'What should you combine Radicofani with?', a: 'A southern Val d’Orcia day: the fortress in the morning, the free white-terraced hot spring at Bagni San Filippo under Monte Amiata for a soak, San Quirico d’Orcia for the long lunch, and the valley’s postcard pull-offs at golden hour on the way back to Siena. In November the same day can take in the San Giovanni d’Asso or San Miniato truffle fairs; in October it gets the year’s best light.' },
+    ],
+    '2026-09-17',
+    {
+      seoTitle: 'Radicofani Guide 2026: Ghino di Tacco’s Fortress, the Posta Medicea & the Francigena Climb',
+      primaryKeyword: 'radicofani tuscany visit',
+      secondaryKeywords: [
+        'radicofani fortress ghino di tacco',
+        'radicofani rocca opening hours ticket',
+        'via francigena san quirico radicofani stage',
+        'posta medicea radicofani',
+        'bosco isabella radicofani',
+        'val d orcia unesco five towns',
+      ],
+      imageAlt: 'Cypress-lined farmland of the Val d’Orcia, the landscape Radicofani’s fortress overlooks from its crag',
+      canonicalPath: '/blog/radicofani-guide',
+      tags: ['day trips', 'val d orcia', 'via francigena', 'medieval history'],
     }
   ),
 
