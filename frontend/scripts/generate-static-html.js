@@ -66,6 +66,35 @@ const SHOW_SCHEDULED_CONTENT =
 const BUILD_NOW = process.env.SCHEDULED_CONTENT_NOW
   ? new Date(process.env.SCHEDULED_CONTENT_NOW)
   : new Date();
+
+// Publish state comes from src/data/articlesIndex.json, which the build chain
+// generates first by EVALUATING the store (the regex extractor below cannot
+// see options-overridden dates). A scheduled article gets no static file, no
+// sitemap entry and no link: Search Console's coverage export (2026-09-09)
+// showed 61 articles stuck in "Excluded by noindex" after being crawled early
+// as full pages whose client render then said noindex.
+const PUBLISH_STATE = (() => {
+  const file = path.join(ROOT, 'src/data/articlesIndex.json');
+  const live = new Set();
+  const scheduledPaths = new Set();
+  if (!fs.existsSync(file)) return { live, scheduledPaths, known: false };
+  for (const a of JSON.parse(fs.readFileSync(file, 'utf-8'))) {
+    const isLive = SHOW_SCHEDULED_CONTENT || Date.parse(a.publishedAt) <= BUILD_NOW.getTime();
+    if (isLive) live.add(a.slug);
+    else {
+      scheduledPaths.add(`/blog/${a.slug}`);
+      if (a.canonicalPath) scheduledPaths.add(a.canonicalPath.replace(/\/+$/, ''));
+    }
+  }
+  return { live, scheduledPaths, known: true };
+})();
+function isArticleLive(slug) {
+  return !PUBLISH_STATE.known || PUBLISH_STATE.live.has(slug);
+}
+function isScheduledPath(href) {
+  const p = String(href).split(/[?#]/)[0].replace(/\/+$/, '');
+  return PUBLISH_STATE.scheduledPaths.has(p);
+}
 const ARTICLE_SCHEMA_ROUTES = new Set([
   '/siena-travel-guide',
   '/where-to-stay-in-siena',
@@ -690,6 +719,9 @@ function inlineMarkdownToHtml(text = '') {
         ? 'sponsored noopener noreferrer'
         : 'nofollow noopener noreferrer';
       parts.push(`<a href="${safeHref}" target="_blank" rel="${rel}">${safeLabel}</a>`);
+    } else if (isScheduledPath(href)) {
+      // Not published yet: label only, so crawlers never learn the URL early.
+      parts.push(safeLabel);
     } else {
       parts.push(`<a href="${safeHref}">${safeLabel}</a>`);
     }
@@ -1173,7 +1205,12 @@ function main() {
   }
 
   const template = fs.readFileSync(INDEX_PATH, 'utf-8');
-  const routes = [...STATIC_ROUTES, ...sienaClusterRoutes(), ...extractArticles()];
+  // Scheduled articles get no file at all: with no SPA catch-all in _redirects
+  // and build/404.html present, their URLs answer 404 until the daily rebuild
+  // on their publish day creates them as new pages.
+  // (The regex extractor's objects carry path/canonicalPath, not slug — gate
+  // on the path, which PUBLISH_STATE.scheduledPaths lists in both forms.)
+  const routes = [...STATIC_ROUTES, ...sienaClusterRoutes(), ...extractArticles().filter((a) => !isScheduledPath(a.path) && !isScheduledPath(a.canonicalPath))];
 
   routes.forEach((route) => {
     const outPath = outputPathFor(route.path);
@@ -1181,7 +1218,21 @@ function main() {
     fs.writeFileSync(outPath, renderRoute(template, route), 'utf-8');
   });
 
-  console.log(`✓ Wrote static HTML fallback for ${routes.length} routes`);
+  // build/404.html: Cloudflare Pages serves it with a real 404 status for any
+  // path with no static file, now that _redirects carries no SPA catch-all.
+  // It is still the app shell, so a person lands on the React NotFound page;
+  // a crawler gets a 404 instead of a 200 that renders into noindex — which
+  // is how junk URLs were filling the "Excluded by noindex" bucket.
+  const notFound = {
+    ...page('/404', 'Page not found', "This page doesn't exist on Archi Travel Guide.", 'Not every road is paved.', [
+      'The page you were looking for does not exist, or it moved as the editorial index grew.',
+      'Start again from the home page or the travel guides.',
+    ]),
+    noindex: true,
+  };
+  fs.writeFileSync(path.join(BUILD_DIR, '404.html'), renderRoute(template, notFound), 'utf-8');
+
+  console.log(`✓ Wrote static HTML fallback for ${routes.length} routes (+ 404.html)`);
   console.log(`  SITE_URL = ${SITE_URL}`);
 }
 

@@ -21,9 +21,18 @@ into views only in proportion to how many people search for the thing
 ranked. A page at #1 for every English query about Siena cannot draw more
 readers than the number of people searching about Siena. That ceiling is
 a number we can measure but must not guess — it lives in Search Console
-(Performance → Queries → Impressions). **We have not seen that export
-yet; send it and this document gets a real ceiling instead of a stated
-unknown.** No search-volume figure will be printed here from memory.
+(Performance → Queries → Impressions). The Performance export has still
+not been sent. The **Coverage export (9 September 2026)** has, and it
+moves the goalposts before any link is earned: the site averaged **28
+impressions a day** over 2 July–4 September, **8 a day** in the last two
+weeks of that window, and Google indexes **64 URLs** of the ~120 it should —
+61 articles sit in "Excluded by noindex" because they were linked and
+crawled while still scheduled. That mechanism is fixed in the repo
+(`GSC_INDEXATION_TRACKER.md`, 9 September entry); recovery is a manual
+Request-indexing round. **Until indexation recovers, a backlink to an
+unindexed page is worth nothing**, so the indexing round comes first and
+this document's tiers second. No search-volume figure will be printed
+here from memory.
 
 **What 100k/day would actually require** is topical footprint, not link
 count: ranking across the head terms of Italy travel as a whole (Rome,

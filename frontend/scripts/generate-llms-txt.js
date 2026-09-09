@@ -47,6 +47,21 @@ const BUILD_NOW = process.env.SCHEDULED_CONTENT_NOW
   ? new Date(process.env.SCHEDULED_CONTENT_NOW)
   : new Date();
 
+// Publish state from src/data/articlesIndex.json (generated first in the
+// build chain by evaluating the store): scheduled articles must not be
+// announced anywhere before their day — see GSC_INDEXATION_TRACKER.md,
+// 2026-09-09 entry.
+const LIVE_SLUGS = (() => {
+  const file = path.join(ROOT, 'src/data/articlesIndex.json');
+  if (!fs.existsSync(file)) return null;
+  return new Set(
+    JSON.parse(fs.readFileSync(file, 'utf-8'))
+      .filter((a) => SHOW_SCHEDULED_CONTENT || Date.parse(a.publishedAt) <= BUILD_NOW.getTime())
+      .map((a) => a.slug)
+  );
+})();
+const isArticleLive = (slug) => LIVE_SLUGS === null || LIVE_SLUGS.has(slug);
+
 // Slugs whose /blog/ route 301s elsewhere (kept in sync with
 // generate-sitemap.js) — the canonical target appears instead.
 const REDIRECTED_SLUGS = new Set([
@@ -174,7 +189,7 @@ const START_HERE = [
 ];
 
 function render() {
-  const articles = extractArticles().filter((a) => !REDIRECTED_SLUGS.has(a.slug));
+  const articles = extractArticles().filter((a) => isArticleLive(a.slug)).filter((a) => !REDIRECTED_SLUGS.has(a.slug));
   const cluster = publishedClusterArticles();
 
   const guideLines = [
