@@ -5170,7 +5170,7 @@ Treat the 15 November boundary as hard when planning: after it, the cathedral re
       {
         id: 'truffle-month',
         heading: 'White truffle month: San Miniato’s three weekends',
-        body: `November is white truffle season in Tuscany, and its centre of gravity is San Miniato, the hill town midway between Florence and Pisa whose surrounding hills are serious truffle country. In 2026 the town’s **national white truffle market-exhibition runs across the last three weekends of November: 14–15, 21–22 and 28–29 November**, as checked in July 2026 against the event’s published dates.
+        body: `November is white truffle season in Tuscany — [our season guide covers the legal window, both fairs, prices and hunts](/blog/tuscany-white-truffle-season-2026/) — and its centre of gravity is San Miniato, the hill town midway between Florence and Pisa whose surrounding hills are serious truffle country. In 2026 the town’s **national white truffle market-exhibition runs across the last three weekends of November: 14–15, 21–22 and 28–29 November**, as checked in July 2026 against the event’s published dates.
 
 The format is a town-wide market: hunters and dealers selling the year’s tubers by weight, stalls and restaurants shaving them over everything from tagliolini to fried eggs, and the historic centre given over to the smell — which no photograph conveys and no first-timer forgets. San Miniato’s truffle pedigree is real: it was here in 1954 that hunter Arturo Gallerini unearthed a white truffle of 2,520 grams, still celebrated as one of the largest ever found, which was famously presented to US President Eisenhower.
 
@@ -7664,7 +7664,7 @@ The anticipation is real enough to have its own festivals: [San Quirico d’Orci
       {
         id: 'november-truffle',
         heading: 'November: white truffle month',
-        body: `November’s awaited food needs no cooking at all — a few grams of it shaved over tagliolini justify the month. **White truffle** season centres on November, and its Tuscan capital is **San Miniato**, whose national market-exhibition fills [the last three weekends of November 2026 (14–15, 21–22, 28–29)](/blog/tuscany-in-november-2026) with hunters, dealers, and a smell no photograph conveys.
+        body: `November’s awaited food needs no cooking at all — a few grams of it shaved over tagliolini justify the month. **White truffle** season centres on November ([the full season guide is here](/blog/tuscany-white-truffle-season-2026/)), and its Tuscan capital is **San Miniato**, whose national market-exhibition fills [the last three weekends of November 2026 (14–15, 21–22, 28–29)](/blog/tuscany-in-november-2026) with hunters, dealers, and a smell no photograph conveys.
 
 The affordable way in — the one we recommend — is a truffle *dish* rather than a truffle *purchase*: tagliolini al tartufo, eggs with shavings, the classic vehicles that let a restaurant’s buying skill work for you. The intense weeks also produce the year’s best truffle-hunting experiences, walked with a trifolau and his dog through the oak woods — book ahead, and treat November as the honest season rather than the year-round “truffle menus” tourism sometimes stages.
 
@@ -11340,7 +11340,7 @@ There is also an art-historical reason this landscape should look familiar. In t
 
 **→ Monte Oliveto Maggiore (20 min beyond Asciano).** The abbey in its cypress woods is the loop's set piece and gets its own section below.
 
-**→ San Giovanni d'Asso (15 min).** The truffle village — small castle, and in its cellars **Italy's first museum dedicated to the truffle**, 250 square metres under the vaults. If your dates land on the **second or third weekend of November**, the village's white-truffle festival is the crete at their most alive, and the [autumn food calendar](/blog/tuscan-food-calendar-seasonal-dishes/) puts it in context.
+**→ San Giovanni d'Asso (15 min).** The truffle village — small castle, and in its cellars **Italy's first museum dedicated to the truffle**, 250 square metres under the vaults. If your dates land on **7–8 or 14–15 November 2026**, the village's white-truffle fair — its 40th edition — is the crete at their most alive; [our white truffle season guide](/blog/tuscany-white-truffle-season-2026/) covers both Tuscan fairs, and the [autumn food calendar](/blog/tuscan-food-calendar-seasonal-dishes/) puts it in context.
 
 **→ [Buonconvento](/blog/buonconvento-guide/).** A walled brick market town on the old [Via Francigena](/blog/via-francigena-which-section-to-walk/) corridor, flat and walkable, good for the late lunch the hill villages struggle to provide. From here the fast road runs straight back to Siena — or on south into the Val d'Orcia if you are combining the two.
 
@@ -11390,7 +11390,7 @@ Whenever you come, **the hours matter more than the month**: this is a landscape
         heading: 'How we checked these details',
         body: `Checked **18 August 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material rather than pages we opened.
 
-**Verified:** the character and extent of the Crete Senesi across the comuni of Asciano, Buonconvento, Monteroni d'Arbia and Rapolano Terme; the *mattaione* clay as marine sediment of a sea of more than two million years ago, mixed with rock salt and chalk; the *biancane* (pale clay domes, named from the white soil and saline efflorescence) and *calanchi* (fan-like gully systems), concentrating in the **Deserto di Accona** near Asciano; the abbey of **Monte Oliveto Maggiore** and its Great Cloister cycle of **thirty-five frescoes of the life of St Benedict**, begun by **Luca Signorelli in 1497–1498** and continued by **Il Sodoma after 1505**; the abbey's published seasonal visiting pattern (roughly 9:00–12:00 and 15:00–18:00 in summer, shorter in winter, Sunday mornings to 12:30), from visitor guides; the **Treno Natura** heritage railway running since **1996** on the roughly **51 km Asciano–Monte Antico** line, with excursions from late March to late October, some steam-hauled, including truffle-festival services; the **Truffle Museum of San Giovanni d'Asso** as Italy's first museum dedicated to the truffle, in about 250 square metres of the castle cellars; and the village's **white-truffle festival across the second and third weekends of November**.
+**Verified:** the character and extent of the Crete Senesi across the comuni of Asciano, Buonconvento, Monteroni d'Arbia and Rapolano Terme; the *mattaione* clay as marine sediment of a sea of more than two million years ago, mixed with rock salt and chalk; the *biancane* (pale clay domes, named from the white soil and saline efflorescence) and *calanchi* (fan-like gully systems), concentrating in the **Deserto di Accona** near Asciano; the abbey of **Monte Oliveto Maggiore** and its Great Cloister cycle of **thirty-five frescoes of the life of St Benedict**, begun by **Luca Signorelli in 1497–1498** and continued by **Il Sodoma after 1505**; the abbey's published seasonal visiting pattern (roughly 9:00–12:00 and 15:00–18:00 in summer, shorter in winter, Sunday mornings to 12:30), from visitor guides; the **Treno Natura** heritage railway running since **1996** on the roughly **51 km Asciano–Monte Antico** line, with excursions from late March to late October, some steam-hauled, including truffle-festival services; the **Truffle Museum of San Giovanni d'Asso** as Italy's first museum dedicated to the truffle, in about 250 square metres of the castle cellars; and the village's **white-truffle fair on 7–8 and 14–15 November 2026** (its 40th edition, as confirmed at a 9 September 2026 re-check; an earlier version of this page said the second and third weekends).
 
 **Flagged as unconfirmed:** the abbey's admission arrangements, which none of our sources stated plainly — carry cash and expect free, donation or ticket; the abbey's exact current hours, which come from visitor guides rather than the abbey's own page; regular rail and bus timetables to Asciano and Buonconvento, which we deliberately do not print — check Trenitalia and at-bus.it for your date; current Treno Natura dates and fares, which are a yearly calendar to look up rather than a fact to store; and the Rapolano Terme baths' prices and hours, which we describe only as existing. The SP438 Lauretana's status as the classic viewpoint road is a widely repeated judgement we share, not a measured fact.
 
@@ -11410,7 +11410,7 @@ Go in the shoulder months, drive it at the edges of the day, eat wherever the tr
       { q: 'What is there to see at Monte Oliveto Maggiore?', a: 'The Great Cloister’s cycle of thirty-five frescoes of the life of St Benedict, begun by Luca Signorelli in 1497–1498 and continued by Il Sodoma after 1505 — one of the signature fresco cycles of the Italian Renaissance, in a working red-brick monastery amid cypress woods. Published hours run roughly 9:00–12:00 and 15:00–18:00 in summer with a real midday closure, shorter in winter; we could not confirm the admission arrangements, so carry cash and expect free, donation or ticketed.' },
       { q: 'Can you visit the Crete Senesi without a car?', a: 'Honestly, with difficulty — this landscape wants a car. The glorious exception is the Treno Natura, the heritage railway running since 1996 on the 51 km Asciano–Monte Antico line, with excursion dates from late March to late October, some steam-hauled. Treat it as an event to book from its yearly calendar, not a service to catch. Regular trains and buses reach the edge towns, but check Trenitalia and at-bus.it for your date rather than trusting any printed timetable.' },
       { q: 'When is the best time to visit the Crete Senesi?', a: 'Each season is a different planet: late spring for the green wheat over the clay, autumn — our pick — for ploughed grey hills, dawn fog pooling under the ridgetop farms and November truffles, winter for frost and emptiness, high summer only at the edges of the day, when the scorched clay is severe and shadeless. Whenever you come, the hours matter more than the month: the crete are flat at noon and extraordinary in raking light.' },
-      { q: 'What is the San Giovanni d’Asso truffle festival?', a: 'The Crete Senesi’s white-truffle celebration, held across the second and third weekends of November in the small village of San Giovanni d’Asso, whose castle cellars hold Italy’s first museum dedicated to the truffle, across about 250 square metres under the vaults. In festival season the Treno Natura has run services that make the train itself the way to arrive.' },
+      { q: 'What is the San Giovanni d’Asso truffle festival?', a: 'The Crete Senesi’s white-truffle fair — in 2026 its 40th edition, on 7–8 and 14–15 November — in the small village of San Giovanni d’Asso, whose castle cellars hold Italy’s first museum dedicated to the truffle, across about 250 square metres under the vaults. In festival season the Treno Natura has run services that make the train itself the way to arrive.' },
       { q: 'How long does a Crete Senesi loop take from Siena?', a: 'Half a day minimum, a full day comfortably: Siena to Asciano by the SP438 Lauretana ridge road, Monte Oliveto Maggiore (give the abbey ninety minutes), San Giovanni d’Asso, and back via walled Buonconvento — with Montaperti’s memorial pyramid as a first stop and Rapolano Terme’s thermal baths as the option most itineraries miss. On the first weekend of October, plan around L’Eroica, which puts thousands of vintage cyclists across exactly these roads.' },
     ],
     '2026-09-09',
@@ -11897,7 +11897,7 @@ Between the three sights, give the town itself its due: Corso Matteotti end to e
 
 **The classic driving loop.** [Our Crete Senesi guide](/blog/crete-senesi-guide/) builds it in full: out of Siena on the **SP438 Lauretana** with the Montaperti memorial as a first stop, coffee and the museum in Asciano, **Monte Oliveto Maggiore** given its ninety minutes, San Giovanni d'Asso and the truffle country beyond, and the return [through walled Buonconvento](/blog/buonconvento-guide/). Asciano's role in that day is the anchor at the top of the loop — the one stop with art, food and streets rather than views alone.
 
-**The event day.** Twice a year the calendar does the planning for you: a **Treno Natura** excursion date, when the heritage railway makes the journey itself the destination — check the current calendar rather than assuming — and [**L'Eroica** weekend](/blog/leroica-gaiole-in-chianti-2026/) at the start of October, when the white roads of the crete carry their vintage-cycling pageant and every town in the clay country, Asciano included, fills with wool jerseys and steel bicycles. Book beds well ahead for that one, and treat it as a spectacle to join rather than a quiet visit.`,
+**The event day.** Twice a year the calendar does the planning for you: a **Treno Natura** excursion date ([the November truffle-fair service](/blog/tuscany-white-truffle-season-2026/) above all), when the heritage railway makes the journey itself the destination — check the current calendar rather than assuming — and [**L'Eroica** weekend](/blog/leroica-gaiole-in-chianti-2026/) at the start of October, when the white roads of the crete carry their vintage-cycling pageant and every town in the clay country, Asciano included, fills with wool jerseys and steel bicycles. Book beds well ahead for that one, and treat it as a spectacle to join rather than a quiet visit.`,
       },
       {
         id: 'how-we-checked',
@@ -12153,7 +12153,7 @@ Those were July figures; by the time you read this, every number is worse. But t
 
 **Dress for October, not for the pictures.** Lucca's late-October days are mild and its nights are cold; rain is genuinely possible. [The autumn packing logic](/blog/what-to-wear-in-tuscany-in-september) shifts a layer warmer by the end of the month, and cosplayers in particular need a plan for evening temperatures on the walls.
 
-**Then go south.** When the festival ends on the Sunday, Tuscany's best week begins: the olive harvest under way, the wine harvest just finished, the crowds dropping daily, and the [Siena Duomo floor still uncovered](/siena-cathedral-guide) for two more weeks. [Tuscany in November](/blog/tuscany-in-november-2026/) is the plan for the days after the festival — truffles, new oil, and cities handed back to their residents. Comics and pop culture for five days, then the most local fortnight of the Tuscan year: as autumn itineraries go, it is hard to beat.`,
+**Then go south.** When the festival ends on the Sunday, Tuscany's best week begins: the olive harvest under way, the wine harvest just finished, the crowds dropping daily, and the [Siena Duomo floor still uncovered](/siena-cathedral-guide) for two more weeks. [Tuscany in November](/blog/tuscany-in-november-2026/) is the plan for the days after the festival — [the white truffle fairs](/blog/tuscany-white-truffle-season-2026/), new oil, and cities handed back to their residents. Comics and pop culture for five days, then the most local fortnight of the Tuscan year: as autumn itineraries go, it is hard to beat.`,
       },
       {
         id: 'how-we-checked',
@@ -12197,6 +12197,160 @@ So do the regulars' thing. Buy the ticket now, take the room in Pisa or Montecat
       imageAlt: 'The lakeside theatre at Torre del Lago, one of the overflow bases 20–30 minutes from Lucca by train',
       canonicalPath: '/blog/lucca-comics-and-games-2026-tuscany-guide',
       tags: ['lucca', 'events', 'autumn in tuscany', 'where to stay'],
+    }
+  ),
+
+
+  A(
+    'tuscany-white-truffle-season-2026',
+    'White Truffle Season in Tuscany 2026: Two Fairs, One Legal Window, and the Right Way to Eat It',
+    'Food & drink',
+    'Tuscany',
+    'Tuscany’s 2026 white truffle season: the 1 Oct–15 Jan legal window, San Miniato’s three November weekends, San Giovanni d’Asso’s fair, prices and hunts.',
+    '/images/siena/hidden-gems-siena-tuscany-hero.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Tuscany's white truffle season has a legal start date, two fairs with fixed 2026 dates, and a price that makes it the most expensive thing you will eat all year — which is exactly why it rewards planning. The essentials:
+
+- **The season is legal from 1 October to 15 January** in Tuscany, under the region's 2023 truffle law; in September, searching for *any* truffle is banned. November is the peak.
+- **San Miniato** — the national fair, the big one, midway between Florence and Pisa — runs its **55th edition across the last three weekends of November 2026: 14–15, 21–22 and 28–29**.
+- **San Giovanni d'Asso** — the Crete Senesi's village fair, the Siena-side one — runs its **40th edition on 7–8 and 14–15 November 2026**, in and around a castle that holds Italy's first truffle museum.
+- **The 2026 outlook, as of early September:** the Sienese truffle-hunters' association expects **very high quality with normal quantities**. Prices follow the weather; at the Alba fair's opening in October 2025 the trade was quoting **€4,000–4,500 per kilo**.
+- **The affordable way in is a dish, not a tuber**: tagliolini or eggs under a few grams of shavings turns a four-figure kilo price into a two-figure plate.
+
+Both fairs share one November weekend — **14–15** — which makes that the single best weekend of the Tuscan food year for anyone willing to cover ground. This guide explains how the season works, compares the two fairs honestly, decodes prices and buying, and covers the hunts, the dishes and the trip that fits around it all.`,
+      },
+      {
+        id: 'how-the-season-works',
+        heading: 'How the season actually works',
+        body: `The white truffle — *Tuber magnatum*, the pale, knobbly, ferociously aromatic one — cannot be farmed. It grows underground in symbiosis with the roots of certain trees — oaks, poplars, willows — in the right soils, is found only by trained dogs, and appears in quantities that depend almost entirely on the summer and autumn rain. That is why every season is a story and every year's prices are news.
+
+**Tuscany regulates the hunt tightly.** Under the regional truffle law of August 2023, white truffle may be searched for and harvested **from 1 October to 15 January**, region-wide; the old September start is gone, and **September is a closed month for every truffle species**, to let the soil recover. For a visitor this has one practical consequence: a "truffle hunt" booked for September cannot legally harvest a white truffle — it can only be a demonstration, however good the dog. **Book hunts from October onward**, and expect the real abundance from late October through November.
+
+**Why November peaks.** The tubers ripen as the autumn cools; the fairs are timed to the moment quantity and aroma coincide. By December the white truffle is in its tail and the gentler, cheaper **black winter truffle** takes over — [our January](/blog/tuscany-in-january-2027/) and [February](/blog/tuscany-in-february-2027/) guides follow that hand-over — and spring brings the modest *marzuolo*. Nothing else in the Tuscan food calendar is as compressed: [olio nuovo](/blog/tuscany-olive-harvest-olio-nuovo-2026/) gives you ten weeks; the white truffle gives you about six.
+
+**The 2026 season, as reported in early September.** The Sienese hunters' association (Tartufai Senesi) went into the autumn expecting an outstanding year for quality with quantities in the normal range, and local press headlined the same expectation for the Crete Senesi. Treat that as the industry's opening forecast rather than a promise — a dry October can still change the arithmetic — and we will update this page as the fairs report.`,
+      },
+      {
+        id: 'two-fairs',
+        heading: 'The two fairs, compared honestly',
+        body: `Tuscany's two great white-truffle fairs are different in scale, character and geography, and the choice between them is really a choice of base.
+
+| | **San Miniato** (Pisa province) | **San Giovanni d'Asso** (Crete Senesi) |
+|---|---|---|
+| 2026 dates | **14–15, 21–22, 28–29 November** | **7–8 and 14–15 November** |
+| Edition | 55th, national market-exhibition | 40th, the Crete Senesi's own |
+| Scale | A whole hill town given over to it | A village, a castle, a museum |
+| Setting | Midway between Florence and Pisa | Clay country south-east of Siena |
+| Best base | [Florence](/blog/florence-or-siena-which-to-visit-2026/) or Pisa | [Siena](/siena-travel-guide) |
+| Getting there | Train to San Miniato-Fucecchio, then shuttle; cars barred from the centre on fair weekends | Car via [the crete loop](/blog/crete-senesi-guide/), or the Treno Natura on its fair date |
+
+**San Miniato is the event.** The hills around this ridge town are among Italy's most productive white-truffle country — local dealers put the area at around a fifth to a quarter of the national harvest — and the fair reflects it: dealers' stalls, the smell that reaches you two streets away, restaurants shaving over everything from tagliolini to fried eggs, and the town's own legend of the **2,520-gram truffle** dug up here in 1954 and presented to President Eisenhower. For 2026 the organisers announced a renewed look, new displays and a dedicated space for the surrounding hill municipalities. On fair weekends **private cars cannot reach the historic centre and the shuttle bus is the way in** — follow the event's parking arrangements rather than improvising, and go early in the day. [Our November guide](/blog/tuscany-in-november-2026/) builds the weekend around it.
+
+**San Giovanni d'Asso is the place.** A small village in [the Crete Senesi](/blog/crete-senesi-guide/), whose castle cellars hold **Italy's first museum dedicated to the truffle** — about 250 square metres under the vaults — and whose fair fills the streets with stalls of local products and crafts and travelling performances. It is smaller, closer to the ground, and surrounded by the very clay the truffles come from; you can stand at a stall and see the hills the seller's dog worked that morning. In 2026 the **Treno Natura** heritage railway advertises a fair service for **Sunday 8 November**, arriving at the village station late morning with time for the castle and museum and an optional pro-loco lunch by reservation — on that one date the train itself is the way to arrive, and one of the best slow-travel days the region offers.
+
+**If you can only do one:** San Miniato for the full spectacle and the widest choice of dealers; San Giovanni d'Asso for intimacy, the museum and the landscape. **If you can do both**, the shared weekend of **14–15 November** — one fair on the Saturday, the other on the Sunday, with the drive across the region between — is the Tuscan food year's best two days.`,
+      },
+      {
+        id: 'prices-and-buying',
+        heading: 'Prices, and how to buy without regret',
+        body: `**The number first.** White truffle is sold by weight, and the trade quotes it by the kilo. At the opening of the Alba fair in October 2025 — the national benchmark — prices reached **€4,000–4,500 per kilo**; across recent seasons dealers describe a range of roughly **€2,000 to €6,000** depending on the year's harvest, and within a season the price moves with size, quality and demand, week by week. **That is the honest framing: there is no fixed price, and any figure you read — including these — describes a moment, not a rule.**
+
+**Do the gram arithmetic before you fall in love.** At €4,000 a kilo, a gram is €4. A restaurant shaving of a few grams over your pasta costs the kitchen a two-figure sum; a small whole tuber of 20–30 grams costs a three-figure one. This is why our standing advice is *eat it, don't buy it* unless you are cooking that evening and know your grams — the dish lets a restaurant's buying skill, storage and timing work for you.
+
+**If you do buy:**
+
+- **Buy at a fair, from a dealer with a stall and a name**, where the truffles are weighed in front of you. Ask the price per gram and the weight before agreeing.
+- **Judge by nose and firmness.** A good white truffle is firm all over and smells overwhelmingly of itself; soft spots and faint aroma are the warning signs.
+- **Eat it within days.** The aroma fades daily. Wrap it in paper, keep it cold, shave it raw — white truffle is never cooked — and plan the dinner before you plan the purchase.
+- **Skip "truffle oil".** [As our shopping guide explains](/blog/what-to-buy-in-tuscany-souvenirs/), the cheap ubiquitous version is aroma-compound flavouring that never met a truffle; preserved products from the fair dealers are the honest souvenir.
+
+**Value in the season:** black winter truffle, from December, is a different, gentler product at a fraction of the price — the right choice for the January cook who wants the ritual without the four-figure kilo.`,
+      },
+      {
+        id: 'eating-it',
+        heading: 'Eating it: the dishes and the restaurant strategy',
+        body: `White truffle is a raw seasoning, not an ingredient — it goes on at the table, shaved over something hot and simple enough not to compete. The Tuscan canon:
+
+- **Tagliolini al tartufo** — thin egg pasta, butter, shavings. The reference dish, and the one to order first.
+- **Uova al tartufo** — fried or soft-scrambled eggs under truffle. The connoisseur's choice, because nothing carries the aroma like warm egg yolk.
+- **Crostini and fonduta** — toasted bread or a soft cheese fondue as the vehicle, common at fair stalls.
+- **Risotto** — where a kitchen makes one, the shavings go on at the end.
+
+**The restaurant strategy** follows [the three rules from our day-trip restaurants guide](/blog/where-to-eat-siena-day-trips/): sit down early in the service, book the destination meals, order the town's dish. In truffle season add a fourth: **ask the price of the shaving before you order** — good restaurants quote it per gram or per portion, and the honest ones tell you without being asked. In Siena, [our city eating guide](/where-to-eat-in-siena) applies as always; in the fair towns, the fair-weekend restaurants are the season at full pitch and book up locally — reserve ahead.
+
+And put it in context: [the food calendar](/blog/tuscan-food-calendar-seasonal-dishes/) makes the case that **November is the one month when Tuscany's two greatest seasonal products peak together** — the white truffle over your pasta and [the new oil](/blog/tuscany-olive-harvest-olio-nuovo-2026/) poured raw over everything else. A food-first week can hold both without either feeling rushed.`,
+      },
+      {
+        id: 'hunting',
+        heading: 'Hunting with a trifolau and a dog',
+        body: `The season's best half-day is the one that starts before the market: a morning in the oak woods with a licensed hunter — a *tartufaio*, or *trifolau* in the northern word most visitors know — and a dog trained from puppyhood to find what no human can smell through soil. It is a walk, a lesson in how the landscape works, and usually a lunch built around whatever the dog turned up.
+
+**The legal calendar shapes the booking.** Because Tuscany closes all truffle searching in September and opens the white season on **1 October**, a hunt booked from **October to mid-January** can find and harvest white truffle; a hunt before that can only demonstrate. For the real thing — dog, digging, a tuber in your hand — **book for late October or November**, ideally on a fair weekend so the market completes the day.
+
+**Where the hunts are.** The San Miniato hills have the deepest bench of family operators, and some experiences collect guests from **San Miniato-Fucecchio railway station**, which makes a hunt a straightforward train day from Florence or Pisa; some autumn departures fold in a visit to the fair itself. The Crete Senesi have their own hunters — the association that forecast the 2026 season is theirs — reachable from a Siena base with a car.
+
+**How to choose.** Listings on [Viator](/go/viator) state the operator, group size, pickup point and cancellation window on the product page — the four things that matter — and the price tells you whether lunch and a tasting are included. Prefer the operator who names the hunter and the dog, states the harvest season plainly, and takes small groups; a hunt with fourteen people is a walk with a dog in it. *That is an affiliate link: if you book through it we may earn a commission, at no extra cost to you. It changes nothing about the advice — book directly with a farm if you find one you trust, and the day will be the same.*`,
+      },
+      {
+        id: 'the-trip',
+        heading: 'The trip that fits around the season',
+        body: `**Base by fair.** For San Miniato, base in **Florence or Pisa** — the town sits on the railway between them, and [the November guide's weekend plan](/blog/tuscany-in-november-2026/) runs from the Florence side. For San Giovanni d'Asso, base in **Siena** and give the fair day to [the whole Crete Senesi loop](/blog/crete-senesi-guide/): [Asciano's Lorenzetti](/blog/asciano-guide/) in the morning, the abbey, the fair for a late lunch, [Buonconvento's brick walls](/blog/buonconvento-guide/) on the way home.
+
+**The calendar around it, in 2026:**
+
+- **Late October** — the season's first real abundance; [Lucca Comics & Games](/blog/lucca-comics-and-games-2026-tuscany-guide/) ends on 1 November, and the truffle weeks are the natural next act for anyone coming south from it.
+- **7–8 November** — San Giovanni d'Asso's first weekend; the Treno Natura's fair service on the Sunday.
+- **14–15 November** — the shared weekend: both fairs running, and the [Siena Duomo floor's](/siena-cathedral-guide) final uncovered days before the boarding returns on the 15th.
+- **21–22 and 28–29 November** — San Miniato's second and third weekends, the olio nuovo at full strength alongside.
+- **December** — the tail of the white season, the black truffle's start, and [Siena's Mercato nel Campo](/blog/tuscany-in-december-2026/) over 4–8 December for those who linger.
+
+**Pack for it.** Truffle country in November is wet, cold and glorious in short bursts: a genuine waterproof, shoes with grip for muddy woods and wet cobbles, and layers for a dawn hunt that ends in a warm farmhouse. The rain that makes the year's truffles is the same rain that falls on your fair weekend; treat both as the deal.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **9 September 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material — the fairs' organisers and municipalities, the Tuscan hunters' associations, the Alba fair's reporting and specialist trade press — rather than pages we opened.
+
+**Verified:** Tuscany's legal white-truffle window of **1 October to 15 January** and the September closure for all species, under the regional truffle law of **2 August 2023, no. 36**; the **San Miniato** market-exhibition's **55th edition** on **14–15, 21–22 and 28–29 November 2026**, with its announced renewed displays and a dedicated space for the surrounding municipalities, and its fair-weekend car restriction with mandatory shuttle (from our earlier verification for the November guide); the **San Giovanni d'Asso** fair's **40th edition on 7, 8, 14 and 15 November 2026**, the Sienese hunters' association's early-September forecast of very high quality with normal quantities, the castle's truffle museum (Italy's first, about 250 square metres) from our Crete Senesi verification, and a **Treno Natura** fair service advertised for **8 November 2026** with a late-morning arrival, castle and museum time and an optional pro-loco lunch by reservation; the **€4,000–4,500 per kilo** quotations at the Alba fair's October 2025 opening and the trade's described **€2,000–6,000** seasonal range; the San Miniato area's **20–25% share** of national white-truffle production as stated by local dealers; the 1954 **2,520-gram** San Miniato truffle presented to President Eisenhower (from our November guide's verification); and the existence of truffle-hunting experiences collecting from **San Miniato-Fucecchio station**, some including a fair visit.
+
+**Stated with deliberate care:** prices, which describe a moment — the 2026 figures will be set by the harvest and are not knowable in September; the 2026 outlook, which is the industry's opening forecast; the Treno Natura's 2026 date and format, which come from an operator's listing rather than the railway's own calendar — confirm before building a day around it; and the production-share figure, which is a dealer's statement rather than an official statistic. **Not printed:** fair opening hours, shuttle timetables and hunt prices — confirm each on its official channel for your date.
+
+The Viator link above is an affiliate link and we may earn a commission if you book through it, at no extra cost to you. The fairs, associations, museums, dealers and railway named pay us nothing and have no say in this page.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Most of Tuscany's famous pleasures are available on demand. The white truffle is the exception: six legal weeks, two fair towns with fixed dates, a price set by the rain, and an aroma that no photograph, tin or "truffle oil" has ever managed to fake. That scarcity is the whole point — it is the one Tuscan food that still behaves like a season instead of a menu item.
+
+So plan it like a season. Put a fair weekend in the diary — 14–15 November if you want both — book a hunt for the legal window, arrive with the gram arithmetic already done, and order the tagliolini before you even think about buying a tuber. Then let the smell reach you two streets before the stalls do, and understand why a hill town closes its streets for three weekends a year to celebrate a fungus.`,
+      },
+    ],
+    [
+      { q: 'When is white truffle season in Tuscany?', a: 'Legally, from 1 October to 15 January under Tuscany’s 2023 regional truffle law, with September closed to all truffle searching. The practical peak is November, when both fairs run: San Miniato on 14–15, 21–22 and 28–29 November 2026, and San Giovanni d’Asso on 7–8 and 14–15 November 2026. By December the white truffle tails off and the cheaper black winter truffle takes over.' },
+      { q: 'When is the San Miniato truffle fair in 2026?', a: 'The 55th Mostra Mercato Nazionale del Tartufo Bianco runs across the last three weekends of November 2026 — 14–15, 21–22 and 28–29 — in San Miniato, midway between Florence and Pisa. On fair weekends private cars cannot reach the historic centre and a shuttle bus is the way in; arrive by train at San Miniato-Fucecchio and go early in the day.' },
+      { q: 'When is the San Giovanni d’Asso truffle fair in 2026?', a: 'The 40th Mostra Mercato del Tartufo Bianco delle Crete Senesi runs on 7–8 and 14–15 November 2026 in the village of San Giovanni d’Asso, south-east of Siena, whose castle holds Italy’s first truffle museum. A Treno Natura heritage-train service is advertised for Sunday 8 November — confirm it on the railway’s calendar before planning around it.' },
+      { q: 'How much does white truffle cost in 2026?', a: 'Nobody knows yet — the price is set by the harvest each autumn. The benchmarks: €4,000–4,500 per kilo at the Alba fair’s opening in October 2025, and a described seasonal range of roughly €2,000–6,000 per kilo across recent years. Per gram that is a few euros, so a restaurant shaving costs a two-figure sum and a small whole tuber a three-figure one. Eat it as a dish unless you are cooking that night.' },
+      { q: 'Can you go truffle hunting in Tuscany?', a: 'Yes — half-day hunts with a licensed hunter and trained dog, usually ending in lunch, run around San Miniato (several collect from San Miniato-Fucecchio station) and in the Crete Senesi. Book within the legal window, 1 October to 15 January, ideally late October or November: a September “hunt” can only demonstrate, because searching is closed that month. Listings on Viator state operator, group size, pickup and cancellation terms; prefer small groups that name the hunter.' },
+      { q: 'What is the best dish to order with white truffle?', a: 'Tagliolini al tartufo — thin egg pasta, butter and shavings — is the reference; eggs under truffle are the connoisseur’s choice, because warm yolk carries the aroma best. White truffle is always shaved raw at the table over something hot and simple. Ask the price of the shaving before you order, and reserve ahead on fair weekends, when the towns’ restaurants book up locally.' },
+    ],
+    '2026-09-16',
+    {
+      seoTitle: 'White Truffle Season Tuscany 2026: San Miniato & San Giovanni d’Asso Fairs, Prices, Hunts',
+      primaryKeyword: 'white truffle season tuscany 2026',
+      secondaryKeywords: [
+        'san miniato truffle festival 2026 dates',
+        'san giovanni d asso truffle fair 2026',
+        'white truffle price per kilo 2026',
+        'truffle hunting tuscany november',
+        'tuscany truffle season legal dates',
+        'treno natura truffle train',
+      ],
+      imageAlt: 'The clay hills of the Crete Senesi, white truffle country around San Giovanni d’Asso',
+      canonicalPath: '/blog/tuscany-white-truffle-season-2026',
+      tags: ['white truffle', 'food & drink', 'november in tuscany', 'san miniato', 'crete senesi'],
     }
   ),
 
