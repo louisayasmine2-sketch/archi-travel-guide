@@ -10,7 +10,7 @@ import SaveGuideButton from "@/components/common/SaveGuideButton";
 import { breadcrumbSchema, articleSchema, faqSchema } from "@/lib/schema";
 import { canonical } from "@/lib/seo";
 import { trackLeadSubmit } from "@/lib/analytics";
-import { findPublishedArticle, publishedBlogArticles } from "@/lib/publishedArticles";
+import { findPublishedArticle, publishedBlogArticles, isScheduledArticlePath } from "@/lib/publishedArticles";
 import { relatedArticles } from "@/lib/relatedArticles";
 import imageDimensions from "@/data/imageDimensions.json";
 import NotFound from "./NotFound";
@@ -53,6 +53,15 @@ const renderInlineMarkdown = (text, keyPrefix) => {
         // as SPA routes — a client-side <Link> navigation would land on the
         // 404 page. They need a real browser request, like external links.
         const isInternal = href.startsWith("/") && !href.startsWith("/go/");
+        // A link to an article that has not published yet renders as plain
+        // text until its day: the daily rebuild turns it into a link the
+        // moment the target goes live, and crawlers never see the URL while
+        // it still serves the noindex scheduled-draft page.
+        if (isInternal && isScheduledArticlePath(href)) {
+          parts.push(<span key={`${keyPrefix}-pending-${match.index}`}>{label}</span>);
+          lastIndex = match.index + token.length;
+          continue;
+        }
         parts.push(
           isInternal ? (
             <Link key={`${keyPrefix}-link-${match.index}`} to={href}>

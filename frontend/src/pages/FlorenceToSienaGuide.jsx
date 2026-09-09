@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { isScheduledArticlePath } from "@/lib/publishedArticles";
 import { ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
@@ -148,6 +149,9 @@ function renderInline(text, position) {
           {label}
         </a>
       );
+    } else if (isScheduledArticlePath(href)) {
+      // Not published yet: plain text until its day (see lib/publishedArticles).
+      parts.push(<span key={`${position}-${match.index}`}>{label}</span>);
     } else {
       parts.push(
         <Link key={`${position}-${match.index}`} to={href}>

@@ -260,3 +260,116 @@ Langkah 5xx yang tersisa (butuh akses GSC/Cloudflare, manual):
 3. Kalau berpola atau berlanjut → cek Cloudflare (Security → Events, dan
    Analytics → status 5xx) untuk user-agent Googlebot; ini konfigurasi zone,
    bukan repo.
+
+---
+
+# Catatan GSC — 2026-09-09: ekspor Coverage (indeksasi) — temuan dan perbaikan
+
+Ekspor Coverage dari Search Console (Chart + Critical issues, 2 Jul–4 Sep 2026)
+dianalisis di repo. Ini laporan indeksasi, bukan Performance/Queries — data
+kueri dan klik per halaman masih belum ada (lihat "Yang masih dibutuhkan").
+
+## Angka mentah
+
+| Tanggal | Terindeks | Tidak terindeks | Impressions/hari |
+|---|---:|---:|---:|
+| 10 Jul | 27 | 36 | 21 |
+| 11–24 Jul | 100 | 153 | 3–232 (puncak 19 Jul: 232) |
+| 25 Jul | 74 | 200 | 54 |
+| 6 Agu | 67 | 207 | 32 |
+| 22 Agu–4 Sep | 64 | 210 | 3–16 |
+
+Total 65 hari: 1.817 impressions, rata-rata 28/hari; 14 hari terakhir
+rata-rata 8/hari. Saat ini 96 artikel sudah terbit + ~24 route statis, tapi
+hanya 64 URL terindeks. **Indeks turun sementara konten bertambah** — ini
+masalah nomor satu situs, di atas backlink dan performa.
+
+Alasan "tidak terindeks" (210):
+
+| Alasan | Halaman | Bacaan |
+|---|---:|---|
+| Page with redirect (validasi: gagal) | 123 | Sebagian besar wajar: URL warisan B&B, slug lama ejaan Amerika (rename 25 Jul), dan varian tanpa slash → semuanya memang harus redirect. "Validation failed" terjadi karena Google mengecek ulang dan masih menemukan redirect — untuk URL yang seharusnya redirect, itu bukan kegagalan. |
+| **Excluded by 'noindex' tag** | **61** | **Bocornya indeks.** Lihat mekanisme di bawah. |
+| Crawled – currently not indexed | 10 | Sinyal kualitas/duplikasi; butuh daftar URL untuk diagnosis. |
+| Redirect error | 6 | Rantai/loop; butuh daftar URL. |
+| Alternate page with proper canonical | 5 | Wajar (varian tanpa slash). |
+| Blocked by robots.txt | 4 | Wajar: `Disallow: /go/`. |
+| Server error (5xx) | 1 | Lihat catatan 17 Agu; butuh URL + tanggal crawl. |
+
+## Mekanisme kebocoran 61 "noindex" (terkonfirmasi dari kode dan build)
+
+Tiga hal terjadi bersamaan untuk setiap artikel terjadwal di `articles.js`:
+
+1. `generate-static-html.js` membangun halaman statis **penuh** untuk artikel
+   yang belum terbit (verifikasi di build 9 Sep: `/blog/asciano-guide/`,
+   terbit 13 Sep, sudah punya h1 + 38 paragraf dan `robots: index,follow`).
+   Logika "scheduled-draft noindex" yang ada hanya berlaku untuk cluster
+   Siena, bukan untuk store artikel utama.
+2. `generate-sitemap.js` **memasukkan artikel terjadwal ke sitemap** (3 dari 6
+   yang terjadwal ada di sitemap build ini) — Google diundang langsung.
+3. Artikel yang sudah terbit me-link ke artikel terjadwal (scanner mencatatnya
+   sebagai info "internal link to a SCHEDULED article").
+
+Googlebot merayapi URL itu, membaca HTML mentah "index,follow" berisi konten
+penuh, lalu merender JavaScript: SPA melihat artikel belum terbit → halaman
+NotFound → `noindex`. Hasil render yang menang, URL masuk bucket "Excluded by
+noindex". Setelah terbit, Google merayapi ulang URL ber-noindex dengan
+prioritas rendah — berminggu-minggu.
+
+Sejak 20 Juli ada **61 artikel terbit** — angka yang sama persis dengan 61
+halaman ber-noindex di laporan. Build saat ini hanya punya 2 halaman noindex
+yang disengaja (`/destinations`, `/travel-deals`).
+
+Penurunan impressions dari puncak 19–24 Jul bertepatan dengan rename slug dan
+perubahan canonical 25 Jul (fix/seo): ranking awal URL lama hilang, URL baru
+belum terindeks ulang. Pelajaran permanen: **jangan rename slug lagi.**
+
+## Perbaikan yang dikirim (branch `seo/scheduled-link-gating`)
+
+Lima perubahan, semuanya membuat Google **tidak pernah melihat URL artikel
+sebelum hari terbitnya**:
+
+1. **Tidak ada file statis untuk artikel terjadwal** (`generate-static-html.js`
+   membaca status terbit dari `articlesIndex.json`, hasil evaluasi store —
+   bukan regex). Urutan build diubah: index dibangun *sebelum* sitemap.
+2. **Sitemap dan llms.txt hanya memuat artikel yang sudah terbit.**
+3. **Link ke artikel terjadwal dicetak sebagai teks biasa** di semua renderer:
+   `Article.jsx` dan `FlorenceToSienaGuide.jsx` (helper
+   `isScheduledArticlePath` di `lib/publishedArticles.js`), fallback statis di
+   generator, dan cluster Siena (sudah ada sejak awal). Rebuild harian
+   mengubahnya jadi link tepat di hari terbit.
+4. **URL yang tidak ada menjawab 404 sungguhan**: catch-all `/* /index.html 200`
+   dihapus dari `_redirects`, generator menulis `build/404.html` (masih shell
+   aplikasi, jadi manusia tetap mendapat halaman NotFound React). URL sampah
+   dan artikel terjadwal tidak lagi jadi 200+noindex.
+5. **Enam "Redirect error"** = tiga slug pensiun yang hanya di-redirect di sisi
+   klien (App.js `Navigate`) tanpa aturan server — kini ada di `_redirects`.
+
+## Yang harus kamu lakukan (manual, GSC)
+
+1. **Request indexing** untuk artikel yang terbit sejak 20 Juli, mulai dari
+   yang bernilai traffic tertinggi. Kuota ±10 URL/hari; urutan hari pertama:
+   `/florence-to-siena-by-train-or-bus/`, `/blog/siena-ztl-fines-how-to-avoid/`,
+   `/blog/siena-parking-and-transfer-guide/`, `/blog/best-things-to-do-in-florence/`,
+   `/blog/best-hotels-in-siena/`, `/blog/palio-di-siena-guide/`,
+   `/blog/best-time-to-visit-tuscany/`, `/blog/siena-from-florence-airport-transfer/`,
+   `/blog/renting-a-car-in-tuscany-2026/`, `/blog/rome-to-siena-train-bus-2026/`.
+   Lanjutkan hari berikutnya dengan sisa 51 (daftar lengkap: semua artikel
+   dengan `publishedAt` ≥ 2026-07-20 di `articlesIndex.json`).
+2. Di laporan Pages, klik "Excluded by 'noindex' tag" → **Validate fix** setelah
+   URL-URL di atas direquest — ini memberi Google alasan merayapi ulang seluruh
+   bucket.
+3. **Ekspor daftar URL** untuk empat alasan yang belum bisa didiagnosis dari
+   repo: "Crawled – currently not indexed" (10), "Redirect error" (6),
+   "Server error (5xx)" (1), dan "Excluded by noindex" (61, untuk memastikan
+   hipotesis). Klik alasannya → tombol Export. Kirim ke sesi berikutnya.
+4. **Ekspor Performance → Queries** (3 bulan) dan **Links → Top linking
+   sites** — masih belum pernah diterima; tanpa itu target traffic apa pun
+   tidak punya dasar.
+
+## Cara membaca hasilnya
+
+Tiga angka mingguan: halaman terindeks (harus naik dari 64 menuju ~120),
+"Excluded by noindex" (harus turun dari 61 menuju 2), dan impressions/hari
+(harus pulih melewati puncak Juli). Kalau terindeks naik tapi impressions
+tidak, masalahnya kualitas/permintaan — bukan lagi indeksasi.

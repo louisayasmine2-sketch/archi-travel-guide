@@ -45,6 +45,15 @@
 # so the two competed as duplicates. /things-to-do-in-siena/ is the canonical route.
 /blog/best-things-to-do-in-siena                          /things-to-do-in-siena/ 301
 /blog/best-things-to-do-in-siena/                         /things-to-do-in-siena/ 301
+# Retired slugs that App.js also redirects client-side. Without these server
+# rules Googlebot received a 200 shell followed by a JavaScript redirect and
+# filed all six URLs under "Redirect error" (Search Console, 2026-09-09).
+/blog/siena-day-trip-from-florence                        /siena-day-trip-from-florence/ 301
+/blog/siena-day-trip-from-florence/                       /siena-day-trip-from-florence/ 301
+/blog/siena-food-that-fits-a-budget                       /blog/best-restaurants-siena-italy/ 301
+/blog/siena-food-that-fits-a-budget/                      /blog/best-restaurants-siena-italy/ 301
+/blog/siena-budget-and-meal-planning                      /blog/siena-travel-cost-2026/ 301
+/blog/siena-budget-and-meal-planning/                     /blog/siena-travel-cost-2026/ 301
 
 # American-spelled slugs served real content before the canonical fix, so they
 # may be crawled. 301 here rather than relying on the in-app <Navigate>, which
@@ -77,4 +86,8 @@
 /it/*    / 301
 /*.html  / 301
 
-/*                                                       /index.html 200
+# No SPA catch-all rewrite. Every real route ships as a static file
+# (scripts/generate-static-html.js), retired slugs redirect above, and the
+# generator also writes build/404.html — so an unknown URL answers a real 404
+# instead of a 200 shell that crawlers file under "Excluded by noindex"
+# (Search Console coverage export, 2026-09-09).

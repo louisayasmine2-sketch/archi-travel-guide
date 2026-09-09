@@ -31,3 +31,22 @@ export function publishedBlogArticles(now = Date.now()) {
 export function findPublishedArticle(slug, now = Date.now()) {
   return publishedArticles(now).find((a) => a.slug === slug) || null;
 }
+
+// True for an internal href that points at an article the index knows about
+// but which has NOT published yet. Renderers print such links as plain text
+// until the day they resolve, so crawlers never discover a URL while it still
+// serves the noindex scheduled-draft page. Search Console (coverage export,
+// 2026-09-09) showed 61 pages stuck in "Excluded by noindex" exactly this
+// way: linked before publish, crawled as noindex, then recrawled only weeks
+// after going live. Query strings and fragments are ignored; both the /blog/
+// slug form and a custom canonicalPath are recognised.
+export function isScheduledArticlePath(href, now = Date.now()) {
+  if (!href || !href.startsWith("/")) return false;
+  const path = href.split(/[?#]/)[0].replace(/\/+$/, "");
+  const slug = path.startsWith("/blog/") ? path.slice("/blog/".length) : null;
+  return articlesIndex.some((a) => {
+    const cp = (a.canonicalPath || "").replace(/\/+$/, "");
+    const matches = (slug !== null && a.slug === slug) || (cp !== "" && cp === path);
+    return matches && !isLive(a, now);
+  });
+}

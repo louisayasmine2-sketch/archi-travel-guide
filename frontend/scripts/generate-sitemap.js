@@ -54,6 +54,35 @@ const BUILD_NOW = process.env.SCHEDULED_CONTENT_NOW
   ? new Date(process.env.SCHEDULED_CONTENT_NOW)
   : new Date();
 
+// Publish state comes from src/data/articlesIndex.json, which the build chain
+// generates first by EVALUATING the store (the regex extractor below cannot
+// see options-overridden dates). A scheduled article gets no static file, no
+// sitemap entry and no link: Search Console's coverage export (2026-09-09)
+// showed 61 articles stuck in "Excluded by noindex" after being crawled early
+// as full pages whose client render then said noindex.
+const PUBLISH_STATE = (() => {
+  const file = path.join(ROOT, 'src/data/articlesIndex.json');
+  const live = new Set();
+  const scheduledPaths = new Set();
+  if (!fs.existsSync(file)) return { live, scheduledPaths, known: false };
+  for (const a of JSON.parse(fs.readFileSync(file, 'utf-8'))) {
+    const isLive = SHOW_SCHEDULED_CONTENT || Date.parse(a.publishedAt) <= BUILD_NOW.getTime();
+    if (isLive) live.add(a.slug);
+    else {
+      scheduledPaths.add(`/blog/${a.slug}`);
+      if (a.canonicalPath) scheduledPaths.add(a.canonicalPath.replace(/\/+$/, ''));
+    }
+  }
+  return { live, scheduledPaths, known: true };
+})();
+function isArticleLive(slug) {
+  return !PUBLISH_STATE.known || PUBLISH_STATE.live.has(slug);
+}
+function isScheduledPath(href) {
+  const p = String(href).split(/[?#]/)[0].replace(/\/+$/, '');
+  return PUBLISH_STATE.scheduledPaths.has(p);
+}
+
 // --- Static route table ---------------------------------------------------
 const staticRoutes = [
   { path: '/',                                   changefreq: 'weekly',  priority: 1.0 },
@@ -263,7 +292,9 @@ function render() {
     'siena-day-trip-from-florence',
   ]);
 
-  const articleRoutes = extractArticles().filter((a) => !redirectedArticleSlugs.has(a.slug)).map((a) => ({
+  const articleRoutes = extractArticles()
+    .filter((a) => !redirectedArticleSlugs.has(a.slug) && isArticleLive(a.slug))
+    .map((a) => ({
     path: a.canonicalPath || `/blog/${a.slug}`,
     changefreq: 'monthly',
     priority: 0.75,
