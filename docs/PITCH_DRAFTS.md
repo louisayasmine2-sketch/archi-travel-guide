@@ -170,6 +170,31 @@ the specific page of theirs.
 >
 > [your name], Siena
 
+## 6. Tier 1 — a page that already ranks for our query (rows 8–14)
+
+The highest-value pitch in the programme, and the one that must be
+earned page by page: open their page, find the specific thing our dated
+layer adds or corrects (a bus line number, a fee, a ZTL rule, a date), and
+offer exactly that. If you cannot name the specific improvement, do not
+send — a ranking page's author gets pitched daily and deletes the generic
+ones unread.
+
+> **Subject:** one dated detail for your [Florence to Siena / Siena] page
+>
+> Hi — I run Archi Travel Guide, written from Siena. Your [page] is the
+> one I'd send a friend, so this is offered in that spirit: [the specific
+> fact — e.g. "the 131R now leaves from the bay behind Santa Maria
+> Novella, not the old SITA stand" / "the ZTL fine reaches rental drivers
+> months later through the agency"], which we last checked against
+> [official source] on [date]. Our page on it is here if useful: [URL].
+> If your own experience says otherwise, I'd genuinely like to know —
+> we correct on evidence.
+>
+> [your name], Siena
+
+Timing per row is in the tracker: Florence–Siena pages in October (the
+autumn timetable refresh), Palio pages in May.
+
 ## After sending
 
 Log each send in the tracker the day it goes out (`pitched`, date), and
