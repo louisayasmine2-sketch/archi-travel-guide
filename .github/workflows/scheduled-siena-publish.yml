@@ -20,6 +20,12 @@ on:
   schedule:
     # 00:05 WIB (UTC+7) daily. GitHub cron uses UTC.
     - cron: "5 17 * * *"
+    # Backup at 12:20 WIB. Every scheduled run in this repository failed as
+    # a nameless "BuildFailed (Unknown event)" from 2 to 8 September 2026
+    # while push-triggered runs stayed green; this commit re-registers the
+    # schedule and gives each day a second chance. An empty commit twice a
+    # day is harmless — Cloudflare rebuilds, the smoke re-checks.
+    - cron: "20 5 * * *"
 
 # issues: write is not used by this workflow's own steps — it exists because
 # the called deploy-smoke.yml requests it (for its failure-tracking issue),
