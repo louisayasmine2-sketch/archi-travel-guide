@@ -355,6 +355,18 @@ sebelum hari terbitnya**:
 5. **Enam "Redirect error"** = tiga slug pensiun yang hanya di-redirect di sisi
    klien (App.js `Navigate`) tanpa aturan server — kini ada di `_redirects`.
 
+**Tambahan 10 Sep (#142) — link internal ber-trailing-slash.** Build situs
+membawa 2.637 href internal tanpa slash (nav/footer di tiap halaman, link
+badan artikel, tool cue, sidebar cluster) lawan 1.090 yang ber-slash; setiap
+satunya di-308 Cloudflare — dua request per crawl, dan itulah contoh URL di
+validasi "Page with redirect" yang gagal (`/siena-travel-guide`, `/contact`,
+`/where-to-stay-in-siena`). Pembungkus `Link`/`NavLink` terpusat
+(`components/common/Link.jsx`, `lib/links.js`) + normalisasi di generator
+statis: build kini **0** href internal tanpa slash (3.819 ber-slash). Tiga link
+ke `/tuscany` (yang sendiri di-301) dialihkan ke `/tuscany-travel-guide/`.
+Bucket "Page with redirect" berhenti terisi dari link kita sendiri; URL lama
+yang sudah dikenal Google tetap di sana (dan memang harus redirect).
+
 ## Yang harus kamu lakukan (manual, GSC)
 
 1. **Request indexing** untuk artikel yang terbit sejak 20 Juli, mulai dari
