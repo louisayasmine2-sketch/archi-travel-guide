@@ -748,7 +748,7 @@
   "region": "Tuscany",
   "excerpt": "Tuscany’s real film locations, verified: You, Me & Tuscany’s Val d’Orcia villages, Twilight’s Montepulciano, Bond’s Siena and Gladiator’s cypress road.",
   "image": "/images/tuscany/val-dorcia-cypress-trees-landscape.jpg",
-  "readMinutes": 14,
+  "readMinutes": 15,
   "canonicalPath": "/blog/tuscany-on-screen-film-locations-2026",
   "updated": "2026-08-13",
   "store": "articles"
@@ -1245,6 +1245,19 @@
   "readMinutes": 13,
   "canonicalPath": "/blog/castiglione-dorcia-guide",
   "updated": "2026-09-18",
+  "store": "articles"
+ },
+ {
+  "publishedAt": "2026-09-19T00:00:00+07:00",
+  "slug": "pienza-guide",
+  "title": "Pienza: The Pope Who Rebuilt His Village as the Ideal City, and the Cliff Slowly Taking It Back",
+  "category": "Day trips",
+  "region": "Tuscany",
+  "excerpt": "Pienza in full: Pius II and Rossellino’s 1459–62 ideal city, the Duomo’s famous crack, Palazzo Piccolomini, the Città di Luce pass and the walls walk.",
+  "image": "/images/tuscany/val-dorcia-cypress-trees-landscape.jpg",
+  "readMinutes": 14,
+  "canonicalPath": "/blog/pienza-guide",
+  "updated": "2026-09-19",
   "store": "articles"
  },
  {
