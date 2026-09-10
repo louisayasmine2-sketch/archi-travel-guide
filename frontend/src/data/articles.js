@@ -9303,7 +9303,7 @@ The honest framing: Bagno Vignoni's paid tier is a **spa-day destination**, pric
       {
         id: 'bagni-san-filippo',
         heading: 'Bagni San Filippo: the free one that delivers',
-        body: `Seventeen kilometres further south, in the wooded folds under Monte Amiata, **Bagni San Filippo** is the spring the free-bathing rumours are actually about. (From here the Cassia runs on south to [Radicofani's fortress crag](/blog/radicofani-guide/), the valley's far end.) The **Fosso Bianco** — the "white ditch" — is a stream in the forest below the village where thermal water at about **48°C at source** tumbles over decades of accumulated calcium-carbonate, building dazzling white terraces and warm pools among the trees. It is free, ungated, open year-round with no fixed hours, and bathing is what it is for.
+        body: `Seventeen kilometres further south, in the wooded folds under Monte Amiata, **Bagni San Filippo** — in the comune of [Castiglione d'Orcia](/blog/castiglione-dorcia-guide/) — is the spring the free-bathing rumours are actually about. (From here the Cassia runs on south to [Radicofani's fortress crag](/blog/radicofani-guide/), the valley's far end.) The **Fosso Bianco** — the "white ditch" — is a stream in the forest below the village where thermal water at about **48°C at source** tumbles over decades of accumulated calcium-carbonate, building dazzling white terraces and warm pools among the trees. It is free, ungated, open year-round with no fixed hours, and bathing is what it is for.
 
 The geometry is simple and worth knowing: **the pools nearest the source are the hottest**, cooling progressively downstream — so the upper pools fill first and the lower ones stay quieter and milder, a genuine choice rather than a compromise. The landmark is the **Balena Bianca**, the White Whale: a vast frozen cascade of mineral deposit that is the site's photograph and its most protected feature. **Climbing on the formation is banned** by municipal ordinance — for collapse and slip danger as much as conservation — and bathing in the pool directly beneath it is likewise off-limits, rules that press reports say visitors still test and staff still enforce.
 
@@ -11762,7 +11762,7 @@ Three rules make the difference between the photograph and the disappointment:
 
 - **Go at the edges of the day.** The pull-offs are small and fill quickly from mid-morning through afternoon in season; golden hour is both the emptiest and the best light. This is [the same advice our driving guides give](/blog/renting-a-car-in-tuscany-2026/), and it matters most here.
 - **Respect the land.** The fields around the icons are working farms. Photograph from the road and the marked paths; do not walk crops for a better angle.
-- **Remember why it looks like this.** The valley was inscribed by **UNESCO in 2004 as a cultural landscape** — across the five comuni of San Quirico, Pienza, Montalcino, Castiglione d'Orcia and [Radicofani](/blog/radicofani-guide/) — precisely because this is farmland shaped by centuries of deliberate human design, celebrated for its influence on Renaissance painters. The view is not scenery that happens to contain farms; it is farming that became scenery.
+- **Remember why it looks like this.** The valley was inscribed by **UNESCO in 2004 as a cultural landscape** — across the five comuni of San Quirico, Pienza, Montalcino, [Castiglione d'Orcia](/blog/castiglione-dorcia-guide/) and [Radicofani](/blog/radicofani-guide/) — precisely because this is farmland shaped by centuries of deliberate human design, celebrated for its influence on Renaissance painters. The view is not scenery that happens to contain farms; it is farming that became scenery.
 
 And when the light goes flat in the middle of the day — the hours when the viewpoints give least — that is exactly when the town itself, the church and the garden and the long lunch, gives most. Structure the day that way and San Quirico stops being a drive-through.`,
       },
@@ -12366,7 +12366,7 @@ So plan it like a season. Put a fair weekend in the diary — 14–15 November i
       {
         id: 'quick-answer',
         heading: 'Quick answer',
-        body: `The Val d'Orcia was inscribed by UNESCO in 2004 across five municipalities. Four of them — [San Quirico](/blog/san-quirico-dorcia-guide/), Pienza, [Montalcino](/blog/montalcino-or-montepulciano-2026/), Castiglione — are on every itinerary. The fifth is **Radicofani**, and almost nobody goes, because it sits at the far southern end of the valley, some 800 metres up, on the last ridge before Tuscany becomes Lazio. That remoteness is the entire point. Radicofani is the **border fortress** of the Tuscan story: the crag from which a medieval brigand robbed the pilgrim road so memorably that **Dante and Boccaccio both wrote him down**, the post-house where **popes, Stendhal, the Marquis de Sade and Charles Dickens** all slept on the road to Rome, and the summit of the **Via Francigena's hardest Tuscan stage**.
+        body: `The Val d'Orcia was inscribed by UNESCO in 2004 across five municipalities. Four of them — [San Quirico](/blog/san-quirico-dorcia-guide/), Pienza, [Montalcino](/blog/montalcino-or-montepulciano-2026/), [Castiglione](/blog/castiglione-dorcia-guide/) — are on every itinerary. The fifth is **Radicofani**, and almost nobody goes, because it sits at the far southern end of the valley, some 800 metres up, on the last ridge before Tuscany becomes Lazio. That remoteness is the entire point. Radicofani is the **border fortress** of the Tuscan story: the crag from which a medieval brigand robbed the pilgrim road so memorably that **Dante and Boccaccio both wrote him down**, the post-house where **popes, Stendhal, the Marquis de Sade and Charles Dickens** all slept on the road to Rome, and the summit of the **Via Francigena's hardest Tuscan stage**.
 
 Practically: the fortress (**€5**, weekend openings, and a spring 2026 report of access trouble that means you confirm before driving up) gives you the Cassero museum, the underground passages, the ramparts and the tower with the widest view in the valley; the village below gives you the Medici post-house, a 1920s literary hotel and a romantic garden behind it; and the whole visit is **two hours**, best folded into a southern Val d'Orcia day with [the hot springs of Bagni San Filippo](/blog/bagno-vignoni-bagni-san-filippo-hot-springs/) under the same mountain. There is no direct bus from Siena. **You come by car, or you come on foot** — and the second option, as this guide explains, is how the place was designed to be reached.`,
       },
@@ -12470,6 +12470,134 @@ Come by car for the view, or come on foot for the truth of it. Either way, confi
       ],
       imageAlt: 'Cypress-lined farmland of the Val d’Orcia, the landscape Radicofani’s fortress overlooks from its crag',
       canonicalPath: '/blog/radicofani-guide',
+      tags: ['day trips', 'val d orcia', 'via francigena', 'medieval history'],
+    }
+  ),
+
+
+  A(
+    'castiglione-dorcia-guide',
+    'Castiglione d’Orcia: Two Fortresses, a Saint Who Learned to Write, and the Valley’s Quiet Side',
+    'Day trips',
+    'Tuscany',
+    'The quiet UNESCO Val d’Orcia comune: two restored fortresses, Saint Catherine’s 1377 stay, Simone Martini Madonnas and Bagni San Filippo’s hot spring.',
+    '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Of the five municipalities that make up the UNESCO Val d'Orcia, Castiglione d'Orcia is the one visitors drive *through* on the way to somewhere else — past two fortresses on two crags, a village square named after a painter, and the turning for the valley's best free hot spring — without realising they all belong to the same place. This guide puts them together.
+
+**What Castiglione d'Orcia actually is**: a comune about 40 kilometres south-east of Siena whose territory holds **two medieval fortresses** on neighbouring crags — the **Rocca a Tentennano** above the hamlet of Rocca d'Orcia, where **Saint Catherine of Siena stayed in 1377** and, by tradition, received the gift of writing; and the **Rocca Aldobrandesca** over Castiglione itself, **reopened to visitors after a long restoration** — plus a triangular brick-and-stone square named for the Sienese painter **il Vecchietta**, two Romanesque churches with **Madonnas by Simone Martini and Pietro Lorenzetti**, the hamlets of Vivo and Campiglia on the slopes of Monte Amiata, and **Bagni San Filippo**, the white-terraced hot spring [our springs guide](/blog/bagno-vignoni-bagni-san-filippo-hot-springs/) rates the valley's best free soak.
+
+**Practically**: both fortresses are seasonal and cheap (**€3** for Tentennano with the art room, **€6** for the Aldobrandesca, April to September at our check); the two hamlets together are a **two-to-three-hour** visit; there is no direct bus from Siena; and the whole thing slots perfectly into the southern Val d'Orcia day between [San Quirico](/blog/san-quirico-dorcia-guide/) and [Radicofani](/blog/radicofani-guide/). Read on for the saint, the two crags, the paintings and the logistics.`,
+      },
+      {
+        id: 'two-fortresses',
+        heading: 'Two fortresses on two crags',
+        body: `Castiglione d'Orcia's geography explains its history: this is where the road from **Monte Amiata** comes down into the Val d'Orcia and meets the pilgrim road to Rome, and whoever held the two crags above that junction controlled both the valley and the way to the Maremma beyond. So two families built two fortresses within sight of each other.
+
+**The Rocca Aldobrandesca**, above Castiglione's own village, is the older idea: raised by the **Aldobrandeschi** counts around the **tenth century** to control the route from Amiata down to the valley and on toward the Maremma. For decades it stood as a romantic, unvisitable ruin over the village; a **conservative restoration** has now secured the structure, recovered stretches of the defensive walls, consolidated the tower, laid out a visitor path and turned up archaeological finds along the way — and **the fortress is open again**. It is the viewpoint over the village and the valley, and the place to understand the whole junction in one look.
+
+**The Rocca a Tentennano**, on the next crag above the tiny hamlet of **Rocca d'Orcia**, is the famous one: built in the **thirteenth century** by the Tignosi counts of Tintinnano and held through the fourteenth and fifteenth by the **Salimbeni** — the great Sienese banking family whose city palace is [today the headquarters of the world's oldest bank](/blog/monte-dei-paschi-oldest-bank-siena/). A restoration lasting more than twenty years made it visitable, with a **panoramic staircase** that climbs the structure and opens wide views across the Val d'Orcia — arguably the best fortress-top panorama in the valley after Radicofani's, and far easier to reach.
+
+Between them, the two crags frame the medieval picture completely: a feudal border fort from the age of the counts, and a banking family's stronghold from the age of the Republic, within sight of each other and three centuries apart.`,
+      },
+      {
+        id: 'the-saint',
+        heading: '1377: the saint who learned to write here',
+        body: `Rocca a Tentennano's claim on history is a single year. In **1377**, [Catherine of Siena](/blog/saint-catherine-of-siena-places/) — the dyer's daughter who was by then writing to popes — came to the Salimbeni fortress, and according to tradition **received the gift of writing here**, beginning the *Dialogue of Divine Providence*, the book on which much of her standing as a theologian rests.
+
+Whatever one makes of the miracle, the setting makes sense of the story: a fortress whose lords could offer her the one thing a Sienese city house could not — quiet. That a woman who dictated her letters to secretaries should be said to have learned to write her own hand in this remote keep is the kind of detail that sounds invented and is recorded nonetheless.
+
+For the visitor the practical consequence is simple: the Tentennano climb is not only a view. It is the place the Catherine sites in Siena — [the house, the basilica, the relic](/blog/saint-catherine-of-siena-places/) — point toward, and the one stop on her Tuscan map where the building she actually lived in still stands, restored and open, with the same valley below the window.`,
+      },
+      {
+        id: 'the-village',
+        heading: 'Castiglione’s village: a painter’s square and two Romanesque churches',
+        body: `Castiglione d'Orcia's centre is small, steep and sincere — a stone village that never became a showpiece, which is why its square is one of the most pleasing in the valley.
+
+**Piazza il Vecchietta** is **triangular**, paved in **cobbles and red brick**, with a **seventeenth-century well-cistern** at its heart, and named for **Lorenzo di Pietro, "il Vecchietta"** (c. 1410–1480), the painter-sculptor-architect of Siena's fifteenth century whose work fills [Santa Maria della Scala's Pellegrinaio](/santa-maria-della-scala-siena). The village long claimed him as a native son; the honest modern reading is that **he was not born here, as was once believed, but kept close ties with the place** — close enough that one of his Madonnas hangs in the village museum. A square named for a painter who merely loved the town is, if anything, a better story.
+
+**Two Romanesque churches.** **Santa Maria Maddalena** is the older fabric — a single nave closing in a semicircular apse, with a **twelfth-century bell tower** and a **thirteenth-century façade**. **Santi Stefano e Degna** is the village's principal church, and the one with the art: **Madonnas with Child by Simone Martini and Pietro Lorenzetti**, painted for this village by two of the greatest names of [the Sienese school](/blog/sienese-school-painting-where-to-see/).
+
+**The Sala d'Arte San Giovanni** is the small museum that gathers what Castiglione and Rocca d'Orcia commissioned in their fourteenth and fifteenth centuries: **Madonnas by Simone Martini, il Vecchietta and Giovanni di Paolo**, with liturgical furnishings from the local churches. Which Madonna hangs where — church or Sala — is the kind of thing a small town rearranges; ask at the ticket desk rather than trusting a printed map. A village this small with a Martini, a Lorenzetti, a Vecchietta and a Giovanni di Paolo is the Val d'Orcia's quietest art fact, and the Sala is rarely shared with more than a handful of visitors.`,
+      },
+      {
+        id: 'tickets-and-seasons',
+        heading: 'Tickets, hours and the seasonal catch',
+        body: `Both fortresses and the art room are small civic sites, and their access is **seasonal** — the single most important planning fact on this page.
+
+| Site | Published pattern at our check | Ticket |
+|---|---|---|
+| **Rocca a Tentennano** (Rocca d'Orcia) + **Sala d'Arte San Giovanni** | Daily, 10:30–13:30 and 14:30–18:30 in season | **€3** for the two together |
+| **Rocca Aldobrandesca** (Castiglione) | **April to 30 September**, daily 10:30–13:00 and 14:30–18:00; August evenings 21:00–23:00 | **€6** full, **€3** reduced (ages 7–12, groups of ten or more); free for residents and under-6s |
+
+Read the table the way the caveat deserves. Two different managing arrangements publish two different patterns, the figures come from the sites' published information as surfaced at our **10 September 2026** check, and an **October-to-March visit should assume the Aldobrandesca is closed** unless the comune says otherwise. The Tentennano is the one to build a visit around; the Aldobrandesca is the bonus when the season allows it — and the **August night openings** are a genuinely good reason to be in the valley in late summer. **Confirm both before you drive**: the local tourist office for the Tentennano, the comune's site for the Aldobrandesca's calendar.
+
+One more seasonal note: [Bagni San Filippo](/blog/bagno-vignoni-bagni-san-filippo-hot-springs/), also in this comune, has no opening season at all — it is a stream in a wood — which is why the winter version of this day swaps the closed fortress for a longer soak.`,
+      },
+      {
+        id: 'francigena-and-amiata',
+        heading: 'The pilgrim road below, the mountain above',
+        body: `Castiglione d'Orcia is the hinge of the Val d'Orcia's geography, and two lines cross it.
+
+**The Via Francigena runs beneath both fortresses.** [Leg 36, San Quirico to Radicofani](/blog/via-francigena-which-section-to-walk/) — the hardest Tuscan stage — drops from the fortified hamlet of Vignoni Alto to Bagno Vignoni's thermal square, then **passes below the Rocca a Tentennano and below Castiglione d'Orcia** before the long empty stretch through the Orcia and Paglia valleys to the abandoned hospice of Le Briccole and the final climb. The hamlet of **Gallina**, also in this comune, is the stage's one refreshment stop — a bar some 500 metres off the track on the Cassia. Walkers see the two crags for an hour before and after passing them; they are the stage's landmarks, the way [Monteriggioni's towers](/blog/monteriggioni-guide/) are for the northern stages.
+
+**Monte Amiata rises behind.** The comune's upper hamlets — **Vivo d'Orcia** and **Campiglia d'Orcia** — sit on the mountain's wooded flank, country the Val d'Orcia's visitors rarely climb into, and Bagni San Filippo sits in the woods between mountain and valley. The shift from the valley's bare clay and cypress to Amiata's forest happens inside this one municipality, which is the easiest way to understand why the Aldobrandeschi wanted the crag: it watches the seam between two landscapes.
+
+**Where it fits in a day.** Castiglione is the natural middle of [the southern Val d'Orcia loop](/blog/val-dorcia-day-trip-from-siena-2026/): San Quirico or Bagno Vignoni first, the Tentennano climb and the village square late morning, Bagni San Filippo for the soak, and either [Radicofani](/blog/radicofani-guide/) to finish the valley or the drive back north past [the postcard pull-offs](/blog/val-dorcia-day-trip-from-siena-2026/) at golden hour. For lunch, [our day-trip restaurants guide](/blog/where-to-eat-siena-day-trips/) has the Bagno Vignoni and San Quirico tables a few minutes away.`,
+      },
+      {
+        id: 'getting-there',
+        heading: 'Getting there',
+        body: `**By car**, which is the honest answer: the comune sits off the **Via Cassia (SR2)** in the southern Val d'Orcia, about 40 kilometres south-east of Siena, with Rocca d'Orcia and Castiglione on the hill roads just above the Cassia and Bagni San Filippo on the Amiata side. [Our driving guide](/blog/renting-a-car-in-tuscany-2026/) covers the rest; park at the edge of each hamlet and walk — both centres are small and steep.
+
+**By bus**, with realism: there is **no direct service from Siena** to either fortress hamlet that we could confirm. For Bagni San Filippo the planners' route is the **line 112 to Buonconvento, then the B23** to the Bagni San Filippo stop on the Campiglia turning, a journey of **over two hours with the change**; the Abbadia San Salvatore lines also pass through the area. Treat all of it as school-and-work-timetable territory and [verify your date on at-bus.it](/blog/tuscany-without-a-car-2026/) before relying on any of it. For a car-free traveller the comune is a Francigena arrival, not a day trip.
+
+**On foot**, as the pilgrims did: Leg 36 brings you under both crags from Bagno Vignoni, and a detour up to the Tentennano from the track is the stage's best reason to leave it — budget the climb against the long afternoon still ahead to Radicofani.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **10 September 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material — the Fondazione Musei Senesi, the regional tourism board, the comune's own pages, the Francigena's official leg pages and local press on the Aldobrandesca's reopening — rather than pages we opened.
+
+**Verified:** the comune's position about 40 km south-east of Siena and its hamlets (Rocca d'Orcia, Bagni San Filippo, Campiglia d'Orcia, Vivo d'Orcia, Gallina); the **Rocca Aldobrandesca's** origin under the Aldobrandeschi around the tenth century to control the Amiata–Val d'Orcia–Maremma route, its conservative restoration (walls recovered, tower consolidated, visitor path, archaeological finds) and reopening, its **April–30 September** daily pattern of 10:30–13:00 and 14:30–18:00 with **August evening openings 21:00–23:00**, and its **€6 / €3** tariff with free entry for residents and under-6s; the **Rocca a Tentennano's** thirteenth-century construction by the Tignosi counts of Tintinnano, its Salimbeni ownership in the fourteenth and fifteenth centuries, **Saint Catherine's 1377 stay** and the tradition of the gift of writing and the beginning of the *Dialogue*, its twenty-plus-year restoration and panoramic staircase, and the published **daily 10:30–13:30 / 14:30–18:30** pattern with a **€3** ticket covering the Rocca and the Sala d'Arte; **Piazza il Vecchietta's** triangular plan, cobble-and-brick paving and seventeenth-century well-cistern, and the modern finding that il Vecchietta was **not** born in the village despite the older belief; **Santa Maria Maddalena's** single nave, apse, twelfth-century bell tower and thirteenth-century façade; the **Simone Martini and Pietro Lorenzetti Madonnas** associated with Santi Stefano e Degna; the **Sala d'Arte San Giovanni's** Madonnas by Simone Martini, il Vecchietta and Giovanni di Paolo with local liturgical furnishings; **Leg 36's** course from Vignoni Alto via Bagno Vignoni below the Tentennano and Castiglione to Gallina (bar 500 m off the track) and Le Briccole; the absence of a confirmed direct Siena bus and the planners' **112 + B23** route to Bagni San Filippo at over two hours; and the 2004 UNESCO inscription across the five comuni.
+
+**Stated with deliberate care:** the two sites' hours and prices, which come from published patterns rather than pages we opened and are seasonal — confirm before travelling; the exact current location of the Martini and Lorenzetti panels between church and Sala, which sources describe differently; the Sala's holdings, which one source counts as three Madonnas and another as five; and any bus service to the fortress hamlets themselves, which we could not confirm and do not print.
+
+We have no commercial relationship with the comune, the museums, the tourist office or any operator named. Nothing on this page is bookable through us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Four of the Val d'Orcia's five UNESCO towns perform for you. Castiglione d'Orcia does not — it just keeps, on two neighbouring crags, the valley's most concentrated history: a feudal border fort, a banking dynasty's keep, the room where a saint is said to have first held a pen, a square named for a painter out of affection rather than fact, and a village church with a Simone Martini in it. Then it sends you down to the hot spring it also owns.
+
+Climb the Tentennano for the view and the year 1377, take the Aldobrandesca while the season lets you, give the square and the Sala the half-hour they deserve, and finish in the white water at Bagni San Filippo. The famous towns will still be there tomorrow, and still be full. This one will still be quiet.`,
+      },
+    ],
+    [
+      { q: 'Is Castiglione d’Orcia worth visiting?', a: 'Yes, as the quiet middle of a southern Val d’Orcia day: two restored medieval fortresses on neighbouring crags (the Rocca a Tentennano with its Saint Catherine story and panoramic staircase, the reopened Rocca Aldobrandesca), a village square named for the painter il Vecchietta, Madonnas by Simone Martini, Pietro Lorenzetti, il Vecchietta and Giovanni di Paolo, and Bagni San Filippo’s free hot spring in the same comune. Allow two to three hours plus the soak.' },
+      { q: 'What happened at Rocca d’Orcia in 1377?', a: 'Saint Catherine of Siena stayed at the Salimbeni family’s Rocca a Tentennano, and by tradition received the gift of writing there and began the Dialogue of Divine Providence. The fortress has been restored over more than twenty years and is open to visitors, with a panoramic staircase over the Val d’Orcia — the one building on Catherine’s Tuscan map outside Siena where she actually lived.' },
+      { q: 'Can you visit the Rocca Aldobrandesca in Castiglione d’Orcia?', a: 'Yes — after a long conservative restoration it has reopened, with recovered walls, a consolidated tower, a visitor path and archaeological finds. At our September 2026 check it was open April to 30 September, daily 10:30–13:00 and 14:30–18:00, with evening openings 21:00–23:00 in August; tickets €6 full and €3 reduced (ages 7–12, groups), free for residents and under-6s. Assume it is closed October to March unless the comune says otherwise.' },
+      { q: 'How much does the Rocca a Tentennano cost?', a: 'At our check, €3 — a ticket covering both the fortress and the Sala d’Arte San Giovanni, Castiglione’s small museum of Sienese Madonnas. The published pattern is daily 10:30–13:30 and 14:30–18:30 in season; confirm with the tourist office before travelling, as a small civic site’s hours change without notice.' },
+      { q: 'What art is there in Castiglione d’Orcia?', a: 'More than a village this size has any right to: Madonnas with Child by Simone Martini and Pietro Lorenzetti associated with the church of Santi Stefano e Degna, and the Sala d’Arte San Giovanni’s Madonnas by Simone Martini, il Vecchietta and Giovanni di Paolo with liturgical furnishings from the local churches. Which panel hangs where is rearranged from time to time — ask at the ticket desk.' },
+      { q: 'How do you get to Castiglione d’Orcia?', a: 'By car, realistically: off the Via Cassia (SR2) in the southern Val d’Orcia, about 40 km south-east of Siena, with the two fortress hamlets on the hill roads above and Bagni San Filippo on the Amiata side. There is no direct bus from Siena we could confirm; for Bagni San Filippo the route is line 112 to Buonconvento then the B23, over two hours with the change — verify on at-bus.it. On foot, Via Francigena Leg 36 passes directly below both fortresses.' },
+    ],
+    '2026-09-18',
+    {
+      seoTitle: 'Castiglione d’Orcia Guide 2026: Rocca a Tentennano, Rocca Aldobrandesca & Saint Catherine',
+      primaryKeyword: 'castiglione d orcia what to see',
+      secondaryKeywords: [
+        'rocca a tentennano rocca d orcia visit',
+        'rocca aldobrandesca castiglione d orcia opening',
+        'saint catherine rocca d orcia 1377',
+        'sala d arte san giovanni castiglione',
+        'val d orcia unesco five towns',
+        'bagni san filippo castiglione d orcia',
+      ],
+      imageAlt: 'Cypress-lined farmland of the Val d’Orcia below the fortress crags of Castiglione d’Orcia',
+      canonicalPath: '/blog/castiglione-dorcia-guide',
       tags: ['day trips', 'val d orcia', 'via francigena', 'medieval history'],
     }
   ),
