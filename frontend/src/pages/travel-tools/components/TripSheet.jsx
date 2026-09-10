@@ -4,7 +4,7 @@ import { loadTripPlan, loadBudgetPrefs } from "@/lib/tripPlan";
 import { itineraryToIcs, downloadIcs, dayDateLabel } from "@/lib/icsExport";
 import { loadSavedGuides } from "@/lib/savedGuides";
 import { canonical } from "@/lib/seo";
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import { FileText, Printer, CalendarDays, CalendarPlus, Wallet, Sun, ListChecks, BookmarkCheck } from "lucide-react";
 
 // One printable page composed entirely from the "My Trip" plan and the same

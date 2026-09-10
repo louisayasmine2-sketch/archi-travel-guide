@@ -723,7 +723,7 @@ function inlineMarkdownToHtml(text = '') {
       // Not published yet: label only, so crawlers never learn the URL early.
       parts.push(safeLabel);
     } else {
-      parts.push(`<a href="${safeHref}">${safeLabel}</a>`);
+      parts.push(`<a href="${escapeHtml(withTrailingSlash(href))}">${safeLabel}</a>`);
     }
 
     lastIndex = re.lastIndex;
@@ -871,7 +871,7 @@ function imageCreditHtml(imageCredit) {
 function florenceToSienaFallbackMarkup() {
   const guide = FLORENCE_TO_SIENA_GUIDE;
   const links = guide.relatedLinks
-    .map((item) => `<a href="${item.href}">${escapeHtml(item.label)}</a>`)
+    .map((item) => `<a href="${withTrailingSlash(item.href)}">${escapeHtml(item.label)}</a>`)
     .join(' · ');
   const officialSources = guide.officialSources
     .map((source) => `<li><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.url)}</a></li>`)
@@ -882,13 +882,13 @@ function florenceToSienaFallbackMarkup() {
     `<p class="overline">${escapeHtml(guide.category)}</p>`,
     `<h1>${escapeHtml(guide.title)}</h1>`,
     markdownToHtml(guide.introMarkdown),
-    `<p><strong>Author:</strong> <a href="${guide.author.url}">${escapeHtml(guide.author.name)}</a> · <strong>Published:</strong> July 14, 2026 · <strong>Updated:</strong> July 14, 2026 · <strong>Fact-checked:</strong> ${escapeHtml(guide.factChecked)}</p>`,
+    `<p><strong>Author:</strong> <a href="${withTrailingSlash(guide.author.url)}">${escapeHtml(guide.author.name)}</a> · <strong>Published:</strong> July 14, 2026 · <strong>Updated:</strong> July 14, 2026 · <strong>Fact-checked:</strong> ${escapeHtml(guide.factChecked)}</p>`,
     `<figure class="article-image static-hero"><img src="${guide.hero.src}" alt="${escapeHtml(guide.hero.alt)}" width="${guide.hero.width}" height="${guide.hero.height}" loading="eager" fetchpriority="high">${guide.hero.credit ? `<figcaption>${escapeHtml(guide.hero.credit)}</figcaption>` : ""}</figure>`,
     `<section class="longform-callout">${markdownToHtml(guide.quickAnswerMarkdown)}</section>`,
     `<aside class="longform-disclosure">${markdownToHtml(guide.disclosureMarkdown)}</aside>`,
     markdownToHtml(guide.bodyMarkdown),
     `<section id="official-sources"><h2>Official sources</h2><ul>${officialSources}</ul></section>`,
-    `<section><h2>${escapeHtml(guide.author.name)}</h2><p>${escapeHtml(guide.author.bio)}</p><p><a href="/editorial-policy">Editorial policy</a></p></section>`,
+    `<section><h2>${escapeHtml(guide.author.name)}</h2><p>${escapeHtml(guide.author.bio)}</p><p><a href="/editorial-policy/">Editorial policy</a></p></section>`,
     `<p>${links}</p>`,
     `</main>`,
   ].join('');
@@ -904,7 +904,7 @@ function internalReferencesToLinks(markdown = '', linkMap = {}) {
 function sienaDayTripFallbackMarkup() {
   const guide = SIENA_DAY_TRIP_FROM_FLORENCE_GUIDE;
   const links = STATIC_FOOTER_LINKS
-    .map((item) => `<a href="${item.href}">${escapeHtml(item.label)}</a>`)
+    .map((item) => `<a href="${withTrailingSlash(item.href)}">${escapeHtml(item.label)}</a>`)
     .join(' · ');
   const credits = [guide.hero, ...Object.values(guide.imagePlacements || {})]
     .map((image) => (
@@ -923,11 +923,11 @@ function sienaDayTripFallbackMarkup() {
     `<h1>${escapeHtml(guide.title)}</h1>`,
     `<p>${escapeHtml(guide.excerpt)}</p>`,
     markdownToHtml(internalReferencesToLinks(guide.introMarkdown, guide.linkMap)),
-    `<p><strong>Author:</strong> <a href="${guide.author.url}">${escapeHtml(guide.author.name)}</a> · <strong>Published:</strong> ${published} · <strong>Fact-checked:</strong> ${escapeHtml(guide.factChecked)}</p>`,
+    `<p><strong>Author:</strong> <a href="${withTrailingSlash(guide.author.url)}">${escapeHtml(guide.author.name)}</a> · <strong>Published:</strong> ${published} · <strong>Fact-checked:</strong> ${escapeHtml(guide.factChecked)}</p>`,
     `<figure class="article-image static-hero"><img src="${guide.hero.src}" alt="${escapeHtml(guide.hero.alt)}" width="${guide.hero.width}" height="${guide.hero.height}" loading="eager" fetchpriority="high"><figcaption>${escapeHtml(guide.hero.caption)} Photo: <a href="${escapeHtml(guide.hero.source)}" target="_blank" rel="nofollow noopener">${escapeHtml(guide.hero.photographer)}</a>, <a href="${escapeHtml(guide.hero.licenseUrl)}" target="_blank" rel="license noopener">${escapeHtml(guide.hero.licenseName)}</a>. ${escapeHtml(guide.hero.adaptation)}</figcaption></figure>`,
     markdownToHtml(internalReferencesToLinks(guide.bodyMarkdown, guide.linkMap)),
     `<section id="photo-credits"><h2>Photo credits</h2><ul>${credits}</ul></section>`,
-    `<section><h2>${escapeHtml(guide.author.name)}</h2><p>${escapeHtml(guide.author.bio)}</p><p><a href="/editorial-policy">Editorial policy</a></p></section>`,
+    `<section><h2>${escapeHtml(guide.author.name)}</h2><p>${escapeHtml(guide.author.bio)}</p><p><a href="/editorial-policy/">Editorial policy</a></p></section>`,
     `<p>${links}</p>`,
     `</main>`,
   ].join('');
@@ -939,7 +939,7 @@ function hideFutureClusterLinks(html = '') {
 
   return html.replace(/<a href="(\/[^"]+)"([^>]*)>(.*?)<\/a>/gims, (match, href, attrs, label) => {
     if (!clusterRoutes.has(href) || visibleRoutes.has(href)) {
-      return match;
+      return `<a href="${withTrailingSlash(href)}"${attrs}>${label}</a>`;
     }
 
     return `<span class="scheduled-inline-link">${label}</span>`;
@@ -949,7 +949,7 @@ function hideFutureClusterLinks(html = '') {
 function sienaClusterFallbackMarkup(route) {
   const article = route.article;
   const links = STATIC_FOOTER_LINKS
-    .map((item) => `<a href="${item.href}">${escapeHtml(item.label)}</a>`)
+    .map((item) => `<a href="${withTrailingSlash(item.href)}">${escapeHtml(item.label)}</a>`)
     .join(' · ');
   const related = (route.relatedLinks || [])
     .slice(0, 8)
@@ -995,7 +995,7 @@ function fallbackMarkup(route) {
     : '';
   const body = route.bodyHtml || (bullets ? `<ul>${bullets}</ul>` : '');
   const links = STATIC_FOOTER_LINKS
-    .map((item) => `<a href="${item.href}">${escapeHtml(item.label)}</a>`)
+    .map((item) => `<a href="${withTrailingSlash(item.href)}">${escapeHtml(item.label)}</a>`)
     .join(' · ');
 
   return [

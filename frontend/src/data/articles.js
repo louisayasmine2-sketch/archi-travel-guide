@@ -3064,7 +3064,7 @@ These locations let you keep exploring without constant sun exposure.`,
         heading: 'Enjoying Florence Despite the Heat',
         body: `By adapting your schedule, staying hydrated, and choosing the right refuges, July in Florence becomes manageable — even enjoyable. The city’s Renaissance treasures, riverside charm, and evening energy reward those who travel smart. The same smart strategies apply across Tuscany, making your entire trip smoother.
 
-Explore more Florence guides at [/florence](/florence/), discover broader Tuscany inspiration at [/tuscany](/tuscany/), or browse additional travel insights on our [/blog](/blog/). Safe travels!`,
+Explore more Florence guides at [/florence](/florence/), discover broader Tuscany inspiration at [/tuscany](/tuscany-travel-guide/), or browse additional travel insights on our [/blog](/blog/). Safe travels!`,
       },
     ],
     [
@@ -3683,7 +3683,7 @@ Siena’s historic centre sits inside a [strict ZTL](/blog/siena-ztl-fines-how-t
 
 This guide focuses exclusively on hotels that solve the car problem. Every property listed offers private, free, or reliably available parking and works well as a base for drivers. Recommendations are independent and practical. We prioritise real-world usefulness over marketing language.
 
-For neighbourhood character and pure pedestrian recommendations, see our guide: [Where to Stay in Siena](/blog/where-to-stay-in-siena/). For broader planning, use the [Siena Travel Guide](/siena/) and [Tuscany Travel Guide](/tuscany/).
+For neighbourhood character and pure pedestrian recommendations, see our guide: [Where to Stay in Siena](/blog/where-to-stay-in-siena/). For broader planning, use the [Siena Travel Guide](/siena/) and [Tuscany Travel Guide](/tuscany-travel-guide/).
 
 *Navigating Siena's strict ZTL (Limited Traffic Zone) is crucial for drivers. Booking a hotel with dedicated parking saves you from heavy fines.*`,
       },

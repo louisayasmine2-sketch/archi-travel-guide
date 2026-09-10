@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+import { Link, NavLink } from "@/components/common/Link";
 import { Menu, Search, Sun, Moon } from "lucide-react";
 import { useTheme } from "next-themes";
 import { NAV } from "@/constants/testIds";

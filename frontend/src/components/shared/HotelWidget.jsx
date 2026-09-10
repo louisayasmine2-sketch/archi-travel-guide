@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import { MapPin, Calendar, Users, Search, ArrowRight, Star, Coffee } from "lucide-react";
 
 export default function HotelWidget({ 

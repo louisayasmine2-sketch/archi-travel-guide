@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import { ArrowRight, X } from "lucide-react";
 import SEO from "@/components/common/SEO";
 // Card metadata only. Importing @/data/articles here would pull every

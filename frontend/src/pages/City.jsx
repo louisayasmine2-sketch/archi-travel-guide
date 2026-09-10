@@ -1,4 +1,5 @@
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import LazyImage from "@/components/common/LazyImage";
 import FAQAccordion from "@/components/common/FAQAccordion";

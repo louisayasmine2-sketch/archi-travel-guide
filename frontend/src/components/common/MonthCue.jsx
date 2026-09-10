@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import { publishedArticles } from "@/lib/publishedArticles";
 import { ArrowRight } from "lucide-react";
 

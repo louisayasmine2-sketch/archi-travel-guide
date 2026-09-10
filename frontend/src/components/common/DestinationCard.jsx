@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import { ArrowUpRight } from "lucide-react";
 
 export default function DestinationCard({ to, name, blurb, tagline, image, size = "md", eager = false }) {

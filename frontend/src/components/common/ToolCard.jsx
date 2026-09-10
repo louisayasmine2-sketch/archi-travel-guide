@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import { ArrowRight } from "lucide-react";
 
 export default function ToolCard({ to, name, blurb, icon: Icon }) {

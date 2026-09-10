@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import {
   hasTripPlan, loadTripPlan, daysUntilTrip, tripOverlapsPalio, PALIO_NOTE, TRIP_CHANGE_EVENT,
 } from "@/lib/tripPlan";

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import { ExternalLink } from "lucide-react";
 
 // The one commercial element the planning tools carry: a contextual handoff

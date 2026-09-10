@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import LazyImage from "./LazyImage";
 
 export default function ArticleCard({ article, variant = "default" }) {

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import guide from "@/data/florenceToSienaGuide.json";
 import AffiliateHandoff from "@/components/common/AffiliateHandoff";
 import { Bus, Plane, Train, Compass, Car, Users, Check } from "lucide-react";

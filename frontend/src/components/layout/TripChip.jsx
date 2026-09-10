@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import { Luggage } from "lucide-react";
 import { hasTripPlan, loadTripPlan, daysUntilTrip, TRIP_CHANGE_EVENT } from "@/lib/tripPlan";
 

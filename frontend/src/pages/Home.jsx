@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import { Helmet } from "react-helmet-async";
 import {
   ParkingCircle,

@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
+import { toSlashed } from "@/lib/links";
 import { motion } from "framer-motion";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import SEO from "@/components/common/SEO";
@@ -38,7 +39,8 @@ function isRoutePublished(href) {
 function filterFutureClusterLinks(html) {
   return html.replace(/<a href="(\/[^"]+)"([^>]*)>(.*?)<\/a>/gims, (match, href, attrs, label) => {
     if (!articlesByRoute.has(href) || isRoutePublished(href)) {
-      return match;
+      // Kept links take the trailing-slash form the CDN serves (lib/links.js).
+      return `<a href="${toSlashed(href)}"${attrs}>${label}</a>`;
     }
 
     return `<span class="scheduled-inline-link">${label}</span>`;
