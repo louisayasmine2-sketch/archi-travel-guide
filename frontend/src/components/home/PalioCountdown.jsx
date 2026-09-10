@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import { Flag } from "lucide-react";
 
 // Verified Palio dates: 2 July and 16 August (checked 20 July 2026 against

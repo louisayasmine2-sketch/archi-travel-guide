@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import { ChevronRight } from "lucide-react";
 
 export default function Breadcrumbs({ items = [] }) {

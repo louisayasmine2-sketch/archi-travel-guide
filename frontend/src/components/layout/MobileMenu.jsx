@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { NavLink } from "@/components/common/Link";
 import { X, Search } from "lucide-react";
 import { NAV } from "@/constants/testIds";
 

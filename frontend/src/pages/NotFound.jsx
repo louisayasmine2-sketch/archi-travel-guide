@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import SEO from "@/components/common/SEO";
 import { suggestForPath } from "@/lib/searchIndex";
 import { Search, ArrowRight } from "lucide-react";

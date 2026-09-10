@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import { motion } from "framer-motion";
 import { Search } from "lucide-react";
 import { destinations } from "@/data/destinations";

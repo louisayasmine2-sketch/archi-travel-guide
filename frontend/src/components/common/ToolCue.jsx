@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import { ArrowRight, Wrench } from "lucide-react";
 
 // Article → tool funnel: a single contextual cue at the end of an article,

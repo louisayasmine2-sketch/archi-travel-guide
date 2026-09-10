@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import Breadcrumbs from "@/components/common/Breadcrumbs";
 import SEO from "@/components/common/SEO";
 import { breadcrumbSchema } from "@/lib/schema";

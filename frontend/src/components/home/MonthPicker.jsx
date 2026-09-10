@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import { publishedArticles } from "@/lib/publishedArticles";
 import { bestTime } from "@/lib/travelTools";
 import TuscanScene from "@/components/common/TuscanScene";

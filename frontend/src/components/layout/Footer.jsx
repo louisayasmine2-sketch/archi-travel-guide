@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/common/Link";
 import { Mail } from "lucide-react";
 
 const IgIcon = () => (
@@ -96,7 +96,7 @@ export default function Footer() {
           <ul className="space-y-3 text-sm text-[#F5EDE3]/90">
             <li><Link to="/siena" className="hover:text-[#D38066] transition-colors duration-300">Siena</Link></li>
             <li><Link to="/florence" className="hover:text-[#D38066] transition-colors duration-300">Florence</Link></li>
-            <li><Link to="/tuscany" className="hover:text-[#D38066] transition-colors duration-300">Tuscany Hilltowns</Link></li>
+            <li><Link to="/tuscany-travel-guide" className="hover:text-[#D38066] transition-colors duration-300">Tuscany Hilltowns</Link></li>
             <li><Link to="/destinations" className="hover:text-[#D38066] transition-colors duration-300">All Destinations</Link></li>
           </ul>
         </div>
