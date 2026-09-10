@@ -149,6 +149,7 @@ Dua baris pertama sudah live saat batch ini dibuat (12–13 Agu); sisanya menyus
 | /blog/tuscany-white-truffle-season-2026 | 2026-09-16 |  |  |  |  |  |
 | /blog/radicofani-guide | 2026-09-17 |  |  |  |  |  |
 | /blog/castiglione-dorcia-guide | 2026-09-18 |  |  |  |  |  |
+| /blog/pienza-guide | 2026-09-19 |  |  |  |  |  |
 
 Catatan batch 3:
 - Halaman live yang berubah signifikan dan layak re-request saat deploy: homepage

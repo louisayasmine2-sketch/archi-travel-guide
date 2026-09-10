@@ -4151,7 +4151,7 @@ If you only have time for two: pair **Pienza + Montalcino** and keep Montepulcia
 1.  Leave Siena on the Via Cassia (SR2) heading south past [Buonconvento](/blog/buonconvento-guide/) — worth the lunch stop on the way back.
 2.  Detour up to **Montalcino** for the morning and an early tasting.
 3.  Continue to **[San Quirico d’Orcia](/blog/san-quirico-dorcia-guide/)** — a good, quick lunch stop that most tour buses skip.
-4.  Follow the ridge road to **Pienza** for the afternoon — [the pecorino capital, with its own cheese festival in early September](/blog/pienza-pecorino-fiera-del-cacio-2026/): cheese shops, cathedral, and the panoramic walkway behind the town.
+4.  Follow the ridge road to **[Pienza](/blog/pienza-guide/)** for the afternoon — [the pecorino capital, with its own cheese festival in early September](/blog/pienza-pecorino-fiera-del-cacio-2026/): cheese shops, cathedral, and the panoramic walkway behind the town.
 5.  If energy allows, end in **Montepulciano**, then return to Siena via the SS146 and SR2 in time for dinner.
 
 Two practical warnings. First, every one of these towns has a ZTL (restricted traffic zone) — park in the signed lots outside the walls and walk in. The ZTL in Siena works the same way and is enforced around the clock, so the same discipline applies on the drive home — see [how to avoid a Siena ZTL fine](/blog/siena-ztl-fines-how-to-avoid/). Second, the most photographed spots (the cypress circle near San Quirico, the Vitaleta chapel viewpoint) have small pull-offs that fill quickly in summer; go early or late for photographs. And if the day has room for one more stop, [the valley's thermal springs at Bagno Vignoni and Bagni San Filippo](/blog/bagno-vignoni-bagni-san-filippo-hot-springs) sit just off the same road south.
@@ -7119,7 +7119,7 @@ The honest framing before the itineraries: film tourism is a *reason to go*, not
       {
         id: 'you-me-tuscany',
         heading: 'You, Me & Tuscany (2026): the new pilgrimage',
-        body: `The film — directed by Kat Coiro, with Marco Calvani alongside Bailey and Page — tells its story of a young cook and a Tuscan villa across the Val d’Orcia’s golden geography. As checked in July 2026 against production reporting: **Pienza** served as the production’s village hub, with the surrounding vineyards and ridge roads supplying the landscape; in **Montalcino**, the **Sesti estate** stood in for the story’s central winery; interiors were built at Cinecittà in Rome, with a Rome hotel sequence shot at a real property there.
+        body: `The film — directed by Kat Coiro, with Marco Calvani alongside Bailey and Page — tells its story of a young cook and a Tuscan villa across the Val d’Orcia’s golden geography. As checked in July 2026 against production reporting: **[Pienza](/blog/pienza-guide/)** served as the production’s village hub, with the surrounding vineyards and ridge roads supplying the landscape; in **Montalcino**, the **Sesti estate** stood in for the story’s central winery; interiors were built at Cinecittà in Rome, with a Rome hotel sequence shot at a real property there.
 
 Visiting the film’s Tuscany is gloriously simple, because it is the same triangle [our Val d’Orcia guide](/blog/val-dorcia-day-trip-from-siena-2026) maps: Pienza’s lanes and pecorino shops, Montalcino’s fortress and Brunello cellars, and the ridge roads between them. The Sesti estate is a working Brunello producer — if you hope to taste there, treat it like any serious Montalcino cellar and enquire ahead for a booked visit rather than arriving as a film pilgrim; [harvest-season reservation culture](/blog/tuscany-wine-harvest-vendemmia-2026) applies in full.
 
@@ -9524,7 +9524,7 @@ Fair-weekend variant: come Saturday, let the antiques swallow the morning, and p
       {
         id: 'quick-answer',
         heading: 'Quick answer',
-        body: `Pienza is two superlatives stacked on one small hill: the Renaissance's first planned "ideal city", and **Tuscany's cheese capital** — the home of pecorino di Pienza, the sheep's-milk cheese whose name opens doors on menus across Italy. Any month of the year, its single main street is a runway of cheese shops offering tastings a few steps apart.
+        body: `Pienza is two superlatives stacked on one small hill: [the Renaissance's first planned "ideal city"](/blog/pienza-guide/), and **Tuscany's cheese capital** — the home of pecorino di Pienza, the sheep's-milk cheese whose name opens doors on menus across Italy. Any month of the year, its single main street is a runway of cheese shops offering tastings a few steps apart.
 
 And for one week a year the cheese takes over completely. The **Fiera del Cacio** runs **1–7 September 2026** per the event listings we checked, filling the town with market stalls, contrada dinners and tastings, and climaxing with the **Gioco del Cacio al Fuso**: the six districts of the town kneeling in Piazza Pio II to roll whole wheels of pecorino at a spindle, for points, for the palio banner, and for a year of bragging rights. It is the most cheerfully absurd spectacle on the Tuscan festival calendar, and almost nobody outside Italy has heard of it.
 
@@ -11958,7 +11958,7 @@ The Lorenzetti is the point to hold onto. Siena will show you the Sienese school
         heading: 'Quick answer',
         body: `Our town guides keep repeating one honest refrain: *pick the room with locals in it*. That method works — but on holiday you also want names, because the best table in a Tuscan hill town is often the one you booked before you left. This guide gives you both: **one or two researched, named recommendations for each of the main day-trip towns** around Siena, plus the timing and booking rules that decide whether lunch is the best hour of your day or a queue in the sun.
 
-The shortlist, for readers in a hurry: **Trattoria Osenna** in [San Quirico](/blog/san-quirico-dorcia-guide/), **Sette di Vino** and **Latte di Luna** in Pienza, **Osteria del Leone** in [Bagno Vignoni](/blog/bagno-vignoni-bagni-san-filippo-hot-springs/), **Osticcio** in [Montalcino](/blog/montalcino-or-montepulciano-2026/), **Acquacheta** in Montepulciano (book this one well ahead), **Da Mario** in [Buonconvento](/blog/buonconvento-guide/), **L'Angolo dello Sfizio** in [Asciano](/blog/asciano-guide/), and **Il Pozzo** on [Monteriggioni's](/blog/monteriggioni-guide/) square. For Siena itself, [our dedicated eating guide](/where-to-eat-in-siena) covers the city; for Panzano and the most famous butcher in Italy, [the Cecchini article](/blog/panzano-in-chianti-cecchini-vino-al-vino/) is the complete treatment.
+The shortlist, for readers in a hurry: **Trattoria Osenna** in [San Quirico](/blog/san-quirico-dorcia-guide/), **Sette di Vino** and **Latte di Luna** in [Pienza](/blog/pienza-guide/), **Osteria del Leone** in [Bagno Vignoni](/blog/bagno-vignoni-bagni-san-filippo-hot-springs/), **Osticcio** in [Montalcino](/blog/montalcino-or-montepulciano-2026/), **Acquacheta** in Montepulciano (book this one well ahead), **Da Mario** in [Buonconvento](/blog/buonconvento-guide/), **L'Angolo dello Sfizio** in [Asciano](/blog/asciano-guide/), and **Il Pozzo** on [Monteriggioni's](/blog/monteriggioni-guide/) square. For Siena itself, [our dedicated eating guide](/where-to-eat-in-siena) covers the city; for Panzano and the most famous butcher in Italy, [the Cecchini article](/blog/panzano-in-chianti-cecchini-vino-al-vino/) is the complete treatment.
 
 One promise about how this list was made: every name here was researched afresh for this article — what each place is, where it stands, what it is known for. What we deliberately do not print are opening days, current prices and menus, because those change faster than any article should pretend to know: **treat every entry as "confirm and book directly before you travel"**, and the list will serve you well.`,
       },
@@ -12599,6 +12599,140 @@ Climb the Tentennano for the view and the year 1377, take the Aldobrandesca whil
       imageAlt: 'Cypress-lined farmland of the Val d’Orcia below the fortress crags of Castiglione d’Orcia',
       canonicalPath: '/blog/castiglione-dorcia-guide',
       tags: ['day trips', 'val d orcia', 'via francigena', 'medieval history'],
+    }
+  ),
+
+
+  A(
+    'pienza-guide',
+    'Pienza: The Pope Who Rebuilt His Village as the Ideal City, and the Cliff Slowly Taking It Back',
+    'Day trips',
+    'Tuscany',
+    'Pienza in full: Pius II and Rossellino’s 1459–62 ideal city, the Duomo’s famous crack, Palazzo Piccolomini, the Città di Luce pass and the walls walk.',
+    '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Pienza is the only town in Tuscany that was *designed* — drawn, costed and built in four years, **1459 to 1462**, by a pope remaking the village where he was born into a Renaissance "ideal city". It is a **UNESCO World Heritage site twice over**: its historic centre was inscribed in **1996**, eight years before the surrounding Val d'Orcia landscape followed in 2004. And it is small enough that the whole design — square, cathedral, papal palace, bishop's palace, town hall — is taken in from one spot on one small square of brick and travertine.
+
+**What to know before you go**: the paid sights are bundled into a single **"Pienza Città di Luce" pass** (Palazzo Piccolomini and its hanging garden, the Diocesan Museum in Palazzo Borgia, the cathedral's crypt and drainage "labyrinth", audioguide included, valid two days — **around €10** at our check, with the cathedral itself free); **Palazzo Piccolomini closes on Mondays** and for two winter stretches; the **Duomo is visibly cracking and sinking toward its cliff**, which is not a problem to worry about but the best story in town; and the pecorino shops that line the main street have [an entire article of their own](/blog/pienza-pecorino-fiera-del-cacio-2026/).
+
+**Give it half a day** — the design in an hour, the palace and museum in another, the walls walk and lunch to finish — as the anchor of a Val d'Orcia day with [San Quirico](/blog/san-quirico-dorcia-guide/), [Montalcino](/blog/montalcino-or-montepulciano-2026/) or the [postcard pull-offs](/blog/val-dorcia-day-trip-from-siena-2026/) around it. This guide covers the pope, the architect, the square, the crack, the tickets, the walk and the logistics.`,
+      },
+      {
+        id: 'the-pope-and-the-architect',
+        heading: 'The pope, the architect and the bill',
+        body: `Every other Tuscan hill town grew. Pienza was **decided**.
+
+The village on this ridge was called **Corsignano**, and a boy named **Enea Silvio Piccolomini** was born here to a Sienese family in provincial exile. He became a humanist, a poet, a diplomat, a bishop, and in **1458 Pope Pius II**. Within a year of his election he had decided to remake his birthplace as a demonstration of the new architecture, and he gave the job to **Bernardo Rossellino**, a Florentine pupil of Leon Battista Alberti and one of the first architects to think in terms of a whole composed townscape rather than a single building.
+
+Rossellino worked fast. Between **1459 and 1462** the centre of Corsignano was cleared and rebuilt: the cathedral, the pope's own **Palazzo Piccolomini**, the bishop's palace, the town hall and the canons' house, all arranged around a new square paved in a grid of **brick and travertine** so that the buildings read as one design. The pope renamed the village **Pienza** — "Pius's town" — and the work was complete by 1462.
+
+Then came the bill. Rossellino had run far over his estimates and, by the accounts that have come down through the *Commentaries* — Pius II's own memoir, the only autobiography ever written by a reigning pope — had kept the true cost from his client. The pope, reportedly, looked at what had been built and told him: **"You did well, Bernardo, in lying to us about the expense."** It is the most quoted sentence in the history of Pienza, and it explains the place: this was a town built by a man who had already decided the result was worth more than the money.
+
+Pius II died two years later, in 1464, and the project stopped almost where he left it — which is why Pienza is so legible. The Renaissance ideal city is usually a drawing; here it is a square you can stand in, frozen at the moment its patron's money and life ran out. [Siena's cathedral library](/siena-cathedral-guide), frescoed by Pinturicchio with scenes from this same man's life, is the other half of the story.`,
+      },
+      {
+        id: 'the-square',
+        heading: 'Piazza Pio II: the whole design in one view',
+        body: `Stand in the middle of the square and turn slowly. Everything that matters is in view.
+
+**The Duomo** (Santa Maria Assunta) closes the south side: a **Renaissance travertine façade** carrying the Piccolomini arms, and behind it a surprise — an interior in the **Germanic late-Gothic manner** Pius asked for, tall, three-naved and flooded with light: he wanted his cathedral luminous rather than dim. "City of light" is the town's own phrase for the effect, and the altars carry it through: **four altarpieces commissioned from the Sienese painters of the 1460s** — **Giovanni di Paolo** (the St Anthony altarpiece, where the circuit begins in the right aisle), **Sano di Pietro** (a Madonna with Mary Magdalene, Philip, James and Anne, still Gothic in spirit), **Matteo di Giovanni** (a Madonna enthroned with Saints Jerome, Martin, Nicholas and Augustine) and, the highlight, **il Vecchietta's Assumption of the Virgin of 1460–63**. They are among the earliest altarpieces to sit Renaissance, classically framed compositions on the old Sienese gold ground — [the school](/blog/sienese-school-painting-where-to-see/) changing style in a single room. Entry to the church is free.
+
+**Palazzo Piccolomini**, to the right of the cathedral, is the pope's residence — built in the new Florentine manner of Rossellino's teacher Alberti — with its famous **loggia and hanging garden** opening onto the Val d'Orcia and Monte Amiata behind. The view from the garden is the one the square was orientated to give its patron. If the façade looks familiar, it may be from the cinema: **Zeffirelli filmed the Capulet household scenes of his 1968 *Romeo and Juliet* here**.
+
+**Palazzo Borgia**, the bishop's palace on the other flank, holds the **Diocesan Museum** (next section). **The Palazzo Comunale** faces the cathedral across the square and completes the set — civic power looking at sacred power, with the pope's house between them. The paving's grid of travertine bands is not decoration: it is the drawing, laid on the ground, that ties the four buildings into one composition.`,
+      },
+      {
+        id: 'the-crack',
+        heading: 'The crack: a cathedral built on the edge',
+        body: `Rossellino placed the cathedral at the very **edge of Pienza's ridge**, so that the great windows of the apse would catch the light off the valley. It was a beautiful decision and a structural mistake, and the building has been paying for it for five and a half centuries.
+
+The ground under the apse is slowly giving way. Inside, look for the **long crack that runs across the floor and up the left wall toward the altar end**, and then look at the columns: they **step lower as they approach the apse**, because the foundations on the cliff side have sunk beneath them. Beneath the church, the **crypt** opens onto what the town calls the **labyrinth** — a system of **drainage tunnels dug under the apse** to carry water away from the failing ground and slow the subsidence. Both are on the Città di Luce pass, and they turn a pretty church into a gripping one: the ideal city's cathedral has been in a fight with geology since the day it was consecrated, and the engineering of that fight is now part of the visit.
+
+None of this is a reason to hesitate — the building is open — but it is the detail that separates the visitor who has looked from the one who has only photographed. Pius wanted light at any price; the price is still being paid.`,
+      },
+      {
+        id: 'museum-and-palace',
+        heading: 'Inside the palace and the Diocesan Museum',
+        body: `**Palazzo Piccolomini.** The audioguided tour takes you through the piano nobile's furnished rooms and out to the loggia and the **hanging garden** — a small formal garden suspended over the valley, and the finest single view in Pienza. The rooms are furnished, so the palace still feels inhabited rather than curated.
+
+**The Diocesan Museum** in Palazzo Borgia is the town's unexpected depth. Its two great holdings: **Pietro Lorenzetti's Madonna di Monticchiello**, one of the finest early fourteenth-century Sienese panels outside Siena, and **the Cope of Pius II** — a magnificent embroidered liturgical vestment given to the pope by the Byzantine despot **Thomas Palaiologos**, which Pius passed to his new cathedral along with a pastoral staff, mitre, thurible and aspergillum that the museum still shows. Around them: another **Vecchietta** — a Madonna enthroned with Saints Blaise, John the Baptist, Nicholas and Florian, bright and perspectival with Florentine influence — and a strong run of fifteenth-century Sienese painting and sacred textiles.
+
+**Tickets and hours, with their caveats — checked 10 September 2026.**
+
+| Site | Published pattern | Price |
+|---|---|---|
+| **Città di Luce pass** (palace + garden, Diocesan Museum, crypt + labyrinth, audioguide in eight languages; valid two days) | Managed as one circuit since 2024 | **~€10 adult**, indicative — confirm at the ticket point |
+| **Palazzo Piccolomini** alone | 15 Mar–15 Oct Tue–Sun 10:00–18:30; 16 Oct–14 Mar Tue–Sun 10:00–16:30; **closed Mondays, 7 Jan–14 Feb and 16–30 Nov** | ~€7 with audioguide at our check |
+| **Diocesan Museum** | 30 Mar–1 Nov 2026 daily 10:00–18:30 (last entry 18:00); 1–29 Mar 10:00–16:30, closed Tuesdays | on the pass |
+| **Cathedral** | Church hours | **Free** |
+
+Two planning consequences: **do not come on a Monday** expecting the palace, and in winter check the palace's two closure windows before building the day around it. The pass's two-day validity suits an overnight in the valley.`,
+      },
+      {
+        id: 'walls-streets-pieve',
+        heading: 'The walls walk, the love streets, and the church where the pope was baptised',
+        body: `**Via del Casello** — the *passeggiata panoramica* — runs along the southern edge of the town on the line of the walls, and it is where the Val d'Orcia does the thing Pienza was built to frame: the whole valley falling away below, Monte Amiata closing the view, the cypress roads threading the fields. Every guide will send you here; go anyway, early or at golden hour, and then turn back into the lanes that feed it — **Via dell'Amore, Via del Bacio, Via della Fortuna**: Love Street, Kiss Street, Fortune Street, a cluster of romantic names that have become the town's most photographed signs. The lanes are genuine and old; the names are the charm.
+
+**The Pieve di Corsignano** is the visit almost everyone skips and the one that completes the story. A short walk below the town, the **twelfth-century Romanesque** parish church of the old village stands where Corsignano was before Pius renamed it — and inside, on a Romanesque capital, the plain stone **font in which Enea Silvio Piccolomini was baptised**, and in which his nephew **Pius III** would be baptised after him. The ideal city begins here, in a building its creator left untouched. Half an hour, and you have both ends of the man's life within a kilometre.
+
+**The pecorino street.** The main street is lined with cheese shops, and [our Fiera del Cacio guide](/blog/pienza-pecorino-fiera-del-cacio-2026/) is the full treatment — ages, rinds, how to taste, the September cheese-rolling festival. The short version for this page: **taste young to old, buy the stagionato for the journey home, and eat the fresco here.**`,
+      },
+      {
+        id: 'practical',
+        heading: 'Eating, getting there, and the day it fits',
+        body: `**Lunch.** Pienza's two named tables are in [our day-trip restaurants guide](/blog/where-to-eat-siena-day-trips/): **Sette di Vino** for the pecorino-and-lardo osteria graze (no lunch reservations — arrive at opening or queue) and **Latte di Luna** for the roast *maialino*. Both book up or queue in season; the square's own terraces are for the view, not the food.
+
+**Getting there.** Pienza sits on **bus line 112 from Siena** — the Val d'Orcia towns bus through San Quirico, continuing to Montepulciano — with roughly four usable weekday connections and journeys around an hour and a quarter to an hour and a half; plan the return before committing, and [treat Sundays as a separate problem](/blog/tuscany-without-a-car-2026/). By car, the town is the natural hub of [the valley loop](/blog/val-dorcia-day-trip-from-siena-2026/): the historic centre is pedestrian, with **paid blue-line parking** around the edge and a main car park on the north side of town across from the small Coop supermarket — the one to aim for.
+
+**The screen trail.** Pienza's cinema record runs past Zeffirelli: **Gladiator's Elysian Fields** were shot on the Terrapille farm track about three kilometres south of town, and the 2026 romantic comedy *You, Me & Tuscany* used Pienza as its village hub — [our set-jetting guide](/blog/tuscany-on-screen-film-locations-2026/) maps all of it and the etiquette for the farm lanes.
+
+**The day that works.** Pienza is the one Val d'Orcia town that rewards the *middle* of the day — the pass's interiors absorb the flat noon light that ruins the viewpoints — so the pattern is: golden-hour pull-offs early, Pienza's square, palace and museum through the middle, lunch, the walls walk as the light lengthens, and [Bagno Vignoni](/blog/bagno-vignoni-bagni-san-filippo-hot-springs/) or [Castiglione's fortresses](/blog/castiglione-dorcia-guide/) to finish. In the first week of September the Fiera del Cacio rearranges everything; on the truffle weekends of November, [the season guide](/blog/tuscany-white-truffle-season-2026/) applies.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **10 September 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material — the Pienza Città di Luce circuit's own pages, the Fondazione Musei Senesi, the town's tourism portal, the regional tourism board and UNESCO's listing — rather than pages we opened.
+
+**Verified:** the village's earlier name of Corsignano and Pius II's birth there; Rossellino's rebuilding in **1459–1462** as a pupil of Alberti, the brick-and-travertine square and the four buildings around it; the renaming as Pienza and UNESCO's inscription of the historic centre in **1996** (with the Val d'Orcia landscape following in 2004); the reported *Commentaries* anecdote of Pius forgiving Rossellino's concealed overspend; the cathedral's Renaissance façade, German-inspired late-Gothic three-nave interior and four Sienese altarpieces (Giovanni di Paolo's St Anthony, Sano di Pietro's and Matteo di Giovanni's Madonnas, **Vecchietta's Assumption of 1460–63**); the **subsidence** — the crack along the floor and left wall toward the apse, the columns lowering toward the apse, and the crypt's drainage **labyrinth** under the apse; Palazzo Piccolomini's loggia and hanging garden and its use for the Capulet scenes of **Zeffirelli's 1968 *Romeo and Juliet***; the Diocesan Museum's **Madonna di Monticchiello by Pietro Lorenzetti**, **Cope of Pius II** from Thomas Palaiologos, the pope's staff, mitre, thurible and aspergillum, and Vecchietta's Madonna with Saints Blaise, John the Baptist, Nicholas and Florian; the **Città di Luce** single-circuit arrangement since 2024 with two-day validity, free audioguide in eight languages and free cathedral entry; the published hours for Palazzo Piccolomini (seasonal Tue–Sun pattern with the two closure windows) and the Diocesan Museum (2026 seasonal pattern); the **Pieve di Corsignano** as twelfth-century Romanesque with the font of Pius II and Pius III; the street names and the Via del Casello panoramic walk; the paid blue-line parking and the north-side car park by the Coop; and the line 112 figures from [our car-free guide](/blog/tuscany-without-a-car-2026/).
+
+**Stated with deliberate care:** the pass price (~€10) and the palace's stand-alone price (~€7), which third-party listings give as indicative — confirm at the ticket point; the exact current stand-alone arrangements now that the circuit is unified; and Monte Amiata's place in the view, which is geography rather than a checked fact. Hours change seasonally — verify your date on the circuit's site.
+
+We have no commercial relationship with the Città di Luce circuit, Opera Laboratori, any museum, shop or restaurant named. Nothing on this page is bookable through us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Most beautiful towns are accidents that took centuries. Pienza is an argument that took four years: one man's case for what a city should look like, built with money he chose not to count, and left exactly where his death stopped it. That is why it photographs like a stage set and why it rewards a second hour — because once you know the plan, the square stops being a backdrop and becomes a drawing you are standing inside.
+
+Read the paving, find the crack, climb to the garden the pope built his view for, walk the wall at the light's end, and then go down to the little Romanesque church where the whole thing began with a baptism. The cheese is very good too. But Pienza was never about the cheese; it was about a pope who looked at his village and decided it could be perfect — and very nearly was, for as long as the cliff allows.`,
+      },
+    ],
+    [
+      { q: 'Why is Pienza famous?', a: 'It is the Renaissance’s first realised "ideal city": Pope Pius II had his birthplace, Corsignano, rebuilt in 1459–1462 by Bernardo Rossellino, a pupil of Alberti, around a single designed square with cathedral, papal palace, bishop’s palace and town hall, and renamed it Pienza. UNESCO inscribed the historic centre in 1996, eight years before the Val d’Orcia landscape around it. It is also Tuscany’s pecorino capital.' },
+      { q: 'What is the Pienza Città di Luce pass?', a: 'Since 2024 Pienza’s paid sights are one circuit: the pass covers Palazzo Piccolomini and its hanging garden, the Diocesan Museum in Palazzo Borgia, and the cathedral’s crypt and drainage labyrinth, with a free audioguide in eight languages, valid for two days — around €10 for adults at our September 2026 check, a figure third-party listings call indicative. The cathedral itself is free. Confirm the current price at the ticket point.' },
+      { q: 'Is Palazzo Piccolomini open every day?', a: 'No — it closes on Mondays. At our check the published pattern was Tuesday–Sunday 10:00–18:30 from 15 March to 15 October and 10:00–16:30 from 16 October to 14 March, with full closures from 7 January to 14 February and 16 to 30 November. The visit is audioguided and ends on the loggia and hanging garden over the Val d’Orcia. The palace doubled as the Capulet household in Zeffirelli’s 1968 Romeo and Juliet.' },
+      { q: 'Why is Pienza cathedral cracked?', a: 'Rossellino built it at the very edge of the ridge so the apse windows would catch the valley light, and the ground beneath the apse has been subsiding ever since. Inside you can see a long crack across the floor and up the left wall toward the altar, and the columns stepping lower as they near the apse. Beneath, the crypt opens onto the "labyrinth" — drainage tunnels dug under the apse to slow the movement — both visitable on the Città di Luce pass.' },
+      { q: 'How do you get to Pienza from Siena?', a: 'Bus line 112 — the Val d’Orcia towns bus via San Quirico d’Orcia, continuing to Montepulciano — takes roughly an hour and a quarter to an hour and a half, with about four usable weekday connections; plan the return first and verify Sundays separately. By car, Pienza is the hub of the Val d’Orcia loop: the centre is pedestrian, with paid blue-line parking at the edges and a main car park on the north side of town by the Coop supermarket.' },
+      { q: 'What is the Pieve di Corsignano?', a: 'The twelfth-century Romanesque parish church of the original village, a short walk below the town, where Enea Silvio Piccolomini — the future Pius II — was baptised at a plain stone font on a Romanesque capital, as his nephew Pius III was after him. It is the visit most people skip and the one that completes the story: the ideal city began here, in a building its creator left untouched.' },
+    ],
+    '2026-09-19',
+    {
+      seoTitle: 'Pienza Guide 2026: Pius II’s Ideal City, the Duomo Crack, Palazzo Piccolomini & the Pass',
+      primaryKeyword: 'pienza italy what to see',
+      secondaryKeywords: [
+        'pienza città di luce pass',
+        'palazzo piccolomini pienza opening hours',
+        'pienza cathedral crack subsidence',
+        'pius ii rossellino ideal city',
+        'pieve di corsignano pienza',
+        'pienza from siena bus 112',
+      ],
+      imageAlt: 'Cypress-lined roads of the Val d’Orcia, the landscape Pienza’s hanging garden was built to frame',
+      canonicalPath: '/blog/pienza-guide',
+      tags: ['day trips', 'val d orcia', 'renaissance', 'unesco'],
     }
   ),
 
