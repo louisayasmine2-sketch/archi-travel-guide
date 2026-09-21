@@ -13,6 +13,9 @@ const checks = [
     url: `https://${PRIMARY_HOST}/`,
     expectTitle: "Siena & Tuscany Trip Planning",
     expectedCanonical: PRIMARY_ORIGIN,
+    // The home page is prerendered since #148; report it the same way as
+    // the article route so a fail-open build is visible from production.
+    reportPrerender: true,
   },
   {
     // Domain sterilisation: www must never serve content — the zone-level
