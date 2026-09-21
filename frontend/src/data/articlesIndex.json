@@ -1261,6 +1261,58 @@
   "store": "articles"
  },
  {
+  "publishedAt": "2026-09-20T00:00:00+07:00",
+  "slug": "montepulciano-guide",
+  "title": "Montepulciano: The Steep Town, the Underground Cellars, and the Temple in the Field Below",
+  "category": "Day trips",
+  "region": "Tuscany",
+  "excerpt": "Montepulciano in full: Piazza Grande and the tower climb, the Duomo’s Taddeo di Bartolo, the walk-in cellars, Sangallo’s San Biagio and the barrel race.",
+  "image": "/images/tuscany/val-dorcia-cypress-trees-landscape.jpg",
+  "readMinutes": 11,
+  "canonicalPath": "/blog/montepulciano-guide",
+  "updated": "2026-09-20",
+  "store": "articles"
+ },
+ {
+  "publishedAt": "2026-09-21T00:00:00+07:00",
+  "slug": "montalcino-guide",
+  "title": "Montalcino: The Fortress Town Where Every Doorway Pours Brunello",
+  "category": "Day trips",
+  "region": "Tuscany",
+  "excerpt": "Montalcino in full: the 1361 Fortezza and its enoteca, the Sant’Agostino museums, the early 2026 Brunello harvest, Sant’Antimo and the 114 bus.",
+  "image": "/images/tuscany/val-dorcia-cypress-trees-landscape.jpg",
+  "readMinutes": 11,
+  "canonicalPath": "/blog/montalcino-guide",
+  "updated": "2026-09-21",
+  "store": "articles"
+ },
+ {
+  "publishedAt": "2026-09-22T00:00:00+07:00",
+  "slug": "santantimo-abbey-guide",
+  "title": "Sant’Antimo: The Romanesque Abbey That Still Sings, Nine Kilometres from Montalcino",
+  "category": "Things to do",
+  "region": "Tuscany",
+  "excerpt": "Sant’Antimo below Montalcino: the Charlemagne legend, the 1118 travertine church, onyx capitals, the monks’ chant times, free entry and hours.",
+  "image": "/images/tuscany/val-dorcia-cypress-trees-landscape.jpg",
+  "readMinutes": 11,
+  "canonicalPath": "/blog/santantimo-abbey-guide",
+  "updated": "2026-09-22",
+  "store": "articles"
+ },
+ {
+  "publishedAt": "2026-09-23T00:00:00+07:00",
+  "slug": "tuscany-all-saints-weekend-2026",
+  "title": "All Saints’ Weekend in Tuscany 2026: A Free-Museum Sunday, a Holiday, and the Monday Everything Closes",
+  "category": "Practical tips",
+  "region": "Tuscany",
+  "excerpt": "Ognissanti 2026 falls on Sunday 1 November — a first Sunday, so state museums are free — then the Uffizi and Pitti close on Monday. The plan that works.",
+  "image": "/images/tuscany/florence-piazzale-michelangelo-sunset.jpg",
+  "readMinutes": 11,
+  "canonicalPath": "/blog/tuscany-all-saints-weekend-2026",
+  "updated": "2026-09-23",
+  "store": "articles"
+ },
+ {
   "publishedAt": "2026-07-12T10:30:00+07:00",
   "slug": "piazza-del-campo-guide",
   "title": "Piazza del Campo: What to Look For, and the Rules That Changed",
