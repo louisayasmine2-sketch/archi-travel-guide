@@ -150,6 +150,10 @@ Dua baris pertama sudah live saat batch ini dibuat (12–13 Agu); sisanya menyus
 | /blog/radicofani-guide | 2026-09-17 |  |  |  |  |  |
 | /blog/castiglione-dorcia-guide | 2026-09-18 |  |  |  |  |  |
 | /blog/pienza-guide | 2026-09-19 |  |  |  |  |  |
+| /blog/montepulciano-guide | 2026-09-20 |  |  |  |  |  |
+| /blog/montalcino-guide | 2026-09-21 |  |  |  |  |  |
+| /blog/santantimo-abbey-guide | 2026-09-22 |  |  |  |  |  |
+| /blog/tuscany-all-saints-weekend-2026 | 2026-09-23 |  |  |  |  |  |
 
 Catatan batch 3:
 - Halaman live yang berubah signifikan dan layak re-request saat deploy: homepage
