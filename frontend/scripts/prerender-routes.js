@@ -69,6 +69,12 @@ function publishedContentRoutes() {
     if (a) routes.set(route, { slug: a.slug, updated: a.updated });
   }
 
+  // The home page: its hero (poster, h1, lede, CTAs) is the LCP path, and
+  // every component it mounts renders deterministically on first pass
+  // (Reveal starts visible by design, ResumeTripBand and TiltCard start
+  // inert, the month picker keys off the build day). No article JSON.
+  routes.set('/', {});
+
   return [...routes.entries()].map(([route, rest]) => ({ route, ...rest }));
 }
 

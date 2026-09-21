@@ -20,6 +20,33 @@ test("raw HTML carries the full article, not a fallback", async ({ request }) =>
   expect(html).not.toContain('id="static-fallback"');
 });
 
+test("the home page is prerendered: hero in the raw HTML, no fallback", async ({ request }) => {
+  const res = await request.get("/");
+  const html = await res.text();
+  const root = html.slice(html.indexOf('<div id="root">'));
+  expect(root).toContain("<h1");
+  expect(root).toContain("The practical side of");
+  expect(root).toContain("When are you going?");
+  expect(html).not.toContain('id="static-fallback"');
+  expect(html).not.toContain("__ARTICLE_JSON__");
+});
+
+test("home hydration adopts the prerendered DOM without console errors", async ({ page }) => {
+  const errors = [];
+  page.on("console", (msg) => {
+    if (msg.type() === "error") errors.push(msg.text());
+  });
+  page.on("pageerror", (err) => errors.push(String(err)));
+
+  await page.goto("/");
+  // Interactive means hydrated: the month picker is client state.
+  await page.locator("button:has-text('August')").click();
+  await expect(page.locator("text=Month guide")).toBeVisible();
+
+  const realErrors = errors.filter((e) => !/error #418|error #423|net::ERR_/.test(e));
+  expect(realErrors, `console errors: ${errors.join(" | ")}`).toEqual([]);
+});
+
 test("pillar pages served by dedicated components are prerendered too", async ({ request }) => {
   // Cluster and guide pages have their data statically imported, so their
   // prerendered HTML carries the full page and announces no article JSON.
