@@ -154,6 +154,10 @@ Dua baris pertama sudah live saat batch ini dibuat (12–13 Agu); sisanya menyus
 | /blog/montalcino-guide | 2026-09-21 |  |  |  |  |  |
 | /blog/santantimo-abbey-guide | 2026-09-22 |  |  |  |  |  |
 | /blog/tuscany-all-saints-weekend-2026 | 2026-09-23 |  |  |  |  |  |
+| /blog/colle-di-val-delsa-guide | 2026-09-24 |  |  |  |  |  |
+| /blog/chianti-classico-towns-guide | 2026-09-25 |  |  |  |  |  |
+| /blog/volterra-guide | 2026-09-26 |  |  |  |  |  |
+| /blog/san-galgano-abbey-sword-in-the-stone | 2026-09-27 |  |  |  |  |  |
 
 Catatan batch 3:
 - Halaman live yang berubah signifikan dan layak re-request saat deploy: homepage
