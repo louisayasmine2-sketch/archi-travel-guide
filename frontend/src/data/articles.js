@@ -3433,7 +3433,7 @@ Book Uffizi, Duomo climb, and popular wineries 4–8 weeks ahead. Reserve your F
 *   **Montefioralle (Chianti):** Tiny medieval hamlet above Greve with zero tour buses.
 *   **Bagno Vignoni:** Thermal square in Val d’Orcia — soak your feet for free in the natural pools nearby.
 *   **San Quirico d’Orcia or Cappella di Vitaleta:** Iconic lone chapel on a cypress hill — best at golden hour.
-*   **Sant’Antimo Abbey:** Romanesque church near Montalcino with Gregorian chant (check schedule).
+*   **[Sant’Antimo Abbey](/blog/santantimo-abbey-guide/):** Romanesque church near Montalcino with Gregorian chant (check schedule).
 
 These stops turn a standard itinerary into a personal discovery.`,
       },
@@ -5200,7 +5200,7 @@ It is also a wine moment. The year’s vendemmia is in the cellars fermenting, a
         heading: 'Cities built for the season',
         body: `November redistributes your time from landscapes to interiors, and Tuscany’s cities are unusually good at absorbing it. Siena’s indoor bench is deep — the cathedral complex on the OPA pass, the Museo Civico’s frescoed halls, Santa Maria della Scala’s vast covered levels — though note that **many sights switch to reduced winter hours from around the start of November**, so verify current times for each venue rather than assuming the summer schedule; [our best things to do in Siena guide](/blog/best-things-to-do-in-siena/) covers the venues themselves.
 
-Florence in November is the version of the city that summer visitors are promised and rarely get: the Uffizi and its peers at low-season density, café interiors that feel like the point rather than the shelter, and neighbourhood streets — the Oltrarno above all — at working pace. One calendar note for early-month planners: **1 November is Ognissanti (All Saints’ Day), a national public holiday**, so expect Sunday-style transport timetables, some closures, and busier-than-usual museums on the day itself.
+Florence in November is the version of the city that summer visitors are promised and rarely get: the Uffizi and its peers at low-season density, café interiors that feel like the point rather than the shelter, and neighbourhood streets — the Oltrarno above all — at working pace. One calendar note for early-month planners: **1 November is Ognissanti (All Saints’ Day), a national public holiday** — [the three-day plan is here](/blog/tuscany-all-saints-weekend-2026/) —, so expect Sunday-style transport timetables, some closures, and busier-than-usual museums on the day itself.
 
 The month’s end brings the first Christmas lights and the opening of the festive season in the bigger towns — a pleasant bonus for late-November travellers, and a reason the final truffle weekend feels distinctly wintry in the best way.`,
       },
@@ -9016,12 +9016,12 @@ One warning for the label-confused, because it costs real money: **Vino Nobile d
 
 **Montalcino** gathers around its fortress and a handful of streets with long views over the Val d'Orcia and the Crete. Traveller reports repeat the same two words — small and quiet — and mean them kindly: fewer coaches, gentler gradients within the centre, and evenings that are genuinely peaceful once the day visitors go. Its sight list is honest rather than long, which is exactly right for a day built around wine.
 
-**Montepulciano** is a proper Renaissance town poured along a ridge: palazzo-lined Corso climbing from the lower gate to **Piazza Grande** at the summit, where the Palazzo Comunale — its Florentine-style facade attributed to Michelozzo and begun in 1440 — offers a tower and terrace with views across both the Val di Chiana and the Val d'Orcia. The climb is the tax: from the bus end of town to the piazza is a long, steep haul, and anyone with mobility limits should plan around it. The reward is a town with more to look at, more places to eat, more shops — and, in high season, distinctly more people, a share of them [tracing the Twilight scenes filmed on Piazza Grande](/blog/tuscany-on-screen-film-locations-2026/).`,
+**[Montepulciano](/blog/montepulciano-guide/)** is a proper Renaissance town poured along a ridge: palazzo-lined Corso climbing from the lower gate to **Piazza Grande** at the summit, where the Palazzo Comunale — its Florentine-style facade attributed to Michelozzo and begun in 1440 — offers a tower and terrace with views across both the Val di Chiana and the Val d'Orcia. The climb is the tax: from the bus end of town to the piazza is a long, steep haul, and anyone with mobility limits should plan around it. The reward is a town with more to look at, more places to eat, more shops — and, in high season, distinctly more people, a share of them [tracing the Twilight scenes filmed on Piazza Grande](/blog/tuscany-on-screen-film-locations-2026/).`,
       },
       {
         id: 'sights-compared',
         heading: 'The sights, compared',
-        body: `**Montalcino's anchor is the Fortezza**, the pentagonal fortress raised in 1361 at the town's highest point and later extended under the Medici. The courtyard is free to wander; walking the ramparts has in recent years carried a small charge — guest reviews cite a few euros, and also report restoration works limiting access to parts of the walls, so check what is open when you arrive rather than promising yourself the full circuit. Beyond the fortress: the town museums, the long terrace views, and the streets themselves.
+        body: `**[Montalcino's](/blog/montalcino-guide/) anchor is the Fortezza**, the pentagonal fortress raised in 1361 at the town's highest point and later extended under the Medici. The courtyard is free to wander; walking the ramparts has in recent years carried a small charge — guest reviews cite a few euros, and also report restoration works limiting access to parts of the walls, so check what is open when you arrive rather than promising yourself the full circuit. Beyond the fortress: the town museums, the long terrace views, and the streets themselves.
 
 **Montepulciano stacks more**: Piazza Grande and its climbable Palazzo Comunale tower; the Corso's parade of Renaissance palazzi; the **underground cellars** hollowed beneath the town (next section, because they are really a tasting experience); and — below the walls — the **Tempio di San Biagio**, Antonio da Sangallo the Elder's High Renaissance masterpiece in white travertine, built 1518–1545 on a Greek-cross plan. It is ten to fifteen minutes downhill from the centre, uphill back, and worth both directions; a small entry charge has applied in recent years, so carry a few euros and check at the door.
 
@@ -11987,9 +11987,9 @@ One promise about how this list was made: every name here was researched afresh 
       {
         id: 'wine-towns',
         heading: 'The wine towns: Montalcino and Montepulciano',
-        body: `**Montalcino — Osticcio.** Half enoteca, half restaurant, and the smart way to solve Montalcino's central problem — wanting to taste serious **Brunello** without committing to a cellar visit. The list runs deep and pours **by the glass, bottle or flight**, the kitchen is proper Tuscan rather than wine-bar filler, and the back room ends in a **great window over the valley** that turns a tasting into a view. Pairs naturally with [the fortress-town morning](/blog/montalcino-or-montepulciano-2026/).
+        body: `**[Montalcino](/blog/montalcino-guide/) — Osticcio.** Half enoteca, half restaurant, and the smart way to solve Montalcino's central problem — wanting to taste serious **Brunello** without committing to a cellar visit. The list runs deep and pours **by the glass, bottle or flight**, the kitchen is proper Tuscan rather than wine-bar filler, and the back room ends in a **great window over the valley** that turns a tasting into a view. Pairs naturally with [the fortress-town morning](/blog/montalcino-or-montepulciano-2026/).
 
-**Montepulciano — Osteria Acquacheta.** The most famous table on this list and the one that demands planning. Acquacheta is a Tuscan institution built around one thing: **bistecca alla fiorentina, sold by weight and grilled over the fire**, served in a packed, rowdy, shared-table room with wine in carafes and zero ceremony. The rules of engagement, as consistently reported: **reserve well ahead — days at minimum, weeks in high season — around its two evening seatings**, expect to share, and check its closing days before building plans (recent seasons have run with a mid-week closure). At our check the steak was reported around **€30–35 per kilo**, which for meat of this reputation explains the queue — but verify directly, because prices and days are exactly the kind of facts that move. If you get a table, it is the single most memorable meal-as-theatre in the region south of Siena.
+**[Montepulciano](/blog/montepulciano-guide/) — Osteria Acquacheta.** The most famous table on this list and the one that demands planning. Acquacheta is a Tuscan institution built around one thing: **bistecca alla fiorentina, sold by weight and grilled over the fire**, served in a packed, rowdy, shared-table room with wine in carafes and zero ceremony. The rules of engagement, as consistently reported: **reserve well ahead — days at minimum, weeks in high season — around its two evening seatings**, expect to share, and check its closing days before building plans (recent seasons have run with a mid-week closure). At our check the steak was reported around **€30–35 per kilo**, which for meat of this reputation explains the queue — but verify directly, because prices and days are exactly the kind of facts that move. If you get a table, it is the single most memorable meal-as-theatre in the region south of Siena.
 
 One honest framing for both towns: their main squares are lined with adequate, view-taxed restaurants. The two names above are where the food, not the location, is the point — which is the entire trick to eating well in famous towns.`,
       },
@@ -12092,7 +12092,7 @@ One honest framing before the detail: we are a Siena- and Tuscany-focused travel
 
 The **2026 edition is the sixtieth**, branded "Legacy", and the anniversary framing is real: the organisers have built the programme around the festival's own history, and demand has been correspondingly high — the ticket phases and the accommodation figures below are both signs of a peak year.
 
-Two calendar collisions make 2026 sharper still. The festival's final day, **1 November, is a Sunday and Italy's All Saints holiday** (Ognissanti), so domestic travel is at holiday pitch across the whole weekend — trains fuller, roads busier, hotels pricier well beyond Lucca. And 1 November is also **the first Sunday of the month**, when Italy's state museums open free — a fact worth noting only because it means Florence and Pisa, your likely bases, will be busy with their own Sunday crowds while you are busy with yours.`,
+Two calendar collisions make 2026 sharper still. The festival's final day, **1 November, is a Sunday and Italy's All Saints holiday** (Ognissanti — [the whole weekend is planned here](/blog/tuscany-all-saints-weekend-2026/)), so domestic travel is at holiday pitch across the whole weekend — trains fuller, roads busier, hotels pricier well beyond Lucca. And 1 November is also **the first Sunday of the month**, when Italy's state museums open free — a fact worth noting only because it means Florence and Pisa, your likely bases, will be busy with their own Sunday crowds while you are busy with yours.`,
       },
       {
         id: 'tickets',
@@ -12733,6 +12733,511 @@ Read the paving, find the crack, climb to the garden the pope built his view for
       imageAlt: 'Cypress-lined roads of the Val d’Orcia, the landscape Pienza’s hanging garden was built to frame',
       canonicalPath: '/blog/pienza-guide',
       tags: ['day trips', 'val d orcia', 'renaissance', 'unesco'],
+    }
+  ),
+
+
+  A(
+    'montepulciano-guide',
+    'Montepulciano: The Steep Town, the Underground Cellars, and the Temple in the Field Below',
+    'Day trips',
+    'Tuscany',
+    'Montepulciano in full: Piazza Grande and the tower climb, the Duomo’s Taddeo di Bartolo, the walk-in cellars, Sangallo’s San Biagio and the barrel race.',
+    '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Montepulciano is the Val d'Orcia's *big* town — a Renaissance city poured along a ridge, with more palaces, more shops, more restaurants and more stairs than anywhere else in the valley. [Our Montalcino-or-Montepulciano comparison](/blog/montalcino-or-montepulciano-2026/) decides *whether* to come; this is the page for *how*.
+
+The essentials: the whole town climbs from the lower gate to **Piazza Grande** at the summit, where the **Palazzo Comunale's tower** (**€5**, or **€2.50** for the terrace, open daily 10:00–18:00 from April to November at our check) gives the valley's best two-valley view; the **Duomo** holds **Taddeo di Bartolo's 1401 Assumption**; the town's historic wine houses open their **underground cellars** right on the Corso — **Contucci** free and self-guided, **De' Ricci** as a paid tour — so the Vino Nobile tasting needs no car; and below the walls stands the **Tempio di San Biagio**, Antonio da Sangallo the Elder's 1518–1545 Renaissance temple, the best building in town and outside it. Once a year, on the **last Sunday of August**, eight contrade push **80-kilo barrels 1,800 metres uphill** through all of it in the **Bravio delle Botti**.
+
+**Give it a full day** or a long half — it is the one valley town that genuinely fills one — and arrive by the **112 bus** from Siena (weekdays, about 1h35, roughly four usable runs) or by car with the climb in mind. This guide walks the ridge from bottom to top, goes underground, walks out to the temple, and explains the race.`,
+      },
+      {
+        id: 'the-ridge',
+        heading: 'The ridge: from the gate to Piazza Grande',
+        body: `Montepulciano is built along a single spine, and the visit is that spine walked uphill. From the lower gate the **Corso** climbs in a long, bending ascent lined with Renaissance palazzi — the town's sixteenth-century wealth from wine and the Medici connection is written in their façades — past wine shops, artisan doors and the cellar entrances that will matter later. Take it slowly: [as our comparison guide warns](/blog/montalcino-or-montepulciano-2026/), this is a genuine hill town and the walk from the bus end to the top is long and steep. There is no shortcut worth taking; the climb *is* the town.
+
+At the summit, **Piazza Grande** — not the trapezoid of [Pienza](/blog/pienza-guide/) but a broad square of separate monuments:
+
+- **The Palazzo Comunale**, the town hall whose fifteenth-century **façade by Michelozzo** deliberately echoes Florence's Palazzo Vecchio — Medici loyalty in stone. Its **tower and terrace** are the reason to arrive here with energy left: **150 steps** to the top, or a lift to the terrace and **52 steps** from there, for views over both the Val d'Orcia and the Valdichiana. **Tower €5, terrace €2.50**, open daily 10:00–18:00 April to November at our check, with festive openings at Christmas — confirm on the day.
+- **The Duomo**, consecrated in **1712** behind an unfinished façade, and inside, the town's great painting: **Taddeo di Bartolo's Assumption of the Virgin, 1401**, a gold-ground Sienese altarpiece from [the school](/blog/sienese-school-painting-where-to-see/) that dominated this corner of Tuscany before Florence did.
+- **The well and the palazzi** that frame the square — the set where *Twilight: New Moon* staged its Volterra scenes, [as our set-jetting guide records](/blog/tuscany-on-screen-film-locations-2026/), which is why a share of the square's visitors are looking for a fountain that was a prop.
+
+The square rewards an early or late arrival; in the middle of a summer day it is the most crowded space in the valley.`,
+      },
+      {
+        id: 'underground',
+        heading: 'Underground: the cellars you can simply walk into',
+        body: `Montepulciano's distinctive pleasure is that its wine lives *beneath* the town. The historic houses dug their cellars into the rock under their palazzi centuries ago, and several open them as walk-in attractions on the Corso and the square — which makes this the one wine town in the region where a serious tasting needs neither a car nor a booking.
+
+**Contucci**, under its palazzo on Piazza Grande, is the generous one: at our check **free tastings of up to six wines**, and the main-floor cellars free to wander, with rooms carved into the rock below and joined by tunnels. It is the natural first stop after the tower.
+
+**De' Ricci** — the cellars beneath Palazzo Ricci, reached by a monumental staircase into a vaulted underground hall that visitors compare to a cathedral — runs as a **paid tour**: around **60 minutes in the cellars plus 30 for the tasting, at €20 per person** at our check.
+
+**Ercolani's** "underground city" is the sprawling third, covered [in the comparison guide](/blog/montalcino-or-montepulciano-2026/).
+
+The wine is **Vino Nobile di Montepulciano** — Sangiovese-led, DOCG since the first 1980 cohort alongside Brunello, aged two years (three for Riserva), and the humbler, kinder-priced neighbour of [Montalcino's](/blog/montalcino-guide/) famous red. The comparison guide has the rules; here the advice is practical: taste at Contucci first, decide whether the De' Ricci tour is your afternoon, and buy the bottle in town rather than at the airport.`,
+      },
+      {
+        id: 'vino-nobile',
+        heading: 'Vino Nobile, decoded at the table',
+        body: `A one-minute course before the cellars, so the labels make sense. **Vino Nobile di Montepulciano** is a Sangiovese wine — the grape is called *Prugnolo Gentile* here — made under rules [our comparison guide](/blog/montalcino-or-montepulciano-2026/) verified against the consortium: **at least 70% Sangiovese**, **two years' ageing** before release, **three for the Riserva**, and **DOCG status from the first cohort of July 1980**, the same day as Brunello. The "Nobile" is old: the wine carried the name centuries before the rules did, and the town's cellars were dug for it.
+
+**What to order, and in which order.** Ask for the estate's **Rosso di Montepulciano** first — the younger, lighter, cheaper wine from the same vineyards, released after a short ageing, and the honest measure of a house's fruit — then the **Nobile**, then the **Riserva** if the pour is offered. Tasting up the ladder shows you what the oak and the years add; tasting down it only shows what they hide. In the walk-in cellars the pours are generous and the pressure is low; in the enotecas on the Corso, a flight of three is the normal request and a glass of Rosso with lunch is the normal accompaniment.
+
+**How it compares.** Against [Brunello](/blog/montalcino-guide/), Nobile is the softer, earlier-drinking, kinder-priced sibling — the comparison guide's phrase is the humbler label and the kinder price — and the cellars make the case for it better than any list: the same Sangiovese, a different hill, a town that lets you taste under the palace instead of booking a cellar in the countryside. In [the vendemmia weeks](/blog/tuscany-wine-harvest-vendemmia-2026/) the estates are picking and the town smells of it; that is when the cellars are worth the queue.`,
+      },
+      {
+        id: 'san-biagio',
+        heading: 'San Biagio: the temple in the field below',
+        body: `Leave the walls by the road that drops west and, a short walk down a cypress avenue, the best building in Montepulciano stands alone in the fields: the **Tempio di San Biagio**, built by **Antonio da Sangallo the Elder between 1518 and 1545** — a centrally planned Renaissance church in honey-coloured travertine, a Greek cross with a dome and a single finished bell tower, set deliberately apart from the town so that its geometry could be seen whole.
+
+It is the High Renaissance's ideal church actually built, on the model the architects of the age drew and rarely realised, and its isolation in the landscape is the point: approach it down the avenue and the proportions do exactly what Sangallo intended. Inside, the light is cool and the space is calm after the town's stairs. Whether an entry charge applies has varied — [our comparison guide declined to print one](/blog/montalcino-or-montepulciano-2026/) for that reason — so carry a few euros and be pleasantly surprised if the door is simply open.
+
+Budget the leg honestly: it is downhill out and uphill back, on top of the town's own climb. Do it in the morning before the ridge, or leave it for the golden hour when the travertine warms and the fields are empty — the second is the better photograph and the harder walk.`,
+      },
+      {
+        id: 'bravio',
+        heading: 'The Bravio delle Botti: barrels uphill, once a year',
+        body: `On the **last Sunday of August** Montepulciano's slope becomes a racecourse. In the **Bravio delle Botti**, the town's **eight contrade** — Cagnano, Collazzi, Coste, Gracciano, Poggiolo, San Donato, Talosa and Voltaia — each field two pushers who roll an **80-kilogram barrel** the **1,800 metres uphill** from the bottom of town to the cathedral steps on Piazza Grande, for a painted banner. The 2026 race ran on **30 August**, at the end of a week of events that opened on the 22nd with the proclamation of the Gonfaloniere; costumed processions, contrada dinners and a great deal of Vino Nobile fill the days before.
+
+For a visitor it is [the Val d'Orcia's answer to the Palio](/blog/palio-di-siena-guide/) — smaller, rougher, less lethal and easier to get close to — and the one week of the year when the town's steepness becomes its spectacle. If your dates fall in the last week of August, book beds early and expect the Corso closed for the race; the [September festival calendar](/blog/tuscany-september-2026-festivals-events/) picks up where the Bravio leaves off.`,
+      },
+      {
+        id: 'practical',
+        heading: 'Getting there, eating, and pacing the day',
+        body: `**By bus — the straightforward one.** Montepulciano is the Val d'Orcia town public transport actually reaches well: Autolinee Toscane **line 112** from Siena, weekdays, via [San Quirico](/blog/san-quirico-dorcia-guide/) and [Pienza](/blog/pienza-guide/), fastest journeys around **1h35**, about **four usable connections a day** — plan the return before committing, and [treat Sundays separately](/blog/tuscany-without-a-car-2026/). The bus leaves you at the *bottom* of the town; the day begins with the climb. From Rome or Florence by rail, Montepulciano Stazione is the trap [our car-free guide explains](/blog/tuscany-without-a-car-2026/): a distant station with poor onward links, not the town.
+
+**By car.** Park below the walls where the signs direct and climb from there; the centre is not for driving. [The driving guide](/blog/renting-a-car-in-tuscany-2026/) covers the region's rules.
+
+**Eating.** The town has the valley's deepest choice, and one destination institution: **Osteria Acquacheta**, the bistecca-by-weight, shared-table, book-weeks-ahead legend that [our day-trip restaurants guide](/blog/where-to-eat-siena-day-trips/) treats in full. Beyond it, the two-streets-away rule applies with extra force on the Corso.
+
+**Pacing.** Morning: San Biagio while the legs are fresh. Late morning: the Corso climb, with a cellar or two on the way. Midday: Piazza Grande, the tower, the Duomo. Lunch at the top. Afternoon: the descent through the shops, and the bus or car onward to Pienza and the valley. In [the vendemmia weeks of September](/blog/tuscany-wine-harvest-vendemmia-2026/) the cellars are at their busiest and best; in winter the town is quiet, the stairs are the same, and the tasting rooms are warm.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **21 September 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material — the Pro Loco's visitor pages, the Bravio's official site and the comune, the cellars' own pages and large bodies of recent visitor reporting — rather than pages we opened.
+
+**Verified:** the Palazzo Comunale's tower and terrace tickets (**€5 / €2.50**), the daily 10:00–18:00 April–November pattern with Christmas openings, the 150-step climb or lift-plus-52; the **Michelozzo** façade (one source dates it 1424, our earlier comparison guide 1440 — we print "fifteenth-century" and note the disagreement); the Duomo's **1712** consecration and **Taddeo di Bartolo's 1401 Assumption**; the **Tempio di San Biagio** by Antonio da Sangallo the Elder, **1518–1545**, outside the walls; **Contucci's** free tastings of up to six wines and free self-guided main-floor cellars; **De' Ricci's** paid tour of about 60 minutes plus a 30-minute tasting at **€20**; the **Bravio delle Botti**'s eight contrade, 80-kg barrels, 1,800-metre uphill course, and the 2026 dates (opening 22 August, race Sunday 30 August); the line 112 figures from [our car-free guide](/blog/tuscany-without-a-car-2026/); and the wine rules from [the comparison guide's](/blog/montalcino-or-montepulciano-2026/) verification.
+
+**Not established, and flagged:** whether San Biagio charges entry and how much — carry cash; the tower's exact winter arrangements beyond the Christmas openings; cellar hours, which change with the season; and Ercolani's current format. Confirm all on the day.
+
+We have no commercial relationship with any cellar, restaurant, festival or body named. Nothing on this page is bookable through us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Montepulciano is the valley's town for people who want a *town* — palaces, shops, a square that functions, cellars under your feet and a temple in the field — and are prepared to earn it one stair at a time. Do it in the right order and the stairs become a structure: temple, climb, cellar, tower, lunch, descent.
+
+And keep the barrel race in mind as you go up. Eight men once a year push eighty kilos up the slope you are walking, for a painted flag and a year of bragging rights. The Corso feels different when you know that.`,
+      },
+    ],
+    [
+      { q: 'Is Montepulciano worth visiting?', a: 'Yes — it is the Val d’Orcia’s biggest and fullest town: a Renaissance ridge climbing to Piazza Grande and its climbable tower, Taddeo di Bartolo’s 1401 Assumption in the Duomo, walk-in wine cellars under the palazzi, and Sangallo’s Tempio di San Biagio in the fields below. It fills a whole day, and it is the valley town best served by public transport, on bus 112 from Siena.' },
+      { q: 'How much is the Montepulciano tower?', a: 'At our September 2026 check, €5 for the tower and €2.50 for the terrace of the Palazzo Comunale on Piazza Grande, open daily 10:00–18:00 from April to November with extra openings at Christmas. It is 150 steps to the top, or a lift to the terrace and 52 steps from there, for views over both the Val d’Orcia and the Valdichiana.' },
+      { q: 'Can you visit Montepulciano’s underground cellars for free?', a: 'Yes — Contucci, under its palazzo on Piazza Grande, offered free tastings of up to six wines and free self-guided access to its main-floor cellars at our check, with rock-cut rooms below. De’ Ricci’s cathedral-like vaults under Palazzo Ricci run as a paid tour, about 60 minutes plus a 30-minute tasting, €20 per person. Ercolani’s underground city is the third; hours change seasonally.' },
+      { q: 'What is the Tempio di San Biagio?', a: 'A centrally planned High Renaissance church in travertine built by Antonio da Sangallo the Elder between 1518 and 1545, standing alone in the fields below Montepulciano’s walls at the end of a cypress avenue — the ideal church the age’s architects drew and rarely built. It is a downhill walk out and an uphill walk back; whether an entry charge applies has varied, so carry a few euros.' },
+      { q: 'When is the Bravio delle Botti?', a: 'On the last Sunday of August — in 2026, Sunday 30 August, at the end of a festival week that opened on 22 August. Eight contrade each push an 80-kilogram barrel 1,800 metres uphill from the bottom of town to the cathedral steps on Piazza Grande for a painted banner. Book beds early for that week and expect the Corso closed for the race.' },
+      { q: 'How do you get to Montepulciano from Siena?', a: 'Bus line 112, weekdays, via San Quirico d’Orcia and Pienza — fastest journeys around 1h35, about four usable connections a day; plan the return first and verify Sundays separately. The bus arrives at the bottom of the town, so the visit starts with the climb. Avoid Montepulciano Stazione by rail: it sits far below the town with poor onward links.' },
+    ],
+    '2026-09-20',
+    {
+      seoTitle: 'Montepulciano Guide 2026: Piazza Grande, Cellars, San Biagio & the Bravio delle Botti',
+      primaryKeyword: 'montepulciano what to see',
+      secondaryKeywords: [
+        'montepulciano tower ticket palazzo comunale',
+        'montepulciano underground cellars contucci de ricci',
+        'tempio di san biagio montepulciano',
+        'bravio delle botti 2026',
+        'montepulciano from siena bus 112',
+        'vino nobile di montepulciano tasting town',
+      ],
+      imageAlt: 'Cypress avenues and open fields of the Val d’Orcia below Montepulciano’s ridge',
+      canonicalPath: '/blog/montepulciano-guide',
+      tags: ['day trips', 'val d orcia', 'wine towns', 'renaissance'],
+    }
+  ),
+
+
+  A(
+    'montalcino-guide',
+    'Montalcino: The Fortress Town Where Every Doorway Pours Brunello',
+    'Day trips',
+    'Tuscany',
+    'Montalcino in full: the 1361 Fortezza and its enoteca, the Sant’Agostino museums, the early 2026 Brunello harvest, Sant’Antimo and the 114 bus.',
+    '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Montalcino is a small, high, walled town that produces one of the world's great red wines, and the two facts are the whole visit: **the Fortezza** — the pentagonal fortress raised in **1361** at the top of town, whose courtyard is free and whose ramparts give the Val d'Orcia panorama — and **Brunello**, poured by the glass in the enoteca inside those same walls and in every second doorway below them. [Our Montalcino-or-Montepulciano comparison](/blog/montalcino-or-montepulciano-2026/) settles the choice between the two wine towns; this page is Montalcino on its own terms.
+
+What is new for autumn 2026: the **Brunello harvest began on 7 September, at least a week earlier than 2025**, after a hot summer — with the consortium reporting **high quality, healthy vines and volumes in line with or slightly below last year**. That makes the coming weeks the town at its most alive, and [the vendemmia guide](/blog/tuscany-wine-harvest-vendemmia-2026/) the companion to this page.
+
+Practically: the town is a **half-day** (fortress, museums, a tasting, lunch), a full day with the **Abbey of Sant'Antimo** nine kilometres south — which has [its own article](/blog/santantimo-abbey-guide/) — and reachable car-free by the **114 bus** from Siena or the train-to-Buonconvento trick. This guide covers the fortress, the museum complex in Sant'Agostino, how to taste Brunello without a car or a booking, the harvest, and the logistics.`,
+      },
+      {
+        id: 'fortezza',
+        heading: 'The Fortezza: 1361, and the last stand of the Republic',
+        body: `Montalcino's fortress is the town's anchor and its origin story. Built in **1361** by the Sienese — the comparison guide credits the master builders Mino Foresi and Domenico di Feo — as a **pentagonal** stronghold at the town's highest point, later extended under the Medici, it was the Republic of Siena's southern bastion. When [Siena itself fell in 1555](/blog/siena-1348-the-year-the-city-stopped/), a body of Sienese exiles held out here for four more years as the "Republic of Siena at Montalcino" — the last free Sienese government anywhere — until the peace of 1559 handed the town to Florence too. Montalcino's Sienese identity has never quite faded since; the town still marches at the head of [the Palio's](/blog/palio-di-siena-guide/) historic procession in honour of that loyalty.
+
+**Visiting.** The **courtyard is free** to wander. **Walking the ramparts** — the reason to come, with the whole Val d'Orcia and the Vallombrone on show — carries a small charge, bought at the **Enoteca La Fortezza** inside the walls; recent seasons have also seen restoration work limit access to parts of the circuit, so **check what is open when you arrive** rather than promising yourself the full walk. Published hours at our check ran **daily 9:00–20:00 from April to October** and **10:00–18:00 from November to March** — confirm at the enoteca desk.
+
+**The enoteca itself** is the fortress's second function and, for a car-free visitor, its best: a wine shop trading inside the walls since 1980 that pours **Brunello flights on the spot** — guest reports cite figures around **€25 for a three-glass tasting** with accompaniments — making it the one place in the valley where the region's most famous wine is tasted seriously without a cellar visit, a booking or a designated driver.`,
+      },
+      {
+        id: 'museums',
+        heading: 'Sant’Agostino: the town’s museums and the Tempio del Brunello',
+        body: `Below the fortress, the former convent of **Sant'Agostino** holds Montalcino's museum complex — and since the 2020s the town has turned it into a two-sided visit: art on one hand, wine on the other.
+
+**The Civic and Diocesan Museum** gathers the sacred art of the town and its territory — a small, rich collection strong in [Sienese painting](/blog/sienese-school-painting-where-to-see/) and wooden sculpture, of the kind that these hill towns commissioned from Siena's workshops for six centuries — together with the **archaeological collection** in the complex's underground rooms.
+
+**The Tempio del Brunello** is the newer half: a multimedia museum of the wine itself, housed in the same complex under the "Oro di Montalcino" banner, which walks through the Sangiovese, the territory, the consortium's rules and the vintages, and pairs — on the combined tickets sold by the platforms — with a tasting.
+
+**Hours, with the caveat.** The complex published, for the period **31 August to 1 November 2026**, opening **11:30–13:00 and 14:15–17:30 daily except Tuesday and Wednesday**. Those are short, split and seasonal hours — the lunch-and-early-afternoon window is the one to aim for, and a Tuesday or Wednesday visit finds the doors shut. Prices we leave to the ticket desk, which publishes several combinations.
+
+Between the two halves, the honest advice: the art museum is the quieter, better-value hour; the wine museum is the one to add if you are not doing a cellar visit and want the theory before the glass.`,
+      },
+      {
+        id: 'the-town',
+        heading: 'The town between: Piazza del Popolo and the walk downhill',
+        body: `Between the fortress at the top and the convent below, Montalcino is a small, steep, well-kept town that takes forty minutes to walk end to end and rewards doing so slowly. Its centre is **Piazza del Popolo**, the narrow main square under the **Palazzo dei Priori** — the medieval town hall with its slender tower and clock, hung with the arms of the podestàs who governed for Siena — and the loggia and café terraces opposite, where the town takes its coffee and the visitor takes the measure of the place.
+
+The **main street** runs on from the square, lined with enotecas, the shops that will ship a case home, and the food shops of a town that eats as seriously as it drinks: [pici, wild boar, the Cinta Senese pork](/blog/tuscan-food-calendar-seasonal-dishes/) and, in season, the honey and the [new oil](/blog/tuscany-olive-harvest-olio-nuovo-2026/) that the same hills produce. The lanes off it drop steeply to the lower gates and the views over the vineyards; the whole circuit — fortress, square, street, lanes, convent — is the town, and it needs no map.
+
+**The Sienese memory.** Montalcino's identity as the last free Sienese town — the exiles' Republic of **1555 to 1559** — is not a footnote here; it is the reason the town's flags and its fortress mean what they do, and [our Siena history articles](/blog/siena-1348-the-year-the-city-stopped/) explain what those four years were the end of. Ask in any enoteca and you will get the story with the pour.
+
+**When to come.** The **vendemmia weeks from early September** are the town at full pitch this year; **October** brings the Sagra del Tordo and [the golden light](/blog/tuscany-in-october-2026/); **November** the new oil and [the truffle fairs](/blog/tuscany-white-truffle-season-2026/) an hour away; winter the emptiest ramparts and the warmest enotecas. High summer is hot on the climb and busy on the square — go early, taste at midday, leave before the coaches.`,
+      },
+      {
+        id: 'brunello',
+        heading: 'Brunello: how to taste it here, and what 2026 is doing',
+        body: `**The wine, in one paragraph.** Brunello di Montalcino is **100% Sangiovese**, released in its **fifth year** after at least two years in oak, and was in the **first cohort of DOCG wines in July 1980** — [the comparison guide](/blog/montalcino-or-montepulciano-2026/) has the full rulebook against Vino Nobile. It is the region's most expensive bottle and its most serious, and the town treats it accordingly: this is a wine town first and a hill town second.
+
+**Tasting without a car.** The fortress enoteca (above) is the answer, and the town's other enotecas pour by the glass all along the main street — [Osticcio](/blog/where-to-eat-siena-day-trips/), half restaurant and half wine bar with a valley window, is the named recommendation in our restaurants guide. Cellar visits at the estates in the countryside need a car and a booking; in season, book them weeks ahead.
+
+**The 2026 harvest.** As reported in early September by the **Consorzio del Brunello di Montalcino**: picking began for most estates on **Monday 7 September**, at least a week ahead of 2025, after a hot summer in which the Sangiovese nonetheless had water at the critical stages; the consortium's monitoring showed **very positive plant health and regular ripening**, with quality expected **high** and volumes **in line with or slightly below 2025**. For a visitor that means the harvest weeks run **from early September into October** — the cellars busy, the tractors on the roads, the *vendemmia* smell in the air — and [our vendemmia guide](/blog/tuscany-wine-harvest-vendemmia-2026/) explains how to be usefully present without being in the way.
+
+**Buying.** Buy in town, from a shop that will ship, and buy the vintage you tasted. The comparison guide's price framing stands: Brunello is a considered purchase, Rosso di Montalcino is the same estates' younger, kinder-priced wine, and the enoteca will pour both if you ask.`,
+      },
+      {
+        id: 'beyond',
+        heading: 'Sant’Antimo, the Sagra del Tordo, and the road home',
+        body: `**Sant'Antimo.** Nine kilometres south, in a valley of olives and cypresses, stands the **Abbey of Sant'Antimo** — one of the finest Romanesque churches in Italy, rebuilt around 1118–1130 in travertine, with a community of Olivetan monks singing the hours in Gregorian chant, and free to enter. It is the natural second half of a Montalcino day and it has [its own full guide](/blog/santantimo-abbey-guide/); the short version is: go, time it for an office, and drive.
+
+**The Sagra del Tordo.** Montalcino's autumn festival, on the **last weekend of October**, pits the town's four quarters — Borghetto, Pianello, Travaglio and Ruga — in an **archery tournament** after a historic procession, with the quarters' gardens serving the season's food. The 2025 edition ran 24–26 October; at our check the 2026 dates had not been published — [the October guide](/blog/tuscany-in-october-2026/) will carry them when they are. It is the town's one weekend of crowds outside the harvest.
+
+**Getting there and away.** Car-free from Siena: the direct **line 114** (Siena–Buonconvento–Torrenieri–Montalcino, weekdays), or the smoother **train to [Buonconvento](/blog/buonconvento-guide/)** on the Siena–Grosseto line and the 114 for the short climb — the "rail trick" [our car-free guide](/blog/tuscany-without-a-car-2026/) recommends; allow roughly **1.5 to 2 hours** end to end and plan the return times before committing. By car, the town is closed to visitor traffic and the car parks ring the walls; the fortress is at the top, the museums below it, and the walk between them is the town. [The driving guide](/blog/renting-a-car-in-tuscany-2026/) covers the region's rules and the harvest-season tractors.
+
+**The day that works.** Morning bus or drive, fortress first while the light is on the valley, the Sant'Agostino complex in its lunchtime window, a flight at the enoteca or Osticcio, lunch, then Sant'Antimo for the afternoon office and the drive home through [the Val d'Orcia's golden hour](/blog/val-dorcia-day-trip-from-siena-2026/).`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **21 September 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material — the Consorzio del Brunello's harvest statements as reported by the wine and regional press, the museum complex's published hours, the Fondazione Musei Senesi, and visitor guides for the fortress — rather than pages we opened.
+
+**Verified:** the Fortezza's **1361** construction, pentagonal plan and Medici extension, free courtyard, charged rampart walk with recent restoration limits, the Enoteca La Fortezza selling the tickets and pouring flights (guest-reported ~€25 for three glasses), and the published seasonal hours (9:00–20:00 April–October, 10:00–18:00 November–March); the **Sant'Agostino** complex with the Civic and Diocesan Museum, the underground archaeological collection and the **Tempio del Brunello**, and its published **31 August–1 November** hours of 11:30–13:00 and 14:15–17:30, closed Tuesday and Wednesday; the **2026 harvest** report — start on **7 September**, a week or more ahead of 2025, high expected quality, healthy vineyards, volumes in line with or slightly below 2025; the line **114** route and the Buonconvento rail alternative from [our car-free guide](/blog/tuscany-without-a-car-2026/); the wine rules and the 1555–1559 Sienese exile from [the comparison guide's](/blog/montalcino-or-montepulciano-2026/) verification; Sant'Antimo's essentials from [its own article's](/blog/santantimo-abbey-guide/) verification; and the Sagra del Tordo's four quarters, archery format and 2025 dates, with 2026 unpublished.
+
+**Stated with care:** the rampart fee, which we give as "a small charge" because guest reports vary and the enoteca sets it; museum prices, left to the desk; and the fortress hours, which come from visitor guides rather than the site's own page. Confirm all on arrival.
+
+We have no commercial relationship with the enoteca, the museums, the consortium, any estate or any body named. Nothing on this page is bookable through us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Montalcino asks less of your legs than Montepulciano and more of your palate. It is a fortress with a wine shop inside it, a convent with a wine museum inside it, and a main street where the question is never *whether* to taste Brunello but *where* — and in autumn 2026, with an early harvest under way and the consortium calling the year a good one, the answer is anywhere with a glass and a view.
+
+Walk the ramparts first, so you know what the wine is made from. Then let the town do the rest, and save the afternoon for the abbey that sings.`,
+      },
+    ],
+    [
+      { q: 'Is Montalcino worth visiting?', a: 'Yes — as a half-day of fortress, museums and Brunello, or a full day with the Abbey of Sant’Antimo nine kilometres south. The 1361 Fortezza has a free courtyard, charged ramparts with the Val d’Orcia panorama, and an enoteca inside the walls pouring Brunello flights without a car or booking; the Sant’Agostino complex holds the civic and diocesan art museum and the Tempio del Brunello wine museum.' },
+      { q: 'How is the 2026 Brunello harvest?', a: 'Early and promising, per the Consorzio del Brunello di Montalcino’s September reports: picking began for most estates on 7 September 2026, at least a week ahead of 2025, after a hot summer in which the Sangiovese still had water at the critical stages. The consortium reported very positive vine health, regular ripening, high expected quality and volumes in line with or slightly below 2025. The harvest weeks run from early September into October.' },
+      { q: 'Can you taste Brunello in Montalcino without a car?', a: 'Yes — that is the town’s advantage over the countryside estates. The Enoteca La Fortezza inside the fortress pours Brunello flights on the spot (guest reports cite around €25 for three glasses with accompaniments), and enotecas along the main street pour by the glass; Osticcio, in our restaurants guide, adds a kitchen and a valley window. Estate cellar visits need a car and a booking.' },
+      { q: 'What are the Montalcino museum hours?', a: 'Short and seasonal: for 31 August to 1 November 2026 the Sant’Agostino complex — the Civic and Diocesan Museum, the underground archaeological collection and the Tempio del Brunello — published 11:30–13:00 and 14:15–17:30 daily, closed Tuesdays and Wednesdays. Aim for the lunchtime window, avoid those two days, and confirm prices at the desk, which sells several combinations.' },
+      { q: 'How do you get to Montalcino from Siena without a car?', a: 'Bus line 114 (Siena–Buonconvento–Torrenieri–Montalcino) on weekdays, or the Siena–Grosseto train to Buonconvento with the 114 for the short climb — allow roughly 1.5 to 2 hours end to end and plan the return before committing; verify Sunday service separately. The car parks and bus stop sit below the walls; the fortress is at the top of town.' },
+      { q: 'When is the Sagra del Tordo?', a: 'On the last weekend of October, when Montalcino’s four quarters — Borghetto, Pianello, Travaglio and Ruga — compete in an archery tournament after a historic procession, with the quarters serving the season’s food. The 2025 edition ran 24–26 October; the 2026 dates had not been published at our September check — confirm on the comune’s channels.' },
+    ],
+    '2026-09-21',
+    {
+      seoTitle: 'Montalcino Guide 2026: Fortezza, Brunello Tasting, Museums, Sant’Antimo & the 114 Bus',
+      primaryKeyword: 'montalcino what to see',
+      secondaryKeywords: [
+        'montalcino fortezza ramparts ticket',
+        'brunello tasting montalcino without car',
+        'tempio del brunello montalcino hours',
+        'brunello harvest 2026',
+        'montalcino from siena bus 114',
+        'sagra del tordo montalcino',
+      ],
+      imageAlt: 'Cypress-lined ridges of the Val d’Orcia, the landscape Montalcino’s ramparts overlook',
+      canonicalPath: '/blog/montalcino-guide',
+      tags: ['day trips', 'val d orcia', 'wine towns', 'brunello'],
+    }
+  ),
+
+
+  A(
+    'santantimo-abbey-guide',
+    'Sant’Antimo: The Romanesque Abbey That Still Sings, Nine Kilometres from Montalcino',
+    'Things to do',
+    'Tuscany',
+    'Sant’Antimo below Montalcino: the Charlemagne legend, the 1118 travertine church, onyx capitals, the monks’ chant times, free entry and hours.',
+    '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Nine kilometres south of [Montalcino](/blog/montalcino-guide/), in a valley of olive trees and cypresses at the hamlet of **Castelnuovo dell'Abate**, stands what many judges call the finest Romanesque church in Tuscany: the **Abbey of Sant'Antimo**, rebuilt in pale travertine around **1118–1130**, with capitals carved in translucent **onyx-alabaster** and a resident community of **Olivetan Benedictine monks** who sing the daily offices in **Gregorian chant**. It is **free to enter**, open every day, and — timed to one of the sung hours — the single most affecting half-hour in the southern Val d'Orcia.
+
+The practical facts at our check: **open 10:00–19:00 from April to October and 10:30–17:00 from November to March**; the monks' weekday office schedule as published by visitor sources runs **Lauds 7:00, Terce and Mass 9:00, Sext 12:45, None 14:45, Vespers 19:00, Compline 20:30**, with different Sunday times — treat those as the pattern to plan around and confirm on the abbey's own site, because monastic timetables move with the liturgical year. There is no public transport worth relying on; **you drive**, and the abbey is the natural afternoon of a Montalcino day.
+
+This guide covers the legend and the real history, the building and what to look at inside it, how to time a visit to the chant, and the logistics.`,
+      },
+      {
+        id: 'legend-and-history',
+        heading: 'Charlemagne’s legend, and what the documents actually say',
+        body: `The abbey tells its own origin as a miracle. In **781**, the story goes, **Charlemagne** was returning from Rome with an army sickening from plague; he stopped in this valley, prayed, his soldiers recovered, and in thanks he founded a monastery on the spot. It is a splendid story and the abbey has told it for nine hundred years — but the honest reading is that **the Charlemagne foundation has no direct historical basis**: the accounts first appear in a document of the Emperor **Henry III in 1051**, two and a half centuries after the supposed event.
+
+What the documents do support is nearly as old. The first solid record is from **814**, when **Louis the Pious**, Charlemagne's son, granted privileges to a Benedictine community already here. Through the early Middle Ages Sant'Antimo grew rich — an imperial abbey with lands across southern Tuscany, on the pilgrim road's flank — and around **1118** it rebuilt its church in the form you see, work continuing through the 1130s. Then the long decline of the great abbeys: by the fifteenth century it had lost its independence, and for centuries the church stood in its valley as a magnificent near-ruin, its monastery buildings gone.
+
+The modern chapter is the one that makes the visit: monastic life returned to Sant'Antimo in the late twentieth century, and **since January 2016 the community has been Olivetan Benedictine** — the same congregation as [Monte Oliveto Maggiore](/blog/crete-senesi-guide/) across the hills — and it is their voices you hear at the offices. The legend gave the abbey its name and its fame; the monks give it its life.`,
+      },
+      {
+        id: 'the-building',
+        heading: 'The building: French Romanesque in Tuscan stone',
+        body: `Sant'Antimo does not look like other Tuscan churches, and that is the first thing to notice. The abbey's twelfth-century builders drew on **Burgundy and Provence** — the Cluniac and southern French Romanesque — rather than on Pisa or Florence, which gives the church its tall, single-minded clarity: a **basilican plan of three naves**, round arches on columns, an **ambulatory with radiating chapels** around the apse in the French manner, and an interior that rises and narrows toward the light with almost no ornament to distract from the stone.
+
+**The stone is the ornament.** The church is travertine, but the **capitals are carved from onyx-alabaster** — a translucent stone that catches the light and glows faintly from within, so that on a bright afternoon the tops of the columns seem lit from behind. Every capital is carved: geometric patterns, foliage, animals, human figures.
+
+**The one to find** is on the second column of the right-hand nave: **Daniel in the lions' den**, attributed to the **Master of Cabestany**, the anonymous twelfth-century sculptor whose work is scattered from Catalonia to Tuscany. Daniel prays between the hungry lions on the front face; on the other sides, the lions devour his accusers. It is the finest single piece of Romanesque carving in the region, and the reason art historians make the detour.
+
+Outside, walk the full circuit: the apse with its chapels, the surviving fragments of the monastery, the bell tower, and the setting itself — the church rising alone from the valley floor with the olive terraces and cypresses around it, the composition that every photograph of Sant'Antimo is trying to capture and that only the walk around it delivers.`,
+      },
+      {
+        id: 'the-chant',
+        heading: 'Timing the chant',
+        body: `The abbey is worth visiting silent. It is a different place during an office, when the monks file in and the plainsong fills a building designed for exactly that acoustic — and the difference is the reason to plan.
+
+**The pattern, as published by visitor sources at our check** (Monday to Saturday): **Lauds 7:00, Terce and Mass 9:00, Sext 12:45, None 14:45, Vespers 19:00, Compline 20:30**, with Sunday and feast-day times differing — Sunday Mass in particular draws a congregation and a fuller sung liturgy. The two offices that fit a day-tripper's schedule are **Sext at 12:45** and **None at 14:45** — short, midday, and reachable after a Montalcino morning; **Vespers at 19:00** is the most beautiful and the hardest to fit, because the abbey's public hours close at the same time in high season and the drive back is in the dark from November.
+
+**How to behave.** This is a working monastery's liturgy, not a performance: sit, keep still, no photographs during the office, no walking the aisles while the monks are singing, and leave the choir to them. Come early enough to be seated before it begins, and stay to the end. The shop by the entrance sells the monks' herbal teas, sweets and cosmetics, and the abbey's own recordings — the honest souvenir.
+
+**Confirm before you build a day on it.** Monastic timetables shift with the liturgical calendar, retreats and the seasons; the abbey's own site publishes the current schedule, and the figures above are the pattern, not a promise.`,
+      },
+      {
+        id: 'two-abbeys',
+        heading: 'Two abbeys, one order: Sant’Antimo and Monte Oliveto',
+        body: `Southern Siena has two great living abbeys, and since 2016 they belong to the same congregation — which makes the comparison worth a paragraph, because visitors regularly confuse them and each rewards a different kind of attention.
+
+**Monte Oliveto Maggiore**, in [the Crete Senesi](/blog/crete-senesi-guide/), is the Olivetans' mother house: a red-brick monastic city in the clay country, whose reason to visit is *painting* — the Great Cloister's thirty-five-fresco cycle of the life of St Benedict by Signorelli and Sodoma, a Renaissance gallery inside a working monastery. You go for the walls.
+
+**Sant'Antimo** is the opposite proposition: a Romanesque church almost without images, whose reason to visit is *stone, light and sound* — the travertine, the glowing capitals, the plainsong. You go for the space. It is smaller, older in its fabric, freer (no ticket), and far more dependent on timing: Monte Oliveto is the same at any hour, Sant'Antimo is transformed by the office.
+
+The practical consequence: they are on opposite sides of Siena's southern hinterland — one east in the crete, one south below Montalcino — and belong to different days. Give Monte Oliveto the [crete loop](/blog/crete-senesi-guide/) and Sant'Antimo the [Montalcino day](/blog/montalcino-guide/), and let the shared habit of the monks — the same rule, the same hours sung in two very different buildings — be the thread between them.`,
+      },
+      {
+        id: 'around-the-abbey',
+        heading: 'Around the abbey: Castelnuovo dell’Abate and the Brunello south',
+        body: `The abbey sits in the heart of Brunello's southern vineyards, and the hamlet above it, **Castelnuovo dell'Abate**, is a village of a few streets on the ridge with the estates spread around. This is the quiet side of [Montalcino's](/blog/montalcino-guide/) wine country — south-facing, warmer, later-ripening than the northern slopes — and in [the harvest weeks of September and October](/blog/tuscany-wine-harvest-vendemmia-2026/) the roads around the abbey carry tractors and the air carries the *vendemmia*; the 2026 picking, per the consortium, began early on 7 September.
+
+**Pairing the abbey with a tasting.** The honest order is abbey first, wine second: attend the midday office with a clear head, then drive back toward Montalcino for the enoteca flight at the fortress or a booked estate visit — and if you are the driver, [the region's rules on tasting and driving](/blog/renting-a-car-in-tuscany-2026/) apply with the usual force on these bends. Estate visits in this southern zone need a booking, in season weeks ahead; the town's enotecas need nothing.
+
+**The walk.** From the abbey, tracks and quiet lanes climb the valley sides through olives and vines — the abbey seen from above, rising alone from its floor, is the image the photographs chase, and an hour's stroll delivers it. Wear shoes for farm tracks and carry water; there is nothing to buy between the abbey shop and the village.
+
+**The season for it.** Autumn, unambiguously: the light through the capitals, the harvest around the walls, the truffle fairs [an hour to the north](/blog/tuscany-white-truffle-season-2026/) the following month. Winter for solitude; spring for the green; summer for early mornings only.`,
+      },
+      {
+        id: 'practical',
+        heading: 'Getting there, and the day around it',
+        body: `**By car, only.** Sant'Antimo is a ten-minute drive south of [Montalcino](/blog/montalcino-guide/) via Castelnuovo dell'Abate, with parking below the abbey and a short walk down to it. There is no bus a visitor should plan around; for the car-free traveller the abbey is a reason to take a tour or to hire for the day, [as our car-free guide advises](/blog/tuscany-without-a-car-2026/) for the whole southern valley.
+
+**Hours and entry.** **Free.** Open every day: **10:00–19:00 from 1 April to 31 October, 10:30–17:00 from 1 November to 31 March** at our check. Modest dress applies as in any Italian church.
+
+**The classic pairing** is the Montalcino day: fortress and Brunello in the morning, lunch in town, the abbey for the 14:45 office, then the [Val d'Orcia's golden hour](/blog/val-dorcia-day-trip-from-siena-2026/) on the drive back. The abbey also closes [the Via Francigena's](/blog/via-francigena-which-section-to-walk/) southern landscape from a different angle, and in [the truffle weeks of November](/blog/tuscany-white-truffle-season-2026/) it is the quiet counterweight to the fairs.
+
+**When.** Autumn light through the onyx capitals is the best of the year; winter mornings are empty and cold; high summer afternoons are hot on the walk but cool inside the stone. Whenever you come, time it to the singing.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **21 September 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material — the regional tourism board, reference works on the abbey, and visitor guides that reproduce the abbey's published hours and office times — rather than pages we opened.
+
+**Verified:** the abbey's location at Castelnuovo dell'Abate in the comune of Montalcino, about **nine kilometres** from the town; the **Charlemagne legend of 781** and its lack of direct historical foundation, the accounts first appearing in a **1051** document of Henry III; the **814** privileges of Louis the Pious to an existing Benedictine community; the rebuilding in travertine around **1118–1130** with Burgundian and Provençal echoes; the three-nave basilican plan, the **onyx-alabaster capitals**, and the **Daniel in the lions' den** capital attributed to the Master of Cabestany; the **Olivetan Benedictine** community in residence since **January 2016**; **free admission**, the shop, and the published seasonal hours (10:00–19:00 April–October, 10:30–17:00 November–March); and the weekday office pattern (Lauds 7:00, Terce and Mass 9:00, Sext 12:45, None 14:45, Vespers 19:00, Compline 20:30) with Sunday variations.
+
+**Stated with care:** the office times, which come from visitor sources reproducing the abbey's schedule and move with the liturgical year — confirm on the abbey's own site; the ambulatory-and-chapels description, which follows the standard architectural accounts; and the drive time from Montalcino, which is an estimate from the distance rather than a checked figure.
+
+We have no commercial relationship with the abbey, its shop, any tour operator or any body named. Nothing on this page is bookable through us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Tuscany is full of churches you admire. Sant'Antimo is one you *hear*: a twelfth-century French idea built in Tuscan stone, lit through translucent capitals, and filled twice a day with the sound it was designed for by monks who arrived a decade ago to restart a thousand-year-old habit.
+
+Drive down from Montalcino after the Brunello. Sit before the office begins. Let the building do what it was built to do. Then walk the circuit outside, find Daniel and his lions, and understand why an emperor's son thought this valley worth a charter in 814 — whether or not his father ever stood in it.`,
+      },
+    ],
+    [
+      { q: 'Is Sant’Antimo Abbey free to visit?', a: 'Yes — admission is free, and the abbey is open every day: 10:00–19:00 from April to October and 10:30–17:00 from November to March at our September 2026 check. A small shop sells the monks’ herbal teas, sweets, cosmetics and recordings. Dress modestly, and keep still and unphotographing during the sung offices.' },
+      { q: 'When do the monks sing at Sant’Antimo?', a: 'The published weekday pattern at our check: Lauds 7:00, Terce and Mass 9:00, Sext 12:45, None 14:45, Vespers 19:00 and Compline 20:30, with different Sunday and feast-day times. Sext and None are the two a day-tripper from Montalcino can most easily attend; Vespers is the most beautiful. Monastic timetables shift with the liturgical year — confirm the current schedule on the abbey’s own site before planning around it.' },
+      { q: 'Did Charlemagne found Sant’Antimo?', a: 'By legend, yes — in 781, in thanks for his plague-struck army’s recovery in this valley. Historically, no direct evidence supports it: the story first appears in a document of Emperor Henry III in 1051. The first solid record is from 814, when Louis the Pious granted privileges to a Benedictine community already here. The church you see was rebuilt around 1118–1130.' },
+      { q: 'What should you look for inside Sant’Antimo?', a: 'The onyx-alabaster capitals, translucent enough to glow in afternoon light, carved with geometric, plant, animal and human motifs — and above all the Daniel in the lions’ den capital on the second column of the right nave, attributed to the Master of Cabestany, the finest Romanesque carving in the region. Then the French-style ambulatory with its radiating chapels behind the altar, and the walk around the outside for the setting.' },
+      { q: 'Who lives at Sant’Antimo now?', a: 'A community of Olivetan Benedictine monks — the same congregation as Monte Oliveto Maggiore in the Crete Senesi — resident since January 2016, who sing the daily offices in Gregorian chant. Monastic life returned to the abbey in the late twentieth century after centuries in which the church stood as a magnificent near-ruin without a monastery.' },
+      { q: 'How do you get to Sant’Antimo?', a: 'By car: about nine kilometres south of Montalcino via Castelnuovo dell’Abate, with parking below the abbey and a short walk down. There is no bus a visitor should plan around; car-free travellers should take a tour or hire for the day. The classic plan is a Montalcino morning, lunch in town, and the abbey for the 14:45 office before the drive back through the Val d’Orcia.' },
+    ],
+    '2026-09-22',
+    {
+      seoTitle: 'Sant’Antimo Abbey Guide 2026: Gregorian Chant Times, History, Hours & How to Visit',
+      primaryKeyword: 'sant antimo abbey visit',
+      secondaryKeywords: [
+        'sant antimo gregorian chant schedule',
+        'abbazia di sant antimo opening hours',
+        'sant antimo montalcino how to get there',
+        'sant antimo daniel lions capital',
+        'romanesque abbey tuscany',
+        'olivetan monks sant antimo',
+      ],
+      imageAlt: 'Olive and cypress country of the southern Val d’Orcia, the valley of the Abbey of Sant’Antimo',
+      canonicalPath: '/blog/santantimo-abbey-guide',
+      tags: ['things to do', 'val d orcia', 'romanesque', 'montalcino'],
+    }
+  ),
+
+
+  A(
+    'tuscany-all-saints-weekend-2026',
+    'All Saints’ Weekend in Tuscany 2026: A Free-Museum Sunday, a Holiday, and the Monday Everything Closes',
+    'Practical tips',
+    'Tuscany',
+    'Ognissanti 2026 falls on Sunday 1 November — a first Sunday, so state museums are free — then the Uffizi and Pitti close on Monday. The plan that works.',
+    '/images/tuscany/florence-piazzale-michelangelo-sunset.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `In 2026 the calendar does something awkward and useful with Italy's All Saints' holiday. **Ognissanti, 1 November, falls on a Sunday** — which means there is **no *ponte*, no bridge-day long weekend**, because the holiday consumes a day nobody was working anyway; and it is also **the first Sunday of the month**, which under Italy's *Domenica al Museo* scheme makes **state museums free**: in Florence, the Uffizi, the Accademia, the Pitti and the Bargello group among them. Then, on **Monday 2 November — not a holiday in Italy — the Uffizi and the Pitti close for their weekly rest day**, as they do every Monday.
+
+So the weekend has a shape: **Saturday 31 October** ordinary and busy (and the last full day of [Lucca Comics](/blog/lucca-comics-and-games-2026-tuscany-guide/), with its exodus to follow); **Sunday 1 November** a public holiday *and* a free-museum day, with Sunday transport timetables and the year's longest Uffizi queue; **Monday 2 November** a working day with the big Florentine museums shut and the crowds gone. Plan the three days in that order and the weekend is one of the year's best; plan it as a normal weekend and Sunday will ambush you.
+
+The rest of this page is the plan: what free entry actually involves, how the holiday changes transport and shops, what to do with Monday, and the November calendar that follows — [the Siena Duomo floor's final fortnight](/siena-cathedral-guide), [the truffle fairs](/blog/tuscany-white-truffle-season-2026/), the new oil.`,
+      },
+      {
+        id: 'free-sunday',
+        heading: 'Sunday 1 November: free museums, and what “free” costs',
+        body: `**The scheme.** *Domenica al Museo* opens Italy's state museums and archaeological parks free on the first Sunday of every month — **no ticket, no reservation**. In 2026 that Sunday is 1 November, so the holiday and the free day coincide, and the two crowds — Italians off work, visitors chasing the Uffizi — arrive together.
+
+**What it means in Florence.** The state collections are the big ones: the **Uffizi**, the **Accademia** (David), the **Pitti Palace** and Boboli, the **Bargello** and its group. Free entry there is genuine and unbooked — which is the catch. **Without reservations, the queues on free Sundays form well before opening**, and at the Uffizi and Accademia on a holiday Sunday they will be the year's longest. The regional museums directorate's standing advice is blunt: **arrive early**. Our own [Uffizi](/blog/uffizi-tickets-sold-out-what-to-do/) and [Accademia](/blog/accademia-tickets-sold-out-florence/) sold-out guides explain the alternatives when a queue is not the day you want.
+
+**The honest calculation.** For a first-time Uffizi visit, a booked weekday ticket beats a free holiday Sunday every time; the saving is real but the hours are worth more. Free Sunday is for the second-tier state museums — the Bargello's sculpture, the Pitti's Palatine Gallery, San Marco's Fra Angelico cells — where the queue is short and the saving is the same. And it is for [Siena](/siena-travel-guide), whose state museum, the Pinacoteca Nazionale, is free that day too and never queued.
+
+**Municipal museums are different.** Florence's civic museums — Palazzo Vecchio, the Brancacci, Santa Maria Novella — and Siena's civic sites — the Museo Civico, the Torre del Mangia, Santa Maria della Scala — are **not** in the state scheme; they run their ordinary holiday hours and prices. Neither is the Siena cathedral complex, where [the uncovered floor's tariff](/siena-cathedral-guide) applies, with the Opera's own free-winter window beginning the same day — the overlap our cathedral guide flags.`,
+      },
+      {
+        id: 'holiday-effects',
+        heading: 'The holiday: transport, shops, and the Sunday that is also a feast',
+        body: `Ognissanti is a **national public holiday**, and on a Sunday its effects stack with the ordinary Sunday ones:
+
+- **Transport runs on holiday timetables.** Regional trains thin, and [Siena's extraurban bus network shrinks to its Sunday skeleton](/blog/tuscany-without-a-car-2026/) — the day-trip buses to the hill towns are effectively out of reach. Florence–Siena on the 131 runs, but check the holiday timetable, not the weekday one. This is the day to be *in* a city, not moving between them.
+- **Food shops and markets close**, as on any Sunday, and many restaurants are full with Italian families on the holiday's traditional lunch. **Book Sunday lunch** — in Florence, Siena or any hill town — or eat early.
+- **Churches are in use.** All Saints is a major feast; morning Masses fill the great churches, and the cemeteries are busy the same day and the next, when Italy remembers its dead on 2 November. Visit the Duomo and the basilicas in the afternoon, and treat the mornings as the town's, not yours.
+- **The Lucca effect.** [Lucca Comics & Games](/blog/lucca-comics-and-games-2026-tuscany-guide/) ends on this Sunday, releasing its crowds onto the Pisa and Florence lines that evening. If you are travelling on the Tuscan west-coast railway on Sunday 1 November, expect it.
+
+The upside is real: a Sunday holiday in a Tuscan city is the region at its most itself — families in the piazzas, the long lunch, the evening *passeggiata* at full strength — and it costs nothing to watch.`,
+      },
+      {
+        id: 'monday',
+        heading: 'Monday 2 November: the closed day, used well',
+        body: `**2 November is not a public holiday** — it is All Souls' Day, observed but ordinary — so Italy goes back to work, and the museums go to their weekly rest: in Florence **the Uffizi, the Pitti and the Cenacolo close on Mondays**, as does the Accademia. Arriving on Monday expecting the big three is the classic post-holiday error.
+
+**What Monday is for:**
+
+- **The civic and church sites that open Mondays** — Palazzo Vecchio, the Duomo complex, the basilicas, Santa Croce — and the Boboli-free Oltrarno of workshops and lunch.
+- **Siena**, where [the cathedral floor is uncovered until 15 November](/siena-cathedral-guide) and the crowds of the holiday Sunday have gone home. The Duomo complex opens; the Museo Civico opens; the city is on a working-day footing with a Monday's calm. It is the best day of the three to be there.
+- **The hill towns by car**, with the holiday traffic over and the roads empty.
+- **The truffle country warming up**: the season is legal from 1 October, and the first fair — [San Giovanni d'Asso on 7–8 November](/blog/tuscany-white-truffle-season-2026/) — is the following weekend; Monday is the day to book the hunt and the tables.
+
+And then the November that follows: [the Duomo floor's last fortnight](/blog/tuscany-in-november-2026/), San Miniato's truffle weekends from the 14th, the new oil at the mills, and a region that has just handed itself back to its residents. The holiday weekend is the hinge between Tuscany's autumn and its winter; used in the right order, it is a very good hinge.`,
+      },
+      {
+        id: 'three-plans',
+        heading: 'Three plans for the three days',
+        body: `**Florence-based.** *Saturday*: a booked museum — the [Uffizi](/blog/uffizi-tickets-sold-out-what-to-do/) or the [Accademia](/blog/accademia-tickets-sold-out-florence/) with a reservation, because Sunday's free entry is not worth the queue for a first visit — and the Oltrarno for the afternoon. *Sunday*: the free state museums you would otherwise skip — the Bargello, San Marco, the Pitti's Palatine Gallery — an early start, a booked lunch, the holiday piazzas in the evening. *Monday*: the Duomo complex and Palazzo Vecchio, which open, or the bus to Siena.
+
+**Siena-based.** *Saturday*: the city at its autumn best, with [the Duomo floor uncovered](/siena-cathedral-guide) and the OPA SI Pass at its uncovered-period price. *Sunday*: the free Pinacoteca Nazionale in the morning, All Saints Mass in the cathedral if the liturgy interests you, a booked lunch, and the Campo at dusk — no hill-town buses, so stay put. *Monday*: the Museo Civico and the Torre del Mangia on a quiet working day, or [Buonconvento by train](/blog/buonconvento-guide/) for the one car-free hill-town trip that works on any day.
+
+**Car-based.** *Saturday*: the Val d'Orcia loop before the holiday traffic. *Sunday*: a city day — Siena or Florence — because the hill towns' restaurants are full and their museums on holiday hours. *Monday*: the empty roads — [the Crete Senesi](/blog/crete-senesi-guide/), [the southern Val d'Orcia](/blog/radicofani-guide/), or the drive west to [Lucca and Pisa](/blog/lucca-comics-and-games-2026-tuscany-guide/) after the comics crowds have gone home.
+
+In all three, the rule is the same: Sunday indoors and in a city, Monday outdoors or in Siena, Saturday for the booked thing.`,
+      },
+      {
+        id: 'the-week-after',
+        heading: 'The week after: what the calendar holds',
+        body: `The All Saints weekend is not the destination; it is the doorway to Tuscany's best-value fortnight, and the dates around it are worth having in one place:
+
+- **1 November**: the Opera del Duomo's **free-winter cathedral window** in Siena begins — overlapping the **uncovered-floor tariff** until the 15th, an overlap [our cathedral guide](/siena-cathedral-guide) tells you to budget for.
+- **1 November onward**: the **white truffle season** is legal (from 1 October) and the first fair is a week away — [San Giovanni d'Asso, 7–8 November](/blog/tuscany-white-truffle-season-2026/), with a Treno Natura heritage-train service advertised for the Sunday.
+- **14–15 November**: the shared truffle weekend — San Miniato's first and San Giovanni d'Asso's second — and the **Duomo floor's last uncovered days**; the boarding returns on the 15th.
+- **Through November**: [olio nuovo](/blog/tuscany-olive-harvest-olio-nuovo-2026/) at its peak at the mills, the region's best month for [food](/blog/tuscan-food-calendar-seasonal-dishes/) and its most negotiable for rooms.
+- **4–8 December**: [Siena's Mercato nel Campo](/blog/tuscany-in-december-2026/), five days this year, for those who stay long enough.
+
+Book the truffle tables and the Duomo visit before the weekend; leave the rest loose. [Tuscany in November](/blog/tuscany-in-november-2026/) is the full month's case, and the All Saints weekend is where it starts.`,
+      },
+      {
+        id: 'booking',
+        heading: 'Booking it: beds, tables and tickets, in the right order',
+        body: `**Beds.** Even without a bridge day, the Sunday holiday concentrates Italian domestic travel on the weekend of 31 October–1 November, and the [Lucca Comics](/blog/lucca-comics-and-games-2026-tuscany-guide/) finale has already absorbed the west of the region's rooms; book Florence and Siena before the last week of October, and expect Saturday night to be the tight one. Monday night, by contrast, is the start of the low season proper — the moment [our November guide](/blog/tuscany-in-november-2026/) calls the year's most negotiable — so a three-night stay that begins on the Saturday ends in the cheap part of the week.
+
+**Tables.** Sunday lunch on a feast day is the one meal of the weekend that genuinely needs a reservation, everywhere from a Florence trattoria to a Val d'Orcia village; [our restaurants guide's](/blog/where-to-eat-siena-day-trips/) rule — book the destination meals, walk into the rest — applies with Sunday moved into the first category.
+
+**Tickets.** Book the Saturday museum; leave Sunday unbooked, because free entry is unbooked by design; and check the Monday closures before assuming anything. For Siena, the [OPA SI Pass](/siena-cathedral-guide) covers the cathedral complex on any of the three days at the uncovered-floor price.
+
+Everything else can wait for the day.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **21 September 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material — the Ministry of Culture's *Domenica al Museo* scheme, the regional state-museums directorate's holiday notices, the Florentine press's holiday-weekend coverage in recent years, and the fixed Italian calendar — rather than pages we opened.
+
+**Verified:** that **1 November 2026 is a Sunday** and Italy's Ognissanti public holiday; that **2 November is not a public holiday**; that the first Sunday of the month brings **free entry to state museums and archaeological parks without ticket or reservation** under *Domenica al Museo*, with the directorate's advice to arrive early because queues form before opening; that the Uffizi, Pitti and Cenacolo observe their **Monday closure**; that Sunday and holiday transport timetables apply, per [our car-free guide's](/blog/tuscany-without-a-car-2026/) verification; and the November calendar that follows — the Siena Duomo floor uncovered to **15 November**, the truffle fairs' dates, Lucca Comics' end on 1 November — from the linked guides' own verification.
+
+**Stated with care:** which individual state museums participate on a given first Sunday — the scheme is national but institutions occasionally opt out for special exhibitions, so check the museum's own notice; the hotel-price picture for the weekend, which we do not quantify; and Siena's Pinacoteca's participation, which follows the national rule but should be confirmed on the day.
+
+We have no commercial relationship with any museum, operator or body named. Nothing on this page is bookable through us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Three days, three different countries: a Saturday that is ordinary Tuscany at the end of its season, a Sunday that is Italy on holiday with its museums thrown open and its queues at full length, and a Monday that is the quiet working region with its biggest doors shut. The mistake is to treat them alike. The plan is to give Sunday to the piazzas and the second-tier museums, Monday to Siena and the hill towns, and Saturday to whatever you would have done anyway.
+
+Do that, and the weekend Italians call a non-bridge becomes the best free ticket of the year — and the door into the November that our whole autumn calendar has been pointing toward.`,
+      },
+    ],
+    [
+      { q: 'Is 1 November 2026 a holiday in Italy?', a: 'Yes — Ognissanti, All Saints’ Day, a national public holiday, and in 2026 it falls on a Sunday, so there is no bridge-day long weekend: Monday 2 November (All Souls) is an ordinary working day. Expect Sunday and holiday transport timetables, closed food shops and full restaurants on the Sunday itself.' },
+      { q: 'Are museums free on 1 November 2026 in Florence?', a: 'The state ones, yes — 1 November 2026 is the first Sunday of the month, and under Domenica al Museo the Uffizi, Accademia, Pitti, Bargello and other state museums open free with no ticket or reservation. The catch is the queue, which on a holiday Sunday forms well before opening; arrive early, or use the free day for the less-queued state collections. Municipal museums and the cathedral complexes are not in the scheme.' },
+      { q: 'Is the Uffizi open on Monday 2 November 2026?', a: 'No — the Uffizi, the Pitti Palace and the Cenacolo close on Mondays, and 2 November 2026 is a Monday and not a public holiday. Use the day for Palazzo Vecchio, the Duomo complex and the basilicas in Florence, or for Siena, where the cathedral floor is uncovered until 15 November and the holiday crowds have gone.' },
+      { q: 'Do buses and trains run on 1 November in Tuscany?', a: 'On Sunday and holiday timetables: regional trains thin, and Siena’s extraurban buses to the hill towns shrink to a skeleton, so plan to be in a city rather than moving between them. The Florence–Siena 131 runs on its holiday pattern — check that timetable, not the weekday one. Lucca Comics ends the same Sunday and fills the west-coast trains that evening.' },
+      { q: 'What is the best plan for the All Saints weekend in Tuscany?', a: 'Saturday for whatever you planned; Sunday in a city for the free state museums (the less-queued ones, or the Uffizi only if you queue before opening), a booked lunch and the holiday piazzas; Monday for Siena — Duomo floor uncovered, crowds gone — or the hill towns by car with the roads empty. Then the November calendar: truffle fairs from 7–8 November, the new oil, the Duomo floor to the 15th.' },
+      { q: 'Is Siena good on the All Saints weekend?', a: 'Best on the Monday: the cathedral floor is uncovered until 15 November, the civic museums open, and the holiday crowds have left. On the Sunday the state Pinacoteca is free under the national scheme while the civic sites and the cathedral complex charge as usual — and the Opera’s own free-winter cathedral window begins the same day, overlapping the uncovered-floor tariff, so budget the higher fare and treat free entry as an upside.' },
+    ],
+    '2026-09-23',
+    {
+      seoTitle: 'All Saints’ Weekend Tuscany 2026: Free Museums Sunday 1 Nov, Monday Closures & the Plan',
+      primaryKeyword: 'italy all saints day 2026 museums',
+      secondaryKeywords: [
+        'ognissanti 2026 florence museums free',
+        'domenica al museo 1 november 2026',
+        'uffizi closed monday 2 november',
+        'tuscany november 1 holiday transport',
+        'all saints weekend florence siena',
+        'first sunday free museums italy november 2026',
+      ],
+      imageAlt: 'Florence at sunset from Piazzale Michelangelo, the city on a holiday evening',
+      canonicalPath: '/blog/tuscany-all-saints-weekend-2026',
+      tags: ['practical tips', 'november in tuscany', 'florence museums', 'public holidays'],
     }
   ),
 
