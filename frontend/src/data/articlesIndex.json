@@ -1313,6 +1313,58 @@
   "store": "articles"
  },
  {
+  "publishedAt": "2026-09-24T00:00:00+07:00",
+  "slug": "colle-di-val-delsa-guide",
+  "title": "Colle di Val d’Elsa: The Crystal Town Between San Gimignano and Siena That Everyone Skips",
+  "category": "Day trips",
+  "region": "Tuscany",
+  "excerpt": "Colle di Val d’Elsa: the town that makes most of Italy’s crystal, its €6 museum in the old furnaces, Arnolfo’s birthplace, the upper town and the lift.",
+  "image": "/images/siena/hidden-gems-siena-tuscany-hero.webp",
+  "readMinutes": 11,
+  "canonicalPath": "/blog/colle-di-val-delsa-guide",
+  "updated": "2026-09-24",
+  "store": "articles"
+ },
+ {
+  "publishedAt": "2026-09-25T00:00:00+07:00",
+  "slug": "chianti-classico-towns-guide",
+  "title": "The Chianti Classico Towns: Greve, Castellina, Radda and Gaiole, Compared Honestly",
+  "category": "Day trips",
+  "region": "Tuscany",
+  "excerpt": "Greve, Castellina, Radda and Gaiole compared: the square and expo, the vaulted street, the hilltop, the castles and Brolio, plus bus 125 from Siena.",
+  "image": "/images/tuscany/chianti-wine-road-vineyard.webp",
+  "readMinutes": 11,
+  "canonicalPath": "/blog/chianti-classico-towns-guide",
+  "updated": "2026-09-25",
+  "store": "articles"
+ },
+ {
+  "publishedAt": "2026-09-26T00:00:00+07:00",
+  "slug": "volterra-guide",
+  "title": "Volterra: Etruscan Urns, Alabaster Dust, a Working Prison, and No Vampires",
+  "category": "Day trips",
+  "region": "Tuscany",
+  "excerpt": "Volterra in full: Etruscan urns, the 1208 Palazzo dei Priori, Roman theatre, alabaster workshops, the Balze, the €23 card and the Twilight truth.",
+  "image": "/images/tuscany/val-dorcia-cypress-trees-landscape.jpg",
+  "readMinutes": 11,
+  "canonicalPath": "/blog/volterra-guide",
+  "updated": "2026-09-26",
+  "store": "articles"
+ },
+ {
+  "publishedAt": "2026-09-27T00:00:00+07:00",
+  "slug": "san-galgano-abbey-sword-in-the-stone",
+  "title": "San Galgano: The Roofless Abbey and the Real Sword in the Stone, an Hour from Siena",
+  "category": "Things to do",
+  "region": "Tuscany",
+  "excerpt": "San Galgano: the roofless Cistercian abbey (€6), the real twelfth-century sword in the rock (free), the 27 September closure and how to get there.",
+  "image": "/images/tuscany/val-dorcia-cypress-trees-landscape.jpg",
+  "readMinutes": 11,
+  "canonicalPath": "/blog/san-galgano-abbey-sword-in-the-stone",
+  "updated": "2026-09-27",
+  "store": "articles"
+ },
+ {
   "publishedAt": "2026-07-12T10:30:00+07:00",
   "slug": "piazza-del-campo-guide",
   "title": "Piazza del Campo: What to Look For, and the Rules That Changed",

@@ -3605,8 +3605,8 @@ Safe travels!`,
 3.  **[Buonconvento](/blog/buonconvento-guide/)** — A charming walled town on the ancient Via Cassia with narrow streets, a small sacred-art museum, and excellent local trattorias. Locals head here for ribollita and wild-boar pasta; tour buses usually skip it. Allow 1–2 hours.
 4.  **Castelnuovo Berardenga** — A quiet Chianti village with a medieval core and nearby wineries that produce outstanding Chianti Classico without the crowds of Radda or Greve. Perfect for a relaxed stroll and tasting.
 5.  **[San Quirico d’Orcia](/blog/san-quirico-dorcia-guide/)** — The elegant gateway to Val d’Orcia’s iconic cypress-lined hills and rolling fields. Stroll the Horti Leonini Renaissance gardens and enjoy panoramic viewpoints at golden hour. About 50–55 minutes south of Siena by bus.
-6.  **Eremo di Montesiepi & San Galgano Abbey** — A hilltop hermitage with the legendary “sword in the stone” and the roofless Gothic abbey below. The peaceful setting feels like stepping back centuries; pair it with a visit to Montalcino for a full half-day.
-7.  **Colle di Val d’Elsa (Alta)** — The upper medieval quarter of this crystal-glass town offers quiet alleys and sweeping views over the Elsa Valley. Far fewer tourists than nearby San Gimignano; ideal for a peaceful morning walk.
+6.  **[Eremo di Montesiepi & San Galgano Abbey](/blog/san-galgano-abbey-sword-in-the-stone/)** — A hilltop hermitage with the legendary “sword in the stone” and the roofless Gothic abbey below. The peaceful setting feels like stepping back centuries; pair it with a visit to Montalcino for a full half-day.
+7.  **[Colle di Val d’Elsa (Alta)](/blog/colle-di-val-delsa-guide/)** — The upper medieval quarter of this crystal-glass town offers quiet alleys and sweeping views over the Elsa Valley. Far fewer tourists than nearby San Gimignano; ideal for a peaceful morning walk.
 8.  **Orto de’ Pecci & Fortezza Medicea viewpoints (Siena outskirts)** — Hidden gardens and the Medici fortress ramparts provide stunning city-and-hills panoramas, especially at sunset, without the main-square crowds.
 
 ![The perfectly preserved walls of Monteriggioni](/images/siena/monteriggioni-walled-village-siena.webp)
@@ -4631,7 +4631,7 @@ Two practical warnings. The lanes are cobbled and the gradients real, so a baby 
       {
         id: 'pairing-and-alternatives',
         heading: 'Pairing it with other stops',
-        body: `By public transport, San Gimignano is a full day done properly — resist the urge to bolt on a second town. Drivers have more options: **Monteriggioni**, the tiny walled outpost on the Siena road, pairs naturally with San Gimignano and needs only an hour; **Colle di Val d’Elsa**, the crystal town, sits just off the same route home.
+        body: `By public transport, San Gimignano is a full day done properly — resist the urge to bolt on a second town. Drivers have more options: **Monteriggioni**, the tiny walled outpost on the Siena road, pairs naturally with San Gimignano and needs only an hour; [**Colle di Val d’Elsa**, the crystal town](/blog/colle-di-val-delsa-guide/), sits just off the same route home — its Crystal Museum opens afternoons only, which suits the order.
 
 ![The walled village of Monteriggioni near Siena](/images/siena/monteriggioni-walled-village-siena.webp)
 *Monteriggioni’s complete ring of walls — a natural second stop for drivers.*
@@ -5942,7 +5942,7 @@ The styles of day differ accordingly: Chianti suits the grazing generalist, the 
         heading: 'Which has the better towns?',
         body: `**The Val d’Orcia, comfortably.** Pienza is a perfect Renaissance miniature with a cheese habit; Montalcino is a fortress town whose every doorway pours Brunello; Montepulciano climbs theatrically to its Piazza Grande above underground cellars; [San Quirico d’Orcia](/blog/san-quirico-dorcia-guide/) — host of [December’s oil festival](/blog/tuscany-in-december-2026/) — is the quiet connoisseur’s stop the coaches skip. Any one of them anchors a day; together they are the best town-hopping circuit in Tuscany.
 
-Chianti’s towns are pleasant rather than headline: Greve’s arcaded market square (at its absolute best during the Expo), Radda’s walled core, Castellina’s underground vault-street. They serve the wine country rather than starring in it — with one borderline exception worth knowing: **Monteriggioni**, the tiny, perfectly walled outpost on Chianti’s southern edge, twenty minutes from Siena and worth an hour of anyone’s day, [as our hidden-gems guide covers](/blog/hidden-gems-around-siena-tuscany-2026/).
+Chianti’s towns are pleasant rather than headline: Greve’s arcaded market square (at its absolute best during the Expo), Radda’s walled core, Castellina’s underground vault-street — [compared town by town in our Chianti Classico towns guide](/blog/chianti-classico-towns-guide/). They serve the wine country rather than starring in it — with one borderline exception worth knowing: **Monteriggioni**, the tiny, perfectly walled outpost on Chianti’s southern edge, twenty minutes from Siena and worth an hour of anyone’s day, [as our hidden-gems guide covers](/blog/hidden-gems-around-siena-tuscany-2026/).
 
 If towns are the point and wine is the excuse, the Val d’Orcia is your valley. If wine is the point and towns are the punctuation, Chianti holds serve.`,
       },
@@ -7134,7 +7134,7 @@ The verified geography of the shoot: **Piazza Grande** and the entrance of the *
 
 Practicalities: Montepulciano is covered in [our Val d’Orcia guide](/blog/val-dorcia-day-trip-from-siena-2026) — the film adds a route through town rather than a new logistics problem. Fans get the best photographs early, before the piazza fills; everyone else gets Vino Nobile cellars carved beneath the very streets the Volturi stalked, which is a better ending than the film’s.
 
-And spare a thought for the real **Volterra** — alabaster town, Etruscan museum, no vampires filmed — which fields the confusion graciously, markets it gently, and deserves a visit entirely on its own considerable merits.`,
+And spare a thought for the real **Volterra** — alabaster town, Etruscan museum, no vampires filmed — which fields the confusion graciously, markets it gently, and deserves a visit entirely on its own considerable merits, [as our Volterra guide sets out](/blog/volterra-guide/).`,
       },
       {
         id: 'bond-in-siena',
@@ -7841,7 +7841,7 @@ One warning transplanted from [the harvest guide](/blog/tuscany-wine-harvest-ven
 
 **Marbled paper** — carta marmorizzata — is Florence’s quieter signature: a technique that reached the city on fifteenth-century trade routes and survives in generational workshops. Notebooks, boxes and sheets of hand-marbled paper are light, flat, inexpensive and unmistakably Florentine — the traveller’s ideal craft souvenir.
 
-**Volterra alabaster** completes the set: the town has carved its translucent stone since **Etruscan times** and remains Italy’s one significant centre still working it traditionally. Buy in Volterra itself — [the real one, no vampires](/blog/tuscany-on-screen-film-locations-2026) — from workshops rather than generic gift shops.
+**Volterra alabaster** completes the set: the town has carved its translucent stone since **Etruscan times** and remains Italy’s one significant centre still working it traditionally. Buy in Volterra itself — [the real one, no vampires](/blog/tuscany-on-screen-film-locations-2026) — from workshops rather than generic gift shops; [our Volterra guide](/blog/volterra-guide/) has the workshops and the ecomuseum.
 
 ![An artisan street in Florence’s Oltrarno district](/images/florence/oltrarno-artisan-street.webp)
 *The Oltrarno’s botteghe: the difference between a souvenir and a stall trinket is a workbench you can see.*`,
@@ -9875,7 +9875,7 @@ If Panzano proves impossible, there is now a legitimate fallback: Cecchini opene
       {
         id: 'the-village',
         heading: 'The village, the Conca d’Oro and the organic hillside',
-        body: `Panzano itself is a *frazione* of Greve in Chianti, perched at about 500 metres on the **SR222 Chiantigiana** — the wine road that runs the 69-odd kilometres between Florence and Siena, and one of the great drives in Italy [when the car is the right tool](/blog/rent-a-car-in-florence-or-siena-2026/).
+        body: `Panzano itself is a *frazione* of [Greve in Chianti](/blog/chianti-classico-towns-guide/), perched at about 500 metres on the **SR222 Chiantigiana** — the wine road that runs the 69-odd kilometres between Florence and Siena, and one of the great drives in Italy [when the car is the right tool](/blog/rent-a-car-in-florence-or-siena-2026/).
 
 Its geographic signature is the **Conca d'Oro**, the "golden basin": a south-facing natural amphitheatre of hillside dropping toward the Pesa valley, whose name comes from the old practice of growing grain between the vine rows, turning the whole bowl gold before harvest. The bowl is also the reason Panzano's wine has a reputation of its own — it is one of the **eleven official Unità Geografiche Aggiuntive** of Chianti Classico (alongside Castellina, Radda, Gaiole, Lamole, Montefioralle and the rest), a subzone whose name may now appear on Gran Selezione labels under rules published in 2023. The Panzano UGA covers roughly **2,840 hectares**, of which about **595 are vineyard** — some 6.7 per cent of all Chianti Classico plantings.
 
@@ -9989,7 +9989,7 @@ Almost everything sold commercially, and almost everything worth walking on a fi
 
 **One day, classic** → **Monteriggioni to Siena**. Around twenty kilometres, out by bus on the morning [130 or 131](/blog/tuscany-without-a-car-2026/) to the Colonna di Monteriggioni stop, then walk home into the city. Carry water; there is next to none. [Full guide here](/blog/via-francigena-day-walk-siena/).
 
-**A long weekend (2–3 days)** → **San Gimignano → Colle Val d'Elsa → Monteriggioni → Siena.** Splitting Leg 32 at Colle makes this humane, and it strings together three of Tuscany's most photogenic arrivals in a row. This is the single best short-break itinerary on the Tuscan Francigena.
+**A long weekend (2–3 days)** → **San Gimignano → Colle Val d'Elsa → Monteriggioni → Siena.** Splitting Leg 32 at Colle makes this humane — [our Colle guide](/blog/colle-di-val-delsa-guide/) covers the town — and it strings together three of Tuscany's most photogenic arrivals in a row. This is the single best short-break itinerary on the Tuscan Francigena.
 
 **A week (6 days walking)** → **the full Lucca–Siena section, 133 km.** Lucca's walls to Siena's Campo, ending with a section certificate under the new 2026 scheme. Every operator's flagship product; entirely walkable independently with the official app and booked accommodation.
 
@@ -10212,7 +10212,7 @@ Try the official channels in this order — tickets.uffizi.it, the phone line, t
       {
         id: 'quick-answer',
         heading: 'Quick answer',
-        body: `L’Eroica rides out of **Gaiole in Chianti on Saturday 3 and Sunday 4 October 2026**. If your plan was to ride it, the honest headline is that you are late. Entries opened on **10 December 2025** and the categories closed one by one: the Ciclo Club Eroica places at €60, the Privilege and sports-team allocations, the 2,500-number **Standard at €100**, the 2,000-number **Standard Late at €125** released on 2 April 2026, the **Combined “Double Eroica”** Saturday-plus-Sunday ticket at €130, the **Combined “B”** pairing with Nova Eroica at €140. Every one of them showed **sold out** when we checked the official registration page on 16 August 2026. The single category still listed as available was the **children’s entry — €40, ages 13 to 17**.
+        body: `L’Eroica rides out of **[Gaiole in Chianti](/blog/chianti-classico-towns-guide/) on Saturday 3 and Sunday 4 October 2026**. If your plan was to ride it, the honest headline is that you are late. Entries opened on **10 December 2025** and the categories closed one by one: the Ciclo Club Eroica places at €60, the Privilege and sports-team allocations, the 2,500-number **Standard at €100**, the 2,000-number **Standard Late at €125** released on 2 April 2026, the **Combined “Double Eroica”** Saturday-plus-Sunday ticket at €130, the **Combined “B”** pairing with Nova Eroica at €140. Every one of them showed **sold out** when we checked the official registration page on 16 August 2026. The single category still listed as available was the **children’s entry — €40, ages 13 to 17**.
 
 Most articles stop there, which is a waste, because the number is the least interesting part of the weekend.
 
@@ -13241,6 +13241,444 @@ Do that, and the weekend Italians call a non-bridge becomes the best free ticket
     }
   ),
 
+  A(
+    'colle-di-val-delsa-guide',
+    'Colle di Val d’Elsa: The Crystal Town Between San Gimignano and Siena That Everyone Skips',
+    'Day trips',
+    'Tuscany',
+    'Colle di Val d’Elsa: the town that makes most of Italy’s crystal, its €6 museum in the old furnaces, Arnolfo’s birthplace, the upper town and the lift.',
+    '/images/siena/hidden-gems-siena-tuscany-hero.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Colle di Val d'Elsa sits on the road every San Gimignano day-tripper drives, halfway between the towers and [Monteriggioni](/blog/monteriggioni-guide/), and almost nobody stops — which is why it is worth stopping. It is **Italy's crystal town**: by the industry's own figures it produces **around 15% of the world's crystal and more than 95% of Italy's**, and it keeps the only **Crystal Museum** in the country, rebuilt in **2023** inside the furnaces of an old glassworks. It is also the birthplace of **Arnolfo di Cambio**, the sculptor-architect who designed Florence's cathedral and Palazzo Vecchio, and it is two towns in one: a medieval ridge — **Colle Alta** — above a working lower town — **Colle Bassa** — joined by a **lift**.
+
+Practically: **two hours** covers the museum, the lift, the upper town's single long street and the Baluardo's view over the Elsa valley; the town sits on the **Siena–Florence 131 bus corridor** (Siena–Colle–Poggibonsi–Florence), which makes it the easiest car-free stop on that road; and it carries the official **Colle variant of the Via Francigena**, the two-day alternative to the route's longest stage. This guide covers the crystal, the upper town, Arnolfo, the walk, and how to fold Colle into a San Gimignano or Monteriggioni day.`,
+      },
+      {
+        id: 'crystal',
+        heading: 'The crystal: a museum inside the furnaces',
+        body: `Colle's glass story is old and its crystal story is precise. The town has blown glass since at least the nineteenth century — the museum's chronology begins there — and it became Italy's crystal capital when local glassworks perfected the **lead-crystal mixture in 1963**; from that date the town's furnaces have supplied the Italian table, and by the sector's own account they now make around **15% of all the crystal in the world and more than 95% of Italy's**. A town of this size producing that share of anything is unusual; producing something as fragile and luxurious as lead crystal, in a valley between two of Tuscany's most visited hill towns, is close to unique.
+
+**The Museo del Cristallo** — the only museum of its kind in Italy — was first opened in **2001** and rebuilt in **2023** inside the old furnaces of the **Schmidt glassworks**, formerly the Boschi works, at **Via dei Fossi 8** in the lower town. The route runs on two levels beneath the works' chimney and traces the industry from the early 1800s to the 1963 crystal formula and the design decades since: the tools, the moulds, the finished pieces, and the reason a glass rings when you flick it. It is a small, well-made industrial museum, and the right first stop, because it explains why the town is here at all.
+
+**Hours and tickets, as published at our check** — and the hours decide your day. The museum opens **afternoons only: 14:00–19:00, Tuesday to Sunday, closed Monday and Wednesday**. A single ticket is **€6 (reduced €4)**; a **combined ticket for the town's three museums** — the Crystal Museum, the Museo San Pietro and the Palazzo Pretorio — is **€12 (reduced €8), valid 48 hours**; residents go free. The practical consequence is that **Colle is an afternoon town**: do San Gimignano or Monteriggioni in the morning, arrive here after lunch, and take the museum at two before the lift and the ridge. Arrive at eleven on a Wednesday and you will see the chimney from outside.
+
+After the museum, the town's crystal is on sale in the shops of the lower town and the upper street — glasses, decanters, the heavy cut pieces that made the name and the thin modern ones that keep it. [Our shopping guide's](/blog/what-to-buy-in-tuscany-souvenirs/) rule applies: buy from the maker's outlet, ask what is blown here, and let the shop pack it.`,
+      },
+      {
+        id: 'upper-town',
+        heading: 'Colle Alta: the ridge, the lift and Arnolfo’s tower-house',
+        body: `Colle's two halves are honest about their functions. **Colle Bassa**, on the valley floor around **Piazza Arnolfo di Cambio**, is the working town — the furnaces, the shops, the bus stops, the market square that is "the beating heart of the lower part". **Colle Alta**, on the ridge above, is the medieval town: one long street of stone and brick palazzi along the crest, gates at either end, and the valley falling away on both sides. A **lift** joins them, which spares the climb and makes the visit a loop rather than a slog: museum and square below, lift up, the ridge end to end, and down again.
+
+**Arnolfo di Cambio** is the ridge's famous son. Born here in the thirteenth century, he trained under **Nicola Pisano** — [the sculptor of Siena's cathedral pulpit](/siena-cathedral-guide) — and went on to design the buildings that define Florence: the cathedral of Santa Maria del Fiore, the Palazzo Vecchio, Santa Croce. His **tower-house** stands on the upper street, with a **bust of Arnolfo in the little square by the church of Santa Maria in Canonica** beside it — a modest memorial for the man who drew the Florentine skyline. It is a good place to notice how much of Tuscany's greatest architecture came from its smallest towns.
+
+Along the same street: the **Museo San Pietro**, the civic and diocesan museum of sacred art, with the paintings and objects that document the town and its valley; and at the ridge's end, the **Baluardo** — the surviving bastion of the old defences, with the best view in town, over the lower town's roofs and chimneys to the Chianti hills. The whole ridge is twenty minutes' walk and an hour's linger.`,
+      },
+      {
+        id: 'gate-to-gate',
+        heading: 'Colle Alta gate to gate: what the ridge actually holds',
+        body: `Walked from the west, the ridge reads in order. You enter through the **Porta Nova** — a **Medici fortification of 1479** with **two great round towers**, the textbook piece of early Renaissance military architecture that tells you the town was worth defending. The alternative name is the Porta Volterrana. Inside it, **Via del Castello** runs the length of the crest, and the first thing that stops you is the **Palazzo Campana**: a late-Renaissance palace of **1539–1550** whose **monumental arch** spans the street, so that the road passes through the building — the ridge's one theatrical gesture.
+
+Beyond the arch the street is lined with the **fifteenth- and sixteenth-century houses of the town's families** — the Luci, Morozzi, Giusti and Dini palaces among them — and the older **tower-houses** the palaces replaced, of which Arnolfo's is the famous one. **Piazza del Duomo** opens halfway along: the **cathedral**, rebuilt in the early **1600s** on the site of a Romanesque church, and beside it the **Palazzo Pretorio**, the fourteenth-century seat of the podestà, which now houses the **archaeological museum** with the valley's **Etruscan antiquarium** — the third museum on the €12 combined ticket, and the reminder that the Elsa valley was settled long before the pilgrims or the furnaces. Then the last stretch of the street, the church of Santa Maria in Canonica with Arnolfo's bust, and the **Baluardo** at the end.
+
+**And the river below.** The **Sentierelsa** is the town's other walk: a **nature trail of more than five kilometres** along the Elsa river that crosses the town itself and takes **under two hours**. On a hot day it is the best thing Colle offers, and it costs nothing; on a wet one, the ridge is drier. Together with the museum and the lift it turns the two-hour stop into a proper half-day, which is where the town's afternoon-only museum hours push you anyway.`,
+      },
+      {
+        id: 'francigena',
+        heading: 'The Francigena variant: the sensible way to split the longest stage',
+        body: `Colle earns a paragraph in every Via Francigena guide for one practical reason. The route's Tuscan stage from **San Gimignano to Monteriggioni** is one of the longest on the entire Canterbury–Rome road — [our stage-by-stage guide](/blog/via-francigena-which-section-to-walk/) puts it at 31 km and about seven hours, and calls it a trap for anyone who reads "one day" — and the **official Colle Val d'Elsa variant** is the escape: a slightly shorter alternative that passes through the town and lets walkers split the stage sensibly into two days, with Colle as the overnight and [Abbadia a Isola](/blog/monteriggioni-guide/) as the classic final approach the next morning.
+
+For a walker that makes Colle a bed, a meal and a museum halfway through the hardest part of the northern route. For a non-walker it is the reminder that the town was always on the road: the Francigena's pilgrims came down the Elsa valley long before the crystal furnaces did, and the town's position between San Gimignano and Siena is the reason both its industries — hospitality and glass — took root here.`,
+      },
+      {
+        id: 'practical',
+        heading: 'Getting there and fitting it in',
+        body: `**By bus — the easy one.** Colle sits on the **Siena–Colle–Poggibonsi–Florence corridor** served by Autolinee Toscane's 131 line, which makes it one of the few small towns on the Siena network reachable without timetable roulette; [our car-free guide](/blog/tuscany-without-a-car-2026/) covers the line's rules, and the bus stops in the lower town near the museum. It is also the change point for the thin onward connection to [Volterra](/blog/volterra-guide/), which has no direct service from Siena.
+
+**By car.** Colle is just off the Siena–Florence road and the San Gimignano turn-off; park in the lower town and use the lift.
+
+**The day it fits.** Three honest pairings, all with Colle in the afternoon because of the museum's hours: **San Gimignano + Colle**, with Colle as the quiet afternoon after the towers' crowds; **Monteriggioni + Colle**, the two small stops of the Siena road in one relaxed day; or **Colle as the stop on the way to Volterra**, an hour further west — in which case Volterra goes first and Colle catches the museum on the way back. [Our San Gimignano comparison](/blog/siena-or-san-gimignano-day-trip-2026/) already lists Colle as the drivers' add-on; this page is the argument for giving it the two hours rather than the glance.
+
+**Eating.** The lower town feeds its own workers, which is the recommendation: the two-streets-away rule from [our restaurants guide](/blog/where-to-eat-siena-day-trips/) applies, and lunch here is cheaper and calmer than in San Gimignano at the same hour.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **21 September 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material — the regional tourism board, the Fondazione Musei Senesi, the town's own visitor site, the comune's Francigena page and reference works on Arnolfo di Cambio — rather than pages we opened.
+
+**Verified:** the industry's figures of about **15% of world crystal and over 95% of Italian crystal** produced in Colle; the **Museo del Cristallo** as Italy's only crystal museum, first opened in **2001**, renovated in **2023**, housed in the former Schmidt/Boschi glassworks furnaces at **Via dei Fossi 8**, with a two-level route beneath the chimney tracing the industry from the early nineteenth century to the **1963** lead-crystal formula; **Arnolfo di Cambio's** birth in Colle, his training under Nicola Pisano, his tower-house and the bust by Santa Maria in Canonica; the division into **Colle Alta and Colle Bassa** joined by a **lift**, with Piazza Arnolfo as the lower town's centre; the Crystal Museum's published hours (**14:00–19:00 Tuesday to Sunday, closed Monday and Wednesday**) and tariff (**€6/€4 single; €12/€8 combined three-museum ticket valid 48 hours**; residents free); the **Porta Nova** as a Medici fortification of 1479 with two round towers; the **Palazzo Campana** of 1539–1550 with its arch over Via del Castello; the cathedral's early-1600s rebuilding on a Romanesque site; the fourteenth-century **Palazzo Pretorio** housing the archaeological museum and Etruscan antiquarium; the **Sentierelsa** as a five-kilometre river trail walkable in under two hours; the **Museo San Pietro** civic and diocesan collection and the **Baluardo's** panorama over the lower town toward the Chianti hills; the **Colle variant of the Via Francigena** as a slightly shorter alternative to the San Gimignano–Monteriggioni stage, from the comune's page and [our Francigena guide's](/blog/via-francigena-which-section-to-walk/) verification; and the **Siena–Colle–Poggibonsi–Florence** bus corridor from the operator's line listing.
+
+**Not established, and flagged:** whether the Crystal Museum's afternoon-only pattern changes seasonally — the listing we found gives one timetable, and the museum's own page is the place to confirm it for your date; the Museo San Pietro's and Palazzo Pretorio's hours; Arnolfo's exact birth year, which sources give only approximately; and the onward bus to Volterra's timetable, which we do not print. Confirm on the day.
+
+We have no commercial relationship with the museum, any glassworks, shop or operator named. Nothing on this page is bookable through us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Colle is the town on the road, in every sense: on the pilgrims' road, on the San Gimignano road, on the bus corridor, and permanently on the way to somewhere more famous. Its two industries — putting people up and making things that ring when struck — both come from that position, and its two towns, one working and one medieval, are the honest shape of the result.
+
+Stop for the two hours. Flick a glass in the museum, ride the lift, walk the ridge past the house of the man who drew Florence, look out from the bastion, and buy the decanter from the people who blew it. Then carry on to the towers, which will still be crowded, and understand why the locals are here instead.`,
+      },
+    ],
+    [
+      { q: 'Is Colle di Val d’Elsa worth visiting?', a: 'As a two-hour afternoon stop between San Gimignano, Monteriggioni and Siena, yes: Italy’s only Crystal Museum (rebuilt in 2023 inside an old glassworks, open 14:00–19:00 Tuesday to Sunday, €6), the medieval upper town reached by lift through the 1479 Porta Nova, Arnolfo di Cambio’s tower-house and the Baluardo’s view over the Elsa valley. It is the working, unshowy counterpart to the famous towers on the same road, and it sits on the Siena–Florence bus corridor.' },
+      { q: 'What is Colle di Val d’Elsa famous for?', a: 'Crystal: by the industry’s figures the town produces around 15% of the world’s crystal and more than 95% of Italy’s, a position it has held since local glassworks perfected the lead-crystal mixture in 1963. The Museo del Cristallo at Via dei Fossi 8, in the furnaces of the old Schmidt glassworks, tells the story on two levels under the works’ chimney. It is also the birthplace of Arnolfo di Cambio, architect of Florence’s cathedral and Palazzo Vecchio.' },
+      { q: 'How do you get to Colle di Val d’Elsa without a car?', a: 'On the Siena–Colle–Poggibonsi–Florence bus corridor (Autolinee Toscane line 131), which makes it one of the easiest small-town stops on the Siena network; the bus serves the lower town near the museum, and a lift takes you up to the medieval ridge. Colle is also the change point for the thin onward connection to Volterra, which has no direct bus from Siena.' },
+      { q: 'What is the Via Francigena’s Colle Val d’Elsa variant?', a: 'An official, slightly shorter alternative to the route’s San Gimignano–Monteriggioni stage — one of the longest on the whole Canterbury–Rome road at about 31 km — that passes through Colle and lets walkers split the stage into two days, with the town as the overnight and Abbadia a Isola as the classic final approach to Monteriggioni the next morning.' },
+      { q: 'Who was Arnolfo di Cambio?', a: 'A thirteenth-century sculptor and architect born in Colle di Val d’Elsa, trained under Nicola Pisano, who went on to design Florence’s cathedral, Palazzo Vecchio and Santa Croce. His tower-house stands on Colle Alta’s main street, with a bust in the small square by the church of Santa Maria in Canonica beside it.' },
+      { q: 'What should you pair Colle di Val d’Elsa with?', a: 'San Gimignano, as the quiet afternoon after the towers; Monteriggioni, as the two small stops of the Siena road in one relaxed day; or Volterra, with Colle as the stop on the way west. Lunch in Colle’s lower town is calmer and cheaper than in San Gimignano at the same hour.' },
+    ],
+    '2026-09-24',
+    {
+      seoTitle: 'Colle di Val d’Elsa Guide 2026: Crystal Museum, Upper Town, Arnolfo & How to Visit',
+      primaryKeyword: 'colle di val d elsa what to see',
+      secondaryKeywords: [
+        'museo del cristallo colle val d elsa',
+        'colle val d elsa crystal town',
+        'colle alta lift upper town',
+        'arnolfo di cambio birthplace',
+        'via francigena colle variant',
+        'siena to colle val d elsa bus',
+      ],
+      imageAlt: 'A quiet hilltop town above the Tuscan countryside, seen from a distance',
+      canonicalPath: '/blog/colle-di-val-delsa-guide',
+      tags: ['day trips', 'tuscany villages', 'via francigena', 'craft'],
+    }
+  ),
+
+  A(
+    'chianti-classico-towns-guide',
+    'The Chianti Classico Towns: Greve, Castellina, Radda and Gaiole, Compared Honestly',
+    'Day trips',
+    'Tuscany',
+    'Greve, Castellina, Radda and Gaiole compared: the square and expo, the vaulted street, the hilltop, the castles and Brolio, plus bus 125 from Siena.',
+    '/images/tuscany/chianti-wine-road-vineyard.webp',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Chianti Classico is a wine region first and a set of towns second — [our Chianti-or-Val d'Orcia comparison](/blog/val-dorcia-or-chianti-which-to-visit-2026/) says as much — but the four towns at its core are where a visitor without a booked estate actually goes, and they are different enough that choosing the wrong one wastes a day. This page compares them.
+
+**Greve in Chianti** is the market town: a triangular arcaded square with a Saturday market and, every September, the **Expo Chianti Classico** that fills it with producers. **Castellina in Chianti** is the walkable one from Siena: a small ridge town with a covered medieval street along its walls. **Radda in Chianti** is the hilltop one: the old capital of the Chianti League, compact and high. **Gaiole in Chianti** is the castle one: a modest village with the region's great estates around it — above all **Brolio**, where Chianti Classico's recipe was written, whose gardens open to visitors for **€5**.
+
+The practical facts that sort them: **Castellina and Radda are reachable from Siena on bus 125**; **Greve is reachable only from Florence**; **Gaiole and Brolio want a car**. The wine is the same everywhere — **at least 80% Sangiovese, under the black rooster** — and it is poured in every town. This guide takes each in turn, then the estate visit, then the logistics.`,
+      },
+      {
+        id: 'greve',
+        heading: 'Greve in Chianti: the market square and the September expo',
+        body: `Greve is the region's northern gateway and its most *town*-like town — the one with a proper centre, and the one Florence-based visitors reach most easily.
+
+**Piazza Matteotti** is the reason to come: a **triangular square ringed by arcaded loggias**, under which the shops sell what the region makes — wine, cured meats, ceramics, oil — and where the **Saturday farmers' market** sets up. At its centre stands the statue of **Giovanni da Verrazzano**, born in **1485** at the nearby Castello di Verrazzano and, in **1524**, the first European to sail into New York Bay: a Chianti village square commemorating the man who found Manhattan, which is the kind of fact Greve enjoys.
+
+**The Expo Chianti Classico** is the square's annual transformation. The **54th edition ran 10–13 September 2026**, bringing **64 wineries** into Piazza Matteotti for four days of tastings — the region's biggest producers' fair and the one weekend a year when Greve is unarguably the best town in Chianti to be in. It has just passed for 2026; for 2027, the second weekend of September is the pattern to plan toward, and [the September festival calendar](/blog/tuscany-september-2026-festivals-events/) carries it.
+
+**The catch**: Greve belongs to the Florentine Chianti, and the public transport reflects it — **buses reach it from Florence, not from Siena**: Autolinee Toscane's **route 365** from Florence, roughly an hour, [as the harvest guide details](/blog/tuscany-wine-harvest-vendemmia-2026/). From a Siena base it is a car destination, [as our car-free guide explains](/blog/tuscany-without-a-car-2026/); from Florence it is the easiest Chianti day there is. Just south, [Panzano's butcher-theatre](/blog/panzano-in-chianti-cecchini-vino-al-vino/) is the natural second stop.`,
+      },
+      {
+        id: 'castellina',
+        heading: 'Castellina in Chianti: the vaulted street, and the bus from Siena',
+        body: `Castellina is the Chianti town for the Siena-based traveller, because **Autolinee Toscane's line 125** runs directly to it (Siena–Quercegrossa–Fonterutoli–Castellina–Radda–Lucarelli) — which makes it the one place where Chianti Classico can be reached from Siena, tasted and left again without a car.
+
+The town is small, high and ridge-shaped, and its single distinctive sight is the **Via delle Volte**: a **covered medieval walkway running inside the town walls**, originally part of the defences, now a vaulted street with windows cut through to the countryside on one side and shops and a restaurant on the other. It takes a couple of minutes to walk and is the best-shaded street in Chianti on a hot day. Beyond it, the main street's enotecas pour the region's wine by the glass, and the views from the walls run over the vineyards to the Sienese hills.
+
+**The Etruscans under the vines.** Castellina has the region's one serious museum: the **Museo Archeologico del Chianti Senese**, on **Piazza del Comune** in the medieval centre, which tells the pre-Roman story of the Sienese Chianti through finds from the four communes of Castellina, Radda, Gaiole and Castelnuovo Berardenga. Published at our check: **€9 full, €6.50 reduced** (ages 7–18 and university students); **April to August daily 10:15–18:00, last entry 17:15**, with a shorter winter timetable we could not pin down — check before a cold-season visit. Its best exhibit is outside town: the **Tumulus of Montecalvario**, a **burial mound over fifty metres across** with **four funerary chambers** you can enter, a few minutes' walk from the centre and **free**. Vines were planted over Etruscan tombs here; the mound is where you feel it.
+
+**Fonterutoli**, the hamlet the bus passes on the way in, is one of the region's great estates and worth knowing by name; the town itself is best as a **half-day** — the street, the museum or the mound, a flight, lunch, the walls — or as the first stop of a car day continuing to Radda and Gaiole. [Our Chianti-or-Val d'Orcia comparison](/blog/val-dorcia-or-chianti-which-to-visit-2026/) builds the bus version of that day.`,
+      },
+      {
+        id: 'radda-gaiole',
+        heading: 'Radda and Gaiole: the hilltop capital and the castle country',
+        body: `**Radda in Chianti** is the region's historic capital — head of the medieval **Chianti League**, the Florentine military alliance of Radda, Castellina and Gaiole whose black-rooster emblem the wine consortium inherited — and it looks the part: a compact **hilltop town** with a ring of walls, cobbled lanes, and at its centre the **sixteenth-century Palazzo del Podestà**, its façade hung with the heraldic shields of the podestàs who governed here. It is the smallest of the four centres and the most atmospheric, with shops, restaurants and bars along its lanes and the vineyards visible from almost every corner. Radda also has the region's front door. The **Casa Chianti Classico**, in the **eighteenth-century convent of Santa Maria al Prato** just outside the walls at Via del Convento 1, is the consortium's public house: a **wine museum** with a sensory itinerary through the denomination's history, an enoteca and wine bar under the black rooster's name, a restaurant in the old refectory, wine courses and a cooking school, and a terrace over the hills. For a visitor with no estate booked it is the one place where the whole denomination is poured in one room; we could not confirm its hours or prices, so check the Casa's own site before building a day on it. The **125 bus** continues here from Castellina, so it is the second Chianti town a Siena-based visitor can reach without a car — and pairing the two on one bus day is the region's best car-free plan.
+
+**Gaiole in Chianti** is a modest village in a valley, and the reason to come is what surrounds it. **Badia a Coltibuono**, in the hills above, is a former monastery now running as agriturismo, cooking school, estate and restaurant, and one of the most photogenic spots in the region. The **castles** are the point: Chianti's medieval border between Florence and Siena left the Gaiole hills studded with fortified estates, and the greatest of them is below.
+
+Gaiole is also the home of **L'Eroica**, the vintage-bicycle ride over the white roads on the first weekend of October — [our dedicated guide](/blog/leroica-gaiole-in-chianti-2026/) covers the sold-out 2026 edition — which makes the village the region's busiest place for one weekend a year and its quietest the rest of the time.`,
+      },
+      {
+        id: 'brolio',
+        heading: 'Castello di Brolio: where the recipe was written',
+        body: `Chianti Classico's rules have an address. **Castello di Brolio**, the Ricasoli family's castle south of Gaiole — the family have held it for centuries and make wine as Barone Ricasoli — is where, in the nineteenth century, Bettino Ricasoli worked out the Sangiovese-led blend that became the Chianti formula. The consortium's modern rules are its descendants: **at least 80% Sangiovese**, up to 20% of other permitted red grapes, the **black rooster** on the neck, and from the **2027 vintage a 90% Sangiovese minimum for Gran Selezione**, the top tier.
+
+**Visiting.** The castle is still a private residence, so **the interiors are closed**; the visit is the **grounds, gardens and the small private chapel**, with views over the estate's vineyards to the Sienese hills. At our check the published pattern was: **gardens open daily from 20 March to 12 October 2026, 10:00–19:00** (ticket office to 18:00), no reservation needed; **gardens €5**, **gardens and museum €8**, **gardens with the Ricasoli Collection €12**; **a tasting of one wine at the estate's wine shop is included** in the ticket; **children under 12 free**. The gardens stay open on a reduced pattern into December. Confirm on the estate's visit page before driving out — a private estate changes its calendar without notice.
+
+It is the one Chianti Classico estate visit that needs no booking and costs a fiver, and it happens to be the most historically important one. For everything else — cellar tours, tastings with lunch — [our Chianti-or-Val d'Orcia guide](/blog/val-dorcia-or-chianti-which-to-visit-2026/) and [the vendemmia guide](/blog/tuscany-wine-harvest-vendemmia-2026/) explain how booking works and why September and October are the weeks to do it.`,
+      },
+      {
+        id: 'practical',
+        heading: 'Choosing, getting there, and the day that works',
+        body: `**By base.** From **Siena**: Castellina and Radda on the 125 (weekdays; plan the return, verify Sundays), Gaiole and Brolio by car. From **Florence**: Greve by bus, the rest by car. [The car-free guide](/blog/tuscany-without-a-car-2026/) has the operator's rules; [the driving guide](/blog/renting-a-car-in-tuscany-2026/) has the SR222 Chiantigiana, the region's famous road, which threads Castellina and Greve.
+
+**By appetite.** Market and expo → Greve. A vaulted street and a flight without a car → Castellina. The prettiest hilltop → Radda. Castles, Brolio and the white roads → Gaiole.
+
+**The car day.** Siena, the SR222 north to **Castellina** (Via delle Volte, coffee), east to **Radda** (the walls, lunch), south through the hills to **Gaiole** and **Brolio** (gardens, the included glass), and back to Siena through the castle country — a loop that stays inside the Sienese Chianti and never fights the Florence traffic. Add Greve and Panzano only from a Florence base.
+
+**The bus day.** The morning 125 to Castellina, the street and a flight, the next bus to Radda, lunch and the lanes, the afternoon bus home. Check the timetable the night before; [the restaurants guide's](/blog/where-to-eat-siena-day-trips/) two-streets rule applies in both towns.
+
+**When.** The **vendemmia weeks of September and October** are the region's peak — the expo just past, [L'Eroica](/blog/leroica-gaiole-in-chianti-2026/) ahead on the first October weekend — and the light on the vines is at its best; winter is quiet and many estates close; spring is green and empty.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **21 September 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material — the regional tourism board, the expo's and the estate's own pages, the wine consortium's rules as reported by the trade press, and the bus operator's line listings — rather than pages we opened.
+
+**Verified:** the **80% Sangiovese** minimum and 20% permitted other reds for Chianti Classico DOCG, the **black rooster** emblem, and the **90% Gran Selezione** minimum taking effect from the 2027 vintage; **Piazza Matteotti's** triangular arcaded form, Saturday market and Verrazzano statue (born 1485 at Castello di Verrazzano, New York Bay 1524); the **Expo Chianti Classico's 54th edition on 10–13 September 2026** with 64 wineries; **Via delle Volte** as a covered medieval walkway inside Castellina's walls with a restaurant along it; the **Museo Archeologico del Chianti Senese** on Piazza del Comune, its €9/€6.50 tariff and April–August 10:15–18:00 hours, and the free **Montecalvario tumulus** with four chambers a short walk from the centre; the **Casa Chianti Classico** in Radda's eighteenth-century convent of Santa Maria al Prato with its museum, enoteca, restaurant and courses; **Radda's** sixteenth-century Palazzo del Podestà with its shields, and the Chianti League of Radda, Castellina and Gaiole; **Badia a Coltibuono's** current life as agriturismo, cooking school and restaurant; **Castello di Brolio's** Ricasoli ownership, closed interiors, garden-and-chapel visit, **20 March–12 October 2026** daily 10:00–19:00 pattern with reduced winter opening, the **€5 / €8 / €12** tiers with an included wine tasting and free entry under 12; the **125** line's route (Siena–Quercegrossa–Fonterutoli–Castellina–Radda–Lucarelli) and the Florence-only access to Greve; and L'Eroica from [our own guide's](/blog/leroica-gaiole-in-chianti-2026/) verification.
+
+**Stated with care:** Bettino Ricasoli's nineteenth-century formula, which we describe in outline as the ancestor of today's rules; the 125's frequencies, which we do not print; the archaeological museum's winter timetable and the Casa Chianti Classico's hours and prices, neither of which we could confirm; and Brolio's exact winter calendar. Confirm the estate's and the operator's pages for your date.
+
+We have no commercial relationship with any estate, restaurant, festival or operator named. Nothing on this page is bookable through us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Chianti's towns are not its point — the vines are — but they are where the vines become a day: a square with a market under its arcades, a street inside a wall, a hilltop with a heraldic façade, a castle whose owner wrote the recipe. Pick by base and by appetite, take the 125 if you have no car and the SR222 if you do, and let the black rooster do the rest.
+
+And keep the calendar in view: the expo has just gone, L'Eroica is about to come, and between them the harvest is in. This is the fortnight the region was made for.`,
+      },
+    ],
+    [
+      { q: 'Which Chianti town is best to visit?', a: 'It depends on your base and appetite. Greve has the market square and September’s Expo Chianti Classico but is reachable by bus only from Florence; Castellina and Radda are the two reachable from Siena on bus 125 — Castellina for its vaulted Via delle Volte, Radda for the prettiest hilltop and the Palazzo del Podestà; Gaiole is the castle country, with Brolio’s gardens open for €5, and needs a car.' },
+      { q: 'Can you visit Chianti from Siena without a car?', a: 'Yes, two towns of it: Autolinee Toscane line 125 runs Siena–Quercegrossa–Fonterutoli–Castellina–Radda–Lucarelli on weekdays, so a bus day can take in Castellina’s covered street and a tasting, then Radda for lunch and the lanes. Plan the return before committing and verify Sunday service. Greve is served by bus only from Florence; Gaiole and Brolio want a car.' },
+      { q: 'Can you visit Castello di Brolio?', a: 'The gardens, grounds and private chapel, yes — the interiors are closed because the Ricasoli family still live there. At our September 2026 check the gardens opened daily from 20 March to 12 October, 10:00–19:00 (ticket office to 18:00), no reservation: gardens €5, gardens and museum €8, with the Ricasoli Collection €12, a tasting of one wine at the estate shop included, children under 12 free, with reduced winter opening. Confirm on the estate’s visit page.' },
+      { q: 'What are the Chianti Classico wine rules?', a: 'At least 80% Sangiovese with up to 20% of other permitted red grapes, sold under the black rooster (gallo nero) of the consortium — the descendant of the Sangiovese-led formula Bettino Ricasoli worked out at Castello di Brolio in the nineteenth century. From the 2027 vintage the top tier, Gran Selezione, will require a 90% Sangiovese minimum.' },
+      { q: 'When is the Expo Chianti Classico in Greve?', a: 'The second weekend of September is the pattern: the 54th edition ran 10–13 September 2026, bringing 64 wineries into Greve’s Piazza Matteotti for four days of tastings. It is the region’s biggest producers’ fair and the one weekend when Greve is unarguably the best town in Chianti to be in; check the expo’s own site for the 2027 dates.' },
+      { q: 'What is the Via delle Volte in Castellina?', a: 'A covered medieval walkway running inside Castellina in Chianti’s town walls — originally part of the defences, now a vaulted street with windows cut through to the countryside on one side and shops and a restaurant on the other. It takes a couple of minutes to walk and is the best-shaded street in Chianti on a hot day. Castellina’s other sights are the Museo Archeologico del Chianti Senese (€9) and the free Etruscan tumulus of Montecalvario a few minutes from the centre.' },
+    ],
+    '2026-09-25',
+    {
+      seoTitle: 'Chianti Classico Towns 2026: Greve vs Castellina vs Radda vs Gaiole, Brolio & Bus 125',
+      primaryKeyword: 'chianti classico towns which to visit',
+      secondaryKeywords: [
+        'greve in chianti piazza matteotti',
+        'castellina in chianti via delle volte',
+        'radda in chianti what to see',
+        'castello di brolio visit ticket',
+        'siena to chianti bus 125',
+        'chianti classico 80 sangiovese rules',
+      ],
+      imageAlt: 'Vineyards along the Chianti wine road in the hills between Siena and Florence',
+      canonicalPath: '/blog/chianti-classico-towns-guide',
+      tags: ['day trips', 'chianti', 'wine towns', 'tuscany villages'],
+    }
+  ),
+
+  A(
+    'volterra-guide',
+    'Volterra: Etruscan Urns, Alabaster Dust, a Working Prison, and No Vampires',
+    'Day trips',
+    'Tuscany',
+    'Volterra in full: Etruscan urns, the 1208 Palazzo dei Priori, Roman theatre, alabaster workshops, the Balze, the €23 card and the Twilight truth.',
+    '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Volterra is the hill town that was old when Siena was new. An **Etruscan city** first — one of the twelve of the Etruscan league — then a Roman one, then a medieval commune whose **Palazzo dei Priori of 1208 is the oldest town hall in Tuscany**, the model for Florence's Palazzo Vecchio; and, for the last few centuries, the **city of alabaster**, whose workshops still fill the lanes with white dust. It stands on its own high plateau west of Siena, with an eroding cliff on one side and a Medici fortress that is still a **working prison** on the other, and it is the most serious, least pretty of the great Tuscan hill towns — which is its appeal.
+
+The essentials: the **Guarnacci Museum's** Etruscan urns and the *Ombra della Sera* (**open daily**: 9:00–19:00 from 14 March to 1 November, 10:00–16:30 in winter at our check); the **Roman theatre** of the first century BC; the **Volterra Card** at **€23 for 72 hours** covering seven civic sites, or the **€7 summer combined ticket** for the Pinacoteca, Alabaster Ecomuseum, Priori, acropolis and theatre; the **Balze** cliffs at the plateau's edge; and one correction to make before anything else — **the *Twilight* vampires were filmed in Montepulciano, not here**.
+
+**Give it a full day.** There is no direct bus from Siena — the change is at [Colle di Val d'Elsa](/blog/colle-di-val-delsa-guide/), around two and a quarter hours in all — so Volterra is a car day or a committed one. This guide covers the Etruscans, the town, the alabaster, the cliffs, the tickets and the logistics.`,
+      },
+      {
+        id: 'etruscans',
+        heading: 'The Etruscans: the Guarnacci and the Shadow of the Evening',
+        body: `Volterra's depth is under its museum roof. The **Museo Etrusco Guarnacci** holds one of the oldest and most important Etruscan collections in the world — assembled from the eighteenth century onward from the tombs of the plateau and its slopes — and its heart is the **funerary urns**: hundreds of small carved chests, in **alabaster and terracotta**, on whose lids the dead recline as if at a banquet, and on whose fronts their journeys, battles and myths are carved in relief. Volterra's alabaster industry begins here: the Etruscans quarried the local stone for their dead two and a half thousand years before the workshops sold it to tourists.
+
+Two pieces are the ones to find. The **Urn of the Spouses**, a terracotta lid on which an elderly couple lie together, faces worn and individual, the least idealised portrait in Etruscan art. And the ***Ombra della Sera*** — the Shadow of the Evening — a small, impossibly elongated bronze votive figure of a boy, named (the story goes) by a poet who saw in it the long shadow a body throws at dusk, and which has become the town's emblem.
+
+**Hours at our check:** daily **9:00–19:00 from 14 March to 1 November**, **10:00–16:30 from 2 November to 13 March** — confirm on the museums' site. Give it two hours; the urns repay slowness. Then walk the town with the knowledge that everything below the medieval street level is theirs: the gate, the walls, the acropolis on the hill.`,
+      },
+      {
+        id: 'the-town',
+        heading: 'The town: Priori, the theatre, the acropolis',
+        body: `**Piazza dei Priori** is the medieval heart, and its palace is a first in Tuscany. The **Palazzo dei Priori**, begun in **1208** and finished by the 1250s, is the **oldest surviving town hall in the region** — the Gothic civic building on which Florence's Palazzo Vecchio and most other Tuscan communal palaces were modelled — built, pointedly, right beside the cathedral to assert the commune's power against the bishop's. It still houses the town's offices; the visitor sees the council hall and, on the first floor, models of the town's Etruscan growth and a pair of urns. Climb it if the tower is open; the view covers the plateau to the sea.
+
+**The Roman theatre** of Vallebona, below the northern walls, is among the best preserved in Italy — columns and seating cut into the hillside in the **first century BC**, with the baths beside it — and the classic view is from the road above, where the whole ensemble reads at once; the ticketed descent puts you in it.
+
+**The Etruscan acropolis and the Porta all'Arco** complete the ancient town: the arch-gate with its three worn Etruscan heads is the oldest thing you will walk through in Tuscany, and the archaeological park on the hill above the town holds the temple foundations and the Medici-era cisterns. All of it is on the combined tickets below.
+
+**The Pinacoteca, and the painting worth the detour.** The civic art gallery occupies the **Palazzo Minucci-Solaini**, a late-fifteenth-century palace attributed to Antonio da Sangallo the Elder, and it holds one picture that alone justifies the ticket: **Rosso Fiorentino's *Deposition from the Cross* of 1521**, painted for the chapel of the Croce di Giorno beside the church of San Francesco and moved here from the cathedral. It is the founding masterpiece of Florentine Mannerism — a ladder-tangle of figures against a cold sky, the colours acid, the grief angular — and finding it in a small hill-town gallery, rather than in the Uffizi where it would be mobbed, is one of Tuscany's great quiet pleasures. Twenty minutes in front of it; the rest of the gallery is context.
+
+The medieval lanes between are Volterra's texture — grey stone, austere towers, none of Siena's brick warmth — and they are lined with the reason most visitors come without knowing it: the alabaster workshops.`,
+      },
+      {
+        id: 'alabaster',
+        heading: 'Alabaster: the workshops and the ecomuseum',
+        body: `Volterra's stone is a translucent gypsum alabaster, quarried in the hills around the town, soft enough to carve and turn, and worked here continuously since the Etruscans. The **workshops** are the living version — small studios in the lanes where the lathes run and the dust settles on everything, selling lamps, bowls, chess sets and the cut-and-polished pieces that have been the town's export for three hundred years. The etiquette is simple: watch, ask, and buy from the bench where it was made. [Our shopping guide's](/blog/what-to-buy-in-tuscany-souvenirs/) rules for craft towns apply exactly.
+
+The **Alabaster Ecomuseum** — on the combined ticket — is the context: the quarries, the tools, the trade's rise and its twentieth-century industry, with pieces from the Etruscan urns to the Art Deco lamps that made Volterra alabaster a household object across Europe. Between the workshops and the museum, a visitor understands why the town's two great ages — Etruscan and modern — are made of the same stone.
+
+**A note on the fortress.** The **Fortezza Medicea**, the great fortification at the town's high point, is **a working prison** and **cannot be visited**, beyond occasional special events in which inmates cook for guests. It is one of Volterra's genuine curiosities — a Renaissance fortress in continuous institutional use — and the reason the town's skyline has a shape no other hill town's has. Admire it from the park below.`,
+      },
+      {
+        id: 'balze-and-twilight',
+        heading: 'The Balze, and the vampires who were never here',
+        body: `On the town's north-western edge the plateau simply ends. **Le Balze** are a dramatic amphitheatre of eroded ochre cliffs where landslides have been eating the hill for centuries — swallowing, as they advance, Etruscan necropolises and medieval churches whose remains still stand at the edge. The walk out to the viewpoint is twenty minutes from the centre, and it explains the town's austerity better than any museum: Volterra has always been a place on the brink, literally.
+
+**And the vampires.** In *Twilight: New Moon*, the Volturi's ancient seat is "Volterra" — and the town gets the pilgrims. But **the film was shot in [Montepulciano](/blog/montepulciano-guide/)**, whose Piazza Grande, Palazzo Comunale and cellars played the part; not one frame was filmed here. [Our set-jetting guide](/blog/tuscany-on-screen-film-locations-2026/) records the substitution and the way the real Volterra fields the confusion — graciously, with a gentle line in merchandise — and this page's advice is the same: come for the Etruscans, the alabaster and the cliffs, and leave the fountain-hunting to Montepulciano.`,
+      },
+      {
+        id: 'tickets-and-practical',
+        heading: 'Tickets, getting there, and the day',
+        body: `**Tickets, as published at our check.** Each civic museum sells a **single ticket at €10**. The **Volterra Card** — **€23, valid 72 hours** — covers **seven sites**: the Guarnacci, the Pinacoteca and civic museum, the Alabaster Ecomuseum, the Palazzo dei Priori, the Etruscan acropolis, the Roman cistern and the Roman theatre; a **reduced card at €15** applies to guests of Volterra's hotels and to ages 10–18, and **under-10s go free**. On single-ticket arithmetic the card pays for itself at the third site. A cheaper **combined ticket at €7**, valid seven days and sold **from 1 May to 30 September**, covers the **Pinacoteca, the Alabaster Ecomuseum, the Palazzo dei Priori, the Etruscan acropolis and the Roman theatre** — everything except the Guarnacci, with under-18s free — which, for a one-day summer visitor, is the better buy plus a €10 Guarnacci ticket. Confirm all three on the museums' site; we found an older €20 figure for the card still circulating on third-party pages, and the price and contents are the kind of fact that changes each season.
+
+**Getting there.** Volterra is the awkward one. **No direct bus from Siena**: the journey is via **[Colle di Val d'Elsa](/blog/colle-di-val-delsa-guide/)** with a change, about **two and a quarter hours** in all on the planners, on frequencies that reward checking the night before; [our car-free guide](/blog/tuscany-without-a-car-2026/) is honest that the western towns are the network's weak side. **By car** it is an hour and a bit from Siena on the road through Colle, and the drive up the plateau is part of the arrival. Park below the walls; the centre is steep and pedestrian.
+
+**The day.** Guarnacci first, while the mind is fresh; Priori and the square; the Rosso in the Pinacoteca; lunch two streets off it; the workshops and the ecomuseum; the theatre from above and then below; the Balze at the light's end. It fills a day without hurry, and [San Gimignano](/blog/san-gimignano-day-trip-from-siena-2026/) or [Colle](/blog/colle-di-val-delsa-guide/) fit the drive home.
+
+**Eating.** Volterra is a serious-food town in the Pisan hills — game, the local *cinghiale*, the pecorino and the truffles of the Volterrano's own autumn — and [the restaurants guide's](/blog/where-to-eat-siena-day-trips/) method is the only advice that survives the season: the room with locals in it, two streets from the piazza.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **21 September 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material — the town's tourism site, the civic museums' pages, the regional tourism board and reference works — rather than pages we opened.
+
+**Verified:** the Palazzo dei Priori's construction from **1208** (completed in the 1250s) as Tuscany's oldest town hall and the model for later communal palaces, sited beside the cathedral to assert the commune's autonomy; the **Guarnacci's** standing as one of the oldest and most important Etruscan collections, its alabaster and terracotta urns, the **Urn of the Spouses** and the ***Ombra della Sera***, and its published hours (**9:00–19:00 from 14 March to 1 November; 10:00–16:30 from 2 November to 13 March**); the **Roman theatre** of Vallebona as first-century BC and among Italy's best preserved; the **Fortezza Medicea** as a working prison closed to visitors except for occasional events; the **Balze's** eroding cliffs and their swallowing of Etruscan and medieval remains; the **Volterra Card at €23 for 72 hours** covering seven sites (Guarnacci, Pinacoteca, Alabaster Ecomuseum, Priori, acropolis, Roman cistern, Roman theatre), the €15 reduced card for hotel guests and ages 10–18, free entry under 10, the **€10 single museum ticket**, and the **€7 seven-day combined ticket (1 May–30 September)** covering the Pinacoteca, Alabaster Ecomuseum, Palazzo dei Priori, Etruscan acropolis and Roman theatre with under-18s free; the **Pinacoteca's** home in the Palazzo Minucci-Solaini and **Rosso Fiorentino's 1521 *Deposition***, painted for the Croce di Giorno chapel at San Francesco; the alabaster workshops and the Alabaster Ecomuseum; the absence of a direct Siena bus and the ~2h15 journey via Colle; and the *Twilight* substitution from [our set-jetting guide's](/blog/tuscany-on-screen-film-locations-2026/) verification.
+
+**Stated with care:** the Porta all'Arco and the acropolis description, which follow standard accounts; the Guarnacci's seasonal boundary dates, which one source gives as April–October rather than 14 March–1 November — the hours are the same, the switchover date is what to confirm; the drive time from Siena, an estimate; and the Priori's tower access. Confirm on the museums' site for your date.
+
+We have no commercial relationship with any museum, workshop or operator named. Nothing on this page is bookable through us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Volterra is what a Tuscan hill town looks like with the charm turned down and the history turned up: grey stone instead of warm brick, a prison instead of a viewpoint café, a cliff eating the edge of town, and a museum full of the faces of people who lived here before Rome existed. It is not the town for a postcard. It is the town for a day that changes how you see the postcards.
+
+Start with the urns, end with the cliff, buy the alabaster from the bench, and don't ask about the vampires.`,
+      },
+    ],
+    [
+      { q: 'Is Volterra worth visiting?', a: 'Yes, for a full day, if you want history over prettiness: the Guarnacci Museum’s Etruscan urns and the Ombra della Sera, Tuscany’s oldest town hall (the Palazzo dei Priori of 1208), a first-century BC Roman theatre, working alabaster workshops and the eroding Balze cliffs. It is austere, grey-stone and serious — the least postcard-like of the great hill towns and the deepest.' },
+      { q: 'Was Twilight filmed in Volterra?', a: 'No — the Volturi’s "Volterra" scenes in New Moon were shot in Montepulciano, whose Piazza Grande, Palazzo Comunale and cellars played the part; nothing was filmed in Volterra itself. The real town fields the confusion graciously and sells a little merchandise, but its reasons to visit are Etruscan, alabaster and geological.' },
+      { q: 'How much is the Volterra Card?', a: 'At our September 2026 check, €23 for 72 hours, covering seven civic sites: the Guarnacci Museum, the Pinacoteca, the Alabaster Ecomuseum, the Palazzo dei Priori, the Etruscan acropolis, the Roman cistern and the Roman theatre. A reduced card is €15 for hotel guests and ages 10–18, under-10s are free, and single museum tickets are €10 each. A €7 combined ticket valid seven days, sold from 1 May to 30 September, covers everything except the Guarnacci. Confirm on the museums’ site.' },
+      { q: 'What are the Guarnacci Museum opening hours?', a: 'Daily 9:00–19:00 from 14 March to 1 November and 10:00–16:30 from 2 November to 13 March at our check. Allow two hours for the Etruscan funerary urns in alabaster and terracotta, the Urn of the Spouses and the elongated bronze Ombra della Sera — the town’s emblem.' },
+      { q: 'How do you get to Volterra from Siena?', a: 'There is no direct bus: the journey is via Colle di Val d’Elsa with a change, about two and a quarter hours on the planners, on frequencies worth checking the night before. By car it is roughly an hour and a bit through Colle; park below the walls, as the centre is steep and pedestrian. Volterra is a car day or a committed one.' },
+      { q: 'Can you visit the Fortezza Medicea in Volterra?', a: 'No — the Medici fortress at the top of the town is a working prison and closed to visitors, apart from occasional special events in which inmates cook for guests. It is one of the town’s curiosities, a Renaissance fortification in continuous institutional use, and is admired from the park below.' },
+    ],
+    '2026-09-26',
+    {
+      seoTitle: 'Volterra Guide 2026: Guarnacci Museum, Alabaster, Roman Theatre, Volterra Card & Twilight Truth',
+      primaryKeyword: 'volterra italy what to see',
+      secondaryKeywords: [
+        'guarnacci etruscan museum volterra hours',
+        'volterra card price 72 hours',
+        'volterra alabaster workshops',
+        'palazzo dei priori volterra 1208',
+        'was twilight filmed in volterra',
+        'siena to volterra bus',
+      ],
+      imageAlt: 'Cypress trees over rolling Tuscan hills, the open countryside that any road to Volterra crosses',
+      canonicalPath: '/blog/volterra-guide',
+      tags: ['day trips', 'etruscan', 'tuscany villages', 'craft'],
+    }
+  ),
+
+  A(
+    'san-galgano-abbey-sword-in-the-stone',
+    'San Galgano: The Roofless Abbey and the Real Sword in the Stone, an Hour from Siena',
+    'Things to do',
+    'Tuscany',
+    'San Galgano: the roofless Cistercian abbey (€6), the real twelfth-century sword in the rock (free), the 27 September closure and how to get there.',
+    '/images/tuscany/val-dorcia-cypress-trees-landscape.jpg',
+    [
+      {
+        id: 'quick-answer',
+        heading: 'Quick answer',
+        body: `Thirty-five kilometres south-west of Siena, in the empty Val di Merse, two buildings stand a few hundred metres apart and tell one story. On the hill, the **Hermitage of Montesiepi** — a round Romanesque chapel built in the 1180s over the grave of a knight who gave up war — with, in its floor, **a real twelfth-century sword driven into the rock**, the sword-in-the-stone that predates every English version of the legend. On the plain below, the **Abbey of San Galgano** — the great Cistercian church built between **1218 and 1288** by the monks who came to guard the knight's memory — which lost its roof when its bell tower fell **during Mass in 1786** and has stood open to the sky ever since: the most beautiful ruin in Tuscany.
+
+Practically: the abbey costs **€6** (reduced €5) on the foundation's published 2026 tariff and opens daily on a seasonal pattern (**9:00–19:00 from 1 September to 31 October**, to 20:00 in July and August, to 18:00 in winter); the hermitage is **free**; the two are a ten-minute walk apart; and there is **no bus a visitor should plan around** — it is a **45-minute drive** from Siena, or a tour.
+
+**One date to avoid: Sunday 27 September 2026.** The foundation has announced that the **entire abbey complex will be closed to visitors that day** for the regional "Maxi Emergenze" civil-protection exercise. If this page has reached you on the day it was published, go on the 28th instead. This guide tells the knight's story, walks both buildings, and fits them into a Siena day.`,
+      },
+      {
+        id: 'galgano',
+        heading: 'Galgano Guidotti: the knight who planted his sword',
+        body: `**Galgano Guidotti** was born in **1148** at Chiusdino, the village on the hill above, into minor nobility, and lived the life his class expected: arms, arrogance, and an eye for a fight. Then — in the version the Church accepted within a few years of his death — he had visions. The Archangel Michael appeared to him; he was led to the hill of Montesiepi; and there, told to renounce the world, he answered that giving up his sword would be as hard as splitting the rock beneath him — and drove the blade into the stone, where it went in as if into butter and stayed. He lived out his last year as a hermit beside it, and died on **3 December 1181**, aged thirty-three.
+
+What followed is the remarkable part. His **canonisation process opened in 1185**, only four years after his death, and it was the **first formal canonisation inquiry ever conducted by the Roman Church** — witnesses examined, testimony recorded, the procedure that every later saint's cause would follow. A young knight in a Sienese backwater became the test case for how the Church decides who is holy.
+
+And the sword is real. **Studies in 2001** dated the blade embedded in the Montesiepi rock to the **twelfth century** — consistent with Galgano's lifetime — which settled the question that had hung over it for eight hundred years. It is not a copy, not a later insertion, and not a legend borrowed from Arthur: the Sienese sword in the stone is older than the first English tellings, and it is still where the knight left it, under a protective cover in the floor of his chapel.`,
+      },
+      {
+        id: 'montesiepi',
+        heading: 'Montesiepi: the round chapel and the sword',
+        body: `The **Hermitage of Montesiepi** was built between **1182 and 1185** — begun the year after Galgano died, finished the year his cause opened — as his mausoleum, on the exact spot of his hermitage. It is a **round Romanesque chapel**, rare in Tuscany, in bands of brick and stone with a striking concentric-ringed dome inside, and it is the **original nucleus** of the whole monastic complex: the abbey below came later, built by the Cistercians who took over the saint's cult.
+
+In the centre of the floor, under a clear cover, is **the sword** — hilt and a hand's breadth of blade above the rock, the rest driven some **70 centimetres** into the stone. Beside it, in a side chapel, are frescoes by Ambrogio Lorenzetti — faded, damaged and still astonishing to find in a hermitage on a hill — and a glass case that, according to the story the site tells, holds the hands of a would-be thief who tried to pull the sword out and was punished for it by wolves.
+
+**Entry is free.** The chapel's hours are published inconsistently across the sources we found — from 9:00 or 10:00 in the morning, closing anywhere between 17:00 and sunset depending on the source and season — so treat **late morning to mid-afternoon** as the safe window and do not arrive at dusk expecting it open. The coin-operated lighting inside is worth a euro. Modest dress, as in any church; a few minutes of quiet is what the place asks. The view from the hilltop — the roofless abbey below, the valley beyond, nothing else — is the reason to climb up first and walk down.`,
+      },
+      {
+        id: 'the-abbey',
+        heading: 'The abbey: Gothic without a roof',
+        body: `The **Cistercians** arrived to administer the saint's shrine and, as their order did everywhere, built big, plain and by a river: work on the abbey church in the **Merse plain** began in **1218**, and by **1227** documents already record two churches — the upper at Montesiepi, the lower dedicated to San Galgano — with construction running to about **1288**. What they built was one of the first and purest **Gothic** churches in Tuscany: French in its bones, tall, vast and severe, with a great rose window and a nave that still measures itself against the cathedrals of the north.
+
+Then the long fall. The abbey grew rich, was sacked, was commended to absentee abbots, and decayed for centuries; by the eighteenth century it was a shell with a congregation. On **6 January 1786**, during Mass, the **36-metre bell tower collapsed** onto the church, taking most of the roof with it. The community left; the lead was sold; and the building was abandoned to the weather that has, improbably, made it — for two hundred years the walls have stood roofless, the nave floored with grass and open to the sky, the rose window empty, the Gothic proportions finally readable because nothing interrupts them. It is the most photographed ruin in Tuscany and the least disappointing.
+
+**Visiting.** The Fondazione San Galgano, which runs the site, publishes a 2026 tariff of **€6 full, €5 reduced** (over-65s, under-18s, groups of more than twenty, university students with ID), with **family tickets at €15** (two adults and one child) and **€17** (two adults and two or more children) sold only at the gate; the same ticket **also admits you to the civic museum in Chiusdino**, the village on the hill above. Tickets are sold on site without reservation during opening hours, or online through the foundation's own ticket page at no surcharge to skip the queue. Published hours: **9:00–19:00 from 1 September to 31 October**, to **20:00 in July and August**, to **18:00 in winter**, with the usual caveat that weddings and events can close parts of the church.
+
+Two honesty notes. The foundation's price list we found is headed as valid **1 January to 19 July 2026**, and we could not see a separate list for the months after; the €6 figure is the one to budget on, confirmed at the gate. And the **27 September 2026 closure** for the regional emergency exercise covers the whole complex — abbey and hermitage — for the day.
+
+Go in the last two hours before closing, when the light comes in low through the empty arches and the grass in the nave turns gold; go in winter for the emptiness; go in rain and understand why the roof is missed.`,
+      },
+      {
+        id: 'practical',
+        heading: 'Getting there, and the day it makes',
+        body: `**By car, realistically.** San Galgano lies **35 km south-west of Siena** in the Val di Merse — the route runs toward **Rosia**, some 20 km out, then right and follow the signs, about **45 minutes** in all. Park below the abbey and walk; the hermitage is a ten-minute climb from the abbey car park. [Our driving guide](/blog/renting-a-car-in-tuscany-2026/) has the regional rules.
+
+**By bus, in theory.** The planners find a route on **line 122** with a change, around an hour and a half — but this is rural, school-timetable territory, and no visitor should build a day on it without checking at-bus.it the night before; [our car-free guide](/blog/tuscany-without-a-car-2026/) puts the Val di Merse firmly on the "drive or tour" side. Small-group tours from Siena regularly include the abbey.
+
+**Chiusdino, the village above.** Galgano's birthplace is the natural add-on, and the abbey ticket already includes it: **Chiusdino** is a small medieval village on the hill over the valley, with a **Piazza Garibaldi** that looks out over the Merse, the modest house shown as the **saint's birthplace** — not a monument, a marker — the **church of San Sebastiano**, built — in the village's own account — to hold relics brought to Chiusdino by the saint, and the **civic and diocesan museum of sacred art** the ticket covers, with paintings and objects gathered from the valley's churches. It adds an hour and turns the abbey's story into a place with streets.
+
+**The day.** San Galgano pairs with nothing famous, which is its virtue: it is a half-day of its own in an empty valley. The natural companions are the Val di Merse's own quiet — the Merse river, the woods, Chiusdino above and Monticiano beyond — or, for a fuller day, the drive on to the coast's hinterland. From a Siena base, the honest plan is a **morning in the city**, an afternoon drive out, the hermitage at four and the abbey at its golden hour, and dinner back in Siena. In [the autumn weeks](/blog/tuscany-in-october-2026/) the valley's chestnut woods turn and the light through the roofless nave is the year's best.
+
+**Sizing it.** Two hours on site, four with the drive. It is not a full day and should not be forced into one; it is the best afternoon within an hour of Siena that has no town attached.`,
+      },
+      {
+        id: 'how-we-checked',
+        heading: 'How we checked these details',
+        body: `Checked **21 September 2026**, by web research; direct page fetches are blocked in our environment, so this rests on search-surfaced material — the regional tourism board, the abbey's published visiting information as reproduced by visitor guides, and reference works on Galgano Guidotti — rather than pages we opened.
+
+**Verified:** Galgano Guidotti's birth at Chiusdino in **1148**, his retreat to Montesiepi around 1170, the sword driven into the rock as a symbol of renunciation, and his death on **3 December 1181**; the **1185** opening of his canonisation process as the first conducted with a formal procedure by the Roman Church; the **2001 studies** dating the sword to the twelfth century, and its embedding some 70 cm into the rock; the **Hermitage of Montesiepi** built **1182–1185** in Romanesque style as the saint's mausoleum and the original nucleus of the complex; the Cistercian abbey's construction from **1218** (two churches documented by 1227) to about **1288** in the Merse plain; the **6 January 1786** collapse of the 36-metre bell tower during Mass, destroying the roof; the foundation's published 2026 tariff (**€6 full, €5 reduced, €15 and €17 family**, family tickets sold at the gate only, the ticket also covering Chiusdino's civic museum) and its hours (**9:00–19:00 from 1 September to 31 October**, to 20:00 in July–August, to 18:00 in winter); the **27 September 2026 closure** of the whole complex for the regional Maxi Emergenze exercise, announced on the foundation's site; the hermitage's free entry; Chiusdino's Piazza Garibaldi, the saint's birthplace house, the church of San Sebastiano and the civic museum; the **35 km / ~45-minute** drive from Siena via Rosia; and the thin line 122 bus option.
+
+**Stated with care:** the Ambrogio Lorenzetti attribution of the Montesiepi frescoes and the "thief's hands" reliquary, which follow the site's own telling; the Gothic architectural characterisation, which follows standard accounts; the hermitage's hours, which the sources give inconsistently and which we therefore describe only as a safe window; the tariff after 19 July 2026, for which we found no separate list; and the bus route, which we do not recommend planning around. Confirm hours on the foundation's site for your date.
+
+We have no commercial relationship with the abbey, its ticketing, any tour operator or body named. Nothing on this page is bookable through us.`,
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final thoughts',
+        body: `Every culture has a sword in a stone; Tuscany has the one that is actually there — twelfth-century steel in a twelfth-century rock, under a twelfth-century dome, on the hill where a knight decided he had had enough of killing. Below it, the monks who came to keep his memory built a cathedral, lost its roof to a January morning in 1786, and left the valley the most honest Gothic church in Italy: all structure, no ceiling, sky where the vault should be.
+
+Drive out in the afternoon. Climb to the chapel first, look at the sword, and then walk down into the nave and stand where the altar was, with the grass under your feet and the rose window full of weather. It is the quietest great place within an hour of Siena, and the one that stays with people longest.`,
+      },
+    ],
+    [
+      { q: 'Is the sword in the stone at San Galgano real?', a: 'Yes. The sword embedded in the rock in the round chapel of Montesiepi was dated by studies in 2001 to the twelfth century, consistent with the life of Galgano Guidotti (1148–1181), the knight who by tradition drove it into the stone as a sign of renouncing arms. It is older than the first English tellings of the Arthurian sword, and it is still in the chapel floor, under a protective cover.' },
+      { q: 'Why does San Galgano Abbey have no roof?', a: 'On 6 January 1786, during Mass, the abbey’s 36-metre bell tower collapsed onto the church and destroyed most of the roof. The already-declining Cistercian community left, the lead was sold, and the great Gothic church built between 1218 and 1288 has stood open to the sky ever since — its nave floored with grass, its rose window empty, and its proportions, for that reason, unusually legible.' },
+      { q: 'How much does San Galgano cost?', a: 'On the foundation’s published 2026 tariff, €6 full and €5 reduced, with family tickets at €15 and €17 sold at the gate; the ticket also covers the civic museum in Chiusdino. Tickets are sold on site without booking or online at no surcharge. Hours are 9:00–19:00 from 1 September to 31 October, to 20:00 in July and August and to 18:00 in winter. The Hermitage of Montesiepi with the sword is free. Note that the whole complex is closed on 27 September 2026 for a regional emergency exercise.' },
+      { q: 'How do you get to San Galgano from Siena?', a: 'By car: about 35 km south-west, roughly 45 minutes, on the road toward Rosia and then signposted into the Val di Merse; park below the abbey and walk up to the hermitage in ten minutes. The bus option (line 122 with a change, around an hour and a half) is rural school-timetable territory — check at-bus.it the night before or take a small-group tour from Siena.' },
+      { q: 'Who was San Galgano?', a: 'Galgano Guidotti, a knight born at Chiusdino in 1148 who, after visions, renounced his violent life, drove his sword into the rock at Montesiepi and lived as a hermit until his death on 3 December 1181. His canonisation process, opened in 1185, was the first the Roman Church conducted with a formal procedure. The round chapel over his grave was built in 1182–1185; the Cistercian abbey below followed from 1218.' },
+      { q: 'How long do you need at San Galgano?', a: 'About two hours on site — the hermitage and its sword on the hill, then the roofless abbey below — and four with the drive from Siena. It is a half-day in an empty valley with no town attached, best taken as an afternoon after a morning in Siena, arriving for the abbey’s last two hours when the low light comes through the empty arches.' },
+    ],
+    '2026-09-27',
+    {
+      seoTitle: 'San Galgano Abbey & the Sword in the Stone 2026: Tickets, Hours, History & How to Get There',
+      primaryKeyword: 'san galgano abbey sword in the stone',
+      secondaryKeywords: [
+        'san galgano abbey tickets hours',
+        'montesiepi hermitage sword rock',
+        'roofless abbey tuscany',
+        'san galgano from siena how to get there',
+        'galgano guidotti saint sword',
+        'val di merse day trip siena',
+      ],
+      imageAlt: 'Cypress-lined farmland of the Tuscan countryside south of Siena',
+      canonicalPath: '/blog/san-galgano-abbey-sword-in-the-stone',
+      tags: ['things to do', 'medieval history', 'day trips', 'abbeys'],
+    }
+  ),
 ];
 
 // The allowed category vocabulary. Every article's `category` must be one of
