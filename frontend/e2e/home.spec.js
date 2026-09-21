@@ -41,12 +41,14 @@ test("prerendered fallback paints without JS and is swapped out after hydration"
   await expect(page.locator("#static-fallback")).toHaveCount(0);
   await expect(page.locator("h1:has-text('The practical side')")).toBeVisible();
 
-  // No-JS visit: the prerendered content is immediately visible — this is
+  // No-JS visit: the page is prerendered (scripts/prerender-routes.js), so
+  // the real hero — not a fallback shell — is immediately visible. This is
   // what fast first paint on slow connections relies on.
   const noJs = await browser.newContext({ javaScriptEnabled: false });
   const p = await noJs.newPage();
   await p.goto("/");
-  await expect(p.locator("#static-fallback h1")).toBeVisible();
+  await expect(p.locator("#root h1:has-text('The practical side')")).toBeVisible();
+  await expect(p.locator("#static-fallback")).toHaveCount(0);
   await noJs.close();
 });
 
