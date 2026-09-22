@@ -17,6 +17,9 @@
 /en/breakfast-gli-archi-rooms-siena.html          /where-to-stay-in-siena/ 301
 /travel-tools/budget-calculator                            /travel-budget-calculator/ 301
 /tuscany                                                  /tuscany-travel-guide/ 301
+# The slashed form was crawled too (Search Console, 2026-08-12) and, with the
+# SPA catch-all gone, answered 404; keep it a 301 like its slashless twin.
+/tuscany/                                                 /tuscany-travel-guide/ 301
 /go/trainline                                             https://www.thetrainline.com/ 302
 /go/omio                                                  https://www.omio.com/ 302
 /go/booking                                               https://www.booking.com/ 302
