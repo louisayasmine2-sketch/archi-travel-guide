@@ -403,3 +403,28 @@ Tiga angka mingguan: halaman terindeks (harus naik dari 64 menuju ~120),
 "Excluded by noindex" (harus turun dari 61 menuju 2), dan impressions/hari
 (harus pulih melewati puncak Juli). Kalau terindeks naik tapi impressions
 tidak, masalahnya kualitas/permintaan — bukan lagi indeksasi.
+
+---
+
+# Catatan GSC — 2026-09-22: bucket "Page with redirect" dan daftar permintaan indexing
+
+Validasi bucket **"Page with redirect"** (mulai 10 Sep, gagal 15 Sep: 113
+pending + 10 failed) memang *harus* gagal: semua URL di dalamnya sengaja
+di-redirect — varian tanpa slash (`/siena-accommodation-guide`,
+`/terms-of-service`, `/blog/how-much-siena-trip-costs`), `www.` → apex, dan
+URL warisan B&B (`/index-en.html`, `/it/standard-camera-doppia-a-siena.html`).
+Google mengecek ulang, menemukan redirect lagi, dan menandai "failed". Itu
+bukan kegagalan situs. **Jangan mulai validasi baru di bucket ini.** Tanggal
+crawl-nya (2–7 Sep) mendahului #142 (10 Sep), jadi ini sisa penemuan lama;
+sejak itu tidak ada lagi link internal tanpa slash yang bisa ditemukan.
+
+Yang harus terindeks adalah *tujuan* redirect: 133 URL kanonik dari sitemap.
+Daftarnya, terurut prioritas dan dipotong per kuota harian URL Inspection,
+ada di `docs/INDEXING_REQUEST_LIST.md`. Dua bucket yang benar-benar diukur:
+"Excluded by noindex" (harus turun dari 61) dan "Crawled – currently not
+indexed" (10) — ekspor URL keduanya dan kerjakan lebih dulu.
+
+Sitemap ter-commit sempat tertinggal 7 artikel yang terbit 10–17 Sep (drip
+tidak selalu meng-commit regenerasinya); produksi tidak terpengaruh karena
+sitemap selalu diregenerasi saat build. File yang ter-commit diperbarui di
+PR yang sama.
